@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Liberation of Drezen — Campaign Archive</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root{
+    --bg:#f4ecd8; --bg2:#efe4c8; --ink:#2c2114; --ink-soft:#5c4a30;
+    --accent:#7a1e1e; --accent2:#9c6b1e; --rule:#c9b48a; --card:#fbf5e6;
+    --link:#8a2a2a; --mark:#ffe08a; --markink:#3a2a00;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#1b160f; --bg2:#241d13; --ink:#e8dcc2; --ink-soft:#b9a884;
+      --accent:#d98a8a; --accent2:#d9b46a; --rule:#4a3d28; --card:#241d14;
+      --link:#e2a3a3; --mark:#6a531c; --markink:#f6e8c4;
+    }
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+    line-height:1.65;font-size:17px}
+  a{color:var(--link);text-decoration:none;border-bottom:1px dotted var(--link)}
+  a:hover{border-bottom-style:solid}
+  .wrap{max-width:820px;margin:0 auto;padding:1.5rem 1.15rem 5rem}
+  header.top{text-align:center;border-bottom:3px double var(--rule);padding-bottom:1rem;margin-bottom:1rem}
+  .kicker{letter-spacing:.28em;text-transform:uppercase;font-size:.68rem;color:var(--accent2)}
+  h1.site{font-size:2rem;margin:.25rem 0 .1rem;color:var(--accent);font-weight:700}
+  .site-sub{font-style:italic;color:var(--ink-soft);font-size:.98rem}
+  .searchbar{position:sticky;top:0;z-index:5;background:var(--bg);padding:.7rem 0 .5rem;margin-bottom:.4rem;border-bottom:1px solid var(--rule)}
+  #q{width:100%;padding:.7rem .9rem;font-size:1.05rem;font-family:inherit;color:var(--ink);
+    background:var(--card);border:1px solid var(--rule);border-radius:8px;outline:none}
+  #q:focus{border-color:var(--accent2);box-shadow:0 0 0 2px rgba(156,107,30,.2)}
+  .tabs{display:flex;gap:.4rem;margin:.5rem 0 .2rem;flex-wrap:wrap}
+  .tab{cursor:pointer;font-size:.8rem;letter-spacing:.04em;text-transform:uppercase;padding:.3rem .7rem;
+    border:1px solid var(--rule);border-radius:20px;color:var(--ink-soft);background:var(--card);user-select:none}
+  .tab.active{color:#fff;background:var(--accent);border-color:var(--accent)}
+  @media (prefers-color-scheme: dark){ .tab.active{color:#1b160f} }
+  .hint{color:var(--ink-soft);font-size:.85rem;margin:.3rem 0 .8rem}
+  .booktitle{color:var(--accent2);font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;
+    border-bottom:1px solid var(--rule);padding-bottom:.25rem;margin:1.6rem 0 .5rem}
+  .entry{padding:.55rem .2rem;border-bottom:1px solid var(--rule);display:flex;justify-content:space-between;gap:1rem;align-items:baseline}
+  .entry:hover{background:var(--bg2)}
+  .entry .t{cursor:pointer;font-weight:600;color:var(--accent)}
+  .entry .t:hover{text-decoration:underline}
+  .entry .d{color:var(--ink-soft);font-size:.82rem;font-style:italic;white-space:nowrap}
+  .snip{color:var(--ink-soft);font-size:.92rem;margin:.15rem 0 .1rem;line-height:1.5}
+  mark{background:var(--mark);color:var(--markink);border-radius:2px;padding:0 .1em}
+  .fathom{font-size:.78rem;white-space:nowrap}
+  /* reader */
+  #reader h2{font-size:1.7rem;color:var(--accent);text-align:center;margin:.3rem 0 .1rem;border:0}
+  #reader h3{font-size:1.06rem;color:var(--accent2);letter-spacing:.02em;margin:1.5rem 0 .3rem}
+  #reader p{margin:.6rem 0;text-align:justify}
+  #reader blockquote{margin:1rem 1.2rem;padding:.2rem 0 .2rem 1rem;border-left:3px solid var(--accent);
+    font-style:italic;color:var(--ink-soft)}
+  #reader .ornament{text-align:center;color:var(--accent2);letter-spacing:.4em;margin:1rem 0}
+  #reader .rdsub{text-align:center;font-style:italic;color:var(--ink-soft);margin:.1rem 0 1rem}
+  .backbar{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-bottom:.6rem}
+  .btn{cursor:pointer;font-size:.85rem;padding:.35rem .8rem;border:1px solid var(--rule);border-radius:20px;
+    background:var(--card);color:var(--accent);user-select:none}
+  .btn:hover{background:var(--bg2)}
+  .person{background:var(--card);border:1px solid var(--rule);border-left:3px solid var(--accent);border-radius:5px;padding:.6rem .85rem;margin:.5rem 0}
+  .person .nm{font-weight:700;color:var(--accent)}
+  .person .rl{font-size:.88rem;color:var(--ink-soft)}
+  .catlabel{color:var(--accent2);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;margin:1.3rem 0 .2rem}
+  footer{margin-top:3rem;border-top:3px double var(--rule);padding-top:.9rem;text-align:center;color:var(--ink-soft);font-size:.82rem}
+  .decor{color:var(--accent2);letter-spacing:.4em;margin:.3rem 0}
+  .hidden{display:none}
+  .count{color:var(--ink-soft);font-size:.85rem;margin:.2rem 0 .6rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="kicker">Pathfinder · Wrath of the Righteous</div>
+    <h1 class="site">The Liberation of Drezen</h1>
+    <div class="site-sub">A Chronicle of the Crusade Against the Worldwound</div>
+    <div class="decor">✦ ❦ ✦</div>
+  </header>
+
+  <div class="searchbar">
+    <input id="q" type="search" placeholder="Search the chronicle — a name, a place, a battle…" autocomplete="off" spellcheck="false">
+    <div class="tabs" id="tabs">
+      <span class="tab active" data-view="contents">Contents</span>
+      <span class="tab" data-view="cast">Cast</span>
+    </div>
+  </div>
+
+  <div id="app"></div>
+
+  <footer>
+    The Liberation of Drezen — Campaign Archive · 33 chapters · Book I (the road to Drezen) &amp; Book II (the liberation and the crusade beyond).
+    <div class="decor">✦ ❦ ✦</div>
+  </footer>
+</div>
+
+<script src="data.js"></script>
+<script>
+/* ---------- data: Fathom recordings by chapter order (1-33) ---------- */
+var FATHOM = {
+ 1:['165703544'],2:['178009368'],3:['186092746'],4:['194019062'],5:['201534049'],
+ 6:['205551629'],7:['215319354'],8:['223129507'],9:['234064236'],10:['242607886'],
+ 11:['264621584'],12:['274449789'],13:['297872089'],14:['343836789'],
+ 15:['355809076','382513279'],16:['423214214'],17:['438834731','468815144'],18:['490590311'],
+ 19:['506425868'],20:['513922584'],21:['521042087'],22:['536080480','560152788'],23:['568159356'],
+ 24:['584676973'],25:['601424518'],26:['616792241'],27:['633810405'],28:['650843307'],
+ 29:['667972898'],30:['684541862'],31:['701608077'],32:['718333386'],33:['734953039']
+};
+
+var CAST = [
+ {c:'The Company — Heroes of Kenabres', people:[
+   ['Harlock Greyforge','Half-orc, sworn to Iomedae. Begins as a devout fighter; recovers and awakens the sentient longsword Radiance and grows into a paladin and champion of the crusade.'],
+   ['Lupenor Celest','Elven slayer, devotee of Desna; the company’s scout and archer. Later founds Lupenor’s Market in liberated Drezen.'],
+   ['Rabiah','Human sorcerer of the Destined bloodline, marked with the Riftwardens’ Seeker’s Spiral; the party’s battle-mage and namesake of “Rabiah’s Redeemers.”'],
+   ['Varic Sarian','Half-elf priest of Sarenrae with a soldier’s training; the company’s healer and divine wrath, bearer of the bane blade Solomar.'],
+   ['Chirrik','A mongrelman scout of Neathholm met on the road; a keen-eyed archer who follows the company and, in time, joins it.'],
+ ]},
+ {c:'Allies & Powers', people:[
+   ['Irabeth Tirabade','Half-orc paladin of the Eagle Watch; commander at the Defender’s Heart and later Governor of liberated Drezen.'],
+   ['Anevia Tirabade','Rescued from the rubble of Kenabres; Irabeth’s wife and a steadfast agent of the crusade.'],
+   ['Aravashnial','Blind Riftwarden wizard drawn from the wreckage; a scholar of the demons and their plots.'],
+   ['Arueshalae','The penitent, redeemed succubus of Desna, long hunted across the Worldwound; sheltered by the company at Takira’s Redoubt.'],
+   ['Sosiel Vaenic','Cleric who raised the call to build the new temple of Sarenrae in Drezen.'],
+   ['Queen Galfrey','Sovereign of the Fifth Crusade, whose armies press the war against the Worldwound.'],
+ ]},
+ {c:'Adversaries', people:[
+   ['Staunton Vhane','Fallen dwarf, mythic anti-paladin commander of Citadel Drezen; his glaive Soul Shear and his journals both change the war.'],
+   ['Areelu Vorlesh','The witch who tore open the Worldwound; her hand is felt behind the corruption of the wardstones.'],
+   ['Minagho / Hulrun','A demon commander of the invasion; and Hulrun, the collector of Kenabres, hollowed and worn by a worm-demon at the Gray Garrison.'],
+   ['Scorizscar','The six-legged, eyeless mythic dragon of the Gray Road, slain in its lair.'],
+   ['The Red Swarm & Jeruunika','A purpose-built hunting company that mirrored the party, and the Sifkesh hag who wore Arueshalae’s face as a trap.'],
+ ]},
+];
+
+/* ---------- helpers ---------- */
+var app = document.getElementById('app');
+var qEl = document.getElementById('q');
+var chapters = window.CHAPTERS || [];
+chapters.forEach(function(c){ c._lc = (c.text||'').toLowerCase(); });
+
+function esc(s){ return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function inline(s){
+  s = esc(s);
+  s = s.replace(/\*\*\*(.+?)\*\*\*/g,'<strong><em>$1</em></strong>');
+  s = s.replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');
+  s = s.replace(/\*(.+?)\*/g,'<em>$1</em>');
+  return s;
+}
+function mdToHtml(md){
+  var blocks = md.split(/\n{2,}/), out=[];
+  for(var i=0;i<blocks.length;i++){
+    var b = blocks[i].replace(/\s+$/,''); if(!b.trim()) continue;
+    var first = b.split('\n')[0].trim();
+    if(/^###\s/.test(first)){ out.push('<h3>'+inline(b.replace(/^###\s*/,''))+'</h3>'); }
+    else if(/^##\s/.test(first)){ out.push('<h2>'+inline(b.replace(/^##\s*/,''))+'</h2>'); }
+    else if(/^#\s/.test(first)){ out.push('<h2>'+inline(b.replace(/^#\s*/,''))+'</h2>'); }
+    else if(/^>\s/.test(first)){ out.push('<blockquote>'+inline(b.replace(/^>\s?/gm,'').trim())+'</blockquote>'); }
+    else if(/^[✦✧❥☆★\s—-]+$/.test(b) && /[✦❥☆★]/.test(b)){ out.push('<div class="ornament">'+esc(b.trim())+'</div>'); }
+    else if(/^\*[^*].*\*$/.test(b) && b.indexOf('\n')<0){ out.push('<div class="rdsub">'+inline(b)+'</div>'); }
+    else { out.push('<p>'+inline(b.replace(/\n/g,' '))+'</p>'); }
+  }
+  return out.join('\n');
+}
+function fathomLinks(order){
+  var ids = FATHOM[order]; if(!ids) return '';
+  return ids.map(function(id,i){ return '<a class="fathom" href="https://fathom.video/calls/'+id+'" target="_blank" rel="noopener">▶ recording'+(ids.length>1?(' '+(i+1)):'')+'</a>'; }).join(' · ');
+}
+
+/* ---------- views ---------- */
+function setTab(v){ document.querySelectorAll('.tab').forEach(function(t){ t.classList.toggle('active', t.dataset.view===v); }); }
+
+function viewContents(){
+  setTab('contents');
+  var byBook = {}, orderList=[];
+  chapters.forEach(function(c){ if(!byBook[c.book]){ byBook[c.book]=[]; orderList.push(c); } byBook[c.book].push(c); });
+  var html='';
+  ['I','II'].forEach(function(bk){
+    var list = byBook[bk]; if(!list) return;
+    html += '<div class="booktitle">'+esc(list[0].bookTitle)+'</div>';
+    list.forEach(function(c){
+      html += '<div class="entry"><span><span class="t" onclick="openCh(\''+c.id+'\')">'+esc(c.title)+'</span>'
+        + (c.subtitle?('<div class="snip">'+inline(c.subtitle)+'</div>'):'')
+        + '</span><span class="d">'+fathomLinks(c.order)+'</span></div>';
+    });
+  });
+  app.innerHTML = '<div class="hint">Browse by chapter, or type above to search the full text of all 33 chapters. Each chapter links to its Fathom recording.</div>'+html;
+  window.scrollTo(0,0);
+}
+
+function viewCast(){
+  setTab('cast');
+  var html='<div class="hint">The chronicle uses in-game names throughout.</div>';
+  CAST.forEach(function(g){
+    html += '<div class="catlabel">'+esc(g.c)+'</div>';
+    g.people.forEach(function(p){ html += '<div class="person"><span class="nm">'+esc(p[0])+'</span> — <span class="rl">'+esc(p[1])+'</span></div>'; });
+  });
+  app.innerHTML = html; window.scrollTo(0,0);
+}
+
+function openCh(id){
+  var c = chapters.filter(function(x){return x.id===id;})[0]; if(!c) return;
+  location.hash = '#/read/'+id;
+}
+function viewReader(id){
+  var c = chapters.filter(function(x){return x.id===id;})[0]; if(!c){ viewContents(); return; }
+  var idx = chapters.indexOf(c);
+  var prev = chapters[idx-1], next = chapters[idx+1];
+  var nav = '<div class="backbar"><span class="btn" onclick="history.back()">← Back</span>'
+    + '<span>'+ (prev?('<span class="btn" onclick="location.hash=\'#/read/'+prev.id+'\'">‹ prev</span> '):'')
+    + (next?('<span class="btn" onclick="location.hash=\'#/read/'+next.id+'\'">next ›</span>'):'') +'</span></div>';
+  var fath = fathomLinks(c.order);
+  app.innerHTML = nav + '<div id="reader">'+ mdToHtml(c.md) + (fath?('<p style="text-align:center">'+fath+'</p>'):'') + '</div>' + nav;
+  window.scrollTo(0,0);
+}
+
+function search(query){
+  var terms = query.toLowerCase().split(/\s+/).filter(function(t){return t.length>1;});
+  if(!terms.length){ if(document.querySelector('.tab.active').dataset.view==='cast'){viewCast();}else{viewContents();} return; }
+  var res=[];
+  chapters.forEach(function(c){
+    var score=0, ok=true;
+    terms.forEach(function(t){ var n=c._lc.split(t).length-1; if(n===0) ok=false; score+=n; });
+    if(ok) res.push({c:c,score:score});
+  });
+  res.sort(function(a,b){return b.score-a.score;});
+  var rx = new RegExp('('+terms.map(function(t){return t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');}).join('|')+')','ig');
+  var html = '<div class="count">'+res.length+' chapter'+(res.length!==1?'s':'')+' match “'+esc(query)+'”</div>';
+  if(!res.length){ html += '<div class="hint">No chapter contains all of those words. Try fewer or different terms.</div>'; }
+  res.forEach(function(r){
+    var c=r.c, pos=c._lc.search(rx); if(pos<0)pos=0;
+    var start=Math.max(0,pos-90), snip=c.text.slice(start, start+240);
+    if(start>0) snip='…'+snip; snip=snip+'…';
+    snip = esc(snip).replace(rx,'<mark>$1</mark>');
+    html += '<div class="entry"><span><span class="t" onclick="openCh(\''+c.id+'\')">'+esc(c.title)+'</span>'
+      + '<div class="snip">'+snip+'</div></span>'
+      + '<span class="d">'+esc(c.book==='I'?'Book I':'Book II')+'</span></div>';
+  });
+  app.innerHTML = html; window.scrollTo(0,0);
+}
+
+/* ---------- routing & events ---------- */
+function route(){
+  var h = location.hash;
+  if(h.indexOf('#/read/')===0){ viewReader(h.slice(7)); return; }
+  if(qEl.value.trim()){ search(qEl.value.trim()); return; }
+  var v = (document.querySelector('.tab.active')||{}).dataset ? document.querySelector('.tab.active').dataset.view : 'contents';
+  if(v==='cast') viewCast(); else viewContents();
+}
+document.querySelectorAll('.tab').forEach(function(t){
+  t.addEventListener('click', function(){ qEl.value=''; if(location.hash.indexOf('#/read/')===0) location.hash=''; setTab(t.dataset.view); route(); });
+});
+var timer;
+qEl.addEventListener('input', function(){
+  clearTimeout(timer);
+  timer = setTimeout(function(){
+    if(location.hash.indexOf('#/read/')===0) history.replaceState(null,'','#');
+    if(qEl.value.trim()) search(qEl.value.trim()); else route();
+  }, 120);
+});
+window.addEventListener('hashchange', route);
+route();
+</script>
+</body>
+</html>
