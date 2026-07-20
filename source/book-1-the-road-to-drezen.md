@@ -16,10 +16,11 @@ The Index of Chapters
 8. **Merely a Prelude** *Jan 31 2025 session*
 9. **The Gaze Upon the Gray Garrison** *Feb 14 2025 session*
 10. **By Arms Inherited** *Feb 28 2025 session*
-11. **The Light That Would Not Fade** *Mar 28 2025 session*
-12. **The Waystation at Vineyard Hills** *Apr 11 2025 session*
-13. **The Bell That Never Rang** *May 10 2025 session*
-14. **The Bridge That Would Not Fall** *Jul 4 2025 session*
+11. **The Breaking of the Wardstone** *Mar 15 2025 session*
+12. **The Light That Would Not Fade** *Mar 28 2025 session*
+13. **The Waystation at Vineyard Hills** *Apr 11 2025 session*
+14. **The Bell That Never Rang** *May 10 2025 session*
+15. **The Bridge That Would Not Fall** *Jul 4 2025 session*
 
 ## **The Gathering in the Dark**
 
@@ -442,6 +443,64 @@ Last of all came a broader demon, high-warded and thick of hide, shrugging off h
 Varic's channeled light washed the weariness from the company, and they took stock. Doors still stood unopened on the floor above; the glowing sealed door remained a riddle; the Wardstone fragment lay somewhere still beyond their reach. Rather than climb blind and spent into the unknown, they chose to fall back and take what rest they dared. The **Gray Garrison** was not yet theirs — but they had bought another hard yard of it with arms, as the hidden words had bid them.
 
 *— Session of February 28, 2025 —*
+
+## **The Breaking of the Wardstone**
+
+*March 15, 2025 session — the upper **Gray Garrison**, and the shattering of the last **Wardstone***
+
+### **The Scrying Font**
+
+Rested and resolved, the company climbed back into the **Gray Garrison** to finish what they had begun. A locked door gave onto a chamber of quiet horror: a wide alabaster basin, carved round its rim with sunlit crusaders holding their blades aloft, now brimming with cold entrails. Six crusaders stood about it — or what had been crusaders, their bellies opened and gaping, animated to mourn over the font they had once kept holy. They turned as one and shambled to the attack, and the company made short work of them, laying the poor ruined things to a truer rest than the enemy had allowed.
+
+The basin had been a scrying font before it was befouled. **Harlock** went back to the barracks they had passed and hauled a water barrel up onto his shoulder, and together they emptied the basin of its filth and filled it clean. The water shivered, silvered, and showed them the floor above: a hall of broken helms where a great red-furred beast stood sentinel, and beyond it a domed room where a twisted woman bent over a chunk of caged, softly glowing stone. Then the vision closed. They had seen their road, and its two last wardens.
+
+### **The Horn in the Hall of Helms**
+
+Above, everburning torches lit a hall of pedestals, each bearing a mangled helm — the helms, they would learn, of the first crusaders ever to fall in the First Crusade, smashed and arranged here as a mockery. Its keeper was no mockery at all. **Deradnu**, a fiendish minotaur gifted to the cult by the Templars of the Ivory Labyrinth, filled the room with blood-red hide and glowing yellow eyes.
+
+The plan was clean enough on the threshold: **Harlock** through the door first, then **Varic**, **Lupenor**, and **Rabiah** behind him, with the mongrelfolk — the steady scout **Chirrik** among them — loosing from range. But the room proved smaller than the scrying pool had made it seem, and the minotaur far larger; those who had pictured themselves safely beyond its reach found themselves squarely within it. It caught **Lupenor** and **Rabiah** both before the company could close, and it set a horn to its lips and wound a blast whose warning carried clear through the wall to the woman in the next room. Yet arrow answered its bellow, and ***Radiance*** rose and fell in **Harlock's** hands, and the beast came down.
+
+### **The Rod and the Whispered Charge**
+
+Before they touched the last door, **Harlock** unslung his pack and worked free a bundle he had carried a long way — the ***rod of cancellation***, entrusted to them by **Irabeth** for this single purpose. He laid it carefully in **Rabiah's** hands. **Varic** made the plan plain: he and **Lupenor** would fix the oracle's eye and he would keep the sorcerer alive, but **Rabiah's** task was the only one that truly mattered — reach the stone, touch the rod to it, and let nothing else in the world exist. Then **Harlock** pressed a small vial into her other hand, his last ***potion of invisibility***.
+
+*"Use this. Stay low. Strike true."*
+
+**Lupenor** set the ***chime of opening*** against the locked door, and it sang the bolts apart.
+
+### **Jeslyn of the Wasting Curse**
+
+They came in upon **Jeslyn**, and she was a hard thing to look upon. She had been a comely half-elf once; the Abyssal powers she had courted paid her oracle's gift back with a wasting curse, twisting one foot and swelling one arm into a deformed, insectoid limb that could not grip but could brace her heavy scythe. Dread had worn her thin — she had refused to leave this room, heaping demons and cultists into it with every alarm — and dread made her slow now. She girded herself in muttered prayers, borrowed strength and warding, and set her scythe between the company and the caged stone.
+
+**Harlock** and **Lupenor** gave her no room to think. They pressed her hard, blade and arrow driving her back a step and then another, until every baleful eye in the chamber was fixed upon the paladin and the archer — and none at all upon the small, unseen shape slipping low along the wall.
+
+### **The Rod Touches the Stone**
+
+**Rabiah** reached the pedestal and the barbed iron cage upon it, and within it the last and largest surviving fragment of the **Kenabres Wardstone**, softly aglow. She set the cold iron of the rod against the stone. For a heartbeat the fragment seemed to resist her, some old strength gathering to throw off the unmaking — and then it faltered, and let go, and broke.
+
+### **The Golden Flood**
+
+The **Wardstone** did not die quietly. It burst in a blast of golden light and the sound of an angelic choir, and a storm of razor shards tore outward — shattering the cage, ripping **Jeslyn** apart where she stood, and passing over the company as though a hand had been laid across them in blessing. But the light was only the beginning of it.
+
+All along the border of the **Worldwound** the great wardstones had held their holy power like floodwater behind a dam, and this last shattered fragment had been the plug. Now every stone drained at once, and all that power came rushing out through the wound the company had made — and poured into the four of them. Their hurts closed in an instant; spent prayers and spells returned; the weariness of the long night burned away, and they stood wreathed in a light that cast no shadow, fuller than they had strength to hold.
+
+### **What the Stone Remembered**
+
+And as it died the **Wardstone** showed them what it had been. They saw it raised in the **Kite** of old **Kenabres** by the golden, sword-haloed herald of **Iomedae**; saw a young **Hulrun** kindle his first pyres of the accused before it; saw the balor Storm King, **Khorramzadeh**, break his own sword upon it and flee the wrath of the silver dragon **Terendelev**; saw a younger, unbroken **Irabeth** chase the traitor **Staunton Vhane** into its courtyard, only to be smashed down and left as he fled north on a fiendish wasp. They saw the demon **Minagho** cage this very fragment with a stolen wish. And they saw the thing that would now never come to pass — a fist-sized crystal of poisoned light, a tide of mauve fire rolling down the whole border to drown the crusade and raise its dead as slaves. In that moment they understood, wholly and at once, the shape of the enemy's entire design — and that they had just broken it.
+
+### **Areelu's Vengeance**
+
+The architect of that design felt it break. **Areelu Vorlesh** flung her image across the planes into the room, transparent and beautiful and furious, and promised them their kind's extinction. She reached out a hand, and the breath went out of the mongrelfolk who had followed them so far — the loyal scouts clawing at their throats and dropping — and then the same killing magic broke uselessly against the light still surging in the company, and her fury turned to alarm.
+
+So she tore a rift in the world instead. Six **babau** blood-demons spilled through it, and behind them, in the red dark beyond, the company glimpsed worse things gathering — vrocks, a glabrezu, the many-armed shape of a marilith — the host they would spend years learning to face. But the power in their blood lashed outward and slammed the rift shut before the greater demons could come, and the feedback of it caught **Areelu** on the far side: her wings shredded, her bones broke, and her image was torn away — gravely wounded, and gone.
+
+### **The Newest Legends**
+
+The six babaus that had made it through should have been the end of a company so young. They were nothing. Wreathed in the wardstones' borrowed glory, the four struck like judgment and healed as swiftly as the demons could wound them, and the blood-demons that did not die outright fled into the dark rather than be unmade. As the last of them vanished, the great flood began at last to recede, draining away by slow degrees toward wherever such power sleeps.
+
+But it did not drain entirely. Something had woken in the four of them that would not sleep again — a legend's potential kindled where before there had been only promise. When the storm had passed and the chamber fell quiet, a soft light still clung to their skin, and would not fade.
+
+*— Session of March 15, 2025 —*
 
 ## **The Light That Would Not Fade**
 
