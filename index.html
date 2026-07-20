@@ -194,10 +194,7 @@ function mdToHtml(md){
   }
   return out.join('\n');
 }
-function fathomLinks(ids){
-  if(!ids || !ids.length) return '';
-  return ids.map(function(id,i){ return '<a class="fathom" href="https://fathom.video/calls/'+id+'" target="_blank" rel="noopener">▶ recording'+(ids.length>1?(' '+(i+1)):'')+'</a>'; }).join(' · ');
-}
+/* recording links removed — each chapter now lists its real-world play date (c.date) */
 
 /* ---------- views ---------- */
 function setTab(v){ document.querySelectorAll('.tab').forEach(function(t){ t.classList.toggle('active', t.dataset.view===v); }); }
@@ -214,7 +211,7 @@ function viewContents(){
       var lead = c.isEpilogue ? 'Epilogue' : c.num;
       html += '<div class="entry"><span class="lead">'+esc(lead)+'</span><span class="ttl"><span class="t" onclick="openCh(\''+c.id+'\')">'+esc(c.title)+'</span>'
         + (c.subtitle?('<div class="snip">'+inline(c.subtitle)+'</div>'):'')
-        + '</span><span class="d">'+fathomLinks(c.fathom)+'</span></div>';
+        + '</span><span class="d">'+esc(c.date||'')+'</span></div>';
     });
   });
   app.innerHTML = '<div class="hint">Browse by chapter, or type above to search the full text of all 35 chapters. Each chapter links to its Fathom recording.</div>'+html;
@@ -260,9 +257,8 @@ function viewReader(id){
   var nav = '<div class="backbar"><span class="btn" onclick="history.back()">← Back</span>'
     + '<span>'+ (prev?('<span class="btn" onclick="location.hash=\'#/read/'+prev.id+'\'">‹ prev</span> '):'')
     + (next?('<span class="btn" onclick="location.hash=\'#/read/'+next.id+'\'">next ›</span>'):'') +'</span></div>';
-  var fath = fathomLinks(c.fathom);
-  var kick = '<div class="chapkicker">Book '+esc(c.book)+' · '+esc(c.label)+'</div>';
-  app.innerHTML = nav + '<div id="reader">'+ kick + mdToHtml(c.md) + (fath?('<p style="text-align:center">'+fath+'</p>'):'') + '</div>' + nav;
+  var kick = '<div class="chapkicker">Book '+esc(c.book)+' · '+esc(c.label)+(c.date?(' · '+esc(c.date)):'')+'</div>';
+  app.innerHTML = nav + '<div id="reader">'+ kick + mdToHtml(c.md) + '</div>' + nav;
   window.scrollTo(0,0);
 }
 

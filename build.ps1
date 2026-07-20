@@ -19,6 +19,17 @@ function To-Roman([int]$n){
   return $r
 }
 
+# Real-world play date parsed from a chapter's text (subtitle or "Session of" line).
+$months = @('January','February','March','April','May','June','July','August','September','October','November','December')
+function Get-PlayDate($text) {
+  $mo = ($months -join '|')
+  $m = [regex]::Match($text, "\b($mo)\s+(\d{1,2}),\s+(\d{4})\b")
+  if ($m.Success) { return ('{0} {1}, {2}' -f $m.Groups[1].Value, [int]$m.Groups[2].Value, $m.Groups[3].Value) }
+  $m = [regex]::Match($text, "\b(\d{1,2})(?:st|nd|rd|th)?\s+($mo)\s+(\d{4})\b")
+  if ($m.Success) { return ('{0} {1}, {2}' -f $m.Groups[2].Value, [int]$m.Groups[1].Value, $m.Groups[3].Value) }
+  return ''
+}
+
 $all = New-Object System.Collections.ArrayList
 $order = 0
 foreach ($b in $books) {
@@ -33,26 +44,28 @@ foreach ($b in $books) {
     $end = if ($j + 1 -lt $idx.Count) { $idx[$j + 1] - 1 } else { $lines.Count - 1 }
     $block = $lines[$start..$end]
     $title = ($lines[$start] -replace '^##\s*', '' -replace '\*\*', '').Trim()
-    # per-chapter markers: fathom recording ids, epilogue flag, and the first italic subtitle
-    $fathom = @()
+    # per-chapter markers: epilogue flag, explicit date override, and the first italic subtitle
     $sub = ''
     $isEpi = $false
+    $dateExplicit = ''
     foreach ($l in $block) {
       $t = $l.Trim()
-      if ($t -match '^<!--\s*fathom:\s*(.+?)\s*-->$') { $fathom = ($matches[1] -split '\s*,\s*') }
-      elseif ($t -match '^<!--\s*epilogue\s*-->$') { $isEpi = $true }
+      if ($t -match '^<!--\s*epilogue\s*-->$') { $isEpi = $true }
+      elseif ($t -match '^<!--\s*date:\s*(.+?)\s*-->$') { $dateExplicit = $matches[1] }
       elseif ($sub -eq '' -and $t -match '^\*.+\*$') { $sub = $t.Trim('*').Trim() }
     }
     if ($isEpi) { $num = ''; $label = 'Epilogue' }
     else { $chapNum++; $num = To-Roman $chapNum; $label = 'Chapter ' + $num }
-    # md with the fathom/epilogue comments stripped, for rendering
-    $md = (($block | Where-Object { $_ -notmatch '^\s*<!--\s*(fathom|epilogue)' }) -join "`n").Trim()
+    # real-world play date: explicit <!-- date --> override, else parsed from the chapter text
+    $date = if ($dateExplicit) { $dateExplicit } else { Get-PlayDate ($block -join "`n") }
+    # md with the fathom/epilogue/date comments stripped, for rendering
+    $md = (($block | Where-Object { $_ -notmatch '^\s*<!--\s*(fathom|epilogue|date)' }) -join "`n").Trim()
     $text = $md -replace '\[(.*?)\]\((.*?)\)', '$1' -replace '[#>*`_]', ' ' -replace '\s+', ' '
     $order++
     [void]$all.Add([pscustomobject]@{
       id = "ch$order"; order = $order; book = $b.book; bookTitle = $b.title
-      num = $num; label = $label; isEpilogue = $isEpi
-      title = $title; subtitle = $sub; fathom = @($fathom); md = $md; text = $text.Trim()
+      num = $num; label = $label; isEpilogue = $isEpi; date = $date
+      title = $title; subtitle = $sub; md = $md; text = $text.Trim()
     })
   }
 }

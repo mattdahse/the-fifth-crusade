@@ -23,7 +23,7 @@ chapter order. The last chapter of a finished book is flagged `<!-- epilogue -->
 ## Inputs
 
 - **A session transcript** pasted into the chat (Discord/Foundry/notes), **or Matt's description of what happened** from memory (for a session with no transcript), **or** just "do the recap" (figure out the next chapter from the chronicle). Sometimes with a chapter number/direction.
-- The session's **Fathom recording id** — ask Matt, or find it via the Fathom tools (`list_meetings` / `search_meetings` for "Pathfinder", newest first) and confirm the date. **Some sessions were never recorded** — if no recording exists, omit the `<!-- fathom: … -->` line entirely (the site just shows no recording link for that chapter).
+- The session's **real-world play date** — the site lists it on every chapter, parsed from the subtitle's `<Month Day, Year> session …` text, so always put the real date in the subtitle. Recordings are **no longer surfaced** on the site (Matt finds them in Fathom by date); a `<!-- fathom: id -->` line is optional, kept only as dormant metadata. If a subtitle can't carry a full date, add an explicit `<!-- date: Month Day, Year -->` line (used e.g. for the two siege chapters whose date is only estimated).
 
 ## Workflow
 
@@ -52,9 +52,7 @@ build numbers it:
 ```
 ## **<Title>**
 
-*<Month Day, Year> session — <in-game setting/date>*
-
-<!-- fathom: <recording-id> -->
+*<Month Day, Year> session — <in-game setting/date>*    <!-- the build reads the play date from this line -->
 
 ### **<Subsection>**
 <prose with **bold names** and ***italic spells/relics***>
