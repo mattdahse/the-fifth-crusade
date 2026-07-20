@@ -57,6 +57,33 @@ foreach ($b in $books) {
   }
 }
 
+# --- Secrets: a parallel corpus of in-world documents (secrets/*.md) ---
+$secrets = New-Object System.Collections.ArrayList
+$secdir = Join-Path $root 'secrets'
+if (Test-Path $secdir) {
+  $sorder = 0
+  Get-ChildItem -Path $secdir -Filter '*.md' | Sort-Object Name | ForEach-Object {
+    $lines = ([System.IO.File]::ReadAllText($_.FullName)) -split "`r?`n"
+    $title = ''; $sub = ''
+    foreach ($l in $lines) {
+      $t = $l.Trim()
+      if ($title -eq '' -and $t -match '^#\s+(.+)$') { $title = ($matches[1] -replace '\*\*', '').Trim() }
+      elseif ($title -ne '' -and $sub -eq '' -and $t -match '^\*.+\*$') { $sub = ($t.Trim('*') -replace '\*\*', '').Trim() }
+    }
+    $md = (($lines) -join "`n").Trim()
+    $text = $md -replace '\[(.*?)\]\((.*?)\)', '$1' -replace '[#>*`_]', ' ' -replace '\s+', ' '
+    $sorder++
+    [void]$secrets.Add([pscustomobject]@{
+      id = "sec$sorder"; order = $sorder; title = $title; subtitle = $sub; md = $md; text = $text.Trim()
+    })
+  }
+}
+
 $json = ConvertTo-Json @($all) -Depth 6 -Compress
-[System.IO.File]::WriteAllText((Join-Path $root 'data.js'), "window.CHAPTERS = $json;", $utf8)
-Write-Host ("Built data.js: {0} chapters ({1})" -f $all.Count, (($all | Group-Object book | ForEach-Object { '{0}={1}' -f $_.Name, $_.Count }) -join ', '))
+if ($secrets.Count -eq 0) { $sjson = '[]' }
+else {
+  $sjson = ConvertTo-Json @($secrets) -Depth 6 -Compress
+  if ($sjson[0] -ne '[') { $sjson = '[' + $sjson + ']' }   # PS5.1 collapses a single-element array to an object
+}
+[System.IO.File]::WriteAllText((Join-Path $root 'data.js'), "window.CHAPTERS = $json;`nwindow.SECRETS = $sjson;", $utf8)
+Write-Host ("Built data.js: {0} chapters ({1}), {2} secrets" -f $all.Count, (($all | Group-Object book | ForEach-Object { '{0}={1}' -f $_.Name, $_.Count }) -join ', '), $secrets.Count)

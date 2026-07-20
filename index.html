@@ -88,6 +88,7 @@
     <div class="tabs" id="tabs">
       <span class="tab active" data-view="contents">Contents</span>
       <span class="tab" data-view="cast">Cast</span>
+      <span class="tab" data-view="secrets">Secrets</span>
     </div>
   </div>
 
@@ -139,6 +140,7 @@ var CAST = [
 var app = document.getElementById('app');
 var qEl = document.getElementById('q');
 var chapters = window.CHAPTERS || [];
+var secrets = window.SECRETS || [];
 chapters.forEach(function(c){ c._lc = (c.text||'').toLowerCase(); });
 
 function esc(s){ return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
@@ -201,6 +203,24 @@ function viewCast(){
   app.innerHTML = html; window.scrollTo(0,0);
 }
 
+function viewSecrets(){
+  setTab('secrets');
+  if(!secrets.length){ app.innerHTML = '<div class="hint">No secrets have been recorded yet.</div>'; window.scrollTo(0,0); return; }
+  var html = '<div class="hint">Recovered documents and the enemy’s own words — truths the party has not yet learned, set down beside the chronicle for the chronicler’s eyes.</div>';
+  secrets.forEach(function(s){
+    html += '<div class="entry"><span class="ttl"><span class="t" onclick="openSecret(\''+s.id+'\')">'+esc(s.title)+'</span>'
+      + (s.subtitle?('<div class="snip">'+inline(s.subtitle)+'</div>'):'')
+      + '</span></div>';
+  });
+  app.innerHTML = html; window.scrollTo(0,0);
+}
+function openSecret(id){ location.hash = '#/secret/'+id; }
+function viewSecretReader(id){
+  var s = secrets.filter(function(x){return x.id===id;})[0]; if(!s){ viewSecrets(); return; }
+  var nav = '<div class="backbar"><span class="btn" onclick="history.back()">← Back</span><span></span></div>';
+  app.innerHTML = nav + '<div id="reader"><div class="chapkicker">Secrets</div>'+ mdToHtml(s.md) + '</div>' + nav;
+  window.scrollTo(0,0);
+}
 function openCh(id){
   var c = chapters.filter(function(x){return x.id===id;})[0]; if(!c) return;
   location.hash = '#/read/'+id;
@@ -220,7 +240,7 @@ function viewReader(id){
 
 function search(query){
   var terms = query.toLowerCase().split(/\s+/).filter(function(t){return t.length>1;});
-  if(!terms.length){ if(document.querySelector('.tab.active').dataset.view==='cast'){viewCast();}else{viewContents();} return; }
+  if(!terms.length){ var av=(document.querySelector('.tab.active')||{dataset:{}}).dataset.view; if(av==='cast'){viewCast();}else if(av==='secrets'){viewSecrets();}else{viewContents();} return; }
   var res=[];
   chapters.forEach(function(c){
     var score=0, ok=true;
@@ -246,13 +266,14 @@ function search(query){
 /* ---------- routing & events ---------- */
 function route(){
   var h = location.hash;
+  if(h.indexOf('#/secret/')===0){ viewSecretReader(h.slice(9)); return; }
   if(h.indexOf('#/read/')===0){ viewReader(h.slice(7)); return; }
   if(qEl.value.trim()){ search(qEl.value.trim()); return; }
   var v = (document.querySelector('.tab.active')||{}).dataset ? document.querySelector('.tab.active').dataset.view : 'contents';
-  if(v==='cast') viewCast(); else viewContents();
+  if(v==='cast') viewCast(); else if(v==='secrets') viewSecrets(); else viewContents();
 }
 document.querySelectorAll('.tab').forEach(function(t){
-  t.addEventListener('click', function(){ qEl.value=''; if(location.hash.indexOf('#/read/')===0) location.hash=''; setTab(t.dataset.view); route(); });
+  t.addEventListener('click', function(){ qEl.value=''; if(location.hash.indexOf('#/')===0) location.hash=''; setTab(t.dataset.view); route(); });
 });
 var timer;
 qEl.addEventListener('input', function(){
