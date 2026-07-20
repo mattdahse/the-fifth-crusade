@@ -210,7 +210,7 @@ function viewCast(){
 function viewSecrets(){
   setTab('secrets');
   if(!secrets.length){ app.innerHTML = '<div class="hint">No secrets have been recorded yet.</div>'; window.scrollTo(0,0); return; }
-  var html = '<div class="hint">Recovered documents and the enemy’s own words — truths the party has not yet learned, set down beside the chronicle for the chronicler’s eyes.</div>';
+  var html = '<div class="hint">Lore and learning the company uncovered along the way — recovered journals, enemy writings, and hard-won truths, pieced together from what they found on the road and set down beside the chronicle.</div>';
   secrets.forEach(function(s){
     html += '<div class="entry"><span class="ttl"><span class="t" onclick="openSecret(\''+s.id+'\')">'+esc(s.title)+'</span>'
       + (s.subtitle?('<div class="snip">'+inline(s.subtitle)+'</div>'):'')
