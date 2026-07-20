@@ -20,8 +20,9 @@ bible/                          ← authoring reference (voice, cast, lore)
   00-style-and-prompt-guide.md
   02-dramatis-personae.md
   03-lore-and-locations.md
-build.ps1                       ← compiles source/*.md → data.js
-index.html                      ← the reader app (search, chapters, cast)
+secrets/                        ← in-world documents (recovered journals, enemy words) → the Secrets tab
+build.ps1                       ← compiles source/*.md + secrets/*.md → data.js
+index.html                      ← the reader app (Contents / Cast / Secrets, search)
 data.js                         ← BUILD OUTPUT — do not hand-edit
 .nojekyll
 ```
@@ -47,6 +48,10 @@ travel inline in a chapter block:
    ```
 
 The `wotr-chronicle` skill automates steps 1–3 from a raw session transcript.
+
+## Adding a secret
+
+Secrets are in-world documents shown in their own tab, parallel to the chronicle. Drop a markdown file in `secrets/` — a `# Title` line, an italic `*attribution*` line, then the body (`### Section` headers, `*dates*`, and `> blockquotes` all render). Run `build.ps1`, then commit and push. The build compiles every `secrets/*.md` into `window.SECRETS`.
 
 ## Running locally
 
