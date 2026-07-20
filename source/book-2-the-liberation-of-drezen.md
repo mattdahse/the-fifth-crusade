@@ -234,13 +234,13 @@ The picture that emerged was disturbing.
 
 But the most intriguing passage concerned a special prisoner.
 
-A succubus named **Arushalae** had been captured by **Aponavisius** herself. The journal described her as an "abyssal heretic" — a demon who had somehow fallen from demonic grace. The Marilith had wanted her kept imprisoned until a special oubliette in the Rasping Rifts — a prison dimension within the Abyss — was ready to receive her.
+A succubus named **Arueshalae** had been captured by **Aponavisius** herself. The journal described her as an "abyssal heretic" — a demon who had somehow fallen from demonic grace. The Marilith had wanted her kept imprisoned until a special oubliette in the Rasping Rifts — a prison dimension within the Abyss — was ready to receive her.
 
-The succubus had escaped not long after **Aponavisius** departed. **Staunton** had been desperate to recapture her before his master learned of the failure. He'd sent minions into the Worldwound to track her, even hired a Night Hag cultist of ***Sifkesh*** to hunt her down. The final entry mentioned that if all else failed, he intended to seek out **Arushalae** himself — once the matter of the "so-called heroes of **Kenabres**" was settled.
+The succubus had escaped not long after **Aponavisius** departed. **Staunton** had been desperate to recapture her before his master learned of the failure. He'd sent minions into the Worldwound to track her, even hired a Night Hag cultist of ***Sifkesh*** to hunt her down. The final entry mentioned that if all else failed, he intended to seek out **Arueshalae** himself — once the matter of the "so-called heroes of **Kenabres**" was settled.
 
 *"That would be us,"* ***Varic*** *noted when* ***Rabiah*** *shared her findings the next morning. "The so-called heroes.""Heroes of* ***Kenabres****,"* ***Rabiah*** *corrected. "He doesn't get to call us 'so-called.' We earned that title."*
 
-The party drew the obvious conclusion: the butterfly cell's occupant had been **Arushalae**. A succubus who worshiped ***Desna***. A demon who had lost her ability to teleport or become ethereal — stripped of the very powers that would have made her escape trivial. She was out there somewhere in the Worldwound, a heretic hunted by her own kind.
+The party drew the obvious conclusion: the butterfly cell's occupant had been **Arueshalae**. A succubus who worshiped ***Desna***. A demon who had lost her ability to teleport or become ethereal — stripped of the very powers that would have made her escape trivial. She was out there somewhere in the Worldwound, a heretic hunted by her own kind.
 
 They would remember that name.
 
@@ -294,7 +294,7 @@ But the whispers remained. They still gnawed at the edges of the mind, still pro
 
 **Chorussina**'s equipment proved valuable: a ***Headband of Vast Intelligence***, a ***Ring of Force Fangs*** that absorbed and fired magic missiles, a ***Ring of Protection***, a ***Cloak of Resistance***, and scrolls of ***Dimension Door*** and ***Dispel Magic***. The party distributed the items among themselves, with **Chyrrik** receiving an upgraded cloak and **Harlock** accepting a hand-me-down with characteristic humility.
 
-Raised alcoves to the left and right of the chamber awaited exploration. The ***Sword of Valor*** remained hidden somewhere in the citadel. **Arushalae** the succubus-heretic wandered the Worldwound. The **Ivory Sanctum** and its master **Xanthir Vang** represented threats yet to be confronted.
+Raised alcoves to the left and right of the chamber awaited exploration. The ***Sword of Valor*** remained hidden somewhere in the citadel. **Arueshalae** the succubus-heretic wandered the Worldwound. The **Ivory Sanctum** and its master **Xanthir Vang** represented threats yet to be confronted.
 
 But for now, the party had won a crucial victory. The mage conducting the ritual lay dead, the earthquakes had ceased, and **Drezen** — for the moment — was safe in mortal hands.
 
@@ -364,7 +364,7 @@ With the ***Sword of Valor*** recovered and the immediate demonic threats neutra
 
 Yet challenges remained. The **Corruption Forge** still blazed below, its unholy fires continuing to taint the citadel. The party would need to research methods to permanently destroy or cleanse it — a task that would require delving into the arcane texts they'd recovered and perhaps seeking guidance from scholars in **Kenabres**.
 
-**Aponavisius**, the marilith demon who had ruled **Drezen**, remained at large somewhere to the south with her army. The **Ivory Sanctum** and its master **Xanthir Vang** posed another threat. And somewhere in the Worldwound, a heretic succubus named **Arushalae** fled from hunters both demonic and mortal.
+**Aponavisius**, the marilith demon who had ruled **Drezen**, remained at large somewhere to the south with her army. The **Ivory Sanctum** and its master **Xanthir Vang** posed another threat. And somewhere in the Worldwound, a heretic succubus named **Arueshalae** fled from hunters both demonic and mortal.
 
 But for now, the party could celebrate. Against overwhelming odds, they had reclaimed one of the crusade's most sacred artifacts. The ***Sword of Valor*** flew once more over **Drezen**, a beacon of hope in the endless war against the Abyss.
 
@@ -1312,7 +1312,7 @@ The scroll was written in Abyssal. **Varic** could read it.
 
 **Recovered Intelligence — Abyssal Script:** *Jaruunicka has tracked her to Takira's Redoubt. Reinforcements requested.*
 
-The party exchanged glances. *Her.* The only "her" they knew of who was being hunted through the Worldwound was a succubus named **Arushalae** — an abyssal heretic who had escaped **Drezen**'s dungeons and fled into the waste, stripped of her ability to teleport, pursued by agents of the very demons she had betrayed. **Staunton Vhane**'s journal had described the hunt. A Night Hag cultist of ***Sifkesh*** had been hired to track her down.
+The party exchanged glances. *Her.* The only "her" they knew of who was being hunted through the Worldwound was a succubus named **Arueshalae** — an abyssal heretic who had escaped **Drezen**'s dungeons and fled into the waste, stripped of her ability to teleport, pursued by agents of the very demons she had betrayed. **Staunton Vhane**'s journal had described the hunt. A Night Hag cultist of ***Sifkesh*** had been hired to track her down.
 
 Now they had a name for the tracker: **Jaruunicka**. And a location — or at least a name for one: **Takira's Redoubt**. Neither meant anything to anyone present, but both were intelligence worth having.
 
@@ -1774,7 +1774,7 @@ It meant something to **Varic**. A name had surfaced alongside the rumor — **T
 
 *"****Jaruunicka*** *has tracked her to* ***Takira's Redoubt****. Send reinforcements immediately."*
 
-The cultist who had carried it never delivered it, and so the reinforcements it begged for never came. The pieces fell together against the butterfly cell they had once cleansed beneath the Hidden Shrine — the chamber wreathed in the symbols of ***Desna***, its evil pressed so thick that to stand in it was to court madness, where a prisoner had clung to the Song of the Spheres to keep her reason. **Anevia**'s "heretic succubus" was no code at all. She was **Arushalae** — a true and penitent worshipper of ***Desna***, hunted through the Worldwound for turning her back on the demons that made her — and a hunter called **Jaruunicka** had run her to ground at **Takira's Redoubt**, far to the west beyond the Hidden Shrine. On no one's orders but their own, the company resolved to reach the redoubt first and draw her out before the hunters closed.
+The cultist who had carried it never delivered it, and so the reinforcements it begged for never came. The pieces fell together against the butterfly cell they had once cleansed beneath the Hidden Shrine — the chamber wreathed in the symbols of ***Desna***, its evil pressed so thick that to stand in it was to court madness, where a prisoner had clung to the Song of the Spheres to keep her reason. **Anevia**'s "heretic succubus" was no code at all. She was **Arueshalae** — a true and penitent worshipper of ***Desna***, hunted through the Worldwound for turning her back on the demons that made her — and a hunter called **Jaruunicka** had run her to ground at **Takira's Redoubt**, far to the west beyond the Hidden Shrine. On no one's orders but their own, the company resolved to reach the redoubt first and draw her out before the hunters closed.
 
 ### **The Merchant's Gambit**
 
@@ -1880,7 +1880,7 @@ With **Scorizscar** dead in his lair, the company spent the slow hours after the
 
 ### **North to the Dawnflower**
 
-The road did not run home. **Arushalae** — the penitent succubus, the heretic of *Desna* hunted the length of the Worldwound — had been run to ground at a place called **Takira's Redoubt**, far to the west, and the company had sworn to reach her before her hunters drew the noose shut. So they turned north first, back to the **Hidden Shrine of Sarenrae** to take their bearings beneath the Dawnflower's roof, and then west into country none of them had yet walked.
+The road did not run home. **Arueshalae** — the penitent succubus, the heretic of *Desna* hunted the length of the Worldwound — had been run to ground at a place called **Takira's Redoubt**, far to the west, and the company had sworn to reach her before her hunters drew the noose shut. So they turned north first, back to the **Hidden Shrine of Sarenrae** to take their bearings beneath the Dawnflower's roof, and then west into country none of them had yet walked.
 
 The **Gray Road**'s dry channel barred the way — a riverbed forty feet deep, its walls loose scree. **Lupenor** went down it like water finding its level, and **Rabiah** stepped herself and **Harlock** across the gap with a thought. The paladin alone fought the descent the hard way, in full plate, and twice the stone betrayed his grip and dropped him to the bottom before a tether of unseen force drew him up the rest of the way. They slept that night inside conjured stone. **Lupenor** dreamed — of a tower built like a maze, its corridors folding back upon themselves, and somewhere within it a presence that strained to reach her and could not quite be heard. She woke with the shape of it already dissolving, and could not say whose voice had called.
 
@@ -1926,7 +1926,7 @@ They gathered what remained of **Chyrrik** while the dying barrier still hissed.
 
 The fight had taught them a great deal, and none of it was comfortable. The trap had been personal — baited with a face from **Rabiah**'s own past, set by a hand that knew her secrets, reaching from **Kenabres** to **Drezen** to this nameless tree in the waste. The probe, the patience, the company shaped to answer them blow for blow: someone had studied the Redeemers a long while, and meant them a harm that ran deeper than any road-bandit's. The watcher on the ridge, the beacon hidden among **Rabiah**'s gifts, the worm-spun thing that had hunted her cadre to extinction — the threads were drawing together, and all of them pointed at her.
 
-But the road still ran west, and **Arushalae** still waited at **Takira's Redoubt** with her own hunters closing in. The company bound their wounds, shouldered their packs, and walked on into the country of the hunt — stronger for the trial they had survived, and warier than they had ever been.
+But the road still ran west, and **Arueshalae** still waited at **Takira's Redoubt** with her own hunters closing in. The company bound their wounds, shouldered their packs, and walked on into the country of the hunt — stronger for the trial they had survived, and warier than they had ever been.
 
 *— Session of June 6th, 2026 —*
 
@@ -1956,7 +1956,7 @@ Near evening the flats gave way to desolate tundra, and on the western horizon t
 
 ### **The Fort in the Dream**
 
-The 19th of Neth dawned clear, bitterly cold, the sky wearing a faint greenish cast that nobody chose to remark upon. An hour's march brought the fort up out of the horizon — and brought **Lupenor** up short. She knew this place. She had walked it in her sleep. The crumbled walls, the single tower still standing proud above the ruin — it was the fortress from her dream, stone for stone, and as the company drew closer a formless dread settled over all of them, the certain knowledge that something serious waited inside. If their intelligence held true, they had found what they crossed the **Marchlands** to find: **Takira's Redoubt**, where the hunter **Jaruunicka** was said to have run the penitent succubus **Arushalae** to ground.
+The 19th of Neth dawned clear, bitterly cold, the sky wearing a faint greenish cast that nobody chose to remark upon. An hour's march brought the fort up out of the horizon — and brought **Lupenor** up short. She knew this place. She had walked it in her sleep. The crumbled walls, the single tower still standing proud above the ruin — it was the fortress from her dream, stone for stone, and as the company drew closer a formless dread settled over all of them, the certain knowledge that something serious waited inside. If their intelligence held true, they had found what they crossed the **Marchlands** to find: **Takira's Redoubt**, where the hunter **Jaruunicka** was said to have run the penitent succubus **Arueshalae** to ground.
 
 It was crusader work, centuries old — walls five feet thick raised by builders who believed a thicker wall was a better wall, perched atop a steep-sided rise some forty feet above the plain. The roofs were long gone. The battlements stood in ragged intervals, their faces pitted with the scars of acid and fire. The only approach was a long, winding, mercilessly exposed trail, and at its top a shallow stair climbed into darkness — ending at an iron portcullis, twisted and jammed in its channel, with a second gate visible ten feet beyond. Whoever held this place did not intend to be walked in upon.
 

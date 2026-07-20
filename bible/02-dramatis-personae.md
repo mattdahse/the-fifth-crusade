@@ -25,7 +25,7 @@ Authoritative roster for names, spellings, and continuity. Curated by Matt; the 
 
 ## Persons of Interest
 
-- **Arueshalae** — the penitent, redeemed succubus of Desna (also spelled *Arushalae* in earlier chapters — **unify spelling**). Long hunted across the Worldwound; sheltered by the company at Takira's Redoubt.
+- **Arueshalae** — the penitent, redeemed succubus of Desna; long hunted across the Worldwound; sheltered by the company at Takira's Redoubt.
 
 ## The Demonic Command & Enemies
 
