@@ -87,7 +87,7 @@ Not every chapter is the "next" one — sometimes a past session was skipped or 
 - **Place it by its real date.** A pre-siege session belongs in `source/book-1-the-road-to-drezen.md`; a later one in Book II. **Insert** the new chapter *between the two chapters that bracket its date*, not at the end. (E.g. an unrecorded 15 March 2025 session goes in Book I, between the 28 February chapter and the 28 March "mythic dreams" chapter.)
 - **Ordering is automatic.** The build numbers chapters by their position in the file, so inserting one renumbers everything after it correctly — never hand-edit chapter numbers. Just also add the chapter to that file's **"Index of Chapters"** list in the right slot.
 - **No recording?** Omit the `<!-- fathom: … -->` line; the chapter simply has no recording link.
-- **Source is the description + the bible.** With no transcript there is nothing to verify against, so match the surrounding era's canon (e.g. a March 2025 Book I session is *pre-mythic* — the party gains mythic power only at the Gray Garrison — and Harlock's fighter/paladin and Radiance status follow the date) and flag anything you had to invent or guess for Matt to confirm.
+- **Source is the description + the bible.** With no transcript there is nothing to verify against, so match the surrounding era's canon (e.g. any Book I session *before* the Gray Garrison is pre-mythic — the party gains mythic power at the Gray Garrison itself, mid-March 2025, in *The Breaking of the Wardstone*; and Harlock's fighter/paladin and Radiance status follow the date) and flag anything you had to invent or guess for Matt to confirm.
 - Then rebuild, commit, and push exactly as in step 5.
 
 ## Conventions & edge cases
