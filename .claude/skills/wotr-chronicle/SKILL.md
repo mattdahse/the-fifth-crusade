@@ -6,9 +6,19 @@ description: Compile Matt's Pathfinder: Wrath of the Righteous session transcrip
 # WotR Chronicle → Repo & Site
 
 The campaign's **source of truth is the git repository** at `C:\Users\alast\drezen-archive`
-(public GitHub Pages site: https://mattdahse.github.io/liberation-of-drezen/). Google Drive is a
+(public GitHub Pages site: https://mattdahse.github.io/the-fifth-crusade/). Google Drive is a
 retired backup, not authoritative. A session produces one new chapter appended to the source
 markdown, after which the site is rebuilt and pushed.
+
+The chronicle is split into **books that follow the Adventure Path**, and chapter numbering
+**resets to I at the start of each book**:
+- `source/book-1-the-worldwound-incursion.md` — Book I (complete; closed with an Epilogue).
+- `source/book-2-the-sword-of-valor.md` — Book II (complete; closed with an Epilogue).
+- `source/book-3-demons-heresy.md` — Book III (**ongoing** — new sessions go here).
+
+Chapters are **not numbered in the markdown**; the build assigns each book's Roman numeral by
+chapter order. The last chapter of a finished book is flagged `<!-- epilogue -->` and rendered
+"Epilogue" instead of a numeral.
 
 ## Inputs
 
@@ -23,11 +33,11 @@ Read from the repo before drafting:
 - `bible/00-style-and-prompt-guide.md` — voice, tone, roster, markdown conventions. Source of truth for voice; read every time.
 - `bible/02-dramatis-personae.md` — names/spellings/continuity for any characters involved.
 - `bible/03-lore-and-locations.md` — when named artifacts (Radiance, Solomar, Terendelev's scales, Sword of Valor) or established places appear.
-- The **end** of `source/book-2-the-liberation-of-drezen.md` — read the last chapter to match the current voice and decide continuity. Note its highest chapter number and its "Index of Chapters".
+- The **end** of `source/book-3-demons-heresy.md` (the ongoing book) — read the last chapter to match the current voice and decide continuity. Note its highest chapter number.
 
 ### 2. Determine chapter scope
 
-- **New chapter** — the prior chapter closed and this transcript starts a new beat: use the next Roman numeral (Book II is currently at XIX; the next is XX).
+- **New chapter** — the prior chapter closed and this transcript starts a new beat: it appends to Book III (Demon's Heresy), which is currently at Chapter XIII; the next is XIV. The build assigns the numeral — don't type it into the header.
 - **Continuation** — the prior chapter ended mid-arc/cliffhanger: rewrite its ending to flow into the new material rather than appending awkwardly.
 - **Ambiguous** — ask Matt. Do not guess chapter boundaries.
 
@@ -37,9 +47,10 @@ Combat turning points, mythic ability uses, crits, deaths/resurrections; rolepla
 
 ### 4. Draft the chapter (house style)
 
-Match the existing chapters exactly:
+Match the existing chapters exactly. Use a **plain title header with no chapter number** — the
+build numbers it:
 ```
-## **Chapter XX — <Title>**
+## **<Title>**
 
 *<Month Day, Year> session — <in-game setting/date>*
 
@@ -54,13 +65,12 @@ Translate all mechanics into narrative. No OOC, dice, or rules talk.
 
 ### 5. Write back to the repo
 
-1. **Append** the new chapter to the end of `source/book-2-the-liberation-of-drezen.md`.
-2. Add its line to that file's **"The Index of Chapters"** near the top.
-3. Rebuild the search index:
+1. **Append** the new chapter to the end of `source/book-3-demons-heresy.md` (the ongoing book). There is no in-file chapter index to maintain — the site generates the table of contents.
+2. Rebuild the search index:
    `powershell -ExecutionPolicy Bypass -File C:\Users\alast\drezen-archive\build.ps1`
-4. Commit and push (this is an outward-facing publish — proceed since it's the skill's purpose, but tell Matt it's going live):
+3. Commit and push (this is an outward-facing publish — proceed since it's the skill's purpose, but tell Matt it's going live):
    ```
-   git -C C:\Users\alast\drezen-archive commit -am "Add Chapter XX — <title>"
+   git -C C:\Users\alast\drezen-archive commit -am "Add <title>"
    git -C C:\Users\alast\drezen-archive push
    ```
    GitHub Pages redeploys in ~1 minute.
@@ -84,8 +94,8 @@ only if Matt asks; he curates those.
 
 Not every chapter is the "next" one — sometimes a past session was skipped or never recorded and needs to be slotted in after the fact (Matt will usually describe it from memory).
 
-- **Place it by its real date.** A pre-siege session belongs in `source/book-1-the-road-to-drezen.md`; a later one in Book II. **Insert** the new chapter *between the two chapters that bracket its date*, not at the end. (E.g. an unrecorded 15 March 2025 session goes in Book I, between the 28 February chapter and the 28 March "mythic dreams" chapter.)
-- **Ordering is automatic.** The build numbers chapters by their position in the file, so inserting one renumbers everything after it correctly — never hand-edit chapter numbers. Just also add the chapter to that file's **"Index of Chapters"** list in the right slot.
+- **Place it by its real date and Adventure Path book.** Book I *The Worldwound Incursion* (`book-1-the-worldwound-incursion.md`) = Kenabres through the Gray Garrison; Book II *The Sword of Valor* (`book-2-the-sword-of-valor.md`) = the march to Drezen through its rebuilding; Book III *Demon's Heresy* (`book-3-demons-heresy.md`) = the crusade beyond. **Insert** the new chapter *between the two chapters that bracket its date*, not at the end. If it falls inside a completed book, insert it **before that book's `<!-- epilogue -->` chapter** so the Epilogue stays last.
+- **Ordering is automatic.** The build numbers chapters by their position in the file, so inserting one renumbers everything after it correctly — never hand-edit chapter numbers, and never put a numeral in the header.
 - **No recording?** Omit the `<!-- fathom: … -->` line; the chapter simply has no recording link.
 - **Source is the description + the bible.** With no transcript there is nothing to verify against, so match the surrounding era's canon (e.g. any Book I session *before* the Gray Garrison is pre-mythic — the party gains mythic power at the Gray Garrison itself, mid-March 2025, in *The Breaking of the Wardstone*; and Harlock's fighter/paladin and Radiance status follow the date) and flag anything you had to invent or guess for Matt to confirm.
 - Then rebuild, commit, and push exactly as in step 5.
@@ -97,7 +107,7 @@ Not every chapter is the "next" one — sometimes a past session was skipped or 
 - **Mythic trials / level-ups** — frame as story turning points, not mechanical milestones.
 - **Continuation across two sessions** — if a fight ran into a second session, combine into one chapter with two comma-separated fathom ids (`<!-- fathom: id1,id2 -->`).
 - **Player-perspective "vision" pieces** (Aldwin Brightblade, Silas Thorne, Tam, etc.) are separate one-off narratives; this skill does not produce them.
-- **Book I** (`source/book-1-the-road-to-drezen.md`) is complete; new sessions go in Book II.
+- **Books I and II are complete** (each closed with an `<!-- epilogue -->` chapter); new sessions go in Book III (`source/book-3-demons-heresy.md`).
 
 ## Optional Google Drive mirror
 

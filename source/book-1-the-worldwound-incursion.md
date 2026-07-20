@@ -1,26 +1,6 @@
-# **Book I — The Road to Drezen**
+# Book I — The Worldwound Incursion
 
-*A Chronicle of the Crusade Against the Worldwound — the opening arc, from the fall of Kenabres to the gates of Drezen*
-
-*Wrath of the Righteous — Master Chronicle, Book One*
-
-The Index of Chapters
-
-1. **The Gathering in the Dark** *Oct 17 2024 session*
-2. **Beneath the Wounded City** *Nov 8 2024 session*
-3. **The Children of the First Crusade** *Nov 23 2024 session*
-4. **The Dimmed Blade and the Burning Sky** *Dec 7 2024 session*
-5. **The Long Road to the House of Tirabod** *Dec 21 2024 session*
-6. **The Kindling of Radiance** *Jan 4 2025 session*
-7. **The Broken Black Wing** *Jan 17 2025 session*
-8. **Merely a Prelude** *Jan 31 2025 session*
-9. **The Gaze Upon the Gray Garrison** *Feb 14 2025 session*
-10. **By Arms Inherited** *Feb 28 2025 session*
-11. **The Breaking of the Wardstone** *Mar 15 2025 session*
-12. **The Light That Would Not Fade** *Mar 28 2025 session*
-13. **The Waystation at Vineyard Hills** *Apr 11 2025 session*
-14. **The Bell That Never Rang** *May 10 2025 session*
-15. **The Bridge That Would Not Fall** *Jul 4 2025 session*
+*The Fifth Crusade — Book I*
 
 ## **The Gathering in the Dark**
 
@@ -504,6 +484,8 @@ But it did not drain entirely. Something had woken in the four of them that woul
 
 ## **The Light That Would Not Fade**
 
+<!-- epilogue -->
+
 <!-- fathom: 264621584 -->
 
 *March 28, 2025 session — the hour after the Gray Garrison, in the wounded city of Kenabres*
@@ -545,146 +527,4 @@ By morning the company sought out **Dame Irabeth**, commander of the Eagle Watch
 She asked of them a harder thing than any battle. Of all those who had lived in Kenabres, she told them, less than half were still alive — closer, she feared, to a quarter — and those who remained needed a legend to believe in. Whether or not they felt worthy, she charged them to play the part — **Rabiah** to marshal the magical labor of rebuilding, **Lupenor** to command the scouts and watch the northern roads, **Varic** to tend the wounded, **Harlock** to bear ***Radiance*** before the Crusaders whose eyes now followed him like the eyes of the devout. **Queen Galfrey** herself, rumor held, might be riding north. And so three days of hope and mourning began, while the light on four champions faded by slow degrees but never entirely went out.
 
 *— Session of March 28, 2025 —*
-
-## **The Waystation at Vineyard Hills**
-
-<!-- fathom: 274449789 -->
-
-*April 11, 2025 session — the road southeast of Kenabres, in the first days after the city's deliverance*
-
-### **Ashes and Rebuilding**
-
-For a week that had felt like a lifetime, **Kenabres** had known only siege and fire. Now, with the demons purged from her streets and the Gray Garrison reclaimed, the survivors turned to the slow labor of the living. **Harlock Greyforge** lent his paladin's strength to the crews hauling rubble and prising the trapped from the ruins of their homes. **Varic Sarian** moved among the wounded, and at the holy noon hour he stood over a pyre and spoke the rites of **Sarenrae** for the dead, then blessed fouled bread and tainted water until the supply lines might hold again. **Rabiah** marshaled the crews cleaning the Gray Garrison, her young voice carrying an authority that made grown soldiers step lively; already the first of those who would follow her banner had begun to drift to her side. **Lupenor Celest** rode a borrowed horse to a nearer outpost and back without incident.
-
-Something quieter had changed in them all — a new strength, kindled at the wardstone's fall, that they were already learning to wield with fierce relish. In the evening a merchant reopened his stall, and the heroes of Kenabres pooled their coin for a wand that might call a man back from the edge of death.
-
-### **The Summons**
-
-Before dawn a knock came at each door. **Irabeth** waited in the Gray Garrison with a cup of coffee and worry in her eyes. A courier she had sent to **Vineyard Hills Way Station** — a crossroads outpost a day's ride southeast, well behind the line the wardstones had once held — had not returned. With those stones failing, she feared the worst. She could command them nothing; she asked. They agreed without hesitation and rode out upon the geomancer-built road as the sun climbed.
-
-### **A Road of Ashes**
-
-The omens gathered as they went. A farmstead stood gutted and smoking, a charred figure curled in its corner, a gnawed bone in the ash. Lupenor read the tracks: cloven hooves that scorched the very grass where they fell, and larger prints beside them, unshod and wrong. An abandoned cart, a dead horse. Then a voice — **Radiance**, the blade at Harlock's hip, waking to speak. *These were made by brimoraks,* she warned, *little demons full of fire and hate. If you have any protection from flame, put it on now.* Varic, already warded by Sarenrae's own fire, laid the same guard upon his companions. It would prove the difference between a hard day and a grave.
-
-### **The Stables**
-
-They came to the palisade at dusk: an open gate, an abandoned guard post, a three-story house of seamless stone with black smoke curling from its upper windows. From the long stable behind it came screams. Inside waited a scene torn from the Abyss — two men spiked to the walls to watch, a squalid bed of hay strewn with looted finery, and a young woman whimpering beside it while a leering fiend capered above her.
-
-The fight that followed was the fiercest they had known since the wardstone. Harlock charged first, swearing the demons' blood would paint the walls, and drew the wrath of them all onto himself. Lupenor's arrows struck with terrible precision, one volley near enough to fell a demon outright even as a scimitar opened her side. Rabiah's missiles and a well-timed ***Haste*** turned the tide; her newly-woken magic held true. When a goat-hooved demon set its halberd to the captive girl's throat, Harlock struck the weapon from its grasp — but the thing recovered it and dealt her a mortal blow. Varic threw himself onto the bed and wrenched her back from death, then, half-slain by a savage stroke meant for the paladin, called down a healing so potent it sealed Harlock's wounds and set him alight with holy fire. One by one the demons fell. *You struck an unarmed woman,* came the word as cold iron drove home. *You have earned my ire.*
-
-They cut the two men down — battered **Titus of Clearwater** and **Samuel** — freed the elder woman from her stall, and did what they could for the shattered younger captive, **Willa**, who could not yet speak for the horror of it.
-
-### **The Tower of Fire**
-
-Radiance spoke again: none of these had been the brimoraks. Those still waited in the smoking house. Warded once more against flame, their weapons blessed to bite unholy flesh, the company forced the locked door. Within capered the fire-demons themselves — knee-high horrors with flaming swords and boiling blood, hurling fire in great gouts. The wards held; the arrows flew; Radiance shore through them. Then a woman rounded the corner and became six of herself, and cast a vast web across the chamber to cover her flight. It availed her nothing. Rabiah's missiles ignored her phantoms, Lupenor's arrows peeled them away one by one, and Harlock's blade at last found the true **Prescia** and took her head from her shoulders. The waystation was cleansed.
-
-### **The Reckoning of Coin**
-
-In the manager's office stood an iron strongbox, scorched but unbroken; patience won it open to reveal a scatter of gemstones and a heavy weight of coin. In the basement, among the wine-vats, they found the dead — the missing courier and his scout, and more merchants than they could name.
-
-Over the spoils a quiet argument rose. Rabiah held that the outpost's coin was not theirs to keep — it should go to the crusade, to pay for the war and the wages of those who fought it; let them take the demons' gear and no more. Lupenor, ever the merchant at heart, was loath to part with wealth they would sorely need for costly arms. Varic sought the middle way, and Harlock — who meant to tithe his own share regardless — leaned toward charity. In the end they resolved to lay the question before **Irabeth**, poured out the station's whiskey, and drank to a hard day's work before settling to guard the living through the night.
-
-*— Session of April 11, 2025 —*
-
-## **The Bell That Never Rang**
-
-<!-- fathom: 297872089 -->
-
-*May 10, 2025 session — the crusade's march from the river ford toward **Drezen**, and a defiled chapel above the canyon*
-
-### **The Ford Behind Them**
-
-The battle was already won when the chronicle takes it up again. The ford — twin stumps of grey stone crouched on either bank, a formal bridge where once there had been only a shallows, low walls thrown up around each — lay quiet under a lowering sky. The tiefling host that had held it was no more; near two hundred of them had fallen, and not one of the crusaders who followed **Rabiah** had been laid in the earth beside them. From the stone gaol the company had freed a dozen crusader captives, and their ranking survivor, **Camila Dann**, sought Rabiah out to snap a salute and beg for orders.
-
-Rabiah gave them. Sentries were set on the far bank, a defensive line drawn about the camp, the labor of the field parcelled out. **Varic Sarian**, cleric of **Sarenrae**, moved among the wounded with water called from empty air and mercy spent freely, and set the captured tieflings to gathering the dead so that the crusade's own might be laid on a pyre with some dignity. On the banks, a long trench was dug; there were too many for single graves. To **Camila Dann** fell the hardest road of all — to march the prisoners south to **Canaveras**, there to report the ford's loss and return with reinforcement, for without this crossing held no army could hope to supply a siege of **Drezen**.
-
-**Lupenor Celest** ranged ahead with the scouts. From the heights he marked a thing that unsettled even his elven calm: the river itself seemed to divide two worlds. Eastward the sun burned honest and clean; westward, upon the **Worldwound** side, its light hung dim and jaundiced, and the very air came fouler to the lungs. Of hidden foes he found none. The ford was theirs, and the night was theirs to keep.
-
-### **A Camp Without Fires**
-
-They kept it warily. Knowing an enemy host still walked the land, Rabiah forbade cooking-fires and ordered cold rations, that no glow betray them, and passed the warding horn from watch to watch — the horn that, sounded, would strip the drowse from a startled camp. The paladins raised a rough chapel of their devotion and renewed their oaths to **Iomedae**; **Harlock Greyforge** knelt among them, and **Varic** gave his blessing to the officers who asked it and held vigil through the dark. The bard **Callan** did not play his marching songs that night, but low and grieving airs, until he was gently bidden to let the men sleep.
-
-### **A Cry in the Night**
-
-They did not sleep unmolested. Deep in the watch, when the fires had long since been forbidden and the camp lay in cold darkness, an enemy the sentries never marked slipped in among the tents — three demons, tall and rangy, halberds already swinging as they cut through canvas into the heart of the camp. It was **Varic's** tent they tore open, and a cry went up in the dark. **Lupenor**, half-roused, took them at once for what they were and put an arrow into the nearest before he had thrown off his blankets. **Harlock** came at a dead run, ***Radiance*** bare in his fist — *die, foul demon* — and set his shoulder against the things where they had penned the cleric between the tent-poles. The fight was short and ugly: reach-weapons against sword and bow in a space too close for either, canvas collapsing, **Rabiah** arriving from her own tent to find it all but finished. Before the rest of the camp could rouse, the last of the three lay dead among the ruined bedding.
-
-**Socio** came running in just as it ended, and there was no relief in his face — only a rising panic. He was not looking at the demons. He was looking for the scout **Aaron**, and Aaron was nowhere in the camp.
-
-He wandered back from the north a while later, asking what the ruckus had been, and could not hold anyone's eye. Something was wrong with the man — not a spell, but the look of one caught at something shameful. It was **Harlock** who named it: an evil he could feel in the scout's own pack. What Aaron drew out was a demonic drug, and by the weary disappointment on **Socio's** face the two of them had walked this road before. They set a watch on him — not a guard so much as an escort, that he not wander off alone again — and let him keep to his tent. In the morning **Socio** thanked them, quietly, for the catching of it before it could take proper root.
-
-Then the horns of departure sounded, and the crusade wound deeper into the canyon as it bent away westward. A rain came down through the afternoon — not the dreaded blood-rain, but a drizzle that stank of ammonia and would not cease — and under it the column marched on toward Drezen, gathering what supplies the ruined ford had left to give.
-
-### **The Track up the Cliff**
-
-Near the end of that day's march the scout **Anevia** came running back. Above them, upon the flat crown of the cliff, stood an old chapel, half-fallen; a track hacked into the rock switchbacked up to it, and nothing living stirred there. Rabiah would not risk the army against an unknown thing, nor announce the crusade's coming by torchlight on the heights. The camp was called early and set out of sight of the ruin, and the four — **Harlock**, **Lupenor**, **Rabiah**, and **Varic** — went up alone.
-
-The climb was near mortal in itself. Ninety feet of crumbling, treacherous stair clung to the cliff-face, and at thirty feet **Harlock**, still armored, lost his hold and slid. They roped themselves together after that, each to catch the next, and it proved wisdom: when others faltered near the top it was the paladin's arm that held them, hauling **Varic** back from the drop and steadying **Rabiah**. Bruised but whole, all four gained the summit.
-
-### **A Chapel Remembered**
-
-What waited was a walled complex gone to ruin — breaches in the stone spilling rubble, a courtyard within, a wide-doored building that had the look of a stable, and beyond it a barbed iron gate, rusted past opening, that barred the mouth of a long tunnel. To the right stood the main chapel. **Harlock** drew his blade ***Radiance***, and something in the broken walls struck him with memory: this had been a hallowed house of his own faith, before the desolation took it.
-
-They made ready in the failing dusk. **Varic** called on the Righteous Medals for a surge of strength, warded himself with ***shield of faith***, and Rabiah wove armor of pure force about them and quickened their steps. **Lupenor** searched the threshold for traps, found it clean, and set cold iron to his string. Then Harlock set his shoulder to the doors and threw them wide.
-
-### **The Congregation**
-
-Within, a foul stench and fouler sight: a black service underway. Six hideous shapes hunched in the pews — bald, slack-jawed things of teeth and dead black eyes, ghouls at their unholy worship — and upon the dais two robed clerics presided. The heads snapped round. The heads rose. And the chapel became a slaughterhouse a second time.
-
-**Lupenor's** arrows sang. **Varic**, unwilling to spend his one fire of the day on lesser prey but judging undead worth it, loosed a bloom of ***fireball*** into the midst of the congregation. **Harlock** waded into the pews with **Radiance**, his stroke carrying through one foe and into the next, smite held in reserve for the masters on the dais. The clerics answered by conjuring weapons of force — floating flails that hemmed the paladin between them — and these fought on mindlessly even as their makers began to fall, for such conjurations do not die with the hand that called them. But Rabiah's quickening lent every archer an extra shaft, and the slobbering worshippers were rolled down one upon another until the pews stood empty of the living dead.
-
-### **The Bell That Never Rang**
-
-Then the masters ran. One bolted for a side door and was pincushioned before he cleared it. The other, cornered upon the dais, they knew at last for what he was — **Ilzek**, the ghoul cleric. He spat a summoning, and a **babau** demon rose behind **Harlock** to open his back; the paladin turned and cut it from the world before its claws could bite deep, and its phantom weapons drifted on, harmless now and purposeless.
-
-**Ilzek** fled down a passage — and there the true peril showed itself. From a hole in the ceiling hung a knotted rope, and his dead hand closed toward it: the alarm-pull, that would wake whatever else slept in this place and bring it all down upon four intruders. It became a race measured in heartbeats. **Rabiah's** missiles struck him and did not fell him. Bolt and firebolt and arrow followed — and one found him at the last, his fingers a breath from the cord, and he dropped where he stood. The bell never rang.
-
-The chapel fell silent. The clerics had been no small foes, and the company knew now, by that reach for the rope, that they had cleared only the first room of a place that ran deeper — more chambers, another building, and that barred tunnel whose end no one had seen. To leave such a wound festering at their backs was unthinkable. They would come again to cleanse it, and if they could, to give it back to the light. But the light was gone from the canyon, and the day was spent. For now, they withdrew — victorious, and warned.
-
-*— Session of May 10, 2025 —*
-
-## **The Bridge That Would Not Fall**
-
-<!-- fathom: 343836789 -->
-
-*July 4, 2025 session — the crusader company comes at last to the outskirts of **Drezen**, and to the final bridge across the dry **Ahari**.*
-
-### **The Reckoning of the Scouts**
-
-The riders reached the broken country before Drezen as the light failed, and there the three scouts returned to them with a map unrolled upon a table. **Anevia** spoke of the **South Bank**, where tieflings and human cultists camped in scattered clusters, guarding a hoard of captured crusader gear — breastplates still bearing the smeared sun of **Iomedae** — never garrisoned in one place, yet never more than a trumpet-call from forming a new army. **Aron** told of the cemetery, where ghouls lurked and one mausoleum seemed to bleed darkness, sick with some deep and patient evil. And of **Paradise Hill**, where demons held the height and some two hundred able-bodied prisoners languished behind wire, waiting only for liberation to swell the crusade's ranks.
-
-But it was the bridge that fixed their dread. Only one span crossed the dry bed of the Ahari to the Citadel, a hefty work of dwarven stone — and it had been made a trap. Its four supporting pylons were weakened and cracked, and to each had been chained a man-eating auroch, huge and shaggy, its eyes burning green in the dark. Tieflings patrolled the rickety watchtowers upon it, and over them all stood a sorcerer, **Barak Eisen**, ready at the first sight of an army to loose the beasts and drag the whole span down into ruin.
-
-### **The Serpent in the Camp**
-
-They made camp, and the wind howled through the canyons all that night. **Lupenor** could not sleep, and so he shadowed the company bard, **Kellen** — a man he had marked speaking too often with those paladins whose faith had lately faltered. Kellen slipped behind a tent by the horse corral and simply did not come out the other side. Lupenor found the rope of the pen unhooking and rehooking itself as though by unseen hands, and caught upon the air the sweet scent of dragon-apples, a fruit wholesome to men and poison to horses. His hurled dispelling found nothing to unmake.
-
-By morning eight warhorses lay moaning and sick. Before the march, the four cornered Kellen in **Varic**'s tent and bound him within a ***Zone of Truth***. The bard felt the enchantment settle and smiled — *oh, it's that kind of meeting* — and thereafter answered every question without once being caught in a lie, spinning instead a long and mournful tale of a favorite horse of his youth, eating away the spell's minutes with charm. He denied poisoning the beasts; he denied walking unseen. They let him go with no proof and colder suspicion, and marked him to be watched.
-
-### **The Storming of Paradise Hill**
-
-**Rabiah** — the young sorcerer who bore the crusade's command — led her Redeemers across and up the crumbling streets before the enemy could rally to choke them off. Upon the height the schir demons met them, chaotic and clotting into rabble rather than ranks, holding their fortifications and choke-points against every charge. It was a hard climb, sword-length by sword-length, from early morning near to noon. Twice the paladins were flung back; twice they came on again. At the last the demons broke and were cut down, and their commander, **Arj Brokk**, vanished in a puff of smoke rather than face the end of his lost cause. Beyond lay the prison-yard, and two hundred and seven captives freed — a second, ragged army born of the victory.
-
-### **The Armies of the South Bank**
-
-The two hundred and seven were armed from what gear lay near to hand — a hodgepodge of blades and battered mail, enough to make soldiers of them if not good ones. They had never marched together, never bled together, and **Harlock** took their command upon himself all the same, for the road to the Citadel ran through the South Bank and its scattered stores of stolen crusader steel. So the host split. Along the northern riverbank went **Rabiah**'s Redeemers; along the wider southern road went Harlock at the head of his rescued mercenaries, driving toward the hoard.
-
-It went hard. The demon army that had held Paradise Hill they had already broken, but the human cultists proved a stubborner foe than any schir, and the tieflings would not be moved. Harlock's mercenaries — raw, ill-drilled, thrown together from a dozen freed companies — were caught and cut apart, scattered and streaming back wounded and dying through the alleys until only a remnant remained. The tieflings turned then upon the Redeemers, and the fighting rolled back over Paradise Hill a second time before the day was done.
-
-Nor was the night quiet. Up from the river and the bleeding cemetery came the ghouls, some two hundred of them, not in a wall but in straggling clumps that scrambled through the ruined houses and up the slope. In the dark the Redeemers were half-blind where the ghouls were not, and they closed their line and set their shields and held, and held, until the horde broke upon them and fell back. By the reckoning of that long day the company had fought four battles — Paradise Hill and the South Bank, Paradise Hill again, and the ghouls in the dark — and still stood.
-
-### **The Four Who Held the Bridge**
-
-The bridge was no work for armies; the aurochs would haul down the pylons and bury a host in stone. So the four went alone against it. First they laid ***Silence*** upon the chained beasts, that no demon's shouted command might reach them, and then they closed. Tieflings met them upon the span, and dretch demons boiled up from below in gouts of foul, stinking vapor.
-
-**Harlock** took the vapors full in the face and was overcome, retching and reeling, able only to stagger a pace at a time — yet the half-orc would not quit his post, laboring on through his sickness even as the poison held him. Overhead **Barak Eisen** hung in the air, held aloft by his own levitation, wrapping himself in a shroud of darkness and raking the company with searing rays. Varic answered with a ***Wall of Fire*** that penned the demons in flame and with ***Holy Smite***, whose radiance burned the wicked and left them blinded and clutching. One auroch strained and strained at its pylon and could not, for a moment, find purchase.
-
-At the last **Lupenor** flung himself from the high embankment, dropping low beneath the sorcerer's own darkness until he could see his mark clear, and there Barak Eisen was brought down. The final tieflings were cut from the bridge, and the span, though cracked and scorched, still stood.
-
-### **The Weight of Four Pylons**
-
-With the fighting done, Varic knelt and coaxed the wounded stone itself, ***Stone Shape*** flowing beneath his hands to reinforce three of the four ruined pylons until no single auroch could ever have torn them free. The fourth had crumbled past all mending, its bolts gone, and that repair was left to another day's prayers. The bridge to Drezen was theirs — battered, but whole enough to bear an army.
-
-The triumph did not come clean. Even as they leaned over the war-table, word came by **Chirrik**, the mongrelman scout, that raiders out of the South Bank had fallen upon the baggage camp and carried off a portion of the company's stores of food and water. And so the crusaders resolved to draw back to the easily-held heights of Paradise Hill, to gather what supplies they could from the broken city, to rest and steel themselves, and to turn their eyes, when they were ready, upon the Citadel itself.
-
-*— Session of July 4, 2025 —*
 

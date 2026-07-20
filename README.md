@@ -1,16 +1,21 @@
-# The Liberation of Drezen — Campaign Archive
+# The Fifth Crusade — Campaign Archive
 
 The **source of truth** for our Pathfinder: *Wrath of the Righteous* campaign —
 *A Chronicle of the Crusade Against the Worldwound* — and the searchable site built from it.
 
-**Live site:** https://mattdahse.github.io/liberation-of-drezen/
+**Live site:** https://mattdahse.github.io/the-fifth-crusade/
+
+The chronicle is organized into books that follow the Adventure Path, and chapter
+numbering **resets to I at the start of each book**. The final chapter of a completed
+book is its **Epilogue** rather than a numbered chapter.
 
 ## Repository layout
 
 ```
 source/                         ← the canonical chronicle (edit these)
-  book-1-the-road-to-drezen.md      Book I  (14 chapters): Kenabres → the gates of Drezen
-  book-2-the-liberation-of-drezen.md Book II (19 chapters): the siege and the crusade beyond
+  book-1-the-worldwound-incursion.md  Book I   (11 + Epilogue): Kenabres → the Gray Garrison → the mythic dreams
+  book-2-the-sword-of-valor.md        Book II  (9 + Epilogue):  the march to Drezen, the siege, the banner reclaimed
+  book-3-demons-heresy.md             Book III (ongoing):       the crusade beyond Drezen
 bible/                          ← authoring reference (voice, cast, lore)
   00-style-and-prompt-guide.md
   02-dramatis-personae.md
@@ -21,19 +26,23 @@ data.js                         ← BUILD OUTPUT — do not hand-edit
 .nojekyll
 ```
 
-Each chapter in `source/` carries its session recording inline as
-`<!-- fathom: <recording-id> -->` (the build turns it into the "▶ recording" link).
+Chapters are **not numbered in the markdown** — the build assigns each book's numbering
+by chapter order, so inserting a chapter renumbers the rest automatically. Two markers
+travel inline in a chapter block:
+
+- `<!-- fathom: <recording-id> -->` — the session recording (becomes the "▶ recording" link). Omit it for unrecorded sessions.
+- `<!-- epilogue -->` — flags the chapter as its book's Epilogue (labeled "Epilogue" instead of a numeral).
 
 ## Adding a session
 
-1. Draft the new chapter into the right `source/book-*.md` file, following `bible/00-style-and-prompt-guide.md`. Include the `<!-- fathom: … -->` line under the subtitle.
+1. Draft the new chapter into the right `source/book-*.md` file (currently Book III), following `bible/00-style-and-prompt-guide.md`. Use a plain `## **Title**` header — no chapter number — and include the `<!-- fathom: … -->` line under the subtitle.
 2. Rebuild the search index:
    ```powershell
    powershell -ExecutionPolicy Bypass -File build.ps1
    ```
 3. Commit and push — GitHub Pages redeploys automatically (~1 minute):
    ```powershell
-   git commit -am "Add Chapter XX — <title>"
+   git commit -am "Add <title>"
    git push
    ```
 

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>The Liberation of Drezen — Campaign Archive</title>
+<title>The Fifth Crusade — Campaign Archive</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   :root{
@@ -45,7 +45,10 @@
   .entry:hover{background:var(--bg2)}
   .entry .t{cursor:pointer;font-weight:600;color:var(--accent)}
   .entry .t:hover{text-decoration:underline}
+  .entry .lead{flex:0 0 auto;min-width:4.6em;color:var(--accent2);font-style:italic;font-size:.82rem}
+  .entry .ttl{flex:1 1 auto}
   .entry .d{color:var(--ink-soft);font-size:.82rem;font-style:italic;white-space:nowrap}
+  .chapkicker{text-align:center;letter-spacing:.2em;text-transform:uppercase;font-size:.72rem;color:var(--accent2);margin:.2rem 0 .1rem}
   .snip{color:var(--ink-soft);font-size:.92rem;margin:.15rem 0 .1rem;line-height:1.5}
   mark{background:var(--mark);color:var(--markink);border-radius:2px;padding:0 .1em}
   .fathom{font-size:.78rem;white-space:nowrap}
@@ -75,7 +78,7 @@
 <div class="wrap">
   <header class="top">
     <div class="kicker">Pathfinder · Wrath of the Righteous</div>
-    <h1 class="site">The Liberation of Drezen</h1>
+    <h1 class="site">The Fifth Crusade</h1>
     <div class="site-sub">A Chronicle of the Crusade Against the Worldwound</div>
     <div class="decor">✦ ❦ ✦</div>
   </header>
@@ -91,7 +94,7 @@
   <div id="app"></div>
 
   <footer>
-    The Liberation of Drezen — Campaign Archive · 33 chapters · Book I (the road to Drezen) &amp; Book II (the liberation and the crusade beyond).
+    The Fifth Crusade — Campaign Archive · 35 chapters across three books · <em>The Worldwound Incursion</em>, <em>The Sword of Valor</em> &amp; <em>Demon's Heresy</em> (ongoing).
     <div class="decor">✦ ❦ ✦</div>
   </footer>
 </div>
@@ -167,16 +170,17 @@ function viewContents(){
   var byBook = {}, orderList=[];
   chapters.forEach(function(c){ if(!byBook[c.book]){ byBook[c.book]=[]; orderList.push(c); } byBook[c.book].push(c); });
   var html='';
-  ['I','II'].forEach(function(bk){
+  ['I','II','III'].forEach(function(bk){
     var list = byBook[bk]; if(!list) return;
     html += '<div class="booktitle">'+esc(list[0].bookTitle)+'</div>';
     list.forEach(function(c){
-      html += '<div class="entry"><span><span class="t" onclick="openCh(\''+c.id+'\')">'+esc(c.title)+'</span>'
+      var lead = c.isEpilogue ? 'Epilogue' : c.num;
+      html += '<div class="entry"><span class="lead">'+esc(lead)+'</span><span class="ttl"><span class="t" onclick="openCh(\''+c.id+'\')">'+esc(c.title)+'</span>'
         + (c.subtitle?('<div class="snip">'+inline(c.subtitle)+'</div>'):'')
         + '</span><span class="d">'+fathomLinks(c.fathom)+'</span></div>';
     });
   });
-  app.innerHTML = '<div class="hint">Browse by chapter, or type above to search the full text of all 33 chapters. Each chapter links to its Fathom recording.</div>'+html;
+  app.innerHTML = '<div class="hint">Browse by chapter, or type above to search the full text of all 35 chapters. Each chapter links to its Fathom recording.</div>'+html;
   window.scrollTo(0,0);
 }
 
@@ -202,7 +206,8 @@ function viewReader(id){
     + '<span>'+ (prev?('<span class="btn" onclick="location.hash=\'#/read/'+prev.id+'\'">‹ prev</span> '):'')
     + (next?('<span class="btn" onclick="location.hash=\'#/read/'+next.id+'\'">next ›</span>'):'') +'</span></div>';
   var fath = fathomLinks(c.fathom);
-  app.innerHTML = nav + '<div id="reader">'+ mdToHtml(c.md) + (fath?('<p style="text-align:center">'+fath+'</p>'):'') + '</div>' + nav;
+  var kick = '<div class="chapkicker">Book '+esc(c.book)+' · '+esc(c.label)+'</div>';
+  app.innerHTML = nav + '<div id="reader">'+ kick + mdToHtml(c.md) + (fath?('<p style="text-align:center">'+fath+'</p>'):'') + '</div>' + nav;
   window.scrollTo(0,0);
 }
 
@@ -226,7 +231,7 @@ function search(query){
     snip = esc(snip).replace(rx,'<mark>$1</mark>');
     html += '<div class="entry"><span><span class="t" onclick="openCh(\''+c.id+'\')">'+esc(c.title)+'</span>'
       + '<div class="snip">'+snip+'</div></span>'
-      + '<span class="d">'+esc(c.book==='I'?'Book I':'Book II')+'</span></div>';
+      + '<span class="d">Book '+esc(c.book)+' · '+esc(c.label)+'</span></div>';
   });
   app.innerHTML = html; window.scrollTo(0,0);
 }
