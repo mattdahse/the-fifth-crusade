@@ -60,6 +60,11 @@
     font-style:italic;color:var(--ink-soft)}
   #reader .ornament{text-align:center;color:var(--accent2);letter-spacing:.4em;margin:1rem 0}
   #reader .rdsub{text-align:center;font-style:italic;color:var(--ink-soft);margin:.1rem 0 1rem}
+  #reader figure.fig{margin:1.6rem 0;text-align:center}
+  #reader figure.fig img{max-width:100%;height:auto;border:1px solid var(--rule);border-radius:6px;
+    box-shadow:0 3px 12px rgba(0,0,0,.22)}
+  #reader figure.fig figcaption{font-style:italic;color:var(--ink-soft);font-size:.86rem;
+    margin:.5rem auto 0;max-width:44ch;line-height:1.45}
   .backbar{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-bottom:.6rem}
   .btn{cursor:pointer;font-size:.85rem;padding:.35rem .8rem;border:1px solid var(--rule);border-radius:20px;
     background:var(--card);color:var(--accent);user-select:none}
@@ -185,6 +190,13 @@ function mdToHtml(md){
   for(var i=0;i<blocks.length;i++){
     var b = blocks[i].replace(/\s+$/,''); if(!b.trim()) continue;
     var first = b.split('\n')[0].trim();
+    var im = b.trim().match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
+    if(im){
+      var cap=im[1].trim(), src=im[2].trim();
+      out.push('<figure class="fig"><img src="'+esc(src)+'" alt="'+esc(cap)+'" loading="lazy">'
+        + (cap?('<figcaption>'+inline(cap)+'</figcaption>'):'') + '</figure>');
+      continue;
+    }
     if(/^###\s/.test(first)){ out.push('<h3>'+inline(b.replace(/^###\s*/,''))+'</h3>'); }
     else if(/^##\s/.test(first)){ out.push('<h2>'+inline(b.replace(/^##\s*/,''))+'</h2>'); }
     else if(/^#\s/.test(first)){ out.push('<h2>'+inline(b.replace(/^#\s*/,''))+'</h2>'); }

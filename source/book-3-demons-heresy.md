@@ -1556,6 +1556,8 @@ They had come to **Takira's Redoubt** to reach **Arueshalae** before her hunters
 
 *18 July 2026 session — Takira's Redoubt to the Ivory Sanctum, 19th through 24th of Neth, 4713 AR*
 
+![Arueshalae — the penitent succubus of Desna, her star-bright bow strung above the ruin of the Marchlands.](images/arueshalae.png)
+
 ### **The Silent Wings**
 
 The last of the fighting had bled out of the redoubt, and into its quiet walked the woman they had crossed the Marchlands to find. **Arueshalae** moved through the corpse-strewn yard the way a farmer walks a harvested field — unhurried, appraising — stopping over each dead troll to twist free the star-bright arrows she had loosed into them and hold each one up to the gray light to judge whether it would serve again. When she was done she stepped off the crumbling wall, and her wings opened without a whisper of sound. No rustle, no beat of leather; she simply drifted down and touched the stones as lightly as a leaf.
