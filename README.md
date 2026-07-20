@@ -28,15 +28,17 @@ data.js                         ← BUILD OUTPUT — do not hand-edit
 ```
 
 Chapters are **not numbered in the markdown** — the build assigns each book's numbering
-by chapter order, so inserting a chapter renumbers the rest automatically. Two markers
-travel inline in a chapter block:
+by chapter order, so inserting a chapter renumbers the rest automatically. Each chapter's
+**real-world play date** is read from its subtitle line (`*Month Day, Year session — …*`)
+and shown on the site; recordings are **not** surfaced. Inline markers a chapter may carry:
 
-- `<!-- fathom: <recording-id> -->` — the session recording (becomes the "▶ recording" link). Omit it for unrecorded sessions.
 - `<!-- epilogue -->` — flags the chapter as its book's Epilogue (labeled "Epilogue" instead of a numeral).
+- `<!-- date: Month Day, Year -->` — explicit play-date override, for a subtitle that carries only an in-world season.
+- `<!-- fathom: <recording-id> -->` — optional dormant metadata; **not rendered** (recordings are found in Fathom by date).
 
 ## Adding a session
 
-1. Draft the new chapter into the right `source/book-*.md` file (currently Book III), following `bible/00-style-and-prompt-guide.md`. Use a plain `## **Title**` header — no chapter number — and include the `<!-- fathom: … -->` line under the subtitle.
+1. Draft the new chapter into the right `source/book-*.md` file (currently Book III), following `bible/00-style-and-prompt-guide.md`. Use a plain `## **Title**` header — no chapter number — and put the real-world play date in the subtitle (`*Month Day, Year session — …*`), which the build reads and displays.
 2. Rebuild the search index:
    ```powershell
    powershell -ExecutionPolicy Bypass -File build.ps1
