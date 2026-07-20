@@ -151,7 +151,7 @@ The triumph did not come clean. Even as they leaned over the war-table, word cam
 
 *Summer 4713 AR — The Siege of the Sally Port*
 
-<!-- date: August 2025 (est.) -->
+<!-- date: July 18 & August 15, 2025 -->
 
 The campaign to retake **Drezen** began with meticulous attack planning to breach the sally port. The army gathered under the banners of the Fifth Crusade and the personal command of **Rabiah**, with **Harlock** leading the paladins, **Varic** sustaining the supply lines and the spirits of the faithful, and **Lupenor** attached as the army's senior scout. The initial assault saw **Lupenor** successfully sabotage the enemy catapults, neutralizing a major siege threat before the first wave of soldiers reached the walls. The party then pushed toward the watchtower, engaging in a fierce battle against a squad of **Brimorak** demons and a roaming **Chimera**, ultimately securing a foothold in the outer defenses.
 
@@ -223,7 +223,7 @@ The day's last door gave onto a room choked with sulfur-smoke that stung the eye
 
 *Autumn 4713 AR — Kerindra and the Vhane Brothers*
 
-<!-- date: October 2025 (est.) -->
+<!-- date: October 10 & 25, 2025 -->
 
 In the immediate aftermath of the fight with **Kerindra** — the succubus who had attempted to infiltrate the party disguised as a captive crusader — the party decided to withdraw to camp in order to recuperate, resupply, and get some answers from **Callan**.
 
