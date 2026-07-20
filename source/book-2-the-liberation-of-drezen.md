@@ -2026,7 +2026,7 @@ She spoke quickly, urgently. The sky-patrols were down for the moment; they had 
 
 They set to digging. She rubbed her clawed hands together and asked, gently, if she might touch **Rabiah**'s cheek — and the young sorcerer, trusting, let her. The touch was ***Slay Living***. Only a surge of mythic power dragged **Rabiah** back from the killing spell; she screamed the alarm even as she survived it, and in that same breath the truth broke loose beneath their feet.
 
-The "retriever wreckage" was no wreckage at all. A disgusting, towering thing hauled itself up out of the debris — a **Bebilith**, a spider-demon vast enough to blot out the chamber, mechanical legs sloughing off its back as it rose. And the penitent's kindly face fell away. This was **Jeruunika**, the hag who had hunted the true **Arueshalae** to this place — a devotee of the cult of *Sifkesh*, mistress of trickery, her every seeming a lie. The saving of the child, the vestments, the dream of Desna: all of it bait, laid with a craft that had fooled even a hero's memory.
+The "retriever wreckage" was no wreckage at all. A disgusting, towering thing hauled itself up out of the debris — a **Bebilith**, a spider-demon vast enough to blot out the chamber, mechanical legs sloughing off its back as it rose. And the penitent's kindly face fell away. This was **Jaruunicka**, the hag who had hunted the true **Arueshalae** to this place — a devotee of the cult of *Sifkesh*, mistress of trickery, her every seeming a lie. The saving of the child, the vestments, the dream of Desna: all of it bait, laid with a craft that had fooled even a hero's memory.
 
 ### **Blade and Barrier**
 
@@ -2040,11 +2040,11 @@ Then the hag closed her long, wiry arms around **Harlock**. He was strong; she w
 
 ### **Trolls and the Drake**
 
-The Worldwound is never content with a single horror. The commotion drew others out of the redoubt's depths: two **trolls**, green and rangy and hungry, and a **Rift Drake** with a rider on its back, wheeling in over the broken walls. The curtain of blades split the battle into two killing grounds — **Jeruunika** and her trolls on the one side; the drake, its rider, and the **Bebilith** on the other — and the company was caught bleeding between them, running low on everything. **Harlock** was down. **Lupenor**'s quiver was empty. And the hag drew back her lips in a wide grin, tasting the nearness of victory.
+The Worldwound is never content with a single horror. The commotion drew others out of the redoubt's depths: two **trolls**, green and rangy and hungry, and a **Rift Drake** with a rider on its back, wheeling in over the broken walls. The curtain of blades split the battle into two killing grounds — **Jaruunicka** and her trolls on the one side; the drake, its rider, and the **Bebilith** on the other — and the company was caught bleeding between them, running low on everything. **Harlock** was down. **Lupenor**'s quiver was empty. And the hag drew back her lips in a wide grin, tasting the nearness of victory.
 
 ### **The True Butterfly**
 
-And into that chaos came the woman they had crossed the wastes to find. The **real Arueshalae** arrived — no illusion's tattered robe upon her, but well-worn leather armor, and in her hands a bow that glittered with a hundred pinpoints of starlight — radiant with a grace no disguise could counterfeit, and she threw herself into the fight against the hag who wore her stolen face. **Jeruunika** greeted the sight of her with an ugly, hysterical glee, as though the trap had only now become worth the setting. But the company rallied around the newcomer, and for the first time the fight began to turn.
+And into that chaos came the woman they had crossed the wastes to find. The **real Arueshalae** arrived — no illusion's tattered robe upon her, but well-worn leather armor, and in her hands a bow that glittered with a hundred pinpoints of starlight — radiant with a grace no disguise could counterfeit, and she threw herself into the fight against the hag who wore her stolen face. **Jaruunicka** greeted the sight of her with an ugly, hysterical glee, as though the trap had only now become worth the setting. But the company rallied around the newcomer, and for the first time the fight began to turn.
 
 ### **Fire Against the Green**
 
@@ -2052,7 +2052,7 @@ The trolls would not stay down. Knocked bloody and prone, they knit their wounds
 
 ### **What Radiance Finished**
 
-The hag had been ground down at last, dying at the bottom of the ruin — but a hag dying is not a hag dead. **Harlock** lay near her, spent to nothing, until **Varic**'s healing reached him and dragged him back over the threshold of life. The paladin stood. He laid his own hands upon himself for what strength they would give. Then he crossed to where **Jeruunika** sprawled helpless and prone, raised ***Radiance***, and brought it down. The stroke found her without mercy and without doubt. The hag who had worn a saint's face to lure them to their deaths died beneath the sword of the boy she had grappled and gloated over — and this time there was no trick left in her to save her.
+The hag had been ground down at last, dying at the bottom of the ruin — but a hag dying is not a hag dead. **Harlock** lay near her, spent to nothing, until **Varic**'s healing reached him and dragged him back over the threshold of life. The paladin stood. He laid his own hands upon himself for what strength they would give. Then he crossed to where **Jaruunicka** sprawled helpless and prone, raised ***Radiance***, and brought it down. The stroke found her without mercy and without doubt. The hag who had worn a saint's face to lure them to their deaths died beneath the sword of the boy she had grappled and gloated over — and this time there was no trick left in her to save her.
 
 ### **Aftermath**
 

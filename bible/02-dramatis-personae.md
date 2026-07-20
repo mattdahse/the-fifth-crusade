@@ -39,7 +39,7 @@ Authoritative roster for names, spellings, and continuity. Curated by Matt; the 
 - **Joran Vhane** — surrendered on the middle tier; provided intelligence; dreams of relighting the forge beneath Drezen for good ends.
 - **Jestak** — a raging barbarian of the Citadel gauntlet.
 - **Scorizscar** — six-legged, eyeless mythic dragon of the Gray Road; slain in its lair (Ch XVI).
-- **The Red Swarm & Jeruunika** — a purpose-built hunting company that mirrored the party; and the Sifkesh hag (also *Jaruunicka* — **unify spelling**) who wore Arueshalae's face as a trap.
+- **The Red Swarm & Jaruunicka** — a purpose-built hunting company that mirrored the party; and the Sifkesh hag who wore Arueshalae's face as a trap.
 
 ---
 
