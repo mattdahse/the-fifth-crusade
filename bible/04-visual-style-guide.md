@@ -64,3 +64,15 @@ and preserve their likeness anchors. Never regenerate a known character from a t
 description alone — they must be recognizable from picture to picture. If a scene has
 several canon characters, provide every available reference. New (unlisted) characters
 are rendered fresh in this style and, once settled, added to the registry.
+
+**Before writing the prompt, open the portrait.** Read the actual `characters/*.png`
+and verify the `CANON.md` row against it — never write a likeness from memory or from
+the row alone. A wrong anchor propagates silently into published art.
+
+**Write the corrections as negatives, not just positives.** The model fills any silence
+with its own defaults, and its defaults skew toward sexualized armor on women and
+orc caricature (tusks, underbite) on half-orcs. Put the explicit "no …" clauses in the
+prompt body *and* the `Avoid:` line. See CANON.md's *Known drift* section.
+
+**QA the render against the portraits** feature by feature before publishing, and
+regenerate rather than shipping a drifted likeness.
