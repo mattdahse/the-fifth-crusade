@@ -1490,6 +1490,8 @@ The way into **Takira's Redoubt** stands open. The company holds nothing yet but
 
 *4 July 2026 session — Takira's Redoubt, 19th of Neth, 4713 AR (continued)*
 
+![A saint's face worn as a lure — the impostor in an acolyte's ragged vestments, her blade still in the demon she killed to buy the company's trust.](images/false-arueshalae.png)
+
 Deep in the bones of the old crusader redoubt, the company had learned to trust the wisdom of clearing every room. The last fight had ended in the outer yard — two drake riders scattered to the wind, their mounts and their swarming vermin left dead on the stones, the iron teeth of a portcullis bent open by **Harlock**'s hands so the way lay unbarred to north and south. **Varic** had gathered them for a round of healing, drawn the last poison from **Lupenor**'s blood, and set them moving again. So it was that they came, unhurried and watchful, into a low chamber where an ancient well stood waist-high in its own rubble, and something at the bottom of it was breathing.
 
 ### **The Breath in the Well**
@@ -1511,6 +1513,8 @@ She spoke quickly, urgently. The sky-patrols were down for the moment; they had 
 ### **The Touch and the Trap**
 
 They set to digging. She rubbed her clawed hands together and asked, gently, if she might touch **Rabiah**'s cheek — and the young sorcerer, trusting, let her. The touch was ***Slay Living***. Only a surge of mythic power dragged **Rabiah** back from the killing spell; she screamed the alarm even as she survived it, and in that same breath the truth broke loose beneath their feet.
+
+![The clawed hand laid gently against Rabiah's cheek, and the kindly touch that was *Slay Living* — the instant the trap sprang.](images/touch-and-trap.png)
 
 The "retriever wreckage" was no wreckage at all. A disgusting, towering thing hauled itself up out of the debris — a **Bebilith**, a spider-demon vast enough to blot out the chamber, mechanical legs sloughing off its back as it rose. And the penitent's kindly face fell away. This was **Jaruunicka**, the hag who had hunted the true **Arueshalae** to this place — a devotee of the cult of *Sifkesh*, mistress of trickery, her every seeming a lie. The saving of the child, the vestments, the dream of Desna: all of it bait, laid with a craft that had fooled even a hero's memory.
 
