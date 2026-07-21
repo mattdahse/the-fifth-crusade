@@ -1574,6 +1574,8 @@ It was **Lupenor** who heard the bell — not its ringing, but the after-image o
 
 The discordant holiness would not let **Harlock** near. He was lawful to his marrow and Iomedae's man, and the chaotic mercy of Desna's bell pushed against him like a hand on the chest; he planted his feet at the invisible line and would go no farther. And then **Arueshalae** came and knelt in front of him, folded her clawed hands together with the clumsiness of one who had never once done it, and asked him — the paladin who had promised in his own heart to kill her — whether he would pray with her to Desna. Harlock looked to be certain the Song-goddess and his own Lady stood on good terms. Then he sheathed **Radiance**, over the sword's silent objection, knelt beside the penitent demon, and prayed — truly, without reservation. And the discordance in his chest eased, as if Desna herself had drawn back a bar to let him pass. He rose and stepped over the line into the sanctuary. Whatever else the day held, it held that: a half-orc knight of the Inheritor on his knees beside a repentant succubus, praying to a third god's mercy, and the mercy answering.
 
+![Beneath the silver Bell of Mercy, Harlock kneels to pray beside the penitent he had sworn in his own heart to kill — and the discordance in his chest eases.](images/bell-of-mercy-prayer.png)
+
 ### **The Penitent's Confession**
 
 Inside the tower's cramped and windowless crown — the silver chain overhead, a broken rope ladder, a three-legged stool mended twice over — **Arueshalae** told them what she had been, and held nothing back.
