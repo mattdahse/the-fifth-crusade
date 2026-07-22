@@ -98,7 +98,6 @@
   #lightbox .lb-prev{left:.3rem}
   #lightbox .lb-next{right:.3rem}
   .catlabel{color:var(--accent2);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;margin:1.3rem 0 .2rem}
-  footer{margin-top:3rem;border-top:3px double var(--rule);padding-top:.9rem;text-align:center;color:var(--ink-soft);font-size:.82rem}
   .decor{color:var(--accent2);letter-spacing:.4em;margin:.3rem 0}
   .hidden{display:none}
   .count{color:var(--ink-soft);font-size:.85rem;margin:.2rem 0 .6rem}
@@ -123,11 +122,6 @@
   </div>
 
   <div id="app"></div>
-
-  <footer>
-    The Fifth Crusade — Campaign Archive · 35 chapters across three books · <em>The Worldwound Incursion</em>, <em>The Sword of Valor</em> &amp; <em>Demon's Heresy</em> (ongoing).
-    <div class="decor">✦ ❦ ✦</div>
-  </footer>
 </div>
 
 <div id="lightbox" class="hidden" onclick="if(event.target===this)closeFace()">
@@ -284,7 +278,7 @@ function viewContents(keepScroll){
         + '</span><span class="d">'+esc(c.date||'')+'</span></div>';
     });
   });
-  app.innerHTML = '<div class="hint">Pick a book to open its chapters, or type above to search the full text of all 35 chapters.</div>'+html;
+  app.innerHTML = '<div class="hint">Pick a book to open its chapters, or type above to search the full text of all '+chapters.length+' chapters.</div>'+html;
   if(!keepScroll) window.scrollTo(0,0);
 }
 
