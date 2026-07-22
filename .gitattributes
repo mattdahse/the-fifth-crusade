@@ -1,0 +1,13 @@
+# The build writes data.js with LF from every station (macOS, Windows).
+# Without this, Git for Windows' core.autocrlf=true checks these out as CRLF
+# and the next rebuild rewrites the whole file. Pin them to LF everywhere.
+* text=auto eol=lf
+
+data.js   text eol=lf
+*.md      text eol=lf
+*.ps1     text eol=lf
+*.html    text eol=lf
+*.js      text eol=lf
+
+*.png binary
+*.jpg binary

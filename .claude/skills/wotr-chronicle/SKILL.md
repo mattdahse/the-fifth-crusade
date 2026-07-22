@@ -23,7 +23,7 @@ retired backup. Maintaining the archive after a session means up to **four** job
 - `build.ps1` — compiles `source/*.md` + `secrets/*.md` → `data.js`. Run after any source/secrets change.
 - Chapters are **not numbered in the markdown**; the build assigns each book's Roman numeral by position (last = `Epilogue`). Each chapter's **real-world play date** is read from its subtitle line (`*<Month Day, Year> session — …*`) and shown on the site. Recordings are **not surfaced** (Matt finds them in Fathom by date); a `<!-- fathom: id -->` line is optional dormant metadata. If a subtitle can't carry a full date, add `<!-- date: Month Day, Year -->`.
 
-**Encoding (Windows PowerShell):** always read/write with `[IO.File]::ReadAllText/WriteAllText` (UTF-8), never `Get-Content -Raw` (PS 5.1 reads ANSI and mangles em-dashes). Never type an em-dash literal into a `.ps1` — use `[char]0x2014`.
+**Encoding:** always read/write with `[IO.File]::ReadAllText/WriteAllText` (UTF-8), never `Get-Content -Raw`. Never type an em-dash literal into a `.ps1` — use `[char]0x2014`. These rules originally guarded against Windows PowerShell 5.1 reading ANSI; keep them anyway, since they're also what makes the build byte-identical across the Macs and the PC.
 
 ## Inputs
 
@@ -70,9 +70,10 @@ Extract: read db.xml with `[IO.File]::ReadAllText`, pull the `<notes>…</notes>
 
 ## Workflow — 4. Build, publish, and draft the player email
 
-1. Rebuild: `powershell -ExecutionPolicy Bypass -File C:\Users\alast\drezen-archive\build.ps1`
+1. Rebuild, from the repo root: `pwsh -File ./build.ps1`
+   (The archive is maintained from three stations — two Macs and a PC — so run it from wherever the checkout lives; `build.ps1` resolves its own paths and never needs an absolute one. Use **PowerShell 7 (`pwsh`)** at every station, not Windows PowerShell 5.1: the two serialize JSON differently and mixing them churns all of `data.js` on every commit.)
 2. Commit & push (outward-facing publish — proceed, it's the skill's purpose, and tell Matt it's live):
-   `git -C C:\Users\alast\drezen-archive commit -am "Add <title>"` then `git -C C:\Users\alast\drezen-archive push`. Pages redeploys in ~1 min; verify with `Invoke-WebRequest` against the live URL.
+   `git commit -am "Add <title>"` then `git push`, from the repo root. Pages redeploys in ~1 min; verify against the live URL.
 3. **Leave a Gmail draft** to the players linking the latest session — use the Gmail `create_draft` tool. **Draft only; never send** (Matt reviews and sends). Recipients (from the sent recaps): `madcat451@gmail.com` (Marco/Varic), `tstory@rocketmail.com` (Steve/Rabiah), `fenrisdahse@gmail.com` (Fenris/Lupenor), `burticvs@hotmail.com` (Burt/Harlock) — plus `dk2player@gmail.com` if he's a current player (confirm with Matt or the calendar invite). Keep it short: subject like `Pathfinder recap — <Chapter Title> (<date>)`, a one- or two-line teaser, and the site link. To deep-link the new chapter, use `https://mattdahse.github.io/the-fifth-crusade/#/read/ch<order>` where `<order>` is the new chapter's global position (= total chapter count after the build); otherwise link the site root and name the chapter.
 
 ## Illustrations & the house art style

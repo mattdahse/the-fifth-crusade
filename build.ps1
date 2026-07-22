@@ -1,7 +1,7 @@
 # Builds data.js (the site's search index) from the markdown in ./source
 # Usage:  powershell -ExecutionPolicy Bypass -File build.ps1
 $ErrorActionPreference = 'Stop'
-$root = Split-Path -Parent $MyInvocation.MyCommand.Path
+$root = $PSScriptRoot
 $srcdir = Join-Path $root 'source'
 $utf8 = New-Object System.Text.UTF8Encoding($false)
 $em = [char]0x2014   # em-dash by code point: never type it literally in a .ps1 (PS5.1 reads as ANSI)
