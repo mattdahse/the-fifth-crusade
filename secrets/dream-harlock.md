@@ -6,11 +6,13 @@
 
 *Exhausted from the battle at the Gray Garrison, you collapse onto your bedroll, Radiance still clutched in your hand. As sleep claims you, the sword pulses once with golden light, and memories both cherished and feared begin to surface...*
 
-You are seven years old, standing in your family's forge on the outskirts of Kenabres. The heat from the furnace bathes your face as your father hammers a glowing length of steel. Your fingers trace the outline of your budding tusks, still small but unmistakably orcish.
+![*"A blade isn't judged by how it looks, Harlock. It's judged by what it does when tested."* — his father's forge on the outskirts of **Kenabres**.](images/the-bellows-and-the-blade.png)
+
+You are seven years old, standing in your family's forge on the outskirts of Kenabres. The heat from the furnace bathes your face as your father hammers a glowing length of steel. Your fingers trace the pointed tip of your own ear, and the green of the small hand that does it—unmistakably orcish.
 
 "Why do people look at me that way?" you ask, remembering the whispers and stares from the market that morning.
 
-Your father pauses, setting his hammer down. His own tusks—larger than yours—catch the firelight as he kneels before you.
+Your father pauses, setting his hammer down. His own tusks catch the firelight as he kneels before you, and his beard is more grey than black now.
 
 "People fear what they don't understand," he says simply. "But a blade isn't judged by how it looks, Harlock. It's judged by what it does when tested."
 
@@ -35,6 +37,8 @@ You awaken bound to a stone altar in a hidden chamber beneath the earth. Candles
 Pain beyond imagining consumes you as they pour a viscous liquid down your throat. Your blood feels like fire, your bones like ice. Demonic energy invades your body, seeking to corrupt your soul. But something unexpected happens—instead of surrendering to the corruption, something within you rebels. Your fury rises to meet their magic.
 
 You don't just resist the ritual; you seize its power. The energy they meant to use as a weapon against Kenabres becomes something else inside you—a burning coal of stolen strength. The cultists panic as their spell backfires, the backlash killing two of them instantly.
+
+![The ritual meant to hollow him out instead hands him the coal he will carry ever after — and the masked circle recoils from a power that has stopped answering to them.](images/the-fury-stolen.png)
 
 In the chaos, you break your bonds and flee, wounded and disoriented but alive. For weeks afterward, nightmares plague you—visions of abyssal realms, whispers in languages no mortal should understand. The cuts heal, but something has changed inside you. When your anger rises, so too does a strange power—a fury not entirely your own, yet somehow bound to your will.
 
@@ -76,6 +80,8 @@ She gestures to Radiance, which now floats between you, glowing with renewed pur
 
 She leans forward and places a kiss upon your forehead. It fills you with warmth that reaches to your very core, burning away doubt like morning mist.
 
+![On a summit above the clouds, the Inheritor names the two fires he carries — one stolen, one earned — and **Radiance** wakes in the air between them.](images/the-inheritors-kiss.png)
+
 "The mythic power awakened within you recognizes the battle you've fought within yourself all these years. To master the dual nature of your heritage. To transform violation into virtue. These struggles have forged you as surely as any hammer shapes steel."
 
 She steps back, her form shimmering with divine light.
@@ -94,6 +100,6 @@ She vanishes in a burst of golden light, but her last words linger:
 
 "Remember, Harlock Greyforge—the fire that tempers the strongest blades must first be hot enough to destroy."
 
-You wake with tears streaming down your face, your hand still gripping Radiance. The sword pulses with gentle light, as if greeting your consciousness. For the first time in your life, you feel no shame as you run your tongue over your tusks. The stolen demonic energy that once haunted your dreams now feels transformed—no longer a burden but a blessing, a weapon forged in the fire of your enemies and cooled in the waters of your faith.
+You wake with tears streaming down your face, your hand still gripping Radiance. The sword pulses with gentle light, as if greeting your consciousness. For the first time in your life, you trace the pointed tip of your own ear the way you did as a boy in your father's forge, and feel no shame in the doing of it. The stolen demonic energy that once haunted your dreams now feels transformed—no longer a burden but a blessing, a weapon forged in the fire of your enemies and cooled in the waters of your faith.
 
 You are Harlock Greyforge, paladin of Iomedae, wielder of Radiance, and the mythic power flowing through your veins is not despite your scars but because of them.
