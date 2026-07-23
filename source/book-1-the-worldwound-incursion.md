@@ -116,11 +116,13 @@ At the largest hovel waited **Chusul**, chief of Neathholm: a bloated, rodent-fa
 
 They were, he said, the children of the First Crusaders. His own forebear, the knight **Sir Cavius**, had marched against the **Worldwound** beside his wife; Cavius had fallen there, and his widow returned home carrying a child — but the passage through that wound in the world had corrupted the seed within her. The babe was born twisted, first of a new and hideous kind, and nearly slain at birth. She fled below and founded this refuge. So it had gone for a hundred years: crusaders' blood, once touched by the Worldwound, bred only ruin, even in unions with those who had never seen it. The surface had tolerated them out of awe and let them make their home in the deep. They lived short, painful lives — Chusul, at thirty, was the eldest among them — and few of their children drew breath at all. Their pride, he confessed, they kept in one thing only: the courage of the ancestors whose sacrifice had made them.
 
-### **The Morningstar of a Lost Son**
+### **The Brooch of a Lost Son**
 
-Among the spoils the company carried was a copper weapon taken from a corrupted dwarf they had slain in the dark. The mongrel merchant would not touch it; she pressed it back and bade them bring it to the chief. When **Lupenor** laid it before Chusul, the old man went still, then reached for it as though for a wound.
+Among the spoils the company carried was a curious copper brooch, bat-shaped, taken from the corrupted dwarf they had slain in the dark. The mongrel merchant would not touch it; she pressed it back and bade them bring it to the chief. When **Lupenor** laid it before Chusul, the old man went still, then reached for it as though for a wound.
 
-It had belonged to his son — the boy who had burned to charge the surface and take his place among heroes, who had defied his father's counsel and gone, and never returned. The dwarf must have taken it from his body. In grief he gave Lupenor his own morningstar in exchange, an heirloom of masterwork craft that had been carried into the very First Crusade by his ancestors, and asked only a promise: *beat up a demon with it.* Then he shuffled to his chamber, and the company withdrew, pretending not to hear him weep.
+It had belonged to his son — the boy who had burned to charge the surface and take his place among heroes, who had defied his father's counsel and gone, and never returned. The dwarf must have taken it from his body. When Lupenor pressed the brooch back into his hand, Chusul in his grief gave the company his own morningstar in return — an heirloom of masterwork craft that had been carried into the very First Crusade by his ancestors — and asked only a promise: *beat up a demon with it.* Then he shuffled to his chamber, and the company withdrew, pretending not to hear him weep.
+
+![By a single candle, **Lupenor** presses the copper brooch back into the trembling hands of **Chusul** — the keepsake of a son who marched to the surface and never returned. In his grief the old chief gave the company his own ancestral morningstar in return.](images/the-brooch-returned.png)
 
 ### **A Charge, and a Night's Rest**
 
