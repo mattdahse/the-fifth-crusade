@@ -162,11 +162,15 @@ Beyond a guarded threshold the way opened into a hall of the Horned Lord. Brazie
 
 ### **The Hall of the Horned Lord**
 
+![**Rabiah**, youngest of the company, gathers the raw magic she looses into the sorceress — bolt upon bolt, across the reeking dark of the Horned Lord's hall.](images/rabiahs-raw-magic.png)
+
 They found the cult's captains waiting. A sorceress in the corner raised a wand, and at her word a glaive of unholy force took shape in the empty air — a ***spiritual weapon*** that swung of its own malice at any who drew near. With a second word of ***Command*** she wrenched **Harlock Greyforge's** own glaive from his grip and sent it ringing to the stone. Beside her stood an armored brute who traded blows across the doorway that Harlock, faithful to **Iomedae**, refused to yield.
 
 It was a grinding, close-quarters affair. **Varic Sarian** laid a ***Shield of Faith*** upon Harlock, then spent his channeled light to mend the company's hurts even as he feared to heal the foe with the same grace. **Rabiah**, youngest of them, loosed missile after missile of raw magic into the sorceress. **Lupenor Celest** slipped and stepped and loosed her shafts, and at the last drew steel and pressed into the chamber, taking wound upon wound until she stood a single breath from death. Yet the cult broke. The armored man fell, and the sorceress with him, her wicked Baphomet-marked knife slipping from her fingers. She was left dying, and no mercy is owed a servant of demons; **Lupenor** saw to it that she rose no more.
 
 ### **Radiance Reclaimed**
+
+![**Harlock** lifts the dimmed sword ***Radiance*** from the cultists' box — dull, golden, and silent — half-fearing he has no right to a hero's blade.](images/the-dimmed-blade.png)
 
 Among the spoils — a wand, potions, scrolls, a heathen prayer-book they nearly put to the flame — there stood a locked box, and within it a sword. Harlock knew it at once. Here was a blade of legend, cold iron and consecrated, borne long ago against the horrors of the **Worldwound** and stolen away by these very cultists to be defiled: ***Radiance***. Its light had guttered out through a hundred forgotten battles, and it lay now dull and golden and silent. Reverently Harlock took it up, half-fearing he had no right to it — for what was he but a plain swordsman, and not the holy champion such a relic deserved? Yet he vowed to see it returned one day to honest keeping, and consented, in a city crawling with the Abyss, to bear the dimmed thing at his side a while longer.
 
@@ -177,6 +181,8 @@ Deeper still, a knotted rope carried them down a shaft into a cavern loud with a
 Higher galleries brought dire rats that fastened on Harlock and left the seed of sickness in his blood, which **Varic** tended with a healer's patient hand. Then the walls themselves turned cruel, folding into a maze — the very sigil of the demon-lord who ruled this cult. Out of it crawled the lesser fiends of the pit. One breathed a foul, reeling cloud that left Harlock retching and near-helpless, and **Lupenor** hauled him bodily from the murk while **Rabiah** steadied their courage with a ***Touch of Destiny***. Common steel could not pierce the fiends' hide; only cold iron told, bolt after bolt, until the last of them was undone — two left bubbling on the stone, and the third winking shrieking out of the world as it died, banished back to the Abyss that had spawned it.
 
 ### **The Sundered Sky**
+
+![**Varic** claws his way up to his first open sky in days — and finds **Kenabres** broken above him, the heavens black and raining embers.](images/the-burning-sky.png)
 
 At the maze's end they found the ladders to the world above, and climbed — and the world they climbed into was not the one they had left. **Kenabres** was broken. The sky hung black and raining embers; whole quarters had crumbled into chasms where the ground itself had torn open; screams and the guttural gibbering of demons carried on a wind that stank of burning. Winged shapes wheeled through the smoke overhead. In the days they had spent beneath the earth, the enemy had fallen upon the city, and the city had not held.
 
