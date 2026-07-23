@@ -48,7 +48,7 @@ Authoritative roster for names, spellings, and continuity. Curated by Matt; the 
 
 Introduced across the pre-Drezen chapters; confirm spellings and prune before treating as final:
 
-- **Horgus Gwerm** — arrogant Kenabres noble and Worldwound scout rescued in the caverns.
+- **Horgus Gwerm** — arrogant Kenabres noble rescued in the caverns beneath the city; hired the company as escorts, later smuggled stores to screen the Gray Garrison feints, and installed himself as Drezen's blunt quartermaster. No scout — a merchant's keen eye for the worth of things, which would make him a fine forager if he were ever forced to dirty his hands.
 - **Lann**, **Chusul** — mongrelmen of Neathholm (guide; and the one-eyed chief, descendant of Sir Cavius).
 - **Hulrun** (Hulrun Shappok) — the collector of Kenabres, hollowed by a worm-demon at the Gray Garrison.
 - **Minagho** — demon commander named in captured correspondence.
