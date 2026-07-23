@@ -110,6 +110,8 @@ The road out of the dark had been long. Behind them lay a rescued huddle of mong
 
 Beyond a narrow causeway, upon an island in a black underground lake, glimmered the candle-lights of **Neathholm**. Its dwellings were a hodgepodge of scavenged timber, stone, and one absurd patch of white picket fence, each hut as individual and ill-matched as the twisted people who had built them. **Harlock Greyforge**, **Lupenor Celest**, **Rabiah**, and **Varic Sarian** found themselves gazing on children as grotesque as their elders, peering from breaches in the walls. Even to hearts as forgiving as theirs, the sight was hard to bear — and every mongrel eye told them the feeling was mutual, and old.
 
+![Beyond a narrow causeway, on an island in a black underground lake, glimmer the candle-lights of **Neathholm** — the hidden refuge of the mongrelfolk, walled in vast cavern dark, as the company crosses the still water toward it.](images/candle-lights-of-neathholm.png)
+
 ### **The Tale Chief Chusul Told**
 
 At the largest hovel waited **Chusul**, chief of Neathholm: a bloated, rodent-faced man of one good eye and one clouded, a fine morningstar resting idle in a hand too weak to wield it well. He drew them inside, and there, when he learned that demons had reached **Kenabres** once more, he unfolded the sorrow of his people.
