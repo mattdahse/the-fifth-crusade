@@ -69,6 +69,12 @@ are rendered fresh in this style and, once settled, added to the registry.
 and verify the `CANON.md` row against it — never write a likeness from memory or from
 the row alone. A wrong anchor propagates silently into published art.
 
+**Take the face from `CANON.md`, but the *gear* from the era.** A character's kit changes
+as the story advances — early Book I is battered and poorly-equipped, not the later
+gilded look. Read [`05-kit-and-timeline.md`](05-kit-and-timeline.md) for the era block that
+matches the scene, and put its explicit negatives (e.g. `no golden plate, no glowing sword`
+for early Harlock) in the prompt's `Avoid:` line.
+
 **Write the corrections as negatives, not just positives.** The model fills any silence
 with its own defaults, and its defaults skew toward sexualized armor on women and
 orc caricature (tusks, underbite) on half-orcs. Put the explicit "no …" clauses in the

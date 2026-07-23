@@ -78,9 +78,10 @@ Extract: read db.xml with `[IO.File]::ReadAllText`, pull the `<notes>…</notes>
 
 ## Illustrations & the house art style
 
-The archive is illustrated. Two files govern all of it:
+The archive is illustrated. Three files govern all of it:
 - **`bible/04-visual-style-guide.md`** — the one house look for every generated image (derived from the definitive exemplar `images/arueshalae.png`): cinematic painterly fantasy realism, single cold light source, muted earthy palette with one luminous accent, desolate Worldwound settings. Read it before generating any art.
-- **`characters/CANON.md`** — the canonical portrait registry: one authoritative likeness per named character, in `characters/<kebab-name>.png`, with the "likeness anchors" that must never drift.
+- **`characters/CANON.md`** — the canonical portrait registry: one authoritative likeness per named character, in `characters/<kebab-name>.png`, with the "likeness anchors" (face, build, coloring) that must never drift.
+- **`bible/05-kit-and-timeline.md`** — the era-by-era **gear** guide. A character's face is constant (CANON) but their armour/weapons/relics change as the story advances. Read the era block matching the scene and take the kit from there — early Book I is battered and poorly-equipped, **not** the later gilded look (early Harlock has no golden plate and a dimmed, lightless Radiance; early Varic is a humble priest, no gold circlet or filigree). Update this file when the company re-equips.
 
 **The iron rule when generating art (via the `chatgpt-image-gen` skill or any image tool):**
 
