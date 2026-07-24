@@ -4,7 +4,7 @@
 
 ## **The Teeth of the Worldwound**
 
-<!-- fathom: 536080480,560152788 -->
+<!-- fathom: 536080480 -->
 
 *16 January 2026 session — 12th of Lamashan, 4713 AR*
 
@@ -147,6 +147,150 @@ But the party held the stairs, the initiative, and the moral high ground — in 
 The battle was far from over. But the Redeemers had come to redeem.
 
 *— Session of January 16th, 2026 —*
+
+## **The Fane Remade**
+
+<!-- fathom: 560152788 -->
+
+*6 February 2026 session — 16th of Lamashan, 4713 AR*
+
+### **The Shrine Contested**
+
+**Rabiah** held the air above the chamber and would not come down. From twenty feet up she loosed a ***Mythic Scorching Ray*** into the press below — the first lance of it burning through armor and resistance alike, indifferent to whatever protections the Templars had bought from their demon lord. *I am waiting to use that on something immune to fire,* she had said once, *just to watch it learn what burning is.* The Templar it found did not learn anything for long.
+
+**Harlock** fought at the head of the stairs and could not seem to miss. Blow after blow found the seams of black plate, and twice in a single exchange ***Radiance*** turned a good strike into a killing one. **Lupenor** shot from the stair behind him — rapid, practiced, arrow chasing arrow — and two more Templars folded where they stood. Behind them all, **Mira Thistledance** kept her song going, the ordinary courage of it worth more to the fight than any blade she could have carried.
+
+The Ivory Labyrinth was not finished. A Templar slipped out from behind the eastern curtain, knelt beside a dying comrade, and forced a potion between his teeth; the man rose, staggering, and took up his glaive again. Another came through the western curtain. Then another. Whatever this place was, it held more of them than the front chamber had ever suggested.
+
+### **The Thing Behind the Statue**
+
+A seam opened in the wall behind the great statue of ***Baphomet***, and something came out of it.
+
+It was eight feet long and some seven hundred pounds of wrongness — built like a steer and moving like one, six cloven hooves hammering the stone, a long neck ending in a crocodile's jaws, and a pair of leathery wings folded tight against its flanks. It put its head down and charged straight into **Harlock**. The bite that landed carried a cold in it that had nothing to do with the season.
+
+And in its wake came a woman.
+
+**Zinedra** stepped through the passage behind her beast with the unhurried confidence of someone who had expected to be needed eventually. She raised her hands and spoke, and every Templar still standing in the chamber quickened — the same borrowed swiftness the company had spent their own magic on an hour before, turned now against them.
+
+**Harlock** did not argue with her about it. He called his ***Smite Evil*** down on the charging beast instead, and the thing that had come out of the wall lasted a single furious exchange before it went down in a heap of hooves and folded wings, and did not get up.
+
+### **The Light and the Pit**
+
+**Rabiah** marked the priestess with ***Faerie Fire***, and a violet outline sprang up around **Zinedra** that no invisibility, no darkness, no clever spell would ever wash off again. Then **Varic** stepped to the center of the room and called down ***Holy Smite***.
+
+The light of the **Dawnflower** broke over the chamber like a struck bell. Two Templars reeled away blind. **Zinedra** threw an arm across her eyes too late and stood there sightless in the middle of her own temple, and for a moment it seemed the fight had turned entirely.
+
+Then one of the Templars — a caster, and nobody had known it until that instant — spoke a word, and the floor beneath **Lupenor**, **Cornelia**, and **Chyrrik** simply ceased to exist.
+
+The pit was ten feet across and forty feet deep, and it opened without warning under half the company's rear rank. The three of them scrambled clear on instinct. **Rothin Vald** did not. The cohort cleric went straight down into the dark and struck the bottom hard, and from that moment the fight went on without him — a man in the bottom of a hole listening to the ring of steel forty feet overhead.
+
+**Chyrrik** did the only useful thing available: she uncoiled her whole rope and threw the entire length of it into the pit. **Rothin** climbed. It took him the rest of the battle to reach the lip, hauled the last of the way by every hand the cohorts could spare, and he came out of it with the sour expression of a man who had contributed nothing and knew it.
+
+### **The Priestess Falls**
+
+**Zinedra** had warded herself well. **Rabiah**'s first volley of magic broke against a ***Shield*** and scattered — and then the sorceress read the words of her own art more carefully, spent a charge of mythic power, and sent five missiles through that shield as though it were not there at all.
+
+**Harlock** crossed the room at a dead run and still landed a full attack at the end of it, ***Radiance*** falling on the blind priestess with a crack that echoed off the vaulted stone. Her mail turned aside a portion of every blow — some dark alloy the sword could not entirely bite — but there was more coming than she could shed. **Lupenor**'s arrows found her a moment later, and **Zinedra** went down at the very edge of death and stayed down.
+
+Three Templars still held the floor. **Rabiah** dropped a ***Grease*** across the ground beneath them, and two of the three went over backward in full plate — a sound the chamber had not made before and would not soon forget. **Harlock** stepped in among them and cleaved through a blinded man where he lay, and the last of the Ivory Labyrinth stopped fighting.
+
+Eight Templars were dead. **Zinedra** and two of her guards were bleeding out on the stone at the edge of life, and **Varic** — who had spent the whole engagement dispensing the Dawnflower's fire — knelt among the enemy and spent three castings of ***Rebuke Death*** to keep all three of them breathing.
+
+**Varic:** *If we wanted them dead, we should have killed them standing. They are prisoners now, and they are our responsibility.*
+
+They were bound, gagged — the spellcaster most carefully of all — and set under the eyes of the cohorts in the main chamber, and the company turned at last to the temple itself.
+
+### **The Spoils of the Defiled Shrine**
+
+Stripping the dead took the better part of a quarter hour. Ten suits of enchanted full plate came off the corpses, all of a pattern, all identical — evidence enough that whoever equipped the Ivory Labyrinth did it in bulk. There were two scrolls of ***Planar Binding***, a cloak of resistance, an enchanted frost hand crossbow with a handful of small bolts to match, a suit of enchanted leather, five hundred gold pieces' worth of diamond dust that **Rabiah** claimed before anyone could finish saying the words, six pearls, a masterwork dagger and glaive and short sword, and — packed away against a hard road — twenty-four potions of cure moderate wounds and eight of cure serious.
+
+There was also a key.
+
+**Lupenor** had shot herself nearly dry; she came out of the fight with five arrows and no prospects. **Chyrrik**, who had watched her empty a quiver into the enemy from thirty feet behind her, handed over fifteen of her own without being asked.
+
+The cohorts were provided for out of the spoils. **Mira Thistledance** — who had stood at the back of every fight since **Drezen** with nothing but a short bow, a leather jerkin, and twenty arrows to her name — received the cloak of resistance, and then **Lupenor** unbuckled her own frost rapier and pressed it on the bard as well. *If she ever has to poke somebody in the eye,* the slayer said, *she can do it properly now.*
+
+### **The Rooms Behind the Curtains**
+
+The temple gave up its secrets grudgingly and without much dignity.
+
+Behind the western curtain was a barracks — beds in a row, racks for armor, and not one personal effect anywhere in it. Nobody lived here. It was a waystation, a hostel where traveling Templars slept a night and moved on, and it told the company something colder than any journal could have: that there were enough of the Ivory Labyrinth moving through the **Marchlands** to need one. Another room held nothing but shelves of provisions.
+
+The chamber behind the great statue was worse. A bed, a chair, a writing desk — and across the bulging southern wall, which was the back of ***Baphomet***'s own idol, careful runes painted in blood still fresh enough to smear. **Harlock** could read them; **Harlock** looked once at **Varic**'s face and elected to read them silently. They were nothing but praise — *Lord of lies, master of the maze, king of all beasts* — the tedious devotions of people who had convinced themselves a demon was listening.
+
+In the north of that same room a pit ten feet across and ten deep had been cut into the earth. Its floor was scattered with bone chunks gnawed by something with an alligator's mouth, and printed all over with cloven hooves. The beast behind the statue had been kept here, and fed here, and the company did not care to speculate on what.
+
+Beyond the statue, past a secret door it took ten patient minutes to find, an old earthen tunnel ran up through the cliff and out to a hidden door on the switchback path, sixty feet above the valley floor. It was rough, and it was very old — older than the cult, older perhaps than the desecration. An escape route, cut by someone long dead, for a temple that had once been worth escaping from.
+
+**Varic** walked all of it with his jaw set. He had a ***Consecrate*** and no ***Hallow***, and holy water and a rag, and none of it was equal to what had been done here.
+
+**Varic:** *We search this place, we clean it out, and then we burn it to the ground.*
+
+### **What the Cabinet Held**
+
+In the last room stood a heavy oak table, four stools, and a five-foot cabinet with a solid-looking lock. **Rabiah** had the key. Nobody checked the cabinet for traps.
+
+What rolled out of it was invisible, and it was quick.
+
+Barbed tentacles unfolded out of a central mass and resolved into talons, and four of them lashed **Rabiah** at once and closed. The creature drew her into what it plainly considered an embrace, and began — patiently, obscenely — to siphon the life out of her. It burned where it touched. Every round it held her cost her something she could not spare.
+
+Worse, it could not be shot. A wall of shrieking air moved with the thing, and **Chyrrik**'s cold-iron arrow simply blew aside; the same wind that made it untouchable also made it deaf to **Mira**'s song, so that **Rabiah** stood in the middle of a whirlwind entirely alone. **Rothin** attempted a ***Dismissal*** to send the elemental home and beat its will handily, only to fail to punch through its resistance — twice. **Harlock** hit it with everything he had and watched it shrug the damage off.
+
+It was **Mira**, of all people, who found the answer. The bard dredged up what she knew of the planes and produced the one useful fact in the room: the things were vulnerable to cold. It came too late to matter — the only frost weapon present was the rapier now hanging at her own hip, and she had no intention whatsoever of getting closer.
+
+**Rabiah** freed herself the only way left to her. Pinned, bleeding, and losing strength by the moment, she got a hand up to the earring she wore, touched it, and stepped sideways out of the world — reappearing sixty feet away with the thing's tentacles closing on empty air.
+
+It took **Harlock** instead. The paladin went into the deadly embrace in her place, and the creature began again.
+
+**Varic** ended it. He hit his ***Medal of Valor***, drew ***Solemn Hour*** — the evil-outsider bane blade **Irabeth** had pressed on the company a lifetime and a hundred miles ago — and put it through the elemental in one clean pass. The thing did not fall. It simply came apart into air and went home.
+
+### **The Herald of Sarenrae**
+
+And then a light came into the room, and only **Varic Sarian** could see it.
+
+A gate opened where no gate had been. Through it stepped a figure with wings, armored, shining, and behind it poured a host of lesser servants — half-shaped things, radiant and indistinct, moving with enormous purpose. **Varic** reversed ***Solemn Hour***, set its point to the floor, folded both hands over the pommel, and went down on one knee.
+
+The others saw only what the servants did. The crown molding of the great chamber ran like water and re-formed itself into the sun-disk of ***Sarenrae***. Brass candelabras and braziers remade themselves. Bookends carved as minotaurs stood up as phoenixes. The blood came off the walls of its own accord, every profanity and every careful Abyssal praise-line unwritten as though it had never been. And in the main hall, where the cohorts stood guard over three bound prisoners, the great statue of ***Baphomet*** softened, and turned, and became the **Dawnflower** — whole, and enormous, and unmistakable.
+
+**Varic** prayed. Not the doctrinal victory-prayer he had been taught as a boy, but something plainer and entirely his own: gratitude for the strength to strike her enemies, and for the chance to give her back her house.
+
+The angel came and stood over him, and he knew it then by its armor and its bearing for what it was — the **Herald of Sarenrae**.
+
+**The Herald:** *Rise, **Varic Sarian**.*
+
+He rose. It leaned in and looked into his eyes, and told him two things. That its mistress was pleased with him. And that once, long ago, the **Dawnflower** had taken an elven lover — and that the elf had been his grandfather.
+
+**The Herald:** *You are descended from holy stock.*
+
+Then it stepped backward through the gate, and its servants came rushing after it at impossible speed, and the light closed.
+
+The **Fallen Fane** was a fallen fane no longer. It stood sanctified — re-hallowed, cleansed, and remade — for the first time in longer than any of them could guess. And **Varic**, who had come down that cliff path four days ago with his heart hammering at stones he had never seen before, understood at last why they had rung for him. He had passed the first of his mythic trials, and he had passed it on his knees.
+
+### **The Dawnflower's Judgment**
+
+There was a cost, and it was not **Varic**'s to pay.
+
+**Chyrrik** and the cohorts guarding the prisoners in the main chamber reported it afterward, still shaken. When the celestial tide swept through the hall, all three of the bound Templars opened their mouths in a silent scream. Then their flesh fell in on itself, and rotted, and blew away as dust, and there was nothing left of them at all.
+
+Nobody in the company had raised a hand. **Harlock**, who had refused an hour earlier to execute unarmed prisoners and had said so plainly, stood looking at the empty ropes for a long moment. Whatever judgment had been passed, it had not been passed by them, and there was no appealing it.
+
+The cabinet — now that nothing was left in it to grapple anybody — gave up the last prize of the day: a sheaf of documents, all saying the same thing.
+
+They gave the location of the **Ivory Sanctum**.
+
+The directions were maddeningly incomplete — an illusory wall, a place named the **Green Gates**, neither of which meant anything to anyone present, and both of which would clearly mean everything later. But the documents also made plain that this sanctum was only one of dozens scattered the length of the **Worldwound**, and the only one within reach of where they stood. And folded among the rest was a piece of gossip the Templars had evidently found delicious: word had come down from the **Ivory Sanctum** of a *traitor succubus*, suspected of spying on some unnamed special project. A demon called **Jerribeth** had put up a bounty of a thousand platinum pieces for her capture, and the Templars were very interested indeed.
+
+**Rabiah:** *Some platinum pieces, boys!*
+
+**Harlock:** *If we found her, I think we would talk to her first. And offer her sanctuary.*
+
+They did not know yet what they had just read. They filed it away, healed what could be healed, restored what constitution the thing in the cabinet had drunk out of **Rabiah** and **Harlock**, and looked around at a temple that was no longer anybody's shrine but the **Dawnflower**'s.
+
+**Rabiah:** *Now that it's all restored, and this statue is actually kind of decent instead of what it was before — I'm all right with sleeping here.*
+
+So they stayed. Nine of them, in a house of ***Sarenrae*** two hard days from **Drezen**, in the first quiet the place had known in a very long time. **Anevia**'s scouts had reported cultists in a cave. The cultists were dealt with. What none of them yet understood was that the errand had been the smaller half of it, and that the real find was a fistful of paper about a wall that was not there.
+
+*— Session of February 6th, 2026 —*
 
 ## **The Homeward Trail**
 
