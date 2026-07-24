@@ -117,8 +117,12 @@ list.
 
 **Then QA the render (backstop):**
 
-- **The attacker faces the threat** — body, weapon, and gaze all on the enemy; the enemy sits in
-  the line of attack, not behind the hero.
+- **Every combatant faces the clash, not the camera** — the hero's body, weapon, and gaze on the
+  enemy, and the enemy in the line of attack (not behind the hero). In a *multi*-combatant scene
+  the **enemies** drift to face the viewer too, leaving the hero swinging at empty air between
+  forward-posed monsters — turn *every* figure inward toward the point of the fight, and have the
+  blow land **on** the target (see *the-worm-wearers-at-the-threshold*, which took several passes
+  on exactly this).
 - **One shot, not many** — drawn-and-held **or** one loosed shot in flight, never both. (An arrow
   that appears to extend far *forward* of the bow at full draw is usually a second, loosed arrow
   overlapping the nocked one — look twice. Generalizes: no spell both mid-cast and already-landed.)

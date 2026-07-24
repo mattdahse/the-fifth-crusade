@@ -396,17 +396,23 @@ Near the shaft that led back beneath the city, they came upon cultists of Baphom
 
 ### **Counsel at the Defender's Heart**
 
+![In the commander's office, as **Irabeth** gave the company the rod that could unmake the Wardstone, a keen-eyed scout of **Neathholm** knelt and pledged herself to **Rabiah's** service. **Chirrik** would not leave her side again.](images/chirriks-pledge.png)
+
 The stronghold had grown fuller and its air lighter — more mouths, more children, but more healthy soldiers too, their ranks swollen by rescued crusaders. Varic pressed his healers' kits upon the wounded and spent his blessing freely among them. Then the company climbed to the commander's office, where a weeping woman passed them in the doorway; only later would they learn whose wife she was.
 
 **Irabeth** heard their report — the tower, the apothecary, the slain witch, the shattered idol of Baphomet — and read the naga's letter with a hardening face. There could be no further delay; the assault upon the Gray Garrison must come at first light. Her crusaders of the **Eagle Watch** would mount distracting sorties across the ruins, that the company might slip toward the Wardstone against thin resistance. Into their keeping she gave a purse of gold, a band of mongrelman scouts out of **Neathholm** — **Grew** foremost among them, with **Nick** and **Seeboo** and their kin, and a keen-eyed archer named **Chirrik**, who bowed low and pledged herself to Rabiah's service — and, wrapped with terrible care, a **rod of cancellation**: the one key that could unmake the Wardstone fragment before its power was turned against the faithful. Harlock took it, and let no magic near it. Before they slept, the company spent freely of that purse and their own hoard at the stronghold's armory, for they had learned that the demons ahead shrugged off common steel: quivers of cold iron arrows and bolts, a scarce few blessed against evil outsiders at a robber's price, and a cold iron longsword pressed into Grew's clawed hands. They rested what hours remained.
 
 ### **The Weight of Heaven**
 
+![Through the ruined hedges they beheld the **Gray Garrison** at last — squat, joyless, unpainted, and yet achingly holy. Each of them felt a god's gaze settle and take account of the hour: **Harlock** under **Iomedae**, **Varic** under **Sarenrae**, even **Lupenor** under a presence she could not name.](images/the-weight-of-heaven.png)
+
 They came upon the garrison in the grey before dawn, choosing the broken pit over the guarded wall, scattering a wake of carrion-fed vultures from a heap of the dead. And then, through the decorative hedges of a ruined garden, they beheld the **Gray Garrison** for the first time.
 
 It was a squat and joyless building, unpainted and ungilded, nothing like the opulent cathedral-city Varic had been raised beneath — and yet it struck each of them as achingly holy. Here crusaders had bled and died for a hundred years. **Harlock** felt the gaze of **Iomedae** settle full upon him, weighing what he was about to do, and he bowed his head beneath it. **Varic** felt Sarenrae's attention in the same measure; even **Lupenor**, whose devotion ran to **Desna** and her wandering stars rather than to any god of war, could not shake the sense of a presence at her shoulder, taking silent account of the hour. They understood, without a word, the greatness of what they had come to do.
 
 ### **The Worm-Wearers at the Threshold**
+
+![At the great doors, two men hollowed out and worn like garments by worm-demons — and ***Radiance*** blazing as **Harlock** cleaves the corruption from its stolen shell.](images/the-worm-wearers-at-the-threshold.png)
 
 At the great stone doors stood two bloated, naked figures with poleaxes — recognized, to their horror, as **Hulrun**, the collector of **Kenabres**, whose office had given him command over the city's forces, and the very innkeeper of the Defender's Heart, husband of the woman who had wept. Yet these were men no longer. Worm-demons had hollowed them out and now wore their flesh like a garment; they drank strength from wounds and turned the company's own hurts to their healing. Cold iron and blessed steel at last told against them. **Radiance** blazed in Harlock's hand and cleaved worm from ruined shell, and one of the things burst free of its skin to slither, limbless and gaping, before it was hewn down.
 
