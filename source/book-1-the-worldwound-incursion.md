@@ -244,11 +244,15 @@ Scarcely four hours had passed since the company dragged themselves up from the 
 
 ### **The Mirror-Loathing Demons**
 
+![In a street lit by a burning shop, **Rabiah** drives the mirror-loathing **abrikandilu** back with bolt on bolt of raw magic — one already fleeing, an arrow through its hand.](images/the-mirror-loathing-demons.png)
+
 It was **Varic**, keeping the first watch, who saw the flames three doors down and heard the screaming beneath them. Hunched, tailed shapes capered before a burning shop, hurling fire at the humans trapped within. Cloaked in the failing magic of their last invisibility draughts, the company crept close. These were **abrikandilu** — demons so hideous that to look upon them was near to pain, said to be forged from the souls of vandals and to loathe nothing so much as their own reflection. **Harlock** broke the hush with a war-cry and a charge, the dimmed sword ***Radiance*** flashing dull in the firelight; from the shadows **Lupenor** loosed telling shafts, **Rabiah** worked her crossbow and the crackling bolts of a ***magic missile*** wand, and a ***spiritual weapon*** conjured at Varic's word hammered among the fiends. Two of the wretched things fell where they stood; the survivors, loyal to nothing, fled hopping into the dark.
 
 Within the shop huddled a tailor named **Balthus** and his wife **Loomis**, soot-blackened and half-mad with fear, beating out the last embers with a wedding gown. Even in the mouth of the apocalypse the old man's hands could not be still — he took the measure of his rescuers with tape and parchment, promising them fine garments once the dust had settled. It was a small, absurd tenderness, and it steadied the whole street.
 
 ### **The Madmen and the Girl**
+
+![Holy symbol raised and blazing, **Varic** faces down the hollow-eyed zealots — **Sarenrae** demands no such offering — while **Harlock's** silence does the work of a threat.](images/the-madmen-and-the-girl.png)
 
 Closer to safety, the company came upon a horror that fire could not explain. Before a ruined shrine, a young girl knelt weeping while armored knights ringed her with drawn steel. Their tabards bore the arms of the crusade, but their eyes burned with a feverish, hollow light, and their leader spoke of sacrifice — of a maiden's blood to bless their blades so they might at last bite demon flesh. Varic did not wait. He strode into the open, holy symbol raised, and named the folly for what it was: **Sarenrae** demands no such offering. Beside him Harlock said nothing at all, only bared his teeth and let his silence do the work of a threat.
 
@@ -258,11 +262,15 @@ The madmen would not be reasoned with. Steel answered steel, and the melee was b
 
 At last the great stone bulk of the **Defender's Heart** rose before them, its yard barricaded with overturned carts and salvaged debris, crossbowmen watching from every third window of the third floor. The password *Silver Strong* bought them a wary approach; a grizzled veteran and a trembling boy came out to demand their weapons, for none passed armed within. The company bristled — and then a call went up. Someone glimpsed Anevia at the rear.
 
+![**Irabeth** lets her sword fall and sweeps **Anevia** off her feet — and for a moment, reunion undoes the war.](images/the-reunion-at-the-gate.png)
+
 The heavy bar slid back, the doors swung wide, and a tall half-orc in battered armor came running. **Irabeth** let her own sword fall clattering to the steps and swept Anevia off her feet, and the two of them wept and laughed together while the guards forgot all about disarming anyone. Reunion, for a moment, undid the war.
 
 ### **The Weight of the Sword**
 
 Within, the great hall was a country of the wounded, tended by barmaids and a lone priest of Shelyn who gathered the sacrificed girl gently into his care. Twice Varic called down the mending light of Sarenrae over the crowded floor, closing wounds and easing the worst of the suffering; grateful defenders pressed small tokens of thanks upon him — a beer, a handmade beaded necklace, a murmured blessing — for seeing them through the night.
+
+![**Harlock** offers the dead blade up as he speaks the Code of **Iomedae** — and light climbs ***Radiance*** and wakes it, blazing, in his hands, while **Irabeth** looks on in wonder.](images/the-kindling-of-radiance.png)
 
 Upstairs, in a fine little office untouched by the ruin outside, Irabeth received them wearily. There Harlock knelt. He drew forth ***Radiance*** — the blade of the lost hero **Yaniel**, recovered from thieves — and offered to surrender it; Irabeth would not take it, telling him it was his to bear until its true heirs were found. Then, at his fervent asking, she bade him recite the Code. His voice faltered, found itself, and rose: *I will learn the weight of my sword… I will be the first into battle and the last to leave it… I will suffer death before dishonor.* As the verses spilled from him the blade began to shine — dim at first, then brighter, until it burned alive in his hands. Irabeth touched steel to his shoulder. *"Rise, Sir Harlock Greyforge, knight of Iomedae."* He stumbled up with tears streaming, and the company took turns being crushed in his embrace.
 

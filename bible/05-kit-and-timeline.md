@@ -51,9 +51,11 @@ inline (Harlock's *Radiance*, from its recovery onward; Lupenor's bow, her const
   device, not a relic).
 - **Weapon:** **fluid before the middle of Ch. IV** — in the earliest undercity scenes he
   fights with whatever he has (a glaive, a hammer, a plain sword); take it from the scene.
-- **Radiance:** **only from "Radiance Reclaimed" (Book I, Ch. IV) onward** does he bear it —
-  and even then a **dull, dark, tarnished-gold longsword that gives off NO light**, not yet
-  awakened, never blazing in this era.
+- **Radiance:** he bears it **from "Radiance Reclaimed" (Book I, Ch. IV) onward** — a **dull,
+  dark, tarnished-gold longsword that gives off NO light**, dimmed and silent. It stays
+  lightless through Ch. V. **It AWAKENS at "The Kindling of Radiance" (Book I, Ch. VI)**,
+  where holy light first climbs the blade as Harlock speaks his oath — **from Ch. VI onward
+  Radiance can blaze with gold-white holy light.**
 
 ### Varic Sarian
 ![Varic's Era I kit — the humble priest, no gold.](../images/the-burning-sky.png)
