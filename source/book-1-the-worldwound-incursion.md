@@ -302,6 +302,8 @@ At the edge of the rubble they came upon a lone man digging through a fallen sta
 
 ### **The Pyre of Books**
 
+![**Harlock** comes through the library door like a thunderclap, ***Radiance*** blazing an arc through the templars' conjured dark — and behind him, four librarians knelt bound within a pyre built of their own books.](images/the-pyre-of-books.png)
+
 The library was a landmark any child of the city could point to, and now its wings were rubble and only the vaulted great hall still stood. Through the open door came voices: *stack those books higher* — and beneath the command, weeping, and a laughter that was not kind.
 
 Within, four librarians knelt bound within a ring of stacked volumes built to be a pyre. Over them stood a heavily armored man flanked by two tieflings. **Harlock** came through the door like a thunderclap. One tiefling flung down a shroud of ***darkness***, but **Radiance** burned an arc through it, and by that light **Lupenor** loosed clean shafts while **Varic**, priest of **Sarenrae**, called forth a spectral scimitar of holy force to hew where he could not reach. **Rabiah** doubled herself again and rained missiles into the murk. One tiefling fell dead, the other broken and bound; the armored man was beaten to his knees, and there he cast down his mace and begged for his life.
@@ -310,11 +312,15 @@ He wore the mark of the demon lord **Deskari** at his neck, though his shield an
 
 ### **A Star Beneath the Stone**
 
+![One tile among the library floor bore the swirl of stars **Rabiah** keeps hidden on her own skin. Worked loose, it gave onto a deep and softly glowing dark — and a mystery she is no nearer to naming.](images/a-star-beneath-the-stone.png)
+
 Among the floor's many ornaments, one tile stopped **Rabiah** cold: it bore, in a swirl of stars, the very device of the birthmark she kept hidden and told no one of. Worked loose, the tile gave onto a hidden cache. Within lay ten arrows of surpassing beauty, their fletching pale angel-feather that shimmered with hidden color, forged to seek the hearts of demons and every evil thing born of the outer dark; a slender ***chime of opening***, named at last by the head librarian, **Fenna**; a ***wand of daylight***; a ***wand of magic missile***; and a clutch of healing potions. What the mark meant, and why such a hoard waited beneath it for one who bore it on her skin, none could yet say. Later, among the reordered shelves, a damaged spellbook came to light, and with it a folded scroll not yet read; others recovered proved to be scrolls of ***comprehend languages***.
 
 Of the library's despoiling the librarians spoke a dreadful thing: it had been broken and looted by a man made of worms — a walking corruption that wore a dead body like armor and wielded a mage's arts — who had enslaved demons to pull down its walls and carried off what he pleased.
 
 ### **The Merchant's Satchel**
+
+![Her own house's livery on a dead courier, and the family seal on a bill of sale for **Baphomet**'s idols. The parchment is the brightest thing in the ruin, and the hardest to look at.](images/the-couriers-satchel.png)
 
 Leaving librarians and prisoners under guard, the company slipped out to the nearby **Nyserian Manor**, only to find the safe house crushed to a heap. There, pinned beneath a fallen beam, **Lupenor** recognized a corpse in the livery of the **Celestial Trading Company** — her own family's mercantile house. **Harlock** heaved the beam aside, and from the dead courier's satchel spilled a dozen neatly wrapped packages, each a steel holy symbol of **Baphomet**, together with a bill of lading naming a score of them for delivery to that very house. Her family's honest trade in arms had somewhere become a supply line to the cult. The transaction, at least, had died with its bearer — but the shadow it cast over the name of Celest did not lift.
 
@@ -325,6 +331,8 @@ They passed the night barricaded in the library, and at first light turned north
 The road's cruelest sight came near its end: a stage of wrecked wagons where quasits had penned a handful of terrified townsfolk in dead men's armor, forcing them to mime the charges of crusaders for the little demons' sport, and beating them when the play displeased. One captive was already lost before help could come. **Harlock** charged with the Inheritor's name on his lips, and the winged fiends were cut from the air. To the survivors he sheathed his sword and offered his hand.
 
 At the barricades of **Defender's Heart** the watchword was given and the gates opened. The stubborn prisoner was handed over for questioning, his blasphemous symbol left plain upon him so his keepers would take care. And **Varic** knelt beside a man who carried the body of his wife, and spoke over him the blessing of **Sarenrae**, that the living might be comforted and the dead go gently into the light.
+
+![At the gates of the **Defender's Heart**, **Varic** kneels over a man who would not put down his dead wife, and calls the light of **Sarenrae** down to warm them both — that the living be comforted, and the dead go gently into the light.](images/the-blessing-of-the-dawn.png)
 
 *— Session of January 17, 2025 —*
 
