@@ -82,3 +82,51 @@ prompt body *and* the `Avoid:` line. See CANON.md's *Known drift* section.
 
 **QA the render against the portraits** feature by feature before publishing, and
 regenerate rather than shipping a drifted likeness.
+
+## Combat & action scenes — prevent the spin in the prompt, then QA
+
+Action scenes fail in ways portraits don't, and the **same faults recur in the *first*
+iteration of almost every combat image**, whoever the subject is. Most are cheaper to
+**prevent in the first prompt** than to fix over rounds of review — the four faults below cost
+several passes on *the-poison-garden* precisely because the opening prompt left them unsaid or
+self-contradictory. Write these into the prompt up front, then QA the render against the same
+list.
+
+**Write it into the prompt (first pass):**
+
+- **Pick ONE instant and commit to it.** The worst offender is describing a shot as both
+  drawn *and* loosed — "*she looses an arrow … the string still humming … an arrow streaking
+  from the bow*" produces a nocked arrow **and** a stray in-flight one, because both are
+  implied. Choose: *held at full draw* — "at full draw, holding the shot, a single arrow nocked
+  and NOT released, nothing in flight" — **or** *the release* — "the instant of release: the one
+  arrow now in flight, the string sprung forward, the draw hand open." Never blend the two.
+- **State the confrontation geometry.** Don't just place the enemy "in the mid-ground" — say the
+  hero and enemy are **squared off across the frame, the hero in profile / three-quarter aiming
+  directly at the enemy, which sits within the line of fire**, and explicitly *not* oriented
+  toward the viewer with the enemy behind them.
+- **Describe the bowstring (archers).** Left unsaid, the model drops or mangles it. Spell it out
+  every time: "a single continuous bowstring forming a drawn 'V' — top limb → the draw hand
+  anchored at the cheek (through the nocked arrow) → bottom limb — clearly visible passing in
+  front of the face."
+- **Choose the frame for the scene, not by default.** A single hero mid-action fits the house
+  3:4. But **two combatants who must face off fight a portrait frame** — a horizontal standoff
+  wants width. Decide up front: a **wider / landscape frame** for an even side-view standoff, or
+  a deliberate **over-the-shoulder** (one combatant's back to us, the other over their shoulder)
+  if you must hold 3:4. (This is the one sanctioned exception to the "portrait ~3:4" default —
+  see *the-poison-garden*, deliberately landscape.)
+
+**Then QA the render (backstop):**
+
+- **The attacker faces the threat** — body, weapon, and gaze all on the enemy; the enemy sits in
+  the line of attack, not behind the hero.
+- **One shot, not many** — drawn-and-held **or** one loosed shot in flight, never both. (An arrow
+  that appears to extend far *forward* of the bow at full draw is usually a second, loosed arrow
+  overlapping the nocked one — look twice. Generalizes: no spell both mid-cast and already-landed.)
+- **Bowstrings obey physics** — one continuous line, top limb → anchor at the cheek/jaw → bottom
+  limb, visible in front of the face; never vanishing behind the head or stopping at the brow.
+- **Weapon reach and grip** — hands actually grip the haft/grip; blade length is plausible and
+  doesn't pass bloodlessly through the wielder; a thrust or swing connects where the light says.
+
+These bite hardest on **archers — Lupenor above all**: aim-at-viewer, extra-arrow, and
+broken-string faults tend to show up *together* on a first pass, so prompt against all three
+from the start.

@@ -356,6 +356,8 @@ They waited, Kedness believed, for the witch **Areelu Vorlesh** herself: she who
 
 ### **The Tower of Estrad**
 
+![Rather than break the door, **Lupenor** wore a stolen face to it — a cultist's seeming and a false idol of **Baphomet** raised to the watch-slot, the passphrase on her lips — while **Harlock**, **Rabiah**, and **Varic** waited in the dark to spill through the moment it opened.](images/the-door-at-estrad.png)
+
 Two cultist safehouses yet remained. A mongrelman guide named **Grew** led the company by drowned sewer-tunnels and broken streets to the first — the **Tower of Estrad**, now scarcely a tower at all, its upper floors sheared away and heaped in rubble. Rather than force the sturdy stone doors, **Lupenor Celest** drew upon a scale-shaped talisman of shifting aspect, taking on the seeming of a known cultist and clutching a false holy symbol, and knocked with the passphrase gleaned from their captives: *I have new material for the archives.* The bar slid back, and two cultists welcomed the disguised elf warmly — until the company's blades fell among them.
 
 Below, the cellar was drowned in a rolling, unnatural fog. There a cultist witch named **Thaxon** worked his necromancy from concealment, his hand shimmering with sickly blue light, while a scorpion familiar clung to the ceiling. Blinded by the murk, the company fought half by sound; Rabiah's darts and Grew's borrowed club at last brought the witch down, and Varic's healing prayer snatched him back from death that he might be questioned. The scorpion was skewered upon Harlock's blade, ***Radiance***.
@@ -367,6 +369,8 @@ Beyond a locked door lay a shrine to **Baphomet** — green-glass lanterns, curv
 In a rune-carved chest they found the true prize: a stack of cultist attack plans, years in the making, and among them a list of the **Templars of the Ivory Labyrinth** who had infiltrated the crusade — names beyond price. There too was a letter addressed to the demon **Minagho**, a thing that would confirm the old librarian's darkest theory entire. The witch Thaxon they bore back in chains, gagged against his spellcraft; the plans they kept close — a roster of traitors yet to be sifted.
 
 ### **The Poison Garden**
+
+![In the apothecary's buried garden of rot, the shrieking **Mandragora** rears from the slime beneath **Baphomet**'s daubed sign — and **Lupenor**, the sickness shaken off, sets an arrow to it across the dark.](images/the-poison-garden.png)
 
 The second safehouse wore the sign of an apothecary — **Topaz Solutions** — its door hanging broken. Within, looters in matching tabards marked with a black bird were stuffing their sacks with plunder. Harlock cut through them in a single terrible sweep of ***Radiance***; a few threw down their arms, one bolted and was struck dead, and the rest were bound and left under Grew's watchful bow.
 
