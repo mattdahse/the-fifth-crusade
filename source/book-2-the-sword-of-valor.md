@@ -42,6 +42,18 @@ Over the spoils a quiet argument rose. Rabiah held that the outpost's coin was n
 
 *— Session of April 11, 2025 —*
 
+## **A Queen's Commission**
+
+*(Chapter forthcoming.)*
+
+## **March of the Redeemers**
+
+*(Chapter forthcoming.)*
+
+## **The Battle of Villareth Ford**
+
+*(Chapter forthcoming.)*
+
 ## **The Bell That Never Rang**
 
 <!-- fathom: 297872089 -->
