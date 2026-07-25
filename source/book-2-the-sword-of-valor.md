@@ -340,7 +340,7 @@ A side door gave onto a horror of a different colour. Two crusader soldiers hung
 
 ### **Nolkeneth**
 
-Beyond the courtyard door waited the master of the house. **Harlock** set one foot across the threshold and a tall, winged demon reared up almost nose to nose with him — **Nolkeneth**, a fiend-priest of the ghoul cult, a knot of lesser **ghouls** shuffling at his back. He answered the intrusion with malice, spitting ***unholy blight*** into the company and swinging a foul aspergillum that flung unholy water reeking of the grave. For a few rounds it was close and ugly work; **Rabiah**'s magic quickened every bow, and the ghouls were peeled away one at a time. When the demon-priest saw his congregation dying around him he lost his nerve, wrapped himself in a hasty ***expeditious retreat***, and ran — which was the last mistake he made. He turned his back on the paladin, and **Radiance** went through his chest between the wings; they snapped stiff, shuddered, and folded, and **Nolkeneth** slid off the blade to the floor. His enchanted aspergillum rolled away across the stone, and a small key to his strongbox fell from his belt.
+Beyond the courtyard door waited the master of the house. **Harlock** set one foot across the threshold and a tall, winged demon reared up almost nose to nose with him — **Nolkeneth**, a fiend-priest of the ghoul cult, a knot of lesser **ghouls** shuffling at his back. He answered the intrusion with malice, spitting ***unholy blight*** into the company and swinging a foul aspergillum that flung unholy water reeking of the grave. For a while it was close and ugly work; **Rabiah**'s magic quickened every bow, and the ghouls were peeled away one at a time. When the demon-priest saw his congregation dying around him he lost his nerve, wrapped himself in a hasty ***expeditious retreat***, and ran — which was the last mistake he made. He turned his back on the paladin, and **Radiance** went through his chest between the wings; they snapped stiff, shuddered, and folded, and **Nolkeneth** slid off the blade to the floor. His enchanted aspergillum rolled away across the stone, and a small key to his strongbox fell from his belt.
 
 ### **The Statues That Woke**
 
@@ -447,7 +447,7 @@ Four catapults stood on four towers, each sixty feet above the ground, each moun
 
 A hundred armored horse, strung out single file across a broken span, would be slaughtered.
 
-So it fell to a scout. **Rabiah** spent a mythic surge to lay invisibility on **Lupenor** and a flying spell after it, and the slayer went up a hundred feet and out over the walls in broad daylight to see what they were facing.
+So it fell to a scout. **Rabiah** reached past her own prepared magic for a spell she did not properly know, drew it out of the air by main force of will, and laid invisibility on **Lupenor**, and a spell of flight after it; and the slayer went up a hundred feet and out over the walls in broad daylight to see what they were facing.
 
 What she brought back was worth the spells. Each catapult had exactly one keeper: a **brimorak**, hoof-footed and barely waist-high, wreathed in its own foul smoke. There were piles of reload shot beside each bowl. And inside the walls, spread deliberately loose the way demons camp, were three separate hosts — an army of human cultists, an army of tieflings, and a middling army of dretches, all of them with room to sprawl and no discipline to speak of.
 
@@ -463,7 +463,7 @@ It came at him before he cleared the flap, and its touch did not cut. It reached
 
 He drew **Radiance** and the whole tent lit up, and he roared for the camp as he called his smite down. *Assassin! To me!*
 
-They came at a dead run in whatever they had been sleeping in. **Varic** got there first with a morningstar and no armor whatsoever, and spent his turn putting a ward on **Harlock** rather than a blow on the thing, and took a wound for the privilege. **Rabiah** came with a wand in her fist. And **Lupenor** came with her bow, and it was **Lupenor** who ended it — two holy arrows, one after another, into a thing that steel had been sliding through all night.
+They came at a dead run in whatever they had been sleeping in. **Varic** got there first with a morningstar and no armor whatsoever, and used the moment not to strike but to lay a shimmering guard about the paladin instead, and took a wound across his own unarmored ribs for the privilege. **Rabiah** came with a wand in her fist. And **Lupenor** came with her bow, and it was **Lupenor** who ended it — two holy arrows, one after another, into a thing that steel had been sliding through all night.
 
 It cried out. It looked at her. And it smiled as it faded, and every one of them understood that it had not died.
 
@@ -481,7 +481,7 @@ The army had its own orders: to move openly at first light, down the southern ro
 
 She landed on the first tower and her boot scuffed the stone. The **brimorak** turned, looked at nothing, and went back to leaning on the battlements.
 
-Then she went to work, and the work was fine and slow and entirely unglamorous. She got underneath the great crank that drew the throwing arm back, oiled the metal so it would slide and stay quiet, and wedged her slivers deep into the gear teeth where no eye would find them. Six rounds of patient fitting with a demon eight feet away. When she was done, the catapult looked exactly as it had before — and the first time anyone threw the release lever, all that stored force would come down on the jammed teeth and derail the whole gear train. It would take blacksmiths and weeks.
+Then she went to work, and the work was fine and slow and entirely unglamorous. She got underneath the great crank that drew the throwing arm back, oiled the metal so it would slide and stay quiet, and wedged her slivers deep into the gear teeth where no eye would find them. It took the better part of a minute, crouched at the machine's foot, with a demon leaning on the battlement eight feet from her shoulder. When she was done, the catapult looked exactly as it had before — and the first time anyone threw the release lever, all that stored force would come down on the jammed teeth and derail the whole gear train. It would take blacksmiths and weeks.
 
 She flew to the second tower and did it again. That one had been better maintained and fought her harder, and the **brimorak** on it heard something and looked around twice; but it decided it had heard a bird, and went back to its watch.
 
@@ -497,7 +497,7 @@ The others came at the third tower along the outside of the wall, carrying a sla
 
 The **brimorak** waiting at the top was not in the least surprised to see them. It grinned, and threw a fireball straight up into the sky.
 
-The alarm was given, and the fight came on. **Harlock** charged and loosed a blinding flash that none of them quite saved against; the demons summoned more of their own kind out of the air, one after another, until the tower top was crowded with them. Their blood ran scalding, so that every stroke **Harlock** landed with **Radiance** sprayed him with burning ichor and cost him for the privilege. **Chirrik** shot beside him and hit rather more often than anyone expected of her. **Varic** loaded holy water into his aspergillum, gave up on it, and settled for calling down **Sarenrae**'s light in a ***holy smite*** that broke over the lot of them.
+The alarm was given, and the fight came on. **Harlock** charged, and the light burst from his shield in a white sheet that the demons turned their faces from and shrugged off; and they summoned more of their own kind out of the empty air, one after another, until the tower top was crowded with them. Their blood ran scalding, so that every stroke **Harlock** landed with **Radiance** sprayed him with burning ichor and cost him for the privilege. **Chirrik** shot beside him and hit rather more often than anyone expected of her. **Varic** loaded holy water into his aspergillum, gave up on it, and settled for calling down **Sarenrae**'s light in a ***holy smite*** that broke over the lot of them.
 
 And **Varic** did the thing that decided the day. He set his hand to the ironbound doors at the head of the tower's spiral stair and shaped the stone of the frame and floor over the hinges and the sill until the doors were not doors at all but part of the wall. Below them, the tower filled up with tieflings who could not swing an axe in a stairwell that narrow, jammed shoulder to shoulder against a slab that was never going to open.
 
@@ -541,7 +541,7 @@ Its course was the watchtower.
 
 **Lupenor** did not wait for it. She went down off the tower onto the wall itself and ran the parapet until she had a clean line at three hundred feet, and she spent her one arrow of outsider-slaying on a shot that most archers would not have attempted. It struck. The beast shuddered in the air and did not fall.
 
-**Rabiah**, standing with her army below, threw fire at it and watched the fire wash off. **Varic** made ready a wall of wind against the breath he knew was coming, thought better of it, and held his action instead.
+**Rabiah**, standing with her army below, threw fire at it and watched the fire wash off it like rain off slate. **Varic** made ready a wall of wind against the breath he knew was coming, thought better of it, and stood waiting with the prayer unspoken.
 
 Then the white dragon head came around, and the cold came with it, and **Lupenor** and **Harlock** took the whole of it across the wall. It was a killing amount of cold. Both of them were still standing when it passed, and neither by much.
 
@@ -549,9 +549,9 @@ It landed on the wall forty feet away, close enough to see the individual scales
 
 **Lupenor** emptied her quiver of outsider-bane shafts into it, five arrows in a single savage flurry. **Varic** put a lance of ***searing light*** through it. And then, with the thing gathering itself for another breath, **Varic** called down ***holy smite*** — and the light took all three heads at once. The dragon went blind. The leopard went blind. The goat went blind.
 
-For one round, the beast could not see.
+For the space of a single breath, the beast could not see.
 
-One round was enough. **Harlock Greyforge** called his smite, put **Radiance** into the dragon's neck, and cut clean through it — and brought the blade back around and up and drove it through the creature's chest. It screamed out of the mouths that were left to it, blind to the last, and fell.
+It was all the opening the paladin needed. **Harlock Greyforge** called his smite, put **Radiance** into the dragon's neck, and cut clean through it — and brought the blade back around and up and drove it through the creature's chest. It screamed out of the mouths that were left to it, blind to the last, and fell.
 
 ### **What Came Out of It**
 
@@ -569,11 +569,11 @@ Down in the courtyard, a shout went up from the demon host. The heroes had kille
 
 They wanted it. With the beast dead, the three hosts reformed and came on.
 
-The **dretches** came first and were foolish enough to trade missiles. A hundred mounted paladins are very good at that, and one exchange of archery was all it took: the dretch army came apart and went off the field entirely.
+The **dretches** came first and were foolish enough to trade missiles at a distance. A hundred mounted paladins are very good at that. A single exchange of archery was all it took: the dretch host came apart and went off the field entirely.
 
-The **cultists** came next, four hundred of them, and came recklessly — no armor, no order, screaming blasphemies as they crossed the rubble. **Rabiah** took her Redeemers to a cautious guard and let them break themselves on it, healing her line between passes, giving ground for nothing. The cultist army broke and scattered.
+The **cultists** came next, four hundred of them, and came recklessly — no armor, no order, screaming blasphemies as they scrambled over the rubble. **Rabiah** held her Redeemers close and careful and let the cultists break themselves against a line that would not move, drawing her wounded back and healing them between each rush. The cultist army broke and scattered.
 
-That left the tieflings, and by then **Rabiah** had had enough of patience. She threw her whole line from caution straight into the attack, poured everything she had left into the charge, and hit them so hard that what survived went streaming away into the ruins.
+That left the tieflings, and by then **Rabiah** had had enough of patience. She loosed the line she had been holding all morning, threw everything into the charge, and hit them so hard that what survived went streaming away into the ruins.
 
 Three armies in a morning. The **Redeemers** had lost almost nobody.
 
