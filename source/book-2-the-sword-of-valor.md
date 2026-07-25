@@ -386,7 +386,7 @@ They burned the queen's body, climbed the rope back into the jaundiced daylight,
 
 The riders reached the broken country before Drezen as the light failed, and there the three scouts returned to them with a map unrolled upon a table. **Anevia** spoke of the **South Bank**, where tieflings and human cultists camped in scattered clusters, guarding a hoard of captured crusader gear — breastplates still bearing the smeared sun of **Iomedae** — never garrisoned in one place, yet never more than a trumpet-call from forming a new army. **Aron** told of the cemetery, where ghouls lurked and one mausoleum seemed to bleed darkness, sick with some deep and patient evil. And of **Paradise Hill**, where demons held the height and some two hundred able-bodied prisoners languished behind wire, waiting only for liberation to swell the crusade's ranks.
 
-But it was the bridge that fixed their dread. Only one span crossed the dry bed of the Ahari to the Citadel, a hefty work of dwarven stone — and it had been made a trap. Its four supporting pylons were weakened and cracked, and to each had been chained a man-eating auroch, huge and shaggy, its eyes burning green in the dark. Tieflings patrolled the rickety watchtowers upon it, and over them all stood a sorcerer, **Barak Eisen**, ready at the first sight of an army to loose the beasts and drag the whole span down into ruin.
+But it was the bridge that fixed their dread. Only one span crossed the dry bed of the Ahari to the Citadel, a hefty work of dwarven stone — and it had been made a trap. Its four supporting pylons were weakened and cracked, and to each had been chained a man-eating auroch, huge and shaggy, its eyes burning green in the dark. Tieflings patrolled the rickety watchtowers upon it, and over them all stood a sorcerer, **Barrid Isen**, ready at the first sight of an army to loose the beasts and drag the whole span down into ruin.
 
 ### **The Serpent in the Camp**
 
@@ -410,9 +410,9 @@ Nor was the night quiet. Up from the river and the bleeding cemetery came the gh
 
 The bridge was no work for armies; the aurochs would haul down the pylons and bury a host in stone. So the four went alone against it. First they laid ***Silence*** upon the chained beasts, that no demon's shouted command might reach them, and then they closed. Tieflings met them upon the span, and dretch demons boiled up from below in gouts of foul, stinking vapor.
 
-**Harlock** took the vapors full in the face and was overcome, retching and reeling, able only to stagger a pace at a time — yet the half-orc would not quit his post, laboring on through his sickness even as the poison held him. Overhead **Barak Eisen** hung in the air, held aloft by his own levitation, wrapping himself in a shroud of darkness and raking the company with searing rays. Varic answered with a ***Wall of Fire*** that penned the demons in flame and with ***Holy Smite***, whose radiance burned the wicked and left them blinded and clutching. One auroch strained and strained at its pylon and could not, for a moment, find purchase.
+**Harlock** took the vapors full in the face and was overcome, retching and reeling, able only to stagger a pace at a time — yet the half-orc would not quit his post, laboring on through his sickness even as the poison held him. Overhead **Barrid Isen** hung in the air, held aloft by his own levitation, wrapping himself in a shroud of darkness and raking the company with searing rays. Varic answered with a ***Wall of Fire*** that penned the demons in flame and with ***Holy Smite***, whose radiance burned the wicked and left them blinded and clutching. One auroch strained and strained at its pylon and could not, for a moment, find purchase.
 
-At the last **Lupenor** flung herself from the high embankment, dropping low beneath the sorcerer's own darkness until she could see her mark clear, and there Barak Eisen was brought down. The final tieflings were cut from the bridge, and the span, though cracked and scorched, still stood.
+At the last **Lupenor** flung herself from the high embankment, dropping low beneath the sorcerer's own darkness until she could see her mark clear, and there **Barrid Isen** was brought down. The final tieflings were cut from the bridge, and the span, though cracked and scorched, still stood. Only afterward, when the dead were gathered and counted, did they find that the sorcerer was not among them.
 
 ### **The Weight of Four Pylons**
 
@@ -515,9 +515,9 @@ The company decided to let **Callan** prove his loyalty by continuing to help cl
 
 After a night's rest they went back into the citadel, met a pack of **thoxel** demons and put them down without much trouble, and turned up a hoard left behind by **Stoltengraabe**, the chimera they had killed at the outer defenses. What it held was shared out among them.
 
-They pressed deeper into the heart of the citadel, defeating babau demons and fiendish minotaurs, which delayed them long enough for **Barrid**, the wizard who had escaped them at the battle of the Ahari Bridge, to alert the denizens of the citadel's planning room. This gave the heroes no chance to rest before a new group of foes appeared to harass them.
+They pressed deeper into the heart of the citadel, defeating babau demons and fiendish minotaurs, which delayed them long enough for **Barrid Isen** — the sorcerer who had slipped away from them at the Ahari bridge — to rouse the citadel's planning room. This gave the heroes no chance to rest before a new group of foes appeared to harass them.
 
-This group included **Joran Vhane**, a dwarven cleric who fought reluctantly, warning the heroes to flee again and again while his retinue of babau guards and the wizard **Barrid** fought more enthusiastically. When all but **Joran** had fallen, and the cleric himself was badly wounded, **Varic** offered him a chance to surrender. **Joran** laid down his hammer and dropped to his knees in submission. He warned the heroes that his brother, **Staunton Vhane**, was in the very next room, and that he would likely kill them all.
+This group included **Joran Vhane**, a dwarven cleric who fought reluctantly, warning the heroes to flee again and again while his retinue of babau guards and the sorcerer **Barrid Isen** fought with considerably more enthusiasm. When all but **Joran** had fallen, and the cleric himself was badly wounded, **Varic** offered him a chance to surrender. **Joran** laid down his hammer and dropped to his knees in submission. He warned the heroes that his brother, **Staunton Vhane**, was in the very next room, and that he would likely kill them all.
 
 The heroes healed **Barrid** to consciousness and set to work binding their prisoners, debating the familiarity of that name — **Staunton Vhane**. A story of a confrontation between **Irabeth** and **Staunton Vhane** was vaguely remembered, but no one could recall the details. They resolved to march the prisoners back to camp and ask **Irabeth** about it.
 
@@ -547,7 +547,7 @@ They gathered up ***Soul Shear*** as well — the intelligent, evil thing that c
 
 ### **The Citadel Claimed**
 
-With **Staunton** dead and the first level swept, the company sent word for the crusader army to move into the citadel in strength. Quarters were assigned, guard set upon the locked door to the basements, and the two prisoners — the wizard **Barrid** and **Staunton**'s own brother, the dwarf **Joran Vhane** — locked apart under watch. **Chirrik** was set to guard the prisoners; **Horgus Gwerm** put to the inventory of stores; **Harlock** to the mending of the sally port; and the army billeted through the garrisons the company had bled to clear.
+With **Staunton** dead and the first level swept, the company sent word for the crusader army to move into the citadel in strength. Quarters were assigned, guard set upon the locked door to the basements, and the two prisoners — the sorcerer **Barrid Isen** and **Staunton**'s own brother, the dwarf **Joran Vhane** — locked apart under watch. **Chirrik** was set to guard the prisoners; **Horgus Gwerm** put to the inventory of stores; **Harlock** to the mending of the sally port; and the army billeted through the garrisons the company had bled to clear.
 
 ### **Fire and Slag**
 
