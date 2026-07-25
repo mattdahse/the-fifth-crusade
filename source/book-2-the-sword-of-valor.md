@@ -44,15 +44,237 @@ Over the spoils a quiet argument rose. Rabiah held that the outpost's coin was n
 
 ## **A Queen's Commission**
 
-*(Chapter forthcoming.)*
+*April 26, 2025 session — the geomancer's road home to **Kenabres**, and the coming of the sovereign of Mendev*
+
+### **The Slow Road Home**
+
+They had ridden out to the **Vineyard Hills Way Station** in a day. They came back in two, and were glad of the second.
+
+The survivors went with them, and the survivors could not be hurried. **Titus of Clearwater** rode when his legs failed him and walked when his pride returned. **Samuel** spoke to no one at all. The elder woman held the reins of their salvaged cart with the grip of someone who had decided that letting go would finish her. And **Willa**, whom **Varic** had dragged back from death on a filthy bed of hay, sat her horse with her eyes open and fixed on nothing. None of them had slept since the demons came. Whatever waited behind their eyelids would not permit it, and there was no mercy in the company's saddlebags for that particular wound.
+
+So they kept the pace of the broken, and watched the scrub for cloven prints, and said very little. Near dusk **Lupenor** found them a flat crown of rock standing above the plain, sheer on three sides, and there they made camp and kept a watch that none of them had to be asked to keep.
+
+### **The Garrison of Runners**
+
+**Kenabres** came in sight at mid-morning. On the road beneath her walls they overtook a knot of refugees moving the other way — people scarcely better off than the ones they carried, but with a wagon, a little food, and the particular steadiness of those who have decided to keep going. Into their keeping the company gave the waystation's survivors, and then put their heels to their borrowed horses and rode the rest of the way at a gallop.
+
+**Irabeth** had moved her command out of the **Defender's Heart** and into the **Gray Garrison** itself — the fortress they had taken from the demons a handful of days before. They handed their reins to the stableman at the gate, and from somewhere back among the stalls a boy's voice was singing. They caught perhaps four words of it, and one of the four was *Harlock*. They were too full of their news to wonder at it, and went in.
+
+The Garrison's great entry hall had been made into an office. **Irabeth Tirabade** stood behind a door laid flat across two mismatched cabinets, and past her in both directions moved crews of bedraggled volunteers hauling rubble and wrapped bundles. As one went by, a clawed hand slipped free of its wrapping, and **Varic** recognized the thing for what it was — one of the demons they themselves had killed in this hall.
+
+She was not free at once. A runner came and took a folded note and went; she beckoned another, gave quick instruction, sent him off. Behind them more children waited their turn with messages in their fists, and while they waited they looked at the four and whispered, and tried not to point, and hummed a few bars of something.
+
+When at last **Irabeth** looked up and saw who was standing there, her shoulders came down an inch and she let go a breath that seemed to have been a long time held. *"Thank the Inheritor."*
+
+She took the fate of the waystation without flinching — other scouts had brought in sign of stray demons too, she said, and the news that this particular band had been stopped before it could work itself properly into **Mendev** was the best thing she had heard all week. Then they laid out the question of the strongbox, and the argument they had carried a day and a half to put in front of her, and she waved the whole thing away.
+
+She was not fighting a crusade this morning, she told them. She was fighting plague, and famine, and the entirely real prospect that **Kenabres** would come apart into factions and settle her grievances with knives before the month was out. She did not know why **Iomedae** had put her in this chair. She knew only that since the **Defender's Heart** her word carried weight among the survivors, and that weight was the single thing presently holding the city together. She had become, she said with some distaste, a politician.
+
+And anyway — if they were so set upon giving the gold to the war, they could lay it at the Queen's own feet tomorrow. Her scouts had **Queen Galfrey** on the southern road and coming fast, her armies behind her, expected by midday. Irabeth did not know what the sovereign wanted. She confessed, without much hope in it, that she wished it might be to relieve her.
+
+### **A Name in Other Mouths**
+
+They scattered to their work for the rest of that day. **Varic** went among the loose coalition of clergy and acolytes who had claimed a corner of the ruins for the wounded, and helped them prepare the recovered dead for such rites as anyone could still manage. **Harlock** put his shoulders against the debris, clearing streets and lifting what needed lifting so that what lay beneath could be brought out whole.
+
+And everywhere they went the whispers went with them. Faces turned at the edge of vision and turned away again. Conversation dropped as they passed and resumed behind them. And now and then, out of a work crew or an alley or an open window, a snatch of that same tune — and in it, unmistakably, their own names.
+
+### **The Ballad of the Wardstone's Champions**
+
+At the end of the day they came, each by their own road, back to the **Defender's Heart**. It was the command of nothing now, but it remained the one place in **Kenabres** where the homeless and the idle gathered for news and company and ale and song, and that evening it was serving all four at once.
+
+A man was standing on the bar. He was half-walking and half-dancing the length of it with a lute in his hands, brass buttons and polished boot-buckles flashing in the torchlight, and he was leading a packed common room through a ballad that every soul in it already seemed to know. Mugs and flagons swung in time. The chorus came back at him like a wave off a seawall.
+
+The song was about them.
+
+At its close the crowd showered the bar with coins and tokens, and a chant went up from somewhere and infected the room entire — *again, again, again* — and the singer drained a flagon that nobody had let him pay for and begged off with his free hand until, with wholly unconvincing reluctance, he struck a note and began it over. This time they heard the whole of it from the beginning. He acted the story as he sang it, wide and theatrical, his lute standing in for a sword, a hammer, a shield, and somehow still being played through all of it.
+
+They stood at the back of the room and listened to themselves being turned into something else.
+
+*"That is definitely not how it happened."*
+
+*"We killed a balor? I don't think so."*
+
+Then the last chord fell, and the singer swept his coins into a waiting purse and stepped down off the bar, and the spell broke. In the loose moment afterward somebody nearby looked at them, and looked again, and said a name out loud. It went through the hall like fire through dry grass. Within a minute the whole room had turned — and they were pointed at, talked about, pressed toward, bought drink after drink, and treated for the first time in any of their lives as something other than people.
+
+**Rabiah** took to it entirely. She was sixteen years old, and three hundred strangers had just told her she was a legend, and she drank a good deal more than a frame her size had any business carrying. In time she selected out of the ring of admirers a strapping young crusader named **Cedric** — a farmer's son of **Kenabres** who had marched in the assault on the **Gray Garrison** — and took him upstairs to continue the celebration in private. She gave it little thought afterward. It would be a long time, and a long way from here, before that night was made to cost her anything.
+
+### **Callan Thornwind**
+
+The others got clear of their admirers eventually, and found the singer.
+
+**Callan Thornwind** praised them loudly while there were people to hear it. Then, more quietly, he told them the truth of the thing. He was a travelling minstrel who had had the poor judgment to be inside **Kenabres** when the sky came down. He had been low on coin, lower in spirit, and entirely without a muse — until the night four filthy nobodies walked back into this very inn with the wardstone broken behind them. He had spent every day since with a quill and a nearly empty purse, buying drinks for anyone who had so much as glimpsed them, collecting the tale piece by piece. He had been handed the story of a lifetime, and he had told it. *Thank **Cayden** for accidental fortune.*
+
+**Varic** and **Harlock**, out of humility and a plain love of the truth, asked him to stop singing it.
+
+He apologized about half as much as the request deserved, pleaded poetic license, and then gestured with his cup at the room, where three or four separate clusters of drunks were already murdering the thing in their own keys with their own invented words. The damage, he observed, was done. If he never sang another note of it, the ballad would still walk out of this room tonight and travel every road in **Mendev** by way of every tavern on it. He was, he admitted without a trace of shame, enormously proud of it. A song like that was the achievement of a life. And besides — they were asking a man to give up his living.
+
+Then he offered them an idea that appeared to have occurred to him only that moment.
+
+Let him come with them. He would keep the legend honest, being there to witness it. He would lift spirits when things went badly, which they would. He would lend his sword, and what meagre magic he commanded, to tilt a fight their way. He predicted — with the confidence of a man who had already read the shape of it — that their story was only beginning, and he vowed to be no burden while he wrote it down.
+
+They conferred briefly. At worst, they judged, he was harmless. At best he might prove useful. They said yes.
+
+### **The Summons**
+
+Morning came without sympathy for **Rabiah** or **Lupenor**, both of whom had celebrated past their competence, though by mid-morning they were themselves again. **Rabiah**, who had grasped at once what the day might hold, spent it on needle and thread and small industrious cantrips until nothing about her suggested she had ever been dusty in her life. The others bathed, and did what could be done for scratched and smoke-stained armor.
+
+Word came that the Queen's retinue was at the gates. Hard behind it came a summons — naming **Harlock Greyforge**, **Lupenor Celest**, **Varic Sarian**, and **Rabiah**; requiring their presence at the **Gray Garrison** within the hour; instructing them to make all haste and to trouble themselves with neither courtly formality nor their present state of dress.
+
+**Callan** was somehow already there when it arrived, his gear packed and ready to travel. He was not named in it. He came anyway.
+
+### **The Queen**
+
+They were not the only ones sent for. **Aravashnial** had been brought, blind and impatient. **Anevia** was there, and **Irabeth** beside her.
+
+**Queen Galfrey** received them without ceremony, and she was not what the ballad would have made of her. She was tired in a way her bearing flatly refused to concede, and she wore hope the way a soldier wears armor she has buckled on every morning for twenty years. She wanted the story of the **Gray Garrison** from the mouths of the people who had been inside it, and she heard the whole of it without once interrupting.
+
+Then she gave them her judgment.
+
+There were narrow souls in the crusade, she said, who named them the ruin of the wardstone border. She was not among them. They had cheated **Areelu Vorlesh** of legions she had meant to remake into something worse than dead, and had bought the crusade the weeks it needed to draw breath. But they should understand the shape of what they had done. The wardstones were gone — and their power had not gone with them. It had settled into four living bodies. She could imagine no explanation for that but **Iomedae**'s own intent. The stones had not been destroyed so much as rehoused.
+
+Then she told them why she had ridden north.
+
+The demons were massing in the south along the **Riftshadow**, and in massing had stripped their own northern holdings bare. **Aponavisius** had taken the bulk of her host out of **Drezen** and gone to **Iz**, to plot with the **Storm King** against larger targets. **Drezen** — the first city lost after the First Crusade, where the crusade had left behind not only its dead but the ***Sword of Valor***, the banner the Inheritor herself had carried in the Shining Crusade — stood the least defended it had been in a century. Galfrey could spare no army for it; an army would only call **Aponavisius** home. What the hour wanted was a small, well-made force, and a few capable people to lead it.
+
+She did not have to ask twice.
+
+She had one ceremony left in her, and she spent it there, naming them **Knights of the Fifth Crusade** — the right to raise armies and to hold land, given to a sixteen-year-old sorcerer, an elven scout, a half-orc, and a priest of the Dawnflower. With the title came the **Righteous Medals**, six honors of the crusade, each blessed by the priests of **Iomedae**, **Sarenrae**, and **Torag**, and each carrying a small hoarded strength against the hour it was needed. They were brought out in an ornate box, and every medal their deeds had already earned was given. What remained went back into the box, and the Queen told them plainly what each of the rest would cost to win.
+
+Waiting with her were the two she meant them to take north — **Sosiel Vaenic**, a priest of **Shelyn**, and **Aron Kir**, a tactician and scout who read ground the way other men read letters.
+
+And then, before the audience could close, they asked for things.
+
+They asked on **Aravashnial**'s behalf, and the Queen sent the blind Riftwarden away in the company of one of her own guards to find her priest and have his eyes made whole again. They asked on **Irabeth**'s behalf — that the woman holding **Kenabres** together with her bare hands be released to ride north with them — and Galfrey agreed to install an appointee of her own in that chair instead.
+
+Neither favor had been offered. Both were granted. They went out through the northern wall to look at the army they had just been given.
+
+*— Session of April 26, 2025 —*
 
 ## **March of the Redeemers**
 
-*(Chapter forthcoming.)*
+*April 26, 2025 session — the camps beyond Kenabres's northern wall, a hard bargain in a nobleman's counting-house, and the road north*
+
+### **Rabiah's Redeemers**
+
+A hundred heavy horse waited at the northern edge of the camps, and every one of them a volunteer who had asked for this road. They fell into line as the company approached and stood to attention.
+
+They needed a name. **Rabiah** gave them one, and it was not modest: **Rabiah's Redeemers**. It stuck to them that hour and never came off.
+
+To learn what she had, she borrowed another of the Queen's units and set the two against each other in mock battle across the flat ground north of the wall. She gave the commands herself — but she gave them with **Irabeth** at her shoulder, and it was Irabeth's twenty years of war that told her when to hold and when to wheel and when a line that looked solid was about to fold. By the end of the afternoon the thing had settled itself without needing to be said: **Irabeth Tirabade** was named captain of the Redeemers and second to their commander.
+
+What the exercise also showed was less welcome. The paladins drilled well, obeyed instantly, and went about all of it with the particular calm of men and women who have already privately concluded that they are not coming back. They believed they were being sent to die at **Drezen**. They had made their peace with it. Nobody said so aloud, and every one of them meant it.
+
+### **The Arithmetic of the Carts**
+
+Then somebody did the sums, and the sums were worse than the mood.
+
+There were provisions enough to put the army at the gates of **Drezen** — if the weather held, if the road was clear, if nothing whatever went wrong. There was nothing beyond that. Nothing to keep a hundred horse and their riders fed through a siege of any length. Nothing to bring them home. And the shortfall could not simply be corrected by loading more, because they had been given only a handful of carts, meant to be hitched to the paladins' own mounts. Even had the food existed, there was no way to carry it.
+
+There was exactly one man left in **Kenabres** with the resources to close that gap, and none of them wanted to go and see him.
+
+### **The Bargain at the Gwerm Estate**
+
+**Horgus Gwerm**'s estate had come through the fall of the city very nearly untouched, and he had already gathered back to himself a staff and a body of mercenaries. The company did not get past the gate on their reputation. They tried threats; the guard, who knew precisely who they were and precisely what they were and were not going to do to an innocent man at his post, called the bluff without blinking. They were admitted when Horgus decided to admit them.
+
+He proved a shrewd and merciless negotiator. The heavy purse of waystation gold went across the table first, and was treated as an opening position. By the end of it they had also handed over magic items of real value — things he could use to keep himself alive — and sworn to guard his life above and before all others; agreed to supply and pay his personal guard for the whole of the march; and conceded that in all matters of supply his counsel was to be respected and his word was final. And as if that were not sufficient, he secured from them one thing more: that if **Drezen** fell, the governance of the reclaimed city's trade would be his.
+
+In exchange he undertook to see the army provisioned, and to march with it himself to be certain the money was not wasted.
+
+### **A Dinner Before the Road**
+
+With that concluded, they went and collected a debt of a happier kind — the fine clothing promised them by the little tailor's shop they had saved from burning in the first days.
+
+A number of followers had by now gathered in **Rabiah**'s name, and among them was a genuinely skilled cook. She set them to finding a dining hall still standing and laying on a private dinner, and to it she invited the people they were about to spend a hard road with: **Aravashnial** — who arrived with his sight restored and made no attempt to pretend he was not delighted about it — **Anevia** and **Irabeth**, **Sosiel** and **Aron**, and of course **Callan**, who had promised to keep everyone entertained and did.
+
+The stated purpose was to learn something of the people who would be marching beside them, and to take what small comfort the ruins of civilization still had to offer before the **Worldwound** made comfort a memory. They got both. Stories came out over the table, and a certain amount of wine.
+
+**Rabiah** spent a portion of the evening quietly admiring **Sosiel** — dark, toned, and handsomely made — and abandoned the project on discovering that he and **Aron Kir** were lovers.
+
+### **The Quartermaster's Morning**
+
+They came down to the bivouac in the morning to find **Horgus Gwerm** already there, barking orders at his own mercenaries and at the Queen's paladins with fine impartiality. The mercenaries jumped. The paladins looked at him with stoic contempt and did not move, for they did not answer to him.
+
+Horgus spotted the company at once and reminded them, with some asperity, of the terms. Where supplies were concerned he was to be obeyed without question. **Rabiah** nodded, and the order went down the line, and after that he was obeyed.
+
+Over the next two hours he took the army apart and put it back together. Three crates of wooden tent stakes went out and one crate of iron came in. The splintering pine axles of the carts were pulled and replaced with sturdy brass, and spare wheels packed against the road. Bulky hemp rope was traded away for silk — stronger, and a fraction of the weight. Hay came off the carts and oats and grain went on. Soldiers and runners orbited him, taking assignments and bringing news.
+
+Word of free-flowing coin reached what merchants remained in **Kenabres**, and they came with wagons of goods to sell. A good many of them went away with bartered army surplus and fewer coins than they had hoped for, because **Horgus Gwerm** could stretch a copper by the yard and enjoyed doing it in public.
+
+By noon the Redeemers had a month's siege laid in — and not merely beans and porridge, but sweet jellied berries, fine flour for real bread, and a few skins of wine.
+
+**Varic** watched the whole performance with something close to awe, and said aloud what the rest of them were thinking: the man was worth every penny he had cost them and every petty annoyance he would yet inflict.
+
+### **The March Begins**
+
+They debated spending the remainder of the day in the city, and dismissed it almost at once. The troops were rested, well fed for once, and in better spirits than they had been in weeks — eager, now, to go and wet their swords. **Kenabres** was in adequate hands. The weather was fine. There would not be a better hour than this one.
+
+They marched at midday.
+
+The long switchback trail down the cliff put them on the eastern bank of the **West Sellen**, and there they turned their horses north. **Chirrik** came with them, and the rest of **Rabiah**'s gathered followers with their own tent and their own provisions — cooking, serving, making themselves useful where they could, and asking nothing but a few minutes near their mistress now and then, which she granted often enough, and with enough lavish praise, to keep them devoted.
+
+They made their first camp with **Kenabres** behind them and above them, and the **Worldwound** somewhere ahead in the dark.
+
+*— Session of April 26, 2025 —*
 
 ## **The Battle of Vilareth Ford**
 
-*(Chapter forthcoming.)*
+*April 26, 2025 session — the northernmost crossing of the **West Sellen**, and the first night the war came looking for them*
+
+### **The Ford Taken**
+
+**Lupenor**, **Aron Kir**, and **Anevia** ranged ahead of the column, and it was that habit which won the day before it began. Word came back to the army well before the crossing was in sight: **Vilareth Ford** had fallen.
+
+It had been taken only days earlier — the small crusader contingent that had held the northernmost crossing on the **West Sellen** overwhelmed by some two hundred tiefling cultists, who had made trophies of the garrison along the bunkers on the east bank and then settled in to enjoy themselves while they waited for reinforcement. They had no notion that an army was coming down the road at them.
+
+The scouts had bought the Redeemers the one advantage that mattered. The tieflings were still marshalling when a hundred armored horse came out of the concealing ground and into their encampment, and after that it was less a battle than an accounting. The ford was retaken. Not one of **Rabiah**'s people was left on the field.
+
+### **The Gaol on the East Bank**
+
+A dozen of the original garrison were still alive, penned in a stone building — held back from despair by their ranking survivor, a sergeant named **Camila Dann**, who had kept them steady even as their captors took one or two away every few hours and did not bring them back. She came out of that gaol, found the commander of the army that had freed her, snapped a salute, and asked for orders.
+
+What to do with them took some debate. A dozen wounded crusaders could not hold **Vilareth Ford** against the next thing that came for it; leaving them here was simply arranging their deaths at a later date. Nor could the Redeemers spare anyone to stiffen them. In the end they were sent back down the road to **Kenabres** — to carry word of the ford's fall, and to ask for reinforcement or rejoin the Queen's army, as the Queen saw fit.
+
+Then the labor of the field: the enemy dead gathered, a long trench dug on the bank because there were far too many for single graves, and **Varic** moving among the wounded of both sides with water called out of empty air.
+
+### **A Camp Without Fires**
+
+They kept the ford warily. Knowing an enemy still walked this country, **Rabiah** forbade cooking-fires and ordered cold rations, so that no glow should betray them, and passed the warding horn from watch to watch. The paladins raised a rough chapel of their devotion and renewed their oaths to **Iomedae**, and **Harlock** knelt among them; **Varic** blessed the officers who asked it of him. **Callan** did not play marching songs that night. He played low and grieving airs instead, until he was gently asked to let the men sleep.
+
+From the heights **Lupenor** had marked a thing that unsettled even her elven calm: the river divided two worlds. Eastward the sun fell honest and clean. Westward, over the **Worldwound** side, the same light hung dim and jaundiced, and the air came fouler into the lungs.
+
+### **Exorius**
+
+They did not sleep unmolested.
+
+Deep in the watch, an enemy the sentries never marked came into the camp — **Exorius**, the incubus who had sent the tieflings to take the ford and had just watched an army take it back, and at his side a knot of summoned **schir** demons, goat-headed and rangy, halberds already swinging as they cut through canvas. He had not come for the army. His scimitar flashing and his spells going before him, he drove straight for **Rabiah**.
+
+The camp woke into chaos. **Lupenor** was loosing before she had thrown off her blankets, and her arrows did their work on the schirs. **Varic** fought his way to the young commander and stayed there, sword and prayer both, keeping her alive through the worst minutes of it. And **Harlock Greyforge** came at a dead run in his sleeping clothes, without a scrap of armor on him and ***Radiance*** blazing in his fist, and set himself between the incubus and the girl.
+
+It was the paladin who finished it. **Exorius** — who had commanded the eastern approaches to **Drezen**, and who had come in person to avenge an insult — was cut down in a half-dressed brawl among the tent ropes, and his summoned demons died around him.
+
+### **What Aron Carried**
+
+**Sosiel** came running as it ended, and there was no relief in his face at all — only a rising panic. He was not looking at the demons. **Aron Kir** was gone.
+
+The whole camp turned out to hunt for him, and it did not take long. They found him some distance out from the perimeter, unharmed, and visibly baffled by the fuss. He had stepped away to relieve himself, he said, and to have a moment to himself. **Sosiel**, weak with relief at having his lover back whole, was entirely prepared to believe him.
+
+**Harlock** and **Rabiah** were not. He was too nervous by half, and his pressed lips had the look of a man holding something back. The paladin drew on his faith and opened his senses to the evil in the place — and found that whatever was wrong here, it was not **Aron** himself. It was a curl of black, smoky wickedness at the scout's belt pouch.
+
+***Radiance*** came out of her scabbard with a hiss and a flash of holy light, and **Harlock** leveled her at the pouch and asked what was in it.
+
+The blood went out of **Aron**'s face. He staggered back a half-step in the glare of the blade, and then he told them.
+
+Shadowblood. Three vials of it. He swore before all of them that he did not know how it had come into his pouch. He had believed himself free of the drug — but after the fighting, the old craving had come up in him again, and he had held it down, and then he had found the vials among his own gear and felt his will begin to come apart. When **Sosiel** had gone to sleep, he had slipped out of camp to take one. Only one. And with the craving quieted he had promised himself he would have the strength to break the other two against the rocks.
+
+**Sosiel** begged them for mercy, and asked that **Aron** be left in his keeping. They had broken this addiction together once before, he said; **Aron** had been clean of it for a year, to the day almost. He believed him when he said he did not know where the vials had come from. He also acknowledged, unflinching, what addiction does to a man's judgment — how it will make him justify anything at all in order to be fed.
+
+**Radiance** was sheathed. The company chose to let the two of them work it out between themselves.
+
+But they said, plainly, that **Aron Kir** would not be left unwatched again.
+
+And not one of them thought to ask, that night, who had put three vials of a demon's drug into the pouch of a man who had been clean for a year — nor to wonder which of the people sleeping in that camp had known he would be unable to refuse them.
+
+*— Session of April 26, 2025 —*
 
 ## **The Bell That Never Rang**
 
@@ -62,23 +284,9 @@ Over the spoils a quiet argument rose. Rabiah held that the outpost's coin was n
 
 ### **The Ford Behind Them**
 
-The battle was already won when the chronicle takes it up again. The ford — twin stumps of grey stone crouched on either bank, a formal bridge where once there had been only a shallows, low walls thrown up around each — lay quiet under a lowering sky. The tiefling host that had held it was no more; near two hundred of them had fallen, and not one of the crusaders who followed **Rabiah** had been laid in the earth beside them. From the stone gaol the company had freed a dozen crusader captives, and their ranking survivor, **Camila Dann**, sought Rabiah out to snap a salute and beg for orders.
+Morning came to **Vilareth Ford** with a great deal left over from the night before. The trench on the bank was filled in. **Camila Dann** and her dozen went south down the road toward **Kenabres** with their orders. **Sosiel** kept close to **Aron Kir**, and somebody was always within sight of the scout, and nobody made a point of saying why.
 
-Rabiah gave them. Sentries were set on the far bank, a defensive line drawn about the camp, the labor of the field parcelled out. **Varic Sarian**, cleric of **Sarenrae**, moved among the wounded with water called from empty air and mercy spent freely, and set the captured tieflings to gathering the dead so that the crusade's own might be laid on a pyre with some dignity. On the banks, a long trench was dug; there were too many for single graves. To **Camila Dann** fell the hardest road of all — to march the prisoners south to **Canaveras**, there to report the ford's loss and return with reinforcement, for without this crossing held no army could hope to supply a siege of **Drezen**.
-
-**Lupenor Celest** ranged ahead with the scouts. From the heights he marked a thing that unsettled even his elven calm: the river itself seemed to divide two worlds. Eastward the sun burned honest and clean; westward, upon the **Worldwound** side, its light hung dim and jaundiced, and the very air came fouler to the lungs. Of hidden foes he found none. The ford was theirs, and the night was theirs to keep.
-
-### **A Camp Without Fires**
-
-They kept it warily. Knowing an enemy host still walked the land, Rabiah forbade cooking-fires and ordered cold rations, that no glow betray them, and passed the warding horn from watch to watch — the horn that, sounded, would strip the drowse from a startled camp. The paladins raised a rough chapel of their devotion and renewed their oaths to **Iomedae**; **Harlock Greyforge** knelt among them, and **Varic** gave his blessing to the officers who asked it and held vigil through the dark. The bard **Callan** did not play his marching songs that night, but low and grieving airs, until he was gently bidden to let the men sleep.
-
-### **A Cry in the Night**
-
-They did not sleep unmolested. Deep in the watch, when the fires had long since been forbidden and the camp lay in cold darkness, an enemy the sentries never marked slipped in among the tents — three demons, tall and rangy, halberds already swinging as they cut through canvas into the heart of the camp. It was **Varic's** tent they tore open, and a cry went up in the dark. **Lupenor**, half-roused, took them at once for what they were and put an arrow into the nearest before she had thrown off her blankets. **Harlock** came at a dead run, ***Radiance*** bare in his fist — *die, foul demon* — and set his shoulder against the things where they had penned the cleric between the tent-poles. The fight was short and ugly: reach-weapons against sword and bow in a space too close for either, canvas collapsing, **Rabiah** arriving from her own tent to find it all but finished. Before the rest of the camp could rouse, the last of the three lay dead among the ruined bedding.
-
-**Sosiel** came running in just as it ended, and there was no relief in his face — only a rising panic. He was not looking at the demons. He was looking for the scout **Aron Kir**, and Aron was nowhere in the camp.
-
-He wandered back from the north a while later, asking what the ruckus had been, and could not hold anyone's eye. Something was wrong with the man — not a spell, but the look of one caught at something shameful. It was **Harlock** who named it: an evil he could feel in the scout's own pack. What Aron drew out was a demonic drug, and by the weary disappointment on **Sosiel's** face the two of them had walked this road before. They set a watch on him — not a guard so much as an escort, that he not wander off alone again — and let him keep to his tent. In the morning **Sosiel** thanked them, quietly, for the catching of it before it could take proper root.
+**Varic** spent what was left of his mercy on the wounded before they broke camp, and the ford — twin stumps of grey stone crouched on either bank, low walls thrown up around each — was left behind them, held by nobody, a crossing that would have to answer for itself until the crusade could spare men to keep it.
 
 Then the horns of departure sounded, and the crusade wound deeper into the canyon as it bent away westward. A rain came down through the afternoon — not the dreaded blood-rain, but a drizzle that stank of ammonia and would not cease — and under it the column marched on toward Drezen, gathering what supplies the ruined ford had left to give.
 
