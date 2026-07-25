@@ -655,35 +655,143 @@ The day's last door gave onto a room choked with sulfur-smoke that stung the eye
 
 *— Session of September 26, 2025 —*
 
+## **A Face Out of Kenabres**
+
+<!-- fathom: 438834731 -->
+
+*October 10, 2025 session — the eastern wing of Citadel Drezen, the statues that woke, and a man chained to a bed who was not a man at all*
+
+### **The Statues That Woke**
+
+They pushed east into the citadel and came into a hall of dwarven statues — solid, square-shouldered figures of **Torag**, hammers at rest, exactly the sort of thing the crusade had raised in this place a century ago and the demons had never bothered to pull down.
+
+The demons had done something worse than pull them down. They had put something inside them.
+
+The runes cut into the stone lit up one after another, and the **graven guardians** came off their plinths with their warhammers already swinging. They were quick — quicker than stone had any business being, and one of them spoke a word that made the rest of them quicker still. It was a long, grinding, unglamorous fight in a corridor too narrow to flank in, and it cost them most of an hour and a good deal of what **Varic** had left. But they broke them, and the hall went quiet, and the dwarven hammers lay in pieces among the rubble of their bearers.
+
+### **The Man on the Bed**
+
+The barracks beyond had a man in it.
+
+He was chained hand and foot to a bed frame, filthy, wild-eyed, and he began to scream at them before they were properly through the door. *Stay back. I'll kill all of you.* When **Rabiah** asked who he was, he told them he was a servant of **Deskari**, Lord of the Locust Host, and promised that **Staunton Vhane** would eat their flesh and set their skeletons to guard his door.
+
+**Harlock** opened his senses and found what he expected: the man's aura was evil, and rankly so.
+
+**Lupenor** found something else. She knew the face. **Morantz Delascru** had been a name in **Kenabres** — a flamboyant, lucky, insufferable swashbuckler who had gone out into the **Worldwound** more than once to make his fortune and had actually come back with it, right up until he did not. Nobody had heard of him for six months before the city fell.
+
+And under the raving, **Lupenor** could see the shape of an enchantment on him.
+
+So **Varic** did the thing a priest of the Dawnflower does. He laid a small blessing on the chained man first — a cantrip of protection, offered rather than forced, to give him whatever help it could — and then set a ***magic circle against evil*** about them both and let it press down on whatever was riding him.
+
+The thrashing stopped. The man blinked, and looked around the room, and the madness went out of his eyes.
+
+*"Oh my god,"* he said. *"How long have I been here?"*
+
+### **The Story He Told**
+
+It was a very good story.
+
+He had been taken, he said, and kept. The cultists cut him and healed him and cut him again, for the entertainment of it. They had poured **shadowblood** down his throat until he could not tell what he was saying — the same demonic drug, the company noted, that had turned up in **Aron Kir**'s belt pouch on the road at **Vilareth Ford**. He asked them, reasonably, to get him out. He promised, when asked directly, that he would not turn on them.
+
+There was one thing wrong with it.
+
+**Harlock** looked again. The enchantment was suppressed and the man was lucid and grateful and entirely coherent — and the evil aura had not moved at all.
+
+They sat with that. **Varic** weighed the man; **Rabiah** watched **Callan**, whom nobody had trusted since the horses were poisoned, and found the bard sincere — frightened, furious, and sincere. Then **Harlock** uncorked a flask of holy water and poured it over the prisoner's face.
+
+It went into him like acid into meat. His skin blistered and charred and bubbled; his eye swelled shut; it ate through his cheek until they could see the teeth at the back of his mouth. He screamed and thrashed his head to shake the droplets off, and what he screamed was *Why are you doing this to me? I'm not the bad one here — kill him! Kill the spy!*
+
+He was pointing at **Callan**.
+
+It was very nearly a good enough play. But **Callan Thornwind** had had enough of it. He looked around at four armed people who had every reason to kill him, took a breath, and said he would tell it himself: that *this* — and he did not say *he* — and her cultists had recruited him, years ago.
+
+And at the word *her*, **Morantz Delascru** went silent, and was not there any more.
+
+The shackles dropped closed on nothing. The straw mattress rose slowly where the weight had been. **Callan** backed into a corner with his sword out, snapping his head from side to side, hunting the room for something none of them could see.
+
+### **The Thing in the Room**
+
+Her name, they would learn, was **Kerindra**.
+
+She had gone ethereal — sidestepped clean out of the world into a place from which she could watch them and not be touched. What followed was almost an hour of four capable people being toyed with in a small room. She could not be hit, could not be found, could not be reached. And she was not content merely to be safe; she made a performance of it, walking up to **Harlock** to hike up her armor and put her bare flesh in the paladin's face, strolling over to **Rabiah** to blow her a kiss, and neither of them able to do a single thing about any of it.
+
+**Varic** filled the ceiling with ***daylight*** because it made him feel better. **Rabiah** threw missiles of force into the empty air on principle. And then **Rabiah** worked out the thing that mattered: a spell cast from the material world reaches *into* the ethereal, even though nothing comes back the other way. The jaunt that was hiding her was a spell like any other. And ***dispel magic*** does not care about spell resistance.
+
+She spoke it, and the succubus fell back into the world.
+
+After that it went quickly. They put her on the floor bleeding, and refused, on principle, to bargain with a demon that could vanish at will and call more of its kind. **Harlock** took her head off — his second succubus in as many days — and **Varic** put a cold iron dagger through her face for good measure, and knelt afterward to thank **Sarenrae** for the victory. The head went rolling across the ruined carpet of the barracks, trailing blood.
+
+**Callan** watched all of it. Then he put his sword back in its scabbard, let out a long breath, and said the only thing he had said all night that nobody doubted:
+
+*"Look — I'll tell you what you want to know. But you did the right thing."*
+
+And there, with the succubus dead on the floor between them and the bard finally ready to talk, the hour got late and the telling had to wait.
+
+*— Session of October 10, 2025 —*
+
 ## **Corridors of Deceit**
 
-<!-- fathom: 438834731,468815144 -->
+*October 25, 2025 session — the bard's confession and the judgment upon him, and the deeper rooms of Citadel Drezen*
 
-*October 10 & 25, 2025 sessions — the succubus in a crusader's face, the bard's confession, and the brothers Vhane*
+### **The Traitor's Tale**
 
-<!-- date: October 10 & 25, 2025 -->
+They had left **Callan Thornwind** standing over a dead succubus with his sword drawn and a promise to explain himself. He kept it.
 
-In the immediate aftermath of the fight with **Kerindra** — the succubus who had come among them wearing the face of a captive crusader — the company withdrew to camp to recover, resupply, and get some answers out of **Callan**.
+The story he told them began well and did not stay that way. There had been a village. There had been a family in it, and a boy who was happy. And then the crusade had come through — not demons, the crusade, moving as armies move — and when it had gone the village was ash and the family was dead, and the boy was not happy any more.
 
-The encounter with the succubus had cast new light on Callan's suspected treachery, but before they could get back to camp, they had to resolve a minor dispute among the soldiers of their army. A small group was insisting on recovering the bodies of the fallen crusaders that had been left in the citadel on the group's previous foray. They feared desecration by necromancers, and **Rabiah** sent **Harlock** with them to recover the dead.
+What found him afterward called itself a movement for peace. He believed that. He believed it for years, and he carried messages for it and sang for it and was told, each time, that what was being asked of him was a small thing and the last thing. It was a very long while before he understood who he was actually working for, and by then the answer was the **Templars of the Ivory Labyrinth**, and by then he was too deep in it to walk out.
 
-With **Harlock** preoccupied, the rest of the company sat down with **Callan** to question the bard. **Callan** told his story — from his early happy childhood, shattered when his family was trampled by the crusade, to his eventual recruitment by a "peace advocacy group" that later turned out to be the **Templars of the Ivory Labyrinth**. How inch by inch he was asked to do just a little more for the cause of peace until he was so deep in the conspiracy that he had no hope of escape.
+Then he told them the rest, which was harder.
 
-The company decided to let **Callan** prove his loyalty by continuing to help clear the first floor of the citadel, after which he would be given a mission to carry a message to **Kenabres**.
+The horses at the **Ahari** bridge had been his. He had poisoned them. He had been ordered to do it by a succubus — the same succubus whose head was presently lying on the floor of a barracks upstairs — and he had done it, and eight warhorses had suffered for it, and he was ashamed.
 
-After a night's rest they went back into the citadel, met a pack of **thoxel** demons and put them down without much trouble, and turned up a hoard left behind by **Stoltengraabe**, the mythic chimera **Harlock** had beheaded on the wall above the breach. What it held was shared out among them.
+And he was, he said, finished either way. His handlers had left him here; the thing that had held his leash was dead; there was nowhere left for him to be useful to them and nowhere for him to run to. He would rather be judged by the four of them than spend the rest of a short life being hunted by everyone. He put himself in their hands.
 
-They pressed deeper into the heart of the citadel, defeating babau demons and fiendish minotaurs, which delayed them long enough for **Barrid Isen** — the sorcerer who had slipped away from them at the Ahari bridge — to rouse the citadel's planning room. This gave the heroes no chance to rest before a new group of foes appeared to harass them.
+### **The Judgment**
 
-This group included **Joran Vhane**, a dwarven cleric who fought reluctantly, warning the heroes to flee again and again while his retinue of babau guards and the sorcerer **Barrid Isen** fought with considerably more enthusiasm. When all but **Joran** had fallen, and the cleric himself was badly wounded, **Varic** offered him a chance to surrender. **Joran** laid down his hammer and dropped to his knees in submission. He warned the heroes that his brother, **Staunton Vhane**, was in the very next room, and that he would likely kill them all.
+They argued about it for a long time, and the argument did them credit.
 
-The heroes healed **Barrid** to consciousness and set to work binding their prisoners, debating the familiarity of that name — **Staunton Vhane**. A story of a confrontation between **Irabeth** and **Staunton Vhane** was vaguely remembered, but no one could recall the details. They resolved to march the prisoners back to camp and ask **Irabeth** about it.
+Nobody pretended the poisoning was small. Men could have died in the crossing for want of those horses. But the company that had spent a season watching **Aron Kir** be manipulated into ruin by the same conspiracy was not much inclined to hang a man for having been recruited at fifteen and worked on for a decade. Most of them would not have him executed. **Harlock**, who had the most right to demand it, did not demand it.
+
+What they settled on was neither mercy nor punishment exactly, but a road out of the middle. **Callan** would stay, and help them clear the rest of the citadel, and prove by doing it that he had chosen a side. When it was done he would be given a message to carry to **Kenabres** — a real errand, and an honest one. And then he would go, and keep going, and not come back to this part of the world.
+
+He agreed to all of it. He seemed, if anything, relieved.
+
+### **The Weight of Things**
+
+Then, because they were adventurers and there was loot to sort, the afternoon turned briefly and comically domestic.
+
+The **bag of holding** they had turned up was a fine thing and weighed five and thirty pounds, which is a great deal to hang on a sixteen-year-old sorcerer already carrying half a library. **Rabiah** would not be parted from her books and could not carry both. So they traded around until she came away with a **handy haversack** instead — a fifth of the weight and nearly as capacious — and everybody's back was the better for it. The gems went into one place, the rare books into another, and there was a good deal of cheerful arithmetic about what the whole business would be worth once there was anywhere to sell it.
+
+### **Into the Deeper Rooms**
+
+They went back into the citadel without a proper rest — wands and channelled prayer instead of sleep, on the reasoning that the enemy would not be resting either.
+
+What waited in the eastern rooms were **minotaurs**, and not the ordinary kind: half-fiend, winged things that filled a corridor and reached further than anything that size had a right to. **Rabiah** quickened the company and dropped fire among them; **Lupenor** and **Chirrik** put arrow after arrow into the press; **Harlock** held the front and did not give ground. They came apart hard, and slowly.
+
+Behind the minotaurs came **babau**, and the babau fought properly — teleporting out of one fight and into another, appearing at the spellcasters' backs, forcing the whole line to keep turning. It was the most disciplined resistance the citadel had offered yet, and it was disciplined because someone was directing it. **Barrid Isen** had gotten word to the planning room, and there would be no quiet minute to breathe in.
+
+On an open terrace they came upon a hoard: everything **Stoltengraabe** had dragged up onto the walls over the years and never spent. They took it, and went on through guard quarters and a study and two armories, clearing the floor room by room.
+
+### **The Brother**
+
+The last room on that floor held a dwarf in priest's harness who did not want to be in it.
+
+**Joran Vhane** fought them surrounded by mirror-images of himself, and fought badly, and kept shouting at them between exchanges to *go* — to turn around and leave while they still could. His babau guards and **Barrid Isen** had no such reservations and fought in earnest. One by one the guards were cut down and the sorcerer put on the floor, and at the end of it the dwarf stood alone and bleeding.
+
+**Varic** offered him the chance to surrender. **Joran** dropped his hammer, and then dropped to his knees.
+
+Then he told them why he had been shouting. His brother was in the next room. His brother was **Staunton Vhane**, and his brother was going to kill all four of them.
+
+They brought **Barrid Isen** back to consciousness so that he could be bound rather than bleed out, and set about tying prisoners, and turned that name over between them. **Staunton Vhane**. Somebody half-remembered a story about **Irabeth** and a dwarf by that name, years ago, and nobody could produce the rest of it. It would keep until they got back to camp and could ask her.
 
 Suddenly — the door to the next room burst open.
 
-*— Sessions of October 10 & 25, 2025 —*
+*— Session of October 25, 2025 —*
 
 ## **The Fall of Staunton Vhane**
+
+<!-- fathom: 468815144 -->
 
 *November 7, 2025 session — the planning room of Citadel Drezen, and the first death among the company*
 
