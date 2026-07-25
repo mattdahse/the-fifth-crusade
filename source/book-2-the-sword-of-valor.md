@@ -423,19 +423,177 @@ The triumph did not come clean. Even as they leaned over the war-table, word cam
 *— Session of July 4, 2025 —*
 
 
-## **The Outer Defenses**
+## **The Silencing of the Catapults**
 
-<!-- fathom: 355809076,382513279 -->
+<!-- fathom: 355809076 -->
 
-*July 18 & August 15, 2025 sessions — the siege of the sally port, and the breaking of Drezen's outer defenses*
+*July 18, 2025 session — the broken bridge over the Ahari, and the four watchtowers that stood between an army and the gates of Drezen*
 
-<!-- date: July 18 & August 15, 2025 -->
+### **What the Bridge Cost**
 
-The taking of **Drezen** began with a long night of planning and a narrow door. The army came up under the banners of the Fifth Crusade and the personal command of **Rabiah** — **Harlock** at the head of the paladins, **Varic** holding together both the supply lines and the spirits of the faithful, and **Lupenor** ranging ahead as the army's senior scout.
+The battle for the bridge was over, and the bridge had very nearly not survived it.
 
-It was **Lupenor** who decided the opening. She went in among the enemy catapults before the first wave ever reached the walls and left them so much scrap, so that the assault crossed open ground with no fire falling on it. The company drove on toward the watchtower, broke a knot of **brimorak** demons and the roaming chimera **Stoltengraabe** that had been loosed to hunt the approaches, and by the end of it held a foothold inside the outer defenses.
+**Varic** walked its length in the late morning with a mason's eye and a priest's spells, taking stock. All four of the great dwarven pylons had been hacked and cracked by the chained aurochs; one had been pulled down outright, and with it a whole span of the roadway, leaving a jagged hole that men would have to cross in single file. He set his hand to the nearest pylon and spoke over it, and the hack-marks in the masonry ran together and fused like wax, until the stone looked whole again. He had two more prayers of that kind in him, and he would need to come back tomorrow to spend them. The gap in the deck was beyond him. That would want laborers, and time, and neither was on offer.
 
-*— Sessions of July 18 & August 15, 2025 —*
+Of the sorcerer **Barrid Isen** there was no sign at all.
+
+And beyond the bridge, past the barricades, the company could see into the outer courtyard of **Citadel Drezen** — cook-fires, tents, the low constant hum of many voices. At least one army was camped inside those walls.
+
+### **Four Catapults**
+
+The scouts had reported siege engines on the watchtowers, and now the company understood what that meant.
+
+Four catapults stood on four towers, each sixty feet above the ground, each mounted on a turret that could swing the full circle. Three of them could reach the bridge, and the bridge was the only way an army was crossing. Loaded, as **Harlock** judged from his soldiering, not with wall-breaking shot but with anti-personnel loads — jagged rock the size of a melon, dozens to a bowl — and a trained crew could put one of those into the air every couple of minutes.
+
+A hundred armored horse, strung out single file across a broken span, would be slaughtered.
+
+So it fell to a scout. **Rabiah** spent a mythic surge to lay invisibility on **Lupenor** and a flying spell after it, and the slayer went up a hundred feet and out over the walls in broad daylight to see what they were facing.
+
+What she brought back was worth the spells. Each catapult had exactly one keeper: a **brimorak**, hoof-footed and barely waist-high, wreathed in its own foul smoke. There were piles of reload shot beside each bowl. And inside the walls, spread deliberately loose the way demons camp, were three separate hosts — an army of human cultists, an army of tieflings, and a middling army of dretches, all of them with room to sprawl and no discipline to speak of.
+
+She came back over the wall, dropped down under the bridge, and told them all of it.
+
+### **The Thing in Harlock's Tent**
+
+They went back up to **Paradise Hill** to plan and to sleep, and the night did not let them.
+
+**Harlock** had taken off his armor and said his prayers and lain down when the cold reached him — a wrongness in his own tent, close enough to touch. He did not shout. He got up as though he had forgotten something, took up a tankard as though he meant to fetch water, and buckled ***Radiance*** on as though it were nothing at all. Only when he looked sidelong did he see it: a shimmer in the dark, man-sized, and winged.
+
+It came at him before he cleared the flap, and its touch did not cut. It reached through armor he was not wearing, through skin, into whatever it is that keeps a man standing, and it drew that out of him. He felt himself grow smaller. And the thing grew stronger on what it took, and grinned at him through greasy incorporeal teeth with a long tongue lolling.
+
+He drew **Radiance** and the whole tent lit up, and he roared for the camp as he called his smite down. *Assassin! To me!*
+
+They came at a dead run in whatever they had been sleeping in. **Varic** got there first with a morningstar and no armor whatsoever, and spent his turn putting a ward on **Harlock** rather than a blow on the thing, and took a wound for the privilege. **Rabiah** came with a wand in her fist. And **Lupenor** came with her bow, and it was **Lupenor** who ended it — two holy arrows, one after another, into a thing that steel had been sliding through all night.
+
+It cried out. It looked at her. And it smiled as it faded, and every one of them understood that it had not died.
+
+Nor had it. What they had killed was a projection — the sent spirit of a **berbalang**, whose body lies elsewhere in its crypt while its soul goes hunting. *I have a feeling that one is coming back*, **Sosiel** said, out in the dark among the half-dressed officers. *Let us find out where it sleeps and finish it.* They knew, more or less, where the crypt would be. It would keep. There was a citadel to take in the morning.
+
+**Harlock** moved his cot into **Varic**'s tent, and after that they slept in pairs, and someone in that camp was always in armor.
+
+### **The Slow Work in the Dark**
+
+They went in an hour before dawn, because demons keep late hours and the small hours before sunrise would find that host at its worst.
+
+The army had its own orders: to move openly at first light, down the southern road and into the ruins on the near bank, and to wait there for a signal. Nothing could be moved in the dark — a hundred horse picking through a ruined city by torchlight would have announced everything.
+
+**Lupenor** went alone. Invisible, flying, with a fistful of metal slivers and a vial of oil and **Varic**'s everburning torch stuffed in her pack — that last as a signal of a different kind, to be flung into open air if it all went wrong.
+
+She landed on the first tower and her boot scuffed the stone. The **brimorak** turned, looked at nothing, and went back to leaning on the battlements.
+
+Then she went to work, and the work was fine and slow and entirely unglamorous. She got underneath the great crank that drew the throwing arm back, oiled the metal so it would slide and stay quiet, and wedged her slivers deep into the gear teeth where no eye would find them. Six rounds of patient fitting with a demon eight feet away. When she was done, the catapult looked exactly as it had before — and the first time anyone threw the release lever, all that stored force would come down on the jammed teeth and derail the whole gear train. It would take blacksmiths and weeks.
+
+She flew to the second tower and did it again. That one had been better maintained and fought her harder, and the **brimorak** on it heard something and looked around twice; but it decided it had heard a bird, and went back to its watch.
+
+Two catapults dead, and no one in **Drezen** any the wiser. **Lupenor** rose fifteen feet, leaned over the wall, and dropped a rock with a strip of white cloth tied round it.
+
+Down below, that was the signal — for **Rabiah** to go to her army, and for the rest of them to start climbing.
+
+### **The Third Tower**
+
+**Lupenor** was not finished. She put the second **brimorak** down herself, from the dark and from surprise, an opening volley of arrows that struck before the thing knew there was anyone on its tower at all, and a second that finished it.
+
+The others came at the third tower along the outside of the wall, carrying a slab of decking scavenged from the warehouses of **Paradise Hill**. There they crowded onto it — **Harlock**, **Varic**, and **Chirrik** — and **Varic** touched the scale of **Terendelev** he carried and spoke its word, and a pillar of whirling cloud rose beneath the makeshift platform and lifted all three of them sixty feet up the face of the wall.
+
+The **brimorak** waiting at the top was not in the least surprised to see them. It grinned, and threw a fireball straight up into the sky.
+
+The alarm was given, and the fight came on. **Harlock** charged and loosed a blinding flash that none of them quite saved against; the demons summoned more of their own kind out of the air, one after another, until the tower top was crowded with them. Their blood ran scalding, so that every stroke **Harlock** landed with **Radiance** sprayed him with burning ichor and cost him for the privilege. **Chirrik** shot beside him and hit rather more often than anyone expected of her. **Varic** loaded holy water into his aspergillum, gave up on it, and settled for calling down **Sarenrae**'s light in a ***holy smite*** that broke over the lot of them.
+
+And **Varic** did the thing that decided the day. He set his hand to the ironbound doors at the head of the tower's spiral stair and shaped the stone of the frame and floor over the hinges and the sill until the doors were not doors at all but part of the wall. Below them, the tower filled up with tieflings who could not swing an axe in a stairwell that narrow, jammed shoulder to shoulder against a slab that was never going to open.
+
+The last **brimorak** dropped. The tower was theirs.
+
+### **A Gift Returned**
+
+**Harlock** and **Chirrik** put their shoulders to the turret and walked the catapult around until it pointed the wrong way entirely — in over the walls, down into the sprawl of three demonic armies who were only now realizing that something had gone badly wrong at first light.
+
+He had no crew and no range-finding and no practice. He loaded it, and he aimed it the way a soldier aims a thing he has only ever seen used against him, and he let it fly.
+
+The shot fell at the edge of a good cluster of them. Tents went over. Men screamed. It was not, by the standards of siege engineering, a very good shot.
+
+It was, by every other standard, the most eloquent thing anyone had said in that city in a hundred years.
+
+Below and behind, the white flag had fallen, and **Rabiah** was across the bridge with her Redeemers forming up on the far bank. Three of the four catapults would never throw again. The fourth was in the company's own hands, and turned around.
+
+And then, from somewhere deep inside **Citadel Drezen**, something roared — and it was one roar in three voices at once, harmonized and horribly wrong. A dark shape came up off the citadel on wings fifty feet from tip to tip, climbing and circling, three heads turning over the ground below.
+
+Every one of the four felt it in the blood: the same power that the wardstone had left in them, burning in that thing as it banked and came about.
+
+It was not hunting the army. It was hunting them.
+
+*— Session of July 18, 2025 —*
+
+## **Stoltengraabe**
+
+<!-- fathom: 382513279 -->
+
+*August 15, 2025 session — the beast above the breach, the breaking of three armies, and the courtyard of Citadel Drezen taken at last*
+
+### **Three Heads**
+
+It came on out of the morning and they got their first clear look at it.
+
+One body, leopard-built and enormous, on the wings of a dragon. On the right, the head of a **white dragon**. On the left, a goat's head, black-bearded and red-eyed and altogether demonic. In the centre, a great snow leopard, and it was the leopard that seemed to be doing the thinking — the goat butting at it, urging it toward the army massing at the breach, and the leopard shrugging the goat off and setting its own course.
+
+Its course was the watchtower.
+
+**Stoltengraabe** had been loosed to hunt, and what it had been loosed to hunt was them; and the reason they knew that, without anyone telling them, was that the thing was mythic. The abyssal power in it answered the power in their own blood the way one struck bell answers another. It was not a beast that had wandered in from the waste. It had been made, and kept, and set aside for exactly this morning.
+
+**Lupenor** did not wait for it. She went down off the tower onto the wall itself and ran the parapet until she had a clean line at three hundred feet, and she spent her one arrow of outsider-slaying on a shot that most archers would not have attempted. It struck. The beast shuddered in the air and did not fall.
+
+**Rabiah**, standing with her army below, threw fire at it and watched the fire wash off. **Varic** made ready a wall of wind against the breath he knew was coming, thought better of it, and held his action instead.
+
+Then the white dragon head came around, and the cold came with it, and **Lupenor** and **Harlock** took the whole of it across the wall. It was a killing amount of cold. Both of them were still standing when it passed, and neither by much.
+
+It landed on the wall forty feet away, close enough to see the individual scales.
+
+**Lupenor** emptied her quiver of outsider-bane shafts into it, five arrows in a single savage flurry. **Varic** put a lance of ***searing light*** through it. And then, with the thing gathering itself for another breath, **Varic** called down ***holy smite*** — and the light took all three heads at once. The dragon went blind. The leopard went blind. The goat went blind.
+
+For one round, the beast could not see.
+
+One round was enough. **Harlock Greyforge** called his smite, put **Radiance** into the dragon's neck, and cut clean through it — and brought the blade back around and up and drove it through the creature's chest. It screamed out of the mouths that were left to it, blind to the last, and fell.
+
+### **What Came Out of It**
+
+What happened next, none of them had words for.
+
+The abyssal power that had been bound into **Stoltengraabe** did not simply stop. It came out of the body in a rolling wave, lightning-shot and visible, and it went through the four of them where they stood and locked each of them rigid inside their own skin for the space of a breath.
+
+And when it passed, they were more than they had been. The gift the wardstone had left in them opened another degree, the way a door opens; and every one of them felt the new room on the other side of it.
+
+Down in the courtyard, a shout went up from the demon host. The heroes had killed their mascot.
+
+### **The Breaking of Three Armies**
+
+**Rabiah** had brought her Redeemers up to the breach — a sixty-foot gap where the two walls came together, choked with rubble and barricade — and there she stopped them, and let the obstacles work for her instead of against her. Whoever wanted the crusade would have to come through that gap to get it.
+
+They wanted it. With the beast dead, the three hosts reformed and came on.
+
+The **dretches** came first and were foolish enough to trade missiles. A hundred mounted paladins are very good at that, and one exchange of archery was all it took: the dretch army came apart and went off the field entirely.
+
+The **cultists** came next, four hundred of them, and came recklessly — no armor, no order, screaming blasphemies as they crossed the rubble. **Rabiah** took her Redeemers to a cautious guard and let them break themselves on it, healing her line between passes, giving ground for nothing. The cultist army broke and scattered.
+
+That left the tieflings, and by then **Rabiah** had had enough of patience. She threw her whole line from caution straight into the attack, poured everything she had left into the charge, and hit them so hard that what survived went streaming away into the ruins.
+
+Three armies in a morning. The **Redeemers** had lost almost nobody.
+
+The cheer that went up from a hundred paladins in that courtyard was of a kind none of them had heard before. One veteran came running to his commander, dropped to his knees in the muck and the bodies, and could only say that he could not believe they had done it.
+
+They made their camp there, inside the walls of **Citadel Drezen**, and piled the enemy dead into the breach as a barricade against whatever came next. **Varic** — who by now needed neither food nor sleep, only an hour of quiet before dawn — took the watch himself, and took it in full armor. Every night in this city had ended with something coming for them in the dark, and twice now they had fought in their underclothes. It was not going to happen a third time.
+
+### **The Statues in the Hall**
+
+In the morning they went into the citadel proper.
+
+The entrance hall was lined with statues — horned things, demonic, of no particularly great craft. The demons had clearly redecorated after the crusade fell; it was the sort of thing demons do.
+
+Except that the statues came off their plinths.
+
+They were **gargoyles**, set there as guardians and patient enough to wait a hundred years for someone to walk between them. They struck with claw and bite and gore out of an ambush that very nearly worked, and the fight in that hall was close and ugly and fought at arm's length. But the company that came into it was not the company that had ridden away from **Kenabres**. **Harlock** was cutting gargoyles nearly in half with single strokes now. **Lupenor** was putting three and four arrows into a target before it closed. It went quickly, in the end, and rather one-sidedly.
+
+They stood in the wreckage among the broken guardians and looked at the passage running on into the dark ahead of them, and knew perfectly well that the citadel had not yet begun to show them what it held.
+
+*— Session of August 15, 2025 —*
 
 ## **The False Goddess**
 
@@ -513,7 +671,7 @@ With **Harlock** preoccupied, the rest of the company sat down with **Callan** t
 
 The company decided to let **Callan** prove his loyalty by continuing to help clear the first floor of the citadel, after which he would be given a mission to carry a message to **Kenabres**.
 
-After a night's rest they went back into the citadel, met a pack of **thoxel** demons and put them down without much trouble, and turned up a hoard left behind by **Stoltengraabe**, the chimera they had killed at the outer defenses. What it held was shared out among them.
+After a night's rest they went back into the citadel, met a pack of **thoxel** demons and put them down without much trouble, and turned up a hoard left behind by **Stoltengraabe**, the mythic chimera **Harlock** had beheaded on the wall above the breach. What it held was shared out among them.
 
 They pressed deeper into the heart of the citadel, defeating babau demons and fiendish minotaurs, which delayed them long enough for **Barrid Isen** — the sorcerer who had slipped away from them at the Ahari bridge — to rouse the citadel's planning room. This gave the heroes no chance to rest before a new group of foes appeared to harass them.
 
