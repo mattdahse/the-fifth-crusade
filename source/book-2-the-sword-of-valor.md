@@ -50,7 +50,7 @@ Over the spoils a quiet argument rose. Rabiah held that the outpost's coin was n
 
 *(Chapter forthcoming.)*
 
-## **The Battle of Villareth Ford**
+## **The Battle of Vilareth Ford**
 
 *(Chapter forthcoming.)*
 
@@ -74,11 +74,11 @@ They kept it warily. Knowing an enemy host still walked the land, Rabiah forbade
 
 ### **A Cry in the Night**
 
-They did not sleep unmolested. Deep in the watch, when the fires had long since been forbidden and the camp lay in cold darkness, an enemy the sentries never marked slipped in among the tents — three demons, tall and rangy, halberds already swinging as they cut through canvas into the heart of the camp. It was **Varic's** tent they tore open, and a cry went up in the dark. **Lupenor**, half-roused, took them at once for what they were and put an arrow into the nearest before he had thrown off his blankets. **Harlock** came at a dead run, ***Radiance*** bare in his fist — *die, foul demon* — and set his shoulder against the things where they had penned the cleric between the tent-poles. The fight was short and ugly: reach-weapons against sword and bow in a space too close for either, canvas collapsing, **Rabiah** arriving from her own tent to find it all but finished. Before the rest of the camp could rouse, the last of the three lay dead among the ruined bedding.
+They did not sleep unmolested. Deep in the watch, when the fires had long since been forbidden and the camp lay in cold darkness, an enemy the sentries never marked slipped in among the tents — three demons, tall and rangy, halberds already swinging as they cut through canvas into the heart of the camp. It was **Varic's** tent they tore open, and a cry went up in the dark. **Lupenor**, half-roused, took them at once for what they were and put an arrow into the nearest before she had thrown off her blankets. **Harlock** came at a dead run, ***Radiance*** bare in his fist — *die, foul demon* — and set his shoulder against the things where they had penned the cleric between the tent-poles. The fight was short and ugly: reach-weapons against sword and bow in a space too close for either, canvas collapsing, **Rabiah** arriving from her own tent to find it all but finished. Before the rest of the camp could rouse, the last of the three lay dead among the ruined bedding.
 
-**Socio** came running in just as it ended, and there was no relief in his face — only a rising panic. He was not looking at the demons. He was looking for the scout **Aaron**, and Aaron was nowhere in the camp.
+**Sosiel** came running in just as it ended, and there was no relief in his face — only a rising panic. He was not looking at the demons. He was looking for the scout **Aron Kir**, and Aron was nowhere in the camp.
 
-He wandered back from the north a while later, asking what the ruckus had been, and could not hold anyone's eye. Something was wrong with the man — not a spell, but the look of one caught at something shameful. It was **Harlock** who named it: an evil he could feel in the scout's own pack. What Aaron drew out was a demonic drug, and by the weary disappointment on **Socio's** face the two of them had walked this road before. They set a watch on him — not a guard so much as an escort, that he not wander off alone again — and let him keep to his tent. In the morning **Socio** thanked them, quietly, for the catching of it before it could take proper root.
+He wandered back from the north a while later, asking what the ruckus had been, and could not hold anyone's eye. Something was wrong with the man — not a spell, but the look of one caught at something shameful. It was **Harlock** who named it: an evil he could feel in the scout's own pack. What Aron drew out was a demonic drug, and by the weary disappointment on **Sosiel's** face the two of them had walked this road before. They set a watch on him — not a guard so much as an escort, that he not wander off alone again — and let him keep to his tent. In the morning **Sosiel** thanked them, quietly, for the catching of it before it could take proper root.
 
 Then the horns of departure sounded, and the crusade wound deeper into the canyon as it bent away westward. A rain came down through the afternoon — not the dreaded blood-rain, but a drizzle that stank of ammonia and would not cease — and under it the column marched on toward Drezen, gathering what supplies the ruined ford had left to give.
 
@@ -92,7 +92,7 @@ The climb was near mortal in itself. Ninety feet of crumbling, treacherous stair
 
 What waited was a walled complex gone to ruin — breaches in the stone spilling rubble, a courtyard within, a wide-doored building that had the look of a stable, and beyond it a barbed iron gate, rusted past opening, that barred the mouth of a long tunnel. To the right stood the main chapel. **Harlock** drew his blade ***Radiance***, and something in the broken walls struck him with memory: this had been a hallowed house of his own faith, before the desolation took it.
 
-They made ready in the failing dusk. **Varic** called on the Righteous Medals for a surge of strength, warded himself with ***shield of faith***, and Rabiah wove armor of pure force about them and quickened their steps. **Lupenor** searched the threshold for traps, found it clean, and set cold iron to his string. Then Harlock set his shoulder to the doors and threw them wide.
+They made ready in the failing dusk. **Varic** called on the Righteous Medals for a surge of strength, warded himself with ***shield of faith***, and Rabiah wove armor of pure force about them and quickened their steps. **Lupenor** searched the threshold for traps, found it clean, and set cold iron to her string. Then Harlock set his shoulder to the doors and threw them wide.
 
 ### **The Congregation**
 
@@ -154,7 +154,7 @@ Where the canyon bent, boiling green vapour hung over the ground, and through it
 
 ### **The Maddening Song**
 
-The swarms found them almost at once, and the swarms were the true peril. Their gibbering clawed at the mind; to stand in it was to risk one's reason, and blade and arrow did next to nothing against a cloud of biting motes — one gnawed at **Lupenor**'s very eyelid while he cursed and swatted. **Varic** answered with ***repel vermin***, throwing a bubble the vescavors could not bear to enter, and the company sheltered in it and moved it with them; ***burning hands*** and alchemist's fire scoured whole swarms where they could be caught massed. When a swarm rolled over the ground between **Harlock** and the others and threatened to swallow the paladin whole, he would not leave a companion stranded in it — he ploughed back through the biting cloud to reach **Lupenor**, taking the gnawing and the gibbering three times over and holding his mind against all of it, and hauled the slayer clear. *He's a paladin now,* someone said, half in wonder. One after another the swarms were burned and repelled until they broke apart into ordinary, purposeless vermin.
+The swarms found them almost at once, and the swarms were the true peril. Their gibbering clawed at the mind; to stand in it was to risk one's reason, and blade and arrow did next to nothing against a cloud of biting motes — one gnawed at **Lupenor**'s very eyelid while she cursed and swatted. **Varic** answered with ***repel vermin***, throwing a bubble the vescavors could not bear to enter, and the company sheltered in it and moved it with them; ***burning hands*** and alchemist's fire scoured whole swarms where they could be caught massed. When a swarm rolled over the ground between **Harlock** and the others and threatened to swallow the paladin whole, he would not leave a companion stranded in it — he ploughed back through the biting cloud to reach **Lupenor**, taking the gnawing and the gibbering three times over and holding his mind against all of it, and hauled the slayer clear. *He's a paladin now,* someone said, half in wonder. One after another the swarms were burned and repelled until they broke apart into ordinary, purposeless vermin.
 
 ### **The Vescavor Queen**
 
@@ -182,9 +182,9 @@ But it was the bridge that fixed their dread. Only one span crossed the dry bed 
 
 ### **The Serpent in the Camp**
 
-They made camp, and the wind howled through the canyons all that night. **Lupenor** could not sleep, and so he shadowed the company bard, **Kellen** — a man he had marked speaking too often with those paladins whose faith had lately faltered. Kellen slipped behind a tent by the horse corral and simply did not come out the other side. Lupenor found the rope of the pen unhooking and rehooking itself as though by unseen hands, and caught upon the air the sweet scent of dragon-apples, a fruit wholesome to men and poison to horses. His hurled dispelling found nothing to unmake.
+They made camp, and the wind howled through the canyons all that night. **Lupenor** could not sleep, and so she shadowed the company bard, **Callan** — a man she had marked speaking too often with those paladins whose faith had lately faltered. Callan slipped behind a tent by the horse corral and simply did not come out the other side. Lupenor found the rope of the pen unhooking and rehooking itself as though by unseen hands, and caught upon the air the sweet scent of dragon-apples, a fruit wholesome to men and poison to horses. Her hurled dispelling found nothing to unmake.
 
-By morning eight warhorses lay moaning and sick. Before the march, the four cornered Kellen in **Varic**'s tent and bound him within a ***Zone of Truth***. The bard felt the enchantment settle and smiled — *oh, it's that kind of meeting* — and thereafter answered every question without once being caught in a lie, spinning instead a long and mournful tale of a favorite horse of his youth, eating away the spell's minutes with charm. He denied poisoning the beasts; he denied walking unseen. They let him go with no proof and colder suspicion, and marked him to be watched.
+By morning eight warhorses lay moaning and sick. Before the march, the four cornered Callan in **Varic**'s tent and bound him within a ***Zone of Truth***. The bard felt the enchantment settle and smiled — *oh, it's that kind of meeting* — and thereafter answered every question without once being caught in a lie, spinning instead a long and mournful tale of a favorite horse of his youth, eating away the spell's minutes with charm. He denied poisoning the beasts; he denied walking unseen. They let him go with no proof and colder suspicion, and marked him to be watched.
 
 ### **The Storming of Paradise Hill**
 
@@ -204,7 +204,7 @@ The bridge was no work for armies; the aurochs would haul down the pylons and bu
 
 **Harlock** took the vapors full in the face and was overcome, retching and reeling, able only to stagger a pace at a time — yet the half-orc would not quit his post, laboring on through his sickness even as the poison held him. Overhead **Barak Eisen** hung in the air, held aloft by his own levitation, wrapping himself in a shroud of darkness and raking the company with searing rays. Varic answered with a ***Wall of Fire*** that penned the demons in flame and with ***Holy Smite***, whose radiance burned the wicked and left them blinded and clutching. One auroch strained and strained at its pylon and could not, for a moment, find purchase.
 
-At the last **Lupenor** flung himself from the high embankment, dropping low beneath the sorcerer's own darkness until he could see his mark clear, and there Barak Eisen was brought down. The final tieflings were cut from the bridge, and the span, though cracked and scorched, still stood.
+At the last **Lupenor** flung herself from the high embankment, dropping low beneath the sorcerer's own darkness until she could see her mark clear, and there Barak Eisen was brought down. The final tieflings were cut from the bridge, and the span, though cracked and scorched, still stood.
 
 ### **The Weight of Four Pylons**
 
@@ -359,7 +359,7 @@ The session began with dire portents. The party noticed a vampire in gaseous for
 
 ### **The Descent**
 
-The ancient stairs plunged eighty feet forward and forty feet down into the dungeons beneath **Drezen**. As the party descended — **Harlock** and **Varic** in the vanguard, **Rabiah** in the middle, **Lupenor** and **Chyrrik** covering the rear — an oppressive whispering began to fill their minds. Not loud enough to understand, but constant, grating, impossible to ignore. The party steeled their wills against the madness-inducing murmurs.
+The ancient stairs plunged eighty feet forward and forty feet down into the dungeons beneath **Drezen**. As the party descended — **Harlock** and **Varic** in the vanguard, **Rabiah** in the middle, **Lupenor** and **Chirrik** covering the rear — an oppressive whispering began to fill their minds. Not loud enough to understand, but constant, grating, impossible to ignore. The party steeled their wills against the madness-inducing murmurs.
 
 **Harlock** attempted to engage his ability to detect evil, but it was like staring into a sun. Evil radiated from the stairs, from the walls, from the very air they breathed. This place was so thoroughly corrupted it might as well have been a shard of the Abyss itself.
 
@@ -407,7 +407,7 @@ Then came the master vampire.
 
 It struck with domination, reaching into **Lupenor**'s mind and seizing control. The slayer's will crumbled before the vampire's ancient power. Suddenly, the party's best archer was turning her bow on her allies.
 
-Arrow after arrow flew. **Rabiah** was struck first, blood spreading across the dungeon floor from multiple wounds — including one critical shot that pierced clean through, dropping the young sorcerer. Then **Lupenor** turned on **Chyrrik**, who took five shafts in the back before collapsing.
+Arrow after arrow flew. **Rabiah** was struck first, blood spreading across the dungeon floor from multiple wounds — including one critical shot that pierced clean through, dropping the young sorcerer. Then **Lupenor** turned on **Chirrik**, who took five shafts in the back before collapsing.
 
 The party scrambled. **Varic** attempted a hold person spell on their dominated companion, and for one precious round, **Lupenor** stood frozen. But the vampire's will was strong, and **Lupenor** broke free almost immediately.
 
@@ -417,7 +417,7 @@ The party knew what this meant. Somewhere behind that wall lay the vampire's cof
 
 There, in an ornate coffin, the master vampire lay still weakened, its gaseous form only just beginning to reconstitute. It never got the chance. **Harlock** stepped forward, ***Radiance*** blazing with holy light, and with a single decisive stroke, beheaded the creature. The vampire's final death was swift and absolute.
 
-In the aftermath, **Chyrrik** was healed. **Rabiah** was brought back from the brink of death, and somewhat embarrassed, used prestidigitation to clean the blood from her robes. The arrow holes in her garments would have to wait for proper mending back at camp.
+In the aftermath, **Chirrik** was healed. **Rabiah** was brought back from the brink of death, and somewhat embarrassed, used prestidigitation to clean the blood from her robes. The arrow holes in her garments would have to wait for proper mending back at camp.
 
 ### **Aftermath**
 
@@ -439,7 +439,7 @@ The paladin's prayers still felt unanswered in this corrupted place. The dungeon
 
 ### **The Creeping Madness**
 
-The session opened where the last had ended — in the depths beneath **Drezen**, surrounded by the ceaseless whispers that gnawed at the edges of sanity. The party had survived their brutal encounter with the master vampire, but **Rabiah** bore the psychic scars of death and resurrection, and young **Chyrrik** had been so rattled by the ordeal that she'd been sent back to the surface to recover.
+The session opened where the last had ended — in the depths beneath **Drezen**, surrounded by the ceaseless whispers that gnawed at the edges of sanity. The party had survived their brutal encounter with the master vampire, but **Rabiah** bore the psychic scars of death and resurrection, and young **Chirrik** had been so rattled by the ordeal that she'd been sent back to the surface to recover.
 
 The remaining four — **Harlock**, **Lupenor**, **Varic**, and **Rabiah** — pressed deeper into the dungeon, methodically searching every wall and floor for hidden passages. **Rabiah**, examining the torture implements in the central chamber, noticed crude scratches that seemed to channel the blood pooling in their grooves. When she prodded them, the whispers paused for a half-heartbeat. She theorized that a powerful abjuration spell — ***Dispel Evil***, ***Dispel Chaos***, or perhaps ***Hallow*** — might silence the maddening voices permanently.
 
@@ -475,7 +475,7 @@ And unlike everywhere else in this corrupted dungeon, the whispers did not reach
 
 ### **The Prisoner's Bargain**
 
-The party ascended from the dungeon, their bodies whole but their magic depleted and their spirits tested. **Sosiel**, the priest of ***Shelyn***, provided ***Lesser Restoration*** to heal the charisma damage. **Chyrrik**, restored by a potion, was eager to rejoin the group.
+The party ascended from the dungeon, their bodies whole but their magic depleted and their spirits tested. **Sosiel**, the priest of ***Shelyn***, provided ***Lesser Restoration*** to heal the charisma damage. **Chirrik**, restored by a potion, was eager to rejoin the group.
 
 But before they could rest, word came from the guards: one of their prisoners was demanding to speak with them.
 
@@ -529,7 +529,7 @@ The battle began.
 
 **Rabiah** opened with ***Haste***, then dropped an ***Ice Storm*** that created difficult terrain across half the chamber. The ice revealed the invisible wall's boundary — a clear line where the magical cold simply stopped. **Chorussina** was untouchable behind her barrier.
 
-The party engaged the demons while planning their assault on the mage. **Harlock** borrowed **Chyrrik**'s adamantine greatsword — the only weapon capable of damaging the wall effectively. He began hammering at the barrier while **Rabiah** contributed Mythic Magic Missiles and **Varic** threw Fire Bolts.
+The party engaged the demons while planning their assault on the mage. **Harlock** borrowed **Chirrik**'s adamantine greatsword — the only weapon capable of damaging the wall effectively. He began hammering at the barrier while **Rabiah** contributed Mythic Magic Missiles and **Varic** threw Fire Bolts.
 
 **Chorussina** wasn't idle. Her seven mirror images made her nearly impossible to target accurately, and her displacement spell gave her a fifty percent miss chance even when attacks found the real her. She wore a Shield spell that negated magic missiles entirely and a Fire Shield that dealt cold damage to anyone who struck her in melee.
 
@@ -559,7 +559,7 @@ But the whispers remained. They still gnawed at the edges of the mind, still pro
 
 ### **The Spoils**
 
-**Chorussina**'s equipment proved valuable: a ***Headband of Vast Intelligence***, a ***Ring of Force Fangs*** that absorbed and fired magic missiles, a ***Ring of Protection***, a ***Cloak of Resistance***, and scrolls of ***Dimension Door*** and ***Dispel Magic***. The party distributed the items among themselves, with **Chyrrik** receiving an upgraded cloak and **Harlock** accepting a hand-me-down with characteristic humility.
+**Chorussina**'s equipment proved valuable: a ***Headband of Vast Intelligence***, a ***Ring of Force Fangs*** that absorbed and fired magic missiles, a ***Ring of Protection***, a ***Cloak of Resistance***, and scrolls of ***Dimension Door*** and ***Dispel Magic***. The party distributed the items among themselves, with **Chirrik** receiving an upgraded cloak and **Harlock** accepting a hand-me-down with characteristic humility.
 
 Raised alcoves to the left and right of the chamber awaited exploration. The ***Sword of Valor*** remained hidden somewhere in the citadel. **Arueshalae** the succubus-heretic wandered the Worldwound. The **Ivory Sanctum** and its master **Xanthir Vang** represented threats yet to be confronted.
 
@@ -599,15 +599,15 @@ Deeper still, past trapped passages that attempted to hurl intruders into pits, 
 
 The battle tested their resources. The demon attempted to possess **Rabiah**'s mind, and only a desperate surge of mythic power allowed her to resist its mental intrusion. **Harlock** activated his smite evil, channeling ***Iomedae***'s wrath through ***Radiance***. Each strike that connected dealt grievous wounds to the demon, the holy blade burning through its shadowy essence.
 
-The demon employed hit-and-run tactics, disappearing into walls only to emerge elsewhere. It was during one of these repositioning maneuvers that **Chyrrik** made a discovery that changed everything.
+The demon employed hit-and-run tactics, disappearing into walls only to emerge elsewhere. It was during one of these repositioning maneuvers that **Chirrik** made a discovery that changed everything.
 
 ### **The Banner Revealed**
 
-While scanning for the vanished demon, **Chyrrik** spotted something incongruous — a flash of crimson and gold that didn't belong in the corrupted dungeon. Moving to investigate, she reached out and grasped fabric that thrummed with divine power.
+While scanning for the vanished demon, **Chirrik** spotted something incongruous — a flash of crimson and gold that didn't belong in the corrupted dungeon. Moving to investigate, she reached out and grasped fabric that thrummed with divine power.
 
 The ***Sword of Valor***.
 
-The artifact banner had been hidden in plain sight, its magic concealed by the dungeon's overwhelming evil. **Chyrrik** felt the power coursing through the fabric — this was no mere magical item but a true artifact, blessed by ***Iomedae*** herself. She immediately moved to bring it to **Rabiah**, recognizing that her young mistress would best know how to activate its powers.
+The artifact banner had been hidden in plain sight, its magic concealed by the dungeon's overwhelming evil. **Chirrik** felt the power coursing through the fabric — this was no mere magical item but a true artifact, blessed by ***Iomedae*** herself. She immediately moved to bring it to **Rabiah**, recognizing that her young mistress would best know how to activate its powers.
 
 The shadow demon, seeing its guardianship had failed, intensified its attacks. But with the banner in hand, the party's morale soared. They pressed their assault, **Lupenor**'s arrows keeping pressure on the demon while **Varic**'s spiritual weapon harried it from another angle.
 
@@ -777,7 +777,7 @@ She had been on a long-range scouting mission to the west when she spotted figur
 
 Separately, and unknown to the others until they gathered for a morning meal at the **Temple of Sarenrae**, **Harlock** had been suffering nightmares. For three consecutive nights, the paladin had relived the demonic ritual of his childhood — the one he had somehow survived and escaped. Each time he woke in a cold sweat, he felt a compulsion pulling him southward. It faded within moments of waking, but it was growing stronger.
 
-The preparations were swift. **Varic** would bring **Rothin**. **Rabiah** brought both **Chyrrik** and her new cohort, **Cornelia Dewfoot** — a halfling druid of quiet conviction who worshiped the spirit of nature itself and dreamed of healing the Worldwound's scarred earth. **Harlock** brought **Elara Dawnstrider**, a young paladin of noble birth and steady sword. **Lupenor** traveled light, as was her way — her cohort **Mira Thistledance** would remain behind to manage the trading house.
+The preparations were swift. **Varic** would bring **Rothin**. **Rabiah** brought both **Chirrik** and her new cohort, **Cornelia Dewfoot** — a halfling druid of quiet conviction who worshiped the spirit of nature itself and dreamed of healing the Worldwound's scarred earth. **Harlock** brought **Elara Dawnstrider**, a young paladin of noble birth and steady sword. **Lupenor** traveled light, as was her way — her cohort **Mira Thistledance** would remain behind to manage the trading house.
 
 They loaded cold iron arrows into the bag of holding, filled waterskins, and gathered rations for those among them who still needed to eat. By late afternoon on a day that felt less like an ending than a beginning, **Rabiah**'s Redeemers walked out through the gates of **Drezen** and into the trackless waste of the Marchlands.
 
