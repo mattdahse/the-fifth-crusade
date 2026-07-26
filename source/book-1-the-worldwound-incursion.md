@@ -490,11 +490,15 @@ The basin had been a scrying font before it was befouled. **Harlock** went back 
 
 ### **The Horn in the Hall of Helms**
 
+![The hall of mangled helms, and **Deradnu** winding his horn to bring the garrison down on them — **Lupenor** and **Rabiah** caught inside a reach the scrying pool had made look safe, and **Chirrik** drawing on the beast from the doorway.](images/the-horn-in-the-hall-of-helms.png)
+
 Above, everburning torches lit a hall of pedestals, each bearing a mangled helm — the helms, they would learn, of the first crusaders ever to fall in the First Crusade, smashed and arranged here as a mockery. Its keeper was no mockery at all. **Deradnu**, a fiendish minotaur gifted to the cult by the Templars of the Ivory Labyrinth, filled the room with blood-red hide and glowing yellow eyes.
 
 The plan was clean enough on the threshold: **Harlock** through the door first, then **Varic**, **Lupenor**, and **Rabiah** behind him, with the mongrelfolk — the steady scout **Chirrik** among them — loosing from range. But the room proved smaller than the scrying pool had made it seem, and the minotaur far larger; those who had pictured themselves safely beyond its reach found themselves squarely within it. It caught **Lupenor** and **Rabiah** both before the company could close, and it set a horn to its lips and wound a blast whose warning carried clear through the wall to the woman in the next room. Yet arrow answered its bellow, and ***Radiance*** rose and fell in **Harlock's** hands, and the beast came down.
 
 ### **The Rod and the Whispered Charge**
+
+![**Lupenor** sets the ***chime of opening*** against the last door while **Rabiah** waits at her shoulder — the ***rod of cancellation*** in one hand, **Harlock's** last ***potion of invisibility*** in the other. Beyond the seams, the Wardstone's light.](images/the-chime-and-the-charge.png)
 
 Before they touched the last door, **Harlock** unslung his pack and worked free a bundle he had carried a long way — the ***rod of cancellation***, entrusted to them by **Irabeth** for this single purpose. He laid it carefully in **Rabiah's** hands. **Varic** made the plan plain: he and **Lupenor** would fix the oracle's eye and he would keep the sorcerer alive, but **Rabiah's** task was the only one that truly mattered — reach the stone, touch the rod to it, and let nothing else in the world exist. Then **Harlock** pressed a small vial into her other hand, his last ***potion of invisibility***.
 
@@ -509,6 +513,8 @@ They came in upon **Jeslyn**, and she was a hard thing to look upon. She had bee
 **Harlock** and **Lupenor** gave her no room to think. They pressed her hard, blade and arrow driving her back a step and then another, until every baleful eye in the chamber was fixed upon the paladin and the archer — and none at all upon the small, unseen shape slipping low along the wall.
 
 ### **The Rod Touches the Stone**
+
+![Unseen along the wall and now flickering back into the world, **Rabiah** sets the cold iron of the ***rod of cancellation*** against the last surviving fragment of the **Kenabres Wardstone**.](images/the-rod-touches-the-stone.png)
 
 **Rabiah** reached the pedestal and the barbed iron cage upon it, and within it the last and largest surviving fragment of the **Kenabres Wardstone**, softly aglow. She set the cold iron of the rod against the stone. For a heartbeat the fragment seemed to resist her, some old strength gathering to throw off the unmaking — and then it faltered, and let go, and broke.
 
