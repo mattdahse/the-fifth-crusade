@@ -20,6 +20,8 @@ Before dawn a knock came at each door. **Irabeth** waited in the Gray Garrison w
 
 ### **A Road of Ashes**
 
+![**Lupenor** finds cloven prints burned into the earth, and something larger walking beside them. Whatever passed this way is still ahead.](images/a-road-of-ashes.png)
+
 The omens gathered as they went. A farmstead stood gutted and smoking, a charred figure curled in its corner, a gnawed bone in the ash. Lupenor read the tracks: cloven hooves that scorched the very grass where they fell, and larger prints beside them, unshod and wrong. An abandoned cart, a dead horse. Then a voice — **Radiance**, the blade at Harlock's hip, waking to speak. *These were made by brimoraks,* she warned, *little demons full of fire and hate. If you have any protection from flame, put it on now.* Varic, already warded by Sarenrae's own fire, laid the same guard upon his companions. It would prove the difference between a hard day and a grave.
 
 ### **The Stables**
