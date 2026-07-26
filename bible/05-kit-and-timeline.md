@@ -75,7 +75,12 @@ inline (Harlock's *Radiance*, from its recovery onward; Lupenor's bow, her const
 - **Clothes:** layered **green hooded traveling clothes** — and, true to her nature,
   **always neat, whole, and uncannily clean even here** (she keeps herself tidy with
   habitual little cantrips of prestidigitation). **She is the one character whose gear is
-  NOT grimy in the deep** — the contrast is the point.
+  NOT grimy in the deep** — the contrast is the point. **One sanctioned exception:**
+  [`../images/the-freeing-of-anevia.png`](../images/the-freeing-of-anevia.png), the very
+  first hour after the demon-fall, where she is as filthy as everyone else — nobody is
+  thinking about cantrips yet, and she has just hauled a stranger out of the rubble with
+  her bare arms. **Scene-specific. Do not carry it forward** — she is spotless everywhere
+  else, including later in the same chapter.
 - **Gear:** a **leather baldric across the chest with the round dark metal medallion** at
   the shoulder.
 - **A young sorcerer: no armor.** Her power comes from the hand, not the blade — any
