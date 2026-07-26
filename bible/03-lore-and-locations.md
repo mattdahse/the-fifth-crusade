@@ -28,6 +28,15 @@ first time any named item is illustrated.
   **a hand-span long** (six to eight inches), slim and unpierced like a small silver pipe. It is
   **rung by striking it with a tiny silver hammer**, held in the other hand. *Avoid:* a bell of
   any kind — cup-shaped, flared, clappered, or swung on a cord.
+- ***Solemn Hour*** — a **straight, broad-bladed masterwork longsword**, plain bright steel, sober
+  and understated rather than ornate. **Warm bronze-gold furniture:** a straight crossguard with
+  slightly flared tips, a ribbed and wrapped grip, a simple rounded pommel. Along the fuller near
+  the hilt runs a line of **flowing celestial script** — *Protect us from evil in this solemn hour*
+  — etched into the steel, catching the light. It carries **no gems and no glow**; it is a good
+  soldier's sword, made in the First Crusade and kept. Travels in a **long wooden case lined with
+  dark cloth**. Established look: [`../images/solemn-hour.png`](../images/solemn-hour.png).
+  *Avoid:* a jewelled or gilded blade, a glowing blade, a greatsword or curved blade, a fantasy
+  sword with spikes or scrollwork, runes that are not flowing script.
 - **The Kenabres Wardstone fragment** — the last and largest surviving piece: a single rough,
   irregular block of crystal **roughly the size of an airline carry-on bag** (about two feet
   long), glowing from within with warm holy gold-white light. It is a **block of stone, not a
