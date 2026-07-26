@@ -32,7 +32,10 @@ star-white, pale gold, or cold blue. Resist rainbow saturation.
 
 **Composition.** A single subject, full-body or three-quarter, standing with quiet
 gravity and a serious, weathered expression. Portrait orientation, roughly 3:4.
-Subject reads clearly against the background.
+Subject reads clearly against the background. *That expression is the resting default
+for a figure who is merely standing — the moment something is happening to them, give
+them the eyeline and inner state the scene calls for instead (see* **Every figure needs
+an eyeline and an inner state** *below).*
 
 **World.** Backgrounds are the Worldwound and the crusader marches — crumbling cities,
 broken walls, blasted heath, overcast and turbulent skies, drifting haze and embers.
@@ -49,12 +52,15 @@ soft atmospheric depth behind. No text, no watermark, no signature, no UI, no bo
 > low-key lighting, strong backlight / rim light from **[single source: moonlight /
 > breaking sun / starlit glow]**, muted earthy palette of browns and blacks with a
 > single luminous **[star-white / gold / cold-blue]** accent. Overcast turbulent sky,
-> atmospheric haze and drifting embers. Rich brush texture, grounded anatomy, serious
-> weathered expression. Portrait orientation ~3:4, high detail.
+> atmospheric haze and drifting embers. Rich brush texture, grounded anatomy.
+> **[EYELINE — what this figure is looking at, named explicitly]**, **[INNER STATE — the
+> feeling at this instant, given as two or three physical tells]**. Portrait orientation
+> ~3:4, high detail.
 >
 > **Negative:** anime, cartoon, cel-shaded, 3-D render, comic ink, flat vector,
 > bright even lighting, oversaturated, glossy, modern clothing or objects, text,
-> watermark, signature, border, extra limbs, deformed hands.
+> watermark, signature, border, extra limbs, deformed hands, a calm or blank expression,
+> a neutral face, a posed portrait look, looking at the viewer.
 
 ## The iron rule: canonical likeness
 
@@ -91,6 +97,44 @@ prompt body *and* the `Avoid:` line. See CANON.md's *Known drift* section.
 
 **QA the render against the portraits** feature by feature before publishing, and
 regenerate rather than shipping a drifted likeness.
+
+## Every figure needs an eyeline and an inner state — this is mandatory
+
+A prompt that says where a figure stands and what they hold, but not **where they are looking**
+or **what they feel**, will get back a neutral, camera-aware portrait face dropped into the
+scene. The model has no default emotion, so it supplies none — and a blank face in the middle
+of an event reads exactly like a character sheet pasted over the artwork. **State both for
+every named figure, every time.**
+
+**1. Eyeline — name the thing they are looking at.** Not "she looks intent"; *"her eyes locked
+on the point where the prongs meet the crystal."* Name the actual target in the frame. If a
+figure has no reason to look anywhere in particular, that is a sign the composition hasn't
+decided what the picture is about yet.
+
+**2. Inner state — name the feeling, then give two or three physical tells.** An adjective
+alone ("determined", "afraid") mostly doesn't survive into the render. The tells do: *eyes wide,
+brows raised and drawn together, lips parted, breath caught, jaw set, shoulders hunched, teeth
+gritted, tears standing.* Pick the feeling from **what the chapter says is happening to that
+character at that instant**, not from a generic heroic register.
+
+**3. The emotion is the beat, not decoration.** Ask what the moment costs the character and
+render *that*. Rabiah breaking the Wardstone is not performing a careful technical operation —
+she is destroying a holy thing set in place by a god, and the face has to carry awe and dread
+together. Harlock in the chokepoint is not posing; he is being unmade and holding anyway.
+
+**The house "serious, weathered expression" is the resting default for a standing portrait —
+not for a character inside an event.** When something is happening in the frame, the event wins.
+Don't let the calm default override the beat.
+
+**Put the negatives in every prompt:** `a calm or blank expression, a neutral face, a posed
+portrait look, looking at the viewer, looking past the subject of the scene`.
+
+**QA — the pasted-portrait test.** For each named figure, ask: *can I say in one sentence what
+they are looking at and what they are feeling?* Then the sharper version: **if you cropped that
+face out and used it as a standalone portrait, would you notice anything missing?** If the
+answer is no, the face is disengaged and the image needs another pass. This is what went wrong
+in the first `the-rod-touches-the-stone` — everything in the frame was correct except that
+Rabiah was gazing placidly off past the artifact she was in the act of destroying.
 
 ## Combat & action scenes — prevent the spin in the prompt, then QA
 
