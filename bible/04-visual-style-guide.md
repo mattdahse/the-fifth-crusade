@@ -75,6 +75,15 @@ gilded look. Read [`05-kit-and-timeline.md`](05-kit-and-timeline.md) for the era
 matches the scene, and put its explicit negatives (e.g. `no golden plate, no glowing sword`
 for early Harlock) in the prompt's `Avoid:` line.
 
+**Take named items from the artifact list, not from the name.** A named object's *appearance*
+is canon exactly as a face is. Read the *How they look* entries in
+[`03-lore-and-locations.md`](03-lore-and-locations.md#artifacts--relics) before writing any prompt that
+puts a relic in someone's hand, and carry that entry's `Avoid:` clauses into your own. Left to
+itself the model illustrates the **word**, not the object — a *chime of opening* came out as a
+church bell with a clapper, a *rod of cancellation* as a little dark wand, and the *Wardstone
+fragment* as a gem in a birdcage instead of a suitcase-sized block behind spiked iron. If you
+illustrate an item that has no entry yet, get its description from Matt and **add the entry**.
+
 **Write the corrections as negatives, not just positives.** The model fills any silence
 with its own defaults, and its defaults skew toward sexualized armor on women and
 orc caricature (tusks, underbite) on half-orcs. Put the explicit "no …" clauses in the
