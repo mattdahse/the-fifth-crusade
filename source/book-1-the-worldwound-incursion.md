@@ -448,6 +448,8 @@ The paladin waded in and cleaved them where they stood, while Lupenor and Rabiah
 
 ### **Solemn Hour**
 
+![In a wrecked alchemical workroom, **Varic** cuts the cord on a long case and finds ***Solemn Hour*** — a masterwork blade lettered in celestial, and a note naming its rightful owner: **Irabeth**.](images/solemn-hour.png)
+
 A faint knocking sounded from somewhere behind them, and a door they had left shut now stood open — proof they were no longer alone in the garrison. In a side chamber of alchemical apparatus they found a long case bound in cord. Varic cut it open. Within lay a masterwork longsword, and near its hilt, engraved in celestial, two words: ***Solemn Hour***. A note tucked beside it named the blade's rightful owner — **Irabeth** — and the company resolved to see it returned to her hand. Harlock took the case upon his back.
 
 It was Rabiah who noticed the wall's secret: a faint rectangular outline glowing softly where no door should be. Yet for all their searching they found neither lock nor catch nor lever, and though Varic's senses confirmed the magic humming within it, the sealed door would not yield. They marked the place in memory and moved on.
@@ -459,6 +461,8 @@ An iron-bound door barred their way, and where Harlock's mailed fingers fumbled 
 Dretches waited beyond, small and vile, and one of them exhaled a ***Stinking Cloud*** that swallowed the whole room. The company reeled out of it retching and half-blind, splitting to either side of the passage, their strength turned to sickness. Harlock alone kept both his stomach and his footing, and there in the fouled murk he hewed the little demons down one by one until the vapor thinned and passed.
 
 ### **The Black Stair**
+
+![Set in the chokepoint at the foot of the stair, **Harlock** is very nearly unmade — his garments alight, ***Radiance*** falling on the tieflings above — while **Varic** holds him upright with one hand and tears the demons' ***darkness*** away with ***daylight*** from the other.](images/the-black-stair.png)
 
 Stairs climbed the wall toward the upper floor, and from their head a tiefling alchemist flung a smoking vial that burst among them. What followed was the longest and cruelest fight of the night. Crossbow-armed tieflings crouched upon the steps; bombs bloomed in fire and acid; casters chanted from beyond sight; and then a smothering ***darkness*** fell over everything, until Varic drew a wand and loosed ***daylight*** to tear it away.
 
