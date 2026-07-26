@@ -428,7 +428,7 @@ The last chamber had been a museum, now smashed to splinters, where two headless
 
 *— Session of February 14, 2025 —*
 
-## **By Arms Inherited**
+## **In This Solemn Hour**
 
 <!-- fathom: 242607886 -->
 
@@ -438,7 +438,7 @@ The last chamber had been a museum, now smashed to splinters, where two headless
 
 They gathered again amid the ruin of the fouled shrine, four figures grown surer in their craft since last the fighting stilled — a quiet hardening of will and hand that each of them felt but none spoke aloud. **Harlock Greyforge**, paladin of **Iomedae**, checked the straps of his armor. **Lupenor Celest**, the elven slayer who kept faith with **Desna**, tested her bowstring. Young **Rabiah** turned over half-remembered words of power, and **Varic Sarian**, cleric of **Sarenrae**, took stock of his blessings.
 
-Behind them lay their earlier work: the double doors charged, the rush of cultists cut down, the desecrated shrine reclaimed, and the defacing demons put to the sword. Upon one wall, hidden in the celestial script of its ruined designs, they had found a single line — *Let us inherit by arms* — a phrase that lodged in memory like a splinter. Their misshapen kinsmen-at-arms had gone back through the dark toward **Defender's Heart**, bearing cleansed corpses, while out in the streets of old Kenabres the crusade raised a deliberate clamor to draw the garrison's patrols away. Every minute spent within was a minute paid for in crusader blood. They left the great doors as they were and pressed deeper, seeking the Wardstone fragment said to lie somewhere in the three-storied fortress — a place with no cellar, and no easy answers.
+Behind them lay their earlier work: the double doors charged, the rush of cultists cut down, the desecrated shrine reclaimed, and the defacing demons put to the sword. Upon one wall, hidden in the celestial script of its ruined designs, they had found a single line of holy verse — *Let us inherit thine arms* — a phrase that lodged in memory like a splinter. Their misshapen kinsmen-at-arms had gone back through the dark toward **Defender's Heart**, bearing cleansed corpses, while out in the streets of old Kenabres the crusade raised a deliberate clamor to draw the garrison's patrols away. Every minute spent within was a minute paid for in crusader blood. They left the great doors as they were and pressed deeper, seeking the Wardstone fragment said to lie somewhere in the three-storied fortress — a place with no cellar, and no easy answers.
 
 ### **The Hall of Defaced Heroes**
 
@@ -474,7 +474,7 @@ Last of all came a broader demon, high-warded and thick of hide, shrugging off h
 
 ### **Ground Not Yet Won**
 
-Varic's channeled light washed the weariness from the company, and they took stock. Doors still stood unopened on the floor above; the glowing sealed door remained a riddle; the Wardstone fragment lay somewhere still beyond their reach. Rather than climb blind and spent into the unknown, they chose to fall back and take what rest they dared. The **Gray Garrison** was not yet theirs — but they had bought another hard yard of it with arms, as the hidden words had bid them.
+Varic's channeled light washed the weariness from the company, and they took stock. Doors still stood unopened on the floor above; the glowing sealed door remained a riddle; the Wardstone fragment lay somewhere still beyond their reach. Rather than climb blind and spent into the unknown, they chose to fall back and take what rest they dared. The **Gray Garrison** was not yet theirs — but they had bought another hard yard of it, and the verse hidden in the celestial script waited still, its asking unanswered.
 
 *— Session of February 28, 2025 —*
 
