@@ -44,11 +44,14 @@ inline (Harlock's *Radiance*, from its recovery onward; Lupenor's bow, her const
 
 ### Harlock Greyforge
 ![Harlock's Era I kit — the dimmed blade, the plain breastplate.](../images/the-dimmed-blade.png)
-- **Armor:** a plain, battered **steel breastplate bearing Iomedae's sunburst** over a
-  padded gambeson. **NO pauldrons, gauntlets, greaves, or filigree. NO golden plate** —
-  that is his much-later look.
-- **Shield:** a basic **scavenged wooden shield** (unnamed; the sunburst is Iomedae's
-  device, not a relic).
+- **Armor:** a plain, battered **steel breastplate bearing Iomedae's holy symbol — a
+  vertical sword, point down, in front of a blazing sun** — over a padded gambeson.
+  **NO pauldrons, gauntlets, greaves, or filigree. NO golden plate** — that is his
+  much-later look. The sword-and-sun is on his chest in **every** era; only the armor
+  under it changes.
+- **Shield:** a basic **scavenged wooden shield**, likewise blazoned with the
+  sword-and-sun (unnamed; the device is Iomedae's, not a relic). **He carries this only
+  through Era I — it is replaced in the Book I Epilogue; see Era II.**
 - **Weapon:** **fluid before the middle of Ch. IV** — in the earliest undercity scenes he
   fights with whatever he has (a glaive, a hammer, a plain sword); take it from the scene.
 - **Radiance:** he bears it **from "Radiance Reclaimed" (Book I, Ch. IV) onward** — a **dull,
@@ -91,6 +94,36 @@ inline (Harlock's *Radiance*, from its recovery onward; Lupenor's bow, her const
 
 ---
 
+## Era II — Arms Inherited  *(Book I, Epilogue onward)*
+
+**Begins at:** *Let Us Inherit Thine Arms* — the hidden shrine-vault behind the altar in the
+Gray Garrison, opened in the Book I Epilogue. Everything before that scene is Era I; everything
+after it, until the company next re-equips, is Era II.
+
+Era I still governs the rest of the look — the company is battered, campaign-worn, and a long
+way from gilded. Only what is listed here has changed.
+
+### Harlock Greyforge
+- **Shield — CHANGED.** The scavenged wooden shield is gone. From the vault he takes a
+  ***steel shield of blinding***: **the large, richly-worked shield seen in his canonical
+  portrait** ([`../characters/harlock.png`](../characters/harlock.png)) — substantial, metal,
+  finely bordered — blazoned across its face with **Iomedae's holy symbol: a vertical sword,
+  point down, in front of a blazing sun.** Being a shield *of blinding*, it may catch and throw
+  a hard flare of light when the scene calls for it; at rest it is simply a fine steel shield.
+  **Avoid:** `scavenged wooden shield, plank shield, a bare starburst with no sword`.
+- **Armor — unchanged.** Still the plain battered breastplate with the sword-and-sun over a
+  padded gambeson. **NO golden full plate yet** — that remains a later era.
+- ***Radiance* — unchanged.** Awakened since Ch. VI; a golden longsword that can blaze with
+  gold-white holy light.
+
+### The rest of the company
+The vault also yielded pristine mail, quivers stamped with the golden sign, and silver shields,
+most of which the company resolved to give over to the Crusade rather than keep. **Only
+Harlock's shield is settled canon so far** — if Lupenor, Rabiah, or Varic took anything from
+that vault, ask Matt and add it here before illustrating it.
+
+---
+
 ## Later eras — to be filled in as the story reaches them
 
 Add a new era block each time the company meaningfully re-equips, and carry each character's
@@ -115,3 +148,14 @@ him **already gilded**, inconsistent with Era I above:
 - [`../images/the-host-of-sorrowful-stone.png`](../images/the-host-of-sorrowful-stone.png)
 
 **Decision pending (Matt):** regenerate these two to the humble kit, or accept the drift.
+
+**Harlock's holy symbol predates this rule.** The sword-and-sun device was settled only at the
+Book I Epilogue. Every Harlock image made before it — the chest device in
+[`../images/the-dimmed-blade.png`](../images/the-dimmed-blade.png),
+[`../images/the-kindling-of-radiance.png`](../images/the-kindling-of-radiance.png),
+[`../images/the-worm-wearers-at-the-threshold.png`](../images/the-worm-wearers-at-the-threshold.png)
+and the rest of Book I — shows a **bare starburst with no sword**, or no legible device at all.
+
+**Decision pending (Matt):** accept the drift in the existing Book I art and hold the
+sword-and-sun from the Epilogue forward, or regenerate the affected images. All **new** art
+carries the sword-and-sun regardless.

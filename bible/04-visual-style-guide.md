@@ -37,6 +37,15 @@ for a figure who is merely standing — the moment something is happening to the
 them the eyeline and inner state the scene calls for instead (see* **Every figure needs
 an eyeline and an inner state** *below).*
 
+*Two kinds of scene take a deliberate **landscape** frame instead of the 3:4 default: a
+two-combatant standoff (see* **Combat & action scenes** *below), and a **wide establishing /
+crowd shot**, where the subject is really the ruined world and the mass of people in it and
+the company sits small in the middle distance. For the latter, go landscape ~3:2, let the
+frame edges fall away into gloom, and hold the eye with a bright center. Note what this costs:
+at that distance the company's faces no longer carry the beat, so **give the company their
+eyeline and inner state as silhouette and posture** — a head tipped back, a step halted, a
+shoulder set — and let the readable **faces belong to the crowd** they are lit by.*
+
 **World.** Backgrounds are the Worldwound and the crusader marches — crumbling cities,
 broken walls, blasted heath, overcast and turbulent skies, drifting haze and embers.
 Desolate, atmospheric, lived-in. No clean modern surfaces, no anachronisms.
