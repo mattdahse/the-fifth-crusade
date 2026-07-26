@@ -107,6 +107,30 @@ prompt body *and* the `Avoid:` line. See CANON.md's *Known drift* section.
 **QA the render against the portraits** feature by feature before publishing, and
 regenerate rather than shipping a drifted likeness.
 
+## A referenced character will not recede — don't ask them to
+
+**The moment you attach someone's reference portrait, the model treats them as the subject.**
+Ask for that same character to be *small, unlit, in shadow, and ignored by the crowd* and you are
+fighting the tool: it reads the reference as *this is who matters*, and quietly promotes them —
+lighting them, centring them, clearing space around them, or lifting them above the crowd as
+though they were standing on a riser. Restating "small" and "unnoticed" in the prompt does not
+fix it, and neither does the Avoid line.
+
+**So don't argue with it — compose around it.** When a named character must be incidental, use a
+framing where their prominence is *structurally impossible*:
+
+- **Put the camera behind them.** Backs fully to the viewer in the near foreground: they frame the
+  shot and cannot dominate it. (See `the-garrison-of-runners`, where the emotion belongs to the
+  one face turned toward us.) This also costs no reference at all.
+- **Crop them.** Heads and shoulders very close to camera, cut by the frame edge.
+- **Occlude them** behind bodies, furniture or doorways, so the crowd physically covers them.
+- **Or cut them from the frame entirely** and let the caption carry that they were present.
+
+*Learned on the first `the-ballad-of-the-wardstones-champions`, which asked for the four to stand
+small and unnoticed at the back of a roaring tavern. Every one of them came back lit, spaced and
+elevated above the crowd — not because the prompt was unclear, but because five attached
+references cannot be background.*
+
 ## Every figure needs an eyeline and an inner state — this is mandatory
 
 A prompt that says where a figure stands and what they hold, but not **where they are looking**

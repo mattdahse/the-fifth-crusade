@@ -60,6 +60,8 @@ So they kept the pace of the broken, and watched the scrub for cloven prints, an
 
 ### **The Garrison of Runners**
 
+![**Irabeth** had been holding that breath a long time. The children waiting with notes in their fists are her couriers — and the tune two of them have stopped to hum is about the four who just walked in.](images/the-garrison-of-runners.png)
+
 **Kenabres** came in sight at mid-morning. On the road beneath her walls they overtook a knot of refugees moving the other way — people scarcely better off than the ones they carried, but with a wagon, a little food, and the particular steadiness of those who have decided to keep going. Into their keeping the company gave the waystation's survivors, and then put their heels to their borrowed horses and rode the rest of the way at a gallop.
 
 **Irabeth** had moved her command out of the **Defender's Heart** and into the **Gray Garrison** itself — the fortress they had taken from the demons a handful of days before. They handed their reins to the stableman at the gate, and from somewhere back among the stalls a boy's voice was singing. They caught perhaps four words of it, and one of the four was *Harlock*. They were too full of their news to wonder at it, and went in.
@@ -127,6 +129,8 @@ Word came that the Queen's retinue was at the gates. Hard behind it came a summo
 **Callan** was somehow already there when it arrived, his gear packed and ready to travel. He was not named in it. He came anyway.
 
 ### **The Queen**
+
+![She had one ceremony left in her, and she spent it here — on a sixteen-year-old sorcerer, an elven scout, a half-orc and a priest of the **Dawnflower**. With the title came the right to raise armies and to hold land.](images/knights-of-the-fifth-crusade.png)
 
 They were not the only ones sent for. **Aravashnial** had been brought, blind and impatient. **Anevia** was there, and **Irabeth** beside her.
 
