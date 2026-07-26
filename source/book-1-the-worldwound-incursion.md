@@ -552,7 +552,7 @@ But it did not drain entirely. Something had woken in the four of them that woul
 
 *March 28, 2025 session — the hour after the Gray Garrison, in the wounded city of Kenabres*
 
-![They chose the tunnels over a parade, and were seen all the same. **Harlock**, **Varic**, **Lupenor** and **Rabiah** come up into the ruined streets still burning with a light that would not fade, and the crusaders and refugees of the **Defender's Heart** stop where they stand. Above the broken city, for the first time in memory, the stars.](images/the-march-of-the-glowing-ones.png)
+![They chose the tunnels over a parade, and were seen all the same. **Harlock**, **Varic**, **Lupenor** and **Rabiah** come up into the ruined streets still burning with a light that would not fade, and the crusaders and refugees of the **Defender's Heart** stop where they stand. Above the broken city, for the first time since **Armasse**, the stars.](images/the-march-of-the-glowing-ones.png)
 
 ### **A Room Full of Silence**
 
@@ -572,7 +572,7 @@ There remained one riddle in the temple. A door of no visible hinge stood outlin
 
 ### **The March of the Glowing Ones**
 
-They chose humility over spectacle and returned to **Defender's Heart** through the tunnels beneath the broken city, rather than parade their light down the open streets. Yet there was no hiding it. Crusaders returning from every road stopped and stared across the dark; guards forgot to open the gate, then remembered themselves and dragged the barricades aside with careful, reverent hands. Within the hall a cautious celebration was already underway — women, children, the old, the refugees who had sheltered here — and as the four passed among them, pristine and shining, hands rose to lips and pressed against sword-pommels in the old gesture of the faithful, as one crosses oneself before something sacred. Above the ruined city, for the first time in memory, the stars had returned.
+They chose humility over spectacle and returned to **Defender's Heart** through the tunnels beneath the broken city, rather than parade their light down the open streets. Yet there was no hiding it. Crusaders returning from every road stopped and stared across the dark; guards forgot to open the gate, then remembered themselves and dragged the barricades aside with careful, reverent hands. Within the hall a cautious celebration was already underway — women, children, the old, the refugees who had sheltered here — and as the four passed among them, pristine and shining, hands rose to lips and pressed against sword-pommels in the old gesture of the faithful, as one crosses oneself before something sacred. Above the ruined city, for the first time since the sky broke at **Armasse**, the stars had returned.
 
 ### **Three Dreams and a Kiss Upon the Brow**
 
