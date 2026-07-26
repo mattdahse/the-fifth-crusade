@@ -26,6 +26,8 @@ The omens gathered as they went. A farmstead stood gutted and smoking, a charred
 
 ### **The Stables**
 
+![He reached the girl first. What he had left, half-slain, **Varic** spent on **Harlock**.](images/the-hands-of-the-dawnflower.png)
+
 They came to the palisade at dusk: an open gate, an abandoned guard post, a three-story house of seamless stone with black smoke curling from its upper windows. From the long stable behind it came screams. Inside waited a scene torn from the Abyss — two men spiked to the walls to watch, a squalid bed of hay strewn with looted finery, and a young woman whimpering beside it while a leering fiend capered above her.
 
 The fight that followed was the fiercest they had known since the wardstone. Harlock charged first, swearing the demons' blood would paint the walls, and drew the wrath of them all onto himself. Lupenor's arrows struck with terrible precision, one volley near enough to fell a demon outright even as a scimitar opened her side. Rabiah's missiles and a well-timed ***Haste*** turned the tide; her newly-woken magic held true. When a goat-hooved demon set its halberd to the captive girl's throat, Harlock struck the weapon from its grasp — but the thing recovered it and dealt her a mortal blow. Varic threw himself onto the bed and wrenched her back from death, then, half-slain by a savage stroke meant for the paladin, called down a healing so potent it sealed Harlock's wounds and set him alight with holy fire. One by one the demons fell. *You struck an unarmed woman,* came the word as cold iron drove home. *You have earned my ire.*
