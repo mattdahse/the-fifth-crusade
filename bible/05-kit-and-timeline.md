@@ -111,8 +111,14 @@ way from gilded. Only what is listed here has changed.
   point down, in front of a blazing sun.** Being a shield *of blinding*, it may catch and throw
   a hard flare of light when the scene calls for it; at rest it is simply a fine steel shield.
   **Avoid:** `scavenged wooden shield, plank shield, a bare starburst with no sword`.
-- **Armor — unchanged.** Still the plain battered breastplate with the sword-and-sun over a
-  padded gambeson. **NO golden full plate yet** — that remains a later era.
+- **Armor — unchanged, and this matters.** Still the plain battered breastplate with the
+  sword-and-sun over a padded gambeson, and **padded cloth everywhere else**. **NO pauldrons,
+  NO gauntlets, NO greaves, NO filigree, NO golden full plate.** He took a shield from that
+  vault and nothing else. **Avoid:** `steel pauldrons, shoulder armour, gauntlets, greaves,
+  golden full plate`.
+  *(Accepted drift: [`../images/the-march-of-the-glowing-ones.png`](../images/the-march-of-the-glowing-ones.png)
+  gives him steel pauldrons. Matt has let that one slide; it is not a kit change, and new art
+  goes back to bare shoulders over the gambeson.)*
 - ***Radiance* — unchanged.** Awakened since Ch. VI; a golden longsword that can blaze with
   gold-white holy light.
 
@@ -156,6 +162,6 @@ Book I Epilogue. Every Harlock image made before it — the chest device in
 [`../images/the-worm-wearers-at-the-threshold.png`](../images/the-worm-wearers-at-the-threshold.png)
 and the rest of Book I — shows a **bare starburst with no sword**, or no legible device at all.
 
-**Decision pending (Matt):** accept the drift in the existing Book I art and hold the
-sword-and-sun from the Epilogue forward, or regenerate the affected images. All **new** art
-carries the sword-and-sun regardless.
+**Decided (Matt, July 2026): leave the prior art in place.** The bare starburst stands in the
+existing Book I images; the sword-and-sun holds from the Book I Epilogue forward, and **all new
+art carries it** without exception. Do not reopen this.
