@@ -552,6 +552,8 @@ But it did not drain entirely. Something had woken in the four of them that woul
 
 *March 28, 2025 session — the hour after the Gray Garrison, in the wounded city of Kenabres*
 
+![They chose the tunnels over a parade, and were seen all the same. **Harlock**, **Varic**, **Lupenor** and **Rabiah** come up into the ruined streets still burning with a light that would not fade, and the crusaders and refugees of the **Defender's Heart** stop where they stand. Above the broken city, for the first time in memory, the stars.](images/the-march-of-the-glowing-ones.png)
+
 ### **A Room Full of Silence**
 
 The last demon winked out of the world, and for a breath there was only the ringing quiet that follows slaughter. Four figures stood amid the ruin of the sanctum — **Harlock Greyforge**, paladin of **Iomedae**; **Lupenor Celest**, the elven archer who walked in **Desna's** shadow; young **Rabiah**, the street-born sorceress; and **Varic Sarian**, healer of the **Dawnflower** — and all four still burned. A pale radiance clung to their skin, casting no shadow, as though each had swallowed a coal of the sun. The **Wardstone** was gone. Where **Iomedae's** ancient bulwark had stood caged and pulsing, only a few glittering shards remained lodged in the stone, and the pulverized remnants of its guardian, the oracle **Jeslyn**, lay scattered across the floor.
