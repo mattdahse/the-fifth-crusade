@@ -530,6 +530,8 @@ And as it died the **Wardstone** showed them what it had been. They saw it raise
 
 ### **Areelu's Vengeance**
 
+![Her design broken, **Areelu Vorlesh** flung her image across the planes to promise them extinction — and found the wardstones' light already fused into the four of them. At the frame's edge lies **Chirrik**, felled with the other scouts; whether she still breathed, none of them yet knew.](images/areelus-vengeance.png)
+
 The architect of that design felt it break. **Areelu Vorlesh** flung her image across the planes into the room, transparent and beautiful and furious, and promised them their kind's extinction. She reached out a hand, and the breath went out of the mongrelfolk who had followed them so far — the loyal scouts clawing at their throats and dropping — and then the same killing magic broke uselessly against the light still surging in the company, and her fury turned to alarm.
 
 So she tore a rift in the world instead. Six **babau** blood-demons spilled through it, and behind them, in the red dark beyond, the company glimpsed worse things gathering — vrocks, a glabrezu, the many-armed shape of a marilith — the host they would spend years learning to face. But the power in their blood lashed outward and slammed the rift shut before the greater demons could come, and the feedback of it caught **Areelu** on the far side: her wings shredded, her bones broke, and her image was torn away — gravely wounded, and gone.
