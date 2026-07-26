@@ -20,7 +20,7 @@ Elsewhere the young sorcerer **Rabiah** kindled a light of her own and clawed aw
 
 ### **The Freeing of Anevia**
 
-![The first thing the four ever do together, they do for a stranger — and no light in all that dark but **Sarenrae's** sunburst at **Varic's** throat.](images/the-freeing-of-anevia.png)
+![The first thing the four ever do together, they do for a stranger.](images/the-freeing-of-anevia.png)
 
 The pinned woman was **Anevia**, one leg broken beneath a great block of stone. With a length of found rope and the strength of **Harlock Greyforge** — the stalwart of **Iomedae**, who had come to the festival of **Armasse** to swear his oath and be raised a paladin, and whose vigil the demons had broken before ever the words could leave him — the company rolled the stone aside and drew her free. **Varic** knit the worst of her wounds with the healing grace of his goddess, splinted the shattered limb, and fashioned a crutch. For **Aravashnial** he could do less; the ruin of the elf's eyes lay beyond any power he held, and he could offer only to staunch the bleeding and speak the plain, hard truth. The elf accepted it with the weary dignity of one who had expected no better.
 
