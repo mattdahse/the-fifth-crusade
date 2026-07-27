@@ -248,7 +248,7 @@ The scouts had bought the Redeemers the one advantage that mattered. The tieflin
 
 ### **The Gaol on the East Bank**
 
-A dozen of the original garrison were still alive, penned in a stone building — held back from despair by their ranking survivor, a sergeant named **Camila Dann**, who had kept them steady even as their captors took one or two away every few hours and did not bring them back. She came out of that gaol, found the commander of the army that had freed her, snapped a salute, and asked for orders.
+A dozen of the original garrison were still alive, penned in a stone building — held back from despair by their ranking survivor, a sergeant named **Kamilo Dann**, who had kept them steady even as their captors took one or two away every few hours and did not bring them back. She came out of that gaol, found the commander of the army that had freed her, snapped a salute, and asked for orders.
 
 What to do with them took some debate. A dozen wounded crusaders could not hold **Vilareth Ford** against the next thing that came for it; leaving them here was simply arranging their deaths at a later date. Nor could the Redeemers spare anyone to stiffen them. In the end they were sent back down the road to **Kenabres** — to carry word of the ford's fall, and to ask for reinforcement or rejoin the Queen's army, as the Queen saw fit.
 
@@ -302,7 +302,7 @@ And not one of them thought to ask, that night, who had put three vials of a dem
 
 ### **The Ford Behind Them**
 
-Morning came to **Vilareth Ford** with a great deal left over from the night before. The trench on the bank was filled in. **Camila Dann** and her dozen went south down the road toward **Kenabres** with their orders. **Sosiel** kept close to **Aron Kir**, and somebody was always within sight of the scout, and nobody made a point of saying why.
+Morning came to **Vilareth Ford** with a great deal left over from the night before. The trench on the bank was filled in. **Kamilo Dann** and her dozen went south down the road toward **Kenabres** with their orders. **Sosiel** kept close to **Aron Kir**, and somebody was always within sight of the scout, and nobody made a point of saying why.
 
 **Varic** spent what was left of his mercy on the wounded before they broke camp, and the ford — twin stumps of grey stone crouched on either bank, low walls thrown up around each — was left behind them, held by nobody, a crossing that would have to answer for itself until the crusade could spare men to keep it.
 
