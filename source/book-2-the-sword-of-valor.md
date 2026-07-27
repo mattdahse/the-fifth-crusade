@@ -246,6 +246,8 @@ It had been taken only days earlier — the small crusader contingent that had h
 
 The scouts had bought the Redeemers the one advantage that mattered. The tieflings were still marshalling when a hundred armored horse came out of the concealing ground and into their encampment, and after that it was less a battle than an accounting. The ford was retaken. Not one of **Rabiah**'s people was left on the field.
 
+![They were still marshalling — straps loose, helmets not yet on — when the brush at the top of the slope came apart and the **Redeemers** came down it. The girl on foot at the centre of the line is sixteen years old, and what she is pointing at is the enemy's flank.](images/the-taking-of-the-ford.png)
+
 ### **The Gaol on the East Bank**
 
 A dozen of the original garrison were still alive, penned in a stone building — held back from despair by their ranking survivor, a sergeant named **Kamilo Dann**, who had kept them steady even as their captors took one or two away every few hours and did not bring them back. She came out of that gaol, found the commander of the army that had freed her, snapped a salute, and asked for orders.
