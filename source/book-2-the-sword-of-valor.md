@@ -86,6 +86,8 @@ And everywhere they went the whispers went with them. Faces turned at the edge o
 
 ### **The Ballad of the Wardstone's Champions**
 
+![Their introduction to **Callan Thornwind** — a packed room word-perfect on a ballad about them, and wrong from end to end. *"We killed a balor? I don't think so."*](images/the-ballad-of-the-wardstones-champions.png)
+
 At the end of the day they came, each by their own road, back to the **Defender's Heart**. It was the command of nothing now, but it remained the one place in **Kenabres** where the homeless and the idle gathered for news and company and ale and song, and that evening it was serving all four at once.
 
 A man was standing on the bar. He was half-walking and half-dancing the length of it with a lute in his hands, brass buttons and polished boot-buckles flashing in the torchlight, and he was leading a packed common room through a ballad that every soul in it already seemed to know. Mugs and flagons swung in time. The chorus came back at him like a wave off a seawall.
