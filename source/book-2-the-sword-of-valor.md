@@ -290,6 +290,8 @@ The whole camp turned out to hunt for him, and it did not take long. They found 
 
 The blood went out of **Aron**'s face. He staggered back a half-step in the glare of the blade, and then he told them.
 
+![Through **Harlock**'s eyes, and only his: the curl of wickedness at the pouch was what his faith showed him, and nobody else in that camp could see it at all. **Sosiel** is already begging, and he is begging the man holding the sword.](images/radiance-at-the-pouch.png)
+
 Shadowblood. Three vials of it. He swore before all of them that he did not know how it had come into his pouch. He had believed himself free of the drug — but after the fighting, the old craving had come up in him again, and he had held it down, and then he had found the vials among his own gear and felt his will begin to come apart. When **Sosiel** had gone to sleep, he had slipped out of camp to take one. Only one. And with the craving quieted he had promised himself he would have the strength to break the other two against the rocks.
 
 **Sosiel** begged them for mercy, and asked that **Aron** be left in his keeping. They had broken this addiction together once before, he said; **Aron** had been clean of it for a year, to the day almost. He believed him when he said he did not know where the vials had come from. He also acknowledged, unflinching, what addiction does to a man's judgment — how it will make him justify anything at all in order to be fed.
