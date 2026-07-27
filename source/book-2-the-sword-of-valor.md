@@ -304,11 +304,13 @@ And not one of them thought to ask, that night, who had put three vials of a dem
 
 *— Session of April 26, 2025 —*
 
-## **The Bell That Never Rang**
+## **The Lost Chapel**
 
 <!-- fathom: 297872089 -->
 
-*May 10, 2025 session — the crusade's march from the river ford toward **Drezen**, and a defiled chapel above the canyon*
+<!-- date: May 10, 2025 -->
+
+*May 10 and June 21, 2025 sessions — the crusade's march from the river ford toward **Drezen**, and the two nights it took to cleanse a defiled chapel above the canyon*
 
 ### **The Ford Behind Them**
 
@@ -344,12 +346,6 @@ Then the masters ran. One bolted for a side door and was pincushioned before he 
 
 The chapel fell silent. The clerics had been no small foes, and the company knew now, by that reach for the rope, that they had cleared only the first room of a place that ran deeper — more chambers, another building, and that barred tunnel whose end no one had seen. To leave such a wound festering at their backs was unthinkable. They would come again to cleanse it, and if they could, to give it back to the light. But the light was gone from the canyon, and the day was spent. For now, they withdrew — victorious, and warned.
 
-*— Session of May 10, 2025 —*
-
-## **The Nest Beneath the Chapel**
-
-*June 21, 2025 session — the crusade halts its march below the canyon while the four return to finish the defiled chapel they had left half-cleansed, and to cut out the thing gnawing beneath it*
-
 ### **The Wound They Had Left**
 
 They had promised to come back, and a wound left festering at one's back does not wait patiently. The crusade halted its march in the lee of the cliff, and once more the four went up alone — **Harlock Greyforge**, **Lupenor Celest**, **Rabiah**, and **Varic Sarian** — to finish what a single night had not allowed. The knotted alarm-rope still hung untouched through its hole in the ceiling; beneath it lay **Ilzek** where they had felled him, the ghoul cleric who had never reached the cord. Nothing had come to move him. The rest of the place did not yet know they had returned.
@@ -373,6 +369,14 @@ Beyond the courtyard door waited the master of the house. **Harlock** set one fo
 ### **The Statues That Woke**
 
 The courtyard itself was the trap they had not read. Stunted trees and strangled grass choked the open ground, and at its heart a half-broken statue reached broken arms to the sky. The stone was watching them. As the company moved into the open the **gargoyles** came off their perches all at once — the reaching statue among them — and proved a good deal harder than their weathered stone suggested; it was **Lupenor**'s cold-iron and evil-outsider arrows that broke them, a single crit dropping one where a lesser shot would have chipped it. And it was the elf's low-light eyes alone that caught the worse thing: a black shape blotting the stars, circling, dropping — a great winged **nabasu** come down out of the night to feed. It leached the vigour from those it neared and struck to kill, but the four had cleared harder rooms than this, and between arrow and spell and the light of the blade they brought it down among the dead grass. The chapel, at last, was empty of everything but its dead.
+
+*— Sessions of May 10 and June 21, 2025 —*
+
+## **The Nest Beneath the Chapel**
+
+<!-- date: June 21, 2025 -->
+
+*June 21, 2025 session — the cleansed chapel given back to the light, and the descent into the poisoned canyon to cut out the queen laying beneath it*
 
 ### **The Light Given Back**
 
