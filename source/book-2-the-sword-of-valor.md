@@ -252,6 +252,8 @@ The scouts had bought the Redeemers the one advantage that mattered. The tieflin
 
 A dozen of the original garrison were still alive, penned in a stone building — held back from despair by their ranking survivor, a sergeant named **Kamilo Dann**, who had kept them steady even as their captors took one or two away every few hours and did not bring them back. She came out of that gaol, found the commander of the army that had freed her, snapped a salute, and asked for orders.
 
+![Her captors had taken the blade and left her the mail. **Kamilo Dann** came out of the dark, walked the length of the yard to the commander of the army that had freed her, and reported for duty — to a girl of sixteen who had not expected to be saluted by anyone.](images/the-salute-at-the-gaol.png)
+
 What to do with them took some debate. A dozen wounded crusaders could not hold **Vilareth Ford** against the next thing that came for it; leaving them here was simply arranging their deaths at a later date. Nor could the Redeemers spare anyone to stiffen them. In the end they were sent back down the road to **Kenabres** — to carry word of the ford's fall, and to ask for reinforcement or rejoin the Queen's army, as the Queen saw fit.
 
 Then the labor of the field: the enemy dead gathered, a long trench dug on the bank because there were far too many for single graves, and **Varic** moving among the wounded of both sides with water called out of empty air.
