@@ -264,6 +264,8 @@ They kept the ford warily. Knowing an enemy still walked this country, **Rabiah*
 
 From the heights **Lupenor** had marked a thing that unsettled even her elven calm: the river divided two worlds. Eastward the sun fell honest and clean. Westward, over the **Worldwound** side, the same light hung dim and jaundiced, and the air came fouler into the lungs.
 
+![She bound her hair back before she went up, so that nothing of her would show against the sky. Below her the army slept at the ford without a fire lit; across the water, the same sun that was setting cleanly at her back hung sick and directionless over the **Worldwound**, and she squinted into it for a long time trying to find the shape of what was out there.](images/the-river-divides-two-worlds.png)
+
 ### **Exorius**
 
 They did not sleep unmolested.
