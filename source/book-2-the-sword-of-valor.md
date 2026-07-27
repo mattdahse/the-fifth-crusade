@@ -166,6 +166,8 @@ Neither favor had been offered. Both were granted. They went out through the nor
 
 ### **Rabiah's Redeemers**
 
+![A hundred heavy horse, every one of them a volunteer, standing to attention on the flat ground north of the wall — and every one of them, though nobody said it aloud, already certain they were riding to their deaths at **Drezen**, and at peace with it. **Rabiah** gave them a name that was not modest.](images/the-hundred-that-volunteered.png)
+
 A hundred heavy horse waited at the northern edge of the camps, and every one of them a volunteer who had asked for this road. They fell into line as the company approached and stood to attention.
 
 They needed a name. **Rabiah** gave them one, and it was not modest: **Rabiah's Redeemers**. It stuck to them that hour and never came off.
@@ -184,6 +186,8 @@ There was exactly one man left in **Kenabres** with the resources to close that 
 
 ### **The Bargain at the Gwerm Estate**
 
+![Across the table in his counting-house, **Horgus Gwerm** treated a heavy purse of crusade gold as an opening position and pressed for more — magic, oaths, the keep of his own guard, and the trade of Drezen besides. Within a day **Varic** would concede he was worth every penny.](images/the-bargain-at-the-gwerm-estate.png)
+
 **Horgus Gwerm**'s estate had come through the fall of the city very nearly untouched, and he had already gathered back to himself a staff and a body of mercenaries. The company did not get past the gate on their reputation. They tried threats; the guard, who knew precisely who they were and precisely what they were and were not going to do to an innocent man at his post, called the bluff without blinking. They were admitted when Horgus decided to admit them.
 
 He proved a shrewd and merciless negotiator. The heavy purse of waystation gold went across the table first, and was treated as an opening position. By the end of it they had also handed over magic items of real value — things he could use to keep himself alive — and sworn to guard his life above and before all others; agreed to supply and pay his personal guard for the whole of the march; and conceded that in all matters of supply his counsel was to be respected and his word was final. And as if that were not sufficient, he secured from them one thing more: that if **Drezen** fell, the governance of the reclaimed city's trade would be his.
@@ -191,6 +195,8 @@ He proved a shrewd and merciless negotiator. The heavy purse of waystation gold 
 In exchange he undertook to see the army provisioned, and to march with it himself to be certain the money was not wasted.
 
 ### **A Dinner Before the Road**
+
+![The last comfort the ruins of civilization had to offer — a borrowed hall, new clothes from a tailor's shop they had saved from burning, and the people they were about to spend a hard road with. **Aravashnial** came with his sight restored and no intention of pretending he was not delighted about it; **Callan** kept his promise to keep everyone entertained.](images/a-dinner-before-the-road.png)
 
 With that concluded, they went and collected a debt of a happier kind — the fine clothing promised them by the little tailor's shop they had saved from burning in the first days.
 
@@ -215,6 +221,8 @@ By noon the Redeemers had a month's siege laid in — and not merely beans and p
 **Varic** watched the whole performance with something close to awe, and said aloud what the rest of them were thinking: the man was worth every penny he had cost them and every petty annoyance he would yet inflict.
 
 ### **The March Begins**
+
+![At midday they took the long switchback trail down the cliff, turned north along the eastern bank of the **West Sellen**, and made their first camp with **Kenabres** behind them and above them — and the **Worldwound** somewhere ahead in the dark.](images/the-switchback-road.png)
 
 They debated spending the remainder of the day in the city, and dismissed it almost at once. The troops were rested, well fed for once, and in better spirits than they had been in weeks — eager, now, to go and wet their swords. **Kenabres** was in adequate hands. The weather was fine. There would not be a better hour than this one.
 
