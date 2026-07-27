@@ -274,6 +274,8 @@ Deep in the watch, an enemy the sentries never marked came into the camp — **E
 
 The camp woke into chaos. **Lupenor** was loosing before she had thrown off her blankets, and her arrows did their work on the schirs. **Varic** fought his way to the young commander and stayed there, sword and prayer both, keeping her alive through the worst minutes of it. And **Harlock Greyforge** came at a dead run in his sleeping clothes, without a scrap of armor on him and ***Radiance*** blazing in his fist, and set himself between the incubus and the girl.
 
+![No armor, no shield, no boots — a linen shirt, a blazing sword, and one arm flung back to keep her behind him. **Exorius** had come through an entire sleeping army for **Rabiah** and got one pace from her; the arrow already standing in the schir is **Lupenor**'s, loosed from her blankets.](images/the-paladin-in-his-sleeping-clothes.png)
+
 It was the paladin who finished it. **Exorius** — who had commanded the eastern approaches to **Drezen**, and who had come in person to avenge an insult — was cut down in a half-dressed brawl among the tent ropes, and his summoned demons died around him.
 
 ### **What Aron Carried**
