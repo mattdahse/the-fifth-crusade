@@ -236,7 +236,7 @@ They made their first camp with **Kenabres** behind them and above them, and the
 
 ## **The Battle of Vilareth Ford**
 
-*April 26, 2025 session — the northernmost crossing of the **West Sellen**, and the first night the war came looking for them*
+*April 26, 2025 session — the northernmost crossing of the **West Sellen**, a gaol emptied, and a river that divided two worlds*
 
 ### **The Ford Taken**
 
@@ -258,25 +258,77 @@ What to do with them took some debate. A dozen wounded crusaders could not hold 
 
 Then the labor of the field: the enemy dead gathered, a long trench dug on the bank because there were far too many for single graves, and **Varic** moving among the wounded of both sides with water called out of empty air.
 
-### **A Camp Without Fires**
+### **The Ford Held**
 
-They kept the ford warily. Knowing an enemy still walked this country, **Rabiah** forbade cooking-fires and ordered cold rations, so that no glow should betray them, and passed the warding horn from watch to watch. The paladins raised a rough chapel of their devotion and renewed their oaths to **Iomedae**, and **Harlock** knelt among them; **Varic** blessed the officers who asked it of him. **Callan** did not play marching songs that night. He played low and grieving airs instead, until he was gently asked to let the men sleep.
+They did not bed down on the open shore. The ford came with its own works — the bunkers and low revetments the lost garrison had dug into the east bank, and which their killers had been living in ever since — and the Redeemers took possession of them and quartered there, with walls at their backs for the first night in a week. Sentries walked the parapets in pairs, and the warding horn passed from watch to watch. **Callan** spent the evening among the men, telling stories, and was thought a fine addition to the column for it.
 
 From the heights **Lupenor** had marked a thing that unsettled even her elven calm: the river divided two worlds. Eastward the sun fell honest and clean. Westward, over the **Worldwound** side, the same light hung dim and jaundiced, and the air came fouler into the lungs.
 
-![She bound her hair back before she went up, so that nothing of her would show against the sky. Below her the army slept at the ford without a fire lit; across the water, the same sun that was setting cleanly at her back hung sick and directionless over the **Worldwound**, and she squinted into it for a long time trying to find the shape of what was out there.](images/the-river-divides-two-worlds.png)
+![She bound her hair back before she went up, so that nothing of her would show against the sky. Below her the army had taken the ford's own bunkers for the night; across the water, the same sun that was setting cleanly at her back hung sick and directionless over the **Worldwound**, and she squinted into it for a long time trying to find the shape of what was out there.](images/the-river-divides-two-worlds.png)
+
+*— Session of April 26, 2025 —*
+
+## **The Battle of Keeper's Canyon**
+
+<!-- fathom: 297872089 -->
+
+<!-- date: May 10, 2025 -->
+
+*May 10, 2025 session — the road west from the ford, a canyon held by two armies, and the night a demon came through a sleeping camp for the girl who commanded it*
+
+### **The Road from the Ford**
+
+Morning came to **Vilareth Ford** with a great deal left over from the night before. The trench on the bank was filled in. **Kamilo Dann** and her dozen went south down the road toward **Kenabres** with their orders. **Sosiel** kept close to **Aron Kir**, and somebody was always within sight of the scout, and nobody made a point of saying why.
+
+**Varic** spent what was left of his mercy on the wounded before they broke camp, and the ford — twin stumps of grey stone crouched on either bank, low walls thrown up around each — was left behind them, held by nobody, a crossing that would have to answer for itself until the crusade could spare men to keep it.
+
+Then the horns of departure sounded, and the crusade wound west into the canyon country. A rain came down through the afternoon — not the dreaded blood-rain, but a drizzle that stank of ammonia and would not cease — and under it the column marched on toward **Drezen**.
+
+The paladins rode that road in a way that lifted the heart to watch — ranks dressed, horses very nearly in step. **Callan** rode it differently. He drifted, dropping back out of the company to walk a while among the troops, trading small talk down the length of the column, and he was well liked for it. **Varic** caught the tail of one such conversation and slowed to hear it out. A soldier had asked the plain soldier's question: why there were so many tieflings in this country that the enemy could throw a whole host of them at the crusade and never seem to miss them. **Callan** was happy to explain. An incubus's get, he said, was a near-certain thing — even barren women bore children by them, twins came often, and that was why the **Worldwound** never ran short of bodies to spend.
+
+The priest went looking through his reading for it and found nothing at all. He had never met the claim before; neither could he call it false. He kept his mouth shut, and thought no more about it than that.
+
+The paladins thought a great deal more about it. Word had been coming east all that year — that since the **Wardstones** failed, incubi had been moving through the villages of **Mendev** in numbers, and doing there precisely what incubi do. Most of the men on that road had families back in **Mendev**. **Callan** had told them, pleasantly, at length, and without the least appearance of malice, exactly how much of that they might expect to be true, and exactly how little of it anyone could stop. There was nothing in it to accuse him of, and nobody thought to. The column simply rode on, and the talk in it went quiet in a way it had not been quiet before.
+
+### **The Canyon Occupied**
+
+Near dusk **Lupenor** and **Anevia**, a quarter-day out in front of the column, came up onto high ground where the road turned toward **Drezen**, looked down into **Keeper's Canyon**, and did not take another step.
+
+The canyon was held, and held twice over. Two forces were camped in it, sprawled apart in the loose, undisciplined way of demons. One was an army of tieflings, two hundred swords, of a size with the host they had broken at the ford. The other was smaller and worse: a gibbering mass of **dretches** dug in among the canyon's ruins, where broken walls would do half their fighting for them. Fires were being lit down there as the light failed. And moving between the two camps went a tall figure in a white cloak, who, when he wanted to cross the ground quickly, shrugged the cloak off a pair of great bat wings and flew.
+
+Word went back down the trail at once. It was the scouts' habit that had won **Vilareth Ford** before it began, and it served the crusade again here: the army did not walk into that canyon in the dark. **Rabiah** halted the column well short of it, out of sight and out of earshot, and made camp where nothing in the canyon could see her.
+
+### **A Camp Without Fires**
+
+**Rabiah** forbade cooking-fires and ordered cold rations, so that no glow should betray the column to what was waiting below. The men ate in the dark and slept in it.
+
+The paladins raised a rough chapel of their devotion and renewed their oaths to **Iomedae**, and **Harlock** knelt among them; **Varic** blessed the officers who asked it of him. **Callan** did not play marching songs that night. He played low and grieving airs instead, until he was gently asked to let the men sleep.
+
+And when the lute was down he went walking — from one knot of men to the next, sitting a while with each, striking up conversation in the dark where nobody could see whose face was in it.
+
+**Sosiel** would remember that night later, when there was reason to. The men **Callan** sat with were, very nearly to a man, the ones whose spirits broke worst in the weeks that followed. The chaplain was careful about what that did and did not prove. A man who goes looking for the lowest company in a camp may well be the cause of what he finds there. He may just as easily be a kind man with an ear for misery, going first to the people who need him most. **Sosiel** never could say which it had been, and he was too honest to pretend he could.
+
+### **The Two Armies**
+
+They went in at first light, and this time there was no surprise to spend.
+
+The tieflings came out to meet them in the open, and were met by a hundred lances at the gallop, and that part of the morning went the way such things go when heavy horse is well handled. The **dretches** were the work. They would not stand in the open to be ridden down. They went to ground among the canyon's ruins instead, packed into broken walls and cellar mouths — and there they breathed. Each of the wretched things could foul the air around it with a rank, clinging vapour, and massed in their hundreds among the stones they laid a reeking fog across the whole ruin that horses would not enter and men could barely see through.
+
+So the paladins came off their horses. An elite company of mounted knights dismounted to fight on foot in a demon's cellar is not what such men are for, and they did it anyway, going in among the walls to dig the **dretches** out one hole at a time. It was slower and uglier than **Vilareth Ford** and cost a great deal more sweat. It cost remarkably few lives. By afternoon the tieflings who could run had run, the dretches were dead in their holes, and **Keeper's Canyon** belonged to the crusade.
+
+Their commander had escaped them. The white cloak was nowhere among the dead.
 
 ### **Exorius**
 
 They did not sleep unmolested.
 
-Deep in the watch, an enemy the sentries never marked came into the camp — **Exorius**, the incubus who had sent the tieflings to take the ford and had just watched an army take it back, and at his side a knot of summoned **schir** demons, goat-headed and rangy, halberds already swinging as they cut through canvas. He had not come for the army. His scimitar flashing and his spells going before him, he drove straight for **Rabiah**.
+Deep in the watch, an enemy the sentries never marked came into the camp — **Exorius**, the white-cloaked incubus who had held **Keeper's Canyon** that morning and by evening had neither canyon nor army left, and at his side a knot of summoned **schir** demons, goat-headed and rangy, halberds already swinging as they cut through canvas. He had not come for the army. His scimitar flashing and his spells going before him, he drove straight for **Rabiah**.
 
 The camp woke into chaos. **Lupenor** was loosing before she had thrown off her blankets, and her arrows did their work on the schirs. **Varic** fought his way to the young commander and stayed there, sword and prayer both, keeping her alive through the worst minutes of it. And **Harlock Greyforge** came at a dead run in his sleeping clothes, without a scrap of armor on him and ***Radiance*** blazing in his fist, and set himself between the incubus and the girl.
 
 ![No armor, no shield, no boots — a linen shirt, a blazing sword, and one arm flung back to keep her behind him. **Exorius** had come through an entire sleeping army for **Rabiah** and got one pace from her; the arrow already standing in the schir is **Lupenor**'s, loosed from her blankets.](images/the-paladin-in-his-sleeping-clothes.png)
 
-It was the paladin who finished it. **Exorius** — who had commanded the eastern approaches to **Drezen**, and who had come in person to avenge an insult — was cut down in a half-dressed brawl among the tent ropes, and his summoned demons died around him.
+It was the paladin who finished it. **Exorius** — who had commanded the eastern approaches to **Drezen**, and who had come in person to avenge the loss of them — was cut down in a half-dressed brawl among the tent ropes, and his summoned demons died around him.
 
 ### **What Aron Carried**
 
@@ -302,7 +354,7 @@ But they said, plainly, that **Aron Kir** would not be left unwatched again.
 
 And not one of them thought to ask, that night, who had put three vials of a demon's drug into the pouch of a man who had been clean for a year — nor to wonder which of the people sleeping in that camp had known he would be unable to refuse them.
 
-*— Session of April 26, 2025 —*
+*— Session of May 10, 2025 —*
 
 ## **The Lost Chapel**
 
@@ -310,23 +362,23 @@ And not one of them thought to ask, that night, who had put three vials of a dem
 
 <!-- date: May 10, 2025 -->
 
-*May 10 and June 21, 2025 sessions — the crusade's march from the river ford toward **Drezen**, and the two nights it took to cleanse a defiled chapel above the canyon*
+*May 10 and June 21, 2025 sessions — a crusade quietly coming apart on the march, and the clifftop chapel that had to be cleansed before it could be given back*
 
-### **The Ford Behind Them**
+### **The Grumbling in the Ranks**
 
-Morning came to **Vilareth Ford** with a great deal left over from the night before. The trench on the bank was filled in. **Kamilo Dann** and her dozen went south down the road toward **Kenabres** with their orders. **Sosiel** kept close to **Aron Kir**, and somebody was always within sight of the scout, and nobody made a point of saying why.
+The next day, on the road, **Sosiel** drew even with **Varic** and **Rabiah** and told them what he had been watching.
 
-**Varic** spent what was left of his mercy on the wounded before they broke camp, and the ford — twin stumps of grey stone crouched on either bank, low walls thrown up around each — was left behind them, held by nobody, a crossing that would have to answer for itself until the crusade could spare men to keep it.
+Some of the paladins had begun to complain. Not to shirk and not to refuse — nothing a commander could put a name to, still less a punishment. But men who had ridden out of **Kenabres** silent and glad had become uncharacteristically vocal, and first among them was **Arles Jhestander**, who had been a byword for steadiness and was becoming a byword for something else. It did not stop at the road and the rations. Some of the men had begun to say aloud that the hundred had never truly volunteered at all — that they had been worked on, and flattered, and steered into raising their hands for a march that anyone with sense could see was a march to their deaths.
 
-Then the horns of departure sounded, and the crusade wound deeper into the canyon as it bent away westward. A rain came down through the afternoon — not the dreaded blood-rain, but a drizzle that stank of ammonia and would not cease — and under it the column marched on toward Drezen, gathering what supplies the ruined ford had left to give.
-
-The paladins rode that road in a way that lifted the heart to watch — ranks dressed, horses very nearly in step. **Callan** rode it differently. He drifted, dropping back out of the company to walk a while among the troops, trading small talk down the length of the column, and he was well liked for it. **Varic** caught the tail of one such conversation and slowed to hear it out. A soldier had asked the plain soldier's question: why there were so many tieflings in this country that the enemy could throw a whole host of them at the crusade and never seem to miss them. **Callan** was delighted to explain. An incubus's get, he said, was a near-certain thing — even barren women bore children by them, twins came often, and that was why the **Worldwound** never ran short of bodies to spend.
-
-The priest went looking through his reading for it and found nothing at all. He had never met the claim before; neither could he call it false, which is the property that makes a thing worth repeating. He kept his mouth shut. It was a pleasant story, pleasantly told, by a man who had been nothing but pleasant since **Kenabres** — and it left a hundred marching men holding the arithmetic of an enemy that could not be exhausted.
+None of it rose to insubordination. All of it pointed that way. And it was spreading; **Sosiel** could not tell them how, only that it was.
 
 ### **The Track up the Cliff**
 
-Near the end of that day's march the scout **Anevia** came running back. Above them, upon the flat crown of the cliff, stood an old chapel, half-fallen; a track hacked into the rock switchbacked up to it, and nothing living stirred there. Rabiah would not risk the army against an unknown thing, nor announce the crusade's coming by torchlight on the heights. The camp was called early and set out of sight of the ruin, and the four — **Harlock**, **Lupenor**, **Rabiah**, and **Varic** — went up alone.
+Near the end of that day's march the scout **Anevia** came running back. Above them, upon the flat crown of the cliff, stood an old chapel, half-fallen; a track hacked into the rock switchbacked up to it, and nothing living stirred there.
+
+**Varic** knew the place by report before ever he saw it. There had been a house of **Iomedae** on that clifftop in the older crusades, and the stories about it agreed on one particular worth a great deal to a hungry army: that its faithful had cached stores there against the day a crusade might need them, and that nobody had ever come back to claim them.
+
+So the army was halted with hours of daylight still in hand, well short of the ruin and out of its sight — no torchlight on the heights to announce the crusade's coming. **Irabeth** was left in command of the column, and the four — **Harlock**, **Lupenor**, **Rabiah**, and **Varic** — went up alone.
 
 The climb was near mortal in itself. Ninety feet of crumbling, treacherous stair clung to the cliff-face, and at thirty feet **Harlock**, still armored, lost his hold and slid. They roped themselves together after that, each to catch the next, and it proved wisdom: when others faltered near the top it was the paladin's arm that held them, hauling **Varic** back from the drop and steadying **Rabiah**. Bruised but whole, all four gained the summit.
 
@@ -350,6 +402,16 @@ Then the masters ran. One bolted for a side door and was pincushioned before he 
 
 The chapel fell silent. The clerics had been no small foes, and the company knew now, by that reach for the rope, that they had cleared only the first room of a place that ran deeper — more chambers, another building, and that barred tunnel whose end no one had seen. To leave such a wound festering at their backs was unthinkable. They would come again to cleanse it, and if they could, to give it back to the light. But the light was gone from the canyon, and the day was spent. For now, they withdrew — victorious, and warned.
 
+### **What the Wind Carried**
+
+While the four were up on the clifftop, the army at the foot of it was quietly coming apart.
+
+It began with a sound. When the wind came round out of the west it brought something with it — not words, not quite: a thin, layered gibbering at the very edge of hearing, which a man could not be sure he heard at all until he lay down and tried to sleep. It gnawed. Sentries asked one another whether they were imagining it, and were not much comforted by the answers.
+
+Then, getting supper up, a cook turned a grain sack over and found a hole chewed in the underside of it and a little spill of chaff on the ground beneath, and whatever had made the hole long gone. It was reported, because such things are reported. It was noted. Nobody yet thought it was worth more than noting.
+
+And in between the sound and the sack, the talk went on. Dark thoughts had been riding in that column since the road from the ford. Down in the shadow of the cliff, with the four gone up into the ruin, the light going, and something gibbering away west where no one could see it, the dark thoughts began to be said out loud.
+
 ### **The Wound They Had Left**
 
 They had promised to come back, and a wound left festering at one's back does not wait patiently. The crusade halted its march in the lee of the cliff, and once more the four went up alone — **Harlock Greyforge**, **Lupenor Celest**, **Rabiah**, and **Varic Sarian** — to finish what a single night had not allowed. The knotted alarm-rope still hung untouched through its hole in the ceiling; beneath it lay **Ilzek** where they had felled him, the ghoul cleric who had never reached the cord. Nothing had come to move him. The rest of the place did not yet know they had returned.
@@ -364,7 +426,7 @@ The main sanctuary was a slaughter-hall still at its worship. Beneath a vaulted 
 
 ### **The Larder and the Flies**
 
-A side door gave onto a horror of a different colour. Two crusader soldiers hung by their ankles from meat-hooks over a cold hearth, the muscle carved from their thighs, their heads long since gone to some pot; the stoves stood dead, for the things that denned here had been eating the meat raw. When **Radiance**'s glow spilled in, a scatter of fat, purplish flies woke from the carcasses and buzzed sullenly off into the dark. No one yet knew to fear them. **Harlock** cut the two men down and laid them on the floor, that they might at least not hang like game while the fight went on.
+A side door gave onto a horror of a different colour. Two crusader soldiers hung by their ankles from meat-hooks over a cold hearth, the muscle carved from their thighs, their heads long since gone to some pot; the stoves stood dead, for the things that denned here had been eating the meat raw. When **Radiance**'s glow spilled in, a scatter of fat flies woke off the carcasses and blundered away into the dark — nothing worse than what always comes to meat left hanging, and nobody gave them a second thought. **Harlock** cut the two men down and laid them on the floor, that they might at least not hang like game while the fight went on.
 
 ### **Nolkeneth**
 
@@ -380,17 +442,39 @@ The courtyard itself was the trap they had not read. Stunted trees and strangled
 
 <!-- date: June 21, 2025 -->
 
-*June 21, 2025 session — the cleansed chapel given back to the light, and the descent into the poisoned canyon to cut out the queen laying beneath it*
+*June 21, 2025 session — a chapel given back to the light, a crusade's faith shored up on a column of cloud, and the queen laying beneath the canyon*
 
 ### **The Light Given Back**
 
-They did what they had come to do. **Harlock** and **Varic** knelt and cleansed the sanctuary and its altar with prayer and holy water, giving back to a house of **Iomedae** the sanctity the ghouls had gnawed from it. **Radiance** was quiet and warm.
+They did what they had come to do. **Harlock** and **Varic** knelt and cleansed the sanctuary and its altar with prayer and holy water, giving back to a house of **Iomedae** the sanctity the ghouls had gnawed from it. **Radiance** was quiet and warm. Then they took up as many crates of the hidden potions as four people could carry down a cliff, and went down it.
 
-And then **Harlock** did a thing that was not on any map. Word had gone through the crusade of paladins whose faith had guttered on the long, jaundiced road — chief among them a cold and sullen man the others had taken to calling the heartless, **Arlas**, who had stopped bothering to pray. **Harlock** sent for a small squad of them and had them hauled up the cliff-track, and there in the reclaimed chapel he set them to pray beside the restored altar of the Inheritor — to stand in a place demons had held that very morning and now held no longer, and to feel what the crusade was for. They came down the cliff steadier than they went up. It was a small mending, and it would matter later more than anyone there could know.
+### **Three Reports at the Foot of the Cliff**
 
-### **The Piranhas of the Air**
+Nobody was waiting to congratulate them.
 
-The reckoning waited in camp. The purplish flies had not been flies. Overnight the things had gotten into the stores, and by morning **Horgus Gwerm** — the company's blunt quartermaster, forever tallying what the war cost — was picking infested bags apart over a bowl and crushing the crawlers he sifted out. They knew the breed now: **vescavors**, an abyssal insect that belonged to no honest plane, colony-things ruled by a queen, that swarm and devour metal and skin and bone alike. *Piranhas,* someone said, *but airborne.* **Varic** spent an hour walking the supply tent with ***purify food and drink***, salvaging what stores he could and pressing the crusade to seal its grain in glass and clay and keep the rest covered, for a thing left in the open only invited more. A standing vigil was set on the larder. But cleaning the bags treated the symptom; somewhere in the poisoned canyon a queen was laying, and while she lived the swarms would keep coming. The barred tunnel the chapel had never let them open, and the fouler holes beyond it, led down to her.
+**Sosiel** and **Irabeth** came together, which was itself a kind of message. The grumbling had not paused while the four were up in the ruin; it had hardened. **Arles Jhestander** was no longer merely vocal, and he was no longer alone, and men who had never given a commander a moment's trouble in their lives were saying openly that they had been used.
+
+**Horgus Gwerm** wanted something more immediate than a discussion. The quartermaster had a bowl in front of him, a bad look on his face, and in the bowl three or four of the things he had sifted out of the crusade's grain — not flies at all, but pale, twisting, voracious little worms with wings on them, that went for the tin when he tipped it. They were in the sacks. They had been in the sacks since before anyone found the hole. **Horgus**, who costed everything and flattered no one, told the company to do something about it, because if the supply went then the march on **Drezen** ended in this canyon, and no quantity of holy light would feed a hundred horses.
+
+They knew the breed once they had a good look at one: **vescavors**, an abyssal insect belonging to no honest plane, colony-things ruled by a queen, that swarm and devour metal and skin and bone alike. *Piranhas,* someone said, *but airborne.* **Varic** spent an hour walking the supply tent with ***purify food and drink***, salvaging what stores he could and pressing the crusade to seal its grain in glass and clay and keep the rest covered, for a thing left in the open only invited more. A standing vigil was set on the larder. But cleaning the bags treated the symptom. Somewhere in the poisoned canyon a queen was laying, and while she lived the swarms would keep coming — and the gibbering the sentries had been hearing on the west wind was not, it turned out, anybody's imagination.
+
+The company slept on all of it.
+
+### **The Column of Cloud**
+
+In the morning **Varic** had a plan, and it was not a plan about insects.
+
+He sent **Irabeth** and **Sosiel** out through the camp to find the men in the worst spirits — the ones whose faith had worn thinnest, **Arles Jhestander** first among them — and to bring them, without telling them what for. Half a dozen came, wary and unwilling, most of them expecting a reprimand.
+
+What they found was the priest of the **Dawnflower** standing on the broken bed of a wrecked supply cart, which was the only platform the camp had to offer, with **Harlock Greyforge** beside him. **Varic** took out one of the silver **Scales of Terendelev** — the gift of cloud-walking, carried since the caverns under **Kenabres** and never yet spent on anything remotely like this — and called a column of cloud up underneath the lot of them. The wrecked cart and the eight men standing on it rose off the canyon floor and went up, past the ninety feet of crumbling stair the four had climbed on a rope, and set down on the clifftop.
+
+The chapel that received them had been a ghoul-den the previous morning. It was not one now. The dead were gone and the filth was gone, the altar of the **Inheritor** stood clean and newly consecrated by **Harlock**'s own hands, and what light the canyon had came through the smashed windows onto stone that had been holy for seventy years with nobody alive to know it.
+
+**Varic** did not lecture them. He asked them, simply, whether they would care to say their vows again.
+
+They said them. Six paladins of **Iomedae**, who had spent a fortnight being told in the friendliest possible way that their families were being harrowed at home and that they themselves had been tricked into dying abroad, stood in a house their own order had raised, in a place demons had held the morning before and did not hold now, and spoke the words they had first spoken as young men. **Arles Jhestander** spoke his among them.
+
+They came down the cloud steadier than they went up. It did not touch the cause of the sickness, and it did not last forever. But it held for a while, and it would matter later a great deal more than anyone standing on that clifftop could have known.
 
 ### **Into the Green Vapour**
 
