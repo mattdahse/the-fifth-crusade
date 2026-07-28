@@ -296,6 +296,8 @@ Near dusk **Lupenor** and **Anevia**, a quarter-day out in front of the column, 
 
 The canyon was held, and held twice over. Two forces were camped in it, sprawled apart in the loose, undisciplined way of demons. One was an army of tieflings, two hundred swords, of a size with the host they had broken at the ford. The other was smaller and worse: a gibbering mass of **dretches** dug in among the canyon's ruins, where broken walls would do half their fighting for them. Fires were being lit down there as the light failed. And moving between the two camps went a tall figure in a white cloak, who, when he wanted to cross the ground quickly, shrugged the cloak off a pair of great bat wings and flew.
 
+![Neither of them said anything. **Lupenor**'s hand went out flat to stop **Anevia** where she lay, and the two of them counted fires — the tiefling host nearer, the **dretches** seething in the ruins beyond under their own green haze, and the white cloak crossing the open ground between on a pair of wings. This was the first the crusade knew of **Exorius**.](images/the-canyon-held-twice-over.png)
+
 Word went back down the trail at once. It was the scouts' habit that had won **Vilareth Ford** before it began, and it served the crusade again here: the army did not walk into that canyon in the dark. **Rabiah** halted the column well short of it, out of sight and out of earshot, and made camp where nothing in the canyon could see her.
 
 ### **A Camp Without Fires**
@@ -315,6 +317,8 @@ They went in at first light, and this time there was no surprise to spend.
 The tieflings came out to meet them in the open, and were met by a hundred lances at the gallop, and that part of the morning went the way such things go when heavy horse is well handled. The **dretches** were the work. They would not stand in the open to be ridden down. They went to ground among the canyon's ruins instead, packed into broken walls and cellar mouths — and there they breathed. Each of the wretched things could foul the air around it with a rank, clinging vapour, and massed in their hundreds among the stones they laid a reeking fog across the whole ruin that horses would not enter and men could barely see through.
 
 So the paladins came off their horses. An elite company of mounted knights dismounted to fight on foot in a demon's cellar is not what such men are for, and they did it anyway, going in among the walls to dig the **dretches** out one hole at a time. It was slower and uglier than **Vilareth Ford** and cost a great deal more sweat. It cost remarkably few lives. By afternoon the tieflings who could run had run, the dretches were dead in their holes, and **Keeper's Canyon** belonged to the crusade.
+
+![No lances, no horses, and no room to use either — three of the hundred working a gap between the walls, one hole at a time, through air the demons had fouled themselves. The man in front has seen it coming; the man behind him is still watching the cellar mouths, and has not. This part of the morning belonged to no famous blade. It belonged to the army.](images/the-knights-dismounted.png)
 
 Their commander had escaped them. The white cloak was nowhere among the dead.
 
