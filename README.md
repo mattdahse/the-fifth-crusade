@@ -24,8 +24,15 @@ secrets/                        ← in-world documents (recovered journals, enem
 build.ps1                       ← compiles source/*.md + secrets/*.md → data.js
 index.html                      ← the reader app (Contents / Cast / Secrets, search)
 data.js                         ← BUILD OUTPUT — do not hand-edit
+.claude/skills/                 ← Claude Code skills, checked in so they travel to every station
+  wotr-chronicle/               Compile a session into a chapter, then publish
+  chatgpt-image-gen/            Generate chapter art through a logged-in ChatGPT tab
 .nojekyll
 ```
+
+The skills live **in the repo** rather than in a personal `~/.claude` directory so that all three
+stations (two Macs and a PC) behave identically. They use repo-relative paths and give both
+PowerShell and POSIX forms of any shell step.
 
 Chapters are **not numbered in the markdown** — the build assigns each book's numbering
 by chapter order, so inserting a chapter renumbers the rest automatically. Each chapter's

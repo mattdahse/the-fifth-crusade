@@ -246,7 +246,7 @@ It had been taken only days earlier — the small crusader contingent that had h
 
 The scouts had bought the Redeemers the one advantage that mattered. The tieflings were still marshalling when a hundred armored horse came out of the concealing ground and into their encampment, and after that it was less a battle than an accounting. The ford was retaken. Not one of **Rabiah**'s people was left on the field.
 
-![They were still marshalling — straps loose, helmets not yet on — when the brush at the top of the slope came apart and the **Redeemers** came down it. The girl on foot at the centre of the line is sixteen years old, and what she is pointing at is the enemy's flank.](images/the-taking-of-the-ford.png)
+![They were still marshalling — straps loose, helmets not yet on — when the brush at the top of the slope came apart and a hundred lances came down it. One tiefling got as far as putting a foot in his crossbow stirrup.](images/the-taking-of-the-ford.png)
 
 ### **The Gaol on the East Bank**
 

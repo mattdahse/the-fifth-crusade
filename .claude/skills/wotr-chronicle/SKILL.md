@@ -5,8 +5,10 @@ description: Compose and publish recaps for Matt's Pathfinder Wrath of the Right
 
 # WotR Chronicle → Repo & Site
 
-The campaign's **source of truth is the git repository** at `C:\Users\alast\drezen-archive`
-(public GitHub Pages site: **https://mattdahse.github.io/the-fifth-crusade/**). Google Drive is a
+The campaign's **source of truth is the git repository** — the checkout you are running in, which is
+`drezen-archive` on each of Matt's three stations (two Macs and a PC). **Never hardcode an absolute
+path to it**; use repo-relative paths throughout, so the same instructions work at every station.
+Public GitHub Pages site: **https://mattdahse.github.io/the-fifth-crusade/**. Google Drive is a
 retired backup. Maintaining the archive after a session means up to **four** jobs — do all that apply:
 
 1. **Chronicle** — write the session's chapter and publish it.
