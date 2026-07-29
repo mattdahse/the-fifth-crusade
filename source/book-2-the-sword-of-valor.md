@@ -448,7 +448,7 @@ The courtyard itself was the trap they had not read. Stunted trees and strangled
 
 *— Sessions of May 10 and June 21, 2025 —*
 
-## **The Nest Beneath the Chapel**
+## **The Nest**
 
 <!-- date: June 21, 2025 -->
 
@@ -466,7 +466,7 @@ Nobody was waiting to congratulate them.
 
 **Horgus Gwerm** wanted something more immediate than a discussion. The quartermaster had a bowl in front of him, a bad look on his face, and in the bowl three or four of the things he had sifted out of the crusade's grain — not flies at all, but pale, twisting, voracious little worms with wings on them, that went for the tin when he tipped it. They were in the sacks. They had been in the sacks since before anyone found the hole. **Horgus**, who costed everything and flattered no one, told the company to do something about it, because if the supply went then the march on **Drezen** ended in this canyon, and no quantity of holy light would feed a hundred horses.
 
-![Not flies. The quartermaster had been sifting the crusade's grain since the cook found the hole, and what he tipped into the lamplight went for the tin the moment it touched it. **Horgus Gwerm** costed everything and flattered no one, and he put it plainly: fix this, or the march on **Drezen** ends in this canyon.](images/the-bowl-of-worms.png)
+![An infestation](images/the-bowl-of-worms.png)
 
 They knew the breed once they had a good look at one: **vescavors**, an abyssal insect belonging to no honest plane, colony-things ruled by a queen, that swarm and devour metal and skin and bone alike. *Piranhas,* someone said, *but airborne.* **Varic** spent an hour walking the supply tent with ***purify food and drink***, salvaging what stores he could and pressing the crusade to seal its grain in glass and clay and keep the rest covered, for a thing left in the open only invited more. A standing vigil was set on the larder. But cleaning the bags treated the symptom. Somewhere in the poisoned canyon a queen was laying, and while she lived the swarms would keep coming — and the gibbering the sentries had been hearing on the west wind was not, it turned out, anybody's imagination.
 
@@ -480,7 +480,7 @@ He sent **Irabeth** and **Sosiel** out through the camp to find the men in the w
 
 What they found was the priest of the **Dawnflower** standing on the broken bed of a wrecked supply cart, which was the only platform the camp had to offer, with **Harlock Greyforge** beside him. **Varic** took out one of the silver **Scales of Terendelev** — the gift of cloud-walking, carried since the caverns under **Kenabres** and never yet spent on anything remotely like this — and called a column of cloud up underneath the lot of them. The wrecked cart and the eight men standing on it rose off the canyon floor and went up, past the ninety feet of crumbling stair the four had climbed on a rope, and set down on the clifftop.
 
-![Half a dozen men in the worst spirits in the army, brought without being told what for and most of them expecting a reprimand — going up ninety feet on the only platform the camp had to offer. The **Scale of Terendelev** had been carried since the caverns under **Kenabres** and never yet spent on anything remotely like this.](images/the-column-of-cloud.png)
+![Varic lifts the downtrodden souls to the Chapel to help restore their spirits](images/the-column-of-cloud.png)
 
 The chapel that received them had been a ghoul-den the previous morning. It was not one now. The dead were gone and the filth was gone, the altar of the **Inheritor** stood clean and newly consecrated by **Harlock**'s own hands, and what light the canyon had came through the smashed windows onto stone that had been holy for seventy years with nobody alive to know it.
 
@@ -498,7 +498,7 @@ Where the canyon bent, boiling green vapour hung over the ground, and through it
 
 The swarms found them almost at once, and the swarms were the true peril. Their gibbering clawed at the mind; to stand in it was to risk one's reason, and blade and arrow did next to nothing against a cloud of biting motes — one gnawed at **Lupenor**'s very eyelid while she cursed and swatted. **Varic** answered with ***repel vermin***, throwing a bubble the vescavors could not bear to enter, and the company sheltered in it and moved it with them; ***burning hands*** and alchemist's fire scoured whole swarms where they could be caught massed. When a swarm rolled over the ground between **Harlock** and the others and threatened to swallow the paladin whole, he would not leave a companion stranded in it — he ploughed back through the biting cloud to reach **Lupenor**, taking the gnawing and the gibbering three times over and holding his mind against all of it, and hauled the slayer clear. *He's a paladin now,* someone said, half in wonder. One after another the swarms were burned and repelled until they broke apart into ordinary, purposeless vermin.
 
-![Blade and arrow did next to nothing against a cloud of biting motes, and the gibbering clawed at the mind of anyone who stood in it. He would not leave her stranded there — so he crossed that ground twice and took the gnawing three times over, and held his mind against all of it.](images/he-is-a-paladin-now.png)
+![Harlock would not leave her stranded there](images/he-is-a-paladin-now.png)
 
 ### **The Vescavor Queen**
 
@@ -508,7 +508,7 @@ And there, in the deepest chamber, she waited — the **Vescavor Queen**, larger
 
 The queen had not crawled up from any earthly warren. In the wall of her lair pulsed a mauve glow — a raw abyssal rift, a crack straight into the Abyss through which she had first come, and through which now a **vrock** was trying to force its way into the world. There was no closing such a wound with what they carried; a true sealing wanted greater dispelling magic than any of them could yet command. But a hoarded scroll served for the hour: **Rabiah** loosed ***dimensional anchor*** upon the demon in the crack, and the vrock, barred from stepping across, gave up and wandered off into the abyssal murk. No demon came through. The hole remained, a scar in the stone breathing its faint mauve light — a thing to be truly closed another day, by hands stronger in the divine than theirs.
 
-![Nothing they carried could seal a crack straight into the Abyss. What a hoarded scroll could do was bar the thing standing in it — and denied its step across, the **vrock** gave up and wandered back into the murk. Behind **Rabiah**, the two who could do nothing about it at all.](images/the-rift-that-would-not-close.png)
+![Rabiah's scroll seals the growing crack before the Vrock can breach it](images/the-rift-that-would-not-close.png)
 
 They burned the queen's body, climbed the rope back into the jaundiced daylight, and turned again toward **Drezen**. The chapel above them stood clean and quiet, a light in the canyon where a darkness had been. The wound at their backs was cut out. And another, deeper one had been noted, and left — for now — for later.
 
@@ -526,7 +526,7 @@ The riders reached the broken country before Drezen as the light failed, and the
 
 But it was the bridge that fixed their dread. Only one span crossed the dry bed of the Ahari to the Citadel, a hefty work of dwarven stone — and it had been made a trap. Its four supporting pylons were weakened and cracked, and to each had been chained a man-eating auroch, huge and shaggy, its eyes burning green in the dark. Tieflings patrolled the rickety watchtowers upon it, and over them all stood a sorcerer, **Barrid Isen**, ready at the first sight of an army to loose the beasts and drag the whole span down into ruin.
 
-![Three scouts back from the broken country, and a map with all of it on the table: the **South Bank** and its stolen crusader steel, the cemetery and the one mausoleum that bled darkness, **Paradise Hill** and its two hundred prisoners. It was the bridge, under **Aron**'s finger, that fixed their dread.](images/the-reckoning-of-the-scouts.png)
+![The scouts confer on their findings](images/the-reckoning-of-the-scouts.png)
 
 ### **The Serpent in the Camp**
 
@@ -534,7 +534,7 @@ They made camp, and the wind howled through the canyons all that night. **Lupeno
 
 By morning eight warhorses lay moaning and sick. Before the march, the four cornered Callan in **Varic**'s tent and bound him within a ***Zone of Truth***. The bard felt the enchantment settle and smiled — *oh, it's that kind of meeting* — and thereafter answered every question without once being caught in a lie, spinning instead a long and mournful tale of a favorite horse of his youth, eating away the spell's minutes with charm. He denied poisoning the beasts; he denied walking unseen. They let him go with no proof and colder suspicion, and marked him to be watched.
 
-![He felt the enchantment settle before anyone had asked him anything, and smiled — *oh, it's that kind of meeting.* Then he spent its minutes on a long and mournful tale about a favourite horse of his youth, and was never once caught in a lie.](images/that-kind-of-meeting.png)
+![Oh, it's *that* kind of meeting. ](images/that-kind-of-meeting.png)
 
 ### **The Storming of Paradise Hill**
 
@@ -556,7 +556,7 @@ The bridge was no work for armies; the aurochs would haul down the pylons and bu
 
 The darkness he had raised he flung into the air *above* himself, a lid of shadow between him and everything looking down — and **Lupenor** was forty feet up, with a clean view of nothing at all. So she dove. She came down the height of the span and levelled out barely five feet above the dry riverbed, where the shadow hung uselessly over his head and her mark stood clear against the light, and there **Barrid Isen** was brought down. The final tieflings were cut from the bridge, and the span, though cracked and scorched, still stood. Only afterward, when the dead were gathered and counted, did they find that the sorcerer was not among them.
 
-![He hung his darkness above his own head, which answered everything looking down at him and nothing at all coming in low. **Lupenor** dropped the height of the span and levelled out five feet off the riverbed, and there was nothing left between them but daylight.](images/under-the-darkness.png)
+![With Rabiah's flight magic, Lupenor swoops in for a clear shot](images/under-the-darkness.png)
 
 ### **The Weight of Four Pylons**
 
