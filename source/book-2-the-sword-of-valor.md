@@ -388,6 +388,8 @@ So the army was halted with hours of daylight still in hand, well short of the r
 
 The climb was near mortal in itself. Ninety feet of crumbling, treacherous stair clung to the cliff-face, and at thirty feet **Harlock**, still armored, lost his hold and slid. They roped themselves together after that, each to catch the next, and it proved wisdom: when others faltered near the top it was the paladin's arm that held them, hauling **Varic** back from the drop and steadying **Rabiah**. Bruised but whole, all four gained the summit.
 
+![](images/the-arm-that-held-them.png)
+
 ### **A Chapel Remembered**
 
 What waited was a walled complex gone to ruin — breaches in the stone spilling rubble, a courtyard within, a wide-doored building that had the look of a stable, and beyond it a barbed iron gate, rusted past opening, that barred the mouth of a long tunnel. To the right stood the main chapel. **Harlock** drew his blade ***Radiance***, and something in the broken walls struck him with memory: this had been a hallowed house of his own faith, before the desolation took it.
