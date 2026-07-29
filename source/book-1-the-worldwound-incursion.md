@@ -498,7 +498,7 @@ The plan was clean enough on the threshold: **Harlock** through the door first, 
 
 ### **The Rod and the Whispered Charge**
 
-![**Lupenor** sets the ***chime of opening*** against the last door while **Rabiah** waits at her shoulder — the ***rod of cancellation*** in one hand, **Harlock's** last ***potion of invisibility*** in the other. Beyond the seams, the Wardstone's light.](images/the-chime-and-the-charge.png)
+![**Lupenor** sets the ***chime of opening*** against the last door while **Rabiah** waits at her shoulder — the ***rod of cancellation*** in one hand, **Harlock's** last ***potion of invisibility*** in the other.](images/the-chime-and-the-charge.png)
 
 Before they touched the last door, **Harlock** unslung his pack and worked free a bundle he had carried a long way — the ***rod of cancellation***, entrusted to them by **Irabeth** for this single purpose. He laid it carefully in **Rabiah's** hands. **Varic** made the plan plain: he and **Lupenor** would fix the oracle's eye and he would keep the sorcerer alive, but **Rabiah's** task was the only one that truly mattered — reach the stone, touch the rod to it, and let nothing else in the world exist. Then **Harlock** pressed a small vial into her other hand, his last ***potion of invisibility***.
 
@@ -514,7 +514,7 @@ They came in upon **Jeslyn**, and she was a hard thing to look upon. She had bee
 
 ### **The Rod Touches the Stone**
 
-![Unseen along the wall and now flickering back into the world, **Rabiah** sets the cold iron of the ***rod of cancellation*** against the last surviving fragment of the **Kenabres Wardstone**.](images/the-rod-touches-the-stone.png)
+![**Rabiah**'s strike against the wardstone fragment is felt for miles, and snatches hope from the encroaching doom](images/the-rod-touches-the-stone.png)
 
 **Rabiah** reached the pedestal and the barbed iron cage upon it, and within it the last and largest surviving fragment of the **Kenabres Wardstone**, softly aglow. She set the cold iron of the rod against the stone. For a heartbeat the fragment seemed to resist her, some old strength gathering to throw off the unmaking — and then it faltered, and let go, and broke.
 
@@ -530,7 +530,7 @@ And as it died the **Wardstone** showed them what it had been. They saw it raise
 
 ### **Areelu's Vengeance**
 
-![Her design broken, **Areelu Vorlesh** flung her image across the planes to promise them extinction — and found the wardstones' light already fused into the four of them. At the frame's edge lies **Chirrik**, felled with the other scouts; whether she still breathed, none of them yet knew.](images/areelus-vengeance.png)
+![Her design broken, **Areelu Vorlesh** flung her image across the planes to promise them extinction](images/areelus-vengeance.png)
 
 The architect of that design felt it break. **Areelu Vorlesh** flung her image across the planes into the room, transparent and beautiful and furious, and promised them their kind's extinction. She reached out a hand, and the breath went out of the mongrelfolk who had followed them so far — the loyal scouts clawing at their throats and dropping — and then the same killing magic broke uselessly against the light still surging in the company, and her fury turned to alarm.
 
@@ -552,7 +552,7 @@ But it did not drain entirely. Something had woken in the four of them that woul
 
 *March 28, 2025 session — the hour after the Gray Garrison, in the wounded city of Kenabres*
 
-![They chose the tunnels over a parade, and were seen all the same. **Harlock**, **Varic**, **Lupenor** and **Rabiah** come up into the ruined streets still burning with a light that would not fade, and the crusaders and refugees of the **Defender's Heart** stop where they stand. Above the broken city, for the first time since **Armasse**, the stars.](images/the-march-of-the-glowing-ones.png)
+![**Harlock**, **Varic**, **Lupenor** and **Rabiah** come up into the ruined streets still burning with a light that would not fade, and the crusaders and refugees of the **Defender's Heart** stop where they stand. Above the broken city, for the first time since **Armasse**, the stars.](images/the-march-of-the-glowing-ones.png)
 
 ### **A Room Full of Silence**
 
@@ -578,7 +578,7 @@ They chose humility over spectacle and returned to **Defender's Heart** through 
 
 That night, sleep took each of them down into vision, and a woman in gleaming plate — the **Inheritor** herself — moved through their dreams to thank them and set a kiss upon each brow.
 
-![On a summit above the clouds, **Iomedae** sets her kiss upon **Harlock's** brow and ***Radiance*** wakes in the air between them. Each of the four was met that night; their dreams are recorded in full among the Secrets.](images/the-inheritors-kiss.png)
+![Deep in a dream, **Iomedae** sets her kiss upon **Harlock's** brow.](images/the-inheritors-kiss.png)
 
 **Lupenor** dreamed of childhood in the trading post of **House Celest**, of a father who taught both the ledger's honest face and the shadow-craft beneath it, of locks that opened at a whisper and a bow drawn until the fingers bled. She dreamed of the border of the **Worldwound**, where at eighteen she was lost among demonic patrols and saved by a strange, star-marked woman who moved between heartbeats of danger — a messenger, she now understood, of **Desna**, the Song of the Spheres. And she dreamed of a wound that would not close: a courier in **House Celest** livery bearing bills of sale for unholy things, proof that her own family had trafficked with the enemy they claimed to fight. **Desna** herself walked a starlit meadow to tell her that her caution had kept her alive, but that her luck was never meant to be hoarded — only spent, in pursuit of wonders yet unseen.
 
@@ -588,7 +588,7 @@ That night, sleep took each of them down into vision, and a woman in gleaming pl
 
 ### **The Weight of a Legend**
 
-![**Varic** folds back the cloth, and **Irabeth** goes still. ***Solemn Hour*** was her grandfather's, forged in the First Crusade and sold to raise coin for the cause — and here it is, come back to her out of the Gray Garrison. Behind her, her wife **Anevia** has come as far as the doorway and stopped there.](images/the-weight-of-a-legend.png)
+![**Varic** folds back the cloth, and **Irabeth** goes still.](images/the-weight-of-a-legend.png)
 
 By morning the company sought out **Dame Irabeth**, commander of the Eagle Watch, worn to the bone from a night spent counting her living and her dead. She met the wild rumors already racing the city — that they had slain **Areelu Vorlesh**, thrown down the Storm King, cleaved demons with a glance — with weary humor, and they set her straight. Then **Varic** laid a bundled sword before her and opened it, and she went still. ***Solemn Hour***, its blade graven *Protect us from evil in this solemn hour*, had been her grandfather's, forged in the First Crusade; she had sold it to raise coin for the cause and thought it lost. She would not simply take it back — a gift twice-given is a lesser thing, she said — but bade **Lupenor** carry it until she no longer needed it, and behind the curtain her wife **Anevia** wept to see it again.
 

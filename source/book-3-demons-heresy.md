@@ -8,7 +8,7 @@
 
 *16 January 2026 session — 12th of Lamashan, 4713 AR*
 
-![The sky over the Ahari rained teeth — molars, incisors, and fangs, clattering off shield and stone.](images/the-rain-of-teeth.png)
+![The sky over the Ahari rained teeth](images/the-rain-of-teeth.png)
 
 ### **Into the Ahari**
 
@@ -104,7 +104,7 @@ At the first switchback, a figure emerged from the cliff wall — or rather, wha
 
 This had been a statue of ***Sarenrae***.
 
-![The statue on the switchback path had been Sarenrae, once — before crude tools took her face.](images/the-broken-sarenrae.png)
+![The statue on the switchback path had been Sarenrae, once.](images/the-broken-sarenrae.png)
 
 **Varic:** *This place is sacred. Or it was. It has been profaned. Defiled. This is an unspeakable insult to* ***Sarenrae****, and to everything good that once stood here.*
 
@@ -1614,9 +1614,9 @@ A second drake crested the western wall and perched there like a gargoyle decidi
 
 And then, as it always seems to with this company, the second half began.
 
-**Lupenor**, wreathed in wasps and despair alike, planted her feet and went to work — a mythic surprise strike slipping past the first **Darachne**'s guard, arrow after arrow driving into it until a final shaft found something vital and the demon fluttered, folded, and thumped to the stones. **Harlock** took the second: ***Radiance*** rising and falling in bright arcs, three hits in a single terrible exchange, the killing blow confirmed twice over. Both summoners were dead — but their wasps remained, and so did the drakes.
+**Lupenor**, wreathed in wasps and despair alike, planted her feet and went to work — a mythic surprise strike slipping past the first **Derakni**'s guard, arrow after arrow driving into it until a final shaft found something vital and the demon fluttered, folded, and thumped to the stones. **Harlock** took the second: ***Radiance*** rising and falling in bright arcs, three hits in a single terrible exchange, the killing blow confirmed twice over. Both summoners were dead — but their wasps remained, and so did the drakes.
 
-![Wreathed in wasps and despair alike, Lupenor plants her feet and drives an arrow into the **Darachne**.](images/the-turning.png)
+![Wreathed in wasps and despair alike, Lupenor plants her feet and drives an arrow into the **Derakni**.](images/the-turning.png)
 
 **Varic**, who had spent the opening rounds trudging up the stairs at the stately pace of a man in full plate, finally climbed into the sky on ***Air Walk***, surveyed a battlefield containing not one single ally in his line of fire, and expressed his feelings about the morning with a ***Fireball***. Swarms withered; drakes and rider alike came out of the blast smoking. **Rabiah** rose back over the wall and cast ***Haste*** across the company — the spell's touch burning the drake-breath sluggishness out of **Chirrik** and putting extra arrows in every archer's hands. Then **Varic** raised his holy symbol and brought down a ***Holy Smite*** that finished every last wasp in the gatehouse, seared both drakes, and left one **incubus** rider blind and reeling in his saddle. There was, the company agreed, much rejoicing — and a general resolution to let the priest have a turn more often.
 
@@ -1632,7 +1632,7 @@ And in the instant of that first escape, **Rabiah** felt something she had never
 
 Silence returned to the gatehouse, broken only by the settling of dead wings. **Varic** spent diamond dust and mythic power on a ***Restoration*** to return what the entropy arrow had stolen from **Harlock**; healing light passed from hand to hand until the company stood whole. That left only the gates. No mechanism survived in the walls to raise the jammed portcullises — so **Harlock**, fortified by **Varic**'s ***Bull's Strength*** and a touch of borrowed destiny, set his leg against the frame, took the ancient iron in both hands, and bent the Redoubt open. One bar snapped clean from the first gate; a second folded aside; and then, because a man should never leave his line of retreat to chance, he walked ten feet on and did the same to the second.
 
-![No mechanism survived in the walls to raise the portcullises, so Harlock set his leg against the frame, took the ancient iron in both hands, and bent the Redoubt open.](images/broken-bars.png)
+![Harlock set his leg against the frame, took the ancient iron in both hands, and bent the Redoubt open.](images/broken-bars.png)
 
 The way into **Takira's Redoubt** stands open. The company holds nothing yet but the entrance guard room — a gatehouse bought with fire, arrows, and one very sore paladin — and the fort's defenders now know, beyond any doubt, that they are coming. Somewhere deeper in the ruin, past the tower **Lupenor** saw in her dream, an answer is waiting.
 
@@ -1644,7 +1644,7 @@ The way into **Takira's Redoubt** stands open. The company holds nothing yet but
 
 *4 July 2026 session — Takira's Redoubt, 19th of Neth, 4713 AR (continued)*
 
-![A saint's face worn as a lure — the impostor in an acolyte's ragged vestments, her blade still in the demon she killed to buy the company's trust.](images/false-arueshalae.png)
+![The succubus finishes the demons that threatened Chirric.](images/false-arueshalae.png)
 
 Deep in the bones of the old crusader redoubt, the company had learned to trust the wisdom of clearing every room. The last fight had ended in the outer yard — two drake riders scattered to the wind, their mounts and their swarming vermin left dead on the stones, the iron teeth of a portcullis bent open by **Harlock**'s hands so the way lay unbarred to north and south. **Varic** had gathered them for a round of healing, drawn the last poison from **Lupenor**'s blood, and set them moving again. So it was that they came, unhurried and watchful, into a low chamber where an ancient well stood waist-high in its own rubble, and something at the bottom of it was breathing.
 
@@ -1714,7 +1714,7 @@ They had come to **Takira's Redoubt** to reach **Arueshalae** before her hunters
 
 *18 July 2026 session — Takira's Redoubt to the Ivory Sanctum, 19th through 24th of Neth, 4713 AR*
 
-![Arueshalae — the penitent succubus of Desna, her star-bright bow strung above the ruin of the Marchlands.](images/arueshalae.png)
+![Arueshalae — the penitent succubus.](images/arueshalae.png)
 
 ### **The Silent Wings**
 
@@ -1732,7 +1732,7 @@ It was **Lupenor** who heard the bell — not its ringing, but the after-image o
 
 The discordant holiness would not let **Harlock** near. He was lawful to his marrow and Iomedae's man, and the chaotic mercy of Desna's bell pushed against him like a hand on the chest; he planted his feet at the invisible line and would go no farther. And then **Arueshalae** came and knelt in front of him, folded her clawed hands together with the clumsiness of one who had never once done it, and asked him — the paladin who had promised in his own heart to kill her — whether he would pray with her to Desna. Harlock looked to be certain the Song-goddess and his own Lady stood on good terms. Then he sheathed **Radiance**, over the sword's silent objection, knelt beside the penitent demon, and prayed — truly, without reservation. And the discordance in his chest eased, as if Desna herself had drawn back a bar to let him pass. He rose and stepped over the line into the sanctuary. Whatever else the day held, it held that: a half-orc knight of the Inheritor on his knees beside a repentant succubus, praying to a third god's mercy, and the mercy answering.
 
-![Beneath the silver Bell of Mercy, Harlock kneels to pray beside the penitent he had sworn in his own heart to kill — and the discordance in his chest eases.](images/bell-of-mercy-prayer.png)
+![Beneath the silver Bell of Mercy, Harlock kneels to pray with a demon.](images/bell-of-mercy-prayer.png)
 
 ### **The Penitent's Confession**
 
@@ -1790,7 +1790,7 @@ The green wall had watchdogs. **Lupenor** caught the first of them low in the sh
 
 But the basilisks had their due. **Lupenor**, drawing a bead in the open, met one gaze too many — and the skin about her eyes crackled and hardened and ran gray, and the slayer froze mid-draw into a statue of herself, arrow nocked, a look of plain surprise fixed on her stone face, awake and aware inside it and remembering every moment. It was **Rabiah** who broke the fight open. She tore a ***Hungry Pit*** in the earth beneath the largest cluster of them, and two of the cold-slowed lizards pitched fifty feet into the dark, and the pit's walls closed and ground them round after round until there was nothing left of either but the sickening sound of the doing. The rest died to fire and star-metal and a last volley of arcane force, and the plaza fell quiet, and no alarm had gone up from the wall.
 
-![One gaze too many, and the shot never left the string. What fixed on her stone face was not terror but plain surprise — the astonishment of a very good archer caught out — and she was awake behind it the whole time, and remembered every moment of it afterward.](images/a-statue-of-herself.png)
+![The down-side of aiming for the eyes, when it's a basilisk](images/a-statue-of-herself.png)
 
 That left the matter of **Lupenor**. **Varic** remembered the old cure — that the fresh blood of a basilisk, any basilisk, will undo what its gaze has done, if it is used before it cools. He seized one of the dead lizards by its weight, dragged it the width of the plaza to the stone that had been the slayer, opened its belly, and — with the whole company kneeling in to help, and rather more thoroughness than the slayer would afterward feel had been strictly necessary — painted her stone body over in blood until the gray crust flaked and crumbled away and **Lupenor** stepped free of it, spitting sediment and dignity, restored.
 
