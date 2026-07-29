@@ -135,6 +135,52 @@ that vault, ask Matt and add it here before illustrating it.
 
 ---
 
+## Era III — The March to Drezen  *(Book II)*
+
+**Begins at:** *A Queen's Commission* (Book II, Ch. II), and runs through the march, the
+canyon, and the siege of **Drezen**.
+
+**Derived from the shipped art, not from a prior guide entry.** This block was written after
+the fact by reading the Book II images themselves — [`../images/the-bargain-at-the-gwerm-estate.png`](../images/the-bargain-at-the-gwerm-estate.png),
+[`../images/the-arm-that-held-them.png`](../images/the-arm-that-held-them.png),
+[`../images/the-column-of-cloud.png`](../images/the-column-of-cloud.png),
+[`../images/he-is-a-paladin-now.png`](../images/he-is-a-paladin-now.png) — which agree with each
+other. Where a new Book II image disagrees with this block, the block is wrong; fix it here.
+
+### Varic Sarian — **still not gilded, and this is the one that keeps drifting**
+- **Armor:** a dark, travel-worn **mail shirt with mail sleeves** over dark wool. Practical and
+  campaign-worn.
+- **Marks of faith:** the **deep-red scarf** at the throat; a **plain gold or brass sunburst of
+  Sarenrae on a cord** at the chest — a bare stylized sun, **no sword in front of it** (that is
+  Iomedae's device, and Harlock is usually in the same frame).
+- **Hair:** long and straight, worn loose, with a small braid at the temple.
+- **NO gold circlet, NO gold-filigree breastplate, NO red mantle, NO ornate pauldrons.** His
+  canonical portrait shows the resplendent look; that is **later than Book II**. Take his face
+  from the portrait and his kit from here.
+- **Avoid:** `gold circlet, gold-filigree breastplate, red mantle, a sword in front of the sun`.
+
+### Harlock Greyforge
+- **Armor — unchanged from Era II.** The plain, battered **steel breastplate over a padded
+  gambeson**, bearing **Iomedae's sword-and-sun**. No golden plate, no filigree.
+  *(Accepted drift: the Book II art gives him **armoured sleeves / vambraces** rather than bare
+  gambeson sleeves — see `the-column-of-cloud` and `he-is-a-paladin-now`. Matt has let this
+  stand, as with `the-march-of-the-glowing-ones`. Large pauldrons and golden plate are still out.)*
+- **Shield:** the ***steel shield of blinding*** from the Book I vault, blazoned with the
+  sword-and-sun.
+- ***Radiance*:** awakened — a golden longsword that blazes with gold-white holy light, and is
+  usually the single luminous accent of any frame it appears in.
+
+### Lupenor Celest
+- The **high-collared dark-green tunic** with a **steel pauldron** at the shoulder, practical and
+  fully covered; **longbow** and a quiver of fletched arrows at her back.
+
+### Rabiah
+- The **green hooded cloak** thrown back over a high-necked green tunic and long sleeves; the
+  **leather baldric with the round dark metal medallion** at the shoulder. **Neat, whole and
+  uncannily clean**, however filthy the scene around her — this holds through Book II.
+
+---
+
 ## Later eras — to be filled in as the story reaches them
 
 Add a new era block each time the company meaningfully re-equips, and carry each character's

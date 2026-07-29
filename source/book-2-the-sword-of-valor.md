@@ -388,7 +388,7 @@ So the army was halted with hours of daylight still in hand, well short of the r
 
 The climb was near mortal in itself. Ninety feet of crumbling, treacherous stair clung to the cliff-face, and at thirty feet **Harlock**, still armored, lost his hold and slid. They roped themselves together after that, each to catch the next, and it proved wisdom: when others faltered near the top it was the paladin's arm that held them, hauling **Varic** back from the drop and steadying **Rabiah**. Bruised but whole, all four gained the summit.
 
-![](images/the-arm-that-held-them.png)
+![Ninety feet of crumbling stair, and a rope between the four of them because **Harlock** had already lost his hold once at thirty. When it was **Varic** who went near the top, it was the paladin's arm that caught him.](images/the-arm-that-held-them.png)
 
 ### **A Chapel Remembered**
 
@@ -526,11 +526,15 @@ The riders reached the broken country before Drezen as the light failed, and the
 
 But it was the bridge that fixed their dread. Only one span crossed the dry bed of the Ahari to the Citadel, a hefty work of dwarven stone — and it had been made a trap. Its four supporting pylons were weakened and cracked, and to each had been chained a man-eating auroch, huge and shaggy, its eyes burning green in the dark. Tieflings patrolled the rickety watchtowers upon it, and over them all stood a sorcerer, **Barrid Isen**, ready at the first sight of an army to loose the beasts and drag the whole span down into ruin.
 
+![Three scouts back from the broken country, and a map with all of it on the table: the **South Bank** and its stolen crusader steel, the cemetery and the one mausoleum that bled darkness, **Paradise Hill** and its two hundred prisoners. It was the bridge, under **Aron**'s finger, that fixed their dread.](images/the-reckoning-of-the-scouts.png)
+
 ### **The Serpent in the Camp**
 
 They made camp, and the wind howled through the canyons all that night. **Lupenor** could not sleep, and so she shadowed the company bard, **Callan** — a man she had marked speaking too often with those paladins whose faith had lately faltered. Callan slipped behind a tent by the horse corral and simply did not come out the other side. Lupenor found the rope of the pen unhooking and rehooking itself as though by unseen hands, and caught upon the air the sweet scent of dragon-apples, a fruit wholesome to men and poison to horses. Her hurled dispelling found nothing to unmake.
 
 By morning eight warhorses lay moaning and sick. Before the march, the four cornered Callan in **Varic**'s tent and bound him within a ***Zone of Truth***. The bard felt the enchantment settle and smiled — *oh, it's that kind of meeting* — and thereafter answered every question without once being caught in a lie, spinning instead a long and mournful tale of a favorite horse of his youth, eating away the spell's minutes with charm. He denied poisoning the beasts; he denied walking unseen. They let him go with no proof and colder suspicion, and marked him to be watched.
+
+![He felt the enchantment settle before anyone had asked him anything, and smiled — *oh, it's that kind of meeting.* Then he spent its minutes on a long and mournful tale about a favourite horse of his youth, and was never once caught in a lie.](images/that-kind-of-meeting.png)
 
 ### **The Storming of Paradise Hill**
 
@@ -550,7 +554,9 @@ The bridge was no work for armies; the aurochs would haul down the pylons and bu
 
 **Harlock** took the vapors full in the face and was overcome, retching and reeling, able only to stagger a pace at a time — yet the half-orc would not quit his post, laboring on through his sickness even as the poison held him. Overhead **Barrid Isen** hung in the air, held aloft by his own levitation, wrapping himself in a shroud of darkness and raking the company with searing rays. Varic answered with a ***Wall of Fire*** that penned the demons in flame and with ***Holy Smite***, whose radiance burned the wicked and left them blinded and clutching. One auroch strained and strained at its pylon and could not, for a moment, find purchase.
 
-At the last **Lupenor** flung herself from the high embankment, dropping low beneath the sorcerer's own darkness until she could see her mark clear, and there **Barrid Isen** was brought down. The final tieflings were cut from the bridge, and the span, though cracked and scorched, still stood. Only afterward, when the dead were gathered and counted, did they find that the sorcerer was not among them.
+The darkness he had raised he flung into the air *above* himself, a lid of shadow between him and everything looking down — and **Lupenor** was forty feet up, with a clean view of nothing at all. So she dove. She came down the height of the span and levelled out barely five feet above the dry riverbed, where the shadow hung uselessly over his head and her mark stood clear against the light, and there **Barrid Isen** was brought down. The final tieflings were cut from the bridge, and the span, though cracked and scorched, still stood. Only afterward, when the dead were gathered and counted, did they find that the sorcerer was not among them.
+
+![He hung his darkness above his own head, which answered everything looking down at him and nothing at all coming in low. **Lupenor** dropped the height of the span and levelled out five feet off the riverbed, and there was nothing left between them but daylight.](images/under-the-darkness.png)
 
 ### **The Weight of Four Pylons**
 
