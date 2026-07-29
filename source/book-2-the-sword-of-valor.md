@@ -597,6 +597,8 @@ What she brought back was worth the spells. Each catapult had exactly one keeper
 
 She came back over the wall, dropped down under the bridge, and told them all of it.
 
+![A spell **Rabiah** did not properly know, drawn out of the air by main force of will — and a friend who was about to fly over an enemy wall alone.](images/the-spell-she-did-not-know.png)
+
 ### **The Thing in Harlock's Tent**
 
 They went back up to **Paradise Hill** to plan and to sleep, and the night did not let them.
@@ -627,6 +629,8 @@ She landed on the first tower and her boot scuffed the stone. The **brimorak** t
 
 Then she went to work, and the work was fine and slow and entirely unglamorous. She got underneath the great crank that drew the throwing arm back, oiled the metal so it would slide and stay quiet, and wedged her slivers deep into the gear teeth where no eye would find them. It took the better part of a minute, crouched at the machine's foot, with a demon leaning on the battlement eight feet from her shoulder. When she was done, the catapult looked exactly as it had before — and the first time anyone threw the release lever, all that stored force would come down on the jammed teeth and derail the whole gear train. It would take blacksmiths and weeks.
 
+![Eight feet away, a demon leaned on the battlement and looked at nothing. One wrong sound was all it would have taken.](images/the-sabotage-at-the-crank.png)
+
 She flew to the second tower and did it again. That one had been better maintained and fought her harder, and the **brimorak** on it heard something and looked around twice; but it decided it had heard a bird, and went back to its watch.
 
 Two catapults dead, and no one in **Drezen** any the wiser. **Lupenor** rose fifteen feet, leaned over the wall, and dropped a rock with a strip of white cloth tied round it.
@@ -645,6 +649,8 @@ The alarm was given, and the fight came on. **Harlock** charged, and the light b
 
 And **Varic** did the thing that decided the day. He set his hand to the ironbound doors at the head of the tower's spiral stair and shaped the stone of the frame and floor over the hinges and the sill until the doors were not doors at all but part of the wall. Below them, the tower filled up with tieflings who could not swing an axe in a stairwell that narrow, jammed shoulder to shoulder against a slab that was never going to open.
 
+![While the fight raged above him, **Varic** knelt at an ironbound door and made it stop being a door at all.](images/the-doors-that-would-not-open.png)
+
 The last **brimorak** dropped. The tower was theirs.
 
 ### **A Gift Returned**
@@ -656,6 +662,8 @@ He had no crew and no range-finding and no practice. He loaded it, and he aimed 
 The shot fell at the edge of a good cluster of them. Tents went over. Men screamed. It was not, by the standards of siege engineering, a very good shot.
 
 It was, by every other standard, the most eloquent thing anyone had said in that city in a hundred years.
+
+![No crew, no range-finding, no practice — just a soldier aiming a thing he had only ever seen used against him.](images/a-gift-returned.png)
 
 Below and behind, the white flag had fallen, and **Rabiah** was across the bridge with her Redeemers forming up on the far bank. Three of the four catapults would never throw again. The fourth was in the company's own hands, and turned around.
 
