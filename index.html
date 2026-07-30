@@ -113,7 +113,7 @@
   </header>
 
   <div class="searchbar">
-    <input id="q" type="search" placeholder="Search the chronicle — a name, a place, a battle…" autocomplete="off" spellcheck="false">
+    <input id="q" type="search" placeholder="Search chapters and secrets — a name, a place, a battle…" autocomplete="off" spellcheck="false">
     <div class="tabs" id="tabs">
       <span class="tab active" data-view="contents">Contents</span>
       <span class="tab" data-view="cast">Cast</span>
@@ -315,7 +315,7 @@ function viewContents(keepScroll){
         + '</span><span class="d">'+esc(c.date||'')+'</span></div>';
     });
   });
-  app.innerHTML = '<div class="hint">Pick a book to open its chapters, or type above to search the full text of all '+chapters.length+' chapters.</div>'+html;
+  app.innerHTML = '<div class="hint">Pick a book to open its chapters, or type above to search the full text of all '+chapters.length+' chapters and '+secrets.length+' secrets.</div>'+html;
   if(!keepScroll) window.scrollTo(0,0);
 }
 
