@@ -845,6 +845,8 @@ They pushed east into the citadel and came into a hall of dwarven statues — so
 
 The demons had done something worse than pull them down. They had put something inside them.
 
+![The crusade carved them a century ago. The demons only had to add the runes.](images/the-statues-that-woke.png)
+
 The runes cut into the stone lit up one after another, and the **graven guardians** came off their plinths with their warhammers already swinging. They were quick — quicker than stone had any business being, and one of them spoke a word that made the rest of them quicker still. It was a long, grinding, unglamorous fight in a corridor too narrow to flank in, and it cost them most of an hour and a good deal of what **Varic** had left. But they broke them, and the hall went quiet, and the dwarven hammers lay in pieces among the rubble of their bearers.
 
 ### **The Man on the Bed**
@@ -875,13 +877,23 @@ There was one thing wrong with it.
 
 **Harlock** looked again. The enchantment was suppressed and the man was lucid and grateful and entirely coherent — and the evil aura had not moved at all.
 
-They sat with that. **Varic** weighed the man; **Rabiah** watched **Callan**, whom nobody had trusted since the horses were poisoned, and found the bard sincere — frightened, furious, and sincere. Then **Harlock** uncorked a flask of holy water and poured it over the prisoner's face.
+They sat with that. And then the man nobody had trusted since the horses were poisoned asked **Varic** to step aside with him.
+
+**Callan Thornwind** pitched his voice so that only the priest could hear it. That was not **Morantz Delascru**, he said. **Morantz** was long dead. That was a succubus, and he could prove none of it — but press cold iron to her skin and watch what happened: she would slip those shackles like water, step out of the world where nothing could reach her, and take one of them for her own before the night was out.
+
+He had no reason to be believed and he knew it. **Varic** believed him anyway. *Wait here*, he said. *I'm going to go try something.*
+
+He fished a flask of holy water out of his pouch and worked the stopper loose behind his shield, and while he did it, across the room, the chained man was telling **Harlock** to search the bard's belt pouches — the left one, a little black bottle about the size of your thumb, go on, look. **Harlock** asked. The color went out of **Callan**'s face, and what he said was, *I had no choice*, which is not a denial.
+
+![Every word of the man's story held up. That was the trouble with it.](images/the-flask-behind-the-shield.png)
+
+Then **Varic** crossed the room and poured the flask out over the prisoner's face.
 
 It went into him like acid into meat. His skin blistered and charred and bubbled; his eye swelled shut; it ate through his cheek until they could see the teeth at the back of his mouth. He screamed and thrashed his head to shake the droplets off, and what he screamed was *Why are you doing this to me? I'm not the bad one here — kill him! Kill the spy!*
 
 He was pointing at **Callan**.
 
-It was very nearly a good enough play. But **Callan Thornwind** had had enough of it. He looked around at four armed people who had every reason to kill him, took a breath, and said he would tell it himself: that *this* — and he did not say *he* — and her cultists had recruited him, years ago.
+It was very nearly a good enough play, and a quarter of an hour earlier it might have worked. But the man it was meant to hang had already walked up to a priest and warned him, with nothing to gain by it, and there was a flask-shaped hole in the accusation now. So **Callan** looked around at five armed people who had every reason to kill him, took a breath, and said he would tell it himself: that *this* — and he did not say *he* — and her cultists had recruited him, years ago.
 
 And at the word *her*, **Morantz Delascru** went silent, and was not there any more.
 
@@ -891,13 +903,17 @@ The shackles dropped closed on nothing. The straw mattress rose slowly where the
 
 Her name, they would learn, was **Kerindra**.
 
-She had gone ethereal — sidestepped clean out of the world into a place from which she could watch them and not be touched. What followed was almost an hour of four capable people being toyed with in a small room. She could not be hit, could not be found, could not be reached. And she was not content merely to be safe; she made a performance of it, walking up to **Harlock** to hike up her armor and put her bare flesh in the paladin's face, strolling over to **Rabiah** to blow her a kiss, and neither of them able to do a single thing about any of it.
+She had gone ethereal — sidestepped clean out of the world into a place from which she could watch them and not be touched. What followed was almost an hour of six capable people being toyed with in a small room — **Chyrrik** among them, holding her action with her sword ready for something that would not become solid enough to hit. She could not be hit, could not be found, could not be reached. And she was not content merely to be safe; she made a performance of it, walking up to **Harlock** to hike up her armor and put her bare flesh in the paladin's face, strolling over to **Rabiah** to blow her a kiss, and neither of them able to do a single thing about any of it.
 
 **Varic** filled the ceiling with ***daylight*** because it made him feel better. **Rabiah** threw missiles of force into the empty air on principle. And then **Rabiah** worked out the thing that mattered: a spell cast from the material world reaches *into* the ethereal, even though nothing comes back the other way. The jaunt that was hiding her was a spell like any other. And ***dispel magic*** does not care about spell resistance.
 
-She spoke it, and the succubus fell back into the world.
+She spoke it, and the succubus fell back into the world — no longer ethereal, and so no longer exempt from gravity, dumped sprawling onto the barracks floor in front of them.
 
-After that it went quickly. They put her on the floor bleeding, and refused, on principle, to bargain with a demon that could vanish at will and call more of its kind. **Harlock** took her head off — his second succubus in as many days — and **Varic** put a cold iron dagger through her face for good measure, and knelt afterward to thank **Sarenrae** for the victory. The head went rolling across the ruined carpet of the barracks, trailing blood.
+It was not enough to have her solid; she had to be kept that way. **Varic** threw out a hand and a green ray took her, and the shimmering emerald field of a ***dimensional anchor*** closed over her — no jaunt, no teleport, no stepping sideways out of reach. If she wanted to leave now she would have to run out the door like anyone else. It did not stop her calling for help, and she tried; nothing answered.
+
+![**Rabiah** pulled her out of the ethereal. **Varic** saw to it that she stayed.](images/the-emerald-cage.png)
+
+After that it went quickly. They put her on the floor bleeding, and refused, on principle, to bargain with a demon that could vanish at will and call more of its kind. **Varic** drove a cold iron dagger through her face, and **Harlock** took her head off — his second succubus in as many days — and the priest knelt afterward to thank **Sarenrae** for the victory. The head went rolling across the ruined carpet of the barracks, trailing blood.
 
 **Callan** watched all of it. Then he put his sword back in its scabbard, let out a long breath, and said the only thing he had said all night that nobody doubted:
 
