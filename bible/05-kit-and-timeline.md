@@ -181,6 +181,28 @@ other. Where a new Book II image disagrees with this block, the block is wrong; 
 
 ---
 
+## Era IV — The Golden Plate  *(Book II, from "The Citadel's Gauntlet" onward)*
+
+**Begins at:** *The False Shrine* (Book II, Ch. XII, "The Citadel's Gauntlet") — the mimic-trap
+shrine inside Citadel Drezen. Of the four masterwork mannequins in that room, one suit was gold
+and lettered in celestial script, and hummed with abjuration. **Harlock claimed it for his own**
+once the shrine's mimics were dead. Everything else in Era III still holds; only Harlock's body
+armor changes here.
+
+### Harlock Greyforge — **CHANGED: this is the later look from `characters/harlock.png`**
+- **Armor — upgraded.** The plain battered breastplate and gambeson are retired. From this scene
+  onward he wears the **ornate golden full plate** seen in his canonical portrait: shaped
+  gold-and-steel plates with fine engraved scrollwork, full pauldrons, gauntlets, and greaves.
+  Take the armor design directly from `characters/harlock.png`.
+- **Shield — unchanged.** Still the ***steel shield of blinding*** from the Book I vault,
+  blazoned with the sword-and-sun — the portrait shows it re-gilded to match the new armor, which
+  is consistent, not a separate item.
+- ***Radiance* — unchanged.** Awakened, and blazes with gold-white holy light.
+- **Avoid (for any Ch. XII-onward scene):** `plain steel breastplate, padded gambeson, bare
+  gambeson sleeves, battered campaign-worn armor` — that look is retired as of this era.
+
+---
+
 ## Later eras — to be filled in as the story reaches them
 
 Add a new era block each time the company meaningfully re-equips, and carry each character's
