@@ -410,7 +410,7 @@ Then the masters ran. One bolted for a side door and was pincushioned before he 
 
 ![If the rope were a little longer, or **Varic**'s firebolt a little slower…](images/the-bell-that-never-rang.png)
 
-The chapel fell silent. The clerics had been no small foes, and the company knew now, by that reach for the rope, that they had cleared only the first room of a place that ran deeper — more chambers, another building, and that barred tunnel whose end no one had seen. To leave such a wound festering at their backs was unthinkable. They would come again to cleanse it, and if they could, to give it back to the light. But the light was gone from the canyon, and the day was spent. For now, they withdrew — victorious, and warned.
+The chapel fell silent. The clerics had been no small foes, and the company knew now, by that reach for the rope, that they had cleared only the first room of a place that ran deeper — more chambers, another building, and that barred tunnel whose end no one had seen. To leave such a wound festering at their backs was unthinkable.
 
 ### **What the Wind Carried**
 
@@ -422,9 +422,9 @@ Then, getting supper up, a cook turned a grain sack over and found a hole chewed
 
 And in between the sound and the sack, the talk went on. Dark thoughts had been riding in that column since the road from the ford. Down in the shadow of the cliff, with the four gone up into the ruin, the light going, and something gibbering away west where no one could see it, the dark thoughts began to be said out loud.
 
-### **The Wound They Had Left**
+### **The Deeper Chapel**
 
-They had promised to come back, and a wound left festering at one's back does not wait patiently. The crusade halted its march in the lee of the cliff, and once more the four went up alone — **Harlock Greyforge**, **Lupenor Celest**, **Rabiah**, and **Varic Sarian** — to finish what a single night had not allowed. The knotted alarm-rope still hung untouched through its hole in the ceiling; beneath it lay **Ilzek** where they had felled him, the ghoul cleric who had never reached the cord. Nothing had come to move him. The rest of the place did not yet know they had returned.
+The knotted alarm-rope still hung untouched through its hole in the ceiling; beneath it lay **Ilzek** where they had felled him, the ghoul cleric who had never reached the cord. Nothing had come to move him. The rest of the place did not yet know they had returned.
 
 ***Radiance*** knew the chapel for what it had been long before the desolation. *I remember this house,* the blade said in **Harlock**'s mind, warm now where the desecration made it want to go cold. It had been raised, she thought, in the days of **Yaniel** — the wielder she still mourned — and beneath its altar the faithful had once cached healing draughts against the day an army might need them. *We must not leave it to the ghouls. We must give it back.*
 
