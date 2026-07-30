@@ -514,7 +514,7 @@ They burned the queen's body, climbed the rope back into the jaundiced daylight,
 
 *— Session of June 21, 2025 —*
 
-## **The Bridge That Would Not Fall**
+## **The Liberation of Drezen City**
 
 <!-- fathom: 343836789 -->
 
