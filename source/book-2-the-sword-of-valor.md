@@ -687,13 +687,13 @@ It was not hunting the army. It was hunting them.
 
 It came on out of the morning and they got their first clear look at it.
 
-One body, leopard-built and enormous, on the wings of a dragon. On the right, the head of a **white dragon**. On the left, a goat's head, black-bearded and red-eyed and altogether demonic. In the centre, a great snow leopard, and it was the leopard that seemed to be doing the thinking — the goat butting at it, urging it toward the army massing at the breach, and the leopard shrugging the goat off and setting its own course.
+One body, leopard-built and enormous, on the wings of a dragon. On the right, the head of a **white dragon**. On the left, a goat's head, black-bearded and red-eyed and altogether demonic. In the centre, a great snow leopard, and it was the leopard that seemed to be doing the thinking — the goat butting at it, urging it down upon the ranks entire, and the leopard shrugging the goat off to fix instead on the single figure at their head.
 
-Its course was the watchtower.
+Its course was **Rabiah**. Her army had formed on the near side of the **Ahari** bridge, and she was marching quicktime along its front to hold her place at the head of it. Out of all that host the thing had picked her.
 
 **Stoltengraabe** had been loosed to hunt, and what it had been loosed to hunt was them; and the reason they knew that, without anyone telling them, was that the thing was mythic. The abyssal power in it answered the power in their own blood the way one struck bell answers another. It was not a beast that had wandered in from the waste. It had been made, and kept, and set aside for exactly this morning.
 
-**Lupenor** did not wait for it. She went down off the tower onto the wall itself and ran the parapet until she had a clean line at three hundred feet, and she spent her one arrow of outsider-slaying on a shot that most archers would not have attempted. It struck. The beast shuddered in the air and did not fall.
+**Lupenor** did not wait for it. She went down off the tower onto the wall itself and ran the parapet until she had a clean line at three hundred feet, and she spent her one arrow of outsider-slaying on a shot that most archers would not have attempted. It struck. The beast shuddered in the air and did not fall — but the pain of it did what no argument between its heads had managed. It broke off, forgot the army and the woman marching at its head, and came about and up toward the wall to find whatever had hurt it.
 
 **Rabiah**, standing with her army below, threw fire at it and watched the fire wash off it like rain off slate. **Varic** made ready a wall of wind against the breath he knew was coming, thought better of it, and stood waiting with the prayer unspoken.
 
