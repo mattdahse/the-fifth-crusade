@@ -1,6 +1,6 @@
 ---
 name: wotr-chronicle
-description: Compose and publish recaps for Matt's Pathfinder Wrath of the Righteous campaign archive, and keep its Cast, Secrets, and player-email draft in sync. Use whenever Matt pastes a WotR/Pathfinder session transcript, describes a session from memory, asks for a recap / chronicle update / "Chapter X", asks to update the cast or add a secret, or refers to the campaign or its characters (Harlock, Varic, Lupenor, Rabiah, Chirrik, Cornelia). Triggers include "transcript", "recap", "session summary", "chronicle update", "Chapter X", "add to the cast", "new secret", "Wrath of the Righteous", "WotR", or any pasted multi-paragraph game-session log set in Kenabres, Drezen, the Worldwound, or the Marchlands. Trigger even if the skill is not named — a pasted session log is enough.
+description: Compose and publish recaps for Matt's Pathfinder Wrath of the Righteous campaign archive, and keep its Cast, Secrets, and player-email draft in sync. Use whenever Matt pastes a WotR/Pathfinder session transcript, describes a session from memory, asks for a recap / chronicle update / "Chapter X", asks to update the cast or add a secret, or refers to the campaign or its characters (Harlock, Varic, Lupenor, Rabiah, Chyrrik, Cornelia). Triggers include "transcript", "recap", "session summary", "chronicle update", "Chapter X", "add to the cast", "new secret", "Wrath of the Righteous", "WotR", or any pasted multi-paragraph game-session log set in Kenabres, Drezen, the Worldwound, or the Marchlands. Trigger even if the skill is not named — a pasted session log is enough.
 ---
 
 # WotR Chronicle → Repo & Site
@@ -118,7 +118,7 @@ The archive is illustrated. Three files govern all of it:
 
 ## Canon spellings (unify FG/transcript drift)
 
-Gray Garrison, Kenabres, Drezen, Aponavisius, Staunton Vhane, Soul Shear, Lupenor Celest, Irabeth Tirabade, Aron Kir, Chirrik, Jaruunicka, Arueshalae, Rothin Vald, Elara Dawnstrider, Solemn Hour, Battle Hymn, Khorramzadeh, Radiance. (FG notes and transcripts often drift: Grey Garrison, Kenabras, Aponavicious, Staunton Vane, Lupinor, Celeste, Irebeth, Aaron Keirr, Chyrrik, Soulshear, Rothen (→ Rothin), Alara Dawnstar (→ Elara Dawnstrider) — fix all of these.)
+Gray Garrison, Kenabres, Drezen, Aponavisius, Staunton Vhane, Soul Shear, Lupenor Celest, Irabeth Tirabade, Aron Kir, Chyrrik, Jaruunicka, Arueshalae, Rothin Vald, Elara Dawnstrider, Solemn Hour, Battle Hymn, Khorramzadeh, Radiance. (FG notes and transcripts often drift: Grey Garrison, Kenabras, Aponavicious, Staunton Vane, Lupinor, Celeste, Irebeth, Aaron Keirr, Chyrrik, Soulshear, Rothen (→ Rothin), Alara Dawnstar (→ Elara Dawnstrider) — fix all of these.)
 
 ## Conventions & edge cases
 

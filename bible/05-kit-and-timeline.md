@@ -92,7 +92,7 @@ inline (Harlock's *Radiance*, from its recovery onward; Lupenor's bow, her const
   **longbow** and a **quiver of fletched arrows**. Travel leathers, no fine gear.
 - **Weapon:** the bow is her constant; any melee sidearm is **per scene**.
 
-### Chirrik  *(joins mid-Book I, not in the earliest undercity scenes)*
+### Chyrrik  *(joins mid-Book I, not in the earliest undercity scenes)*
 - **Grey-green hooded travel leathers**, wrapped forearms; a **long horn bow** and a quiver
   of **black-fletched arrows**. Met on the road — absent from the first deep-cavern scenes,
   so do not place her in Chapters I–III.
@@ -190,7 +190,7 @@ kit forward. Things that belong to **later** eras, **not** Era I:
   light (it wakes when he speaks his oath at Defender's Heart — after the undercity).
 - **Varic:** the **gold-filigree breastplate, gold circlet, red mantle**, and steel
   pauldrons of his resplendent look; **Solemn Hour**, later **Battle Hymn**.
-- **Lupenor / Rabiah / Chirrik:** upgrades won at the Gray Garrison, Drezen, and beyond.
+- **Lupenor / Rabiah / Chyrrik:** upgrades won at the Gray Garrison, Drezen, and beyond.
 
 *(Suggested next era to define once needed: **Era II — The Gray Garrison & the March**.)*
 

@@ -16,7 +16,7 @@ This is the authoring source of truth for the chronicle's **voice**. Read it bef
 - **Burt → Harlock Greyforge** — half-orc sworn to Iomedae. *Begins Book I as a devout fighter*; recovers and awakens the sentient longsword *Radiance* and grows into a paladin and Champion-path mythic hero. Founds Iomedae's Preservers.
 - **Fenris → Lupenor Celest** — elven slayer, devotee of Desna; scout and archer. Trickster-path mythic. Founds Lupenor's Market in Drezen.
 - **Steve → Rabiah** — human sorcerer of the Destined bloodline, marked with the Riftwardens' Seeker's Spiral; the party's battle-mage. Archmage-path mythic.
-- **Chirrik** — a mongrelman scout of Neathholm, met on the road in Book I; a keen-eyed archer who follows the company and later joins it.
+- **Chyrrik** — a mongrelman scout of Neathholm, met on the road in Book I; a keen-eyed archer who follows the company and later joins it.
 
 *Matt runs the game.*
 

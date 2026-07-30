@@ -12,13 +12,13 @@
 
 ### **Into the Ahari**
 
-Nine souls set out from **Drezen** at dawn on the twelfth of Lamashan: **Rabiah**, **Varic**, **Harlock**, and **Lupenor**, accompanied by their cohorts **Chirrik**, **Cornelia Dewfoot**, **Rothin Vald**, and **Elara Dawnstrider**. **Mira Thistledance**, **Lupenor**'s halfling bard, completed the company. Their destination lay roughly thirty miles to the west — a cave entrance in the cliff face where **Anevia** had spotted cultists bearing the symbols of ***Baphomet***.
+Nine souls set out from **Drezen** at dawn on the twelfth of Lamashan: **Rabiah**, **Varic**, **Harlock**, and **Lupenor**, accompanied by their cohorts **Chyrrik**, **Cornelia Dewfoot**, **Rothin Vald**, and **Elara Dawnstrider**. **Mira Thistledance**, **Lupenor**'s halfling bard, completed the company. Their destination lay roughly thirty miles to the west — a cave entrance in the cliff face where **Anevia** had spotted cultists bearing the symbols of ***Baphomet***.
 
 They chose to travel through the dry bed of the **Ahari River** rather than across the open Marchlands. The riverbed offered shelter from the wind and concealment from any eyes that might be watching from above. The terrain was easy enough underfoot — sand and stone worn smooth by waters that had long since ceased to flow — but the high banks on either side narrowed their world to a ribbon of gray sky overhead.
 
 It began to rain almost immediately. The water appeared, mercifully, to be just that — water. In the Worldwound, one learned to check.
 
-Four hours into the march, **Lupenor** spotted vultures circling over the northern bank. She and **Chirrik** scaled the slope to investigate, creeping between the low, rolling hills until they crested a rise and found the source: a massive creature, easily ten feet across, sprawled dead among the rocks. Its body was a nightmare of tentacles and chitinous plates, already being picked apart by a dozen scavengers.
+Four hours into the march, **Lupenor** spotted vultures circling over the northern bank. She and **Chyrrik** scaled the slope to investigate, creeping between the low, rolling hills until they crested a rise and found the source: a massive creature, easily ten feet across, sprawled dead among the rocks. Its body was a nightmare of tentacles and chitinous plates, already being picked apart by a dozen scavengers.
 
 **Cornelia:** *Isn't anyone curious what killed it?*
 
@@ -42,7 +42,7 @@ Morning brought steel-gray clouds and, initially, more rain. Then the rain stopp
 
 The first pellets stung more than ice should. When one struck the back of **Harlock**'s gauntlet and bounced into his palm, he saw it clearly: a molar. Human-sized. Perfectly formed. The sky was raining teeth.
 
-Molars, incisors, bicuspids, and fangs clattered against the rocks in a grotesque percussion. Those with shields raised them overhead. Those without — **Rabiah**, **Chirrik**, **Lupenor**, and **Mira** — hunched and endured as best they could, the teeth striking exposed skin hard enough to draw blood. An hour of this torment passed before they spotted the remnants of a stone bridge spanning the riverbed ahead and scrambled beneath it for shelter.
+Molars, incisors, bicuspids, and fangs clattered against the rocks in a grotesque percussion. Those with shields raised them overhead. Those without — **Rabiah**, **Chyrrik**, **Lupenor**, and **Mira** — hunched and endured as best they could, the teeth striking exposed skin hard enough to draw blood. An hour of this torment passed before they spotted the remnants of a stone bridge spanning the riverbed ahead and scrambled beneath it for shelter.
 
 The dental storm lasted another hour, then slowly abated. Strangely, the teeth did not accumulate. The earliest to fall seemed to dissolve into the blighted earth, absorbed back into whatever madness had produced them.
 
@@ -64,7 +64,7 @@ A carpet of scintillating darkness moved across the rocks ahead — not one mass
 
 **Varic** erected a ***Wall of Fire*** behind the retreating party — a blazing curtain one hundred and sixty feet long that finally gave the swarms pause. Individual ticks that attempted to cross it skittered through and died burning on the far side, but the swarms themselves would not pass. Behind the wall of flame, the party ran.
 
-**Rabiah** spent a desperate round tearing ticks from her body with **Chirrik**'s help, ripping the bloated creatures free as they burrowed into her skin. She made her save, barely, and the last of them were pulled loose. But the damage was done. Somewhere in those seconds of contact, the plague had found its way into her blood.
+**Rabiah** spent a desperate round tearing ticks from her body with **Chyrrik**'s help, ripping the bloated creatures free as they burrowed into her skin. She made her save, barely, and the last of them were pulled loose. But the damage was done. Somewhere in those seconds of contact, the plague had found its way into her blood.
 
 ### **The Marchlands**
 
@@ -92,7 +92,7 @@ She found a pool of thick red liquid nestled between two hills, reeking of rot e
 
 Half a dozen to a dozen mounted figures moved across the Marchlands roughly a mile to the northwest, kicking up a plume of dust as they rode. They were heading north, away from the cliff — away from whatever lay at its base. When she returned and shifted back to halfling form to report, the party immediately turned north to cut across the riders' trail.
 
-They found it within the hour. The tracks belonged to roughly ten quadrupedal creatures — not horses. The prints showed reptilian claws, three-toed and deep in the hard-packed earth. **Chirrik** and **Cornelia** followed the back trail south, losing it once in rocky terrain before picking it up again with a pair of excellent tracking rolls. The trail led to the cliff's edge, where a path — wide enough for mounted riders — wound down the face in a series of switchbacks to the valley floor below.
+They found it within the hour. The tracks belonged to roughly ten quadrupedal creatures — not horses. The prints showed reptilian claws, three-toed and deep in the hard-packed earth. **Chyrrik** and **Cornelia** followed the back trail south, losing it once in rocky terrain before picking it up again with a pair of excellent tracking rolls. The trail led to the cliff's edge, where a path — wide enough for mounted riders — wound down the face in a series of switchbacks to the valley floor below.
 
 ### **The Defiled Temple**
 
@@ -138,7 +138,7 @@ But the cave was not empty. More Templars emerged from behind the curtains — d
 
 **Varic** charged through the melee, taking an attack of opportunity from a Templar's glaive that glanced harmlessly off his enchanted armor — an armor class so formidable that even a natural 18 could not breach it. He reached the center of the room and unleashed ***Burning Hands*** into a cluster of enemies, the curtain behind them catching fire as divine flames washed over their armor.
 
-**Rabiah** flew. She rose above the melee on wings of arcane force, hovering near the ceiling twenty feet above the combatants, and rained destruction downward — a scorching bolt that incinerated one of the wounded Templars where he stood. **Chirrik**'s arrows found their marks from the stairwell. **Cornelia** held the rear. **Mira**'s song echoed off the ancient stone walls, her bardic courage lending strength to every allied arm.
+**Rabiah** flew. She rose above the melee on wings of arcane force, hovering near the ceiling twenty feet above the combatants, and rained destruction downward — a scorching bolt that incinerated one of the wounded Templars where he stood. **Chyrrik**'s arrows found their marks from the stairwell. **Cornelia** held the rear. **Mira**'s song echoed off the ancient stone walls, her bardic courage lending strength to every allied arm.
 
 One Templar lay dying on the floor. Another was dead. The rest were wounded, shaken, and — in the case of the one blind guard who had nevertheless managed to land a devastating critical hit on **Elara** with nothing but instinct and fury — still very much dangerous.
 
@@ -180,11 +180,11 @@ And in its wake came a woman.
 
 The light of the **Dawnflower** broke over the chamber like a struck bell. Two Templars reeled away blind. **Zinedra** threw an arm across her eyes too late and stood there sightless in the middle of her own temple, and for a moment it seemed the fight had turned entirely.
 
-Then one of the Templars — a caster, and nobody had known it until that instant — spoke a word, and the floor beneath **Lupenor**, **Cornelia**, and **Chirrik** simply ceased to exist.
+Then one of the Templars — a caster, and nobody had known it until that instant — spoke a word, and the floor beneath **Lupenor**, **Cornelia**, and **Chyrrik** simply ceased to exist.
 
 The pit was ten feet across and forty feet deep, and it opened without warning under half the company's rear rank. The three of them scrambled clear on instinct. **Rothin Vald** did not. The cohort cleric went straight down into the dark and struck the bottom hard, and from that moment the fight went on without him — a man in the bottom of a hole listening to the ring of steel forty feet overhead.
 
-**Chirrik** did the only useful thing available: she uncoiled her whole rope and threw the entire length of it into the pit. **Rothin** climbed. It took him the rest of the battle to reach the lip, hauled the last of the way by every hand the cohorts could spare, and he came out of it with the sour expression of a man who had contributed nothing and knew it.
+**Chyrrik** did the only useful thing available: she uncoiled her whole rope and threw the entire length of it into the pit. **Rothin** climbed. It took him the rest of the battle to reach the lip, hauled the last of the way by every hand the cohorts could spare, and he came out of it with the sour expression of a man who had contributed nothing and knew it.
 
 ### **The Priestess Falls**
 
@@ -206,7 +206,7 @@ Stripping the dead took the better part of a quarter hour. Ten suits of enchante
 
 There was also a key.
 
-**Lupenor** had shot herself nearly dry; she came out of the fight with five arrows and no prospects. **Chirrik**, who had watched her empty a quiver into the enemy from thirty feet behind her, handed over fifteen of her own without being asked.
+**Lupenor** had shot herself nearly dry; she came out of the fight with five arrows and no prospects. **Chyrrik**, who had watched her empty a quiver into the enemy from thirty feet behind her, handed over fifteen of her own without being asked.
 
 The cohorts were provided for out of the spoils. **Mira Thistledance** — who had stood at the back of every fight since **Drezen** with nothing but a short bow, a leather jerkin, and twenty arrows to her name — received the cloak of resistance, and then **Lupenor** unbuckled her own frost rapier and pressed it on the bard as well. *If she ever has to poke somebody in the eye,* the slayer said, *she can do it properly now.*
 
@@ -234,7 +234,7 @@ What rolled out of it was invisible, and it was quick.
 
 Barbed tentacles unfolded out of a central mass and resolved into talons, and four of them lashed **Rabiah** at once and closed. The creature drew her into what it plainly considered an embrace, and began — patiently, obscenely — to siphon the life out of her. It burned where it touched. Every round it held her cost her something she could not spare.
 
-Worse, it could not be shot. A wall of shrieking air moved with the thing, and **Chirrik**'s cold-iron arrow simply blew aside; the same wind that made it untouchable also made it deaf to **Mira**'s song, so that **Rabiah** stood in the middle of a whirlwind entirely alone. **Rothin** attempted a ***Dismissal*** to send the elemental home and beat its will handily, only to fail to punch through its resistance — twice. **Harlock** hit it with everything he had and watched it shrug the damage off.
+Worse, it could not be shot. A wall of shrieking air moved with the thing, and **Chyrrik**'s cold-iron arrow simply blew aside; the same wind that made it untouchable also made it deaf to **Mira**'s song, so that **Rabiah** stood in the middle of a whirlwind entirely alone. **Rothin** attempted a ***Dismissal*** to send the elemental home and beat its will handily, only to fail to punch through its resistance — twice. **Harlock** hit it with everything he had and watched it shrug the damage off.
 
 It was **Mira**, of all people, who found the answer. The bard dredged up what she knew of the planes and produced the one useful fact in the room: the things were vulnerable to cold. It came too late to matter — the only frost weapon present was the rapier now hanging at her own hip, and she had no intention whatsoever of getting closer.
 
@@ -270,7 +270,7 @@ The **Fallen Fane** was a fallen fane no longer. It stood sanctified — re-hall
 
 There was a cost, and it was not **Varic**'s to pay.
 
-**Chirrik** and the cohorts guarding the prisoners in the main chamber reported it afterward, still shaken. When the celestial tide swept through the hall, all three of the bound Templars opened their mouths in a silent scream. Then their flesh fell in on itself, and rotted, and blew away as dust, and there was nothing left of them at all.
+**Chyrrik** and the cohorts guarding the prisoners in the main chamber reported it afterward, still shaken. When the celestial tide swept through the hall, all three of the bound Templars opened their mouths in a silent scream. Then their flesh fell in on itself, and rotted, and blew away as dust, and there was nothing left of them at all.
 
 Nobody in the company had raised a hand. **Harlock**, who had refused an hour earlier to execute unarmed prisoners and had said so plainly, stood looking at the empty ropes for a long moment. Whatever judgment had been passed, it had not been passed by them, and there was no appealing it.
 
@@ -326,17 +326,17 @@ It was the best they could do.
 
 They emerged from the cave into gray daylight and climbed the cliff path back to the upper Marchlands. **Rabiah** happened to glance over her shoulder at just the right moment and spotted something on the far horizon — a shape with dragon wings, a long tail, and a silhouette that left no room for comfortable interpretation. It was miles away and moving in the opposite direction. Nobody suggested investigating.
 
-**Chirrik** took the lead, her ranger's instincts sharpened by her favored terrain. She pointed them in the direction she believed would intersect the Ahari Riverbed, and they set off.
+**Chyrrik** took the lead, her ranger's instincts sharpened by her favored terrain. She pointed them in the direction she believed would intersect the Ahari Riverbed, and they set off.
 
-The ash storm hit within the hour. It began as a light snowfall of gray flakes, but quickly intensified into a howling gale of cinders that stung exposed skin and wormed their way into every gap in armor. These were not dead ashes drifting down from some distant eruption — they were hot, fresh, and sharp, as though somewhere nearby an enormous fire burned just beyond the veil of the sky. Those without ***Endure Elements*** took damage simply from walking through it. **Cornelia** and **Chirrik** cast their protections on themselves. **Varic** cast his three times, shielding **Lupenor**, **Mira**, and **Harlock**. The rest endured.
+The ash storm hit within the hour. It began as a light snowfall of gray flakes, but quickly intensified into a howling gale of cinders that stung exposed skin and wormed their way into every gap in armor. These were not dead ashes drifting down from some distant eruption — they were hot, fresh, and sharp, as though somewhere nearby an enormous fire burned just beyond the veil of the sky. Those without ***Endure Elements*** took damage simply from walking through it. **Cornelia** and **Chyrrik** cast their protections on themselves. **Varic** cast his three times, shielding **Lupenor**, **Mira**, and **Harlock**. The rest endured.
 
-**Chirrik** found shelter — barely. A DC 30 survival check in a blinding storm, and she made it by the width of a fingernail, burning a mythic surge to push her roll over the threshold. She led them to a cluster of rocks on the windward side of a low hill, where they huddled for four hours while the hot ash scoured the landscape around them. By the time the storm abated, it was near dark. They made camp where they were.
+**Chyrrik** found shelter — barely. A DC 30 survival check in a blinding storm, and she made it by the width of a fingernail, burning a mythic surge to push her roll over the threshold. She led them to a cluster of rocks on the windward side of a low hill, where they huddled for four hours while the hot ash scoured the landscape around them. By the time the storm abated, it was near dark. They made camp where they were.
 
 Close to two in the morning, screaming erupted from somewhere out in the Worldwound. Not one voice — a chorus of them, high and ragged and desperate, coming from no discernible direction. It lasted ten minutes, then stopped. Not trailed off. Stopped, as though someone had closed a door on it.
 
 **Rabiah:** *I bet it's a trick. Something trying to draw us out of camp so it can pick us off in the dark.*
 
-Nobody argued. **Chirrik** was woken and asked if she recognized the sound — some creature of the Worldwound, perhaps, that screamed to lure prey. She did not. They stayed put, weapons close, and waited for dawn.
+Nobody argued. **Chyrrik** was woken and asked if she recognized the sound — some creature of the Worldwound, perhaps, that screamed to lure prey. She did not. They stayed put, weapons close, and waited for dawn.
 
 **Harlock** dreamed again. The same nightmare. The same pull. Weaker now, as though whatever was calling to him was growing more distant with every mile they traveled back toward **Drezen**. He could not grasp the direction. He lay awake until morning, staring at nothing.
 
@@ -344,7 +344,7 @@ Nobody argued. **Chirrik** was woken and asked if she recognized the sound — s
 
 The second day brought rain. It appeared, mercifully, to be water — but when it evaporated, it left a white, rimy powder on every surface, and it smelled of the ocean. Salt rain. Another of the Worldwound's inexplicable offerings.
 
-They traveled along the southern bank of the Ahari rather than in the riverbed itself. The rain made flash flooding a real possibility, and after the tick swarms of their outward journey, nobody wanted to be caught in the low ground. **Chirrik** kept them on course, her survival checks steady and sure.
+They traveled along the southern bank of the Ahari rather than in the riverbed itself. The rain made flash flooding a real possibility, and after the tick swarms of their outward journey, nobody wanted to be caught in the low ground. **Chyrrik** kept them on course, her survival checks steady and sure.
 
 By late afternoon, they recognized the stone bridge that crossed the river — the same bridge they had sheltered beneath during the rain of teeth on their way out. Above it, the ruins of the abandoned village sprawled across the northern bank. They had spent barely an hour searching it the first time through — just long enough to scavenge a window shutter and discover a flea-infested roll of canvas before moving on.
 
@@ -378,7 +378,7 @@ The Bodak was an advanced specimen — a humanoid figure withered to a husk of b
 
 **Rothin** touched **Lupenor**'s bow and spoke a prayer, invoking his Glory domain's ***Holy Lance*** ability. For four rounds, every arrow **Lupenor** fired would carry the holy weapon quality — good-aligned, bypassing damage reduction, dealing an additional two dice of damage against evil creatures. **Lupenor** studied her target, nocked a holy arrow, and let fly.
 
-The combination was devastating. **Lupenor**'s arrows punched through the Bodak's damage reduction where **Chirrik**'s mundane shafts had bounced away uselessly. **Harlock** waded in with ***Radiance***, his blade singing. **Elara** jabbed with her cold iron longspear, and **Rabiah** contributed ***Magic Missiles*** from the stairwell — five bolts of force that required no attack roll and ignored the creature's formidable armor class entirely.
+The combination was devastating. **Lupenor**'s arrows punched through the Bodak's damage reduction where **Chyrrik**'s mundane shafts had bounced away uselessly. **Harlock** waded in with ***Radiance***, his blade singing. **Elara** jabbed with her cold iron longspear, and **Rabiah** contributed ***Magic Missiles*** from the stairwell — five bolts of force that required no attack roll and ignored the creature's formidable armor class entirely.
 
 The Bodak fell in two rounds. But the death gaze had already found one victim: **Mira Thistledance**, standing in the corridor, had failed her fortitude save. She would not feel the full weight of it until morning — when a second save would determine whether the negative level faded or became permanent.
 
@@ -410,7 +410,7 @@ His voice faded on the last word, but his body did not vanish. Instead, it shot 
 
 They had not. **Cornelia** was asked if she might transform into something with claws suitable for digging. She declined, with emphasis. A busted shovel was eventually found in the cemetery — fitting, given the circumstances — and the digging began. It took an hour to reach the chest, four feet down in hard-packed earth. It was metal, locked, but the lock had long since rusted to nothing and fell apart at a touch.
 
-Inside, they found the crusader's legacy: a scroll of ***Resurrection*** — worth more than gold, given how many of them had already died at least once. Seven arrows of ***Evil Outsider Slaying***, each one capable of dealing fifty points of damage to a demon on a failed save. A holy cold iron longsword that went straight to **Elara**, replacing her old blade. A keen longsword for **Chirrik**, whose expanded critical threat range would serve her well. A ***Rod of the Viper***. Three blocks of ***Holy Incense of Meditation***, which **Varic** claimed — each one, when burned over eight hours of prayer, would allow him to prepare his divine spells at maximum potency, every die maximized, every healing spell hitting its ceiling. And a horn that defied identification despite every spellcraft check the party could muster.
+Inside, they found the crusader's legacy: a scroll of ***Resurrection*** — worth more than gold, given how many of them had already died at least once. Seven arrows of ***Evil Outsider Slaying***, each one capable of dealing fifty points of damage to a demon on a failed save. A holy cold iron longsword that went straight to **Elara**, replacing her old blade. A keen longsword for **Chyrrik**, whose expanded critical threat range would serve her well. A ***Rod of the Viper***. Three blocks of ***Holy Incense of Meditation***, which **Varic** claimed — each one, when burned over eight hours of prayer, would allow him to prepare his divine spells at maximum potency, every die maximized, every healing spell hitting its ceiling. And a horn that defied identification despite every spellcraft check the party could muster.
 
 They divided the spoils, packed the mystery horn into the bag of holding, and spent the night in the mausoleum above the now-empty crypt. **Harlock** dreamed again. The pull was fainter still — almost gone, like a voice calling from the far end of a very long corridor. He could not tell if it was fading because they were moving away from its source, or because whatever had been calling had given up.
 
@@ -432,7 +432,7 @@ He was inside the thing, and the walls were trying to digest him.
 
 **Harlock** drew his dagger and began cutting. The stomach lining had its own armor class — lower than the creature's exterior but still formidable — and its own hit points. He hacked through it in two strikes, carved a hole in the wall of the intestinal maze, and tumbled out of the creature's flank in a deluge of slime and acid. He landed on his feet, dripping with viscera, and immediately raised ***Radiance*** for another swing.
 
-The Dwigereth was not impressed. It scuttled forward on its horrible legs with a speed that belied its bulk — sixty feet of movement, and the ***Spring Attack*** feat to use it offensively. It lunged past **Lupenor** and **Chirrik**, both serpent-mouths snapping. **Lupenor** dodged. **Chirrik** did not. The ranger vanished into the creature's maw with a strangled cry, keen longsword and all.
+The Dwigereth was not impressed. It scuttled forward on its horrible legs with a speed that belied its bulk — sixty feet of movement, and the ***Spring Attack*** feat to use it offensively. It lunged past **Lupenor** and **Chyrrik**, both serpent-mouths snapping. **Lupenor** dodged. **Chyrrik** did not. The ranger vanished into the creature's maw with a strangled cry, keen longsword and all.
 
 Outside, the party threw everything they had at the creature and watched most of it fail. **Varic** cast ***Holy Smite*** — the spell penetrated, but the Dwigereth was an aberration, not an outsider, and the damage was a fraction of what it would have been against a true demon. **Rabiah** cast ***Mythic Scorching Ray*** and watched both rays shatter against the creature's spell resistance without effect. She tried ***Mythic Magic Missiles*** — the caster level check came up two, plus twelve, for a total of fourteen. Not enough. The missiles impacted the creature's hide and dissolved into nothing.
 
@@ -440,7 +440,7 @@ Outside, the party threw everything they had at the creature and watched most of
 
 The Dwigereth swallowed **Harlock** a second time. He cut his way out a second time. It swallowed **Lupenor**. She tried to slash through the intestinal walls with a hand axe and could barely penetrate the damage reduction — the creature's innards were as tough as its hide, and a slayer's light weapons were not equal to the task. Outside, **Elara** activated ***Smite Evil*** and laid into the creature with her longspear — cold iron, good-aligned through the smite, bypassing whatever damage reduction the thing possessed. The hits landed. The creature bled. But not fast enough.
 
-It swallowed **Harlock** a third time. This time, it bit him first for thirty-eight points of damage, leaving him at a single hit point before the jaws closed. Inside the intestinal maze, the walls pulsed with peristaltic fury — eight dice of slashing damage every round to anyone still trapped within. **Chirrik**, who had been inside for two rounds now, was critically wounded. **Lupenor** was battered and running out of options.
+It swallowed **Harlock** a third time. This time, it bit him first for thirty-eight points of damage, leaving him at a single hit point before the jaws closed. Inside the intestinal maze, the walls pulsed with peristaltic fury — eight dice of slashing damage every round to anyone still trapped within. **Chyrrik**, who had been inside for two rounds now, was critically wounded. **Lupenor** was battered and running out of options.
 
 **Harlock** cut his way out for the third time. He was covered in so much of the creature's digestive fluid that he was practically camouflaged. One hit point. His armor was corroded. His shield was pitted. And ***Radiance*** still gleamed, because ***Radiance*** always gleamed.
 
@@ -450,13 +450,13 @@ And then **Rothin Vald**, the cohort cleric with the lowest hit points in the co
 
 The caster level check succeeded. The spell penetrated the creature's resistance. The damage rolled high. And the Dwigereth — which had swallowed three members of the party, shrugged off a dozen spells, and reduced the strongest paladin in the company to a single hit point — shuddered, buckled, and collapsed.
 
-Its extradimensional gullet ruptured as it died. **Chirrik** and **Lupenor** spilled out of the creature's dissolving bulk, gasping and retching and alive. **Harlock** was already standing over the carcass, swaying on his feet, covered head to toe in digestive slime, grinning like a man who had lost his mind and found something better.
+Its extradimensional gullet ruptured as it died. **Chyrrik** and **Lupenor** spilled out of the creature's dissolving bulk, gasping and retching and alive. **Harlock** was already standing over the carcass, swaying on his feet, covered head to toe in digestive slime, grinning like a man who had lost his mind and found something better.
 
 **Varic:** ***Rothin****. Remind me to give you a raise.*
 
 ### **Drezen at Dusk**
 
-**Varic** channeled positive energy until everyone was standing upright without assistance. Wands were passed around. Potions were drunk. The physical wounds closed, but the look in people's eyes did not change. **Mira** sat apart from the group, plucking absently at her lute strings, her performance still diminished by the negative level she could not shake. **Chirrik** cleaned her new keen longsword in silence, scrubbing the digestive acid from the blade with a piece of torn cloth. **Lupenor** collected three pounds of the Dwigereth's stomach lining — the material used to stitch bags of holding — and packed it into the party's own bag with the clinical detachment of someone who had been inside that stomach and intended to profit from the experience.
+**Varic** channeled positive energy until everyone was standing upright without assistance. Wands were passed around. Potions were drunk. The physical wounds closed, but the look in people's eyes did not change. **Mira** sat apart from the group, plucking absently at her lute strings, her performance still diminished by the negative level she could not shake. **Chyrrik** cleaned her new keen longsword in silence, scrubbing the digestive acid from the blade with a piece of torn cloth. **Lupenor** collected three pounds of the Dwigereth's stomach lining — the material used to stitch bags of holding — and packed it into the party's own bag with the clinical detachment of someone who had been inside that stomach and intended to profit from the experience.
 
 They marched the final miles in near silence, following the Ahari until the land began to rise and the walls of **Drezen** appeared on the eastern horizon, backlit by the last amber light of a setting sun. The gates were open. The sentries recognized them. And as the party passed through the outer defenses and into the streets of the city they had liberated — battered, acid-scarred, one member permanently diminished, all of them carrying the kind of exhaustion that sleep alone cannot cure — it occurred to more than one of them that the Worldwound had not merely tested them on this journey.
 
@@ -508,11 +508,11 @@ Nobody recognized the name. Knowledge checks in religion and history turned up n
 
 Under the bed, **Lupenor** found a leather-bound book. It was hand-scribed, professionally crafted, and written in Hallit — the language of ancient Sarkoria, spoken before the Worldwound had swallowed that nation whole. Nobody in the party could read it.
 
-**Chirrik** could.
+**Chyrrik** could.
 
 ### **The Investigation**
 
-While **Chirrik** spent the night reading, the party split its efforts. **Varic** returned to the shrine to deal with the desecration. He burned a mythic charge and a ***Divine Surge*** to cast ***Dispel Evil***, touching it to the altar and breaking the ***Unhallow*** in a single casting. The corruption cracked and lifted like ice breaking from stone.
+While **Chyrrik** spent the night reading, the party split its efforts. **Varic** returned to the shrine to deal with the desecration. He burned a mythic charge and a ***Divine Surge*** to cast ***Dispel Evil***, touching it to the altar and breaking the ***Unhallow*** in a single casting. The corruption cracked and lifted like ice breaking from stone.
 
 **Harlock** and **Elara** went canvassing the area around the shrine. His first diplomacy check was poor — **Harlock** was not, by nature, an interrogator — but between **Elara**'s superior skill and persistence, they eventually assembled a picture of the missing priest.
 
@@ -520,21 +520,21 @@ His name was **Jeskar Hinton**. He was young, handsome, and had joined the crusa
 
 But a few parishioners told a different story. They described encounters with **Jeskar** that bordered on flirtatious — charming at the time, but deeply uncomfortable in retrospect. Others spoke of recent neediness and desperation. By all accounts, the behavior was completely unlike the man they had known.
 
-In the morning, **Chirrik** delivered her report.
+In the morning, **Chyrrik** delivered her report.
 
 **The Stag King's Bride:** *The book was an account of the teachings of* ***Delamere*** *— a follower of* ***Erastil*** *who had founded a splinter cult within the religion.* ***Delamere*** *believed that cities were among the most decadent inventions of mortalkind, and that any settlement of more than fifty-three people was inherently evil. The fifty-fourth person to join a community, in her reckoning, was always a corrupting force that must be banished or destroyed. The theology was bizarre, rooted in ancient Sarkorian ideas about the natural size of extended family networks.* ***Delamere*** *was dead, and had been interred in a cave somewhere to the south — a place called the* ***Weeping Hills****. On the last page, in different handwriting, someone had scrawled: Delamere has the right of it. Drezen is too big for its own good. A trip to her tomb to search for her teachings.*
 
-**Chirrik** estimated the **Weeping Hills** lay roughly twenty-four miles to the south-southwest. She had favored terrain in the Worldwound. She could get them there.
+**Chyrrik** estimated the **Weeping Hills** lay roughly twenty-four miles to the south-southwest. She had favored terrain in the Worldwound. She could get them there.
 
 ### **The Canyon**
 
-Windstorms and thunderstorms kept them in **Drezen** for an extra day. They used the time to prepare — buying tents, blankets, bedrolls, and supplies that the party's first Marchlands expedition had taught them they desperately needed. When the weather cleared on the twenty-third, they set out south with only the mythic four and **Chirrik**: a lean, fast-moving party with no followers to slow them down.
+Windstorms and thunderstorms kept them in **Drezen** for an extra day. They used the time to prepare — buying tents, blankets, bedrolls, and supplies that the party's first Marchlands expedition had taught them they desperately needed. When the weather cleared on the twenty-third, they set out south with only the mythic four and **Chyrrik**: a lean, fast-moving party with no followers to slow them down.
 
 Half a day's travel brought them to the edge of one of the Worldwound's canyons — a ragged gash in the earth, a hundred to a hundred and fifty feet deep, with walls of crumbling scree and loose stone. They could descend and climb the far side, or spend unknown hours searching for a way around.
 
 They chose to climb.
 
-**Harlock** hammered pitons and strung rope. **Lupenor** activated her ***Medal of Balance*** and descended with the grace of a mountain goat — two climb checks, both effortless, practically skipping down the switchbacks. **Chirrik** took a ten and followed. **Rabiah** used her earring to ***Dimension Door*** down with **Harlock**.
+**Harlock** hammered pitons and strung rope. **Lupenor** activated her ***Medal of Balance*** and descended with the grace of a mountain goat — two climb checks, both effortless, practically skipping down the switchbacks. **Chyrrik** took a ten and followed. **Rabiah** used her earring to ***Dimension Door*** down with **Harlock**.
 
 **Varic** fell.
 
@@ -550,7 +550,7 @@ The land climbed steadily as they traveled southwest. Just past midday on the tw
 
 A river of lava flowed at the bottom of a two-hundred-foot gorge, originating somewhere beyond a rock wall to the north and east. The canyon walls wept — cascades of molten stone dripping from the rock face at irregular intervals, forming teardrops of lava that sizzled and pooled before rejoining the main flow. The **Weeping Hills**. The name was earned.
 
-**Varic** cast ***Endure Elements*** on everyone who needed it — three castings that would keep the worst of the heat at bay. He then cast ***Airwalk*** on himself, stepping out over the gorge and descending at a gentle angle through air that shimmered at a hundred and thirty-five degrees. **Rabiah** used ***Dimension Door*** to ferry **Harlock** and **Chirrik** down in two jumps. **Lupenor** rode the party's ***Levitation*** rock down, kicking off the cliff face to guide her descent.
+**Varic** cast ***Endure Elements*** on everyone who needed it — three castings that would keep the worst of the heat at bay. He then cast ***Airwalk*** on himself, stepping out over the gorge and descending at a gentle angle through air that shimmered at a hundred and thirty-five degrees. **Rabiah** used ***Dimension Door*** to ferry **Harlock** and **Chyrrik** down in two jumps. **Lupenor** rode the party's ***Levitation*** rock down, kicking off the cliff face to guide her descent.
 
 At the bottom, half-obscured by debris, a tunnel ran parallel to the lava flow. It was no cooler inside. If anything, it was worse — the heat concentrated, radiating from the walls, pressing against their skin like a living thing.
 
@@ -588,7 +588,7 @@ The **Shikaf** spoke something in Abyssal — a summoning spell. A full-round ca
 
 **Varic** cast ***Mythic Holy Smite***. The golden burst of divine energy tore through every evil creature in the chamber. Both the **Shikaf** and the incubus made their will saves — but even on a successful save, the mythic version blinded them for two rounds. Both demons shrieked, wings flailing, as sacred radiance seared their eyes shut.
 
-**Chirrik** climbed through the gap between ledge and wall and struck the **Shikaf** with her bane weapon — a critical hit that carved deep into the creature's essence. **Varic** followed with ***Searing Light***, and the beam of concentrated radiance punched through the demon and sent it spiraling toward the lava.
+**Chyrrik** climbed through the gap between ledge and wall and struck the **Shikaf** with her bane weapon — a critical hit that carved deep into the creature's essence. **Varic** followed with ***Searing Light***, and the beam of concentrated radiance punched through the demon and sent it spiraling toward the lava.
 
 **Harlock** released the paralyzed **Jeskar**, dropped from the ledge, activated ***Smite Evil***, and used his ***Fly*** ability to close with the incubus. His sudden strike — a mythic power that let him roll twice and take the better result — connected with devastating force, ***Radiance*** adding his full paladin level to the damage.
 
@@ -618,7 +618,7 @@ They went back down. New castings of ***Endure Elements***, new rounds of ***Air
 
 The crystal coffin had shattered. Where a slab of smoky quartz had encased a luminous form, there was now only a mummified body lying on the bare ledge, wearing silver armor with a composite longbow laid across its chest. ***Erastil*** had released his heretical saint, and the treasures she had been interred with were now free for the taking.
 
-The armor was ***Celestial Armor*** — a suit of chainmail so finely wrought that it weighed less than leather and allowed its wearer to fly for five minutes once per day. **Lupenor** claimed it immediately. Her Elven Chain went to **Chirrik**, whose armor class improved by a point. The composite longbow was built for a stronger draw than **Lupenor** could currently manage — plus four strength — but she took it as well, knowing she would grow into it.
+The armor was ***Celestial Armor*** — a suit of chainmail so finely wrought that it weighed less than leather and allowed its wearer to fly for five minutes once per day. **Lupenor** claimed it immediately. Her Elven Chain went to **Chyrrik**, whose armor class improved by a point. The composite longbow was built for a stronger draw than **Lupenor** could currently manage — plus four strength — but she took it as well, knowing she would grow into it.
 
 Beside the body, they found the heretical holy book of ***Erastil*** — the ***Stag King's Bride*** itself, not a copy but the original — and a talisman that burned with strong evocation magic. **Varic** identified it after a mythic-surged spellcraft check: a single-charge artifact that could banish an evil outsider on a failed reflex save, with no save permitted at all if the wielder was exceptionally pure of thought and deed. They placed it carefully in the bag of holding and tried not to think about what "exceptionally pure" meant for a group that had seriously discussed killing an innocent priest two days earlier.
 
@@ -706,7 +706,7 @@ The rules, **Lupenor** informed her, started now. **Varic** stepped in to reinfo
 
 ### **The Bowel Worm Speech**
 
-**Chirrik** dragged a crate into the street, climbed on top of it, and addressed the assembled expedition in the blunt, unsparing manner that only someone who looked like a crossbreed of monkey, bird, and dinosaur could get away with.
+**Chyrrik** dragged a crate into the street, climbed on top of it, and addressed the assembled expedition in the blunt, unsparing manner that only someone who looked like a crossbreed of monkey, bird, and dinosaur could get away with.
 
 She told them about bowel worms — rope-like creatures with circular mouths of needle-sharp teeth at both ends, hatched from eggs that infested any food left unattended for more than a minute in the Worldwound. She described, in clinical detail, what happened when the worms hatched inside a person's digestive tract. She explained that the water was no better. She told them about vescavores — wasp-like creatures smaller than a hand that ate through steel and never traveled alone. She told them to stay within sight of each other at all times, to buddy up, and to understand that anyone who wandered off and returned would be treated as a potential demon in disguise until proven otherwise.
 
@@ -718,19 +718,19 @@ She told them about bowel worms — rope-like creatures with circular mouths of 
 
 **Lenne:** *Probably?*
 
-When it was over, **Chirrik** hopped down off her crate. She had spoken more words in five minutes than she typically spoke in a week. The hunters looked at each other with the expression of people who were beginning to suspect they had signed up for something rather different than a hunting trip.
+When it was over, **Chyrrik** hopped down off her crate. She had spoken more words in five minutes than she typically spoke in a week. The hunters looked at each other with the expression of people who were beginning to suspect they had signed up for something rather different than a hunting trip.
 
 **Selyse Avelia** arrived last, leading a small pony laden with books, boards, and drafting tools — her architect's cover story made manifest. **Cornelia Dewfoot** locked eyes with every hunter in the group, one at a time, said *if anybody shoots me, there will be repercussions*, and transformed into a hawk. She launched into the sky without waiting for a response. Now there were two small hawks circling above the gate. The hunters noticed. They said nothing. They did not need to.
 
 ### **The Sacred Hunt**
 
-The column moved west along the Ahari Riverbed — the same route the party had traveled twice before, now worn into something approaching a road by crusader traffic. Twenty people stretched across nearly fifty yards of trail, horses and handlers in the center, **Harlock** and **Deren** at the front, **Lupenor** drifting near the hunters, **Varic** and **Elara** at the rear. **Chirrik** scouted ahead. Two hawks circled overhead. For the first few hours, things were almost peaceful.
+The column moved west along the Ahari Riverbed — the same route the party had traveled twice before, now worn into something approaching a road by crusader traffic. Twenty people stretched across nearly fifty yards of trail, horses and handlers in the center, **Harlock** and **Deren** at the front, **Lupenor** drifting near the hunters, **Varic** and **Elara** at the rear. **Chyrrik** scouted ahead. Two hawks circled overhead. For the first few hours, things were almost peaceful.
 
 By mid-afternoon, **Jeskar** tapped **Harlock** on the shoulder and pointed north. Trees. Foliage. A patch of green roughly four miles off the trail — an anomaly in the wasteland, and a potential hunting ground.
 
 The decision was not immediate. Four miles was a significant detour. But **Varic**, summoned to the front of the column for consultation, pointed out that they were still within the protective radius of the ***Sword of Valor***. Once they crossed that threshold — probably another three hours of marching — the Worldwound's full hostility would descend upon them. If the hunters were going to find anything worth killing, better to do it now, in relatively safe territory.
 
-A hunting party was assembled: **Lupenor** and **Chirrik** as escorts, **Jeskar** and three of his hunters — **Cobb**, **Lenne**, and **Durvik**. **Pol Ashden** stayed with the main column. He was the expedition's cook and skinner, not an archer, and his skills would be needed when the hunters returned with their kill. If they returned with a kill.
+A hunting party was assembled: **Lupenor** and **Chyrrik** as escorts, **Jeskar** and three of his hunters — **Cobb**, **Lenne**, and **Durvik**. **Pol Ashden** stayed with the main column. He was the expedition's cook and skinner, not an archer, and his skills would be needed when the hunters returned with their kill. If they returned with a kill.
 
 Before they split off, **Varic** pressed his silver holy symbol into **Lupenor**'s hand.
 
@@ -740,13 +740,13 @@ Before they split off, **Varic** pressed his silver holy symbol into **Lupenor**
 
 They traveled perpendicular to the main trail, six hunters and two warriors crossing terrain that crunched underfoot with the remnants of an ancient battlefield — rusted armor fragments, bone shards bleached clean by decades of exposure, the detritus of one of the earlier failed crusades. As they approached the tree line, the undergrowth thickened. Brown scrub gave way to patches of green. Whatever was happening in this area, it received more precipitation than the surrounding wasteland.
 
-**Chirrik** spotted the smoke first. A thin tendril rising from somewhere deeper in the trees — controlled, deliberate. A camp.
+**Chyrrik** spotted the smoke first. A thin tendril rising from somewhere deeper in the trees — controlled, deliberate. A camp.
 
-They fanned out. **Jeskar** took **Durvik** on one flank. **Cobb** moved with **Lupenor** on another. **Lenne** and **Chirrik** took the center approach. They moved through the brush in near silence — **Chirrik** leaving no tracks at all, **Lupenor** barely more, the hunters competent enough in their own element despite the alien territory.
+They fanned out. **Jeskar** took **Durvik** on one flank. **Cobb** moved with **Lupenor** on another. **Lenne** and **Chyrrik** took the center approach. They moved through the brush in near silence — **Chyrrik** leaving no tracks at all, **Lupenor** barely more, the hunters competent enough in their own element despite the alien territory.
 
 **Cobb** stepped on a twig. The sound cracked through the forest like a pistol shot. The figure ahead — a scraggly humanoid dragging something heavy through the undergrowth — froze and looked around. **Cobb**, thinking fast, made an animal sound. Something between a grunt and a squeal, vaguely porcine. The figure hesitated, then resumed dragging its burden northward.
 
-**Chirrik** got close enough to see clearly. The figure was human, or close to it. It was dragging a dead boar by a hook. And hanging from its neck, clearly visible against a stained tunic, was a holy symbol that **Chirrik** had seen on enough corpses to recognize instantly: the mark of the Ivory Labyrinth. A cultist of ***Baphomet***.
+**Chyrrik** got close enough to see clearly. The figure was human, or close to it. It was dragging a dead boar by a hook. And hanging from its neck, clearly visible against a stained tunic, was a holy symbol that **Chyrrik** had seen on enough corpses to recognize instantly: the mark of the Ivory Labyrinth. A cultist of ***Baphomet***.
 
 ### **The Battle in the Green**
 
@@ -762,9 +762,9 @@ These were not the low-level fanatics the party had swept through in previous en
 
 **Lupenor** was the turret. She planted her feet and methodically dismantled the mirror-imaged cultist one arrow at a time — three images stripped on the first full attack, two more on the second, and then the real target exposed and bleeding from multiple shaft wounds. She killed the sensationally dressed cleric outright. She put arrows into the wizard. She was the only reason the hunting party survived long enough for the tide to turn.
 
-**Chirrik** drew her keen longsword when her bow proved ineffective in the close terrain and waded into melee with the squirming cultist. Her hit rate was abysmal — one solid strike in seven rounds of combat — but the flanking pressure she provided gave **Durvik** the openings he needed to contribute his own stumbling attacks between near-death experiences.
+**Chyrrik** drew her keen longsword when her bow proved ineffective in the close terrain and waded into melee with the squirming cultist. Her hit rate was abysmal — one solid strike in seven rounds of combat — but the flanking pressure she provided gave **Durvik** the openings he needed to contribute his own stumbling attacks between near-death experiences.
 
-In the end, three of the four cultists were dead. The fourth — the one with the mirror images and the web spell — broke free and ran. **Lupenor** could not pursue through the web. **Chirrik**'s attack of opportunity stripped another image but failed to connect with flesh. The cultist vanished into the trees, heading north, toward whatever camp had produced that thin line of smoke.
+In the end, three of the four cultists were dead. The fourth — the one with the mirror images and the web spell — broke free and ran. **Lupenor** could not pursue through the web. **Chyrrik**'s attack of opportunity stripped another image but failed to connect with flesh. The cultist vanished into the trees, heading north, toward whatever camp had produced that thin line of smoke.
 
 ### **The Spoils and the Return**
 
@@ -774,7 +774,7 @@ The dead cultists yielded useful spoils: a wand of ***Burning Hands***, two scro
 
 The division was handled with more diplomacy than the party typically required. **Jeskar** argued, fairly, that his people had bled for this treasure. The potions and the silver daggers went to the hunters — over three thousand gold pieces in value. The scrolls and the wand went to the mythic heroes, who could actually use them. It was not an even split, but it was an honest one, and **Jeskar** accepted it after a brief huddle with his congregation.
 
-They piled the cultist bodies, heaped branches over them, and lit a fire. **Chirrik** sent everyone ahead and then used her ranger abilities to obscure the party's tracks, walking out last — because she did not leave tracks of her own. They left the dead boar where it lay. It was not their kill, and taking another hunter's quarry — even a cultist's — would have been an insult to everything ***Erastil*** stood for.
+They piled the cultist bodies, heaped branches over them, and lit a fire. **Chyrrik** sent everyone ahead and then used her ranger abilities to obscure the party's tracks, walking out last — because she did not leave tracks of her own. They left the dead boar where it lay. It was not their kill, and taking another hunter's quarry — even a cultist's — would have been an insult to everything ***Erastil*** stood for.
 
 The hunting party caught up with the main column just before camp was struck for the evening. **Jeskar**'s report to **Harlock** was measured but honest: they had encountered cultists, fought a vicious battle, and barely survived. **Lupenor**'s skill had been the difference between victory and a body count. The sacred hunt would have to wait for another day.
 
@@ -888,7 +888,7 @@ The details were grim. A debris field to the north of their path: scattered armo
 
 **Lupenor:** *We're about to move into this neighborhood. We need to know what's out there.*
 
-They split the party. **Varic**, **Lupenor**, **Chirrik**, and **Cornelia** would investigate the slaughter site to the north and attempt to track the escaped mount. **Harlock** and **Rabiah** would stay with the caravan and keep the expedition moving west. **Rabiah** addressed the group with an explanation calibrated to inform without alarming: a patrol they had spotted on a previous trip had run into trouble, a scouting party was going to investigate, everyone else should carry on and the scouts would catch up.
+They split the party. **Varic**, **Lupenor**, **Chyrrik**, and **Cornelia** would investigate the slaughter site to the north and attempt to track the escaped mount. **Harlock** and **Rabiah** would stay with the caravan and keep the expedition moving west. **Rabiah** addressed the group with an explanation calibrated to inform without alarming: a patrol they had spotted on a previous trip had run into trouble, a scouting party was going to investigate, everyone else should carry on and the scouts would catch up.
 
 **Cornelia** showed them the direction. They set out at a pace the caravan could not match.
 
@@ -898,9 +898,9 @@ Two and a half hours brought them to a rise in the terrain where something glint
 
 There were no bodies. That was the first thing **Varic** noted. No corpses to examine, no faces to identify. What remained was a scattering of detritus: a severed finger here, a splash of entrails there, chunks of acid-pitted plate mail strewn across the rocks. The stone itself was slick and corroded, etched with deep ruts where massive claws had carved furrows into the ground as creatures were seized and lifted.
 
-**Chirrik** moved through the debris with professional detachment, reading the signs the way a scholar reads text. The angle of the claw marks. The pattern of the bite impressions. The characteristic pitting of the stone.
+**Chyrrik** moved through the debris with professional detachment, reading the signs the way a scholar reads text. The angle of the claw marks. The pattern of the bite impressions. The characteristic pitting of the stone.
 
-**Chirrik:** *Dragon. A big one. Not a baby. The acid damage is consistent with a black or something close to it.*
+**Chyrrik:** *Dragon. A big one. Not a baby. The acid damage is consistent with a black or something close to it.*
 
 The armor fragments confirmed what they had suspected: these were the same cultist templars — or a group very like them — that the party had observed riding their giant lizard mounts during their previous expedition to this region. The tracks matched. Even with the recent rain, the prints of the massive lizards were deep enough to read clearly.
 
@@ -928,7 +928,7 @@ Meanwhile, the caravan continued west. About an hour ahead of where the scouting
 
 **Rabiah:** *Hour, hour and a half.*
 
-**Varic** organized a pursuit party: himself, **Lupenor**, **Chirrik**, and **Cornelia**. The same group that had investigated the slaughter would follow the hunters and make sure they survived their sacred moment. **Cornelia** shifted into her hawk form and flew ahead to scout their status. She returned within the hour, landing and transforming with a report that was — for once — not entirely bad news.
+**Varic** organized a pursuit party: himself, **Lupenor**, **Chyrrik**, and **Cornelia**. The same group that had investigated the slaughter would follow the hunters and make sure they survived their sacred moment. **Cornelia** shifted into her hawk form and flew ahead to scout their status. She returned within the hour, landing and transforming with a report that was — for once — not entirely bad news.
 
 **Cornelia:** *Most of them made it. They're trying to drag this enormous lizard back. It's huge. But one of them needs healing, if not a resurrection. I couldn't tell who.*
 
@@ -976,13 +976,13 @@ The day that followed — Oath Day, the 31st of Lamashan — was clear and cold 
 
 That night, **Harlock** dreamed again. The pull — south by southeast now, shifting as their position changed — and the old nightmare underneath it like a drumbeat. He woke in a cold sweat but said nothing. The direction was noted and filed.
 
-The following morning brought the first real cold. Not the damp chill of the Marchlands but genuine freezing weather — mountain cold, the kind that killed exposed flesh and cracked iron. ***Endure Elements*** covered the party proper: **Varic** took himself and one other, **Harlock** covered himself and **Lupenor**, **Chirrik** handled herself and **Rabiah**. But the thirteen followers and four horses had no such protection, and the tents and bedrolls were insufficient against temperatures this severe.
+The following morning brought the first real cold. Not the damp chill of the Marchlands but genuine freezing weather — mountain cold, the kind that killed exposed flesh and cracked iron. ***Endure Elements*** covered the party proper: **Varic** took himself and one other, **Harlock** covered himself and **Lupenor**, **Chyrrik** handled herself and **Rabiah**. But the thirteen followers and four horses had no such protection, and the tents and bedrolls were insufficient against temperatures this severe.
 
 **Rabiah** burned three mythic charges. Three ***Secure Shelters*** materialized at eleventh caster level — stone cottages with fireplaces, shuttered windows, and iron-grated chimneys, good for twenty-four hours each. One for the horses with a handler or two. Two for the remaining followers, split between the hunters and the rest. The fireplaces, however, needed fuel.
 
 And this was how the party found itself fighting bodaks over kindling.
 
-**Varic** organized the firewood expedition: himself, **Harlock**, **Rabiah**, **Lupenor**, **Chirrik**, and **Rothin Vald**. They spread out in a loose formation — fifteen feet between each pair — and moved through the sparse terrain looking for anything that would burn longer than twigs. They found a thicket that looked promising: a tangle of branches thick enough to sustain a decent fire. **Varic** stepped into it, reached for a branch, and discovered that some of those branches were arms.
+**Varic** organized the firewood expedition: himself, **Harlock**, **Rabiah**, **Lupenor**, **Chyrrik**, and **Rothin Vald**. They spread out in a loose formation — fifteen feet between each pair — and moved through the sparse terrain looking for anything that would burn longer than twigs. They found a thicket that looked promising: a tangle of branches thick enough to sustain a decent fire. **Varic** stepped into it, reached for a branch, and discovered that some of those branches were arms.
 
 Four bodaks. Undead horrors born from mortals who had gazed upon the raw face of the Abyss, their features twisted into permanent masks of death. They had been waiting in the thicket like spiders in a web, their bony limbs indistinguishable from the dead wood around them.
 
@@ -992,7 +992,7 @@ What followed was a clinic in the focused application of divine violence.
 
 **Varic** opened with ***Mythic Holy Smite***, catching all four bodaks in a single burst of golden energy. The herculean bodak — the largest of the four, built like something that had competed in athletics before it died — failed its save and was blinded for two rounds. The other three took reduced damage but were blinded for one round each. **Rothin Vald** followed with ***Searing Light***, a lance of divine radiance that burned the undead for 4d8 damage — the spell treated them as if struck by concentrated sunlight, and they were vulnerable to exactly that. **Rabiah**'s ***Scorching Rays*** lanced into the damaged bodak, the first bolt bypassing its fire resistance entirely through mythic enhancement, burning holes through its desiccated frame. **Lupenor** studied her target and put three arrows into the same creature, the last one a critical hit that drove the shaft clean through its skull with forty-five points of damage.
 
-**Chirrik** contributed with cold iron arrows that punched through the bodaks' damage reduction. **Varic** reached out with a bare hand and pressed a ***Mythic Cure Serious Wounds*** into the withered bodak's chest as a melee touch attack — positive energy channeled as damage against the undead, sixty-five points of divine fire that left a handprint of cinders spreading across the creature's torso like parchment burning from the center. Both clerics channeled positive energy in waves — **Rothin**'s Glory Domain pushing his channel DC to 19, **Varic**'s hitting at DC 17 — scouring the bodaks with pulse after pulse of radiant energy that stripped them down to bone and rage.
+**Chyrrik** contributed with cold iron arrows that punched through the bodaks' damage reduction. **Varic** reached out with a bare hand and pressed a ***Mythic Cure Serious Wounds*** into the withered bodak's chest as a melee touch attack — positive energy channeled as damage against the undead, sixty-five points of divine fire that left a handprint of cinders spreading across the creature's torso like parchment burning from the center. Both clerics channeled positive energy in waves — **Rothin**'s Glory Domain pushing his channel DC to 19, **Varic**'s hitting at DC 17 — scouring the bodaks with pulse after pulse of radiant energy that stripped them down to bone and rage.
 
 But it was **Harlock** who ended it. He activated ***Smite Evil*** as a free action through his mythic power, stepped into the center of the three remaining bodaks, and swung. ***Radiance*** blazed white-gold as he carved through all three in a single mythic great cleave — the holy sword adding his full paladin level to the damage against the smited target, the mythic feat allowing him to chain strikes across non-adjacent enemies without breaking stride. The brittle-smirked bodak crumbled first, its expression finally wiped clean. The herculean followed, toppling like a felled tree. The withered one lasted a heartbeat longer — long enough for **Harlock** to finish it with a sudden strike, burning one more mythic charge to drive ***Radiance*** through its chest. Then **Rabiah**, because she was **Rabiah**, put five ***Mythic Magic Missiles*** into the last bodak's corpse for spite. Each missile hit like a tracer round, trailing light across the thicket. The last four were purely for emphasis.
 
@@ -1040,11 +1040,11 @@ They stepped through the doorway and into the Hidden Temple of ***Sarenrae*** fo
 
 **Jeskar Hinton** and his hunters were given a choice: wait at the temple for the party's return, or attempt the three-day journey back to **Drezen** on their own. The temple had food, water, warmth, and divine protection. The road back had none of those things. **Jeskar** said he would discuss it with his people.
 
-The party redistributed supplies, stabled the horses at the temple, and departed to begin scouting the surrounding area: **Varic**, **Harlock**, **Rabiah**, **Lupenor**, and **Chirrik**. Five people walking into the Worldwound with nothing but their packs, their weapons, and a half-orc paladin's nightmare as a compass.
+The party redistributed supplies, stabled the horses at the temple, and departed to begin scouting the surrounding area: **Varic**, **Harlock**, **Rabiah**, **Lupenor**, and **Chyrrik**. Five people walking into the Worldwound with nothing but their packs, their weapons, and a half-orc paladin's nightmare as a compass.
 
 ### **The Patrol**
 
-They spent two days scouting the area around the temple before turning south — a responsible precaution that yielded a field of what **Chirrik** called *abyssal pimples*: misshapen, puckered mounds of earth ranging from six inches to several feet across, venting random geysers of purple energy into the sky at unpredictable intervals. One exploded while they watched — a thirty-foot burst of rock shrapnel and abyssal energy that would have killed anyone standing nearby.
+They spent two days scouting the area around the temple before turning south — a responsible precaution that yielded a field of what **Chyrrik** called *abyssal pimples*: misshapen, puckered mounds of earth ranging from six inches to several feet across, venting random geysers of purple energy into the sky at unpredictable intervals. One exploded while they watched — a thirty-foot burst of rock shrapnel and abyssal energy that would have killed anyone standing nearby.
 
 They marked the field on the map and gave it a wide berth.
 
@@ -1084,23 +1084,23 @@ They reached the cliff edge on the fifth day and looked south across the dry riv
 
 The problem was distance. The lava sea stretched fifteen to thirty miles across, depending on where you measured. No teleportation — **Rabiah** had the spell, technically, but the destination was unfamiliar enough that the chance of a catastrophic mishap was unacceptably high. They would have to go around. Days of additional travel, skirting the edge of the lava, following the cliff line south until the terrain permitted a crossing.
 
-They descended the cliff. **Harlock** used a potion of ***Jump*** and a running start. **Lupenor** sprinted up the wall using her supernatural ability and found a ledge partway up. **Rabiah** dimension-doored herself and **Harlock**. **Chirrik** climbed with the casual efficiency of someone who had spent her life underground. Getting down was easier than getting up — gravity was cooperative, at least.
+They descended the cliff. **Harlock** used a potion of ***Jump*** and a running start. **Lupenor** sprinted up the wall using her supernatural ability and found a ledge partway up. **Rabiah** dimension-doored herself and **Harlock**. **Chyrrik** climbed with the casual efficiency of someone who had spent her life underground. Getting down was easier than getting up — gravity was cooperative, at least.
 
 At the bottom, the weather changed. Hot wind from the south replaced the freezing cold of the clifftop. Blowing embers and ash streaked through the sky. And then the storm began — not rain, not acid, not insects, but something worse. Thunder that started at ground level. Flashes of light that tore the air apart and left behind momentary windows into other worlds — abyssal gates, ripping open at random, showing glimpses of alien skies and impossible landscapes before sealing shut seconds later.
 
 They kept moving. What else was there to do?
 
-One gate opened forty feet to their left and vomited an ocean. A wall of seawater five feet tall and forty feet wide, smashing into them with the force of a broken dam. There was no dodging it. **Harlock** drank his jump potion and dove clear. **Rabiah** cast ***Fly*** and went up. **Varic** braced himself and held. **Chirrik** and **Lupenor** were swept away.
+One gate opened forty feet to their left and vomited an ocean. A wall of seawater five feet tall and forty feet wide, smashing into them with the force of a broken dam. There was no dodging it. **Harlock** drank his jump potion and dove clear. **Rabiah** cast ***Fly*** and went up. **Varic** braced himself and held. **Chyrrik** and **Lupenor** were swept away.
 
 The water churned with mud and sulfur, carrying the two of them separately — tumbling, gasping, battered against rocks and debris. Twenty-four points of damage each before the flood thinned and deposited them, coughing and bleeding, in a spreading delta of filthy water a mile or more from where they had started. Behind them, the gate sealed shut, and the water subsided to reveal an octopus the size of a cathedral — its tentacles severed by the closing gate, its boneless body gasping and flailing on the dry earth of the Worldwound before going still.
 
-**Rabiah** flew after **Chirrik**, tracking her by the flash of a mongrelfolk tail in the muddy current. She found her a mile away, sputtering on a flat rock. **Lupenor** washed up clinging to a thorny tree and healed herself with the wand. They regrouped. They continued.
+**Rabiah** flew after **Chyrrik**, tracking her by the flash of a mongrelfolk tail in the muddy current. She found her a mile away, sputtering on a flat rock. **Lupenor** washed up clinging to a thorny tree and healed herself with the wand. They regrouped. They continued.
 
 The feeling of being watched returned. **Rabiah** hit the wand of ***Non-Detection*** again without being asked.
 
 ### **The Dragon**
 
-At dusk, as **Chirrik** found them a campsite and **Rabiah** began the ten-minute casting of a ***Secure Shelter***, **Lupenor** looked up and saw a silhouette descending from the clouds to the east. Draconic in shape. Massive in scale. Circling an area a few miles distant before dropping below the horizon.
+At dusk, as **Chyrrik** found them a campsite and **Rabiah** began the ten-minute casting of a ***Secure Shelter***, **Lupenor** looked up and saw a silhouette descending from the clouds to the east. Draconic in shape. Massive in scale. Circling an area a few miles distant before dropping below the horizon.
 
 In the morning, they crossed the riverbed. It took most of the remaining daylight. And then, as they reached the far bank and began looking for shelter, the dragon came.
 
@@ -1120,7 +1120,7 @@ They exhaled.
 
 **Lupenor:** *Eventually is not today.*
 
-They made camp on the far side of the **Gray Road**, concealed as best they could manage against the broken terrain. **Rabiah** conjured a ***Secure Shelter***. **Chirrik** found firewood without encountering any undead, which at this point qualified as a minor miracle. **Harlock** dreamed again — the strongest pull yet, the vrock demon clearer than ever, the sense of something waiting for him just beyond the horizon sharpening into something that felt less like a call and more like a countdown.
+They made camp on the far side of the **Gray Road**, concealed as best they could manage against the broken terrain. **Rabiah** conjured a ***Secure Shelter***. **Chyrrik** found firewood without encountering any undead, which at this point qualified as a minor miracle. **Harlock** dreamed again — the strongest pull yet, the vrock demon clearer than ever, the sense of something waiting for him just beyond the horizon sharpening into something that felt less like a call and more like a countdown.
 
 South by southeast. Across the dragon's territory. Past the lava fields. Toward whatever had been waiting for him since before he could remember.
 
@@ -1138,9 +1138,9 @@ They would reach it. Or die in the attempt. Welcome to adventuring.
 
 The sixth of Neth dawned on a company three days removed from their new temple of ***Sarenrae***, trekking deeper into the **Marchlands** at the insistence of a pull that **Harlock** could no longer dismiss as a bad dream. The sensation had thickened since they left the shrine — no longer a murmur felt only in sleep, but a pressure in his chest that tilted him southward even at midday. He felt it most strongly near the long scar of lava that ran like a wound across the eastern horizon.
 
-The day's travel had already tested them. A six-legged dragon had coursed overhead as they crossed a dry riverbed, close enough to remind everyone that the **Marchlands** tolerated visitors rather than welcomed them. They had kept to the shadow of the cliffs afterward, cleaving close to the lava's edge where the dragon seemed disinclined to hunt. By evening, with the sky bruising toward dusk, **Chirrik** found a rock outcropping that offered the only shelter available for miles.
+The day's travel had already tested them. A six-legged dragon had coursed overhead as they crossed a dry riverbed, close enough to remind everyone that the **Marchlands** tolerated visitors rather than welcomed them. They had kept to the shadow of the cliffs afterward, cleaving close to the lava's edge where the dragon seemed disinclined to hunt. By evening, with the sky bruising toward dusk, **Chyrrik** found a rock outcropping that offered the only shelter available for miles.
 
-It was already occupied. Four bedrolls lay beneath the overhang, each one holding the long bones of its last occupant, scattered and picked over by something that had since moved on. **Chirrik** gathered the remains and covered them with stones while the company arranged themselves in the dead men's shelter. It was, as **Varic** observed drily, unlikely that whatever had killed them would return for seconds.
+It was already occupied. Four bedrolls lay beneath the overhang, each one holding the long bones of its last occupant, scattered and picked over by something that had since moved on. **Chyrrik** gathered the remains and covered them with stones while the company arranged themselves in the dead men's shelter. It was, as **Varic** observed drily, unlikely that whatever had killed them would return for seconds.
 
 ### **A Wind Through the Valley**
 
@@ -1172,7 +1172,7 @@ It was, **Harlock** understood with a cold clarity, the same ritual. The one the
 
 Then the **vrocks** linked claws above the lava and began a different dance — circling, faster and faster, calling power into themselves. **Rabiah** recognized it an instant too late. The ***Dance of Ruin*** discharged in a thunderclap of lightning that lit the whole chamber blue-white. Everyone within a hundred feet felt the hair rise on their arms.
 
-Most of the party made their reflex saves. **Chirrik** did not — the bolt took her down to a single breath from death, and she fell back behind cover to drink potion after potion of ***Cure Moderate Wounds***. **Abner Suthi** rolled a seventeen against a nineteen. One pip short. He was dead before the thunder finished echoing off the crystal.
+Most of the party made their reflex saves. **Chyrrik** did not — the bolt took her down to a single breath from death, and she fell back behind cover to drink potion after potion of ***Cure Moderate Wounds***. **Abner Suthi** rolled a seventeen against a nineteen. One pip short. He was dead before the thunder finished echoing off the crystal.
 
 ### **The Vines and the Vow**
 
@@ -1232,11 +1232,11 @@ The halfling druid had been feeling it too. For several days now — the same co
 
 The plan firmed over the next day. **Harlock**'s laborers would remain at the temple under **Elara**'s command. The rest — the company, the hunters of ***Erastil*** who had been cooped up impatiently through four days of waiting, and the architect who had politely insisted she would like to return to **Drezen** by a different route than the one she had come by — would travel north along the rim of the great steel-gray inland sea until they were above the citadel, and then turn south into familiar country. **Harlock** planned to teleport four paladins back under **Rabiah**'s power once she had a proper anchor, and return **Elara** to **Drezen** on the same trip.
 
-On the ninth of Neth, twelve of them plus four horses set out along the unfamiliar northern track. The weather held. **Chirrik** ranged ahead and **Cornelia** took a hawk's form and scouted in company with the architect's ever-present bird — the hunters had once again been briefed at length on the sacred inviolability of all avian life in the company of their party, with full discussion of the druidic retribution (and bowel worms) that would follow any misplaced arrow.
+On the ninth of Neth, twelve of them plus four horses set out along the unfamiliar northern track. The weather held. **Chyrrik** ranged ahead and **Cornelia** took a hawk's form and scouted in company with the architect's ever-present bird — the hunters had once again been briefed at length on the sacred inviolability of all avian life in the company of their party, with full discussion of the druidic retribution (and bowel worms) that would follow any misplaced arrow.
 
 Near two in the afternoon, **Rabiah** felt the familiar cold run down her spine and glanced across at **Cornelia** to see the druid already looking back. The wand of ***Nondetection*** came out. Charges were spent. The chill passed, or seemed to.
 
-Evening came. **Rabiah** raised three ***Secure Shelters*** — one for the horses and **Cornelia**, one for the hunters and **Chirrik**, one for the company and the architect. The first day of the long walk back to **Drezen** closed quietly, which in the **Marchlands** was the most that could ever reasonably be asked.
+Evening came. **Rabiah** raised three ***Secure Shelters*** — one for the horses and **Cornelia**, one for the hunters and **Chyrrik**, one for the company and the architect. The first day of the long walk back to **Drezen** closed quietly, which in the **Marchlands** was the most that could ever reasonably be asked.
 
 *— Session of April 10th, 2026 —*
 
@@ -1248,7 +1248,7 @@ Evening came. **Rabiah** raised three ***Secure Shelters*** — one for the hors
 
 ### **The Second Morning**
 
-The tenth of Neth opened cool and overcast on a column three days into the unfamiliar northern route along the rim of the great steel-gray inland sea. The wind had not slackened overnight; the previous day's tailwind had bent into a steady crosswind off the plains, and the long line of horses, hunters, and heroes set out under a sky bruised purple and blue. **Selyse Avelia** — the architect, by her papers and her cover — rode astride one of the company's four horses, her familiar, a small bird called **Horace**, drifting somewhere on the high airs above and behind her. Whatever she was actually doing with her sketchpad up there had less to do with arches and load-bearing columns than with the country between them. **Cornelia** ranged alongside in turkey-vulture form. **Chirrik** scouted ahead. The morning passed quietly enough.
+The tenth of Neth opened cool and overcast on a column three days into the unfamiliar northern route along the rim of the great steel-gray inland sea. The wind had not slackened overnight; the previous day's tailwind had bent into a steady crosswind off the plains, and the long line of horses, hunters, and heroes set out under a sky bruised purple and blue. **Selyse Avelia** — the architect, by her papers and her cover — rode astride one of the company's four horses, her familiar, a small bird called **Horace**, drifting somewhere on the high airs above and behind her. Whatever she was actually doing with her sketchpad up there had less to do with arches and load-bearing columns than with the country between them. **Cornelia** ranged alongside in turkey-vulture form. **Chyrrik** scouted ahead. The morning passed quietly enough.
 
 An hour out, **Selyse** pulled her horse up and signaled for **Harlock**. Her voice was low and tight. There was a flying demon high above them. It had veered off when it spotted her, but it had spotted her.
 
@@ -1372,7 +1372,7 @@ The company shouldered their packs, and walked on.
 
 The fight that had run on past all reason finally went quiet, and the **Marchlands** gave the company nothing to mark it with — only a knife-edged wind out of the northwest and two darachne carcasses going cold on the icy rock. **Harlock**, **Rabiah**, **Lupenor**, and **Varic** stood in the wreck of it — mythic power all but spent, the four horses hobbled and white-eyed — and took a count of what they had and had not killed. One enemy had never come into focus at all. It had been there at the edges of the whole engagement, and now it was simply gone, and no one could say how it had left: whether it had taken to the air, or stepped sideways through some sorcery, or what manner of thing it had even been. They had a name for it and nothing else — the name the babau messenger had spoken before its master's errand turned to blood. **Ashi Waxentong**.
 
-**Chirrik** worked the ground and turned up a riddle in place of an answer. A single down feather, torn from the breast of a pygmy hawk. A few flecks of blood on a stone that might only have been the colour of the stone. The half-print of a slipper — the soft, costly kind a nobleman wears to a function he means to be seen at, in **Drezen** or in distant **Kenabres**. A creature of the open sky and a creature of the marble floor, pressed into the same patch of frozen dirt, and the trail going nowhere from there. They let it go. You do not chase a thing through the **Marchlands** when you cannot say whether it walks, flies, or has simply stopped being anywhere at all.
+**Chyrrik** worked the ground and turned up a riddle in place of an answer. A single down feather, torn from the breast of a pygmy hawk. A few flecks of blood on a stone that might only have been the colour of the stone. The half-print of a slipper — the soft, costly kind a nobleman wears to a function he means to be seen at, in **Drezen** or in distant **Kenabres**. A creature of the open sky and a creature of the marble floor, pressed into the same patch of frozen dirt, and the trail going nowhere from there. They let it go. You do not chase a thing through the **Marchlands** when you cannot say whether it walks, flies, or has simply stopped being anywhere at all.
 
 ### **The Road Home**
 
@@ -1428,7 +1428,7 @@ From the grey corners of the market, **Lupenor** turned up a lead-lined box — 
 
 What little could be learned of the dragon, they learned. It bore no honest colour — only a shifting, iridescent dark — and the eyewitnesses swore to a hideous detail: six legs. Acid had eaten into the stone where it passed, and the party had felt its furnace-heat roll over their heads when it crossed above them. **Joran Vane**, mending in his cell and dreaming still of the corrupted forge he means one day to redeem, recalled that a red dragon had once been kept in those wastes — a beast that died choking on the same purple elixir that had made monsters out of better men. Whether this thing was that dragon's heir, or its risen corpse, or some demon merely wearing a wyrm's shape, none could say. They resolved to armour themselves against fire and acid both, and to meet it on ground of their own choosing: a decoy caravan, guardsmen who were no guardsmen, a snare laid quietly for the hunter.
 
-**Anevia** had offered one of her own people to travel with them — a silent agent, known only by a ring set with a pale gem and a red cross — and the agent came at the appointed hour: a great bald giant of a man, the ring strung on a cord at his throat where no finger could ever have worn it, who would surrender no name and answered to "Bob" as readily as to any other. With him counted among them, **Rabiah** gathered **Harlock**, **Lupenor**, **Chirrik**, and the silent stranger, and carried them west to the **Hidden Shrine of Sarenrae**. The leap was still an uncertain art in her young hands; more than once it overshot, scattering them across the open **Marchlands** before she found the way home. **Cornelia** they left behind in **Drezen**, to run down the source of the beacon and the leak of **Rabiah**'s guarded secret.
+**Anevia** had offered one of her own people to travel with them — a silent agent, known only by a ring set with a pale gem and a red cross — and the agent came at the appointed hour: a great bald giant of a man, the ring strung on a cord at his throat where no finger could ever have worn it, who would surrender no name and answered to "Bob" as readily as to any other. With him counted among them, **Rabiah** gathered **Harlock**, **Lupenor**, **Chyrrik**, and the silent stranger, and carried them west to the **Hidden Shrine of Sarenrae**. The leap was still an uncertain art in her young hands; more than once it overshot, scattering them across the open **Marchlands** before she found the way home. **Cornelia** they left behind in **Drezen**, to run down the source of the beacon and the leak of **Rabiah**'s guarded secret.
 
 And there, beneath the roof of the Dawnflower's hidden shrine — the wyrm somewhere south along the river, a penitent of ***Desna*** waiting in the far west — the company laid themselves down to rest, and began to whet body and spirit alike against the dragon they had sworn to kill, or to die in the trying.
 
@@ -1442,7 +1442,7 @@ And there, beneath the roof of the Dawnflower's hidden shrine — the wyrm somew
 
 ### **South from the Shrine**
 
-The thirteenth of Neth opened on the wrong smell and the wrong sky. As the doors of the **Hidden Shrine of Sarenrae** swung open at dawn, a wave of heat rolled in over the threshold, carrying with it the sulfurous tang of an ash storm already at work outside. The company considered waiting it out under the Dawnflower's roof. They decided against it. ***Endure Elements*** went layered over **Harlock**, **Chirrik**, and **Varic** — **Rabiah** doing without it that day to leave room for **Chirrik**'s own ***Resist Energy*** — and they tied cloths across their mouths against the choking ash and stepped out into the burning wind.
+The thirteenth of Neth opened on the wrong smell and the wrong sky. As the doors of the **Hidden Shrine of Sarenrae** swung open at dawn, a wave of heat rolled in over the threshold, carrying with it the sulfurous tang of an ash storm already at work outside. The company considered waiting it out under the Dawnflower's roof. They decided against it. ***Endure Elements*** went layered over **Harlock**, **Chyrrik**, and **Varic** — **Rabiah** doing without it that day to leave room for **Chyrrik**'s own ***Resist Energy*** — and they tied cloths across their mouths against the choking ash and stepped out into the burning wind.
 
 The storm came up out of the south, off the lava country, blowing straight into their faces. Half a hex was as much ground as they could win, and smoldering flakes lit themselves on their cloaks and had to be slapped out as they walked. By dusk the storm had thinned to a dark bruise of purple and gray, and the broken country had opened sooner than they had reckoned: they found themselves at the edge of the **Gray Road**'s riverbed, a steep crevice some twelve feet wide, sheltered on either side, open only to the sky. **Rabiah** conjured a ***Secure Shelter*** down into the bottom of it, and they slept there while the last of the gale spent itself overhead.
 
@@ -1468,7 +1468,7 @@ They did not camp inside. They prepared their wards from a careful distance — 
 
 ### **Entropic Breath**
 
-The ambush came out of the dark, as such things must. A cone of thick, sluggish purple fog rolled over the company, and the acid that hung in it was the lesser thing in it by far. ***Entropic Breath*** is, by any honest description, a powerful hallucinogen — and the company now learned, in person and at close quarters, what exactly that meant. **Chirrik**, somewhere behind **Harlock** in the fog, brought the head of her warhammer down hard upon her own foot and crushed it neatly, in a desperate effort to dislodge the swarm of flesh-eating spiders that only she could see. **Harlock** fought to keep his eyes on the dragon, and not on the horrors playing at the periphery of his own vision — shapes the rest of the company would not, afterward, have wanted described to them.
+The ambush came out of the dark, as such things must. A cone of thick, sluggish purple fog rolled over the company, and the acid that hung in it was the lesser thing in it by far. ***Entropic Breath*** is, by any honest description, a powerful hallucinogen — and the company now learned, in person and at close quarters, what exactly that meant. **Chyrrik**, somewhere behind **Harlock** in the fog, brought the head of her warhammer down hard upon her own foot and crushed it neatly, in a desperate effort to dislodge the swarm of flesh-eating spiders that only she could see. **Harlock** fought to keep his eyes on the dragon, and not on the horrors playing at the periphery of his own vision — shapes the rest of the company would not, afterward, have wanted described to them.
 
 ### **The Maw**
 
@@ -1476,7 +1476,7 @@ And the dragon came down out of the dark. **Scorizscar**. Six-legged, eyeless, i
 
 ### **The Good Iron**
 
-The fight nearly slipped from them. The dragon's hide turned every blade and every arrow that was not all three of magic and good and lawful at once; **Lupenor** was firing into a mist of mischance; **Chirrik** was on the cave floor with her foot a ruin of her own making, the visions still moving at the edges of her sight. From an inner pocket she dug out ***Terendelev's Scale*** — one of the four relics that yet remained of the great silver dragon whose dying act, as **Kenabres** fell, had been to save the company itself — and worked the rite from where she lay, the rite that made her warhammer, for the duration of the engagement, *good*. The hammer bit.
+The fight nearly slipped from them. The dragon's hide turned every blade and every arrow that was not all three of magic and good and lawful at once; **Lupenor** was firing into a mist of mischance; **Chyrrik** was on the cave floor with her foot a ruin of her own making, the visions still moving at the edges of her sight. From an inner pocket she dug out ***Terendelev's Scale*** — one of the four relics that yet remained of the great silver dragon whose dying act, as **Kenabres** fell, had been to save the company itself — and worked the rite from where she lay, the rite that made her warhammer, for the duration of the engagement, *good*. The hammer bit.
 
 **Varic** kept the front line on its feet by main force. A mythic ***Cure Serious Wounds*** dumped a tide of golden light into **Harlock** at the worst possible moment, and a ***Protection from Evil*** reached across the chaos and pulled the lingering rot out of the paladin's head, and he was himself again, the periphery clearing. **Rabiah** caught her breath, gathered the company up in her thoughts the way she had been learning to do, and shaped ***Haste*** around them. Extra steps. Extra strikes. The fight stopped slipping.
 
@@ -1488,11 +1488,11 @@ The fight nearly slipped from them. The dragon's hide turned every blade and eve
 
 ### **The Long Quiet**
 
-**Chirrik**, still in the slow tail of the fog's grip, dragged herself up off the floor and hit the dead dragon once, neatly, for good measure, before her senses fully returned. **Varic** excluded the corpse from his channel of positive energy with the careful prejudice of a man who had had quite enough; the wave of healing closed the bleeding around him — including, at last, what was left of **Chirrik**'s foot — and ignored the great scaled shape going cold beside them. The lair went quiet.
+**Chyrrik**, still in the slow tail of the fog's grip, dragged herself up off the floor and hit the dead dragon once, neatly, for good measure, before her senses fully returned. **Varic** excluded the corpse from his channel of positive energy with the careful prejudice of a man who had had quite enough; the wave of healing closed the bleeding around him — including, at last, what was left of **Chyrrik**'s foot — and ignored the great scaled shape going cold beside them. The lair went quiet.
 
-What it gave them, in the slow accounting of the hours that followed, was considerable. Out of the hoard proper came a ***Wand of Stoneskin*** for **Rabiah**, a ***Belt of Dwarvenkind*** and a suit of ***+4 Mithril Scale Mail*** for **Chirrik**, and a magical cold-iron longsword whose blade bore the etched name ***Battle Hymn*** and would not yet say what else it was. Beyond the hoard, piled along one wall, was a small mountain of trade goods — silks and spices and silver ingots and food, the years-long take of caravans pulled off the **Drezen**–**Kenabres** road. **Drezen** would have its grain after all.
+What it gave them, in the slow accounting of the hours that followed, was considerable. Out of the hoard proper came a ***Wand of Stoneskin*** for **Rabiah**, a ***Belt of Dwarvenkind*** and a suit of ***+4 Mithril Scale Mail*** for **Chyrrik**, and a magical cold-iron longsword whose blade bore the etched name ***Battle Hymn*** and would not yet say what else it was. Beyond the hoard, piled along one wall, was a small mountain of trade goods — silks and spices and silver ingots and food, the years-long take of caravans pulled off the **Drezen**–**Kenabres** road. **Drezen** would have its grain after all.
 
-And they had paid a price the dragon had not. The defeat of **Scorizscar** counted as one of the two mythic trials **Varic** and **Harlock** each yet needed, and they passed it; both rose to the fourth tier of their paths and felt the surge of their power grow heavier — a larger die under their hand whenever they reached for the divine. **Rabiah** and **Lupenor** each took a step closer to their own next ascensions. And the long count of experience came due all at once: the company turned eleventh-level on the dragon's carcass. **Lupenor** felt a third attack settle into her bow-arm in a single drawn breath; **Rabiah** opened a new shelf of her memory and found ***Break Enchantment*** waiting on it, ready to lift the next confusion when it came; and **Chirrik**, who had been the day's easiest mark for the worst of the fog, learned the trick of Evasion in the same hour she would have most needed it.
+And they had paid a price the dragon had not. The defeat of **Scorizscar** counted as one of the two mythic trials **Varic** and **Harlock** each yet needed, and they passed it; both rose to the fourth tier of their paths and felt the surge of their power grow heavier — a larger die under their hand whenever they reached for the divine. **Rabiah** and **Lupenor** each took a step closer to their own next ascensions. And the long count of experience came due all at once: the company turned eleventh-level on the dragon's carcass. **Lupenor** felt a third attack settle into her bow-arm in a single drawn breath; **Rabiah** opened a new shelf of her memory and found ***Break Enchantment*** waiting on it, ready to lift the next confusion when it came; and **Chyrrik**, who had been the day's easiest mark for the worst of the fog, learned the trick of Evasion in the same hour she would have most needed it.
 
 ### **By Sending**
 
@@ -1528,7 +1528,7 @@ But the message was already dead. **Cedric**'s eyes were glassed and unfixed; th
 
 ### **The False Swarm**
 
-The first blow wore a familiar shape. As they pressed on, two boiling swarms of **vescovara** rose against them — the abyssal wasps that had harried the company once before on the long march to **Drezen**. **Rabiah** answered with a ring of fire and watched the insects burn, and something in the sound was wrong. The gibbering came too thin, too quiet; true **vescovara** shriek louder than this. She let the illusion fall away in her mind and saw the swarms for the hollow conjurings they were, and **Chirrik** read the same lie a heartbeat behind her. They burned through the phantoms and the spells it cost to be rid of them — and that, they would come to understand, had been the whole purpose of the thing. It was no ambush at all but a probe: a trap set to bleed their magic and wear them thin against the real stroke still to come.
+The first blow wore a familiar shape. As they pressed on, two boiling swarms of **vescovara** rose against them — the abyssal wasps that had harried the company once before on the long march to **Drezen**. **Rabiah** answered with a ring of fire and watched the insects burn, and something in the sound was wrong. The gibbering came too thin, too quiet; true **vescovara** shriek louder than this. She let the illusion fall away in her mind and saw the swarms for the hollow conjurings they were, and **Chyrrik** read the same lie a heartbeat behind her. They burned through the phantoms and the spells it cost to be rid of them — and that, they would come to understand, had been the whole purpose of the thing. It was no ambush at all but a probe: a trap set to bleed their magic and wear them thin against the real stroke still to come.
 
 ### **The Hours Between**
 
@@ -1538,13 +1538,13 @@ That stroke did not fall for hours. The company marched on, lighter of spells an
 
 A company waited on the high ground above the road — and not a warband flung together for the hour. This was a thing built, deliberately and with care, to stand as the Redeemers' own dark mirror. Where the heroes had a paladin, the hunters had a brute to break him; where the heroes had an archer, the hunters had an archer to answer her; where the heroes leaned upon their spellcraft, the hunters had brought the means to silence it. They named themselves the **Red Swarm**, and at their head stood a figure in white robes that was no woman at all but a woman's shape filled with crawling vermin — a **Plagued One**, hollow and seething, an abyssal caster of terrible reach. Beside her fought a sorcerer who hurled lightning and rimed the ground with electrified ice; a bodyguard who came and went unseen; a barbarian archer forged to put the paladin and the slayer in the dirt; and a bard, **Nisha Riles**, whose song could steal the very words from a caster's mouth.
 
-The opening was brutal and exact. A curtain of unnatural ***silence*** fell across the company and choked the prayers and incantations in their throats. A whirling ***wall of blades*** sprang up to cut the road in two. Arrows came in volleys, and the sorcerer's lightning savaged **Rabiah** and **Chirrik** where they stood. A poisoned fog crept toward them, thick enough to wither the strength from a body breath by breath. The **Red Swarm** fought like soldiers who had studied their quarry a long while and forgotten nothing of it.
+The opening was brutal and exact. A curtain of unnatural ***silence*** fell across the company and choked the prayers and incantations in their throats. A whirling ***wall of blades*** sprang up to cut the road in two. Arrows came in volleys, and the sorcerer's lightning savaged **Rabiah** and **Chyrrik** where they stood. A poisoned fog crept toward them, thick enough to wither the strength from a body breath by breath. The **Red Swarm** fought like soldiers who had studied their quarry a long while and forgotten nothing of it.
 
 ### **The Puppet and the Blades**
 
-Then the bard turned her art upon **Chirrik**, and the scout's will gave way. ***Dominated***, emptied of her own intent, she rounded upon **Rabiah** — the mistress she had followed into a dozen worse places than this — and loosed shaft after shaft at her. The young sorceress fell and rose and fell again beneath the weight of it all: the lightning, the arrows, the fog, the blades. Three times the dark took her, and three times she was hauled back from it. **Varic** spent his strongest healing on her without stinting, golden light pouring from his hands across the chaos; **Harlock**'s touch closed her worst wounds where the cleric could not reach. The **Red Swarm** bent every advantage toward putting **Rabiah** in the ground, and could not keep her there. *Rabiah the Everliving*, **Varic** named her, half in prayer and half in plain disbelief.
+Then the bard turned her art upon **Chyrrik**, and the scout's will gave way. ***Dominated***, emptied of her own intent, she rounded upon **Rabiah** — the mistress she had followed into a dozen worse places than this — and loosed shaft after shaft at her. The young sorceress fell and rose and fell again beneath the weight of it all: the lightning, the arrows, the fog, the blades. Three times the dark took her, and three times she was hauled back from it. **Varic** spent his strongest healing on her without stinting, golden light pouring from his hands across the chaos; **Harlock**'s touch closed her worst wounds where the cleric could not reach. The **Red Swarm** bent every advantage toward putting **Rabiah** in the ground, and could not keep her there. *Rabiah the Everliving*, **Varic** named her, half in prayer and half in plain disbelief.
 
-But the puppet's strings dragged her toward ruin. Driven by a will that was not her own, **Chirrik** was forced into the whirling ***wall of blades***, and the barrier did what blades do. She died there, on her feet, fighting her own body to the very last.
+But the puppet's strings dragged her toward ruin. Driven by a will that was not her own, **Chyrrik** was forced into the whirling ***wall of blades***, and the barrier did what blades do. She died there, on her feet, fighting her own body to the very last.
 
 ### **Through the Barrier**
 
@@ -1556,7 +1556,7 @@ When it was done — and it was a long, grinding while in the doing — the **Re
 
 ### **What the Trial Cost**
 
-They gathered what remained of **Chirrik** while the dying barrier still hissed. **Harlock** carried a single scroll of ***Resurrection*** — the gift of a long-dead crusader, drawn from a buried chest a lifetime of marches ago — and he spent it now without a moment's hesitation. The scout drew breath again, restored in body and spirit, though a shadow of the death clung to her that only a ***Restoration*** would fully lift.
+They gathered what remained of **Chyrrik** while the dying barrier still hissed. **Harlock** carried a single scroll of ***Resurrection*** — the gift of a long-dead crusader, drawn from a buried chest a lifetime of marches ago — and he spent it now without a moment's hesitation. The scout drew breath again, restored in body and spirit, though a shadow of the death clung to her that only a ***Restoration*** would fully lift.
 
 The fight had taught them a great deal, and none of it was comfortable. The trap had been personal — baited with a face from **Rabiah**'s own past, set by a hand that knew her secrets, reaching from **Kenabres** to **Drezen** to this nameless tree in the waste. The probe, the patience, the company shaped to answer them blow for blow: someone had studied the Redeemers a long while, and meant them a harm that ran deeper than any road-bandit's. The watcher on the ridge, the beacon hidden among **Rabiah**'s gifts, the worm-spun thing that had hunted her cadre to extinction — the threads were drawing together, and all of them pointed at her.
 
@@ -1574,9 +1574,9 @@ But the road still ran west, and **Arueshalae** still waited at **Takira's Redou
 
 ### **The Reckoning of the Red Swarm**
 
-The battlefield had not yet finished smoking when the accounting began. **Chirrik** — newly returned from the dead, stitched back into the world by a scroll of ***Resurrection*** and the stubbornness of the sorceress her followers had taken to calling *Rabiah the Everliving* — wandered the field retrieving the scattered pieces of her armor while the rest of the company laid out the **Red Swarm**'s arsenal on the cold ground. It was a hunter's kit, assembled for one purpose, and cataloguing it took the better part of the afternoon: **Rabiah** bent over item after item, reading the weave of their enchantments one by one while the light drained out of the gray sky.
+The battlefield had not yet finished smoking when the accounting began. **Chyrrik** — newly returned from the dead, stitched back into the world by a scroll of ***Resurrection*** and the stubbornness of the sorceress her followers had taken to calling *Rabiah the Everliving* — wandered the field retrieving the scattered pieces of her armor while the rest of the company laid out the **Red Swarm**'s arsenal on the cold ground. It was a hunter's kit, assembled for one purpose, and cataloguing it took the better part of the afternoon: **Rabiah** bent over item after item, reading the weave of their enchantments one by one while the light drained out of the gray sky.
 
-The spoils were considerable. A headband of inspired wisdom went to **Varic** — the priest's eyes lighting up as though the *Dawnflower* herself had wrapped it — along with a belt of giant's strength and a brace of ***Pearls of Power*** shared out between him, **Harlock**, and **Chirrik**. Amulets of warding went to **Rabiah** and the company's followers. **Chirrik** received her first truly magical bow — an adaptive composite longbow that answers any archer's strength — and **Lupenor** quietly added two arrows of human slaying to her quiver, noting with grim humor that the **Red Swarm** never got the chance to loose them at the one human they were built to kill. A buckler and a wand of ***Shield*** were set aside for **Mira**; cloaks and rings of protection were parcelled out to the faithful holding the **Hidden Temple**. And one item was wrapped and stowed with particular care: a scythe humming with unholy malice, saved not for use but for redemption — the first candidate for the forge **Joran Vhane** dreams of relighting beneath **Drezen**.
+The spoils were considerable. A headband of inspired wisdom went to **Varic** — the priest's eyes lighting up as though the *Dawnflower* herself had wrapped it — along with a belt of giant's strength and a brace of ***Pearls of Power*** shared out between him, **Harlock**, and **Chyrrik**. Amulets of warding went to **Rabiah** and the company's followers. **Chyrrik** received her first truly magical bow — an adaptive composite longbow that answers any archer's strength — and **Lupenor** quietly added two arrows of human slaying to her quiver, noting with grim humor that the **Red Swarm** never got the chance to loose them at the one human they were built to kill. A buckler and a wand of ***Shield*** were set aside for **Mira**; cloaks and rings of protection were parcelled out to the faithful holding the **Hidden Temple**. And one item was wrapped and stowed with particular care: a scythe humming with unholy malice, saved not for use but for redemption — the first candidate for the forge **Joran Vhane** dreams of relighting beneath **Drezen**.
 
 ### **The Book of Skins**
 
@@ -1588,7 +1588,7 @@ One piece of the **Plagued One**'s baggage refused to be treasure. It was a book
 
 The company rested that night behind conjured stone and marched at first light into a bitter, colorless morning. The bog country had frozen overnight into a maze of gray ice — puddles glazed over to hide their depth, so that every step carried a small wager — and though the day was bright enough to be called daylight, no single point in the sky admitted to being the sun. In the **Marchlands**, you are lucky to get the same stars two nights running.
 
-Near evening the flats gave way to desolate tundra, and on the western horizon they saw it: a structure, squat and broken-crowned, that could only be an old fort. **Chirrik**, scouting the ground, found the road to it well-traveled — booted humanoid prints mingled with the three-toed gouges of great reptilian mounts and, here and there, small scorched hoofprints that no honest beast had ever left. They made camp well off the path. **Rabiah** raised her stone shelter and then, drawing deep on her arcana, folded a ***mirage*** over the campsite: where a conspicuous square building had stood, there was now only a low hill among other low hills, indistinguishable from the tired land around it. The company slept warm inside a lie, and nothing came to test it.
+Near evening the flats gave way to desolate tundra, and on the western horizon they saw it: a structure, squat and broken-crowned, that could only be an old fort. **Chyrrik**, scouting the ground, found the road to it well-traveled — booted humanoid prints mingled with the three-toed gouges of great reptilian mounts and, here and there, small scorched hoofprints that no honest beast had ever left. They made camp well off the path. **Rabiah** raised her stone shelter and then, drawing deep on her arcana, folded a ***mirage*** over the campsite: where a conspicuous square building had stood, there was now only a low hill among other low hills, indistinguishable from the tired land around it. The company slept warm inside a lie, and nothing came to test it.
 
 ### **The Fort in the Dream**
 
@@ -1598,9 +1598,9 @@ It was crusader work, centuries old — walls five feet thick raised by builders
 
 ### **Over the Walls**
 
-They prepared in the shadow of the stair. **Rabiah** wrapped herself in a ***mythic Fly*** that would let her cross the sky at a sprint, and laid ordinary wings on **Harlock**. Medals were pressed. **Chirrik**, trusting her own soft feet over any potion, started up the right-hand wall while **Lupenor** ran the left — the elf simply sprinting up twenty feet of scarred stone as though the wall had personally offended her.
+They prepared in the shadow of the stair. **Rabiah** wrapped herself in a ***mythic Fly*** that would let her cross the sky at a sprint, and laid ordinary wings on **Harlock**. Medals were pressed. **Chyrrik**, trusting her own soft feet over any potion, started up the right-hand wall while **Lupenor** ran the left — the elf simply sprinting up twenty feet of scarred stone as though the wall had personally offended her.
 
-From the wall's crest, **Lupenor** saw the guard room beyond: two hulking **Darachne** — the spider-bodied demons the company had last met dead and frozen on the northern waste — waiting in the ruin with the patience of things that had been told company was coming. And the **Darachne** saw her. The insectile drone began at once, the sound **Lupenor** hates above all others, and within a breath the gatehouse air was black with summoned wasps — swarm upon swarm, thick enough to blot the far wall. Three of them closed over **Lupenor** at once, stinging through leather and cloth, their venom stiffening her limbs; she gritted her teeth, shook off the worst of it, and kept her feet. **Chirrik**, perched atop the opposite wall, answered the swarms with a flask of alchemist's fire that burst grandly among them and accomplished almost nothing — a gesture the wasps did not dignify with a response.
+From the wall's crest, **Lupenor** saw the guard room beyond: two hulking **Darachne** — the spider-bodied demons the company had last met dead and frozen on the northern waste — waiting in the ruin with the patience of things that had been told company was coming. And the **Darachne** saw her. The insectile drone began at once, the sound **Lupenor** hates above all others, and within a breath the gatehouse air was black with summoned wasps — swarm upon swarm, thick enough to blot the far wall. Three of them closed over **Lupenor** at once, stinging through leather and cloth, their venom stiffening her limbs; she gritted her teeth, shook off the worst of it, and kept her feet. **Chyrrik**, perched atop the opposite wall, answered the swarms with a flask of alchemist's fire that burst grandly among them and accomplished almost nothing — a gesture the wasps did not dignify with a response.
 
 **Harlock** came over the portcullis on borrowed wings and landed in the guard room alone, facing both demons, thoroughly unbothered. The nearer **Darachne** fell on him with sting and claw and fang, and its venom — potent enough to fell a lesser man — met the paladin's constitution and lost. He clenched against the wound, drew on the deep well of his mythic strength, and forced the poison back out the way it had come in. From above, **Rabiah** opened her account with a ***mythic Scorching Ray*** whose first lance of fire ignored the demon's fireproof hide entirely; the creature reeled back, baffled and burning, betrayed by the one immunity it had trusted.
 
@@ -1608,7 +1608,7 @@ From the wall's crest, **Lupenor** saw the guard room beyond: two hulking **Dara
 
 The noise of it carried. Out of the north, over walls no one was watching, came the beat of great wings — a **rift drake** in full dive, and on its back a tiefling-featured **incubus** couching a lance that crackled with caged lightning. The lance took **Rabiah** through her wards; the drake's jaws followed, tearing a wound that would not stop bleeding. Hanging in the air with blood sheeting down her side, the sorceress made the only sensible choice available: she touched her earring, spoke a word, and was simply elsewhere — beyond the wall, out of the drake's sight, repositioning with what the company generously agreed to call the better part of valor.
 
-A second drake crested the western wall and perched there like a gargoyle deciding whom to spit on. It chose the corridor: torrents of caustic breath washed down over **Harlock** and **Lupenor**, who twisted clear of the worst, and down the entry passage over **Chirrik**, who did not — the ranger scorched, slowed, and clinging to the wall top by will alone. The riders proved no less dangerous than their mounts. One put an arrow of pure entropy into **Harlock**, draining a measure of his vitality; another reached for the minds of **Harlock** and **Lupenor** — and found both wills shut against it. Given what happened the last time an enemy borrowed an archer of this company, everyone breathed easier for that save. A curse of ***Crushing Despair*** did settle over the slayer, dragging at her arms — though, as was later observed, she bore it so evenly that no one could tell the difference.
+A second drake crested the western wall and perched there like a gargoyle deciding whom to spit on. It chose the corridor: torrents of caustic breath washed down over **Harlock** and **Lupenor**, who twisted clear of the worst, and down the entry passage over **Chyrrik**, who did not — the ranger scorched, slowed, and clinging to the wall top by will alone. The riders proved no less dangerous than their mounts. One put an arrow of pure entropy into **Harlock**, draining a measure of his vitality; another reached for the minds of **Harlock** and **Lupenor** — and found both wills shut against it. Given what happened the last time an enemy borrowed an archer of this company, everyone breathed easier for that save. A curse of ***Crushing Despair*** did settle over the slayer, dragging at her arms — though, as was later observed, she bore it so evenly that no one could tell the difference.
 
 ### **The Turning**
 
@@ -1618,11 +1618,11 @@ And then, as it always seems to with this company, the second half began.
 
 ![Wreathed in wasps and despair alike, Lupenor plants her feet and drives an arrow into the **Derakni**.](images/the-turning.png)
 
-**Varic**, who had spent the opening rounds trudging up the stairs at the stately pace of a man in full plate, finally climbed into the sky on ***Air Walk***, surveyed a battlefield containing not one single ally in his line of fire, and expressed his feelings about the morning with a ***Fireball***. Swarms withered; drakes and rider alike came out of the blast smoking. **Rabiah** rose back over the wall and cast ***Haste*** across the company — the spell's touch burning the drake-breath sluggishness out of **Chirrik** and putting extra arrows in every archer's hands. Then **Varic** raised his holy symbol and brought down a ***Holy Smite*** that finished every last wasp in the gatehouse, seared both drakes, and left one **incubus** rider blind and reeling in his saddle. There was, the company agreed, much rejoicing — and a general resolution to let the priest have a turn more often.
+**Varic**, who had spent the opening rounds trudging up the stairs at the stately pace of a man in full plate, finally climbed into the sky on ***Air Walk***, surveyed a battlefield containing not one single ally in his line of fire, and expressed his feelings about the morning with a ***Fireball***. Swarms withered; drakes and rider alike came out of the blast smoking. **Rabiah** rose back over the wall and cast ***Haste*** across the company — the spell's touch burning the drake-breath sluggishness out of **Chyrrik** and putting extra arrows in every archer's hands. Then **Varic** raised his holy symbol and brought down a ***Holy Smite*** that finished every last wasp in the gatehouse, seared both drakes, and left one **incubus** rider blind and reeling in his saddle. There was, the company agreed, much rejoicing — and a general resolution to let the priest have a turn more often.
 
 ### **The Riders Flee**
 
-The western drake dropped into the guard room to settle things with **Harlock** tooth to blade, and its rider lance-charged **Varic** in the same breath — the shocking lance striking home with double the force and lightning besides, the hardest single blow of the day, and the priest kept his feet under it. **Harlock**, bleeding from a dozen wounds, pressed a healing hand to his own breastplate and answered with ***Radiance***; **Rabiah**'s scorching rays — three of them now, since her ascension to the fourth tier — hammered into drake-hide; **Chirrik**, staggered and singed on her wall, learned the trick of loosing two arrows in a single draw and put them both where they counted. **Varic** hurled a ***Spear of Purity*** that struck the northern rider blind.
+The western drake dropped into the guard room to settle things with **Harlock** tooth to blade, and its rider lance-charged **Varic** in the same breath — the shocking lance striking home with double the force and lightning besides, the hardest single blow of the day, and the priest kept his feet under it. **Harlock**, bleeding from a dozen wounds, pressed a healing hand to his own breastplate and answered with ***Radiance***; **Rabiah**'s scorching rays — three of them now, since her ascension to the fourth tier — hammered into drake-hide; **Chyrrik**, staggered and singed on her wall, learned the trick of loosing two arrows in a single draw and put them both where they counted. **Varic** hurled a ***Spear of Purity*** that struck the northern rider blind.
 
 The western drake died first, folding under **Harlock**'s blade and **Rabiah**'s fire. Its rider rose from the wreck of his mount, took ***Radiance*** across the ribs for his trouble, and vanished — teleporting away blind, humiliated, and alive. **Lupenor** brought the northern drake down out of the sky with two arrows a lesser archer would never have landed, and its rider, hovering on his own wings above the carcass, looked once at what remained of the ambush and followed his fellow into thin air — a black smear of displaced shadow fleeing north.
 
@@ -1652,7 +1652,7 @@ Deep in the bones of the old crusader redoubt, the company had learned to trust 
 
 A geyser of foul gas rose from the well's narrow bore, coiling into a billowing cloud that lost its momentum near the ceiling and spilled back down to pool across the floor. **Varic**, spending a measure of mythic power so that he need not draw breath for a day and a night, waded thigh-deep into the murk to examine a rope descending into the dark — and the cloud gathered itself into a shape. A **Hezrou** heaved up out of the well, a bloated toad-demon reeking of the Abyss, and before a blade could be raised it spoke a word of ***Blasphemy*** into the chamber.
 
-The word fell on the company like a physical thing. **Chirrik** froze mid-draw, arrows nocked and useless, paralyzed where she stood — she would remain a statue for long minutes while the battle raged around her. **Lupenor** was dazed and felt the strength drain from her limbs; **Rabiah** staggered under the same withering. Only **Harlock** and **Varic** weathered the profanity with their faith mostly intact. The toad-demon did not long outlive its blasphemy. Blessed steel and holy light brought it down, and the party stood among the last of the incubi that had come with it — but **Chirrik** stood too, rigid and unblinking, and would not move for a good while yet.
+The word fell on the company like a physical thing. **Chyrrik** froze mid-draw, arrows nocked and useless, paralyzed where she stood — she would remain a statue for long minutes while the battle raged around her. **Lupenor** was dazed and felt the strength drain from her limbs; **Rabiah** staggered under the same withering. Only **Harlock** and **Varic** weathered the profanity with their faith mostly intact. The toad-demon did not long outlive its blasphemy. Blessed steel and holy light brought it down, and the party stood among the last of the incubi that had come with it — but **Chyrrik** stood too, rigid and unblinking, and would not move for a good while yet.
 
 ### **The Penitent's Face**
 
@@ -1676,7 +1676,7 @@ The "retriever wreckage" was no wreckage at all. A disgusting, towering thing ha
 
 The hag fought as a trickster fights — not to trade blows, but to divide and unmake. She conjured a ***Blade Barrier***, a curtain of whirling unholy blades that carved the battlefield in two and left the company scrambling to reach one another. Worse, she had prepared for **Varic** by name. When the priest of Sarenrae raised his holy symbol and poured mythic power into a ***Holy Smite*** — his surest weapon against the abyss — the light simply died in his hands. ***Spell Immunity***, spent against the very prayer he trusted most. Whoever had briefed the hag knew the priest's reputation. He would have to fight this one the hard way.
 
-The **Bebilith**, meanwhile, fell upon the paralyzed and then the unarmored with terrible focus. It savaged **Chirrik** above all — its bite carried a rot that gnawed at the constitution, and its rend tore her armor apart at the seams, leaving the ranger battered and exposed. For a stretch of the fight it seemed the company had walked into a grave of its own digging.
+The **Bebilith**, meanwhile, fell upon the paralyzed and then the unarmored with terrible focus. It savaged **Chyrrik** above all — its bite carried a rot that gnawed at the constitution, and its rend tore her armor apart at the seams, leaving the ranger battered and exposed. For a stretch of the fight it seemed the company had walked into a grave of its own digging.
 
 ### **The Grapple and the Pit**
 
@@ -1762,13 +1762,13 @@ She sealed the bargain with two gifts. To **Lupenor** she leaned close and asked
 
 ### **The Hidden Shrine**
 
-They could not take a demon to **Drezen**, where the **Sword of Valor** wards the city against her kind and would see her strung up on sight. So they made a forward plan instead. **Rabiah** spent eight hours hammering a rough teleport circle into a slab of the redoubt's stone with the head of her adamantine morning star, for want of any finer tool, and on the **20th of Neth** she carried **Varic** and **Chirrik** across the miles to the **Hidden Shrine of Sarenrae**.
+They could not take a demon to **Drezen**, where the **Sword of Valor** wards the city against her kind and would see her strung up on sight. So they made a forward plan instead. **Rabiah** spent eight hours hammering a rough teleport circle into a slab of the redoubt's stone with the head of her adamantine morning star, for want of any finer tool, and on the **20th of Neth** she carried **Varic** and **Chyrrik** across the miles to the **Hidden Shrine of Sarenrae**.
 
 They arrived to the smell of sulfur and recent fire. **Rothin** met them with grim news: a crusader patrol had passed through and been followed, and a dozen and more **Brimorak** demons had fallen on the shrine, drawing the defenders to the gate and raining fire over the walls. The place had held — the very spy the company had once turned loose to put the fear of the Dawnflower into the enemy had helped drive them off — but a priest had died in the burning, and **Rothin** had lacked the means to call him back. **Varic** had the means. He spent a diamond worth a small fortune and a measure of his own mythic strength and a full minute of prayer, and drew the fallen cleric **Samuel** back across the threshold of death. The man breathed in for the better part of a minute, the blue draining out of his skin, the fire's burns bubbling smooth, and sat bolt upright with a gasp — *"I'm alive."* **Harlock**, when he heard of it, had the soldier's word for it: *welcome back to the fight, brother.* The death would cling to **Samuel** a while yet, a weakness in him that **Rothin** would mend over the coming weeks with diamond dust and patience.
 
 ![Varic spends a diamond and a measure of his own mythic strength to call the fallen cleric Samuel back across the threshold of death, while Rothin Vald looks on.](images/resurrection-of-samuel.png)
 
-There were partings and provisionings to see to. **Varic** wrote out a full accounting and a request for supply to **Governor Irabeth** and set it to travel by runner and by the twenty-five borrowed words of a ***Sending***, and **Chirrik** — who loved the broken country better than any of them — was left behind at the shrine to carry word across the Marchlands and to stand among its defenders, though she begged not to be left and wept when she obeyed. They emptied the bag of holding of every spare blade and wand they could part with, to arm the shrine's paladins and clerics — a wand of silence, a wand of the spiritual blade, a wand for blessing steel, a wand of blinding — and then it was time to go back. For all the care **Rabiah** had taken in scoring her teleport circle into the redoubt's stone, the return working set the two of them down wide of the mark, somewhere out in the open waste. **Varic** rose on the cloud-walking gift of **Terendelev**'s silver scale until he could take his bearings, found the mesa-crowned redoubt a mile and a half off, and the two of them flew the distance in — resolving, as had become their habit, to mention nothing to the others of the sorceress's aim.
+There were partings and provisionings to see to. **Varic** wrote out a full accounting and a request for supply to **Governor Irabeth** and set it to travel by runner and by the twenty-five borrowed words of a ***Sending***, and **Chyrrik** — who loved the broken country better than any of them — was left behind at the shrine to carry word across the Marchlands and to stand among its defenders, though she begged not to be left and wept when she obeyed. They emptied the bag of holding of every spare blade and wand they could part with, to arm the shrine's paladins and clerics — a wand of silence, a wand of the spiritual blade, a wand for blessing steel, a wand of blinding — and then it was time to go back. For all the care **Rabiah** had taken in scoring her teleport circle into the redoubt's stone, the return working set the two of them down wide of the mark, somewhere out in the open waste. **Varic** rose on the cloud-walking gift of **Terendelev**'s silver scale until he could take his bearings, found the mesa-crowned redoubt a mile and a half off, and the two of them flew the distance in — resolving, as had become their habit, to mention nothing to the others of the sorceress's aim.
 
 ### **The Day of Teeth**
 
@@ -1778,7 +1778,7 @@ It did not go to waste. **Arueshalae** had spent the whole of their acquaintance
 
 ### **The Green Gates**
 
-The teeth passed. On the **22nd** and **23rd of Neth** the company marched two clear days west with **Arueshalae** scouting overhead — at a distance, only another demon in the sky, drawing no eye — until on the evening of the **23rd**, which the calendar named a holy day, they came to the foot of a cliff a hundred feet high and near sheer. Somewhere at its crown, screened by tree-line, stood the illusory green wall and the **Ivory Sanctum** behind it, and the sky above it was patrolled, the succubus warned, by winged incubi and the mounted Templars of the Ivory Labyrinth and the skittering occultists of Deskari. The brush at the cliff's base had been deliberately burned and torn back to clear the approach — but **Lupenor**, who had learned to read ground from **Chirrik** over all their long miles together, found what the sappers had missed: a hollow cave a little way up the rock, hidden behind scree and a dead branch, just deep enough to hold them. They climbed to it by rope, anchored for **Harlock** and his plate by the whole company and the demon both, and slept dry and unseen on its tilted floor.
+The teeth passed. On the **22nd** and **23rd of Neth** the company marched two clear days west with **Arueshalae** scouting overhead — at a distance, only another demon in the sky, drawing no eye — until on the evening of the **23rd**, which the calendar named a holy day, they came to the foot of a cliff a hundred feet high and near sheer. Somewhere at its crown, screened by tree-line, stood the illusory green wall and the **Ivory Sanctum** behind it, and the sky above it was patrolled, the succubus warned, by winged incubi and the mounted Templars of the Ivory Labyrinth and the skittering occultists of Deskari. The brush at the cliff's base had been deliberately burned and torn back to clear the approach — but **Lupenor**, who had learned to read ground from **Chyrrik** over all their long miles together, found what the sappers had missed: a hollow cave a little way up the rock, hidden behind scree and a dead branch, just deep enough to hold them. They climbed to it by rope, anchored for **Harlock** and his plate by the whole company and the demon both, and slept dry and unseen on its tilted floor.
 
 At first light they went up the wall — **Arueshalae** flying it, **Harlock** on borrowed wings, **Rabiah** rising the knobbled stone on a spell of ***Levitate***, **Lupenor** running the rock on long strides — and crested into the plaza before the green wall without a sound raised against them.
 

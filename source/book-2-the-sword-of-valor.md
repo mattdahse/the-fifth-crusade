@@ -228,7 +228,7 @@ They debated spending the remainder of the day in the city, and dismissed it alm
 
 They marched at midday.
 
-The long switchback trail down the cliff put them on the eastern bank of the **West Sellen**, and there they turned their horses north. **Chirrik** came with them, and the rest of **Rabiah**'s gathered followers with their own tent and their own provisions — cooking, serving, making themselves useful where they could, and asking nothing but a few minutes near their mistress now and then, which she granted often enough, and with enough lavish praise, to keep them devoted.
+The long switchback trail down the cliff put them on the eastern bank of the **West Sellen**, and there they turned their horses north. **Chyrrik** came with them, and the rest of **Rabiah**'s gathered followers with their own tent and their own provisions — cooking, serving, making themselves useful where they could, and asking nothing but a few minutes near their mistress now and then, which she granted often enough, and with enough lavish praise, to keep them devoted.
 
 They made their first camp with **Kenabres** behind them and above them, and the **Worldwound** somewhere ahead in the dark.
 
@@ -562,7 +562,7 @@ The darkness he had raised he flung into the air *above* himself, a lid of shado
 
 With the fighting done, Varic knelt and coaxed the wounded stone itself, ***Stone Shape*** flowing beneath his hands to reinforce three of the four ruined pylons until no single auroch could ever have torn them free. The fourth had crumbled past all mending, its bolts gone, and that repair was left to another day's prayers. The bridge to Drezen was theirs — battered, but whole enough to bear an army.
 
-The triumph did not come clean. Even as they leaned over the war-table, word came by **Chirrik**, the mongrelman scout, that raiders out of the South Bank had fallen upon the baggage camp and carried off a portion of the company's stores of food and water. And so the crusaders resolved to draw back to the easily-held heights of Paradise Hill, to gather what supplies they could from the broken city, to rest and steel themselves, and to turn their eyes, when they were ready, upon the Citadel itself.
+The triumph did not come clean. Even as they leaned over the war-table, word came by **Chyrrik**, the mongrelman scout, that raiders out of the South Bank had fallen upon the baggage camp and carried off a portion of the company's stores of food and water. And so the crusaders resolved to draw back to the easily-held heights of Paradise Hill, to gather what supplies they could from the broken city, to rest and steel themselves, and to turn their eyes, when they were ready, upon the Citadel itself.
 
 *— Session of July 4, 2025 —*
 
@@ -641,11 +641,11 @@ Down below, that was the signal — for **Rabiah** to go to her army, and for th
 
 **Lupenor** was not finished. She put the second **brimorak** down herself, from the dark and from surprise, an opening volley of arrows that struck before the thing knew there was anyone on its tower at all, and a second that finished it.
 
-The others came at the third tower along the outside of the wall, carrying a slab of decking scavenged from the warehouses of **Paradise Hill**. There they crowded onto it — **Harlock**, **Varic**, and **Chirrik** — and **Varic** touched the scale of **Terendelev** he carried and spoke its word, and a pillar of whirling cloud rose beneath the makeshift platform and lifted all three of them sixty feet up the face of the wall.
+The others came at the third tower along the outside of the wall, carrying a slab of decking scavenged from the warehouses of **Paradise Hill**. There they crowded onto it — **Harlock**, **Varic**, and **Chyrrik** — and **Varic** touched the scale of **Terendelev** he carried and spoke its word, and a pillar of whirling cloud rose beneath the makeshift platform and lifted all three of them sixty feet up the face of the wall.
 
 The **brimorak** waiting at the top was not in the least surprised to see them. It grinned, and threw a fireball straight up into the sky.
 
-The alarm was given, and the fight came on. **Harlock** charged, and the light burst from his shield in a white sheet that the demons turned their faces from and shrugged off; and they summoned more of their own kind out of the empty air, one after another, until the tower top was crowded with them. Their blood ran scalding, so that every stroke **Harlock** landed with **Radiance** sprayed him with burning ichor and cost him for the privilege. **Chirrik** shot beside him and hit rather more often than anyone expected of her. **Varic** loaded holy water into his aspergillum, gave up on it, and settled for calling down **Sarenrae**'s light in a ***holy smite*** that broke over the lot of them.
+The alarm was given, and the fight came on. **Harlock** charged, and the light burst from his shield in a white sheet that the demons turned their faces from and shrugged off; and they summoned more of their own kind out of the empty air, one after another, until the tower top was crowded with them. Their blood ran scalding, so that every stroke **Harlock** landed with **Radiance** sprayed him with burning ichor and cost him for the privilege. **Chyrrik** shot beside him and hit rather more often than anyone expected of her. **Varic** loaded holy water into his aspergillum, gave up on it, and settled for calling down **Sarenrae**'s light in a ***holy smite*** that broke over the lot of them.
 
 And **Varic** did the thing that decided the day. He set his hand to the ironbound doors at the head of the tower's spiral stair and shaped the stone of the frame and floor over the hinges and the sill until the doors were not doors at all but part of the wall. Below them, the tower filled up with tieflings who could not swing an axe in a stairwell that narrow, jammed shoulder to shoulder against a slab that was never going to open.
 
@@ -655,7 +655,7 @@ The last **brimorak** dropped. The tower was theirs.
 
 ### **A Gift Returned**
 
-**Harlock** and **Chirrik** put their shoulders to the turret and walked the catapult around until it pointed the wrong way entirely — in over the walls, down into the sprawl of three demonic armies who were only now realizing that something had gone badly wrong at first light.
+**Harlock** and **Chyrrik** put their shoulders to the turret and walked the catapult around until it pointed the wrong way entirely — in over the walls, down into the sprawl of three demonic armies who were only now realizing that something had gone badly wrong at first light.
 
 He had no crew and no range-finding and no practice. He loaded it, and he aimed it the way a soldier aims a thing he has only ever seen used against him, and he let it fly.
 
@@ -755,21 +755,21 @@ They stood in the wreckage among the broken guardians and looked at the passage 
 
 With the outer defenses secured, the company turned to the sally port itself. A ***chime of opening*** sang the stone doors wide, and beyond them opened a corridor built for killing — twenty feet to its ceiling, and every foot of it a trap. **Lupenor** named it before the first blow fell: the murder hall. She was proved right when **Harlock**, clearing what looked like a heap of fallen rubble across a side passage, found the rubble was an illusion and the floor beneath it was not there at all. He dropped onto a bed of spikes, and in the same breath arrows came sleeting down from slits high on the walls, loosed by archers safe in their galleries.
 
-They fought clear of the killing floor and into a wider, rubble-strewn chamber — and into worse. A **vrock** waited there, and the gallery archers abandoned their slits to join it. The demon threw up ***mirror images*** of itself and loosed its spores upon them, and for a while the fight hung in doubt. It was **Chirrik** who turned it — the mongrel scout, slighter than any of them and carrying none of the wardstone's fire in her blood, who nonetheless put shaft after shaft into the right targets and was owed more than one killing stroke before the end. **Harlock** struck the blow that finished the **vrock**, and the murder hall fell quiet.
+They fought clear of the killing floor and into a wider, rubble-strewn chamber — and into worse. A **vrock** waited there, and the gallery archers abandoned their slits to join it. The demon threw up ***mirror images*** of itself and loosed its spores upon them, and for a while the fight hung in doubt. It was **Chyrrik** who turned it — the mongrel scout, slighter than any of them and carrying none of the wardstone's fire in her blood, who nonetheless put shaft after shaft into the right targets and was owed more than one killing stroke before the end. **Harlock** struck the blow that finished the **vrock**, and the murder hall fell quiet.
 
 ### **The Weeping Blade**
 
 The next chamber was painted in blood. In it stood a Kellid woman among the ruin of her own war-band — heads heaped to one side, bodies to the other, and she in a pool of it with her sword still dripping and tears on her face even as she stood over the slain. Her name, they would learn, was **Jestak**. She did not explain herself. She drank off a potion, spoke a few urgent words in Kellid that no one in the company could follow, and then threw back her head and screamed herself into a rage.
 
-She came straight for **Lupenor**, and her first blow nearly ended the slayer where she stood. What followed was brutal and close — **Jestak**'s fury lent her a strength and a hide that turned aside all but the hardest strikes, and her reflexes punished every opening. **Lupenor** was beaten to the very edge of death before the company could rally, and again it was **Chirrik**'s bow, outmatched and undaunted, that helped drag the fight back. In the end **Jestak** fell — and with her fell any hope of learning why she had turned her blade on her own war-band. There was no one left to ask.
+She came straight for **Lupenor**, and her first blow nearly ended the slayer where she stood. What followed was brutal and close — **Jestak**'s fury lent her a strength and a hide that turned aside all but the hardest strikes, and her reflexes punished every opening. **Lupenor** was beaten to the very edge of death before the company could rally, and again it was **Chyrrik**'s bow, outmatched and undaunted, that helped drag the fight back. In the end **Jestak** fell — and with her fell any hope of learning why she had turned her blade on her own war-band. There was no one left to ask.
 
 ### **The Idol at the Altar**
 
 The hardest test waited in the Inheritor's chapel. They came into it and found **Iomedae** herself standing at the altar in a nimbus of light, four devout crusaders arrayed about her. It was a lie. The figure was a succubus wearing the Inheritor's shape, and the crusaders were her charmed and dominated pets, sworn to die in her defense. When the blades came out she slipped sideways into the ethereal and hung there untouchable, working her puppets from beyond reach.
 
-So the company faced the cruelty the demon had built for them: to win through, they would have to cut down innocent men whose only sin was to have fallen under her spell. **Rabiah** flung ***glitterdust*** where she guessed the succubus hid — and guessed wrong; and it would have availed nothing even so, for a thing gone ethereal is not merely unseen. Then the demon reached into **Chirrik**'s mind and turned her, and the scout who had saved them twice over now emptied her quiver at **Rabiah** while the sorcerer strained and failed to break the hold. For a few sick heartbeats the company watched their own used as a weapon against them.
+So the company faced the cruelty the demon had built for them: to win through, they would have to cut down innocent men whose only sin was to have fallen under her spell. **Rabiah** flung ***glitterdust*** where she guessed the succubus hid — and guessed wrong; and it would have availed nothing even so, for a thing gone ethereal is not merely unseen. Then the demon reached into **Chyrrik**'s mind and turned her, and the scout who had saved them twice over now emptied her quiver at **Rabiah** while the sorcerer strained and failed to break the hold. For a few sick heartbeats the company watched their own used as a weapon against them.
 
-It broke when the false goddess made herself solid to strike, and **Harlock** — sick to his soul at a demon defiling a hall of **Iomedae** — reached her at last. His fury took her head from her shoulders, and her death freed **Chirrik** in an instant. Of the four enslaved crusaders only one could be spared: **Varic** had beaten that one senseless rather than kill him, and so he lived. His name was **Cecil**, and he would go back to the army hollow and broken, to be tended and, in time, unmade of what the demon had done to him.
+It broke when the false goddess made herself solid to strike, and **Harlock** — sick to his soul at a demon defiling a hall of **Iomedae** — reached her at last. His fury took her head from her shoulders, and her death freed **Chyrrik** in an instant. Of the four enslaved crusaders only one could be spared: **Varic** had beaten that one senseless rather than kill him, and so he lived. His name was **Cecil**, and he would go back to the army hollow and broken, to be tended and, in time, unmade of what the demon had done to him.
 
 When it was done, **Harlock** and **Varic** knelt and cleansed the chapel with prayer and holy water, giving back what sanctity they could to the fouled altar. Then **Lupenor** found a hidden door at the chamber's southern end, and **Rabiah**'s map named two rooms yet unentered beyond it. Spent and bloodied, the company weighed rest against the dark ahead.
 
@@ -803,7 +803,7 @@ The western garrison and **Jestak** were done; now they turned to the east, thro
 
 ### **The Burning Halls**
 
-The day's last door gave onto a room choked with sulfur-smoke that stung the eyes, and **brimoraks** waiting within it — small fire-demons with a taste for ruin. "Demons! Come on in!" **Varic** called, throwing it wide, and the room answered with fire. Fireballs burst through the ranks; **Lupenor** and **Chirrik** reeled from the flames, and the demons set to calling up more of their kind, threatening to bury the company under numbers. The worst of it fell on **Harlock**: every blow he landed with ***Radiance*** flung the demons' burning blood back across him, so that the harder he fought the more it seared him — a torment he bore far too long before help came. **Rabiah** first sealed herself against the flames, then at last turned a ward of ***resist fire*** on the paladin and gave him ease; **Varic** conjured a scimitar of holy ice and set its cold and blessed edge to the demons, while the bard **Callan**, brought along to witness their deeds, kept prudently to the rear and lent his courage to their swords. In the end the **brimoraks** broke — all but one, which winked away by teleport at the finish — and with them fell the last resistance in that wing of the citadel. Great stretches of **Drezen** now stood cleared, and **Rabiah's Redeemers** had made themselves a name as demon-slayers. Yet the citadel kept its deeper secrets still, and its worst doors remained unopened.
+The day's last door gave onto a room choked with sulfur-smoke that stung the eyes, and **brimoraks** waiting within it — small fire-demons with a taste for ruin. "Demons! Come on in!" **Varic** called, throwing it wide, and the room answered with fire. Fireballs burst through the ranks; **Lupenor** and **Chyrrik** reeled from the flames, and the demons set to calling up more of their kind, threatening to bury the company under numbers. The worst of it fell on **Harlock**: every blow he landed with ***Radiance*** flung the demons' burning blood back across him, so that the harder he fought the more it seared him — a torment he bore far too long before help came. **Rabiah** first sealed herself against the flames, then at last turned a ward of ***resist fire*** on the paladin and gave him ease; **Varic** conjured a scimitar of holy ice and set its cold and blessed edge to the demons, while the bard **Callan**, brought along to witness their deeds, kept prudently to the rear and lent his courage to their swords. In the end the **brimoraks** broke — all but one, which winked away by teleport at the finish — and with them fell the last resistance in that wing of the citadel. Great stretches of **Drezen** now stood cleared, and **Rabiah's Redeemers** had made themselves a name as demon-slayers. Yet the citadel kept its deeper secrets still, and its worst doors remained unopened.
 
 *— Session of September 26, 2025 —*
 
@@ -919,7 +919,7 @@ The **bag of holding** they had turned up was a fine thing and weighed five and 
 
 They went back into the citadel without a proper rest — wands and channelled prayer instead of sleep, on the reasoning that the enemy would not be resting either.
 
-What waited in the eastern rooms were **minotaurs**, and not the ordinary kind: half-fiend, winged things that filled a corridor and reached further than anything that size had a right to. **Rabiah** quickened the company and dropped fire among them; **Lupenor** and **Chirrik** put arrow after arrow into the press; **Harlock** held the front and did not give ground. They came apart hard, and slowly.
+What waited in the eastern rooms were **minotaurs**, and not the ordinary kind: half-fiend, winged things that filled a corridor and reached further than anything that size had a right to. **Rabiah** quickened the company and dropped fire among them; **Lupenor** and **Chyrrik** put arrow after arrow into the press; **Harlock** held the front and did not give ground. They came apart hard, and slowly.
 
 Behind the minotaurs came **babau**, and the babau fought properly — teleporting out of one fight and into another, appearing at the spellcasters' backs, forcing the whole line to keep turning. It was the most disciplined resistance the citadel had offered yet, and it was disciplined because someone was directing it. **Barrid Isen** had gotten word to the planning room, and there would be no quiet minute to breathe in.
 
@@ -965,7 +965,7 @@ They gathered up ***Soul Shear*** as well — the intelligent, evil thing that c
 
 ### **The Citadel Claimed**
 
-With **Staunton** dead and the first level swept, the company sent word for the crusader army to move into the citadel in strength. Quarters were assigned, guard set upon the locked door to the basements, and the two prisoners — the sorcerer **Barrid Isen** and **Staunton**'s own brother, the dwarf **Joran Vhane** — locked apart under watch. **Chirrik** was set to guard the prisoners; **Horgus Gwerm** put to the inventory of stores; **Harlock** to the mending of the sally port; and the army billeted through the garrisons the company had bled to clear.
+With **Staunton** dead and the first level swept, the company sent word for the crusader army to move into the citadel in strength. Quarters were assigned, guard set upon the locked door to the basements, and the two prisoners — the sorcerer **Barrid Isen** and **Staunton**'s own brother, the dwarf **Joran Vhane** — locked apart under watch. **Chyrrik** was set to guard the prisoners; **Horgus Gwerm** put to the inventory of stores; **Harlock** to the mending of the sally port; and the army billeted through the garrisons the company had bled to clear.
 
 ### **Fire and Slag**
 
@@ -987,7 +987,7 @@ The portents came first. A coil of mist moved wrongly in one of the citadel's up
 
 ### **The Descent**
 
-The ancient stairs plunged eighty feet forward and forty feet down into the dungeons beneath **Drezen**. As the company descended — **Harlock** and **Varic** in the vanguard, **Rabiah** in the middle, **Lupenor** and **Chirrik** covering the rear — a whispering began to crowd into their minds. Never loud enough to make out, but constant, grating, impossible to shut out. Each of them set their will against it and went on down.
+The ancient stairs plunged eighty feet forward and forty feet down into the dungeons beneath **Drezen**. As the company descended — **Harlock** and **Varic** in the vanguard, **Rabiah** in the middle, **Lupenor** and **Chyrrik** covering the rear — a whispering began to crowd into their minds. Never loud enough to make out, but constant, grating, impossible to shut out. Each of them set their will against it and went on down.
 
 **Harlock** opened his senses to the evil of the place and closed them again at once, half-blinded. It was like staring into a sun. It came off the stairs, off the walls, out of the very air in his lungs. This place was so thoroughly corrupted that it might as well have been a shard of the Abyss itself.
 
@@ -1035,7 +1035,7 @@ Then came the master vampire.
 
 It struck with domination, reaching into **Lupenor**'s mind and seizing control. The slayer's will crumbled before the vampire's ancient power. Suddenly, the company's best archer was turning her bow on her allies.
 
-Arrow after arrow flew. **Rabiah** was struck first, blood spreading across the dungeon floor from half a dozen wounds — and then one shaft went through her cleanly, front to back, and the young sorcerer folded where she stood. Then **Lupenor** turned on **Chirrik**, who took five in the back before she collapsed.
+Arrow after arrow flew. **Rabiah** was struck first, blood spreading across the dungeon floor from half a dozen wounds — and then one shaft went through her cleanly, front to back, and the young sorcerer folded where she stood. Then **Lupenor** turned on **Chyrrik**, who took five in the back before she collapsed.
 
 The company scrambled. **Varic** threw a binding at their own archer, and for a few heartbeats it took: **Lupenor** stood locked in place, straining against nothing. Then the vampire's will bore down again and she came free of it.
 
@@ -1045,7 +1045,7 @@ They knew what that meant. Somewhere behind that wall lay its coffin, and it was
 
 There, in an ornate coffin, the master vampire lay still weakened, its gaseous form only just beginning to reconstitute. It never got the chance. **Harlock** stepped forward, ***Radiance*** blazing with holy light, and with a single decisive stroke, beheaded the creature. The vampire's final death was swift and absolute.
 
-In the aftermath **Chirrik** was healed, and **Rabiah** brought back from the very edge of death — whereupon, thoroughly embarrassed, she spent a small cantrip on getting the blood out of her greens. The arrow holes would have to wait for a needle back at camp.
+In the aftermath **Chyrrik** was healed, and **Rabiah** brought back from the very edge of death — whereupon, thoroughly embarrassed, she spent a small cantrip on getting the blood out of her greens. The arrow holes would have to wait for a needle back at camp.
 
 ### **Aftermath**
 
@@ -1067,7 +1067,7 @@ The paladin's prayers still felt unanswered in this corrupted place. The dungeon
 
 ### **The Creeping Madness**
 
-They took it up where they had left it — in the depths beneath **Drezen**, in the ceaseless whispering that gnawed at the edges of reason. They had survived the master vampire, but not without cost: **Rabiah** carried the mark of having died and been called back, and young **Chirrik** had been so badly shaken by the ordeal that she had been sent up to the surface to recover.
+They took it up where they had left it — in the depths beneath **Drezen**, in the ceaseless whispering that gnawed at the edges of reason. They had survived the master vampire, but not without cost: **Rabiah** carried the mark of having died and been called back, and young **Chyrrik** had been so badly shaken by the ordeal that she had been sent up to the surface to recover.
 
 The four of them — **Harlock**, **Lupenor**, **Varic**, and **Rabiah** — pressed deeper, going over every wall and floor for hidden passages. **Rabiah**, examining the torture implements in the central chamber, found crude scratches cut to channel the blood that pooled in their grooves. When she set her hand to them the whispering faltered, just for half a heartbeat. Whatever had been worked into this stone, she judged, would answer to nothing short of a great cleansing — a ***hallowing*** of the ground itself.
 
@@ -1103,7 +1103,7 @@ And unlike everywhere else in this corrupted dungeon, the whispers did not reach
 
 ### **The Prisoner's Bargain**
 
-They came up out of the dungeon with their bodies whole, their magic spent, and something worn thin in them that rest alone would not mend. **Sosiel**, the priest of ***Shelyn***, spoke a ***lesser restoration*** over each of them and gave back what the whispering had taken. **Chirrik**, on her feet again, was impatient to rejoin them.
+They came up out of the dungeon with their bodies whole, their magic spent, and something worn thin in them that rest alone would not mend. **Sosiel**, the priest of ***Shelyn***, spoke a ***lesser restoration*** over each of them and gave back what the whispering had taken. **Chyrrik**, on her feet again, was impatient to rejoin them.
 
 But before they could rest, word came from the guards: one of their prisoners was demanding to speak with them.
 
@@ -1159,7 +1159,7 @@ The battle began.
 
 **Rabiah** quickened them and then loosed an ***ice storm*** that turned half the floor treacherous — and in doing so drew the shape of the invisible barrier for everyone to see, a hard clean line where the falling cold simply stopped. Behind it, **Chorussina** could not be touched.
 
-So they fought the demons and worked at the wall together. **Harlock** borrowed **Chirrik**'s adamantine greatsword, the one thing they carried with any hope of biting that barrier, and set about it like a man felling a tree, while **Rabiah** poured force against it and **Varic** threw fire.
+So they fought the demons and worked at the wall together. **Harlock** borrowed **Chyrrik**'s adamantine greatsword, the one thing they carried with any hope of biting that barrier, and set about it like a man felling a tree, while **Rabiah** poured force against it and **Varic** threw fire.
 
 **Chorussina** was not idle. Seven images of her moved when she moved, so that no eye could pick out the true one, and even a blow that found her was as likely as not to pass through empty air where she was not quite standing. Force turned aside from her altogether. And the cold fire she wore bit back at anything that came near enough to strike.
 
@@ -1193,7 +1193,7 @@ But the whispering remained. It still gnawed at the edge of the mind, still prom
 
 ### **The Spoils**
 
-What the seneschal left behind was worth the having: a ***headband of vast intelligence***, a ***ring of force fangs*** that drank magic out of the air and spat it back, a ***ring of protection***, a ***cloak of resistance***, and scrolls of ***dimension door*** and ***dispel magic***. They shared it out among themselves, **Chirrik** coming away with a better cloak than she had ever owned and **Harlock** accepting her cast-off with characteristic humility.
+What the seneschal left behind was worth the having: a ***headband of vast intelligence***, a ***ring of force fangs*** that drank magic out of the air and spat it back, a ***ring of protection***, a ***cloak of resistance***, and scrolls of ***dimension door*** and ***dispel magic***. They shared it out among themselves, **Chyrrik** coming away with a better cloak than she had ever owned and **Harlock** accepting her cast-off with characteristic humility.
 
 Raised alcoves to the left and right of the chamber awaited exploration. The ***Sword of Valor*** remained hidden somewhere in the citadel. **Arueshalae** the succubus-heretic wandered the Worldwound. The **Ivory Sanctum** and its master **Xanthir Vang** represented threats yet to be confronted.
 
@@ -1233,15 +1233,15 @@ Deeper still, past passages rigged to pitch intruders into pits, they met the th
 
 The fight ran them down to their reserves. The demon reached for **Rabiah**'s mind and very nearly had it; she threw it off only by spending, all at once and desperately, the power the wardstone had left in her. **Harlock** called down **Iomedae**'s wrath and put it through ***Radiance***, and every stroke that landed tore the thing badly, holy light eating into shadow.
 
-The demon employed hit-and-run tactics, disappearing into walls only to emerge elsewhere. It was during one of these repositioning maneuvers that **Chirrik** made a discovery that changed everything.
+The demon employed hit-and-run tactics, disappearing into walls only to emerge elsewhere. It was during one of these repositioning maneuvers that **Chyrrik** made a discovery that changed everything.
 
 ### **The Banner Revealed**
 
-While scanning for the vanished demon, **Chirrik** spotted something incongruous — a flash of crimson and gold that didn't belong in the corrupted dungeon. Moving to investigate, she reached out and grasped fabric that thrummed with divine power.
+While scanning for the vanished demon, **Chyrrik** spotted something incongruous — a flash of crimson and gold that didn't belong in the corrupted dungeon. Moving to investigate, she reached out and grasped fabric that thrummed with divine power.
 
 The ***Sword of Valor***.
 
-The artifact banner had been hidden in plain sight, its magic concealed by the dungeon's overwhelming evil. **Chirrik** felt the power coursing through the fabric — this was no mere magical item but a true artifact, blessed by ***Iomedae*** herself. She immediately moved to bring it to **Rabiah**, recognizing that her young mistress would best know how to activate its powers.
+The artifact banner had been hidden in plain sight, its magic concealed by the dungeon's overwhelming evil. **Chyrrik** felt the power coursing through the fabric — this was no mere magical item but a true artifact, blessed by ***Iomedae*** herself. She immediately moved to bring it to **Rabiah**, recognizing that her young mistress would best know how to activate its powers.
 
 The shadow demon, seeing its guardianship had failed, intensified its attacks. But with the banner in hand, the company's morale soared. They pressed their assault, **Lupenor**'s arrows keeping pressure on the demon while **Varic**'s spiritual weapon harried it from another angle.
 
@@ -1411,7 +1411,7 @@ She had been on a long-range scouting mission to the west when she spotted figur
 
 Separately, and unknown to the others until they gathered for a morning meal at the **Temple of Sarenrae**, **Harlock** had been suffering nightmares. For three consecutive nights, the paladin had relived the demonic ritual of his childhood — the one he had somehow survived and escaped. Each time he woke in a cold sweat, he felt a compulsion pulling him southward. It faded within moments of waking, but it was growing stronger.
 
-The preparations were swift. **Varic** would bring **Rothin**. **Rabiah** brought both **Chirrik** and her new cohort, **Cornelia Dewfoot** — a halfling druid of quiet conviction who worshiped the spirit of nature itself and dreamed of healing the Worldwound's scarred earth. **Harlock** brought **Elara Dawnstrider**, a young paladin of noble birth and steady sword. **Lupenor** traveled light, as was her way — her cohort **Mira Thistledance** would remain behind to manage the trading house.
+The preparations were swift. **Varic** would bring **Rothin**. **Rabiah** brought both **Chyrrik** and her new cohort, **Cornelia Dewfoot** — a halfling druid of quiet conviction who worshiped the spirit of nature itself and dreamed of healing the Worldwound's scarred earth. **Harlock** brought **Elara Dawnstrider**, a young paladin of noble birth and steady sword. **Lupenor** traveled light, as was her way — her cohort **Mira Thistledance** would remain behind to manage the trading house.
 
 They loaded cold iron arrows into the bag of holding, filled waterskins, and gathered rations for those among them who still needed to eat. By late afternoon on a day that felt less like an ending than a beginning, **Rabiah**'s Redeemers walked out through the gates of **Drezen** and into the trackless waste of the Marchlands.
 

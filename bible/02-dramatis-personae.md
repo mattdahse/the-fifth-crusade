@@ -10,7 +10,7 @@ Authoritative roster for names, spellings, and continuity. Curated by Matt; the 
 - **Varic Sarian** *(Marco)* — half-elf priest of Sarenrae who took up fighter training; carried the longsword *Solemn Hour* (Irabeth's recovered blade, pressed upon the company and passed to him by Lupenor) and now wields *Battle Hymn*, won from Scorizscar's hoard. Touched by both the Dawnflower and Iomedae after the wardstone's destruction. Founded and funded Drezen's temple of Sarenrae, with his cohort Rothin Vald as head priest.
 - **Lupenor Celest** *(Fenris)* — elven slayer, devotee of Desna; analytical scout and archer. Sabotaged the enemy catapults at the siege; later founds Lupenor's Market in Drezen.
 - **Harlock Greyforge** *(Burt)* — half-orc sworn to Iomedae. Begins as a devout fighter; recovers and awakens the sentient longsword *Radiance* and becomes a paladin. Founds Iomedae's Preservers.
-- **Chirrik** — mongrelman scout of Neathholm; a keen-eyed archer met on the road in Book I who follows and eventually joins the company.
+- **Chyrrik** — mongrelman scout of Neathholm; a keen-eyed archer met on the road in Book I who follows and eventually joins the company.
 
 ## Allies & Drezen Citizens
 
