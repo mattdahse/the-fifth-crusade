@@ -755,6 +755,8 @@ They stood in the wreckage among the broken guardians and looked at the passage 
 
 *September 13, 2025 session — through the sally port into Citadel Drezen: the murder hall, the weeping berserker, and a demon wearing Iomedae's face*
 
+![The rubble was an illusion. So was the floor under it.](images/the-murder-hall.png)
+
 ### **The Murder Hall**
 
 With the outer defenses secured, the company turned to the sally port itself. A ***chime of opening*** sang the stone doors wide, and beyond them opened a corridor built for killing — twenty feet to its ceiling, and every foot of it a trap. **Lupenor** named it before the first blow fell: the murder hall. She was proved right when **Harlock**, clearing what looked like a heap of fallen rubble across a side passage, found the rubble was an illusion and the floor beneath it was not there at all. He dropped onto a bed of spikes, and in the same breath arrows came sleeting down from slits high on the walls, loosed by archers safe in their galleries.
@@ -767,11 +769,17 @@ The next chamber was painted in blood. In it stood a Kellid woman among the ruin
 
 She came straight for **Lupenor**, and her first blow nearly ended the slayer where she stood. What followed was brutal and close — **Jestak**'s fury lent her a strength and a hide that turned aside all but the hardest strikes, and her reflexes punished every opening. **Lupenor** was beaten to the very edge of death before the company could rally, and again it was **Chyrrik**'s bow, outmatched and undaunted, that helped drag the fight back. In the end **Jestak** fell — and with her fell any hope of learning why she had turned her blade on her own war-band. There was no one left to ask.
 
+![Heads to one side, bodies to the other — her own war-band — and she was crying.](images/the-weeping-blade.png)
+
 ### **The Idol at the Altar**
 
 The hardest test waited in the Inheritor's chapel. They came into it and found **Iomedae** herself standing at the altar in a nimbus of light, four devout crusaders arrayed about her. It was a lie. The figure was a succubus wearing the Inheritor's shape, and the crusaders were her charmed and dominated pets, sworn to die in her defense. When the blades came out she slipped sideways into the ethereal and hung there untouchable, working her puppets from beyond reach.
 
+![She had the plate, the cloak, the sword point-down — everything but the right to it.](images/the-false-goddess.png)
+
 So the company faced the cruelty the demon had built for them: to win through, they would have to cut down innocent men whose only sin was to have fallen under her spell. **Rabiah** flung ***glitterdust*** where she guessed the succubus hid — and guessed wrong; and it would have availed nothing even so, for a thing gone ethereal is not merely unseen. Then the demon reached into **Chyrrik**'s mind and turned her, and the scout who had saved them twice over now emptied her quiver at **Rabiah** while the sorcerer strained and failed to break the hold. For a few sick heartbeats the company watched their own used as a weapon against them.
+
+![Twice she had saved them. Then the demon reached into her, and she emptied her quiver at **Rabiah**.](images/the-scout-turned.png)
 
 It broke when the false goddess made herself solid to strike, and **Harlock** — sick to his soul at a demon defiling a hall of **Iomedae** — reached her at last. His fury took her head from her shoulders, and her death freed **Chyrrik** in an instant. Of the four enslaved crusaders only one could be spared: **Varic** had beaten that one senseless rather than kill him, and so he lived. His name was **Cecil**, and he would go back to the army hollow and broken, to be tended and, in time, unmade of what the demon had done to him.
 
