@@ -518,7 +518,7 @@ They burned the queen's body, climbed the rope back into the jaundiced daylight,
 
 <!-- fathom: 343836789 -->
 
-*July 4, 2025 session — the crusader company comes at last to the outskirts of **Drezen**, and to the final bridge across the dry **Ahari**.*
+*July 4, 2025 session — the storming of Paradise Hill, four battles in a single day for the streets of **Drezen**, and at the last the bridge that was built to fall*
 
 ### **The Reckoning of the Scouts**
 
