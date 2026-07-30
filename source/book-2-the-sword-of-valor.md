@@ -681,6 +681,8 @@ It was not hunting the army. It was hunting them.
 
 *August 15, 2025 session — the beast above the breach, the breaking of three armies, and the courtyard of Citadel Drezen taken at last*
 
+![Forty feet away, and close enough to count the scales.](images/stoltengraabe.png)
+
 ### **Three Heads**
 
 It came on out of the morning and they got their first clear look at it.
