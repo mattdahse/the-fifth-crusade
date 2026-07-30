@@ -729,6 +729,8 @@ The **cultists** came next, four hundred of them, and came recklessly — no arm
 
 That left the tieflings, and by then **Rabiah** had had enough of patience. She loosed the line she had been holding all morning, threw everything into the charge, and hit them so hard that what survived went streaming away into the ruins.
 
+![Her last order as their commander.](images/her-last-command.png)
+
 Three armies in a morning. The **Redeemers** had lost almost nobody.
 
 The cheer that went up from a hundred paladins in that courtyard was of a kind none of them had heard before. One veteran came running to his commander, dropped to his knees in the muck and the bodies, and could only say that he could not believe they had done it.
