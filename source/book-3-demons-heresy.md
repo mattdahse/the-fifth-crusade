@@ -1644,7 +1644,7 @@ The way into **Takira's Redoubt** stands open. The company holds nothing yet but
 
 *4 July 2026 session — Takira's Redoubt, 19th of Neth, 4713 AR (continued)*
 
-![The succubus finishes the demons that threatened Chirric.](images/false-arueshalae.png)
+![The succubus finishes the demons that threatened Chyrrik.](images/false-arueshalae.png)
 
 Deep in the bones of the old crusader redoubt, the company had learned to trust the wisdom of clearing every room. The last fight had ended in the outer yard — two drake riders scattered to the wind, their mounts and their swarming vermin left dead on the stones, the iron teeth of a portcullis bent open by **Harlock**'s hands so the way lay unbarred to north and south. **Varic** had gathered them for a round of healing, drawn the last poison from **Lupenor**'s blood, and set them moving again. So it was that they came, unhurried and watchful, into a low chamber where an ancient well stood waist-high in its own rubble, and something at the bottom of it was breathing.
 
