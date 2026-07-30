@@ -2,6 +2,8 @@
 
 *Who the bard was before he ever sang for them — the village, the caravan, and the scholarly man in the tavern who bought him. As it stood while ruined Kenabres waited on Queen Galfrey, with the doubt already working in him.*
 
+![The face he wore for them.](characters/callan-thornwind.png)
+
 ### Early Life
 
 **Callan Thornwind** was born in the small village of **Nearthal**, on the borders of **Mendev**, to a family of traveling musicians. His father was a skilled lute player while his mother had a voice said to bring tears to the eyes of even the most hardened warriors. From an early age, **Callan** showed remarkable talent with stringed instruments and a natural charisma that drew people to him.
