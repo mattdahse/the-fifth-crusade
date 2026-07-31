@@ -1139,7 +1139,11 @@ One by one the specters came apart into wisps and were gone. **Varic** spent the
 
 Deeper in they came to a communal block, ten cells opening onto a day room, and they opened the doors. What came out of them shrieked.
 
-They had been soldiers of the Mendevian army. That was the thing none of them was ready for — the mail was crusader mail, and the faces under the ruin of them were faces off any muster roll in the north. They came out along the walls and across the ceiling as easily as the floor, dropped onto their feet, and lunged with long needle teeth where their own had been. Whatever ruled down here had not merely killed the crusade's prisoners. It had kept some of them, and made them into this.
+They had been soldiers of the Mendevian army. That was the thing none of them was ready for — the mail was crusader mail, and the faces under the ruin of them were faces off any muster roll in the north. They came out along the walls and across the ceiling as easily as the floor, dropped onto their feet, and rushed the company with long needle teeth where their own had been. Whatever ruled down here had not merely killed the crusade's prisoners. It had kept some of them, and made them into this.
+
+What stood between them was iron. The company had come into that block inside the old security cage that ringed its middle — a box within a box, built by the gaol's own architects to keep the prisoners off the guards — and for the first moments of it the crusade's dead threw themselves against the bars from the outside while the living looked out through them.
+
+![The mail was crusader mail, and the device on the surcoats was **Iomedae**'s own — a sword before the sun, worn by the things now trying to get at the people wearing it. Whatever ruled down here had not merely left the garrison's prisoners to die. It had kept some of them.](images/the-soldiers-in-the-cells.png)
 
 **Rabiah** met the first rush with a cone of fire out of a wand and caught four of them in it at once. **Harlock** went through the survivors with a great sweeping cut that carried from one to the next to the next. One of **Lupenor**'s shafts took a spawn in the chest and pinned its mail to the wall behind it, and what slid out of the mail afterward was dust.
 
@@ -1151,11 +1155,13 @@ As **Harlock** offered a prayer of thanks to ***Iomedae*** over the wreckage, he
 
 They went on through the cell blocks, past an interrogation chamber — a chair with shackles, a cold brazier full of pokers, manacles set along the wall, a rack with its rope still on it — and into rooms whose walls carried something stranger. Bound into the stone were rank on rank of graven symbols, and **Rabiah** read enough of them to see the shape of the thing: one set to hold anything that tried to become mist, another for anything that tried to step sideways out of the world, another for anything that tried to go ethereal, and others whose purpose she could not name at all. This had never been an ordinary gaol. It had been built to hold things that could not otherwise be held, and every ward in it was still working.
 
-In one of the cells the whispering stopped. Simply stopped, the moment they crossed the threshold, for the first time since the stairs. Someone long dead had scratched a short prayer into the stone there — a prayer to ***Desna***, of all the gods, the lady of luck and travellers and the open sky, said by someone who was never going to travel anywhere again. **Lupenor**, who is hers, stood in that cell in the quiet and said her own thanks before she went back out into the noise.
+And in one of the cells along the western wall, the whispering stopped. Simply stopped, the moment they crossed the threshold, for the first time since the stairs — and started again the moment they stepped back out. Its walls had been scratched all over with something by somebody with a great deal of time, though nobody read them closely with a dungeon still to clear. **Lupenor** stood in the quiet a moment longer than the others did, and could not have said why.
+
+They would come back to that cell. It would be days yet, and it would matter more than anything else they found down there.
 
 ### **The Babau Assault**
 
-Gaunt, oily demons came out of the shadows — **babau**, their hides running with acid, and far quieter on stone than anything born of the Abyss has any business being. Ordinary steel slid from them; only cold iron bit properly, and **Lupenor**'s stock of it was running dangerously thin. Fire was no use either — they shrugged it off, and **Rabiah** put the wand away unfired. **Varic** stepped into the reach of a long spear to do it and called a war-prayer down over the whole room instead, and the demons felt it land.
+Gaunt, oily demons came out of the shadows — **babau**, their hides running with acid, and far quieter on stone than anything born of the Abyss has any business being. Ordinary steel slid from them; only cold iron bit properly, and **Lupenor**'s stock of it was running dangerously thin. Fire was no use either — they shrugged it off, and **Rabiah** was left holding a wand she had no good reason to fire. **Varic** stepped into the reach of a long spear to do it and called a war-prayer down over the whole room instead, and the demons felt it land.
 
 That was the fight they thought they were in. They were wrong about that.
 
@@ -1164,6 +1170,8 @@ That was the fight they thought they were in. They were wrong about that.
 Nobody saw it. Nobody ever saw it. There was no arrival, no shape in the doorway, nothing to point at — only, in the middle of a demon fight, something reached across the room and took hold of **Lupenor**'s mind. She set herself against it, and spent the deep reserve she keeps for the worst moment of a bad day, and it was not enough. It closed over her, and it was not a struggle after that: it seemed to her, in that moment, entirely reasonable to kill the people she had come down here with.
 
 She was standing on the stairs, behind everyone, with a clear line to all of them. Nobody knew.
+
+![The first arrow she felt. The rest she did not. And behind her on the stairs stood a friend of two years with an empty face, doing a job.](images/the-friend-behind-her.png)
 
 She put her whole quiver into **Rabiah**'s back. The first arrows the girl felt, and the rest she did not; she went down the last of the stairs and landed face-first on the floor in the middle of the fight, in a spreading pool of her own blood, with the shafts standing out of her. She was dead before anyone reached her — not dying, dead. When they looked up, **Lupenor** was punching the air, and there was a light in her eye that did not belong to her.
 
@@ -1177,7 +1185,11 @@ Ten minutes to find it and kill it, or they would be doing all of this again wit
 
 ### **Down to the Coffin**
 
-It was **Varic** who found him. He put a lance of holy light across the room into the empty air where a thing that was not there had to be standing — and it struck, and it burned, and for the first time all night the company could see what they had been fighting. **Therak Nul** stood revealed in his own dungeon with the light of **Sarenrae** eating into him.
+It was **Varic** who found him. He put a lance of holy light across the room into empty air where a thing that was not there had to be — and it struck, and it burned, and for the first time all night the company could see what they had been fighting.
+
+He was not on the floor. He was above them, spread flat against the vault of the ceiling and moving across it the way his soldiers had come out of their cells, and the light of **Sarenrae** caught him there and pinned him in it. A pale half-orc, dead white, his mouth dark with somebody else's blood, and his eyes screwed shut against a brightness that was burning him where he clung. He lost his grip and came down.
+
+![He had been up there the whole time, crawling the vault above their heads while they fought his demons. **Varic** threw the light into empty air on nothing but a guess, and the guess was right.](images/the-light-that-found-him.png)
 
 That was all **Harlock** needed. He called his smite down on a face he could finally put it on and came in with ***Radiance***, and the stroke went home. It was enough. The vampire decided he had had the worst of it, came apart into mist, and ran.
 

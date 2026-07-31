@@ -218,6 +218,36 @@ armor changes here.
 
 ---
 
+## Era V — Varic in Plate  *(Book II, from "Into the Dungeons Beneath Drezen" onward)*
+
+**Begins at:** Book II, Ch. XVI, in the specter corridor beneath Citadel Drezen. Varic went down
+those stairs in a suit of **spiked full plate**, was drained by a specter within minutes of meeting
+one, and — with **Harlock**'s help — stripped it off in the corridor and put on the **ghost-touch
+full plate** he had been carrying and not wearing. He does not go back. Everything else in Era IV
+still holds; only Varic changes here.
+
+### Varic Sarian — **CHANGED: he is in full plate from here on**
+- **Armor — upgraded, and this supersedes the Era III/IV "still not gilded" note for all scenes
+  from Ch. XVI onward.** He now wears **full plate**, and the design is taken from his canonical
+  portrait [`../characters/varic.png`](../characters/varic.png): a shaped **gold-and-steel
+  breastplate with fine red-and-gold filigree scrollwork**, **steel pauldrons on BOTH shoulders**,
+  plate vambraces and legs, **chainmail visible beneath** at the sleeves and skirt. Render it
+  **campaign-worn — scratched, dirty, fought-in — never parade-bright.**
+- **Marks of faith — unchanged.** The **deep-red scarf** at the throat, and the plain gold-brass
+  **sunburst of Sarenrae** on a cord: a bare stylized sun, **no sword in front of it** (that is
+  Iomedae's device, and Harlock is usually in the same frame).
+- **Still no circlet, no mantle.** The portrait's **gold circlet and red mantle are NOT part of
+  this change** — Matt's direction was the *armor* from the portrait, not the headwear. The
+  accepted thin gold band that reads as a temple braid still stands.
+- ***Solemn Hour*** — unchanged, carried from Ch. XV.
+- **Avoid (for any Ch. XVI-onward scene):** `a mail shirt, a bare mail shirt with no plate, cloth
+  robes, leather armor, a gold circlet or crown, a red mantle or cloak, parade-bright polished
+  armor`.
+
+*The ghost-touch property is invisible; it changes nothing about how the suit is drawn.*
+
+---
+
 ## Later eras — to be filled in as the story reaches them
 
 Add a new era block each time the company meaningfully re-equips, and carry each character's

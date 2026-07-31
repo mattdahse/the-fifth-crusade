@@ -137,6 +137,33 @@ reasoning model that otherwise stalls in a long "Thinking" loop. **Put the aspec
 **Leave the prompt unsent** and ask Matt to drag the staged `REF-*.png` files in, then send on his
 word. It costs him ten seconds and there is no automated substitute.
 
+**When a scene needs NO references** — an establishing shot, a rite, a landscape, anonymous crowds —
+there is nothing to drag, so send it yourself rather than making him wait. **Do not click the send
+button by coordinate: it silently no-ops.** The button reports as found, enabled, and correctly
+positioned, the click returns success, and the composer still holds the prompt. Call the DOM method
+instead:
+
+**Do it in a SEPARATE call from the paste.** Immediately after pasting, `#composer-submit-button`
+is often still `null` — React has not mounted it yet — and `.click()` on null throws, leaving the
+prompt sitting unsent. Paste, verify the length, then send in the next call. Scoping the lookup to
+the composer's `<form>` is more robust than a bare document query:
+
+```js
+const btn = document.querySelector('form #composer-submit-button');
+btn.click();
+await new Promise(r => setTimeout(r, 2000));
+({composerLen: document.querySelector('div.ProseMirror').textContent.length,
+  msgCount: document.querySelectorAll('[data-message-author-role]').length})
+```
+
+A `composerLen` of 0 means it went. (Unlike the download anchor in step E, this needs no user
+gesture — the gesture requirement is specific to `a.download`, not to ordinary buttons.)
+
+**A render can take well over a minute, and finishing is not instant.** `gen` going false does not
+mean the image is in the DOM yet; on the Chapter XVI edits the new render appeared a good twenty
+seconds after the generating indicator cleared. If `gen` is false but the byte count still matches
+the previous render, scroll to the bottom and wait one more cycle before concluding it failed.
+
 ### D. Wait for the render
 
 Poll with **short** `computer{action:"wait", duration:10}` steps (`duration` is capped at 10), then
@@ -167,10 +194,32 @@ and they frequently share the render's exact dimensions (several `characters/*.p
 which is also a common 3:4 output size). Filtering by size alone *will* eventually download a
 reference portrait back over your scene art. Filter by message role:
 
+**`cand[cand.length - 1]` is NOT reliably the newest.** In a chat with several renders the DOM
+virtualizes and reorders, and the last candidate is often an *earlier* image — you will silently
+re-download a render you already have. It cost a full round of confusion on the Chapter XVI
+death scene. **Verify by blob size** (each render has a distinct byte count; you already know the
+size of the one you saved last), or sort by document position and take the lowest:
+
+```js
+// Find the newest by picking the one whose bytes you have NOT seen before.
+const seen = 2492722;                                    // blobSize of the render you already saved
+const imgs = [...document.querySelectorAll('img')].filter(i => i.naturalWidth > 700);
+let img = null, blob = null;
+for (const x of imgs) {
+  const b = await (await fetch(x.currentSrc || x.src)).blob();
+  if (b.size !== seen) { img = x; blob = b; break; }      // the new one
+}
+```
+
+**Also note:** Matt's dropped reference portraits are large images too, and on a fresh chat they
+sort *first*. Filtering on `naturalWidth > 700` alone will happily hand you `rabiah.png` back.
+Keep the `[data-message-author-role="user"]` exclusion, and sanity-check the byte count against the
+`REF-*.png` sizes before moving the file.
+
 ```js
 const cand = [...document.querySelectorAll('img')]
   .filter(i => i.naturalWidth > 700 && !i.closest('[data-message-author-role="user"]'));
-const img = cand[cand.length - 1];                       // newest = last in document order
+const img = cand[cand.length - 1];                       // ONLY safe on a single-render chat
 const b = await (await fetch(img.currentSrc || img.src)).blob();
 const url = URL.createObjectURL(b);
 document.getElementById('__dl')?.remove();
@@ -219,25 +268,37 @@ decision is findable later.
 
 ---
 
-## Revising an image: edit in place, don't regenerate
+## Revising an image: REGENERATE FROM SCRATCH — do not edit in place
 
-When Matt likes the composition and wants one thing changed, **send a follow-up message in the same
-chat** rather than starting over. A fresh generation will re-roll everything, including the parts he
-already approved.
+**This is Matt's standing instruction, and it overrides the convenience of an edit.** When he asks
+for a change, open a **fresh chat**, re-stage the references, and rebuild the whole prompt with the
+correction folded in. Do not send a follow-up "edit this image" message in the existing chat.
 
-Open the edit by pinning what must not move, then state the change:
+**Why:** ChatGPT's in-place edit re-encodes the image and **costs resolution and quality every
+pass.** The frame comes back softer and mushier than the one it was derived from, and the loss
+compounds with each edit. A regeneration is a clean render at full quality. Matt would rather re-roll
+the composition and lose a good one than publish a degraded version of it.
 
-> Edit this image. Change ONLY the two things below and leave everything else exactly as it is —
-> same composition, same camera, same lighting, same figures, same palette. Do not re-imagine the scene.
+*(This file previously recommended the opposite. It was wrong: it optimized for preserving the
+composition and never accounted for the quality cost. Corrected on Matt's direction, July 2026,
+mid-way through the Chapter XVI art — the ceiling-crawl revision of `the-light-that-found-him`.)*
 
-Number the changes, and give each one its own `Avoid:` clause. This works well: it has cleanly fixed
-a missing bow limb, removed a figure and closed the gap behind it, swapped kneeling for standing, and
-repositioned two dozen lances, all without disturbing the rest of the frame.
+**So when a render comes back with notes:**
 
-**Its one weakness:** the model treats *unmentioned* details as part of "everything else stays the
-same," so a fault it has already baked in tends to survive edit passes even when you name it. If two
-edit passes fail to move something, stop paying for a third — either accept it and record the drift,
-or regenerate from scratch.
+1. Fold every note into the *original* prompt text, at the place it belongs — don't append a
+   corrections paragraph. If a pose was misread, rewrite the pose description from scratch and be
+   mechanical about the anatomy (see *Prompt craft* below); restating it the same way will fail the
+   same way.
+2. Add the specific failure to that prompt's `Avoid:` line, phrased as the thing you got: the
+   ceiling-crawl came back as *lying on his back with his spine against the ceiling*, so
+   `the vampire lying on his back against the ceiling, his belly facing down toward the viewer`
+   went into Avoid verbatim.
+3. Fresh chat, re-stage refs, ask Matt to drop them, send.
+
+**Bank the correction somewhere durable before you regenerate.** If a note is about a character's
+gear or likeness rather than this one frame — "from this point forward he wears full plate" — it
+belongs in `bible/05-kit-and-timeline.md` (new era block) or `characters/CANON.md`, not just in the
+next prompt. Otherwise the same note gets given again three images later.
 
 ---
 
