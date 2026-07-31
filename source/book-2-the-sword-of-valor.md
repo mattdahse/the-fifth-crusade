@@ -1343,6 +1343,8 @@ The battle began.
 
 **Rabiah** quickened them and then loosed an ***ice storm*** that turned half the floor treacherous — and in doing so drew the shape of the invisible barrier for everyone to see, a hard clean line where the falling cold simply stopped. Behind it, **Chorussina** could not be touched.
 
+![The storm gave them a map of the thing they could not see: a line ruled across the flagstones, ice on one side and dry black stone on the other. Beyond it the seneschal went on working, ringed by seven of herself, and never once looked up. Nobody thought to wonder yet whose blood was on her hem.](images/the-line-the-ice-drew.png)
+
 So they fought the demons and worked at the wall together. **Harlock** borrowed **Chyrrik**'s adamantine greatsword, the one thing they carried with any hope of biting that barrier, and set about it like a man felling a tree, while **Rabiah** poured force against it and **Varic** threw fire.
 
 **Chorussina** was not idle. Seven images of her moved when she moved, so that no eye could pick out the true one, and even a blow that found her was as likely as not to pass through empty air where she was not quite standing. Force turned aside from her altogether. And the cold fire she wore bit back at anything that came near enough to strike.
