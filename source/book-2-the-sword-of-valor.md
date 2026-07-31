@@ -1095,7 +1095,7 @@ Whether every soul the glaive had eaten went free at the end of it, none of them
 
 <!-- fathom: 490590311 -->
 
-*November 29, 2025 session — beneath Citadel Drezen: the whispering prison, the specters in the cells, and the thing that was never seen until it ran*
+*November 29, 2025 session — beneath Citadel Drezen: the whispering prison, the specters in the cells, and the thing that was in the room long before anybody saw it*
 
 ### **The Warning Signs**
 
@@ -1165,27 +1165,23 @@ Gaunt, oily demons came out of the shadows — **babau**, their hides running wi
 
 That was the fight they thought they were in. They were wrong about that.
 
-### **The Thing They Never Saw**
+### **Something Else in the Room**
 
-Nobody saw it. Nobody ever saw it. There was no arrival, no shape in the doorway, nothing to point at — only, in the middle of a demon fight, something reached across the room and took hold of **Lupenor**'s mind. She set herself against it, and spent the deep reserve she keeps for the worst moment of a bad day, and it was not enough. It closed over her, and it was not a struggle after that: it seemed to her, in that moment, entirely reasonable to kill the people she had come down here with.
+Nobody saw it. There was no arrival, no shape in the doorway, nothing to point at — only, in the middle of a demon fight, something reached across the room and took hold of **Lupenor**'s mind. She set herself against it, and spent the deep reserve she keeps for the worst moment of a bad day, and it was not enough. It closed over her, and it was not a struggle after that: it seemed to her, in that moment, entirely reasonable to kill the people she had come down here with.
 
 She was standing on the stairs, behind everyone, with a clear line to all of them. Nobody knew.
 
-![The first arrow she felt. The rest she did not. And behind her on the stairs stood a friend of two years with an empty face, doing a job.](images/the-friend-behind-her.png)
+![The first arrow she felt. The rest she did not. And behind her on the stairs stood the woman who had covered her in a hundred fights, wearing an empty face and doing a job.](images/the-friend-behind-her.png)
 
 She put her whole quiver into **Rabiah**'s back. The first arrows the girl felt, and the rest she did not; she went down the last of the stairs and landed face-first on the floor in the middle of the fight, in a spreading pool of her own blood, with the shafts standing out of her. She was dead before anyone reached her — not dying, dead. When they looked up, **Lupenor** was punching the air, and there was a light in her eye that did not belong to her.
 
 **Chyrrik** understood first. She dropped her bow — did not shoot, dropped it — and went up the stairs and tackled **Lupenor** bodily, and for that she took the next volley at arm's length and went down bleeding and could not stop it. **Varic** took arrows as well. **Harlock**, hemmed in by three **babau** at once, did not even know it was happening.
 
-What saved them was the thing in **Harlock**'s pack. They still had the second vial — the unlabelled oil out of **Staunton Vhane**'s chest, the one they had puzzled over for weeks and finally worked out in the citadel-master's chambers, and had been carrying ever since on the strength of a guess. The guess was right. They poured it over **Rabiah** where she lay among the arrows, and she opened her eyes, alive, in the middle of the battle. They had walked in with exactly one life to give back. They spent it on the same friend the same week.
+In the space of a few breaths the company had lost its sorcerer, its scout and its archer, and the two still standing were pinned by demons and being shot at from behind by their own.
 
-Then they took **Lupenor** down, and it took all of them. They got her arms pinned and the bow away from her and her weapons out of reach, and **Chyrrik** tied her hand and foot on the dungeon floor while she was still trying to kill them. **Rabiah** tried to tear the compulsion off her outright and could not. In the end it was **Varic** who found the answer: a ward against evil laid on her directly, which did not break the thing's hold but held it off her — ten minutes, no more. She came back to herself trussed on the flagstones and told them she was all right, which is, as somebody pointed out, exactly what she would have said either way. They left the ropes on. She could feel the grip crawling back toward her the whole time, and told them so, and counted it down for them.
+### **The Light That Found Him**
 
-Ten minutes to find it and kill it, or they would be doing all of this again with less left. And the thing had gone quiet and was getting stronger; the moment it had strength enough to think again, it would reach for her a second time.
-
-### **Down to the Coffin**
-
-It was **Varic** who found him. He put a lance of holy light across the room into empty air where a thing that was not there had to be — and it struck, and it burned, and for the first time all night the company could see what they had been fighting.
+It was **Varic** who found him. He put a lance of holy light across the room into empty air, where something they could not see had to be — and it struck, and it burned, and for the first time all night the company could see what they had been fighting.
 
 He was not on the floor. He was above them, spread flat against the vault of the ceiling and moving across it the way his soldiers had come out of their cells, and the light of **Sarenrae** caught him there and pinned him in it. A pale half-orc, dead white, his mouth dark with somebody else's blood, and his eyes screwed shut against a brightness that was burning him where he clung. He lost his grip and came down.
 
@@ -1193,7 +1189,23 @@ He was not on the floor. He was above them, spread flat against the vault of the
 
 That was all **Harlock** needed. He called his smite down on a face he could finally put it on and came in with ***Radiance***, and the stroke went home. It was enough. The vampire decided he had had the worst of it, came apart into mist, and ran.
 
-They watched him go: a coil of vapour crossing the room and draining away into a keyhole set in the wall, so small that nobody would ever have found it if they had not been watching something pour into it. **Harlock** went over the stone until he found the seam of the door the keyhole belonged to — and there he stopped, because finding it was one thing and opening it quite another. The door did not move for him, and behind it the thing was knitting itself whole again, and every heartbeat they stood there was a heartbeat it had.
+They watched him go: a coil of vapour crossing the room and draining away into a keyhole set in the wall, so small that nobody would ever have found it if they had not been watching something pour into it.
+
+### **What the Respite Bought**
+
+It bought them everything. With the thing gone through the wall, the pressure came off the room, and the company spent every second of its absence putting itself back together.
+
+**Rabiah** first. What saved her was the vial in **Harlock**'s pack — the second dose of ***Oil of Life***, the one they had hoped to carry a great deal longer than a single day before they needed it, and which they had needed within the week. They poured it out over her where she lay among the arrows, and she opened her eyes on a floor she had died on.
+
+Then **Lupenor**, and it took all of them. They got her arms pinned and the bow away from her and her weapons out of reach, and **Chyrrik** — herself only just off the floor — tied her hand and foot while she was still trying to kill them. **Rabiah** tried to tear the compulsion off her outright and could not. In the end it was **Varic** who found the answer: a ward against evil laid on her directly, which did not break the hold but held it off her — ten minutes, no more. She came back to herself trussed on the flagstones and told them she was all right, which is, as somebody pointed out, exactly what she would have said either way. They left the ropes on. She could feel the grip crawling back toward her the whole time, and told them so, and counted it down for them.
+
+**Chyrrik** was brought back from bleeding out, and given her own bow and somebody else's to hold.
+
+That was the ten minutes. What was left of it they spent on the wall, going over the stone hand over hand, frantic, looking for the door that keyhole belonged to — because the thing behind it was knitting itself whole again while they searched, and when it was whole it would reach for **Lupenor** a second time.
+
+**Harlock** found the seam. And there he stopped, because finding it was one thing and opening it quite another: the door did not move for him.
+
+### **Down to the Coffin**
 
 So they untied the archer, because they needed her hands.
 
@@ -1207,9 +1219,11 @@ Beyond it was a bare stone room, fifteen feet by fifteen, no marks on the walls,
 
 And he stood up. Not a helpless thing caught halfway — **Therak Nul** rose out of his own coffin with his arms wide and his cape going out behind him, in the full theatre of it, a lord of that place greeting the people who had come to kill him.
 
+![He had the cape, and the coffin, and the whole grand welcome — and a hole burned through his middle, still smoking, where **Varic**'s light had found him upstairs. He had about a second left of being a lord of anything.](images/the-lord-of-that-place.png)
+
 He had perhaps a second of it. **Harlock** was already inside the swing, and he took the vampire's head off in one stroke. It hit the floor and began to rot as it rolled, going to putrefaction and then to dust; the body folded down into the satin of its own coffin and came apart there. **Therak Nul** was simply gone, and the weight on **Lupenor**'s mind went with him.
 
-In the aftermath **Chyrrik** was brought back from bleeding out, and **Lupenor** was given her bow. **Rabiah**, alive for the second time in a week and mortified about the state of herself, spent a small working on the spot to get the blood off. The holes in her greens she would not let anyone else touch — those, she said, would give her something to do at camp.
+They cut **Lupenor** loose and gave her back her weapons, and nobody said anything about it. **Rabiah**, alive for the second time in a week and mortified about the state of herself, spent a small working on the spot to get the blood off. The holes in her greens she would not let anyone else touch — those, she said, would give her something to do at camp.
 
 ### **Aftermath**
 
@@ -1254,6 +1268,8 @@ The company retrieved torches — actual burning torches, relics of a simpler ag
 The western cell told a different story. Its walls were covered in scratched drawings — butterflies, hundreds of them, rendered in crude but unmistakably devotional patterns. Some showed the insects from above, others from the side, some landing on imagined flowers. The wings weren't always symmetrical. The antennae varied wildly. It was the work of someone with no artistic training but desperate faith.
 
 **Harlock**, ever the lawful mind, found the chaos of it mildly offensive. **Lupenor** recognized the butterflies as sacred to ***Desna***, goddess of dreams, luck, and travelers.
+
+![She did not touch them. Hundreds of them, scratched one over another by someone with no skill, no hope and a great deal of faith — and every one of them her own goddess's mark. **Rabiah** held the light up and watched what it was doing to her friend.](images/the-butterfly-cell.png)
 
 Among the images, text was scratched into the stone: *"Let me sing the song of the spheres."*
 
