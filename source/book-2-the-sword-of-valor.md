@@ -1293,6 +1293,8 @@ The company listened as **Joran** revealed what he knew. The citadel's seneschal
 
 **Joran** sketched a rough map, marking the location of hidden doors that led to something called the **Corruption Forge** and, beyond it, the **Ritual Chamber** where **Chorussina** worked her apocalyptic magic.
 
+![He would not look up. He put a blunt, burn-scarred finger on the place where the hidden doors were and kept it there — and **Varic** spent the whole telling watching the man's face rather than the map.](images/the-prisoners-bargain.png)
+
 *"She doesn't care if she dies,"* **Joran** said, his voice hollow. *"She doesn't care if any of us die. She just wants to complete the work."*
 
 Shortly after, **Anevia** and the scouts returned with grim confirmation. Based on the rate of the chasms' approach, they estimated two days — perhaps less — before the ritual succeeded and **Drezen** was swallowed by the Abyss.
@@ -1326,6 +1328,8 @@ They would remember that name.
 Morning came — Fire Day the thirteenth, as **Harlock** observed with grim relish. A fine day to go down into an abyssal dungeon. They chose their prayers and spells with care: **Varic** laid in restorations against the whispering he knew was waiting, and a ***silence*** besides, and satisfied himself that his wand of blindness still had something left in it. **Rabiah** held ***haste*** ready, and ***ice storm***, and ***grease***.
 
 They went down by the lift — an iron cage slung above the **Corruption Forge**, a vast chamber where a pit of fire blazed and salamanders moved in the glare far below. The cage could be lowered to the forge floor, or run along the ceiling to a set of great doors on the far side. They chose the ceiling; the salamanders would keep. **Harlock** worked the crank, and the cage rattled the length of the chamber and set them down before doors carved over every inch with demons at their tortures.
+
+![A pit of fire with something badly wrong at the heart of it, and salamanders below who could do nothing but crane their heads back and watch the crusade ride past overhead. The company took the ceiling. They would be back for the floor.](images/the-cage-over-the-forge.png)
 
 **Lupenor** checked for traps. Finding none, they opened the doors.
 
