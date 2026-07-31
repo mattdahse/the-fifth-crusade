@@ -1033,11 +1033,15 @@ The first thing done for **Lupenor** was not a resurrection but a delay. **Varic
 
 Then they took the citadel-master's chambers apart and found their reward: a journal in dwarven runes, magic worth the carrying — and, past price, a sealed vial of ***Philosopher's Stone*** quicksilver, beeswaxed shut, the metal in it moving like mercury. Mixed into any healing draught it becomes an ***Oil of Life***, and an Oil of Life is a true resurrection sealed in a vial.
 
-**Varic** did the mixing, because **Varic** was the healer. They used the plainest healing draught in the bag rather than a good one, on the reasoning that the quicksilver did not care. The draught's pale green drained out of it as the metal went in, leaving something clear and faintly sparkling.
+**Varic** did the mixing, because **Varic** was the healer. He worked in a vase from among the citadel-master's own furnishings, poured in the plainest healing draught in the bag rather than a good one — the quicksilver would not know the difference — and tipped the metal in after it. The draught's pale green drained away as it went, until what stood in the vase was clear, and colourless, and faintly full of sparks.
 
-And here the afternoon set a trap that nobody quite sprang. The oil they had just made looked *exactly* like a second, unidentified oil already sitting in the same chest — identical to the eye, and no amount of squinting would separate them. **Varic** studied the pair, and **Rabiah** studied them after him, and neither could say with any confidence which was which — even having stood there and watched one of them being made. They never did settle it. They set the whole question aside to be worked through properly back at camp, with the books out and time to spare. Two vials, one of them worth a life, and nothing to tell them apart by.
+And every one of them recognized it.
 
-They used one of them. It was the right one.
+They had been carrying an unidentified oil since they opened that chest — a thing nobody could name, set aside as a puzzle for a quieter afternoon. It looked exactly like this. Exactly. Whatever had been done in that vase had just been done to that vial too, by somebody else, some time ago, and the mystery answered itself in front of them: what they had been hauling about unlabelled was another ***Oil of Life***.
+
+They stopped short of swearing to it — neither **Varic** nor **Rabiah** would call it certain without the books out and proper time to spend, and they promised themselves that hour back at camp. But they had walked into that room able to give a life back exactly once, and they would walk out of it with a second one still corked and waiting in the bag.
+
+Then **Varic** knelt down on the flagstones beside the body of his friend and poured the vase out over her.
 
 *You were headed toward the light,* the moment went, *and then you were snapped back* — a deep breath, and **Lupenor** opening her eyes to find **Varic** standing over her shaking the last few drops out of a vase. Alive, restored, whole; no grave-chill on her, nothing dimmed, no part of her left behind. As if she had never died at all, and had slept well besides.
 
