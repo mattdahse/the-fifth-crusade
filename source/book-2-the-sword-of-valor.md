@@ -1011,6 +1011,8 @@ Through the doorway they could also see what was waiting in the room beyond: a *
 
 Then **Staunton Vhane** himself strode into the room — the fallen dwarf, the citadel's traitor-commander, wrapped in mythic power and bearing the unholy glaive ***Soul Shear***.
 
+![He came through the wreck of his own door with the glaive already moving, and he was not looking for the people who had taken his citadel. He was looking for a sword.](images/last-charge-of-staunton-vhane.png)
+
 ### **The Sword He Came For**
 
 He went straight for **Lupenor**, and the reason was the thing the company had been unable to remember the night before.
@@ -1045,6 +1047,8 @@ Then **Varic** knelt down on the flagstones beside the body of his friend and po
 
 *You were headed toward the light,* the moment went, *and then you were snapped back* — a deep breath, and **Lupenor** opening her eyes to find **Varic** standing over her shaking the last few drops out of a vase. Alive, restored, whole; no grave-chill on her, nothing dimmed, no part of her left behind. As if she had never died at all, and had slept well besides.
 
+![The last few drops were still falling when she came back — **Rabiah** holding her head up off the stone, and **Lupenor** dragging in the first breath of a second life.](images/the-quicksilver-mercy.png)
+
 She did not lie there and cough. She got straight up onto her feet and asked where he was. They told her he was dead, and that they had killed the man who killed her. She walked over to the body of **Staunton Vhane** and kicked it.
 
 Afterward somebody went through the loot and handed her a heavy enchanted belt that would toughen whoever wore it, with the observation that it ought to make her harder to kill next time, and the instruction to please stop dying.
@@ -1069,11 +1073,17 @@ Two rites were kept, and the company argued a long while first about how to keep
 
 They gave him to the fire the next morning, with a detail of knights praying to **Iomedae** over the pyre to keep them from the anger of the departed. The body took four hours to burn. It was, the company were told, a tougher body than any they had seen go into a fire. And as it burned, insects came boiling out of it — locusts, wasps, bees, flies, more of them than any corpse should hold: the mark of **Deskari**, Lord of the Locust Host, on a man who had belonged to him a very long time. Nobody could say how many of them were carrying a fragment of **Staunton Vhane** home to his master. The pyre did its work regardless, and what was left cooled to ash and was scooped into the blessed silver coffer.
 
+![Four hours, and a tougher body than any of them had ever seen go into a fire. What came boiling up out of it belonged to **Deskari**, and every knight kneeling around the pyre could see exactly whose mark it was.](images/the-pyre-of-staunton-vhane.png)
+
 That afternoon they set to the unmaking of ***Soul Shear***. A blacksmith's forge in the citadel was found and stoked hot; priests prayed the place quiet; **Varic** pinned the glaive with a ***Dimensional Anchor*** so that it could not step out of the world, and **Harlock** took it up to wrestle it into the vice.
 
 It fought him. The thing writhed in his hands and changed its shape and tore itself loose — and as it came free it tore a hole through reality with it, and a **babau** climbed out of the rip. Worse: the demon got the weapon. It took **Soul Shear** in its claws, cackled, and ran.
 
-**Harlock** did not draw on it. He tackled it, took it to the ground and pinned it there so it could not carry the glaive another step. Then the rest of them fell on it where it lay — **Varic** with ***Solemn Hour***, which **Lupenor** had put into his hands in the days after her death, and which bit demons harder than any plain steel had a right to; **Lupenor** herself, hours out of her own grave, emptying cold iron arrows into it at arm's length, one of them going in perfectly; **Rabiah** spending the last of what she had for the finish. The demon died on the forge floor, and the weapon never left the room.
+**Harlock** did not draw on it. He tackled it, took it to the ground and pinned it there so it could not carry the glaive another step.
+
+![He never drew. He put the thing on the floor of the forge and held it there — with what it had stolen still burning in its claws, a hand's reach from his face.](images/the-babau-at-the-forge.png)
+
+Then the rest of them fell on it where it lay — **Varic** with ***Solemn Hour***, which **Lupenor** had put into his hands in the days after her death, and which bit demons harder than any plain steel had a right to; **Lupenor** herself, hours out of her own grave, emptying cold iron arrows into it at arm's length, one of them going in perfectly; **Rabiah** spending the last of what she had for the finish. The demon died on the forge floor, and the weapon never left the room.
 
 The second attempt held. ***Soul Shear*** went into the fire and did not come out. At the end of the ritual there was nothing left of it but beads of metal cooling among the coals, and nothing in those beads that answered to a detection of evil or of magic at all. **Varic** reached deep one last time and called the stone at the camp's edge open, and they tipped the whole pile of slag and ash into the hole and closed it over under ten feet of solid rock, with **Sosiel** helping.
 

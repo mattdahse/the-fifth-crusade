@@ -37,6 +37,17 @@ first time any named item is illustrated.
   dark cloth**. Established look: [`../images/solemn-hour.png`](../images/solemn-hour.png).
   *Avoid:* a jewelled or gilded blade, a glowing blade, a greatsword or curved blade, a fantasy
   sword with spikes or scrollwork, runes that are not flowing script.
+- ***Soul Shear*** — **Staunton Vhane**'s intelligent unholy glaive: a **polearm**, not a sword.
+  A **long, thick, dark iron haft** — plain, banded, blackened, no wrapping and no ornament —
+  ending in a **broad, heavy, single-edged cleaver of a head**, deeply curved and far wider than
+  a spear point, swept back to a long upper tip. The **spine of the head is a row of coarse
+  serrated teeth**, and the whole blade is pitted and blackened like the armor it is carried
+  with. **Its cutting edge burns with cold violet-white light** — a jagged, crawling energy that
+  runs the length of the edge and throws violet onto everything near it. That violet is the same
+  light behind Staunton's eye-slit, and it is the image's single luminous accent. Established
+  look: [`../images/last-charge-of-staunton-vhane.png`](../images/last-charge-of-staunton-vhane.png).
+  *Avoid:* a sword of any kind, a scythe, a spear or narrow spike, a straight blade, a short haft,
+  a wrapped or leather grip, gems, gold, red or green glow, skulls or spikes on the haft.
 - **The Kenabres Wardstone fragment** — the last and largest surviving piece: a single rough,
   irregular block of crystal **roughly the size of an airline carry-on bag** (about two feet
   long), glowing from within with warm holy gold-white light. It is a **block of stone, not a

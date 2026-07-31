@@ -98,20 +98,27 @@ The composer is a **ProseMirror contenteditable** whose React state ignores type
 
 1. **ChatGPT persists the composer draft across reloads.** Navigating to a fresh chat does *not*
    clear it.
-2. **Selecting all and pasting APPENDS rather than replaces.** Setting a Range over the ProseMirror
-   node and firing `paste` leaves the old text in place and adds the new text after it — you end up
-   sending two or three copies of the prompt.
+2. **A clear that does not actually clear makes the paste APPEND.** The paste event always inserts
+   at the selection; if the old draft is still there, you send two or three copies of the prompt.
 
-The clear that actually works is `execCommand('selectAll')` followed by `execCommand('delete')`:
+The clear that works is an **explicit Range over the ProseMirror node's contents**, then `delete`:
 
 ```js
 const pm = document.querySelector('div.ProseMirror'); pm.focus();
-document.execCommand('selectAll'); document.execCommand('delete');
+const sel = window.getSelection(); sel.removeAllRanges();
+const r = document.createRange(); r.selectNodeContents(pm); sel.addRange(r);
+document.execCommand('delete');
 const t = `Please generate this image directly. Aspect ratio 3:2. <FULL PROMPT + Avoid: line>`;
 const dt = new DataTransfer(); dt.setData('text/plain', t);
 pm.dispatchEvent(new ClipboardEvent('paste', {clipboardData: dt, bubbles: true, cancelable: true}));
-'pasted'
+({len: pm.textContent.length, want: t.length})
 ```
+
+*(This reverses what this file said before July 2026. `execCommand('selectAll')` followed by
+`execCommand('delete')` — previously documented as the fix — now silently leaves the draft in place,
+and the next paste appends to it. Caught on the Chapter XV art: a 5,338-char draft plus a 7,251-char
+prompt verified at 12,504. The Range form still clears to 0. If **both** forms ever fail, fall back
+to a real gesture: click the composer, then `key` `cmd+a` / `ctrl+a` followed by `Delete`.)*
 
 Then **verify in a separate call** that exactly one copy landed before sending:
 
