@@ -1095,7 +1095,7 @@ Whether every soul the glaive had eaten went free at the end of it, none of them
 
 <!-- fathom: 490590311 -->
 
-*November 29, 2025 session — beneath Citadel Drezen: the whispering prison, the specters in the cells, and the master vampire*
+*November 29, 2025 session — beneath Citadel Drezen: the whispering prison, the specters in the cells, and the thing that was never seen until it ran*
 
 ### **The Warning Signs**
 
@@ -1107,9 +1107,11 @@ The ancient stairs plunged eighty feet forward and forty feet down into the dung
 
 **Harlock** opened his senses to the evil of the place and closed them again at once, half-blinded. It was like staring into a sun. It came off the stairs, off the walls, out of the very air in his lungs. This place was so thoroughly corrupted that it might as well have been a shard of the Abyss itself.
 
-Halfway down, **Rabiah** felt something close about her spirit like a hand — a binding laid over the whole of the dungeon, pinning everything within it to the stone. Whatever happened below, there would be no stepping out of it by magic.
+Halfway down, **Rabiah** felt something close about her spirit like a hand — a binding laid over the whole of the dungeon, pinning everything within it to the stone. The others felt it too; only she knew it for what it was. Whatever happened below, there would be no stepping out of it by magic, and the teleporting earring she had been so pleased with a day earlier was now so much jewellery. It cut both ways, and they took what comfort they could from that: nothing down here would be stepping out either, or calling anything in.
 
-They made ready. **Varic** set a light upon himself and a blessing upon them all, and each of them woke the small hoarded strength in their **Righteous Medals**. **Harlock** took ***Radiance*** in his fist, and the blade was humming before it cleared the scabbard.
+**Lupenor** went over the door at the bottom inch by inch and found no wire, no pressure plate, nothing mechanical whatsoever — and came away certain all the same that something past it was badly wrong. It was not locked. Nothing down there had ever needed locking in.
+
+They made ready. **Varic** set a light upon himself and a blessing upon them all, and each of them woke the small hoarded strength in their ***Righteous Medals***. **Harlock** took ***Radiance*** in his fist, and the blade was humming before it cleared the scabbard.
 
 ### **The Prison of the Damned**
 
@@ -1117,61 +1119,95 @@ The dungeon was an old prison complex, a maze of cells and security cages. The f
 
 When the demons had taken **Drezen** decades ago, they had simply left the prisoners to die.
 
-They moved cautiously through the cage-work of the old security block, checking side chambers that proved to be guard quarters and an officer's room. Nothing of value had survived the years.
+They moved cautiously through the cage-work of the old security block, checking side chambers that proved to be guard quarters and an officer's room. Both had been picked over long ago, or had simply rotted; there was nothing in either worth carrying out. **Harlock** in his plate had to be walked sideways through the tighter doorways.
 
 ### **Specters of the Fallen**
 
-They moved into a long corridor lined with more cells. **Lupenor** went over it inch by inch and found no wire, no pressure plate, nothing mechanical whatsoever — and came away certain all the same that something in that corridor was badly wrong. As **Harlock** led the advance it was **Varic** who saw what the paladin had missed: a ghostly figure barely printed upon the darkness, coming out through the bars of a cell. A specter — the tortured spirit of what had once been a human paladin, its limbs broken in several places, its shape still holding the manner of its death.
+They moved into a long corridor lined with more cells, the doors standing open on nothing. As **Harlock** led the advance he walked straight past the thing waiting for him, and it was **Varic** who saw what the paladin had missed: a ghostly figure barely printed upon the darkness, coming out through the bars of a cell behind him. A specter — the tortured spirit of what had once been a human paladin, its limbs broken in several places, its shape still holding the manner of its death.
 
 *"**Harlock** — ghost, right in front of you!"* **Varic** shouted.
 
 Two more came out of the walls behind it, moving faster than anything of that size had any right to, and the corridor became a battle.
 
-It was brutal, and it was strange. Steel went through the things as through smoke, and what did land seemed to cost them half of what it should have. Their touch was the true danger: where a specter's hand closed, it drew the life out of the flesh beneath. **Varic** called a blessing down into his own armor until it could turn what had no body — but not before two of them reached him, and he felt in that instant some measure of himself simply gone, years of hard-won strength stripped out of him between one breath and the next.
+It was brutal, and it was strange. Steel went through the things as through smoke, and what did land seemed to cost them half of what it should have. Their touch was the true danger: where a specter's hand closed, it drew the life out of the flesh beneath. **Harlock** called down the celestial bond he was owed and laid it on his own plate until the armor could turn what had no body — a thing he could do once in a day, and he spent it in the first moments. **Varic** had no such protection. One of them got a hand on him, and he felt in that instant some measure of himself simply gone, years of hard-won strength stripped out between one breath and the next.
 
-**Rabiah** quickened them all and then set to loosing bolts of raw force, which cared nothing for whether a thing had a body to strike. **Lupenor**'s bow was blessed enough that her shafts bit where plain arrows would have passed clean through, and she kept them coming. **Varic** called up a scimitar of spectral light that could take hold of the dead as readily as the living.
+**Rabiah** quickened them all and then set to loosing bolts of raw force, which cared nothing for whether a thing had a body to strike. **Lupenor**'s bow was blessed enough that her shafts bit where plain arrows would have passed clean through, and she kept them coming, counting what was left in her quiver as she went. **Varic** called up a scimitar of spectral light that fought on its own a little apart from him, and took hold of the dead as readily as it would have the living.
 
-One by one the specters came apart into wisps and were gone. **Varic** spent their last scroll of ***restoration*** at once, drawing back into himself what the dead had taken; and then, with **Harlock**'s help, took the long minutes needed to change into armor warded against such things. Slow work, in that corridor. It would be worth every minute of it before the day was out.
+One by one the specters came apart into wisps and were gone. **Varic** spent their last scroll of ***restoration*** at once, drawing back into himself what the dead had taken; and then, with **Harlock**'s help, stripped off his fine spiked plate in the middle of that corridor and put on the ghost-warded suit he had been carrying and not wearing. He had said he would wear the good armor until he regretted it, and he had regretted it inside the first fight. It cost them the better part of ten minutes, standing in the dark with the whispers going. It would be worth every one of them before the day was out.
+
+### **The Soldiers in the Cells**
+
+Deeper in they came to a communal block, ten cells opening onto a day room, and they opened the doors. What came out of them shrieked.
+
+They had been soldiers of the Mendevian army. That was the thing none of them was ready for — the mail was crusader mail, and the faces under the ruin of them were faces off any muster roll in the north. They came out along the walls and across the ceiling as easily as the floor, dropped onto their feet, and lunged with long needle teeth where their own had been. Whatever ruled down here had not merely killed the crusade's prisoners. It had kept some of them, and made them into this.
+
+**Rabiah** met the first rush with a cone of fire out of a wand and caught four of them in it at once. **Harlock** went through the survivors with a great sweeping cut that carried from one to the next to the next. One of **Lupenor**'s shafts took a spawn in the chest and pinned its mail to the wall behind it, and what slid out of the mail afterward was dust.
+
+One of them got its eyes on **Rabiah** through the bars and reached for her mind, and she held. It tried again, and this time it very nearly had her — she thought about turning on her friends, thought about it seriously, and threw the whole force of what she was against it to get free. She said nothing about it afterward. It would have been worth saying.
+
+As **Harlock** offered a prayer of thanks to ***Iomedae*** over the wreckage, he understood that he was praying into a room. The words went out and stopped. Nothing on the other side of them was listening — not because he had been abandoned, but because this place would not carry them, the way a shout will not cross deep water.
 
 ### **Deeper into Darkness**
 
-They went deeper, through an interrogation chamber and more empty cells. Then came the spawn — lesser vampires, made and kept by some greater thing below. They were quicker than the specters and far more eager, and they burned. **Rabiah** put searing light through them one after another, and **Lupenor**'s arrows found the rest.
+They went on through the cell blocks, past an interrogation chamber — a chair with shackles, a cold brazier full of pokers, manacles set along the wall, a rack with its rope still on it — and into rooms whose walls carried something stranger. Bound into the stone were rank on rank of graven symbols, and **Rabiah** read enough of them to see the shape of the thing: one set to hold anything that tried to become mist, another for anything that tried to step sideways out of the world, another for anything that tried to go ethereal, and others whose purpose she could not name at all. This had never been an ordinary gaol. It had been built to hold things that could not otherwise be held, and every ward in it was still working.
 
-As **Harlock** offered a prayer of thanks to ***Iomedae*** after destroying the spawn, he felt something deeply unsettling: the goddess could not hear him. Not here, in this place of concentrated evil. The paladin's connection to his deity was muted, perhaps blocked entirely.
+In one of the cells the whispering stopped. Simply stopped, the moment they crossed the threshold, for the first time since the stairs. Someone long dead had scratched a short prayer into the stone there — a prayer to ***Desna***, of all the gods, the lady of luck and travellers and the open sky, said by someone who was never going to travel anywhere again. **Lupenor**, who is hers, stood in that cell in the quiet and said her own thanks before she went back out into the noise.
 
 ### **The Babau Assault**
 
-Gaunt, oily demons came out of the shadows — **babau**, their hides running with acid, and far quieter on stone than anything born of the Abyss has any business being. Ordinary steel slid from them; only cold iron bit properly, and **Lupenor**'s stock of it was running dangerously thin. **Varic** answered with fire instead, a bloom of it that filled the chamber wall to wall. One **babau** called another out of the empty air before **Harlock**'s blade found it.
+Gaunt, oily demons came out of the shadows — **babau**, their hides running with acid, and far quieter on stone than anything born of the Abyss has any business being. Ordinary steel slid from them; only cold iron bit properly, and **Lupenor**'s stock of it was running dangerously thin. Fire was no use either — they shrugged it off, and **Rabiah** put the wand away unfired. **Varic** stepped into the reach of a long spear to do it and called a war-prayer down over the whole room instead, and the demons felt it land.
 
-The summoned demon remained even after its caller's death — not a magical construct that would fade, but a real demon called from the Abyss. The company had to destroy it properly.
+That was the fight they thought they were in. They were wrong about that.
 
-### **The Master Vampire's Trap**
+### **The Thing They Never Saw**
 
-Then came the master vampire.
+Nobody saw it. Nobody ever saw it. There was no arrival, no shape in the doorway, nothing to point at — only, in the middle of a demon fight, something reached across the room and took hold of **Lupenor**'s mind. She set herself against it, and spent the deep reserve she keeps for the worst moment of a bad day, and it was not enough. It closed over her, and it was not a struggle after that: it seemed to her, in that moment, entirely reasonable to kill the people she had come down here with.
 
-It struck with domination, reaching into **Lupenor**'s mind and seizing control. The slayer's will crumbled before the vampire's ancient power. Suddenly, the company's best archer was turning her bow on her allies.
+She was standing on the stairs, behind everyone, with a clear line to all of them. Nobody knew.
 
-Arrow after arrow flew. **Rabiah** was struck first, blood spreading across the dungeon floor from half a dozen wounds — and then one shaft went through her cleanly, front to back, and the young sorcerer folded where she stood. Then **Lupenor** turned on **Chyrrik**, who took five in the back before she collapsed.
+She put her whole quiver into **Rabiah**'s back. The first arrows the girl felt, and the rest she did not; she went down the last of the stairs and landed face-first on the floor in the middle of the fight, in a spreading pool of her own blood, with the shafts standing out of her. She was dead before anyone reached her — not dying, dead. When they looked up, **Lupenor** was punching the air, and there was a light in her eye that did not belong to her.
 
-The company scrambled. **Varic** threw a binding at their own archer, and for a few heartbeats it took: **Lupenor** stood locked in place, straining against nothing. Then the vampire's will bore down again and she came free of it.
+**Chyrrik** understood first. She dropped her bow — did not shoot, dropped it — and went up the stairs and tackled **Lupenor** bodily, and for that she took the next volley at arm's length and went down bleeding and could not stop it. **Varic** took arrows as well. **Harlock**, hemmed in by three **babau** at once, did not even know it was happening.
 
-It came within a hair of killing every one of them. Then **Varic**'s ***searing light*** found the master itself and went into it like a brand. The creature shrieked, its hold on **Lupenor** breaking as holy fire ate at it, and it came apart into mist and fled, pouring away through a hidden keyhole in the wall.
+What saved them was the thing in **Harlock**'s pack. They still had the second vial — the unlabelled oil out of **Staunton Vhane**'s chest, the one they had puzzled over for weeks and finally worked out in the citadel-master's chambers, and had been carrying ever since on the strength of a guess. The guess was right. They poured it over **Rabiah** where she lay among the arrows, and she opened her eyes, alive, in the middle of the battle. They had walked in with exactly one life to give back. They spent it on the same friend the same week.
 
-They knew what that meant. Somewhere behind that wall lay its coffin, and it was knitting itself whole again even as they stood there. **Lupenor** brought out the ***chime of opening*** and sounded it, and the secret door swung wide upon the lair beyond.
+Then they took **Lupenor** down, and it took all of them. They got her arms pinned and the bow away from her and her weapons out of reach, and **Chyrrik** tied her hand and foot on the dungeon floor while she was still trying to kill them. **Rabiah** tried to tear the compulsion off her outright and could not. In the end it was **Varic** who found the answer: a ward against evil laid on her directly, which did not break the thing's hold but held it off her — ten minutes, no more. She came back to herself trussed on the flagstones and told them she was all right, which is, as somebody pointed out, exactly what she would have said either way. They left the ropes on. She could feel the grip crawling back toward her the whole time, and told them so, and counted it down for them.
 
-There, in an ornate coffin, the master vampire lay still weakened, its gaseous form only just beginning to reconstitute. It never got the chance. **Harlock** stepped forward, ***Radiance*** blazing with holy light, and with a single decisive stroke, beheaded the creature. The vampire's final death was swift and absolute.
+Ten minutes to find it and kill it, or they would be doing all of this again with less left. And the thing had gone quiet and was getting stronger; the moment it had strength enough to think again, it would reach for her a second time.
 
-In the aftermath **Chyrrik** was healed, and **Rabiah** brought back from the very edge of death — whereupon, thoroughly embarrassed, she spent a small cantrip on getting the blood out of her greens. The arrow holes would have to wait for a needle back at camp.
+### **Down to the Coffin**
+
+It was **Varic** who found him. He put a lance of holy light across the room into the empty air where a thing that was not there had to be standing — and it struck, and it burned, and for the first time all night the company could see what they had been fighting. **Therak Nul** stood revealed in his own dungeon with the light of **Sarenrae** eating into him.
+
+That was all **Harlock** needed. He called his smite down on a face he could finally put it on and came in with ***Radiance***, and the stroke went home. It was enough. The vampire decided he had had the worst of it, came apart into mist, and ran.
+
+They watched him go: a coil of vapour crossing the room and draining away into a keyhole set in the wall, so small that nobody would ever have found it if they had not been watching something pour into it. **Harlock** went over the stone until he found the seam of the door the keyhole belonged to — and there he stopped, because finding it was one thing and opening it quite another. The door did not move for him, and behind it the thing was knitting itself whole again, and every heartbeat they stood there was a heartbeat it had.
+
+So they untied the archer, because they needed her hands.
+
+It was put to **Lupenor** plainly: they were cutting her loose to open that door, **Chyrrik** would be standing behind her the whole time, and her bow and her blades stayed in **Chyrrik**'s arms until the thing below was dead. **Rabiah** sawed through the ropes with a cold iron dagger. **Lupenor** got up, walked past the pile of her own weapons without so much as looking at it — which everyone present noticed, and which was, as somebody said, not a great sign but a better one — and knelt at the door.
+
+She looked at the lock and did not trust her hands to it. It had been that kind of day, and there was no time to spend on a second attempt. She took out the ***chime of opening*** instead and spent one of its five charges on the door, and the door opened.
+
+Beyond it was a bare stone room, fifteen feet by fifteen, no marks on the walls, nothing in it at all but a coffin: good hardwood, carved and embellished, the furniture of somebody who had been down here a long while and thought well of himself. Everybody in that doorway knew how this was done. You take the head, and you take it in the coffin.
+
+**Harlock** woke his ***Righteous Medal***, called the bond into his armor, and drew a phial of silversheen down the length of ***Radiance*** before he stepped through — a blade of holy gold running silver, for a thing that shrugs off honest steel. Then the chime was rung a second time, against the coffin itself, and the lid came off.
+
+And he stood up. Not a helpless thing caught halfway — **Therak Nul** rose out of his own coffin with his arms wide and his cape going out behind him, in the full theatre of it, a lord of that place greeting the people who had come to kill him.
+
+He had perhaps a second of it. **Harlock** was already inside the swing, and he took the vampire's head off in one stroke. It hit the floor and began to rot as it rolled, going to putrefaction and then to dust; the body folded down into the satin of its own coffin and came apart there. **Therak Nul** was simply gone, and the weight on **Lupenor**'s mind went with him.
+
+In the aftermath **Chyrrik** was brought back from bleeding out, and **Lupenor** was given her bow. **Rabiah**, alive for the second time in a week and mortified about the state of herself, spent a small working on the spot to get the blood off. The holes in her greens she would not let anyone else touch — those, she said, would give her something to do at camp.
 
 ### **Aftermath**
 
-The dungeon beneath **Drezen** seemed to be cleared, at least of anything that could kill a company outright. They had met specters, vampire spawn, babau, and a master vampire in its own lair, and had come out the other side of all of it.
+Nothing else came at them after that. Whatever had been kept down there had been the vampire's, and with him ended it stopped being anything at all.
 
-But their victory felt hollow. The Sword of Valor — the artifact they had expected to find in the dungeon's depths — was nowhere to be found. Worse still, they had uncovered no explanation for the chasms from the Worldwound that continued their inexorable approach toward **Drezen**. The corruption beneath the citadel had been cleansed, yet the greater threat remained a mystery.
+Which left them standing in a quiet prison with nothing to show for it. The ***Sword of Valor*** — the banner itself, the thing the whole march from **Kenabres** had been for, the thing they had come down these stairs expecting to find at the bottom — was not there. Neither was any answer about the chasms. Three of them were still walking toward **Drezen** out of the north and the east and the west, and the company had just cleared out the only thing under the citadel worth clearing, and the chasms had not slowed at all. Whatever was drawing them on was somewhere else, and they had spent a day and two lives finding that out.
 
-**Varic** suggested, only half-jokingly, that perhaps they should simply evacuate back to **Kenabres**. The rifts from the Abyss creeping ever closer were, he argued, somebody else's problem.
+**Varic** proposed, with only about half his chest behind the joke, that they had done what they came to do and could reasonably go home to **Kenabres** now. The ground opening up and swallowing a city was a thing he had watched once already and had no particular wish to review. The rifts, he argued, were somebody else's problem.
 
-The paladin's prayers still felt unanswered in this corrupted place. The dungeon was cleared, but the crusade's true objectives remained unfulfilled. There was work yet to be done — and precious little time in which to do it.
+Nobody took him up on it. **Harlock** could still feel his prayers going out into that stone and stopping, and would feel it until they climbed back into open air. There was work yet to be done — and precious little time in which to do it.
 
 *— Session of November 29, 2025 —*
 
@@ -1183,7 +1219,7 @@ The paladin's prayers still felt unanswered in this corrupted place. The dungeon
 
 ### **The Creeping Madness**
 
-They took it up where they had left it — in the depths beneath **Drezen**, in the ceaseless whispering that gnawed at the edges of reason. They had survived the master vampire, but not without cost: **Rabiah** carried the mark of having died and been called back, and young **Chyrrik** had been so badly shaken by the ordeal that she had been sent up to the surface to recover.
+They took it up where they had left it — in the depths beneath **Drezen**, in the ceaseless whispering that gnawed at the edges of reason. They had survived **Therak Nul**, but not without cost: **Rabiah** carried the mark of having died and been called back, and young **Chyrrik** had been so badly shaken by the ordeal that she had been sent up to the surface to recover.
 
 The four of them — **Harlock**, **Lupenor**, **Varic**, and **Rabiah** — pressed deeper, going over every wall and floor for hidden passages. **Rabiah**, examining the torture implements in the central chamber, found crude scratches cut to channel the blood that pooled in their grooves. When she set her hand to them the whispering faltered, just for half a heartbeat. Whatever had been worked into this stone, she judged, would answer to nothing short of a great cleansing — a ***hallowing*** of the ground itself.
 
