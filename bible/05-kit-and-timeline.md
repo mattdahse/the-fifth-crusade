@@ -201,6 +201,21 @@ armor changes here.
 - **Avoid (for any Ch. XII-onward scene):** `plain steel breastplate, padded gambeson, bare
   gambeson sleeves, battered campaign-worn armor` — that look is retired as of this era.
 
+### Varic Sarian — ***Solemn Hour*** changes hands here
+- **Armor — unchanged.** Still the dark travel-worn mail shirt with mail sleeves, the deep-red
+  scarf, and the plain gold or brass sunburst of Sarenrae. **Still not gilded** — no circlet, no
+  filigree breastplate, no mantle. *(Accepted drift: `the-flask-behind-the-shield` gives him a thin
+  gold band in his hair. On inspection it reads as his temple braid, and it stands.)*
+- **Weapon — CHANGED.** ***Solemn Hour*** — **Irabeth Tirabade's** recovered longsword, a bane
+  weapon against evil outsiders — was carried by **Lupenor** through the fall of Staunton Vhane,
+  and it is the reason Staunton killed her: it was Irabeth who exposed him, and he came into that
+  room shouting for her sword. **Lupenor handed it to Varic during the downtime immediately
+  afterward** (Book II, Ch. XV) and took up a warhammer for her own melee work. From that point on
+  **Varic** is the one carrying *Solemn Hour*.
+- He also carries a **round wooden-and-iron shield** and, as a priest, an **aspergillium** — a
+  plain metal rod ending in a hollow perforated sphere for sprinkling holy water. **Describe the
+  aspergillium physically in any prompt; the word alone renders as a mace or a censer on chains.**
+
 ---
 
 ## Later eras — to be filled in as the story reaches them

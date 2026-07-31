@@ -997,29 +997,83 @@ Suddenly — the door to the next room burst open.
 
 ### **The Door Bursts Open**
 
-The door the company had braced for burst inward, and the enemy came through it all at once: half-fiend minotaurs with their long reaching blades, a **babau** slick with abyssal grease, and a great wasp bearing its rider. The company was still bunched from the last fight, and the press was upon them before they could spread. **Varic** answered with a ***Holy Smite*** that seared the evil outsiders and struck several blind; **Lupenor**'s arrows cut a charging minotaur down mid-stride; **Rabiah** laid ***Haste*** across them all and bought the company the speed it needed.
+Before anything came through the door, a voice came through it. A man was shouting orders on the other side, and out of the noise the company caught one of them clearly:
 
-Then **Staunton Vhane** himself strode into the room — the fallen dwarf, the citadel's traitor-commander, wrapped in mythic power and bearing the unholy glaive ***Soul Shear***. His eye went at once to **Lupenor**, for she carried ***Solemn Hour***, and he knew the blade. He fell upon her, and his strokes were more than flesh could bear. The slayer went down and did not rise. It was the first death the company had suffered in all the long war — and for a moment the battle became a wake.
+*"Bring me that Irabeth sword!"*
+
+Then the door went in, and the first of the half-fiend minotaurs came with it — huge, axe already swinging, into a room where the company were still bunched from the last fight and the two prisoners were lying bound on the floor. **Barrid Isen** spent the whole battle squirming to avoid being trodden on. **Joran Vhane**, who had no skill for knots and no strength left to break them, spent it rolling his eyes at the ceiling and going nowhere.
+
+The voice beyond the door kept giving orders, and one of the next ones told the company a great deal about the man giving them: ***take out my traitorous brother.*** He had set his own people on **Joran** — bound, unarmed and harmless on the floor — before he had so much as laid eyes on the people who had actually beaten him.
+
+Through the doorway they could also see what was waiting in the room beyond: a **giant wasp** in saddle and barding — an anti-paladin's mount, and no ordinary vermin. It never reached them. Arrows and spellwork brought it down where it stood, and the scream it made was answered by a scream of pure rage from the man behind it.
+
+**Varic** answered with a ***Holy Smite*** that seared the evil outsiders and struck several blind; **Lupenor**'s arrows cut a charging minotaur down mid-stride; **Rabiah** laid ***Haste*** across them all and bought the company the speed it needed. **Callan**, newly and precariously one of them, sang from the back and kept out of the way.
+
+Then **Staunton Vhane** himself strode into the room — the fallen dwarf, the citadel's traitor-commander, wrapped in mythic power and bearing the unholy glaive ***Soul Shear***.
+
+### **The Sword He Came For**
+
+He went straight for **Lupenor**, and the reason was the thing the company had been unable to remember the night before.
+
+Years ago it had been **Irabeth Tirabade** who exposed **Staunton Vhane** — who found him out and blew his cover and made him what he now was, a traitor with no way home. He had wanted her dead ever since. And **Lupenor** was carrying ***Solemn Hour***, which had been **Irabeth**'s sword; not even drawn, only slung at her belt. That was enough. He had shouted for it before he could see the room, and when it walked in he came for the woman carrying it and did not look at anyone else.
+
+His strokes were more than flesh could bear. The slayer went down under a wound the width of the glaive and did not rise — past bleeding, past saving, dead on the floor of the planning room while the fight went on over her.
+
+It was the first death the company had suffered in all the long war. They had been knocked senseless before, more than once; nobody had ever died. For a moment the battle became a wake.
 
 ### **The Telling Stroke**
 
-**Harlock** met the murderer head-on. He called his smite against the dwarf and drove ***Radiance*** home with everything the blade and the man had left in them — one stroke, perfectly placed, that went in deep and did not stop. The rest closed around him, and between them they brought **Staunton Vhane** down at last. Something turned in them as he fell. The power the wardstone had left in their blood shifted and settled deeper, as though it had been waiting on precisely this, and every one of them felt it even in that grim hour.
+**Harlock** met the murderer head-on. He called his smite against the dwarf and drove ***Radiance*** home with everything the blade and the man had left in them — one stroke, perfectly placed, that went in deep and did not stop. **Staunton Vhane** dropped to his knees, gasped once, and fell.
+
+And as he fell they felt it: a shudder that went through the bones of every one of them. They had killed a mythic enemy and come through a mythic trial, and the power the wardstone had left in their blood shifted and took note. It was not the ascension itself — that was still one trial further on — but it was the sound of a door being unlocked somewhere ahead of them, and they all heard it, even in that grim hour with **Lupenor** dead on the flagstones behind them.
 
 ### **The Quicksilver Mercy**
 
-They took the citadel-master's chambers apart and found their reward: a journal in dwarven runes, magic worth the carrying — and, past price, a measure of ***Philosopher's Stone*** quicksilver. Mixed into a healing draught it becomes an ***Oil of Life***, and an Oil of Life is a true resurrection sealed in a vial. **Varic** poured it out over **Lupenor**, and she came back whole — no grave-chill on her, no part of her left behind. The first death in the company's story was also the first undoing of death.
+The first thing done for **Lupenor** was not a resurrection but a delay. **Varic** burned mythic power to lay a ***Gentle Repose*** on her body where it lay — the spell that stops a corpse from becoming merely a corpse, and buys the living time to find an answer. Nobody yet knew whether there was an answer to find. Someone said aloud what they were all thinking, which was that a wound from a soul-eating glaive might not be the kind of death anyone comes back from.
 
-They gathered up ***Soul Shear*** as well — the intelligent, evil thing that could call **babau** out of the empty air — and after no little argument wrapped it tight and shut it away in a bag of holding until they could settle its end.
+Then they took the citadel-master's chambers apart and found their reward: a journal in dwarven runes, magic worth the carrying — and, past price, a sealed vial of ***Philosopher's Stone*** quicksilver, beeswaxed shut, the metal in it moving like mercury. Mixed into any healing draught it becomes an ***Oil of Life***, and an Oil of Life is a true resurrection sealed in a vial.
+
+**Varic** did the mixing, because **Varic** was the healer. They spent the cheapest cure potion they had on it rather than a good one, on the grounds that it made no difference to the outcome. The potion's pale green drained away as the quicksilver went in, leaving something clear and faintly sparkling.
+
+And here the afternoon set a trap that nobody sprang. That new-made oil looked *exactly* like a second, unidentified oil already sitting in the same chest — identical to the eye, and no amount of squinting at it would separate them. **Rabiah** and **Varic** each tried to identify the pair and each came up short, twice, even with a bonus for having just watched one of them being made. They never did get certainty; they simply set the matter aside to be worked out properly back at camp, with books, at leisure. Two vials, one of which was worth a life, and no way to tell them apart.
+
+They used one of them. It was the right one.
+
+*You were headed toward the light,* the moment went, *and then you were snapped back* — a deep breath, and **Lupenor** opening her eyes to find **Varic** standing over her shaking the last few drops out of a vase. Alive, restored, whole; no grave-chill, no negative levels, no part of her left behind. As if she had never died at all, and had slept well besides.
+
+She did not lie there and cough. She got straight up onto her feet and asked where he was. They told her he was dead, and that they had killed the man who killed her. She walked over to the body of **Staunton Vhane** and kicked it.
+
+Afterward somebody handed her a belt of mighty constitution out of the loot, with the observation that it would make her harder to kill next time, and the instruction to please stop dying.
+
+They gathered up ***Soul Shear*** as well — the intelligent, evil thing that could call **babau** out of the empty air. Merely holding it, they found, was enough to hear it screaming inside your own head. After no little argument they wrapped it tight and shut it away in a bag of holding, and **Rabiah** checked the bag afterward to see whether it had done anything to the rest of her belongings. Not yet, it hadn't.
 
 ### **The Citadel Claimed**
 
-With **Staunton** dead and the first level swept, the company sent word for the crusader army to move into the citadel in strength. Quarters were assigned, guard set upon the locked door to the basements, and the two prisoners — the sorcerer **Barrid Isen** and **Staunton**'s own brother, the dwarf **Joran Vhane** — locked apart under watch. **Chyrrik** was set to guard the prisoners; **Horgus Gwerm** put to the inventory of stores; **Harlock** to the mending of the sally port; and the army billeted through the garrisons the company had bled to clear.
+They marched the prisoners back to camp and gave **Irabeth Tirabade** the news. When they said the name — *Staunton is dead* — her eyes went wide, and she pulled off her helmet so that she could spit on the ground. Then she put it back on. *Good riddance* was the whole of the eulogy.
+
+They showed her ***Soul Shear*** as well, unwrapped on the ground, since none of them knew what to do with it. She was as much a paladin as anybody there and saw exactly what it was; she whistled, and admitted she did not like it either, and did not know either. Fire, she offered. Acid. Holy water. Somebody would have to try. They wrapped it up again and put it back in the bag.
+
+With **Staunton** dead and the first level swept, the company sent word for the crusader army to move into the citadel in strength — the soldiers had had enough of the Worldwound's sky pissing on them, and there was a roof going spare. Quarters were assigned, a standing guard set upon the locked door to the basements, and the two prisoners — the sorcerer **Barrid Isen** and **Staunton**'s own brother, the dwarf **Joran Vhane**, both badly wounded and neither in any condition to run — locked apart under watch. **Chyrrik** was set to guard the prisoners, and double-checked their bindings herself without waiting to be asked; **Horgus Gwerm** put to the inventory of stores; **Harlock** to the mending of the sally port and its jammed portcullis; and the army billeted through the garrisons the company had bled to clear.
+
+Word of **Staunton Vhane**'s death went through the ranks with his body, which was carried past the troops on its way to the pyre, and the mood of the army lifted for the first time in a long while. Nothing had really changed. It only felt as though everything had.
 
 ### **Fire and Slag**
 
-Two rites were kept the next morning. They gave **Staunton Vhane** to the fire, and his body burned four hours and loosed swarms of insects as it went — the sign of his abyssal patron **Deskari**, Lord of the Locust Host. His ashes they sealed in a silver coffer blessed with holy water, to be laid to rest properly once a ***Hallow*** could be spoken over the ground.
+Two rites were kept, and the company argued a long while first about how to keep them.
 
-Then they set to the unmaking of ***Soul Shear***. A forge was made ready and priests prayed the place quiet; **Varic** pinned the weapon in place with a ***Dimensional Anchor*** so it could not flee. The first attempt went awry — the glaive twisted free of **Harlock**'s grip and called up a **babau** on the spot — but the demon was grappled and cut down, and on the second attempt the vice held. The weapon screamed as it melted, and voice after voice cried out of it as the souls bound within were let go at last. The slag they buried under stone-shaped rock, and the citadel, at long last, was theirs.
+**Staunton Vhane** was not a man you could simply bury. He had been powerful, and proud, and furious, and every one of them could name the sort of thing that comes back out of a grave like that of its own accord. Scattering the ashes in the river was proposed and set aside. What they settled on was fire first and consecration after: burn the body past any hope of a lesser raising, gather every scrap of what was left, and seal it in blessed silver. The crypt in the camp cemetery would have been the proper place for it, except that the crypt was still lying under the ***unhallow*** they had found there, and nobody left standing could speak a ***Hallow*** to lift it — **Varic** had spent his last advancement on a level of fighter instead. So the coffer would have to serve until somebody could.
+
+They gave him to the fire the next morning, with a detail of knights praying to **Iomedae** over the pyre to keep them from the anger of the departed. The body took four hours to burn. It was, the company were told, a tougher body than any they had seen go into a fire. And as it burned, insects came boiling out of it — locusts, wasps, bees, flies, more of them than any corpse should hold: the mark of **Deskari**, Lord of the Locust Host, on a man who had belonged to him a very long time. Nobody could say how many of them were carrying a fragment of **Staunton Vhane** home to his master. The pyre did its work regardless, and what was left cooled to ash and was scooped into the blessed silver coffer.
+
+That afternoon they set to the unmaking of ***Soul Shear***. A blacksmith's forge in the citadel was found and stoked hot; priests prayed the place quiet; **Varic** pinned the glaive with a ***Dimensional Anchor*** so that it could not step out of the world, and **Harlock** took it up to wrestle it into the vice.
+
+It fought him. The thing writhed in his hands and changed its shape and tore itself loose — and as it came free it tore a hole through reality with it, and a **babau** climbed out of the rip. Worse: the demon got the weapon. It took **Soul Shear** in its claws, cackled, and ran.
+
+**Harlock** did not draw on it. He tackled it, took it to the ground and pinned it there so it could not carry the glaive another step. Then the rest of them fell on it where it lay — **Varic** with ***Solemn Hour***, which **Lupenor** had handed to him during the downtime and which turned out to be a bane weapon against exactly this kind of thing; **Lupenor** herself, hours out of her own grave, putting five cold iron arrows into it and critting; **Rabiah** burning mythic power for the last of it. The demon died on the forge floor and the weapon never left the room.
+
+The second attempt held. ***Soul Shear*** went into the fire and did not come out. At the end of the ritual there was nothing left of it but beads of metal cooling among the coals, and nothing in those beads that answered to a detection of evil or of magic at all. **Varic** burned mythic power one last time to shape the stone at the camp's edge open, and they tipped the whole pile of slag and ash into the hole and sealed it under ten feet of solid rock, with **Sosiel** helping.
+
+Whether every soul the glaive had eaten went free at the end of it, none of them could say — the thing gave up no voices, only silence, which was as much as they were ever going to get. But it was gone, and it would never be in anyone's hands again, and the citadel above them was, at long last, theirs.
 
 *— Session of November 7, 2025 —*
 
