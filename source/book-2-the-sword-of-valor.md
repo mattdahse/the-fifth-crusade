@@ -941,6 +941,8 @@ The horses at the **Ahari** bridge had been his. He had poisoned them. He had be
 
 And he was, he said, finished either way. His handlers had left him here; the thing that had held his leash was dead; there was nowhere left for him to be useful to them and nowhere for him to run to. He would rather be judged by the four of them than spend the rest of a short life being hunted by everyone. He put himself in their hands.
 
+![He could have let them go on trusting him. That was still an option when he started talking.](images/the-traitors-tale.png)
+
 ### **The Judgment**
 
 They argued about it for a long time, and the argument did them credit.
@@ -963,6 +965,8 @@ They went back into the citadel without a proper rest — wands and channelled p
 
 What waited in the eastern rooms were **minotaurs**, and not the ordinary kind: half-fiend, winged things that filled a corridor and reached further than anything that size had a right to. **Rabiah** quickened the company and dropped fire among them; **Lupenor** and **Chyrrik** put arrow after arrow into the press; **Harlock** held the front and did not give ground. They came apart hard, and slowly.
 
+![Too narrow to flank in — which cut both ways, and only one side had archers.](images/the-winged-minotaurs.png)
+
 Behind the minotaurs came **babau**, and the babau fought properly — teleporting out of one fight and into another, appearing at the spellcasters' backs, forcing the whole line to keep turning. It was the most disciplined resistance the citadel had offered yet, and it was disciplined because someone was directing it. **Barrid Isen** had gotten word to the planning room, and there would be no quiet minute to breathe in.
 
 On an open terrace they came upon a hoard: everything **Stoltengraabe** had dragged up onto the walls over the years and never spent. They took it, and went on through guard quarters and a study and two armories, clearing the floor room by room.
@@ -974,6 +978,8 @@ The last room on that floor held a dwarf in priest's harness who did not want to
 **Joran Vhane** fought them surrounded by mirror-images of himself, and fought badly, and kept shouting at them between exchanges to *go* — to turn around and leave while they still could. His babau guards and **Barrid Isen** had no such reservations and fought in earnest. One by one the guards were cut down and the sorcerer put on the floor, and at the end of it the dwarf stood alone and bleeding.
 
 **Varic** offered him the chance to surrender. **Joran** dropped his hammer, and then dropped to his knees.
+
+![The surrender was the easy part. He still had to tell them who was behind that door.](images/the-brother-on-his-knees.png)
 
 Then he told them why he had been shouting. His brother was in the next room. His brother was **Staunton Vhane**, and his brother was going to kill all four of them.
 
