@@ -1826,7 +1826,7 @@ What followed was a fight conducted through a wall nobody could see through and 
 
 She had time to notice, before they closed, that the pillars flanking the portcullis each bore a chest-high plate of ivory, and that each plate had the outline of a hand drawn upon it — a right and a left.
 
-Then the fight took everyone. Two of the fiends stood off and spoke ***Unholy Blight*** into the press, and **Rabiah** failed against both and spent a surge of mythic power on the first for nothing at all. A third produced a javelin that turned to lightning the instant it left his hand, and the bolt ripped down the line — through his own brother, through **Harlock**, through the sorcerer's teeth, through **Lupenor** — and then did it again a round later, because where there is one lightning javelin there is always a second.
+Then the fight took everyone. Two of the fiends stood off and spoke ***Unholy Blight*** into the press, and the profanity took **Rabiah** both times — she threw her own strength against the first of them and it bought her nothing but the knowledge that it had been wasted. A third produced a javelin that turned to lightning the instant it left his hand, and the bolt ripped down the line — through his own brother, through **Harlock**, through the sorcerer's teeth, through **Lupenor** — and then did it again a breath later, because where there is one lightning javelin there is always a second.
 
 **Arueshalae** came through the wall at a run, got close enough to the bars to see, and put the first arrow into a minotaur before anyone else had drawn blood. **Lupenor** followed her in blind, walked directly into **Varic**'s back, understood by touch that this was not rock but half-elf, groped left past the leathery brush of a succubus's wing, found iron, and started shooting cold iron through the gap. **Rabiah** turned in a slow circle and flicked her wrist at each of them in turn, and the whole company came up a half-step faster. **Varic** burned one down with ***Searing Light*** and then poured healing into everyone within reach, over and over, and never once got a kill for it.
 
@@ -1836,7 +1836,7 @@ Then the fight took everyone. Two of the fiends stood off and spoke ***Unholy Bl
 
 The noise, of course, woke the rest of the barracks. A fifth minotaur came out of the double doors still rubbing his eyes. A sixth shouldered through some while later, glaiveless and half-asleep, and demanded in Abyssal to know what all that racket was. **Harlock** knew the tongue perfectly well. He gave him no words at all; ***Radiance*** answered instead, and answered decisively.
 
-Six fiendish minotaurs lay in heaps across the marble, and two of them were merely dying. **Varic** put his hand back into his haversack, drew out a cold iron dagger, and went along the row making each of them properly dead — because they had been told, in as many words, that there might be something in this place that could raise them.
+Six fiendish minotaurs lay in heaps across the marble, and two of them were merely dying. **Rabiah** reached into her haversack, asked it for a cold iron dagger, and had one in her hand; and the girl who had spent the fight at the back of the room went along the row on her knees, hunting through all that hide for the soft places, and made each of them properly dead. There was, she pointed out, very likely something in this house that could call them back.
 
 ### **Bone and Marble**
 
@@ -1846,7 +1846,7 @@ The floor was white marble, so pure that someone must have hauled it a very long
 
 The place was warm. The canyon behind them had been northern and bitter; here, open portcullis and all, it was comfortably heated, which was somehow worse than cold would have been. From somewhere north came the steady sound of hammering. North also lay drapes and unlit steps and something with the shape of a temple about it. East, a hallway, a rack built for oversized weapons, and iron doors — serious doors, with serious locks.
 
-**Lupenor** took ten patient minutes on the first of them and heard the tumblers give.
+**Lupenor** knelt to the first of them with her wires, and it gave up almost at once — the clean snick of a good lock yielding to a better thief.
 
 ### **The Lady of the House**
 
@@ -1864,15 +1864,15 @@ She leaned in, almost breathless, and asked the question she had clearly been sa
 
 Seventy years, and no survivor of that day had ever known who betrayed the city. Now four crusaders knew, standing in her bedroom.
 
-**Harlock** charged her mid-sentence. He got a nick in — seven points and a look of genuine offense — and she did not strike back, which frightened the company considerably more than if she had. *"Come now,"* she said. *"That's very rude. We can get to this later."*
+**Harlock** charged her mid-sentence. The blade found her, barely — a shallow cut and a look of genuine offense — and she did not strike back, which frightened the company considerably more than if she had. *"Come now,"* she said. *"That's very rude. We can get to this later."*
 
 **Rabiah** put up a ***Detect Magic*** and read her: auras layered on auras, transmutation and abjuration and more beneath, hours of work to sort — and the woman herself not a magical thing at all, but a being, wearing an elf the way one wears a coat. On the table beside her lay a rod capped with a decorative serpent's head. And in the sorcerer's own eye, at the edge of the arcane sight, a mauve-purple glint flashed in the woman's gaze when she glanced over — the same colour that had been in **Staunton Vhane**'s eyes, and in **Stoltengraabe**'s, before the company killed them both.
 
 She was mythic. **Harlock** had just charged her blind.
 
-*"And what is your name?"* he asked.
+*"And what is your name?"* **Varic** asked.
 
-*"Oh, finally, someone with manners. I am **Jerribeth**."* She offered the back of her hand to be kissed. He looked at it, looked at her, and did not. She brushed the refusal away as though it were charming. *"I feel I already know you. I have been watching your approach — such a dramatic entrance. **Lupenor**, so glad to see you recovered from my basilisk's little welcoming kiss."*
+*"Oh, finally, someone with manners. I am **Jerribeth**."* She offered the back of her hand to be kissed. The priest looked at the hand, and then looked her in the eyes, and did not take it; his manners, he said, only extended so far. She brushed the refusal away as though it were charming. *"I feel I already know you. I have been watching your approach — such a dramatic entrance. **Lupenor**, so glad to see you recovered from my basilisk's little welcoming kiss."*
 
 Then she looked past them into the hall, and her whole face changed. *"Oh. Who is that behind you? That can't be. Is that the succubus I've been hearing about?"* She had posted a thousand platinum for **Arueshalae**'s capture, and here the woman stood in her doorway, armed and free and keeping company with crusaders. *"Oh, this is delicious. Please, come inside. I have to meet you."*
 
@@ -1892,7 +1892,7 @@ For doing what they had come to do anyway, she would give them the hand-signs th
 
 There was a catch and she did not hide it. Whoever accepted the wish had to wear a plain iron ring until **Xanthir Vang** was dead. After that, she said, she did not care. *"It only tells me where you are, and whether you still breathe."* She flicked it across the room like a coin and it landed ringing on the marble.
 
-**Rabiah** read it where it lay. It was a prisoner's dungeon ring, mated to a jailer's ring on the demon's own hand: once worn it could not be removed by the wearer at all, not without *remove curse* or *wish* or a miracle. Its holder would always know where the wearer was. She could scry through them. She could cast through them. She could step to them. It bound a crusader to her the way a wizard binds a familiar.
+**Rabiah** read it where it lay. It was a prisoner's dungeon ring, mated to a jailer's ring on the demon's own hand: once worn it could not be taken off by the wearer at all, not without ***Remove Curse*** or a ***Wish*** or a miracle out of a god's own hand. Its holder would always know where the wearer was. She could look through their eyes. She could cast through them. She could step to them across any distance. It bound a crusader to her the way a wizard binds a familiar.
 
 *"Part of me thinks,"* someone said quietly, *"that the wish is meant to be spent taking the ring off."*
 
@@ -1908,27 +1908,27 @@ Which left **Lupenor**, and both the priest and the paladin turned to her and to
 
 **Lupenor** stood in the middle of the floor with the ring in her palm and would not close her hand on it and would not throw it. She did not want the deal. She did not want the fight. There is no third door in a room like that, and the slayer stood there hunting for one anyway while the seconds went by.
 
-So **Varic** took the decision away from her. He took a five-foot step and swung.
+So **Varic** took the decision away from her. He stepped in and swung.
 
-### **Two Turns to a Round**
+### **The Shape Beneath the Elf**
 
 She had told them exactly what would happen, and then she did it.
 
-**Jerribeth** shed the elf and came up huge in a room built for a bed, and the shockwave of it put **Varic** flat on his back. She had damage reduction that turned aside almost everything the company owned — not merely good steel but *epic*, a word none of them had heard spoken about a living thing before. She healed as she was hit, and when that was not enough she stopped mid-fight and cast ***Heal*** upon herself as casually as straightening a sleeve. And she acted twice in every round, which is a thing the mythic can do and mortals cannot.
+**Jerribeth** shed the elf and came up huge in a room built for a bed, and the sheer displacement of her put **Varic** flat on his back. Her hide turned aside nearly everything the company owned. Cold iron did nothing. Good steel did nothing. Blessed steel did nothing. What she shrugged off was not merely mortal weaponry but the whole grade of arms above it, the kind the songs reserve for gods and their enemies — and none of them had ever heard that said of a living creature before. What she did take, she healed as fast as it opened; and when that was not fast enough she stopped in the middle of the fight and laid a great mending on herself as casually as a woman straightening a sleeve. And she moved twice for every once that they did.
 
-She went for the priest first, precisely as promised. A word of power took **Varic**'s mind out from under him — no save, no resistance, four rounds gone — and left him stunned and prone on the floor at her feet with his sword out of his hand. Then she went to work on him with the serpent-headed rod, which bit as it struck, and the poison in it counted because she was the one swinging it.
+She went for the priest first, precisely as promised. She spoke a single word of power and **Varic**'s mind simply went out from under him — no prayer to raise against it, no faith to weather it, nothing to do but fall. He went down at her feet with his sword out of his hand and stayed there, breathing, absent, while she worked him over with the serpent-headed rod, which bit as it struck and left venom in every bite.
 
 They fought her anyway.
 
-**Arueshalae** spent the pride of her quiver — five arrows at once lawful and holy and forged against outsiders, hoarded across forty years of hiding — and watched the shafts themselves turn aside off the demon's hide while the blessings on them burned through. **Lupenor** vanished into greater invisibility, and **Jerribeth** simply looked straight at her; the slayer put both of her slaying arrows into her regardless and the demon shrugged off both. **Rabiah**, unable to reach past epic resistance with anything in her book, burned four separate measures of mythic power on a ***Break Enchantment*** strong enough to bite a spell that high, and dragged **Varic** back to his senses.
+**Arueshalae** spent the pride of her quiver — five arrows at once lawful and holy and forged against the outsider kind, hoarded through forty years of hiding — and watched the shafts themselves skate off the demon's hide while the blessings laid on them burned through and told. **Lupenor** stepped out of sight entirely, and **Jerribeth** turned her head and looked straight at where she stood; the slayer put both of her slaying arrows into her regardless, and the demon endured what should have stopped a heart. **Rabiah**, who could find nothing in her whole book that would bite such a creature, poured out her mythic strength instead — a great deal of it, more than she could afford — on a ***Break Enchantment*** strong enough to reach a spell that high, and dragged **Varic** back into himself.
 
-**Harlock** found the one edge that would cut her. He called his smite down on her, and after that ***Radiance*** landed like a sword and not like a stick. When the demon opened **Varic** up with a critical raking claw, something snapped in the paladin — a flash of rage he had been carrying unused for a long while — and he answered a crit with a crit of his own.
+**Harlock** found the one edge that would cut her. He called down his smite, and after that ***Radiance*** landed like a sword and not like a stick. Then the demon opened **Varic** up with a raking claw that nearly finished him, and something in the paladin let go — a flash of rage he had been carrying unspent for a long while — and what she had done to his friend, he did back to her in the same breath.
 
-And **Varic**, flat on his back beneath a creature the size of the room, cast ***Breath of Life*** on himself while she stood over him, and got up.
+And **Varic**, flat on his back beneath a creature the size of the room, breathed his goddess's own life back into himself while she stood over him, and got up.
 
-So she stopped playing. She spoke ***Destruction*** at the priest — the spell that does not kill so much as unmake, that leaves nothing behind for any resurrection short of a miracle to work upon. He failed the save. He spent everything he had left of his own inner reserve to push back against it, rolled the worst die of his life, and it was — barely, absurdly — enough. The spell rippled over his skin wanting to dissolve him and settled for merely hurting him very badly indeed.
+So she stopped playing. She spoke ***Destruction*** at the priest — the word that does not kill so much as unmake, that leaves nothing behind for any resurrection short of a miracle to work upon. It took hold of him. He felt it rippling over his skin, wanting to render him into dust and scatter him, and he spent everything left in him pushing back against it — and it was, by the narrowest and most absurd margin any of them would ever admit to, enough. The spell settled for merely hurting him very badly indeed.
 
-**Rabiah**'s fire found her; the first ray ignored every resistance she had. **Harlock** came in again with the smite still burning.
+**Rabiah**'s fire found her, and the first lance of it went through every ward she had as though she wore none. **Harlock** came in again with the smite still burning.
 
 And **Jerribeth** looked around the room, gave a demonic shrug, and said, *"Have it your way."*
 
@@ -1944,7 +1944,11 @@ The bath was still steaming when the room went quiet. The iron ring lay where **
 
 In her wardrobe they found two dozen extravagant outfits — cloth of gold, ballroom things, the sort of finery a person wears to a fundraiser rather than a war, some four and a half thousand gold pieces' worth. **Rabiah**, who sews, took the lot on the theory that they could be altered. There was jewelry. There was a necklace shaped like a seashell folded into an orchid, so heavily enchanted that neither the sorcerer nor the priest could read what it did. And there was a book with no title on its spine, whose pages, opened, meant nothing to anyone.
 
-They went east and north from there, through a room lined with lonely cells whose cages had no doors on them at all, and **Lupenor** picked another iron lock while everyone waited.
+It was **Rabiah** who went to the writing desk. A human jawbone sat on it, doing the work of a paperweight, and under the jawbone was a letter in a fine hand, addressed to **Hepzamirah**, daughter of **Baphomet** — begun, filled with things the company had no business knowing, and broken off in the middle of a sentence.
+
+![](images/jerribeth-unfinished-letter.png)
+
+They went east and north from there, through a room lined with lonely cells whose cages had no doors on them at all. The iron door beyond it did not yield the way the first had. **Lupenor** worked it, and swore at it, and worked it again, and it took the better part of ten minutes on her knees before the bolt drew back — a slayer still rattled, and unwilling to say so.
 
 Past it was not demonic. That was the unsettling part. It was an octagonal chamber that stank sickly-sweet of blood and decay, with a raised stone slab against the east wall and another against the west, and on each slab a human cadaver in an advanced state of dissection — shackled, which meant the work had been done on them living, their skulls opened and emptied. The floor was tacky underfoot. And the northwest wall, floor to ceiling, was covered in close black runes that were not Abyssal, that were not any devil's or demon's tongue at all, but **Aklo**, and not one of them could read a word of it.
 
