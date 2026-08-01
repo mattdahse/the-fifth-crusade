@@ -1637,11 +1637,35 @@ Not quite four weeks.
 
 *January 2, 2026 session — Star Day, the 14th of Rova through Lamashan, 4713 AR: the settling of liberated Drezen*
 
+### **The Raising**
+
+They could have hung it the same hour they carried it up, and it would have worked just as well. **Harlock** argued for the other thing, and got it: a full day to prepare, and the whole garrison present, and every soldier turned out in the best they had — plate for those who owned plate, clean wool for those who did not.
+
+So the banner spent one more night folded on a table, and on the morning of Star Day, the fourteenth of **Rova**, they raised it.
+
+They assembled outside the citadel in the cold, a hundred volunteers and the men who had come up from the ford, drawn up in ranks on ground that had been a demon parade square a fortnight earlier. The ***Sword of Valor*** came out to them on its pole, carried at the head of the column, crimson and gold and untouched by the seventy-five years it had spent in the dark under their feet.
+
+There was no music to bring it in. They had a bard, and the bard was leaving, and nobody had the heart to ask him. So they brought it in on a drum, and the drum turned out to be enough.
+
+**Irabeth Tirabade** spoke first, briefly, in the flat voice of a commander who has attended too many of these. Then **Harlock**, who had tried to hand the speech to somebody else and been given it back.
+
+He talked about arithmetic. A hundred years of crusade. Seventy-five since **Drezen** fell and the banner went out of it. Four crusades that had held the line and not moved it, a wall of wardstones and a great many funerals, and one afternoon two weeks ago when a hundred people who privately believed they were riding to their deaths had ridden anyway. He did not tell them they had been brave. He told them they had been first — that no crusader in living memory had taken ground back and kept it, and they had.
+
+And then he told them whose victory it was, which was the part he had been firm about when they planned it. Not the company's. He said the four of them had been the instrument and the hundred of them had been the hand, and he said it in a way that a soldier who had spent the siege carrying water could believe.
+
+Then the command staff carried it inside.
+
+They had argued about where. The defensible answer was somewhere deep and guarded, and they chose the opposite: the great entry hall beside the chapel, the room every soul in that garrison walked through going to the barracks or the altar, so that none of them could get anywhere without passing beneath it. The paladins came behind it in procession to the drumbeat, and the garrison filed in after to see it set.
+
+**Harlock** put it on the wall himself.
+
+What happened then, every one of them felt. The power went out of the cloth in a slow wave and rolled outward through the stone and away — through the citadel, through the town, out across the blighted ground for ten miles in every direction — and every demon and every servant of demons inside that circle was made lesser by it, and knew, and could do nothing about it. In the hall it registered only as a warmth in the old dwarven stone, the first honest warmth in the place in seventy-five years.
+
+After that there was food, which was bad, and drink, which was sufficient, and the watch was rotated in shifts so that every soldier got an hour of it.
+
 ### **A Commander's Council**
 
-The morning after the ***Sword of Valor***'s raising dawned bright over **Citadel Drezen** — or as bright as any morning could be in the blighted lands of the Worldwound. The wave of divine power that had rippled outward from the banner still lingered in the air, an almost imperceptible warmth that made the ancient dwarven stones feel, for the first time in decades, like they belonged to the forces of good.
-
-**Rabiah** wasted no time. By mid-morning she had gathered the command staff in the planning room: **Irabeth Tirabade**, **Aron Kir**, and **Anevia**. **Lupenor** joined them, her merchant's eye already cataloguing the strategic problems that lay ahead.
+By mid-morning the ceremony was over and the warmth of it still hung in the air, and **Rabiah** was already at work. She gathered the command staff in the planning room: **Irabeth Tirabade**, **Aron Kir**, and **Anevia**. **Lupenor** joined them, her merchant's eye already cataloguing the strategic problems that lay ahead.
 
 The briefing was sobering. **Irabeth** had garrisoned the full complement of **Rabiah**'s Redeemers within the citadel and the surrounding town, but the numbers told a grim story. A third of the hundred soldiers manned the parapets against aerial assault — demons flew, and the crusaders had learned to watch the skies. Another third ranged the approaches to the north and the riverbed. The final third rested in shifts within the citadel walls. There was no surplus for anything else.
 
