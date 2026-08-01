@@ -1427,6 +1427,8 @@ Salamanders had made the place their home — creatures of elemental fire, at th
 
 So the company fought the first part of the battle from inside a cage. They stopped it high, out of reach, and **Lupenor** and **Chyrrik** shot down through the iron grid at their feet while the spears jabbed up at them. **Rabiah** flew clear and dropped an ***ice storm*** into the chamber, and then another — the one thing in her book those creatures could not shrug off. The ice never lay. It boiled where it fell, and the chamber filled with a column of steam that hid the floor from the cage and the cage from the floor, and after that nobody on either side could see much of anything.
 
+![None of it reached the floor as ice. She kept dropping it anyway, and blinded her own friends in the cage to do it.](images/the-ice-that-would-not-lie.png)
+
 One of the salamanders worked out what to do about that. It came back from the forge with a great two-handed cutter and went for the channel the cage ran in — not to drop them, but to strand them. **Varic** took out one of the silver **scales of Terendelev** and spent it to hang the cage in the air where no jammed track could hold it. Then, when the trick had done its work and the cage could go no lower, he kicked the door open and stepped out into empty air and lowered himself down through the steam on nothing at all.
 
 **Harlock** cranked them the rest of the way. The last salamander under the cage was still trying to cut the track when the floor of it came down on him.
@@ -1542,6 +1544,8 @@ Crimson. Gold. And under her fingers, thrumming.
 She stood there holding it — a mongrelwoman out of the warrens under a ruined city, who had joined this company on the road and been handed a bow and told she was worth something — holding the crusade's holy banner in both hands and, for a moment, entirely lost in it.
 
 Then she remembered where she was, and gathered it up, and carried it to **Harlock**.
+
+![She had been hunting a demon she had no way to hurt. She came back with this instead.](images/what-chyrrik-brought-back.png)
 
 The moment his hand closed on the cloth, the power in it went out of him and through everyone standing in that chamber and ran away along the walls, and they felt the dungeon around them lighten. He knew, the way one knows a thing that has been put into one's head rather than worked out, exactly what he was holding: that hung on a wall it would be a wound to every demon and every servant of demons for miles around it, and that anyone standing within thirty feet of it could ask **Iomedae** for one of her angels and be given one.
 
