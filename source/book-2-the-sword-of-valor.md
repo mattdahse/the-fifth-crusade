@@ -1521,27 +1521,21 @@ He brought ***Radiance*** down through the shadow demon's neck, and as he did th
 
 Afterward she told him the rest. She had faced this thing before, in **Kenabres**, in **Yaniel**'s hands, when it had been wearing the body of a homeless man; and **Yaniel** had been obliged to kill the man to be rid of it. ***Radiance*** remembered the taste of its blood.
 
-Its name was **Ustoriad**.
+Its name was **Eustoyriax**.
 
 ### **The Crumpled Red**
 
-**Harlock** had seen it before he killed it.
+**Chyrrik** was not looking for the banner. She was looking for the demon.
 
-He had gone up on **Rabiah**'s ***fly*** to hunt for the demon, and from that height he could see over the body of the dead serpent to a low platform on the far side that nobody on the floor could see at all. There was something on it. A heap of red.
+She had been sweeping the chamber for it all through the fight — she had the sharpest eyes in the company and no way at all to hurt the thing, so scouting was the work she could do. And on one of those sweeps her eye caught on something across the room that was the wrong colour for anywhere in that citadel: past the ribs of the dead serpent, on a low platform, a heap of crumpled red.
 
-He called it down to the others as a free breath between one attack and the next — *there's something over there* — and did not go for it, because he had a demon to kill.
-
-**Chyrrik** went for it.
-
-She ran the length of that chamber under a demon that could kill her, three-quarters of her movement, and came up to the platform and reached out and closed her hand on a fistful of fabric.
+She ran for it. Three-quarters of her movement, the length of that chamber, under a demon that could kill her. She came up to the platform and reached out and closed her hand on a fistful of fabric.
 
 Crimson. Gold. And under her fingers, thrumming.
 
-She stood there holding it, a mongrelwoman from under a ruined city who had joined this company on the road and been given a bow and told she was worth something, holding the crusade's holy banner in both hands and entirely lost in it. Then she remembered where she was, and gathered it up, and ran it to **Rabiah**, because **Rabiah** was who she brought things to.
+She stood there holding it — a mongrelwoman out of the warrens under a ruined city, who had joined this company on the road and been handed a bow and told she was worth something — holding the crusade's holy banner in both hands and, for a moment, entirely lost in it.
 
-The fight was still going. She held it through the rest of it, and at one point offered it around the room — *does anybody want this?* — while the demon threw fire at them.
-
-When it was over, **Harlock** took it.
+Then she remembered where she was, and gathered it up, and carried it to **Harlock**.
 
 The moment his hand closed on the cloth, the power in it went out of him and through everyone standing in that chamber and ran away along the walls, and they felt the dungeon around them lighten. He knew, the way one knows a thing that has been put into one's head rather than worked out, exactly what he was holding: that hung on a wall it would be a wound to every demon and every servant of demons for miles around it, and that anyone standing within thirty feet of it could ask **Iomedae** for one of her angels and be given one.
 
@@ -1557,31 +1551,37 @@ There was a matter of **Staunton Vhane**'s journals, and the difficulty was that
 
 He came to them the same afternoon with three things.
 
-The first answered a question the crusade had been asking for seventy-five years: who had opened **Drezen**, and delivered the ***Sword of Valor***, and set the Second Crusade on the road to ruin.
+The first put a name to a question the crusade had been asking since the Second Crusade: who had opened **Drezen**, and delivered the ***Sword of Valor***, and made a ruin of everything that followed.
 
-It was **Staunton Vhane**, and he had written it down himself. Seventy-four years of it — a commander of the crusade passing everything he had to handlers in the Abyss, and coming to believe, by degrees, that he was too clever to be caught. He had been caught by a half-orc paladin he had underestimated. **Irabeth Tirabade** found the stolen message, and the record he had kept of his own treachery, and came into his quarters with her sword already drawn to ask him about it. He fled north to the one place that would have him, and **Aponavisius** received him with what passes among her kind for warmth.
+It was **Staunton Vhane**, and he had written it down in his own hand. Seventy-four years of it — a decorated commander of the crusade, leading the Hammers of Heaven with one hand and passing everything he touched to his Templar handlers with the other, until he had come to believe himself untouchable. He had been wrong about one person. **Irabeth Tirabade** found the stolen missives and the relics he had been funnelling south, and came into his quarters with her sword already drawn. That was less than a year ago. He fled north through ways the Templars had prepared for him, to the one place in the world that would have him — the citadel he had sold to demons a lifetime before — and **Aponavisius** received him with all six arms spread and called him *the traitor returned*.
 
-The second was the **Corruption Forge**, described by the man who used it: what it did, and an inventory of everything it had ever done it to, and where each ruined thing had been sent afterward.
+The second was the **Corruption Forge**, described by the man who commanded it: a register, item by item, of every holy thing it had unmade, what each had been, what it had become, and who was carrying it now.
 
-They were all holy. That was the point of the place. A paladin-commander's longsword that had shone with a light like the morning and healed a man where it touched him, come out of that fire shrouded, running with an energy that withered instead of mending, and handed to a captain of demons. The **Redeemer's Gauntlets**, white-gold and worked with cloth-of-gold, that had let their wearer lay hands on the afflicted and burn out curse and disease and poison and pull the dying back over the threshold — come out of that fire green and leaden and renamed the **Chains of Damnation**, and used ever since to press curses in rather than draw them out. A dozen more entries. A dozen more still out there in the hands of the enemy, catalogued, with addresses.
+***Dawn's Mercy*** was the first entry. A longsword of **Paladin-Commander Sullus** from the liberation of Iz, that had shone like the morning and healed an ally through the same stroke that opened an enemy; it came out of that fire shrouded in a shadow that ate the light near it, feeding on the flesh of the good, and **Aponavisius** gave it to a captain of hers for the siege of Pulura's Fall. The ***Redeemer's Gauntlets***, white steel lined with cloth-of-gold, that had burned curses and disease and possession out of the afflicted, came out as the ***Chains of Damnation***, which press those things in instead, and are kept for interrogations. A greatsword carried by seven commanders of the Second Shield Wall went to **Khorramzadeh**. Twelve entries. Twelve holy things still out there in enemy hands, catalogued and addressed, and the company now had the list.
 
-And every one of them had passed under **Joran Vhane**'s hammer. That was in the journal too — how **Staunton** had let slip that his hostage brother was a master smith, and how the hostage had become the armorer, and how he had worked reluctantly and been very, very good at it.
+And every one had passed under **Joran Vhane**'s hammer. That was in there too — how **Staunton** had let slip that his hostage brother was a master smith, and how the hostage had become the armorer; how the work got easier with practice, from three days an item to two; and how **Joran** was found weeping in the chapel ruins because he could still hear them screaming in the voices of the people who had carried them. His brother recorded that he himself heard nothing but the forge crackling in satisfaction.
 
 *"I can't imagine,"* one of them said, *"what that forge would have done to **Radiance**."*
 
-The third was the one they had not known enough to ask about.
+It never got the chance, and the journal said why. **Staunton** had petitioned again and again to put the ***Sword of Valor*** into that fire, and **Aponavisius** had refused him every time. She could not hang the banner — its wards would have made her own citadel uninhabitable to her — and she would not risk waking it. *Let it rot in the deep*, she told him. *Some trophies are best kept where they cannot bite.*
 
-Four years ago a shadow demon came to **Drezen**. It arrived wearing the body of a young crusader knight-errant who had made the mistake of travelling the road alone, and the dead man's face still moved slightly wrong; when it walked, the shadows in the room walked with it, and when it spoke, the words arrived in the chest. **Staunton** had been unsettled by it, and had written so. It carried credentials from the **Ivory Sanctum**, and five silver vials.
+The third thing **Aron** had found was the one they had not known enough to ask about.
 
-The vials held elixirs, and what the elixirs granted was mythic power.
+Ten months ago a shadow demon came to **Drezen** bearing credentials from the **Ivory Sanctum** — the first confirmation any crusader had that the place was more than a rumour. He wore the body of a young knight-errant named **Maranse**, who had made the mistake of riding the Worldwound alone; the dead man's face still held some of its handsomeness, and the shadows in the room leaned toward him like flowers toward the sun. He had brought five crystal vials of a liquid the colour of bruised midnight, distilled from powdered **Nahyndrian crystal** — a thing that forms only in the deepest rifts of the Abyss, where reality bleeds.
 
-**Staunton** drank one. He wrote down what it was like. The pain came first, scouring, out of the gut and along every nerve; and inside the pain he felt the divine spark he had taken into himself when he swore his paladin's oath — the thing he had betrayed and lied about and never quite stopped carrying — being torn out of him and consumed. Then the pain broke like a fever, and there was release. Afterward he could see in absolute darkness, and the darkness was not empty but purposeful. He could feel the fear of the creatures near him as heat on his skin. He struck a practice dummy in the yard and the blow went through the dummy and broke the stone wall behind it.
+What the elixirs conferred was mythic power. Every enemy the company had faced who should not have been possible was in the accounting of those five vials.
 
-*"Mythic,"* she had said to him, and he thought he heard something like distress in her voice when she said it.
+**Staunton** drank the first, and volunteered for it. He wrote down what it was like: a scouring fire out of the gut and along every nerve, and inside the pain the divine spark ***Torag*** had set in him when he swore his paladin's oath — the thing he had betrayed and lied about for seventy years and never quite managed to put down — torn out by the roots and replaced with something vast and hungry. He screamed for six hours. Afterward he could see in perfect darkness, and feel the fear of the creatures near him as heat on his skin, and he struck a training dummy and broke the stone pillar behind it while holding back.
 
-The rest of the entries were tests on other subjects, and they read like what they were. A dragon, whose own magical nature turned on the stuff: scales cracking and weeping, and by the end its blood liquefied in it. A serpentine thing of three heads that volunteered eagerly, certain its nature suited the gift — and was wrong; within the hour each head was working from a separate mind, and they had begun trying to eat the body from both ends, and then to eat each other.
+**Aponavisius** took the second vial for herself.
 
-The company had met a three-headed thing on the way to this city. They looked at one another over that entry for a while.
+The third killed a blue dragon over four hours, its scales cracking and leaking something that dissolved what it touched, until the beast liquefied from the inside. The fourth killed the xacarba — a colossal three-headed serpent-demon that had been coiled around the ***Sword of Valor*** in the dark since the citadel fell, and that volunteered eagerly, certain its Abyssal nature would suit an Abyssal crystal. Within the hour its three heads had become three minds and had started eating each other. Its corpse was left where it dropped as a warning to anyone who came for the banner.
+
+They had walked through its ribs that afternoon.
+
+And the fifth vial had been forced down a chimera, and the chimera had lived.
+
+Nobody had to be told that name. They had fought **Stoltengraabe** on the road to this city — the thing whose goat's head spoke Abyssal prophecy, that **Aponavisius** rode. They sat with that for a while: that the banner had been left unguarded because a gift from the **Ivory Sanctum** had killed its guardian, that **Eustoyriax** had been sent down as the replacement and had wanted the posting, and that the marilith somewhere south of them with an army had drunk from the same tray.
 
 *"We've fought a couple of things on this list,"* somebody said. *"We're going to fight a few more."*
 
@@ -1611,7 +1611,7 @@ They asked **Harlock** to give the speech and he tried to hand it off, and they 
 
 That night the ***Sword of Valor*** lay folded on a table in a citadel that had held it hostage for seventy-five years, and the company that had gone down after it slept above the forge that had not managed to unmake it.
 
-It was, by the reckoning **Rabiah** had been keeping, the thirteenth of the month. **Armasse** had fallen on the sixteenth of the month before — the holiday they had been celebrating in **Kenabres**, in the square, on the afternoon the ground opened.
+It was, by the reckoning **Rabiah** had been keeping, Fire Day, the thirteenth of Rova. **Armasse** had fallen on the sixteenth of Arodus — the holiday they had been celebrating in **Kenabres**, in the square, on the afternoon the ground opened.
 
 Not quite four weeks.
 
