@@ -1685,6 +1685,8 @@ He opened a thick ledger to a page dense with columns of figures and fixed **Lup
 
 **Horgus:** *What we have here is a basic war economy. We've got nothing to sell.*
 
+![He had counted the wagons the whole way from **Kenabres**. Now he opened the book and showed her what the victory had actually cost.](images/nothing-to-sell.png)
+
 The conversation that followed was brisk and unsentimental. The crown would supply them only so long as they remained a valuable military asset — and even then, **Horgus** warned, they would need to manage expectations carefully. Refugees were inevitable, and every mouth that arrived without a corresponding wagon of grain would strain their reserves further.
 
 He wanted dedicated couriers, caravans, wagons, wagon guards — and above all, a full accounting of every habitable building in the town. Everything that could house a person needed to be mapped and catalogued. **Lupenor** left the meeting with a surveyor's task ahead of her. The merchant in her understood the work. Before you could sell anything, you had to know what you had.
@@ -1698,6 +1700,8 @@ While the commanders debated logistics, **Varic Sarian** descended to the cells.
 The cell was austere but not cruel. The dwarven ale **Varic** had left on his last visit was empty. **Joran**'s hand went unconsciously to his neck where his holy symbol had once hung. It was gone now.
 
 **Joran:** *When a man comes bearing a drink, there's usually a request. What is it?*
+
+![His hand went to his throat without his knowing it. There had been a holy symbol there once.](images/the-bottle-and-two-cups.png)
 
 **Varic:** *I'm worried about the state of your soul.*
 
