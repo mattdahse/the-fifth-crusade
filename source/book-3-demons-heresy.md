@@ -1800,3 +1800,157 @@ That left the matter of **Lupenor**. **Varic** remembered the old cure — that 
 
 *— Session of July 18th, 2026 —*
 
+## **The Jailer's Ring**
+
+<!-- fathom: 169318901 -->
+
+*July 31, 2026 session — the Green Gates and the Ivory Sanctum, 24th of Neth, 4713 AR*
+
+### **The Wall That Was Not There**
+
+The blood had barely dried on the plaza when the company turned to the green wall itself. **Lupenor**, newly cracked out of her stone shell and still spitting sediment, watched **Varic** walk up to the rock face alone and put his hands on it. It was a masterwork of a lie. Grey stone mottled with lichen, woody vines curled across it, and because this was the Worldwound the vines wore thorns, and because whoever built it had gone all the way, the thorns were barbed. Even the insects crawling on it were correct.
+
+**Varic** could not make himself disbelieve it. He shut his eyes and pushed anyway, and his hand went through to the wrist.
+
+It was **Rabiah** who actually saw it for what it was — the leaves fluttering out of time with a wind that was not blowing, the shadows falling a half-degree wrong behind the moving parts. Knowing changed nothing. The stone stayed opaque; the illusion did not care whether anyone believed in it. **Varic** stepped into it and was gone, his cloak whipping back out of the rock as he turned, and inside he found he was not seeing through anything at all. He was standing inside the rock and blind in every direction, with perhaps three inches between his nose and a portcullis of thick iron bars.
+
+Beyond the bars was a pillared hall, and in the hall two enormous shapes came out of the shadow of the columns and smiled at him across their bull-shaped muzzles.
+
+*"Demon minotaurs,"* he shouted back through the stone, *"and a portcullis. Incoming."*
+
+### **The Bars and the Bull-Heads**
+
+What followed was a fight conducted through a wall nobody could see through and a gate nobody could open.
+
+**Harlock** spent a measure of mythic power and simply grew — a titan's rage swelling him to twice his size in his golden plate, ***Radiance*** lengthening in his fist to a yard and a half of holy steel — and then stood there, hugely and uselessly, on the wrong side of an illusion. **Rabiah** reached for ***Passwall*** and found that the spell has no opinion about metal. So she took the paladin's hand instead and stepped them both through the air to the far side of the gate, into the room, into the reach of the minotaurs, and landed with her back to the hall and a demon at either shoulder.
+
+She had time to notice, before they closed, that the pillars flanking the portcullis each bore a chest-high plate of ivory, and that each plate had the outline of a hand drawn upon it — a right and a left.
+
+Then the fight took everyone. Two of the fiends stood off and spoke ***Unholy Blight*** into the press, and **Rabiah** failed against both and spent a surge of mythic power on the first for nothing at all. A third produced a javelin that turned to lightning the instant it left his hand, and the bolt ripped down the line — through his own brother, through **Harlock**, through the sorcerer's teeth, through **Lupenor** — and then did it again a round later, because where there is one lightning javelin there is always a second.
+
+**Arueshalae** came through the wall at a run, got close enough to the bars to see, and put the first arrow into a minotaur before anyone else had drawn blood. **Lupenor** followed her in blind, walked directly into **Varic**'s back, understood by touch that this was not rock but half-elf, groped left past the leathery brush of a succubus's wing, found iron, and started shooting cold iron through the gap. **Rabiah** turned in a slow circle and flicked her wrist at each of them in turn, and the whole company came up a half-step faster. **Varic** burned one down with ***Searing Light*** and then poured healing into everyone within reach, over and over, and never once got a kill for it.
+
+**Harlock** tried to bend the portcullis. He had a titan's strength and it was not remotely enough; the bars were reinforced and warded and did not care. So the paladin gave up on force and went back to the ivory plates. **Rabiah**'s hand was lost inside the outline. **Harlock**'s palm swallowed it whole. It took two — **Varic**'s right hand on one pillar and **Lupenor**'s left on the other, both laid flat at the same moment, both willing the thing open — and the gate ground up into its housing.
+
+*"Thank you, boys,"* said **Arueshalae**, and walked through.
+
+The noise, of course, woke the rest of the barracks. A fifth minotaur came out of the double doors still rubbing his eyes. A sixth shouldered through some while later, glaiveless and half-asleep, and demanded in Abyssal to know what all that racket was. **Harlock** knew the tongue perfectly well. He gave him no words at all; ***Radiance*** answered instead, and answered decisively.
+
+Six fiendish minotaurs lay in heaps across the marble, and two of them were merely dying. **Varic** put his hand back into his haversack, drew out a cold iron dagger, and went along the row making each of them properly dead — because they had been told, in as many words, that there might be something in this place that could raise them.
+
+### **Bone and Marble**
+
+Only then did they look at where they were.
+
+The floor was white marble, so pure that someone must have hauled it a very long way, and so clean that the blood across it seemed almost obscene. The walls were not painted or carved but *inlaid* — chip after chip of ivory and bone set patiently against one another, no picture in it, only the endless variation from bleached white to cream to a yellowed old ivory. Twenty feet up, the ceiling. Between, marble columns, and on every column the goat-faced god enthroned with a pentacle burning behind him: **Baphomet**, Prince of Beasts, in his own house. **Rabiah** promised herself she would come back through with her adamantine morningstar and take the columns apart at leisure.
+
+The place was warm. The canyon behind them had been northern and bitter; here, open portcullis and all, it was comfortably heated, which was somehow worse than cold would have been. From somewhere north came the steady sound of hammering. North also lay drapes and unlit steps and something with the shape of a temple about it. East, a hallway, a rack built for oversized weapons, and iron doors — serious doors, with serious locks.
+
+**Lupenor** took ten patient minutes on the first of them and heard the tumblers give.
+
+### **The Lady of the House**
+
+**Harlock** pushed the door and stepped into a bedchamber.
+
+Writing desk, full-length mirror, a semicircular bath still steaming and smelling of lavender, a canopied bed with a set of manacles chained to one post. In the center of the room, a contraption halfway between a gurney and a torture rack, its corners fitted with blood-stained leather straps. Leaning over it on her fingertips, as though she had been waiting there a while and enjoying the wait, stood an elf woman of extravagant beauty and even more extravagant ears.
+
+She was delighted to see him. *"Harlock,"* she said.
+
+*"Do I know you?"*
+
+*"Only by my deeds."*
+
+She leaned in, almost breathless, and asked the question she had clearly been saving. *"Tell me — are you the one who finally killed **Staunton Vhane**?"* One of my finest works, she called him. Before her he had been the staunchest of paladins. She was the one who turned him. She was the one who talked him into carrying the ***Sword of Valor*** down off the walls of **Drezen** and out into the open field — and she waited until the demon host was already in the streets before she told him what she was. *"After that,"* she said, *"he was inconsolable."*
+
+Seventy years, and no survivor of that day had ever known who betrayed the city. Now four crusaders knew, standing in her bedroom.
+
+**Harlock** charged her mid-sentence. He got a nick in — seven points and a look of genuine offense — and she did not strike back, which frightened the company considerably more than if she had. *"Come now,"* she said. *"That's very rude. We can get to this later."*
+
+**Rabiah** put up a ***Detect Magic*** and read her: auras layered on auras, transmutation and abjuration and more beneath, hours of work to sort — and the woman herself not a magical thing at all, but a being, wearing an elf the way one wears a coat. On the table beside her lay a rod capped with a decorative serpent's head. And in the sorcerer's own eye, at the edge of the arcane sight, a mauve-purple glint flashed in the woman's gaze when she glanced over — the same colour that had been in **Staunton Vhane**'s eyes, and in **Stoltengraabe**'s, before the company killed them both.
+
+She was mythic. **Harlock** had just charged her blind.
+
+*"And what is your name?"* he asked.
+
+*"Oh, finally, someone with manners. I am **Jerribeth**."* She offered the back of her hand to be kissed. He looked at it, looked at her, and did not. She brushed the refusal away as though it were charming. *"I feel I already know you. I have been watching your approach — such a dramatic entrance. **Lupenor**, so glad to see you recovered from my basilisk's little welcoming kiss."*
+
+Then she looked past them into the hall, and her whole face changed. *"Oh. Who is that behind you? That can't be. Is that the succubus I've been hearing about?"* She had posted a thousand platinum for **Arueshalae**'s capture, and here the woman stood in her doorway, armed and free and keeping company with crusaders. *"Oh, this is delicious. Please, come inside. I have to meet you."*
+
+**Arueshalae** did not come inside. She went the colour of old ash and put her back against the wall of the corridor and stayed there.
+
+### **The Offer**
+
+**Jerribeth** wanted **Xanthir Vang** dead.
+
+She laid it out with the weary patience of a woman explaining office politics. The **Ivory Sanctum** belonged to the Templars of the Ivory Labyrinth, and the Templars belonged to **Baphomet**, whom she served faithfully. **Xanthir Vang** was made of worms and belonged to **Deskari**, and **Deskari** and **Baphomet** were allies — so she could not lift a hand against him, however filthy he was, however many dead worms he left about her house, however openly he challenged her authority in it.
+
+They, on the other hand, could. They had walked in with the intention.
+
+For doing what they had come to do anyway, she would give them the hand-signs that would carry them past every guard between here and him. And she would grant one wish — a true one, to any one of them who would take it.
+
+*"I understand I'm a demon,"* she said. *"You're thinking you should simply kill me. Here is how that goes. First I return to my true form, which in a room this size means one or two of you get pinned to a wall. Then I kill the priest, because I will not have him raising the rest of you. Then I work through the others, and perhaps eventually you wear me down enough that I teleport away — and you are down a companion, and bleeding, and out of spells, and you still have to kill **Xanthir Vang**. Take the deal, and you walk out of here with a wish and my blessing."* A pause. *"I should probably have mentioned. If none of you takes it, I'll kill you."*
+
+There was a catch and she did not hide it. Whoever accepted the wish had to wear a plain iron ring until **Xanthir Vang** was dead. After that, she said, she did not care. *"It only tells me where you are, and whether you still breathe."* She flicked it across the room like a coin and it landed ringing on the marble.
+
+**Rabiah** read it where it lay. It was a prisoner's dungeon ring, mated to a jailer's ring on the demon's own hand: once worn it could not be removed by the wearer at all, not without *remove curse* or *wish* or a miracle. Its holder would always know where the wearer was. She could scry through them. She could cast through them. She could step to them. It bound a crusader to her the way a wizard binds a familiar.
+
+*"Part of me thinks,"* someone said quietly, *"that the wish is meant to be spent taking the ring off."*
+
+### **The Circle of Eyes**
+
+Nobody could speak freely. They looked at each other instead, one at a time, around the room.
+
+**Varic** would not take it — a priest of the Dawnflower does not enter into contracts with demons, and **Jerribeth** had already, graciously, excused him from the offer for exactly that reason. **Harlock** would not take it, and did not need to explain why. **Rabiah** would not take it, and said so with a shake of the head. **Arueshalae**, who had spent forty years running from the woman who set her bounty, was in no condition to be asked.
+
+Which left **Lupenor**, and both the priest and the paladin turned to her and told her, in glances, that it was hers to decide — put it on and there would be no fight, or throw it in the demon's face and they would all die beside her, either way, gladly.
+
+**Harlock** asked ***Radiance*** what she thought. *We should definitely kill her.*
+
+**Lupenor** stood in the middle of the floor with the ring in her palm and would not close her hand on it and would not throw it. She did not want the deal. She did not want the fight. There is no third door in a room like that, and the slayer stood there hunting for one anyway while the seconds went by.
+
+So **Varic** took the decision away from her. He took a five-foot step and swung.
+
+### **Two Turns to a Round**
+
+She had told them exactly what would happen, and then she did it.
+
+**Jerribeth** shed the elf and came up huge in a room built for a bed, and the shockwave of it put **Varic** flat on his back. She had damage reduction that turned aside almost everything the company owned — not merely good steel but *epic*, a word none of them had heard spoken about a living thing before. She healed as she was hit, and when that was not enough she stopped mid-fight and cast ***Heal*** upon herself as casually as straightening a sleeve. And she acted twice in every round, which is a thing the mythic can do and mortals cannot.
+
+She went for the priest first, precisely as promised. A word of power took **Varic**'s mind out from under him — no save, no resistance, four rounds gone — and left him stunned and prone on the floor at her feet with his sword out of his hand. Then she went to work on him with the serpent-headed rod, which bit as it struck, and the poison in it counted because she was the one swinging it.
+
+They fought her anyway.
+
+**Arueshalae** spent the pride of her quiver — five arrows at once lawful and holy and forged against outsiders, hoarded across forty years of hiding — and watched the shafts themselves turn aside off the demon's hide while the blessings on them burned through. **Lupenor** vanished into greater invisibility, and **Jerribeth** simply looked straight at her; the slayer put both of her slaying arrows into her regardless and the demon shrugged off both. **Rabiah**, unable to reach past epic resistance with anything in her book, burned four separate measures of mythic power on a ***Break Enchantment*** strong enough to bite a spell that high, and dragged **Varic** back to his senses.
+
+**Harlock** found the one edge that would cut her. He called his smite down on her, and after that ***Radiance*** landed like a sword and not like a stick. When the demon opened **Varic** up with a critical raking claw, something snapped in the paladin — a flash of rage he had been carrying unused for a long while — and he answered a crit with a crit of his own.
+
+And **Varic**, flat on his back beneath a creature the size of the room, cast ***Breath of Life*** on himself while she stood over him, and got up.
+
+So she stopped playing. She spoke ***Destruction*** at the priest — the spell that does not kill so much as unmake, that leaves nothing behind for any resurrection short of a miracle to work upon. He failed the save. He spent everything he had left of his own inner reserve to push back against it, rolled the worst die of his life, and it was — barely, absurdly — enough. The spell rippled over his skin wanting to dissolve him and settled for merely hurting him very badly indeed.
+
+**Rabiah**'s fire found her; the first ray ignored every resistance she had. **Harlock** came in again with the smite still burning.
+
+And **Jerribeth** looked around the room, gave a demonic shrug, and said, *"Have it your way."*
+
+Then she was gone — teleported clean out, wounded, unkilled, and now personally acquainted with every one of them.
+
+*"We'll have to fight her again at some point,"* somebody said.
+
+*"At a less convenient time,"* the answer came.
+
+### **What She Left Behind**
+
+The bath was still steaming when the room went quiet. The iron ring lay where **Lupenor** had dropped it, and nobody picked it up.
+
+In her wardrobe they found two dozen extravagant outfits — cloth of gold, ballroom things, the sort of finery a person wears to a fundraiser rather than a war, some four and a half thousand gold pieces' worth. **Rabiah**, who sews, took the lot on the theory that they could be altered. There was jewelry. There was a necklace shaped like a seashell folded into an orchid, so heavily enchanted that neither the sorcerer nor the priest could read what it did. And there was a book with no title on its spine, whose pages, opened, meant nothing to anyone.
+
+They went east and north from there, through a room lined with lonely cells whose cages had no doors on them at all, and **Lupenor** picked another iron lock while everyone waited.
+
+Past it was not demonic. That was the unsettling part. It was an octagonal chamber that stank sickly-sweet of blood and decay, with a raised stone slab against the east wall and another against the west, and on each slab a human cadaver in an advanced state of dissection — shackled, which meant the work had been done on them living, their skulls opened and emptied. The floor was tacky underfoot. And the northwest wall, floor to ceiling, was covered in close black runes that were not Abyssal, that were not any devil's or demon's tongue at all, but **Aklo**, and not one of them could read a word of it.
+
+Beyond the laboratory, through the next doorway, the walls and ceiling disappeared under dark sheets of fibrous stuff — half web, half fungus — so thick that the room had no measurable shape. Something large hung in the middle of it. Something like a cocoon.
+
+Something in it was moving.
+
+*— Session of July 31st, 2026 —*
+
