@@ -1401,9 +1401,11 @@ Nobody suggested killing them. They shambled when they were stood up, and answer
 
 The only way across was the cage that ran on its track above the fire — one crank to carry it over the pit, another to raise and lower it — and it would not hold thirteen at once. So they made the crossing in shifts, and each shift was a slow rattling passage over the forge with a cage full of half-conscious enemies. **Varic** and **Harlock** went with the first, **Rabiah** brought the cage back for the second, and the third came over with the rest. All thirteen came up. All thirteen went two to a cell in the old prison above, and the doors were locked, and no one pretended it settled anything.
 
-While the others worked the crank, **Varic** went back alone to the ritual chamber.
+While the others worked the crank, **Varic** went back alone to the torture chamber where **Therak Nul** had done his work.
 
-He had one scroll of ***hallowing***, and he had been carrying it since they learned what this place was. He got down among the grooved stones where the blood had been channelled, and read it through. Something cracked — a hard, splitting sound, like a tree going over — and rolled away into the dark, and did not come back.
+**Rabiah** had found it first, days ago — the crude scratches cut into the implements to channel the blood that pooled in their grooves, and the way the whispering had faltered for half a heartbeat when she laid her hand on them. She had said then what it would take: not a prayer but a cleansing, a ***hallowing*** of the ground itself. **Varic** had been carrying the scroll for it ever since.
+
+He got down among the grooved stones and read it through. Something cracked — a hard, splitting sound, like a tree going over — and rolled away into the dark, and did not come back.
 
 And then the whispering stopped.
 
