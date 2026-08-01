@@ -56,6 +56,21 @@ first time any named item is illustrated.
   tall and wide enough that a person must **reach an arm in between the bars** to touch the stone.
   *Avoid:* a gem-sized crystal, a delicate or ornamental cage, filigree, scrollwork, a birdcage,
   a lantern.
+- ***The Sword of Valor*** — a **battle standard**, made to be **held aloft on a T-shaped pole**:
+  a plain vertical staff with a **horizontal crossbar at the top**, the cloth hung from that
+  crossbar and hanging free below it. The banner is **four feet wide and six feet long** —
+  markedly **taller than it is wide** — **tapering slightly** toward the bottom and ending in
+  **two triangular tails**, a forked swallow-tail hem. The cloth is **deep crimson**, and woven
+  into it in **gold thread** is **Iomedae's device: a longsword held point down, with a stylized
+  sun behind its crosspiece.** **It is flawless** — decades in demon hands left no stain, tear,
+  scorch, or fading, and this holds however ruined the setting around it — and it carries **a
+  faint divine radiance of its own**, a soft gold-white glow in the weave that lights the air
+  near it. Established look: [`../images/the-sword-of-valor.png`](../images/the-sword-of-valor.png).
+  *Avoid:* a pennant or triangular pennon, a rectangular flag with a straight hem and no
+  tails, a square flag, a banner on a plain vertical pole with no crossbar, cloth hung from a
+  side-mounted sleeve or flown from a mast, wider-than-tall proportions, heraldic beasts or any
+  extra charge, text or lettering, fringe or tassels, a bare sunburst with no sword, a sun behind
+  the whole blade rather than behind the crosspiece, tattered, burned, stained or faded cloth.
 
 ## Enemy Intelligence (from Vhane's journals)
 
