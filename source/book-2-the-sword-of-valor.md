@@ -1477,6 +1477,8 @@ The chamber at the bottom was built in rings around a pit. A ledge ran the circl
 
 *"I am,"* he announced from the ground, *"noping right out of this."*
 
+![It was not a blade and it was not a fire. It was a hand with nothing on the end of it, and everything that happened next came down to a seam between two flagstones.](images/the-hand-that-took-his-heel.png)
+
 There was no other way around. The doors they needed were on the far side, and the only path to them was the ring, and the ring was sigilled.
 
 So they took it at a crawl. **Lupenor** went first at walking pace, reading each square before anyone stood in it, and the others came behind in single file, and **Varic** and **Rabiah** spent everything they had on her — a ***guidance*** here, a ***touch of destiny*** there, over and over — because every one of those sigils was cut a little finer than the last and she was rolling against them cold. One of them she set off and rode out, standing a foot to the side of where the push went. One she failed and had to come back to. One she got by running up the wall and around it, which she could do, and which nobody else could.
