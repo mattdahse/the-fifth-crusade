@@ -1507,6 +1507,8 @@ It was a shadow demon, and it had been set here to guard, and it was very old an
 
 They could not hurt it. That was the shape of the first several minutes: cold iron did almost nothing, magic weapons did almost nothing, and when **Lupenor** finally spent one of her holy arrows on it the arrow did almost nothing either. It laughed at them from the ceiling and told them that in four hundred years it had not been given a fight this poor.
 
+![She had not been able to lay a scratch on it all fight, and this was the best answer left in her quiver. It would not be enough either.](images/the-one-arrow-that-would.png)
+
 So they went at what they had. **Rabiah** put ***magic missiles*** into it — force, which does not care what a thing is made of — and they were the first blows that landed properly. **Varic** spoke a ***prayer*** over the company and reached twice for it with a ***dimensional anchor*** and missed twice. **Rabiah**, standing under its attacks, got a ***see invisibility*** off through a hit that should have broken her concentration, and became the only one in the room who could tell them where it was.
 
 And it went for them from the inside.
