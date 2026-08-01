@@ -117,10 +117,26 @@ a different room, and it would have shipped two irreconcilable views of the same
 apart. Matt caught it by asking whether the earlier shot should be referenced.*
 
 Locations with an established look so far: the **Corruption Forge**
-([`the-cage-over-the-forge`](../images/the-cage-over-the-forge.png), and
-[`the-ice-that-would-not-lie`](../images/the-ice-that-would-not-lie.png) from within the hall) and
+([`the-cage-over-the-forge`](../images/the-cage-over-the-forge.png)) and
 the **Ritual Chamber** ([`the-line-the-ice-drew`](../images/the-line-the-ice-drew.png)). Add a line
 here the first time any location is illustrated.
+
+**A figure high above the ground needs its SCALE pinned, or it becomes a god.** Put a hero in the
+air with other figures far below and the model will quietly render those distant figures at the
+*viewer's* eye level. The implied camera then sits on the floor beside them, and the airborne hero
+reads not as a person forty feet up but as a colossus filling the sky. The picture looks impressive
+and is wrong, and the error is easy to miss until you notice how small the people are.
+
+**State the camera's height and the subject's real size explicitly** — *"the camera is level with
+her, forty feet off the floor, NOT down on the ground looking up"* — and say plainly that she is
+**an ordinary young woman of ordinary size**, not a giant, a titan or a deity. If the distant
+figures are only atmosphere, it is usually safer to **crop them out entirely** than to try to place
+them correctly.
+
+*Learned on a scrubbed image of Rabiah aloft over the Corruption Forge: at a glance it read well, but
+the salamanders below sat at the viewer's eye level and turned her into an immense sky-god hanging
+over the room. The same render also made the box cage cylindrical despite the reference — a reminder
+that an attached reference does not enforce a shape unless the prompt also names it.*
 
 **Write the corrections as negatives, not just positives.** The model fills any silence
 with its own defaults, and its defaults skew toward sexualized armor on women and
