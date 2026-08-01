@@ -117,7 +117,8 @@ a different room, and it would have shipped two irreconcilable views of the same
 apart. Matt caught it by asking whether the earlier shot should be referenced.*
 
 Locations with an established look so far: the **Corruption Forge**
-([`the-cage-over-the-forge`](../images/the-cage-over-the-forge.png)) and
+([`the-cage-over-the-forge`](../images/the-cage-over-the-forge.png), and
+[`the-ice-that-would-not-lie`](../images/the-ice-that-would-not-lie.png) for its floor and its salamanders) and
 the **Ritual Chamber** ([`the-line-the-ice-drew`](../images/the-line-the-ice-drew.png)). Add a line
 here the first time any location is illustrated.
 
