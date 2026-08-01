@@ -1391,69 +1391,229 @@ But for now, the company had won a crucial victory. The mage conducting the ritu
 
 <!-- fathom: 513922584 -->
 
-*December 20, 2025 session — the Corruption Forge, the shadow demon's den, and the banner raised again over Citadel Drezen*
+*December 20, 2025 session — the Corruption Forge, the false banner, the shadow demon's dark, and what was written in **Staunton Vhane**'s own hand*
 
 ### **The Question of Prisoners**
 
-The ritual was broken, and its leavings had to be dealt with. Thirteen cultists lay drugged and chained in the sacrificial chamber, their minds still swimming with whatever had made them willing to lie down for it. The company had a question on their hands before they had properly caught their breath: what was owed to prisoners who had been made ready to help swallow the world.
+The ritual was broken, and its leavings had to be dealt with. Thirteen cultists lay drugged and chained in the northeast chamber, waiting their turn on a table they would never now be carried to; in the room beyond, eight more lay with their throats opened, who had not been so lucky. The company had a question on their hands before they had properly caught their breath: what was owed to prisoners who had been made ready to help swallow the world.
 
-**Joran Vhane** remained under guard, his cooperation having earned him provisional clemency. His brother **Staunton** was dead, but **Joran** had helped the company navigate the citadel's dangers. The question of his ultimate fate would need to wait for calmer times.
+Nobody suggested killing them. They shambled when they were stood up, and answered nothing, and mumbled under their breath in a language that was not quite a language. The company decided they would go up.
 
-They carried them up in shifts on the precarious cage lift. It took three crossings — **Varic** and **Harlock** with the first group, **Rabiah** with the second, **Lupenor** with the third — and every one of them a slow rattling passage above a pit of fire with a cage full of half-conscious enemies. But all thirteen came up, and all thirteen went behind the bars of the old prison above.
+The only way across was the cage that ran on its track above the fire — one crank to carry it over the pit, another to raise and lower it — and it would not hold thirteen at once. So they made the crossing in shifts, and each shift was a slow rattling passage over the forge with a cage full of half-conscious enemies. **Varic** and **Harlock** went with the first, **Rabiah** brought the cage back for the second, and the third came over with the rest. All thirteen came up. All thirteen went two to a cell in the old prison above, and the doors were locked, and no one pretended it settled anything.
 
-A greater concern weighed on their minds: they still hadn't found the ***Sword of Valor***, the artifact banner that had been stolen at the beginning of the Second Crusade. Its theft had precipitated **Drezen**'s fall decades ago. Without it, their victory would be incomplete.
+While the others worked the crank, **Varic** went back alone to the ritual chamber.
 
-### **The Corruption Forge**
+He had one scroll of ***hallowing***, and he had been carrying it since they learned what this place was. He got down among the grooved stones where the blood had been channelled, and read it through. Something cracked — a hard, splitting sound, like a tree going over — and rolled away into the dark, and did not come back.
 
-Returning to the depths, they came at the **Corruption Forge** itself — a vast chamber where unholy fires had burned without pause for decades. The heat alone was a weapon; it blistered and sapped anyone who stood in it too long. Salamanders had made the place their home, creatures of elemental fire entirely at their ease in it.
+And then the whispering stopped.
 
-The fight began at once. The salamanders fought with long spears and appalling reach, their coiled bodies wreathed in flame that scorched anyone who closed with them. **Lupenor**'s arrows found their marks through the shimmer of the heat, and **Rabiah** answered fire with ice, dropping freezing storms that turned whole stretches of the floor treacherous underfoot.
+It had been under everything since they first came down these stairs; it had worn through **Varic**'s certainty and bent **Lupenor**'s will and put a fracture in all of them that a priest of ***Shelyn*** had needed to mend. Now there was only the noise of the forge below and their own breathing. **Varic** stood in it a moment, took one deep and satisfying breath of a room that was finally only a room, and went back to help with the cage.
 
-**Varic** warded those least able to bear it, and the wards helped, and were not enough. The chamber itself was killing them by degrees. They had a couple of minutes at the outside before the forge would burn through even a priest's protection, and everything they meant to do down there had to be done inside that span.
+**Joran Vhane** remained under guard above, his cooperation having earned him provisional clemency. His brother was dead. What was finally to be done with him could wait for a calmer hour.
 
-They pressed through it methodically, checking side chambers that proved to be old armories and storerooms. In one they turned up bundles of plain arrows — nothing enchanted, but serviceable, and welcome enough to a slayer who had been counting her last shafts. As for the forge, when **Harlock** turned his senses upon it the evil came back so strong that he could make nothing out at all. It was like staring into a dark sun.
+They took a moment before going down, and the talk turned — the way it does among soldiers with a hard thing still ahead of them — to the **Queen**'s medals. There were six. **Agility**, for the hero who kills a demon before it can act. **Clarity**, for those who find and spread what the crusade needs to know. **Command**, for those who turn an enemy to the crusade's side. **Spirit**, for those who throw off possession or another's will. **Valor**, for the killing blow against a demon of greater power — most of them had that one. And **Vigor**, for a crusader struck down by demons who rises and rejoins the fight before it ends.
 
-### **The Shadow Demon's Domain**
+They counted up which they held and which they lacked, and joked about how a person would go about earning the rest, and every one of them put their medals on before they took the cage down.
 
-Deeper still, past passages rigged to pitch intruders into pits, they met the thing that had been set to guard the place: a shadow demon of considerable power. It had no body worth the name, and steel went through it as through a drawn curtain of smoke.
+They still had not found the ***Sword of Valor***. Its theft at the opening of the Second Crusade had precipitated **Drezen**'s fall; without it, whatever they had done here was unfinished.
 
-The fight ran them down to their reserves. The demon reached for **Rabiah**'s mind and very nearly had it; she threw it off only by spending, all at once and desperately, the power the wardstone had left in her. **Harlock** called down **Iomedae**'s wrath and put it through ***Radiance***, and every stroke that landed tore the thing badly, holy light eating into shadow.
+### **The Cage Over the Fire**
 
-The demon employed hit-and-run tactics, disappearing into walls only to emerge elsewhere. It was during one of these repositioning maneuvers that **Chyrrik** made a discovery that changed everything.
+The **Corruption Forge** filled the bottom of that shaft — a fire that had burned without pause for decades, in a chamber where the air alone was a weapon. The heat took a toll off anyone standing in it, steadily, whether they were fighting or not. **Varic** spent what he had against it beforehand: ward on ward, until **Lupenor** could shrug off the worst of it, and **Rabiah** and **Chyrrik** could stand in it a little over two minutes. Everything they meant to do down there had to fit inside that.
 
-### **The Banner Revealed**
+Salamanders had made the place their home — creatures of elemental fire, at their ease in it, evil as anything else in that citadel and not demons at all. They came out of the forge's mouth when the cage started down and put their spears up through the floor of it.
 
-While scanning for the vanished demon, **Chyrrik** spotted something incongruous — a flash of crimson and gold that didn't belong in the corrupted dungeon. Moving to investigate, she reached out and grasped fabric that thrummed with divine power.
+So the company fought the first part of the battle from inside a cage. They stopped it high, out of reach, and **Lupenor** and **Chyrrik** shot down through the iron grid at their feet while the spears jabbed up at them. **Rabiah** flew clear and dropped an ***ice storm*** into the chamber, and then another — the one thing in her book those creatures could not shrug off. The ice never lay. It boiled where it fell, and the chamber filled with a column of steam that hid the floor from the cage and the cage from the floor, and after that nobody on either side could see much of anything.
 
-The ***Sword of Valor***.
+One of the salamanders worked out what to do about that. It came back from the forge with a great two-handed cutter and went for the channel the cage ran in — not to drop them, but to strand them. **Varic** took out one of the silver **scales of Terendelev** and spent it to hang the cage in the air where no jammed track could hold it. Then, when the trick had done its work and the cage could go no lower, he kicked the door open and stepped out into empty air and lowered himself down through the steam on nothing at all.
 
-The artifact banner had been hidden in plain sight, its magic concealed by the dungeon's overwhelming evil. **Chyrrik** felt the power coursing through the fabric — this was no mere magical item but a true artifact, blessed by ***Iomedae*** herself. She immediately moved to bring it to **Rabiah**, recognizing that her young mistress would best know how to activate its powers.
+**Harlock** cranked them the rest of the way. The last salamander under the cage was still trying to cut the track when the floor of it came down on him.
 
-The shadow demon, seeing its guardianship had failed, intensified its attacks. But with the banner in hand, the company's morale soared. They pressed their assault, **Lupenor**'s arrows keeping pressure on the demon while **Varic**'s spiritual weapon harried it from another angle.
+Three of them broke and ran — behind the forge, and away down the passages — and the company went after them rather than leave them at their backs. They ran them down through the side chambers one at a time.
 
-### **Aftermath**
+### **What the Forge Was**
 
-With the ***Sword of Valor*** secured, the company returned to the upper levels of **Citadel Drezen** to prepare for what would become a defining moment of the Fifth Crusade. **Aron Kir** was tasked with beginning the translation of **Staunton Vhane**'s journal, its dwarven runes holding secrets that might prove crucial in the battles to come.
+The rooms off the main chamber were armories and stores: racks of hammers and axes and crossbows and bows, stacks of plain armor, barrels of straps and buckles, casting moulds and tongs and bellows — everything an army needs and nothing an adventurer wants. **Lupenor** restocked her quiver from it, which mattered more than it sounds; she had been counting her last shafts for two levels of the dungeon.
 
-A ceremony was hastily planned and carried out that very day. In the central hall of the citadel, where decades of demonic occupation had left its mark in scorched stone and defiled symbols, the ***Sword of Valor*** was raised once more. The banner unfurled in all its glory — crimson and gold, untarnished by its time in enemy hands, radiating divine power that seemed to cleanse the very air around it.
+They searched the walls for another hour and found nothing hidden. There was no other way down, and no banner anywhere in it.
 
-**Irabeth** spoke first, her voice carrying the weight of a veteran who had seen too many defeats but never lost hope. She spoke of duty, of sacrifice, of the crusaders who had died trying to retake this ground over the past century. Her words were measured, military, precise — the speech of a commander who understood the magnitude of what they had accomplished.
+**Harlock** turned his senses on the forge itself and got nothing back at all. The whole dungeon read as evil — that was no news — but the forge was something else: a weight that blotted out everything around it, so that trying to look at it told him only that he could not look at it. **Varic** read the magic on it and found the work layered and careful and old, and beyond anything they could unpick standing there. There was no fuel bin, no coal, nothing feeding it. Whatever burned in it did not need feeding.
 
-Then **Rabiah** took the floor. Young though she was, her words resonated with a different power. She spoke not of duty but of defiance, not of sacrifice but of victory. She reminded them that **Rabiah's Redeemers** — the name she had given a hundred volunteers on the flat ground outside **Kenabres**, when every one of them privately believed they were riding to their deaths — had done what four crusades before them had failed to do. They were the first in nearly a hundred years of fighting to take back ground from the demons and hold it.
+They would have to read their way to an answer. **Aron Kir** and the recovered books, and whatever the scholars at **Kenabres** could tell them, and time they did not yet have.
 
-*"We are not many," she declared, her voice ringing through the hall, "but we are undefeated. Every demon that stood before us has fallen. Every barrier they erected, we have broken. The Worldwound tried to swallow this citadel, and we stopped it. They said* ***Drezen*** *would never be ours again, yet here we stand!"*
+*"I imagine,"* somebody said, *"that the **Sword of Valor** would be very instrumental in something like this."*
 
-The cheers that erupted shook dust from the ancient rafters. Soldiers who had marched for weeks, who had fought through dungeons and rituals and horrors beyond description, found new strength in those words. The ***Sword of Valor*** rippled above them, and for the first time in decades, hope was more than just a word — it was a banner flying over reclaimed stone, a promise that the tide of war had finally, truly, begun to turn.
+### **The Banner That Was Not There**
 
-### **The Turning Point**
+Back up the cage, back across, and down another stair — this one going deeper than any of them had expected, into a part of the citadel the dwarves had not built.
 
-With the ***Sword of Valor*** recovered and the immediate demonic threats neutralized, the company had achieved a significant victory. The banner's return to **Drezen** after decades of absence marked a turning point in the Fifth Crusade. Its presence would inspire the crusader forces and demoralize any remaining demonic defenders.
+The hall at the bottom was wide and lined with alcoves, and the alcoves held murals: enormous, elaborate, worked in colour that had not faded. In one, the demon lord ***Deskari*** opened up a woman who was unmistakably meant to be ***Shelyn***. In another, **Areelu Vorlesh** bent over her research, and whoever had painted her had admired her. Under each was an inscription cut into the stone in a script none of them read — not Abyssal, which **Chyrrik** had, not Draconic, not Dwarven, which nobody had. **Rabiah** burned one of her three scrolls of ***comprehend languages*** on the nearest, and it turned out to be a boast.
 
-Yet challenges remained. The **Corruption Forge** still blazed below, its unholy fires continuing to taint the citadel. The company would need to research methods to permanently destroy or cleanse it — a task that would require delving into the arcane texts they'd recovered and perhaps seeking guidance from scholars in **Kenabres**.
+And at the north end of the hall, hanging on the wall, was a deep red war banner with the golden device of ***Iomedae*** worked into it.
 
-**Aponavisius**, the marilith demon who had ruled **Drezen**, remained at large somewhere to the south with her army. The **Ivory Sanctum** and its master **Xanthir Vang** posed another threat. And somewhere in the Worldwound, a heretic succubus named **Arueshalae** fled from hunters both demonic and mortal.
+They did not run at it. They had been fooled once already in this citadel, by a goddess who was not one, and they had learned. **Lupenor** went forward with **Chyrrik** at her shoulder, and **Varic** put a ***guidance*** on her and **Rabiah** a ***touch of destiny***, and she read the wall.
 
-But for now, the company could celebrate. Against overwhelming odds, they had reclaimed one of the crusade's most sacred artifacts. The ***Sword of Valor*** flew once more over **Drezen**, a beacon of hope in the endless war against the Abyss.
+There was a trap on it. Not on the floor, not on the approach — on the banner, keyed to anyone who so much as took hold of it. **Harlock**, who had walked up with his arm already half-raised, put his arm down.
+
+She found the thread of it: a hairline seam in the stone where power was being run. She needed a twenty-nine to cut it, and she rolled it exactly, and cut it.
+
+And the banner flickered, and went out.
+
+So did every image of ***Deskari*** in the hall. The rest of the murals stayed exactly as they were — ***Shelyn*** still opened up, **Areelu** still at her work — but the demon lord himself simply was not there any more, in any of them. The whole north end of that hall had been a picture of a thing, and the thing had never been there at all.
+
+They stood in it for a while. Then they went and found the next stair.
+
+### **The Ring of Sigils**
+
+It got warmer as they went down, which nobody liked.
+
+The chamber at the bottom was built in rings around a pit. A ledge ran the circle of it, and a step up from that a second ledge, and a step up from that a platform; and out of the pit itself rose a colossal statue of a six-armed woman with a serpent's body below the waist, holding a different weapon in every hand — sword and hooked blade and chain — and looking down on anyone who came in.
+
+**Aponavisius** had ruled this citadel. The company had heard her described. Nobody said the name out loud, and everybody thought it.
+
+**Harlock** stepped onto the inner ring and the wall beside him turned a soft, awful mauve, and shoved. It was not a blade or a fire; it was a hand, and it took him by the heel and lifted him toward the pit, and he got a grip on the floor and stopped himself and lay there flat with his fingers in the seam of the flagstones.
+
+*"I am,"* he announced from the ground, *"noping right out of this."*
+
+There was no other way around. The doors they needed were on the far side, and the only path to them was the ring, and the ring was sigilled.
+
+So they took it at a crawl. **Lupenor** went first at walking pace, reading each square before anyone stood in it, and the others came behind in single file, and **Varic** and **Rabiah** spent everything they had on her — a ***guidance*** here, a ***touch of destiny*** there, over and over — because every one of those sigils was cut a little finer than the last and she was rolling against them cold. One of them she set off and rode out, standing a foot to the side of where the push went. One she failed and had to come back to. One she got by running up the wall and around it, which she could do, and which nobody else could.
+
+Seventy feet, and it took them the better part of an hour.
+
+Long afterward they learned what the seventy feet had bought. The pit was ten feet deep and there was no way out of it, and anything that fell into it woke the statue: six arms, six weapons, and a company already spent. It would very probably have finished them. Nobody fell in.
+
+### **The Dark That Ate the Light**
+
+The last door would not open onto anything. **Rabiah** looked through it and saw only that she could not see; it was not shadow but an absence, deep enough that even eyes made for the dark found nothing in it.
+
+**Varic** touched a copper piece with his wand until it blazed like noon, and threw it twenty feet through the doorway.
+
+The light went in and was mostly eaten, but not entirely, and by what came back they could make out the shape of the room: the corpse of a serpent, colossal, ten or twelve feet through the body, running the length of the chamber. It had been dead a very long time. Its scales lay in drifts around the base of it where they had fallen off, and the ribs stood open in places wide enough to walk through.
+
+Then a voice came, and it did not come through the ears. It arrived in the chest, and it was amused.
+
+***Radiance*** spoke in **Harlock**'s mind, and what she said was: *be careful*. And then: *I know that voice*.
+
+The demon heard him say so. *"Oh,"* it said, delighted. *"So this is going to be delicious."*
+
+It was a shadow demon, and it had been set here to guard, and it was very old and very good at the work. It had no body worth the name — steel went through it like a drawn curtain of smoke. It was invisible when it chose to be. It went into walls and came out somewhere else. It hung near the forty-foot ceiling and dropped shadow-fire down on them, and the fire was only half real, which was small comfort to those who could not tell.
+
+They could not hurt it. That was the shape of the first several minutes: cold iron did almost nothing, magic weapons did almost nothing, and when **Lupenor** finally spent one of her holy arrows on it the arrow did almost nothing either. It laughed at them from the ceiling and told them that in four hundred years it had not been given a fight this poor.
+
+So they went at what they had. **Rabiah** put ***magic missiles*** into it — force, which does not care what a thing is made of — and they were the first blows that landed properly. **Varic** spoke a ***prayer*** over the company and reached twice for it with a ***dimensional anchor*** and missed twice. **Rabiah**, standing under its attacks, got a ***see invisibility*** off through a hit that should have broken her concentration, and became the only one in the room who could tell them where it was.
+
+And it went for them from the inside.
+
+It reached into **Varic** first, and he felt it — an alien pressure coming in behind his own thoughts, trying the doors — and he threw it out. It came again, and he threw it out again. It came a third time, and a third time he held. Three times in a row, a priest of ***Sarenrae*** stood in his own body and refused to be moved out of it; and afterwards, when they had time to think about what would have happened if it had ever got in — **Varic** in that armour, with that spell list, turned around and standing among them — they were quiet about it.
+
+So it left **Varic** and went for **Rabiah**.
+
+She very nearly lost. She felt it settle over her and start to press, and it was going to take her, and she spent — all at once, without deliberation, everything she could reach of the power the wardstone had left in her — and threw it off.
+
+After that they had it. **Varic** burned two surges at once on a spell drawn down out of the light itself, and it blinded the thing for two rounds and took more than half of what it had left. **Lupenor** put a strike into it that its resistances could not answer for. **Rabiah** put ***fly*** on **Harlock**, and **Harlock** called down **Iomedae**'s wrath upon it and went up into its face.
+
+He hit it twice and it fell.
+
+*"Chop his head off,"* somebody said.
+
+He brought ***Radiance*** down through the shadow demon's neck, and as he did the sword surged in his hands and woke further — brighter, and stronger, and more herself than she had been that morning.
+
+Afterward she told him the rest. She had faced this thing before, in **Kenabres**, in **Yaniel**'s hands, when it had been wearing the body of a homeless man; and **Yaniel** had been obliged to kill the man to be rid of it. ***Radiance*** remembered the taste of its blood.
+
+Its name was **Ustoriad**.
+
+### **The Crumpled Red**
+
+**Harlock** had seen it before he killed it.
+
+He had gone up on **Rabiah**'s ***fly*** to hunt for the demon, and from that height he could see over the body of the dead serpent to a low platform on the far side that nobody on the floor could see at all. There was something on it. A heap of red.
+
+He called it down to the others as a free breath between one attack and the next — *there's something over there* — and did not go for it, because he had a demon to kill.
+
+**Chyrrik** went for it.
+
+She ran the length of that chamber under a demon that could kill her, three-quarters of her movement, and came up to the platform and reached out and closed her hand on a fistful of fabric.
+
+Crimson. Gold. And under her fingers, thrumming.
+
+She stood there holding it, a mongrelwoman from under a ruined city who had joined this company on the road and been given a bow and told she was worth something, holding the crusade's holy banner in both hands and entirely lost in it. Then she remembered where she was, and gathered it up, and ran it to **Rabiah**, because **Rabiah** was who she brought things to.
+
+The fight was still going. She held it through the rest of it, and at one point offered it around the room — *does anybody want this?* — while the demon threw fire at them.
+
+When it was over, **Harlock** took it.
+
+The moment his hand closed on the cloth, the power in it went out of him and through everyone standing in that chamber and ran away along the walls, and they felt the dungeon around them lighten. He knew, the way one knows a thing that has been put into one's head rather than worked out, exactly what he was holding: that hung on a wall it would be a wound to every demon and every servant of demons for miles around it, and that anyone standing within thirty feet of it could ask **Iomedae** for one of her angels and be given one.
+
+They had gone down into that place looking for a banner. They came up out of it carrying an artifact, and carrying something else besides — each of them, that day, came into a power they had not had that morning, the third such rising since the **Gray Garrison**.
+
+They walked out past the pit without waking the statue, and cranked the cage back up over the forge one last time, and climbed into daylight.
+
+### **What Aron Kir Read**
+
+There was a matter of **Staunton Vhane**'s journals, and the difficulty was that they were in Dwarven and nobody in the company read Dwarven.
+
+**Callan Thornwind** did — fluently, and had said so more than once. They did not give them to **Callan**. They gave them to **Aron Kir**, who read and spoke it, and whom they trusted to hand back a full translation rather than an edited one.
+
+He came to them the same afternoon with three things.
+
+The first answered a question the crusade had been asking for seventy-five years: who had opened **Drezen**, and delivered the ***Sword of Valor***, and set the Second Crusade on the road to ruin.
+
+It was **Staunton Vhane**, and he had written it down himself. Seventy-four years of it — a commander of the crusade passing everything he had to handlers in the Abyss, and coming to believe, by degrees, that he was too clever to be caught. He had been caught by a half-orc paladin he had underestimated. **Irabeth Tirabade** found the stolen message, and the record he had kept of his own treachery, and came into his quarters with her sword already drawn to ask him about it. He fled north to the one place that would have him, and **Aponavisius** received him with what passes among her kind for warmth.
+
+The second was the **Corruption Forge**, described by the man who used it: what it did, and an inventory of everything it had ever done it to, and where each ruined thing had been sent afterward.
+
+They were all holy. That was the point of the place. A paladin-commander's longsword that had shone with a light like the morning and healed a man where it touched him, come out of that fire shrouded, running with an energy that withered instead of mending, and handed to a captain of demons. The **Redeemer's Gauntlets**, white-gold and worked with cloth-of-gold, that had let their wearer lay hands on the afflicted and burn out curse and disease and poison and pull the dying back over the threshold — come out of that fire green and leaden and renamed the **Chains of Damnation**, and used ever since to press curses in rather than draw them out. A dozen more entries. A dozen more still out there in the hands of the enemy, catalogued, with addresses.
+
+And every one of them had passed under **Joran Vhane**'s hammer. That was in the journal too — how **Staunton** had let slip that his hostage brother was a master smith, and how the hostage had become the armorer, and how he had worked reluctantly and been very, very good at it.
+
+*"I can't imagine,"* one of them said, *"what that forge would have done to **Radiance**."*
+
+The third was the one they had not known enough to ask about.
+
+Four years ago a shadow demon came to **Drezen**. It arrived wearing the body of a young crusader knight-errant who had made the mistake of travelling the road alone, and the dead man's face still moved slightly wrong; when it walked, the shadows in the room walked with it, and when it spoke, the words arrived in the chest. **Staunton** had been unsettled by it, and had written so. It carried credentials from the **Ivory Sanctum**, and five silver vials.
+
+The vials held elixirs, and what the elixirs granted was mythic power.
+
+**Staunton** drank one. He wrote down what it was like. The pain came first, scouring, out of the gut and along every nerve; and inside the pain he felt the divine spark he had taken into himself when he swore his paladin's oath — the thing he had betrayed and lied about and never quite stopped carrying — being torn out of him and consumed. Then the pain broke like a fever, and there was release. Afterward he could see in absolute darkness, and the darkness was not empty but purposeful. He could feel the fear of the creatures near him as heat on his skin. He struck a practice dummy in the yard and the blow went through the dummy and broke the stone wall behind it.
+
+*"Mythic,"* she had said to him, and he thought he heard something like distress in her voice when she said it.
+
+The rest of the entries were tests on other subjects, and they read like what they were. A dragon, whose own magical nature turned on the stuff: scales cracking and weeping, and by the end its blood liquefied in it. A serpentine thing of three heads that volunteered eagerly, certain its nature suited the gift — and was wrong; within the hour each head was working from a separate mind, and they had begun trying to eat the body from both ends, and then to eat each other.
+
+The company had met a three-headed thing on the way to this city. They looked at one another over that entry for a while.
+
+*"We've fought a couple of things on this list,"* somebody said. *"We're going to fight a few more."*
+
+There was no location for the **Ivory Sanctum** in what **Aron** had read so far. He took the book away to keep working, and promised to send up pages as he finished them.
+
+### **The Ledger of Loose Ends**
+
+They came out of that afternoon with more than they had expected and a stack of things to decide before they could rest.
+
+**Joran Vhane** read differently now. The journal showed a hostage first, held to keep a spy in **Mendev** obedient, and then a man browbeaten and threatened into the work, and then — over years — a man simply broken, doing what he was told. Not innocent. Not the same thing as his brother, either. **Varic** put it plainly: he was the beaten younger brother in that family, and there was probably a road back for him, and it was going to be a long one. They resolved to sit down with him properly — sober, both of them — and to hold a rite over **Staunton**'s grave and let **Joran** stand in it, if he would.
+
+**Callan Thornwind** they let go, because they had said they would. He got a letter of pardon over their seals, recording that he had fought at the citadel and helped them recover the banner, and an escort to **Kenabres**, and a second copy of their message to the **Queen** sewn away separately in case the first never arrived. He gave up his scrolls of ***sending*** for it. He was clear-eyed about what he was: he did not claim to be redeemed, only useful, and he pointed out without much self-pity that he would be hunted by demons and crusaders both for the rest of his life and would be leaving the Worldwound entirely. Then, at the door, he stopped and said that on reflection this was probably the safest place he knew of, and asked whether they might put in writing what employment here would look like. They said they would sleep on it.
+
+And the word had to go to **Nerosyan**, to the **Queen** who had sent a hundred volunteers to do the impossible: *it is done, and the banner is ours, and you may come and see it.*
+
+### **A Wall to Hang It On**
+
+They argued about where.
+
+It had to go on a wall inside **Drezen**; that much came with the knowing. The defensible answer was somewhere deep and guarded. The answer they chose was the great entry hall by the chapel — the room every soldier in the garrison walked through coming in and going out, where they would have to pass beneath it whether they were bound for the barracks or the altar.
+
+**Harlock** was against a hasty raising. They could hang it that hour and be done, and it would still work. He wanted the other thing: a day to prepare, and the whole garrison assembled, and every soldier in the best they had — full armour for those with armour, best clothes for those without. The banner carried in on its pole where all of them could see it. Speeches, and then the command staff walking it up and setting it in its place themselves, and a procession of paladins behind it to a drum, and the garrison filing past afterward so that every one of them saw where it hung. Food, and drink, and the watch rotated so that nobody stood post through the whole of it.
+
+There would be no music but drums. Their bard was leaving.
+
+They asked **Harlock** to give the speech and he tried to hand it off, and they gave it back to him. So he began drafting it, and told them what he meant to say: that the crusade was a hundred years old and had spent seventy-five of them behind wardstones, winning skirmishes and losing ground; that **Drezen** had been the first great wound and this was the first ground taken back since; and — this was the part he was firm about — that it was not the company's victory. He would tell a hundred exhausted volunteers that they were the ones who had done it, and that he and the others had only been the instrument of their will.
+
+That night the ***Sword of Valor*** lay folded on a table in a citadel that had held it hostage for seventy-five years, and the company that had gone down after it slept above the forge that had not managed to unmake it.
+
+It was, by the reckoning **Rabiah** had been keeping, the thirteenth of the month. **Armasse** had fallen on the sixteenth of the month before — the holiday they had been celebrating in **Kenabres**, in the square, on the afternoon the ground opened.
+
+Not quite four weeks.
 
 *— Session of December 20, 2025 —*
 
