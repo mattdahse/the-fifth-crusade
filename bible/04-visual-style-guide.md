@@ -99,10 +99,40 @@ church bell with a clapper, a *rod of cancellation* as a little dark wand, and t
 fragment* as a gem in a birdcage instead of a suitcase-sized block behind spiked iron. If you
 illustrate an item that has no entry yet, get its description from Matt and **add the entry**.
 
+**A recurring PLACE is canon exactly as a face or a relic is.** The first illustration of a room
+settles what that room looks like, and every later image of it must agree. **Before illustrating a
+location that has already appeared, find that image, `Read` it, attach it as a reference, and name
+it in the prompt as the established look** — telling the model to match its *architecture, materials
+and palette* but explicitly **not** its camera position, so the result reads as the same room from a
+new angle rather than a re-shot of the old composition. Then write the room's specifics into the
+prompt body from what the PNG actually shows; the attached reference alone will not carry them.
+
+*Learned on the **Corruption Forge**. The Ch. XVII image
+[`../images/the-cage-over-the-forge.png`](../images/the-cage-over-the-forge.png) had already
+established it as a long **barrel-vaulted hall** — furnace at the far end with a white-hot arched
+mouth at floor level, red rune-carving, and the cage running an **overhead rail and girder** along
+the ceiling. The Ch. XVIII prompt was drafted from the chapter text alone and described a **vertical
+shaft** with the furnace at the bottom of a well. Nothing in the prose contradicted it; it was simply
+a different room, and it would have shipped two irreconcilable views of the same place one chapter
+apart. Matt caught it by asking whether the earlier shot should be referenced.*
+
+Locations with an established look so far: the **Corruption Forge**
+([`the-cage-over-the-forge`](../images/the-cage-over-the-forge.png), and
+[`the-ice-that-would-not-lie`](../images/the-ice-that-would-not-lie.png) from within the hall) and
+the **Ritual Chamber** ([`the-line-the-ice-drew`](../images/the-line-the-ice-drew.png)). Add a line
+here the first time any location is illustrated.
+
 **Write the corrections as negatives, not just positives.** The model fills any silence
 with its own defaults, and its defaults skew toward sexualized armor on women and
 orc caricature (tusks, underbite) on half-orcs. Put the explicit "no …" clauses in the
 prompt body *and* the `Avoid:` line. See CANON.md's *Known drift* section.
+
+**Check the corners for a signature — `signature` in the Avoid line does not reliably stop it.**
+The model sometimes scrawls a fake artist's mark into a dark corner anyway, and at full-page size it
+is easy to miss. **Crop the bottom corners and magnify them before publishing.** If one is there,
+the cheap fix is a small crop rather than a re-render: trim proportionally so the frame holds ~3:4
+and the composition survives (`what-chyrrik-brought-back` went 1086×1448 → 1060×1413 for this, losing
+nothing but dark rock).
 
 **QA the render against the portraits** feature by feature before publishing, and
 regenerate rather than shipping a drifted likeness.
