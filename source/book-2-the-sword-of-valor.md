@@ -1731,7 +1731,9 @@ The teleportation was precise. Two warriors in full plate appeared first, swords
 
 **Sir Aldrich Thorne** was not a man given to pleasantries. He unrolled a formal scroll — proper wooden handles at top and bottom — and read aloud a proclamation recounting the history of **Drezen**, its establishment under **Mendev**, and its reclamation by the champions who now stood before him.
 
-**Irabeth Tirabade** was named standing ruler of **Drezen**, to govern in the Queen's name. She turned a deeper shade of green and blinked in stunned silence before accepting. **Aron Kir** was appointed Warden — captain of the guard and chief engineer for the city's rebuilding. **Sosiel Vaenic** was charged with overseeing the spiritual needs of the growing settlement, tasked with building a multi-denominational temple to serve all the good gods of the crusade.
+**Irabeth Tirabade** was named standing ruler of **Drezen**, to govern in the Queen's name. She turned a deeper shade of green and blinked in stunned silence before accepting.
+
+![She had spent her whole life being told to hold ground. Nobody had ever handed her any.](images/the-ruler-of-drezen.png) **Aron Kir** was appointed Warden — captain of the guard and chief engineer for the city's rebuilding. **Sosiel Vaenic** was charged with overseeing the spiritual needs of the growing settlement, tasked with building a multi-denominational temple to serve all the good gods of the crusade.
 
 From his box, **Sir Aldrich** produced a letter sealed with the royal crest. **Rabiah** broke the seal and read the Queen's words aloud:
 
