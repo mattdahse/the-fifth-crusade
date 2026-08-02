@@ -8,8 +8,6 @@
 
 *16 January 2026 session — 12th of Lamashan, 4713 AR*
 
-![The sky over the Ahari rained teeth](images/the-rain-of-teeth.png)
-
 ### **Into the Ahari**
 
 Nine souls set out from **Drezen** at dawn on the twelfth of Lamashan: **Rabiah**, **Varic**, **Harlock**, and **Lupenor**, accompanied by their cohorts **Chyrrik**, **Cornelia Dewfoot**, **Rothin Vald**, and **Elara Dawnstrider**. **Mira Thistledance**, **Lupenor**'s halfling bard, completed the company. Their destination lay roughly thirty miles to the west — a cave entrance in the cliff face where **Anevia** had spotted cultists bearing the symbols of ***Baphomet***.
@@ -103,8 +101,6 @@ It was not fear. It was not exertion. It was something deeper — a resonance, a
 At the first switchback, a figure emerged from the cliff wall — or rather, what remained of one. A statue carved from natural marble, once beautiful, now battered almost beyond recognition. It had been attacked with crude tools, chipped and smashed until its features were all but obliterated. But **Varic** saw what no one else could see. The outline was still there if you knew what to look for — the curve of a raised hand, the fall of robes, the suggestion of a radiant disk.
 
 This had been a statue of ***Sarenrae***.
-
-![The statue on the switchback path had been Sarenrae, once.](images/the-broken-sarenrae.png)
 
 **Varic:** *This place is sacred. Or it was. It has been profaned. Defiled. This is an unspeakable insult to* ***Sarenrae****, and to everything good that once stood here.*
 
