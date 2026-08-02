@@ -1657,7 +1657,9 @@ Then the command staff carried it inside.
 
 They had argued about where. The defensible answer was somewhere deep and guarded, and they chose the opposite: the great entry hall beside the chapel, the room every soul in that garrison walked through going to the barracks or the altar, so that none of them could get anywhere without passing beneath it. The paladins came behind it in procession to the drumbeat, and the garrison filed in after to see it set.
 
-**Harlock** put it on the wall himself.
+**Harlock** put it on the wall himself. Then he turned and faced the ranks and brought ***Radiance*** up in salute, and held it there, and did not say anything else.
+
+![A hundred of them, in a hall the dwarves had built for thousands — and every crusade before theirs had failed to stand in it.](images/the-banner-goes-up.png)
 
 What happened then, every one of them felt. The power went out of the cloth in a slow wave and rolled outward through the stone and away — through the citadel, through the town, out across the blighted ground for ten miles in every direction — and every demon and every servant of demons inside that circle was made lesser by it, and knew, and could do nothing about it. In the hall it registered only as a warmth in the old dwarven stone, the first honest warmth in the place in seventy-five years.
 
