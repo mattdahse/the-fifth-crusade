@@ -8,6 +8,8 @@
 
 *16 January 2026 session — 12th of Lamashan, 4713 AR*
 
+![He turned it over the way a man turns over a stone that got into his boot. Nobody else looked up.](images/the-rain-of-teeth.png)
+
 ### **Into the Ahari**
 
 Nine souls set out from **Drezen** at dawn on the twelfth of Lamashan: **Rabiah**, **Varic**, **Harlock**, and **Lupenor**, accompanied by their cohorts **Chyrrik**, **Cornelia Dewfoot**, **Rothin Vald**, and **Elara Dawnstrider**. **Mira Thistledance**, **Lupenor**'s halfling bard, completed the company. Their destination lay roughly thirty miles to the west — a cave entrance in the cliff face where **Anevia** had spotted cultists bearing the symbols of ***Baphomet***.
