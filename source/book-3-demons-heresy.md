@@ -194,6 +194,8 @@ The pit was ten feet across and forty feet deep, and it opened without warning u
 
 **Harlock** crossed the room at a dead run and still had the wind for a full flurry when he arrived, ***Radiance*** falling on the blind priestess with a crack that echoed off the vaulted stone. Her mail turned aside a portion of every blow — some dark alloy the sword could not entirely bite — but there was more coming than she could shed. **Lupenor**'s arrows found her a moment later, and **Zinedra** went down at the very edge of death and stayed down.
 
+![The outline was **Rabiah**'s and the blindness was **Varic**'s. **Harlock** only had to arrive.](images/the-violet-outline.png)
+
 Three Templars still held the floor. **Rabiah** dropped a ***Grease*** across the ground beneath them, and two of the three went over backward in full plate — a sound the chamber had not made before and would not soon forget. **Harlock** stepped in among them and cleaved through a blinded man where he lay, and the last of the Ivory Labyrinth stopped fighting.
 
 Eight Templars were dead. **Zinedra** and two of her guards were bleeding out on the stone at the edge of life, and **Varic** — who had spent the whole engagement dispensing the Dawnflower's fire — knelt among the enemy and spent three castings of ***Rebuke Death*** to keep all three of them breathing.
