@@ -119,7 +119,19 @@ apart. Matt caught it by asking whether the earlier shot should be referenced.*
 Locations with an established look so far: the **Corruption Forge**
 ([`the-cage-over-the-forge`](../images/the-cage-over-the-forge.png), and
 [`the-ice-that-would-not-lie`](../images/the-ice-that-would-not-lie.png) for its floor and its salamanders) and
-the **Ritual Chamber** ([`the-line-the-ice-drew`](../images/the-line-the-ice-drew.png)). Add a line
+the **Ritual Chamber** ([`the-line-the-ice-drew`](../images/the-line-the-ice-drew.png)), and the
+**Defiled Temple of Sarenrae** below the cliff path — the **Baphomet** shrine at the mouth of the
+Ivory Labyrinth ([`the-blinding-flash`](../images/the-blinding-flash.png), Book III Ch. I): a large
+vaulted stone chamber inside the cliff, heavy square pillars and a groin-vaulted ceiling lost in
+darkness, ancient masonry whose **Sarenrae** sun-motifs have been hacked off and replaced with
+standing idols of a **goat-headed winged demon** — shaggy goat's head, long ridged curling ram's
+horns, folded leathery wings — several along the side walls and one enormous idol dominating the
+far end, with heavy dark curtains over the side passages and a broad stone stair rising into the
+hall from the cave mouth. The **Templars of the Ivory Labyrinth** who hold it wear dark blackened
+full plate, richly made and demonic in style, and carry **glaives**. The company goes deeper into
+this place in later chapters — match this hall's architecture, materials and palette, but not its
+camera position. The switchback stair and the smashed **Sarenrae** relief on the cliff face above
+it are established by [`the-broken-sarenrae`](../images/the-broken-sarenrae.png). Add a line
 here the first time any location is illustrated.
 
 **A figure high above the ground needs its SCALE pinned, or it becomes a god.** Put a hero in the

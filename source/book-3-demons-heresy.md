@@ -126,11 +126,13 @@ She memorized what she could and slipped back down the stairs as her invisibilit
 
 The party buffed in the shadow of the cliff. **Rabiah** cast ***Haste*** on all nine of them. **Mira** began her bardic performance — a song of courage that lent confidence to every blade and bow. **Varic** spoke the words of ***Bull's Strength*** over **Harlock**. **Elara** received ***Bear's Endurance***. **Rabiah** wrapped herself in ***Mythic Mage Armor***, ***Mirror Image***, ***Shield***, and ***Freedom of Movement***. **Cornelia** prepared her stones for a ***Magic Fang*** spell.
 
-Then **Harlock Greyforge**, paladin of ***Iomedae***, walked up the stairs and into the temple.
+Then **Harlock Greyforge**, paladin of ***Iomedae***, took the stairs at a run and went into the temple.
 
 ### **The Battle of the Defiled Shrine**
 
-He did not draw ***Radiance***. Not yet. Instead, as he crested the stairs and the three Templars of the Ivory Labyrinth turned to face him, **Harlock** activated his ***Blinding Flash*** — a burst of holy light that erupted from his person like a second sun. Two of the three guards threw up their hands too late. The divine radiance seared their eyes, and they staggered, blind.
+***Radiance*** came off his hip on the way up. As the three Templars of the Ivory Labyrinth turned to face him, **Harlock** activated his ***Blinding Flash*** — a burst of holy light that erupted from his person like a second sun. Two of the three guards threw up their hands too late. The divine radiance seared their eyes, and they staggered, blind.
+
+![He did not wait to be met. The shield went off like a second sun, and two of the three were blind before he had cleared the top step.](images/the-blinding-flash.png)
 
 **Lupenor** was already moving. She reached deep for a ***Surprise Strike*** and loosed on the third guard — the only one still sighted — and the shaft went into him as though he had never seen it leave the string, and went in where it would do the most harm. A second followed before he could recover, and a third on the heels of that, faster than any archer had a right to be. The Templar crumpled.
 
