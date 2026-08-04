@@ -106,6 +106,8 @@ At the first switchback, a figure emerged from the cliff wall — or rather, wha
 
 This had been a statue of ***Sarenrae***.
 
+![Someone had come at her with hand tools and taken their time. Only the robes were left to know her by.](images/the-broken-sarenrae.png)
+
 **Varic:** *This place is sacred. Or it was. It has been profaned. Defiled. This is an unspeakable insult to* ***Sarenrae****, and to everything good that once stood here.*
 
 He knelt before the ruined figure and tried to pray, but serenity would not come. What came instead was a cold, righteous fury — the kind that does not cloud the mind but sharpens it.
