@@ -66,7 +66,7 @@ A carpet of scintillating darkness moved across the rocks ahead — not one mass
 
 **Rabiah** spent a frantic minute tearing ticks off herself with **Chyrrik**'s help, ripping the bloated creatures free as they burrowed into her skin. They got the last of them, barely. But the damage was done. Somewhere in those seconds of contact, the plague had found its way into her blood.
 
-![A frantic minute on the bare rock, with a hundred and sixty feet of **Varic**'s fire standing between them and the rest of it.](images/behind-the-wall-of-fire.png)
+![**Rabiah:** Swarmed by ticks: do not recommend. Zero out of five stars.](images/behind-the-wall-of-fire.png)
 
 ### **The Marchlands**
 
@@ -83,8 +83,6 @@ It was during the third night, sheltered in a shallow cave that **Varic** had fo
 **Rothin** attempted ***Remove Disease*** first, and the prayer slid off her without ever touching the thing in her blood. **Varic** tried next, calling on ***Sarenrae***, and fared no better. So **Rothin** put the prayers aside and sat up with her instead, doing the older and humbler work — cool cloths, water, watching — and between his tending and her own stubbornness she held her ground until morning. One night survived. The sickness wanted two more.
 
 The following day, after further attempts that left both clerics grinding their teeth, **Varic** finally broke through. The corruption in **Rabiah**'s blood burned away under ***Sarenrae***'s light, a ***Lesser Restoration*** gave her back what the fever had taken out of her, and the sorceress rose from her bedroll whole, if shaken by the experience.
-
-**Rabiah:** *Swarmed by ticks: do not recommend. Zero out of five stars.*
 
 ### **The Riders**
 
