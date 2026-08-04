@@ -66,6 +66,8 @@ A carpet of scintillating darkness moved across the rocks ahead — not one mass
 
 **Rabiah** spent a frantic minute tearing ticks off herself with **Chyrrik**'s help, ripping the bloated creatures free as they burrowed into her skin. They got the last of them, barely. But the damage was done. Somewhere in those seconds of contact, the plague had found its way into her blood.
 
+![A frantic minute on the bare rock, with a hundred and sixty feet of **Varic**'s fire standing between them and the rest of it.](images/behind-the-wall-of-fire.png)
+
 ### **The Marchlands**
 
 They gave the tick swarms a wide berth, circling far to the south before turning west again. The weather held — cold but clear — and for a few hours, the Worldwound almost resembled ordinary wasteland.
