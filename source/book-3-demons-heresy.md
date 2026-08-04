@@ -42,7 +42,7 @@ Morning brought steel-gray clouds and, initially, more rain. Then the rain stopp
 
 The first pellets stung more than ice should. When one struck the back of **Harlock**'s gauntlet and bounced into his palm, he saw it clearly: a molar. Human-sized. Perfectly formed. The sky was raining teeth.
 
-Molars, incisors, bicuspids, and fangs clattered against the rocks in a grotesque percussion. Those with shields raised them overhead. Those without — **Rabiah**, **Chyrrik**, **Lupenor**, and **Mira** — hunched and endured as best they could, the teeth striking exposed skin hard enough to draw blood. An hour of this torment passed before they spotted the remnants of a stone bridge spanning the riverbed ahead and scrambled beneath it for shelter.
+Molars, incisors, bicuspids, and fangs clattered against the rocks in a grotesque percussion. Those with shields raised them overhead. Those without — **Rabiah**, **Chyrrik**, **Lupenor**, and **Mira** — hunched and endured as best they could, the teeth striking exposed skin hard enough to draw blood. An hour of this torment passed before they spotted the remnants of a wooden bridge spanning the riverbed ahead and scrambled beneath it for shelter.
 
 The dental storm lasted another hour, then slowly abated. Strangely, the teeth did not accumulate. The earliest to fall seemed to dissolve into the blighted earth, absorbed back into whatever madness had produced them.
 
