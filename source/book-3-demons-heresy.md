@@ -12,7 +12,7 @@
 
 ### **Into the Ahari**
 
-Nine souls set out from **Drezen** at dawn on the twelfth of Lamashan: **Rabiah**, **Varic**, **Harlock**, and **Lupenor**, accompanied by their cohorts **Chyrrik**, **Cornelia Dewfoot**, **Rothin Vald**, and **Elara Dawnstrider**. **Mira Thistledance**, **Lupenor**'s halfling bard, completed the company. Their destination lay roughly thirty miles to the west — a cave entrance in the cliff face where **Anevia** had spotted cultists bearing the symbols of ***Baphomet***.
+Nine souls set out from **Drezen** at dawn on the twelfth of Lamashan: **Rabiah**, **Varic**, **Harlock**, and **Lupenor**, accompanied by their cohorts **Chyrrik**, **Cornelia Dewfoot**, **Rothin Vald**, and **Elara Dawnstrider**. **Mira Thistledance**, **Lupenor**'s half-elf bard, completed the company. Their destination lay roughly thirty miles to the west — a cave entrance in the cliff face where **Anevia** had spotted cultists bearing the symbols of ***Baphomet***.
 
 They chose to travel through the dry bed of the **Ahari River** rather than across the open Marchlands. The riverbed offered shelter from the wind and concealment from any eyes that might be watching from above. The terrain was easy enough underfoot — sand and stone worn smooth by waters that had long since ceased to flow — but the high banks on either side narrowed their world to a ribbon of gray sky overhead.
 
