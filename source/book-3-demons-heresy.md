@@ -282,6 +282,8 @@ There was a cost, and it was not **Varic**'s to pay.
 
 Nobody in the company had raised a hand. **Harlock**, who had refused an hour earlier to execute unarmed prisoners and had said so plainly, stood looking at the empty ropes for a long moment. Whatever judgment had been passed, it had not been passed by them, and there was no appealing it.
 
+![He took the gauntlet off to do it. Whatever had been decided about these three, he wanted to know what it felt like.](images/the-empty-ropes.png)
+
 The cabinet — now that nothing was left in it to grapple anybody — gave up the last prize of the day: a sheaf of documents, all saying the same thing.
 
 They gave the location of the **Ivory Sanctum**.

@@ -130,7 +130,19 @@ far end, with heavy dark curtains over the side passages and a broad stone stair
 hall from the cave mouth. The **Templars of the Ivory Labyrinth** who hold it wear dark blackened
 full plate, richly made and demonic in style, and carry **glaives**. The company goes deeper into
 this place in later chapters — match this hall's architecture, materials and palette, but not its
-camera position. The switchback stair and the smashed **Sarenrae** relief on the cliff face above
+camera position. **⚠️ THIS HALL HAS TWO CANONICAL STATES, AND YOU MUST PICK THE RIGHT ONE.**
+**BEFORE** *The Fane Remade* (Book III Ch. II) it is the defiled temple above: dark, dim, blackened
+stone, blood-script, goat-headed idols — [`the-blinding-flash`](../images/the-blinding-flash.png).
+**FROM THE MOMENT THE HERALD'S SERVANTS SWEEP THROUGH IT, it is re-hallowed and it never goes back:
+every surface becomes WHITE MARBLE SHOT WITH THIN GOLD VEINS, the corruption gone entirely, and the
+enormous goat-headed idol at the far end is now an ENORMOUS SERENE SARENRAE** with a radiant sun-disk
+— [`the-wall-remade`](../images/the-wall-remade.png) for the material and
+[`the-empty-ropes`](../images/the-empty-ropes.png) for the transformed hall. For any scene set here
+afterwards, attach the *after* images, and if you also attach `the-blinding-flash` for its
+architecture, say explicitly that you want **its layout ONLY and not its surfaces** — a dark
+reference will drag the render back toward the drab room. *(Caught by Matt, Aug 2026: the first
+staging of `the-empty-ropes` had the judgment happening in the old dim temple, one scene after the
+place had been made new.)* The switchback stair and the smashed **Sarenrae** relief on the cliff face above
 it are established by [`the-broken-sarenrae`](../images/the-broken-sarenrae.png). Add a line
 here the first time any location is illustrated.
 
