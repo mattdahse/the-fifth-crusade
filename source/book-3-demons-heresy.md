@@ -254,7 +254,9 @@ And then a light came into the room, and only **Varic Sarian** could see it.
 
 A gate opened where no gate had been. Through it stepped a figure with wings, armored, shining, and behind it poured a host of lesser servants — half-shaped things, radiant and indistinct, moving with enormous purpose. **Varic** reversed ***Solemn Hour***, set its point to the floor, folded both hands over the pommel, and went down on one knee.
 
-The others saw only what the servants did. The crown molding of the great chamber ran like water and re-formed itself into the sun-disk of ***Sarenrae***. Brass candelabras and braziers remade themselves. Bookends carved as minotaurs stood up as phoenixes. The blood came off the walls of its own accord, every profanity and every careful Abyssal praise-line unwritten as though it had never been. And in the main hall, where the cohorts stood guard over three bound prisoners, the great statue of ***Baphomet*** softened, and turned, and became the **Dawnflower** — whole, and enormous, and unmistakable.
+The others saw only what the servants did. The crown molding of the great chamber ran like water and re-formed itself into the sun-disk of ***Sarenrae***. Brass candelabras and braziers remade themselves. Bookends carved as minotaurs stood up as phoenixes. The blood came off the walls of its own accord, every profanity and every careful Abyssal praise-line unwritten as though it had never been.
+
+![Neither of them touched it. **Rabiah** read it first — she wanted to know what it said before it stopped saying anything.](images/the-wall-remade.png) And in the main hall, where the cohorts stood guard over three bound prisoners, the great statue of ***Baphomet*** softened, and turned, and became the **Dawnflower** — whole, and enormous, and unmistakable.
 
 **Varic** prayed. Not the doctrinal victory-prayer he had been taught as a boy, but something plainer and entirely his own: gratitude for the strength to strike her enemies, and for the chance to give her back her house.
 
