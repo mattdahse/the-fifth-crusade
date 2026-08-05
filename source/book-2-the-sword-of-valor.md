@@ -663,7 +663,7 @@ The shot fell at the edge of a good cluster of them. Tents went over. Men scream
 
 It was, by every other standard, the most eloquent thing anyone had said in that city in a hundred years.
 
-![No crew, no range-finding, no practice — but he had always wanted to fire of of these things.](images/a-gift-returned.png)
+![No crew, no range-finding, no practice — but he had always wanted to fire one of these things.](images/a-gift-returned.png)
 
 Below and behind, the white flag had fallen, and **Rabiah** was across the bridge with her Redeemers forming up on the far bank. Three of the four catapults would never throw again. The fourth was in the company's own hands, and turned around.
 
