@@ -1490,8 +1490,6 @@ So they took it at a crawl. **Lupenor** went first at walking pace, reading each
 
 Seventy feet, and it took them the better part of an hour.
 
-Long afterward they learned what the seventy feet had bought. The pit was ten feet deep and there was no way out of it, and anything that fell into it woke the statue: six arms, six weapons, and a company already spent. It would very probably have finished them. Nobody fell in.
-
 ### **The Dark That Ate the Light**
 
 The last door would not open onto anything. **Rabiah** looked through it and saw only that she could not see; it was not shadow but an absence, deep enough that even eyes made for the dark found nothing in it.
