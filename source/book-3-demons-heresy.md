@@ -268,6 +268,8 @@ He rose. It leaned in and looked into his eyes, and told him two things. That it
 
 **The Herald:** *You are descended from holy stock.*
 
+![It stooped to put its eyes level with his before it told him whose grandson he was.](images/descended-from-holy-stock.png)
+
 Then it stepped backward through the gate, and its servants came rushing after it at impossible speed, and the light closed.
 
 The **Fallen Fane** was a fallen fane no longer. It stood sanctified — re-hallowed, cleansed, and remade — for the first time in longer than any of them could guess. And **Varic**, who had come down that cliff path four days ago with his heart hammering at stones he had never seen before, understood at last why they had rung for him. Whatever the wardstone had left in him had been waiting on something, and it had been waiting on this; and when it came, it found him on his knees.
