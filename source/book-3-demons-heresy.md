@@ -316,6 +316,8 @@ The night passed without intrusion. But it did not pass without incident.
 
 **Harlock** dreamed. The dream was not new — it was the oldest nightmare he carried, the one he had nearly outgrown. He was a child again, small and terrified, being dragged through torchlit corridors by hands he could not see. The altar was ahead. The knife was waiting. He had been kidnapped, he knew now, for sacrifice — plucked from the streets of whatever nameless town his childhood had dissolved into, and very nearly killed before someone, he could never remember who, had intervened.
 
+![He had nearly outgrown it. The Worldwound gave it back.](images/the-hands-he-could-not-see.png)
+
 He woke gasping, his hand already on ***Radiance***'s hilt. And in that razored instant between sleep and waking, he felt something else: a pull. A directional tug on his mind, as though some distant compass needle were trying to align his thoughts toward a bearing he could not name. He grasped at it — strained to hold the sensation, to fix the direction before it dissolved. But it slipped away like smoke through his fingers, and he was left sitting upright in the dark, heart hammering, with nothing to show for it.
 
 **Rabiah**, for her part, woke to find her covers more disheveled than she remembered leaving them — pulled aside to expose her midriff and the birthmark she had spent most of her adult life concealing. No one appeared to have noticed. Or if they had, they said nothing. She pulled her shirt down, checked the room, and let it go. But she did not forget it.
