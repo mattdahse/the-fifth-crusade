@@ -338,7 +338,7 @@ They emerged from the cave into gray daylight and climbed the cliff path back to
 
 **Chyrrik** took the lead, her ranger's instincts sharpened by her favored terrain. She pointed them in the direction she believed would intersect the Ahari Riverbed, and they set off.
 
-The ash storm hit within the hour. It began as a light snowfall of gray flakes, but quickly intensified into a howling gale of cinders that stung exposed skin and wormed their way into every gap in armor. These were not dead ashes drifting down from some distant eruption — they were hot, fresh, and sharp, as though somewhere nearby an enormous fire burned just beyond the veil of the sky. To walk through it unprotected was to be flayed by degrees. **Cornelia** and **Chyrrik** cast their protections on themselves. **Varic** cast his three times, shielding **Lupenor**, **Mira**, and **Harlock**. The rest endured.
+The ash storm hit within the hour. It began as a light snowfall of gray flakes, but quickly intensified into a howling gale of cinders that stung exposed skin and wormed their way into every gap in armor. These were not dead ashes drifting down from some distant eruption — they were hot, fresh, and sharp, as though somewhere nearby an enormous fire burned just beyond the veil of the sky. To walk through it unprotected was to be flayed by degrees. **Cornelia**, **Chyrrik**, and **Rabiah** were already warded against weather of that kind. The rest endured.
 
 **Chyrrik** found shelter, and only barely — blind in the gale, working on instinct and the last of what she had to spend, and coming up with it by a margin she would not have cared to measure. She led them to a cluster of rocks on the windward side of a low hill, where they huddled for four hours while the hot ash scoured the landscape around them. By the time the storm abated, it was near dark. They made camp where they were.
 
@@ -348,15 +348,25 @@ Close to two in the morning, screaming erupted from somewhere out in the Worldwo
 
 Nobody argued. **Chyrrik** was woken and asked if she recognized the sound — some creature of the Worldwound, perhaps, that screamed to lure prey. She did not. They stayed put, weapons close, and waited for dawn.
 
-**Harlock** dreamed again. The same nightmare. The same pull. Weaker now, as though whatever was calling to him was growing more distant with every mile they traveled back toward **Drezen**. He could not grasp the direction. He lay awake until morning, staring at nothing.
+**Harlock** dreamed again. The same nightmare. The same pull. He grasped for the direction and it went out from under him exactly as it had the night before. He lay awake until morning, staring at nothing.
+
+### **The House with Three Walls**
+
+Morning came gray and gritty, and the ash had not finished with them. **Varic** spent what he had on the people who could not shrug it off — **Rothin**, then **Lupenor** and **Mira** — while **Chyrrik** and **Cornelia** saw to themselves. **Harlock** waved him off. He had a great deal of armor and a great deal of stubbornness, and said he would take the burns.
+
+They walked the whole day through a landscape gone monochrome, the cinders thinning but never quite stopping, never able to see more than a few hundred yards of it at a time. By dusk the ground had begun to fall away ahead of them into what might have been the head of a valley — possibly the **Ahari**, possibly not. **Chyrrik** cast about for shelter and came up empty. It was **Lupenor** who found it: a Sarkorian house on the valley's lip, stone and wattle under a slate roof laid over beams, three walls still standing and most of the roof besides. Whoever had built it had built it to last, and it had outlasted its village, its people, and the world they had lived in.
+
+Nothing was haunting it. In the Worldwound, that counted as luck.
+
+They slept there. **Harlock** dreamed the same dream a third time and reached for the same bearing, and it was still there and it still would not be held. But it was fainter than the night before — noticeably fainter — and that told him something he did not care for: whatever was calling, every mile they made was a mile away from it.
 
 ### **Salt Rain and the Bridge**
 
-The second day brought rain. It appeared, mercifully, to be water — but when it evaporated, it left a white, rimy powder on every surface, and it smelled of the ocean. Salt rain. Another of the Worldwound's inexplicable offerings.
+The third day brought rain. It appeared, mercifully, to be water — but when it evaporated, it left a white, rimy powder on every surface, and it smelled of the ocean. Salt rain. Another of the Worldwound's inexplicable offerings.
 
 They traveled along the southern bank of the Ahari rather than in the riverbed itself. The rain made flash flooding a real possibility, and after the tick swarms of their outward journey, nobody wanted to be caught in the low ground. **Chyrrik** kept them on course, unhurried and never once in doubt.
 
-By late afternoon, they recognized the stone bridge that crossed the river — the same bridge they had sheltered beneath during the rain of teeth on their way out. Above it, the ruins of the abandoned village sprawled across the northern bank. They had spent barely an hour searching it the first time through — just long enough to scavenge a window shutter and discover a flea-infested roll of canvas before moving on.
+By late afternoon, they recognized the broken wooden bridge that crossed the river — the same bridge they had sheltered beneath during the rain of teeth on their way out. Above it, the ruins of the abandoned village sprawled across the northern bank. They had spent barely an hour searching it the first time through — just long enough to scavenge a window shutter and discover a flea-infested roll of canvas before moving on.
 
 **Harlock:** *We didn't search this place properly last time. We're a day from* ***Drezen****. If there's anything dangerous here, we should know about it before we send anyone else this way.*
 
@@ -366,7 +376,7 @@ It was **Varic** who found the trouble. He did not go looking for it. He simply 
 
 ### **The Ghost of the Graveyard**
 
-The mausoleum was the largest intact structure in the village. Its twin doors of stone and bronze had been smashed apart — from which side, it was impossible to tell. A family name was chiseled above the entrance, weathered beyond legibility. The interior walls bore engravings of a celestial woman carrying a longsword and shield: ***Iomedae***, without question. Deep claw marks scored the stone. Near the ceiling, phrases had been scrawled in caked old blood — Abyssal script that **Harlock** could read but chose not to speak aloud, given the look on **Varic**'s face.
+The mausoleum was the largest intact structure in the village. Its twin doors of stone and bronze had been smashed apart — from which side, it was impossible to tell. A family name was chiseled above the entrance, weathered beyond legibility. The interior walls bore engravings of a celestial woman carrying a longsword and shield: ***Iomedae***, without question. Deep claw marks scored the stone. Near the ceiling, phrases had been scrawled in caked old blood and filth — Abyssal, and legible to anyone in the company who had the language, and none of it worth saying aloud.
 
 As they approached the entrance, a figure coalesced from the swirling dust. It was a ghost — the spirit of a crusader, still wearing the armor he had died in, his form translucent except for the twin motes of hellish red light that burned where his eyes had been. He did not draw his sword. He screamed.
 
@@ -384,13 +394,13 @@ The stairs descended into darkness. Stone doors carved with the image of ***Iome
 
 The Bodak was worse than the common run of its kind — a humanoid figure withered to a husk of blackened flesh, its eye sockets burning with a malice that killed by being looked at. To stand anywhere near it was to be under that gaze, and to fail against it was to have something permanently subtracted from you: not a wound, but a portion of a life's accumulated strength, peeled away as cleanly as bark off a stick. **Harlock** held against it. **Elara** held. The creature did not attack. It simply stood there and stared, as though daring them to come closer.
 
-**Varic** knew what it was the moment he saw it, and did not hesitate. He leveled his hands and unleashed ***Searing Light*** — a concentrated beam of radiant energy that struck the Bodak square in the chest and staggered it. The creature recoiled, radiant flames crawling across its body as it batted at them with skeletal hands. It turned its empty sockets on **Varic**, and **Varic** did not flinch.
+**Varic** went through his memory for it and came up with a name — a Bodak, a thing native to the Abyss and common enough in the Worldwound — and with the name came the weakness. Sunlight. He had a wand that made light, and he put it aside; it made light without making day, and the difference was the whole point. So he leveled his hands and unleashed ***Searing Light*** — a concentrated beam of radiant energy that struck the Bodak square in the chest and staggered it. The creature recoiled, radiant flames crawling across its body as it batted at them with skeletal hands. It turned its empty sockets on **Varic**, and **Varic** did not flinch.
 
 **Rothin** touched **Lupenor**'s bow and spoke a prayer over it, and for a little while every arrow she drew came off the string sanctified — good and holy in itself, proof against the kind of hide that turns ordinary steel, and burning where it struck. **Lupenor** picked her spot, nocked a holy arrow, and let fly.
 
 The combination was devastating. Where **Chyrrik**'s plain shafts had bounced off the thing uselessly, **Lupenor**'s went in and stayed in. **Harlock** waded in with ***Radiance***, his blade singing. **Elara** jabbed with her cold iron longspear, and **Rabiah** sent ***Magic Missiles*** down from the stairwell — five bolts of force that did not need to find a gap in anything, because force does not miss.
 
-The Bodak fell fast. But the death gaze had already found one victim: **Mira Thistledance**, standing back in the corridor, had met its eyes and lost. She would not learn until morning whether what it had taken from her would come back.
+The Bodak fell fast. For all the ruin that gaze was built to work, the thing went into the dark having taken nothing from anyone but the breath out of **Harlock** and a dent in his side.
 
 ### **The Nabasu**
 
@@ -400,17 +410,17 @@ The Nabasu crouched in the lower crypt like a gargoyle come to life: bat-winged,
 
 **Rabiah** struck first. She had been waiting a long while for exactly this: a demon that believed itself immune to fire. She reached deep and cast ***Mythic Scorching Ray***, and the first lance of it went into the Nabasu's chest and *burned* — all of it, every part, straight through a protection the creature had trusted its whole existence. The demon flinched. The second ray landed too, turned aside in part and hardly mattering. The Nabasu was already reeling.
 
-**Lupenor** stepped up, picked her spot, and put five arrows into the demon before it could gather itself. Two of her remaining holy shafts went home, biting through a hide that should have turned them. **Harlock** reached deep for a ***Sudden Attack*** and brought ***Radiance*** down in a blow that would have split a lesser creature in half. The Nabasu never got the chance to turn its gaze on anyone — it was dead before it had properly begun.
+**Lupenor** stepped up, picked her spot, and put five arrows into the demon before it could gather itself. Two of her remaining holy shafts went home, biting through a hide that should have turned them.
 
-The vicious battleaxe clattered to the stone floor. No one wanted it.
+It had time for two things. The first was the gaze. Everyone standing where it could see them felt it go through them like cold water and had to set their heels against it — **Harlock** held, **Elara** held, **Varic** held, **Rabiah** held. **Mira Thistledance**, furthest back of all of them, did not. The second was the axe. The demon came across the chamber at **Lupenor** and opened her twice with the blade and once with its teeth, and she was a good way from upright when it finished.
+
+Then **Harlock** reached deep for a ***Sudden Attack*** and brought ***Radiance*** down in a blow that would have split a lesser creature in half, and it was over. From the first ray to the last stroke it had lasted about as long as it takes to say so.
+
+The vicious battleaxe clattered to the stone floor. No one wanted it. **Varic** poured healing into **Lupenor** until she could stand on her own again. What the Nabasu had taken out of **Mira** was not that kind of wound, and would not answer to that kind of remedy; she would not learn until morning whether it would come back at all.
 
 ### **The Crusader's Gift**
 
-They searched the crypt thoroughly. The six stone doors on the upper level had not been breached — their seals appeared intact from the outside. **Harlock** opened one. Inside, the coffin had been smashed apart and the remains removed. Every door told the same story: the demons had entered through some means that did not require opening the doors — teleportation, perhaps, or incorporeal passage — and had taken the bodies. An entire family line, stolen from their rest.
-
-**Varic** spent time in the crypt praying for the desecrated dead — not a spell, just words spoken into the dark by a man who believed they mattered. The others let him be.
-
-When they emerged, the ghost was waiting. Not threatening this time. Grateful.
+They were still standing over the battleaxe, turning over the question of who in the world would pay money for such a thing, when the crusader came down the stairs behind them. He drifted past **Rothin** and **Mira** without a glance and on into the grave-chamber as though he had every right to be there — which, in fairness, he had. He was not threatening this time. He was grateful.
 
 **The Ghost:** *You have done for me what no one else could. My kin came here long ago, and in my anger, I attacked them. They defeated me — they thought they'd vanquished me. And yet I was not gone. My final release was beyond their abilities. But you have saved me.*
 
@@ -422,9 +432,15 @@ They had not. **Cornelia** was asked if she might transform into something with 
 
 Inside, they found the crusader's legacy: a scroll of ***Resurrection*** — worth more than gold, given how many of them had already died at least once. Seven arrows of ***Evil Outsider Slaying***, any one of which could gut a demon outright if it struck true. A holy cold iron longsword that went straight to **Elara**, replacing her old blade. A wickedly keen longsword for **Chyrrik**, of the sort that finds the gap in a guard and opens it wide. A ***Rod of the Viper***. Three blocks of ***Holy Incense of Meditation***, which **Varic** claimed — burn one through a night of prayer and every blessing he spoke the next day would come out at the very top of its strength. And a horn that nobody could identify, however long they stared at it.
 
-They divided the spoils, packed the mystery horn into the bag of holding, and spent the night in the mausoleum above the now-empty crypt. **Harlock** dreamed again. The pull was fainter still — almost gone, like a voice calling from the far end of a very long corridor. He could not tell if it was fading because they were moving away from its source, or because whatever had been calling had given up.
+They divided the spoils, packed the mystery horn into the bag of holding, and went back to the mausoleum to sleep. There was nothing else to sleep in — the church was two feet of tumbled wall and a rectangle of dirt, and nobody had any appetite for the bridge.
 
-In the morning it became clear that what the Bodak had taken from **Mira** was not coming back on its own. It would need a ***Restoration***, and a thousand gold pieces' worth of diamond dust that nobody in the company had. Until then she was simply lessened, permanently and invisibly, in a way that no bandage addressed. She bore it quietly. But everyone noticed that her songs carried a little less conviction after that.
+Before he lay down, **Harlock** went back down into the crypt to look at the six stone doors. They had not been breached; their seals were whole from the outside, and he said so aloud, twice, to nobody in particular. Then he opened one anyway. Inside, the coffin had been smashed apart and the remains taken. Every door told the same story: whatever had come for the bodies had not needed to open anything to reach them. An entire family line, stolen from their rest.
+
+**Varic** stayed down there a good while after that. He prayed his own prayers, and then he prayed for the desecrated dead — not a spell, just words spoken into the dark by a man who believed they mattered. The others let him be.
+
+**Harlock** dreamed again. The pull was fainter still — almost gone, like a voice calling from the far end of a very long corridor. He could not tell if it was fading because they were moving away from its source, or because whatever had been calling had given up.
+
+In the morning it became clear that what the Nabasu had taken from **Mira** was not coming back on its own. It would need a ***Restoration***, and a thousand gold pieces' worth of diamond dust that nobody in the company had. Until then she was simply lessened, permanently and invisibly, in a way that no bandage addressed. She bore it quietly. But everyone noticed that her songs carried a little less conviction after that.
 
 ### **The Dwigereth**
 
@@ -446,7 +462,7 @@ The Dwigereth was not impressed. It scuttled forward on its horrible legs at a s
 
 Outside, the party threw everything they had at the creature and watched most of it fail. **Varic** called down ***Holy Smite***, and it landed — but the Dwigereth was no demon, only a thing, and holy fire has less to say to a thing than to a fiend. **Rabiah** loosed ***Mythic Scorching Ray*** and watched both lances break apart against the creature's hide without leaving a mark. She tried ***Mythic Magic Missiles***, and even those unravelled before they arrived.
 
-**Cornelia** dropped a ***Flame Strike*** squarely on it. The fire washed off it entirely, and the holy half of the column did almost nothing worth counting to something that size. She stood there a moment, staff in hand, looking very small.
+**Cornelia** dropped a ***Flame Strike*** squarely on it. The fire washed off it entirely, and the holy half of the column did almost nothing worth counting to something that size. She did it again a while later, for want of anything better in her hands, and it worked precisely as well the second time. She stood there with her staff, looking very small.
 
 The Dwigereth swallowed **Harlock** a second time. He cut his way out a second time. It swallowed **Lupenor**. She went at the intestinal walls with a hand axe and barely marked them — the creature's insides were as obstinate as its outside, and a slayer's light steel was not the tool for it. Outside, **Elara** called her smite and laid into the thing with her longspear, and the smite gave her blade the one quality the creature could not shrug off. The hits landed. The creature bled. But not fast enough.
 
@@ -466,7 +482,7 @@ Its extradimensional gullet ruptured as it died. **Chyrrik** and **Lupenor** spi
 
 ### **Drezen at Dusk**
 
-**Varic** channeled positive energy until everyone was standing upright without assistance. Wands were passed around. Potions were drunk. The physical wounds closed, but the look in people's eyes did not change. **Mira** sat apart from the group, plucking absently at her lute strings, still carrying whatever it was the Bodak had taken out of her. **Chyrrik** cleaned her new longsword in silence, scrubbing the digestive acid from the blade with a piece of torn cloth. **Lupenor** collected three pounds of the Dwigereth's stomach lining — the material used to stitch bags of holding — and packed it into the party's own bag with the clinical detachment of someone who had been inside that stomach and intended to profit from the experience.
+**Varic** channeled positive energy until everyone was standing upright without assistance. Wands were passed around. Potions were drunk. The physical wounds closed, but the look in people's eyes did not change. **Mira** sat apart from the group, plucking absently at her lute strings, still carrying whatever it was the Nabasu had taken out of her. **Chyrrik** cleaned her new longsword in silence, scrubbing the digestive acid from the blade with a piece of torn cloth. **Lupenor** would not go near the carcass and said so plainly, and nobody pressed her about it. It was **Rabiah** who went back to it with a knife — because she was the one who knew that a bag of holding is stitched together out of exactly that, and that three pounds of it was worth having, and because there is a particular satisfaction in cutting up a thing that has spent the afternoon trying to digest your friends.
 
 They marched the final miles in near silence, following the Ahari until the land began to rise and the walls of **Drezen** appeared on the eastern horizon, backlit by the last amber light of a setting sun. The gates were open. The sentries recognized them. And as the party passed through the outer defenses and into the streets of the city they had liberated — battered, acid-scarred, one member permanently diminished, all of them carrying the kind of exhaustion that sleep alone cannot cure — it occurred to more than one of them that the Worldwound had not merely tested them on this journey.
 
