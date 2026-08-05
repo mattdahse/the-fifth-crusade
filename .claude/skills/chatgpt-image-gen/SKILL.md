@@ -94,12 +94,33 @@ Get-ChildItem "$HOME\Downloads\REF-*.png" | Select-Object Name,Length
 The composer is a **ProseMirror contenteditable** whose React state ignores typed text and
 `execCommand('insertText')`; the send button stays disabled. You must dispatch a real paste event.
 
-**Two traps that cost real time:**
+**Three traps that cost real time:**
 
 1. **ChatGPT persists the composer draft across reloads.** Navigating to a fresh chat does *not*
    clear it.
 2. **A clear that does not actually clear makes the paste APPEND.** The paste event always inserts
    at the selection; if the old draft is still there, you send two or three copies of the prompt.
+3. **A persisted draft that has ATTACHMENTS can SUBMIT ITSELF when you clear-and-paste over it** —
+   and then your references are spent on the wrong prompt. *(Aug 2026, Book III Ch. II: Matt had
+   dragged three portraits onto a staged prompt; the prompt was then revised, and the clear-and-paste
+   sent the superseded version with all three images attached. The corrected prompt was left sitting
+   in the composer with nothing attached.)*
+
+**So make clearing its own step, and VERIFY the slate is clean before you paste.** Navigate, then
+clear and check in one call, and only paste once all three of these read empty:
+
+```js
+const pm = document.querySelector('div.ProseMirror'); pm.focus();
+const sel = window.getSelection(); sel.removeAllRanges();
+const r = document.createRange(); r.selectNodeContents(pm); sel.addRange(r);
+document.execCommand('delete');
+({ pmLen: pm.textContent.length,                                        // want 0
+   msgs: document.querySelectorAll('[data-message-author-role]').length, // want 0
+   attachments: document.querySelectorAll('form img, [data-testid*="attachment"]').length }) // want 0
+```
+
+If `msgs` is non-zero you are not on a fresh chat. If `attachments` is non-zero, a draft's references
+are still loaded and a paste may fire them off — clear it and re-verify before going further.
 
 The clear that works is an **explicit Range over the ProseMirror node's contents**, then `delete`:
 
@@ -234,7 +255,30 @@ const r = a.getBoundingClientRect();
 Then click it by coordinate: `computer{action:"left_click", tabId:TAB, coordinate:[x,y]}`.
 **Do not use `find`** to locate it — `find` and `read_page` wait for `document_idle`, which ChatGPT's
 streaming SPA often never reaches, so they die on a ~45s timeout even when the page is perfectly
-healthy. Coordinates from `getBoundingClientRect()` are reliable.
+healthy.
+
+> ### ⚠️ CLICK COORDINATES ARE SCREENSHOT PIXELS, NOT CSS PIXELS — SCALE THEM
+>
+> `getBoundingClientRect()` returns **CSS pixels**, but `computer{left_click}` takes coordinates in
+> **screenshot pixel space**, and on a normal display these are NOT the same. Measured Aug 2026:
+> viewport `window.innerWidth` **1920**, screenshot width **1568** → every coordinate must be
+> multiplied by **0.8167**. Feed a raw rect coordinate to a click and you land ~230px to the right of
+> what you aimed at.
+>
+> ```js
+> const ratio = SCREENSHOT_WIDTH / window.innerWidth;   // e.g. 1568/1920 = 0.8167
+> const r = el.getBoundingClientRect();
+> ({ x: Math.round((r.left + r.width/2) * ratio),
+>    y: Math.round((r.top  + r.height/2) * ratio) })
+> ```
+>
+> **Why this never bit us before:** the download anchor built above is deliberately enormous
+> (~250×60 CSS px), so a click aimed with unscaled coordinates still landed inside it. **The anchor's
+> size is load-bearing, not decorative — do not shrink it.** The error only surfaced when clicking a
+> small native control, which missed completely and hit empty page.
+>
+> Take the screenshot width from the `computer{action:"screenshot"}` result rather than assuming
+> 1568; it depends on the window.
 
 Note the returned `blobSize`; you verify against it in the next step.
 
@@ -372,3 +416,22 @@ Current snapshot: composer `div.ProseMirror`; send `#composer-submit-button` /
 `button[data-testid="send-button"]` / `button[aria-label*="Send"]`; generating indicator a button
 whose `aria-label` matches `/stop answering/i`; generated image an `<img>` with `naturalWidth > 700`
 that is **not** inside `[data-message-author-role="user"]`.
+
+**Interface refresh, Aug 2026 — checked, and the pipeline survived it.** ChatGPT shipped a new
+composer and Matt expected it to break things. It mostly didn't:
+
+- **All the selectors above still resolve**, `#composer-submit-button` included.
+- **Long prompts still paste as INLINE TEXT.** They are *not* converted into a file attachment, which
+  was the feared change. A ~10,000-character prompt still reads back on `div.ProseMirror.textContent`
+  and `[data-testid*="attachment"]` stays at 0. Verify with `pmLen`, as always.
+- **New: a "Chat / Work" toggle** at the top of a fresh chat. Irrelevant to this workflow so far.
+- **New: a reasoning selector in the composer bar**, showing the current setting as its label
+  (`High` when observed). It is a `button[aria-haspopup="menu"]` whose text is the level; clicking it
+  opens `[role="menuitem"]` entries — observed: **Instant 5.5 / Medium / High / GPT-5.6 Sol**. This is
+  the control behind the older note that some accounts stall in a long "Thinking" loop; `Please
+  generate this image directly.` has continued to work fine on **High**, so leave it alone by default.
+  If renders start stalling, **Instant** is the thing to try — but it is Matt's account setting, so
+  ask before changing it.
+- **The one real breakage was the click-coordinate scaling**, documented in step E above. It surfaced
+  precisely because this new composer control is small; every previous click had been at the oversized
+  download anchor, which was absorbing the error.
