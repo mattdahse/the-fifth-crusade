@@ -155,8 +155,27 @@ If `len` is a multiple of your prompt length, you have duplicates — clear and 
 reasoning model that otherwise stalls in a long "Thinking" loop. **Put the aspect ratio in the text**
 (`Aspect ratio 3:2.`); there is no reliable UI control for it.
 
-**Leave the prompt unsent** and ask Matt to drag the staged `REF-*.png` files in, then send on his
-word. It costs him ten seconds and there is no automated substitute.
+**ATTACH THE REFERENCES FIRST, THEN PASTE THE PROMPT — this ordering is the safe one.** Navigate to a
+fresh chat, verify the composer is empty, and ask Matt to drag the staged `REF-*.png` files into the
+**empty** composer. Only once he confirms they are in do you paste the prompt; then send. It costs him
+the same ten seconds either way and there is no automated substitute for the drag.
+
+**Why this order and not the reverse.** A pasted prompt sometimes **submits itself the moment it
+lands**, before you can run a single verification call — and if the references are not in yet, the
+prompt fires naked and the whole roll is wasted. Attaching first makes a self-submit harmless: the
+worst case becomes "it sent, with the correct references, slightly earlier than planned," which is
+the outcome you wanted anyway.
+
+**The self-submit is real and it is NOT purely a length problem.** *(Aug 2026, Book III Ch. III, the
+Dwigereth.)* Observed in the same session: pastes of **9,043** and **8,591** characters sat quietly
+unsent and verified clean, while a **8,066**-character paste submitted on its own between the paste
+call returning and the very next verification call. Chunked pastes fire it more reliably still — see
+the file-attachment note under *Selector drift* — but a single sub-threshold paste is not safe either.
+Do not trust "it stayed put last time."
+
+**If it does self-submit with nothing attached**, stop the generation immediately rather than letting
+it render: find the button whose `aria-label` matches `/stop/i` and `.click()` it. Caught within a
+few seconds this costs nothing.
 
 **When a scene needs NO references** — an establishing shot, a rite, a landscape, anonymous crowds —
 there is nothing to drag, so send it yourself rather than making him wait. **Do not click the send
@@ -421,9 +440,26 @@ that is **not** inside `[data-message-author-role="user"]`.
 composer and Matt expected it to break things. It mostly didn't:
 
 - **All the selectors above still resolve**, `#composer-submit-button` included.
-- **Long prompts still paste as INLINE TEXT.** They are *not* converted into a file attachment, which
-  was the feared change. A ~10,000-character prompt still reads back on `div.ProseMirror.textContent`
-  and `[data-testid*="attachment"]` stays at 0. Verify with `pmLen`, as always.
+- **⚠️ SUPERSEDED — LONG PROMPTS ARE NOW CONVERTED TO A FILE ATTACHMENT.** This bullet used to say
+  the feared change had not happened and long prompts still pasted as inline text. **It has happened.**
+  Past roughly **9,500–10,000 characters**, a pasted prompt is silently turned into an attached text
+  file instead of composer text. **The failure is silent and looks exactly like a paste that did
+  nothing:** `div.ProseMirror.textContent.length` reads **0**, so a `pmLen` check reports an empty
+  composer while the prompt is in fact sitting right there as a file.
+  - **Do not "fix" this by chunking the paste.** Splitting a long prompt into two or three sequential
+    pastes appears to work — each chunk reads back on `pmLen` — and then **a later chunk submits the
+    message on its own**, firing the prompt with no reference portraits attached. *(Aug 2026, Book III
+    Ch. III, the Dwigereth: the third of three chunks self-submitted; the generation was caught and
+    stopped before it rendered, but the whole staging had to be redone.)*
+  - **`[data-testid*="attachment"]` does NOT catch it** — the old attachment probe was written for
+    dropped images. Detect the file form explicitly, e.g.
+    `document.querySelectorAll('form [class*="file"], form [data-testid*="file"]').length`, or simply
+    treat *"pmLen is 0 immediately after a paste that returned a large `want`"* as **"it became a
+    file,"** never as "the paste failed."
+  - **Either keep the prompt under ~9,500 characters and paste it in ONE operation, or accept the
+    file attachment deliberately** — a prompt-as-file still works, it is just harder to inspect and
+    impossible to verify with `pmLen`. Trimming is usually the better trade, and prompts this long
+    are mostly redundant belt-and-braces anyway.
 - **New: a "Chat / Work" toggle** at the top of a fresh chat. Irrelevant to this workflow so far.
 - **New: a reasoning selector in the composer bar**, showing the current setting as its label
   (`High` when observed). It is a `button[aria-haspopup="menu"]` whose text is the level; clicking it

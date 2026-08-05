@@ -456,6 +456,8 @@ The Dwigereth's response was immediate and catastrophic. Both serpent-mouths lun
 
 He was inside the thing, and the walls were trying to digest him.
 
+![No one was more surprised than **Harlock**.](images/the-second-mouth.png)
+
 **Harlock** drew his dagger and began cutting. The stuff of the walls was softer than the hide outside and still tougher than it had any business being; he went at it twice, opened a hole in the side of the intestinal maze, and tumbled out of the creature's flank in a deluge of slime and acid. He landed on his feet, dripping with viscera, and immediately raised ***Radiance*** for another swing.
 
 The Dwigereth was not impressed. It scuttled forward on its horrible legs at a speed that had no business belonging to something that size, striking as it came without ever stopping to strike. It lunged past **Lupenor** and **Chyrrik**, both serpent-mouths snapping. **Lupenor** dodged. **Chyrrik** did not. The ranger vanished into the creature's maw with a strangled cry, keen longsword and all.
