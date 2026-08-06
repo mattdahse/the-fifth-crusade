@@ -338,7 +338,7 @@ It was the best they could do.
 
 They emerged from the cave into gray daylight and climbed the cliff path back to the upper Marchlands. **Rabiah** happened to glance over her shoulder at just the right moment and spotted something on the far horizon — a shape with dragon wings, a long tail, and a silhouette that left no room for comfortable interpretation. It was miles away and moving in the opposite direction. Nobody suggested investigating.
 
-**Chyrrik** took the lead, her ranger's instincts sharpened by her favored terrain. She pointed them in the direction she believed would intersect the Ahari Riverbed, and they set off.
+**Chyrrik** took the lead. The Worldwound is the country she was made for, and she reads its broken ground the way other people read a signpost. She pointed them in the direction she believed would intersect the Ahari Riverbed, and they set off.
 
 The ash storm hit within the hour. It began as a light snowfall of gray flakes, but quickly intensified into a howling gale of cinders that stung exposed skin and wormed their way into every gap in armor. These were not dead ashes drifting down from some distant eruption — they were hot, fresh, and sharp, as though somewhere nearby an enormous fire burned just beyond the veil of the sky. To walk through it unprotected was to be flayed by degrees. **Cornelia**, **Chyrrik**, and **Rabiah** were already warded against weather of that kind. The rest endured.
 
@@ -516,25 +516,37 @@ It did not last.
 
 **Cornelia Dewfoot** was waiting in **Rabiah**'s quarters when the sorceress returned from the market. **Aravashneel** was with her — the formerly blind elf who had fought his way up from the depths beneath the citadel alongside them. They exchanged a glance, then looked at **Rabiah** and asked for a word.
 
-**Cornelia** lifted the front of her shirt. On her belly, she bore the same mark that **Rabiah** had spent her life concealing.
+**Cornelia** did not begin with the truth. She began with an apology for the lie.
 
-**Cornelia:** *You and I were subject to a ritual — rather, our mothers were, while we were in the womb. Our parents had made an alliance with an extraplanar being — a minor god of motherhood. Knowing that the Worldwound could be sealed, they gathered children together. Nine of us were joined in a cadre. The idea was that when we came of age, we would combine our powers and close the wound.*
+**Cornelia:** *I came to you and told you that story about being a farmer, and I never thought you'd fall for it. I never was a farmer.*
 
-The plan had failed. Hunters had found the first cadre and destroyed eight of the nine children. **Cornelia** survived only because her barbarian family lived far from civilization, disconnected from the network that the hunters had unraveled. A second group was formed — **Rabiah**'s group — and hunted in turn. As far as **Cornelia** knew, **Rabiah** was the only survivor of the second cadre.
+Then she lifted the front of her shirt. On her belly, only a few inches of it, she bore the same mark that **Rabiah** had spent her life concealing.
 
-The thing that had hunted them was still out there. It wandered the Marchlands in the shape of a person, but up close it was something else entirely — a creature called a **Wormwalker**, made of writhing, segmented things, hollow inside and relentless. It had been known to recruit other beings to its cause, corrupting them, turning them into extensions of its search.
+**Cornelia:** *You and I were subject to a ritual — rather, our mothers were, while we were in the womb. Our parents had made an alliance with an extraplanar being, a minor god of motherhood. The Riftwardens knew the Worldwound could be sealed, and they gathered children together. Nine of us were joined in a cadre. The idea was that when we came of age, we would combine our powers and close the wound.*
+
+The plan had failed. Hunters had found the first cadre and destroyed eight of the nine children. **Cornelia** survived only because her family lived far out past the edge of things, disconnected from the network the hunters had unraveled — nobody knew where she was, and that was the whole of her good fortune. A second group was formed afterward, the **Riftwardens** trying once more. **Rabiah**'s parents were in it. That group was hunted down in its turn.
+
+**Cornelia:** *As far as I know, you're the only one left. There's only two of us. I don't know what that means. I don't even know what powers we might have that the others didn't.*
+
+Nine was only what they had been told. It might have been more. Nobody who had performed the ritual had survived to be asked, and what knowledge remained had come down secondhand, through people who shared fragments of it with people who shared fragments of it, until the thread was thin enough to break.
+
+The thing that had hunted them was still out there. It wandered the Marchlands in the shape of a person, but up close it was something else entirely — a creature called a **Wormwalker**, made of writhing, segmented things, hollow inside and relentless. It rarely traveled alone. It had been known to recruit other beings to its cause, corrupting them, turning them into extensions of its search.
 
 **Cornelia:** *I tell you this not because I hope it will help you, but because I hope you can be on the lookout. It would stop at nothing if it knew that either you or I were alive.*
 
-**Rabiah** asked the only question that mattered. *Do you know what happened to my parents?*
+**Rabiah** asked how they had found her at all. The answer was almost nothing: something she had said offhand in the ruin of **Kenabres**, months ago, in front of the wrong person or the right one. **Aravashneel** had heard it, and had gone on suspecting quietly ever since. He knew of **Cornelia** through a mutual friend, and got word to her, and she came running — because she had to know whether she was the last of them or only the loneliest.
 
-They did not.
+**Cornelia:** *If there's two of us, maybe there's three.*
+
+Then **Rabiah** asked the only question that mattered. *Do you know what happened to my parents?*
+
+They did not. Until that evening they had not known what had happened to **Rabiah** either.
 
 ### **The Shrine of Erastil**
 
 The rumor reached them that same evening, repeated too many times to ignore. A small shrine of ***Erastil*** in the southern quarter of **Drezen** — recently reopened by a young priest who had arrived with the first wave of refugees — had been found desecrated. The priest was missing. The altar was splattered with animal blood and inscribed with Abyssal writing. Nobody wanted to go near the place.
 
-The party gathered and rode over together. The shrine was a humble building — stone floor, wooden walls, one room for worship large enough for perhaps thirty people, and a back chamber for the priest's quarters. As they approached, everyone felt it: the ***Unhallow*** effect, tied to a ***Cause Fear*** aura that would have sent any commoner running. The party's will saves held without effort — they were tenth-level mythic adventurers, not civilians — but the implication was clear. This place had been magically desecrated, not merely vandalized.
+The party gathered and rode over together. The shrine was a humble building — stone floor, wooden walls, one room for worship large enough for perhaps thirty people, and a back chamber for the priest's quarters. As they approached, all of them felt it: an ***Unhallow*** laid over the place and a dread woven through it that would have turned any ordinary worshipper around at the threshold. It went through the party like weather and left nothing behind. That was itself the finding. This shrine had not been vandalized. It had been desecrated by someone who knew how.
 
 Across the front of the altar, someone had written in dried blood:
 
@@ -542,35 +554,45 @@ Across the front of the altar, someone had written in dried blood:
 
 Nobody recognized the name. Between them they had a good deal of religion and a good deal of history, and neither produced a thing. In the priest's quarters behind the worship hall, they found a bed that had not been made in some time, a pillowcase stained with dried vomit, and walls once carved with symbols sacred to ***Erastil*** that had been scratched through with the point of a dagger or some other sharp instrument.
 
-Under the bed, **Lupenor** found a leather-bound book. It was hand-scribed, professionally crafted, and written in Hallit — the language of ancient Sarkoria, spoken before the Worldwound had swallowed that nation whole. Nobody in the party could read it.
+Under the bed, **Lupenor** found a leather-bound book. Cowhide or deerhide, she judged, and did not say aloud what else it might have been. It was hand-scribed, professionally crafted, begun from a blank book rather than kept as a journal, and written in Hallit — the language of ancient Sarkoria, spoken before the Worldwound had swallowed that nation whole. Nobody in the party could read a word of it, including the title on the cover.
 
 **Chyrrik** could.
 
 ### **The Investigation**
 
-While **Chyrrik** spent the night reading, the party split its efforts. **Varic** returned to the shrine to deal with the desecration. He reached deep, put everything he had behind a ***Dispel Evil***, and laid it on the altar — and the ***Unhallow*** broke at the first touch. The corruption cracked and lifted like ice breaking from stone.
+They brought the book to her at the temple that evening, and the first thing she gave them was its name. ***The Stag King's Bride***. She would need the night with it.
 
-**Harlock** and **Elara** went canvassing the area around the shrine. He made a poor start of it — **Harlock** was not, by nature, an interrogator, and had a way of asking questions that made honest people feel accused — but **Elara** had the lighter touch, and between her manner and his persistence they eventually assembled a picture of the missing priest.
+While she read, the party split its efforts. **Varic** went back to the shrine to deal with the desecration. He had spent the better part of an hour reading around the problem — ***Consecrate***, ***Hallow***, all of it expensive and most of it presumptuous, since this was **Erastil**'s house and he was **Sarenrae**'s priest and there is a difference between cleaning a man's home and redecorating it. In the end the answer was the simple one. He put everything he had behind a ***Dispel Evil***, held the charge across the room, and laid it on the altar. The ***Unhallow*** broke at the first touch. The corruption cracked and lifted like ice breaking off stone.
 
-His name was **Jeskar Hinton**. He was young, handsome, and had joined the crusade out of genuine devotion to ***Erastil*** and an interest in old Sarkorian worship. He had recently been mourning the loss of a precious heirloom — his mother's wedding ring. The consecration of the shrine after decades in demonic hands had been going poorly: holy symbols were lost or damaged, mud stains appeared without explanation, and once during a sermon a longbow hanging over the altar had fallen and broken. **Jeskar** had taken these setbacks in stride, noting that the shrine had spent many years in demonic hands and a few unquiet echoes were bound to remain.
+**Harlock** spent that same evening in the taverns around the shrine, asking questions of anyone who would stand still for it. He got very little. **Harlock** was not, by nature, an interrogator, and had a way of asking questions that made honest people feel accused; what he mostly assembled was a chain of neighbors pointing him at other neighbors. He came back with one thing worth having — the priest's name, and the fact that the man had recently lost his mother's wedding ring, an heirloom he had carried since her death four summers back.
+
+**Lupenor** spent the same evening among her own people, and came back with the shape of the city rather than the shape of a crime. The market was humming. Crusaders were arriving faster than **Drezen** could house them, and the people who feed and clothe and cheat crusaders were arriving right behind them. Artifacts pulled out of the Worldwound had already found a black market, because wherever there is a market there is a black one. She was not yet turning a profit, but she was no longer losing, and she had something better than coin: a standing reservoir of rumor, and enough travelers through her stalls to answer almost any question by asking the right stallholder.
+
+The rumor that mattered was this. Caravans on the trade road were being taken — more than one, on the run into **Drezen** and the run out of it — and there were never any survivors to say by what. Some said demons. Some said a dragon. Nobody knew. One caravan lost is bad luck; three is a supply line coming apart.
+
+In the morning **Harlock** took **Elara** with him and went out again, and **Varic** came along, and between **Elara**'s lighter touch and the priest's own standing in the quarter the three of them finally got a picture of the missing man.
+
+His name was **Jeskar Hinton**. He was young, handsome, and had joined the crusade out of genuine devotion to ***Erastil*** and an interest in old Sarkorian worship. The consecration of the shrine after decades in demonic hands had been going poorly: holy symbols were lost or damaged, mud stains appeared without explanation, and once during a sermon a longbow hanging over the altar had fallen and broken. **Jeskar** had taken these setbacks in stride, noting that the shrine had spent many years in demonic hands and a few unquiet echoes were bound to remain.
 
 But a few parishioners told a different story. They described encounters with **Jeskar** that bordered on flirtatious — charming at the time, but deeply uncomfortable in retrospect. Others spoke of recent neediness and desperation. By all accounts, the behavior was completely unlike the man they had known.
 
-In the morning, **Chyrrik** delivered her report.
+**Chyrrik** came in bleary-eyed that same morning and delivered her report.
 
-**The Stag King's Bride:** *The book was an account of the teachings of* ***Delamere*** *— a follower of* ***Erastil*** *who had founded a splinter cult within the religion.* ***Delamere*** *believed that cities were among the most decadent inventions of mortalkind, and that any settlement of more than fifty-three people was inherently evil. The fifty-fourth person to join a community, in her reckoning, was always a corrupting force that must be banished or destroyed. The theology was bizarre, rooted in ancient Sarkorian ideas about the natural size of extended family networks.* ***Delamere*** *was dead, and had been interred in a cave somewhere to the south — a place called the* ***Weeping Hills****. On the last page, in different handwriting, someone had scrawled: Delamere has the right of it. Drezen is too big for its own good. A trip to her tomb to search for her teachings.*
+**Chyrrik:** *The book is an account of the teachings of* ***Delamere*** *— a follower of* ***Erastil*** *who founded a splinter cult inside the religion.* ***Delamere*** *held that cities are among the most decadent things mortals have ever invented, and that any settlement of more than fifty-three people is inherently evil. The fifty-fourth person to join a community, in her reckoning, is always a corrupting force, and must be banished or gotten rid of like a weed. The theology is bizarre — it comes out of old Sarkorian ideas about the natural size of an extended family.* ***Delamere*** *is dead. She was interred in a cave off to the south, in a place called the* ***Weeping Hills****. And on the last page, in a different hand, somebody wrote this: Delamere has the right of it. Drezen is too big for its own good. A trip to her tomb to search for her teachings.*
 
-**Chyrrik** estimated the **Weeping Hills** lay roughly twenty-four miles to the south-southwest. She had favored terrain in the Worldwound. She could get them there.
+**Chyrrik** put the **Weeping Hills** at roughly twenty-four miles south-southwest. That was as far as her knowledge went; the Worldwound is her favored ground, but favored ground is not the same as a map, and no member of the party had ever heard of the place before that morning. It was **Mira Thistledance** who solved it. She did not know where the **Weeping Hills** were either — but she knew people, and for two hundred gold, most of it finder's fee and all of it non-negotiable, she produced a chart of old **Sarkoria** from before the Worldwound opened, with the hills marked on it. The land had been rearranged since. The hills, presumably, were still more or less where they had been left.
 
 ### **The Canyon**
 
-Windstorms and thunderstorms kept them in **Drezen** for an extra day. They used the time to prepare — buying tents, blankets, bedrolls, and supplies that the party's first Marchlands expedition had taught them they desperately needed. When the weather cleared on the twenty-third, they set out south with only the mythic four and **Chyrrik**: a lean, fast-moving party with no followers to slow them down.
+Windstorms and thunderstorms kept them in **Drezen** an extra day. They used it. They bought tents — standard, large, and a pavilion, on the principle that no expedition of theirs would ever again be short of shelter — along with blankets, bedrolls, and the sundry gear the first Marchlands expedition had taught them they desperately needed. **Varic** spent the day in the church with his followers. **Lupenor** spent it with the city guard, comparing notes on the caravan raids and finding no pattern worth acting on.
+
+On the twenty-second they went out the south gate, crossed the **Ahari**, and turned south with only the mythic four and **Chyrrik**: a lean, fast-moving party with no followers to slow it down. **Mira** stayed behind with her lute and her stalls, which was the correct decision for everyone concerned.
 
 Half a day's travel brought them to the edge of one of the Worldwound's canyons — a ragged gash in the earth, a hundred to a hundred and fifty feet deep, with walls of crumbling scree and loose stone. They could descend and climb the far side, or spend unknown hours searching for a way around.
 
 They chose to climb.
 
-**Harlock** hammered pitons and strung rope. **Lupenor** touched her ***Medal of Balance*** and went down the switchbacks like a mountain goat, unhurried and untroubled. **Chyrrik** took her time and followed. **Rabiah** used her earring to ***Dimension Door*** down with **Harlock**.
+**Varic** took the vanguard, hammering pitons and stringing rope as he went down, so the rest could follow on a fixed line.
 
 **Varic** fell.
 
@@ -578,19 +600,21 @@ His hand went where the rock was not, and the full weight of his plate took him 
 
 **Varic:** *I'm good. I'm good.*
 
-He was not good. But he was alive, and after some attention from a wand and a good deal of earned humility, the party crossed the canyon floor and scaled the far side without further incident — **Varic** having taken his armor off first, which turned out to be the entire trick.
+He was not good. But he was alive, and after some attention from a wand and a good deal of earned humility, the party went on down. **Harlock** touched his ***Medal of Balance*** and came down the broken terraces like a mountain goat, unhurried and untroubled. **Lupenor** needed a surge of her own to keep from repeating **Varic**'s descent, and got there. **Chyrrik** took her time and arrived without comment.
+
+They crossed the canyon floor and scaled the far side without further incident — **Varic** having taken his armor off first, which turned out to be the entire trick, and which he then had to be reminded to reverse before they broke camp the next morning.
 
 ### **The Weeping Hills**
 
-The land climbed steadily as they traveled southwest. Just past midday on the twenty-fourth, they spotted a cliff edge — and felt the heat rising from below long before they reached it.
+The land climbed steadily as they turned more westward. Just past midday on the twenty-third, they spotted a cliff edge — and felt the heat coming off it long before they reached it.
 
-A river of lava flowed at the bottom of a two-hundred-foot gorge, originating somewhere beyond a rock wall to the north and east. The canyon walls wept — cascades of molten stone dripping from the rock face at irregular intervals, forming teardrops of lava that sizzled and pooled before rejoining the main flow. The **Weeping Hills**. The name was earned.
+A river of lava flowed at the bottom of a two-hundred-foot gorge, originating somewhere beyond a rock wall to the north and east. The walls wept — cascades of molten stone dripping from the rock face at irregular intervals, forming teardrops of lava that sizzled and pooled before rejoining the main flow. The **Weeping Hills**. The name was earned.
 
-**Varic** cast ***Endure Elements*** on everyone who needed it — three castings that would keep the worst of the heat at bay. He then cast ***Airwalk*** on himself, stepping out over the gorge and descending at a gentle angle through air that shimmered at a hundred and thirty-five degrees. **Rabiah** used ***Dimension Door*** to ferry **Harlock** and **Chyrrik** down in two jumps. **Lupenor** rode the party's ***Levitation*** rock down, kicking off the cliff face to guide her descent.
+The descent was a problem with five different answers. **Varic** cast ***Airwalk*** on himself and simply stepped out over the drop, angling down through air that shimmered at a hundred and thirty-five degrees — and then walked back up it, because **Chyrrik** was climbing, and he wanted to be beside her the whole way with his hands free in case she was not. **Harlock** stripped his armor off again and climbed under a ***Bull's Strength***. The party's ***Levitation*** stone had three charges left, and they spent one of them. Nobody, in the moment, thought to mention that **Rabiah**'s ***Dimension Door*** earring would have put them all on the gorge floor in a matter of seconds. She was the first one down regardless, and she was the one who found the way in: half-obscured behind fallen debris, a tunnel running parallel to the lava flow. She had been told what to look for. That was the difference — the rest of them would have walked past it.
 
-At the bottom, half-obscured by debris, a tunnel ran parallel to the lava flow. It was no cooler inside. If anything, it was worse — the heat concentrated, radiating from the walls, pressing against their skin like a living thing.
+It was no cooler inside. If anything it was worse, the heat concentrating in the rock and radiating back, pressing against the skin like a living thing. **Varic** had three castings of ***Endure Elements*** and spent them on himself, **Lupenor**, and **Rabiah**; **Harlock** and **Chyrrik** had their own.
 
-**Harlock** took point. **Varic** floated three feet off the ground on his airwalk, morningstar in hand. Three minutes of tunnel brought them to a large chamber where the bubbling lava river flowed lazily past a series of gaping pits, each at least a hundred feet deep. A small ledge sat near the center of the chamber. On it lay a slab of smoky crystal, inside of which a faint luminous form was visible.
+**Harlock** took point. **Varic** followed a few feet off the ground on his airwalk with his adamantine morningstar in hand and a ***Bless Weapon*** already on it. Three minutes of tunnel brought them to a large chamber where the lava river flowed lazily past a series of gaping pits, each of them at least a hundred feet deep. A small ledge sat near the center. On it lay a slab of smoky crystal, inside of which a faint luminous form was visible.
 
 And atop the crystal, sitting with his legs dangling over the edge of the ledge above the lava, was a man.
 
@@ -604,9 +628,9 @@ He stood, spread his arms wide, and leaned toward the lava.
 
 **Varic** threw the tanglefoot bag.
 
-It was the same tanglefoot bag that **Anevia** had given the party in the first session of the campaign — one of a handful they had been carrying since **Kenabres**, tucked into a pouch and forgotten until this moment. It struck the ledge beneath **Jeskar**'s feet and burst, and thick resin went everywhere and set fast, gluing his boots to the stone. He got a leg clear of the worst of it. It did not matter much. He was not going anywhere quickly now.
+It was one of the tanglefoot bags **Anevia** had pressed on them the night **Kenabres** fell, before any of them had a title or a relic or a reason to be believed — carried across half of Mendev in a pouch, forgotten, and never once needed until this moment. It struck the ledge beneath **Jeskar**'s feet and burst, and thick resin went everywhere and set fast, gluing his boots to the stone. He got a leg clear of the worst of it. It did not matter much. He was not going anywhere quickly now.
 
-**Rabiah** grabbed **Harlock**'s arm and activated her ***Dimension Door*** earring, putting them both on the ledge beside the priest. **Harlock** took hold of him the way a man takes hold of someone determined to jump, which is to say completely, and **Jeskar** — who had no interest in fighting back, only in falling — never had a chance of shaking him.
+**Rabiah** grabbed **Harlock**'s arm and activated her ***Dimension Door*** earring, putting them both on the ledge beside the priest. **Harlock** took hold of him the way a man takes hold of someone determined to jump, which is to say completely, and **Jeskar** — who had no interest in fighting back, only in falling — never had a chance of shaking him. It cost **Harlock** something to do it: he came down into the same spreading resin, and it set around his boots as fast as it had set around **Jeskar**'s. For the rest of the fight the paladin held the ledge because the ledge was holding him.
 
 **Jeskar** thrashed. He snarled. He tried to speak a ***Command*** at **Lupenor**, and could not hold the words together with a paladin's arms around his chest. He was not a monster. He was not possessed, not at this moment. He was a man at the end of his rope, consumed by guilt for things he could barely remember doing.
 
@@ -618,23 +642,39 @@ A **Shikaf**.
 
 ### **The Battle Above the Lava**
 
-The **Shikaf** spoke something long and deliberate in Abyssal, and there was nothing anybody could do to stop it finishing. An incubus materialized beside the creature: bat-winged, carrying a longsword, radiating the casual malice of a demon that had corrupted mortals since before any of their grandparents had been born.
+**Varic** did not wait to see what it wanted. He put a ***Spear of Purity*** into it — a sphere of golden light that formed in his hands and left them like a thrown javelin, striking the thing square in the chest and vanishing into it. The **Shikaf** shrieked and spun in the air, both sets of wings beating, and did not die.
 
-**Lupenor** acted first. She reached deep for a ***Sudden Strike***, stepped thirty feet through the air to a better line, and loosed — shaft after shaft, faster than the eye could count them, cold iron going into the **Shikaf** where nothing plainer would have gone at all. The creature flinched. It did not fall.
+Then it spoke: something long and deliberate in Abyssal, unhurried, with nobody in the chamber close enough or fast enough to stop it finishing. Whatever it had called for would take a moment to answer. The moment passed slowly, and none of them enjoyed it.
 
-**Varic** called down ***Mythic Holy Smite***, and the golden burst of it went through every evil thing in the chamber. Both the **Shikaf** and the incubus braced against the worst of it and still came out of it blind, shrieking, wings flailing, their eyes seared shut by a light they had no defence against.
+**Lupenor** put cold iron into it while it waited — arrow after arrow, faster than the eye could follow, iron going into a thing that shrugged off anything plainer. It flinched. It stayed up. **Chyrrik** got a shot home from the rocks. And **Varic**, walking on nothing, closed to a bad angle and hit it with the sword he had brought instead of the morningstar, because **Harlock**'s wardstone shard was on that blade and a wardstone shard makes a weapon a specific kind of poison to a specific kind of creature. The blow landed the way a blow that size should not, going deeper than the body it struck — into whatever a **Shikaf** has instead of one.
 
-**Chyrrik** climbed through the gap between ledge and wall and struck the **Shikaf** with her bane weapon, and the blow went deeper than a blow that size should go — into whatever the creature had instead of a body. **Varic** followed with ***Searing Light***, and the beam punched through the demon and sent it spiralling toward the lava.
+**Harlock** could not reach it at all. It hung in the air out over the lava, and he was glued to a ledge with a paralyzed priest under his hands. He thought about the shield — about setting off that second sun and blinding everything in front of him — and put the thought down, because the light does not choose, and his friends were in the radius. He held his stroke instead, waiting for the demon to come to him.
 
-**Harlock** let go of the frozen **Jeskar**, stepped off the ledge, called his smite and flew — closing with the incubus in the open air and bringing ***Radiance*** down on it with every year of his oath behind the stroke.
+What came to him was the incubus: bat-winged, longsword in hand, radiating the casual malice of a thing that had been corrupting mortals since before any of their grandparents were born. It looked at the two men on the ledge, decided which one was the paladin — it was wrong, and the mistake was reasonable — and opened him up with a claw and a critical stroke of the sword. When **Harlock** struck back, the demon simply was not there; it slid an image into the space where it had been and let the blade go through that.
 
-But it was **Lupenor** who ended it. She nocked two of her remaining arrows of ***Evil Outsider Slaying*** and put them both into the blinded incubus in the same breath. The first one alone was enough; the enchantment on it took hold and tore the life out of the demon where it hung. The second buried itself in a corpse.
+**Lupenor** answered it with the same trick. She spent mythic strength to leave an image of herself standing in the open, stepped thirty feet through the air to a line the demons had not accounted for, and shot from it.
 
-The **Shikaf**, burning from **Varic**'s holy light and bleeding from a dozen wounds, spiraled downward and struck the surface of the lava. It did not resurface.
+Then **Harlock** let go of **Jeskar** — the priest had shaken off the ***Hold Person*** by then and was going nowhere anyway, still fixed in the resin — took one vertical step off the stone, called his smite, and burned mythic power for a ***Sudden Strike***. Every blow landed. ***Radiance*** went into the incubus three times with every year of his oath behind it, and the thing shrugged and kept flying.
+
+It was **Varic** who broke the fight open. ***Mythic Holy Smite***, called down over both demons at once — a burst of gold that neither of them could turn aside, only endure. They braced into it and came out screaming and blind, wings flailing, eyes seared shut by a light they had no defense against. It caught **Jeskar** too, kneeling on the coffin in the middle of it. The Dawnflower's fire does not ask a man's name. It asks what he has become, and at that moment his answer was the wrong one.
+
+And then it was **Lupenor**'s. She nocked two of her remaining arrows of ***Evil Outsider Slaying*** and put them both into the blinded incubus in a single breath. The first one alone was enough; the enchantment on it took hold and tore the life out of the demon where it hung. The second buried itself in a corpse. Its longsword went down into the lava after it, and nobody was quick enough to catch it.
+
+The **Shikaf** lasted a little longer, and not much. Bleeding from a dozen wounds, blind, it took one more decisive blow and fell — down, and down, and into the river of molten stone, which closed over it and left nothing behind to examine.
+
+Neither demon left a body. The party had come a very long way to learn nothing from either of them.
 
 ### **Atonement at Dawn**
 
-They carried **Jeskar** out of the gorge and made camp on the rim. The priest was cooperative now — the demon was gone, the paralysis had faded — but the guilt remained, pressing down on him like a physical weight. **Varic** channeled positive energy to heal the party's wounds and tended to the burns that **Rabiah**'s ***Holy Smite*** had left on **Jeskar** himself. The priest had been evil-aligned when the spell hit. It had not discriminated.
+They got **Jeskar** out of the gorge and made camp on the rim. The priest was cooperative now — the demon was gone, the resin had gone brittle and flaked away, the paralysis had passed — but the guilt remained, pressing down on him like a physical weight. **Varic** channeled positive energy until everyone was standing, then healed the burns his own ***Holy Smite*** had put on **Jeskar**. The spell had not discriminated, and there was a kind of penance in being the man who both inflicted and closed the wound.
+
+They sat with him that evening, and he talked. He could not name one moment when it began. It had come on gradually: the slow loss of enthusiasm for good work, the doubt, the growing inability to do his job. And one particular thing, which he offered without being asked — the worst of it always came when someone touched him. A hand on his shoulder. A parishioner reaching out to shake his hand. In those moments he felt rage come up out of nowhere and doubt come up behind it, and looking back on it now he thought perhaps the thing had been wearing other faces the whole time, and putting its hands on him in them. It had gone on for days. He had run out of resistance.
+
+**Jeskar:** *And now I'm just so full of hate and anger. You saved me, and I'm still full of it. I need to be released from it.*
+
+The other piece had come first, before any of that. When he arrived in **Drezen** he had discovered his mother's wedding ring was gone — carried since she died, four summers back, and lost somewhere between one day and the next.
+
+**Rabiah** was the one who put it together. She knew what a **Shikaf** was, and what a **Shikaf** does: it takes a possession from the person it means to break, something owned and carried and loved, and wears it as a trophy — and every power it turns on that person after that lands harder. She told the others.
 
 That night, **Harlock** caught **Jeskar** trying to slip away from camp.
 
@@ -642,77 +682,149 @@ That night, **Harlock** caught **Jeskar** trying to slip away from camp.
 
 **Harlock:** *Do you know what* ***Shikafs*** *are? The demon that possessed you stole your mother's ring and used it as a trophy. It gives them power — a bonus to every ability they use against the person the trophy belongs to. It wasn't all you,* ***Jeskar****. You were being systematically broken from the outside.*
 
-**Jeskar** stood in the dark for a long time. Then he let **Harlock** lead him back to his bedroll.
+He could not give the ring back. It had gone wherever the demon's trophies go, and the demon was in the lava. **Jeskar** stood in the dark for a long time. Then he let **Harlock** lead him back to his bedroll.
 
-At dawn, **Varic** woke the priest and they sat together in the thin light of a Worldwound sunrise. **Varic** reached down past everything he had made ready that morning and pulled an ***Atonement*** out of the deep water — a prayer he had not prepared and had no business having, conjured out of faith and whatever the wardstone had left in him. The casting took an hour. When it was done, **Jeskar** opened his eyes, and everything about his bearing had changed.
+At dawn, **Varic** woke the priest and they sat together in the thin light of a Worldwound sunrise. By the letter of the thing an ***Atonement*** should be spoken by a priest of the penitent's own god, and **Varic** was **Sarenrae**'s man kneeling with **Erastil**'s. He did it anyway. He reached down past everything he had made ready that morning and hauled the prayer up out of the deep water — a spell he had not prepared and had no business having, pulled through on mythic strength and the assumption that the Dawnflower would rather he tried. The casting took an hour. When it was done, **Jeskar** opened his eyes, and everything about his bearing had changed.
 
 **Jeskar:** *I still look back at what I've done. But now I feel like I'm in complete control, and that wasn't me. That was the influence I was under — a sickness of the soul. And just now, with my eyes closed, I had a vision of* ***Delamere****'s crystalline coffin, cracking and falling away.*
 
 ### **Delamere's Legacy**
 
-They went back down. New castings of ***Endure Elements***, new rounds of ***Airwalk*** and ***Dimension Door***, and they stood once more in the chamber above the lava where they had fought the **Shikaf** the day before.
+They went back down. New castings of ***Endure Elements***, another ***Airwalk***, three charges out of the earring — and **Jeskar** came with them, because a man who has been handed a vision would like to see whether it was true.
 
-The crystal coffin had shattered. Where a slab of smoky quartz had encased a luminous form, there was now only a mummified body lying on the bare ledge, wearing silver armor with a composite longbow laid across its chest. ***Erastil*** had released his heretical saint, and the treasures she had been interred with were now free for the taking.
+It was. The crystal coffin had shattered. Where a slab of smoky quartz had encased a luminous form, there was now only a mummified body lying on the bare ledge, wearing silver armor with a composite longbow laid across its chest. ***Erastil*** had released his heretical saint, and the goods she was interred with were free for the taking.
 
-The armor was ***Celestial Armor*** — a suit of chainmail so finely wrought that it weighed less than leather and let whoever wore it take to the air once a day for a few minutes together. **Lupenor** claimed it immediately, and her elven chain went to **Chyrrik**, who was the better for it. The composite longbow was strung for a heavier arm than **Lupenor** yet had, but she took that too, on the understanding that she would grow into it.
+The armor was ***Celestial Armor*** — chainmail so finely wrought that it weighed less than leather, and once a day it would carry the wearer into the air for a few minutes together. **Lupenor** worked the trade out on her fingers and took it; her elven chain went to **Chyrrik**, who was the better for it. The composite longbow was strung for a heavier arm than **Lupenor** yet had. She took that too, on the understanding that she would grow into it, and in the meantime would shoot it badly.
 
-Beside the body, they found the heretical holy book of ***Erastil*** — the ***Stag King's Bride*** itself, not a copy but the original — and a talisman with something fierce and coiled sleeping in it. **Varic** worked out what it was: one use, and one only, and that use would rip an evil outsider clean out of the world. A demon quick enough might yet twist aside from it. A demon facing someone genuinely pure in thought and deed would not get the chance. They placed it carefully in the bag of holding and tried not to think about what "exceptionally pure" meant for a group that had seriously discussed killing an innocent priest two days earlier.
+Beside the body they found the heretical holy book of ***Erastil*** — the ***Stag King's Bride*** itself, not a copy but the original, which went into the party's library — and a talisman with something fierce and coiled sleeping in it. It resisted reading. **Rabiah** got it in the end, on the road home, and only by spending mythic strength on the question. One use, and one only, and that use would rip an evil outsider clean out of the world and put it somewhere no one comes back from. A demon quick enough might yet twist aside from it — unless the hand holding it belonged to someone exceptionally pure in thought and deed, in which case the demon would get no chance to twist at all.
+
+They placed it carefully in the bag of holding, and then had a short and uncomfortable conversation about which of them that clause might be describing, given that two days earlier the group had discussed, in some detail and without much anguish, killing a priest who turned out to be innocent.
 
 ### **The Pull**
 
-**Harlock** dreamed every night they spent in the Marchlands. The nightmares were the same — the childhood altar, the knife, the hands he could not see — but the pull that followed was stronger here, further south from **Drezen** and further from the protection of the ***Sword of Valor***. Each morning he strained to hold the sensation, to fix the direction before it dissolved. Each morning he failed, and failed narrowly, by margins that made him want to put his fist through something.
+**Harlock** dreamed every night they spent in the Marchlands. The nightmares were the same — the childhood altar, the knife, the hands he could not see — but out here they came harder.
 
-The pull was directional — he was certain of that much. It grew stronger the further south they traveled. If he could triangulate it, camp at different points and compare the sensations, he might be able to fix a bearing. But that required holding the feeling still in his mind long enough to take its measure, and **Harlock** had never been that sort of man. It kept slipping.
+There is a line, they had worked out by now, roughly ten miles from **Drezen** — half a day's walk, and somewhere in the middle of it the protection of the ***Sword of Valor*** simply stops. It can be felt going: a few minutes of walking during which something lifts off the back of the neck and does not come back. Inside that line **Harlock** slept. Outside it he woke in the dark with the dream still on him and something pulling at him underneath it — and this camp, further south than any of them had been, pulled harder than the **Hidden Shrine** ever had.
 
-Whatever was calling to him in the Worldwound, it would have to wait.
+Three nights running he tried to hold it. Each morning the feeling was already dissolving by the time he was awake enough to take its measure, and it went with the direction still inside it. He could tell the pull was getting stronger. He could not tell where it was coming from. South was a guess; it could as easily have been east or west, and guessing wrong would cost them weeks.
 
-### **The Forge**
+The plan, such as it was, was triangulation — camp at different points, compare what the mornings gave him, work backward to a bearing. It required a steadiness of mind that **Harlock** had never had and could not buy. Whatever was calling to him in the Worldwound, it would have to keep calling.
 
-Back in **Drezen**, the party fanned out to address the threads that had accumulated in their absence. **Lupenor** went to visit **Joran Vhane**.
+### **What They Told Irabeth**
 
-The dwarf was still in his cell beneath the citadel, but the door was unlocked now, and a guard stood watch more out of habit than necessity. He had been building pews for **Jeskar**'s shrine — three of them, handmade, sanded smooth. When **Lupenor** knocked, he set down his tools and brightened at the sight of the bottle of Drobane Ale she had brought.
+They came back through the gates on the twenty-fifth, five days out and five days' worth of dust on them.
 
-Three and a half glasses in, **Joran** shared his breakthrough.
+**Harlock** went first to **Elara**, and got the report an officer least wants: plenty of recruits, and no way to train them. **Iomedae**'s Preservers were growing faster than anyone in **Drezen** could teach them, and what they needed was two kinds of instruction at once — ecclesiastical and martial — and there was nobody spare to give either. **Harlock** authorized her to write to the Church of ***Iomedae*** over his name and ask for a contingent of priests, and put five thousand gold behind the request. **Elara**, whose diplomacy has always been better than his, talked him into splitting it: less of it offered as a sweetener to a church that ought to be doing this anyway, more of it set aside for the quarters and food of whoever they sent. **Varic** put in a thousand of the five without being asked.
 
-**Joran:** *The forge itself is an artifact. It can be corrupted or redeemed in the same way it corrupts other items. That mechanism is the same. Once I realized that, the path became absolutely clear.*
+That evening they bought dinner for **Irabeth** and **Anevia** and told them the whole of it — the unhallowed shrine, the book under the bed, **Delamere** and her fifty-fourth man, the priest on the crystal coffin with his arms spread over the lava, the **Shikaf** coming out of his mouth, the atonement at dawn. **Irabeth** listened the way a commander listens for the security threat inside a story, and when she was satisfied that **Jeskar** had been a victim rather than a spy ring, she let herself enjoy the rest of it.
 
-The key, he explained, was repetition. He would need to work the forge while a priest cast ***Hallow*** continuously — every day, without interruption. The spell required twenty-four hours to cast and a thousand gold pieces in materials for each casting. Two priests working in shifts, minimum. It might take weeks. It might take a year. But at some point between one stroke of the hammer and the next, the **Corruption Forge** would become a **Redemption Forge** — and the crusade's entire strategic calculus would change.
+**Irabeth:** *You're out there in the Marchlands doing the kind of work I wish I could be doing.*
 
-**Joran:** *You had all these wizards and priests making holy items to help the crusade, and we were putting them in one end of the forge and cranking them out the other side, completely converted. Not just taking your pieces off the board — stealing them and putting them on our side. Now imagine you could turn the table.*
+They told her about the **Hidden Shrine** too, and how ***Sarenrae*** had sent one of her own to reconsecrate it.
 
-The party drafted letters that night. **Varic** wrote to the Church of ***Sarenrae*** in **Kenabres**, requesting dedicated priests for the project and laying out the strategic implications. **Harlock** wrote to the Church of ***Iomedae***, framing it as a military asset that warranted royal attention. Both letters carried the same argument: the **Corruption Forge**, redeemed, would be worth more to the crusade than a hundred swords.
+**Irabeth:** *You two are operating on a completely different level than me. The gods are at your beck and call. I can't even get the queen to talk to me.*
 
-### **The Cartographer**
+**Varic:** *It was a Tuesday.*
 
-**Anevia** summoned **Lupenor** to the citadel the following morning. In the planning room, a gnomish woman with pink hair sat on a chair that was slightly too tall for her, her boots dangling three inches above the floor. On a nearby perch, a hawk the size of a sparrow — a tiny, fierce-eyed thing with the unmistakable curved beak of a raptor — watched the room with an intelligence that was not entirely avian.
+Then the useful parts. Far out to the northwest, on the way home from the **Fallen Fane**, they had seen something in the sky they had chosen not to investigate — something that had looked, at that distance, like a dragon. **Anevia** put it together with the caravans immediately; she had been trying to fit a shape to those raids for weeks, and a dragon fit.
 
-**Anevia:** *I want you to meet our cartographer,* ***Selyse Avelia****. And this is* ***Horace****. Going forward, treat* ***Horace*** *like a person.*
+Then they told her what they meant to do next: take twelve of their own people out to the **Hidden Shrine**, dig it open, stock it, and hold it — and offer it to the crusade as a way station, on the understanding that keeping it supplied and keeping the road to it safe would be somebody else's problem. **Irabeth** came halfway out of her chair. **Queen Galfrey** had been asking her for exactly this for months: a forward position deep in the Worldwound, unremarkable from the outside, from which small teams could be staged for incursions behind the enemy's lines. The crusade had never had the people or the coin to build one.
 
-The briefing was blunt. **Selyse** was a wizard. **Horace** was her familiar. Together, they had produced more tactical maps for the crusade than any other intelligence asset **Anevia** possessed. Nobody outside this room could know what **Selyse** was. Nobody could connect her to the hawk. If the hawk was spotted by the hunting party they were bringing along — **Jeskar**'s congregation of ***Erastil*** worshippers, all of them archers and trackers — one poorly aimed arrow could cost the crusade its best cartographer.
+What she needed in return was cartography, because a secret base nobody can navigate to is not an asset. **Anevia** allowed that she knew a man — a wizard with a hawk familiar, who somehow saw through the bird's eyes and produced the finest top-down maps in the crusade, and who valued his privacy enough that she glanced at **Irabeth** before saying even that much. She would talk to him first. If he agreed, a runner would find them at the church.
 
-**Selyse:** *Don't shoot my bird. That's my thought.*
+And **Irabeth** had a thread of her own. The **Cult of the Ivory Labyrinth** was mobilizing to hunt down a particular demon — a heretic of their own kind, a succubus who had turned from the Abyss. Every informant inside the organization gave a different answer about where she was, which meant none of them knew, which meant she was still free. The party had met that story before, in pieces: the cell beneath the citadel carved over with the symbols of ***Desna***, the only place down there where the constant mental assault could not reach; **Staunton Vhane**'s journal naming a prisoner held in it; a reward posted in the **Fallen Fane**'s paperwork for her recovery. Nobody in the room could say what a succubus was doing praying to the goddess of dreams. **Irabeth** would very much like to know before the cult found out first.
 
-The cover story assembled itself in pieces. **Selyse** would pose as an architect and engineer — she had done it before on other expeditions, and she had the drafting tools to make it convincing. **Cornelia** would serve as **Horace**'s visible protector: a druid traveling with a hawk companion was unremarkable, and **Cornelia** already shifted into bird form regularly. If anyone asked about the hawk, it was the druid's pet. All birds were off the menu for the duration of the expedition. No exceptions.
-
-**Anevia** made one thing absolutely clear.
-
-**Anevia:** *Assume somebody in your party is either already a spy or is being used by one. If you don't see the leaker, it's because you're blind. The leaker is there. Trust that the leaker is there.*
+**Irabeth:** *And have you figured anything out about that forge? I was rather hoping you were our liaison with* ***Joran Vhane****. Go and talk to him tomorrow.*
 
 ### **The Sacred Hunt**
 
-**Lupenor** had one more visit to make before the expedition could depart. She found **Jeskar Hinton** in his shrine, sanding down a half-finished pew. He had been working himself raw since his return — trying to rebuild, hands and heart, what the demon had broken.
+In the morning **Lupenor** went to the shrine of ***Erastil*** in the southern quarter and found **Jeskar Hinton** sanding a plank of wood by himself. It would be the third pew. He did not have many pews. He had been working himself raw since his return, on the theory that a man who has betrayed the trust of his flock rebuilds it with his hands or not at all.
 
-**Jeskar:** *If I could lead an expedition out there and have a successful hunt, that would be an omen from* ***Erastil****. That our mission here in* ***Drezen*** *is sanctioned. My followers are hunters — honest hunters, salt of the earth people who respect the animals they're taking. But there's no way I'm going to survive the Marchlands with a couple of low-skilled followers. I need to be escorted, or I need the good fortune of the gods.*
+She had asked him, the day before, what help he wanted. He had asked for a day to pray about it. This was the answer.
 
-**Lupenor** invited him and his congregation to join the expedition to the Hidden Temple. **Jeskar**'s face opened like a door swinging wide. He would bring his hunters — **Cobb**, **Lenne**, **Durvik**, and **Pol** among them — and they would provide for the expedition while conducting their sacred hunt under the watchful eye of experienced warriors.
+**Jeskar:** *If I could lead an expedition out there and have a successful hunt, that would be an omen from* ***Erastil****. That our mission here in* ***Drezen*** *is sanctioned. My followers are hunters — some of them call themselves rangers; I couldn't tell you whether they've earned it. Honest hunters, salt of the earth, people who respect the animals they take. Not trophy men. But there's no way I survive the Marchlands with a couple of low-skilled followers. I need to be escorted, or I need the good fortune of the gods.*
+
+**Lupenor** invited him and his congregation onto the expedition to the **Hidden Shrine**. **Jeskar**'s face opened like a door swinging wide. His hunters would feed the column on the road and conduct their sacred hunt under the eyes of people who could keep them alive while they did it.
 
 **Jeskar:** *At the risk of being ungrateful — it would raise the esteem of our church and its humble priest if it could be known that you asked us to come.*
 
-The expedition roster filled out: **Rothin** and three acolytes to establish the temple. **Elara** and two paladins-in-training for security. **Rabiah**'s laborers to provide hands for digging and construction. **Jeskar**'s hunting congregation. **Selyse**, posing as an architect. And the four mythic heroes who had, against every reasonable expectation, turned a recaptured ruin into a living city and were now reaching outward into the Worldwound itself.
+That, she told him, could be arranged. Nobody mentioned who would be escorting the hunters home again afterward. That was a question for later, and later is where it stayed.
 
-They purchased four pack horses. They commissioned two scrolls of ***Secure Shelter*** — a rush job, nine hundred gold apiece, delivered in two days. They packed shovels, picks, rope, blankets, bedrolls, a month of food, and enough lamp oil to light a small war. **Irabeth**, upon hearing the plan, had nearly come out of her chair — **Queen Galfrey** had been asking for exactly this kind of forward outpost, and the crusade had never had the resources to establish one.
+### **The Forge**
 
-The preparations took three days. On the morning of the first of Neth, the gates of **Drezen** opened, and the expedition filed out — horses, hunters, priests, spies, heroes, and one very small hawk riding on a halfling druid's shoulder — heading southwest into the Marchlands, toward a buried temple and whatever the Worldwound would throw at them along the way.
+Her second visit of the day was to **Joran Vhane**, and she did not arrive empty-handed.
+
+The dwarf was still in his cell beneath the citadel, but the door was unlocked now and the guard outside it stood there more from habit than duty. **Joran** did not recognize her at first. Then he saw what was in her hand.
+
+**Joran:** *Is that a bottle of Drobane Ale? Right this way. Have a seat, have a seat.*
+
+He had been sitting on his breakthrough for weeks, and he was sore about it.
+
+**Joran:** *Every time I try to reach you I'm told you're out of town, messages can't get through, and nobody takes my requests seriously. I need a line of communication if I'm going to help with this. I've been stuck in the corner down here.*
+
+Three and a half glasses in, he told her what he had worked out.
+
+**Joran:** *The forge itself is an artifact. It can be corrupted or redeemed the same way it corrupts other things — that mechanism runs both directions. Once I realized that, the path became absolutely clear.*
+
+The key was repetition, and a man who knew the forge from the inside. **Joran** was the only living person who had stood in that room and worked it, sweating, doing labor that still made him want to be sick; he could not hand the job to anyone else. And he could not do it alone. He would need a priest casting ***Hallow*** on the forge every single day without a break — a twenty-four-hour casting, a thousand gold in materials each time, which meant at least two priests working in shifts, because one has to sleep while the other prays. Besides **Varic** there was no one in **Drezen** who could cast it at all.
+
+There was no telling how long. Not the hundredth stroke of the hammer, perhaps, nor the thousandth. But somewhere between one stroke and the next the **Corruption Forge** would become a **Redemption Forge**, and the crusade's whole strategic arithmetic would change.
+
+**Joran:** *You had all these wizards and priests making holy items to help the crusade, and we were putting them in one end and cranking them out the other completely converted. Not just taking your pieces off the board — stealing them and putting them on our side. Now imagine you could turn the table. I think the queen would want this to happen.*
+
+**Lupenor:** *Then why isn't she down here paying for it?*
+
+**Joran:** *That's a good question. Write some letters.*
+
+They wrote them that night. **Varic** wrote to the Church of ***Sarenrae*** in **Kenabres**, laying out the strategic case and asking for dedicated priests. **Harlock** wrote to the Church of ***Iomedae***, whose head is the queen, framing it as a military asset that warranted royal attention. Both letters made the same argument: the **Corruption Forge**, redeemed, would be worth more to the crusade than a hundred swords. **Irabeth** — who has the queen's ear on occasion, which is more often than anyone else in **Drezen** — agreed to carry them herself rather than trust them to a courier.
+
+### **The Cartographer**
+
+The next morning a runner brought **Varic** a summons to the citadel. The guard who ushered him into the planning room was visibly starstruck, and got so far into his own nerves that he addressed the priest as *your grace*, a title several ranks above anything **Varic** actually holds. **Varic** did not correct him.
+
+**Irabeth** was not there. **Anevia** was, and she waited until the door was shut.
+
+On a chair slightly too tall for her, boots swinging three inches clear of the floor, sat a gnome with pink hair. On a perch nearby was a hawk the size of a small songbird — unmistakably a raptor, in miniature, watching the room with an attention that was not entirely avian.
+
+**Anevia** had said *he*, twice, at dinner. That had been deliberate. It was the least of the lies she kept around this person.
+
+**Anevia:** *I want you to meet our cartographer,* ***Selyse Avelia****. And this is* ***Horace****. Going forward, treat* ***Horace*** *like a person.*
+
+**Selyse** looked **Varic** up and down.
+
+**Selyse:** *This is the guy? I thought you'd be taller.*
+
+The briefing was blunt. **Selyse** was a wizard. **Horace** was her familiar, and **Selyse** could see through his eyes; between them they had produced more detailed maps of the Worldwound than any other asset **Anevia** possessed. Nobody outside that room could know she was a wizard. Nobody could connect her to the hawk. And if that hawk were spotted anywhere near the column, by a congregation of ***Erastil***'s hunters who shoot birds for a living, one idle arrow would cost the crusade its best cartographer.
+
+**Anevia** talked herself out of the whole arrangement halfway through explaining it — *absolutely not, we can't do this, we'll think of another way* — while **Selyse** sat and endured being discussed in the third person.
+
+**Selyse:** *I'm a person. I'm right here. I can hear you talking about me.*
+
+She had exactly one requirement, and she stated it once.
+
+**Selyse:** *Don't shoot my bird. That's my thought.*
+
+The cover story got assembled in pieces, over the better part of an hour. **Selyse** would travel as an architect and engineer, which was a role she had played before and had the drafting tools to sell; there was a shrine to dig out and rebuild, so an engineer had a reason to be there and a reason to have her own table. The hawk needed a plausible owner who was not her. **Varic** sent the runner for **Cornelia** — a fox came down the corridor at a dead run and stood up as a halfling in the doorway — and the last piece fell in. A druid traveling with a hawk is the least remarkable thing in the Worldwound, and **Cornelia** already spent half her days in bird shape herself. **Horace** would be her companion, her pet, her business; and to make the rule impossible to misread, all birds would be off the menu for the duration. Chicken, goose, duck, hawk. No exceptions, and the hunters could shoot anything else that moved.
+
+**Selyse:** *And if I find out my bird was in danger at any moment, I have a scroll. I'm teleporting. I'm gone.*
+
+**Anevia:** *What's your fee?*
+
+**Selyse:** *I'm not doing this for money. I'm doing it for the queen.*
+
+Before **Varic** left, **Anevia** made one thing absolutely clear.
+
+**Anevia:** *Assume somebody in your party is either already a spy or is being used by one. If you don't see the leaker, it's because you're blind. The leaker is there. Trust that the leaker is there.*
+
+### **The Expedition**
+
+The roster filled out over two days. **Rothin** and a handful of acolytes to establish and hold the shrine — chosen partly because he can ***Stone Shape***, and a shrine that can be enlarged from the inside is worth more than a shrine that cannot. **Elara** and two of **Harlock**'s paladins-in-training for security. Laborers from **Rabiah**'s people for the digging. **Jeskar**'s hunting congregation. **Selyse**, posing as an architect. **Cornelia**, ostensibly minding a bird. Twelve in all, and behind them the four who had, against every reasonable expectation, turned a recaptured ruin into a living city and were now reaching outward into the Worldwound itself.
+
+They bought four pack horses at a hundred gold apiece, after establishing that nobody in **Drezen** would rent a horse to anyone walking into the Marchlands. **Harlock** wanted a knock-down shelter that could go on the horses and come back off them — something to put over twelve people and four animals when the sky decided to deliver hail or ash — and canvassed the carpenters of **Drezen** for a design. He got seven ideas back. Six were unbuildable. The seventh needed magic they did not have. In the end they solved it the expensive way and commissioned two scrolls of ***Secure Shelter***: a rush job at a thousand gold apiece, two days' work for the only scribe in the city who could write them.
+
+They packed shovels and picks against a buried entrance, rope, blankets, bedrolls, a month of food, five hundred gold of tenting and gear for the followers, and enough lamp oil to light a small war.
+
+On the morning of the first of Neth, the gates of **Drezen** opened, and the expedition filed out — horses, hunters, priests, spies, heroes, and one very small hawk riding on a halfling druid's shoulder — heading southwest into the Marchlands, toward a buried shrine and whatever the Worldwound would throw at them along the way.
 
 *— Session of February 28th, 2026 —*
 
@@ -786,7 +898,7 @@ They fanned out. **Jeskar** took **Durvik** on one flank. **Cobb** moved with **
 
 ### **The Battle in the Green**
 
-Events moved quickly after that. The first cultist conjured an ***Obscuring Mist*** and dropped its stolen boar. **Jeskar**, emerging from the fog bank on the trail, attempted to ***Command*** it — the spell fizzled against the cultist's will save. **Cobb**'s arrow drew first blood, a clean hit from composite longbow range. The cultist staggered but did not fall.
+Events moved quickly after that. The first cultist conjured an ***Obscuring Mist*** and dropped its stolen boar. **Jeskar**, emerging from the fog bank on the trail, threw a ***Command*** at it — and the word went into the cultist and found nothing in there willing to obey. **Cobb**'s arrow drew first blood, a clean hit from composite longbow range. The cultist staggered but did not fall.
 
 Then more of them appeared. A second cultist arrived from the north. Then a third — squirming, twitchy, head on a swivel, looking like an addict in desperate need of a fix. Then a fourth, who announced his presence by reading a scroll of ***Lightning Bolt*** that caught both **Lupenor** and **Durvik** in its path. **Durvik** took the full weight of it and went down bleeding. **Lupenor** made her save and absorbed fifteen — painful but survivable.
 
@@ -880,7 +992,7 @@ South by southwest. Not a vague impression, not a fleeting intuition that evapor
 
 The second night, **Harlock** dreamed again. The pull confirmed what the first dream had suggested: the source lay somewhere along a line extending south-southwest from their current position, toward the great lava fields and away from the Ahari tributary. He woke with an urge so powerful it frightened him — to hand command of the expedition to **Elara**, to walk away from his promises and his friends and his duties, and to simply follow the dream until he found whatever was calling.
 
-He did not do this. He was lawful good, and he had given his word to see this expedition through. But the dream did not care about his alignment or his promises. It would be there tomorrow night, and the night after, and every night until he answered it or it consumed him.
+He did not do this. He was a man of **Iomedae**, and he had given his word to see this expedition through, and for **Harlock** those two things have never been separable. But the dream did not care what he was, or what he had promised. It would be there tomorrow night, and the night after, and every night until he answered it or it consumed him.
 
 **Lupenor:** *When this expedition is done, I'd be more than happy to make sure we hit a point where we can take you that direction. You have my bow.*
 
