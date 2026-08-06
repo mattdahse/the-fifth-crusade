@@ -386,6 +386,8 @@ As they approached the entrance, a figure coalesced from the swirling dust. It w
 
 The threat was plain enough. So was the anguish behind it. Here was a crusader who had fought and died for the cause they now carried — a man whose reward for his service was to be twisted into an undead abomination by the land he had tried to protect, and then forced to watch as demons moved into his family tomb and defiled the remains of everyone he had loved.
 
+![**Varic:** *We'll clear it. You have my word.*](images/the-ghost-of-the-graveyard.png)
+
 **Varic:** *We'll clear it. You have my word.*
 
 ### **The Bodak**
