@@ -314,7 +314,7 @@ They slept in the temple they had cleansed — ***Sarenrae***'s temple now, with
 
 The night passed without intrusion. But it did not pass without incident.
 
-**Harlock** dreamed. The dream was not new — it was the oldest nightmare he carried, the one he had nearly outgrown. He was a child again, small and terrified, being dragged through torchlit corridors by hands he could not see. The altar was ahead. The knife was waiting. He had been kidnapped, he knew now, for sacrifice — plucked from the streets of whatever nameless town his childhood had dissolved into, and very nearly killed before someone, he could never remember who, had intervened.
+**Harlock** dreamed. The dream was not new — it was the oldest nightmare he carried, the one he had nearly outgrown. He was a child again, small and terrified, being dragged across cooling black rock by hands he could not see, the forge-glow of the lava seaming the crust on every side of him and the heat pressing at his face. The altar was ahead. The knife was waiting. He had been kidnapped, he knew now, for sacrifice — plucked from the streets of whatever nameless town his childhood had dissolved into, and very nearly killed before someone, he could never remember who, had intervened.
 
 ![He had nearly outgrown it. The Worldwound gave it back.](images/the-hands-he-could-not-see.png)
 
