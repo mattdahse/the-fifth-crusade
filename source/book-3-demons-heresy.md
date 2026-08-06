@@ -414,6 +414,8 @@ The Nabasu crouched in the lower crypt like a gargoyle come to life: bat-winged,
 
 **Rabiah** struck first. She had been waiting a long while for exactly this: a demon that believed itself immune to fire. She reached deep and cast ***Mythic Scorching Ray***, and the first lance of it went into the Nabasu's chest and *burned* — all of it, every part, straight through a protection the creature had trusted its whole existence. The demon flinched. The second ray landed too, turned aside in part and hardly mattering. The Nabasu was already reeling.
 
+![She had been waiting a long while for a demon that believed itself immune to fire.](images/the-demon-that-could-not-burn.png)
+
 **Lupenor** stepped up, picked her spot, and put five arrows into the demon before it could gather itself. Two of her remaining holy shafts went home, biting through a hide that should have turned them.
 
 It had time for two things. The first was the gaze. Everyone standing where it could see them felt it go through them like cold water and had to set their heels against it — **Harlock** held, **Elara** held, **Varic** held, **Rabiah** held. **Mira Thistledance**, furthest back of all of them, did not. The second was the axe. The demon came across the chamber at **Lupenor** and opened her twice with the blade and once with its teeth, and she was a good way from upright when it finished.
