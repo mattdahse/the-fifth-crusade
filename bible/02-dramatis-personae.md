@@ -24,6 +24,35 @@ Authoritative roster for names, spellings, and continuity. Curated by Matt; the 
 - **Abner Suthi** *(never "Avner")* — sugar merchant and devotee of Abadar; rescued from the vrocks' ritual above the lava lake, slain there by lightning, and raised by Varic in Drezen's temple of Sarenrae. Now trades honey and sweets through Lupenor's Market.
 - **Tam** — a conscript from Nerosyan who deserted to join Rabiah's Redeemers.
 
+## The Marchlands Expedition
+
+The twenty who marched west out of Drezen's gate on the 1st of Neth, 4713, to reopen the Hidden Temple of Sarenrae (Book III, *The Acid and the Arrow*). Bios and portraits imported from the Fantasy Grounds campaign, category **Marchlands Expedition**.
+
+*Harlock's paladin trainees*
+
+- **Deren Ashfall** *(never "Daren" — the Fantasy Grounds token file is misnamed)* — human paladin of nineteen, Kenabres craftsman's son; earnest to a fault and a hero-worshipper of Harlock.
+- **Sera Vost** — half-elf fighter of thirty-one, twelve years Kenabres city watch; a burn scar wrist to elbow that she explains differently every time. Quiet, watchful, more experienced than she looks.
+
+*Rabiah's laborers*
+
+- **Tobias Runt** — human master carpenter of forty-four, Kenabres; lost workshop, tools and wife in the city's fall. Practical, undramatic, the expedition's de facto project manager.
+- **Fenna Tusk** — half-orc girl of seventeen, born in occupied Drezen; boundless, loyal, self-appointed assistant to Cornelia Dewfoot.
+
+*Jeskar's hunters (the Erastil congregation)*
+
+- **Cobb Harwick** — human ranger of fifty-one, thirty years in the Marchlands; leader of the hunters in all but title, and the most likely of them to notice he is being kept in the dark.
+- **Lenne Marsh** — human ranger of twenty-three; skilled, overconfident, and the one who nearly put an arrow through a hawk at the western gate.
+- **Durvik Stonesign** — dwarf warrior of sixty-eight, trapper and perimeter man; deliberate, private, and vague about where he came from. *(No portrait in the Fantasy Grounds campaign — still needs one.)*
+- **Pol Ashden** — human camp cook and skinner of sixty, forty years at the trade; teller of long stories, incapable of noticing subtext, and the maker of the cobbler that saved the expedition's morale.
+
+*Rothin's acolytes of Sarenrae (the shrine contingent — staying at the Hidden Temple)*
+
+- **Adara Seln** *(the Fantasy Grounds token file reads "sein" — the name is **Seln**)* — human cleric of Sarenrae, twenty; survived Kenabres in the temple vaults, and answers fear by organizing things.
+- **Brix Copperfinch** — gnome adept of a hundred and twelve; scholar of Sarenrae's worship in pre-Worldwound Sarkoris, permanently late, permanently talking.
+- **Oswin Tall** — human handyman and lay brother of thirty-eight, five foot two; holds that honest work is a form of prayer.
+
+*Also on the march, and not yet given cast entries:* **Jeskar Hinton**, priest of Erastil and the hunters' shepherd, and **Selyse Avelia**, the expedition's architect *(the Fantasy Grounds record spells her "Selise Aviala")*. Neither has a bio in the campaign file.
+
 ## Persons of Interest
 
 - **Arueshalae** — the penitent, redeemed succubus of Desna; long hunted across the Worldwound; sheltered by the company at Takira's Redoubt.
