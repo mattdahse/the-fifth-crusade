@@ -38,12 +38,7 @@ The twenty who marched west out of Drezen's gate on the 1st of Neth, 4713, to re
 - **Tobias Runt** — human master carpenter of forty-four, Kenabres; lost workshop, tools and wife in the city's fall. Practical, undramatic, the expedition's de facto project manager.
 - **Fenna Tusk** — half-orc girl of seventeen, born in occupied Drezen; boundless, loyal, self-appointed assistant to Cornelia Dewfoot.
 
-*Jeskar's hunters (the Erastil congregation)*
-
-- **Cobb Harwick** — human ranger of fifty-one, thirty years in the Marchlands; leader of the hunters in all but title, and the most likely of them to notice he is being kept in the dark.
-- **Lenne Marsh** — human ranger of twenty-three; skilled, overconfident, and the one who nearly put an arrow through a hawk at the western gate.
-- **Durvik Stonesign** — dwarf warrior of sixty-eight, trapper and perimeter man; deliberate, private, and vague about where he came from. *(No portrait in the Fantasy Grounds campaign — still needs one.)*
-- **Pol Ashden** — human camp cook and skinner of sixty, forty years at the trade; teller of long stories, incapable of noticing subtext, and the maker of the cobbler that saved the expedition's morale.
+*Jeskar's hunters — see **Followers of Erastil** below*
 
 *Rothin's acolytes of Sarenrae (the shrine contingent — staying at the Hidden Temple)*
 
@@ -51,7 +46,17 @@ The twenty who marched west out of Drezen's gate on the 1st of Neth, 4713, to re
 - **Brix Copperfinch** — gnome adept of a hundred and twelve; scholar of Sarenrae's worship in pre-Worldwound Sarkoris, permanently late, permanently talking.
 - **Oswin Tall** — human handyman and lay brother of thirty-eight, five foot two; holds that honest work is a form of prayer.
 
-*Also on the march, and not yet given cast entries:* **Jeskar Hinton**, priest of Erastil and the hunters' shepherd, and **Selyse Avelia**, the expedition's architect *(the Fantasy Grounds record spells her "Selise Aviala")*. Neither has a bio in the campaign file.
+- **Selyse Avelia** *(the Fantasy Grounds record spells her "Selise Aviala"; the chronicle spelling governs)* — Anevia's spy and cartographer, charged with mapping the Marchlands and travelling under a cover story as the expedition's architect. A wizard; her familiar is the kestrel **Horace**, through whose eyes she sees, which is why no bird may be shot on the march. She teleported out with her maps when the deraknis came. More of her story is still to come — flesh this entry out as it lands.
+
+## Followers of Erastil
+
+Jeskar Hinton's congregation in Drezen — hunters and trappers who took the sacred hunt into the Worldwound with the expedition to the Hidden Temple.
+
+- **Jeskar Hinton** *(never "Jesker" — the Fantasy Grounds bios use that spelling; the chronicle governs)* — young priest of Erastil, drawn north by devotion and by an interest in old Sarkorian worship. Possessed for months by a shikaf demon that had stolen his mother's ring as a trophy; taken off the ledge above the lava gorge by the company, freed, and given an atonement by Varic — a priest of Sarenrae kneeling with one of Erastil's. Asked to bring his hunters west as a sign that the work in Drezen was sanctioned.
+- **Cobb Harwick** — human ranger of fifty-one, thirty years in the Marchlands; leader of the hunters in all but title, and the most likely of them to notice he is being kept in the dark.
+- **Lenne Marsh** *(the chronicle calls her "Lenny" once, in* The Beacon and the Wyrm *— **Lenne** is correct)* — human ranger of twenty-three; skilled, overconfident, and the one who nearly put an arrow through a hawk at the western gate.
+- **Durvik Stonesign** — dwarf warrior of sixty-eight, trapper and perimeter man; deliberate, private, and vague about where he came from. *(No portrait in the Fantasy Grounds campaign — still needs one.)*
+- **Pol Ashden** — human camp cook and skinner of sixty, forty years at the trade; teller of long stories, incapable of noticing subtext, and the maker of the cobbler that saved the expedition's morale.
 
 ## Persons of Interest
 
