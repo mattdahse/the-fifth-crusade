@@ -492,6 +492,8 @@ Its extradimensional gullet ruptured as it died. **Chyrrik** and **Lupenor** spi
 
 **Varic** channeled positive energy until everyone was standing upright without assistance. Wands were passed around. Potions were drunk. The physical wounds closed, but the look in people's eyes did not change. **Mira** sat apart from the group, plucking absently at her lute strings, still carrying whatever it was the Nabasu had taken out of her. **Chyrrik** cleaned her new longsword in silence, scrubbing the digestive acid from the blade with a piece of torn cloth. **Lupenor** would not go near the carcass and said so plainly, and nobody pressed her about it. It was **Rabiah** who went back to it with a knife — because she was the one who knew that a bag of holding is stitched together out of exactly that, and that three pounds of it was worth having, and because there is a particular satisfaction in cutting up a thing that has spent the afternoon trying to digest your friends.
 
+![Battered, acid-scarred, and exactly one of them still immaculate.](images/drezen-at-dusk.png)
+
 They marched the final miles in near silence, following the Ahari until the land began to rise and the walls of **Drezen** appeared on the eastern horizon, backlit by the last amber light of a setting sun. The gates were open. The sentries recognized them. And as the party passed through the outer defenses and into the streets of the city they had liberated — battered, acid-scarred, one member permanently diminished, all of them carrying the kind of exhaustion that sleep alone cannot cure — it occurred to more than one of them that the Worldwound had not merely tested them on this journey.
 
 It had tasted them. And it had decided to let them go.
