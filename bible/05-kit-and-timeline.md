@@ -43,7 +43,7 @@ scene by scene as needed. The only weapons that become fixed *once acquired* are
 inline (Harlock's *Radiance*, from its recovery onward; Lupenor's bow, her constant).
 
 ### Harlock Greyforge
-![Harlock's Era I kit — the dimmed blade, the plain breastplate.](../images/the-dimmed-blade.png)
+![Harlock's Era I kit — the dimmed blade, the plain breastplate.](../images/the-dimmed-blade.webp)
 - **Armor:** a plain, battered **steel breastplate bearing Iomedae's holy symbol — a
   vertical sword, point down, in front of a blazing sun** — over a padded gambeson.
   **NO pauldrons, gauntlets, greaves, or filigree. NO golden plate** — that is his
@@ -61,7 +61,7 @@ inline (Harlock's *Radiance*, from its recovery onward; Lupenor's bow, her const
   Radiance can blaze with gold-white holy light.**
 
 ### Varic Sarian
-![Varic's Era I kit — the humble priest, no gold.](../images/the-burning-sky.png)
+![Varic's Era I kit — the humble priest, no gold.](../images/the-burning-sky.webp)
 - **Armor:** a humble Sarenrae priest, **not** the resplendent later look — a plain,
   battered **chain shirt or padded leather over simple travel robes**, ash-smeared.
 - **Marks of faith:** a **deep-red scarf** at the throat; a **plain iron sunburst holy
@@ -71,12 +71,12 @@ inline (Harlock's *Radiance*, from its recovery onward; Lupenor's bow, her const
   blade, passed to him by Lupenor) and later *Battle Hymn* are **LATER** acquisitions.
 
 ### Rabiah
-![Rabiah's Era I look — hooded green, uncannily clean.](../images/rabiahs-raw-magic.png)
+![Rabiah's Era I look — hooded green, uncannily clean.](../images/rabiahs-raw-magic.webp)
 - **Clothes:** layered **green hooded traveling clothes** — and, true to her nature,
   **always neat, whole, and uncannily clean even here** (she keeps herself tidy with
   habitual little cantrips of prestidigitation). **She is the one character whose gear is
   NOT grimy in the deep** — the contrast is the point. **One sanctioned exception:**
-  [`../images/the-freeing-of-anevia.png`](../images/the-freeing-of-anevia.png), the very
+  [`../images/the-freeing-of-anevia.webp`](../images/the-freeing-of-anevia.webp), the very
   first hour after the demon-fall, where she is as filthy as everyone else — nobody is
   thinking about cantrips yet, and she has just hauled a stranger out of the rubble with
   her bare arms. **Scene-specific. Do not carry it forward** — she is spotless everywhere
@@ -111,7 +111,7 @@ way from gilded. Only what is listed here has changed.
 ### Harlock Greyforge
 - **Shield — CHANGED.** The scavenged wooden shield is gone. From the vault he takes a
   ***steel shield of blinding***: **the large, richly-worked shield seen in his canonical
-  portrait** ([`../characters/harlock.png`](../characters/harlock.png)) — substantial, metal,
+  portrait** ([`../characters/harlock.webp`](../characters/harlock.webp)) — substantial, metal,
   finely bordered — blazoned across its face with **Iomedae's holy symbol: a vertical sword,
   point down, in front of a blazing sun.** Being a shield *of blinding*, it may catch and throw
   a hard flare of light when the scene calls for it; at rest it is simply a fine steel shield.
@@ -121,7 +121,7 @@ way from gilded. Only what is listed here has changed.
   NO gauntlets, NO greaves, NO filigree, NO golden full plate.** He took a shield from that
   vault and nothing else. **Avoid:** `steel pauldrons, shoulder armour, gauntlets, greaves,
   golden full plate`.
-  *(Accepted drift: [`../images/the-march-of-the-glowing-ones.png`](../images/the-march-of-the-glowing-ones.png)
+  *(Accepted drift: [`../images/the-march-of-the-glowing-ones.webp`](../images/the-march-of-the-glowing-ones.webp)
   gives him steel pauldrons. Matt has let that one slide; it is not a kit change, and new art
   goes back to bare shoulders over the gambeson.)*
 - ***Radiance* — unchanged.** Awakened since Ch. VI; a golden longsword that can blaze with
@@ -141,10 +141,10 @@ that vault, ask Matt and add it here before illustrating it.
 canyon, and the siege of **Drezen**.
 
 **Derived from the shipped art, not from a prior guide entry.** This block was written after
-the fact by reading the Book II images themselves — [`../images/the-bargain-at-the-gwerm-estate.png`](../images/the-bargain-at-the-gwerm-estate.png),
-[`../images/the-arm-that-held-them.png`](../images/the-arm-that-held-them.png),
-[`../images/the-column-of-cloud.png`](../images/the-column-of-cloud.png),
-[`../images/he-is-a-paladin-now.png`](../images/he-is-a-paladin-now.png) — which agree with each
+the fact by reading the Book II images themselves — [`../images/the-bargain-at-the-gwerm-estate.webp`](../images/the-bargain-at-the-gwerm-estate.webp),
+[`../images/the-arm-that-held-them.webp`](../images/the-arm-that-held-them.webp),
+[`../images/the-column-of-cloud.webp`](../images/the-column-of-cloud.webp),
+[`../images/he-is-a-paladin-now.webp`](../images/he-is-a-paladin-now.webp) — which agree with each
 other. Where a new Book II image disagrees with this block, the block is wrong; fix it here.
 
 ### Varic Sarian — **still not gilded, and this is the one that keeps drifting**
@@ -189,11 +189,11 @@ and lettered in celestial script, and hummed with abjuration. **Harlock claimed 
 once the shrine's mimics were dead. Everything else in Era III still holds; only Harlock's body
 armor changes here.
 
-### Harlock Greyforge — **CHANGED: this is the later look from `characters/harlock.png`**
+### Harlock Greyforge — **CHANGED: this is the later look from `characters/harlock.webp`**
 - **Armor — upgraded.** The plain battered breastplate and gambeson are retired. From this scene
   onward he wears the **ornate golden full plate** seen in his canonical portrait: shaped
   gold-and-steel plates with fine engraved scrollwork, full pauldrons, gauntlets, and greaves.
-  Take the armor design directly from `characters/harlock.png`.
+  Take the armor design directly from `characters/harlock.webp`.
 - **Shield — unchanged.** Still the ***steel shield of blinding*** from the Book I vault,
   blazoned with the sword-and-sun — the portrait shows it re-gilded to match the new armor, which
   is consistent, not a separate item.
@@ -229,7 +229,7 @@ still holds; only Varic changes here.
 ### Varic Sarian — **CHANGED: he is in full plate from here on**
 - **Armor — upgraded, and this supersedes the Era III/IV "still not gilded" note for all scenes
   from Ch. XVI onward.** He now wears **full plate**, and the design is taken from his canonical
-  portrait [`../characters/varic.png`](../characters/varic.png): a shaped **gold-and-steel
+  portrait [`../characters/varic.webp`](../characters/varic.webp): a shaped **gold-and-steel
   breastplate with fine red-and-gold filigree scrollwork**, **steel pauldrons on BOTH shoulders**,
   plate vambraces and legs, **chainmail visible beneath** at the sleeves and skirt. Render it
   **campaign-worn — scratched, dirty, fought-in — never parade-bright.**
@@ -268,16 +268,16 @@ kit forward. Things that belong to **later** eras, **not** Era I:
 Two early Book I images were made **before** Varic's humble Era I kit was settled, and show
 him **already gilded**, inconsistent with Era I above:
 
-- [`../images/the-mongrels-of-the-deep.png`](../images/the-mongrels-of-the-deep.png)
-- [`../images/the-host-of-sorrowful-stone.png`](../images/the-host-of-sorrowful-stone.png)
+- [`../images/the-mongrels-of-the-deep.webp`](../images/the-mongrels-of-the-deep.webp)
+- [`../images/the-host-of-sorrowful-stone.webp`](../images/the-host-of-sorrowful-stone.webp)
 
 **Decision pending (Matt):** regenerate these two to the humble kit, or accept the drift.
 
 **Harlock's holy symbol predates this rule.** The sword-and-sun device was settled only at the
 Book I Epilogue. Every Harlock image made before it — the chest device in
-[`../images/the-dimmed-blade.png`](../images/the-dimmed-blade.png),
-[`../images/the-kindling-of-radiance.png`](../images/the-kindling-of-radiance.png),
-[`../images/the-worm-wearers-at-the-threshold.png`](../images/the-worm-wearers-at-the-threshold.png)
+[`../images/the-dimmed-blade.webp`](../images/the-dimmed-blade.webp),
+[`../images/the-kindling-of-radiance.webp`](../images/the-kindling-of-radiance.webp),
+[`../images/the-worm-wearers-at-the-threshold.webp`](../images/the-worm-wearers-at-the-threshold.webp)
 and the rest of Book I — shows a **bare starburst with no sword**, or no legible device at all.
 
 **Decided (Matt, July 2026): leave the prior art in place.** The bare starburst stands in the

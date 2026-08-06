@@ -4,7 +4,7 @@ The chronicle has one house look. Every image made for it — chapter illustrati
 scenes, portraits, group shots — is rendered in this style so the archive reads as a
 single illustrated work rather than a scrapbook of clashing generators.
 
-**The definitive exemplar is [`../images/arueshalae.png`](../images/arueshalae.png)**
+**The definitive exemplar is [`../images/arueshalae.webp`](../images/arueshalae.webp)**
 (the winged archer on a ruined skyline). When in doubt, match that image.
 
 ---
@@ -80,7 +80,7 @@ description alone — they must be recognizable from picture to picture. If a sc
 several canon characters, provide every available reference. New (unlisted) characters
 are rendered fresh in this style and, once settled, added to the registry.
 
-**Before writing the prompt, open the portrait.** Read the actual `characters/*.png`
+**Before writing the prompt, open the portrait.** Read the actual `characters/*.webp`
 and verify the `CANON.md` row against it — never write a likeness from memory or from
 the row alone. A wrong anchor propagates silently into published art.
 
@@ -108,7 +108,7 @@ new angle rather than a re-shot of the old composition. Then write the room's sp
 prompt body from what the PNG actually shows; the attached reference alone will not carry them.
 
 *Learned on the **Corruption Forge**. The Ch. XVII image
-[`../images/the-cage-over-the-forge.png`](../images/the-cage-over-the-forge.png) had already
+[`../images/the-cage-over-the-forge.webp`](../images/the-cage-over-the-forge.webp) had already
 established it as a long **barrel-vaulted hall** — furnace at the far end with a white-hot arched
 mouth at floor level, red rune-carving, and the cage running an **overhead rail and girder** along
 the ceiling. The Ch. XVIII prompt was drafted from the chapter text alone and described a **vertical
@@ -117,11 +117,11 @@ a different room, and it would have shipped two irreconcilable views of the same
 apart. Matt caught it by asking whether the earlier shot should be referenced.*
 
 Locations with an established look so far: the **Corruption Forge**
-([`the-cage-over-the-forge`](../images/the-cage-over-the-forge.png), and
-[`the-ice-that-would-not-lie`](../images/the-ice-that-would-not-lie.png) for its floor and its salamanders) and
-the **Ritual Chamber** ([`the-line-the-ice-drew`](../images/the-line-the-ice-drew.png)), and the
+([`the-cage-over-the-forge`](../images/the-cage-over-the-forge.webp), and
+[`the-ice-that-would-not-lie`](../images/the-ice-that-would-not-lie.webp) for its floor and its salamanders) and
+the **Ritual Chamber** ([`the-line-the-ice-drew`](../images/the-line-the-ice-drew.webp)), and the
 **Defiled Temple of Sarenrae** below the cliff path — the **Baphomet** shrine at the mouth of the
-Ivory Labyrinth ([`the-blinding-flash`](../images/the-blinding-flash.png), Book III Ch. I): a large
+Ivory Labyrinth ([`the-blinding-flash`](../images/the-blinding-flash.webp), Book III Ch. I): a large
 vaulted stone chamber inside the cliff, heavy square pillars and a groin-vaulted ceiling lost in
 darkness, ancient masonry whose **Sarenrae** sun-motifs have been hacked off and replaced with
 standing idols of a **goat-headed winged demon** — shaggy goat's head, long ridged curling ram's
@@ -132,18 +132,18 @@ full plate, richly made and demonic in style, and carry **glaives**. The company
 this place in later chapters — match this hall's architecture, materials and palette, but not its
 camera position. **⚠️ THIS HALL HAS TWO CANONICAL STATES, AND YOU MUST PICK THE RIGHT ONE.**
 **BEFORE** *The Fane Remade* (Book III Ch. II) it is the defiled temple above: dark, dim, blackened
-stone, blood-script, goat-headed idols — [`the-blinding-flash`](../images/the-blinding-flash.png).
+stone, blood-script, goat-headed idols — [`the-blinding-flash`](../images/the-blinding-flash.webp).
 **FROM THE MOMENT THE HERALD'S SERVANTS SWEEP THROUGH IT, it is re-hallowed and it never goes back:
 every surface becomes WHITE MARBLE SHOT WITH THIN GOLD VEINS, the corruption gone entirely, and the
 enormous goat-headed idol at the far end is now an ENORMOUS SERENE SARENRAE** with a radiant sun-disk
-— [`the-wall-remade`](../images/the-wall-remade.png) for the material and
-[`the-empty-ropes`](../images/the-empty-ropes.png) for the transformed hall. For any scene set here
+— [`the-wall-remade`](../images/the-wall-remade.webp) for the material and
+[`the-empty-ropes`](../images/the-empty-ropes.webp) for the transformed hall. For any scene set here
 afterwards, attach the *after* images, and if you also attach `the-blinding-flash` for its
 architecture, say explicitly that you want **its layout ONLY and not its surfaces** — a dark
 reference will drag the render back toward the drab room. *(Caught by Matt, Aug 2026: the first
 staging of `the-empty-ropes` had the judgment happening in the old dim temple, one scene after the
 place had been made new.)* The switchback stair and the smashed **Sarenrae** relief on the cliff face above
-it are established by [`the-broken-sarenrae`](../images/the-broken-sarenrae.png). Add a line
+it are established by [`the-broken-sarenrae`](../images/the-broken-sarenrae.webp). Add a line
 here the first time any location is illustrated.
 
 **A figure high above the ground needs its SCALE pinned, or it becomes a god.** Put a hero in the

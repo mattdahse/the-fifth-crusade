@@ -62,7 +62,7 @@ Scan the recap for **new persons of importance** and update the `CAST` array in 
 
 Entry shape: `['Name','one-line role']`. **CRITICAL:** these are single-quoted JS strings — every apostrophe *inside* a string must be a **curly ’** (U+2019), never a straight `'`, or the page breaks silently. Curly quotes “ ” and em-dashes — are fine. The Cast is served straight from `index.html` (no rebuild needed for Cast-only edits), but a bad quote won't show up in the raw-HTML checks — re-read the edited entries to confirm.
 
-**Portraits.** A cast member with a canonical portrait shows a thumbnail on the Cast gallery (and a click-to-enlarge lightbox). The likeness lives in `characters/` and is wired via the `PORTRAITS` map in `index.html` (`'<Cast Name>': 'characters/<file>.png'`, keyed by the exact cast name). To give a character a portrait, see **Illustrations** below and follow `characters/CANON.md`. A cast entry with no portrait simply renders as text — portraits are optional.
+**Portraits.** A cast member with a canonical portrait shows a thumbnail on the Cast gallery (and a click-to-enlarge lightbox). The likeness lives in `characters/` and is wired via the `PORTRAITS` map in `index.html` (`'<Cast Name>': 'characters/<file>.webp'`, keyed by the exact cast name). To give a character a portrait, see **Illustrations** below and follow `characters/CANON.md`. A cast entry with no portrait simply renders as text — portraits are optional.
 
 ## Workflow — 3. Secrets (Fantasy Grounds Player Notes)
 
@@ -81,26 +81,26 @@ Extract: read db.xml with `[IO.File]::ReadAllText`, pull the `<notes>…</notes>
 ## Illustrations & the house art style
 
 The archive is illustrated. Three files govern all of it:
-- **`bible/04-visual-style-guide.md`** — the one house look for every generated image (derived from the definitive exemplar `images/arueshalae.png`): cinematic painterly fantasy realism, single cold light source, muted earthy palette with one luminous accent, desolate Worldwound settings. Read it before generating any art.
-- **`characters/CANON.md`** — the canonical portrait registry: one authoritative likeness per named character, in `characters/<kebab-name>.png`, with the "likeness anchors" (face, build, coloring) that must never drift.
+- **`bible/04-visual-style-guide.md`** — the one house look for every generated image (derived from the definitive exemplar `images/arueshalae.webp`): cinematic painterly fantasy realism, single cold light source, muted earthy palette with one luminous accent, desolate Worldwound settings. Read it before generating any art.
+- **`characters/CANON.md`** — the canonical portrait registry: one authoritative likeness per named character, in `characters/<kebab-name>.webp`, with the "likeness anchors" (face, build, coloring) that must never drift.
 - **`bible/05-kit-and-timeline.md`** — the era-by-era **gear** guide. A character's face is constant (CANON) but their armour/weapons/relics change as the story advances. Read the era block matching the scene and take the kit from there — early Book I is battered and poorly-equipped, **not** the later gilded look (early Harlock has no golden plate and a dimmed, lightless Radiance; early Varic is a humble priest, no gold circlet or filigree). Update this file when the company re-equips.
 
 **The iron rule when generating art (via the `chatgpt-image-gen` skill or any image tool):**
 
-**Step 0 — PRE-FLIGHT, never skip.** Before writing a single word of the prompt, **`Read` the actual `characters/*.png` for every character in the scene** and check the `CANON.md` row against what you see. Do NOT write the prompt from the row alone, and never from memory. This step exists because it was skipped once: the row said Harlock had "small lower tusks" (he has none — clean human jaw) and described Arueshalae's armor as a "leather harness" (it's a fully-covered, long-sleeved leather jacket). Both errors went straight into the prompt and into the published art. If the PNG and the row disagree, **fix the row first**, then prompt.
+**Step 0 — PRE-FLIGHT, never skip.** Before writing a single word of the prompt, **`Read` the actual `characters/*.webp` for every character in the scene** and check the `CANON.md` row against what you see. Do NOT write the prompt from the row alone, and never from memory. This step exists because it was skipped once: the row said Harlock had "small lower tusks" (he has none — clean human jaw) and described Arueshalae's armor as a "leather harness" (it's a fully-covered, long-sleeved leather jacket). Both errors went straight into the prompt and into the published art. If the portrait and the row disagree, **fix the row first**, then prompt.
 
 1. Render in the house style from `04-visual-style-guide.md` (use its prompt scaffold).
 2. **Attach the canonical portraits as reference images.** They cannot be attached programmatically — see *Attaching references* below — but they are worth the manual step for any scene with a canon character. Text anchors alone are a fallback, not the standard.
 3. **State the corrections as explicit negatives.** Positive description is not enough; image models supply their own defaults for anything left unsaid. Copy the relevant lines from `CANON.md`'s "Known drift" section into the prompt body *and* the `Avoid:` line — e.g. "no tusks, no underbite, clean strong human-like jaw"; "fully covered, modest, practical armor — not a bikini, harness, bare midriff or cleavage."
 4. **QA against the references before publishing.** `Read` the generated PNG and check each character feature-by-feature against their portrait. Regenerate rather than shipping a drifted likeness.
-5. A genuinely new character is rendered fresh in the house style; once their look is settled, add them to the registry (save `characters/<name>.png`, add a row to `CANON.md`, and — if they're in the Cast — a `PORTRAITS` entry in `index.html`).
+5. A genuinely new character is rendered fresh in the house style; once their look is settled, add them to the registry (save `characters/<name>.webp`, add a row to `CANON.md`, and — if they're in the Cast — a `PORTRAITS` entry in `index.html`).
 
 **Attaching references (the working procedure).** Every automated channel for getting local image bytes into ChatGPT is blocked: `fetch`/`<img>` from a localhost server dies on Chrome's Private Network Access; OS-clipboard + Ctrl-V doesn't trigger a real paste via CDP; `file_upload` needs a ref from `find`/`read_page`, which time out on chatgpt.com; `upload_image` can't reach captured screenshots. A synthetic `ClipboardEvent` carrying a `File` **does** work — ChatGPT attaches it — but building that `File` requires the base64 in-page, and transcribing ~20k chars by hand corrupts it. So:
-1. Copy the needed `characters/*.png` to `~/Downloads` with obvious names (`REF-1-<name>.png`, …).
+1. Copy the needed `characters/*.webp` to `~/Downloads` with obvious names (`REF-1-<name>.webp`, …).
 2. Paste the prompt into the composer (it can sit there un-sent), naming them in order as `REFERENCE 1 = …`, `REFERENCE 2 = …`.
 3. Ask Matt to drag those files into the composer and either send, or say "dropped" so you send. It costs him ten seconds and is far cheaper than the alternatives.
 
-**Inline images in a chapter or secret.** Both readers render a standalone markdown image as a captioned figure. Put the file in `images/` (scene art) and, on its own line/paragraph, write `![Caption text](images/<file>.png)`. The alt text is the caption (may hold *italics*/**bold**); an empty caption gives a bare image. `build.ps1` keeps the caption in the search index. A chapter-opening illustration goes between the subtitle line and the first `###`.
+**Inline images in a chapter or secret.** Both readers render a standalone markdown image as a captioned figure. Put the file in `images/` (scene art) and, on its own line/paragraph, write `![Caption text](images/<file>.webp)`. The alt text is the caption (may hold *italics*/**bold**); an empty caption gives a bare image. `build.ps1` keeps the caption in the search index. A chapter-opening illustration goes between the subtitle line and the first `###`.
 
 ## Present results
 

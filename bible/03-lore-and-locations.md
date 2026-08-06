@@ -34,7 +34,7 @@ first time any named item is illustrated.
   the hilt runs a line of **flowing celestial script** — *Protect us from evil in this solemn hour*
   — etched into the steel, catching the light. It carries **no gems and no glow**; it is a good
   soldier's sword, made in the First Crusade and kept. Travels in a **long wooden case lined with
-  dark cloth**. Established look: [`../images/solemn-hour.png`](../images/solemn-hour.png).
+  dark cloth**. Established look: [`../images/solemn-hour.webp`](../images/solemn-hour.webp).
   *Avoid:* a jewelled or gilded blade, a glowing blade, a greatsword or curved blade, a fantasy
   sword with spikes or scrollwork, runes that are not flowing script.
 - ***Soul Shear*** — **Staunton Vhane**'s intelligent unholy glaive: a **polearm**, not a sword.
@@ -45,7 +45,7 @@ first time any named item is illustrated.
   with. **Its cutting edge burns with cold violet-white light** — a jagged, crawling energy that
   runs the length of the edge and throws violet onto everything near it. That violet is the same
   light behind Staunton's eye-slit, and it is the image's single luminous accent. Established
-  look: [`../images/last-charge-of-staunton-vhane.png`](../images/last-charge-of-staunton-vhane.png).
+  look: [`../images/last-charge-of-staunton-vhane.webp`](../images/last-charge-of-staunton-vhane.webp).
   *Avoid:* a sword of any kind, a scythe, a spear or narrow spike, a straight blade, a short haft,
   a wrapped or leather grip, gems, gold, red or green glow, skulls or spikes on the haft.
 - **The Kenabres Wardstone fragment** — the last and largest surviving piece: a single rough,
@@ -65,7 +65,7 @@ first time any named item is illustrated.
   sun behind its crosspiece.** **It is flawless** — decades in demon hands left no stain, tear,
   scorch, or fading, and this holds however ruined the setting around it — and it carries **a
   faint divine radiance of its own**, a soft gold-white glow in the weave that lights the air
-  near it. Established look: [`../images/the-sword-of-valor.png`](../images/the-sword-of-valor.png).
+  near it. Established look: [`../images/the-sword-of-valor.webp`](../images/the-sword-of-valor.webp).
   *Avoid:* a pennant or triangular pennon, a rectangular flag with a straight hem and no
   tails, a square flag, a banner on a plain vertical pole with no crossbar, cloth hung from a
   side-mounted sleeve or flown from a mast, wider-than-tall proportions, heraldic beasts or any

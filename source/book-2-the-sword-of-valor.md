@@ -20,13 +20,13 @@ Before dawn a knock came at each door. **Irabeth** waited in the Gray Garrison w
 
 ### **A Road of Ashes**
 
-![**Lupenor** finds cloven prints burned into the earth, and something larger walking beside them. Whatever passed this way is still ahead.](images/a-road-of-ashes.png)
+![**Lupenor** finds cloven prints burned into the earth, and something larger walking beside them. Whatever passed this way is still ahead.](images/a-road-of-ashes.webp)
 
 The omens gathered as they went. A farmstead stood gutted and smoking, a charred figure curled in its corner, a gnawed bone in the ash. Lupenor read the tracks: cloven hooves that scorched the very grass where they fell, and larger prints beside them, unshod and wrong. An abandoned cart, a dead horse. Then a voice — **Radiance**, the blade at Harlock's hip, waking to speak. *These were made by brimoraks,* she warned, *little demons full of fire and hate. If you have any protection from flame, put it on now.* Varic, already warded by Sarenrae's own fire, laid the same guard upon his companions. It would prove the difference between a hard day and a grave.
 
 ### **The Stables**
 
-![He reached the girl first. What he had left, half-slain, **Varic** spent on **Harlock**.](images/the-hands-of-the-dawnflower.png)
+![He reached the girl first. What he had left, half-slain, **Varic** spent on **Harlock**.](images/the-hands-of-the-dawnflower.webp)
 
 They came to the palisade at dusk: an open gate, an abandoned guard post, a three-story house of seamless stone with black smoke curling from its upper windows. From the long stable behind it came screams. Inside waited a scene torn from the Abyss — two men spiked to the walls to watch, a squalid bed of hay strewn with looted finery, and a young woman whimpering beside it while a leering fiend capered above her.
 
@@ -60,7 +60,7 @@ So they kept the pace of the broken, and watched the scrub for cloven prints, an
 
 ### **The Garrison of Runners**
 
-![**Irabeth** had been holding that breath a long time. The children waiting with notes in their fists are her couriers — and the tune two of them have stopped to hum is about the four who just walked in.](images/the-garrison-of-runners.png)
+![**Irabeth** had been holding that breath a long time. The children waiting with notes in their fists are her couriers — and the tune two of them have stopped to hum is about the four who just walked in.](images/the-garrison-of-runners.webp)
 
 **Kenabres** came in sight at mid-morning. On the road beneath her walls they overtook a knot of refugees moving the other way — people scarcely better off than the ones they carried, but with a wagon, a little food, and the particular steadiness of those who have decided to keep going. Into their keeping the company gave the waystation's survivors, and then put their heels to their borrowed horses and rode the rest of the way at a gallop.
 
@@ -86,7 +86,7 @@ And everywhere they went the whispers went with them. Faces turned at the edge o
 
 ### **The Ballad of the Wardstone's Champions**
 
-![Their introduction to **Callan Thornwind** — a packed room word-perfect on a ballad about them, and wrong from end to end. *"We killed a balor? I don't think so."*](images/the-ballad-of-the-wardstones-champions.png)
+![Their introduction to **Callan Thornwind** — a packed room word-perfect on a ballad about them, and wrong from end to end. *"We killed a balor? I don't think so."*](images/the-ballad-of-the-wardstones-champions.webp)
 
 At the end of the day they came, each by their own road, back to the **Defender's Heart**. It was the command of nothing now, but it remained the one place in **Kenabres** where the homeless and the idle gathered for news and company and ale and song, and that evening it was serving all four at once.
 
@@ -132,7 +132,7 @@ Word came that the Queen's retinue was at the gates. Hard behind it came a summo
 
 ### **The Queen**
 
-![She had one ceremony left in her, and she spent it here — on a sixteen-year-old sorcerer, an elven scout, a half-orc and a priest of the **Dawnflower**. With the title came the right to raise armies and to hold land.](images/knights-of-the-fifth-crusade.png)
+![She had one ceremony left in her, and she spent it here — on a sixteen-year-old sorcerer, an elven scout, a half-orc and a priest of the **Dawnflower**. With the title came the right to raise armies and to hold land.](images/knights-of-the-fifth-crusade.webp)
 
 They were not the only ones sent for. **Aravashnial** had been brought, blind and impatient. **Anevia** was there, and **Irabeth** beside her.
 
@@ -166,7 +166,7 @@ Neither favor had been offered. Both were granted. They went out through the nor
 
 ### **Rabiah's Redeemers**
 
-![A hundred heavy horse, every one of them a volunteer, standing to attention on the flat ground north of the wall — and every one of them, though nobody said it aloud, already certain they were riding to their deaths at **Drezen**, and at peace with it. **Rabiah** gave them a name that was not modest.](images/the-hundred-that-volunteered.png)
+![A hundred heavy horse, every one of them a volunteer, standing to attention on the flat ground north of the wall — and every one of them, though nobody said it aloud, already certain they were riding to their deaths at **Drezen**, and at peace with it. **Rabiah** gave them a name that was not modest.](images/the-hundred-that-volunteered.webp)
 
 A hundred heavy horse waited at the northern edge of the camps, and every one of them a volunteer who had asked for this road. They fell into line as the company approached and stood to attention.
 
@@ -186,7 +186,7 @@ There was exactly one man left in **Kenabres** with the resources to close that 
 
 ### **The Bargain at the Gwerm Estate**
 
-![Across the table in his counting-house, **Horgus Gwerm** treated a heavy purse of crusade gold as an opening position and pressed for more — magic, oaths, the keep of his own guard, and the trade of Drezen besides. Within a day **Varic** would concede he was worth every penny.](images/the-bargain-at-the-gwerm-estate.png)
+![Across the table in his counting-house, **Horgus Gwerm** treated a heavy purse of crusade gold as an opening position and pressed for more — magic, oaths, the keep of his own guard, and the trade of Drezen besides. Within a day **Varic** would concede he was worth every penny.](images/the-bargain-at-the-gwerm-estate.webp)
 
 **Horgus Gwerm**'s estate had come through the fall of the city very nearly untouched, and he had already gathered back to himself a staff and a body of mercenaries. The company did not get past the gate on their reputation. They tried threats; the guard, who knew precisely who they were and precisely what they were and were not going to do to an innocent man at his post, called the bluff without blinking. They were admitted when Horgus decided to admit them.
 
@@ -196,7 +196,7 @@ In exchange he undertook to see the army provisioned, and to march with it himse
 
 ### **A Dinner Before the Road**
 
-![The last comfort the ruins of civilization had to offer — a borrowed hall, new clothes from a tailor's shop they had saved from burning, and the people they were about to spend a hard road with. **Aravashnial** came with his sight restored and no intention of pretending he was not delighted about it; **Callan** kept his promise to keep everyone entertained.](images/a-dinner-before-the-road.png)
+![The last comfort the ruins of civilization had to offer — a borrowed hall, new clothes from a tailor's shop they had saved from burning, and the people they were about to spend a hard road with. **Aravashnial** came with his sight restored and no intention of pretending he was not delighted about it; **Callan** kept his promise to keep everyone entertained.](images/a-dinner-before-the-road.webp)
 
 With that concluded, they went and collected a debt of a happier kind — the fine clothing promised them by the little tailor's shop they had saved from burning in the first days.
 
@@ -222,7 +222,7 @@ By noon the Redeemers had a month's siege laid in — and not merely beans and p
 
 ### **The March Begins**
 
-![At midday they took the long switchback trail down the cliff, turned north along the eastern bank of the **West Sellen**, and made their first camp with **Kenabres** behind them and above them — and the **Worldwound** somewhere ahead in the dark.](images/the-switchback-road.png)
+![At midday they took the long switchback trail down the cliff, turned north along the eastern bank of the **West Sellen**, and made their first camp with **Kenabres** behind them and above them — and the **Worldwound** somewhere ahead in the dark.](images/the-switchback-road.webp)
 
 They debated spending the remainder of the day in the city, and dismissed it almost at once. The troops were rested, well fed for once, and in better spirits than they had been in weeks — eager, now, to go and wet their swords. **Kenabres** was in adequate hands. The weather was fine. There would not be a better hour than this one.
 
@@ -246,13 +246,13 @@ It had been taken only days earlier — the small crusader contingent that had h
 
 The scouts had bought the Redeemers the one advantage that mattered. The tieflings were still marshalling when a hundred armored horse came out of the concealing ground and into their encampment, and after that it was less a battle than an accounting. The ford was retaken. Not one of **Rabiah**'s people was left on the field.
 
-![They were still marshalling — straps loose, helmets not yet on — when the brush at the top of the slope came apart and a hundred lances came down it. One tiefling got as far as putting a foot in his crossbow stirrup.](images/the-taking-of-the-ford.png)
+![They were still marshalling — straps loose, helmets not yet on — when the brush at the top of the slope came apart and a hundred lances came down it. One tiefling got as far as putting a foot in his crossbow stirrup.](images/the-taking-of-the-ford.webp)
 
 ### **The Gaol on the East Bank**
 
 A dozen of the original garrison were still alive, penned in a stone building — held back from despair by their ranking survivor, a sergeant named **Kamilo Dann**, who had kept them steady even as their captors took one or two away every few hours and did not bring them back. She came out of that gaol, found the commander of the army that had freed her, snapped a salute, and asked for orders.
 
-![Her captors had taken the blade and left her the mail. **Kamilo Dann** came out of the dark, walked the length of the yard to the commander of the army that had freed her, and reported for duty — to a girl of sixteen who had not expected to be saluted by anyone.](images/the-salute-at-the-gaol.png)
+![Her captors had taken the blade and left her the mail. **Kamilo Dann** came out of the dark, walked the length of the yard to the commander of the army that had freed her, and reported for duty — to a girl of sixteen who had not expected to be saluted by anyone.](images/the-salute-at-the-gaol.webp)
 
 What to do with them took some debate. A dozen wounded crusaders could not hold **Vilareth Ford** against the next thing that came for it; leaving them here was simply arranging their deaths at a later date. Nor could the Redeemers spare anyone to stiffen them. In the end they were sent back down the road to **Kenabres** — to carry word of the ford's fall, and to ask for reinforcement or rejoin the Queen's army, as the Queen saw fit.
 
@@ -264,7 +264,7 @@ They did not bed down on the open shore. The ford came with its own works — th
 
 From the heights **Lupenor** had marked a thing that unsettled even her elven calm: the river divided two worlds. Eastward the sun fell honest and clean. Westward, over the **Worldwound** side, the same light hung dim and jaundiced, and the air came fouler into the lungs.
 
-![She bound her hair back before she went up, so that nothing of her would show against the sky. Below her the army had taken the ford's own bunkers for the night; across the water, the same sun that was setting cleanly at her back hung sick and directionless over the **Worldwound**, and she squinted into it for a long time trying to find the shape of what was out there.](images/the-river-divides-two-worlds.png)
+![She bound her hair back before she went up, so that nothing of her would show against the sky. Below her the army had taken the ford's own bunkers for the night; across the water, the same sun that was setting cleanly at her back hung sick and directionless over the **Worldwound**, and she squinted into it for a long time trying to find the shape of what was out there.](images/the-river-divides-two-worlds.webp)
 
 *— Session of April 26, 2025 —*
 
@@ -286,7 +286,7 @@ Then the horns of departure sounded, and the crusade wound west into the canyon 
 
 The paladins rode that road in a way that lifted the heart to watch — ranks dressed, horses very nearly in step. **Callan** rode it differently. He drifted, dropping back out of the company to fall in a while among the troops, trading small talk down the length of the column, and he was well liked for it. **Varic** caught the tail of one such conversation and slowed to hear it out. A soldier had asked the plain soldier's question: why there were so many tieflings in this country that the enemy could throw a whole host of them at the crusade and never seem to miss them. **Callan** was happy to explain. An incubus's get, he said, was a near-certain thing — even barren women bore children by them, twins came often, and that was why the **Worldwound** never ran short of bodies to spend.
 
-![There was nothing in it to accuse him of. **Callan** is explaining something interesting to a man on a long wet ride, and the man has just worked out what it means for his own household back in **Mendev**. **Varic** was near enough to overhear and no part of the conversation; he is still turning the claim over, unable to confirm it and unable to call it false.](images/what-callan-told-the-column.png)
+![There was nothing in it to accuse him of. **Callan** is explaining something interesting to a man on a long wet ride, and the man has just worked out what it means for his own household back in **Mendev**. **Varic** was near enough to overhear and no part of the conversation; he is still turning the claim over, unable to confirm it and unable to call it false.](images/what-callan-told-the-column.webp)
 
 The priest went looking through his reading for it and found nothing at all. He had never met the claim before; neither could he call it false. He kept his mouth shut, and thought no more about it than that.
 
@@ -298,7 +298,7 @@ Near dusk **Lupenor** and **Anevia**, a quarter-day out in front of the column, 
 
 The canyon was held, and held twice over. Two forces were camped in it, sprawled apart in the loose, undisciplined way of demons. One was an army of tieflings, two hundred swords, of a size with the host they had broken at the ford. The other was smaller and worse: a gibbering mass of **dretches** dug in among the canyon's ruins, where broken walls would do half their fighting for them. Fires were being lit down there as the light failed. And moving between the two camps went a tall figure in a white cloak, who, when he wanted to cross the ground quickly, shrugged the cloak off a pair of great bat wings and flew.
 
-![Neither of them said anything. **Lupenor**'s hand went out flat to stop **Anevia** where she lay, and the two of them counted fires — the tiefling host nearer, the **dretches** seething in the ruins beyond under their own green haze, and the white cloak crossing the open ground between on a pair of wings. This was the first the crusade knew of **Exorius**.](images/the-canyon-held-twice-over.png)
+![Neither of them said anything. **Lupenor**'s hand went out flat to stop **Anevia** where she lay, and the two of them counted fires — the tiefling host nearer, the **dretches** seething in the ruins beyond under their own green haze, and the white cloak crossing the open ground between on a pair of wings. This was the first the crusade knew of **Exorius**.](images/the-canyon-held-twice-over.webp)
 
 Word went back down the trail at once. It was the scouts' habit that had won **Vilareth Ford** before it began, and it served the crusade again here: the army did not walk into that canyon in the dark. **Rabiah** halted the column well short of it, out of sight and out of earshot, and made camp where nothing in the canyon could see her.
 
@@ -320,7 +320,7 @@ The tieflings came out to meet them in the open, and were met by a hundred lance
 
 So the paladins came off their horses. An elite company of mounted knights dismounted to fight on foot in a demon's cellar is not what such men are for, and they did it anyway, going in among the walls to dig the **dretches** out one hole at a time. It was slower and uglier than **Vilareth Ford** and cost a great deal more sweat. It cost remarkably few lives. By afternoon the tieflings who could run had run, the dretches were dead in their holes, and **Keeper's Canyon** belonged to the crusade.
 
-![No lances, no horses, and no room to use either — three of the hundred working a gap between the walls, one hole at a time, through air the demons had fouled themselves. The man in front has seen it coming; the man behind him is still watching the cellar mouths, and has not. This part of the morning belonged to no famous blade. It belonged to the army.](images/the-knights-dismounted.png)
+![No lances, no horses, and no room to use either — three of the hundred working a gap between the walls, one hole at a time, through air the demons had fouled themselves. The man in front has seen it coming; the man behind him is still watching the cellar mouths, and has not. This part of the morning belonged to no famous blade. It belonged to the army.](images/the-knights-dismounted.webp)
 
 Their commander had escaped them. The white cloak was nowhere among the dead.
 
@@ -332,7 +332,7 @@ Deep in the watch, an enemy the sentries never marked came into the camp — **E
 
 The camp woke into chaos. **Lupenor** was loosing before she had thrown off her blankets, and her arrows did their work on the schirs. **Varic** fought his way to the young commander and stayed there, sword and prayer both, keeping her alive through the worst minutes of it. And **Harlock Greyforge** came at a dead run in his sleeping clothes, without a scrap of armor on him and ***Radiance*** blazing in his fist, and set himself between the incubus and the girl.
 
-![No armor, no shield, no boots — a linen shirt, a blazing sword, and one arm flung back to keep her behind him. **Exorius** had come through an entire sleeping army for **Rabiah** and got one pace from her; the arrow already standing in the schir is **Lupenor**'s, loosed from her blankets.](images/the-paladin-in-his-sleeping-clothes.png)
+![No armor, no shield, no boots — a linen shirt, a blazing sword, and one arm flung back to keep her behind him. **Exorius** had come through an entire sleeping army for **Rabiah** and got one pace from her; the arrow already standing in the schir is **Lupenor**'s, loosed from her blankets.](images/the-paladin-in-his-sleeping-clothes.webp)
 
 It was the paladin who finished it. **Exorius** — who had commanded the eastern approaches to **Drezen**, and who had come in person to avenge the loss of them — was cut down in a half-dressed brawl among the tent ropes, and his summoned demons died around him.
 
@@ -348,7 +348,7 @@ The whole camp turned out to hunt for him, and it did not take long. They found 
 
 The blood went out of **Aron**'s face. He staggered back a half-step in the glare of the blade, and then he told them.
 
-![Through **Harlock**'s eyes, and only his: the curl of wickedness at the pouch was what his faith showed him, and nobody else in that camp could see it at all. **Sosiel** is already begging, and he is begging the man holding the sword.](images/radiance-at-the-pouch.png)
+![Through **Harlock**'s eyes, and only his: the curl of wickedness at the pouch was what his faith showed him, and nobody else in that camp could see it at all. **Sosiel** is already begging, and he is begging the man holding the sword.](images/radiance-at-the-pouch.webp)
 
 Shadowblood. Three vials of it. He swore before all of them that he did not know how it had come into his pouch. He had believed himself free of the drug — but after the fighting, the old craving had come up in him again, and he had held it down, and then he had found the vials among his own gear and felt his will begin to come apart. When **Sosiel** had gone to sleep, he had slipped out of camp to take one. Only one. And with the craving quieted he had promised himself he would have the strength to break the other two against the rocks.
 
@@ -388,7 +388,7 @@ So the army was halted with hours of daylight still in hand, well short of the r
 
 The climb was near mortal in itself. Ninety feet of crumbling, treacherous stair clung to the cliff-face, and at thirty feet **Harlock**, still armored, lost his hold and slid. They roped themselves together after that, each to catch the next, and it proved wisdom: when others faltered near the top it was the paladin's arm that held them, hauling **Varic** back from the drop and steadying **Rabiah**. Bruised but whole, all four gained the summit.
 
-![Ninety feet of crumbling stair, and a rope between the four of them because **Harlock** had already lost his hold once at thirty. When it was **Varic** who went near the top, it was the paladin's arm that caught him.](images/the-arm-that-held-them.png)
+![Ninety feet of crumbling stair, and a rope between the four of them because **Harlock** had already lost his hold once at thirty. When it was **Varic** who went near the top, it was the paladin's arm that caught him.](images/the-arm-that-held-them.webp)
 
 ### **A Chapel Remembered**
 
@@ -408,7 +408,7 @@ Then the masters ran. One bolted for a side door and was pincushioned before he 
 
 **Ilzek** fled down a passage and into the chapel's cold kitchen — and there the true peril showed itself. From a hole in the ceiling above the long work-table hung a knotted rope, and the ghoul went up onto the table after it, dead hand closing toward the cord: the alarm-pull, that would wake whatever else slept in this place and bring it all down upon four intruders. It became a race measured in heartbeats. **Rabiah's** missiles struck him and did not fell him. **Lupenor** loosed and — for once, and at the worst possible moment — missed, the shaft going past his head and away into the dark. It was **Varic** who ended it, with a firebolt thrown the length of the kitchen that caught the ghoul at full stretch and killed him by a single point of hurt, his fingers a breath from the cord. He dropped where he stood. The bell never rang.
 
-![If the rope were a little longer, or **Varic**'s firebolt a little slower…](images/the-bell-that-never-rang.png)
+![If the rope were a little longer, or **Varic**'s firebolt a little slower…](images/the-bell-that-never-rang.webp)
 
 The chapel fell silent. The clerics had been no small foes, and the company knew now, by that reach for the rope, that they had cleared only the first room of a place that ran deeper — more chambers, another building, and that barred tunnel whose end no one had seen. To leave such a wound festering at their backs was unthinkable.
 
@@ -466,7 +466,7 @@ Nobody was waiting to congratulate them.
 
 **Horgus Gwerm** wanted something more immediate than a discussion. The quartermaster had a bowl in front of him, a bad look on his face, and in the bowl three or four of the things he had sifted out of the crusade's grain — not flies at all, but pale, twisting, voracious little worms with wings on them, that went for the tin when he tipped it. They were in the sacks. They had been in the sacks since before anyone found the hole. **Horgus**, who costed everything and flattered no one, told the company to do something about it, because if the supply went then the march on **Drezen** ended in this canyon, and no quantity of holy light would feed a hundred horses.
 
-![An infestation](images/the-bowl-of-worms.png)
+![An infestation](images/the-bowl-of-worms.webp)
 
 They knew the breed once they had a good look at one: **vescavors**, an abyssal insect belonging to no honest plane, colony-things ruled by a queen, that swarm and devour metal and skin and bone alike. *Piranhas,* someone said, *but airborne.* **Varic** spent an hour walking the supply tent with ***purify food and drink***, salvaging what stores he could and pressing the crusade to seal its grain in glass and clay and keep the rest covered, for a thing left in the open only invited more. A standing vigil was set on the larder. But cleaning the bags treated the symptom. Somewhere in the poisoned canyon a queen was laying, and while she lived the swarms would keep coming — and the gibbering the sentries had been hearing on the west wind was not, it turned out, anybody's imagination.
 
@@ -480,7 +480,7 @@ He sent **Irabeth** and **Sosiel** out through the camp to find the men in the w
 
 What they found was the priest of the **Dawnflower** standing on the broken bed of a wrecked supply cart, which was the only platform the camp had to offer, with **Harlock Greyforge** beside him. **Varic** took out one of the silver **Scales of Terendelev** — the gift of cloud-walking, carried since the caverns under **Kenabres** and never yet spent on anything remotely like this — and called a column of cloud up underneath the lot of them. The wrecked cart and the eight men standing on it rose off the canyon floor and went up, past the ninety feet of crumbling stair the four had climbed on a rope, and set down on the clifftop.
 
-![Varic lifts the downtrodden souls to the Chapel to help restore their spirits](images/the-column-of-cloud.png)
+![Varic lifts the downtrodden souls to the Chapel to help restore their spirits](images/the-column-of-cloud.webp)
 
 The chapel that received them had been a ghoul-den the previous morning. It was not one now. The dead were gone and the filth was gone, the altar of the **Inheritor** stood clean and newly consecrated by **Harlock**'s own hands, and what light the canyon had came through the smashed windows onto stone that had been holy for seventy years with nobody alive to know it.
 
@@ -498,7 +498,7 @@ Where the canyon bent, boiling green vapour hung over the ground, and through it
 
 The swarms found them almost at once, and the swarms were the true peril. Their gibbering clawed at the mind; to stand in it was to risk one's reason, and blade and arrow did next to nothing against a cloud of biting motes — one gnawed at **Lupenor**'s very eyelid while she cursed and swatted. **Varic** answered with ***repel vermin***, throwing a bubble the vescavors could not bear to enter, and the company sheltered in it and moved it with them; ***burning hands*** and alchemist's fire scoured whole swarms where they could be caught massed. When a swarm rolled over the ground between **Harlock** and the others and threatened to swallow the paladin whole, he would not leave a companion stranded in it — he ploughed back through the biting cloud to reach **Lupenor**, taking the gnawing and the gibbering three times over and holding his mind against all of it, and hauled the slayer clear. *He's a paladin now,* someone said, half in wonder. One after another the swarms were burned and repelled until they broke apart into ordinary, purposeless vermin.
 
-![Harlock would not leave her stranded there](images/he-is-a-paladin-now.png)
+![Harlock would not leave her stranded there](images/he-is-a-paladin-now.webp)
 
 ### **The Vescavor Queen**
 
@@ -508,7 +508,7 @@ And there, in the deepest chamber, she waited — the **Vescavor Queen**, larger
 
 The queen had not crawled up from any earthly warren. In the wall of her lair pulsed a mauve glow — a raw abyssal rift, a crack straight into the Abyss through which she had first come, and through which now a **vrock** was trying to force its way into the world. There would be no second attempt at it and no time to study it; whatever was going to be done had to be done while the thing was still in the gap. But a hoarded scroll served for the hour: **Rabiah** loosed ***dimensional anchor*** into the crack, and the vrock, barred from stepping across, gave up and fell back into the abyssal murk — and the wound drew shut behind it. The mauve light guttered and went out. No demon came through, and none would. Where the crack had been there was cold stone and nothing else, and the Abyss had one door fewer into the world.
 
-![Rabiah's scroll seals the growing crack before the Vrock can breach it](images/the-rift-that-would-not-close.png)
+![Rabiah's scroll seals the growing crack before the Vrock can breach it](images/the-rift-that-would-not-close.webp)
 
 They burned the queen's body, climbed the rope back into the jaundiced daylight, and turned again toward **Drezen**. The chapel above them stood clean and quiet, a light in the canyon where a darkness had been. The wound at their backs was cut out. And another, deeper one had been noted, and left — for now — for later.
 
@@ -526,7 +526,7 @@ The riders reached the broken country before Drezen as the light failed, and the
 
 But it was the bridge that fixed their dread. Only one span crossed the dry bed of the Ahari to the Citadel, a hefty work of dwarven stone — and it had been made a trap. Its four supporting pylons were weakened and cracked, and to each had been chained a man-eating auroch, huge and shaggy, its eyes burning green in the dark. Tieflings patrolled the rickety watchtowers upon it, and over them all stood a sorcerer, **Barrid Isen**, ready at the first sight of an army to loose the beasts and drag the whole span down into ruin.
 
-![The scouts confer on their findings](images/the-reckoning-of-the-scouts.png)
+![The scouts confer on their findings](images/the-reckoning-of-the-scouts.webp)
 
 ### **The Serpent in the Camp**
 
@@ -534,7 +534,7 @@ They made camp, and the wind howled through the canyons all that night. **Varic*
 
 By morning eight warhorses lay moaning and sick. Before the march, the four cornered Callan in **Varic**'s tent and bound him within a ***Zone of Truth***. The bard felt the enchantment settle and smiled — *oh, it's that kind of meeting* — and thereafter answered every question without once being caught in a lie, spinning instead a long and mournful tale of a favorite horse of his youth, eating away the spell's minutes with charm. He denied poisoning the beasts; he denied walking unseen. They let him go with no proof and colder suspicion, and marked him to be watched.
 
-![Oh, it's *that* kind of meeting. ](images/that-kind-of-meeting.png)
+![Oh, it's *that* kind of meeting. ](images/that-kind-of-meeting.webp)
 
 ### **The Storming of Paradise Hill**
 
@@ -556,7 +556,7 @@ The bridge was no work for armies; the aurochs would haul down the pylons and bu
 
 The darkness he had raised he flung into the air *above* himself, a lid of shadow between him and everything looking down — and **Lupenor** was forty feet up, with a clean view of nothing at all. So she dove. She came down the height of the span and levelled out barely five feet above the dry riverbed, where the shadow hung uselessly over his head and her mark stood clear against the light, and there **Barrid Isen** was brought down. The final tieflings were cut from the bridge, and the span, though cracked and scorched, still stood. Only afterward, when the dead were gathered and counted, did they find that the sorcerer was not among them.
 
-![With Rabiah's flight magic, Lupenor swoops in for a clear shot](images/under-the-darkness.png)
+![With Rabiah's flight magic, Lupenor swoops in for a clear shot](images/under-the-darkness.webp)
 
 ### **The Weight of Four Pylons**
 
@@ -597,7 +597,7 @@ What she brought back was worth the spells. Each catapult had exactly one keeper
 
 She came back over the wall, dropped down under the bridge, and told them all of it.
 
-![A spell **Rabiah** did not properly know, drawn out of the air by main force of will — and a friend who was about to fly over an enemy wall alone.](images/the-spell-she-did-not-know.png)
+![A spell **Rabiah** did not properly know, drawn out of the air by main force of will — and a friend who was about to fly over an enemy wall alone.](images/the-spell-she-did-not-know.webp)
 
 ### **The Thing in Harlock's Tent**
 
@@ -629,7 +629,7 @@ She landed on the first tower and her boot scuffed the stone. The **brimorak** t
 
 Then she went to work, and the work was fine and slow and entirely unglamorous. She got underneath the great crank that drew the throwing arm back, oiled the metal so it would slide and stay quiet, and wedged her slivers deep into the gear teeth where no eye would find them. It took the better part of a minute, crouched at the machine's foot, with a demon leaning on the battlement eight feet from her shoulder. When she was done, the catapult looked exactly as it had before — and the first time anyone threw the release lever, all that stored force would come down on the jammed teeth and derail the whole gear train. It would take blacksmiths and weeks.
 
-![Eight feet away, a demon leaned on the battlement and looked at nothing. One wrong sound was all it would have taken.](images/the-sabotage-at-the-crank.png)
+![Eight feet away, a demon leaned on the battlement and looked at nothing. One wrong sound was all it would have taken.](images/the-sabotage-at-the-crank.webp)
 
 She flew to the second tower and did it again. That one had been better maintained and fought her harder, and the **brimorak** on it heard something and looked around twice; but it decided it had heard a bird, and went back to its watch.
 
@@ -649,7 +649,7 @@ The alarm was given, and the fight came on. **Harlock** charged, and the light b
 
 And **Varic** did the thing that decided the day. He set his hand to the ironbound doors at the head of the tower's spiral stair and shaped the stone of the frame and floor over the hinges and the sill until the doors were not doors at all but part of the wall. Below them, the tower filled up with tieflings who could not swing an axe in a stairwell that narrow, jammed shoulder to shoulder against a slab that was never going to open.
 
-![While the fight raged above him, **Varic** knelt at an ironbound door and made it stop being a door at all.](images/the-doors-that-would-not-open.png)
+![While the fight raged above him, **Varic** knelt at an ironbound door and made it stop being a door at all.](images/the-doors-that-would-not-open.webp)
 
 The last **brimorak** dropped. The tower was theirs.
 
@@ -663,7 +663,7 @@ The shot fell at the edge of a good cluster of them. Tents went over. Men scream
 
 It was, by every other standard, the most eloquent thing anyone had said in that city in a hundred years.
 
-![No crew, no range-finding, no practice — but he had always wanted to fire one of these things.](images/a-gift-returned.png)
+![No crew, no range-finding, no practice — but he had always wanted to fire one of these things.](images/a-gift-returned.webp)
 
 Below and behind, the white flag had fallen, and **Rabiah** was across the bridge with her Redeemers forming up on the far bank. Three of the four catapults would never throw again. The fourth was in the company's own hands, and turned around.
 
@@ -694,7 +694,7 @@ Its course was **Rabiah**. Her army had formed on the near side of the **Ahari**
 **Lupenor** did not wait for it. She went down off the tower onto the wall itself and ran the parapet until she had a clean line at three hundred feet, and she spent her one arrow of outsider-slaying on a shot that most archers would not have attempted. It struck. The beast shuddered in the air and did not fall — but the pain of it did what no argument between its heads had managed. It broke off, forgot the army and the woman marching at its head, and came about and up toward the wall to find whatever had hurt it.
 
 
-![Lupenor's shot had caught its (their?) attention.](images/stoltengraabe.png)
+![Lupenor's shot had caught its (their?) attention.](images/stoltengraabe.webp)
 
 
 **Rabiah**, standing with her army below, threw fire at it and watched the fire wash off it like rain off slate. **Varic** made ready a wall of wind against the breath he knew was coming, thought better of it, and stood waiting with the prayer unspoken.
@@ -731,7 +731,7 @@ The **cultists** came next, four hundred of them, and came recklessly — no arm
 
 That left the tieflings, and by then **Rabiah** had had enough of patience. She loosed the line she had been holding all morning, threw everything into the charge, and hit them so hard that what survived went streaming away into the ruins.
 
-![Rabiah's final charge as commander.](images/her-last-command.png)
+![Rabiah's final charge as commander.](images/her-last-command.webp)
 
 Three armies in a morning. The **Redeemers** had lost almost nobody.
 
@@ -762,7 +762,7 @@ They stood in the wreckage among the broken guardians and looked at the passage 
 With the outer defenses secured, the company turned to the sally port itself. A ***chime of opening*** sang the stone doors wide, and beyond them opened a corridor built for killing — twenty feet to its ceiling, and every foot of it a trap. **Lupenor** named it before the first blow fell: the murder hall. She was proved right when **Harlock**, clearing what looked like a heap of fallen rubble across a side passage, found the rubble was an illusion and the floor beneath it was not there at all. He dropped onto a bed of spikes, and in the same breath arrows came sleeting down from slits high on the walls, loosed by archers safe in their galleries.
 
 
-![Harlock's trust in solid rock is violated.](images/the-murder-hall.png)
+![Harlock's trust in solid rock is violated.](images/the-murder-hall.webp)
 
 They fought clear of the killing floor and into a wider, rubble-strewn chamber — and into worse. A **vrock** waited there, and the gallery archers abandoned their slits to join it. The demon threw up ***mirror images*** of itself and loosed its spores upon them, and for a while the fight hung in doubt. It was **Chyrrik** who turned it — the mongrel scout, slighter than any of them and carrying none of the wardstone's fire in her blood, who nonetheless put shaft after shaft into the right targets and was owed more than one killing stroke before the end. **Harlock** struck the blow that finished the **vrock**, and the murder hall fell quiet.
 
@@ -772,17 +772,17 @@ The next chamber was painted in blood. In it stood a Kellid woman among the ruin
 
 She came straight for **Lupenor**, and her first blow nearly ended the slayer where she stood. What followed was brutal and close — **Jestak**'s fury lent her a strength and a hide that turned aside all but the hardest strikes, and her reflexes punished every opening. **Lupenor** was beaten to the very edge of death before the company could rally, and again it was **Chyrrik**'s bow, outmatched and undaunted, that helped drag the fight back. In the end **Jestak** fell — and with her fell any hope of learning why she had turned her blade on her own war-band. There was no one left to ask.
 
-![Heads to one side, bodies to the other — her own war-band — and she was crying.](images/the-weeping-blade.png)
+![Heads to one side, bodies to the other — her own war-band — and she was crying.](images/the-weeping-blade.webp)
 
 ### **The Idol at the Altar**
 
 The hardest test waited in the Inheritor's chapel. They came into it and found **Iomedae** herself standing at the altar in a nimbus of light, four devout crusaders arrayed about her. It was a lie. The figure was a succubus wearing the Inheritor's shape, and the crusaders were her charmed and dominated pets, sworn to die in her defense. When the blades came out she slipped sideways into the ethereal and hung there untouchable, working her puppets from beyond reach.
 
-![The false inheritor.](images/the-false-goddess.png)
+![The false inheritor.](images/the-false-goddess.webp)
 
 So the company faced the cruelty the demon had built for them: to win through, they would have to cut down innocent men whose only sin was to have fallen under her spell. **Rabiah** flung ***glitterdust*** where she guessed the succubus hid — and guessed wrong; and it would have availed nothing even so, for a thing gone ethereal is not merely unseen. Then the demon reached into **Chyrrik**'s mind and turned her, and the scout who had saved them twice over now emptied her quiver at **Rabiah** while the sorcerer strained and failed to break the hold. For a few sick heartbeats the company watched their own used as a weapon against them.
 
-![From somewhere deep in her mind, Chyrrik watched herself draw and loose on **Rabiah**.](images/the-scout-turned.png)
+![From somewhere deep in her mind, Chyrrik watched herself draw and loose on **Rabiah**.](images/the-scout-turned.webp)
 
 It broke when the false goddess made herself solid to strike, and **Harlock** — sick to his soul at a demon defiling a hall of **Iomedae** — reached her at last. His fury took her head from her shoulders, and her death freed **Chyrrik** in an instant. Of the four enslaved crusaders only one could be spared: **Varic** had beaten that one senseless rather than kill him, and so he lived. His name was **Cecil**, and he would go back to the army hollow and broken, to be tended and, in time, unmade of what the demon had done to him.
 
@@ -802,7 +802,7 @@ The cult of the False Goddess was broken and the western garrison — with its b
 
 What it opened, the demons had plainly never found. A twelve-foot **Iomedae** stood at the chamber's end, a sword in one hand and in the other a staff hung with a crimson banner worked in gold with the Inheritor's blade — square at the top, tapering to a point below. It had the very look of the ***Sword of Valor***, the standard **Queen Galfrey** had sent them to recover. An altar waited before it, and four suits of masterwork plate stood on mannequins about the room, one of them gold and lettered in celestial script. Yet when **Rabiah** turned her sight upon the banner it answered with nothing at all — no magic, no aura — while the golden armor hummed with abjuration. The warning went unheeded. **Harlock**, doing as the faithful of **Iomedae** do, set his sword point-down and knelt to pray — and the shrine sprang shut on him like a jaw.
 
-![Too good to be true.](images/the-shrine-that-was-a-mouth.png)
+![Too good to be true.](images/the-shrine-that-was-a-mouth.webp)
 
 The altar split along its seam into a toothed maw, and the great statue's belly opened into another; both were fiendish **mimics**, and their glue took the paladin fast. Pinned, unable to bring ***Radiance*** to bear, **Harlock** fought two aberrations with only a dagger while the others tore at the things to free him — and even slain, their adhesive held him until it boiled away of its own accord. Only afterward did the lesson show plainly: the "banner" hung scorched and blistered from the spells thrown in the fight, ruin that could never have touched the true relic. The perfect shrine, the hidden vaults, the standard displayed like bait — all of it was a snare built to lure and kill paladins. The ***Sword of Valor*** was still lost. **Harlock** claimed the golden armor for his own, and they carried the dominated crusader **Cecil**, manacled and hollow-eyed, back to camp to be tended.
 
@@ -810,7 +810,7 @@ The altar split along its seam into a toothed maw, and the great statue's belly 
 
 Their rest did not hold. A spectral shape flickered into the camp in the dark — the projected spirit of a **berbalang**, bat-winged and long-tongued — and fastened on a border sentry, drinking the strength from him where steel could scarcely touch a ghost.
 
-![A sentry's whole job is to see trouble coming. This one never did.](images/the-thing-that-came-by-night.png)
+![A sentry's whole job is to see trouble coming. This one never did.](images/the-thing-that-came-by-night.webp)
 
 **Rabiah's** wand of force was one of the few things that bit it, and the company drove the projection off, but not before the guard lay gravely wasted. **Varic** spent a ***restoration*** to draw the ruin back out of the man's flesh and save his life — grinding the last of his diamond dust to do it, a small mercy that would cost him bitterly before the day was out. By dawn the paladins would hear no more of waiting: the creature had to be hunted to its lair.
 
@@ -818,7 +818,7 @@ Their rest did not hold. A spectral shape flickered into the camp in the dark �
 
 They found it in the camp's cemetery, and found the cemetery defiled — graves clawed open by hand, caskets dragged into the light, bones flung everywhere and cracked for their marrow by the ghoul-host that had once denned there. One crypt sat wrong, wrapped in a darkness the thin sun could not lift. **Lupenor** picked its lock, and inside the air itself pressed down with the weight of an ***unhallow***.
 
-![Behind this door, the corruption staining the Crusader's sacred graveyard.](images/the-crypt-that-drank-the-light.png)
+![Behind this door, the corruption staining the Crusader's sacred graveyard.](images/the-crypt-that-drank-the-light.webp)
 
 **Harlock** would not walk in blind: he called ***daylight*** onto the thighbone of a fallen crusader and, telling the dead man his bones would march against evil one last time and should be proud of it, hurled the burning relic into the inner vault. Its glare lit niches of urns and ash — and an open sarcophagus, from which the **berbalang** rose corporeal at last, wings spread, shrieking, its tongue tasting the air. On the consecrated ground the company ran it down and ended it, and the camp slept unmolested that night.
 
@@ -830,7 +830,7 @@ The western garrison and **Jestak** were done; now they turned to the east, thro
 
 The day's last door gave onto a room choked with sulfur-smoke that stung the eyes, and **brimoraks** waiting within it — small fire-demons with a taste for ruin. "Demons! Come on in!" **Varic** called, throwing it wide, and the room answered with fire. Fireballs burst through the ranks; **Lupenor** and **Chyrrik** reeled from the flames, and the demons set to calling up more of their kind, threatening to bury the company under numbers. The worst of it fell on **Harlock**: every blow he landed with ***Radiance*** flung the demons' burning blood back across him, so that the harder he fought the more it seared him — a torment he bore far too long before help came.
 
-![No strangers to fire.](images/the-burning-halls.png)
+![No strangers to fire.](images/the-burning-halls.webp)
 
 **Rabiah** first sealed herself against the flames, then at last turned a ward of ***resist fire*** on the paladin and gave him ease; **Varic** conjured a scimitar of holy ice and set its cold and blessed edge to the demons, while the bard **Callan**, brought along to witness their deeds, kept prudently to the rear and lent his courage to their swords. In the end the **brimoraks** broke — all but one, which winked away by teleport at the finish — and with them fell the last resistance in that wing of the citadel. Great stretches of **Drezen** now stood cleared, and **Rabiah's Redeemers** had made themselves a name as demon-slayers. Yet the citadel kept its deeper secrets still, and its worst doors remained unopened.
 
@@ -848,7 +848,7 @@ They pushed east into the citadel and came into a hall of dwarven statues — so
 
 The demons had done something worse than pull them down. They had put something inside them.
 
-![The crusade carved them a century ago. The demons only had to add the runes.](images/the-statues-that-woke.png)
+![The crusade carved them a century ago. The demons only had to add the runes.](images/the-statues-that-woke.webp)
 
 The runes cut into the stone lit up one after another, and the **graven guardians** came off their plinths with their warhammers already swinging. They were quick — quicker than stone had any business being, and one of them spoke a word that made the rest of them quicker still. It was a long, grinding, unglamorous fight in a corridor too narrow to flank in, and it cost them most of an hour and a good deal of what **Varic** had left. But they broke them, and the hall went quiet, and the dwarven hammers lay in pieces among the rubble of their bearers.
 
@@ -888,7 +888,7 @@ He had no reason to be believed and he knew it. **Varic** believed him anyway. *
 
 He fished a flask of holy water out of his pouch and worked the stopper loose behind his shield, and while he did it, across the room, the chained man was telling **Harlock** to search the bard's belt pouches — the left one, a little black bottle about the size of your thumb, go on, look. **Harlock** asked. The color went out of **Callan**'s face, and what he said was, *I had no choice*, which is not a denial.
 
-![Either the bard or the crusader was lying. Varic would soon know which.](images/the-flask-behind-the-shield.png)
+![Either the bard or the crusader was lying. Varic would soon know which.](images/the-flask-behind-the-shield.webp)
 
 Then **Varic** crossed the room and poured the flask out over the prisoner's face.
 
@@ -914,7 +914,7 @@ She spoke it, and the succubus fell back into the world — no longer ethereal, 
 
 It was not enough to have her solid; she had to be kept that way. **Varic** threw out a hand and a green ray took her, and the shimmering emerald field of a ***dimensional anchor*** closed over her — no jaunt, no teleport, no stepping sideways out of reach. If she wanted to leave now she would have to run out the door like anyone else. It did not stop her calling for help, and she tried; nothing answered.
 
-![**Rabiah** pulled her out of the ethereal. **Varic** saw to it that she stayed.](images/the-emerald-cage.png)
+![**Rabiah** pulled her out of the ethereal. **Varic** saw to it that she stayed.](images/the-emerald-cage.webp)
 
 After that it went quickly. They put her on the floor bleeding, and refused, on principle, to bargain with a demon that could vanish at will and call more of its kind. **Varic** drove a cold iron dagger through her face, and **Harlock** took her head off — his second succubus in as many days — and the priest knelt afterward to thank **Sarenrae** for the victory. The head went rolling across the ruined carpet of the barracks, trailing blood.
 
@@ -944,7 +944,7 @@ The horses at the **Ahari** bridge had been his. He had poisoned them. He had be
 
 And he was, he said, finished either way. His handlers had left him here; the thing that had held his leash was dead; there was nowhere left for him to be useful to them and nowhere for him to run to. He would rather be judged by the four of them than spend the rest of a short life being hunted by everyone. He put himself in their hands.
 
-![He could have let them go on trusting him. That was still an option when he started talking.](images/the-traitors-tale.png)
+![He could have let them go on trusting him. That was still an option when he started talking.](images/the-traitors-tale.webp)
 
 ### **The Judgment**
 
@@ -968,7 +968,7 @@ They went back into the citadel without a proper rest — wands and channelled p
 
 What waited in the eastern rooms were **minotaurs**, and not the ordinary kind: half-fiend, winged things that filled a corridor and reached further than anything that size had a right to. **Rabiah** quickened the company and dropped fire among them; **Lupenor** and **Chyrrik** put arrow after arrow into the press; **Harlock** held the front and did not give ground. They came apart hard, and slowly.
 
-![Too narrow to flank in — which cut both ways, and only one side had archers.](images/the-winged-minotaurs.png)
+![Too narrow to flank in — which cut both ways, and only one side had archers.](images/the-winged-minotaurs.webp)
 
 Behind the minotaurs came **babau**, and the babau fought properly — teleporting out of one fight and into another, appearing at the spellcasters' backs, forcing the whole line to keep turning. It was the most disciplined resistance the citadel had offered yet, and it was disciplined because someone was directing it. **Barrid Isen** had gotten word to the planning room, and there would be no quiet minute to breathe in.
 
@@ -982,7 +982,7 @@ The last room on that floor held a dwarf in priest's harness who did not want to
 
 **Varic** offered him the chance to surrender. **Joran** dropped his hammer, and then dropped to his knees.
 
-![The surrender was the easy part. He still had to tell them who was behind that door.](images/the-brother-on-his-knees.png)
+![The surrender was the easy part. He still had to tell them who was behind that door.](images/the-brother-on-his-knees.webp)
 
 Then he told them why he had been shouting. His brother was in the next room. His brother was **Staunton Vhane**, and his brother was going to kill all four of them.
 
@@ -1014,7 +1014,7 @@ Through the doorway they could also see what was waiting in the room beyond: a *
 
 Then **Staunton Vhane** himself strode into the room — the fallen dwarf, the citadel's traitor-commander, wrapped in mythic power and bearing the unholy glaive ***Soul Shear***.
 
-![Mad with vengeance, flush with mythic power, he was a spiked fortress on the charge.](images/last-charge-of-staunton-vhane.png)
+![Mad with vengeance, flush with mythic power, he was a spiked fortress on the charge.](images/last-charge-of-staunton-vhane.webp)
 
 ### **The Sword He Came For**
 
@@ -1050,7 +1050,7 @@ Then **Varic** knelt down on the flagstones beside the body of his friend and po
 
 *You were headed toward the light,* the moment went, *and then you were snapped back* — a deep breath, and **Lupenor** opening her eyes to find **Varic** standing over her shaking the last few drops out of a vase. Alive, restored, whole; no grave-chill on her, nothing dimmed, no part of her left behind. As if she had never died at all, and had slept well besides.
 
-![ **Lupenor** drags in the first breath of a second life.](images/the-quicksilver-mercy.png)
+![ **Lupenor** drags in the first breath of a second life.](images/the-quicksilver-mercy.webp)
 
 She did not lie there and cough. She got straight up onto her feet and asked where he was. They told her he was dead, and that they had killed the man who killed her. She walked over to the body of **Staunton Vhane** and kicked it.
 
@@ -1076,7 +1076,7 @@ Two rites were kept, and the company argued a long while first about how to keep
 
 They gave him to the fire the next morning, with a detail of knights praying to **Iomedae** over the pyre to keep them from the anger of the departed. The body took four hours to burn. It was, the company were told, a tougher body than any they had seen go into a fire. And as it burned, insects came boiling out of it — locusts, wasps, bees, flies, more of them than any corpse should hold: the mark of **Deskari**, Lord of the Locust Host, on a man who had belonged to him a very long time. Nobody could say how many of them were carrying a fragment of **Staunton Vhane** home to his master. The pyre did its work regardless, and what was left cooled to ash and was scooped into the blessed silver coffer.
 
-![Thus ended the story of Staunton Vhane.](images/the-pyre-of-staunton-vhane.png)
+![Thus ended the story of Staunton Vhane.](images/the-pyre-of-staunton-vhane.webp)
 
 That afternoon they set to the unmaking of ***Soul Shear***. A blacksmith's forge in the citadel was found and stoked hot; priests prayed the place quiet; **Varic** pinned the glaive with a ***Dimensional Anchor*** so that it could not step out of the world, and **Harlock** took it up to wrestle it into the vice.
 
@@ -1084,7 +1084,7 @@ It fought him. The thing writhed in his hands and changed its shape and tore its
 
 **Harlock** did not draw on it. He tackled it, took it to the ground and pinned it there so it could not carry the glaive another step.
 
-![Harlock often wrestles with his demons.](images/the-babau-at-the-forge.png)
+![Harlock often wrestles with his demons.](images/the-babau-at-the-forge.webp)
 
 Then the rest of them fell on it where it lay — **Varic** with ***Solemn Hour***, which **Lupenor** had put into his hands in the days after her death, and which bit demons harder than any plain steel had a right to; **Lupenor** herself, hours out of her own grave, emptying cold iron arrows into it at arm's length, one of them going in perfectly; **Rabiah** spending the last of what she had for the finish. The demon died on the forge floor, and the weapon never left the room.
 
@@ -1146,7 +1146,7 @@ They had been soldiers of the Mendevian army. That was the thing none of them wa
 
 What stood between them was iron. The company had come into that block inside the old security cage that ringed its middle — a box within a box, built by the gaol's own architects to keep the prisoners off the guards — and for the first moments of it the crusade's dead threw themselves against the bars from the outside while the living looked out through them.
 
-![Once soldiers of light, now the thirsty dead.](images/the-soldiers-in-the-cells.png)
+![Once soldiers of light, now the thirsty dead.](images/the-soldiers-in-the-cells.webp)
 
 **Rabiah** met the first rush with a cone of fire out of a wand and caught four of them in it at once. **Harlock** went through the survivors with a great sweeping cut that carried from one to the next to the next. One of **Lupenor**'s shafts took a spawn in the chest and pinned its mail to the wall behind it, and what slid out of the mail afterward was dust.
 
@@ -1174,7 +1174,7 @@ Nobody saw it. There was no arrival, no shape in the doorway, nothing to point a
 
 She was standing on the stairs, behind everyone, with a clear line to all of them. Nobody knew.
 
-![Now how did **that** get there?](images/the-friend-behind-her.png)
+![Now how did **that** get there?](images/the-friend-behind-her.webp)
 
 She put her whole quiver into **Rabiah**'s back. The first arrows the girl felt, and the rest she did not; she went down the last of the stairs and landed face-first on the floor in the middle of the fight, in a spreading pool of her own blood, with the shafts standing out of her. She was dead before anyone reached her — not dying, dead. When they looked up, **Lupenor** was punching the air, and there was a light in her eye that did not belong to her.
 
@@ -1188,7 +1188,7 @@ It was **Varic** who found him. He put a lance of holy light across the room int
 
 He was not on the floor. He was above them, spread flat against the vault of the ceiling and moving across it the way his soldiers had come out of their cells, and the light of **Sarenrae** caught him there and pinned him in it. A pale half-orc, dead white, his mouth dark with somebody else's blood, and his eyes screwed shut against a brightness that was burning him where he clung. He lost his grip and came down.
 
-![The light of the Dawnflower makes itself felt through Varic Sarian.](images/the-light-that-found-him.png)
+![The light of the Dawnflower makes itself felt through Varic Sarian.](images/the-light-that-found-him.webp)
 
 That was all **Harlock** needed. He called his smite down on a face he could finally put it on and came in with ***Radiance***, and the stroke went home. It was enough. The vampire decided he had had the worst of it, came apart into mist, and ran.
 
@@ -1222,7 +1222,7 @@ Beyond it was a bare stone room, fifteen feet by fifteen, no marks on the walls,
 
 And he stood up. Not a helpless thing caught halfway — **Therak Nul** rose out of his own coffin with his arms wide and his cape going out behind him, in the full theatre of it, a lord of that place greeting the people who had come to kill him.
 
-![The last rise of Therak Nul](images/the-lord-of-that-place.png)
+![The last rise of Therak Nul](images/the-lord-of-that-place.webp)
 
 He had perhaps a second of it. **Harlock** was already inside the swing, and he took the vampire's head off in one stroke. It hit the floor and began to rot as it rolled, going to putrefaction and then to dust; the body folded down into the satin of its own coffin and came apart there. **Therak Nul** was simply gone, and the weight on **Lupenor**'s mind went with him.
 
@@ -1272,7 +1272,7 @@ The western cell told a different story. Its walls were covered in scratched dra
 
 **Harlock**, ever the lawful mind, found the chaos of it mildly offensive. **Lupenor** recognized the butterflies as sacred to ***Desna***, goddess of dreams, luck, and travelers.
 
-![A cell. A sanctuary.  A prayer scratched in the wall among the butterflies.](images/the-butterfly-cell.png)
+![A cell. A sanctuary.  A prayer scratched in the wall among the butterflies.](images/the-butterfly-cell.webp)
 
 Among the images, text was scratched into the stone: *"Let me sing the song of the spheres."*
 
@@ -1296,7 +1296,7 @@ The company listened as **Joran** revealed what he knew. The citadel's seneschal
 
 **Joran** sketched a rough map, marking the location of hidden doors that led to something called the **Corruption Forge** and, beyond it, the **Ritual Chamber** where **Chorussina** worked her apocalyptic magic.
 
-![Joran knew the depths below Drezen.  At least some of them.](images/the-prisoners-bargain.png)
+![Joran knew the depths below Drezen.  At least some of them.](images/the-prisoners-bargain.webp)
 
 *"She doesn't care if she dies,"* **Joran** said, his voice hollow. *"She doesn't care if any of us die. She just wants to complete the work."*
 
@@ -1332,7 +1332,7 @@ Morning came — Fire Day the thirteenth, as **Harlock** observed with grim reli
 
 They went down by the lift — an iron cage slung above the **Corruption Forge**, a vast chamber where a pit of fire blazed and salamanders moved in the glare far below. The cage could be lowered to the forge floor, or run along the ceiling to a set of great doors on the far side. They chose the ceiling; the salamanders would keep. **Harlock** worked the crank, and the cage rattled the length of the chamber and set them down before doors carved over every inch with demons at their tortures.
 
-![The company took the ceiling. They would be back for the floor.](images/the-cage-over-the-forge.png)
+![The company took the ceiling. They would be back for the floor.](images/the-cage-over-the-forge.webp)
 
 **Lupenor** checked for traps. Finding none, they opened the doors.
 
@@ -1346,7 +1346,7 @@ The battle began.
 
 **Rabiah** quickened them and then loosed an ***ice storm*** that turned half the floor treacherous — and in doing so drew the shape of the invisible barrier for everyone to see, a hard clean line where the falling cold simply stopped. Behind it, **Chorussina** could not be touched.
 
-![The seneschal went on working, closing up shop on the Citadel of Drezen forever.](images/the-line-the-ice-drew.png)
+![The seneschal went on working, closing up shop on the Citadel of Drezen forever.](images/the-line-the-ice-drew.webp)
 
 So they fought the demons and worked at the wall together. **Harlock** borrowed **Chyrrik**'s adamantine greatsword, the one thing they carried with any hope of biting that barrier, and set about it like a man felling a tree, while **Rabiah** poured force against it and **Varic** threw fire.
 
@@ -1430,7 +1430,7 @@ Salamanders had made the place their home — creatures of elemental fire, at th
 
 So the company fought the first part of the battle from inside a cage. They stopped it high, out of reach, and **Lupenor** and **Chyrrik** shot down through the iron grid at their feet while the spears jabbed up at them. **Rabiah** flew clear and dropped an ***ice storm*** into the chamber, and then another — the one thing in her book those creatures could not shrug off. The ice never lay. It boiled where it fell, and the chamber filled with a column of steam that hid the floor from the cage and the cage from the floor, and after that nobody on either side could see much of anything.
 
-![In the heat of that forge, the bite of **Rabiah's** ice was keenly felt](images/the-ice-that-would-not-lie.png)
+![In the heat of that forge, the bite of **Rabiah's** ice was keenly felt](images/the-ice-that-would-not-lie.webp)
 
 One of the salamanders worked out what to do about that. It came back from the forge with a great two-handed cutter and went for the channel the cage ran in — not to drop them, but to strand them. **Varic** took out one of the silver **scales of Terendelev** and spent it to hang the cage in the air where no jammed track could hold it. Then, when the trick had done its work and the cage could go no lower, he kicked the door open and stepped out into empty air and lowered himself down through the steam on nothing at all.
 
@@ -1482,7 +1482,7 @@ The chamber at the bottom was built in rings around a pit. A ledge ran the circl
 
 *"I am,"* he announced from the ground, *"noping right out of this."*
 
-![After some consideration, Harlock decides not to explore the pit.](images/the-hand-that-took-his-heel.png)
+![After some consideration, Harlock decides not to explore the pit.](images/the-hand-that-took-his-heel.webp)
 
 There was no other way around. The doors they needed were on the far side, and the only path to them was the ring, and the ring was sigilled.
 
@@ -1508,7 +1508,7 @@ It was a shadow demon, and it had been set here to guard, and it was very old an
 
 They could not hurt it. That was the shape of the first several minutes: cold iron did almost nothing, magic weapons did almost nothing, and when **Lupenor** finally spent one of her holy arrows on it the arrow did almost nothing either. It laughed at them from the ceiling and told them that in four hundred years it had not been given a fight this poor.
 
-![She had not been able to lay a scratch on it all fight, and this was the best answer left in her quiver. It would not be enough either.](images/the-one-arrow-that-would.png)
+![She had not been able to lay a scratch on it all fight, and this was the best answer left in her quiver. It would not be enough either.](images/the-one-arrow-that-would.webp)
 
 So they went at what they had. **Rabiah** put ***magic missiles*** into it — force, which does not care what a thing is made of — and they were the first blows that landed properly. **Varic** spoke a ***prayer*** over the company and reached twice for it with a ***dimensional anchor*** and missed twice. **Rabiah**, standing under its attacks, got a ***see invisibility*** off through a hit that should have broken her concentration, and became the only one in the room who could tell them where it was.
 
@@ -1520,7 +1520,7 @@ So it left **Varic** and went for **Rabiah**.
 
 She very nearly lost. She felt it settle over her and start to press, and it was going to take her, and she spent — all at once, without deliberation, everything she could reach of the power the wardstone had left in her — and threw it off.
 
-![It had already tried **Varic** three times and been put out three times. So it came to her instead, and very nearly stayed.](images/the-thing-that-almost-had-her.png)
+![It had already tried **Varic** three times and been put out three times. So it came to her instead, and very nearly stayed.](images/the-thing-that-almost-had-her.webp)
 
 After that they had it. **Varic** burned two surges at once on a spell drawn down out of the light itself, and it blinded the thing for two rounds and took more than half of what it had left. **Lupenor** put a strike into it that its resistances could not answer for. **Rabiah** put ***fly*** on **Harlock**, and **Harlock** called down **Iomedae**'s wrath upon it and went up into its face.
 
@@ -1548,7 +1548,7 @@ She stood there holding it — a mongrelwoman out of the warrens under a ruined 
 
 Then she remembered where she was, and gathered it up, and carried it to **Harlock**.
 
-![She had been hunting a demon she had no way to hurt. She came back with this instead.](images/what-chyrrik-brought-back.png)
+![She had been hunting a demon she had no way to hurt. She came back with this instead.](images/what-chyrrik-brought-back.webp)
 
 The moment his hand closed on the cloth, the power in it went out of him and through everyone standing in that chamber and ran away along the walls, and they felt the dungeon around them lighten. He knew, the way one knows a thing that has been put into one's head rather than worked out, exactly what he was holding: that hung on a wall it would be a wound to every demon and every servant of demons for miles around it, and that anyone standing within thirty feet of it could ask **Iomedae** for one of her angels and be given one.
 
@@ -1660,7 +1660,7 @@ They had argued about where. The defensible answer was somewhere deep and guarde
 
 **Harlock** put it on the wall himself. Then he turned and faced the ranks and brought ***Radiance*** up in salute, and held it there, and did not say anything else.
 
-![A hundred of them, in a hall the dwarves had built for thousands — and every crusade before theirs had failed to stand in it.](images/the-banner-goes-up.png)
+![A hundred of them, in a hall the dwarves had built for thousands — and every crusade before theirs had failed to stand in it.](images/the-banner-goes-up.webp)
 
 What happened then, every one of them felt. The power went out of the cloth in a slow wave and rolled outward through the stone and away — through the citadel, through the town, out across the blighted ground for ten miles in every direction — and every demon and every servant of demons inside that circle was made lesser by it, and knew, and could do nothing about it. In the hall it registered only as a warmth in the old dwarven stone, the first honest warmth in the place in seventy-five years.
 
@@ -1688,7 +1688,7 @@ He opened a thick ledger to a page dense with columns of figures and fixed **Lup
 
 **Horgus:** *What we have here is a basic war economy. We've got nothing to sell.*
 
-![He had counted the wagons the whole way from **Kenabres**. Now he opened the book and showed her what the victory had actually cost.](images/nothing-to-sell.png)
+![He had counted the wagons the whole way from **Kenabres**. Now he opened the book and showed her what the victory had actually cost.](images/nothing-to-sell.webp)
 
 The conversation that followed was brisk and unsentimental. The crown would supply them only so long as they remained a valuable military asset — and even then, **Horgus** warned, they would need to manage expectations carefully. Refugees were inevitable, and every mouth that arrived without a corresponding wagon of grain would strain their reserves further.
 
@@ -1704,7 +1704,7 @@ The cell was austere but not cruel. The dwarven ale **Varic** had left on his la
 
 **Joran:** *When a man comes bearing a drink, there's usually a request. What is it?*
 
-![His hand went to his throat without his knowing it. There had been a holy symbol there once.](images/the-bottle-and-two-cups.png)
+![His hand went to his throat without his knowing it. There had been a holy symbol there once.](images/the-bottle-and-two-cups.webp)
 
 **Varic:** *I'm worried about the state of your soul.*
 
@@ -1734,7 +1734,7 @@ The teleportation was precise. Two warriors in full plate appeared first, swords
 
 **Irabeth Tirabade** was named standing ruler of **Drezen**, to govern in the Queen's name. She turned a deeper shade of green and blinked in stunned silence before accepting.
 
-![She had spent her whole life being told to hold ground. Nobody had ever handed her any.](images/the-ruler-of-drezen.png)
+![She had spent her whole life being told to hold ground. Nobody had ever handed her any.](images/the-ruler-of-drezen.webp)
 
 **Aron Kir** was appointed Warden — captain of the guard and chief engineer for the city's rebuilding. **Sosiel Vaenic** was charged with overseeing the spiritual needs of the growing settlement, tasked with building a multi-denominational temple to serve all the good gods of the crusade.
 

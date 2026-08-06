@@ -2,7 +2,7 @@
 
 *Begun by the demon Jerribeth to Hepzamirah, daughter of Baphomet, and broken off mid-sentence. Taken by Rabiah from the writing desk in Jerribeth's own bedchamber in the Ivory Sanctum, from beneath a human jawbone that was serving as a paperweight, in the hour after its author fled the room. On the alien guests kept in the Ivory Sanctum, on the perfected elixir, and on the matter of Drezen — which its author did not consider a problem.*
 
-![Whatever she meant to do about Drezen, she never wrote it down.](images/jerribeth-unfinished-letter.png)
+![Whatever she meant to do about Drezen, she never wrote it down.](images/jerribeth-unfinished-letter.webp)
 
 **Hepzamirah**,
 

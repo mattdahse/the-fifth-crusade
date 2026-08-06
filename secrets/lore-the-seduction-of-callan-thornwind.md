@@ -2,7 +2,7 @@
 
 *Who the bard was before he ever sang for them — the village, the caravan, and the scholarly man in the tavern who bought him. As it stood while ruined Kenabres waited on Queen Galfrey, with the doubt already working in him.*
 
-![The face he wore for them.](characters/callan-thornwind.png)
+![The face he wore for them.](characters/callan-thornwind.webp)
 
 ### Early Life
 

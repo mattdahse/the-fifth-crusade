@@ -8,7 +8,7 @@
 
 *October 17, 2024 session — the caverns beneath **Kenabres**, in the first hours after the demon-fall*
 
-![Strangers in the ruin beneath **Kenabres** — a guttering holy symbol, a hand out of the rubble, and a darkness that pressed upon the eyes like a hand.](images/waking-among-the-ruins.png)
+![Strangers in the ruin beneath **Kenabres** — a guttering holy symbol, a hand out of the rubble, and a darkness that pressed upon the eyes like a hand.](images/waking-among-the-ruins.webp)
 
 When the streets of **Kenabres** broke open and swallowed the festival crowds whole, those who lived woke to a darkness so complete it pressed upon the eyes like a hand. Dust choked the air. Somewhere far off a wounded dog yelped beneath the rubble until, at last, it did not. And in that black ruin, strangers who had never spoken began to call out to one another, and by their voices alone became a company.
 
@@ -20,7 +20,7 @@ Elsewhere the young sorcerer **Rabiah** kindled a light of her own and clawed aw
 
 ### **The Freeing of Anevia**
 
-![The first thing the four ever do together, freeing the trapped woman.](images/the-freeing-of-anevia.png)
+![The first thing the four ever do together, freeing the trapped woman.](images/the-freeing-of-anevia.webp)
 
 The pinned woman was **Anevia**, one leg broken beneath a great block of stone. With a length of found rope and the strength of **Harlock Greyforge** — the stalwart of **Iomedae**, who had come to the festival of **Armasse** to swear his oath and be raised a paladin, and whose vigil the demons had broken before ever the words could leave him — the company rolled the stone aside and drew her free. **Varic** knit the worst of her wounds with the healing grace of his goddess, splinted the shattered limb, and fashioned a crutch. For **Aravashnial** he could do less; the ruin of the elf's eyes lay beyond any power he held, and he could offer only to staunch the bleeding and speak the plain, hard truth. The elf accepted it with the weary dignity of one who had expected no better.
 
@@ -30,7 +30,7 @@ Even here, gathered and grieving, they were not of one mind. **Horgus** dismisse
 
 Scouting the cavern's edge, **Rabiah** found the great upturned corpse of a black widow — and from a wound in its bloated abdomen slithered pale, undulating maggots the size of a man's arm, groping toward her. She loosed a bolt; **Varic** hurled a lance of fire; and **Harlock**, drawing his sword, clove one of the vile things in twain so that its digested filth pooled steaming between the halves. The second was pinned and finished at dagger's point. It was no great battle, but it was their first shed together.
 
-![Four silvered scales of **Terendelev**, cold and lovely in the dark.](images/the-scales-of-terendelev.png)
+![Four silvered scales of **Terendelev**, cold and lovely in the dark.](images/the-scales-of-terendelev.webp)
 
 Among the debris they uncovered four silvered scales, each the span of a splayed hand and glowing softly — fragments, it was said, of the fallen dragon **Terendelev**. As each of the four laid hand upon one, its gift made itself known: to one the buoyancy of rolling cloud, to another the veil of a false face, to another a ward against harm. **Harlock**, receiving his, looked up toward the unseen vault of the cave and clutched at a pendant beneath his mail, and said nothing at all.
 
@@ -44,7 +44,7 @@ At last the passages opened upon a windowless bunker of worked stone, its facade
 
 ### **A Safe Haven Restored**
 
-![The shrine of **Torag** made holy again by their own hands — and **Harlock** playing a low, sad tune into the dark while the others sleep.](images/a-safe-haven-restored.png)
+![The shrine of **Torag** made holy again by their own hands — and **Harlock** playing a low, sad tune into the dark while the others sleep.](images/a-safe-haven-restored.webp)
 
 **Horgus**, in his fear, slipped away into the dark, and the company chose — against grievance and good sense both — to go after him. **Varic's** patient words turned the noble back, and together they returned to the shrine. For eight long hours they labored to cleanse and reconsecrate the temple of **Torag**, and when it was done a quiet sense of safety settled over them, a feeling of being watched over by a kindly god. **Varic** spent the last of his gathered grace to heal the wounded. Weary and far from their goal, they knew well how much road still lay between them and the surface.
 
@@ -72,7 +72,7 @@ Their road ran on through winding tunnels, past a harmless nest of spiders that 
 
 As **Rabiah** stepped close to read them, a patch of the ceiling darker than any shadow unfurled like a demon's umbrella and dropped upon her. A second fell upon Harlock. The creatures smothered their prey in inky wings and gnashing beaks, and the young sorcerer — who had strayed too far from Harlock's shadow — was seized and swallowed whole into a writhing leather sack, her cries falling suddenly silent. Blood ran from where the thing gripped her. She hung a hair's breadth from death when Harlock's hammer and Lupenor's arrows brought the beasts down; and as the dark things died, the unnatural gloom that clung to them dissolved, and the cavern brightened.
 
-![The darkmantles fall from the grieving dark, and **Rabiah** is seized — while **Harlock's** hammer, **Lupenor's** bow, and the cold light of **Varic's** holy symbol turn to the fight.](images/the-host-of-sorrowful-stone.png)
+![The darkmantles fall from the grieving dark, and **Rabiah** is seized — while **Harlock's** hammer, **Lupenor's** bow, and the cold light of **Varic's** holy symbol turn to the fight.](images/the-host-of-sorrowful-stone.webp)
 
 Varic reached his fallen friend and, drawing on the mercy of his goddess, called Rabiah back from the very threshold — a ***rebuke of death*** that stole the last breath from oblivion's grasp. Channelled light and a healer's touch did the rest. The blind wizard of their company came groping to her side and laid ***mage armor*** upon her like a benediction. It was a hard lesson, gently given: the frail must not run ahead of the shield.
 
@@ -88,7 +88,7 @@ Beyond a chamber where a broken tower lay toppled on its side, they came upon a 
 
 A steep, piton-studded shaft rose before them, and it cost long, careful minutes to haul their blind and crippled charges up its face with rope and patient hands. At the top, in a cavern where another tower had collapsed, three horned and misshapen figures labored to dig a trapped companion from the rubble. Wary but not cruel, their leader **Lann** offered a bargain: pass in peace, or lend aid. The company chose aid. Straining together beneath a boulder that even Harlock could not shift alone, they freed the pinned wretch — a thing of tentacle and pincer and clustered eyes — and Varic mended what he could of the wretch's shattered leg.
 
-![The company chooses to lend aid: **Harlock** sets his shoulder to the boulder beside the mongrelmen while **Varic** kneels to mend the freed wretch, his healing the one warm light in the dark.](images/the-mongrels-of-the-deep.png)
+![The company chooses to lend aid: **Harlock** sets his shoulder to the boulder beside the mongrelmen while **Varic** kneels to mend the freed wretch, his healing the one warm light in the dark.](images/the-mongrels-of-the-deep.webp)
 
 These were the mongrelmen, the very descendants of the carven host, and Lann pledged to guide his rescuers toward the surface. It fell to Rabiah's careful tongue to soothe the grumbling noble **Horgus**, whose disgust the mongrels bore in weary silence, while Aravashnial's fascination spilled over into thoughtless insult. Where the earth had torn itself into a great new chasm, the company crossed by the grace of a levitation charm, ferrying those who could not climb across the gulf.
 
@@ -110,7 +110,7 @@ The road out of the dark had been long. Behind them lay a rescued huddle of mong
 
 Beyond a narrow causeway, upon an island in a black underground lake, glimmered the candle-lights of **Neathholm**. Its dwellings were a hodgepodge of scavenged timber, stone, and one absurd patch of white picket fence, each hut as individual and ill-matched as the twisted people who had built them. **Harlock Greyforge**, **Lupenor Celest**, **Rabiah**, and **Varic Sarian** found themselves gazing on children as grotesque as their elders, peering from breaches in the walls. Even to hearts as forgiving as theirs, the sight was hard to bear — and every mongrel eye told them the feeling was mutual, and old.
 
-![Beyond a narrow causeway, on an island in a black underground lake, glimmer the candle-lights of **Neathholm**](images/candle-lights-of-neathholm.png)
+![Beyond a narrow causeway, on an island in a black underground lake, glimmer the candle-lights of **Neathholm**](images/candle-lights-of-neathholm.webp)
 
 ### **The Tale Chief Chusul Told**
 
@@ -124,7 +124,7 @@ Among the spoils the company carried was a curious copper brooch, bat-shaped, ta
 
 It had belonged to his son — the boy who had burned to charge the surface and take his place among heroes, who had defied his father's counsel and gone, and never returned. The dwarf must have taken it from his body. When Lupenor pressed the brooch back into his hand, Chusul in his grief gave the company his own morningstar in return — an heirloom of masterwork craft that had been carried into the very First Crusade by his ancestors — and asked only a promise: *beat up a demon with it.* Then he shuffled to his chamber, and the company withdrew, pretending not to hear him weep.
 
-![By a single candle, **Lupenor** presses the copper brooch back into the trembling hands of **Chusul**](images/the-brooch-returned.png)
+![By a single candle, **Lupenor** presses the copper brooch back into the trembling hands of **Chusul**](images/the-brooch-returned.webp)
 
 ### **A Charge, and a Night's Rest**
 
@@ -162,7 +162,7 @@ Beyond a guarded threshold the way opened into a hall of the Horned Lord. Brazie
 
 ### **The Hall of the Horned Lord**
 
-![**Rabiah**, youngest of the company, gathers the raw magic she looses into the cultist — bolt upon bolt, across the reeking dark of the Horned Lord's hall.](images/rabiahs-raw-magic.png)
+![**Rabiah**, youngest of the company, gathers the raw magic she looses into the cultist — bolt upon bolt, across the reeking dark of the Horned Lord's hall.](images/rabiahs-raw-magic.webp)
 
 They found the cult's captains waiting. A sorceress in the corner raised a wand, and at her word a glaive of unholy force took shape in the empty air — a ***spiritual weapon*** that swung of its own malice at any who drew near. With a second word of ***Command*** she wrenched **Harlock Greyforge's** own glaive from his grip and sent it ringing to the stone. Beside her stood an armored brute who traded blows across the doorway that Harlock, faithful to **Iomedae**, refused to yield.
 
@@ -170,7 +170,7 @@ It was a grinding, close-quarters affair. **Varic Sarian** laid a ***Shield of F
 
 ### **Radiance Reclaimed**
 
-![**Harlock** lifts the dimmed sword ***Radiance*** from the cultists' box — dull, golden, and silent](images/the-dimmed-blade.png)
+![**Harlock** lifts the dimmed sword ***Radiance*** from the cultists' box — dull, golden, and silent](images/the-dimmed-blade.webp)
 
 Among the spoils — a wand, potions, scrolls, a heathen prayer-book they nearly put to the flame — there stood a locked box, and within it a sword. Harlock knew it at once. Here was a blade of legend, cold iron and consecrated, borne long ago against the horrors of the **Worldwound** and stolen away by these very cultists to be defiled: ***Radiance***. Its light had guttered out through a hundred forgotten battles, and it lay now dull and golden and silent. Reverently Harlock took it up, half-fearing he had no right to it — for what was he but a plain swordsman, and not the holy champion such a relic deserved? Yet he vowed to see it returned one day to honest keeping, and consented, in a city crawling with the Abyss, to bear the dimmed thing at his side a while longer.
 
@@ -182,7 +182,7 @@ Higher galleries brought dire rats that fastened on Harlock and left the seed of
 
 ### **The Sundered Sky**
 
-![**Varic** claws his way up to his first open sky in days — and finds **Kenabres** broken above him, the heavens black and raining embers.](images/the-burning-sky.png)
+![**Varic** claws his way up to his first open sky in days — and finds **Kenabres** broken above him, the heavens black and raining embers.](images/the-burning-sky.webp)
 
 At the maze's end they found the ladders to the world above, and climbed — and the world they climbed into was not the one they had left. **Kenabres** was broken. The sky hung black and raining embers; whole quarters had crumbled into chasms where the ground itself had torn open; screams and the guttural gibbering of demons carried on a wind that stank of burning. Winged shapes wheeled through the smoke overhead. In the days they had spent beneath the earth, the enemy had fallen upon the city, and the city had not held.
 
@@ -208,7 +208,7 @@ They woke in the borrowed comfort of **Horgus Gwerm**'s manor, upon feather beds
 
 ### **The Child and the First Howl**
 
-![A **howler** comes over the rubble, ribbons of a child's pink dress still strung through its teeth — and its wail takes root in the mind like a splinter that will not be pulled.](images/the-howler-in-the-ruins.png)
+![A **howler** comes over the rubble, ribbons of a child's pink dress still strung through its teeth — and its wail takes root in the mind like a splinter that will not be pulled.](images/the-howler-in-the-ruins.webp)
 
 The streets were a wound. Buildings lay collapsed into the road as if struck by siege-engines; things with too many legs glistened in the rubble. Beneath a fallen balcony they came upon a small girl in a pink dress, freshly torn open by claws, her blood not yet dry. **Varic** knelt and whispered to Sarenrae for the child's soul, and would not weep where the others could see. Then the morning split with a hideous cry that clawed at the mind itself. A **howler** came over the debris — a thing the size of a tiger, its muzzle strung with ribbons of pink cloth, its back bristling with venomed quills. Its wail took root in **Harlock** and in **Varic**, and would not leave them; a creeping madness settled behind their eyes, a curse that would gnaw hour by hour. They brought the beast down at last with reach and arrow and searing light, and it dissolved into bubbling ruin.
 
@@ -222,7 +222,7 @@ A second **howler** was spied slinking among the ruins, and **Lupenor** stole cl
 
 ### **The House of Tirabade**
 
-![Sprawled and defenseless, **Anevia** sees the killer's blow rise over her — and across the room **Lupenor**'s arrow finds the gap in his failing wards.](images/the-assassins-last-arrow.png)
+![Sprawled and defenseless, **Anevia** sees the killer's blow rise over her — and across the room **Lupenor**'s arrow finds the gap in his failing wards.](images/the-assassins-last-arrow.webp)
 
 The **Tirabade** residence stood modest and whole — a single-story house, plain as any other on the street, **Anevia**'s own home. They stacked at the door and entered hard. At once a giant fire beetle burst from nowhere, striking at **Anevia** alone; they crushed it, and it vanished. Then another came, and another, each appearing at **Anevia**'s side and hungering for no one else. The company grew certain: something sought her death by name. As she edged toward the door, an unseen voice hissed, *"Your wife will find your corpse in bed, waiting for her,"* and a half-orc assassin, **Vagorg**, shimmered into sight bearing a wicked, obsidian-headed polearm. His blows nearly ended **Anevia** — she fell bleeding to the floor — but **Varic** laid hands upon her and dragged her spirit back from the dark with a ***rebuke death***. Ringed now by all four companions, the killer's warding spells failed him; **Lupenor**'s arrow found the gap, and a dagger across the throat made an end of him.
 
@@ -244,7 +244,7 @@ Scarcely four hours had passed since the company dragged themselves up from the 
 
 ### **The Mirror-Loathing Demons**
 
-![In a street lit by a burning shop, **Rabiah** empties her crossbow, then drives the **abrikandilu** back with bolt on bolt of raw magic](images/the-mirror-loathing-demons.png)
+![In a street lit by a burning shop, **Rabiah** empties her crossbow, then drives the **abrikandilu** back with bolt on bolt of raw magic](images/the-mirror-loathing-demons.webp)
 
 It was **Varic**, keeping the first watch, who saw the flames three doors down and heard the screaming beneath them. Hunched, tailed shapes capered before a burning shop, hurling fire at the humans trapped within. Cloaked in the failing magic of their last invisibility draughts, the company crept close. These were **abrikandilu** — demons so hideous that to look upon them was near to pain, said to be forged from the souls of vandals and to loathe nothing so much as their own reflection. **Harlock** broke the hush with a war-cry and a charge, the dimmed sword ***Radiance*** flashing dull in the firelight; from the shadows **Lupenor** loosed telling shafts, **Rabiah** worked her crossbow and the crackling bolts of a ***magic missile*** wand, and a ***spiritual weapon*** conjured at Varic's word hammered among the fiends. Two of the wretched things fell where they stood; the survivors, loyal to nothing, fled hopping into the dark.
 
@@ -252,7 +252,7 @@ Within the shop huddled a tailor named **Balthus** and his wife **Loomis**, soot
 
 ### **The Madmen and the Girl**
 
-![Holy symbol raised and blazing, **Varic** faces down the hollow-eyed and mad crusaders — **Sarenrae** demands no such offering](images/the-madmen-and-the-girl.png)
+![Holy symbol raised and blazing, **Varic** faces down the hollow-eyed and mad crusaders — **Sarenrae** demands no such offering](images/the-madmen-and-the-girl.webp)
 
 Closer to safety, the company came upon a horror that fire could not explain. Before a ruined shrine, a young girl knelt weeping while armored knights ringed her with drawn steel. Their tabards bore the arms of the crusade, but their eyes burned with a feverish, hollow light, and their leader spoke of sacrifice — of a maiden's blood to bless their blades so they might at last bite demon flesh. Varic did not wait. He strode into the open, holy symbol raised, and named the folly for what it was: **Sarenrae** demands no such offering. Beside him Harlock said nothing at all, only bared his teeth and let his silence do the work of a threat.
 
@@ -262,7 +262,7 @@ The madmen would not be reasoned with. Steel answered steel, and the melee was b
 
 At last the great stone bulk of the **Defender's Heart** rose before them, its yard barricaded with overturned carts and salvaged debris, crossbowmen watching from every third window of the third floor. The password *Silver Strong* bought them a wary approach; a grizzled veteran and a trembling boy came out to demand their weapons, for none passed armed within. The company bristled — and then a call went up. Someone glimpsed Anevia at the rear.
 
-![**Irabeth** lets her sword fall and sweeps **Anevia** off her feet — and for a moment, reunion undoes the war.](images/the-reunion-at-the-gate.png)
+![**Irabeth** lets her sword fall and sweeps **Anevia** off her feet — and for a moment, reunion undoes the war.](images/the-reunion-at-the-gate.webp)
 
 The heavy bar slid back, the doors swung wide, and a tall half-orc in battered armor came running. **Irabeth** let her own sword fall clattering to the steps and swept Anevia off her feet, and the two of them wept and laughed together while the guards forgot all about disarming anyone. Reunion, for a moment, undid the war.
 
@@ -270,7 +270,7 @@ The heavy bar slid back, the doors swung wide, and a tall half-orc in battered a
 
 Within, the great hall was a country of the wounded, tended by barmaids and a lone priest of Shelyn who gathered the sacrificed girl gently into his care. Twice Varic called down the mending light of Sarenrae over the crowded floor, closing wounds and easing the worst of the suffering; grateful defenders pressed small tokens of thanks upon him — a beer, a handmade beaded necklace, a murmured blessing — for seeing them through the night.
 
-![**Harlock** offers the dead blade up as he speaks the Code of **Iomedae** — and light climbs ***Radiance*** and wakes it, blazing, in his hands, while **Irabeth** looks on in wonder.](images/the-kindling-of-radiance.png)
+![**Harlock** offers the dead blade up as he speaks the Code of **Iomedae** — and light climbs ***Radiance*** and wakes it, blazing, in his hands, while **Irabeth** looks on in wonder.](images/the-kindling-of-radiance.webp)
 
 Upstairs, in a fine little office untouched by the ruin outside, Irabeth received them wearily. There Harlock knelt. He drew forth ***Radiance*** — the blade of the lost hero **Yaniel**, recovered from thieves — and offered to surrender it; Irabeth would not take it, telling him it was his to bear until its true heirs were found. Then, at his fervent asking, she bade him recite the Code. His voice faltered, found itself, and rose: *I will learn the weight of my sword… I will be the first into battle and the last to leave it… I will suffer death before dishonor.* As the verses spilled from him the blade began to shine — dim at first, then brighter, until it burned alive in his hands. Irabeth touched steel to his shoulder. *"Rise, Sir Harlock Greyforge, knight of Iomedae."* He stumbled up with tears streaming, and the company took turns being crushed in his embrace.
 
@@ -302,7 +302,7 @@ At the edge of the rubble they came upon a lone man digging through a fallen sta
 
 ### **The Pyre of Books**
 
-![**Harlock** comes through the library door like a thunderclap, ***Radiance*** blazing an arc through the templars' conjured dark](images/the-pyre-of-books.png)
+![**Harlock** comes through the library door like a thunderclap, ***Radiance*** blazing an arc through the templars' conjured dark](images/the-pyre-of-books.webp)
 
 The library was a landmark any child of the city could point to, and now its wings were rubble and only the vaulted great hall still stood. Through the open door came voices: *stack those books higher* — and beneath the command, weeping, and a laughter that was not kind.
 
@@ -312,7 +312,7 @@ He wore the mark of the demon lord **Deskari** at his neck, though his shield an
 
 ### **A Star Beneath the Stone**
 
-![One tile among the library floor bore the swirl of stars **Rabiah** keeps hidden on her own skin.](images/a-star-beneath-the-stone.png)
+![One tile among the library floor bore the swirl of stars **Rabiah** keeps hidden on her own skin.](images/a-star-beneath-the-stone.webp)
 
 Among the floor's many ornaments, one tile stopped **Rabiah** cold: it bore, in a swirl of stars, the very device of the birthmark she kept hidden and told no one of. Worked loose, the tile gave onto a hidden cache. Within lay ten arrows of surpassing beauty, their fletching pale angel-feather that shimmered with hidden color, forged to seek the hearts of demons and every evil thing born of the outer dark; a slender ***chime of opening***, named at last by the head librarian, **Fenna**; a ***wand of daylight***; a ***wand of magic missile***; and a clutch of healing potions. What the mark meant, and why such a hoard waited beneath it for one who bore it on her skin, none could yet say. Later, among the reordered shelves, a damaged spellbook came to light, and with it a folded scroll not yet read; others recovered proved to be scrolls of ***comprehend languages***.
 
@@ -320,7 +320,7 @@ Of the library's despoiling the librarians spoke a dreadful thing: it had been b
 
 ### **The Merchant's Satchel**
 
-![Her own house's livery on a dead courier, and the family seal on a bill of sale for **Baphomet**'s symbols.](images/the-couriers-satchel.png)
+![Her own house's livery on a dead courier, and the family seal on a bill of sale for **Baphomet**'s symbols.](images/the-couriers-satchel.webp)
 
 Leaving librarians and prisoners under guard, the company slipped out to the nearby **Nyserian Manor**, only to find the safe house crushed to a heap. There, pinned beneath a fallen beam, **Lupenor** recognized a corpse in the livery of the **Celestial Trading Company** — her own family's mercantile house. **Harlock** heaved the beam aside, and from the dead courier's satchel spilled a dozen neatly wrapped packages, each a steel holy symbol of **Baphomet**, together with a bill of lading naming a score of them for delivery to that very house. Her family's honest trade in arms had somewhere become a supply line to the cult. The transaction, at least, had died with its bearer — but the shadow it cast over the name of Celest did not lift.
 
@@ -332,7 +332,7 @@ The road's cruelest sight came near its end: a stage of wrecked wagons where qua
 
 At the barricades of **Defender's Heart** the watchword was given and the gates opened. The stubborn prisoner was handed over for questioning, his blasphemous symbol left plain upon him so his keepers would take care. And **Varic** knelt beside a man who carried the body of his wife, and spoke over him the blessing of **Sarenrae**, that the living might be comforted and the dead go gently into the light.
 
-![At the gates of the **Defender's Heart**, **Varic** kneels over a man who would not put down his dead wife, and calls the light of **Sarenrae** down to warm them both — that the living be comforted, and the dead go gently into the light.](images/the-blessing-of-the-dawn.png)
+![At the gates of the **Defender's Heart**, **Varic** kneels over a man who would not put down his dead wife, and calls the light of **Sarenrae** down to warm them both — that the living be comforted, and the dead go gently into the light.](images/the-blessing-of-the-dawn.webp)
 
 *— Session of January 17, 2025 —*
 
@@ -356,7 +356,7 @@ They waited, Kedness believed, for the witch **Areelu Vorlesh** herself: she who
 
 ### **The Tower of Estrad**
 
-![**Lupenor** wore a stolen face to it — a cultist's seeming and a false idol of **Baphomet** raised to the watch-slot, the passphrase on her lips — while **Harlock**, **Rabiah**, and **Varic** waited in the dark to spill through the moment it opened.](images/the-door-at-estrad.png)
+![**Lupenor** wore a stolen face to it — a cultist's seeming and a false idol of **Baphomet** raised to the watch-slot, the passphrase on her lips — while **Harlock**, **Rabiah**, and **Varic** waited in the dark to spill through the moment it opened.](images/the-door-at-estrad.webp)
 
 Two cultist safehouses yet remained. A mongrelman guide named **Grew** led the company by drowned sewer-tunnels and broken streets to the first — the **Tower of Estrad**, now scarcely a tower at all, its upper floors sheared away and heaped in rubble. Rather than force the sturdy stone doors, **Lupenor Celest** drew upon a scale-shaped talisman of shifting aspect, taking on the seeming of a known cultist and clutching a false holy symbol, and knocked with the passphrase gleaned from their captives: *I have new material for the archives.* The bar slid back, and two cultists welcomed the disguised elf warmly — until the company's blades fell among them.
 
@@ -370,7 +370,7 @@ In a rune-carved chest they found the true prize: a stack of cultist attack plan
 
 ### **The Poison Garden**
 
-![In the apothecary's buried garden of rot, the shrieking **Mandragora** rears from the slime beneath **Baphomet**'s daubed sign — and **Lupenor**, the sickness shaken off, sets an arrow to it across the dark.](images/the-poison-garden.png)
+![In the apothecary's buried garden of rot, the shrieking **Mandragora** rears from the slime beneath **Baphomet**'s daubed sign — and **Lupenor**, the sickness shaken off, sets an arrow to it across the dark.](images/the-poison-garden.webp)
 
 The second safehouse wore the sign of an apothecary — **Topaz Solutions** — its door hanging broken. Within, looters in matching tabards marked with a black bird were stuffing their sacks with plunder. Harlock cut through them in a single terrible sweep of ***Radiance***; a few threw down their arms, one bolted and was struck dead, and the rest were bound and left under Grew's watchful bow.
 
@@ -396,7 +396,7 @@ Near the shaft that led back beneath the city, they came upon cultists of Baphom
 
 ### **Counsel at the Defender's Heart**
 
-![In the commander's office, a keen-eyed scout of **Neathholm** knelt and pledged herself to **Rabiah's** service.](images/chirriks-pledge.png)
+![In the commander's office, a keen-eyed scout of **Neathholm** knelt and pledged herself to **Rabiah's** service.](images/chirriks-pledge.webp)
 
 The stronghold had grown fuller and its air lighter — more mouths, more children, but more healthy soldiers too, their ranks swollen by rescued crusaders. Varic pressed his healers' kits upon the wounded and spent his blessing freely among them. Then the company climbed to the commander's office, where a weeping woman passed them in the doorway; only later would they learn whose wife she was.
 
@@ -404,7 +404,7 @@ The stronghold had grown fuller and its air lighter — more mouths, more childr
 
 ### **The Weight of Heaven**
 
-![Through the ruined hedges they beheld the **Gray Garrison** at last — squat, joyless, unpainted, and yet achingly holy. Each of them felt a god's gaze settle and take account of the hour](images/the-weight-of-heaven.png)
+![Through the ruined hedges they beheld the **Gray Garrison** at last — squat, joyless, unpainted, and yet achingly holy. Each of them felt a god's gaze settle and take account of the hour](images/the-weight-of-heaven.webp)
 
 They came upon the garrison in the grey before dawn, choosing the broken pit over the guarded wall, scattering a wake of carrion-fed vultures from a heap of the dead. And then, through the decorative hedges of a ruined garden, they beheld the **Gray Garrison** for the first time.
 
@@ -412,7 +412,7 @@ It was a squat and joyless building, unpainted and ungilded, nothing like the op
 
 ### **The Worm-Wearers at the Threshold**
 
-![At the great doors, two men hollowed out and worn like garments by worm-demons — and ***Radiance*** blazing as **Harlock** cleaves the corruption from its stolen shell.](images/the-worm-wearers-at-the-threshold.png)
+![At the great doors, two men hollowed out and worn like garments by worm-demons — and ***Radiance*** blazing as **Harlock** cleaves the corruption from its stolen shell.](images/the-worm-wearers-at-the-threshold.webp)
 
 At the great stone doors stood two bloated, naked figures with poleaxes — recognized, to their horror, as **Hulrun**, the collector of **Kenabres**, whose office had given him command over the city's forces, and the very innkeeper of the Defender's Heart, husband of the woman who had wept. Yet these were men no longer. Worm-demons had hollowed them out and now wore their flesh like a garment; they drank strength from wounds and turned the company's own hurts to their healing. Cold iron and blessed steel at last told against them. **Radiance** blazed in Harlock's hand and cleaved worm from ruined shell, and one of the things burst free of its skin to slither, limbless and gaping, before it was hewn down.
 
@@ -448,7 +448,7 @@ The paladin waded in and cleaved them where they stood, while Lupenor and Rabiah
 
 ### **Solemn Hour**
 
-![In a wrecked alchemical workroom, **Varic** cuts the cord on a long case and finds ***Solemn Hour*** — a masterwork blade lettered in celestial, and a note naming its rightful owner: **Irabeth**.](images/solemn-hour.png)
+![In a wrecked alchemical workroom, **Varic** cuts the cord on a long case and finds ***Solemn Hour*** — a masterwork blade lettered in celestial, and a note naming its rightful owner: **Irabeth**.](images/solemn-hour.webp)
 
 A faint knocking sounded from somewhere behind them, and a door they had left shut now stood open — proof they were no longer alone in the garrison. In a side chamber of alchemical apparatus they found a long case bound in cord. Varic cut it open. Within lay a masterwork longsword, and near its hilt, engraved in celestial, two words: ***Solemn Hour***. A note tucked beside it named the blade's rightful owner — **Irabeth** — and the company resolved to see it returned to her hand. Harlock took the case upon his back.
 
@@ -462,7 +462,7 @@ Dretches waited beyond, small and vile, and one of them exhaled a ***Stinking Cl
 
 ### **The Black Stair**
 
-![Set in the chokepoint at the foot of the stair, **Harlock** is very nearly unmade — his garments alight, ***Radiance*** falling on the tieflings above — while **Varic** holds him upright with one hand and tears the demons' ***darkness*** away with ***daylight*** from the other.](images/the-black-stair.png)
+![Set in the chokepoint at the foot of the stair, **Harlock** is very nearly unmade — his garments alight, ***Radiance*** falling on the tieflings above — while **Varic** holds him upright with one hand and tears the demons' ***darkness*** away with ***daylight*** from the other.](images/the-black-stair.webp)
 
 Stairs climbed the wall toward the upper floor, and from their head a tiefling alchemist flung a smoking vial that burst among them. What followed was the longest and cruelest fight of the night. Crossbow-armed tieflings crouched upon the steps; bombs bloomed in fire and acid; casters chanted from beyond sight; and then a smothering ***darkness*** fell over everything, until Varic drew a wand and loosed ***daylight*** to tear it away.
 
@@ -490,7 +490,7 @@ The basin had been a scrying font before it was befouled. **Harlock** went back 
 
 ### **The Horn in the Hall of Helms**
 
-![The hall of mangled helms, and **Deradnu** winding his horn to alert the last guardians](images/the-horn-in-the-hall-of-helms.png)
+![The hall of mangled helms, and **Deradnu** winding his horn to alert the last guardians](images/the-horn-in-the-hall-of-helms.webp)
 
 Above, everburning torches lit a hall of pedestals, each bearing a mangled helm — the helms, they would learn, of the first crusaders ever to fall in the First Crusade, smashed and arranged here as a mockery. Its keeper was no mockery at all. **Deradnu**, a fiendish minotaur gifted to the cult by the Templars of the Ivory Labyrinth, filled the room with blood-red hide and glowing yellow eyes.
 
@@ -498,7 +498,7 @@ The plan was clean enough on the threshold: **Harlock** through the door first, 
 
 ### **The Rod and the Whispered Charge**
 
-![**Lupenor** sets the ***chime of opening*** against the last door while **Rabiah** waits at her shoulder — the ***rod of cancellation*** in one hand, **Harlock's** last ***potion of invisibility*** in the other.](images/the-chime-and-the-charge.png)
+![**Lupenor** sets the ***chime of opening*** against the last door while **Rabiah** waits at her shoulder — the ***rod of cancellation*** in one hand, **Harlock's** last ***potion of invisibility*** in the other.](images/the-chime-and-the-charge.webp)
 
 Before they touched the last door, **Harlock** unslung his pack and worked free a bundle he had carried a long way — the ***rod of cancellation***, entrusted to them by **Irabeth** for this single purpose. He laid it carefully in **Rabiah's** hands. **Varic** made the plan plain: he and **Lupenor** would fix the oracle's eye and he would keep the sorcerer alive, but **Rabiah's** task was the only one that truly mattered — reach the stone, touch the rod to it, and let nothing else in the world exist. Then **Harlock** pressed a small vial into her other hand, his last ***potion of invisibility***.
 
@@ -514,7 +514,7 @@ They came in upon **Jeslyn**, and she was a hard thing to look upon. She had bee
 
 ### **The Rod Touches the Stone**
 
-![**Rabiah**'s strike against the wardstone fragment is felt for miles, and snatches hope from the encroaching doom](images/the-rod-touches-the-stone.png)
+![**Rabiah**'s strike against the wardstone fragment is felt for miles, and snatches hope from the encroaching doom](images/the-rod-touches-the-stone.webp)
 
 **Rabiah** reached the pedestal and the barbed iron cage upon it, and within it the last and largest surviving fragment of the **Kenabres Wardstone**, softly aglow. She set the cold iron of the rod against the stone. For a heartbeat the fragment seemed to resist her, some old strength gathering to throw off the unmaking — and then it faltered, and let go, and broke.
 
@@ -530,7 +530,7 @@ And as it died the **Wardstone** showed them what it had been. They saw it raise
 
 ### **Areelu's Vengeance**
 
-![Her design broken, **Areelu Vorlesh** flung her image across the planes to promise them extinction](images/areelus-vengeance.png)
+![Her design broken, **Areelu Vorlesh** flung her image across the planes to promise them extinction](images/areelus-vengeance.webp)
 
 The architect of that design felt it break. **Areelu Vorlesh** flung her image across the planes into the room, transparent and beautiful and furious, and promised them their kind's extinction. She reached out a hand, and the breath went out of the mongrelfolk who had followed them so far — the loyal scouts clawing at their throats and dropping — and then the same killing magic broke uselessly against the light still surging in the company, and her fury turned to alarm.
 
@@ -552,7 +552,7 @@ But it did not drain entirely. Something had woken in the four of them that woul
 
 *March 28, 2025 session — the hour after the Gray Garrison, in the wounded city of Kenabres*
 
-![**Harlock**, **Varic**, **Lupenor** and **Rabiah** come up into the ruined streets still burning with a light that would not fade, and the crusaders and refugees of the **Defender's Heart** stop where they stand. Above the broken city, for the first time since **Armasse**, the stars.](images/the-march-of-the-glowing-ones.png)
+![**Harlock**, **Varic**, **Lupenor** and **Rabiah** come up into the ruined streets still burning with a light that would not fade, and the crusaders and refugees of the **Defender's Heart** stop where they stand. Above the broken city, for the first time since **Armasse**, the stars.](images/the-march-of-the-glowing-ones.webp)
 
 ### **A Room Full of Silence**
 
@@ -578,7 +578,7 @@ They chose humility over spectacle and returned to **Defender's Heart** through 
 
 That night, sleep took each of them down into vision, and a woman in gleaming plate — the **Inheritor** herself — moved through their dreams to thank them and set a kiss upon each brow.
 
-![Deep in a dream, **Iomedae** sets her kiss upon **Harlock's** brow.](images/the-inheritors-kiss.png)
+![Deep in a dream, **Iomedae** sets her kiss upon **Harlock's** brow.](images/the-inheritors-kiss.webp)
 
 **Lupenor** dreamed of childhood in the trading post of **House Celest**, of a father who taught both the ledger's honest face and the shadow-craft beneath it, of locks that opened at a whisper and a bow drawn until the fingers bled. She dreamed of the border of the **Worldwound**, where at eighteen she was lost among demonic patrols and saved by a strange, star-marked woman who moved between heartbeats of danger — a messenger, she now understood, of **Desna**, the Song of the Spheres. And she dreamed of a wound that would not close: a courier in **House Celest** livery bearing bills of sale for unholy things, proof that her own family had trafficked with the enemy they claimed to fight. **Desna** herself walked a starlit meadow to tell her that her caution had kept her alive, but that her luck was never meant to be hoarded — only spent, in pursuit of wonders yet unseen.
 
@@ -588,7 +588,7 @@ That night, sleep took each of them down into vision, and a woman in gleaming pl
 
 ### **The Weight of a Legend**
 
-![**Varic** folds back the cloth, and **Irabeth** goes still.](images/the-weight-of-a-legend.png)
+![**Varic** folds back the cloth, and **Irabeth** goes still.](images/the-weight-of-a-legend.webp)
 
 By morning the company sought out **Dame Irabeth**, commander of the Eagle Watch, worn to the bone from a night spent counting her living and her dead. She met the wild rumors already racing the city — that they had slain **Areelu Vorlesh**, thrown down the Storm King, cleaved demons with a glance — with weary humor, and they set her straight. Then **Varic** laid a bundled sword before her and opened it, and she went still. ***Solemn Hour***, its blade graven *Protect us from evil in this solemn hour*, had been her grandfather's, forged in the First Crusade; she had sold it to raise coin for the cause and thought it lost. She would not simply take it back — a gift twice-given is a lesser thing, she said — but bade **Lupenor** carry it until she no longer needed it, and behind the curtain her wife **Anevia** wept to see it again.
 

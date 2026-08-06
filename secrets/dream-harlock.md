@@ -6,7 +6,7 @@
 
 *Exhausted from the battle at the Gray Garrison, you collapse onto your bedroll, Radiance still clutched in your hand. As sleep claims you, the sword pulses once with golden light, and memories both cherished and feared begin to surface...*
 
-![*"A blade isn't judged by how it looks, Harlock. It's judged by what it does when tested."* — his father's forge on the outskirts of **Kenabres**.](images/the-bellows-and-the-blade.png)
+![*"A blade isn't judged by how it looks, Harlock. It's judged by what it does when tested."* — his father's forge on the outskirts of **Kenabres**.](images/the-bellows-and-the-blade.webp)
 
 You are seven years old, standing in your family's forge on the outskirts of Kenabres. The heat from the furnace bathes your face as your father hammers a glowing length of steel. Your fingers trace the pointed tip of your own ear, and the green of the small hand that does it—unmistakably orcish.
 
@@ -38,7 +38,7 @@ Pain beyond imagining consumes you as they pour a viscous liquid down your throa
 
 You don't just resist the ritual; you seize its power. The energy they meant to use as a weapon against Kenabres becomes something else inside you—a burning coal of stolen strength. The cultists panic as their spell backfires, the backlash killing two of them instantly.
 
-![The ritual meant to hollow him out instead hands him the coal he will carry ever after — and the masked circle recoils from a power that has stopped answering to them.](images/the-fury-stolen.png)
+![The ritual meant to hollow him out instead hands him the coal he will carry ever after — and the masked circle recoils from a power that has stopped answering to them.](images/the-fury-stolen.webp)
 
 In the chaos, you break your bonds and flee, wounded and disoriented but alive. For weeks afterward, nightmares plague you—visions of abyssal realms, whispers in languages no mortal should understand. The cuts heal, but something has changed inside you. When your anger rises, so too does a strange power—a fury not entirely your own, yet somehow bound to your will.
 
@@ -80,7 +80,7 @@ She gestures to Radiance, which now floats between you, glowing with renewed pur
 
 She leans forward and places a kiss upon your forehead. It fills you with warmth that reaches to your very core, burning away doubt like morning mist.
 
-![On a summit above the clouds, the Inheritor names the two fires he carries — one stolen, one earned — and **Radiance** wakes in the air between them.](images/the-inheritors-kiss.png)
+![On a summit above the clouds, the Inheritor names the two fires he carries — one stolen, one earned — and **Radiance** wakes in the air between them.](images/the-inheritors-kiss.webp)
 
 "The mythic power awakened within you recognizes the battle you've fought within yourself all these years. To master the dual nature of your heritage. To transform violation into virtue. These struggles have forged you as surely as any hammer shapes steel."
 

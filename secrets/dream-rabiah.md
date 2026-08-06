@@ -24,7 +24,7 @@ The scene shifts. You're eight, hiding beneath the stairs as your foster parents
 
 "The agreement was broken when they never came back! What do you propose? Abandon her to the streets?"
 
-![Her bundle is already tied. Eight years old on the stairs, in the dark just outside the light, listening to the only home she has ever had decide whether to keep her.](images/beneath-the-stairs.png)
+![Her bundle is already tied. Eight years old on the stairs, in the dark just outside the light, listening to the only home she has ever had decide whether to keep her.](images/beneath-the-stairs.webp)
 
 Something cold settles in your chest. That night, you feel the first stirring of magic in your blood—a candle flame that bends toward your outstretched hand, responding to emotions you can't name.
 
@@ -32,7 +32,7 @@ The dream blurs. You're ten, running through the back alleys of Nerosyan. How yo
 
 The streets of Nerosyan become your classroom. You learn to smile at the right strangers, to make yourself useful to merchants who might spare food, to hide when certain patrols pass by. And always, always, to keep the spiral birthmark covered.
 
-![The back-streets were her classroom first and her charge soon after — a half-loaf divided by a girl the others had already learned to let decide.](images/the-fair-division.png)
+![The back-streets were her classroom first and her charge soon after — a half-loaf divided by a girl the others had already learned to let decide.](images/the-fair-division.webp)
 
 At night, alone in whatever shelter you've found, you practice the strange abilities that grow stronger with each passing month. Fire dances between your fingertips. Objects shift slightly when you concentrate. Small predictions come to you in flashes—which market stall will discard food, which guard will look the other way.
 
@@ -74,7 +74,7 @@ Then stillness.
 
 You float in an endless void of silver light. Before you materializes a tall woman in gleaming armor, her face bearing the beautiful scars of countless battles, her eyes holding the wisdom of ages. You recognize her instantly—Iomedae, the Inheritor, goddess of righteous valor.
 
-![Weightless in an endless silver light, with nothing underfoot and nothing to hold to, the girl nobody kept is told that her whole tangled life was a pattern all along.](images/daughter-of-the-spiral.png)
+![Weightless in an endless silver light, with nothing underfoot and nothing to hold to, the girl nobody kept is told that her whole tangled life was a pattern all along.](images/daughter-of-the-spiral.webp)
 
 "Young Rabiah," her voice resonates with quiet power. "Few would have had the courage to do what you did—to approach the captured wardstone, to strike the decisive blow that both saved and transformed its power."
 

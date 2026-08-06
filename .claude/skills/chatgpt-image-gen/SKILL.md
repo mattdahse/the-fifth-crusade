@@ -1,13 +1,14 @@
 ---
 name: chatgpt-image-gen
-description: Generate chronicle artwork by driving Matt's own logged-in ChatGPT tab in the browser and saving the full-res PNGs into images/. Use whenever the task is to illustrate a chapter, add a scene image, give a character a canonical portrait, or regenerate or revise existing art — e.g. "illustrate chapter X", "add images to this chapter", "give <character> a face", "regenerate that picture", "the lances are wrong, try again". Reach for this BEFORE hand-rolling browser automation against ChatGPT: it encodes the non-obvious workarounds (composer clearing, reference-vs-render disambiguation, renderer wedging, CDP timeouts) that otherwise take many painful passes to rediscover.
+description: Generate chronicle artwork by driving Matt's own logged-in ChatGPT tab in the browser and saving the renders as WebP into images/. Use whenever the task is to illustrate a chapter, add a scene image, give a character a canonical portrait, or regenerate or revise existing art — e.g. "illustrate chapter X", "add images to this chapter", "give <character> a face", "regenerate that picture", "the lances are wrong, try again". Reach for this BEFORE hand-rolling browser automation against ChatGPT: it encodes the non-obvious workarounds (composer clearing, reference-vs-render disambiguation, renderer wedging, CDP timeouts) that otherwise take many painful passes to rediscover.
 ---
 
 # Chronicle art via ChatGPT in the browser
 
 Art for this archive is generated through **Matt's own logged-in ChatGPT tab**, not an image API.
-The full-res PNG is then saved into `images/` (scene art) or `characters/` (canonical portraits),
-wired into the markdown, rebuilt, and pushed.
+ChatGPT hands back a full-res PNG; that PNG is **converted to WebP q82** and saved into `images/`
+(scene art) or `characters/` (canonical portraits), wired into the markdown, rebuilt, and pushed.
+**The archive stores WebP and only WebP** — see step F for why, and never commit the PNG.
 
 This file covers the **mechanics**. The **look** is governed by two files in this repo, and you read
 them first, every time:
@@ -19,9 +20,9 @@ them first, every time:
   Face from `CANON.md`, gear from here.
 
 **Step 0 — pre-flight, never skip.** Before writing a word of prompt, `Read` the actual
-`characters/*.png` for everyone in the scene and check it against their `CANON.md` row. Do not write
-a likeness from the row alone, and never from memory. If the PNG and the row disagree, fix the row
-first.
+`characters/*.webp` for everyone in the scene and check it against their `CANON.md` row. Do not write
+a likeness from the row alone, and never from memory. If the portrait and the row disagree, fix the
+row first.
 
 ---
 
@@ -67,18 +68,18 @@ then ask him to.
 
 ```bash
 # macOS / Linux
-rm -f ~/Downloads/REF-*.png
-cp characters/harlock.png ~/Downloads/REF-1-harlock.png
-cp characters/rabiah.png  ~/Downloads/REF-2-rabiah.png
-ls -l ~/Downloads/REF-*.png
+rm -f ~/Downloads/REF-*.webp
+cp characters/harlock.webp ~/Downloads/REF-1-harlock.webp
+cp characters/rabiah.webp  ~/Downloads/REF-2-rabiah.webp
+ls -l ~/Downloads/REF-*.webp
 ```
 
 ```powershell
 # Windows / PowerShell
-Remove-Item "$HOME\Downloads\REF-*.png" -Force -ErrorAction SilentlyContinue
-Copy-Item characters\harlock.png "$HOME\Downloads\REF-1-harlock.png" -Force
-Copy-Item characters\rabiah.png  "$HOME\Downloads\REF-2-rabiah.png" -Force
-Get-ChildItem "$HOME\Downloads\REF-*.png" | Select-Object Name,Length
+Remove-Item "$HOME\Downloads\REF-*.webp" -Force -ErrorAction SilentlyContinue
+Copy-Item characters\harlock.webp "$HOME\Downloads\REF-1-harlock.webp" -Force
+Copy-Item characters\rabiah.webp  "$HOME\Downloads\REF-2-rabiah.webp" -Force
+Get-ChildItem "$HOME\Downloads\REF-*.webp" | Select-Object Name,Length
 ```
 
 *(`$HOME` works in PowerShell 7 on every platform, which is what Matt runs everywhere — prefer it to
@@ -156,7 +157,7 @@ reasoning model that otherwise stalls in a long "Thinking" loop. **Put the aspec
 (`Aspect ratio 3:2.`); there is no reliable UI control for it.
 
 **ATTACH THE REFERENCES FIRST, THEN PASTE THE PROMPT — this ordering is the safe one.** Navigate to a
-fresh chat, verify the composer is empty, and ask Matt to drag the staged `REF-*.png` files into the
+fresh chat, verify the composer is empty, and ask Matt to drag the staged `REF-*.webp` files into the
 **empty** composer. Only once he confirms they are in do you paste the prompt; then send. It costs him
 the same ten seconds either way and there is no automated substitute for the drag.
 
@@ -230,7 +231,7 @@ overlapping DOM nodes (progressive layers); that is normal, not multiple renders
 before user-activation is consumed. So build a *visible* anchor and click it with a real gesture.
 
 **Critically — exclude the reference images.** Matt's attached portraits are `<img>` elements too,
-and they frequently share the render's exact dimensions (several `characters/*.png` are 1086×1448,
+and they frequently share the render's exact dimensions (several `characters/*.webp` are 1086×1448,
 which is also a common 3:4 output size). Filtering by size alone *will* eventually download a
 reference portrait back over your scene art. Filter by message role:
 
@@ -252,9 +253,9 @@ for (const x of imgs) {
 ```
 
 **Also note:** Matt's dropped reference portraits are large images too, and on a fresh chat they
-sort *first*. Filtering on `naturalWidth > 700` alone will happily hand you `rabiah.png` back.
+sort *first*. Filtering on `naturalWidth > 700` alone will happily hand you `rabiah.webp` back.
 Keep the `[data-message-author-role="user"]` exclusion, and sanity-check the byte count against the
-`REF-*.png` sizes before moving the file.
+`REF-*.webp` sizes before moving the file.
 
 ```js
 const cand = [...document.querySelectorAll('img')]
@@ -301,31 +302,50 @@ healthy.
 
 Note the returned `blobSize`; you verify against it in the next step.
 
-### F. Move it into the repo and verify the bytes
+### F. Verify the bytes, then CONVERT TO WEBP into the repo
+
+ChatGPT hands you a PNG, and a PNG is **not** what the archive stores. Verify the download first,
+**while it is still a PNG and still has the byte count you measured**, then convert.
 
 ```bash
 # macOS / Linux
 sleep 1
-mv ~/Downloads/the-scene-name.png images/the-scene-name.png && wc -c < images/the-scene-name.png
+wc -c < ~/Downloads/the-scene-name.png          # must equal blobSize
+cwebp -q 82 -m 6 ~/Downloads/the-scene-name.png -o images/the-scene-name.webp
+rm ~/Downloads/the-scene-name.png
+ls -l images/the-scene-name.webp
 ```
 
 ```powershell
 # Windows / PowerShell
 Start-Sleep -Milliseconds 1200
-Move-Item "$HOME\Downloads\the-scene-name.png" images\the-scene-name.png -Force
-(Get-Item images\the-scene-name.png).Length
+(Get-Item "$HOME\Downloads\the-scene-name.png").Length     # must equal blobSize
+cwebp -q 82 -m 6 "$HOME\Downloads\the-scene-name.png" -o images\the-scene-name.webp
+Remove-Item "$HOME\Downloads\the-scene-name.png" -Force
+(Get-Item images\the-scene-name.webp).Length
 ```
 
-**The size must equal `blobSize`.** If it does not, you moved a different file — most likely a stale
-download of the same name, or a reference portrait. Also sanity-check that it is not the byte size of
-any `REF-*.png` you staged.
+**Check the PNG's size against `blobSize` BEFORE converting.** If it does not match, you downloaded a
+different file — most likely a stale download of the same name, or a reference portrait. Also
+sanity-check that it is not the byte size of any `REF-*.webp` you staged.
+
+**Never commit the PNG.** The whole library is WebP q82 — 407 MB of PNG was overrunning the GitHub
+Pages deploy and timing it out, and the conversion took the published site to 28 MB. *(Aug 2026: two
+consecutive deploys failed at `deployment_queued` before this was found.)* A single stray 3 MB PNG
+will not break anything on its own, but the rule is the library stays one format. **Portraits saved
+into `characters/` follow the identical step.**
+
+**q82 is the settled quality and it is visually lossless on this art** — Matt approved it against a
+1:1 crop of a dusk-sky gradient, the worst case for banding. Do not lower it to save bytes and do not
+raise it without asking.
 
 ### G. QA against canon, then wire it in
 
-`Read` the saved PNG and check each named figure feature-by-feature against their portrait, plus the
-style guide's combat checklist. Regenerate rather than shipping a drifted likeness.
+`Read` the saved WebP — the Read tool opens WebP natively, so this needs no decode step — and check
+each named figure feature-by-feature against their portrait, plus the style guide's combat checklist.
+Regenerate rather than shipping a drifted likeness.
 
-Then place it in the markdown on its own paragraph — `![Caption text](images/<file>.png)` — rebuild
+Then place it in the markdown on its own paragraph — `![Caption text](images/<file>.webp)` — rebuild
 with `pwsh -File ./build.ps1`, and commit. Record any accepted drift in the commit message so the
 decision is findable later.
 

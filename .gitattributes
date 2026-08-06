@@ -11,3 +11,4 @@ data.js   text eol=lf
 
 *.png binary
 *.jpg binary
+*.webp binary

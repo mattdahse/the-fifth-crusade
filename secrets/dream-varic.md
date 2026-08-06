@@ -26,7 +26,7 @@ Light surrounds you – golden, warm, unbearably bright. Standing before you is 
 
 "The child lives," she says simply, and reaches for you.
 
-![The coast road out of **Augustana**, and the first mercy **Varic** was ever shown — a stranger's hands coming down out of the light for a boy who had just lost everything.](images/the-child-lives.png)
+![The coast road out of **Augustana**, and the first mercy **Varic** was ever shown — a stranger's hands coming down out of the light for a boy who had just lost everything.](images/the-child-lives.webp)
 
 The memory blurs, and now you're kneeling in a modest chapel. Sunlight streams through simple stained glass. An elderly priestess of Sarenrae places a weathered hand upon your head.
 
@@ -52,7 +52,7 @@ You move to the mirror of Glory. In its reflection, you momentarily see not just
 
 Next, you approach the brazier of Fire. The flames leap unexpectedly as you near, dancing higher, more intensely. Heat washes over your face, and within the fire, you glimpse visions of righteous vengeance – bandits cowering before your wrath, cultists burning for their sins. The intensity of your reaction startles you, and more troubling still, you feel not horror but satisfaction at these visions.
 
-![Six sacred objects on the altar, and only one of them answers him. The brazier of Fire leaps as he nears it, and a boy of seventeen steps back from his own nature.](images/the-path-choosing.png)
+![Six sacred objects on the altar, and only one of them answers him. The brazier of Fire leaps as he nears it, and a boy of seventeen steps back from his own nature.](images/the-path-choosing.webp)
 
 You step back, unnerved by your own response. The High Dawnflower watches with knowing eyes but says nothing.
 
@@ -84,7 +84,7 @@ You stand in a vast desert under a night sky filled with impossibly bright stars
 
 Sarenrae, the Dawnflower, stands before you. At her feet lie the objects from your Path-Choosing ceremony so many years ago.
 
-![Dawn breaks not from the horizon but from inside the earth — and the six objects of his Path-Choosing lie waiting on the sand, where he left one of them unanswered.](images/the-dawnflower-rising.png)
+![Dawn breaks not from the horizon but from inside the earth — and the six objects of his Path-Choosing lie waiting on the sand, where he left one of them unanswered.](images/the-dawnflower-rising.webp)
 
 "My faithful Varic," her voice is like the first birdsong at daybreak. "You chose your paths with a divided heart."
 
