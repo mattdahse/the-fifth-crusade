@@ -692,6 +692,8 @@ He could not give the ring back. It had gone wherever the demon's trophies go, a
 
 At dawn, **Varic** woke the priest and they sat together in the thin light of a Worldwound sunrise. By the letter of the thing an ***Atonement*** should be spoken by a priest of the penitent's own god, and **Varic** was **Sarenrae**'s man kneeling with **Erastil**'s. He did it anyway. He reached down past everything he had made ready that morning and hauled the prayer up out of the deep water — a spell he had not prepared and had no business having, pulled through on mythic strength and the assumption that the Dawnflower would rather he tried. The casting took an hour. When it was done, **Jeskar** opened his eyes, and everything about his bearing had changed.
 
+![By the letter of the thing, an ***Atonement*** should be spoken by a priest of the penitent's own god. He did it anyway.](images/atonement-at-dawn.webp)
+
 **Jeskar:** *I still look back at what I've done. But now I feel like I'm in complete control, and that wasn't me. That was the influence I was under — a sickness of the soul. And just now, with my eyes closed, I had a vision of* ***Delamere****'s crystalline coffin, cracking and falling away.*
 
 ### **Delamere's Legacy**
