@@ -644,7 +644,7 @@ Jets of black, smoky, greasy air pushed themselves out of **Jeskar**'s nose and 
 
 A **Shachath**.
 
-![It had been living in him for months. It came out the way it had gone in.](images/what-came-out-of-jeskar.webp)
+![Denied the suicide it craved, the demon stepped out to deal with them](images/what-came-out-of-jeskar.webp)
 
 ### **The Battle Above the Lava**
 
@@ -736,7 +736,7 @@ Then the useful parts. Far out to the northwest, on the way home from the **Fall
 
 Then they told her what they meant to do next: take twelve of their own people out to the **Hidden Shrine**, dig it open, stock it, and hold it — and offer it to the crusade as a way station, on the understanding that keeping it supplied and keeping the road to it safe would be somebody else's problem. **Irabeth** came halfway out of her chair. **Queen Galfrey** had been asking her for exactly this for months: a forward position deep in the Worldwound, unremarkable from the outside, from which small teams could be staged for incursions behind the enemy's lines. The crusade had never had the people or the coin to build one.
 
-What she needed in return was cartography, because a secret base nobody can navigate to is not an asset. **Anevia** allowed that she knew a man — a wizard with a hawk familiar, who somehow saw through the bird's eyes and produced the finest top-down maps in the crusade, and who valued his privacy enough that she glanced at **Irabeth** before saying even that much. She would talk to him first. If he agreed, a runner would find them at the church.
+What she needed in return was cartography, because a secret base nobody can navigate to is not an asset. **Anevia** allowed that she knew someone — a man with a hawk familiar, who somehow saw through the bird's eyes and produced the finest top-down maps in the crusade, and who valued his privacy enough that she glanced at **Irabeth** before saying even that much. She would talk to him first. If he agreed, a runner would find them at the church.
 
 And **Irabeth** had a thread of her own. The **Cult of the Ivory Labyrinth** was mobilizing to hunt down a particular demon — a heretic of their own kind, a succubus who had turned from the Abyss. Every informant inside the organization gave a different answer about where she was, which meant none of them knew, which meant she was still free. The party had met that story before, in pieces: the cell beneath the citadel carved over with the symbols of ***Desna***, the only place down there where the constant mental assault could not reach; **Staunton Vhane**'s journal naming a prisoner held in it; a reward posted in the **Fallen Fane**'s paperwork for her recovery. Nobody in the room could say what a succubus was doing praying to the goddess of dreams. **Irabeth** would very much like to know before the cult found out first.
 
@@ -758,9 +758,9 @@ That, she told him, could be arranged. Nobody mentioned who would be escorting t
 
 ### **The Forge**
 
-Her second visit of the day was to **Joran Vhane**, and she did not arrive empty-handed.
+**Varic** went to **Joran Vhane** that same day, and he did not arrive empty-handed.
 
-The dwarf was still in his cell beneath the citadel, but the door was unlocked now and the guard outside it stood there more from habit than duty. **Joran** did not recognize her at first. Then he saw what was in her hand.
+The dwarf was still in his cell beneath the citadel, but the door was unlocked now and the guard outside it stood there more from habit than duty. **Joran** did not know him — a priest of the **Dawnflower** at his door, offering atonement, was not what he had been expecting. Then he saw what was in the priest's hand.
 
 **Joran:** *Is that a bottle of Drobane Ale? Right this way. Have a seat, have a seat.*
 
@@ -768,7 +768,7 @@ He had been sitting on his breakthrough for weeks, and he was sore about it.
 
 **Joran:** *Every time I try to reach you I'm told you're out of town, messages can't get through, and nobody takes my requests seriously. I need a line of communication if I'm going to help with this. I've been stuck in the corner down here.*
 
-Three and a half glasses in, he told her what he had worked out.
+Three and a half glasses in, he told him what he had worked out.
 
 **Joran:** *The forge itself is an artifact. It can be corrupted or redeemed the same way it corrupts other things — that mechanism runs both directions. Once I realized that, the path became absolutely clear.*
 
@@ -778,7 +778,7 @@ There was no telling how long. Not the hundredth stroke of the hammer, perhaps, 
 
 **Joran:** *You had all these wizards and priests making holy items to help the crusade, and we were putting them in one end and cranking them out the other completely converted. Not just taking your pieces off the board — stealing them and putting them on our side. Now imagine you could turn the table. I think the queen would want this to happen.*
 
-**Lupenor:** *Then why isn't she down here paying for it?*
+**Varic:** *Then why isn't she down here paying for it?*
 
 **Joran:** *That's a good question. Write some letters.*
 
