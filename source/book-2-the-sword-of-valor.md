@@ -60,7 +60,7 @@ So they kept the pace of the broken, and watched the scrub for cloven prints, an
 
 ### **The Garrison of Runners**
 
-![**Irabeth** had been holding that breath a long time. The children waiting with notes in their fists are her couriers — and the tune two of them have stopped to hum is about the four who just walked in.](images/the-garrison-of-runners.webp)
+![**Irabeth** had been holding that breath a long time.](images/the-garrison-of-runners.webp)
 
 **Kenabres** came in sight at mid-morning. On the road beneath her walls they overtook a knot of refugees moving the other way — people scarcely better off than the ones they carried, but with a wagon, a little food, and the particular steadiness of those who have decided to keep going. Into their keeping the company gave the waystation's survivors, and then put their heels to their borrowed horses and rode the rest of the way at a gallop.
 
@@ -86,7 +86,7 @@ And everywhere they went the whispers went with them. Faces turned at the edge o
 
 ### **The Ballad of the Wardstone's Champions**
 
-![Their introduction to **Callan Thornwind** — a packed room word-perfect on a ballad about them, and wrong from end to end. *"We killed a balor? I don't think so."*](images/the-ballad-of-the-wardstones-champions.webp)
+![*"I must have missed when you strangled that balor."*](images/the-ballad-of-the-wardstones-champions.webp)
 
 At the end of the day they came, each by their own road, back to the **Defender's Heart**. It was the command of nothing now, but it remained the one place in **Kenabres** where the homeless and the idle gathered for news and company and ale and song, and that evening it was serving all four at once.
 
@@ -132,7 +132,7 @@ Word came that the Queen's retinue was at the gates. Hard behind it came a summo
 
 ### **The Queen**
 
-![She had one ceremony left in her, and she spent it here — on a sixteen-year-old sorcerer, an elven scout, a half-orc and a priest of the **Dawnflower**. With the title came the right to raise armies and to hold land.](images/knights-of-the-fifth-crusade.webp)
+![Already heroes, the queen makes it official with titles](images/knights-of-the-fifth-crusade.webp)
 
 They were not the only ones sent for. **Aravashnial** had been brought, blind and impatient. **Anevia** was there, and **Irabeth** beside her.
 
@@ -166,7 +166,7 @@ Neither favor had been offered. Both were granted. They went out through the nor
 
 ### **Rabiah's Redeemers**
 
-![A hundred heavy horse, every one of them a volunteer, standing to attention on the flat ground north of the wall — and every one of them, though nobody said it aloud, already certain they were riding to their deaths at **Drezen**, and at peace with it. **Rabiah** gave them a name that was not modest.](images/the-hundred-that-volunteered.webp)
+![A hundred heavy horse, every one of them a volunteer.](images/the-hundred-that-volunteered.webp)
 
 A hundred heavy horse waited at the northern edge of the camps, and every one of them a volunteer who had asked for this road. They fell into line as the company approached and stood to attention.
 
@@ -186,7 +186,7 @@ There was exactly one man left in **Kenabres** with the resources to close that 
 
 ### **The Bargain at the Gwerm Estate**
 
-![Across the table in his counting-house, **Horgus Gwerm** treated a heavy purse of crusade gold as an opening position and pressed for more — magic, oaths, the keep of his own guard, and the trade of Drezen besides. Within a day **Varic** would concede he was worth every penny.](images/the-bargain-at-the-gwerm-estate.webp)
+![**Horgus Gwerm** sets the terms of his involvement.](images/the-bargain-at-the-gwerm-estate.webp)
 
 **Horgus Gwerm**'s estate had come through the fall of the city very nearly untouched, and he had already gathered back to himself a staff and a body of mercenaries. The company did not get past the gate on their reputation. They tried threats; the guard, who knew precisely who they were and precisely what they were and were not going to do to an innocent man at his post, called the bluff without blinking. They were admitted when Horgus decided to admit them.
 
@@ -196,7 +196,7 @@ In exchange he undertook to see the army provisioned, and to march with it himse
 
 ### **A Dinner Before the Road**
 
-![The last comfort the ruins of civilization had to offer — a borrowed hall, new clothes from a tailor's shop they had saved from burning, and the people they were about to spend a hard road with. **Aravashnial** came with his sight restored and no intention of pretending he was not delighted about it; **Callan** kept his promise to keep everyone entertained.](images/a-dinner-before-the-road.webp)
+![With a grim march through a hellscape of demon armies before them, they enjoy a last evening of comfort from the city they saved.](images/a-dinner-before-the-road.webp)
 
 With that concluded, they went and collected a debt of a happier kind — the fine clothing promised them by the little tailor's shop they had saved from burning in the first days.
 
@@ -246,13 +246,13 @@ It had been taken only days earlier — the small crusader contingent that had h
 
 The scouts had bought the Redeemers the one advantage that mattered. The tieflings were still marshalling when a hundred armored horse came out of the concealing ground and into their encampment, and after that it was less a battle than an accounting. The ford was retaken. Not one of **Rabiah**'s people was left on the field.
 
-![They were still marshalling — straps loose, helmets not yet on — when the brush at the top of the slope came apart and a hundred lances came down it. One tiefling got as far as putting a foot in his crossbow stirrup.](images/the-taking-of-the-ford.webp)
+![Surprise!](images/the-taking-of-the-ford.webp)
 
 ### **The Gaol on the East Bank**
 
 A dozen of the original garrison were still alive, penned in a stone building — held back from despair by their ranking survivor, a sergeant named **Kamilo Dann**, who had kept them steady even as their captors took one or two away every few hours and did not bring them back. She came out of that gaol, found the commander of the army that had freed her, snapped a salute, and asked for orders.
 
-![Her captors had taken the blade and left her the mail. **Kamilo Dann** came out of the dark, walked the length of the yard to the commander of the army that had freed her, and reported for duty — to a girl of sixteen who had not expected to be saluted by anyone.](images/the-salute-at-the-gaol.webp)
+![**Rabiah** had not yet learned to accept a salute.  She would get plenty of practice.](images/the-salute-at-the-gaol.webp)
 
 What to do with them took some debate. A dozen wounded crusaders could not hold **Vilareth Ford** against the next thing that came for it; leaving them here was simply arranging their deaths at a later date. Nor could the Redeemers spare anyone to stiffen them. In the end they were sent back down the road to **Kenabres** — to carry word of the ford's fall, and to ask for reinforcement or rejoin the Queen's army, as the Queen saw fit.
 
@@ -264,7 +264,7 @@ They did not bed down on the open shore. The ford came with its own works — th
 
 From the heights **Lupenor** had marked a thing that unsettled even her elven calm: the river divided two worlds. Eastward the sun fell honest and clean. Westward, over the **Worldwound** side, the same light hung dim and jaundiced, and the air came fouler into the lungs.
 
-![She bound her hair back before she went up, so that nothing of her would show against the sky. Below her the army had taken the ford's own bunkers for the night; across the water, the same sun that was setting cleanly at her back hung sick and directionless over the **Worldwound**, and she squinted into it for a long time trying to find the shape of what was out there.](images/the-river-divides-two-worlds.webp)
+![At the border of the worldwound, and ready to cross it.](images/the-river-divides-two-worlds.webp)
 
 *— Session of April 26, 2025 —*
 
@@ -286,7 +286,7 @@ Then the horns of departure sounded, and the crusade wound west into the canyon 
 
 The paladins rode that road in a way that lifted the heart to watch — ranks dressed, horses very nearly in step. **Callan** rode it differently. He drifted, dropping back out of the company to fall in a while among the troops, trading small talk down the length of the column, and he was well liked for it. **Varic** caught the tail of one such conversation and slowed to hear it out. A soldier had asked the plain soldier's question: why there were so many tieflings in this country that the enemy could throw a whole host of them at the crusade and never seem to miss them. **Callan** was happy to explain. An incubus's get, he said, was a near-certain thing — even barren women bore children by them, twins came often, and that was why the **Worldwound** never ran short of bodies to spend.
 
-![There was nothing in it to accuse him of. **Callan** is explaining something interesting to a man on a long wet ride, and the man has just worked out what it means for his own household back in **Mendev**. **Varic** was near enough to overhear and no part of the conversation; he is still turning the claim over, unable to confirm it and unable to call it false.](images/what-callan-told-the-column.webp)
+![Callan casually shares some facts about demons.](images/what-callan-told-the-column.webp)
 
 The priest went looking through his reading for it and found nothing at all. He had never met the claim before; neither could he call it false. He kept his mouth shut, and thought no more about it than that.
 
@@ -298,7 +298,7 @@ Near dusk **Lupenor** and **Anevia**, a quarter-day out in front of the column, 
 
 The canyon was held, and held twice over. Two forces were camped in it, sprawled apart in the loose, undisciplined way of demons. One was an army of tieflings, two hundred swords, of a size with the host they had broken at the ford. The other was smaller and worse: a gibbering mass of **dretches** dug in among the canyon's ruins, where broken walls would do half their fighting for them. Fires were being lit down there as the light failed. And moving between the two camps went a tall figure in a white cloak, who, when he wanted to cross the ground quickly, shrugged the cloak off a pair of great bat wings and flew.
 
-![Neither of them said anything. **Lupenor**'s hand went out flat to stop **Anevia** where she lay, and the two of them counted fires — the tiefling host nearer, the **dretches** seething in the ruins beyond under their own green haze, and the white cloak crossing the open ground between on a pair of wings. This was the first the crusade knew of **Exorius**.](images/the-canyon-held-twice-over.webp)
+![Lupenor and Anevia realize that tomorrow will be an interesting day.](images/the-canyon-held-twice-over.webp)
 
 Word went back down the trail at once. It was the scouts' habit that had won **Vilareth Ford** before it began, and it served the crusade again here: the army did not walk into that canyon in the dark. **Rabiah** halted the column well short of it, out of sight and out of earshot, and made camp where nothing in the canyon could see her.
 
@@ -320,7 +320,7 @@ The tieflings came out to meet them in the open, and were met by a hundred lance
 
 So the paladins came off their horses. An elite company of mounted knights dismounted to fight on foot in a demon's cellar is not what such men are for, and they did it anyway, going in among the walls to dig the **dretches** out one hole at a time. It was slower and uglier than **Vilareth Ford** and cost a great deal more sweat. It cost remarkably few lives. By afternoon the tieflings who could run had run, the dretches were dead in their holes, and **Keeper's Canyon** belonged to the crusade.
 
-![No lances, no horses, and no room to use either — three of the hundred working a gap between the walls, one hole at a time, through air the demons had fouled themselves. The man in front has seen it coming; the man behind him is still watching the cellar mouths, and has not. This part of the morning belonged to no famous blade. It belonged to the army.](images/the-knights-dismounted.webp)
+![The dretches were not about to stand in neat rows for the calvary.](images/the-knights-dismounted.webp)
 
 Their commander had escaped them. The white cloak was nowhere among the dead.
 
@@ -332,7 +332,7 @@ Deep in the watch, an enemy the sentries never marked came into the camp — **E
 
 The camp woke into chaos. **Lupenor** was loosing before she had thrown off her blankets, and her arrows did their work on the schirs. **Varic** fought his way to the young commander and stayed there, sword and prayer both, keeping her alive through the worst minutes of it. And **Harlock Greyforge** came at a dead run in his sleeping clothes, without a scrap of armor on him and ***Radiance*** blazing in his fist, and set himself between the incubus and the girl.
 
-![No armor, no shield, no boots — a linen shirt, a blazing sword, and one arm flung back to keep her behind him. **Exorius** had come through an entire sleeping army for **Rabiah** and got one pace from her; the arrow already standing in the schir is **Lupenor**'s, loosed from her blankets.](images/the-paladin-in-his-sleeping-clothes.webp)
+![Some commanders take defeat personally.](images/the-paladin-in-his-sleeping-clothes.webp)
 
 It was the paladin who finished it. **Exorius** — who had commanded the eastern approaches to **Drezen**, and who had come in person to avenge the loss of them — was cut down in a half-dressed brawl among the tent ropes, and his summoned demons died around him.
 
@@ -348,7 +348,7 @@ The whole camp turned out to hunt for him, and it did not take long. They found 
 
 The blood went out of **Aron**'s face. He staggered back a half-step in the glare of the blade, and then he told them.
 
-![Through **Harlock**'s eyes, and only his: the curl of wickedness at the pouch was what his faith showed him, and nobody else in that camp could see it at all. **Sosiel** is already begging, and he is begging the man holding the sword.](images/radiance-at-the-pouch.webp)
+![Harlock senses the wickeness in the man's pouch.](images/radiance-at-the-pouch.webp)
 
 Shadowblood. Three vials of it. He swore before all of them that he did not know how it had come into his pouch. He had believed himself free of the drug — but after the fighting, the old craving had come up in him again, and he had held it down, and then he had found the vials among his own gear and felt his will begin to come apart. When **Sosiel** had gone to sleep, he had slipped out of camp to take one. Only one. And with the craving quieted he had promised himself he would have the strength to break the other two against the rocks.
 
