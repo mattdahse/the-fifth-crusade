@@ -732,11 +732,11 @@ They told her about the **Hidden Shrine** too, and how ***Sarenrae*** had sent o
 
 **Irabeth:** *You two are operating on a completely different level than me. The gods are at your beck and call. I can't even get the queen to talk to me.*
 
-**Varic:** *It was a Tuesday.*
-
 Then the useful parts. Far out to the northwest, on the way home from the **Fallen Fane**, they had seen something in the sky they had chosen not to investigate — something that had looked, at that distance, like a dragon. **Anevia** put it together with the caravans immediately; she had been trying to fit a shape to those raids for weeks, and a dragon fit.
 
 Then they told her what they meant to do next: take twelve of their own people out to the **Hidden Shrine**, dig it open, stock it, and hold it — and offer it to the crusade as a way station, on the understanding that keeping it supplied and keeping the road to it safe would be somebody else's problem. **Irabeth** came halfway out of her chair. **Queen Galfrey** had been asking her for exactly this for months: a forward position deep in the Worldwound, unremarkable from the outside, from which small teams could be staged for incursions behind the enemy's lines. The crusade had never had the people or the coin to build one.
+
+![They had bought the dinner meaning only to make their report. Then they offered her a fortress in the Worldwound, and **Irabeth** came halfway out of her chair.](images/half-out-of-her-chair.webp)
 
 What she needed in return was cartography, because a secret base nobody can navigate to is not an asset. **Anevia** allowed that she knew someone — a man with a hawk familiar, who somehow saw through the bird's eyes and produced the finest top-down maps in the crusade, and who valued his privacy enough that she glanced at **Irabeth** before saying even that much. She would talk to him first. If he agreed, a runner would find them at the church.
 

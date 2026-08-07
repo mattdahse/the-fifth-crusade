@@ -246,6 +246,44 @@ still holds; only Varic changes here.
 
 *The ghost-touch property is invisible; it changes nothing about how the suit is drawn.*
 
+### Varic off duty — the one sanctioned exception to the plate
+
+**Matt's direction, Aug 2026** (drafting the Book III Ch. IV supper with **Irabeth** and **Anevia**).
+The Era V plate is what he *campaigns* in, and it holds for every scene in the field, on the march,
+in a fight, or on duty. **For a genuinely private, off-duty scene behind friendly walls — a supper,
+a quiet evening indoors, a conversation with no expectation of trouble — he is out of armour.**
+
+- **Plain dark travel wool:** a high-necked, long-sleeved tunic in undyed dark brown-grey, fully
+  covering, worn and mended. **No metal on him anywhere** — no breastplate, no mail, no pauldrons,
+  no gauntlets.
+- **Unchanged and always present:** the **deep-red scarf** at the throat, and the plain gold-brass
+  **sunburst of Sarenrae** on a cord — a bare stylised sun, **no sword in front of it.**
+- **Still no gold circlet or crown, and no red mantle or cloak.** Those are portrait-only in every
+  era.
+- **Avoid:** `a breastplate, plate armour, mail, pauldrons, gauntlets, a gold circlet or crown, a
+  red mantle or cloak`.
+
+### Irabeth off duty — she does not dine in her plate
+
+**Matt's correction, Aug 2026**, on the same supper. This row previously said Irabeth *stays* in her
+battered plate at that table. **That was wrong.** At a private dinner behind her own walls she is out
+of armour like everyone else.
+
+- **Plain but well-made dark wool** — a high-necked, long-sleeved tunic or doublet in a deep muted
+  colour (oxblood, dark blue-grey), fully covering, with a broad plain leather belt. Soldier's
+  clothes off duty: honest and unadorned, but a commander's, not a labourer's. **No armour of any
+  kind** — no plate, no mail, no pauldrons, no gauntlets.
+- **The device still travels with her.** **Iomedae's** holy symbol on a plain chain at her throat: a
+  vertical sword hanging **point down — hilt and crossguard at the TOP, blade below, tip at the
+  bottom** — in front of a blazing sun; plain engraved silver, one pommel, one straight crossguard,
+  not glowing, not a crucifix. The armour comes off; the sword-and-sun never does.
+- **Avoid:** `plate armour, mail, a breastplate, pauldrons, gauntlets, a bare starburst with no
+  sword, an inverted sword`.
+
+**The general rule, now that two characters have one:** for a genuinely private, off-duty scene
+behind friendly walls, the company is out of kit. **Ask Matt for anyone whose off-duty look is not
+yet written down here, and add it when he answers.**
+
 ---
 
 ## Later eras — to be filled in as the story reaches them

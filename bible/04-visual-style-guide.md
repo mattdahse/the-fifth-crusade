@@ -172,6 +172,23 @@ all, and was rebuilt on this concept.)* **Delamere**'s tomb lies in a tunnel off
 the company returns here. *Avoid:* `a volcanic wasteland, basalt columns filling the frame, a lava
 lake, a totally dead world, no vegetation, an orange or red sky, a uniformly orange image`.
 
+The **governor's dining hall** in **Drezen**
+([`half-out-of-her-chair`](../images/half-out-of-her-chair.webp), Book III Ch. IV): the hall where the
+city's commander entertains, **built by the dwarves who raised the fortress** and inherited by the
+crusade. **Grand, but emphatically not a palace** — dwarf-work: massive squared masonry in warm
+grey-brown stone, heavy square piers carrying low broad round-headed arches down the side walls,
+deep-cut geometric relief banding at head height, a high ceiling of stone ribs and dark oak beams,
+black iron strapwork and iron sconces on the piers, and a great carved stone hearth further down the
+room. One long, heavy, age-polished dark oak table. The service is a governor's: pewter chargers and
+beaten silver plate, silver-mounted glass, a silver flagon, a heavy branched candelabrum. **The two
+failure modes are both real and opposite** — say "dining hall" alone and it comes back a *roadside
+public house* (rough plaster, wooden bowls, clay jugs, a low beamed cottage ceiling); overcorrect and
+it comes back a *throne room*. Name the dwarven masonry positively and put both sets of negatives in.
+*(Matt's direction, Aug 2026: the first prompt for this scene was written as a cramped eating-house
+and was rebuilt before it ever rendered.)* *Avoid:* `a roadside inn, a tavern, a cramped low common
+room, rough plaster or timber-framed walls, wooden bowls, clay or earthenware jugs, tin cups, a
+gilded palace, gold leaf, marble, stained glass, silk tapestries`.
+
 Locations with an established look so far: the **Corruption Forge**
 ([`the-cage-over-the-forge`](../images/the-cage-over-the-forge.webp), and
 [`the-ice-that-would-not-lie`](../images/the-ice-that-would-not-lie.webp) for its floor and its salamanders) and
