@@ -21,6 +21,25 @@ single illustrated work rather than a scrapbook of clashing generators.
 realistic — grounded anatomy and real weight, not photographs and not stylized.
 **Never** anime, cel-shaded, cartoon, 3-D render, comic-book ink, or flat vector.
 
+> **⚠️ The word "painterly" alone does NOT stop a photograph, and the failure is easy to
+> miss.** Say *"cinematic painterly fantasy illustration, semi-realistic"* and the model will
+> quite happily hand back a photoreal frame: correct subject, correct light, correct palette,
+> real skin pores, lens bokeh behind the figure. It looks good, so it passes a quick glance —
+> and then it sits on the Cast gallery next to the painted portraits looking like a different
+> kind of object. *(Aug 2026, Jeskar Hinton's registry portrait: the first roll hit every
+> likeness anchor and was still a photograph.)*
+>
+> **The fix, and it works in one pass:** lead the prompt with the medium as its own block,
+> state it as an override, and describe the *physical facts of paint* rather than naming a
+> style — **"THIS IS A PAINTING, NOT A PHOTOGRAPH… a traditional narrative OIL PAINTING on
+> canvas: visible directional brush strokes throughout, loaded paint and impasto in the
+> lights, soft scumbled painted edges, visible canvas weave, colour mixed on a palette rather
+> than sampled from life. Every surface should read as pigment."** Then put the camera words
+> in `Avoid:` — `a photograph, photorealistic rendering, photoreal skin, photographic grain, a
+> film still, DSLR photography, lens bokeh, shallow depth-of-field blur, lens flare, visible
+> skin pores, hyperreal skin texture`. It also helps to ask for the **background in looser,
+> broader brushwork than the figure**, which forces the whole frame to commit to being paint.
+
 **Light.** Low-key and dramatic. One dominant light — moonlight, a breaking sun, a
 holy or starlit glow — placed behind or to the side of the figure so it rims them and
 throws the rest into shadow. Deep shadows are welcome; avoid bright, even, front-on
@@ -115,6 +134,43 @@ the ceiling. The Ch. XVIII prompt was drafted from the chapter text alone and de
 shaft** with the furnace at the bottom of a well. Nothing in the prose contradicted it; it was simply
 a different room, and it would have shipped two irreconcilable views of the same place one chapter
 apart. Matt caught it by asking whether the earlier shot should be referenced.*
+
+The **Shrine of Erastil** in Drezen's southern quarter
+([`the-shrine-that-was-desecrated`](../images/the-shrine-that-was-desecrated.webp), Book III Ch. IV):
+a small, poor building **made ENTIRELY OF WOOD — this is the rule and there is no stone in it at
+all**: vertical timber plank walls, a **plank floor**, exposed wooden roof beams, and a **WOODEN
+altar** of heavy dark planks. One room seating perhaps thirty, with **several MISMATCHED pews** of
+different sizes and builds, plainly made by different hands and standing knocked crooked, no two
+parallel. Set into the timber wall **directly behind the altar is a plain closed plank door with iron
+hinges**, leading to the priest's private chambers. *(Matt's direction, Aug 2026: the first render
+gave it a stone floor and stone altar and was re-rolled.)* **In the desecration scene only**, the
+altar carries the Abyssal blood-script, the boards are blood-spattered, a snapped longbow lies before
+it, and the carved stag devices behind the altar are hacked through with a dagger — **that damage is
+the scene's, not the room's.** By *The Sacred Hunt*, later in the same chapter, **Jeskar Hinton** is
+rebuilding it: the desecration is cleaned away and he is making new pews by hand. *Avoid:* `a stone
+floor, flagstones, a stone altar, masonry, plaster, stained glass, a vaulted or grand interior, pews
+in neat aligned rows`.
+
+The **Weeping Hills** ([`the-weeping-hills`](../images/the-weeping-hills.webp), Book III Ch. IV):
+**and the point of this place is that it was GOOD COUNTRY, not a wasteland.** Rolling green upland —
+hedged meadows, broadleaf woods, mossy outcrops, an old drystone wall — the sort of generous,
+well-watered land **Erastil**'s church chose to entomb a saint in, and **real living green must
+survive and be obvious** in the hollows and on the far hills. Through it is torn a **jagged, raw,
+ugly FISSURE about two hundred feet deep**, violently out of keeping with the soft land around it,
+its edges crumbling and the grass ending dead at the lip. **The despoiling is a GRADIENT radiating
+from the crack** — ash-grey scorched ground and bare blackened trees at the rim, sickly yellow-brown
+grass further out, healthy green beyond. Down inside runs a **narrow, defined river of lava** with a
+dark crusted skin (**not a lava lake and not a broad cracked plain**), and molten stone **seeps from
+the fissure walls and runs down in glowing rivulets and hanging teardrops** — the weeping that names
+the place. The crack **belches columns of grey-brown smoke and ash** that drag a pall across the sky.
+On a green hilltop clear of the wound stands an ancient **mossy cairn topped by a standing stone
+carved with a STAG'S HEAD AND ANTLERS** — Erastil's device, never a cross. Light: smothered midday,
+a flat ash-choked grey lid, with the lava the **only** warm accent and confined to the crack; the
+picture reads **grey-green with a burning line through it**, never orange overall.
+*(Matt's direction, Aug 2026: the first render was a wall-to-wall basalt hellscape with no green at
+all, and was rebuilt on this concept.)* **Delamere**'s tomb lies in a tunnel off the gorge floor, so
+the company returns here. *Avoid:* `a volcanic wasteland, basalt columns filling the frame, a lava
+lake, a totally dead world, no vegetation, an orange or red sky, a uniformly orange image`.
 
 Locations with an established look so far: the **Corruption Forge**
 ([`the-cage-over-the-forge`](../images/the-cage-over-the-forge.webp), and

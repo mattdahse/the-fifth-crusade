@@ -95,17 +95,24 @@ Get-ChildItem "$HOME\Downloads\REF-*.webp" | Select-Object Name,Length
 The composer is a **ProseMirror contenteditable** whose React state ignores typed text and
 `execCommand('insertText')`; the send button stays disabled. You must dispatch a real paste event.
 
-**Three traps that cost real time:**
+**Two traps that cost real time:**
 
 1. **ChatGPT persists the composer draft across reloads.** Navigating to a fresh chat does *not*
    clear it.
 2. **A clear that does not actually clear makes the paste APPEND.** The paste event always inserts
    at the selection; if the old draft is still there, you send two or three copies of the prompt.
-3. **A persisted draft that has ATTACHMENTS can SUBMIT ITSELF when you clear-and-paste over it** —
-   and then your references are spent on the wrong prompt. *(Aug 2026, Book III Ch. II: Matt had
-   dragged three portraits onto a staged prompt; the prompt was then revised, and the clear-and-paste
-   sent the superseded version with all three images attached. The corrected prompt was left sitting
-   in the composer with nothing attached.)*
+
+> **⚠️ THE "SELF-SUBMITTING PASTE" WAS NEVER REAL — DO NOT REINTRODUCE IT.** This file used to warn
+> at length that a pasted prompt could submit itself, that a draft carrying attachments could fire on
+> its own, and that references therefore had to be attached *before* the prompt was pasted. **None of
+> that happens.** *(Corrected by Matt, Aug 2026.)* Every observation behind it was the same
+> misreading: **Matt pressed the send button himself**, and the next verification call found the
+> message already sent and concluded the composer had fired unprompted. The workflow was then rebuilt
+> around a phantom, which cost him an extra drag step on every single image.
+>
+> **If you ever find a message sent that you did not send, assume Matt sent it.** Ask him before
+> writing anything down. A misattributed platform bug hardens into a rule and every later image pays
+> for it.
 
 **So make clearing its own step, and VERIFY the slate is clean before you paste.** Navigate, then
 clear and check in one call, and only paste once all three of these read empty:
@@ -156,27 +163,20 @@ If `len` is a multiple of your prompt length, you have duplicates — clear and 
 reasoning model that otherwise stalls in a long "Thinking" loop. **Put the aspect ratio in the text**
 (`Aspect ratio 3:2.`); there is no reliable UI control for it.
 
-**ATTACH THE REFERENCES FIRST, THEN PASTE THE PROMPT — this ordering is the safe one.** Navigate to a
-fresh chat, verify the composer is empty, and ask Matt to drag the staged `REF-*.webp` files into the
-**empty** composer. Only once he confirms they are in do you paste the prompt; then send. It costs him
-the same ten seconds either way and there is no automated substitute for the drag.
+### THE HANDOFF — paste the prompt, then get out of the way
 
-**Why this order and not the reverse.** A pasted prompt sometimes **submits itself the moment it
-lands**, before you can run a single verification call — and if the references are not in yet, the
-prompt fires naked and the whole roll is wasted. Attaching first makes a self-submit harmless: the
-worst case becomes "it sent, with the correct references, slightly earlier than planned," which is
-the outcome you wanted anyway.
+**This is the settled workflow. Follow it exactly.**
 
-**The self-submit is real and it is NOT purely a length problem.** *(Aug 2026, Book III Ch. III, the
-Dwigereth.)* Observed in the same session: pastes of **9,043** and **8,591** characters sat quietly
-unsent and verified clean, while a **8,066**-character paste submitted on its own between the paste
-call returning and the very next verification call. Chunked pastes fire it more reliably still — see
-the file-attachment note under *Selector drift* — but a single sub-threshold paste is not safe either.
-Do not trust "it stayed put last time."
+1. Navigate to a fresh chat and verify the composer is clean (`pmLen`, `msgs`, `attachments` all 0).
+2. **Paste the prompt.** Verify exactly one copy landed.
+3. **Stop. Tell Matt the prompt is in, and name the staged `REF-*.webp` files he needs to drag.**
+   He attaches the references **and presses send himself.**
+4. **Wait.** Do not poll the tab, do not click send, do not "check whether it started." **Matt tells
+   you when the image has resolved.** Only then do you go to step D/E and pull the render down.
 
-**If it does self-submit with nothing attached**, stop the generation immediately rather than letting
-it render: find the button whose `aria-label` matches `/stop/i` and `.click()` it. Caught within a
-few seconds this costs nothing.
+**Why the handoff and not automation:** references cannot be attached programmatically —
+`file_upload` needs a ref from `find`/`read_page`, and both reliably time out on chatgpt.com. Since
+he has to touch the keyboard anyway, he sends too. One handoff, one hand-back, no polling in between.
 
 **When a scene needs NO references** — an establishing shot, a rite, a landscape, anonymous crowds —
 there is nothing to drag, so send it yourself rather than making him wait. **Do not click the send
@@ -466,11 +466,11 @@ composer and Matt expected it to break things. It mostly didn't:
   file instead of composer text. **The failure is silent and looks exactly like a paste that did
   nothing:** `div.ProseMirror.textContent.length` reads **0**, so a `pmLen` check reports an empty
   composer while the prompt is in fact sitting right there as a file.
-  - **Do not "fix" this by chunking the paste.** Splitting a long prompt into two or three sequential
-    pastes appears to work — each chunk reads back on `pmLen` — and then **a later chunk submits the
-    message on its own**, firing the prompt with no reference portraits attached. *(Aug 2026, Book III
-    Ch. III, the Dwigereth: the third of three chunks self-submitted; the generation was caught and
-    stopped before it rendered, but the whole staging had to be redone.)*
+  - **Do not "fix" this by chunking the paste.** Splitting a long prompt across two or three
+    sequential pastes leaves you unable to verify what actually landed, and the pieces can interleave
+    with the ProseMirror selection in ways that are tedious to unpick. Keep it to one paste.
+    *(This bullet previously claimed a later chunk would submit the message on its own. It does not —
+    see the self-submit correction in step C. Matt had pressed send.)*
   - **`[data-testid*="attachment"]` does NOT catch it** — the old attachment probe was written for
     dropped images. Detect the file form explicitly, e.g.
     `document.querySelectorAll('form [class*="file"], form [data-testid*="file"]').length`, or simply
