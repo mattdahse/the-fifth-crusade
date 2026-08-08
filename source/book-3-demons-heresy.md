@@ -506,7 +506,7 @@ For now.
 
 <!-- fathom: 584676973 -->
 
-*28 February 2026 session — 21st of Lamashan through 1st of Neth, 4713 AR*
+*28 February 2026 session — 21st through 27th of Lamashan, 4713 AR*
 
 ### **The Mark**
 
@@ -840,21 +840,21 @@ They bought four pack horses at a hundred gold apiece, after establishing that n
 
 They packed shovels and picks against a buried entrance, rope, blankets, bedrolls, a month of food, five hundred gold of tenting and gear for the followers, and enough lamp oil to light a small war.
 
-On the morning of the first of Neth, the gates of **Drezen** opened, and the expedition filed out — horses, hunters, priests, spies, heroes, and one very small hawk riding on a halfling druid's shoulder — heading southwest into the Marchlands, toward a buried shrine and whatever the Worldwound would throw at them along the way.
+On the morning of the twenty-seventh of Lamashan, the gates of **Drezen** opened, and the expedition filed out — horses, hunters, priests, spies, heroes, and one very small hawk riding on a halfling druid's shoulder — heading southwest into the Marchlands, toward a buried shrine and whatever the Worldwound would throw at them along the way.
 
 *— Session of February 28th, 2026 —*
 
-## **The Acid and the Arrow**
+## **A Gathering of Storms**
 
 <!-- fathom: 601424518 -->
 
-*14 March 2026 session — 1st through 3rd of Neth, 4713 AR*
+*14 March 2026 session — 27th through 29th of Lamashan, 4713 AR*
 
 ![Were the rules unclear?](images/the-clash-beneath-the-fortress-gate.webp)
 
 ### **The Western Gate**
 
-Twenty souls gathered at the western gate of **Drezen** on the first morning of Neth, and the first thing that nearly went wrong was an arrow.
+Twenty souls gathered at the western gate of **Drezen** on the morning of the twenty-seventh of Lamashan, and the first thing that nearly went wrong was an arrow.
 
 **Varic** arrived before dawn, laying his prayer blanket in the shadow of the gate pillar and beginning his morning meditation while the sky was still dark. He was not alone for long. **Jeskar Hinton** and four of his hunters — **Cobb Harwick**, **Lenne Marsh**, **Durvik Stonesign**, and **Pol Ashden** — were already there, packs settled, bows strung to travel tension, passing biscuits between them in the gray half-light. Then **Lupenor** materialized from somewhere nobody had been looking, disheveled and stretching, and the hunters startled as though a ghost had just coughed. One of them muttered to another: *Was she there the whole time?*
 

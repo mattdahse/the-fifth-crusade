@@ -26,7 +26,7 @@ Authoritative roster for names, spellings, and continuity. Curated by Matt; the 
 
 ## The Marchlands Expedition
 
-The twenty who marched west out of Drezen's gate on the 1st of Neth, 4713, to reopen the Hidden Temple of Sarenrae (Book III, *The Acid and the Arrow*). Bios and portraits imported from the Fantasy Grounds campaign, category **Marchlands Expedition**.
+The twenty who marched west out of Drezen's gate on the 27th of Lamashan, 4713, to reopen the Hidden Temple of Sarenrae (Book III, *A Gathering of Storms*). Bios and portraits imported from the Fantasy Grounds campaign, category **Marchlands Expedition**.
 
 *Harlock's paladin trainees*
 
