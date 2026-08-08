@@ -327,6 +327,30 @@ the salamanders below sat at the viewer's eye level and turned her into an immen
 over the room. The same render also made the box cage cylindrical despite the reference — a reminder
 that an attached reference does not enforce a shape unless the prompt also names it.*
 
+**A GROUP shot needs every figure's HEIGHT stated, in feet and in order — species labels do not
+carry it.** Write "a gnome", "a dwarf", "a half-orc" and the model renders them all at roughly one
+person-height, then randomises who ends up tallest. The failures are consistent and absurd: the
+three-foot gnome comes out taller than the dwarf, and whoever the prompt described first towers
+over everyone. *(Aug 2026, first roll of the secure-shelter scene: Brix stood over Durvik, Rabiah
+loomed over the whole queue, and Cornelia's horse was pony-sized.)*
+
+**Do all three of these:**
+1. **Give each named figure a height in feet** in their line — *"Brix Copperfinch, THREE FEET
+   exactly"*, *"Durvik, about four foot six but nearly twice as broad through the chest"*.
+2. **Write the tallest-to-shortest order out as a single explicit list**, so the relationships are
+   stated and not merely implied by the individual numbers.
+3. **Spell out the pairwise comparisons the model reliably inverts** — *"Brix is SHORTER than
+   Durvik. Durvik is SHORTER than Rabiah."*
+
+**Pin the animals too.** A horse beside people defaults to pony-sized; say *"full-sized working
+horses — the top of the shoulder level with or above a tall man's head."*
+
+**The cast's settled heights:** Fenna Tusk ~6'0" (tallest of the regulars) · Cobb Harwick ~5'10" ·
+Pol Ashden ~5'9" and stooped · **Rabiah ~5'1" — SHORT for a human, and shorter than every adult
+human around her; she never towers over anyone** · Durvik Stonesign ~4'6" and immensely broad ·
+Cornelia Dewfoot ~4'0" (a child) · Selyse Avelia ~3'6" · Brix Copperfinch **3'0", the shortest
+figure in any frame he appears in**.
+
 **Write the corrections as negatives, not just positives.** The model fills any silence
 with its own defaults, and its defaults skew toward sexualized armor on women and
 orc caricature (tusks, underbite) on half-orcs. Put the explicit "no …" clauses in the

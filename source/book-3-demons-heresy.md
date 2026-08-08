@@ -976,6 +976,8 @@ The drops were heavy. They thumped against the earth like pebbles, kicking up ti
 
 **Rabiah** used a scroll of ***Secure Shelter***. The spell manifested a twenty-foot-square stone cottage with an oaken door banded in iron — solid as a real building, resistant to the elements, conjured from nothing in the space between the pavilion tent and the open air. **Harlock** threw the door open, stationed himself inside, and began conducting the evacuation: *Back wall, back wall, don't stop, make room, get against the back wall.* **Elara** organized the queue with the butt end of her spear. **Cornelia** took charge of the horses, keeping them calm with her druidic affinity as the panicking animals were muscled through the doorway into a space that was never meant to hold four horses and twenty people simultaneously.
 
+![Either pack your butts inside or stand out here and dissolve!](images/the-shelter-in-the-rain.webp)
+
 It was, by any measure, a miserable experience. Shoulder to shoulder, the smell of horse and fear and too many bodies in too small a space, for three and a half hours while the sky wept acid and the earth outside tried to eat them alive.
 
 ### **The Ooze**
