@@ -405,6 +405,22 @@ list.
   every time: "a single continuous bowstring forming a drawn 'V' — top limb → the draw hand
   anchored at the cheek (through the nocked arrow) → bottom limb — clearly visible passing in
   front of the face."
+- **Say whether the bow is DRAWN or SLACK, and describe the string's shape either way.** "Drawn"
+  and "not drawn" are both states the model will otherwise pick for you. A **slack** bow needs
+  saying just as explicitly as a drawn one: *"the bow is NOT drawn — the string slack and dead
+  straight, a single straight line from top limb tip to bottom limb tip, not pulled back at all."*
+- **A drawn bow comes back EMPTY.** This is a *separate* fault from the two-arrow blend already
+  listed above, and it survives a prompt that says "one arrow nocked": the model paints the draw
+  and forgets the ammunition, leaving a bent bow, a taut string and nothing on it. **Describe the
+  nocked arrow as its own object with its own position** — *"a single arrow nocked on the string
+  and lying along the left side of the bow, its head projecting past the grip, plainly present."*
+- **Specify the draw hand's FINGERS.** Left unsaid the model closes the whole hand into a fist
+  around the string, which is not how a bow is shot and reads wrong to anyone who has held one.
+  Say it anatomically: *"the string hooked by the first three fingertips only — index finger above
+  the arrow's nock, middle and ring fingers below it, curled at the first joint — the archer's
+  pinch."* Put `a closed fist gripping the bowstring, the whole hand wrapped around the string` in
+  the Avoid line. *(Matt's correction, Aug 2026, on the first `the-clash-beneath-the-fortress-gate`:
+  Lenne came back drawing a fist-gripped, arrowless bow.)*
 - **Choose the frame for the scene, not by default.** A single hero mid-action fits the house
   3:4. But **two combatants who must face off fight a portrait frame** — a horizontal standoff
   wants width. Decide up front: a **wider / landscape frame** for an even side-view standoff, or
@@ -425,6 +441,11 @@ list.
   overlapping the nocked one — look twice. Generalizes: no spell both mid-cast and already-landed.)
 - **Bowstrings obey physics** — one continuous line, top limb → anchor at the cheek/jaw → bottom
   limb, visible in front of the face; never vanishing behind the head or stopping at the brow.
+- **Is there actually an arrow on the string?** Check explicitly. A drawn or half-drawn bow with
+  nothing nocked is a common and easily-missed miss, and it is the fault that reads most obviously
+  wrong to an archer.
+- **Check the draw hand** — three fingertips hooked on the string, not a fist. And check the string
+  matches the stated state: taut and angled for a draw, dead straight for a slack bow.
 - **Weapon reach and grip** — hands actually grip the haft/grip; blade length is plausible and
   doesn't pass bloodlessly through the wielder; a thrust or swing connects where the light says.
 

@@ -870,6 +870,8 @@ The rules, **Lupenor** informed her, started now. **Varic** stepped in to reinfo
 
 ### **The Bowel Worm Speech**
 
+![The bowel worm speech is always captivating](images/the-bowel-worm-speech.webp)
+
 **Chyrrik** dragged a crate into the street, climbed on top of it, and addressed the assembled expedition in the blunt, unsparing manner that only someone who looked like a crossbreed of monkey, bird, and dinosaur could get away with.
 
 She told them about bowel worms — rope-like creatures with circular mouths of needle-sharp teeth at both ends, hatched from eggs that infested any food left unattended for more than a minute in the Worldwound. She described, in clinical detail, what happened when the worms hatched inside a person's digestive tract. She explained that the water was no better. She told them about vescavores — wasp-like creatures smaller than a hand that ate through steel and never traveled alone. She told them to stay within sight of each other at all times, to buddy up, and to understand that anyone who wandered off and returned would be treated as a potential demon in disguise until proven otherwise.
