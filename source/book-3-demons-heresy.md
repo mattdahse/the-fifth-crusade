@@ -802,6 +802,8 @@ On a chair slightly too tall for her, boots swinging three inches clear of the f
 
 **Selyse:** *This is the guy? I thought you'd be taller.*
 
+![Three inches of air under her boots, and unimpressed by everything in the room.](images/i-thought-youd-be-taller.webp)
+
 The briefing was blunt. **Selyse** was a wizard. **Horace** was her familiar, and **Selyse** could see through his eyes; between them they had produced more detailed maps of the Worldwound than any other asset **Anevia** possessed. Nobody outside that room could know she was a wizard. Nobody could connect her to the hawk. And if that hawk were spotted anywhere near the column, by a congregation of ***Erastil***'s hunters who shoot birds for a living, one idle arrow would cost the crusade its best cartographer.
 
 **Anevia** talked herself out of the whole arrangement halfway through explaining it — *absolutely not, we can't do this, we'll think of another way* — while **Selyse** sat and endured being discussed in the third person.
