@@ -248,6 +248,20 @@ cook-smoke, with the first oil lamps just kindled — one warm gold accent in an
 brown-grey frame. *Avoid:* `an ancient smoke-blackened market, centuries of patina, timeworn polished
 wood, a cosy old-world bazaar, a stone-built medieval town square, a bright cheerful sunlit scene`.
 
+**Drezen's WALLS AND GATES** — **the fortifications are INTACT, HELD AND GARRISONED, and this is the
+single hardest thing to get out of the model.** The crusade retook this fortress and the walls are the
+part it repaired first; the western gate is a working gate that an expedition marches out of, not a
+picturesque ruin. Render it positively and concretely: squared warm grey-brown **dwarven** masonry
+standing **whole and square**, unbroken battlements with sentries on them, heavy **new-cut timber gate
+leaves on black iron hinges standing open**, a raised portcullis, and obvious fresh timber splices and
+pale new mortar where siege damage was made good. ⚠️ **The house "crumbling cities, broken walls"
+register in *World* above will drag every Drezen exterior back toward ruin unless you fight it in both
+directions** — say *intact, whole, sound, repaired, held, garrisoned* in the body **and** put the ruin
+words in `Avoid:`. *(Matt's correction, Aug 2026: the western gate came back a ruin on two consecutive
+rolls of `the-clash-beneath-the-fortress-gate`.)* *Avoid:* `a ruin, a ruined gate, ruined or crumbling
+walls, broken or gap-toothed battlements, a breach in the wall, rubble, collapsed stonework, an
+abandoned or derelict gatehouse, ivy or overgrowth on the walls`.
+
 The other three strongholds on Paradise Hill are not yet illustrated**, and each has a follower account
 that should be read before one is: **Varic**'s modest **Temple of Sarenrae**
 ([`follower-dawns-fire-temple`](../secrets/follower-dawns-fire-temple.md)), **Harlock**'s garrison of
@@ -414,6 +428,12 @@ list.
   and forgets the ammunition, leaving a bent bow, a taut string and nothing on it. **Describe the
   nocked arrow as its own object with its own position** — *"a single arrow nocked on the string
   and lying along the left side of the bow, its head projecting past the grip, plainly present."*
+- **Give the arrow a stated LENGTH, or it renders as a dart.** Describe an arrow only by what it is
+  and where it sits and the model paints a comic little toy shaft a hand's-breadth long. It has no
+  default sense of the scale of archery tackle, so **pin the proportion against the bow**: *"a
+  full-length arrow, about two-thirds the length of the whole bow, its head reaching well past her
+  bow hand and its fletching back at the string."* *(Matt, Aug 2026: "Lenne's arrow is comically
+  small.")*
 - **Specify the draw hand's FINGERS.** Left unsaid the model closes the whole hand into a fist
   around the string, which is not how a bow is shot and reads wrong to anyone who has held one.
   Say it anatomically: *"the string hooked by the first three fingertips only — index finger above

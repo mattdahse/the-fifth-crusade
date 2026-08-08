@@ -394,6 +394,18 @@ next prompt. Otherwise the same note gets given again three images later.
   side of its head; the point lower than the grip."* The same holds for bowstrings, salutes and grips.
 - **Pick ONE instant and commit.** Describing a shot as both drawn and loosed yields a nocked arrow
   *and* a stray in flight. Never blend.
+- **Do NOT stack negatives onto a single object in the prompt body — it shatters the object.**
+  Negatives belong in `Avoid:`. When a correction is folded back in, the tempting move is to armour
+  the offending object with clause after clause — *not drawn, not bent, no "V", the string slack,
+  the string straight, not a fist, not a whole hand* — and the result is worse than the fault you
+  were fixing. The model appears to try to satisfy every clause at once and **fuses them into a
+  chimera**: it grows extra hands to hold all the described grips, welds the arrow's head onto the
+  bow limb, and runs the string off the top of the frame. *(Aug 2026, second roll of
+  `the-clash-beneath-the-fortress-gate`: a six-bullet bow block produced exactly all three.)*
+  **The fix is to shorten, not to add.** Describe the object once, positively, in two or three
+  plain sentences; pin any dimension that ran away (*"the string stays close alongside the stave
+  and entirely inside the frame"*); state the count of ambiguous parts (*"exactly two hands: left
+  on the bow, right at the string; nothing else touches it"*); and move every "not" to `Avoid:`.
 - **Every figure needs an eyeline and an inner state**, named explicitly, or you get a neutral
   camera-aware face pasted into the scene. See the style guide — this is mandatory, not advisory.
 - **State the corrections as negatives too.** The model fills every silence with its defaults, and

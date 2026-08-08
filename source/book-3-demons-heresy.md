@@ -916,6 +916,8 @@ As they approached the tree line, the undergrowth thickened. Brown scrub gave wa
 
 They fanned out. **Jeskar** took **Durvik** on one flank. **Cobb** moved with **Lupenor** on another. **Lenne** and **Chyrrik** took the center approach. They moved through the brush in near silence — **Chyrrik** leaving no tracks at all, **Lupenor** barely more, the hunters competent enough in their own element despite the alien territory.
 
+![Yes, Cobb. Everyone heard that.](images/the-twig-that-cobb-found.webp)
+
 **Cobb** stepped on a twig. The sound cracked through the forest like a pistol shot. The figure ahead — a scraggly humanoid dragging something heavy through the undergrowth — froze and looked around. **Cobb**, thinking fast, made an animal sound. What came out of him was a bird call — a perfectly convincing one, of no bird anybody present could name, and for a moment not one of the hunters dared look in **Lupenor**'s direction. It worked. The figure hesitated, then resumed dragging its burden northward.
 
 **Chyrrik** got close enough to see clearly. The figure was human, or close to it. It was dragging a dead boar by a hook. And hanging from its neck, clearly visible against a stained tunic, was a holy symbol that **Chyrrik** had seen on enough corpses to recognize instantly: the mark of the Ivory Labyrinth. A cultist of ***Baphomet***.
