@@ -213,7 +213,23 @@ brown-black shadow and glints only at the edges: the room reads gaudy while the 
 well-built room, square plumb carpentry, a tasteful or elegant aristocratic interior, marble, gold leaf, a
 palace, a bright cheerful colourful image`.
 
-**The other three strongholds on Paradise Hill are not yet illustrated**, and each has a follower account
+**A **tavern in Drezen** ([`no-one-would-confide-in-him`](../images/no-one-would-confide-in-him.webp),
+Book III Ch. IV): **Drezen has no old taverns of its own.** The city was a ruin in demonic hands for
+decades, so any drinking house in it is one of two things, and you must pick deliberately: **(a) newly
+built** — raw new-sawn pale timber, unseasoned plank walls, fresh joinery, a plank bar laid across
+barrels, mismatched salvaged stools and benches, low new-cut roof beams, and nothing yet darkened by
+smoke or worn smooth by use (grubby already, but not *old*); or **(b) an old dwarven shell with recent
+repairs** — the squared warm grey-brown masonry and low broad round-headed arches of the citadel work,
+patched with obvious new timber. The Ch. IV image is **(a)**, in the poor southern quarter near the
+timber shrine of **Erastil**. *Avoid* for either: `an ancient smoke-blackened tavern, centuries of patina,
+timeworn polished wood, a cosy old-world inn`.
+
+**⚠️ Do NOT reference [`the-ballad-of-the-wardstones-champions`](../images/the-ballad-of-the-wardstones-champions.webp)
+for a Drezen interior — that tavern is in KENABRES.** Its heavy dark timber, bottle-stacked bar wall and
+iron hanging lanterns belong to an old city that had centuries to accumulate them, and Drezen has had
+months. *(Caught by Matt, Aug 2026, when it was staged as a Drezen reference for exactly this scene.)*
+
+The other three strongholds on Paradise Hill are not yet illustrated**, and each has a follower account
 that should be read before one is: **Varic**'s modest **Temple of Sarenrae**
 ([`follower-dawns-fire-temple`](../secrets/follower-dawns-fire-temple.md)), **Harlock**'s garrison of
 **Iomedae's Preservers** ([`follower-aldwin-brightblade-preservers`](../secrets/follower-aldwin-brightblade-preservers.md)),
