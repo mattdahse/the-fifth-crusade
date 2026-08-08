@@ -1,6 +1,6 @@
 ---
 name: wotr-chronicle
-description: Compose and publish recaps for Matt's Pathfinder Wrath of the Righteous campaign archive, and keep its Cast, Secrets, and player-email draft in sync. Use whenever Matt pastes a WotR/Pathfinder session transcript, describes a session from memory, asks for a recap / chronicle update / "Chapter X", asks to update the cast or add a secret, or refers to the campaign or its characters (Harlock, Varic, Lupenor, Rabiah, Chyrrik, Cornelia). Triggers include "transcript", "recap", "session summary", "chronicle update", "Chapter X", "add to the cast", "new secret", "Wrath of the Righteous", "WotR", or any pasted multi-paragraph game-session log set in Kenabres, Drezen, the Worldwound, or the Marchlands. Trigger even if the skill is not named — a pasted session log is enough.
+description: Compose and publish recaps for Matt's Pathfinder Wrath of the Righteous campaign archive, and keep its Cast, Secrets, in-world calendar, and player-email draft in sync. Use whenever Matt pastes a WotR/Pathfinder session transcript, describes a session from memory, asks for a recap / chronicle update / "Chapter X", asks to update the cast, add a secret, or refresh the campaign calendar/timeline, or refers to the campaign or its characters (Harlock, Varic, Lupenor, Rabiah, Chyrrik, Cornelia). Triggers include "transcript", "recap", "session summary", "chronicle update", "Chapter X", "add to the cast", "new secret", "campaign calendar", "in-world date", "timeline", "Wrath of the Righteous", "WotR", or any pasted multi-paragraph game-session log set in Kenabres, Drezen, the Worldwound, or the Marchlands. Trigger even if the skill is not named — a pasted session log is enough.
 ---
 
 # WotR Chronicle → Repo & Site
@@ -9,12 +9,13 @@ The campaign's **source of truth is the git repository** — the checkout you ar
 `drezen-archive` on each of Matt's three stations (two Macs and a PC). **Never hardcode an absolute
 path to it**; use repo-relative paths throughout, so the same instructions work at every station.
 Public GitHub Pages site: **https://mattdahse.github.io/the-fifth-crusade/**. Google Drive is a
-retired backup. Maintaining the archive after a session means up to **four** jobs — do all that apply:
+retired backup. Maintaining the archive after a session means up to **five** jobs — do all that apply:
 
 1. **Chronicle** — write the session's chapter and publish it.
 2. **Cast** — add any new persons of importance (allies, enemies, notable NPCs); mark the dead.
 3. **Secrets** — check the Fantasy Grounds Player Notes for anything new worth harvesting.
-4. **Player draft** — leave a Gmail *draft* to the players linking the latest session.
+4. **Calendar** — pull the session's new in-world days out of Fantasy Grounds.
+5. **Player draft** — leave a Gmail *draft* to the players linking the latest session.
 
 ## Repository layout
 
@@ -23,6 +24,7 @@ retired backup. Maintaining the archive after a session means up to **four** job
 - `index.html` — the reader app. **The Cast is hand-authored here** (the `CAST` array), NOT built from source.
 - `bible/00-style-and-prompt-guide.md`, `02-dramatis-personae.md`, `03-lore-and-locations.md` — authoring reference; Matt curates these.
 - `build.ps1` — compiles `source/*.md` + `secrets/*.md` → `data.js`. Run after any source/secrets change.
+- `extract-calendar.ps1` → `bible/06-in-world-calendar.json` — the campaign's in-world dates, pulled from Fantasy Grounds. Paired with `bible/06-in-world-calendar.md`, the hand-written prose calendar. **Neither is published** — they are authoring reference, not site content.
 - Chapters are **not numbered in the markdown**; the build assigns each book's Roman numeral by position (last = `Epilogue`). Each chapter's **real-world play date** is read from its subtitle line (`*<Month Day, Year> session — …*`) and shown on the site. Recordings are **not surfaced** (Matt finds them in Fathom by date); a `<!-- fathom: id -->` line is optional dormant metadata. If a subtitle can't carry a full date, add `<!-- date: Month Day, Year -->`.
 
 **Encoding:** always read/write with `[IO.File]::ReadAllText/WriteAllText` (UTF-8), never `Get-Content -Raw`. Never type an em-dash literal into a `.ps1` — use `[char]0x2014`. These rules originally guarded against Windows PowerShell 5.1 reading ANSI; keep them anyway, since they're also what makes the build byte-identical across the Macs and the PC.
@@ -70,7 +72,34 @@ The players' in-world writing lives in the local FG campaign: `%APPDATA%\SmiteWo
 
 Extract: read db.xml with `[IO.File]::ReadAllText`, pull the `<notes>…</notes>` block, `[xml]` it, iterate children (`$n.name`, `$n.text.InnerXml`). Convert FG formattedtext → markdown (`<h>`→`###`, `<p>`→paragraph, `<b>/<i>`→`**`/`*`, `<list>/<li>`→bullets, strip the rest, HtmlDecode). Write each as `secrets/<prefix>-<slug>.md` with `# Title`, an italic `*attribution*` line, then the body. **Unify spellings to canon** (see below). Rebuild. If it's unclear whether a note is "new" or belongs in Secrets, list what you found and ask Matt.
 
-## Workflow — 4. Build, publish, and draft the player email
+## Workflow — 4. The Calendar (Fantasy Grounds campaign dates)
+
+Matt keeps the crusade's **in-world dates** on the Fantasy Grounds calendar, one log entry per
+game day. The archive mirrors them so chapters can be checked against the dates the table actually
+kept. **This is reference only — it is not built into `data.js` and not exposed on the site.**
+
+After a session, from the repo root:
+
+```
+pwsh -File ./extract-calendar.ps1
+```
+
+It finds `db.xml` itself at any of the three stations, rewrites `bible/06-in-world-calendar.json`
+(raw and verbatim — **machine-written, never hand-edit it**), and prints the days that are new
+since the last run. **Write those new days into `bible/06-in-world-calendar.md` by hand**, in the
+chronicle's voice: one bullet per day under its month heading, third-person, **bold** proper
+names, ***italic*** relics and spells, no mechanics. The FG log is table shorthand — terse,
+misspelled, sometimes a bare supply count — so it is rewritten, not pasted. Unify every name
+against **Canon spellings** below.
+
+Where the log and the chronicle genuinely disagree — a death the chapters tell differently, a name
+that appears nowhere in `source/` — do **not** quietly pick a winner. Render the line to match the
+chronicle and add it to the **Open discrepancies** section at the foot of that file for Matt.
+
+If the extractor reports no new days, Matt simply hasn't advanced the FG calendar yet; say so
+rather than inventing dates.
+
+## Workflow — 5. Build, publish, and draft the player email
 
 1. Rebuild, from the repo root: `pwsh -File ./build.ps1`
    (The archive is maintained from three stations — two Macs and a PC — so run it from wherever the checkout lives; `build.ps1` resolves its own paths and never needs an absolute one. Use **PowerShell 7 (`pwsh`)** at every station, not Windows PowerShell 5.1: the two serialize JSON differently and mixing them churns all of `data.js` on every commit.)
@@ -105,7 +134,7 @@ The archive is illustrated. Three files govern all of it:
 ## Present results
 
 - One-paragraph summary: book + chapter number, session/date covered, that it's live (link the site).
-- What changed in the **Cast** and **Secrets**, if anything.
+- What changed in the **Cast**, **Secrets**, and the **Calendar**, if anything — for the calendar, name the in-world days added and any new discrepancy flagged.
 - That the **player draft** is ready in Gmail for Matt to review and send.
 - **Suggested bible updates** (do not silently overwrite `bible/*`): new NPCs/items/locations for `02-dramatis-personae.md` / `03-lore-and-locations.md`, applied only if Matt asks.
 - Open questions (uncertain rules calls, unclear intentions, name spellings worth confirming).

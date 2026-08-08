@@ -1,0 +1,704 @@
+{
+  "source": "Fantasy Grounds campaign calendar <calendar><log>",
+  "current": {
+    "day": 16,
+    "month": 11,
+    "year": 4713
+  },
+  "months": {
+    "1": "Abadius",
+    "2": "Calistril",
+    "3": "Pharast",
+    "4": "Gozran",
+    "5": "Desnus",
+    "6": "Sarenith",
+    "7": "Erastus",
+    "8": "Arodus",
+    "9": "Rova",
+    "10": "Lamashan",
+    "11": "Neth",
+    "12": "Kuthona"
+  },
+  "entries": [
+    {
+      "id": "id-00001",
+      "day": 16,
+      "month": 8,
+      "monthname": "Arodus",
+      "year": 0,
+      "name": "16th Arodus",
+      "log": "",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00003",
+      "day": 16,
+      "month": 8,
+      "monthname": "Arodus",
+      "year": 4713,
+      "name": "16th Arodus, 4713",
+      "log": "This was Armasse, and the first day of our adventure when the forces of Deskari attacked Kenabres and the worldwound",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00006",
+      "day": 23,
+      "month": 8,
+      "monthname": "Arodus",
+      "year": 4713,
+      "name": "23rd Arodus, 4713",
+      "log": "Battle of the Grey Garrison - Wardstone destroyed - mythic power attained",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00002",
+      "day": 24,
+      "month": 8,
+      "monthname": "Arodus",
+      "year": 4713,
+      "name": "24th Arodus, 4713",
+      "log": "",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00004",
+      "day": 25,
+      "month": 8,
+      "monthname": "Arodus",
+      "year": 4713,
+      "name": "25th Arodus, 4713",
+      "log": "Vineyard Hills Waystation rescued from demon attack",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00005",
+      "day": 26,
+      "month": 8,
+      "monthname": "Arodus",
+      "year": 4713,
+      "name": "26th Arodus, 4713",
+      "log": "",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00007",
+      "day": 30,
+      "month": 8,
+      "monthname": "Arodus",
+      "year": 4713,
+      "name": "30th Arodus, 4713",
+      "log": "Rabiah's Redeemers marches on Drezen",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00008",
+      "day": 2,
+      "month": 9,
+      "monthname": "Rova",
+      "year": 4713,
+      "name": "2nd Rova, 4713",
+      "log": "",
+      "gmlog": "Supplies at 47"
+    },
+    {
+      "id": "id-00009",
+      "day": 3,
+      "month": 9,
+      "monthname": "Rova",
+      "year": 4713,
+      "name": "3rd Rova, 4713",
+      "log": "47 units of food and supplies",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00010",
+      "day": 4,
+      "month": 9,
+      "monthname": "Rova",
+      "year": 4713,
+      "name": "4th Rova, 4713",
+      "log": "Supplies: 44",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00011",
+      "day": 5,
+      "month": 9,
+      "monthname": "Rova",
+      "year": 4713,
+      "name": "5th Rova, 4713",
+      "log": "44 Supplies - camped below the Lost Chapel en route to Drezen.",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00012",
+      "day": 6,
+      "month": 9,
+      "monthname": "Rova",
+      "year": 4713,
+      "name": "6th Rova, 4713",
+      "log": "",
+      "gmlog": "Camped outside Drezen. Horses were poisoned"
+    },
+    {
+      "id": "id-00013",
+      "day": 7,
+      "month": 9,
+      "monthname": "Rova",
+      "year": 4713,
+      "name": "7th Rova, 4713",
+      "log": "",
+      "gmlog": "Battle of Paradise Hill, Battle of Soutthbank, Second Battle of Paradise Hill (ghoul attack)"
+    },
+    {
+      "id": "id-00014",
+      "day": 8,
+      "month": 9,
+      "monthname": "Rova",
+      "year": 4713,
+      "name": "8th Rova, 4713",
+      "log": "Drezen Courtyard is taken!",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00015",
+      "day": 9,
+      "month": 9,
+      "monthname": "Rova",
+      "year": 4713,
+      "name": "9th Rova, 4713",
+      "log": "Started clearing Citadel Drezen:\n\nSally Port,\n\nTemplar's Court,\n\nWest Garrison,\n\nInheritor's Temple",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00016",
+      "day": 10,
+      "month": 9,
+      "monthname": "Rova",
+      "year": 4713,
+      "name": "10th Rova, 4713",
+      "log": "Dealt with Berbalang, learned about Callan",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00017",
+      "day": 11,
+      "month": 9,
+      "monthname": "Rova",
+      "year": 4713,
+      "name": "11th Rova, 4713",
+      "log": "Back into Drezen - day 3 of assault on first floor",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00018",
+      "day": 12,
+      "month": 9,
+      "monthname": "Rova",
+      "year": 4713,
+      "name": "12th Rova, 4713",
+      "log": "Funeral for Staunton, Destroyed Soul Reaver, Assaulted dungeon of Drezen",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00019",
+      "day": 13,
+      "month": 9,
+      "monthname": "Rova",
+      "year": 4713,
+      "name": "13th Rova, 4713",
+      "log": "Drezen and the Sword of Valor recovered",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00020",
+      "day": 14,
+      "month": 9,
+      "monthname": "Rova",
+      "year": 4713,
+      "name": "14th Rova, 4713",
+      "log": "Visit from the Steward - Ser Aldric Thorne - Drezen now ruled by Irabeth.",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00021",
+      "day": 21,
+      "month": 9,
+      "monthname": "Rova",
+      "year": 4713,
+      "name": "21st Rova, 4713",
+      "log": "1st Week of Recovery of Drezen",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00022",
+      "day": 28,
+      "month": 9,
+      "monthname": "Rova",
+      "year": 4713,
+      "name": "28th Rova, 4713",
+      "log": "2nd Week of Recovery in Drezen",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00023",
+      "day": 5,
+      "month": 10,
+      "monthname": "Lamashan",
+      "year": 4713,
+      "name": "5th Lamashan, 4713",
+      "log": "3rd Week of Recovery in Drezen",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00024",
+      "day": 12,
+      "month": 10,
+      "monthname": "Lamashan",
+      "year": 4713,
+      "name": "12th Lamashan, 4713",
+      "log": "March from Drezen - investigating possible cultist site in the marchlands",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00025",
+      "day": 13,
+      "month": 10,
+      "monthname": "Lamashan",
+      "year": 4713,
+      "name": "13th Lamashan, 4713",
+      "log": "Second day marching toward the Fallen Fane along the Ahari Riverbed. A hail of teeth forced the party to shelter under a bridge. When the weather broke, they briefly explored the abandoned town by the river, but quickly pressed on.",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00026",
+      "day": 14,
+      "month": 10,
+      "monthname": "Lamashan",
+      "year": 4713,
+      "name": "14th Lamashan, 4713",
+      "log": "Third day of the march toward the Fallen Fane. The party reached the head of the Ahari river but as they emerged from the riverbed, encountered several swarms of ticks. Retreated and struck out south.",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00027",
+      "day": 15,
+      "month": 10,
+      "monthname": "Lamashan",
+      "year": 4713,
+      "name": "15th Lamashan, 4713",
+      "log": "Fourth day in search of the Fallen Fane. The party suffered from a cold night, unprepared for the harsh conditions of the Worldwound. Cornelia assumed the shape of a vulture to scout as they searched for the cultist stronghold. A patrol was spotted, and the party tracked their backtrail near the cliffs before camping for the night in a cave.",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00028",
+      "day": 16,
+      "month": 10,
+      "monthname": "Lamashan",
+      "year": 4713,
+      "name": "16th Lamashan, 4713",
+      "log": "The party found a well-worn and ancient trail leading down the cliffs and a wide gave housing a temple of Baphomet, serving as a cultist waystation. Varic strongly believes this to be a sacred site to Sarenrae which has been defiled, which drives him into a rage.",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00029",
+      "day": 17,
+      "month": 10,
+      "monthname": "Lamashan",
+      "year": 4713,
+      "name": "17th Lamashan, 4713",
+      "log": "Spent the night in the Fallen Fane",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00030",
+      "day": 18,
+      "month": 10,
+      "monthname": "Lamashan",
+      "year": 4713,
+      "name": "18th Lamashan, 4713",
+      "log": "On the way back to Drezen from the fallen fane. Ashstorms slow progress",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00031",
+      "day": 19,
+      "month": 10,
+      "monthname": "Lamashan",
+      "year": 4713,
+      "name": "19th Lamashan, 4713",
+      "log": "Still making way back to Drezen. Camped at a shack near the Ahari riverbed",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00032",
+      "day": 20,
+      "month": 10,
+      "monthname": "Lamashan",
+      "year": 4713,
+      "name": "20th Lamashan, 4713",
+      "log": "Returned to Drezen. Learned about missing priest and caravan attacks.",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00033",
+      "day": 21,
+      "month": 10,
+      "monthname": "Lamashan",
+      "year": 4713,
+      "name": "21st Lamashan, 4713",
+      "log": "Investigated disappearance of Jeskar Helton",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00034",
+      "day": 22,
+      "month": 10,
+      "monthname": "Lamashan",
+      "year": 4713,
+      "name": "22nd Lamashan, 4713",
+      "log": "Left for Weeping Hills",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00035",
+      "day": 23,
+      "month": 10,
+      "monthname": "Lamashan",
+      "year": 4713,
+      "name": "23rd Lamashan, 4713",
+      "log": "Reached Weeping Hills",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00036",
+      "day": 24,
+      "month": 10,
+      "monthname": "Lamashan",
+      "year": 4713,
+      "name": "24th Lamashan, 4713",
+      "log": "Returning to Drezen after coming back from the",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00037",
+      "day": 25,
+      "month": 10,
+      "monthname": "Lamashan",
+      "year": 4713,
+      "name": "25th Lamashan, 4713",
+      "log": "Heading back to Drezen again after collecting Weeping Hill treasure",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00038",
+      "day": 26,
+      "month": 10,
+      "monthname": "Lamashan",
+      "year": 4713,
+      "name": "26th Lamashan, 4713",
+      "log": "Met with Irabeth and commissioned some scrolls of secure shelter",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00039",
+      "day": 27,
+      "month": 10,
+      "monthname": "Lamashan",
+      "year": 4713,
+      "name": "27th Lamashan, 4713",
+      "log": "Started trek toward Sarenrae Temple Hunting expedition Failed",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00040",
+      "day": 28,
+      "month": 10,
+      "monthname": "Lamashan",
+      "year": 4713,
+      "name": "28th Lamashan, 4713",
+      "log": "Woke up to a rain of acidic ooze.",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00041",
+      "day": 29,
+      "month": 10,
+      "monthname": "Lamashan",
+      "year": 4713,
+      "name": "29th Lamashan, 4713",
+      "log": "New Day - breaking camp",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00042",
+      "day": 30,
+      "month": 10,
+      "monthname": "Lamashan",
+      "year": 4713,
+      "name": "30th Lamashan, 4713",
+      "log": "Found dead cultists. Found mount with message mentioning Jaruunicka and Takeria's redoubt",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00043",
+      "day": 31,
+      "month": 10,
+      "monthname": "Lamashan",
+      "year": 4713,
+      "name": "31st Lamashan, 4713",
+      "log": "Reached the cliffs before the grey road. Found bodaks when collecting firewood.",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00044",
+      "day": 1,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "1st Neth, 4713",
+      "log": "Reached the formerly fallen fane. Lightning/Explosion storm",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00045",
+      "day": 2,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "2nd Neth, 4713",
+      "log": "Spent the day digging out the temple of Sarenrae",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00046",
+      "day": 3,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "3rd Neth, 4713",
+      "log": "Exploring the area around the new temple",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00047",
+      "day": 4,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "4th Neth, 4713",
+      "log": "Morning dream sending Harlock and teamchasing south.",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00048",
+      "day": 5,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "5th Neth, 4713",
+      "log": "Abyssal Rift Storm washes Lupenor and Chryrric downstream",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00049",
+      "day": 6,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "6th Neth, 4713",
+      "log": "Headed to the site of Harlock's dream - taking the long way around. Rabiah feels watched.",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00050",
+      "day": 7,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "7th Neth, 4713",
+      "log": "Crossed the Grey Road and headed along the lava lake shore. Killed Abner Soothy and the mythic VrockVorimeraak in the Molten Scar.",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00051",
+      "day": 8,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "8th Neth, 4713",
+      "log": "Returned via teleport to the Temple of Sarenrae. Rabiah studies the area. Group spends the night indoors.",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00052",
+      "day": 9,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "9th Neth, 4713",
+      "log": "Set out overland toward Dezen from the temple of Sarenrae with followers in tow including the hunters of Erastil",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00053",
+      "day": 10,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "10th Neth, 4713",
+      "log": "Party returns to Drezen to much fanfare.",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00054",
+      "day": 11,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "11th Neth, 4713",
+      "log": "Breakfast with Abner Suthi (post-raise-dead). Asked by Anevia to harbor a spy at the shrine. Learned of the bracelet conspiracy. Teleported some folks to the shrine.",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00055",
+      "day": 12,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "12th Neth, 4713",
+      "log": "Teleported with the queen's spy to the hidden shrine.\n\nStaying the night.",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00056",
+      "day": 13,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "13th Neth, 4713",
+      "log": "The party awakens at the secret shrine and prepares to head out to find the dragon.",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00057",
+      "day": 14,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "14th Neth, 4713",
+      "log": "The party found the lair of the woundwyrm Scoricscar and slew it.",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00058",
+      "day": 15,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "15th Neth, 4713",
+      "log": "Party teleports from the dragon's lair to the temple of Sarenrae, where they spend the day waiting out the storm.",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00059",
+      "day": 16,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "16th Neth, 4713",
+      "log": "Headed out from the temple of Sarenrae toward the redoubt",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00060",
+      "day": 17,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "17th Neth, 4713",
+      "log": "At the Grey Road, headed west toward Redoubt. Lupenor wakes from dream of redoubt. Ambushed by the red swarm",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00061",
+      "day": 18,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "18th Neth, 4713",
+      "log": "Marching toward redoubt",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00062",
+      "day": 19,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "19th Neth, 4713",
+      "log": "Arrive at Tekira's Redoubt",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00063",
+      "day": 20,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "20th Neth, 4713",
+      "log": "Teleported to Hidden Shrine, dropped off stuff, laid down orders, laft Chyrric as runner, resurrected Samail and returned to the Redoubt mostly via teleport.",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00064",
+      "day": 21,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "21st Neth, 4713",
+      "log": "Teeth storm delays departure to the Greengates and Ivory Sanctum. Rabiah uses her love of sewing to bridge a connection to her newfound succubus companion.",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00065",
+      "day": 22,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "22nd Neth, 4713",
+      "log": "Travel to the Greengates, with Arueshalae as a guide",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00066",
+      "day": 23,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "23rd Neth, 4713",
+      "log": "Travel to the Greengates, with Arueshalae as a guide",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00067",
+      "day": 24,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "24th Neth, 4713",
+      "log": "Ascending to the GreenGates",
+      "gmlog": ""
+    },
+    {
+      "id": "id-00068",
+      "day": 25,
+      "month": 11,
+      "monthname": "Neth",
+      "year": 4713,
+      "name": "25th Neth, 4713",
+      "log": "Assaulting the Ivory Sanctum!",
+      "gmlog": ""
+    }
+  ]
+}
