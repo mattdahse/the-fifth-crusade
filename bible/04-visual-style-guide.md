@@ -229,6 +229,25 @@ for a Drezen interior — that tavern is in KENABRES.** Its heavy dark timber, b
 iron hanging lanterns belong to an old city that had centuries to accumulate them, and Drezen has had
 months. *(Caught by Matt, Aug 2026, when it was staged as a Drezen reference for exactly this scene.)*
 
+**Lupenor's Market** — the open trading square of the **Celest House** district in **Drezen**
+([`something-better-than-coin`](../images/something-better-than-coin.webp), Book III Ch. IV): the market
+**Lupenor Celest** founded with three thousand gold of her own, at the southeastern foot of the walls.
+*The follower account [`follower-silas-thorne-market`](../secrets/follower-silas-thorne-market.md) is the
+authority on how it works* — sixty-odd registered merchants, permanent stalls twelve feet by eight with
+rooms above, a fire-insurance pool, standardized weights, and the three-storey **Celest House** itself
+rising over the lane with its windows lit while the clerks work late. **The Drezen rule governs it
+absolutely: this market is MONTHS OLD, NOT CENTURIES.** Raw new-sawn pale timber, plank counters laid
+across barrels, unseasoned board walls, fresh joinery, canvas and salvaged sailcloth awnings on new-cut
+posts, mismatched crates and stools — grubby already from use, but nothing smoke-blackened, worn smooth,
+or timeworn. Behind and between it, the squared warm grey-brown **dwarven** masonry of the old city
+patched with obvious new timber, and the broken wall beyond. **The crowd is the point of the place**:
+crusaders in mismatched campaign kit, porters under sacks, refugees, a bread stall, a tinker's cart,
+bolts of cloth — arriving faster than **Drezen** can house them. Light it at **evening**, the hour
+Lupenor works her own stalls: a low westering sun straight down the lane, raking through dust and
+cook-smoke, with the first oil lamps just kindled — one warm gold accent in an otherwise muted
+brown-grey frame. *Avoid:* `an ancient smoke-blackened market, centuries of patina, timeworn polished
+wood, a cosy old-world bazaar, a stone-built medieval town square, a bright cheerful sunlit scene`.
+
 The other three strongholds on Paradise Hill are not yet illustrated**, and each has a follower account
 that should be read before one is: **Varic**'s modest **Temple of Sarenrae**
 ([`follower-dawns-fire-temple`](../secrets/follower-dawns-fire-temple.md)), **Harlock**'s garrison of

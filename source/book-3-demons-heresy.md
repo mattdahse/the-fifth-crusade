@@ -576,6 +576,8 @@ While she read, the party split its efforts. **Varic** went back to the shrine t
 
 The rumor that mattered was this. Caravans on the trade road were being taken — more than one, on the run into **Drezen** and the run out of it — and there were never any survivors to say by what. Some said demons. Some said a dragon. Nobody knew. One caravan lost is bad luck; more than once is a supply line coming apart.
 
+![She was not yet turning a profit, but she was no longer losing — and she had something better than coin.](images/something-better-than-coin.webp)
+
 In the morning **Harlock** took **Elara** with him and went out again, and **Varic** came along, and between **Elara**'s lighter touch and the priest's own standing in the quarter the three of them finally filled the picture in.
 
 The consecration of the shrine after decades in demonic hands had been going poorly: holy symbols were lost or damaged, mud stains appeared without explanation, and once during a sermon a longbow hanging over the altar had fallen and broken. **Jeskar** had taken these setbacks in stride, noting that the shrine had spent many years in demonic hands and a few unquiet echoes were bound to remain.
