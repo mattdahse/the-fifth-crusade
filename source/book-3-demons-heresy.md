@@ -1050,7 +1050,7 @@ The Worldwound watched them go. It was not finished with them yet.
 
 <!-- fathom: 616792241 -->
 
-*28 March 2026 session — 31st of Lamashan through 6th of Neth, 4713 AR*
+*28 March 2026 session — 30th of Lamashan through 6th of Neth, 4713 AR*
 
 ### **What the Hawk Saw**
 
@@ -1114,7 +1114,7 @@ Meanwhile, the caravan continued west. About an hour ahead of where the scouting
 
 **Cornelia:** *Most of them made it. They're trying to drag this enormous lizard back. It's huge. But one of them needs healing, if not a resurrection. I couldn't tell who.*
 
-**Varic** handed **Cornelia** the party's wand of ***Cure Light Wounds***. She pocketed it, shifted back into her hawk, and flew ahead to render aid.
+**Lupenor** handed **Cornelia** her wand of ***Cure Light Wounds*** — the druid had one prepared cure of each grade and nothing else to give. She pocketed the wand, shifted back into her hawk, and flew ahead to render aid.
 
 By the time **Varic**'s group caught up on foot, everyone was on their feet and in excellent spirits. **Cornelia** had burned ten charges from the wand — five on **Jeskar**, who had been gored badly when the lizard charged him, and the rest spread across the other hunters' wounds. The beast itself was a Worldwound-contaminated monitor lizard easily the size of a horse, muscular and mean, and the hunters had killed it through sheer persistence: peppered it with arrows while **Jeskar** served as the living distraction, drawing its charges and taking the hits until the others could bring it down.
 
@@ -1152,13 +1152,13 @@ Dead insects. Locusts and spiders and things without names, falling from the gre
 
 By morning, three to four inches of dead insects covered the ground. The party swept and shoveled and shook out tents and tried to restore some semblance of order. The lizard had been mostly consumed the night before. What remained was buried under a carpet of dead arachnids that nobody wanted to excavate.
 
+**Harlock** woke that morning in a cold sweat, as he had every morning for a week, and for once the dream had given him nothing to carry: the old childhood horror and no pull in any direction at all. He said nothing about it. There was nothing to say.
+
 ### **The Firewood and the Dead**
 
-The day that followed — Oath Day, the 31st of Lamashan — was clear and cold and blessed with an absence of incident that felt almost suspicious. One horse threw a shoe. Some indigestion was reported, almost certainly from the side dishes rather than the lizard meat. **Cornelia** reported seeing a creature on the distant horizon that looked like a dragon but had at least six legs — far too many for any chromatic species. Nobody was eager to investigate.
+The day that followed — Oath Day, the 31st of Lamashan — was clear and cold and blessed with an absence of incident that felt almost suspicious. One horse threw a shoe. Some indigestion was reported, almost certainly from the side dishes rather than the lizard meat. **Cornelia** reported seeing a creature on the distant horizon that looked like a dragon but had at least six legs — far too many for any chromatic species. Nobody was eager to investigate. By the end of the day they stood at the cliff's edge with the cave mouth somewhere below them and three or four hours of descent still to go, which was three or four hours more than the light allowed.
 
-That night, **Harlock** dreamed again. The pull — south by southeast now, shifting as their position changed — and the old nightmare underneath it like a drumbeat. He woke in a cold sweat but said nothing. The direction was noted and filed.
-
-The following morning brought the first real cold. Not the damp chill of the Marchlands but genuine freezing weather — mountain cold, the kind that killed exposed flesh and cracked iron. ***Endure Elements*** covered the party proper: **Varic** took himself and one other, **Harlock** covered himself and **Lupenor**, **Chyrrik** handled herself and **Rabiah**. But the thirteen followers and four horses had no such protection, and the tents and bedrolls were insufficient against temperatures this severe.
+So they made camp on the height, and the cold came down with the sun. Not the damp chill of the Marchlands but genuine freezing weather — mountain cold, the kind that killed exposed flesh and cracked iron. **Chyrrik** found them a hollow sheltered from the wind and open to the sky, which was the best that ground had on offer. ***Endure Elements*** covered the party proper: **Varic** took himself and one other, **Harlock** covered himself and **Lupenor**, **Chyrrik** handled herself and **Rabiah**. But the thirteen followers and four horses had no such protection, and the tents and bedrolls were insufficient against temperatures this severe.
 
 **Rabiah** reached deep three times over, and three ***Secure Shelters*** rose out of nothing — stone cottages with fireplaces, shuttered windows and iron-grated chimneys, good for a day and a night apiece. One for the horses with a handler or two. Two for the remaining followers, split between the hunters and the rest. The fireplaces, however, needed fuel.
 
@@ -1172,11 +1172,13 @@ The withered bodak moved first, locking its dead eyes onto **Varic** and turning
 
 What followed was a clinic in the focused application of divine violence.
 
-**Varic** opened with ***Mythic Holy Smite***, and the golden burst of it caught all four at once. The largest — a huge thing, built like something that had wrestled for a living before it died — took the worst of it and went blind. The other three came through with less damage and no better sight. **Rothin Vald** followed with ***Searing Light***, which fell on the undead like a shaft of noon sun and was received exactly that badly. **Rabiah**'s ***Scorching Rays*** went into the wounded one, the first lance burning straight through a resistance that should have blunted it. **Lupenor** picked her mark and put three arrows into the same creature, the last of them going in through the skull and out the other side.
+**Varic** opened with ***Mythic Holy Smite***, and the golden burst of it caught all four at once. The largest — a huge thing, built like something that had wrestled for a living before it died — took the worst of it and went blind. The other three came through with less damage and no better sight. **Rothin Vald** followed with ***Searing Light***, which fell on the undead like a shaft of noon sun and was received exactly that badly. **Rabiah**'s ***Scorching Rays*** went into the wounded one, the first lance burning straight through a resistance that should have blunted it. **Lupenor** picked the same creature for her mark and began putting arrows into it, three at a time, and did not pick another one for the rest of the fight.
 
-**Chyrrik** added cold iron that punched through hide the plain shafts had been bouncing off. **Varic** reached out with a bare hand and pressed a healing prayer into the withered bodak's chest — which, to a dead thing, is not healing at all, but a handprint of cinders spreading outward across the torso like parchment burning from the middle. Both clerics loosed waves of consecrated force after that, pulse on pulse of it, scouring the bodaks down to bone and rage.
+**Chyrrik** added cold iron that punched through hide the plain shafts had been bouncing off. **Varic** reached out with a bare hand and pressed a healing prayer into the withered bodak's chest — which, to a dead thing, is not healing at all, but a handprint of cinders spreading outward across the torso like parchment burning from the middle. Both clerics loosed waves of consecrated force after that, pulse on pulse of it, scouring the bodaks down to bone and rage. The one **Rabiah** had opened and **Lupenor** had been working on all fight went down to a last pair of arrows and did not get up: the first of the four off the board, and hers.
 
-But it was **Harlock** who ended it. He called his smite without breaking stride, stepped into the middle of the three that were left, and swung. ***Radiance*** blazed white-gold and went through all three of them in one continuous stroke, carrying from body to body as though the gaps between them were not there. The brittle-smirked one crumbled first, its expression finally wiped clean. The huge one toppled like a felled tree. The withered one lasted a heartbeat longer — long enough for **Harlock** to reach deep one more time and put ***Radiance*** through its chest. Then **Rabiah**, because she was **Rabiah**, emptied five ***Mythic Magic Missiles*** into the last corpse out of pure spite, each one trailing light across the thicket. The final four were purely for emphasis.
+Then **Harlock** broke the rest of them. He called his smite without breaking stride, stepped into the middle of the three that were left, and swung. ***Radiance*** blazed white-gold and carried from body to body as though the gaps between them were not there — the brittle-smirked one taking the smite full in the chest, the huge one and the withered one caught on the follow-through. The withered one folded where it stood. Then **Harlock** reached deep once more and put ***Radiance*** through the brittle smirk, and the expression was finally wiped clean.
+
+That left the huge one, still upright against all reason and all arithmetic — until **Rabiah**, because she was **Rabiah**, put five ***Mythic Magic Missiles*** into it, each one trailing light across the thicket. It was dead well before the last of them arrived. The rest were for emphasis.
 
 Nobody lost anything they would not get back. **Varic** took one glancing blow, the only hit the bodaks managed all told. The company had spent a startling amount of what it had, and had done it over firewood.
 
@@ -1188,11 +1190,11 @@ They carried the wood back to camp. The shelters were stocked, the fires were li
 
 ### **The Hidden Door**
 
-They reached the cliff's edge on the first of Neth and could see, from the height, the broad cave entrance below — the triangular mouth in the cliff face, thirty feet tall and thirty feet wide, that sheltered the sealed stairway down to the Hidden Temple of ***Sarenrae***. Another three or four hours of travel would bring them to the base. But the weather was turning. Wind picked up through the afternoon, and by the time they began the descent, lightning was splitting the sky.
+They began the descent on the first of Neth. From the height they could see the broad cave entrance waiting below — the triangular mouth in the cliff face, thirty feet tall and thirty feet wide, that sheltered the sealed stairway down to the Hidden Temple of ***Sarenrae***. But the morning came up with a hard wind and a darkening sky, and the wind worsened the whole way down. By the time they reached the base of the cliffs, lightning was splitting the sky.
 
 This was not ordinary lightning. The bolts carried a bluish tint and detonated on impact in tremendous explosions of fire, knocking over what few trees survived in this desolation. It was a plasma storm — electricity and fire married in the crucible of the Worldwound's corrupted atmosphere — and it was getting closer.
 
-**Rabiah** wrapped **Varic** in ***Protection from Energy*** against the fire and ***Resist Energy*** against the lightning — enough between them to take the sky's first several attempts on his life and give him nothing worse than a headache. **Varic** stood out in the open and cast ***Secure Shelters*** for the followers while it tried. Ten minutes a casting. Three castings. Half an hour of standing in a firestorm carefully enunciating the words of a spell that will not forgive being interrupted.
+**Varic** wrapped **Rabiah** in ***Protection from Energy*** against the fire, reaching deep to put a hundred and thirty points of the sky's temper between her and her own skin, and she layered ***Resist Energy*** against the lightning over the top of it. Then **Rabiah** stood out in the open and reached deep three times for ***Secure Shelters*** while the storm tried its best. Ten minutes a casting. Three castings. Half an hour of standing in a firestorm carefully enunciating the words of a spell that will not forgive being interrupted.
 
 The shelters went up. The followers went inside. The horses were stabled. And then the party turned to the cave entrance and discovered they were not the first to visit since their last departure.
 
@@ -1204,7 +1206,7 @@ A full day of digging with shovels cleared the packed earth from the stairwell. 
 
 **Varic** followed with two more ***Stone Shapes*** of his own, reaching deep for each, sculpting hinges and a latch and a lip on the exterior to prevent the door from being forced inward. It was not dwarven craftsmanship. The hinges ground against each other. The tolerances were approximate. Lamp oil was applied liberally to reduce friction. But it was a door — a real stone door, four inches thick, that swung on stone hinges and could be barred from the inside with a wooden beam set into stone brackets.
 
-**Tobias** *(examining his work with professional dissatisfaction): It'll hold against a shoulder. Maybe two shoulders. Don't let anything with a battering ram find this place.*
+**Tobias** walked the finished work twice and sent them back to it both times — a fingernail's width off this hinge, a lip left proud on that jamb, the door two inches longer at the top than at the bottom for reasons he explained once and nobody followed. When at last he signed off on it he did so without ceremony, which from him amounted to a commendation.
 
 They stepped through the doorway and into the Hidden Temple of ***Sarenrae*** for the first time in weeks. It was undisturbed. The consecration held. The statues stood as they had been left, the beds were made, the storerooms were intact. **Harlock** felt the warmth of the Dawnflower's presence wash over him like stepping from winter into a heated room, and for a moment his face lost the drawn, haunted quality that the nightly dreams had etched into it.
 
@@ -1220,21 +1222,21 @@ They stepped through the doorway and into the Hidden Temple of ***Sarenrae*** fo
 
 **Elara:** *Yes, sir.*
 
-**Jeskar Hinton** and his hunters were given a choice: wait at the temple for the party's return, or attempt the three-day journey back to **Drezen** on their own. The temple had food, water, warmth, and divine protection. The road back had none of those things. **Jeskar** said he would discuss it with his people.
+**Jeskar Hinton** was borrowed into the head priest's office and asked to hold his hunters at the temple two days longer while the company surveyed the ground around it. He agreed easily enough. His plans ran no further than **Drezen**: a lizard's head to be mounted, a renewal of the temple to be announced, and a great deal to be said about all of it to anyone who would sit still.
 
 The party redistributed supplies, stabled the horses at the temple, and departed to begin scouting the surrounding area: **Varic**, **Harlock**, **Rabiah**, **Lupenor**, and **Chyrrik**. Five people walking into the Worldwound with nothing but their packs, their weapons, and a half-orc paladin's nightmare as a compass.
 
 ### **The Patrol**
 
-They spent two days scouting the area around the temple before turning south — a responsible precaution that yielded a field of what **Chyrrik** called *abyssal pimples*: misshapen, puckered mounds of earth ranging from six inches to several feet across, venting random geysers of purple energy into the sky at unpredictable intervals. One exploded while they watched — a thirty-foot burst of rock shrapnel and abyssal energy that would have killed anyone standing nearby.
+The third of Neth opened with light snow and went out with nothing worse. They worked the ground around the temple in a slow loop — a responsible precaution that yielded a field of what the company took to calling *abyssal pimples*: misshapen, puckered mounds of earth ranging from six inches to several feet across, venting random geysers of purple energy into the sky at unpredictable intervals. One exploded while they watched — a thirty-foot burst of rock shrapnel and abyssal energy that would have killed anyone standing nearby. **Chyrrik**'s considered professional judgment was that they should stay well away from it, and nobody asked her to elaborate.
 
 They marked the field on the map and gave it a wide berth.
 
-Each night, **Harlock** dreamed. Each morning, the pull was stronger. On the third night, the dream changed: a new figure appeared alongside the old childhood horror — a vrock demon, a vulture-headed thing with a wingspan wider than a man is tall, wreathed in purple fire. The sense of urgency was no longer a suggestion. It was a command.
+**Harlock** had dreamed at the temple the night before they set out, and the pull had come back with it — south by southeast now, shifting as their own position shifted, and stronger than it had been. On the first night out from the temple it changed again. A new figure appeared alongside the old childhood horror: a vrock demon, a vulture-headed thing with a wingspan wider than a man is tall, wreathed in purple fire. The sense of urgency was no longer a suggestion. It was a command.
 
 **Harlock:** *We need to leave. Now. Whatever's out there, it's not going to wait.*
 
-There was no argument. But they were two days out from the temple, and **Rothin** and the others had no way of knowing the plan had changed. **Varic** reached deep and cast ***Sending*** — five and twenty words, no more, carried across any distance in the world to a mind he knew well.
+There was no argument. But they were a day out from the temple with two more of the survey still owed, and **Rothin** and the others had no way of knowing the plan had changed. **Varic** reached deep and cast ***Sending*** — five and twenty words, no more, carried across any distance in the world to a mind he knew well.
 
 **Varic** *(via Sending): Taking care of important matter immediately. Be back in about a week. Escort hunters home if they stay. Good luck.*
 
@@ -1242,11 +1244,37 @@ There was no argument. But they were two days out from the temple, and **Rothin*
 
 That was that. The hunters could make their own decisions. The party turned south-southeast and began walking in earnest.
 
-**Varic**'s knowledge of the planes told him something about the demon in **Harlock**'s description — not the vrock itself, but the specific demon whose presence the dream seemed to indicate. A creature called **Xoveron**, known in obscure texts for performing the Asbenderist rite: an abyssal ritual rumored to be capable of transforming a mortal directly into a demon. Whatever was calling **Harlock**, it was connected to something profoundly dangerous.
+### **The Moving Hill**
+
+They walked with the cliffs on their left hand and the dry riverbed on their right, and around two in the afternoon the snow turned to slush and stopped sticking, and the ground went muddy and then went warm. Ahead of them, perhaps a hundred and fifty yards off, was a low hill of white rubble eight or ten feet high.
+
+**Lupenor** watched it for a while and said what everyone was already thinking, which was that the hill was moving.
+
+They took the cliff rather than find out. **Lupenor** ran seventy-five feet of near-vertical rock on nothing but momentum and caught a ledge partway to stop on. **Chyrrik** went up behind her with the casual efficiency of someone who has spent her life underground and did not need to be asked twice. **Varic** simply walked up on air. **Harlock** went last and went by ***Dimension Door*** in **Rabiah**'s company, because a man in full plate does not climb and had the good sense not to argue about it.
+
+From the top they could see what the hill was: a writhing pile of three-foot larvae, hundreds of them, each one carrying a human face. They were nobody's neighbors yet. They were left exactly where they lay, marked on the map, and given the whole width of the clifftop.
+
+They went south along the height until the light failed. **Chyrrik** found them a campsite, and **Rabiah** had ten minutes of ***Secure Shelter*** to say over it — and it was in those ten minutes that **Lupenor**, looking west out of habit, saw the silhouette come down out of the clouds. Draconic in shape. Massive in scale. It circled something a few miles to the east, dropped below the horizon, and did not come back up.
+
+### **The Gray Road**
+
+The next morning the weather turned over completely. A hot wind came up from the south and took every trace of the mountain cold with it inside ten minutes, and then they were sweating in their armor with embers and ash streaking past their faces.
+
+Then the thunder started at ground level. Flashes of light tore the air apart and left behind momentary windows into other worlds — abyssal gates, ripping open at random, showing glimpses of alien skies and impossible landscapes before sealing shut seconds later. The nearest was a hundred and fifty yards off. Then sixty. They kept moving. What else was there to do?
+
+One gate opened forty feet to their left and vomited an ocean. A wall of seawater five feet tall and forty feet wide, smashing into them with the force of a broken dam. There was no dodging it. **Harlock** got his jump potion down while running and dove clear. **Rabiah** went up on ***Fly***. **Varic** set himself and held. **Chyrrik** braced and was taken off her feet regardless, and **Lupenor** went with her.
+
+The water churned with mud and sulfur, carrying the two of them separately — tumbling, gasping, battered against rocks and debris and taking a beating from every one of them, until the flood thinned and set them down, coughing and bleeding, in a spreading delta of filthy water a mile or more from where they had started. Behind them, the gate sealed shut, and the water subsided to reveal an octopus the size of a cathedral — its tentacles severed by the closing gate, its boneless body gasping and flailing on the dry earth of the Worldwound before going still.
+
+**Rabiah** flew after **Chyrrik**, tracking her by the flash of a mongrelfolk tail in the muddy current, and came down beside her a mile downstream where she had dragged herself onto a flat rock and started patching herself up. **Lupenor** washed up clinging to a thorny tree, and took her healing from **Varic** when the company came back together. They regrouped. They walked back up the wash. **Lupenor**'s boots squelched the entire way, and she was told, more than once, that being merely soaked and filthy in the Worldwound rates as an excellent afternoon.
+
+By dusk they stood at the edge of the cliff and looked south. Beyond the dry riverbed the locals called the **Gray Road**, visible as a dull orange glow along the whole southern horizon, lay the lava. **Harlock**'s dreams pointed past both — across the riverbed, past the lava, to something on the far side that he could feel but not see.
+
+The problem was distance. The lava sea stretched fifteen to thirty miles across, depending on where you measured. **Rabiah** had ***Teleport***, technically, and spent a while establishing exactly how badly it would go: you cannot teleport to a place seen only in another man's dream, and the failure cases ran from arriving somewhere similar — which here meant arriving in lava — to arriving nowhere at all, in pieces. They would have to go around. Days of additional travel, skirting the edge of the lava, following the cliff line south until the terrain permitted a crossing.
 
 ### **The Watched**
 
-On the second night of the southward march, sheltered inside **Rabiah**'s ***Secure Shelter*** with the shutters closed and the arcane lock engaged, **Rabiah** felt it: a persistent, unshakable sensation of being watched. Not the paranoia of the Worldwound — this was specific, targeted, and it would not fade.
+They camped on the height that night, and sheltered inside **Rabiah**'s ***Secure Shelter*** with the shutters closed and the arcane lock engaged, **Rabiah** felt it: a persistent, unshakable sensation of being watched. Not the paranoia of the Worldwound — this was specific, targeted, and it would not fade.
 
 She peered through a shuttered window. Far away on a ridge, she caught movement — a silhouette against the sky, there and then gone. Maybe a person. Maybe not. Two hundred yards, perhaps. Not close enough to threaten. Close enough to observe.
 
@@ -1260,37 +1288,23 @@ Whether the wand had blocked a scrying sensor or merely calmed her nerves, there
 
 She did not sleep that night. Not that she needed to.
 
-### **The Gray Road**
-
-They reached the cliff edge on the fifth day and looked south across the dry riverbed the locals called the **Gray Road**. Beyond it, visible as a dull orange glow on the southern horizon, lay the lava fields. **Harlock**'s dreams pointed past both — across the riverbed, past the lava, to something on the far side that he could feel but not see.
-
-The problem was distance. The lava sea stretched fifteen to thirty miles across, depending on where you measured. No teleportation — **Rabiah** had the spell, technically, but the destination was unfamiliar enough that the chance of a catastrophic mishap was unacceptably high. They would have to go around. Days of additional travel, skirting the edge of the lava, following the cliff line south until the terrain permitted a crossing.
-
-They descended the cliff. **Harlock** used a potion of ***Jump*** and a running start. **Lupenor** sprinted up the wall using her supernatural ability and found a ledge partway up. **Rabiah** dimension-doored herself and **Harlock**. **Chyrrik** climbed with the casual efficiency of someone who had spent her life underground. Getting down was easier than getting up — gravity was cooperative, at least.
-
-At the bottom, the weather changed. Hot wind from the south replaced the freezing cold of the clifftop. Blowing embers and ash streaked through the sky. And then the storm began — not rain, not acid, not insects, but something worse. Thunder that started at ground level. Flashes of light that tore the air apart and left behind momentary windows into other worlds — abyssal gates, ripping open at random, showing glimpses of alien skies and impossible landscapes before sealing shut seconds later.
-
-They kept moving. What else was there to do?
-
-One gate opened forty feet to their left and vomited an ocean. A wall of seawater five feet tall and forty feet wide, smashing into them with the force of a broken dam. There was no dodging it. **Harlock** drank his jump potion and dove clear. **Rabiah** cast ***Fly*** and went up. **Varic** braced himself and held. **Chyrrik** and **Lupenor** were swept away.
-
-The water churned with mud and sulfur, carrying the two of them separately — tumbling, gasping, battered against rocks and debris and taking a beating from every one of them, until the flood thinned and set them down, coughing and bleeding, in a spreading delta of filthy water a mile or more from where they had started. Behind them, the gate sealed shut, and the water subsided to reveal an octopus the size of a cathedral — its tentacles severed by the closing gate, its boneless body gasping and flailing on the dry earth of the Worldwound before going still.
-
-**Rabiah** flew after **Chyrrik**, tracking her by the flash of a mongrelfolk tail in the muddy current. She found her a mile away, sputtering on a flat rock. **Lupenor** washed up clinging to a thorny tree and healed herself with the wand. They regrouped. They continued.
-
-The feeling of being watched returned. **Rabiah** hit the wand of ***Non-Detection*** again without being asked.
-
 ### **The Dragon**
 
-At dusk, as **Chyrrik** found them a campsite and **Rabiah** began the ten-minute casting of a ***Secure Shelter***, **Lupenor** looked up and saw a silhouette descending from the clouds to the east. Draconic in shape. Massive in scale. Circling an area a few miles distant before dropping below the horizon.
+In the morning they went down. **Chyrrik** scrambled the descent without needing to roll for it. **Lupenor** ran it. **Harlock** went by ***Dimension Door*** again and did not pretend to be sorry about it. They were strung out at various heights on the rock when they heard the roar — unmistakably a dragon, unmistakably not aimed at them, and unmistakably closer than any of them had ever been to it. They put themselves into a cleft where the rock met the rubble and waited for the echoes to die.
 
-In the morning, they crossed the riverbed. It took most of the remaining daylight. And then, as they reached the far bank and began looking for shelter, the dragon came.
+It was there, with everyone crouched under their cloaks like a bad joke about hobbits, that **Harlock** finally put a name to the thing in his dreams: not the vrock, but the one behind it. **Xoveron**. **Varic** turned over what he knew of the planes and came up with a name that was worse than no name at all. Whatever **Xoveron** was, it was nothing that could be mistaken for a dragon — but it was famous in one obscure book for performing the Asbenderist rite, a ritual rumored to turn a mortal directly into a demon. Six-legged, and winged, and wrong. Which was, as somebody pointed out, precisely what **Cornelia** had seen on the horizon two days before Oath Day.
 
-It emerged from the north — dark against a darker sky, its body wreathed in a swirling iridescence that hurt to look at directly. Not the matte black of a true black dragon, not the crimson of a red. Something between and beyond: patches of color sliding across its scales like oil on water, constantly shifting, actively wrong. The wind from its wings carried heat and acid both — droplets that stung the skin even through ***Resist Energy***, a breath that smelled of sulfur and brine and something older than either.
+They came to the bank of the **Gray Road** at about five in the afternoon. The last mile of it had been scorched to nothing, the rocks slick and pitted in the way they had learned to read at the slaughter site. There was no wildlife. There was no plant life. There was nothing at all.
+
+The feeling of being watched came back. **Rabiah** hit the wand of ***Non-Detection*** again without being asked.
+
+With three hours of light left they chose to cross rather than camp on the near bank — three quarters of a mile of cracked, open riverbed with nothing on it to hide behind. They were most of the way over when the dragon came.
+
+It came out of the north — dark against a darker sky, its body wreathed in a swirling iridescence that hurt to look at directly. Not the matte black of a true black dragon, not the crimson of a red. Something between and beyond: patches of color sliding across its scales like oil on water, constantly shifting, actively wrong. The wind from its wings carried heat and acid both — droplets that stung the skin even through ***Resist Energy***, a breath that smelled of sulfur and brine and something older than either.
 
 They did not fight it. They hid.
 
-Every member of the party carried an ***Elixir of Hiding*** — recovered from a cultist cache months ago, distributed as standard equipment for exactly this kind of emergency. **Lupenor**, whose stealth was already formidable, did not need one. The rest drank and went still, pressing themselves into the riverbank's contours, pulling cloaks over armor, becoming nothing.
+Every member of the party carried an ***Elixir of Hiding*** — recovered from a cultist cache months ago, distributed as standard equipment for exactly this kind of emergency. **Lupenor**, whose stealth was already formidable, did not need one. The rest drank and went still, pressing themselves into what the riverbed offered by way of contour, pulling cloaks over armor, becoming nothing.
 
 The dragon flew over them. They felt the heat of its passage, felt acid droplets sting where exposed skin caught the wind from its wings. It banked south toward the lava fields, caught a thermal, rose, turned, and flew back north directly over their position. Two passes. Each one close enough to count scales, if anyone had been foolish enough to look up.
 
@@ -1302,7 +1316,7 @@ They exhaled.
 
 **Lupenor:** *Eventually is not today.*
 
-They made camp on the far side of the **Gray Road**, concealed as best they could manage against the broken terrain. **Rabiah** conjured a ***Secure Shelter***. **Chyrrik** found firewood without encountering any undead, which at this point qualified as a minor miracle. **Harlock** dreamed again — the strongest pull yet, the vrock demon clearer than ever, the sense of something waiting for him just beyond the horizon sharpening into something that felt less like a call and more like a countdown.
+They came up out of the riverbed onto the far bank in the last of the light, and kept going a while longer into the dark, looking for ground broken enough to hide a conjured cottage from something with wings. The elixirs were good for an hour. They would not be good the next time.
 
 South by southeast. Across the dragon's territory. Past the lava fields. Toward whatever had been waiting for him since before he could remember.
 
