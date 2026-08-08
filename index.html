@@ -9,12 +9,19 @@
     --bg:#f4ecd8; --bg2:#efe4c8; --ink:#2c2114; --ink-soft:#5c4a30;
     --accent:#7a1e1e; --accent2:#9c6b1e; --rule:#c9b48a; --card:#fbf5e6;
     --link:#8a2a2a; --mark:#ffe08a; --markink:#3a2a00;
+    /* timeline: one line colour and one fill per book */
+    --tl1:#9c6b1e; --tl1f:rgba(156,107,30,.08); --tl1h:rgba(156,107,30,.17);
+    --tl2:#7a1e1e; --tl2f:rgba(122,30,30,.07);  --tl2h:rgba(122,30,30,.15);
+    --tl3:#3d6b4c; --tl3f:rgba(61,107,76,.08);  --tl3h:rgba(61,107,76,.17);
   }
   @media (prefers-color-scheme: dark){
     :root{
       --bg:#1b160f; --bg2:#241d13; --ink:#e8dcc2; --ink-soft:#b9a884;
       --accent:#d98a8a; --accent2:#d9b46a; --rule:#4a3d28; --card:#241d14;
       --link:#e2a3a3; --mark:#6a531c; --markink:#f6e8c4;
+      --tl1:#d9b46a; --tl1f:rgba(217,180,106,.09); --tl1h:rgba(217,180,106,.19);
+      --tl2:#d98a8a; --tl2f:rgba(217,138,138,.08); --tl2h:rgba(217,138,138,.17);
+      --tl3:#8ab99a; --tl3f:rgba(138,185,154,.09); --tl3h:rgba(138,185,154,.18);
     }
   }
   *{box-sizing:border-box}
@@ -49,8 +56,9 @@
   .booktitle .ct{flex:0 0 auto;font-size:.72rem;letter-spacing:.06em;color:var(--ink-soft);font-style:italic;text-transform:none}
   .entry{padding:.55rem .2rem;border-bottom:1px solid var(--rule);display:flex;justify-content:space-between;gap:1rem;align-items:baseline}
   .entry:hover{background:var(--bg2)}
-  .entry .t{cursor:pointer;font-weight:600;color:var(--accent)}
-  .entry .t:hover{text-decoration:underline}
+  .entry .t{cursor:pointer;font-weight:600;color:var(--accent);border-bottom:0;text-decoration:none}
+  .entry .t:hover{text-decoration:underline;border-bottom:0}
+  .entry .t:focus-visible{outline:2px solid var(--accent2);outline-offset:2px}
   .entry .lead{flex:0 0 auto;min-width:4.6em;color:var(--accent2);font-style:italic;font-size:.82rem}
   .entry .ttl{flex:1 1 auto}
   .entry .d{color:var(--ink-soft);font-size:.82rem;font-style:italic;white-space:nowrap}
@@ -97,6 +105,74 @@
   #lightbox .lb-nav:hover{opacity:1}
   #lightbox .lb-prev{left:.3rem}
   #lightbox .lb-next{right:.3rem}
+  /* timeline — a stack of the crusade's days, journal to the left, chapters enclosing */
+  body.wide .wrap{max-width:1040px}
+  .tl-legend{display:flex;flex-wrap:wrap;gap:.35rem 1.1rem;align-items:center;
+    font-size:.8rem;color:var(--ink-soft);margin:.1rem 0 1rem}
+  .tl-legend i{display:inline-block;width:1.6rem;height:.62rem;border-radius:3px;
+    vertical-align:-1px;margin-right:.35rem}
+  .tl-legend i.b1{border:1px solid var(--tl1);background:var(--tl1f)}
+  .tl-legend i.b2{border:1px solid var(--tl2);background:var(--tl2f)}
+  .tl-legend i.b3{border:1px solid var(--tl3);background:var(--tl3f)}
+  .tl-legend i.ap{border:1px dashed var(--ink-soft)}
+  .tl{position:relative;padding:.5rem 0}
+  .tl-blocks{position:absolute;inset:0;z-index:0;pointer-events:none}
+  .tl-rows{position:relative;z-index:1;padding-right:12rem}   /* the chapters' label column */
+  .tl-row{display:flex;align-items:center;gap:1.2rem;min-height:2.8rem}
+  /* on a day held by several chapters the card spans them all: one day, divided */
+  .tl-row.shared .tl-day{align-self:stretch;align-items:center;margin:.2rem 0;
+    box-shadow:0 0 0 4px var(--bg)}
+  .tl-j{flex:1 1 auto;min-width:0;max-width:52ch;margin-left:auto;
+    text-align:right;font-size:.9rem;line-height:1.5;color:var(--ink-soft);padding:.6rem 0}
+  .tl-j em{color:var(--ink-soft);opacity:.8;font-size:.94em}
+  .tl-j strong{color:var(--ink);font-weight:600}
+  .tl-day{flex:0 0 13.5rem;display:flex;align-items:baseline;gap:.5rem;pointer-events:none;
+    background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:.4rem .65rem}
+  .tl-day .dn{font-weight:700;color:var(--accent);min-width:2.4em}
+  .tl-day .dm{font-size:.86rem}
+  .tl-day .dw{margin-left:auto;font-size:.7rem;font-style:italic;color:var(--ink-soft);white-space:nowrap}
+  .tl-row.quiet .tl-day{background:transparent;border-style:dotted}
+  .tl-row.quiet .dn,.tl-row.quiet .dm{opacity:.66;font-weight:400}
+  .tl-row.newmonth{margin-top:.9rem}
+  a.tl-ch{display:block;color:inherit;text-decoration:none}
+  .tl-ch:focus-visible{outline:2px solid var(--accent2);outline-offset:2px}
+  .tl-ch{position:absolute;border:1px solid var(--tl1);background:var(--tl1f);
+    border-radius:8px;cursor:pointer;pointer-events:auto;overflow:hidden;transition:background .12s}
+  .tl-ch:hover{background:var(--tl1h)}
+  .tl-ch.b2{border-color:var(--tl2);background:var(--tl2f)}
+  .tl-ch.b2:hover{background:var(--tl2h)}
+  .tl-ch.b3{border-color:var(--tl3);background:var(--tl3f)}
+  .tl-ch.b3:hover{background:var(--tl3h)}
+  .tl-ch.approx{border-style:dashed}
+  .tl-ch .lab{position:absolute;top:0;right:0;bottom:0;width:11rem;overflow:hidden;
+    display:flex;flex-direction:column;justify-content:center;gap:.05rem;
+    padding:.15rem .1rem .15rem .7rem;border-left:1px solid var(--rule);line-height:1.2}
+  .tl-ch .lab .nu{font-size:.66rem;letter-spacing:.13em;text-transform:uppercase;color:var(--tl1)}
+  .tl-ch .lab .ti{font-size:.82rem;color:var(--link);font-style:italic}
+  .tl-ch:hover .lab .ti,.tl-ch:focus-visible .lab .ti{text-decoration:underline}
+  .tl-ch.b2 .lab .nu{color:var(--tl2)}
+  .tl-ch.b3 .lab .nu{color:var(--tl3)}
+  .tl-ch.tiny .lab{flex-direction:row;align-items:center;gap:.4rem;padding-top:0;padding-bottom:0}
+  .tl-ch.tiny .lab .ti{font-size:.74rem;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+  @media (max-width:900px){
+    .tl-rows{padding-right:5.4rem}
+    .tl-ch .lab{width:4.6rem;padding-left:.45rem}
+    .tl-ch .lab .ti{display:none}
+    .tl-ch:hover .lab .nu{text-decoration:underline}
+  }
+  @media (max-width:760px){
+    body.wide .wrap{max-width:820px}
+    /* stacked: the whole row becomes the day's own card, and the chapters divide the
+       rail beside it — so a shared day still reads as one day, not as two halves */
+    .tl-row{flex-direction:column-reverse;align-items:stretch;gap:.1rem;margin:.28rem 0;
+      background:var(--card);border:1px solid var(--rule);border-radius:6px;
+      box-shadow:0 0 0 4px var(--bg)}
+    .tl-row.quiet{background:transparent;border-style:dotted}
+    .tl-row.shared .tl-day{align-self:auto;margin:0;box-shadow:none}
+    .tl-day{flex:0 0 auto;background:transparent;border:0;box-shadow:none;padding:.4rem .65rem .1rem}
+    .tl-j{text-align:left;max-width:none;margin-left:0;padding:0 .7rem .45rem}
+    .tl-j:empty{padding:0}
+  }
   .catlabel{color:var(--accent2);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;margin:1.3rem 0 .2rem}
   .decor{color:var(--accent2);letter-spacing:.4em;margin:.3rem 0}
   .hidden{display:none}
@@ -118,6 +194,7 @@
       <span class="tab active" data-view="contents">Contents</span>
       <span class="tab" data-view="cast">Cast</span>
       <span class="tab" data-view="secrets">Secrets</span>
+      <span class="tab" data-view="timeline">Timeline</span>
     </div>
   </div>
 
@@ -275,6 +352,8 @@ var app = document.getElementById('app');
 var qEl = document.getElementById('q');
 var chapters = window.CHAPTERS || [];
 var secrets = window.SECRETS || [];
+var CAL = window.CALENDAR || null;
+var JOURNAL = window.JOURNAL || [];
 chapters.forEach(function(c){ c._lc = (c.text||'').toLowerCase(); });
 secrets.forEach(function(s){ s._lc = (s.text||'').toLowerCase(); });
 
@@ -311,7 +390,10 @@ function mdToHtml(md){
 /* recording links removed — each chapter now lists its real-world play date (c.date) */
 
 /* ---------- views ---------- */
-function setTab(v){ document.querySelectorAll('.tab').forEach(function(t){ t.classList.toggle('active', t.dataset.view===v); }); }
+function setTab(v){
+  document.querySelectorAll('.tab').forEach(function(t){ t.classList.toggle('active', t.dataset.view===v); });
+  document.body.classList.toggle('wide', v==='timeline');   /* only the Timeline needs the room */
+}
 
 /* Books start collapsed; a book stays open once the reader opens it, and the book
    holding the chapter you just read is expanded when you come back. */
@@ -349,7 +431,7 @@ function viewContents(keepScroll){
     if(!open) return;
     list.forEach(function(c){
       var lead = c.isEpilogue ? 'Epilogue' : c.num;
-      html += '<div class="entry"><span class="lead">'+esc(lead)+'</span><span class="ttl"><span class="t" onclick="openCh(\''+c.id+'\')">'+esc(c.title)+'</span>'
+      html += '<div class="entry"><span class="lead">'+esc(lead)+'</span><span class="ttl"><a class="t" href="#/read/'+c.id+'">'+esc(c.title)+'</a>'
         + (c.subtitle?('<div class="snip">'+inline(c.subtitle)+'</div>'):'')
         + '</span><span class="d">'+esc(c.date||'')+'</span></div>';
     });
@@ -405,24 +487,143 @@ function viewSecrets(){
   if(!secrets.length){ app.innerHTML = '<div class="hint">No secrets have been recorded yet.</div>'; window.scrollTo(0,0); return; }
   var html = '<div class="hint">The record beside the chronicle — knowledge the company wrested from the enemy, and the accounts of those who flocked to their banners as Drezen rose again.</div>';
   secrets.forEach(function(s){
-    html += '<div class="entry"><span class="ttl"><span class="t" onclick="openSecret(\''+s.id+'\')">'+esc(s.title)+'</span>'
+    html += '<div class="entry"><span class="ttl"><a class="t" href="#/secret/'+s.id+'">'+esc(s.title)+'</a>'
       + (s.subtitle?('<div class="snip">'+inline(s.subtitle)+'</div>'):'')
       + '</span></div>';
   });
   app.innerHTML = html; window.scrollTo(0,0);
 }
-function openSecret(id){ location.hash = '#/secret/'+id; }
 function viewSecretReader(id){
+  document.body.classList.remove('wide');
   var s = secrets.filter(function(x){return x.id===id;})[0]; if(!s){ viewSecrets(); return; }
   var nav = '<div class="backbar"><span class="btn" onclick="history.back()">← Back</span><span></span></div>';
   app.innerHTML = nav + '<div id="reader"><div class="chapkicker">Secrets</div>'+ mdToHtml(s.md) + '</div>' + nav;
   window.scrollTo(0,0);
 }
-function openCh(id){
-  var c = chapters.filter(function(x){return x.id===id;})[0]; if(!c) return;
-  location.hash = '#/read/'+id;
+/* ---------- Timeline ----------
+   The crusade's days in a single stack: the kept journal to the left of each day, and the
+   chapters drawn as blocks that enclose the days they cover. A day held by more than one
+   chapter is divided between their blocks in reading order — so a block can be a fraction
+   of a day, and a day can begin in one chapter and end in the next. */
+function ordSuffix(n){
+  var t = n % 100; if(t>=11 && t<=13) return 'th';
+  return ['th','st','nd','rd'][n%10>3 ? 0 : n%10];
 }
+function ordToDate(ord){
+  var y = CAL.year, doy = ord;
+  while(doy > 365){ doy -= 365; y++; }
+  for(var i=0;i<CAL.lens.length;i++){
+    if(doy <= CAL.lens[i]) return {d:doy, month:CAL.months[i], y:y};
+    doy -= CAL.lens[i];
+  }
+  return {d:doy, month:'', y:y};
+}
+function ordWeekday(ord){
+  var n = CAL.weekdays.length;
+  return CAL.weekdays[(((ord - CAL.wdOrd + CAL.wdIdx) % n) + n) % n];
+}
+
+var TL = null;   /* the built model, kept so a resize can re-place the blocks */
+
+function viewTimeline(){
+  setTab('timeline');
+  var live = chapters.filter(function(c){ return c.inFrom; });
+  if(!CAL || !live.length){
+    TL = null;
+    app.innerHTML = '<div class="hint">The timeline needs the in-world calendar. '
+      + 'Rebuild <code>data.js</code> with <code>build.ps1</code>.</div>';
+    window.scrollTo(0,0); return;
+  }
+  var first = live[0].inFrom, last = first;
+  live.forEach(function(c){ if(c.inFrom<first) first=c.inFrom; if(c.inTo>last) last=c.inTo; });
+
+  var jmap = {};
+  JOURNAL.forEach(function(j){ jmap[j.ord] = jmap[j.ord] ? jmap[j.ord]+' '+j.md : j.md; });
+
+  /* which chapters hold each day, in reading order */
+  var owners = [], o;
+  for(o=first;o<=last;o++){
+    owners.push(live.filter(function(c){ return c.inFrom<=o && c.inTo>=o; }));
+  }
+
+  var rows = '', prevMonth = '';
+  for(o=first;o<=last;o++){
+    var dt = ordToDate(o), jr = jmap[o] || '';
+    var held = owners[o-first].length;
+    var cls = 'tl-row' + (jr ? '' : ' quiet')
+      + (prevMonth && dt.month!==prevMonth ? ' newmonth' : '')
+      + (held>1 ? ' shared' : '');
+    /* a day divided among several chapters is given room for each of them */
+    rows += '<div class="'+cls+'" id="tld'+(o-first)+'" style="min-height:'+(2.8*held).toFixed(2)+'rem">'
+      + '<div class="tl-j">'+(jr ? inline(jr) : '')+'</div>'
+      + '<div class="tl-day"><span class="dn">'+dt.d+ordSuffix(dt.d)+'</span>'
+      + '<span class="dm">'+esc(dt.month)+'</span>'
+      + '<span class="dw">'+esc(ordWeekday(o))+'</span></div></div>';
+    prevMonth = dt.month;
+  }
+
+  var blocks = '';
+  live.forEach(function(c,i){
+    var bk = c.book==='III' ? 'b3' : (c.book==='II' ? 'b2' : 'b1');
+    var nu = c.isEpilogue ? 'Epilogue' : ('Ch. '+c.num);
+    blocks += '<a class="tl-ch '+bk+(c.inApprox?' approx':'')+'" id="tlc'+i+'"'
+      + ' href="#/read/'+c.id+'"'
+      + ' title="'+esc(c.bookTitle+' · '+c.label+' — '+c.title)+'"'
+      + '><span class="lab"><span class="nu">'+esc(nu)+'</span>'
+      + '<span class="ti">'+esc(c.title)+'</span></span></a>';
+  });
+
+  app.innerHTML = '<div class="hint">The crusade day by day — '+(last-first+1)+' days of '
+    + esc(String(CAL.year))+' AR, from Armasse in Kenabres to the Ivory Sanctum. The journal kept '
+    + 'at the table runs down the left; each chapter is the block enclosing the days it covers, '
+    + 'and a day carrying more than one chapter is divided between them. Tap a block to read it.</div>'
+    + '<div class="tl-legend"><span><i class="b1"></i>Book I</span><span><i class="b2"></i>Book II</span>'
+    + '<span><i class="b3"></i>Book III</span>'
+    + '<span><i class="ap"></i>days the log never kept, placed from the chronicle</span></div>'
+    + '<div class="tl" id="tl"><div class="tl-blocks" id="tlblocks">'+blocks+'</div>'
+    + '<div class="tl-rows">'+rows+'</div></div>';
+
+  TL = {first:first, last:last, live:live, owners:owners};
+  layoutTimeline();
+  requestAnimationFrame(layoutTimeline);   /* again once the serif has settled the row heights */
+  window.scrollTo(0,0);
+}
+
+function layoutTimeline(){
+  if(!TL) return;
+  var tl = document.getElementById('tl'); if(!tl) return;
+  var base = tl.getBoundingClientRect();
+  var n = TL.last - TL.first + 1, tops = [], hts = [], i, r;
+  for(i=0;i<n;i++){
+    r = document.getElementById('tld'+i).getBoundingClientRect();
+    tops[i] = r.top - base.top; hts[i] = r.height;
+  }
+  /* a block encloses the day column — or, stacked narrow, the whole row — plus its label strip */
+  var row0 = document.getElementById('tld0').getBoundingClientRect();
+  var day0 = document.querySelector('#tld0 .tl-day').getBoundingClientRect();
+  var box = (day0.width > row0.width - 4) ? row0 : day0;
+  var left = box.left - base.left - 11;
+  var width = (base.right - base.left) - left;   /* out to the label column's far edge */
+
+  TL.live.forEach(function(c,ci){
+    var el = document.getElementById('tlc'+ci); if(!el) return;
+    var i0 = c.inFrom - TL.first, i1 = c.inTo - TL.first;
+    var o0 = TL.owners[i0], o1 = TL.owners[i1];
+    var top = tops[i0] + hts[i0] * (o0.indexOf(c) / o0.length);
+    var bot = tops[i1] + hts[i1] * ((o1.indexOf(c) + 1) / o1.length);
+    var h = Math.max(7, bot-top-3);
+    el.classList.toggle('tiny', h < 34);
+    el.style.left = left+'px';  el.style.width = width+'px';
+    el.style.top = (top + 1.5)+'px';  el.style.height = h+'px';
+  });
+}
+var tlTimer;
+window.addEventListener('resize', function(){
+  clearTimeout(tlTimer); tlTimer = setTimeout(layoutTimeline, 80);
+});
+
 function viewReader(id){
+  document.body.classList.remove('wide');
   var c = chapters.filter(function(x){return x.id===id;})[0]; if(!c){ viewContents(); return; }
   OPEN_BOOKS[c.book] = true;
   var idx = chapters.indexOf(c);
@@ -436,8 +637,9 @@ function viewReader(id){
 }
 
 function search(query){
+  document.body.classList.remove('wide');
   var terms = query.toLowerCase().split(/\s+/).filter(function(t){return t.length>1;});
-  if(!terms.length){ var av=(document.querySelector('.tab.active')||{dataset:{}}).dataset.view; if(av==='cast'){viewCast();}else if(av==='secrets'){viewSecrets();}else{viewContents();} return; }
+  if(!terms.length){ showActiveTab(); return; }
   var corpus = chapters.map(function(c){return {kind:'chapter',o:c};}).concat(secrets.map(function(s){return {kind:'secret',o:s};}));
   var res=[];
   corpus.forEach(function(e){
@@ -455,9 +657,9 @@ function search(query){
     var start=Math.max(0,pos-90), snip=o.text.slice(start, start+240);
     if(start>0) snip='…'+snip; snip=snip+'…';
     snip = esc(snip).replace(rx,'<mark>$1</mark>');
-    var open = isSec ? ('openSecret(\''+o.id+'\')') : ('openCh(\''+o.id+'\')');
+    var href = (isSec ? '#/secret/' : '#/read/') + o.id;
     var tag = isSec ? 'Secret' : ('Book '+esc(o.book)+' · '+esc(o.label));
-    html += '<div class="entry"><span class="ttl"><span class="t" onclick="'+open+'">'+esc(o.title)+'</span>'
+    html += '<div class="entry"><span class="ttl"><a class="t" href="'+href+'">'+esc(o.title)+'</a>'
       + '<div class="snip">'+snip+'</div></span>'
       + '<span class="d">'+tag+'</span></div>';
   });
@@ -465,13 +667,20 @@ function search(query){
 }
 
 /* ---------- routing & events ---------- */
+function showActiveTab(){
+  var t = document.querySelector('.tab.active');
+  var v = t ? t.dataset.view : 'contents';
+  if(v==='cast') viewCast();
+  else if(v==='secrets') viewSecrets();
+  else if(v==='timeline') viewTimeline();
+  else viewContents();
+}
 function route(){
   var h = location.hash;
   if(h.indexOf('#/secret/')===0){ viewSecretReader(h.slice(9)); return; }
   if(h.indexOf('#/read/')===0){ viewReader(h.slice(7)); return; }
   if(qEl.value.trim()){ search(qEl.value.trim()); return; }
-  var v = (document.querySelector('.tab.active')||{}).dataset ? document.querySelector('.tab.active').dataset.view : 'contents';
-  if(v==='cast') viewCast(); else if(v==='secrets') viewSecrets(); else viewContents();
+  showActiveTab();
 }
 document.querySelectorAll('.tab').forEach(function(t){
   t.addEventListener('click', function(){ qEl.value=''; if(location.hash.indexOf('#/')===0) location.hash=''; setTab(t.dataset.view); route(); });

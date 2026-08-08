@@ -4,6 +4,8 @@
 
 ## **The Gathering in the Dark**
 
+<!-- inworld: 16 Arodus 4713 -->
+
 <!-- fathom: 165703544 -->
 
 *October 17, 2024 session — the caverns beneath **Kenabres**, in the first hours after the demon-fall*
@@ -56,6 +58,8 @@ So the first night beneath **Kenabres** passed without further terror, in a hous
 
 ## **Beneath the Wounded City**
 
+<!-- inworld: approx 17 Arodus 4713 -->
+
 <!-- fathom: 178009368 -->
 
 *November 8, 2024 session — the lightless tunnels beneath Kenabres, in the days after the city's fall*
@@ -99,6 +103,8 @@ In a round cavern choked with a hostile, spore-belching fungus, fire and oil cle
 *— Session of November 8, 2024 —*
 
 ## **The Children of the First Crusade**
+
+<!-- inworld: approx 17 Arodus 4713 to 18 Arodus 4713 -->
 
 <!-- fathom: 186092746 -->
 
@@ -150,6 +156,8 @@ At last two shafts descended into deeper dark — one plunging forty feet to rus
 
 ## **The Dimmed Blade and the Burning Sky**
 
+<!-- inworld: approx 18 Arodus 4713 to 19 Arodus 4713 -->
+
 <!-- fathom: 194019062 -->
 
 *December 7, 2024 session — beneath and above the stricken city of Kenabres*
@@ -198,6 +206,8 @@ At last, past an hour of clawing through wreckage, they reached the manor of **H
 
 ## **The Long Road to the House of Tirabade**
 
+<!-- inworld: approx 20 Arodus 4713 -->
+
 <!-- fathom: 201534049 -->
 
 *December 21, 2024 session — the ruin of **Kenabres**, in the days after the demon assault, as the company crosses the shattered city*
@@ -233,6 +243,8 @@ The dead man wore no true armor, only spellcraft and cunning. Upon him they foun
 *— Session of December 21, 2024 —*
 
 ## **The Kindling of Radiance**
+
+<!-- inworld: approx 20 Arodus 4713 to 21 Arodus 4713 -->
 
 <!-- fathom: 205551629 -->
 
@@ -283,6 +295,8 @@ Something in each of them had quietly deepened along that hard road, tempered by
 *— Session of January 4, 2025 —*
 
 ## **The Broken Black Wing**
+
+<!-- inworld: approx 21 Arodus 4713 to 22 Arodus 4713 -->
 
 <!-- fathom: 215319354 -->
 
@@ -338,6 +352,8 @@ At the barricades of **Defender's Heart** the watchword was given and the gates 
 
 ## **Merely a Prelude**
 
+<!-- inworld: approx 22 Arodus 4713 -->
+
 <!-- fathom: 223129507 -->
 
 *January 31, 2025 session — the Defender's Heart and the cultist safehouses of fallen Kenabres*
@@ -379,6 +395,8 @@ The apothecary's shelves proved false, their jars glued fast to hide a secret do
 *— Session of January 31, 2025 —*
 
 ## **The Gaze Upon the Gray Garrison**
+
+<!-- inworld: approx 22 Arodus 4713 to 23 Arodus 4713 -->
 
 <!-- fathom: 234064236 -->
 
@@ -430,6 +448,8 @@ The last chamber had been a museum, now smashed to splinters, where two headless
 
 ## **In This Solemn Hour**
 
+<!-- inworld: 23 Arodus 4713 -->
+
 <!-- fathom: 242607886 -->
 
 *February 28, 2025 session — the storming of the **Gray Garrison**, deep within occupied **Kenabres***
@@ -479,6 +499,8 @@ Varic's channeled light washed the weariness from the company, and they took sto
 *— Session of February 28, 2025 —*
 
 ## **The Breaking of the Wardstone**
+
+<!-- inworld: 23 Arodus 4713 -->
 
 *March 15, 2025 session — the upper **Gray Garrison**, and the shattering of the last **Wardstone***
 
@@ -545,6 +567,8 @@ But it did not drain entirely. Something had woken in the four of them that woul
 *— Session of March 15, 2025 —*
 
 ## **The Light That Would Not Fade**
+
+<!-- inworld: 23 Arodus 4713 to 24 Arodus 4713 -->
 
 <!-- epilogue -->
 

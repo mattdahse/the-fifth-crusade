@@ -4,6 +4,8 @@
 
 ## **The Waystation at Vineyard Hills**
 
+<!-- inworld: 25 Arodus 4713 -->
+
 <!-- fathom: 274449789 -->
 
 *April 11, 2025 session — the road southeast of Kenabres, in the first days after the city's deliverance*
@@ -47,6 +49,8 @@ Over the spoils a quiet argument rose. Rabiah held that the outpost's coin was n
 *— Session of April 11, 2025 —*
 
 ## **A Queen's Commission**
+
+<!-- inworld: approx 26 Arodus 4713 to 29 Arodus 4713 -->
 
 *April 26, 2025 session — the geomancer's road home to **Kenabres**, and the coming of the sovereign of Mendev*
 
@@ -162,6 +166,8 @@ Neither favor had been offered. Both were granted. They went out through the nor
 
 ## **March of the Redeemers**
 
+<!-- inworld: 30 Arodus 4713 -->
+
 *April 26, 2025 session — the camps beyond Kenabres's northern wall, a hard bargain in a nobleman's counting-house, and the road north*
 
 ### **Rabiah's Redeemers**
@@ -236,6 +242,8 @@ They made their first camp with **Kenabres** behind them and above them, and the
 
 ## **The Battle of Vilareth Ford**
 
+<!-- inworld: approx 31 Arodus 4713 to 1 Rova 4713 -->
+
 *April 26, 2025 session — the northernmost crossing of the **West Sellen**, a gaol emptied, and a river that divided two worlds*
 
 ### **The Ford Taken**
@@ -269,6 +277,8 @@ From the heights **Lupenor** had marked a thing that unsettled even her elven ca
 *— Session of April 26, 2025 —*
 
 ## **The Battle of Keeper's Canyon**
+
+<!-- inworld: 2 Rova 4713 to 3 Rova 4713 -->
 
 <!-- fathom: 297872089 -->
 
@@ -364,6 +374,8 @@ And not one of them thought to ask, that night, who had put three vials of a dem
 
 ## **The Lost Chapel**
 
+<!-- inworld: 4 Rova 4713 to 5 Rova 4713 -->
+
 <!-- fathom: 297872089 -->
 
 <!-- date: May 10, 2025 -->
@@ -450,6 +462,8 @@ The courtyard itself was the trap they had not read. Stunted trees and strangled
 
 ## **The Nest**
 
+<!-- inworld: 5 Rova 4713 to 6 Rova 4713 -->
+
 <!-- date: June 21, 2025 -->
 
 *June 21, 2025 session — a chapel given back to the light, a crusade's faith shored up on a column of cloud, and the queen laying beneath the canyon*
@@ -516,6 +530,8 @@ They burned the queen's body, climbed the rope back into the jaundiced daylight,
 
 ## **The Liberation of Drezen City**
 
+<!-- inworld: 6 Rova 4713 to 7 Rova 4713 -->
+
 <!-- fathom: 343836789 -->
 
 *July 4, 2025 session — the storming of Paradise Hill, four battles in a single day for the streets of **Drezen**, and at the last the bridge that was built to fall*
@@ -568,6 +584,8 @@ The triumph did not come clean. Even as they leaned over the war-table, word cam
 
 
 ## **The Silencing of the Catapults**
+
+<!-- inworld: 8 Rova 4713 -->
 
 <!-- fathom: 355809076 -->
 
@@ -677,6 +695,8 @@ It was not hunting the army. It was hunting them.
 
 ## **Stoltengraabe**
 
+<!-- inworld: 8 Rova 4713 -->
+
 <!-- fathom: 382513279 -->
 
 *August 15, 2025 session — the beast above the breach, the breaking of three armies, and the courtyard of Citadel Drezen taken at last*
@@ -755,6 +775,8 @@ They stood in the wreckage among the broken guardians and looked at the passage 
 
 ## **The False Goddess**
 
+<!-- inworld: 9 Rova 4713 -->
+
 *September 13, 2025 session — through the sally port into Citadel Drezen: the murder hall, the weeping berserker, and a demon wearing Iomedae's face*
 
 ### **The Murder Hall**
@@ -791,6 +813,8 @@ When it was done, **Harlock** and **Varic** knelt and cleansed the chapel with p
 *— Session of September 13, 2025 —*
 
 ## **The Citadel's Gauntlet**
+
+<!-- inworld: 9 Rova 4713 -->
 
 <!-- fathom: 423214214 -->
 
@@ -837,6 +861,8 @@ The day's last door gave onto a room choked with sulfur-smoke that stung the eye
 *— Session of September 26, 2025 —*
 
 ## **A Face Out of Kenabres**
+
+<!-- inworld: 10 Rova 4713 -->
 
 <!-- fathom: 438834731 -->
 
@@ -928,6 +954,8 @@ And there, with the succubus dead on the floor between them and the bard finally
 
 ## **Corridors of Deceit**
 
+<!-- inworld: 10 Rova 4713 to 11 Rova 4713 -->
+
 *October 25, 2025 session — the bard's confession and the judgment upon him, and the deeper rooms of Citadel Drezen*
 
 ### **The Traitor's Tale**
@@ -993,6 +1021,8 @@ Suddenly — the door to the next room burst open.
 *— Session of October 25, 2025 —*
 
 ## **The Fall of Staunton Vhane**
+
+<!-- inworld: 11 Rova 4713 to 12 Rova 4713 -->
 
 <!-- fathom: 468815144 -->
 
@@ -1095,6 +1125,8 @@ Whether every soul the glaive had eaten went free at the end of it, none of them
 *— Session of November 7, 2025 —*
 
 ## **Into the Dungeons Beneath Drezen**
+
+<!-- inworld: 12 Rova 4713 -->
 
 <!-- fathom: 490590311 -->
 
@@ -1241,6 +1273,8 @@ Nobody took him up on it. **Harlock** could still feel his prayers going out int
 *— Session of November 29, 2025 —*
 
 ## **The Ritual Chamber**
+
+<!-- inworld: 12 Rova 4713 to 13 Rova 4713 -->
 
 <!-- fathom: 506425868 -->
 
@@ -1391,6 +1425,8 @@ But for now, the company had won a crucial victory. The mage conducting the ritu
 *— Session of December 12, 2025 —*
 
 ## **The Sword of Valor Reclaimed**
+
+<!-- inworld: 13 Rova 4713 -->
 
 <!-- fathom: 513922584 -->
 
@@ -1631,6 +1667,8 @@ Not quite four weeks.
 *— Session of December 20, 2025 —*
 
 ## **The Rebuilding of Drezen**
+
+<!-- inworld: 14 Rova 4713 to 11 Lamashan 4713 -->
 
 <!-- epilogue -->
 

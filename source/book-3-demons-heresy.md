@@ -4,6 +4,8 @@
 
 ## **The Teeth of the Worldwound**
 
+<!-- inworld: 12 Lamashan 4713 to 15 Lamashan 4713 -->
+
 <!-- fathom: 536080480 -->
 
 *16 January 2026 session — 12th of Lamashan, 4713 AR*
@@ -151,6 +153,8 @@ The battle was far from over. But the Redeemers had come to redeem.
 *— Session of January 16th, 2026 —*
 
 ## **The Fane Remade**
+
+<!-- inworld: 16 Lamashan 4713 to 17 Lamashan 4713 -->
 
 <!-- fathom: 560152788 -->
 
@@ -303,6 +307,8 @@ So they stayed. Nine of them, in a house of ***Sarenrae*** two hard days from **
 *— Session of February 6th, 2026 —*
 
 ## **The Homeward Trail**
+
+<!-- inworld: 17 Lamashan 4713 to 20 Lamashan 4713 -->
 
 <!-- fathom: 568159356 -->
 
@@ -503,6 +509,8 @@ For now.
 *— Session of February 13th, 2026 —*
 
 ## **The Stag King's Bride**
+
+<!-- inworld: 21 Lamashan 4713 to 27 Lamashan 4713 -->
 
 <!-- fathom: 584676973 -->
 
@@ -846,6 +854,8 @@ On the morning of the twenty-seventh of Lamashan, the gates of **Drezen** opened
 
 ## **A Gathering of Storms**
 
+<!-- inworld: 27 Lamashan 4713 to 29 Lamashan 4713 -->
+
 <!-- fathom: 601424518 -->
 
 *14 March 2026 session — 27th through 29th of Lamashan, 4713 AR*
@@ -1048,6 +1058,8 @@ The Worldwound watched them go. It was not finished with them yet.
 
 ## **The Door and the Dream**
 
+<!-- inworld: 30 Lamashan 4713 to 6 Neth 4713 -->
+
 <!-- fathom: 616792241 -->
 
 *28 March 2026 session — 30th of Lamashan through 6th of Neth, 4713 AR*
@@ -1084,6 +1096,8 @@ There were no bodies. That was the first thing **Varic** noted. No corpses to ex
 
 **Chyrrik:** *Dragon. A big one, and no youngster. The burns are acid — so a black, or something near enough to one.*
 
+![So our new neighbor is a dragon. Got it.](images/what-the-dragon-left.webp)
+
 The armor fragments confirmed what they had suspected: these were the same cultist templars — or a group very like them — that the party had observed riding their giant lizard mounts during their previous expedition to this region. The tracks matched. Even with the recent rain, the prints of the massive lizards were deep enough to read clearly.
 
 There was nothing to salvage. No satchels, no documents, no intelligence worth carrying back. The dragon had been thorough. **Varic** suggested they move on to the escaped mount — if it still carried saddlebags, there might be something worth recovering there.
@@ -1117,6 +1131,8 @@ Meanwhile, the caravan continued west. About an hour ahead of where the scouting
 **Lupenor** handed **Cornelia** her wand of ***Cure Light Wounds***. The druid had two small healing prayers of her own and nothing else, which would not have covered one wounded man, let alone a hunting party. She pocketed the wand, shifted back into her hawk, and flew ahead to render aid.
 
 By the time **Varic**'s group caught up on foot, everyone was on their feet and in excellent spirits. **Cornelia** had spent the wand freely and without asking anyone's leave — half of what she drew out of it went into **Jeskar**, who had been gored badly when the lizard charged him, and the rest across the other hunters. The beast itself was a Worldwound-contaminated monitor lizard easily the size of a horse, muscular and mean, and the hunters had killed it through sheer persistence: peppered it with arrows while **Jeskar** served as the living distraction, drawing its charges and taking the hits until the others could bring it down.
+
+![One sacred hunt. Check](images/one-sacred-hunt.webp)
 
 **Jeskar** was beaming. He recounted the hunt in breathless, overlapping detail with his hunters, each correcting the other on who had shot which arrow and who had screamed the loudest. The lizard had been saddled — one of the cultist mounts — with the upper half of its rider still strapped in and flailing, which explained the blood trail. The saddlebags had been mostly empty: dry rations, an unholy symbol of ***Baphomet*** that they left where it fell, and a messenger case containing a scroll.
 
@@ -1176,6 +1192,8 @@ What followed was a clinic in the focused application of divine violence.
 
 **Chyrrik** added cold iron that punched through hide the plain shafts had been bouncing off. **Varic** reached out with a bare hand and pressed a healing prayer into the withered bodak's chest — which, to a dead thing, is not healing at all, but a handprint of cinders spreading outward across the torso like parchment burning from the middle. Both clerics loosed waves of consecrated force after that, pulse on pulse of it, scouring the bodaks down to bone and rage. The one **Rabiah** had opened and **Lupenor** had been working on all fight went down to a last pair of arrows and did not get up: the first of the four off the board, and hers.
 
+![Varic delivers some of Sarenrae's tough love.](images/the-handprint-of-cinders.webp)
+
 Then **Harlock** broke the rest of them. He called his smite without breaking stride, stepped into the middle of the three that were left, and swung. ***Radiance*** blazed white-gold and carried from body to body as though the gaps between them were not there — the brittle-smirked one taking the smite full in the chest, the huge one and the withered one caught on the follow-through. The withered one folded where it stood. Then **Harlock** reached deep once more and put ***Radiance*** through the brittle smirk, and the expression was finally wiped clean.
 
 That left the huge one, still upright against all reason and all arithmetic — until **Rabiah**, because she was **Rabiah**, put five ***Mythic Magic Missiles*** into it, each one trailing light across the thicket. It was dead well before the last of them arrived. The rest were for emphasis.
@@ -1195,6 +1213,8 @@ They began the descent on the first of Neth. From the height they could see the 
 This was not ordinary lightning. The bolts carried a bluish tint and detonated on impact in tremendous explosions of fire, knocking over what few trees survived in this desolation. It was a plasma storm — electricity and fire married in the crucible of the Worldwound's corrupted atmosphere — and it was getting closer.
 
 **Varic** wrapped **Rabiah** in ***Protection from Energy*** against the fire, reaching deep so that the ward would swallow far more than the sky could reasonably throw at one girl, and she layered ***Resist Energy*** against the lightning over the top of it. Then **Rabiah** stood out in the open and reached deep three times for ***Secure Shelters*** while the storm tried its best. Ten minutes a casting. Three castings. Half an hour of standing in a firestorm carefully enunciating the words of a spell that will not forgive being interrupted.
+
+![Rabiah does her best work under pressure](images/the-cottage-out-of-the-air.webp)
 
 The shelters went up. The followers went inside. The horses were stabled. And then the party turned to the cave entrance and discovered they were not the first to visit since their last departure.
 
@@ -1326,6 +1346,8 @@ They would reach it. Or die in the attempt. Welcome to adventuring.
 
 ## **Where the Fire Began**
 
+<!-- inworld: 6 Neth 4713 to 9 Neth 4713 -->
+
 <!-- fathom: 633810405 -->
 
 *10 April 2026 session — 6th through 9th of Neth, 4713 AR*
@@ -1437,6 +1459,8 @@ Evening came. **Rabiah** raised three ***Secure Shelters*** — one for the hors
 *— Session of April 10th, 2026 —*
 
 ## **The Bird in the Hand**
+
+<!-- inworld: 10 Neth 4713 -->
 
 <!-- fathom: 650843307 -->
 
@@ -1560,6 +1584,8 @@ The company shouldered their packs, and walked on.
 
 ## **The Beacon and the Wyrm**
 
+<!-- inworld: 11 Neth 4713 to 13 Neth 4713 -->
+
 <!-- fathom: 667972898 -->
 
 *9 May 2026 session — 11th through 13th of Neth, 4713 AR*
@@ -1632,6 +1658,8 @@ And there, beneath the roof of the Dawnflower's hidden shrine — the wyrm somew
 
 ## **The Knight in Obsidian**
 
+<!-- inworld: 13 Neth 4713 to 15 Neth 4713 -->
+
 <!-- fathom: 684541862 -->
 
 *22 May 2026 session — 13th through 15th of Neth, 4713 AR*
@@ -1700,6 +1728,8 @@ There was one last spell **Rabiah** meant to spend before they slept. She gather
 
 ## **The Bait and the Mirror**
 
+<!-- inworld: 15 Neth 4713 to 18 Neth 4713 -->
+
 <!-- fathom: 701608077 -->
 
 *6 June 2026 session — The Gray Road, 18th of Neth, 4713 AR*
@@ -1761,6 +1791,8 @@ But the road still ran west, and **Arueshalae** still waited at **Takira's Redou
 *— Session of June 6th, 2026 —*
 
 ## **The Gates of the Redoubt**
+
+<!-- inworld: 19 Neth 4713 -->
 
 <!-- fathom: 718333386 -->
 
@@ -1836,6 +1868,8 @@ The way into **Takira's Redoubt** stands open. The company holds nothing yet but
 
 ## **The False Arueshalae**
 
+<!-- inworld: 19 Neth 4713 -->
+
 <!-- fathom: 734953039 -->
 
 *4 July 2026 session — Takira's Redoubt, 19th of Neth, 4713 AR (continued)*
@@ -1905,6 +1939,8 @@ They had come to **Takira's Redoubt** to reach **Arueshalae** before her hunters
 *— Session of July 4th, 2026 —*
 
 ## **The Bell of Mercy**
+
+<!-- inworld: 19 Neth 4713 to 24 Neth 4713 -->
 
 <!-- fathom: 752135749 -->
 
@@ -1997,6 +2033,8 @@ That left the matter of **Lupenor**. **Varic** remembered the old cure — that 
 *— Session of July 18th, 2026 —*
 
 ## **The Jailer's Ring**
+
+<!-- inworld: 24 Neth 4713 to 25 Neth 4713 -->
 
 <!-- fathom: 169318901 -->
 

@@ -8,8 +8,14 @@ record rendered into the chronicle's voice; the untouched extraction lives besid
 never be hand-edited. Regenerate the JSON with `pwsh -File ./extract-calendar.ps1` from the repo
 root, then write any new days into this file by hand.
 
-**Not published.** This is authoring reference — it is not wired into `build.ps1`, `data.js`, or
-the site. It exists so that chapters can be checked against the dates the table actually kept.
+**Published.** `build.ps1` reads the month sections below into `window.JOURNAL`, and the site's
+**Timeline** tab shows each day's entry beside the chapters that cover it. Everything after the
+horizontal rule — the silent days and the open discrepancies — stays authoring matter and is not
+read by the build. So this file is both the reference chapters are checked against *and* the text
+the Timeline displays: write it in the chronicle's voice, and keep it accurate.
+
+A chapter's place on that Timeline comes from its own `<!-- inworld: … -->` marker in `source/`,
+not from this file. When a chapter's dates change, change both.
 
 The campaign runs **16th Arodus** — Armasse, the day Kenabres fell — through **25th Neth**, the
 assault on the Ivory Sanctum: **101 days**, of which 65 carry a log entry.
