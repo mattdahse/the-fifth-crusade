@@ -528,6 +528,8 @@ The plan had failed. Hunters had found the first cadre and destroyed eight of th
 
 **Cornelia:** *As far as I know, you're the only one left. There's only two of us. I don't know what that means. I don't even know what powers we might have that the others didn't.*
 
+![It was a lot to take in.](images/a-lot-to-take-in.webp)
+
 Nine was only what they had been told. It might have been more. Nobody who had performed the ritual had survived to be asked, and what knowledge remained had come down secondhand, through people who shared fragments of it with people who shared fragments of it, until the thread was thin enough to break.
 
 The thing that had hunted them was still out there. It wandered the Marchlands in the shape of a person, but up close it was something else entirely — a creature called a **Wormwalker**, made of writhing, segmented things, hollow inside and relentless. It rarely traveled alone. It had been known to recruit other beings to its cause, corrupting them, turning them into extensions of its search.

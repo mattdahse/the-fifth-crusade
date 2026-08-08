@@ -189,6 +189,38 @@ and was rebuilt before it ever rendered.)* *Avoid:* `a roadside inn, a tavern, a
 room, rough plaster or timber-framed walls, wooden bowls, clay or earthenware jugs, tin cups, a
 gilded palace, gold leaf, marble, stained glass, silk tapestries`.
 
+The compound of **Rabiah's Redeemers** on **PARADISE HILL** in **Drezen**
+([`a-lot-to-take-in`](../images/a-lot-to-take-in.webp), Book III Ch. IV): after the liberation each of the
+four raised a stronghold on Paradise Hill, and Rabiah's is a ramshackle mini-district of art and culture
+where her followers live and work. **It was built by sixty enthusiastic amateurs with no plan and no
+authority, and every room shows it** — mismatched salvaged timber plank walls that do not meet square,
+crooked ceilings of reused beams sitting at **two different heights** where two builders met in the middle,
+doorways with no doors, holes knocked through plank walls into the next room, windows set where windows
+have no business being. Nothing is plumb, nothing matches, and the place looks **grown rather than built**.
+*The follower account [`follower-tam-redeemers`](../secrets/follower-tam-redeemers.md) is the authority on
+its interior logic — the kitchen with three roof heights, the two rooms with a hole knocked between them,
+"Tuesday's mistake", the courtyard they created by accident building in a circle.* **Rabiah's own chamber**
+lays a second coat over that raw carpentry: **luxury as poor people imagine luxury — never the sober,
+tasteful luxury of inherited wealth.** Cheap dyed silks and painted cloth nailed straight onto bare planks
+in clashing reds, purples and greens; soft wood painted with gilt rather than truly gilded; a low bed
+heaped with far too many mismatched cushions; tassels, a scrap of carpet on bare boards, a mirror of poor
+wavy glass, strings of coloured beads. Every flat surface is crowded with **odd gifts from her followers
+that she cannot refuse or throw away without hurting somebody's feelings** — carved wooden figures of her,
+a clumsy painted portrait hung crooked, painted tiles, clay animals, an amateur bust — all honest,
+well-meant and slightly wrong. **Light it with ONE small oil lamp at night**, so the colour sinks into
+brown-black shadow and glints only at the edges: the room reads gaudy while the picture stays muted.
+*(Matt's direction, Aug 2026.)* *Avoid:* `a stone cell, stone walls, masonry, a barracks, a tent, a tidy or
+well-built room, square plumb carpentry, a tasteful or elegant aristocratic interior, marble, gold leaf, a
+palace, a bright cheerful colourful image`.
+
+**The other three strongholds on Paradise Hill are not yet illustrated**, and each has a follower account
+that should be read before one is: **Varic**'s modest **Temple of Sarenrae**
+([`follower-dawns-fire-temple`](../secrets/follower-dawns-fire-temple.md)), **Harlock**'s garrison of
+**Iomedae's Preservers** ([`follower-aldwin-brightblade-preservers`](../secrets/follower-aldwin-brightblade-preservers.md)),
+and **Lupenor**'s trading house, the **Celest House**, sited closer to the citadel where commerce flows
+([`follower-silas-thorne-market`](../secrets/follower-silas-thorne-market.md)). Book II's *Paradise Hill*
+section describes what each was built to be.
+
 Locations with an established look so far: the **Corruption Forge**
 ([`the-cage-over-the-forge`](../images/the-cage-over-the-forge.webp), and
 [`the-ice-that-would-not-lie`](../images/the-ice-that-would-not-lie.webp) for its floor and its salamanders) and
