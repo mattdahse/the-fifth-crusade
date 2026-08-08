@@ -1082,7 +1082,7 @@ There were no bodies. That was the first thing **Varic** noted. No corpses to ex
 
 **Chyrrik** moved through the debris with professional detachment, reading the signs the way a scholar reads text. The angle of the claw marks. The pattern of the bite impressions. The characteristic pitting of the stone.
 
-**Chyrrik:** *Dragon. A big one. Not a baby. The acid damage is consistent with a black or something close to it.*
+**Chyrrik:** *Dragon. A big one, and no youngster. The burns are acid — so a black, or something near enough to one.*
 
 The armor fragments confirmed what they had suspected: these were the same cultist templars — or a group very like them — that the party had observed riding their giant lizard mounts during their previous expedition to this region. The tracks matched. Even with the recent rain, the prints of the massive lizards were deep enough to read clearly.
 
@@ -1114,9 +1114,9 @@ Meanwhile, the caravan continued west. About an hour ahead of where the scouting
 
 **Cornelia:** *Most of them made it. They're trying to drag this enormous lizard back. It's huge. But one of them needs healing, if not a resurrection. I couldn't tell who.*
 
-**Lupenor** handed **Cornelia** her wand of ***Cure Light Wounds*** — the druid had one prepared cure of each grade and nothing else to give. She pocketed the wand, shifted back into her hawk, and flew ahead to render aid.
+**Lupenor** handed **Cornelia** her wand of ***Cure Light Wounds***. The druid had two small healing prayers of her own and nothing else, which would not have covered one wounded man, let alone a hunting party. She pocketed the wand, shifted back into her hawk, and flew ahead to render aid.
 
-By the time **Varic**'s group caught up on foot, everyone was on their feet and in excellent spirits. **Cornelia** had burned ten charges from the wand — five on **Jeskar**, who had been gored badly when the lizard charged him, and the rest spread across the other hunters' wounds. The beast itself was a Worldwound-contaminated monitor lizard easily the size of a horse, muscular and mean, and the hunters had killed it through sheer persistence: peppered it with arrows while **Jeskar** served as the living distraction, drawing its charges and taking the hits until the others could bring it down.
+By the time **Varic**'s group caught up on foot, everyone was on their feet and in excellent spirits. **Cornelia** had spent the wand freely and without asking anyone's leave — half of what she drew out of it went into **Jeskar**, who had been gored badly when the lizard charged him, and the rest across the other hunters. The beast itself was a Worldwound-contaminated monitor lizard easily the size of a horse, muscular and mean, and the hunters had killed it through sheer persistence: peppered it with arrows while **Jeskar** served as the living distraction, drawing its charges and taking the hits until the others could bring it down.
 
 **Jeskar** was beaming. He recounted the hunt in breathless, overlapping detail with his hunters, each correcting the other on who had shot which arrow and who had screamed the loudest. The lizard had been saddled — one of the cultist mounts — with the upper half of its rider still strapped in and flailing, which explained the blood trail. The saddlebags had been mostly empty: dry rations, an unholy symbol of ***Baphomet*** that they left where it fell, and a messenger case containing a scroll.
 
@@ -1158,7 +1158,7 @@ By morning, three to four inches of dead insects covered the ground. The party s
 
 The day that followed — Oath Day, the 31st of Lamashan — was clear and cold and blessed with an absence of incident that felt almost suspicious. One horse threw a shoe. Some indigestion was reported, almost certainly from the side dishes rather than the lizard meat. **Cornelia** reported seeing a creature on the distant horizon that looked like a dragon but had at least six legs — far too many for any chromatic species. Nobody was eager to investigate. By the end of the day they stood at the cliff's edge with the cave mouth somewhere below them and three or four hours of descent still to go, which was three or four hours more than the light allowed.
 
-So they made camp on the height, and the cold came down with the sun. Not the damp chill of the Marchlands but genuine freezing weather — mountain cold, the kind that killed exposed flesh and cracked iron. **Chyrrik** found them a hollow sheltered from the wind and open to the sky, which was the best that ground had on offer. ***Endure Elements*** covered the party proper: **Varic** took himself and one other, **Harlock** covered himself and **Lupenor**, **Chyrrik** handled herself and **Rabiah**. But the thirteen followers and four horses had no such protection, and the tents and bedrolls were insufficient against temperatures this severe.
+So they made camp on the height, and the cold came down with the sun. Not the damp chill of the Marchlands but genuine freezing weather — mountain cold, the kind that killed exposed flesh and cracked iron. **Chyrrik** found them a hollow sheltered from the wind and open to the sky, which was the best that ground had on offer. ***Endure Elements*** went round the company and stopped there — **Varic** to himself and one other, **Harlock** to himself and **Lupenor**, **Chyrrik** to herself and **Rabiah**. But the thirteen followers and four horses had nothing of the kind, and the tents and bedrolls were insufficient against temperatures this severe.
 
 **Rabiah** reached deep three times over, and three ***Secure Shelters*** rose out of nothing — stone cottages with fireplaces, shuttered windows and iron-grated chimneys, good for a day and a night apiece. One for the horses with a handler or two. Two for the remaining followers, split between the hunters and the rest. The fireplaces, however, needed fuel.
 
@@ -1172,7 +1172,7 @@ The withered bodak moved first, locking its dead eyes onto **Varic** and turning
 
 What followed was a clinic in the focused application of divine violence.
 
-**Varic** opened with ***Mythic Holy Smite***, and the golden burst of it caught all four at once. The largest — a huge thing, built like something that had wrestled for a living before it died — took the worst of it and went blind. The other three came through with less damage and no better sight. **Rothin Vald** followed with ***Searing Light***, which fell on the undead like a shaft of noon sun and was received exactly that badly. **Rabiah**'s ***Scorching Rays*** went into the wounded one, the first lance burning straight through a resistance that should have blunted it. **Lupenor** picked the same creature for her mark and began putting arrows into it, three at a time, and did not pick another one for the rest of the fight.
+**Varic** opened with ***Mythic Holy Smite***, and the golden burst of it caught all four at once. The largest — a huge thing, built like something that had wrestled for a living before it died — took the worst of it and went blind. The other three came through it less badly burned and no better sighted. **Rothin Vald** followed with ***Searing Light***, which fell on the undead like a shaft of noon sun and was received exactly that badly. **Rabiah**'s ***Scorching Rays*** went into the wounded one, the first lance burning through a hide that should have shrugged fire off entirely. **Lupenor** picked the same creature for her mark and began putting arrows into it, three at a time, and did not pick another one for the rest of the fight.
 
 **Chyrrik** added cold iron that punched through hide the plain shafts had been bouncing off. **Varic** reached out with a bare hand and pressed a healing prayer into the withered bodak's chest — which, to a dead thing, is not healing at all, but a handprint of cinders spreading outward across the torso like parchment burning from the middle. Both clerics loosed waves of consecrated force after that, pulse on pulse of it, scouring the bodaks down to bone and rage. The one **Rabiah** had opened and **Lupenor** had been working on all fight went down to a last pair of arrows and did not get up: the first of the four off the board, and hers.
 
@@ -1180,7 +1180,7 @@ Then **Harlock** broke the rest of them. He called his smite without breaking st
 
 That left the huge one, still upright against all reason and all arithmetic — until **Rabiah**, because she was **Rabiah**, put five ***Mythic Magic Missiles*** into it, each one trailing light across the thicket. It was dead well before the last of them arrived. The rest were for emphasis.
 
-Nobody lost anything they would not get back. **Varic** took one glancing blow, the only hit the bodaks managed all told. The company had spent a startling amount of what it had, and had done it over firewood.
+Nobody lost anything they would not get back. **Varic** took one glancing blow, the only one the bodaks landed all told. The company had spent a startling amount of what it had, and had done it over firewood.
 
 **Lupenor:** *That was a lot of firepower for kindling.*
 
@@ -1194,11 +1194,11 @@ They began the descent on the first of Neth. From the height they could see the 
 
 This was not ordinary lightning. The bolts carried a bluish tint and detonated on impact in tremendous explosions of fire, knocking over what few trees survived in this desolation. It was a plasma storm — electricity and fire married in the crucible of the Worldwound's corrupted atmosphere — and it was getting closer.
 
-**Varic** wrapped **Rabiah** in ***Protection from Energy*** against the fire, reaching deep to put a hundred and thirty points of the sky's temper between her and her own skin, and she layered ***Resist Energy*** against the lightning over the top of it. Then **Rabiah** stood out in the open and reached deep three times for ***Secure Shelters*** while the storm tried its best. Ten minutes a casting. Three castings. Half an hour of standing in a firestorm carefully enunciating the words of a spell that will not forgive being interrupted.
+**Varic** wrapped **Rabiah** in ***Protection from Energy*** against the fire, reaching deep so that the ward would swallow far more than the sky could reasonably throw at one girl, and she layered ***Resist Energy*** against the lightning over the top of it. Then **Rabiah** stood out in the open and reached deep three times for ***Secure Shelters*** while the storm tried its best. Ten minutes a casting. Three castings. Half an hour of standing in a firestorm carefully enunciating the words of a spell that will not forgive being interrupted.
 
 The shelters went up. The followers went inside. The horses were stabled. And then the party turned to the cave entrance and discovered they were not the first to visit since their last departure.
 
-Someone had tried to dig out the sealed stairwell. Scratch marks on the ***Wall of Stone*** that **Varic** had conjured months ago — the same claw patterns left by the giant lizard mounts they had been tracking. The cultist riders had come here, found the barrier, set their mounts to digging, and eventually given up when they hit solid magical stone. Then they had departed — and been eaten by a dragon on the way home.
+Someone had tried to dig out the sealed stairwell. Scratch marks on the ***Wall of Stone*** that **Varic** had raised barely a fortnight earlier — the same claw patterns left by the giant lizard mounts they had been tracking. The cultist riders had come here, found the barrier, set their mounts to digging, and eventually given up when they hit solid magical stone. Then they had departed — and been eaten by a dragon on the way home.
 
 The ***Wall of Stone*** had held. That was the important thing.
 
