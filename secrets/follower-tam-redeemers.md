@@ -20,7 +20,7 @@ She laughed. "Camp, live, argue about whose turn it is to cook. I'm Tilda Merrow
 
 The first thing I learned was that there were two types of followers: those who'd been there since Kenabres and those who'd arrived after. The old guard moved through the chaos with practiced ease, like they'd learned to navigate by different stars than the rest of us.
 
-Sir Brannick — who wasn't really a knight but had beautiful handwriting — tried to explain the camp's structure my first evening. We sat around a cooking fire built from three different attempts at a proper hearth.
+Sir Brannic — who wasn't really a knight but had beautiful handwriting — tried to explain the camp's structure my first evening. We sat around a cooking fire built from three different attempts at a proper hearth.
 
 "You see," he said, gesturing at the architectural disaster surrounding us, "Marcus started building a communal kitchen over there. Then Elena decided we needed a covered eating area, so she started building onto it. But she built north while Marcus was building east, so now we have an L-shaped thing that's neither kitchen nor dining hall."
 
@@ -48,7 +48,7 @@ What emerged was... unique. The kitchen had three different ceiling heights beca
 
 A visiting merchant looked at our construction and asked, "What style of architecture is this?"
 
-"Enthusiasm," Brannick replied dryly.
+"Enthusiasm," Brannic replied dryly.
 
 ### Glimpses of Her
 
@@ -82,7 +82,7 @@ She blinked at me, then at the spreading puddle of stew. "Is it supposed to be o
 
 "No! I just — you startled — I'm sorry, Lady Rabiah!"
 
-"Lady?" She looked genuinely confused. "I'm sixteen. Ladies are people who know which fork to use." She paused. "Actually, Brannick knows which fork to use. Maybe he's a lady."
+"Lady?" She looked genuinely confused. "I'm sixteen. Ladies are people who know which fork to use." She paused. "Actually, Brannic knows which fork to use. Maybe he's a lady."
 
 She wandered to the cooking pot, peered inside, and said, "Needs salt." Then she left, having turned my disaster into the most important moment of my life.
 
@@ -96,7 +96,7 @@ We helped everywhere in Drezen. When the temple builders needed extra hands, twe
 
 The paladins next door hated us. Our singing at midnight, our construction at dawn, our general existence at all hours. But even they couldn't deny we got things done. Messily, chaotically, but done.
 
-One evening, Sir Brannick gathered the newer arrivals. "You want to know what she's really like?" he asked. "Rabiah?"
+One evening, Sir Brannic gathered the newer arrivals. "You want to know what she's really like?" he asked. "Rabiah?"
 
 We nodded eagerly.
 
@@ -134,7 +134,7 @@ A month in, and I finally understand. We don't follow Rabiah because she leads u
 
 Our compound looks like it was designed by committee — because it was. By sixty different committees that never met. It has no coherent style, no unified plan, and definitely no structural integrity. But it's ours. Every wonky wall, every impossible angle, every room that shouldn't exist but does.
 
-Tomorrow, more will arrive. They'll come seeking the hero who destroyed the wardstone, and they'll find a sixteen-year-old girl reading while walking into walls. They'll find Tilda keeping us fed, Brannick pretending we're organized, and Cornelia being suspiciously helpful while maintaining her facade of simple devotion.
+Tomorrow, more will arrive. They'll come seeking the hero who destroyed the wardstone, and they'll find a sixteen-year-old girl reading while walking into walls. They'll find Tilda keeping us fed, Brannic pretending we're organized, and Cornelia being suspiciously helpful while maintaining her facade of simple devotion.
 
 They'll find a building that shouldn't stand but does, a community that shouldn't work but does, and a way of life that makes no sense except to those living it.
 
