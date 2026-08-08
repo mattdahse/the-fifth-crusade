@@ -378,6 +378,36 @@ mid-way through the Chapter XVI art — the ceiling-crawl revision of `the-light
    went into Avoid verbatim.
 3. Fresh chat, re-stage refs, ask Matt to drop them, send.
 
+**If the SAME object fails THREE times, stop rewriting it and RESTAGE the scene so the failure is
+structurally impossible.** Two re-rolls of a description is the honest budget; past that you are
+not fixing a prompt, you are hoping. The tell is that the faults *move around* while staying the
+same kind of fault — an extra hand here, a fused arrowhead there, a string wandering off frame —
+which means the model cannot hold that assembly of parts at that scale, and no amount of adjective
+will teach it to.
+
+Ask instead: **what is the smallest change to the staging that deletes the hard object?** Usually
+it is shifting the depicted instant a beat earlier or later, or separating two things that were
+touching. *(Aug 2026, `the-clash-beneath-the-fortress-gate`: three rolls of "undrawn bow with a
+nocked arrow, plus a second person's hands grabbing the same arm" produced a fist grip, then extra
+hands and an arrowhead welded to the bow limb, then another extra hand and the same welded
+arrowhead. The fix was not a fourth description — it was moving the moment one beat earlier, to
+Lenne pulling the arrow **clear of her quiver** before nocking it. Bow alone in one hand, arrow
+alone in the other, nothing touching the string, and the whole failure mode gone.)*
+
+**Two RIGHT hands on one person is its own failure, and the fix is to remove a hand from the
+frame.** When a character grips something with one hand and holds gear in the other, the model
+frequently paints both as the same chirality — thumb on the wrong side — and the grip then reads
+as anatomically impossible. Naming handedness helps a little; **giving them only one visible hand
+helps completely.** Sling the bow across their back, drop the other arm below the frame edge, or
+put the spare gear on a belt. *(Aug 2026, `the-clash-beneath-the-fortress-gate`: Lupenor grabbed a
+wrist with one hand and held her longbow in the other, and both came back as right hands. Slinging
+the bow deleted the problem.)*
+
+**Enumerate ambiguous parts by count and job.** Where limbs multiplied, say plainly how many there
+are and what each one does — *"between them there are exactly four hands: hers on the bow, hers on
+the arrow, his on her wrist, his on his own sword"* — rather than only listing `extra hands` in
+`Avoid:`.
+
 **Bank the correction somewhere durable before you regenerate.** If a note is about a character's
 gear or likeness rather than this one frame — "from this point forward he wears full plate" — it
 belongs in `bible/05-kit-and-timeline.md` (new era block) or `characters/CANON.md`, not just in the

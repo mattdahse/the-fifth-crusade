@@ -261,6 +261,16 @@ words in `Avoid:`. *(Matt's correction, Aug 2026: the western gate came back a r
 rolls of `the-clash-beneath-the-fortress-gate`.)* *Avoid:* `a ruin, a ruined gate, ruined or crumbling
 walls, broken or gap-toothed battlements, a breach in the wall, rubble, collapsed stonework, an
 abandoned or derelict gatehouse, ivy or overgrowth on the walls`.
+**⚠️ It is the WESTERN gate, and the expedition leaves at DAWN — so the sun is BEHIND THE CAMERA,
+never through the arch.** A shot taken from inside the city looks west; the rising sun is in the
+east, at the viewer's back. Through the open archway lies the **Ahari riverbed and the wasteland,
+still in cold blue pre-dawn shadow under a pale colourless sky**, while the low early light rakes
+in over the viewer's shoulder onto the figures and the inner face of the gatehouse. This collides
+with the house habit of backlighting the subject: say where the sun is **relative to the camera**,
+not merely "behind the figures", or the model obligingly hangs a sunrise in the gateway.
+*(Matt, Aug 2026: "the rising sun is seen through the gate. The WESTERN gate. That's bad.")*
+*Avoid also:* `a sunrise or sun disk visible through the gateway, a glowing horizon through the
+arch, a sunset through the gate, the sun sitting in the archway`.
 
 The other three strongholds on Paradise Hill are not yet illustrated**, and each has a follower account
 that should be read before one is: **Varic**'s modest **Temple of Sarenrae**
