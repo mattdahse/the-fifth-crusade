@@ -850,6 +850,8 @@ On the morning of the first of Neth, the gates of **Drezen** opened, and the exp
 
 *14 March 2026 session — 1st through 3rd of Neth, 4713 AR*
 
+![Were the rules unclear?](images/the-clash-beneath-the-fortress-gate.webp)
+
 ### **The Western Gate**
 
 Twenty souls gathered at the western gate of **Drezen** on the first morning of Neth, and the first thing that nearly went wrong was an arrow.

@@ -403,6 +403,18 @@ put the spare gear on a belt. *(Aug 2026, `the-clash-beneath-the-fortress-gate`:
 wrist with one hand and held her longbow in the other, and both came back as right hands. Slinging
 the bow deleted the problem.)*
 
+**Crowded hands breed phantom hands. Give them SPACE, and crop the spares out of frame.** Two or
+three hands converging inside one small patch of canvas — a grab at the wrist where the victim is
+already gripping something — is where spare fingertips get invented, and they appear *beside* the
+real hand rather than below it, so no crop can rescue them afterwards. Two fixes, and they combine:
+**(a)** move the grip along the limb so a clear unbroken span of bare forearm separates the two
+hands, and say that the span is empty; **(b)** tighten the framing until every hand you do not need
+is outside the picture. *(Aug 2026, `the-clash-beneath-the-fortress-gate`, fifth roll: three hands
+inside a few inches of canvas produced a fourth. Reframing to a close two-shot left exactly two
+hands in frame with a hand's breadth of forearm between them.)* **Do not "simplify" the moment
+itself to achieve this** — Matt's direction, and it is right: reframe and re-space, but keep the
+beat.
+
 **Enumerate ambiguous parts by count and job.** Where limbs multiplied, say plainly how many there
 are and what each one does — *"between them there are exactly four hands: hers on the bow, hers on
 the arrow, his on her wrist, his on his own sword"* — rather than only listing `extra hands` in
