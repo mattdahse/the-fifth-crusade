@@ -1020,6 +1020,8 @@ An hour later, the expedition lined up at the door of the secure shelter. The sm
 
 He woke gasping. He reached for the sensation before it could dissolve. And for the first time, he held it.
 
+![Night terrors](images/night-terrors.webp)
+
 South by southwest. Not a vague impression, not a fleeting intuition that evaporated with the dream — a bearing. A line he could draw on the map from where he lay to wherever the call originated. It was not close. But it was real, and it was certain, and when he told the others over breakfast, **Varic** marked it on the expedition's chart without questioning the source.
 
 The second night, **Harlock** dreamed again. The pull confirmed what the first dream had suggested: the source lay somewhere along a line extending south-southwest from their current position, toward the great lava fields and away from the Ahari tributary. He woke with an urge so powerful it frightened him — to hand command of the expedition to **Elara**, to walk away from his promises and his friends and his duties, and to simply follow the dream until he found whatever was calling.
