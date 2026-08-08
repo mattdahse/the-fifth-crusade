@@ -76,7 +76,9 @@
   #reader .rdsub{text-align:center;font-style:italic;color:var(--ink-soft);margin:.1rem 0 1rem}
   #reader figure.fig{margin:1.6rem 0;text-align:center}
   #reader figure.fig img{max-width:100%;height:auto;border:1px solid var(--rule);border-radius:6px;
-    box-shadow:0 3px 12px rgba(0,0,0,.22)}
+    box-shadow:0 3px 12px rgba(0,0,0,.22);transition:border-color .12s,box-shadow .12s}
+  #reader figure.fig img.zoomable:hover{border-color:var(--accent2);box-shadow:0 4px 18px rgba(0,0,0,.34)}
+  img.zoomable{cursor:zoom-in}
   #reader figure.fig figcaption{font-style:italic;color:var(--ink-soft);font-size:.86rem;
     margin:.5rem auto 0;max-width:44ch;line-height:1.45}
   .backbar{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-bottom:.6rem}
@@ -89,16 +91,18 @@
   .person .dead{color:var(--accent);font-size:.92em}
   .person.haspic{display:flex;gap:.85rem;align-items:center}
   .person .pface{width:66px;height:66px;object-fit:cover;object-position:top center;border-radius:6px;
-    border:1px solid var(--rule);box-shadow:0 1px 4px rgba(0,0,0,.28);cursor:pointer;flex:0 0 auto;transition:transform .12s}
+    border:1px solid var(--rule);box-shadow:0 1px 4px rgba(0,0,0,.28);flex:0 0 auto;transition:transform .12s}
   .person .pface:hover{transform:scale(1.05)}
   .person .pbody{flex:1 1 auto}
   #lightbox{position:fixed;inset:0;z-index:50;background:rgba(10,7,3,.92);
     display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.85rem;padding:2rem}
   #lightbox.hidden{display:none}
-  #lightbox .lb-img{max-width:min(92vw,660px);max-height:76vh;object-fit:contain;
+  #lightbox .lb-img{max-width:min(94vw,1180px);max-height:82vh;object-fit:contain;
     border:1px solid var(--rule);border-radius:8px;box-shadow:0 10px 44px rgba(0,0,0,.6)}
   #lightbox .lb-cap{color:var(--ink);background:var(--card);border:1px solid var(--rule);border-radius:6px;
-    padding:.5rem .9rem;max-width:min(92vw,660px);text-align:center;font-size:.92rem}
+    padding:.5rem .9rem;max-width:min(92vw,760px);text-align:center;font-size:.92rem;
+    font-style:italic;line-height:1.45}
+  #lightbox .lb-cap .nm{font-style:normal}
   #lightbox .lb-close{position:absolute;top:1rem;right:1.3rem;color:#f4ecd8;font-size:1.7rem;cursor:pointer;line-height:1;user-select:none}
   #lightbox .lb-nav{position:absolute;top:50%;transform:translateY(-50%);color:#f4ecd8;font-size:3rem;
     cursor:pointer;user-select:none;padding:0 .6rem;opacity:.78}
@@ -202,12 +206,12 @@
   <div id="app"></div>
 </div>
 
-<div id="lightbox" class="hidden" onclick="if(event.target===this)closeFace()">
-  <span class="lb-close" title="Close" onclick="closeFace()">✕</span>
-  <span class="lb-nav lb-prev" title="Previous" onclick="stepFace(-1)">‹</span>
+<div id="lightbox" class="hidden" onclick="if(event.target===this)closeLb()">
+  <span class="lb-close" title="Close" onclick="closeLb()">✕</span>
+  <span class="lb-nav lb-prev" title="Previous" onclick="stepLb(-1)">‹</span>
   <img class="lb-img" src="" alt="">
   <div class="lb-cap"></div>
-  <span class="lb-nav lb-next" title="Next" onclick="stepFace(1)">›</span>
+  <span class="lb-nav lb-next" title="Next" onclick="stepLb(1)">›</span>
 </div>
 
 <script src="data.js"></script>
@@ -288,6 +292,7 @@ var CAST = [
    ['Areelu Vorlesh','The witch who tore open the Worldwound; her hand is felt behind the corruption of the wardstones.'],
    ['Minagho','A demon commander of the invasion, her hand felt in the fall of Kenabres.'],
    ['Scorizscar','The six-legged, eyeless mythic dragon of the Gray Road, slain in its lair.','dead'],
+   ['Vorimeraak','The mythic vrock who led the working in the Molten Scar, scythe in hand and a merchant cowering on the stone — the same ritual that had been laid on Harlock at fifteen. Harlock killed him, and the whole of that night came back in the instant he died.','dead'],
    ['The Plagued One','A Worm-That-Walks — a woman-shaped mass of vermin — who raised the Red Swarm to hunt down the last of the Riftwardens’ destined children; slain by the company, her keepings held a book of human skin with a birthmarked page for every child she had taken.','dead'],
    ['The Red Swarm','A purpose-built hunting company raised to mirror the party and run them down.','dead'],
    ['Jaruunicka','A Sifkesh hag who wore Arueshalae’s face as a trap.','dead'],
@@ -441,46 +446,65 @@ function viewContents(keepScroll){
   if(!keepScroll) window.scrollTo(0,0);
 }
 
-var GALLERY = [];  /* ordered portrait entries, rebuilt on each Cast render, drives the lightbox */
 function viewCast(){
   setTab('cast');
-  GALLERY = [];
   var html='<div class="hint">The chronicle uses in-game names throughout. Tap a portrait to see it full-size.</div>';
   CAST.forEach(function(g){
     html += '<div class="catlabel">'+esc(g.c)+'</div>';
     g.people.forEach(function(p){
       var dead = p[2]==='dead' ? ' <span class="dead" title="Slain">☠</span>' : '';
       var src = PORTRAITS[p[0]], thumb='';
-      if(src){
-        var gi = GALLERY.length;
-        GALLERY.push({name:p[0], src:src, role:p[1]});
-        thumb = '<img class="pface" src="'+esc(src)+'" alt="'+esc(p[0])+'" loading="lazy" onclick="openFace('+gi+')">';
-      }
+      if(src) thumb = '<img class="pface" src="'+esc(src)+'" alt="'+esc(p[0])+'" loading="lazy">';
       html += '<div class="person'+(src?' haspic':'')+'">'+thumb
         + '<div class="pbody"><span class="nm">'+esc(p[0])+dead+'</span> — <span class="rl">'+inline(p[1])+'</span></div></div>';
     });
   });
-  app.innerHTML = html; window.scrollTo(0,0);
+  app.innerHTML = html; bindLightbox(); window.scrollTo(0,0);
 }
-function openFace(i){
+
+/* ---------- lightbox ----------
+   Every image the app renders goes in, portrait and chapter plate alike: bindLightbox()
+   sweeps the freshly rendered view and collects its images in document order, so the arrows
+   walk the page you are actually looking at. Each caption is read from the markup already
+   beside the image — a figure's <figcaption>, a portrait's name and role — rather than
+   passed in, so there is one code path and nothing to keep in step. */
+var GALLERY = [];
+function bindLightbox(){
+  GALLERY = [];
+  Array.prototype.forEach.call(app.querySelectorAll('img'), function(img){
+    var i = GALLERY.length, p = img.parentNode;
+    var cap = p.querySelector('figcaption') || p.querySelector('.pbody');
+    GALLERY.push({src: img.getAttribute('src'), cap: cap ? cap.innerHTML : (img.alt ? esc(img.alt) : '')});
+    img.classList.add('zoomable');
+    img.addEventListener('click', function(){ openLb(i); });
+  });
+}
+function openLb(i){
   var e = GALLERY[i]; if(!e) return;
   var ov = document.getElementById('lightbox');
-  ov.querySelector('.lb-img').src = e.src;
-  ov.querySelector('.lb-img').alt = e.name;
-  ov.querySelector('.lb-cap').innerHTML = '<strong>'+esc(e.name)+'</strong> — '+inline(e.role);
+  var im = ov.querySelector('.lb-img'), cp = ov.querySelector('.lb-cap');
+  im.src = e.src; im.alt = '';
+  cp.innerHTML = e.cap; cp.style.display = e.cap ? '' : 'none';
+  Array.prototype.forEach.call(ov.querySelectorAll('.lb-nav'), function(n){
+    n.style.display = GALLERY.length > 1 ? '' : 'none';   /* one image is not a gallery */
+  });
   ov.dataset.i = i;
   ov.classList.remove('hidden');
+  document.body.style.overflow = 'hidden';   /* don't scroll the page behind the plate */
 }
-function stepFace(d){
+function stepLb(d){
   var ov=document.getElementById('lightbox'); if(ov.classList.contains('hidden')||!GALLERY.length) return;
-  var n=GALLERY.length, i=((parseInt(ov.dataset.i,10)+d)%n+n)%n; openFace(i);
+  var n=GALLERY.length, i=((parseInt(ov.dataset.i,10)+d)%n+n)%n; openLb(i);
 }
-function closeFace(){ document.getElementById('lightbox').classList.add('hidden'); }
+function closeLb(){
+  document.getElementById('lightbox').classList.add('hidden');
+  document.body.style.overflow = '';
+}
 document.addEventListener('keydown', function(e){
   if(document.getElementById('lightbox').classList.contains('hidden')) return;
-  if(e.key==='Escape') closeFace();
-  else if(e.key==='ArrowLeft') stepFace(-1);
-  else if(e.key==='ArrowRight') stepFace(1);
+  if(e.key==='Escape') closeLb();
+  else if(e.key==='ArrowLeft') stepLb(-1);
+  else if(e.key==='ArrowRight') stepLb(1);
 });
 
 function viewSecrets(){
@@ -499,7 +523,7 @@ function viewSecretReader(id){
   var s = secrets.filter(function(x){return x.id===id;})[0]; if(!s){ viewSecrets(); return; }
   var nav = '<div class="backbar"><span class="btn" onclick="history.back()">← Back</span><span></span></div>';
   app.innerHTML = nav + '<div id="reader"><div class="chapkicker">Secrets</div>'+ mdToHtml(s.md) + '</div>' + nav;
-  window.scrollTo(0,0);
+  bindLightbox(); window.scrollTo(0,0);
 }
 /* ---------- Timeline ----------
    The crusade's days in a single stack: the kept journal to the left of each day, and the
@@ -634,7 +658,7 @@ function viewReader(id){
     + (next?('<span class="btn" onclick="location.hash=\'#/read/'+next.id+'\'">next ›</span>'):'') +'</span></div>';
   var kick = '<div class="chapkicker">Book '+esc(c.book)+' · '+esc(c.label)+(c.date?(' · '+esc(c.date)):'')+'</div>';
   app.innerHTML = nav + '<div id="reader">'+ kick + mdToHtml(c.md) + '</div>' + nav;
-  window.scrollTo(0,0);
+  bindLightbox(); window.scrollTo(0,0);
 }
 
 function search(query){
