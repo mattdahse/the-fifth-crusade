@@ -1326,6 +1326,8 @@ They did not fight it. They hid.
 
 Every member of the party carried an ***Elixir of Hiding*** — recovered from a cultist cache months ago, distributed as standard equipment for exactly this kind of emergency. **Lupenor**, whose stealth was already formidable, did not need one. The rest drank and went still, pressing themselves into what the riverbed offered by way of contour, pulling cloaks over armor, becoming nothing.
 
+![I am a rock. I am a rock. I am a rock.](images/nobody-looked-up.webp)
+
 The dragon flew over them. They felt the heat of its passage, felt acid droplets sting where exposed skin caught the wind from its wings. It banked south toward the lava fields, caught a thermal, rose, turned, and flew back north directly over their position. Two passes. Each one close enough to count scales, if anyone had been foolish enough to look up.
 
 Nobody looked up. Nobody breathed. The elixirs held. The dragon moved on, its iridescent form diminishing into the northern sky until it was gone.
