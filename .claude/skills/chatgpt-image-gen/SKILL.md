@@ -456,6 +456,21 @@ next prompt. Otherwise the same note gets given again three images later.
   The exception: never put words like `sexualized` or `bare midriff` near a prompt depicting a
   child — classifiers do not parse negation and will refuse the whole prompt. Describe a child's
   clothing positively instead.
+- **⚠️ THE SAME NEGATION BLINDNESS APPLIES TO VIOLENCE, AND IT WILL KILL A BATTLEFIELD PROMPT.**
+  The child rule above is not a special case of one classifier — it is how they all read. Words
+  like `corpses`, `dead bodies`, `skeletons`, `a pile of bodies`, `gore` sitting in an `Avoid:`
+  line are counted **as content**, exactly as if you had asked for them, and the prompt is refused
+  before it renders. *(Aug 2026, Book III Ch. VI, `what-the-dragon-left`: an aftermath scene was
+  refused on violence grounds. The scene body had a severed finger, a splash of entrails and a
+  dismembered limb — but the `Avoid:` line was carrying corpses, bodies, skeletons and gore as
+  exclusions, and doubling the loading was what tipped it.)*
+  **The fix is to describe the aftermath through EQUIPMENT AND GROUND and keep body vocabulary out
+  of BOTH halves of the prompt.** Corroded plate, a snapped saddle girth, a bent spear, a dented
+  helm half full of muddy water, stone pitted by acid, claw gouges raked across rock, dark stains
+  soaked into mud — all of that renders, and none of it trips anything. **This is usually the
+  better picture anyway:** a picked-over, emptied field reads colder than a strewn one, and in that
+  chapter it was also what the prose actually said — Varic's first observation at the site is that
+  there is nothing left to examine.
 - **A referenced character will not recede.** Attach someone's portrait and the model promotes them —
   lighting, centring and clearing space around them. If a named character must be incidental, compose
   so prominence is impossible: camera behind them, cropped by the frame edge, occluded by bodies, or
@@ -527,9 +542,21 @@ composer and Matt expected it to break things. It mostly didn't:
     see the self-submit correction in step C. Matt had pressed send.)*
   - **`[data-testid*="attachment"]` does NOT catch it** — the old attachment probe was written for
     dropped images. Detect the file form explicitly, e.g.
-    `document.querySelectorAll('form [class*="file"], form [data-testid*="file"]').length`, or simply
-    treat *"pmLen is 0 immediately after a paste that returned a large `want`"* as **"it became a
-    file,"** never as "the paste failed."
+    `document.querySelectorAll('form [class*="file"], form [data-testid*="file"]').length`.
+  - **⚠️ BUT DO NOT READ `pmLen: 0` AS "IT BECAME A FILE" WHEN YOU MEASURED IT IN THE PASTE CALL
+    ITSELF.** This bullet used to say exactly that, and it is wrong often enough to send you
+    chasing a bug that isn't there. **ProseMirror/React has not committed the insertion by the time
+    the paste call's own return expression evaluates**, so `pm.textContent.length` reads 0 on a
+    paste that landed perfectly. *(Aug 2026, Book III Ch. VI art: a 4,814-char prompt returned
+    `len: 0`, and the separate verification call a moment later found all 4,794 characters sitting
+    in the composer. Nothing had become a file; the prompt was nowhere near the ~9,500 threshold.)*
+    **Always verify in a SEPARATE call** — which step C already tells you to do — and judge from
+    that one. Only conclude "it became a file" if the separate call *also* reads 0 **and** the
+    file-tile probe finds a tile.
+  - **The file-tile probe has a false positive worth knowing.** `form [class*="file"]` also matches
+    composer chrome, so a count of ~6 on a fresh chat is a **single** attachment tile plus its
+    wrapper and buttons, not six files. Count `form [class*="group/file-tile"]` for the real number
+    of attachments, and `form img` for dropped reference images.
   - **Either keep the prompt under ~9,500 characters and paste it in ONE operation, or accept the
     file attachment deliberately** — a prompt-as-file still works, it is just harder to inspect and
     impossible to verify with `pmLen`. Trimming is usually the better trade, and prompts this long
