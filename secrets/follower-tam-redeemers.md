@@ -54,7 +54,7 @@ A visiting merchant looked at our construction and asked, "What style of archite
 
 I'd been there a week before I saw Rabiah properly. She emerged from her tent — a perfectly normal tent surrounded by the chaos we'd created — reading a book while walking, sparks of wild magic trailing from her fingers.
 
-She was so young. Younger than me, younger than half her followers. Sixteen years old with dark hair in a messy braid and robes that had seen better days. But power rolled off her in waves, casual and unconscious, like heat from a forge.
+She was so young. Younger than me, younger than half her followers. Sixteen years old, red hair worn loose and wild and never once brushed as far as I could tell. And here is the part nobody believes when I tell it: in a camp where every one of us is caked to the knee in mud and stinking of woodsmoke, she was spotless. Not a smudge on her. Not a thread out of place. Clothes clean as if they'd come off the line that morning, in a compound that has never once had a line. But power rolled off her in waves, casual and unconscious, like heat from a forge.
 
 She looked up at our architectural monstrosity, tilted her head, and said, "Huh. It's taller."
 
