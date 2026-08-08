@@ -280,7 +280,46 @@ and **Lupenor**'s trading house, the **Celest House**, sited closer to the citad
 ([`follower-silas-thorne-market`](../secrets/follower-silas-thorne-market.md)). Book II's *Paradise Hill*
 section describes what each was built to be.
 
-Locations with an established look so far: the **Corruption Forge**
+**RABIAH'S SECURE SHELTER** — the conjured stone cottage
+([`the-shelter-in-the-rain`](../images/the-shelter-in-the-rain.webp) for the outside,
+[`night-terrors`](../images/night-terrors.webp) for the inside; Book III Ch. V). **This is not a
+place, it is an OBJECT that recurs** — **Rabiah** conjures it from scrolls, and later with mythic
+power, and from this chapter on it is where the expedition sleeps. **The spell makes the SAME
+building every time: do not redesign it, and do not let it drift from one chapter to the next.**
+One room, twenty feet square, comfortable for eight — and the company habitually packs twenty-odd
+people and four horses into it, which is the joke and should always be legible.
+
+**Outside.** A squat single-storey block, roughly a cube. Walls of large squared **cold blue-grey
+ashlar laid in regular courses**, the joints tight and dark, the block faces hammer-dressed and
+faintly rough, the arrises crisp; **alternating long-and-short quoins at the corners.** A
+**low-pitched roof of overlapping grey stone shingles** with a slight overhang. **No windows, no
+chimney, no ornament, no carving, no steps** — the walls meet the bare ground directly. One
+**rectangular** doorway with a **single massive squared stone lintel** and plain squared jambs —
+**not an arch**. In it a heavy **dark-oak plank door, vertical planks, horizontal iron strap bands
+and long black iron strap hinges**, opening **inward**, with warm yellow lamplight behind it.
+*(The Ch. V prompt asked for seamless mortarless stone and the render came back as coursed ashlar.
+**The render governs** — it reads as a real building, which makes the wrongness better, not worse.
+Do not "correct" it back to seamless.)*
+
+**The point of it is that it is CRISP, UNWORN AND WRONG FOR WHERE IT STANDS.** No moss, no ivy, no
+cracks, no weathering, no subsidence, nothing picturesque: a sound, sharply-cut building sitting on
+churned mud in a blasted waste as though set down there whole an hour ago.
+
+**Inside.** One bare room. **Plain, smooth, undifferentiated dark grey-brown stone — the coursing
+that shows outside does NOT read inside**, the interior walls are featureless. A flat stone floor.
+**No furniture of any kind, no hearth, no window, no fittings** — people sleep on bedrolls laid
+straight on the stone. Light it with whatever small source the scene has (a low oil lamp on the
+floor works) and let everything past its reach fall to brown-black; the room is only ever seen as
+far as the light carries. *The spell also conjures an* ***unseen servant*** *for its duration — it
+is invisible and changes nothing about how the room is drawn, but it is why a cook can be set to
+work in there.*
+
+*Avoid:* `a thatched roof, a mossy or ivy-covered cottage, a weathered or ancient cottage, a ruined
+building, a cosy cottage in a garden, a hut, a cabin, a timber or half-timbered building, a manor, a
+tower, a castle, a chimney, glazed windows, shutters, a hearth or fireplace, furniture, an arched
+doorway, a cottage that comfortably fits the crowd`.
+
+Locations with an established look so far: **Rabiah's Secure Shelter** (above), the **Corruption Forge**
 ([`the-cage-over-the-forge`](../images/the-cage-over-the-forge.webp), and
 [`the-ice-that-would-not-lie`](../images/the-ice-that-would-not-lie.webp) for its floor and its salamanders) and
 the **Ritual Chamber** ([`the-line-the-ice-drew`](../images/the-line-the-ice-drew.webp)), and the
