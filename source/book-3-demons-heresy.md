@@ -1798,6 +1798,8 @@ The smell sharpened as they followed the trail further down the riverbed — a v
 
 The gravel at her feet was strewn with tiny obsidian flakes that glittered like the carapaces of glass beetles. The cave was vast; on its thirty-foot ceiling above her ran the long parallel gouges of a thing that had scraped along it many times. Further in, half-broken from the floor like the legs of an interrupted statue, stood three obsidian horse-hooves and a foot of the legs above them, snapped off where the rest of the animal had fallen and shattered. She heard her own breath, and the crunch of her own steps, and nothing else. The dragon was either far back in the dark or out — and either way, this was the lair. She slipped back to the company with the news.
 
+![Don't you hate when you're sneaking into a dragon's lair and feel a sneeze coming?](images/a-sneeze-coming.webp)
+
 ### **Into the Dark**
 
 There was some talk of pulling back up the bank and camping and going in fresh in the morning, and it did not survive contact with the fact that nobody wanted to sleep within a mile of that cave mouth either. So they went in that evening, with the daylight already failing behind them.
