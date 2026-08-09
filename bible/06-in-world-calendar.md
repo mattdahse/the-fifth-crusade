@@ -163,17 +163,24 @@ the chronicle has never named. **Not yet reconciled** — resolve with Matt befo
   arrival day in advance** — so "well ahead of schedule" was wrong too. The camp has been restored
   to Ch IX and the day-by-day above rebuilt around it. *(The earlier pass deleted a real scene to
   make the log fit; noted here so it is not deleted a second time.)*
-  **What this costs:** the FG log's *"10th Neth — Drezen, to no small fanfare"* and the GM's own
-  in-session dates on 9 May (*"today is the 10th of Neth"*, *"Toil Day, the 12th of Neth"*) are now
-  **one day early**, because neither counts the night in camp. The chronicle's dates above follow
-  Ch VIII's validated *second day out = 10 Neth* and run 11–13 Neth. **Matt to rule** on which
-  record moves; nothing downstream of the 14th is affected either way.
-- **Ch VIII / Ch IX overlap — the body count is still out.** Ch VIII (validated) ends with **one**
-  Derakni dead and one fled. The 9 May recording opens with the GM describing **two** Derakni
-  carcasses on the rock. Both chapters are now validated against their own recordings, so this is
-  not a chronicle error but a table one: the 9 May recap simply mis-remembered the previous
-  session's tally. Ch IX's text follows the recording. **Matt to rule** whether Ch IX drops to one
-  carcass to agree with Ch VIII.
+  **Ruled by Matt, Aug 2026: the chronicle governs, and the log is the thing that is wrong.**
+  Ch VIII's validated *second day out = 10 Neth*, plus the night in camp, puts the company through
+  **Drezen's** gate on the **11th**, and Ch IX accordingly runs **11–13 Neth**. The FG log's
+  *"10th Neth — Drezen, to no small fanfare"* and the GM's own in-session dates on 9 May
+  (*"today is the 10th of Neth"*, *"Toil Day, the 12th of Neth"*) are all **one day early**, because
+  none of them counts the night in camp. Treat every log date from the 10th of Neth onward as
+  suspect by one day until the chapter that covers it has been validated against its own recording.
+  ⚠️ **Consequence, still to be worked through: Ch X.** Ch IX now ends with the company sleeping at
+  the **Hidden Shrine** on the night of the **13th**, but Ch X opens *"The thirteenth of Neth"* with
+  the shrine doors swinging wide at dawn — so the two chapters currently claim the same day. If the
+  log is uniformly a day early, Ch X should be **14–16 Neth** and everything after it shifts with
+  it, down to the **25th**. Ch X onward have **not** been validated against their recordings, so
+  that cascade is not being applied blind.
+- ~~**Ch VIII / Ch IX — the body count.**~~ *Resolved by Matt, Aug 2026.* Ch VIII (validated) ends
+  with **one** Derakni dead and one fled; the 9 May recording's opening recap described **two**
+  carcasses. That was the table mis-remembering the previous session, not a chronicle error, and
+  **Ch VIII governs**: Ch IX now opens on a single carcass, one demon fled, and one enemy never
+  seen. Do not "restore" the second body from the recording.
 - **20th Neth — Samail.** A raising the chronicle never records; the name appears nowhere in
   `source/` or `characters/`. Spelling unconfirmed.
 - **Vorimeraak.** The mythic vrock of the Molten Scar. Spelling and sex settled by Matt, Aug 2026:
