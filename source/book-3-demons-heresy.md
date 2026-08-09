@@ -1650,6 +1650,8 @@ Nobody suggested camping. There was half a day of light left and two days of ope
 
 *9 May 2026 session — 11th through 13th of Neth, 4713 AR*
 
+![Varic vows then and there: No more escort missions. Ever.](images/no-more-escort-missions.webp)
+
 ### **The Empty Field**
 
 The fight that had run on past all reason finally went quiet, and the **Marchlands** gave the company nothing to mark it with — only a knife-edged wind out of the northwest and a single Derakni carcass going cold on the icy rock. **Harlock**, **Rabiah**, **Lupenor**, and **Varic** stood in the wreck of it — mythic power all but spent, the four horses hobbled and white-eyed — and took a count of what they had and had not killed. One had died. One had looked at the arithmetic and gone home in a column of smoke. And one enemy had never come into focus at all. It had been there at the edges of the whole engagement, and now it was simply gone, and no one could say how it had left: whether it had taken to the air, or stepped sideways through some sorcery, or what manner of thing it had even been. They had a name for it and nothing else — the name the babau messenger had spoken before its master's errand turned to blood. **Ashi Waxentong**.
