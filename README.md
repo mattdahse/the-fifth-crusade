@@ -28,6 +28,10 @@ build.ps1                       ← compiles source/*.md + secrets/*.md + maps/*
 extract-calendar.ps1            ← re-extracts bible/06-in-world-calendar.json from Fantasy Grounds
 index.html                      ← the reader app (Contents / Cast / Secrets / Timeline / Map, search)
 data.js                         ← BUILD OUTPUT — do not hand-edit
+favicon.svg                     ← the site mark: Iomedae's device off the Sword of Valor. Edit THIS one
+favicon.ico                     ← rasterised from favicon.svg (16/32/48) — regenerate, never hand-edit
+apple-touch-icon.png            ← rasterised from favicon.svg (180px, square) — same
+make-favicon.py                 ← redraws those two; `--preview` checks the mark at tab size
 .claude/skills/                 ← Claude Code skills, checked in so they travel to every station
   wotr-chronicle/               Compile a session into a chapter, then publish
   chatgpt-image-gen/            Generate chapter art through a logged-in ChatGPT tab
