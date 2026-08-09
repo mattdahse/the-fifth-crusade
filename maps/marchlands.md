@@ -123,7 +123,7 @@ dark — six-legged, eyeless, and the wrong number of teeth besides — and did 
 <!-- at: 52.0, 61.0 -->
 <!-- letter: M -->
 <!-- kind: peril -->
-<!-- chapter: Where the Fire Began -->
+<!-- chapter: Fury Repaid -->
 
 A chamber open to a sky that flickered red, rimmed by rock walls, with the lava working below it.
 **Vorimeraak** led the ritual here, scythe in hand and a merchant chained to a spike on the stone —

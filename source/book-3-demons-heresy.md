@@ -1056,7 +1056,7 @@ The Worldwound watched them go. It was not finished with them yet.
 
 *— Session of March 14th, 2026 —*
 
-## **The Door and the Dream**
+## **The Founding of the Fane**
 
 <!-- inworld: 30 Lamashan 4713 to 6 Neth 4713 -->
 
@@ -1346,7 +1346,7 @@ They would reach it. Or die in the attempt. Welcome to adventuring.
 
 *— Session of March 28th, 2026 —*
 
-## **Where the Fire Began**
+## **Fury Repaid**
 
 <!-- inworld: 6 Neth 4713 to 9 Neth 4713 -->
 
