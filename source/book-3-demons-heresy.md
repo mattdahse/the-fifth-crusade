@@ -1494,6 +1494,8 @@ Evening came. **Rabiah** raised three ***Secure Shelters*** — one for the hors
 
 *24 April 2026 session — 10th of Neth, 4713 AR*
 
+![The Cartographer at Work](images/the-rim-of-the-grey-sea.webp)
+
 ### **The Second Morning**
 
 The tenth of Neth opened cool and overcast on a column in its second day along the unfamiliar northern route, out on the rim of the great natural bowl that holds the steel-gray inland sea. The wind had not slackened overnight; the previous day's tailwind had bent into a steady crosswind off the plains, and the long line of horses, hunters, and heroes set out under a sky bruised purple and blue. **Selyse Avelia** — the architect, by her papers and her cover — rode astride one of the company's four horses, her familiar, a small bird called **Horace**, drifting somewhere on the high airs above and behind her. Whatever she was actually doing with her sketchpad up there had less to do with arches and load-bearing columns than with the country between them. **Cornelia** ranged alongside in turkey-vulture form. **Chyrrik** scouted ahead. The morning passed quietly enough.
@@ -1514,6 +1516,8 @@ Then she screamed.
 
 She slid sideways off her horse as if struck and lay on the ground, clutching at her arm and then her eyes and then her arm again. There was no wound on her. There was nothing visibly wrong. But she was sobbing into the dirt, and somewhere far above her the bird that shared her senses was no longer gliding. **Harlock** scooped her up and cradled her against his chest like a child while the rest of the party formed around the horses, and set her down behind the largest pillar. There was nothing to be done for her. She had taken no wound anyone could find, and she stayed where he put her for a long while — blinking, weeping, unable to see, asking nobody in particular what had happened and where everyone had gone.
 
+![Selyse is suddenly unwell](images/nothing-had-touched-her.webp)
+
 They waited a full minute, and then another. The specks did not come. One by one all three had dropped below the broken skyline and simply stopped being anywhere, and the company stood in the ruins with their weapons out and nothing to point them at.
 
 Then **Chyrrik**, still watching her quarter, saw something arrive that had not flown in at all. It stepped into existence a few hundred yards down the road running southwest, and it was no locust.
@@ -1527,6 +1531,8 @@ It walked openly up the broken track between the ruins, hands raised, having set
 The name meant nothing to anyone in the company. **Rabiah**'s knowledge of the planes turned up no demon by it — no infernal lord, no hierarch of any pit they had heard of. Whoever this **Ashi Waxentong** was, he was either too small to have entered the great catalogues, or too careful.
 
 The **babau** came on. At fifteen feet, it stopped. It scanned the company without urgency, looking from face to face — over **Cornelia**, over **Jeskar** on his wall, over **Harlock** at the back — and never once at the low rocks where **Chyrrik** lay, which it did not appear to see at all. Then it explained itself. There was, it said, a spy moving through the **Marchlands** — a small woman accompanied by a small bird. *So cute. So pretty. So delicious.* Its master had heard that this spy was traveling in this party. The **babau** wished to retrieve the bird, which was — it admitted with theatrical regret — only mostly intact, and to retrieve also any maps the spy might have drawn. In exchange, it offered to let the rest of the company pass on.
+
+![Hostage negotiations](images/may-i-approach.webp)
 
 **Varic** told it to walk away while it still had its life, and the demon was untroubled. There was, it observed, another way to do this. Its people could go back under the rocks and wait; they could keep on summoning in whatever they liked, for as long as they liked, and pick the company apart at leisure whenever it pleased them to start. *You understand that we have the advantage here.*
 
@@ -1586,6 +1592,8 @@ She landed in a forest of pipe-organ cacti.
 
 It was warmer here, drier, unfamiliar — some twenty-five miles, by her rough math, off from where she had wanted to be. Long thorned tendrils swayed in a gentler wind than the one she had left behind. She did not panic. She had one more cast left in her, and she had hoarded mythic power against exactly this kind of need. She squeezed her eyes shut and brought the little patch of ground back into focus — the angle of the two blades in the dust, the heaped grit and torn grass she had arranged around them, the great broken pillar standing over the whole arrangement like a thumb held up for measuring. She gathered every fragment she could hold. She called the last of what she had up out of her bones. She threw herself into the unknown again.
 
+![Teleporting is hard.](images/twenty-five-miles-wrong.webp)
+
 ### **The Drone**
 
 In her absence, the hunt closed in earnest.
@@ -1621,6 +1629,8 @@ The wasp swarm hung where it had been left, droning, stationary and mindless, wi
 ### **The Long Quiet**
 
 **Rabiah** arrived a few seconds later, four inches off her mark, in the dust beside her two cold-iron daggers. For once the world had put her down more or less where she had aimed. She looked around at the small disaster of the field, counted heads, counted the absence of **Selyse**, and asked who needed healing. **Varic** was already moving from companion to companion, golden light spilling from his hands into bruises and stings and the small psychic abrasion of a confusion still working its way out of **Jeskar**'s mind — the priest had gone down under the drone where **Chyrrik** had held and **Lupenor** had been dragged back by main force, had spent a stretch of the fight shooting at whatever happened to be nearest, and would not be living that down for some while. **Cornelia** came down out of the air-elemental shape she had taken to get herself into a fight she had otherwise no way of reaching, and folded back into the small halfling they all knew. **Lupenor** walked the field picking her arrows out of the dust, and got about half of them back; the ones she had put into the **babau** were gone for good, eaten by whatever it wears instead of skin.
+
+![Waste not, want not.](images/waste-not-want-not.webp)
 
 For all of that, it was still only about noon. The whole business — the scream, the parley, the swarms, the two dead demons — had taken something under three minutes of the world's time.
 
