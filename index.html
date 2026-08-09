@@ -74,7 +74,9 @@
     font-style:italic;color:var(--ink-soft)}
   /* in-world letters: a document reproduced in its author's own hand, never in our prose voice.
      Parchment is a physical object, so it stays warm in dark mode — only the glare comes down. */
-  #reader .letter{position:relative;margin:1.8rem 0;padding:2.1rem 2rem 2.3rem;
+  /* the deep bottom padding is deliberate: she stopped because she was interrupted, and the
+     sheet should still show all the room she had left to finish in. */
+  #reader .letter{position:relative;margin:1.8rem 0;padding:2.1rem 2rem 9.5rem;
     background:
       radial-gradient(ellipse at 16% 10%, rgba(126,88,38,.14), transparent 56%),
       radial-gradient(ellipse at 86% 84%, rgba(96,62,24,.17), transparent 58%),
@@ -89,14 +91,15 @@
     border-radius:1px;pointer-events:none}
   #reader .letter p{color:#2b1f11;margin:.85rem 0;text-align:left;text-indent:1.4em}
   #reader .letter p:first-of-type{text-indent:0}
-  #reader .letter p:last-of-type::after{content:" \2026";color:rgba(43,31,17,.5)}
+  /* the letter stops mid-word because its author was interrupted, not because she trailed off.
+     Add nothing to the last line — an ellipsis would put a hesitation there that she never had. */
   #reader .letter strong{color:#4a1d14;font-weight:600}
   #reader .letter em{color:#3a2a17}
   @media (prefers-color-scheme: dark){
     #reader .letter{filter:brightness(.9) saturate(.94);
       box-shadow:0 1px 0 rgba(0,0,0,.4),0 12px 32px rgba(0,0,0,.55),inset 0 0 52px rgba(110,72,28,.34)}
   }
-  @media (max-width:520px){ #reader .letter{padding:1.4rem 1.15rem 1.6rem;line-height:1.8} }
+  @media (max-width:520px){ #reader .letter{padding:1.4rem 1.15rem 6.5rem;line-height:1.8} }
   #reader .ornament{text-align:center;color:var(--accent2);letter-spacing:.4em;margin:1rem 0}
   #reader .rdsub{text-align:center;font-style:italic;color:var(--ink-soft);margin:.1rem 0 1rem}
   #reader figure.fig{margin:1.6rem 0;text-align:center}
