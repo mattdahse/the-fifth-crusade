@@ -106,7 +106,7 @@ which told the company how many of the Labyrinth were moving through this countr
 held it. She does not hold it now. It stands sanctified for the first time in longer than anyone
 can guess, and carries a priest of the Dawnflower's name.
 
-## The Woundwyrm's Lair
+## Scorizscar's Lair
 <!-- at: 47.5, 44.5 -->
 <!-- letter: L -->
 <!-- kind: lair -->
