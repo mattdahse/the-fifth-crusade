@@ -2232,8 +2232,6 @@ In her wardrobe they found two dozen extravagant outfits — cloth of gold, ball
 
 It was **Rabiah** who went to the writing desk. A human jawbone sat on it, doing the work of a paperweight, and under the jawbone was a letter in a fine hand, addressed to **Hepzamirah**, daughter of **Baphomet** — begun, filled with things the company had no business knowing, and broken off in the middle of a sentence.
 
-![](images/jerribeth-unfinished-letter.webp)
-
 They went east and north from there, through a room lined with lonely cells whose cages had no doors on them at all. The iron door beyond it did not yield the way the first had. **Lupenor** worked it, and swore at it, and worked it again, and it took the better part of ten minutes on her knees before the bolt drew back — a slayer still rattled, and unwilling to say so.
 
 Past it was not demonic. That was the unsettling part. It was an octagonal chamber that stank sickly-sweet of blood and decay, with a raised stone slab against the east wall and another against the west, and on each slab a human cadaver in an advanced state of dissection — shackled, which meant the work had been done on them living, their skulls opened and emptied. The floor was tacky underfoot. And the northwest wall, floor to ceiling, was covered in close black runes that were not Abyssal, that were not any devil's or demon's tongue at all, but **Aklo**, and not one of them could read a word of it.

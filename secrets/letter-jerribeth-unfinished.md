@@ -2,7 +2,7 @@
 
 *Begun by the demon Jerribeth to Hepzamirah, daughter of Baphomet, and broken off mid-sentence. Taken by Rabiah from the writing desk in Jerribeth's own bedchamber in the Ivory Sanctum, from beneath a human jawbone that was serving as a paperweight, in the hour after its author fled the room. On the alien guests kept in the Ivory Sanctum, on the perfected elixir, and on the matter of Drezen — which its author did not consider a problem.*
 
-![Whatever she meant to do about Drezen, she never wrote it down.](images/jerribeth-unfinished-letter.webp)
+<!-- letter -->
 
 **Hepzamirah**,
 
@@ -13,3 +13,5 @@ Our esteemed representative of the Lord of the Locust Host continues his dallian
 The effects of **Nahyndrian elixir** continues to impress me. My own experiences, combined with the fact that the last four demons who imbibed survived with ease, tell me that **Minagho**'s serpentine scum and her insane scientist have finally perfected the recipe. I look forward to the next shipment from the **Fane**, and hope to be able to join you soon to aid you in recruiting more of the lords and ladies of Midnight to our cause.
 
 And in regard to the **Drezen** situation, you need not fear. I am in the process of
+
+<!-- /letter -->

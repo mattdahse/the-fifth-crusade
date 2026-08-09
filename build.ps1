@@ -88,7 +88,7 @@ foreach ($b in $books) {
     $date = if ($dateExplicit) { $dateExplicit } else { Get-PlayDate ($block -join "`n") }
     # md with the fathom/epilogue/date/inworld comments stripped, for rendering
     $md = (($block | Where-Object { $_ -notmatch '^\s*<!--\s*(fathom|epilogue|date|inworld)' }) -join "`n").Trim()
-    $text = $md -replace '!\[(.*?)\]\((.*?)\)', '$1' -replace '\[(.*?)\]\((.*?)\)', '$1' -replace '[#>*`_]', ' ' -replace '\s+', ' '
+    $text = $md -replace '<!--.*?-->', ' ' -replace '!\[(.*?)\]\((.*?)\)', '$1' -replace '\[(.*?)\]\((.*?)\)', '$1' -replace '[#>*`_]', ' ' -replace '\s+', ' '
     $order++
     [void]$all.Add([pscustomobject]@{
       id = "ch$order"; order = $order; book = $b.book; bookTitle = $b.title
@@ -113,7 +113,7 @@ if (Test-Path $secdir) {
       elseif ($title -ne '' -and $sub -eq '' -and $t -match '^\*.+\*$') { $sub = ($t.Trim('*') -replace '\*\*', '').Trim() }
     }
     $md = (($lines) -join "`n").Trim()
-    $text = $md -replace '!\[(.*?)\]\((.*?)\)', '$1' -replace '\[(.*?)\]\((.*?)\)', '$1' -replace '[#>*`_]', ' ' -replace '\s+', ' '
+    $text = $md -replace '<!--.*?-->', ' ' -replace '!\[(.*?)\]\((.*?)\)', '$1' -replace '\[(.*?)\]\((.*?)\)', '$1' -replace '[#>*`_]', ' ' -replace '\s+', ' '
     $sorder++
     [void]$secrets.Add([pscustomobject]@{
       id = "sec$sorder"; order = $sorder; title = $title; subtitle = $sub; md = $md; text = $text.Trim()

@@ -72,6 +72,31 @@
   #reader p{margin:.6rem 0;text-align:justify}
   #reader blockquote{margin:1rem 1.2rem;padding:.2rem 0 .2rem 1rem;border-left:3px solid var(--accent);
     font-style:italic;color:var(--ink-soft)}
+  /* in-world letters: a document reproduced in its author's own hand, never in our prose voice.
+     Parchment is a physical object, so it stays warm in dark mode — only the glare comes down. */
+  #reader .letter{position:relative;margin:1.8rem 0;padding:2.1rem 2rem 2.3rem;
+    background:
+      radial-gradient(ellipse at 16% 10%, rgba(126,88,38,.14), transparent 56%),
+      radial-gradient(ellipse at 86% 84%, rgba(96,62,24,.17), transparent 58%),
+      radial-gradient(ellipse at 60% 45%, rgba(150,116,60,.08), transparent 70%),
+      linear-gradient(168deg,#f0e2c2,#e6d4ae 55%,#dcc79c);
+    color:#2b1f11;border:1px solid #c0a77a;border-radius:2px;
+    font-family:Luminari,"Old English Text MT","Blackadder ITC","IM FELL English","Baskerville Old Face",Palatino,Georgia,serif;
+    line-height:1.9;letter-spacing:.012em;
+    text-shadow:0 0 1px rgba(60,35,10,.32);
+    box-shadow:0 1px 0 rgba(0,0,0,.22),0 12px 30px rgba(0,0,0,.34),inset 0 0 52px rgba(120,80,32,.3)}
+  #reader .letter::before{content:"";position:absolute;inset:6px;border:1px solid rgba(110,78,34,.22);
+    border-radius:1px;pointer-events:none}
+  #reader .letter p{color:#2b1f11;margin:.85rem 0;text-align:left;text-indent:1.4em}
+  #reader .letter p:first-of-type{text-indent:0}
+  #reader .letter p:last-of-type::after{content:" \2026";color:rgba(43,31,17,.5)}
+  #reader .letter strong{color:#4a1d14;font-weight:600}
+  #reader .letter em{color:#3a2a17}
+  @media (prefers-color-scheme: dark){
+    #reader .letter{filter:brightness(.9) saturate(.94);
+      box-shadow:0 1px 0 rgba(0,0,0,.4),0 12px 32px rgba(0,0,0,.55),inset 0 0 52px rgba(110,72,28,.34)}
+  }
+  @media (max-width:520px){ #reader .letter{padding:1.4rem 1.15rem 1.6rem;line-height:1.8} }
   #reader .ornament{text-align:center;color:var(--accent2);letter-spacing:.4em;margin:1rem 0}
   #reader .rdsub{text-align:center;font-style:italic;color:var(--ink-soft);margin:.1rem 0 1rem}
   #reader figure.fig{margin:1.6rem 0;text-align:center}
@@ -461,6 +486,9 @@ function mdToHtml(md){
   for(var i=0;i<blocks.length;i++){
     var b = blocks[i].replace(/\s+$/,''); if(!b.trim()) continue;
     var first = b.split('\n')[0].trim();
+    /* an in-world document reproduced verbatim — an enemy's own hand, not our narrating voice */
+    if(/^<!--\s*letter\s*-->$/.test(b.trim())){ out.push('<div class="letter">'); continue; }
+    if(/^<!--\s*\/letter\s*-->$/.test(b.trim())){ out.push('</div>'); continue; }
     var im = b.trim().match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
     if(im){
       var cap=im[1].trim(), src=im[2].trim();
