@@ -17,8 +17,16 @@ the Timeline displays: write it in the chronicle's voice, and keep it accurate.
 A chapter's place on that Timeline comes from its own `<!-- inworld: … -->` marker in `source/`,
 not from this file. When a chapter's dates change, change both.
 
-The campaign runs **16th Arodus** — Armasse, the day Kenabres fell — through **25th Neth**, the
-assault on the Ivory Sanctum: **101 days**, of which 65 carry a log entry.
+The campaign runs **16th Arodus** — Armasse, the day Kenabres fell — through **26th Neth**, the
+assault on the Ivory Sanctum: **102 days**, of which 66 carry a log entry.
+
+⚠️ **From the 11th of Neth onward the chronicle runs one day later than the Fantasy Grounds log**,
+and the chronicle is the one that is right. See *10th Neth — Drezen* under **Contradictions** below:
+the log never counted the night the company spent in camp ten miles short of the walls, so every log
+date after that is early by one. Chapters VIII, IX and X have each been validated against their own
+recordings and the days above follow them. `06-in-world-calendar.json` is the raw Fantasy Grounds
+extraction and still carries the log's original dates — that is correct for what it is, and it must
+not be hand-edited to agree with this file.
 
 Days drawn from the GM's private log rather than the players' are marked *(GM's hand)*.
 
@@ -119,23 +127,28 @@ Days drawn from the GM's private log rather than the players' are marked *(GM's 
   home, by way of two badly missed teleports.
 - **13th** — The Queen's agent collected from the temple pews, and the company carried west to the
   **Hidden Shrine**, where they spent the night and turned their minds to the dragon.
-- **14th** — The lair of the woundwyrm **Scorizscar** found, and Scorizscar slain.
-- **15th** — From the dragon's lair by teleport to the temple of Sarenrae, where they sat out the
+- **14th** — Out of the **Hidden Shrine** into an ash storm blowing up off the lava country, south
+  along the rim of the **Gray Road**. Half a hex of ground all day, and camp in a crevice of the
+  old riverbed.
+- **15th** — The great clawed footprint, the shattered obsidian knight of **Iomedae** in the
+  riverbed, and the cave in the western bank. They went in the same evening rather than sleep
+  beside it, and killed the woundwyrm **Scorizscar** in her own lair.
+- **16th** — From the dragon's lair by teleport to the temple of Sarenrae, where they sat out the
   storm.
-- **16th** — Out from the temple toward the redoubt.
-- **17th** — On the Gray Road, west for **Takira's Redoubt**. **Lupenor** woke from a dream of the
+- **17th** — Out from the temple toward the redoubt.
+- **18th** — On the Gray Road, west for **Takira's Redoubt**. **Lupenor** woke from a dream of the
   place. The **Red Swarm** took them on the road.
-- **18th** — Marching for the redoubt.
-- **19th** — **Takira's Redoubt** reached.
-- **20th** — Teleport to the Hidden Shrine: goods set down, orders left, **Chyrrik** posted as
+- **19th** — Marching for the redoubt.
+- **20th** — **Takira's Redoubt** reached.
+- **21st** — Teleport to the Hidden Shrine: goods set down, orders left, **Chyrrik** posted as
   runner, **Samail** raised — and back to the redoubt, mostly by teleport again.
-- **21st** — A storm of teeth held them from leaving for the **Green Gates** and the
+- **22nd** — A storm of teeth held them from leaving for the **Green Gates** and the
   **Ivory Sanctum**. Rabiah's needle and thread built the first bridge to her new succubus
   companion.
-- **22nd** — Toward the Green Gates, with **Arueshalae** guiding.
-- **23rd** — The same road, the same guide.
-- **24th** — The climb to the **Green Gates**.
-- **25th** — The **Ivory Sanctum** assaulted.
+- **23rd** — Toward the Green Gates, with **Arueshalae** guiding.
+- **24th** — The same road, the same guide.
+- **25th** — The climb to the **Green Gates**.
+- **26th** — The **Ivory Sanctum** assaulted.
 
 ---
 
@@ -170,12 +183,15 @@ the chronicle has never named. **Not yet reconciled** — resolve with Matt befo
   (*"today is the 10th of Neth"*, *"Toil Day, the 12th of Neth"*) are all **one day early**, because
   none of them counts the night in camp. Treat every log date from the 10th of Neth onward as
   suspect by one day until the chapter that covers it has been validated against its own recording.
-  ⚠️ **Consequence, still to be worked through: Ch X.** Ch IX now ends with the company sleeping at
-  the **Hidden Shrine** on the night of the **13th**, but Ch X opens *"The thirteenth of Neth"* with
-  the shrine doors swinging wide at dawn — so the two chapters currently claim the same day. If the
-  log is uniformly a day early, Ch X should be **14–16 Neth** and everything after it shifts with
-  it, down to the **25th**. Ch X onward have **not** been validated against their recordings, so
-  that cascade is not being applied blind.
+  ✅ **Cascade applied, Aug 2026, on evidence.** Ch X was then validated against its own recording
+  (call `684541862`) and confirms the offset is uniform: its session covers **two** days, not three
+  — the company found the cave in the late afternoon and went straight in that evening rather than
+  camping beside it. Ch X is therefore **14–15 Neth**, not 13–15, and every chapter after it moves
+  one day later: Ch XI 16–19, Ch XII and Ch XIII the 20th, Ch XIV 20–25, Ch XV 25–26, and the
+  assault on the **Ivory Sanctum** lands on the **26th**. Chapter metadata, in-text dates and the
+  day-by-day above have all been shifted together. **Ch XI onward have still not been validated
+  against their recordings** — their dates now follow from Ch X's arithmetic rather than from their
+  own tapes, so treat them as good but unconfirmed.
 - ~~**Ch VIII / Ch IX — the body count.**~~ *Resolved by Matt, Aug 2026.* Ch VIII (validated) ends
   with **one** Derakni dead and one fled; the 9 May recording's opening recap described **two**
   carcasses. That was the table mis-remembering the previous session, not a chronicle error, and

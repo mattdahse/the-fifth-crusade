@@ -1756,27 +1756,27 @@ And there, beneath the roof of the Dawnflower's hidden shrine — the wyrm somew
 
 ## **The Knight in Obsidian**
 
-<!-- inworld: 13 Neth 4713 to 15 Neth 4713 -->
+<!-- inworld: 14 Neth 4713 to 15 Neth 4713 -->
 
 <!-- fathom: call=684541862 recording=149015333 -->
 
-*22 May 2026 session — 13th through 15th of Neth, 4713 AR*
+*22 May 2026 session — 14th through 15th of Neth, 4713 AR*
 
 ### **South from the Shrine**
 
-The thirteenth of Neth opened on the wrong smell and the wrong sky. As the doors of the **Hidden Shrine of Sarenrae** swung open at dawn, a wave of heat rolled in over the threshold, carrying with it the sulfurous tang of an ash storm already at work outside. The company considered waiting it out under the Dawnflower's roof. They decided against it. ***Endure Elements*** went layered over **Harlock**, **Chyrrik**, and **Varic** — **Rabiah** doing without it that day to leave room for **Chyrrik**'s own ***Resist Energy*** — and they tied cloths across their mouths against the choking ash and stepped out into the burning wind.
+The fourteenth of Neth opened on the wrong smell and the wrong sky. As the doors of the **Hidden Shrine of Sarenrae** swung open at dawn, a wave of heat rolled in over the threshold, carrying with it the sulfurous tang of an ash storm already at work outside. The company considered waiting it out under the Dawnflower's roof. They decided against it. **Varic** spent all three of his ***Endure Elements*** on other people — **Chyrrik**, who had traded hers away for the acid-wards she was carrying against the dragon, and **Rabiah**, and **Lupenor** — and took none for himself, being proof against fire in his own right; **Harlock** saw to himself. Then they tied cloths across their mouths against the choking ash and stepped out into the burning wind.
 
 The storm came up out of the south, off the lava country, blowing straight into their faces. Half a hex was as much ground as they could win, and smoldering flakes lit themselves on their cloaks and had to be slapped out as they walked. By dusk the storm had thinned to a dark bruise of purple and gray, and the broken country had opened sooner than they had reckoned: they found themselves at the edge of the **Gray Road**'s riverbed, a steep crevice some twelve feet wide, sheltered on either side, open only to the sky. **Rabiah** conjured a ***Secure Shelter*** down into the bottom of it, and they slept there while the last of the gale spent itself overhead.
 
 ### **The Footprint**
 
-The fourteenth of Neth dawned still and pallid, the wind dead. They had not marched far before the riverbed stones at their feet began to bear the cratered scars of old acid burns and the half-dried mud of yesterday's drift. In one such patch of ash they found the print: a single great clawed step, reptilian, larger than a horse — the kind of grip that could close around a horse and swallow it at the other end of the same motion. The company stood and looked at it and considered, briefly and seriously, the matter of going back. They did not.
+The fifteenth of Neth dawned still and pallid, the wind dead. They had not marched far before the riverbed stones at their feet began to bear the cratered scars of old acid burns and the half-dried mud of yesterday's drift. In one such patch of ash they found the print: a single great clawed step, reptilian, larger than a horse — the kind of grip that could close around a horse and swallow it at the other end of the same motion. The company stood and looked at it and considered, briefly and seriously, the matter of going back. They did not.
 
 ### **The Knight in the Riverbed**
 
-A little farther on, **Harlock** found himself nudging an oddly-shaped chunk of obsidian with the tip of ***Radiance*** to see what it was. It rolled, and what looked back at him was a face — or where a face had been. A knight's helmet from a full plate suit, eye-slit and breathing-slit and all, with the unmistakable crest of ***Iomedae*** carved into its brow. The whole of it was volcanic glass. Not iron crusted in glass. Obsidian, the entirety of it, turned and then shattered.
+A little farther on it was **Lupenor** who saw it first — a whole stretch of the riverbed downstream glittering as though the sun were catching the crests of small waves, and, off among the rocks, one larger chunk the size of a small watermelon. They took no chances with it. ***Detect Magic*** found nothing on it; **Harlock**'s eye for evil found nothing either; and so he went down to it alone with his shield up in front of his face, on the entirely reasonable grounds that things in the **Marchlands** explode. It did not explode. He nudged the oddly-shaped chunk over with the tip of ***Radiance*** to see what it was, and what looked back at him was a face — or where a face had been. A knight's helmet from a full plate suit, eye-slit and breathing-slit and all, with the unmistakable crest of ***Iomedae*** carved into its brow. The whole of it was volcanic glass. Not iron crusted in glass. Obsidian, the entirety of it, turned and then shattered.
 
-Not three paces further on lay the rest of him in pieces: a half-curve that had been a cuirass, the line of a sword and shield melted into one piece, the riverbed strewn with him like a dropped vase. Acid had pitted the stones around him in the same generous bursts they had now seen for days. The breath weapon they had come south to face turned flesh and steel both to obsidian and broke them where they fell. **Rabiah** ran ***Resist Energy*** around the company twice over while she had the spells in her — acid first, against this — and set a ***Light*** on the shaft of an arrow standing point-up in **Lupenor**'s quiver, so the company would walk with a steady glow behind them when the cave came.
+Not three paces further on lay the rest of him in pieces: a half-curve that had been a cuirass, the line of a sword and shield melted into one piece, the riverbed strewn with him like a dropped vase. Acid had pitted the stones around him in the same generous bursts they had now seen for days. The breath weapon they had come south to face turned flesh and steel both to obsidian and broke them where they fell. They talked, standing over him, about whether to spend their wards on fire or on acid, and agreed to spend nothing at all until the last possible moment; and then they climbed out of the riverbed and walked on along its western rim, which felt less like being in a funnel.
 
 ### **The Vinegar Cave**
 
@@ -1786,33 +1786,45 @@ The gravel at her feet was strewn with tiny obsidian flakes that glittered like 
 
 ### **Into the Dark**
 
-They did not camp inside. They prepared their wards from a careful distance — acid first, then flame against whatever the dragon's second element might prove to be — and at the morning of the third day they descended together into the cave, the steady glow of **Rabiah**'s arrow-light walking quietly behind **Lupenor**'s shoulder. The lair's air bit hard at their throats. The ceiling sloped up into a darkness that swallowed even her elven sight; deeper in, sound carried on the walls in ways that suggested the cavern opened further than they could see. They tried to move quietly, and in three sets of heavy armor and one ranger's tread, did not particularly succeed.
+There was some talk of pulling back up the bank and camping and going in fresh in the morning, and it did not survive contact with the fact that nobody wanted to sleep within a mile of that cave mouth either. So they went in that evening, with the daylight already failing behind them.
+
+At the mouth they spent the wards at last, and they spent them all on acid: **Chyrrik** warding herself, **Rabiah** warding herself and **Lupenor**, **Varic** and **Harlock** each their own. Nobody laid a ward against fire. It is worth recording that this turned out not to matter, and not because they guessed right — the thing waiting for them had no particular interest in fire, and no resistance to it either.
+
+Light was the harder problem, and they argued it: a torch in a dragon's lair is a lantern hung on your own throat. In the end **Lupenor** drank a potion of darkvision, and **Rabiah** set a ***Light*** on the shaft of an arrow standing point-up in the slayer's quiver, so the glow rode behind her shoulder and lit the company rather than the ground in front of them, and could be dropped into a pack if it came to that. **Harlock** could wake ***Radiance***'s own light whenever he chose, and for the moment chose not to.
+
+They descended together. The lair's air bit hard at their throats. The ceiling sloped up into a darkness that swallowed even her elven sight; deeper in, sound carried on the walls in ways that suggested the cavern opened further than they could see. They tried to move quietly, and in three sets of heavy armor and one ranger's tread, did not particularly succeed.
 
 ### **Entropic Breath**
 
-The ambush came out of the dark, as such things must. A cone of thick, sluggish purple fog rolled over the company, and the acid that hung in it was the lesser thing in it by far. ***Entropic Breath*** is, by any honest description, a powerful hallucinogen — and the company now learned, in person and at close quarters, what exactly that meant. **Chyrrik**, somewhere behind **Harlock** in the fog, brought the head of her warhammer down hard upon her own foot and crushed it neatly, in a desperate effort to dislodge the swarm of flesh-eating spiders that only she could see. **Harlock** fought to keep his eyes on the dragon, and not on the horrors playing at the periphery of his own vision — shapes the rest of the company would not, afterward, have wanted described to them.
+The ambush came out of the dark, as such things must. A cone of thick, sluggish purple fog rolled over the company, and the acid that hung in it was the lesser thing in it by far. ***Entropic Breath*** is, by any honest description, a powerful hallucinogen — and the company now learned, in person and at close quarters, what exactly that meant. **Chyrrik**, somewhere behind **Harlock** in the fog, still had in her hand the arrow she had drawn to shoot with, and put it into herself instead, over and over, trying to get the flesh-eating spiders off her arms — spiders that were not there, and that nobody else in the cave could see. **Harlock** fought to keep his attention on the dragon and not on the horrors playing at the periphery of his own vision — his fingers, he reported later, were melting — shapes the rest of the company would not, afterward, have wanted described to them.
 
 ### **The Maw**
 
-And the dragon came down out of the dark. **Scorizscar**. Six-legged, eyeless, iridescent, no honest colour in the half-light of the company's small arrow-lamp — and the wrong number of teeth besides. Its ***Entropic Shield*** cast a haze of nothing-quite-where-it-seemed around its body, so that **Lupenor**'s first arrows clattered aside on miss-chance or skidded off a hide that turned every blade not magic-and-good-and-lawful all three at once. And then it opened its mouth and the company learned what ***Maw of the Abyss*** meant: a horror that reached, not bit; a cone that pulled, not pushed. **Rabiah** and **Harlock** were dragged forward against their will into the very edge of the thing's mouth and held there, the air inside it eating at them simply by existing.
+And the dragon came down out of the dark. **Scorizscar** — and she was a she, which nobody learned until she was dead and it hardly mattered by then. Six-legged, eyeless, iridescent, no honest colour in the half-light of the company's small arrow-lamp — and the wrong number of teeth besides. Her ***Entropic Shield*** cast a haze of nothing-quite-where-it-seemed around her body, so that **Lupenor**'s first arrows clattered aside on miss-chance or skidded off a hide that turned every blade not magic-and-good all three at once.
+
+Then she found the slayer in the dark and breathed on her — the breath that had made the knight in the riverbed, that turns meat to volcanic glass in the time it takes to flinch. **Lupenor** held. By the width of a die-roll and nothing else, she stayed flesh. Nobody in the company said anything about it at the time; there was no room in the round for it.
+
+And then **Scorizscar** opened her mouth and they learned what ***Maw of the Abyss*** meant: a horror that reached, not bit; a cone that pulled, not pushed. **Rabiah** and **Harlock** were dragged bodily forward against their own weight into the very edge of it and pinned there against her teeth, the air inside her eating at them simply by existing.
 
 ### **The Good Iron**
 
-The fight nearly slipped from them. The dragon's hide turned every blade and every arrow that was not all three of magic and good and lawful at once; **Lupenor** was firing into a mist of mischance; **Chyrrik** was on the cave floor with her foot a ruin of her own making, the visions still moving at the edges of her sight. From an inner pocket she dug out ***Terendelev's Scale*** — one of the four relics that yet remained of the great silver dragon whose dying act, as **Kenabres** fell, had been to save the company itself — and worked the rite from where she lay, the rite that made her warhammer, for the duration of the engagement, *good*. The hammer bit.
+The fight nearly slipped from them. The dragon's hide turned every blade and every arrow that was not both magic and good; cold iron did nothing, and **Lupenor** emptied her quiver into a mist of mischance for a handful of points at a time; **Rabiah** spent her strength on fire against a creature that did not care about fire, and could not get a spell past her resistance without burning mythic power to do it. **Chyrrik** carried the answer and had carried it all along: ***Terendelev's Scale*** — one of the four relics that yet remain of the great silver dragon whose dying act, as **Kenabres** fell, was to save the company itself. She spent a whole round of the worst fight of her life standing still in the fog, doing nothing but laying the dragon's own blessing along the head of her warhammer to make it, for that engagement, *good*. It was the right call and it bought her nothing: the confusion still had her, and she never landed a blow all day.
 
-**Varic** kept the front line on its feet by main force. He reached deep and put a whole tide of golden light into **Harlock** at the worst possible moment, and a ***Protection from Evil*** reached across the chaos and pulled the lingering rot out of the paladin's head, and he was himself again, the periphery clearing. **Rabiah** caught her breath, gathered the company up in her thoughts the way she had been learning to do, and shaped ***Haste*** around them. Extra steps. Extra strikes. The fight stopped slipping.
+**Varic** kept the front line alive by main force and very little else. Twice he burned a prepared spell down into a mythic ***Cure Serious Wounds*** and put the whole of it into **Harlock** — sixty-three points, then seventy-six — which is the only reason there was a paladin left standing at the mouth of that thing; and **Harlock** slapped his own chest with his shield hand and laid on hands for the rest. Then **Varic** made the call that turned the fight: instead of another heal he reached out with ***Protection from Evil***, which buys a second saving throw against anything working on a man's mind, and gave it to **Harlock**. The paladin rolled badly, spent mythic strength to try again, and came up with exactly the number he needed. The rot went out of his head. He was himself again, and the periphery cleared.
+
+**Rabiah** had already cut a five-foot tunnel through the fog with a ***Gust of Wind*** so that anyone could see anything at all. Now she gathered the company up in her thoughts the way she had been learning to do, and shaped ***Haste*** around them. Extra steps. Extra strikes. The fight stopped slipping.
 
 ### **Holy Smite, and Radiance Falling**
 
-**Varic**, who had been husbanding the spell all morning for exactly this moment, called down ***Holy Smite***. The wedge of divine fire that broke across the eyeless wyrm was a fire he could not see and would not have flinched from in any case — but the divine half of it found the abyssal taint in **Scorizscar**'s hide and bit clean through. The dragon shuddered down the length of his great six-legged frame, sense by other sense, and lost a half-step of his composure he did not quite recover.
+**Varic** called down ***Holy Smite***, forcing it past her resistance on a second attempt, and she failed to turn it aside. The divine half of it found the abyssal taint in **Scorizscar**'s hide and bit clean through — and the spell, with the flat literalism of divine law, also struck her blind. She had no eyes. She had never had eyes. She took the blindness anyway, and for one round the oldest thing in that cave was groping.
 
-**Harlock**, under ***Haste***, under ***Smite Evil***, brought ***Radiance*** up two-handed and swung. He missed by a hair. He asked the sword for one more, and the sword gave it — the second stroke landing where the first had not, going in clean and then going in deeper than clean, all the way to something that mattered. The wyrm convulsed, drew his great frame up as though he might yet pull free of the blade, and did not pull free. He came down.
+**Harlock**, under ***Haste***, under ***Smite Evil***, went at her with everything he had left and hit twice. Then the extra stroke that ***Haste*** had bought him came round — and landed true, and kept going, and confirmed. He went up onto the dragon's head and drove ***Radiance*** straight down through her skull. She dropped where she stood, all at once, the way a building comes down; and the shimmer of the ***Entropic Shield*** that had turned aside half the arrows in the room simply winked out, and did not come back.
 
 ### **The Long Quiet**
 
-**Chyrrik**, still in the slow tail of the fog's grip, dragged herself up off the floor and hit the dead dragon once, neatly, for good measure, before her senses fully returned. **Varic** excluded the corpse from his channel of positive energy with the careful prejudice of a man who had had quite enough; the wave of healing closed the bleeding around him — including, at last, what was left of **Chyrrik**'s foot — and ignored the great scaled shape going cold beside them. The lair went quiet.
+The fog had not finished with **Chyrrik**. She fell on the carcass and beat it with her hammer for a while, which harmed nobody. Then she turned around and swung at **Harlock**, and missed him — the company standing very still and letting her — and then spent her last round babbling, and came back to herself with no memory of having done any of it. **Varic** excluded the corpse from his channel of positive energy with the careful prejudice of a man who had had quite enough; the wave of healing closed the bleeding around him and ignored the great scaled shape going cold beside them. The lair went quiet.
 
-What it gave them, in the slow accounting of the hours that followed, was considerable. Out of the hoard proper came a ***Wand of Stoneskin*** for **Rabiah**, a ***Belt of Dwarvenkind*** and a suit of ***+4 Mithril Scale Mail*** for **Chyrrik**, and a magical cold-iron longsword whose blade bore the etched name ***Battle Hymn*** and would not yet say what else it was. Beyond the hoard, piled along one wall, was a small mountain of trade goods — silks and spices and silver ingots and food, the years-long take of caravans pulled off the **Drezen**–**Kenabres** road. **Drezen** would have its grain after all.
+What it gave them, in the slow accounting of the hours that followed, was considerable. Out of the hoard proper came a ***Wand of Stoneskin*** for **Rabiah**, a ***Belt of Dwarvenkind*** and a suit of ***+4 Mithril Scale Mail*** for **Chyrrik**, and a magical cold-iron longsword whose blade bore the etched name ***Battle Hymn*** and would not yet say what else it was. There was four thousand gold apiece besides, a platinum holy symbol of ***Iomedae*** that **Harlock** intended from the moment he saw it to hand over to the church rather than keep, and a letter that nobody could make anything of and that **Varic** put aside to carry to **Sosiel**. Beyond the hoard, piled along one wall in its own separate mountain, were the trade goods — silks and spices and silver ingots and food, the years-long take of caravans pulled off the **Drezen**–**Kenabres** road. **Drezen** would have its grain after all, if they could work out how to move it.
 
 And something was paid out to them that the dragon had not meant to give. **Scorizscar** had been the last thing standing between **Varic** and **Harlock** and whatever the wardstone had been holding in reserve for them, and it gave way on the cave floor: both men felt the change go through them, a settling and a deepening, so that everything they reached for afterward came up heavier in the hand. **Rabiah** and **Lupenor** each felt their own turn coming, nearer now than it had been that morning. And the slow accumulation of a hard season came due all at once on the dragon's carcass. **Lupenor** found a third shot living in her bow-arm inside a single drawn breath. **Rabiah** opened a shelf of her memory that had been empty that morning and found ***Break Enchantment*** waiting on it, ready for the next confusion when it came. And **Chyrrik**, who had been the easiest mark all day for the worst of the fog, learned in that same hour the trick of stepping out from under a thing before it lands — which she would have given a great deal to have known before breakfast.
 
@@ -1826,11 +1838,11 @@ There was one last spell **Rabiah** meant to spend before they slept. She gather
 
 ## **The Bait and the Mirror**
 
-<!-- inworld: 15 Neth 4713 to 18 Neth 4713 -->
+<!-- inworld: 16 Neth 4713 to 19 Neth 4713 -->
 
 <!-- fathom: call=701608077 recording=152868183 -->
 
-*6 June 2026 session — The Gray Road, 18th of Neth, 4713 AR*
+*6 June 2026 session — The Gray Road, 19th of Neth, 4713 AR*
 
 ### **The Spoils of the Wyrm**
 
@@ -1890,11 +1902,11 @@ But the road still ran west, and **Arueshalae** still waited at **Takira's Redou
 
 ## **The Gates of the Redoubt**
 
-<!-- inworld: 19 Neth 4713 -->
+<!-- inworld: 20 Neth 4713 -->
 
 <!-- fathom: call=718333386 recording=156802136 -->
 
-*19 June 2026 session — Takira's Redoubt, 19th of Neth, 4713 AR*
+*19 June 2026 session — Takira's Redoubt, 20th of Neth, 4713 AR*
 
 ![Takira's Redoubt rises out of the frozen Marchlands — and Lupenor knows it, stone for stone, from a dream.](images/fort-in-the-dream.webp)
 
@@ -1918,7 +1930,7 @@ Near evening the flats gave way to desolate tundra, and on the western horizon t
 
 ### **The Fort in the Dream**
 
-The 19th of Neth dawned clear, bitterly cold, the sky wearing a faint greenish cast that nobody chose to remark upon. An hour's march brought the fort up out of the horizon — and brought **Lupenor** up short. She knew this place. She had walked it in her sleep. The crumbled walls, the single tower still standing proud above the ruin — it was the fortress from her dream, stone for stone, and as the company drew closer a formless dread settled over all of them, the certain knowledge that something serious waited inside. If their intelligence held true, they had found what they crossed the **Marchlands** to find: **Takira's Redoubt**, where the hunter **Jaruunicka** was said to have run the penitent succubus **Arueshalae** to ground.
+The 20th of Neth dawned clear, bitterly cold, the sky wearing a faint greenish cast that nobody chose to remark upon. An hour's march brought the fort up out of the horizon — and brought **Lupenor** up short. She knew this place. She had walked it in her sleep. The crumbled walls, the single tower still standing proud above the ruin — it was the fortress from her dream, stone for stone, and as the company drew closer a formless dread settled over all of them, the certain knowledge that something serious waited inside. If their intelligence held true, they had found what they crossed the **Marchlands** to find: **Takira's Redoubt**, where the hunter **Jaruunicka** was said to have run the penitent succubus **Arueshalae** to ground.
 
 It was crusader work, centuries old — walls five feet thick raised by builders who believed a thicker wall was a better wall, perched atop a steep-sided rise some forty feet above the plain. The roofs were long gone. The battlements stood in ragged intervals, their faces pitted with the scars of acid and fire. The only approach was a long, winding, mercilessly exposed trail, and at its top a shallow stair climbed into darkness — ending at an iron portcullis, twisted and jammed in its channel, with a second gate visible ten feet beyond. Whoever held this place did not intend to be walked in upon.
 
@@ -1966,11 +1978,11 @@ The way into **Takira's Redoubt** stands open. The company holds nothing yet but
 
 ## **The False Arueshalae**
 
-<!-- inworld: 19 Neth 4713 -->
+<!-- inworld: 20 Neth 4713 -->
 
 <!-- fathom: call=734953039 recording=160772142 -->
 
-*4 July 2026 session — Takira's Redoubt, 19th of Neth, 4713 AR (continued)*
+*4 July 2026 session — Takira's Redoubt, 20th of Neth, 4713 AR (continued)*
 
 ![The succubus finishes the demons that threatened Chyrrik.](images/false-arueshalae.webp)
 
@@ -2038,11 +2050,11 @@ They had come to **Takira's Redoubt** to reach **Arueshalae** before her hunters
 
 ## **The Bell of Mercy**
 
-<!-- inworld: 19 Neth 4713 to 24 Neth 4713 -->
+<!-- inworld: 20 Neth 4713 to 25 Neth 4713 -->
 
 <!-- fathom: call=752135749 recording=165040528 -->
 
-*18 July 2026 session — Takira's Redoubt to the Ivory Sanctum, 19th through 24th of Neth, 4713 AR*
+*18 July 2026 session — Takira's Redoubt to the Ivory Sanctum, 20th through 25th of Neth, 4713 AR*
 
 ![Arueshalae — the penitent succubus.](images/arueshalae.webp)
 
@@ -2092,7 +2104,7 @@ She sealed the bargain with two gifts. To **Lupenor** she leaned close and asked
 
 ### **The Hidden Shrine**
 
-They could not take a demon to **Drezen**, where the **Sword of Valor** wards the city against her kind and would see her strung up on sight. So they made a forward plan instead. **Rabiah** spent eight hours hammering a rough teleport circle into a slab of the redoubt's stone with the head of her adamantine morning star, for want of any finer tool, and on the **20th of Neth** she carried **Varic** and **Chyrrik** across the miles to the **Hidden Shrine of Sarenrae**.
+They could not take a demon to **Drezen**, where the **Sword of Valor** wards the city against her kind and would see her strung up on sight. So they made a forward plan instead. **Rabiah** spent eight hours hammering a rough teleport circle into a slab of the redoubt's stone with the head of her adamantine morning star, for want of any finer tool, and on the **21st of Neth** she carried **Varic** and **Chyrrik** across the miles to the **Hidden Shrine of Sarenrae**.
 
 They arrived to the smell of sulfur and recent fire. **Rothin** met them with grim news: a crusader patrol had passed through and been followed, and a dozen and more **Brimorak** demons had fallen on the shrine, drawing the defenders to the gate and raining fire over the walls. The place had held — the very spy the company had once turned loose to put the fear of the Dawnflower into the enemy had helped drive them off — but a priest had died in the burning, and **Rothin** had lacked the means to call him back. **Varic** had the means. He spent a diamond worth a small fortune and a measure of his own mythic strength and a full minute of prayer, and drew the fallen cleric **Samuel** back across the threshold of death. The man breathed in for the better part of a minute, the blue draining out of his skin, the fire's burns bubbling smooth, and sat bolt upright with a gasp — *"I'm alive."* **Harlock**, when he heard of it, had the soldier's word for it: *welcome back to the fight, brother.* The death would cling to **Samuel** a while yet, a weakness in him that **Rothin** would mend over the coming weeks with diamond dust and patience.
 
@@ -2132,11 +2144,11 @@ That left the matter of **Lupenor**. **Varic** remembered the old cure — that 
 
 ## **The Jailer's Ring**
 
-<!-- inworld: 24 Neth 4713 to 25 Neth 4713 -->
+<!-- inworld: 25 Neth 4713 to 26 Neth 4713 -->
 
 <!-- fathom: call=769093056 recording=169318901 -->
 
-*July 31, 2026 session — the Green Gates and the Ivory Sanctum, 24th of Neth, 4713 AR*
+*July 31, 2026 session — the Green Gates and the Ivory Sanctum, 25th of Neth, 4713 AR*
 
 ### **The Wall That Was Not There**
 
