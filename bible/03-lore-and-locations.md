@@ -88,7 +88,7 @@ first time any named item is illustrated.
 - **The Defender's Heart** — fortified inn and crusader stronghold in Kenabres; Irabeth's command post.
 - **The Black Wing Library** — the crusade's foremost repository on demons and the planes; partly collapsed.
 - **Neathholm** — the underground settlement of the mongrelmen, descendants of the corrupted First Crusade.
-- **Takira's Redoubt** — the far western ruin where Arueshalae was run to ground (Book II, Ch XVIII–XIX).
+- **Takira's Redoubt** — a fort in the far western Marchlands, standing rather than ruined, where **Arueshalae** was run to ground. Named in a captured cultist dispatch in Book III, Ch VI, placed by rumour in Ch IX, and reached in Ch XII–XIV (*The Gates of the Redoubt*, *The False Arueshalae*, *The Bell of Mercy*). **Lupenor** knew its stones from a dream before she saw it. Called **Arueshalae's Redoubt** on the Marchlands map (area N).
 - **The Gray Road / the Marchlands** — the broken country crossed on the long march west.
 
 ### The Citadel of Drezen
