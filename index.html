@@ -220,7 +220,16 @@
   .mk.sel .flag,.mk.sel .disc{stroke:#fff3d6;stroke-width:2.4}
   .mk.sel svg{filter:drop-shadow(0 0 7px rgba(255,224,138,.95)) drop-shadow(0 2px 3px rgba(0,0,0,.7))}
   .map-frame.no-names .mk-label{display:none}
-  .map-frame.no-marks .mk{display:none}
+  /* Markers off is not the same as places off: the flag goes, the name stays and moves onto
+     the spot itself, since with no staff to explain it an offset label reads as misplaced.
+     Only the name is left clickable — the vanished flag must not keep an invisible target. */
+  .map-frame.no-marks .mk{pointer-events:none}
+  .map-frame.no-marks .mk svg{visibility:hidden}
+  .map-frame.no-marks .mk-label{left:50%;right:auto;top:100%;text-align:center;
+    transform:translate(-50%,-50%);pointer-events:auto}
+  .map-frame.no-marks .mk.icon .mk-label{top:50%}
+  .map-frame.no-marks.no-names .mk{display:none}
+  .mk.sel .mk-label{color:#ffe6a8}
   .map-legend{display:flex;flex-wrap:wrap;gap:.3rem .95rem;align-items:center;
     font-size:.78rem;color:var(--ink-soft);margin:.55rem 0 .2rem}
   .map-legend span{display:inline-flex;align-items:center;gap:.3rem}
