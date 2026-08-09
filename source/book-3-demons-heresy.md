@@ -1774,6 +1774,8 @@ And there, beneath the roof of the Dawnflower's hidden shrine — the wyrm somew
 
 *22 May 2026 session — 14th through 15th of Neth, 4713 AR*
 
+![In the Worldwound, this passes for decent weather.](images/decent-weather.webp)
+
 ### **South from the Shrine**
 
 The fourteenth of Neth opened on the wrong smell and the wrong sky. As the doors of the **Hidden Shrine of Sarenrae** swung open at dawn, a wave of heat rolled in over the threshold, carrying with it the sulfurous tang of an ash storm already at work outside. The company considered waiting it out under the Dawnflower's roof. They decided against it. **Varic** spent all three of his ***Endure Elements*** on other people — **Chyrrik**, who had traded hers away for the acid-wards she was carrying against the dragon, and **Rabiah**, and **Lupenor** — and took none for himself, being proof against fire in his own right; **Harlock** saw to himself. Then they tied cloths across their mouths against the choking ash and stepped out into the burning wind.
