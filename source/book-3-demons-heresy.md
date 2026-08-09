@@ -1362,6 +1362,8 @@ The day's travel had already tested them. A six-legged dragon had coursed overhe
 
 It was already occupied. Four bedrolls lay beneath the overhang, each one holding the long bones of its last occupant, scattered and picked over by something that had since moved on. **Chyrrik** gathered the remains and covered them with stones while the company arranged themselves in the dead men's shelter. It was, as **Varic** observed drily, unlikely that whatever had killed them would return for seconds.
 
+![Four strangers, and someone to bury them.](images/the-dead-mens-shelter.webp)
+
 ### **A Wind Through the Valley**
 
 Around the second hour past midnight the wind came up the valley in a rush and never quite left. It carried stinging dust, weeds torn up by the roots, and an occasional pebble that rang off stone. The overhang sheltered them well enough, and dawn found nothing worse than grit in their teeth. The wind did not abate with the sun — it turned into a steady southbound tailwind that promised to push them faster toward whatever was calling to **Harlock**.
