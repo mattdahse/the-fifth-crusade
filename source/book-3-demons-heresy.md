@@ -1692,6 +1692,8 @@ So, at a private breakfast, she finally laid the truth before the others. She is
 
 The proof came within the hour. Her followers pressed a gift on her — a delicate golden bracelet hung with the charms of a dozen holy symbols and a small clutch of soft feathers bound in silver wire, a ward against demons, they swore, and lovely besides. ***Detect Magic*** woke a faint divination aura on it; ***Identify*** stripped the disguise away. No curse — something subtler and worse. A beacon. A thing built to be found, fashioned to draw a watching eye straight and unerring to whoever wore it. The feathers were goose-down, plucked from **Rabiah**'s own stolen pillow. Some patient hand had reached into her trusting, malleable flock and turned her dearest devotees into unwitting couriers of a tracking-charm hung at their own mistress's throat. A ***Dispel Magic*** suppressed it for a time; ***Non-detection*** closed around her; a ***Detect Scrying*** swept the room and found no eye upon them in that moment — but only in that moment.
 
+![With friends like these, who needs enemies?](images/with-friends-like-these.webp)
+
 ### **The Jeweller**
 
 The thing was also no longer rare. Out in the market they marked two strangers wearing near-copies of it, feathers and all — bronze, not gold — and one of them, recognizing **Varic** for one of the heroes of **Drezen**, gladly named the shop, and added with some pride that the feathers were said to come from **Rabiah**'s own pillow. The trail led to a young dwarven jeweller, **Smendrick**: an honest enough craftsman, by every measure they could take of him, working on yet another of the things behind his counter when they walked in. A girl had come to him days before, he confessed — brown-haired, human, freckled, no name given and none asked, because it was a hundred gold for an hour's work in cheap chain — bearing the original and a heavy purse, and begging him make more and spread them among "friends." She had melted out of the city since.
@@ -1729,6 +1731,8 @@ They had taken it out of a messenger case in the saddlebags of a **Templar of th
 ### **The Watcher**
 
 That afternoon, alone in her chamber and warded against unfriendly eyes, **Rabiah** felt the cold prickle of a distant gaze settle on her again. This time she did not simply hide from it — she turned it back down its own thread. Across the leagues her sight leapt to meet the watcher's, and found him: a pale elf, a bow slung at his back, crouched in a cave amid a small private camp, others moving in the gloom behind him. Three to five leagues west and a little north — out toward the Hidden Shrine, out toward the broken cliffs. He felt himself seen in the same instant, and for a held breath the two of them strained against one another over the slender link, until her wards snuffed it clean out. He knew now that he had been found, which cost the party any chance to feed him comfortable lies — but gave them, in exchange, a face to hang on the enemy at **Drezen**'s back.
+
+![Caught peeking](images/caught-peeking.webp)
 
 ### **The Lead Box and the Lure**
 
