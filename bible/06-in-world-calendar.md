@@ -133,11 +133,16 @@ Days drawn from the GM's private log rather than the players' are marked *(GM's 
 - **15th** — The great clawed footprint, the shattered obsidian knight of **Iomedae** in the
   riverbed, and the cave in the western bank. They went in the same evening rather than sleep
   beside it, and killed the woundwyrm **Scorizscar** in her own lair.
-- **16th** — From the dragon's lair by teleport to the temple of Sarenrae, where they sat out the
-  storm.
-- **17th** — Out from the temple toward the redoubt.
-- **18th** — On the Gray Road, west for **Takira's Redoubt**. **Lupenor** woke from a dream of the
-  place. The **Red Swarm** took them on the road.
+- **16th** — Horns and fangs cut from the wyrm in the acid haze, the caravan hoard left where it
+  lay, and the company carried from the lair to the **Hidden Shrine** by teleport, arriving ahead of
+  the ash storm. The day spent under the Dawnflower's roof: the lair marked on the marchlands map,
+  a *sending* to **Irabeth**, the storm blowing itself out at sunset.
+- **17th** — ***Battle Hymn*** identified at the second attempt, and out from the shrine westward
+  through wet snow and grey mud. Camp on the east bank of the **Gray Road** in **Varic**'s
+  *Secure Shelter*, and **Lupenor**'s dream of the maze and the tower.
+- **18th** — Across the forty-foot channel of the **Gray Road** — **Varic** falling twice on the
+  scree — and west past the tree where **Cedric** had been nailed. The false swarm on the causeway,
+  and then the **Red Swarm** in the late afternoon. **Chyrrik** killed and raised.
 - **19th** — Marching for the redoubt.
 - **20th** — **Takira's Redoubt** reached.
 - **21st** — Teleport to the Hidden Shrine: goods set down, orders left, **Chyrrik** posted as
@@ -189,9 +194,16 @@ the chronicle has never named. **Not yet reconciled** — resolve with Matt befo
   camping beside it. Ch X is therefore **14–15 Neth**, not 13–15, and every chapter after it moves
   one day later: Ch XI 16–19, Ch XII and Ch XIII the 20th, Ch XIV 20–25, Ch XV 25–26, and the
   assault on the **Ivory Sanctum** lands on the **26th**. Chapter metadata, in-text dates and the
-  day-by-day above have all been shifted together. **Ch XI onward have still not been validated
-  against their recordings** — their dates now follow from Ch X's arithmetic rather than from their
-  own tapes, so treat them as good but unconfirmed.
+  day-by-day above have all been shifted together.
+  ✅ **Ch XI validated, Aug 2026 (call `701608077`), and the offset holds.** The recording contains
+  the only in-session date of the night — the GM's *"star day, the 16th of Neth"* on the morning the
+  company left the shrine — which is one day early exactly as predicted, confirming the cascade
+  independently. The session runs **three** days, not four: the wyrm's lair and the teleport (16th),
+  the march to the **Gray Road** (17th), and the crossing, the tree and the **Red Swarm** (18th).
+  Ch XI's end date has accordingly been pulled back from the 19th to the **18th**. This leaves the
+  19th as a plain marching day before **Takira's Redoubt** on the 20th, so **nothing after Ch XI
+  moves.** **Ch XII onward are still unvalidated** — their dates follow from arithmetic rather than
+  from their own tapes, so treat them as good but unconfirmed.
 - ~~**Ch VIII / Ch IX — the body count.**~~ *Resolved by Matt, Aug 2026.* Ch VIII (validated) ends
   with **one** Derakni dead and one fled; the 9 May recording's opening recap described **two**
   carcasses. That was the table mis-remembering the previous session, not a chronicle error, and
