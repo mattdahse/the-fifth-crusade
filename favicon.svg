@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="The Fifth Crusade">
+  <title>The Fifth Crusade</title>
+  <!-- Iomedae's device as the Sword of Valor carries it: a longsword point down,
+       a stylized sun behind its crosspiece, gold on the banner's deep crimson.
+       Drawn heavy, and the sun kept a full step darker than the sword, because at
+       16 pixels a matched gold merges the two into one blob. Eight rays, not twelve:
+       the wider gaps are the only reason the sun still reads that small. -->
+  <rect width="64" height="64" rx="12" fill="#7a1e1e"/>
+  <g fill="#a8701c">
+    <circle cx="32" cy="21" r="11.5"/>
+    <path d="M32 3 35.6 11 28.4 11Z"/>
+    <path d="M32 3 35.6 11 28.4 11Z" transform="rotate(45 32 21)"/>
+    <path d="M32 3 35.6 11 28.4 11Z" transform="rotate(90 32 21)"/>
+    <path d="M32 3 35.6 11 28.4 11Z" transform="rotate(135 32 21)"/>
+    <path d="M32 3 35.6 11 28.4 11Z" transform="rotate(180 32 21)"/>
+    <path d="M32 3 35.6 11 28.4 11Z" transform="rotate(225 32 21)"/>
+    <path d="M32 3 35.6 11 28.4 11Z" transform="rotate(270 32 21)"/>
+    <path d="M32 3 35.6 11 28.4 11Z" transform="rotate(315 32 21)"/>
+  </g>
+  <g fill="#f4daa0">
+    <circle cx="32" cy="6.8" r="3.8"/>
+    <rect x="29.4" y="6" width="5.2" height="12" rx="1.2"/>
+    <rect x="11.5" y="17" width="41" height="5" rx="2"/>
+    <path d="M26.8 22 37.2 22 35.6 47 32 58.5 28.4 47Z"/>
+  </g>
+</svg>
