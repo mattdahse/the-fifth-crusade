@@ -1664,6 +1664,8 @@ What decided it was the feeling that came over them in the late afternoon, somew
 
 **Chyrrik** chose the ground: flat, open, nothing overlooking it, no blinds and no deep cracks in the earth for anything to come up out of, and not a scrap of natural shelter, which she counted a fair trade. **Rabiah** conjured the little stone house. And **Varic**, who had been thinking about the horses, reached past his prepared spells and pulled up a ***Wall of Stone*** — a low half-circle of it swung out from one corner of the shelter to pen the animals in the lee, five feet high and left open at one end for a gate. He set torches burning along the top of the wall the whole way round, and an everburning torch in the middle of the ring, so that nothing could cross that ground without being seen crossing it. Then he sat down in the gap with his back to the stone and stayed there the whole night, in the cold and the wind, and would not be argued indoors. **Cornelia** laid ***Endure Elements*** on herself and bedded down among the horses to keep them quiet, and thought the whole arrangement rather missed the point of weather.
 
+![Taking no chances.](images/taking-no-chances.webp)
+
 Nothing came. The morning broke clear and nearly windless and did not even smell especially bad, which everyone agreed was suspicious. **Varic** made breakfast for the entire company out of created water and the pooled rations, seasoned from his own kit on the grounds that a thing worth doing was worth doing with salt in it, and they walked the last three hours in and came under **Drezen**'s walls before noon.
 
 ### **A Trade in Diamonds**
