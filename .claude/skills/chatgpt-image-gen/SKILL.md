@@ -101,6 +101,10 @@ The composer is a **ProseMirror contenteditable** whose React state ignores type
    clear it.
 2. **A clear that does not actually clear makes the paste APPEND.** The paste event always inserts
    at the selection; if the old draft is still there, you send two or three copies of the prompt.
+3. **The draft is shared ACROSS TABS, so a brand-new tab can open already dirty.** A freshly
+   created tab navigated to `chatgpt.com` restored the draft belonging to a *different* tab, and
+   the paste then appended to it — one composer holding two complete, unrelated prompts. This
+   bites hardest when staging several tabs at once. *(Aug 2026, Book III Ch. VIII.)*
 
 > **⚠️ THE "SELF-SUBMITTING PASTE" WAS NEVER REAL — DO NOT REINTRODUCE IT.** This file used to warn
 > at length that a pasted prompt could submit itself, that a draft carrying attachments could fire on
@@ -142,6 +146,20 @@ const dt = new DataTransfer(); dt.setData('text/plain', t);
 pm.dispatchEvent(new ClipboardEvent('paste', {clipboardData: dt, bubbles: true, cancelable: true}));
 ({len: pm.textContent.length, want: t.length})
 ```
+
+**Belt and braces: select the contents and let the paste REPLACE them, then count the marker.** A
+paste always overwrites the current selection, so selecting first makes a stale draft impossible
+rather than merely unlikely — and counting how many times the lead phrase appears tells you
+instantly whether you have one prompt or two. `occurrences` must be exactly 1:
+
+```js
+const s = pm.textContent, m = 'Please generate this image directly';
+let n = 0, i = -1; while ((i = s.indexOf(m, i + 1)) !== -1) n++;
+({len: s.length, occurrences: n, head: s.slice(0, 60)})   // occurrences MUST be 1
+```
+
+Check `head` too, not just the count — on the cross-tab contamination above the length looked
+merely "long" and it was the *head* (the wrong scene's opening line) that gave it away.
 
 *(This reverses what this file said before July 2026. `execCommand('selectAll')` followed by
 `execCommand('delete')` — previously documented as the fix — now silently leaves the draft in place,
@@ -230,37 +248,44 @@ overlapping DOM nodes (progressive layers); that is normal, not multiple renders
 (but an in-page `fetch` still works), and a script-initiated `a.click()` only fires once per page
 before user-activation is consumed. So build a *visible* anchor and click it with a real gesture.
 
-**Critically — exclude the reference images.** Matt's attached portraits are `<img>` elements too,
-and they frequently share the render's exact dimensions (several `characters/*.webp` are 1086×1448,
-which is also a common 3:4 output size). Filtering by size alone *will* eventually download a
-reference portrait back over your scene art. Filter by message role:
+**⭐ USE `alt`. It settles both problems at once, and nothing else does.** ChatGPT labels these
+images for you, and the label is exact:
 
-**`cand[cand.length - 1]` is NOT reliably the newest.** In a chat with several renders the DOM
-virtualizes and reorders, and the last candidate is often an *earlier* image — you will silently
-re-download a render you already have. It cost a full round of confusion on the Chapter XVI
-death scene. **Verify by blob size** (each render has a distinct byte count; you already know the
-size of the one you saved last), or sort by document position and take the lowest:
+| What it is | `alt` value |
+|---|---|
+| A render | starts with `Generated image: ` (e.g. `Generated image: Weary Elven Archer Among Ruins`) |
+| A reference Matt dragged in | the **filename** (e.g. `REF-T3-2-babau.webp`) |
+| A lightbox/preview duplicate | the title **without** the `Generated image: ` prefix |
+
+So **the newest render is the last `<img>` whose `alt` starts with `Generated image:`** — one line,
+no bookkeeping, no prior blob size needed:
 
 ```js
-// Find the newest by picking the one whose bytes you have NOT seen before.
-const seen = 2492722;                                    // blobSize of the render you already saved
-const imgs = [...document.querySelectorAll('img')].filter(i => i.naturalWidth > 700);
-let img = null, blob = null;
-for (const x of imgs) {
-  const b = await (await fetch(x.currentSrc || x.src)).blob();
-  if (b.size !== seen) { img = x; blob = b; break; }      // the new one
-}
+const gen = [...document.querySelectorAll('img')]
+  .filter(i => /^Generated image:/.test(i.alt || ''));
+const img = gen[gen.length - 1];        // the newest render
 ```
 
-**Also note:** Matt's dropped reference portraits are large images too, and on a fresh chat they
-sort *first*. Filtering on `naturalWidth > 700` alone will happily hand you `rabiah.webp` back.
-Keep the `[data-message-author-role="user"]` exclusion, and sanity-check the byte count against the
-`REF-*.webp` sizes before moving the file.
+Log `gen.map(i => i.alt)` first — it prints the whole generation history in order, which is the
+cheapest way to confirm you are about to grab the roll you think you are.
+
+**Why the old size/role heuristics were not enough** *(both burned real cycles on Book III Ch. VIII)*:
+- **Dimensions cannot separate a reference from a render.** `the-babau-at-the-forge.webp` is
+  1536×1024 and so is a 3:2 render; several `characters/*.webp` are 1086×1448, the standard 3:4
+  output size. `alt` separates them with certainty.
+- **`cand[cand.length - 1]` is NOT reliably the newest.** ChatGPT keeps *every* prior render in the
+  page and floats a lightbox duplicate at an unpredictable index, so the last large image can be a
+  frame from two generations ago. This produced a QA pass on Ch. VIII that critiqued a *stale*
+  frame and reported non-existent faults to Matt — worse than a missed download, because it sent
+  him chasing problems that were not in the picture he was looking at. If your QA disagrees with
+  what Matt describes seeing, **suspect your selector before you suspect the render.**
+- **`[data-message-author-role]` does not contain renders.** Generated images sit *outside* any
+  turn element, so a role-based filter silently drops all of them.
+
+**Then verify the bytes.** After downloading, confirm the file size on disk equals the `blobSize`
+you got in-page. That catches a mis-grab and a truncated download in the same check.
 
 ```js
-const cand = [...document.querySelectorAll('img')]
-  .filter(i => i.naturalWidth > 700 && !i.closest('[data-message-author-role="user"]'));
-const img = cand[cand.length - 1];                       // ONLY safe on a single-render chat
 const b = await (await fetch(img.currentSrc || img.src)).blob();
 const url = URL.createObjectURL(b);
 document.getElementById('__dl')?.remove();
@@ -325,6 +350,28 @@ Remove-Item "$HOME\Downloads\the-scene-name.png" -Force
 (Get-Item images\the-scene-name.webp).Length
 ```
 
+**⚠️ `cwebp` IS NOT INSTALLED ON MATT'S WINDOWS MACHINE.** Both commands above fail with
+`no cwebp in (...)`, and there is no ImageMagick either — the `convert` on `PATH` is Windows'
+filesystem tool, not ImageMagick, so do not reach for it. **Python + Pillow is present and is the
+working converter.** *(Aug 2026, Book III Ch. VIII.)*
+
+```bash
+python -c "
+from PIL import Image
+im = Image.open(r'C:\Users\alast\Downloads\the-scene-name.png').convert('RGB')
+im.save(r'C:\Users\alast\drezen-archive\images\the-scene-name.webp','WEBP',quality=82,method=6)
+print(im.size)
+"
+```
+
+**Use WINDOWS paths (`C:\...`) with Python, even from the Bash tool.** That `python` is the native
+Windows build, so a Git-Bash path like `/c/Users/...` raises `FileNotFoundError`. Use `r'...'` raw
+strings so the backslashes survive. `quality=82, method=6` are the exact `cwebp -q 82 -m 6`
+equivalents, so output is interchangeable with everything already in `images/`.
+
+If you land on a machine that *does* have `cwebp`, either is fine — check with `which cwebp` first
+rather than assuming.
+
 **Check the PNG's size against `blobSize` BEFORE converting.** If it does not match, you downloaded a
 different file — most likely a stale download of the same name, or a reference portrait. Also
 sanity-check that it is not the byte size of any `REF-*.webp` you staged.
@@ -365,6 +412,17 @@ the composition and lose a good one than publish a degraded version of it.
 *(This file previously recommended the opposite. It was wrong: it optimized for preserving the
 composition and never accounted for the quality cost. Corrected on Matt's direction, July 2026,
 mid-way through the Chapter XVI art — the ceiling-crawl revision of `the-light-that-found-him`.)*
+
+**Corroborated the hard way, Aug 2026 (Book III Ch. VIII), by ignoring this rule.** Two revisions
+were sent as follow-ups inside the existing chats to save Matt a re-drag. **Neither moved the
+composition.** Tab 1 was asked to put the sea on the left and cut the party to four figures and
+came back with the sea still right and a dozen figures; tab 4 was asked to pull the camera back and
+came back the same close crop. Both revisions *did* change mood, palette and facial expression —
+so the failure is specific and worth knowing: **an in-chat follow-up anchors hard to the previous
+composition. Framing, camera distance, subject count and left/right layout will not move; mood,
+light, pose and expression will.** That is not a licence to revise in place — Matt's standing
+instruction is still a fresh chat — but if you ever catch yourself reasoning that "this is only a
+small change," check which of those two lists it falls in before you cost him a wasted roll.
 
 **So when a render comes back with notes:**
 

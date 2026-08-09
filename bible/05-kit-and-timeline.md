@@ -66,7 +66,7 @@ inline (Harlock's *Radiance*, from its recovery onward; Lupenor's bow, her const
   battered **chain shirt or padded leather over simple travel robes**, ash-smeared.
 - **Marks of faith:** a **deep-red scarf** at the throat; a **plain iron sunburst holy
   symbol** of Sarenrae on a cord.
-- **NO gold circlet, NO gold-filigree breastplate, NO ornate armor.**
+- **NO gold-filigree breastplate, NO ornate armor.**
 - **Weapon:** fluid this era — take it from the scene. *Solemn Hour* (Irabeth's recovered
   blade, passed to him by Lupenor) and later *Battle Hymn* are **LATER** acquisitions.
 
@@ -154,10 +154,11 @@ other. Where a new Book II image disagrees with this block, the block is wrong; 
   Sarenrae on a cord** at the chest — a bare stylized sun, **no sword in front of it** (that is
   Iomedae's device, and Harlock is usually in the same frame).
 - **Hair:** long and straight, worn loose, with a small braid at the temple.
-- **NO gold circlet, NO gold-filigree breastplate, NO red mantle, NO ornate pauldrons.** His
+- **NO gold-filigree breastplate, NO red mantle, NO ornate pauldrons.** His
   canonical portrait shows the resplendent look; that is **later than Book II**. Take his face
   from the portrait and his kit from here.
-- **Avoid:** `gold circlet, gold-filigree breastplate, red mantle, a sword in front of the sun`.
+- **Avoid:** `gold-filigree breastplate, red mantle, a sword in front of the sun`.
+- ⚠️ **Do NOT police a "gold circlet" on Varic — in any era. See *The circlet is not a fault* below.**
 
 ### Harlock Greyforge
 - **Armor — unchanged from Era II.** The plain, battered **steel breastplate over a padded
@@ -203,9 +204,9 @@ armor changes here.
 
 ### Varic Sarian — ***Solemn Hour*** changes hands here
 - **Armor — unchanged.** Still the dark travel-worn mail shirt with mail sleeves, the deep-red
-  scarf, and the plain gold or brass sunburst of Sarenrae. **Still not gilded** — no circlet, no
-  filigree breastplate, no mantle. *(Accepted drift: `the-flask-behind-the-shield` gives him a thin
-  gold band in his hair. On inspection it reads as his temple braid, and it stands.)*
+  scarf, and the plain gold or brass sunburst of Sarenrae. **Still not gilded** — no
+  filigree breastplate, no mantle. *(On the gold band that keeps appearing in his hair, see
+  **The circlet is not a fault** below: it is his temple braid and it is not a defect.)*
 - **Weapon — CHANGED.** ***Solemn Hour*** — **Irabeth Tirabade's** recovered longsword, a bane
   weapon against evil outsiders — was carried by **Lupenor** through the fall of Staunton Vhane,
   and it is the reason Staunton killed her: it was Irabeth who exposed him, and he came into that
@@ -236,15 +237,27 @@ still holds; only Varic changes here.
 - **Marks of faith — unchanged.** The **deep-red scarf** at the throat, and the plain gold-brass
   **sunburst of Sarenrae** on a cord: a bare stylized sun, **no sword in front of it** (that is
   Iomedae's device, and Harlock is usually in the same frame).
-- **Still no circlet, no mantle.** The portrait's **gold circlet and red mantle are NOT part of
-  this change** — Matt's direction was the *armor* from the portrait, not the headwear. The
-  accepted thin gold band that reads as a temple braid still stands.
+- **Still no mantle.** The portrait's **red mantle is NOT part of
+  this change** — Matt's direction was the *armor* from the portrait, not the shoulders.
 - ***Solemn Hour*** — unchanged, carried from Ch. XV.
 - **Avoid (for any Ch. XVI-onward scene):** `a mail shirt, a bare mail shirt with no plate, cloth
-  robes, leather armor, a gold circlet or crown, a red mantle or cloak, parade-bright polished
-  armor`.
+  robes, leather armor, a red mantle or cloak, parade-bright polished armor`.
 
 *The ghost-touch property is invisible; it changes nothing about how the suit is drawn.*
+
+### The circlet is not a fault — stop flagging it
+
+**Matt's ruling, Aug 2026.** Earlier versions of this guide put `a gold circlet or crown` in Varic's
+`Avoid:` line in every era, and every QA pass then "found" one. **It was a false positive every
+time.** Varic has **yellow-gold hair** and wears **braids at his temple to keep it back** — that
+combination reads as a thin gold band in almost any render, at almost any resolution, and no prompt
+wording prevents it because there is nothing to prevent: it is his hair.
+
+**So: do not put circlet negatives in Varic's prompts, and do not report a circlet as a drift at
+QA.** It cost real review cycles and attention on the Book III Ch. VIII art and bought nothing.
+The things that *do* matter on his head and shoulders are the **deep-red scarf** (present in every
+era, and genuinely worth checking) and the **red mantle/cloak** (portrait-only, genuinely worth
+excluding). The band in his hair is neither.
 
 ### Varic off duty — the one sanctioned exception to the plate
 
@@ -258,10 +271,9 @@ a quiet evening indoors, a conversation with no expectation of trouble — he is
   no gauntlets.
 - **Unchanged and always present:** the **deep-red scarf** at the throat, and the plain gold-brass
   **sunburst of Sarenrae** on a cord — a bare stylised sun, **no sword in front of it.**
-- **Still no gold circlet or crown, and no red mantle or cloak.** Those are portrait-only in every
-  era.
-- **Avoid:** `a breastplate, plate armour, mail, pauldrons, gauntlets, a gold circlet or crown, a
-  red mantle or cloak`.
+- **Still no red mantle or cloak.** That is portrait-only in every era. *(The gold band in his
+  hair is his temple braid — see **The circlet is not a fault** above. Do not flag it.)*
+- **Avoid:** `a breastplate, plate armour, mail, pauldrons, gauntlets, a red mantle or cloak`.
 
 ### Irabeth off duty — she does not dine in her plate
 
@@ -293,7 +305,7 @@ kit forward. Things that belong to **later** eras, **not** Era I:
 
 - **Harlock:** ornate **golden full plate**; **Radiance awakened** and blazing with holy
   light (it wakes when he speaks his oath at Defender's Heart — after the undercity).
-- **Varic:** the **gold-filigree breastplate, gold circlet, red mantle**, and steel
+- **Varic:** the **gold-filigree breastplate, red mantle**, and steel
   pauldrons of his resplendent look; **Solemn Hour**, later **Battle Hymn**.
 - **Lupenor / Rabiah / Chyrrik:** upgrades won at the Gray Garrison, Drezen, and beyond.
 
