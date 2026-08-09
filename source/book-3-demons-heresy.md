@@ -1380,19 +1380,21 @@ They rounded the corner.
 
 ### **The Ritual, Interrupted**
 
-The chamber was open to a sky that flickered red, rimmed by tall rock walls and studded with great formations of blue-green crystal that threw the light of the lava back at strange angles. Three islands of cooled stone rose from the molten pool. On them danced three **vrocks** — two of considerable size and one larger still, carrying a scythe that dripped something that was not quite sweat. Between the dancers, tucked low on one of the islands, a portly human man cowered against the rock. He was dressed like a merchant. The scales were just beginning to creep out of his skin at the throat and wrists.
+The chamber was open to a sky that flickered red and rimmed by tall rock walls, and a lake of molten stone filled it from side to side. Islands of cooled rock stood up out of the lava, flat-topped and craggy-sided, and along the western shore a field of blue-green crystal threw the light back at strange angles. On the largest of the islands danced three **vrocks** — two of considerable size and one larger still, carrying a scythe that dripped something that was not quite sweat. They circled a portly human man who knelt at the center of their ring, shackled by both wrists to an iron spike driven into the rock. He was dressed like a merchant. The scales were just beginning to creep out of his skin at the throat and wrists.
+
+![Abner begins to question his life choices.](images/the-same-ritual.webp)
 
 It was, **Harlock** understood with a cold clarity, the same ritual. The one they had worked on him. The one he had carried in his bones for ten years.
 
-**Varic** opened the fight before the demons finished their turn. He stepped forward, raised his holy symbol, and cast ***Holy Smite*** into the heart of their dance. Golden fire blossomed in the chamber. All three **vrocks** reeled; the scythe-bearer — a creature of elevated station the party would come to call **Vremorak** — was blinded outright, and his lieutenants staggered with lesser cases of the same. The portly man — **Abner Suthi**, by name — flinched and took some of the spill, but weathered it. **Rabiah** dropped her ***Haste*** across the party an instant later, and the tempo of the fight turned.
+**Varic** opened the fight before the demons finished their turn. He stepped forward, raised his holy symbol, and cast ***Holy Smite*** into the heart of their dance. Golden fire blossomed in the chamber. All three **vrocks** reeled; the scythe-bearer — a creature of elevated station the party would come to call **Vorimeraak** — was blinded outright, and her lieutenants staggered with lesser cases of the same. The portly man — **Abner Suthi**, by name — flinched and took some of the spill, but weathered it. **Rabiah** dropped her ***Haste*** across the party an instant later, and the tempo of the fight turned.
 
 ### **Mirrors and a Dance of Ruin**
 
-**Vremorak**, even blind, shouted an order and surrounded himself with eight mirror images. His companions followed suit. The ritual chamber filled with dancing copies, each one indistinguishable from its original, drifting on thermals above the lava. **Lupenor** settled into her work methodically — regular arrows first, peeling images away one at a time, saving the slaying arrows for a target she could trust to be real. **Harlock** rose into the air on **Rabiah**'s ***Fly*** and began closing.
+**Vorimeraak**, even blind, shouted an order and surrounded herself with eight mirror images. Her companions followed suit. The ritual chamber filled with dancing copies, each one indistinguishable from its original, drifting on thermals above the lava. **Lupenor** settled into her work methodically — regular arrows first, peeling images away one at a time, saving the slaying arrows for a target she could trust to be real. **Harlock** rose into the air on **Rabiah**'s ***Fly*** and began closing.
 
 Then the **vrocks** linked claws above the lava and began a different dance — circling, faster and faster, calling power into themselves. **Rabiah** recognized it an instant too late. The ***Dance of Ruin*** discharged in a thunderclap of lightning that lit the whole chamber blue-white. Everyone within a hundred feet felt the hair rise on their arms.
 
-Most of the company got clear of the worst of it. **Chyrrik** did not — the bolt left her a single breath from dead, and she went back behind cover and drank potion after potion until she could stand again. **Abner Suthi** came within a hand's breadth of getting clear and did not get clear. He was dead before the thunder finished echoing off the crystal.
+Most of the company got clear of the worst of it. **Chyrrik** did not — the bolt left her a single breath from dead, and she went back behind cover and drank potion after potion until she could stand again. **Abner Suthi**, chained where he knelt, came within a hand's breadth of riding it out and did not. He was dead before the thunder finished echoing off the crystal.
 
 ### **The Vines and the Vow**
 
@@ -1402,13 +1404,13 @@ A second **vrock** tried the same trick on **Harlock**, who was immune to diseas
 
 ### **What Radiance Remembers**
 
-**Harlock** brought ***Radiance*** down on **Vremorak** with the full weight of his faith and his stolen fury behind it, and the sword answered. The smite went into it, and the speed went into it, and the stroke found the one place worth finding and then went deeper than even that deserved, as though the blade had leaned into the work itself. **Vremorak** threw his head back to scream, and the scream did not come — only a wet bubbling, and then nothing.
+**Harlock** brought ***Radiance*** down on **Vorimeraak** with the full weight of his faith and his stolen fury behind it, and the sword answered. The smite went into it, and the speed went into it, and the stroke found the one place worth finding and then went deeper than even that deserved, as though the blade had leaned into the work itself. **Vorimeraak** threw her head back to scream, and the scream did not come — only a wet bubbling, and then nothing.
 
 In the moment the demon died, **Harlock** saw.
 
 He was fifteen again, bound to a stone altar not three hundred yards from where he now stood. Cultists chanted over him in the Abyssal tongue that would sit ever afterward in the back of his mind. His hands were at his face, and claws were growing from his fingers; scales were pushing up through his skin with small bright beads of blood around each one. He was seeing through demon eyes. But the demon in the chamber that day had not been a **vrock** — it had been an **incubus**, working the ritual with some kind of instrument. And something had gone wrong. The working had been on the edge of completion when a mistake fractured it. A different, larger entity — smoky, malevolent, and entirely unsummoned by any cultist in that chamber — had arrived instead. The scales had receded from **Harlock**'s skin as the ritual's power was torn away to feed whatever had just been called. The slaughter around him had been comprehensive. He had leapt from an island that was larger then and run until a crusader patrol had picked him up and brought him home.
 
-The memory crystallized in a single instant and then released him. **Vremorak**'s body slid off of ***Radiance*** and fell into the lava. Above, **Harlock** hung on the wing and breathed, and something in him settled that had been unsettled since he was fifteen years old.
+The memory crystallized in a single instant and then released him. **Vorimeraak**'s body slid off of ***Radiance*** and fell into the lava. Above, **Harlock** hung on the wing and breathed, and something in him settled that had been unsettled since he was fifteen years old.
 
 ### **The Last Rock**
 
@@ -1420,7 +1422,7 @@ The memory crystallized in a single instant and then released him. **Vremorak**'
 
 **Abner Suthi** lay where the lightning had taken him. The party had no five thousand gold piece diamond to hand — only diamond dust, and dust would not bring the merchant back. **Rabiah** solved the problem creatively: a ***Shrink Item*** cast with her wild arcana at twelfth level reduced the body four size categories, to something that fit in a cupped hand. **Varic** followed with ***Gentle Repose*** to keep the corpse from decaying across the journey home. They wrapped the tiny merchant in a hanky, tucked him inside **Rabiah**'s ***bag of holding*** with his bracers and cloak kept separate, and resolved to buy him a diamond at the first opportunity.
 
-They also claimed **Vremorak**'s corrosive scythe — **Rabiah** discovered she could command it silent with a deft turn of her will, and **Lupenor** wrapped the tamed blade in cloth for transport. A ***plus-one cloak of resistance*** and a pair of bracers came off **Abner**'s body and were catalogued for his eventual return.
+They also claimed **Vorimeraak**'s corrosive scythe — **Rabiah** discovered she could command it silent with a deft turn of her will, and **Lupenor** wrapped the tamed blade in cloth for transport. A ***plus-one cloak of resistance*** and a pair of bracers came off **Abner**'s body and were catalogued for his eventual return.
 
 ### **The Diamond in the Crystal**
 

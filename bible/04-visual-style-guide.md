@@ -319,7 +319,43 @@ building, a cosy cottage in a garden, a hut, a cabin, a timber or half-timbered 
 tower, a castle, a chimney, glazed windows, shutters, a hearth or fireplace, furniture, an arched
 doorway, a cottage that comfortably fits the crowd`.
 
-Locations with an established look so far: **Rabiah's Secure Shelter** (above), the **Corruption Forge**
+The **BURNING LAKE** — the open chamber in the **Marchlands** where **Harlock** was taken at fifteen and
+where the company kills **Vorimeraak** ([`the-same-ritual`](../images/the-same-ritual.webp), Book III Ch. VII).
+⚠️ **Do not confuse this with the "Ritual Chamber" entry below** — that is a different room entirely, under the
+ice. This one is **open to the sky**. Its plan is fixed by Matt's encounter map and must not be redrawn: a
+**broad, irregular, lobed LAKE OF MOLTEN ROCK** filling the floor of a bowl ringed by **near-black cliffs**;
+**flat-topped ISLANDS of cooled dark grey stone** standing out of it with **craggy stepped sides** — a broad
+rubble-strewn one toward the north-west, a **larger one on the eastern side** (where the ritual is worked and
+where both **Abner Suthi** and **Vorimeraak** die), a tongue of rock reaching in from the **southern** shore,
+and a small isolated rock to the north-east; and on the **south-western shore, on dry ground outside the lava**,
+a **DENSE FIELD OF PALE BLUE-WHITE CRYSTAL** — dozens of great angular spires, many taller than a man, tilted
+and interlocking into a thicket like a forest of ice. *(It is one of these that yields the uncut diamond.)*
+**The lava is HOT and mostly OPEN and LIQUID** — vivid orange shading to yellow-white in the hottest channels,
+with only scattered dark plates of cooled skin drifting on it. **It is a LAKE, never a river, a stream, a
+channel, or a crusted plain with glowing seams** — a lava *stream* is the established look of the **Weeping
+Hills**, and these two places must not read alike. **The established camera stands at the BASE of the southern
+peninsula looking NORTH**, at a standing person's eye height with a **level** horizon: sky and cliffs across the
+upper third, the eastern island centre frame, the lake filling the lower half, the crystal field small at the
+far left, dark foreground rock at the lower left. **Light it as a BRIGHT BURNING LAKE SET IN A DARK CHAMBER** —
+the lake is the only source and everything else (sky, cliffs, the rock underfoot) stays near-black, catching
+the glow only along its edges; figures on the islands are **rim-lit from below**. The picture must never read
+uniformly orange. Sky: a low, heavy, turbulent dark grey-brown overcast, never a glowing orange sky.
+*Avoid:* `a lava river, a lava stream, a narrow channel of lava, a crusted plain with only glowing seams,
+rounded domed or boulder-shaped islands, an orange or glowing sky, a uniformly orange image, an overhead or
+bird's-eye view, a tilted horizon`.
+
+*Method note, and it is worth reusing: this chamber was built in THREE PASSES rather than one, at Matt's
+suggestion, because four attempts at the whole scene in a single prompt kept trading one fault for another
+(geography right / palette wrong, palette right / lava a river). Pass 1 repainted his top-down battle map as
+an empty painterly overhead — layout only, style discarded — which settled the plan, the materials and the
+palette on a cheap empty frame. Pass 2 fed that back and moved ONLY the camera, to ground level. Pass 3 added
+the figures to a room that was already correct. **Each pass changes exactly one thing, and the previous render
+is the reference for the next.** The failure mode to watch for is that the model silently ZOOMS IN when you
+add figures; the fix that worked was to re-state the approved framing element by element (what occupies the
+upper third, where the horizon sits, what is at each edge) rather than saying "don't zoom".*
+
+Locations with an established look so far: **Rabiah's Secure Shelter** (above), the **Burning Lake** (above),
+the **Corruption Forge**
 ([`the-cage-over-the-forge`](../images/the-cage-over-the-forge.webp), and
 [`the-ice-that-would-not-lie`](../images/the-ice-that-would-not-lie.webp) for its floor and its salamanders) and
 the **Ritual Chamber** ([`the-line-the-ice-drew`](../images/the-line-the-ice-drew.webp)), and the
@@ -394,13 +430,6 @@ figure in any frame he appears in**.
 with its own defaults, and its defaults skew toward sexualized armor on women and
 orc caricature (tusks, underbite) on half-orcs. Put the explicit "no …" clauses in the
 prompt body *and* the `Avoid:` line. See CANON.md's *Known drift* section.
-
-**Check the corners for a signature — `signature` in the Avoid line does not reliably stop it.**
-The model sometimes scrawls a fake artist's mark into a dark corner anyway, and at full-page size it
-is easy to miss. **Crop the bottom corners and magnify them before publishing.** If one is there,
-the cheap fix is a small crop rather than a re-render: trim proportionally so the frame holds ~3:4
-and the composition survives (`what-chyrrik-brought-back` went 1086×1448 → 1060×1413 for this, losing
-nothing but dark rock).
 
 **QA the render against the portraits** feature by feature before publishing, and
 regenerate rather than shipping a drifted likeness.
