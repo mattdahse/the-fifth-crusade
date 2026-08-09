@@ -23,9 +23,10 @@ bible/                          ← authoring reference (voice, cast, lore)
   06-in-world-calendar.md       the crusade's days in the chronicle's voice → the Timeline tab
   06-in-world-calendar.json     MACHINE-WRITTEN extraction from Fantasy Grounds — never hand-edit
 secrets/                        ← in-world documents (recovered journals, enemy words) → the Secrets tab
-build.ps1                       ← compiles source/*.md + secrets/*.md + the calendar → data.js
+maps/                           ← one region per file, and the places found on it → the Map tab
+build.ps1                       ← compiles source/*.md + secrets/*.md + maps/*.md + the calendar → data.js
 extract-calendar.ps1            ← re-extracts bible/06-in-world-calendar.json from Fantasy Grounds
-index.html                      ← the reader app (Contents / Cast / Secrets / Timeline, search)
+index.html                      ← the reader app (Contents / Cast / Secrets / Timeline / Map, search)
 data.js                         ← BUILD OUTPUT — do not hand-edit
 .claude/skills/                 ← Claude Code skills, checked in so they travel to every station
   wotr-chronicle/               Compile a session into a chapter, then publish
@@ -74,11 +75,61 @@ the calendar. Weekday names are computed from the cycle the chronicle itself nam
 
 The `wotr-chronicle` skill automates steps 1–3 from a raw session transcript.
 
+## The Map
+
+The fifth tab draws a region's art and pins the places the company has been onto it. **Nothing
+is baked into the picture.** The plate is a plain image with no text on it at all; every marker,
+every name, and every link to a chapter is HTML positioned on top in percentages of the plate.
+That is what makes it expandable: a place can be moved, renamed or added by editing a markdown
+file, and a new region — an abyssal realm, a city ward, a dungeon level — is a new file in
+`maps/` and nothing else. No code changes, and the reader gets a region picker as soon as there
+is more than one.
+
+A region file looks like this:
+
+```markdown
+# The Marchlands
+
+*The broken country west of Drezen*
+
+<!-- image: images/map-marchlands.webp -->
+<!-- order: 1 -->
+<!-- scale: one hex — twelve miles, or a hard day's march -->
+
+Any prose here becomes the region's standfirst.
+
+## The Weeping Hills
+<!-- at: 56.5, 70.0 -->
+<!-- kind: peril -->
+<!-- style: pin -->
+<!-- chapter: The Stag King's Bride -->
+
+What happened there, in the chronicle's voice. Shown when the marker is tapped.
+```
+
+- `at:` — **x, y as percentages of the plate**, so a marker keeps its spot at any size. The
+  build warns for any place that lacks one, and skips it.
+- `kind:` — picks the glyph and colour, and groups the legend. One of `city`, `temple`, `ruin`,
+  `battle`, `lair`, `water`, `peril`, `camp`; anything else falls back to a plain `site` diamond.
+- `style:` — `pin` (default) plants a flag whose staff-foot is the coordinate; `icon` lays a
+  medallion centred on it. Both hold their size on screen however far the reader zooms in.
+- `chapter:` — the chapter's **title**, not its id. Ids are assigned by build order and move when
+  a chapter is inserted; titles do not. The build resolves the title to a link and warns if no
+  book contains it.
+
+**Finding coordinates:** open the Map tab, hold **Alt** and click the spot. The exact
+`<!-- at: x, y -->` line appears at the corner of the plate and is copied to the clipboard —
+paste it into the markdown. That readout is the whole authoring tool.
+
+Art for a plate should carry **no text of its own** — no titles, labels, letters or compass
+rose — since the labels are drawn over it and need to stay editable and searchable. Save it into
+`images/` as `.webp` like every other plate.
+
 ## Adding a secret
 
 Secrets are in-world documents shown in their own tab, parallel to the chronicle. Drop a markdown file in `secrets/` — a `# Title` line, an italic `*attribution*` line, then the body (`### Section` headers, `*dates*`, and `> blockquotes` all render). Run `build.ps1`, then commit and push. The build compiles every `secrets/*.md` into `window.SECRETS`.
 
-`data.js` carries four globals: `window.CHAPTERS`, `window.SECRETS`, `window.CALENDAR` (month names and lengths, weekday names, and the weekday anchor) and `window.JOURNAL` (one entry per recorded day).
+`data.js` carries five globals: `window.CHAPTERS`, `window.SECRETS`, `window.CALENDAR` (month names and lengths, weekday names, and the weekday anchor), `window.JOURNAL` (one entry per recorded day) and `window.MAPS` (one region per entry, each carrying its places).
 
 ## Running locally
 

@@ -121,6 +121,75 @@ if (Test-Path $secdir) {
   }
 }
 
+# --- Maps: a region per file (maps/*.md), each with the places found on it ---
+# A place is a '## Name' section carrying an <!-- at: x, y --> marker in percent of the
+# image, so a marker keeps its spot whatever size the map is drawn at. Chapters are named
+# by title rather than id -- ids are assigned by build order and move when a chapter is
+# inserted, titles do not.
+function To-Slug([string]$s) {
+  $t = $s.ToLowerInvariant() -replace '[^a-z0-9]+', '-'
+  return $t.Trim('-')
+}
+$maps = New-Object System.Collections.ArrayList
+$mapdir = Join-Path $root 'maps'
+if (Test-Path $mapdir) {
+  Get-ChildItem -Path $mapdir -Filter '*.md' | Sort-Object Name | ForEach-Object {
+    $mlines = ([System.IO.File]::ReadAllText($_.FullName)) -split "`r?`n"
+    $mid = To-Slug ([System.IO.Path]::GetFileNameWithoutExtension($_.Name))
+    $mtitle = ''; $msub = ''; $mimg = ''; $mscale = ''; $morder = 999
+    $intro = New-Object System.Collections.ArrayList
+    $places = New-Object System.Collections.ArrayList
+    $cur = $null; $body = $null
+    foreach ($l in $mlines) {
+      $t = $l.Trim()
+      if ($t -match '^##\s+(.+)$') {                       # a place begins
+        $pname = ($matches[1] -replace '\*\*', '').Trim()
+        $body = New-Object System.Collections.ArrayList
+        $cur = [pscustomobject]@{
+          id = (To-Slug $pname); name = $pname; x = -1.0; y = -1.0
+          kind = 'site'; style = 'pin'; chapter = ''; chapterId = ''; chapterLabel = ''
+          md = ''; text = ''
+        }
+        [void]$places.Add($cur); continue
+      }
+      if ($t -match '^#\s+(.+)$' -and $mtitle -eq '') { $mtitle = ($matches[1] -replace '\*\*', '').Trim(); continue }
+      if ($t -match '^<!--\s*image:\s*(.+?)\s*-->$')  { $mimg   = $matches[1]; continue }
+      if ($t -match '^<!--\s*scale:\s*(.+?)\s*-->$')  { $mscale = $matches[1]; continue }
+      if ($t -match '^<!--\s*order:\s*(\d+)\s*-->$')  { $morder = [int]$matches[1]; continue }
+      if ($cur -and $t -match '^<!--\s*at:\s*(-?[\d.]+)\s*,\s*(-?[\d.]+)\s*-->$') {
+        $cur.x = [double]$matches[1]; $cur.y = [double]$matches[2]; continue
+      }
+      if ($cur -and $t -match '^<!--\s*kind:\s*(.+?)\s*-->$')    { $cur.kind    = $matches[1].Trim().ToLowerInvariant(); continue }
+      if ($cur -and $t -match '^<!--\s*style:\s*(.+?)\s*-->$')   { $cur.style   = $matches[1].Trim().ToLowerInvariant(); continue }
+      if ($cur -and $t -match '^<!--\s*chapter:\s*(.+?)\s*-->$') { $cur.chapter = $matches[1].Trim(); continue }
+      if ($t -match '^<!--') { continue }                  # any other marker is authoring matter
+      if ($cur) { [void]$body.Add($l); $cur.md = (($body -join "`n").Trim()) }
+      elseif ($mtitle -ne '') {
+        if ($msub -eq '' -and $t -match '^\*.+\*$') { $msub = ($t.Trim('*') -replace '\*\*', '').Trim() }
+        else { [void]$intro.Add($l) }
+      }
+    }
+    foreach ($p in $places) {
+      if ($p.x -lt 0) { Write-Warning ("Map '{0}': place '{1}' has no <!-- at: x, y --> marker -- it will not be drawn." -f $mid, $p.name) }
+      if ($p.chapter -ne '') {
+        $hit = $all | Where-Object { $_.title -eq $p.chapter } | Select-Object -First 1
+        if ($hit) { $p.chapterId = $hit.id; $p.chapterLabel = ('Book ' + $hit.book + ' ' + $em + ' ' + $hit.label) }
+        else { Write-Warning ("Map '{0}': place '{1}' names chapter '{2}', which no book contains." -f $mid, $p.name, $p.chapter) }
+      }
+      $p.text = ($p.name + ' ' + $p.md) -replace '!\[(.*?)\]\((.*?)\)', '$1' -replace '\[(.*?)\]\((.*?)\)', '$1' -replace '[#>*`_]', ' ' -replace '\s+', ' '
+      $p.text = $p.text.Trim()
+    }
+    if ($mimg -eq '') { Write-Warning ("Map '{0}' has no <!-- image: --> marker and will not draw." -f $mid) }
+    [void]$maps.Add([pscustomobject]@{
+      id = $mid; order = $morder; title = $mtitle; subtitle = $msub
+      image = $mimg; scale = $mscale
+      intro = (($intro -join "`n").Trim())
+      places = @($places | Where-Object { $_.x -ge 0 })
+    })
+  }
+}
+$maps = @($maps | Sort-Object order, title)
+
 # --- The journal: the crusade's days, from bible/06-in-world-calendar.md ---
 # The prose calendar is hand-authored in the chronicle's voice from the Fantasy Grounds
 # extraction beside it. Only its month sections are read; the trailing notes after the
@@ -161,7 +230,10 @@ function To-JsonArray($items) {
 $json  = To-JsonArray $all
 $sjson = To-JsonArray $secrets
 $jjson = To-JsonArray $journal
+$mjson = To-JsonArray $maps
 $cjson = ConvertTo-Json $calendar -Depth 4 -Compress
 [System.IO.File]::WriteAllText((Join-Path $root 'data.js'),
-  "window.CHAPTERS = $json;`nwindow.SECRETS = $sjson;`nwindow.CALENDAR = $cjson;`nwindow.JOURNAL = $jjson;", $utf8)
-Write-Host ("Built data.js: {0} chapters ({1}), {2} secrets, {3} journal days" -f $all.Count, (($all | Group-Object book | ForEach-Object { '{0}={1}' -f $_.Name, $_.Count }) -join ', '), $secrets.Count, $journal.Count)
+  "window.CHAPTERS = $json;`nwindow.SECRETS = $sjson;`nwindow.CALENDAR = $cjson;`nwindow.JOURNAL = $jjson;`nwindow.MAPS = $mjson;", $utf8)
+$mapsum = (($maps | ForEach-Object { '{0}={1}' -f $_.id, @($_.places).Count }) -join ', ')
+if ($mapsum -eq '') { $mapsum = 'none' }
+Write-Host ("Built data.js: {0} chapters ({1}), {2} secrets, {3} journal days, {4} maps ({5})" -f $all.Count, (($all | Group-Object book | ForEach-Object { '{0}={1}' -f $_.Name, $_.Count }) -join ', '), $secrets.Count, $journal.Count, @($maps).Count, $mapsum)
