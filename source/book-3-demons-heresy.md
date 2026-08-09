@@ -1406,13 +1406,15 @@ A second **vrock** tried the same trick on **Harlock**, who was immune to diseas
 
 ### **What Radiance Remembers**
 
-**Harlock** brought ***Radiance*** down on **Vorimeraak** with the full weight of his faith and his stolen fury behind it, and the sword answered. The smite went into it, and the speed went into it, and the stroke found the one place worth finding and then went deeper than even that deserved, as though the blade had leaned into the work itself. **Vorimeraak** threw her head back to scream, and the scream did not come — only a wet bubbling, and then nothing.
+The fight carried them off the lava and onto the dry western shore, into the thicket of blue-white crystal standing there. **Harlock** set his boots on the rock among the spires and brought ***Radiance*** down on **Vorimeraak** with the full weight of his faith and his stolen fury behind it, and the sword answered. The smite went into it, and the speed went into it, and the stroke found the one place worth finding and then went deeper than even that deserved, as though the blade had leaned into the work itself. **Vorimeraak** threw her head back to scream, and the scream did not come — only a wet bubbling, and then nothing.
 
 In the moment the demon died, **Harlock** saw.
 
+![It's all coming back to me now.](images/what-radiance-remembers.webp)
+
 He was fifteen again, bound to a stone altar not three hundred yards from where he now stood. Cultists chanted over him in the Abyssal tongue that would sit ever afterward in the back of his mind. His hands were at his face, and claws were growing from his fingers; scales were pushing up through his skin with small bright beads of blood around each one. He was seeing through demon eyes. But the demon in the chamber that day had not been a **vrock** — it had been an **incubus**, working the ritual with some kind of instrument. And something had gone wrong. The working had been on the edge of completion when a mistake fractured it. A different, larger entity — smoky, malevolent, and entirely unsummoned by any cultist in that chamber — had arrived instead. The scales had receded from **Harlock**'s skin as the ritual's power was torn away to feed whatever had just been called. The slaughter around him had been comprehensive. He had leapt from an island that was larger then and run until a crusader patrol had picked him up and brought him home.
 
-The memory crystallized in a single instant and then released him. **Vorimeraak**'s body slid off of ***Radiance*** and fell into the lava. Above, **Harlock** hung on the wing and breathed, and something in him settled that had been unsettled since he was fifteen years old.
+The memory crystallized in a single instant and then released him. **Vorimeraak** slid off of ***Radiance*** and folded down among the crystals at his feet. **Harlock** stood over her on the dry rock and breathed, and something in him settled that had been unsettled since he was fifteen years old.
 
 ### **The Last Rock**
 

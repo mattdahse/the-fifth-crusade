@@ -326,10 +326,17 @@ ice. This one is **open to the sky**. Its plan is fixed by Matt's encounter map 
 **broad, irregular, lobed LAKE OF MOLTEN ROCK** filling the floor of a bowl ringed by **near-black cliffs**;
 **flat-topped ISLANDS of cooled dark grey stone** standing out of it with **craggy stepped sides** — a broad
 rubble-strewn one toward the north-west, a **larger one on the eastern side** (where the ritual is worked and
-where both **Abner Suthi** and **Vorimeraak** die), a tongue of rock reaching in from the **southern** shore,
+where **Abner Suthi** dies), a tongue of rock reaching in from the **southern** shore,
 and a small isolated rock to the north-east; and on the **south-western shore, on dry ground outside the lava**,
 a **DENSE FIELD OF PALE BLUE-WHITE CRYSTAL** — dozens of great angular spires, many taller than a man, tilted
 and interlocking into a thicket like a forest of ice. *(It is one of these that yields the uncut diamond.)*
+⚠️ **VORIMERAAK DIES HERE, ON DRY LAND IN THE CRYSTAL FIELD — not on an island, not over the lava, and not in
+the air.** The fight carries off the lava onto this shore and **Harlock** kills her standing on the rock among
+the spires. *(Matt's ruling, Aug 2026. The chronicle originally had him kill her on the wing and her body fall
+into the lava; that was wrong and the prose has been corrected. It is also what makes the rest of the chapter
+cohere — the party carries her scythe home, which they could not do if she had gone into the magma.)* Any
+illustration of that kill puts **both fighters on solid dark rock among the spires**, with the lake behind them
+as light rather than as floor.
 **The lava is HOT and mostly OPEN and LIQUID** — vivid orange shading to yellow-white in the hottest channels,
 with only scattered dark plates of cooled skin drifting on it. **It is a LAKE, never a river, a stream, a
 channel, or a crusted plain with glowing seams** — a lava *stream* is the established look of the **Weeping
