@@ -98,9 +98,10 @@ A region file looks like this:
 
 Any prose here becomes the region's standfirst.
 
-## The Weeping Hills
-<!-- at: 56.5, 70.0 -->
-<!-- kind: peril -->
+## Delamere's Tomb
+<!-- at: 61.0, 48.5 -->
+<!-- letter: G -->
+<!-- kind: ruin -->
 <!-- style: pin -->
 <!-- chapter: The Stag King's Bride -->
 
@@ -116,6 +117,18 @@ What happened there, in the chronicle's voice. Shown when the marker is tapped.
 - `chapter:` — the chapter's **title**, not its id. Ids are assigned by build order and move when
   a chapter is inserted; titles do not. The build resolves the title to a link and warns if no
   book contains it.
+- `letter:` — optional, the place's letter on the table's own key. Shown beside the kind so the
+  site and the map at the table can be read against each other.
+- `revealed: no` — a place the party has not found yet. The build **drops it from `data.js`
+  entirely**, so it is not merely hidden by CSS: it is not in the page, not in the DOM, and not
+  readable by anyone poking at the data. The build prints what it held back on every run.
+  Delete the marker when the place is found. Note the limit of this: `maps/*.md` is itself in the
+  public repository, so the entry is secret from the *site*, not from anyone reading the source.
+
+**Crowding:** names are laid out after the markers are drawn — each is offered its own line, then
+one above, then below, until it clears every name already placed. A name with nowhere to go is
+dropped rather than printed over its neighbour, and comes back when zooming in makes room. That
+means a narrow phone shows fewer names at first sight and all of them as the reader zooms.
 
 **Finding coordinates:** open the Map tab, hold **Alt** and click the spot. The exact
 `<!-- at: x, y -->` line appears at the corner of the plate and is copied to the clipboard —

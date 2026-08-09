@@ -123,8 +123,10 @@
   .tl-blocks{position:absolute;inset:0;z-index:0;pointer-events:none}
   .tl-rows{position:relative;z-index:1;padding-right:12rem;pointer-events:none}   /* the chapters' label column */
   .tl-row{display:flex;align-items:center;gap:1.2rem;min-height:2.8rem}
-  /* on a day held by several chapters the card spans them all: one day, divided */
-  .tl-row.shared .tl-day{align-self:stretch;align-items:center;margin:.2rem 0;
+  /* on a day held by several chapters the card spans them all: one day, divided.
+     The date sits at the card's head rather than its middle, where the line
+     between the chapters would otherwise be drawn straight through it. */
+  .tl-row.shared .tl-day{align-self:stretch;align-items:baseline;margin:.2rem 0;
     box-shadow:0 0 0 4px var(--bg)}
   .tl-j{flex:1 1 auto;min-width:0;max-width:52ch;margin-left:auto;pointer-events:auto;
     text-align:right;font-size:.9rem;line-height:1.5;color:var(--ink-soft);padding:.6rem 0}
@@ -210,8 +212,9 @@
   .mk .base{fill:rgba(0,0,0,.45)}
   .mk-label{position:absolute;left:calc(50% + 1.55rem);top:.2rem;line-height:1.15;
     font-size:.74rem;letter-spacing:.05em;text-transform:uppercase;white-space:nowrap;
-    color:#fdf3dd;text-shadow:0 1px 2px #000,0 0 6px rgba(0,0,0,.9);pointer-events:none}
-  .mk.icon .mk-label{left:50%;top:calc(50% + .75rem);transform:translateX(-50%)}
+    color:#fdf3dd;text-shadow:0 1px 2px #000,0 0 6px rgba(0,0,0,.9);pointer-events:none;
+    transform:translateY(var(--dy,0px))}
+  .mk.icon .mk-label{left:50%;top:calc(50% + .75rem);transform:translate(-50%,var(--dy,0px))}
   /* a place near the right edge hangs its name back over the map rather than off it */
   .mk.lft .mk-label{left:auto;right:calc(50% + .45rem);text-align:right}
   .mk.icon.lft .mk-label{left:50%;right:auto;text-align:center}
@@ -226,7 +229,7 @@
   .map-frame.no-marks .mk{pointer-events:none}
   .map-frame.no-marks .mk svg{visibility:hidden}
   .map-frame.no-marks .mk-label{left:50%;right:auto;top:100%;text-align:center;
-    transform:translate(-50%,-50%);pointer-events:auto}
+    transform:translate(-50%,calc(-50% + var(--dy,0px)));pointer-events:auto}
   .map-frame.no-marks .mk.icon .mk-label{top:50%}
   .map-frame.no-marks.no-names .mk{display:none}
   .mk.sel .mk-label{color:#ffe6a8}
@@ -247,6 +250,7 @@
   .map-places a{font-size:.8rem;padding:.2rem .6rem;border:1px solid var(--rule);border-radius:20px;
     background:var(--card);color:var(--ink-soft)}
   .map-places a:hover,.map-places a.sel{color:var(--accent);border-color:var(--accent2)}
+  .mk-label.crowded{display:none}   /* no room for this name at this zoom; it returns when there is */
   @media (max-width:760px){ .mk-label{font-size:.62rem;letter-spacing:.02em} }
   .map-pick{position:absolute;left:.5rem;bottom:.5rem;z-index:3;font-size:.75rem;
     background:rgba(20,15,9,.9);color:#fdf3dd;border:1px solid #6b5a3a;border-radius:5px;
@@ -366,7 +370,7 @@ var CAST = [
    ['Areelu Vorlesh','The witch who tore open the Worldwound; her hand is felt behind the corruption of the wardstones.'],
    ['Minagho','A demon commander of the invasion, her hand felt in the fall of Kenabres.'],
    ['Scorizscar','The six-legged, eyeless mythic dragon of the Gray Road, slain in its lair.','dead'],
-   ['Vorimeraak','The mythic vrock who led the working in the Molten Scar, scythe in hand and a merchant cowering on the stone — the same ritual that had been laid on Harlock at fifteen. Harlock killed him, and the whole of that night came back in the instant he died.','dead'],
+   ['Vorimeraak','The mythic vrock who led the working in the Molten Scar, scythe in hand and a merchant chained to a spike on the stone — the same ritual that had been laid on Harlock at fifteen. Harlock killed her, and the whole of that night came back in the instant she died.','dead'],
    ['The Plagued One','A Worm-That-Walks — a woman-shaped mass of vermin — who raised the Red Swarm to hunt down the last of the Riftwardens’ destined children; slain by the company, her keepings held a book of human skin with a birthmarked page for every child she had taken.','dead'],
    ['The Red Swarm','A purpose-built hunting company raised to mirror the party and run them down.','dead'],
    ['Jaruunicka','A Sifkesh hag who wore Arueshalae’s face as a trap.','dead'],
@@ -834,6 +838,14 @@ function viewMap(id, placeId){
   mapBindDrag();
   mapApply();
   mapSelect(placeId||'', false);
+  mapLayoutLabels();
+  requestAnimationFrame(mapLayoutLabels);   /* again once the serif has settled the label widths */
+  /* and again when the plate arrives: until it has a height every marker sits on the same line,
+     which reads as a total collision and would drop nearly every name on the floor */
+  var plate = document.querySelector('#mapstage img.plate');
+  if(plate && !plate.complete){
+    plate.addEventListener('load', function(){ mapClamp(); mapApply(); mapLayoutLabels(); });
+  }
   window.scrollTo(0,0);
 }
 
@@ -845,6 +857,43 @@ function mapToggle(what){
     document.getElementById('tgNames').classList.toggle('on', MAPV.names); }
   else { MAPV.marks = !MAPV.marks; f.classList.toggle('no-marks', !MAPV.marks);
     document.getElementById('tgMarks').classList.toggle('on', MAPV.marks); }
+  mapLayoutLabels();   /* names moving onto the spot, or reappearing, changes what collides */
+}
+
+/* Places sit where they sit; it is their names that have to give way. Two markers a mile apart
+   in the Marchlands are a few pixels apart on the plate, so the labels are laid out after the
+   fact: each one is offered its own line, then a line above, then below, until it clears every
+   name already placed. Only zoom changes the spacing — a pan moves everything together — so
+   this runs on render, on zoom, and on resize, and never during a drag. */
+function mapLayoutLabels(){
+  var f = document.getElementById('mapframe'); if(!f) return;
+  var labs = Array.prototype.slice.call(f.querySelectorAll('.mk-label'));
+  labs.forEach(function(l){ l.style.setProperty('--dy','0px'); l.classList.remove('crowded'); });
+  if(!MAPV.names) return;
+  var steps = [0,15,-15,30,-30,45,-45,60,-60,75,-75], placed = [], pad = 3;
+  labs.map(function(l){ return {el:l, r:l.getBoundingClientRect()}; })
+      .filter(function(o){ return o.r.width > 0; })
+      /* the place you have open keeps its name whatever else has to give */
+      .sort(function(a,b){
+        var as = a.el.parentNode.classList.contains('sel'), bs = b.el.parentNode.classList.contains('sel');
+        if(as !== bs) return as ? -1 : 1;
+        return a.r.top - b.r.top || a.r.left - b.r.left;
+      })
+      .forEach(function(o){
+        var dy = null;
+        for(var i=0;i<steps.length;i++){
+          var t = o.r.top+steps[i]-pad, b = o.r.bottom+steps[i]+pad;
+          var clash = placed.some(function(p){
+            return !(b <= p.top || t >= p.bottom || o.r.right+pad <= p.left || o.r.left-pad >= p.right);
+          });
+          if(!clash){ dy = steps[i]; break; }
+        }
+        /* no line free anywhere near it: drop the name rather than print it over another.
+           Zooming in spreads the markers out, and this runs again, so it comes back. */
+        if(dy === null){ o.el.classList.add('crowded'); return; }
+        if(dy) o.el.style.setProperty('--dy', dy+'px');
+        placed.push({top:o.r.top+dy-pad, bottom:o.r.bottom+dy+pad, left:o.r.left-pad, right:o.r.right+pad});
+      });
 }
 
 function mapApply(){
@@ -867,9 +916,9 @@ function mapZoom(factor, ax, ay){
   if(ax===undefined){ ax = f.clientWidth/2; ay = f.clientHeight/2; }
   MAPV.tx = ax - (ax - MAPV.tx) * (z1/z0);
   MAPV.ty = ay - (ay - MAPV.ty) * (z1/z0);
-  MAPV.z = z1; mapClamp(); mapApply();
+  MAPV.z = z1; mapClamp(); mapApply(); mapLayoutLabels();
 }
-function mapHome(){ MAPV.z = 1; MAPV.tx = 0; MAPV.ty = 0; mapApply(); }
+function mapHome(){ MAPV.z = 1; MAPV.tx = 0; MAPV.ty = 0; mapApply(); mapLayoutLabels(); }
 /* bring a place to the middle of the frame, but only when zoomed in far enough to have lost it */
 function mapCenterOn(p){
   var f = document.getElementById('mapframe'); if(!f || MAPV.z <= 1.001) return;
@@ -899,9 +948,10 @@ function mapSelect(placeId, center){
       + esc(p.chapter)+'</a></div>'
     : '';
   d.innerHTML = '<div class="map-detail"><div><span class="mdt">'+esc(p.name)+'</span>'
-    + '<span class="mdk">'+esc(mkOf(p.kind).n)+'</span></div>'
+    + '<span class="mdk">'+esc(mkOf(p.kind).n)+(p.letter?(' · '+esc(p.letter)):'')+'</span></div>'
     + mdToHtml(p.md) + go + '</div>';
   if(center) mapCenterOn(p);
+  mapLayoutLabels();   /* the newly selected place claims its line first */
 }
 
 /* Drag to pan once zoomed, and Alt-click anywhere to read off the coordinates of the spot
@@ -943,7 +993,7 @@ function mapBindDrag(){
     }
   }, true);
 }
-window.addEventListener('resize', function(){ if(MAPV.id){ mapClamp(); mapApply(); } });
+window.addEventListener('resize', function(){ if(MAPV.id){ mapClamp(); mapApply(); mapLayoutLabels(); } });
 
 function viewReader(id){
   document.body.classList.remove('wide');

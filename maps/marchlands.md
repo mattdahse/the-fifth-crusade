@@ -1,46 +1,102 @@
 # The Marchlands
 
-*The broken country west of Drezen — badlands, canyon and lava between the city and the Hidden Temple of Sarenrae*
+*The broken country west of Drezen — badlands, canyon and lava, and the road the crusade came in by*
 
 <!-- image: images/map-marchlands.webp -->
 <!-- order: 1 -->
 <!-- scale: one hex of the crusade's charts — twelve miles, or a hard day's march -->
 
-The Marchlands are what Sarkoria became. Dry ridges and dust where there were fields, a river
-run out of its bed, and the whole southern horizon lit orange after dark. The company crossed
-it twice before they thought to have it mapped, and **Selyse Avelia** was hired to put down what
-they had walked. What follows is her chart, and the places on it are the places they earned.
+The Marchlands are what Sarkoria became. Dry ridges and dust where there were fields, a river run
+out of its bed, and the whole southern horizon lit orange after dark. The crusade came in along
+the eastern rivers and fought for every crossing; everything west of the lava the company walked
+for itself. **Selyse Avelia** was hired to put it all down on one chart, and the places on it are
+the places they earned.
 
 ## Drezen
-<!-- at: 86.5, 38.0 -->
+<!-- at: 67.0, 21.0 -->
+<!-- letter: A -->
 <!-- kind: city -->
-<!-- chapter: The Homeward Trail -->
+<!-- chapter: The Liberation of Drezen City -->
 
 The liberated citadel, and the only walls in three days' march. Every expedition into the
 Marchlands begins at its western gate and is counted home through the same arch — battered,
 acid-scarred, and short of somebody.
 
-## The Ahari Riverbed
-<!-- at: 76.0, 26.0 -->
+## The Abandoned Swarm Caverns
+<!-- at: 73.0, 22.8 -->
+<!-- letter: B -->
+<!-- kind: lair -->
+<!-- chapter: The Nest -->
+
+Under the canyon floor, where boiling green vapour hung over the ground and the eye could pick
+out the swarms drifting in it — ***vescavors***, abyssal colony-things that devour metal and skin
+alike, ruled by a queen. The company went down and burned her. The caverns have been quiet since.
+
+## The Lost Chapel
+<!-- at: 78.5, 22.0 -->
+<!-- letter: C -->
+<!-- kind: temple -->
+<!-- chapter: The Lost Chapel -->
+
+A ghoul-den one morning and a chapel again by the next. The dead were carried out and the filth
+with them, and the altar of the **Inheritor** stood clean. When the company climbed back out of
+the nest below, the chapel above them was still standing quiet — a light in the canyon where
+there had not been one.
+
+## Keeper's Canyon
+<!-- at: 82.5, 28.5 -->
+<!-- letter: D -->
+<!-- kind: peril -->
+<!-- chapter: The Battle of Keeper's Canyon -->
+
+Where the road west turns toward **Drezen**, and where **Lupenor** and **Anevia** came up onto
+high ground at dusk and looked down on two armies camped in it. The crusade did not walk into
+that canyon in the dark. **Exorius** held it that morning; by evening he held nothing, and came
+through a sleeping camp that night for the girl who commanded it.
+
+## Vilareth Ford
+<!-- at: 76.4, 57.5 -->
+<!-- letter: E -->
 <!-- kind: water -->
-<!-- chapter: The Teeth of the Worldwound -->
+<!-- chapter: The Battle of Vilareth Ford -->
 
-A river with no river in it. The company travelled its dry bed on the way out rather than cross
-the open Marchlands: sand and stone worn smooth by water that stopped flowing before anyone
-alive was born, high banks on either side, and a ribbon of grey sky overhead. On the way home,
-with rain threatening flash floods, they walked the southern bank instead.
+The crossing on the road up from **Kenabres**. It had already fallen when the scouts brought word
+back to the column — which is the only reason it was won. **Kamilo Dann** held a dozen wounded
+crusaders together in a stone gaol until the Redeemers took the ford back, then carried word of
+its fall south down the road.
 
-## The Sarkorian Graveyard
-<!-- at: 69.0, 20.0 -->
+## Delamere's Tomb
+<!-- at: 61.0, 48.5 -->
+<!-- letter: G -->
+<!-- kind: ruin -->
+<!-- chapter: The Stag King's Bride -->
+
+In a cave off the lava tunnel, down in the **Weeping Hills** — a two-hundred-foot gorge with a
+river of lava at the bottom and walls that weep, molten stone dripping from the rock face in
+teardrops that sizzle and pool and rejoin the flow. **Delamere** lies interred here, and a demon
+wearing **Jeskar Hinton** stood over the drop with no intention of coming back up.
+
+## The Molten Cascade
+<!-- at: 50.5, 51.0 -->
+<!-- letter: I -->
+<!-- kind: peril -->
+
+Where the dry river, the lava and the canyon country all arrive at once, and the fire comes down
+in steps. Nothing crosses here that does not mean to.
+
+## The Family Crypt
+<!-- at: 60.5, 16.5 -->
+<!-- letter: J -->
 <!-- kind: ruin -->
 <!-- chapter: The Homeward Trail -->
 
-**Varic** walked too close to it and felt something lurch in his chest — a cold coming off one
-crypt in particular that made the hair stand up on his arms. They cleared it. He had given his
-word before he knew what he was giving it about.
+A Sarkorian burial ground north of the road home. **Varic** walked too close to it and felt
+something lurch in his chest — a cold coming off one crypt in particular that made the hair stand
+up on his arms. *We'll clear it. You have my word.* The word is still outstanding.
 
-## The Fallen Fane
-<!-- at: 31.0, 24.0 -->
+## The Sarian Fane
+<!-- at: 50.0, 31.0 -->
+<!-- letter: K -->
 <!-- kind: temple -->
 <!-- chapter: The Fane Remade -->
 
@@ -48,70 +104,80 @@ A shrine of **Sarenrae** at the foot of a cliff path, taken by the Templars of t
 Labyrinth and kept as a waystation — beds in a row and not one personal effect in the place,
 which told the company how many of the Labyrinth were moving through this country. **Zinedra**
 held it. She does not hold it now. It stands sanctified for the first time in longer than anyone
-can guess, and sealed behind them.
+can guess, and carries a priest of the Dawnflower's name.
 
-## The House with Three Walls
-<!-- at: 45.0, 36.0 -->
-<!-- kind: ruin -->
-<!-- chapter: The Homeward Trail -->
-
-Stone and wattle under a slate roof on the lip of a valley, three walls still standing and most
-of the roof besides. Whoever built it built it to last, and it outlasted its village, its people,
-and the world they lived in. **Lupenor** found it in an ash storm when there was nothing else.
-
-## The Canyon
-<!-- at: 66.0, 47.0 -->
-<!-- kind: peril -->
-<!-- chapter: The Stag King's Bride -->
-
-A ragged gash a hundred and fifty feet deep with walls of crumbling scree. **Varic** learned
-here that plate armour and loose stone are a single problem with one answer, and that the answer
-is to take the armour off first.
-
-## The Weeping Hills
-<!-- at: 56.5, 70.0 -->
-<!-- kind: peril -->
-<!-- chapter: The Stag King's Bride -->
-
-A river of lava at the bottom of a two-hundred-foot gorge, and walls that weep — molten stone
-dripping from the rock face in teardrops that sizzle and pool and rejoin the flow. The name is
-earned. **Delamere** lies interred in a cave off the lava tunnel; a demon wearing **Jeskar
-Hinton** stood over the drop here with no intention of coming back up.
-
-## The Green
-<!-- at: 63.5, 62.0 -->
-<!-- kind: battle -->
-<!-- chapter: A Gathering of Storms -->
-
-A stand of living trees in country that has forgotten how, and cultists in the branches of it.
-**Cobb Harwick**'s arrow drew first blood; when the man burning his friends came within reach,
-he got his arms around him and would not let go.
-
-## The Hidden Temple of Sarenrae
-<!-- at: 13.5, 44.0 -->
-<!-- kind: temple -->
-<!-- chapter: The Door and the Dream -->
-
-A triangular cave mouth thirty feet tall in the cliff face, sheltering the sealed stair down.
-Inside, the consecration held: the statues as they were left, the beds made, the storerooms
-intact. **Harlock** felt the Dawnflower's warmth wash over him like stepping out of winter, and
-for a moment his face lost what the nightly dreams had etched into it.
-
-## The Gray Road
-<!-- at: 47.0, 80.0 -->
-<!-- kind: water -->
-<!-- chapter: The Door and the Dream -->
-
-What the locals call the dry riverbed running the southern edge of the Marchlands — a crevice
-forty feet deep with walls of loose scree, open only to the sky. The last mile before the lair
-was scorched to nothing: no wildlife, no plant life, nothing at all.
-
-## Scorizscar's Lair
-<!-- at: 37.0, 83.5 -->
+## The Woundwyrm's Lair
+<!-- at: 47.5, 44.5 -->
+<!-- letter: L -->
 <!-- kind: lair -->
 <!-- chapter: The Beacon and the Wyrm -->
 
-A cave mouth in the western bank of the **Gray Road**, past a field of broken wagons. Obsidian
-flakes glittering underfoot, long parallel gouges along a thirty-foot ceiling, and three
-obsidian hooves snapped off where the rest of the horse had shattered. The eyeless six-legged
-wyrm came down out of the dark, and did not go back up.
+A cave mouth in the western bank of the dry riverbed, past a field of broken wagons. Obsidian
+flakes glittering underfoot, long parallel gouges along a thirty-foot ceiling, and three obsidian
+hooves snapped off where the rest of the horse had shattered. **Scorizscar** came down out of the
+dark — six-legged, eyeless, and the wrong number of teeth besides — and did not go back up.
+
+## The Molten Scar
+<!-- at: 52.0, 61.0 -->
+<!-- letter: M -->
+<!-- kind: peril -->
+<!-- chapter: Where the Fire Began -->
+
+A chamber open to a sky that flickered red, rimmed by rock walls, with the lava working below it.
+**Vorimeraak** led the ritual here, scythe in hand and a merchant chained to a spike on the stone —
+and it was the same ritual that had been worked on **Harlock** at fifteen, three hundred yards from
+where he now stood. He killed her, and the whole of that night came back in the instant she died.
+
+## Arueshalae's Redoubt
+<!-- at: 20.0, 20.0 -->
+<!-- letter: N -->
+<!-- kind: ruin -->
+<!-- chapter: The Gates of the Redoubt -->
+
+The far western ruin where the penitent succubus was run to ground, out among the last of the
+standing woods. The demonic host had hunted her across the Worldwound and posted a thousand
+platinum for her; what came to the gates first wore her face.
+
+## The Ivory Sanctum
+<!-- at: 37.5, 52.0 -->
+<!-- letter: O -->
+<!-- kind: lair -->
+<!-- chapter: The Jailer's Ring -->
+
+Behind the Greengates — a wall of grey stone mottled with lichen, woody vines curled across it,
+the thorns barbed and even the insects on it correct. It is a masterwork of a lie, and the door
+is real. Beyond it: the elixirs, and the worm that walks whom **Staunton Vhane**'s own journals
+named with dread.
+
+## Kenabres
+<!-- at: 75.5, 67.5 -->
+<!-- kind: city -->
+<!-- chapter: The Gathering in the Dark -->
+
+Downriver on the eastern bank, and the reason there is a crusade at all. The city fell in an
+afternoon; everything the company has done since began in the dark under it.
+
+## The Waystation at Vineyard Hills
+<!-- at: 83.5, 68.0 -->
+<!-- kind: camp -->
+<!-- chapter: The Waystation at Vineyard Hills -->
+
+A stop on the road east of **Kenabres**, and the last ordinary place any of them stood before the
+march north.
+
+## Eagle Rock
+<!-- at: 73.0, 52.0 -->
+<!-- letter: F -->
+<!-- kind: peril -->
+<!-- revealed: no -->
+
+Not yet found. Held back from the chart until the company has stood on it.
+
+## Wintersun Hall
+<!-- at: 68.5, 63.0 -->
+<!-- letter: H -->
+<!-- kind: ruin -->
+<!-- revealed: no -->
+
+A hall of some clanliege, with a feast hall and a great hall in it, and raids coming out of it.
+Not yet found. Held back from the chart until the company has stood in it.

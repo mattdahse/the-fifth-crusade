@@ -147,7 +147,8 @@ if (Test-Path $mapdir) {
         $body = New-Object System.Collections.ArrayList
         $cur = [pscustomobject]@{
           id = (To-Slug $pname); name = $pname; x = -1.0; y = -1.0
-          kind = 'site'; style = 'pin'; chapter = ''; chapterId = ''; chapterLabel = ''
+          kind = 'site'; style = 'pin'; letter = ''; revealed = $true
+          chapter = ''; chapterId = ''; chapterLabel = ''
           md = ''; text = ''
         }
         [void]$places.Add($cur); continue
@@ -161,6 +162,8 @@ if (Test-Path $mapdir) {
       }
       if ($cur -and $t -match '^<!--\s*kind:\s*(.+?)\s*-->$')    { $cur.kind    = $matches[1].Trim().ToLowerInvariant(); continue }
       if ($cur -and $t -match '^<!--\s*style:\s*(.+?)\s*-->$')   { $cur.style   = $matches[1].Trim().ToLowerInvariant(); continue }
+      if ($cur -and $t -match '^<!--\s*letter:\s*(.+?)\s*-->$')   { $cur.letter  = $matches[1].Trim(); continue }
+      if ($cur -and $t -match '^<!--\s*revealed:\s*(.+?)\s*-->$') { $cur.revealed = ($matches[1].Trim() -notmatch '^(no|false|0)$'); continue }
       if ($cur -and $t -match '^<!--\s*chapter:\s*(.+?)\s*-->$') { $cur.chapter = $matches[1].Trim(); continue }
       if ($t -match '^<!--') { continue }                  # any other marker is authoring matter
       if ($cur) { [void]$body.Add($l); $cur.md = (($body -join "`n").Trim()) }
@@ -171,6 +174,7 @@ if (Test-Path $mapdir) {
     }
     foreach ($p in $places) {
       if ($p.x -lt 0) { Write-Warning ("Map '{0}': place '{1}' has no <!-- at: x, y --> marker -- it will not be drawn." -f $mid, $p.name) }
+      if (-not $p.revealed) { continue }   # held back: never reaches data.js, so it cannot be read off the page
       if ($p.chapter -ne '') {
         $hit = $all | Where-Object { $_.title -eq $p.chapter } | Select-Object -First 1
         if ($hit) { $p.chapterId = $hit.id; $p.chapterLabel = ('Book ' + $hit.book + ' ' + $em + ' ' + $hit.label) }
@@ -180,11 +184,15 @@ if (Test-Path $mapdir) {
       $p.text = $p.text.Trim()
     }
     if ($mimg -eq '') { Write-Warning ("Map '{0}' has no <!-- image: --> marker and will not draw." -f $mid) }
+    $held = @($places | Where-Object { -not $_.revealed })
+    if ($held.Count) {
+      Write-Host ("  {0}: holding back {1} unrevealed place(s) -- {2}" -f $mid, $held.Count, (($held | ForEach-Object { $_.name }) -join ', ')) -ForegroundColor DarkYellow
+    }
     [void]$maps.Add([pscustomobject]@{
       id = $mid; order = $morder; title = $mtitle; subtitle = $msub
       image = $mimg; scale = $mscale
       intro = (($intro -join "`n").Trim())
-      places = @($places | Where-Object { $_.x -ge 0 })
+      places = @($places | Where-Object { $_.x -ge 0 -and $_.revealed })
     })
   }
 }
