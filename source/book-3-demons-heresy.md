@@ -1814,6 +1814,8 @@ They descended together. The lair's air bit hard at their throats. The ceiling s
 
 The ambush came out of the dark, as such things must. A cone of thick, sluggish purple fog rolled over the company, and the acid that hung in it was the lesser thing in it by far. ***Entropic Breath*** is, by any honest description, a powerful hallucinogen — and the company now learned, in person and at close quarters, what exactly that meant. **Chyrrik**, somewhere behind **Harlock** in the fog, still had in her hand the arrow she had drawn to shoot with, and put it into herself instead, over and over, trying to get the flesh-eating spiders off her arms — spiders that were not there, and that nobody else in the cave could see. **Harlock** fought to keep his attention on the dragon and not on the horrors playing at the periphery of his own vision — his fingers, he reported later, were melting — shapes the rest of the company would not, afterward, have wanted described to them.
 
+![The spiders! Get them off me! Die! die! Why won't they die?!](images/the-spiders.webp)
+
 ### **The Maw**
 
 And the dragon came down out of the dark. **Scorizscar** — and she was a she, which nobody learned until she was dead and it hardly mattered by then. Six-legged, eyeless, iridescent, no honest colour in the half-light of the company's small arrow-lamp — and the wrong number of teeth besides. Her ***Entropic Shield*** cast a haze of nothing-quite-where-it-seemed around her body, so that **Lupenor**'s first arrows clattered aside on miss-chance or skidded off a hide that turned every blade not magic-and-good all three at once.
