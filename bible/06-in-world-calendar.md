@@ -102,14 +102,23 @@ Days drawn from the GM's private log rather than the players' are marked *(GM's 
   the **Molten Scar**, and the mythic vrock **Vorimeraak** was slain there.
 - **8th** — Back by teleport to the temple of Sarenrae. Rabiah studied the ground; the night
   passed indoors.
-- **9th** — Overland from the temple toward Drezen, followers in train, the hunters of **Erastil**
-  among them.
-- **10th** — Drezen, to no small fanfare.
-- **11th** — Breakfast with **Abner Suthi**, newly raised. **Anevia** asked them to harbour a spy
-  at the shrine; the conspiracy of the bracelets came to light. Some of the company teleported
-  ahead to the shrine.
-- **12th** — Teleported to the **Hidden Shrine** with the Queen's spy, and stayed the night.
-- **13th** — Woke at the Hidden Shrine and made ready to go after the dragon.
+- **9th** — Out from the temple of **Sarenrae**, north along the rim of the great inland sea by an
+  unfamiliar route, followers in train and the hunters of **Erastil** among them.
+- **10th** — Second day out. **Selyse Avelia**'s bird taken; the **babau**'s parley on the road;
+  the Derakni ambush. **Selyse** read a scroll and was gone. A forced march was argued for and
+  voted down; the company made a fortified camp ten miles from **Drezen** instead, **Varic**
+  walling the horses in and sitting the night out beside them.
+- **11th** — Into **Drezen** before noon. The spoils sold, the great uncut diamond traded away,
+  **Abner Suthi** raised in the temple of **Sarenrae** at **Varic**'s own expense. The mural on
+  **Rabiah**'s wall. **Horgus Gwerm** asked for paladins and got them.
+- **12th** — Breakfast with **Abner**; the charm bracelet given and unmasked as a beacon.
+  **Gretcher** marched them to the Citadel, where **Anevia** asked them to plant the Queen's spy
+  at the shrine and **Takira's Redoubt** surfaced on **Selyse**'s new map. **Smendrick** the
+  jeweller; the watcher turned back down his own thread; **Horgus**'s escort recalled and refused.
+  That evening **Chyrrik** and three paladins went out to the shrine and **Elara Dawnstrider** came
+  home, by way of two badly missed teleports.
+- **13th** — The Queen's agent collected from the temple pews, and the company carried west to the
+  **Hidden Shrine**, where they spent the night and turned their minds to the dragon.
 - **14th** — The lair of the woundwyrm **Scorizscar** found, and Scorizscar slain.
 - **15th** — From the dragon's lair by teleport to the temple of Sarenrae, where they sat out the
   storm.
@@ -144,18 +153,27 @@ the chronicle has never named. **Not yet reconciled** — resolve with Matt befo
 - **7th Neth — Abner Suthi.** The log reads *"Killed Abner Soothy and the mythic Vrock."* The
   chronicle and the Cast both have him rescued from the vrocks' ritual and killed by their
   lightning moments after — not slain by the company. Rendered above to match the chronicle.
-- ~~**10th Neth — Drezen.**~~ *Resolved by Matt, Aug 2026.* The log's *"Drezen, to no small
-  fanfare"* and the chronicle's ambush two days out are both right. The ambush happened where the
-  chronicle puts it; afterward the company chose not to camp again in the open and **force-marched
-  through the night** for the safety of the walls, arriving well ahead of schedule. Ch VIII's close
-  and Ch IX's *The Road Home* have both been rewritten to carry the forced march — Ch IX previously
-  had them making a fortified camp ten miles out and strolling in the next morning, which is what
-  put the two records at odds.
-- **Ch VIII / Ch IX overlap.** Still open, and separate from the date. Ch VIII (10 Neth) ends with
-  **one** Derakni dead and one fled; Ch IX (11 Neth) opens on the aftermath of what reads like the
-  same engagement but counts **two** carcasses, and names **Ashi Waxentong** as the enemy that never
-  came into focus. Either the 9 May session reopened the fight — or one of the two chapters is a
-  body out. Ch IX has **not** been validated against its recording (call `667972898`).
+- **10th Neth — Drezen. ⚠️ REOPENED, and the previous resolution was wrong.** Ch IX was validated
+  against its recording (call `667972898`) in Aug 2026, and **the forced march never happened.** The
+  recording is explicit: the company argued for pushing through, read out the forced-march rules,
+  decided the horses could not do three hours of broken ground in the dark, and **camped** — a
+  proper fortified camp inside the *Sword of Valor*'s ward, with **Varic** raising a *Wall of Stone*
+  to pen the horses, ringing it with torches, and sitting up in the gap all night. They walked in
+  the next morning, and **Rabiah's followers were at the gate because they had worked out the
+  arrival day in advance** — so "well ahead of schedule" was wrong too. The camp has been restored
+  to Ch IX and the day-by-day above rebuilt around it. *(The earlier pass deleted a real scene to
+  make the log fit; noted here so it is not deleted a second time.)*
+  **What this costs:** the FG log's *"10th Neth — Drezen, to no small fanfare"* and the GM's own
+  in-session dates on 9 May (*"today is the 10th of Neth"*, *"Toil Day, the 12th of Neth"*) are now
+  **one day early**, because neither counts the night in camp. The chronicle's dates above follow
+  Ch VIII's validated *second day out = 10 Neth* and run 11–13 Neth. **Matt to rule** on which
+  record moves; nothing downstream of the 14th is affected either way.
+- **Ch VIII / Ch IX overlap — the body count is still out.** Ch VIII (validated) ends with **one**
+  Derakni dead and one fled. The 9 May recording opens with the GM describing **two** Derakni
+  carcasses on the rock. Both chapters are now validated against their own recordings, so this is
+  not a chronicle error but a table one: the 9 May recap simply mis-remembered the previous
+  session's tally. Ch IX's text follows the recording. **Matt to rule** whether Ch IX drops to one
+  carcass to agree with Ch VIII.
 - **20th Neth — Samail.** A raising the chronicle never records; the name appears nowhere in
   `source/` or `characters/`. Spelling unconfirmed.
 - **Vorimeraak.** The mythic vrock of the Molten Scar. Spelling and sex settled by Matt, Aug 2026:
