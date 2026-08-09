@@ -6,7 +6,7 @@
 
 <!-- inworld: 16 Arodus 4713 -->
 
-<!-- fathom: 165703544 -->
+<!-- fathom: call=165703544 recording=32256159 -->
 
 *October 17, 2024 session — the caverns beneath **Kenabres**, in the first hours after the demon-fall*
 
@@ -60,7 +60,7 @@ So the first night beneath **Kenabres** passed without further terror, in a hous
 
 <!-- inworld: approx 17 Arodus 4713 -->
 
-<!-- fathom: 178009368 -->
+<!-- fathom: call=178009368 recording=34934762 -->
 
 *November 8, 2024 session — the lightless tunnels beneath Kenabres, in the days after the city's fall*
 
@@ -106,7 +106,7 @@ In a round cavern choked with a hostile, spore-belching fungus, fire and oil cle
 
 <!-- inworld: approx 17 Arodus 4713 to 18 Arodus 4713 -->
 
-<!-- fathom: 186092746 -->
+<!-- fathom: call=186092746 recording=36731415 -->
 
 *November 23, 2024 session — the mongrel village of Neathholm, deep beneath Kenabres, and the tunnels of the fallen tribe that guard the way upward*
 
@@ -158,7 +158,7 @@ At last two shafts descended into deeper dark — one plunging forty feet to rus
 
 <!-- inworld: approx 18 Arodus 4713 to 19 Arodus 4713 -->
 
-<!-- fathom: 194019062 -->
+<!-- fathom: call=194019062 recording=38329906 -->
 
 *December 7, 2024 session — beneath and above the stricken city of Kenabres*
 
@@ -208,7 +208,7 @@ At last, past an hour of clawing through wreckage, they reached the manor of **H
 
 <!-- inworld: approx 20 Arodus 4713 -->
 
-<!-- fathom: 201534049 -->
+<!-- fathom: call=201534049 recording=40199600 -->
 
 *December 21, 2024 session — the ruin of **Kenabres**, in the days after the demon assault, as the company crosses the shattered city*
 
@@ -246,7 +246,7 @@ The dead man wore no true armor, only spellcraft and cunning. Upon him they foun
 
 <!-- inworld: approx 20 Arodus 4713 to 21 Arodus 4713 -->
 
-<!-- fathom: 205551629 -->
+<!-- fathom: call=205551629 recording=40900407 -->
 
 *January 4, 2025 session — Kenabres besieged, from the Tirabade house to the gates of the Defender's Heart*
 
@@ -298,7 +298,7 @@ Something in each of them had quietly deepened along that hard road, tempered by
 
 <!-- inworld: approx 21 Arodus 4713 to 22 Arodus 4713 -->
 
-<!-- fathom: 215319354 -->
+<!-- fathom: call=215319354 recording=42978903 -->
 
 *January 17, 2025 session — the ruin of Kenabres, from Defender's Heart to the fallen Library of the Black Wing*
 
@@ -354,7 +354,7 @@ At the barricades of **Defender's Heart** the watchword was given and the gates 
 
 <!-- inworld: approx 22 Arodus 4713 -->
 
-<!-- fathom: 223129507 -->
+<!-- fathom: call=223129507 recording=45149314 -->
 
 *January 31, 2025 session — the Defender's Heart and the cultist safehouses of fallen Kenabres*
 
@@ -398,7 +398,7 @@ The apothecary's shelves proved false, their jars glued fast to hide a secret do
 
 <!-- inworld: approx 22 Arodus 4713 to 23 Arodus 4713 -->
 
-<!-- fathom: 234064236 -->
+<!-- fathom: call=234064236 recording=47407438 -->
 
 *February 14, 2025 session — the broken streets of **Kenabres**, from the ruin of **Topaz Solutions** to the very threshold of the **Gray Garrison***
 
@@ -450,7 +450,7 @@ The last chamber had been a museum, now smashed to splinters, where two headless
 
 <!-- inworld: 23 Arodus 4713 -->
 
-<!-- fathom: 242607886 -->
+<!-- fathom: call=242607886 recording=49699568 -->
 
 *February 28, 2025 session — the storming of the **Gray Garrison**, deep within occupied **Kenabres***
 
@@ -572,7 +572,7 @@ But it did not drain entirely. Something had woken in the four of them that woul
 
 <!-- epilogue -->
 
-<!-- fathom: 264621584 -->
+<!-- fathom: call=264621584 recording=54488768 -->
 
 *March 28, 2025 session — the hour after the Gray Garrison, in the wounded city of Kenabres*
 

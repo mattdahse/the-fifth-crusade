@@ -144,6 +144,18 @@ the chronicle has never named. **Not yet reconciled** — resolve with Matt befo
 - **7th Neth — Abner Suthi.** The log reads *"Killed Abner Soothy and the mythic Vrock."* The
   chronicle and the Cast both have him rescued from the vrocks' ritual and killed by their
   lightning moments after — not slain by the company. Rendered above to match the chronicle.
+- ~~**10th Neth — Drezen.**~~ *Resolved by Matt, Aug 2026.* The log's *"Drezen, to no small
+  fanfare"* and the chronicle's ambush two days out are both right. The ambush happened where the
+  chronicle puts it; afterward the company chose not to camp again in the open and **force-marched
+  through the night** for the safety of the walls, arriving well ahead of schedule. Ch VIII's close
+  and Ch IX's *The Road Home* have both been rewritten to carry the forced march — Ch IX previously
+  had them making a fortified camp ten miles out and strolling in the next morning, which is what
+  put the two records at odds.
+- **Ch VIII / Ch IX overlap.** Still open, and separate from the date. Ch VIII (10 Neth) ends with
+  **one** Derakni dead and one fled; Ch IX (11 Neth) opens on the aftermath of what reads like the
+  same engagement but counts **two** carcasses, and names **Ashi Waxentong** as the enemy that never
+  came into focus. Either the 9 May session reopened the fight — or one of the two chapters is a
+  body out. Ch IX has **not** been validated against its recording (call `667972898`).
 - **20th Neth — Samail.** A raising the chronicle never records; the name appears nowhere in
   `source/` or `characters/`. Spelling unconfirmed.
 - **Vorimeraak.** The mythic vrock of the Molten Scar. Spelling and sex settled by Matt, Aug 2026:

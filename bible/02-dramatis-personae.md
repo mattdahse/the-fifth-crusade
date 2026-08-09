@@ -46,7 +46,7 @@ The twenty who marched west out of Drezen's gate on the 27th of Lamashan, 4713, 
 - **Brix Copperfinch** — gnome adept of a hundred and twelve; scholar of Sarenrae's worship in pre-Worldwound Sarkoris, permanently late, permanently talking.
 - **Oswin Tall** — human handyman and lay brother of thirty-eight, five foot two; holds that honest work is a form of prayer.
 
-- **Selyse Avelia** *(the Fantasy Grounds record spells her "Selise Aviala"; the chronicle spelling governs)* — Anevia's spy and cartographer, charged with mapping the Marchlands and travelling under a cover story as the expedition's architect. A wizard; her familiar is the kestrel **Horace**, through whose eyes she sees, which is why no bird may be shot on the march. She teleported out with her maps when the deraknis came. More of her story is still to come — flesh this entry out as it lands.
+- **Selyse Avelia** *(the Fantasy Grounds record spells her "Selise Aviala"; the chronicle spelling governs)* — Anevia's spy and cartographer, charged with mapping the Marchlands and travelling under a cover story as the expedition's architect. A wizard; her familiar is the kestrel **Horace**, through whose eyes she sees, which is why no bird may be shot on the march. She teleported out with her maps when the Derakni came. More of her story is still to come — flesh this entry out as it lands.
 
 ## Followers of Erastil
 
@@ -74,6 +74,8 @@ Jeskar Hinton's congregation in Drezen — hunters and trappers who took the sac
 - **Joran Vhane** — surrendered on the middle tier; provided intelligence; dreams of relighting the forge beneath Drezen for good ends.
 - **Jestak** — a raging barbarian of the Citadel gauntlet.
 - **Scorizscar** — six-legged, eyeless mythic dragon of the Gray Road; slain in its lair (Ch XVI).
+- **Vorimeraak** *(the chronicle first had "Vremorak", off a garbled recording; spelling and sex settled by Matt, Aug 2026 — **Vorimeraak**, and **she is female**, against the transcript's male pronouns)* — mythic vrock who led the ritual in **the Molten Scar**, the same working the cultists had laid on **Harlock** at fifteen. Killed by Harlock on the dry western shore; because she fell on rock rather than into the lava, her corrosive scythe went home with the company.
+- **Ashi Waxentong** — a name and nothing else. The master a **babau** messenger invoked when it stopped the company on the northern road and demanded **Selyse Avelia**'s bird and her maps (Ch VIII). Unknown to the planar catalogues; never seen. A third, smaller flyer hung at the edge of that engagement and left without ever coming into focus — the company's only guess at him. **Spelling unconfirmed** beyond the table's own rendering.
 - **The Red Swarm & Jaruunicka** — a purpose-built hunting company that mirrored the party; and the Sifkesh hag who wore Arueshalae's face as a trap.
 
 ---

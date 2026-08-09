@@ -46,7 +46,7 @@ and shown on the site; recordings are **not** surfaced. Inline markers a chapter
 - `<!-- epilogue -->` — flags the chapter as its book's Epilogue (labeled "Epilogue" instead of a numeral).
 - `<!-- date: Month Day, Year -->` — explicit play-date override, for a subtitle that carries only an in-world season.
 - `<!-- inworld: 19 Neth 4713 to 24 Neth 4713 -->` — the chapter's **in-world span**, which places it on the Timeline. A single day may be given alone (`<!-- inworld: 10 Neth 4713 -->`). Prefix `approx` (`<!-- inworld: approx 17 Arodus 4713 to 18 Arodus 4713 -->`) for a span the Fantasy Grounds log never recorded and which is placed from the chronicle's own narration; those blocks are drawn with a dashed edge. Every chapter needs one — the build warns for any that lacks it.
-- `<!-- fathom: <recording-id> -->` — optional dormant metadata; **not rendered** (recordings are found in Fathom by date).
+- `<!-- fathom: call=<call-id> recording=<recording-id> -->` — dormant metadata; **not rendered**. Fathom numbers a session twice: the **call id** is what appears in the share URL (`fathom.video/calls/650843307`), while the **recording id** (`141062294`) is what the Fathom API and MCP tools take as `recording_id`. Passing the call id to a transcript call fails with what looks like a permissions error and isn't one, so both are stored. Every chapter written from a recording carries the pair.
 
 ## The Timeline
 

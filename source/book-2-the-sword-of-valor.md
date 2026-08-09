@@ -6,7 +6,7 @@
 
 <!-- inworld: 25 Arodus 4713 -->
 
-<!-- fathom: 274449789 -->
+<!-- fathom: call=274449789 recording=56966087 -->
 
 *April 11, 2025 session — the road southeast of Kenabres, in the first days after the city's deliverance*
 
@@ -280,7 +280,7 @@ From the heights **Lupenor** had marked a thing that unsettled even her elven ca
 
 <!-- inworld: 2 Rova 4713 to 3 Rova 4713 -->
 
-<!-- fathom: 297872089 -->
+<!-- fathom: call=297872089 recording=61891763 -->
 
 <!-- date: May 10, 2025 -->
 
@@ -376,7 +376,7 @@ And not one of them thought to ask, that night, who had put three vials of a dem
 
 <!-- inworld: 4 Rova 4713 to 5 Rova 4713 -->
 
-<!-- fathom: 297872089 -->
+<!-- fathom: call=297872089 recording=61891763 -->
 
 <!-- date: May 10, 2025 -->
 
@@ -532,7 +532,7 @@ They burned the queen's body, climbed the rope back into the jaundiced daylight,
 
 <!-- inworld: 6 Rova 4713 to 7 Rova 4713 -->
 
-<!-- fathom: 343836789 -->
+<!-- fathom: call=343836789 recording=72314274 -->
 
 *July 4, 2025 session — the storming of Paradise Hill, four battles in a single day for the streets of **Drezen**, and at the last the bridge that was built to fall*
 
@@ -587,7 +587,7 @@ The triumph did not come clean. Even as they leaned over the war-table, word cam
 
 <!-- inworld: 8 Rova 4713 -->
 
-<!-- fathom: 355809076 -->
+<!-- fathom: call=355809076 recording=75197926 -->
 
 *July 18, 2025 session — the broken bridge over the Ahari, and the four watchtowers that stood between an army and the gates of Drezen*
 
@@ -697,7 +697,7 @@ It was not hunting the army. It was hunting them.
 
 <!-- inworld: 8 Rova 4713 -->
 
-<!-- fathom: 382513279 -->
+<!-- fathom: call=382513279 recording=80959372 -->
 
 *August 15, 2025 session — the beast above the breach, the breaking of three armies, and the courtyard of Citadel Drezen taken at last*
 
@@ -816,7 +816,7 @@ When it was done, **Harlock** and **Varic** knelt and cleansed the chapel with p
 
 <!-- inworld: 9 Rova 4713 -->
 
-<!-- fathom: 423214214 -->
+<!-- fathom: call=423214214 recording=90259705 -->
 
 *September 26, 2025 session — the false shrine, the defiled cemetery, and the burning halls of Citadel Drezen*
 
@@ -864,7 +864,7 @@ The day's last door gave onto a room choked with sulfur-smoke that stung the eye
 
 <!-- inworld: 10 Rova 4713 -->
 
-<!-- fathom: 438834731 -->
+<!-- fathom: call=438834731 recording=93494898 -->
 
 *October 10, 2025 session — the eastern wing of Citadel Drezen, the statues that woke, and a man chained to a bed who was not a man at all*
 
@@ -1024,7 +1024,7 @@ Suddenly — the door to the next room burst open.
 
 <!-- inworld: 11 Rova 4713 to 12 Rova 4713 -->
 
-<!-- fathom: 468815144 -->
+<!-- fathom: call=468815144 recording=100198392 -->
 
 *November 7, 2025 session — the planning room of Citadel Drezen, and the first death among the company*
 
@@ -1128,7 +1128,7 @@ Whether every soul the glaive had eaten went free at the end of it, none of them
 
 <!-- inworld: 12 Rova 4713 -->
 
-<!-- fathom: 490590311 -->
+<!-- fathom: call=490590311 recording=105055470 -->
 
 *November 29, 2025 session — beneath Citadel Drezen: the whispering prison, the specters in the cells, and the thing that was in the room long before anybody saw it*
 
@@ -1276,7 +1276,7 @@ Nobody took him up on it. **Harlock** could still feel his prayers going out int
 
 <!-- inworld: 12 Rova 4713 to 13 Rova 4713 -->
 
-<!-- fathom: 506425868 -->
+<!-- fathom: call=506425868 recording=108516665 -->
 
 *December 12, 2025 session — the anti-magic cell, the butterfly cell, and the seneschal's ritual beneath Citadel Drezen*
 
@@ -1428,7 +1428,7 @@ But for now, the company had won a crucial victory. The mage conducting the ritu
 
 <!-- inworld: 13 Rova 4713 -->
 
-<!-- fathom: 513922584 -->
+<!-- fathom: call=513922584 recording=110237046 -->
 
 *December 20, 2025 session — the Corruption Forge, the false banner, the shadow demon's dark, and what was written in **Staunton Vhane**'s own hand*
 
@@ -1672,7 +1672,7 @@ Not quite four weeks.
 
 <!-- epilogue -->
 
-<!-- fathom: 521042087 -->
+<!-- fathom: call=521042087 recording=111547804 -->
 
 *January 2, 2026 session — Star Day, the 14th of Rova through Lamashan, 4713 AR: the settling of liberated Drezen*
 

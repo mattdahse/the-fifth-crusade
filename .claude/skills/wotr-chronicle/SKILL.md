@@ -25,7 +25,7 @@ retired backup. Maintaining the archive after a session means up to **five** job
 - `bible/00-style-and-prompt-guide.md`, `02-dramatis-personae.md`, `03-lore-and-locations.md` — authoring reference; Matt curates these.
 - `build.ps1` — compiles `source/*.md` + `secrets/*.md` → `data.js`. Run after any source/secrets change.
 - `extract-calendar.ps1` → `bible/06-in-world-calendar.json` — the campaign's in-world dates, pulled from Fantasy Grounds. Paired with `bible/06-in-world-calendar.md`, the hand-written prose calendar. **Neither is published** — they are authoring reference, not site content.
-- Chapters are **not numbered in the markdown**; the build assigns each book's Roman numeral by position (last = `Epilogue`). Each chapter's **real-world play date** is read from its subtitle line (`*<Month Day, Year> session — …*`) and shown on the site. Recordings are **not surfaced** (Matt finds them in Fathom by date); a `<!-- fathom: id -->` line is optional dormant metadata. If a subtitle can't carry a full date, add `<!-- date: Month Day, Year -->`.
+- Chapters are **not numbered in the markdown**; the build assigns each book's Roman numeral by position (last = `Epilogue`). Each chapter's **real-world play date** is read from its subtitle line (`*<Month Day, Year> session — …*`) and shown on the site. Recordings are **not surfaced** on the site (Matt finds them in Fathom by date), but every chapter written from a recording carries a `<!-- fathom: call=<call-id> recording=<recording-id> -->` line — see **Recording metadata** below. If a subtitle can't carry a full date, add `<!-- date: Month Day, Year -->`.
 
 **Encoding:** always read/write with `[IO.File]::ReadAllText/WriteAllText` (UTF-8), never `Get-Content -Raw`. Never type an em-dash literal into a `.ps1` — use `[char]0x2014`. These rules originally guarded against Windows PowerShell 5.1 reading ANSI; keep them anyway, since they're also what makes the build byte-identical across the Macs and the PC.
 
@@ -33,6 +33,27 @@ retired backup. Maintaining the archive after a session means up to **five** job
 
 - **A session transcript** pasted in chat, **or Matt's description** from memory, **or** just "do the recap" (figure out the next chapter from the chronicle). Sometimes with a chapter number/direction.
 - The session's **real-world play date** — put it in the subtitle. If unknown, check Matt's Google Calendar: the recurring event is **"Pathfinder"** (`fullText:"Pathfinder"`, roughly biweekly Fri/Sat); read the session date from there.
+
+## Recording metadata — record BOTH ids
+
+Fathom gives a session **two different numbers**, and they are easy to confuse:
+
+- the **call id**, which is what appears in the share URL — `https://fathom.video/calls/650843307`
+- the **recording id**, which is what every Fathom tool takes as `recording_id` — `141062294`
+
+Passing a call id to `get_meeting_transcript` fails with *"recording_id not found or access denied"*, which reads like a permissions problem and is not one. Every chapter therefore stores both:
+
+```
+<!-- fathom: call=650843307 recording=141062294 -->
+```
+
+**Whenever you write or revise a chapter from a recording, make sure its marker carries both.** To get the pair, call `list_meetings` bounded to the play date (`created_after` / `created_before` a day either side) and read `recording_id` and `url` off the Pathfinder entry — the number in `url` is the call id, the `id` field is the recording id. The session is titled variously *Pathfinder*, *Online Pathfinder*, *In Person Pathfinder*, *Hybrid in person/zoom pathfinder* — match on the date, not the title.
+
+The line is inert: `build.ps1` strips any `<!-- fathom … -->` line before rendering, so the format is free to carry whatever is useful and nothing reaches the site.
+
+**Validating an existing chapter against its recording** is the same lookup in reverse: read the marker, use the `recording=` number directly. Transcripts run long — a six-hour session is ~1,900 lines and will not fit one `Read`; pull it in sequential chunks of ~250–300 lines and read all of it before judging the chapter, because the reconciling detail is as likely to be in the last hour as the first.
+
+**Speaker labels in Fathom transcripts are unreliable.** They drift, swap, and attribute a player's line to the DM. Identify who did what from *content* — a Fireball is Rabiah's, a Holy Smite is Varic's, "what I have memorized" means a prepared caster — not from the name on the line.
 
 ## Workflow — 1. The chapter
 
@@ -148,6 +169,12 @@ The archive is illustrated. Three files govern all of it:
 ## Canon spellings (unify FG/transcript drift)
 
 Gray Garrison, Kenabres, Drezen, Aponavisius, Staunton Vhane, Soul Shear, Lupenor Celest, Irabeth Tirabade, Aron Kir, Chyrrik, Jaruunicka, Arueshalae, Rothin Vald, Elara Dawnstrider, Solemn Hour, Battle Hymn, Khorramzadeh, Radiance. (FG notes and transcripts often drift: Grey Garrison, Kenabras, Aponavicious, Staunton Vane, Lupinor, Celeste, Irebeth, Aaron Keirr, Chyrrik, Soulshear, Rothen (→ Rothin), Alara Dawnstar (→ Elara Dawnstrider) — fix all of these.)
+
+Also settled, and worth watching for because the table itself says both:
+
+- **Derakni** — the horse-sized abyssal locust demon: six legs, scorpion stinger, clawed forelimbs, a mesmerising sonic drone, and a summoned wasp swarm. The table says **Darachne** about as often as Derakni and means the same creature; **Derakni governs everywhere**, and it is *not* spider-bodied — never describe it as one.
+- **Jeskar Hinton**, never "Jesker". **Lenne Marsh**, never "Lenny". **Selyse Avelia**, not "Selise Aviala". **Abner Suthi**, never "Avner". **Deren Ashfall**, never "Daren". **Adara Seln**, not "Sein".
+- **Vorimeraak** — the mythic vrock of the Molten Scar, and **she is female**, against the transcript's spelling ("Vremorak") and its male pronouns. Settled by Matt, Aug 2026.
 
 ## Conventions & edge cases
 
