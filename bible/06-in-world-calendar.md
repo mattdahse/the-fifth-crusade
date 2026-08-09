@@ -138,13 +138,18 @@ Days drawn from the GM's private log rather than the players' are marked *(GM's 
   the ash storm. The day spent under the Dawnflower's roof: the lair marked on the marchlands map,
   a *sending* to **Irabeth**, the storm blowing itself out at sunset.
 - **17th** — ***Battle Hymn*** identified at the second attempt, and out from the shrine westward
-  through wet snow and grey mud. Camp on the east bank of the **Gray Road** in **Varic**'s
+  through wet snow and grey mud. Camp on the east bank of the **Gray Road** in **Rabiah**'s
   *Secure Shelter*, and **Lupenor**'s dream of the maze and the tower.
 - **18th** — Across the forty-foot channel of the **Gray Road** — **Varic** falling twice on the
   scree — and west past the tree where **Cedric** had been nailed. The false swarm on the causeway,
-  and then the **Red Swarm** in the late afternoon. **Chyrrik** killed and raised.
-- **19th** — Marching for the redoubt.
-- **20th** — **Takira's Redoubt** reached.
+  and then the **Red Swarm** in the late afternoon. **Chyrrik** killed and raised. The hunters'
+  kit divided over several hours on the battlefield, and camp made where they had fought.
+- **19th** — West across frozen bog and out onto tundra, the road to the redoubt showing booted
+  prints, reptilian mounts and scorched hoofprints. Camp off the path, **Rabiah**'s shelter
+  disguised as a hill among decoy hills, no fire lit.
+- **20th** — **Takira's Redoubt** reached — **Lupenor**'s dream, stone for stone. The gatehouse
+  taken from two **Derakni**, their wasp swarms, and two rift drakes with **incubus** riders; both
+  riders teleported away. **Harlock** bent the portcullises open by hand.
 - **21st** — Teleport to the Hidden Shrine: goods set down, orders left, **Chyrrik** posted as
   runner, **Samail** raised — and back to the redoubt, mostly by teleport again.
 - **22nd** — A storm of teeth held them from leaving for the **Green Gates** and the
@@ -202,8 +207,15 @@ the chronicle has never named. **Not yet reconciled** — resolve with Matt befo
   the march to the **Gray Road** (17th), and the crossing, the tree and the **Red Swarm** (18th).
   Ch XI's end date has accordingly been pulled back from the 19th to the **18th**. This leaves the
   19th as a plain marching day before **Takira's Redoubt** on the 20th, so **nothing after Ch XI
-  moves.** **Ch XII onward are still unvalidated** — their dates follow from arithmetic rather than
-  from their own tapes, so treat them as good but unconfirmed.
+  moves.**
+  ✅ **Ch XII validated, Aug 2026 (call `718333386`), and the offset holds a third time.** The GM
+  opens the arrival day with *"Today is the 19th of Neth"* — one day early, as predicted — so the
+  chronicle's **20th** for **Takira's Redoubt** is confirmed on evidence rather than arithmetic.
+  Ch XII's marker has been widened to **18–20 Neth** because the chapter narrates three days: the
+  loot-and-camp day on the battlefield, the march across the frozen bog, and the assault. The 19th
+  is therefore Ch XII's own middle day, not a gap. **Ch XIII onward are still unvalidated** — their
+  dates follow from arithmetic rather than from their own tapes, so treat them as good but
+  unconfirmed.
 - ~~**Ch VIII / Ch IX — the body count.**~~ *Resolved by Matt, Aug 2026.* Ch VIII (validated) ends
   with **one** Derakni dead and one fled; the 9 May recording's opening recap described **two**
   carcasses. That was the table mis-remembering the previous session, not a chronicle error, and
