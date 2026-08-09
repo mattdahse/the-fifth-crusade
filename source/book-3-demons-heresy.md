@@ -1840,6 +1840,8 @@ The fight nearly slipped from them. The dragon's hide turned every blade and eve
 
 **Harlock**, under ***Haste***, under ***Smite Evil***, went at her with everything he had left and hit twice. Then the extra stroke that ***Haste*** had bought him came round — and landed true, and kept going, and went on going until something in her gave. He went up onto the dragon's head and drove ***Radiance*** straight down through her skull. She dropped where she stood, all at once, the way a building comes down; and the shimmer of the ***Entropic Shield*** that had turned aside half the arrows in the room simply winked out, and did not come back.
 
+![Harlock's first dragon.](images/harlocks-first-dragon.webp)
+
 ### **The Long Quiet**
 
 The fog had not finished with **Chyrrik**. She fell on the carcass and beat it with her hammer for a while, which harmed nobody. Then she turned around and swung at **Harlock**, and missed him — the company standing very still and letting her — and then spent her last round babbling, and came back to herself with no memory of having done any of it. **Varic** excluded the corpse from his channel of positive energy with the careful prejudice of a man who had had quite enough; the wave of healing closed the bleeding around him and ignored the great scaled shape going cold beside them. The lair went quiet.
