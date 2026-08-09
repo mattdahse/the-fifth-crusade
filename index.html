@@ -167,7 +167,7 @@
   .tl-day .dw{margin-left:auto;font-size:.7rem;font-style:italic;color:var(--ink-soft);white-space:nowrap}
   .tl-row.quiet .tl-day{background:transparent;border-style:dotted}
   .tl-row.quiet .dn,.tl-row.quiet .dm{opacity:.66;font-weight:400}
-  .tl-row.newmonth{margin-top:.9rem}
+  .tl-row.newmonth{margin-bottom:.9rem}   /* the stack is upside down: a month opens at its foot */
   a.tl-ch{display:block;color:inherit;text-decoration:none}
   .tl-ch:focus-visible{outline:2px solid var(--accent2);outline-offset:2px}
   .tl-ch{position:absolute;border:1px solid var(--tl1);background:var(--tl1f);
@@ -642,10 +642,11 @@ function viewSecretReader(id){
   bindLightbox(); window.scrollTo(0,0);
 }
 /* ---------- Timeline ----------
-   The crusade's days in a single stack: the kept journal to the left of each day, and the
-   chapters drawn as blocks that enclose the days they cover. A day held by more than one
-   chapter is divided between their blocks in reading order — so a block can be a fraction
-   of a day, and a day can begin in one chapter and end in the next. */
+   The crusade's days in a single stack, newest at the head and Armasse at the foot: the kept
+   journal to the left of each day, and the chapters drawn as blocks that enclose the days they
+   cover. A day held by more than one chapter is divided between their blocks, the later chapter
+   taking the upper share — so a block can be a fraction of a day, and a day can begin in one
+   chapter and end in the next. */
 function ordSuffix(n){
   var t = n % 100; if(t>=11 && t<=13) return 'th';
   return ['th','st','nd','rd'][n%10>3 ? 0 : n%10];
@@ -687,7 +688,9 @@ function viewTimeline(){
     owners.push(live.filter(function(c){ return c.inFrom<=o && c.inTo>=o; }));
   }
 
-  var rows = '', prevMonth = '';
+  /* built forward, so the month breaks fall where they fall, then stacked the other way up:
+     the crusade runs from the foot of the page to its head, newest day first. */
+  var rows = [], prevMonth = '';
   for(o=first;o<=last;o++){
     var dt = ordToDate(o), jr = jmap[o] || '';
     var held = owners[o-first].length;
@@ -695,13 +698,14 @@ function viewTimeline(){
       + (prevMonth && dt.month!==prevMonth ? ' newmonth' : '')
       + (held>1 ? ' shared' : '');
     /* a day divided among several chapters is given room for each of them */
-    rows += '<div class="'+cls+'" id="tld'+(o-first)+'" style="min-height:'+(2.8*held).toFixed(2)+'rem">'
+    rows.push('<div class="'+cls+'" id="tld'+(o-first)+'" style="min-height:'+(2.8*held).toFixed(2)+'rem">'
       + '<div class="tl-j">'+(jr ? inline(jr) : '')+'</div>'
       + '<div class="tl-day"><span class="dn">'+dt.d+ordSuffix(dt.d)+'</span>'
       + '<span class="dm">'+esc(dt.month)+'</span>'
-      + '<span class="dw">'+esc(ordWeekday(o))+'</span></div></div>';
+      + '<span class="dw">'+esc(ordWeekday(o))+'</span></div></div>');
     prevMonth = dt.month;
   }
+  rows.reverse();
 
   var blocks = '';
   live.forEach(function(c,i){
@@ -715,14 +719,15 @@ function viewTimeline(){
   });
 
   app.innerHTML = '<div class="hint">The crusade day by day — '+(last-first+1)+' days of '
-    + esc(String(CAL.year))+' AR, from Armasse in Kenabres to the Ivory Sanctum. The journal kept '
+    + esc(String(CAL.year))+' AR, read from the head of the page down: the latest day first, '
+    + 'and Armasse in Kenabres at the foot. The journal kept '
     + 'at the table runs down the left; each chapter is the block enclosing the days it covers, '
     + 'and a day carrying more than one chapter is divided between them. Tap a block to read it.</div>'
     + '<div class="tl-legend"><span><i class="b1"></i>Book I</span><span><i class="b2"></i>Book II</span>'
     + '<span><i class="b3"></i>Book III</span>'
     + '<span><i class="ap"></i>days the log never kept, placed from the chronicle</span></div>'
     + '<div class="tl" id="tl"><div class="tl-blocks" id="tlblocks">'+blocks+'</div>'
-    + '<div class="tl-rows">'+rows+'</div></div>';
+    + '<div class="tl-rows">'+rows.join('')+'</div></div>';
 
   TL = {first:first, last:last, live:live, owners:owners};
   layoutTimeline();
@@ -750,8 +755,10 @@ function layoutTimeline(){
     var el = document.getElementById('tlc'+ci); if(!el) return;
     var i0 = c.inFrom - TL.first, i1 = c.inTo - TL.first;
     var o0 = TL.owners[i0], o1 = TL.owners[i1];
-    var top = tops[i0] + hts[i0] * (o0.indexOf(c) / o0.length);
-    var bot = tops[i1] + hts[i1] * ((o1.indexOf(c) + 1) / o1.length);
+    /* the stack runs backwards, so a chapter's last day is its head and its first day its
+       foot — and inside a shared day the later chapter takes the upper share. */
+    var top = tops[i1] + hts[i1] * ((o1.length - 1 - o1.indexOf(c)) / o1.length);
+    var bot = tops[i0] + hts[i0] * ((o0.length - o0.indexOf(c)) / o0.length);
     var h = Math.max(7, bot-top-3);
     el.classList.toggle('tiny', h < 34);
     el.style.left = left+'px';  el.style.width = width+'px';
