@@ -139,14 +139,6 @@
   #lightbox .lb-next{right:.3rem}
   /* timeline — a stack of the crusade's days, journal to the left, chapters enclosing */
   body.wide .wrap{max-width:1040px}
-  .tl-legend{display:flex;flex-wrap:wrap;gap:.35rem 1.1rem;align-items:center;
-    font-size:.8rem;color:var(--ink-soft);margin:.1rem 0 1rem}
-  .tl-legend i{display:inline-block;width:1.6rem;height:.62rem;border-radius:3px;
-    vertical-align:-1px;margin-right:.35rem}
-  .tl-legend i.b1{border:1px solid var(--tl1);background:var(--tl1f)}
-  .tl-legend i.b2{border:1px solid var(--tl2);background:var(--tl2f)}
-  .tl-legend i.b3{border:1px solid var(--tl3);background:var(--tl3f)}
-  .tl-legend i.ap{border:1px dashed var(--ink-soft)}
   .tl{position:relative;padding:.5rem 0}
   .tl-blocks{position:absolute;inset:0;z-index:0;pointer-events:none}
   .tl-rows{position:relative;z-index:1;padding-right:12rem;pointer-events:none}   /* the chapters' label column */
@@ -718,15 +710,7 @@ function viewTimeline(){
       + '<span class="ti">'+esc(c.title)+'</span></span></a>';
   });
 
-  app.innerHTML = '<div class="hint">The crusade day by day — '+(last-first+1)+' days of '
-    + esc(String(CAL.year))+' AR, read from the head of the page down: the latest day first, '
-    + 'and Armasse in Kenabres at the foot. The journal kept '
-    + 'at the table runs down the left; each chapter is the block enclosing the days it covers, '
-    + 'and a day carrying more than one chapter is divided between them. Tap a block to read it.</div>'
-    + '<div class="tl-legend"><span><i class="b1"></i>Book I</span><span><i class="b2"></i>Book II</span>'
-    + '<span><i class="b3"></i>Book III</span>'
-    + '<span><i class="ap"></i>days the log never kept, placed from the chronicle</span></div>'
-    + '<div class="tl" id="tl"><div class="tl-blocks" id="tlblocks">'+blocks+'</div>'
+  app.innerHTML = '<div class="tl" id="tl"><div class="tl-blocks" id="tlblocks">'+blocks+'</div>'
     + '<div class="tl-rows">'+rows.join('')+'</div></div>';
 
   TL = {first:first, last:last, live:live, owners:owners};
