@@ -146,8 +146,9 @@ the chronicle has never named. **Not yet reconciled** — resolve with Matt befo
   lightning moments after — not slain by the company. Rendered above to match the chronicle.
 - **20th Neth — Samail.** A raising the chronicle never records; the name appears nowhere in
   `source/` or `characters/`. Spelling unconfirmed.
-- **Vorimeraak.** The mythic vrock of the Molten Scar is named in the log and unnamed in the
-  chronicle. Spelling unconfirmed.
+- **Vorimeraak.** The mythic vrock of the Molten Scar. Spelling and sex settled by Matt, Aug 2026:
+  **Vorimeraak**, and **she is female** — the session transcript's "Vremorak" and its male pronouns
+  are both wrong, and the chronicle has been corrected throughout.
 - **7th Rova — Southbank.** The log spells it *Soutthbank*; the chronicle never names the battle
   at all, though it covers the fighting.
 - **Book I's four days.** Arodus 16–30 carry four entries for eight sessions of play. The log

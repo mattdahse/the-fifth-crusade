@@ -319,7 +319,7 @@ building, a cosy cottage in a garden, a hut, a cabin, a timber or half-timbered 
 tower, a castle, a chimney, glazed windows, shutters, a hearth or fireplace, furniture, an arched
 doorway, a cottage that comfortably fits the crowd`.
 
-The **BURNING LAKE** — the open chamber in the **Marchlands** where **Harlock** was taken at fifteen and
+The **MOLTEN SCAR** — the open chamber in the **Marchlands** where **Harlock** was taken at fifteen and
 where the company kills **Vorimeraak** ([`the-same-ritual`](../images/the-same-ritual.webp), Book III Ch. VII).
 ⚠️ **Do not confuse this with the "Ritual Chamber" entry below** — that is a different room entirely, under the
 ice. This one is **open to the sky**. Its plan is fixed by Matt's encounter map and must not be redrawn: a
@@ -354,7 +354,7 @@ is the reference for the next.** The failure mode to watch for is that the model
 add figures; the fix that worked was to re-state the approved framing element by element (what occupies the
 upper third, where the horizon sits, what is at each edge) rather than saying "don't zoom".*
 
-Locations with an established look so far: **Rabiah's Secure Shelter** (above), the **Burning Lake** (above),
+Locations with an established look so far: **Rabiah's Secure Shelter** (above), the **Molten Scar** (above),
 the **Corruption Forge**
 ([`the-cage-over-the-forge`](../images/the-cage-over-the-forge.webp), and
 [`the-ice-that-would-not-lie`](../images/the-ice-that-would-not-lie.webp) for its floor and its salamanders) and
