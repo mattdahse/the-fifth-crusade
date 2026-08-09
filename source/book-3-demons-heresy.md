@@ -1842,7 +1842,7 @@ And something was paid out to them that the dragon had not meant to give. **Scor
 
 ### **By Sending**
 
-There was one last spell **Rabiah** meant to spend before they slept. She gathered the words of a ***Sending*** up into her, took a deep mythic breath against the weight of it, and threw twenty-five short syllables three days' march north to the back of Governor **Irabeth**'s mind.
+There was one last spell **Varic** meant to spend before they slept. He gathered the words of a ***Sending***, took a deep mythic breath against the weight of it, and threw twenty-five short syllables three days' march north to the back of Governor **Irabeth**'s mind.
 
 *"The dragon is dead. Slain in its lair on the* ***Gray Road****. The caravans may run. We come home with what was theirs."*
 
