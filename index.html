@@ -201,6 +201,11 @@
   .map-frame.dragging{cursor:grabbing}
   .map-stage{position:relative;transform-origin:0 0}
   .map-stage img.plate{display:block;width:100%;height:auto;user-select:none;-webkit-user-drag:none}
+  /* the hex field, drawn in plate-percent space and stretched over the plate, so it needs no
+     recalculating when the frame resizes; the perspective is already baked into the geometry */
+  .hexlayer{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:.42}
+  .hexlayer path{fill:none;stroke:#ffeccb;stroke-width:1;stroke-linejoin:round}
+  .map-frame.no-hexes .hexlayer{display:none}
   .mk{position:absolute;display:block;border:0;line-height:0;cursor:pointer;
     transform:translate(-50%,-100%) scale(var(--k,1));transform-origin:50% 100%}
   .mk.icon{transform:translate(-50%,-50%) scale(var(--k,1));transform-origin:50% 50%}
@@ -772,7 +777,64 @@ function markerSvg(p){
     + glyphG(p.kind, 0.52, 10.5, -35.5) + '</svg>';
 }
 
-var MAPV = {id:null, z:1, tx:0, ty:0, sel:'', names:true, marks:true};
+/* ---- the hex field ----
+   The plate is a photograph of a table, so the map's surface is a quadrilateral in the image
+   rather than a rectangle. Given its four corners, this recovers the projection from a flat
+   sheet onto that surface and lays the chart's own hex lattice back down on it, which is why
+   the hexes grow toward the near edge instead of sitting on the picture like a decal.
+   The lattice is the reference chart's: flat-top hexes, twelve miles across the flats. */
+function hexHomography(q){
+  var src = [[0,0],[1,0],[1,1],[0,1]], M = [];
+  for(var i=0;i<4;i++){
+    var u=src[i][0], v=src[i][1], x=q[i][0], y=q[i][1];
+    M.push([u,v,1,0,0,0,-u*x,-v*x, x]);
+    M.push([0,0,0,u,v,1,-u*y,-v*y, y]);
+  }
+  var n = 8, c, r, j;
+  for(c=0;c<n;c++){
+    var p = c;
+    for(r=c+1;r<n;r++) if(Math.abs(M[r][c]) > Math.abs(M[p][c])) p = r;
+    var t = M[c]; M[c] = M[p]; M[p] = t;
+    var pv = M[c][c]; if(!pv) return null;
+    for(j=c;j<=n;j++) M[c][j] /= pv;
+    for(r=0;r<n;r++) if(r!==c && M[r][c]){
+      var f = M[r][c];
+      for(j=c;j<=n;j++) M[r][j] -= f*M[c][j];
+    }
+  }
+  var h = []; for(c=0;c<n;c++) h.push(M[c][n]); h.push(1);
+  return h;
+}
+function hexProject(h,u,v){
+  var d = h[6]*u + h[7]*v + h[8];
+  return [(h[0]*u + h[1]*v + h[2])/d, (h[3]*u + h[4]*v + h[5])/d];
+}
+function hexLayerSvg(m){
+  if(!m.surface || m.surface.length !== 4 || !m.hexes) return '';
+  var h = hexHomography(m.surface); if(!h) return '';
+  var cols = m.hexes[0], rows = m.hexes[1];
+  var su = 1/(cols*1.5), sv = 1/(rows*Math.sqrt(3));   /* the hex's radius, in each axis */
+  var d = [], c, r, k;
+  for(c=-1;c<=Math.ceil(cols)+1;c++){
+    for(r=-1;r<=Math.ceil(rows)+1;r++){
+      var cu = c*1.5*su, cv = r*Math.sqrt(3)*sv + (c%2 ? Math.sqrt(3)*sv/2 : 0);
+      if(cu < -0.25 || cu > 1.25 || cv < -0.25 || cv > 1.25) continue;
+      var seg = '';
+      for(k=0;k<6;k++){
+        var a = Math.PI/3*k;
+        var pt = hexProject(h, cu + su*Math.cos(a), cv + sv*Math.sin(a));
+        seg += (k?'L':'M') + pt[0].toFixed(2) + ' ' + pt[1].toFixed(2);
+      }
+      d.push(seg + 'Z');
+    }
+  }
+  var clip = m.surface.map(function(p){ return p[0]+','+p[1]; }).join(' ');
+  return '<svg class="hexlayer" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">'
+    + '<defs><clipPath id="hexclip" clipPathUnits="userSpaceOnUse"><polygon points="'+clip+'"/></clipPath></defs>'
+    + '<g clip-path="url(#hexclip)"><path vector-effect="non-scaling-stroke" d="'+d.join('')+'"/></g></svg>';
+}
+
+var MAPV = {id:null, z:1, tx:0, ty:0, sel:'', names:true, marks:true, hexes:false};
 
 function viewMap(id, placeId){
   setTab('map');
@@ -795,9 +857,11 @@ function viewMap(id, placeId){
       return '<span class="toggle'+(x.id===m.id?' on':'')+'" onclick="location.hash=\'#/map/'+x.id+'\'">'+esc(x.title)+'</span>';
     }).join('');
   }
+  var hasHex = !!(m.surface && m.hexes);
   var tools = '<div class="map-tools">'+picker
     + '<span class="toggle'+(MAPV.names?' on':'')+'" id="tgNames" onclick="mapToggle(\'names\')">Place names</span>'
     + '<span class="toggle'+(MAPV.marks?' on':'')+'" id="tgMarks" onclick="mapToggle(\'marks\')">Markers</span>'
+    + (hasHex ? '<span class="toggle'+(MAPV.hexes?' on':'')+'" id="tgHexes" onclick="mapToggle(\'hexes\')">Hexes</span>' : '')
     + '<span class="sp"></span>'
     + '<span class="zoomer"><span class="toggle" onclick="mapZoom(1/1.5)" title="Zoom out">&minus;</span>'
     + '<span class="toggle" onclick="mapHome()" title="Fit the whole map">&#9635;</span>'
@@ -826,14 +890,18 @@ function viewMap(id, placeId){
 
   app.innerHTML = (m.intro ? '<div class="hint">'+inline(m.intro.replace(/\n/g,' '))+'</div>' : '')
     + tools
-    + '<div class="map-frame'+(MAPV.names?'':' no-names')+(MAPV.marks?'':' no-marks')+'" id="mapframe">'
+    + '<div class="map-frame'+(MAPV.names?'':' no-names')+(MAPV.marks?'':' no-marks')
+    +     (MAPV.hexes?'':' no-hexes')+'" id="mapframe">'
     +   '<div class="map-stage" id="mapstage">'
     +     '<img class="plate" src="'+esc(m.image)+'" alt="'+esc(m.title)+'">'
+    +     hexLayerSvg(m)
     +     pins
     +   '</div>'
     + '</div>'
     + '<div class="map-legend">'+legend+'</div>'
-    + (m.scale ? '<div class="map-scale">'+inline(m.scale)+'</div>' : '')
+    /* the scale means nothing without the grid it counts, so it comes and goes with it */
+    + (hasHex && m.scale ? '<div class="map-scale" id="mapscale"'+(MAPV.hexes?'':' hidden')+'>'
+        + inline(m.scale)+'</div>' : '')
     + '<div id="mapdetail"></div>'
     + '<div class="map-places" id="mapchips">'+chips+'</div>';
 
@@ -857,6 +925,12 @@ function mapToggle(what){
   var f = document.getElementById('mapframe'); if(!f) return;
   if(what==='names'){ MAPV.names = !MAPV.names; f.classList.toggle('no-names', !MAPV.names);
     document.getElementById('tgNames').classList.toggle('on', MAPV.names); }
+  else if(what==='hexes'){
+    MAPV.hexes = !MAPV.hexes; f.classList.toggle('no-hexes', !MAPV.hexes);
+    document.getElementById('tgHexes').classList.toggle('on', MAPV.hexes);
+    var sc = document.getElementById('mapscale'); if(sc) sc.hidden = !MAPV.hexes;
+    return;   /* the grid sits under the names and displaces nothing */
+  }
   else { MAPV.marks = !MAPV.marks; f.classList.toggle('no-marks', !MAPV.marks);
     document.getElementById('tgMarks').classList.toggle('on', MAPV.marks); }
   mapLayoutLabels();   /* names moving onto the spot, or reappearing, changes what collides */

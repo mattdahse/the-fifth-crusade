@@ -4,7 +4,9 @@
 
 <!-- image: images/map-marchlands.webp -->
 <!-- order: 1 -->
-<!-- scale: one hex of the crusade's charts — twelve miles, or a hard day's march -->
+<!-- scale: one hex — twelve miles, or a hard day's march -->
+<!-- surface: 13.6,8.5 83.2,5.0 87.8,82.5 8.6,77.4 -->
+<!-- hexes: 9.70 x 5.67 -->
 
 The Marchlands are what Sarkoria became. Dry ridges and dust where there were fields, a river run
 out of its bed, and the whole southern horizon lit orange after dark. The crusade came in along
@@ -131,12 +133,16 @@ where he now stood. He killed her, and the whole of that night came back in the 
 ## Arueshalae's Redoubt
 <!-- at: 20.0, 20.0 -->
 <!-- letter: N -->
-<!-- kind: ruin -->
+<!-- kind: city -->
 <!-- chapter: The Gates of the Redoubt -->
 
-The far western ruin where the penitent succubus was run to ground, out among the last of the
-standing woods. The demonic host had hunted her across the Worldwound and posted a thousand
-platinum for her; what came to the gates first wore her face.
+**Takira's Redoubt**, on the charts and in the cultists' own dispatches — a fort that rises out
+of the frozen Marchlands in the far west, among the last of the standing woods. **Lupenor** knew
+it before she saw it, stone for stone, out of a dream. The demonic host had hunted **Arueshalae**
+the length of the Worldwound and posted a thousand platinum for her, and a captured order named
+the place outright: *Jaruunicka has tracked her to Takira's Redoubt. Send reinforcements
+immediately.* The courier never delivered it and the reinforcements never came. The company got
+there first — and what met them at the gates wore her face.
 
 ## The Ivory Sanctum
 <!-- at: 37.5, 52.0 -->

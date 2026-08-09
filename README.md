@@ -95,6 +95,8 @@ A region file looks like this:
 <!-- image: images/map-marchlands.webp -->
 <!-- order: 1 -->
 <!-- scale: one hex — twelve miles, or a hard day's march -->
+<!-- surface: 13.6,8.5 83.2,5.0 87.8,82.5 8.6,77.4 -->
+<!-- hexes: 9.70 x 5.67 -->
 
 Any prose here becomes the region's standfirst.
 
@@ -124,6 +126,22 @@ What happened there, in the chronicle's voice. Shown when the marker is tapped.
   readable by anyone poking at the data. The build prints what it held back on every run.
   Delete the marker when the place is found. Note the limit of this: `maps/*.md` is itself in the
   public repository, so the entry is secret from the *site*, not from anyone reading the source.
+
+**The hex layer** is optional, per region, and needs both of these:
+
+- `surface:` — the four corners of the mapped ground, **TL TR BR BL**, in plate percentages. The
+  Marchlands plate is a photograph of a table, so its map surface is a quadrilateral in the
+  image, not a rectangle. From these four points the site recovers the projection and lays a flat
+  hex sheet back down onto it, which is why the hexes grow toward the near edge instead of
+  sitting on the picture like a decal. The grid is clipped to this quad, so it never spills onto
+  the frame or the tabletop.
+- `hexes: C x R` — how many hex columns and rows span that surface. For the Marchlands these come
+  from the chart at the table: flat-top hexes, 9.70 columns by 5.67 rows.
+
+A region with no `surface`/`hexes` simply gets no grid and no Hexes toggle. `scale:` is shown
+only while the grid is on — a scale line with nothing to count is what made the note wrong in the
+first place. To re-derive the numbers for a new plate: measure the hex pitch on the source chart,
+then find the plate's four surface corners (Alt-click reads coordinates off any spot).
 
 **Crowding:** names are laid out after the markers are drawn — each is offered its own line, then
 one above, then below, until it clears every name already placed. A name with nowhere to go is

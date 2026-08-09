@@ -137,6 +137,7 @@ if (Test-Path $mapdir) {
     $mlines = ([System.IO.File]::ReadAllText($_.FullName)) -split "`r?`n"
     $mid = To-Slug ([System.IO.Path]::GetFileNameWithoutExtension($_.Name))
     $mtitle = ''; $msub = ''; $mimg = ''; $mscale = ''; $morder = 999
+    $msurface = $null; $mhex = $null
     $intro = New-Object System.Collections.ArrayList
     $places = New-Object System.Collections.ArrayList
     $cur = $null; $body = $null
@@ -157,6 +158,18 @@ if (Test-Path $mapdir) {
       if ($t -match '^<!--\s*image:\s*(.+?)\s*-->$')  { $mimg   = $matches[1]; continue }
       if ($t -match '^<!--\s*scale:\s*(.+?)\s*-->$')  { $mscale = $matches[1]; continue }
       if ($t -match '^<!--\s*order:\s*(\d+)\s*-->$')  { $morder = [int]$matches[1]; continue }
+      # the ground plane the art was drawn on: the four corners of the mapped surface, TL TR BR BL,
+      # so a flat hex field can be laid back onto a plate drawn in perspective
+      if ($t -match '^<!--\s*surface:\s*(.+?)\s*-->$') {
+        $pts = @(); foreach ($pair in ($matches[1] -split '\s+')) {
+          if ($pair -match '^(-?[\d.]+)\s*,\s*(-?[\d.]+)$') { $pts += ,@([double]$matches[1], [double]$matches[2]) }
+        }
+        if ($pts.Count -eq 4) { $msurface = $pts } else { Write-Warning ("Map '{0}': <!-- surface --> needs four x,y corners (TL TR BR BL)." -f $mid) }
+        continue
+      }
+      if ($t -match '^<!--\s*hexes:\s*([\d.]+)\s*[xX]\s*([\d.]+)\s*-->$') {
+        $mhex = @([double]$matches[1], [double]$matches[2]); continue
+      }
       if ($cur -and $t -match '^<!--\s*at:\s*(-?[\d.]+)\s*,\s*(-?[\d.]+)\s*-->$') {
         $cur.x = [double]$matches[1]; $cur.y = [double]$matches[2]; continue
       }
@@ -188,9 +201,11 @@ if (Test-Path $mapdir) {
     if ($held.Count) {
       Write-Host ("  {0}: holding back {1} unrevealed place(s) -- {2}" -f $mid, $held.Count, (($held | ForEach-Object { $_.name }) -join ', ')) -ForegroundColor DarkYellow
     }
+    if ($mhex -and -not $msurface) { Write-Warning ("Map '{0}': <!-- hexes --> needs a <!-- surface --> to lie on." -f $mid) }
     [void]$maps.Add([pscustomobject]@{
       id = $mid; order = $morder; title = $mtitle; subtitle = $msub
       image = $mimg; scale = $mscale
+      surface = $msurface; hexes = $mhex
       intro = (($intro -join "`n").Trim())
       places = @($places | Where-Object { $_.x -ge 0 -and $_.revealed })
     })
