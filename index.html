@@ -99,6 +99,23 @@
      Add nothing to the last line — an ellipsis would put a hesitation there that she never had. */
   #reader .letter strong{color:#4a1d14;font-weight:600}
   #reader .letter em{color:#3a2a17}
+  /* .hand — a second hand entirely: a mortal writing fast, in the open, propped against rock.
+     Legible where Jerribeth's is ornamental, unindented the way a man writes when he is not
+     composing, and finished — so it drops her deep unfinished margin, which was hers alone.
+     The stain in the top corner is canon: the sheet came out of the hoard stiff with blood. */
+  #reader .letter.hand{padding-bottom:2.6rem;
+    font-family:"Bradley Hand","Segoe Script","Lucida Handwriting","Apple Chancery","Chalkboard",
+      "Brush Script MT",cursive;
+    font-size:1.06em;line-height:1.85;letter-spacing:0;
+    text-shadow:0 0 1px rgba(50,30,12,.26);
+    background:
+      radial-gradient(ellipse at 84% 9%, rgba(104,38,22,.22), transparent 40%),
+      radial-gradient(ellipse at 16% 10%, rgba(126,88,38,.14), transparent 56%),
+      radial-gradient(ellipse at 86% 84%, rgba(96,62,24,.17), transparent 58%),
+      radial-gradient(ellipse at 60% 45%, rgba(150,116,60,.08), transparent 70%),
+      linear-gradient(168deg,#f0e2c2,#e6d4ae 55%,#dcc79c)}
+  #reader .letter.hand p{text-indent:0;margin:1.05rem 0}
+  @media (max-width:520px){ #reader .letter.hand{padding-bottom:2rem;font-size:1.02em} }
   @media (prefers-color-scheme: dark){
     #reader .letter{filter:brightness(.9) saturate(.94);
       box-shadow:0 1px 0 rgba(0,0,0,.4),0 12px 32px rgba(0,0,0,.55),inset 0 0 52px rgba(110,72,28,.34)}
@@ -486,8 +503,10 @@ function mdToHtml(md){
   for(var i=0;i<blocks.length;i++){
     var b = blocks[i].replace(/\s+$/,''); if(!b.trim()) continue;
     var first = b.split('\n')[0].trim();
-    /* an in-world document reproduced verbatim — an enemy's own hand, not our narrating voice */
-    if(/^<!--\s*letter\s*-->$/.test(b.trim())){ out.push('<div class="letter">'); continue; }
+    /* an in-world document reproduced verbatim — its author's own hand, not our narrating voice.
+       An optional variant names the hand: <!-- letter: hand --> for a mortal writing in the field. */
+    var lo = b.trim().match(/^<!--\s*letter(?:\s*:\s*([a-z][\w-]*))?\s*-->$/);
+    if(lo){ out.push('<div class="letter'+(lo[1]?' '+lo[1]:'')+'">'); continue; }
     if(/^<!--\s*\/letter\s*-->$/.test(b.trim())){ out.push('</div>'); continue; }
     var im = b.trim().match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
     if(im){
