@@ -54,7 +54,7 @@ Jeskar Hinton's congregation in Drezen — hunters and trappers who took the sac
 
 - **Jeskar Hinton** *(never "Jesker" — the Fantasy Grounds bios use that spelling; the chronicle governs)* — young priest of Erastil, drawn north by devotion and by an interest in old Sarkorian worship. Possessed for months by a shachath demon that had stolen his mother's ring as a trophy; taken off the ledge above the lava gorge by the company, freed, and given an atonement by Varic — a priest of Sarenrae kneeling with one of Erastil's. Asked to bring his hunters west as a sign that the work in Drezen was sanctioned.
 - **Cobb Harwick** — human ranger of fifty-one, thirty years in the Marchlands; leader of the hunters in all but title, and the most likely of them to notice he is being kept in the dark.
-- **Lenne Marsh** *(the chronicle calls her "Lenny" once, in* The Beacon and the Wyrm *— **Lenne** is correct)* — human ranger of twenty-three; skilled, overconfident, and the one who nearly put an arrow through a hawk at the western gate.
+- **Lenne Marsh** *(the chronicle calls her "Lenny" once, in* Lies, Spies, and Prying Eyes *— **Lenne** is correct)* — human ranger of twenty-three; skilled, overconfident, and the one who nearly put an arrow through a hawk at the western gate.
 - **Durvik Stonesign** — dwarf warrior of sixty-eight, trapper and perimeter man; deliberate, private, and vague about where he came from. *(No portrait in the Fantasy Grounds campaign — still needs one.)*
 - **Pol Ashden** — human camp cook and skinner of sixty, forty years at the trade; teller of long stories, incapable of noticing subtext, and the maker of the cobbler that saved the expedition's morale.
 

@@ -112,7 +112,7 @@ can guess, and carries a priest of the Dawnflower's name.
 <!-- at: 47.5, 44.5 -->
 <!-- letter: L -->
 <!-- kind: lair -->
-<!-- chapter: The Beacon and the Wyrm -->
+<!-- chapter: The Knight in Obsidian -->
 
 A cave mouth in the western bank of the dry riverbed, past a field of broken wagons. Obsidian
 flakes glittering underfoot, long parallel gouges along a thirty-foot ceiling, and three obsidian

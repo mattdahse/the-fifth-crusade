@@ -1642,7 +1642,7 @@ Nobody suggested camping. There was half a day of light left and two days of ope
 
 *— Session of April 24th, 2026 —*
 
-## **The Beacon and the Wyrm**
+## **Lies, Spies, and Prying Eyes**
 
 <!-- inworld: 11 Neth 4713 to 13 Neth 4713 -->
 
