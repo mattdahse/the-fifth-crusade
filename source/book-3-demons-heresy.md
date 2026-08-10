@@ -1838,6 +1838,8 @@ The fight nearly slipped from them. The dragon's hide turned every blade and eve
 
 **Varic** called down ***Holy Smite***, forcing it past her resistance on a second attempt, and she failed to turn it aside. The divine half of it found the abyssal taint in **Scorizscar**'s hide and bit clean through — and the spell, with the flat literalism of divine law, also struck her blind. She had no eyes. She had never had eyes. She took the blindness anyway, and for one round the oldest thing in that cave was groping.
 
+![Sooner or later, there was always going to be a Holy Smite.](images/always-a-holy-smite.webp)
+
 **Harlock**, under ***Haste***, under ***Smite Evil***, went at her with everything he had left and hit twice. Then the extra stroke that ***Haste*** had bought him came round — and landed true, and kept going, and went on going until something in her gave. He went up onto the dragon's head and drove ***Radiance*** straight down through her skull. She dropped where she stood, all at once, the way a building comes down; and the shimmer of the ***Entropic Shield*** that had turned aside half the arrows in the room simply winked out, and did not come back.
 
 ![Harlock's first dragon.](images/harlocks-first-dragon.webp)
