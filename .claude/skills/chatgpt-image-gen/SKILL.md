@@ -529,6 +529,20 @@ next prompt. Otherwise the same note gets given again three images later.
   better picture anyway:** a picked-over, emptied field reads colder than a strewn one, and in that
   chapter it was also what the prose actually said — Varic's first observation at the site is that
   there is nothing left to examine.
+  **⚠️ IT ALSO KILLS BODY-HORROR PROMPTS, AND THERE THE FAILURE IS SILENT AND LOOKS LIKE AN OUTAGE.**
+  A refusal on these grounds does **not** always arrive as a written refusal: it can come back as a
+  bare **"Something went wrong. Please try again."** with **no assistant turn in the DOM at all**,
+  which reads exactly like a service error and invites a pointless retry. *(Aug 2026, the **Plagued
+  One** registry portrait — a woman whose head and hands are made of locusts. Two consecutive
+  attempts died that way. The scene body was describing what was ABSENT — "NO skin anywhere, NO
+  face, NO eyes, NO mouth" — while the `Avoid:` line carried `skull, skeleton, bare bone, maggots,
+  worms, spiders, nudity, cleavage`. Rewriting the same picture with the insect mass described
+  **positively as a complete shape** — "a dense living mass of locusts holding the shape of a
+  woman's head, continuous from the crown to the collar" — and stripping that vocabulary out of
+  both halves rendered on the very first try, and rendered well.)*
+  **So: never enumerate the human parts that are missing. State what the thing IS made of and let
+  the absence be implied** — and if two attempts die with a generic error and no refusal text,
+  suspect your `Avoid:` line before you suspect the service.
 - **A referenced character will not recede.** Attach someone's portrait and the model promotes them —
   lighting, centring and clearing space around them. If a named character must be incidental, compose
   so prominence is impossible: camera behind them, cropped by the frame edge, occluded by bodies, or
