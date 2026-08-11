@@ -1982,6 +1982,8 @@ That left the thing in the white robe. It had absorbed everything they had — a
 
 **Varic** was forty feet in the air by then, riding a dragon's scale, out of reach of all of it. He put a ***Flamestrike*** straight down through the middle: a column of fire that is only half fire, the other half being something a swarm of insects cannot resist by being insects. It killed **Bidha Kesh** where she stood and burned the **Plagued One** out of the world before it could knit itself whole.
 
+![Turns out being a swarm has a downside.](images/the-flamestrike.webp)
+
 When it was done — and it took the better part of the night to do — the **Red Swarm** lay dead to the last, the blade barrier guttering out, the poisoned fog thinning to nothing on the wind.
 
 ### **What the Trial Cost**
