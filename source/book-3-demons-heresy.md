@@ -2392,6 +2392,8 @@ Which left **Lupenor**, and both the priest and the paladin turned to her and to
 
 **Lupenor** stood in the middle of the floor with the ring in her palm and would not close her hand on it and would not throw it. She did not want the deal. She did not want the fight. There is no third door in a room like that, and the slayer stood there hunting for one anyway while the seconds went by.
 
+![Lupenor fears commitment](images/with-this-ring.webp)
+
 So **Varic** took the decision away from her. He stepped in and swung.
 
 ### **The Shape Beneath the Elf**
