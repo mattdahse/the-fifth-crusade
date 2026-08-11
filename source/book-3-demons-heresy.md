@@ -2294,6 +2294,8 @@ Beyond the bars was a pillared hall, and in the hall two enormous shapes came ou
 
 *"Demon minotaurs,"* he shouted back through the stone, *"and a portcullis. Incoming."*
 
+![Varic noticed that the gaps in the gate were very much glaive-sized.](images/the-glaive-sized-gaps.webp)
+
 ### **The Bars and the Bull-Heads**
 
 What followed was a fight conducted through a wall nobody could see through and a gate nobody could open.
