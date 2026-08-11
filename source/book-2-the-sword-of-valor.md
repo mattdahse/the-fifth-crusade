@@ -1558,7 +1558,7 @@ She very nearly lost. She felt it settle over her and start to press, and it was
 
 ![It had already tried **Varic** three times and been put out three times. So it came to her instead, and very nearly stayed.](images/the-thing-that-almost-had-her.webp)
 
-After that they had it. **Varic** burned two surges at once on a spell drawn down out of the light itself, and it blinded the thing for two rounds and took more than half of what it had left. **Lupenor** put a strike into it that its resistances could not answer for. **Rabiah** put ***fly*** on **Harlock**, and **Harlock** called down **Iomedae**'s wrath upon it and went up into its face.
+After that they had it. **Varic** burned deep into his mythic strength, twice over, on a spell drawn down out of the light itself, and it blinded the thing for a few precious moments and took more than half of what it had left. **Lupenor** put a strike into it that its resistances could not answer for. **Rabiah** put ***fly*** on **Harlock**, and **Harlock** called down **Iomedae**'s wrath upon it and went up into its face.
 
 He hit it twice and it fell.
 
