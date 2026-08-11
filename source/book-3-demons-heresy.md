@@ -1980,6 +1980,8 @@ He had wanted to charge the blade barrier. He had wanted it for an hour; he was 
 
 *Unleash the paladin*, somebody said, and afterward it stuck.
 
+![The paladin had been unleashed](images/unleash-the-paladin.webp)
+
 ***Radiance*** took **Nisha Riles** first, under a ***smiting***, and the singing stopped. **Aeloth Riven** went down in the next exchange, in pieces, under a single stroke that went in and did not stop, with the haste he had granted his own side still ringing in the air. Below them **Halka Deepmark**, who had opened the fight from behind, was already finished — **Harlock** had put her on her back and hacked her down there earlier, and her own side's fire had finished the job.
 
 That left the thing in the white robe. It had absorbed everything they had — a sixty-foot ***hungry pit*** that had swallowed **Bidha Kesh** and crushed her for three rounds until **Riven** dug her out; a ***searing light***; a ***fireball*** that also cremated the dying bard where she lay — and it kept knitting itself back together, fast and untouchable, and doubled in size, and finally gave up the pretense of a body and came apart into the swarm it had always been.
