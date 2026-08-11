@@ -388,6 +388,28 @@ corridor and shows the walls edge-on — put `a central vanishing point, a tunne
 *Avoid also:* `a cathedral, stained glass, pointed gothic arches, a church interior, painted murals, frescoes,
 tapestries, pictorial mosaics, a figurative scene on the walls, a ruin, rubble, broken columns, daylight, windows`.
 
+**JERRIBETH's BEDCHAMBER**, off the entry hall of the **Ivory Sanctum**
+([`the-lady-of-the-house`](../images/the-lady-of-the-house.webp), Book III Ch. XV): warm, soft and expensively
+kept, with one thing in it that is not. Walls of the same ivory-and-bone chip mottle as the hall. An **ENORMOUS
+canopied bed** filling the background — carved posts, hangings swagged back, a dozen **satin pillows in deep teal,
+oxblood and old gold**, a thick plush coverlet spilling onto the floor — and **a short iron chain with a single
+manacle hanging from one bedpost**. A **semicircular sunken bath**, still steaming, smelling of lavender. A writing
+desk with papers. A tall narrow **full-length mirror** in a dark frame. A slender dark **rod with a decorative
+serpent's head** on a side table. And standing in the middle of the floor, **the rack**.
+**⚠️ THE RACK IS THE THING THAT GOES WRONG, AND THE FIX IS GEOMETRY, NOT MOOD.** Described by material and
+atmosphere — "a heavy contraption halfway between a gurney and a workbench, dark oiled timber, iron fittings, a
+crank" — it came back as **the top of a standing chest** *(Matt, Aug 2026)*. What actually works is stating its
+proportions and, above all, **that it is OPEN UNDERNEATH**: six feet long and barely two across, plainly built to
+the proportions of a person laid flat and not to those of furniture; standing clear of the floor **on four slender
+legs, with the floor visible straight through beneath it**; heavy leather straps with iron buckles that **hang
+loose off the edges and dangle**, never lying flat on the boards; iron cuffs bolted at head and foot; a ratchet
+windlass with a drum, an iron crank and a rope at the head end. A chest is solid to the ground — the daylight under
+the legs is the whole difference. *Avoid:* `a chest, a cabinet, a sideboard, a dresser, a solid-sided box, a
+workbench, a table with drawers, a piece of furniture standing flat on the floor with no legs, straps lying flat on
+the surface`.
+*(Keep every blood word out of BOTH halves of the prompt — describe the straps as old, dark and much-used leather
+and say nothing more. Naming it as an exclusion is what counts it as content.)*
+
 Locations with an established look so far: **Rabiah's Secure Shelter** (above), the **Molten Scar** (above),
 the **Corruption Forge**
 ([`the-cage-over-the-forge`](../images/the-cage-over-the-forge.webp), and

@@ -2342,6 +2342,8 @@ She was delighted to see him. *"Harlock,"* she said.
 
 *"Only by my deeds."*
 
+![The lady of the house](images/the-lady-of-the-house.webp)
+
 She leaned in, almost breathless, and asked the question she had clearly been saving. *"Tell me — are you the one who finally killed **Staunton Vhane**?"* One of my finest works, she called him. Before her he had been the staunchest of paladins. She was the one who turned him. She was the one who talked him into carrying the ***Sword of Valor*** down off the walls of **Drezen** and out into the open field — and she waited until the demon host was already in the streets before she told him what she was. *"After that,"* she said, *"he was inconsolable."*
 
 Seventy years, and no survivor of that day had ever known who betrayed the city. Now four crusaders knew, standing in her bedroom.
