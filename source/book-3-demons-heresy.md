@@ -1910,6 +1910,8 @@ The message was already dead. **Cedric**'s eyes were glassed and unfixed; the fi
 
 They took what was left of him down off the tree, breaking the wrists to free the spikes because there was no other way, and laid him out on the ground away from it. **Varic** said the words. **Rabiah** poured the oil and sprinkled the holy water and gave him to *Desna*, whose road he was on now whether he had ever asked for it or not, and then they burned him. It took a while, and it smelled like a kitchen, and none of them could keep looking at it.
 
+![In the flames, she saw what her hunters were capable of.](images/the-pyre-of-cedric.webp)
+
 It was while they were standing there not looking that they saw two Derakni settle to earth half a mile east — down out of the sky, unhurried, in plain view of the column of greasy smoke the party had just raised. They marked it and walked on west, and later, when there had been time to think, wondered aloud whether those two had been any more real than the rest of it.
 
 ### **The False Swarm**
