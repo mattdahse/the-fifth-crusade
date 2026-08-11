@@ -2304,7 +2304,7 @@ She had time to notice, before they closed, that the pillars flanking the portcu
 
 Then the fight took everyone. Two of the fiends stood off and spoke ***Unholy Blight*** into the press, and the profanity took **Rabiah** both times — she threw her own strength against the first of them and it bought her nothing but the knowledge that it had been wasted. A third produced a javelin that turned to lightning the instant it left his hand, and the bolt ripped down the line — through his own brother, through **Harlock**, through the sorcerer's teeth, through **Lupenor** — and then did it again a breath later, because where there is one lightning javelin there is always a second.
 
-**Arueshalae** came through the wall at a run, got close enough to the bars to see, and put the first arrow into a minotaur before anyone else had drawn blood. **Lupenor** followed her in blind, walked directly into **Varic**'s back, understood by touch that this was not rock but half-elf, groped left past the leathery brush of a succubus's wing, found iron, and started shooting cold iron through the gap. **Rabiah** turned in a slow circle and flicked her wrist at each of them in turn, and the whole company came up a half-step faster. **Varic** burned one down with ***Searing Light*** and then poured healing into everyone within reach, over and over, and never once got a kill for it.
+**Arueshalae** came through the wall at a run, got close enough to the bars to see, and put the first arrow into a minotaur before anyone else had drawn blood. **Lupenor** followed her in blind, walked directly into **Varic**'s back, understood by touch that this was not rock but half-elf, felt the leathery brush of a succubus's wing at her right and groped away to the left, found iron, and started shooting cold iron through the gap. **Rabiah** turned in a slow circle and flicked her wrist at each of them in turn, and the whole company came up a half-step faster. **Varic** put a ***Searing Light*** through one of them and then poured healing into everyone within reach, over and over, and came out of the whole fight without a single kill to his name.
 
 **Harlock** tried to bend the portcullis. He had a titan's strength and it was not remotely enough; the bars were reinforced and warded and did not care. So the paladin gave up on force and went back to the ivory plates. **Rabiah**'s hand was lost inside the outline. **Harlock**'s palm swallowed it whole. It took two — **Varic**'s right hand on one pillar and **Lupenor**'s left on the other, both laid flat at the same moment, both willing the thing open — and the gate ground up into its housing.
 
@@ -2312,7 +2312,7 @@ Then the fight took everyone. Two of the fiends stood off and spoke ***Unholy Bl
 
 The noise, of course, woke the rest of the barracks. A fifth minotaur came out of the double doors still rubbing his eyes. A sixth shouldered through some while later, glaiveless and half-asleep, and demanded in Abyssal to know what all that racket was. **Harlock** knew the tongue perfectly well. He gave him no words at all; ***Radiance*** answered instead, and answered decisively.
 
-Six fiendish minotaurs lay in heaps across the marble, and two of them were merely dying. **Rabiah** reached into her haversack, asked it for a cold iron dagger, and had one in her hand; and the girl who had spent the fight at the back of the room went along the row on her knees, hunting through all that hide for the soft places, and made each of them properly dead. There was, she pointed out, very likely something in this house that could call them back.
+Six fiendish minotaurs lay in heaps across the marble, and not all of them had finished dying. **Rabiah** reached into her haversack, asked it for a cold iron dagger, and had one in her hand; and the girl who had spent the entire fight pinned at the front of it knelt over the one that had charged her down, hunting through all that hide for a soft place, and made him properly dead. There was, she pointed out, very likely something in this house that could call them back.
 
 ### **Bone and Marble**
 
@@ -2322,7 +2322,7 @@ The floor was white marble, so pure that someone must have hauled it a very long
 
 The place was warm. The canyon behind them had been northern and bitter; here, open portcullis and all, it was comfortably heated, which was somehow worse than cold would have been. From somewhere north came the steady sound of hammering. North also lay drapes and unlit steps and something with the shape of a temple about it. East, a hallway, a rack built for oversized weapons, and iron doors — serious doors, with serious locks.
 
-**Lupenor** knelt to the first of them with her wires, and it gave up almost at once — the clean snick of a good lock yielding to a better thief.
+**Arueshalae** came up with a pair of wires and got nowhere with them. **Harlock** tried next, on the strength of a childhood he does not discuss, and was plainly out of his depth. Then **Lupenor** knelt to it, and it gave up — the clean snick of a good lock yielding to a better thief.
 
 ### **The Lady of the House**
 
