@@ -1860,7 +1860,7 @@ There was one last spell **Varic** meant to spend before they slept. He gathered
 
 *— Session of May 22nd, 2026 —*
 
-## **The Bait and the Mirror**
+## **The Swarm Descends**
 
 <!-- inworld: 16 Neth 4713 to 18 Neth 4713 -->
 
@@ -1946,7 +1946,7 @@ Then a poisoned fog came rolling over the top of them, thick enough to pull the 
 
 Then the bard turned her art on **Chyrrik**, and the scout's will gave way. ***Dominated***, emptied of her own intent, she rounded on **Rabiah** — the woman she had followed into a dozen worse places than this — and loosed shaft after shaft at her, and kept missing, and kept being made to try. **Rabiah** reached out through the noise and laid a ***protection from evil*** on her by main force, touching her the way you touch an enemy because at that moment she was one. It gave her one more chance to find herself, and she did not find herself.
 
-![Et tu, Chyrrik?](images/the-puppet.webp)
+![Oh.  This again.](images/the-puppet.webp)
 
 The sorceress herself fell and rose and fell again under the weight of all of it: lightning, arrows, poison, the spectral scythe that had peeled itself out of the blade barrier and hunted her, alone, for the entire battle and never once stopped. Three times the dark took her. Three times she was hauled back — a potion **Varic** forced between her teeth because ***silence*** had left him nothing else; a mythic ***Breath of Life*** the moment he could speak again; at last a hoarded scroll of ***Heal*** that gave her a hundred and ten points and her stolen constitution back in one stroke. *Rabiah the Everliving*, **Varic** named her, half prayer and half plain disbelief. The **Red Swarm** bent every advantage they had toward putting her in the ground, and could not make it stick.
 
