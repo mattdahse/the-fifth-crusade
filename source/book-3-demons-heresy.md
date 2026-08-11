@@ -2282,6 +2282,8 @@ That left the matter of **Lupenor**. **Varic** remembered the old cure — that 
 
 *July 31, 2026 session — the Green Gates and the Ivory Sanctum, 25th of Neth, 4713 AR*
 
+![The floors were clean a minute ago.](images/the-floors-were-clean.webp)
+
 ### **The Wall That Was Not There**
 
 The blood had barely dried on the plaza when the company turned to the green wall itself. **Lupenor**, newly cracked out of her stone shell and still spitting sediment, watched **Varic** walk up to the rock face alone and put his hands on it. It was a masterwork of a lie. Grey stone mottled with lichen, woody vines curled across it, and because this was the Worldwound the vines wore thorns, and because whoever built it had gone all the way, the thorns were barbed. Even the insects crawling on it were correct.

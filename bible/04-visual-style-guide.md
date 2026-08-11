@@ -361,6 +361,33 @@ is the reference for the next.** The failure mode to watch for is that the model
 add figures; the fix that worked was to re-state the approved framing element by element (what occupies the
 upper third, where the horizon sits, what is at each edge) rather than saying "don't zoom".*
 
+The **IVORY SANCTUM's entry hall** — the pillared hall behind the false wall at the **Green Gates**, where the
+company fights the six minotaurs and meets **Jerribeth** (Book III Ch. XV). Established by three renders:
+[`the-floors-were-clean`](../images/the-floors-were-clean.webp) is the authority on the room itself,
+[`the-glaive-sized-gaps`](../images/the-glaive-sized-gaps.webp) for the portcullis end, and
+[`the-frontline-sorceress`](../images/the-frontline-sorceress.webp) for the room with figures in it. **The point of
+this place is that it is BEAUTIFUL, CLEAN, WARM AND IN USE — the opposite of the ruins the chronicle is otherwise
+full of**, and the house "crumbling cities, broken walls" register will drag it toward rubble unless you say
+*intact, sound, clean, warm, lived-in* in the body and put the ruin words in `Avoid:`. **FLOOR:** white marble,
+unnaturally pure and pale, polished, in great slabs — somebody hauled it a very long way. **WALLS:** built entirely
+of **SMALL CHIPS OF IVORY AND BONE**, a few inches across, set close together like a mosaic **with NO PICTURE IN
+IT** — an endless close-packed mottle from stark bleached white through cream to yellowed old ivory. Light it so
+the chips catch a raking beam and throw tiny shadows; that speckled bone skin over every wall is what makes the
+room disturbing, and a straight-on view flattens it. **COLUMNS:** heavy marble, square-shouldered, plain-built, in
+two rows, too thick to get your arms around; **on each one, carved in relief and gilded, a HORNED GOAT-HEADED
+FIGURE SEATED ON A THRONE** — long ridged curling ram's horns, hands on the arms of the throne, a **five-pointed
+star inscribed in a circle** behind his head. **They are carved gilded stonework: they do not glow and are not on
+fire.** **CEILING:** twenty feet, plain, lost in gloom. **LIGHT:** small oil lamps in iron sconces set at head
+height on the columns, each a small warm pool on pale stone, the far end unlit — one warm gold accent in an
+otherwise bone-white and brown-black frame. At the west end, the **closed portcullis** of heavy dark iron bars,
+with a chest-high **ivory plate bearing the outline of a hand** on each flanking pillar (a right and a left).
+North, off to one side, **heavy dark drapes and a broad flight of unlit steps** rising into blackness.
+*(Camera note, Matt's direction Aug 2026: shoot it OBLIQUE, turned ~40° off the hall's axis so two or three columns
+of the far row stand clear against the far wall. A symmetrical view straight down the colonnade reads as an endless
+corridor and shows the walls edge-on — put `a central vanishing point, a tunnel of columns, a nave` in Avoid.)*
+*Avoid also:* `a cathedral, stained glass, pointed gothic arches, a church interior, painted murals, frescoes,
+tapestries, pictorial mosaics, a figurative scene on the walls, a ruin, rubble, broken columns, daylight, windows`.
+
 Locations with an established look so far: **Rabiah's Secure Shelter** (above), the **Molten Scar** (above),
 the **Corruption Forge**
 ([`the-cage-over-the-forge`](../images/the-cage-over-the-forge.webp), and
