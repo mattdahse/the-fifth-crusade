@@ -253,7 +253,7 @@ images for you, and the label is exact:
 
 | What it is | `alt` value |
 |---|---|
-| A render | starts with `Generated image: ` (e.g. `Generated image: Weary Elven Archer Among Ruins`) |
+| A render | starts with `Generated image` — **sometimes with a title (`Generated image: Weary Elven Archer Among Ruins`), sometimes bare with NO colon and no title at all.** Match `/^Generated image/`, never `/^Generated image:/` *(Aug 2026, Book III Ch. XI: a `:`-anchored test returned zero matches on a page that was plainly holding the render, and the tab looked wedged when it was perfectly healthy)* |
 | A reference Matt dragged in | the **filename** (e.g. `REF-T3-2-babau.webp`) |
 | A lightbox/preview duplicate | the title **without** the `Generated image: ` prefix |
 
@@ -262,7 +262,7 @@ no bookkeeping, no prior blob size needed:
 
 ```js
 const gen = [...document.querySelectorAll('img')]
-  .filter(i => /^Generated image:/.test(i.alt || ''));
+  .filter(i => /^Generated image/.test(i.alt || ''));   // NO colon — the title is optional
 const img = gen[gen.length - 1];        // the newest render
 ```
 
