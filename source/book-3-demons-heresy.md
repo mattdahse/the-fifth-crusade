@@ -2302,6 +2302,8 @@ What followed was a fight conducted through a wall nobody could see through and 
 
 **Harlock** spent a measure of mythic power and simply grew — a titan's rage swelling him to twice his size in his golden plate, ***Radiance*** lengthening in his fist to a yard and a half of holy steel — and then stood there, hugely and uselessly, on the wrong side of an illusion. **Rabiah** reached for ***Passwall*** and found that the spell has no opinion about metal. So she took the paladin's hand instead and stepped them both through the air to the far side of the gate, into the room, into the reach of the minotaurs, and landed with her back to the hall and a demon at either shoulder.
 
+![The front-line sorceress and her little friend](images/the-frontline-sorceress.webp)
+
 She had time to notice, before they closed, that the pillars flanking the portcullis each bore a chest-high plate of ivory, and that each plate had the outline of a hand drawn upon it — a right and a left.
 
 Then the fight took everyone. Two of the fiends stood off and spoke ***Unholy Blight*** into the press, and the profanity took **Rabiah** both times — she threw her own strength against the first of them and it bought her nothing but the knowledge that it had been wasted. A third produced a javelin that turned to lightning the instant it left his hand, and the bolt ripped down the line — through his own brother, through **Harlock**, through the sorcerer's teeth, through **Lupenor** — and then did it again a breath later, because where there is one lightning javelin there is always a second.
