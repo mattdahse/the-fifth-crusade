@@ -1962,6 +1962,8 @@ None of them saw it happen. **Rabiah** was face-down and unconscious in the pois
 
 After that she was not entirely her own. What saved her life was that the enemy nearest her was almost always the archer sent to kill her: she came out of the fog of it long enough to bury a killing volley in **Vani Abraya**'s face and drop her where she stood — the single most dangerous thing on that field, gone, and she could not afterward have told anyone she meant to do it. When the **Plagued One** came for her a second time, with a spell that would have ended the argument permanently, she spent mythic power on a mirror of herself and stood thirty feet away watching the thing burn her own reflection to ash.
 
+![Fake Lupenor bravely gives her life](images/the-burning-reflection.webp)
+
 And then she was no use to anyone at all for a long stretch of the battle. She wandered. She put arrows into **Rabiah**. She stood in the open babbling, and cackling, and — over and over, methodically, with the calm of a woman doing necessary work — driving an arrow into her own leg with her hand rather than shooting it. She would come back to herself briefly, announce to the whole company that she was still confused and that **Rabiah** was unfortunately still the nearest creature to her, and go under again.
 
 ### **Over the Barrier**
