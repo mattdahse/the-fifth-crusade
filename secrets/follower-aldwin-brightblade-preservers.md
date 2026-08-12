@@ -56,6 +56,8 @@ The investiture came at month's end. Harlock stood before us in the Western Towe
 
 He drew Radiance, holy fire dancing along its blade. "The Sword of Valor will return here. But a banner is nothing without those willing to defend it. You are the true preservers."
 
+![They knelt on a floor they had scrubbed themselves the day before, the buckets still against the wall. What **Aldwin** remembered afterwards was not the fire on the blade but what he found in **Harlock**'s face — not grim determination, but hope.](images/the-true-preservers.webp)
+
 One by one, we knelt and swore our oaths. When my turn came, I saw something unexpected in his eyes — not grim determination, but hope.
 
 "Rise, Aldwin Brightblade, Preserver of Iomedae."
