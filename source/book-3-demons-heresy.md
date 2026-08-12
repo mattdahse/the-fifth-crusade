@@ -2404,6 +2404,8 @@ She had told them exactly what would happen, and then she did it.
 
 She went for the priest first, precisely as promised. She spoke a single word of power and **Varic**'s mind simply went out from under him — no prayer to raise against it, no faith to weather it, nothing to do but fall. He went down at her feet with his sword out of his hand and stayed there, breathing, absent, while she worked him over with the serpent-headed rod, which bit as it struck and left venom in every bite.
 
+![It really is a shame about that dress.](images/the-shape-beneath-the-elf.webp)
+
 They fought her anyway.
 
 **Arueshalae** spent the pride of her quiver — five arrows at once lawful and holy and forged against the outsider kind, hoarded through forty years of hiding — and watched the shafts themselves skate off the demon's hide while the blessings laid on them burned through and told. **Lupenor** stepped out of sight entirely, and **Jerribeth** turned her head and looked straight at where she stood; the slayer put both of her slaying arrows into her regardless, and the demon endured what should have stopped a heart. **Rabiah**, who could find nothing in her whole book that would bite such a creature, poured out her mythic strength instead — a great deal of it, more than she could afford — on a ***Break Enchantment*** strong enough to reach a spell that high, and dragged **Varic** back into himself.
