@@ -20,42 +20,6 @@ with a counter-example.
 
 ## To do
 
-### `the-taking-of-the-ford.webp` — **the charge reads as wallpaper, and Rabiah is missing from it**
-*Book II — a hundred armoured horse come out of the concealing ground into the tiefling encampment at
-the West Sellen ford. Caption: "Surprise!"*
-
-Matt's notes:
-
-- **Too many paladins in view.** The frame is a wall of near-identical knights running the full width
-  of the picture. Show **eight or ten horse cresting the rise** and let the rest of the hundred be
-  implied — dust, and lance-tips still behind the ridge. A charge is more frightening glimpsed than
-  counted.
-- **The battle line is too flat and repetitive** — one dead-straight rank at even spacing, every
-  rider at the same angle with the same lance at the same height, visibly cloned. Break it in
-  **depth and in terrain**: come at the line **obliquely**, stagger the riders fore and aft, and use
-  the rise itself to break them up so some are already over and driving down while others are still
-  climbing with only heads and lance-points showing. Vary horse colour, gait and the set of each
-  rider.
-- **Put Rabiah back in.** It is her army — *"Not one of Rabiah's people was left on the field"* — and
-  she is nowhere in the picture. Book II is **Era III**: the green hooded cloak thrown back over a
-  high-necked green tunic, the leather baldric with the round dark medallion, neat and uncannily
-  clean. **She is 5'1" and never towers over anyone**, so pin her height and pin the horse: *full-
-  sized working horses, the top of the shoulder level with a tall man's head*, or she will end up on
-  a pony.
-- **Show the moment they break cover over the rise** — the instant of the reveal, before contact.
-  Nothing has landed yet; the tieflings below are only just turning to look. That is the beat the
-  caption is making a joke about, and it is a better picture than the aftermath.
-
-**Two craft notes to carry into the prompt:**
-- **Describe the lances mechanically, not by name.** "Lances couched" came back upright twice and
-  shoulder-carried once on earlier art; what worked was joint positions — *"the butt clamped against
-  the rider's right side just below the armpit, the hand gripping at mid-chest, the shaft crossing
-  diagonally over the horse's neck and out past the left side of its head, the point lower than the
-  grip."* See *Prompt craft* in the `chatgpt-image-gen` skill.
-- **The shields carry bare starbursts.** Crusader devices are **Iomedae's**: a vertical sword, hilt
-  and crossguard at the top, blade hanging below, in front of a blazing sun. All new art carries the
-  sword.
-
 ### `the-inheritors-kiss.webp` — **wrong style, wrong holy symbols, and Radiance should not be in it**
 *Book I, the mythic dream — Iomedae moves through their sleep to thank them and set a kiss on each brow.*
 
@@ -171,6 +135,31 @@ Regenerate to the humble kit, or accept the drift and note it as accepted.
 ---
 
 ## Done
+
+### `the-taking-of-the-ford.webp` — re-rolled Aug 2026
+*Book II, "The Ford Taken". Caption: "Surprise!"*
+
+The original was a wall of cloned knights in one dead-straight rank across the full width, every
+lance at the same angle, and no Rabiah in it at all. Now eight or nine riders only, with the rest of
+the hundred implied by a dust bank behind the ridge and bare lance-points showing above the ridge
+line.
+
+**Three separate devices were needed to kill the repetition, and all three earned their place:** an
+**oblique** front-left approach so the line recedes into depth instead of lying parallel to the
+picture plane; a hard **stagger in depth** (two already driving down the near slope, three at the
+crest, the rest still climbing with only heads and lance-points over the ridge) so no two riders sit
+at the same distance; and **per-rider variation named explicitly** — horse colour, gait, and the set
+of each body. Any one of them alone would probably not have done it.
+
+Rabiah rides at the crest in Era III kit, spotless against everyone else's dust, small in the saddle
+on a full-sized horse, no lance and no shield, both hands on the reins — which also keeps her
+visually distinct from the knights. Ears confirmed rounded at magnification. Shields carry the
+sword-and-sun, checked hilt-up.
+
+**Lit as grey overcast with a single band of pale gold along the ridge line only**, everything below
+in cold shadow. The old plate's all-over sepia-gold wash is a large part of what made it read as
+wallpaper, and a lit ridge over a shadowed camp does the storytelling as well: the riders are in the
+light and the camp has not noticed yet.
 
 ### `the-doors-that-would-not-open.webp` — re-rolled Aug 2026
 *Book II Ch. IX, "The Silencing of the Catapults".*
