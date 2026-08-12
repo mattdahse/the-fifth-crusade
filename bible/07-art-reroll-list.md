@@ -100,24 +100,6 @@ disengaged figure. She should be looking at the blade, not through it.
 
 ---
 
-## In flight
-
-### `rabiahs-raw-magic.webp` — **wrong style, and no opponent in frame**
-*Book I, "The Hall of the Horned Lord" — Rabiah looses missile after missile into the cult's sorceress.*
-
-Photoreal and camera-aware: she faces the viewer in a hero pose with an orb of light in her palm, and
-there is nothing in frame for her to be fighting, so the picture has no punch. Restaged as a duel
-across the hall — the two squared off left-to-right, four darts of force already in flight between
-them, the bolts as the only light source. **Cited as an exemplar** for Rabiah's Era I look (hooded
-green, uncannily clean) in `05-kit-and-timeline.md`.
-
-**Note for the re-roll:** the first attempt was refused. Her age plus harm language in the same
-prompt is the trigger — see the `Avoid:`-line rule in `CANON.md`'s *Known drift*. Keep her clothing
-described positively, keep the word *child* out, and let the bolts be **in flight and not yet
-arrived** so nothing lands in frame.
-
----
-
 ## Raised but not decided (Matt's call)
 
 Both are flagged in `05-kit-and-timeline.md` under *Reconcile*: they were made before Varic's humble
@@ -131,6 +113,23 @@ Regenerate to the humble kit, or accept the drift and note it as accepted.
 ---
 
 ## Done
+
+### `rabiahs-raw-magic.webp` — re-rolled Aug 2026
+*Book I, "The Hall of the Horned Lord".*
+
+The original was photoreal and camera-aware — she faced the viewer in a hero pose with an orb of
+light in her palm, and had nothing in frame to be fighting, so it had no punch. Restaged as a duel:
+the two squared off left-to-right down the hall, darts of force already in flight between them as the
+only light source, the cult's sorceress caught mid-turn with her wand thrown wide, and the
+*spiritual weapon* glaive hanging dim and unheld behind her. Still the Era I exemplar for Rabiah in
+`05-kit-and-timeline.md` — the hooded green and the uncanny cleanliness both survive.
+
+**The first attempt was refused, and the lesson generalises.** Her age stated next to harm language
+was the trigger: `dirty torn or sooty clothing on the red-haired girl` sat in `Avoid:`, the body
+called her *a frightened girl doing a violent thing*, and the cultist's inner state was *disbelief
+that a child has hurt her*. The re-roll dropped the age number and the word *child*, described her
+clothing only positively, and moved the instant a half-second earlier so **the bolts are in flight
+and nothing lands in frame** — which is also the better picture. It rendered first try.
 
 ### `a-safe-haven-restored.webp` — re-rolled Aug 2026
 *Book I, the shrine of Torag made holy again.*

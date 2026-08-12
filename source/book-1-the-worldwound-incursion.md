@@ -170,7 +170,7 @@ Beyond a guarded threshold the way opened into a hall of the Horned Lord. Brazie
 
 ### **The Hall of the Horned Lord**
 
-![**Rabiah**, youngest of the company, gathers the raw magic she looses into the cultist — bolt upon bolt, across the reeking dark of the Horned Lord's hall.](images/rabiahs-raw-magic.webp)
+![She's starting to get good at that spell.](images/rabiahs-raw-magic.webp)
 
 They found the cult's captains waiting. A sorceress in the corner raised a wand, and at her word a glaive of unholy force took shape in the empty air — a ***spiritual weapon*** that swung of its own malice at any who drew near. With a second word of ***Command*** she wrenched **Harlock Greyforge's** own glaive from his grip and sent it ringing to the stone. Beside her stood an armored brute who traded blows across the doorway that Harlock, faithful to **Iomedae**, refused to yield.
 
