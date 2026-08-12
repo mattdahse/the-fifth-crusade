@@ -100,6 +100,27 @@ foreach ($b in $books) {
 }
 
 # --- Secrets: a parallel corpus of in-world documents (secrets/*.md) ---
+# Each secret carries a CATEGORY, taken from its filename prefix, so the Secrets page can
+# group them. A new file lands in the right heading by being named like its neighbours;
+# the override table below is for the handful that don't fit their prefix.
+$secCats = [ordered]@{
+  'The Company'         = 1
+  'Follower Stories'    = 2
+  'Recovered Documents' = 3
+  'History and Accounts'= 4
+}
+$secPrefixCat = [ordered]@{
+  'dream-'                = 'The Company'
+  'follower-'             = 'Follower Stories'
+  'letter-'               = 'Recovered Documents'
+  'staunton-vhane-journal-' = 'Recovered Documents'
+  'lore-'                 = 'History and Accounts'
+}
+# Exceptions to the prefix rule, by file base name.
+$secCatOverride = @{
+  # The company's own dispatch, not something taken off an enemy.
+  'letter-to-queen-galfrey' = 'The Company'
+}
 $secrets = New-Object System.Collections.ArrayList
 $secdir = Join-Path $root 'secrets'
 if (Test-Path $secdir) {
@@ -112,11 +133,22 @@ if (Test-Path $secdir) {
       if ($title -eq '' -and $t -match '^#\s+(.+)$') { $title = ($matches[1] -replace '\*\*', '').Trim() }
       elseif ($title -ne '' -and $sub -eq '' -and $t -match '^\*.+\*$') { $sub = ($t.Trim('*') -replace '\*\*', '').Trim() }
     }
+    $base = $_.BaseName
+    $cat = $secCatOverride[$base]
+    if (-not $cat) {
+      foreach ($p in $secPrefixCat.Keys) { if ($base.StartsWith($p)) { $cat = $secPrefixCat[$p]; break } }
+    }
+    if (-not $cat) {
+      $cat = 'History and Accounts'
+      Write-Host ("  secrets: '{0}' matched no category prefix -- filed under {1}" -f $base, $cat)
+    }
     $md = (($lines) -join "`n").Trim()
     $text = $md -replace '<!--.*?-->', ' ' -replace '!\[(.*?)\]\((.*?)\)', '$1' -replace '\[(.*?)\]\((.*?)\)', '$1' -replace '[#>*`_]', ' ' -replace '\s+', ' '
     $sorder++
     [void]$secrets.Add([pscustomobject]@{
-      id = "sec$sorder"; order = $sorder; title = $title; subtitle = $sub; md = $md; text = $text.Trim()
+      id = "sec$sorder"; order = $sorder; title = $title; subtitle = $sub
+      category = $cat; catOrder = $secCats[$cat]
+      md = $md; text = $text.Trim()
     })
   }
 }

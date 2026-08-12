@@ -655,10 +655,22 @@ function viewSecrets(){
   setTab('secrets');
   if(!secrets.length){ app.innerHTML = '<div class="hint">No secrets have been recorded yet.</div>'; window.scrollTo(0,0); return; }
   var html = '<div class="hint">The record beside the chronicle — knowledge the company wrested from the enemy, and the accounts of those who flocked to their banners as Drezen rose again.</div>';
+  // Grouped under the headings the build assigns from each file's name. Anything the build
+  // could not place still appears, under its own heading at the end, rather than vanishing.
+  var groups = [], byCat = {};
   secrets.forEach(function(s){
-    html += '<div class="entry"><span class="ttl"><a class="t" href="#/secret/'+s.id+'">'+esc(s.title)+'</a>'
-      + (s.subtitle?('<div class="snip">'+inline(s.subtitle)+'</div>'):'')
-      + '</span></div>';
+    var c = s.category || 'Other';
+    if(!byCat[c]){ byCat[c] = {c:c, o:(s.catOrder||99), items:[]}; groups.push(byCat[c]); }
+    byCat[c].items.push(s);
+  });
+  groups.sort(function(a,b){ return (a.o-b.o) || a.c.localeCompare(b.c); });
+  groups.forEach(function(g){
+    html += '<div class="catlabel">'+esc(g.c)+'</div>';
+    g.items.forEach(function(s){
+      html += '<div class="entry"><span class="ttl"><a class="t" href="#/secret/'+s.id+'">'+esc(s.title)+'</a>'
+        + (s.subtitle?('<div class="snip">'+inline(s.subtitle)+'</div>'):'')
+        + '</span></div>';
+    });
   });
   app.innerHTML = html; window.scrollTo(0,0);
 }
