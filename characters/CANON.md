@@ -96,6 +96,14 @@ kit guide disagree, the kit guide wins.
 
 Image models fall into the same traps repeatedly. Descriptions here are **prescriptive**: if an anchor is silent on something, the model invents it, and it invents these:
 
+- **A Torag hammer reading like a cross is a FALSE POSITIVE, not a drift.** *(Matt's ruling, Aug 2026,
+  on Emlag's portrait.)* **Torag**'s symbol is a plain broad blacksmith's hammer, head and haft — and at
+  thumbnail size, at a glance, **a hammer pendant reads as a cross with the top cut off, because that is
+  simply the shape.** Zoom in before calling it: if the head is a solid block on a haft rather than a bar
+  crossing a bar, it is correct. Do not put `a cross or crucifix` in a Torag prompt expecting it to help
+  (it did not), and do not report cross-likeness as a drift at QA. Same class of false positive as the
+  circlet-on-Varic note in [`../bible/05-kit-and-timeline.md`](../bible/05-kit-and-timeline.md), and it
+  costs the same wasted review cycles.
 - **Fantasy-armor sexualization.** Any woman in "leather" trends toward a bikini, bare midriff, or strap harness. Arueshalae in particular is a succubus, which pulls hard in that direction — she is a *penitent*, dressed as a working scout in covered leathers. Always say **"fully covered, modest, practical armor"** and add `bare midriff, revealing outfit, bikini armor, cleavage` to the Avoid line. **The one deliberate exception is Areelu Vorlesh**, who is written to flaunt her emerging succubus nature — do **not** reflexively cover her up, and do **not** put the covered-armor negatives above in her Avoid line. Her canonical costume *is* a strap-and-chain harness; see her row for the specifics, and hold the line only at `nudity, explicit content`.
 - **Orc caricature.** "Half-orc" alone yields tusks, an underbite, and a brutish snout. Harlock has none of these. Say **"no tusks, no underbite, clean strong human-like jaw"** and put `tusks, underbite, protruding lower teeth, brutish features` in the Avoid line.
 - **Child-like characters must never be sexualized** — but say so **positively, never as negatives.** Any prompt depicting a child (Cornelia, or a PC rendered young in a dream) describes the clothing as **"simple, sturdy, plain and neat, long-sleeved, fully covering everyday clothing"** and the figure as **"a child with youthful childlike proportions."** **Do NOT put `sexualized`, `bare torso`, `bare midriff`, `adult proportions`, or `revealing clothing` in the Avoid line of a prompt depicting a child.** Safety classifiers do not parse negation: those words sitting beside a child's description read as intent and get the whole prompt refused before it renders. (This is the reverse of the rule for adult women like Arueshalae, where the explicit negatives are required — see the entry above.) Learned the hard way on Rabiah's `beneath-the-stairs`, which was refused at the prompt stage on the first attempt.
