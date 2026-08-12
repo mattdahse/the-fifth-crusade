@@ -80,7 +80,7 @@ She gestures to Radiance, which now floats between you, glowing with renewed pur
 
 She leans forward and places a kiss upon your forehead. It fills you with warmth that reaches to your very core, burning away doubt like morning mist.
 
-![On a summit above the clouds, the Inheritor names the two fires he carries — one stolen, one earned — and **Radiance** wakes in the air between them.](images/the-inheritors-kiss.webp)
+![On a summit above the clouds, the Inheritor names the two fires he carries — one stolen, one earned.](images/the-inheritors-kiss.webp)
 
 "The mythic power awakened within you recognizes the battle you've fought within yourself all these years. To master the dual nature of your heritage. To transform violation into virtue. These struggles have forged you as surely as any hammer shapes steel."
 
