@@ -600,7 +600,7 @@ But it did not drain entirely. Something had woken in the four of them that woul
 
 *The hour after the Gray Garrison, in the wounded city of Kenabres*
 
-![**Harlock**, **Varic**, **Lupenor** and **Rabiah** come up into the ruined streets still burning with a light that would not fade, and above the broken city, for the first time since **Armasse**, the stars.](images/the-march-of-the-glowing-ones.webp)
+![Above the broken city, for the first time since **Armasse**, the stars.](images/the-march-of-the-glowing-ones.webp)
 
 ### **A Room Full of Silence**
 
