@@ -34,6 +34,36 @@ of the climb, looking up at a sky he expected to be daylight — so keep them.
 priest, no gold."* The re-roll must keep that legible: chain shirt or padded leather over travel
 robes, deep-red scarf, plain iron sunburst, **no gold filigree, no mantle**.
 
+### `the-kindling-of-radiance.webp` — **both likenesses drifted**
+*Book I, Defender's Heart — Harlock speaks the Code of Iomedae, light climbs the dead blade and wakes
+it, and Irabeth looks on in wonder.*
+
+Matt's notes, and all four are in the render: **Harlock is too slim** — he is big and solidly built,
+and here he reads as a lean young man; **his ears are round human ears** rather than subtly tapered
+to a point; **Irabeth is far too solemn**, eyes downcast and flat, when the caption and the beat both
+want open wonder at a relic waking in front of her; and **Irabeth has no tusks** — hers are two small
+lower tusks jutting subtly upward, dignified and proud, and they are one of her likeness anchors.
+His green skin also does not read at all in this light. Attach **both** portraits and state each
+correction as an explicit negative as well as a positive; `round human ears` in particular is a known
+drift on Harlock and needs the Avoid line, not just the body.
+
+**Keep:** the composition is strong and the beat is right — the over-the-shoulder framing, the blade
+offered flat across both palms, the waking light as the only source in a dark room. The pose is not
+the problem.
+
+**Give Irabeth an eyeline and an inner state.** This is the *pasted-portrait* failure from the style
+guide: her face would work equally well cropped out as a standalone portrait, which is the test for a
+disengaged figure. She should be looking at the blade, not through it.
+
+**Two decisions to make before prompting:**
+- **The device.** The image is cited in `05-kit-and-timeline.md` under *Harlock's holy symbol
+  predates this rule* as one of the Book I plates showing a **bare starburst with no sword** — a
+  drift Matt decided to leave in place. A re-roll makes that citation stale either way: carry the
+  sword-and-sun (the rule for all new art) and drop this file from that list, or hold the bare
+  starburst to match its Book I neighbours and keep the citation. **Matt's call.**
+- ***Radiance* wakes in this scene**, so the blade blazing gold-white is correct here and only here —
+  everything earlier in Book I shows it dimmed and lightless.
+
 ---
 
 ## In flight
