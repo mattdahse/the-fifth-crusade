@@ -388,7 +388,7 @@ They waited, Kedness believed, for the witch **Areelu Vorlesh** herself: she who
 
 ### **The Tower of Estrad**
 
-![**Lupenor** wore a stolen face to it — a cultist's seeming and a false idol of **Baphomet** raised to the watch-slot, the passphrase on her lips — while **Harlock**, **Rabiah**, and **Varic** waited in the dark to spill through the moment it opened.](images/the-door-at-estrad.webp)
+![Trust me, I totally worship demons.](images/the-door-at-estrad.webp)
 
 Two cultist safehouses yet remained. A mongrelman guide named **Grew** led the company by drowned sewer-tunnels and broken streets to the first — the **Tower of Estrad**, now scarcely a tower at all, its upper floors sheared away and heaped in rubble. Rather than force the sturdy stone doors, **Lupenor Celest** drew upon a scale-shaped talisman of shifting aspect, taking on the seeming of a known cultist and clutching a false holy symbol, and knocked with the passphrase gleaned from their captives: *I have new material for the archives.* The bar slid back, and two cultists welcomed the disguised elf warmly — until the company's blades fell among them.
 
@@ -402,7 +402,7 @@ In a rune-carved chest they found the true prize: a stack of cultist attack plan
 
 ### **The Poison Garden**
 
-![In the apothecary's buried garden of rot, the shrieking **Mandragora** rears from the slime beneath **Baphomet**'s daubed sign — and **Lupenor**, the sickness shaken off, sets an arrow to it across the dark.](images/the-poison-garden.webp)
+![Lupenor studies the delicate art of horticulture.](images/the-poison-garden.webp)
 
 The second safehouse wore the sign of an apothecary — **Topaz Solutions** — its door hanging broken. Within, looters in matching tabards marked with a black bird were stuffing their sacks with plunder. Harlock cut through them in a single terrible sweep of ***Radiance***; a few threw down their arms, one bolted and was struck dead, and the rest were bound and left under Grew's watchful bow.
 
@@ -440,7 +440,7 @@ The stronghold had grown fuller and its air lighter — more mouths, more childr
 
 ### **The Weight of Heaven**
 
-![Through the ruined hedges they beheld the **Gray Garrison** at last — squat, joyless, unpainted, and yet achingly holy. Each of them felt a god's gaze settle and take account of the hour](images/the-weight-of-heaven.webp)
+![Each of them felt a god's gaze settle and take account of the hour](images/the-weight-of-heaven.webp)
 
 They came upon the garrison in the grey before dawn, choosing the broken pit over the guarded wall, scattering a wake of carrion-fed vultures from a heap of the dead. And then, through the decorative hedges of a ruined garden, they beheld the **Gray Garrison** for the first time.
 
@@ -448,7 +448,7 @@ It was a squat and joyless building, unpainted and ungilded, nothing like the op
 
 ### **The Worm-Wearers at the Threshold**
 
-![At the great doors, two men hollowed out and worn like garments by worm-demons — and ***Radiance*** blazing as **Harlock** cleaves the corruption from its stolen shell.](images/the-worm-wearers-at-the-threshold.webp)
+![The assault begins.](images/the-worm-wearers-at-the-threshold.webp)
 
 At the great stone doors stood two bloated, naked figures with poleaxes — recognized, to their horror, as **Hulrun**, the collector of **Kenabres**, whose office had given him command over the city's forces, and the very innkeeper of the Defender's Heart, husband of the woman who had wept. Yet these were men no longer. Worm-demons had hollowed them out and now wore their flesh like a garment; they drank strength from wounds and turned the company's own hurts to their healing. Cold iron and blessed steel at last told against them. **Radiance** blazed in Harlock's hand and cleaved worm from ruined shell, and one of the things burst free of its skin to slither, limbless and gaping, before it was hewn down.
 
@@ -488,7 +488,7 @@ The paladin waded in and cleaved them where they stood, while Lupenor and Rabiah
 
 ### **Solemn Hour**
 
-![In a wrecked alchemical workroom, **Varic** cuts the cord on a long case and finds ***Solemn Hour*** — a masterwork blade lettered in celestial, and a note naming its rightful owner: **Irabeth**.](images/solemn-hour.webp)
+![**Varic** cuts the cord on a long case and finds ***Solemn Hour***, and a note naming its rightful owner: **Irabeth**.](images/solemn-hour.webp)
 
 A faint knocking sounded from somewhere behind them, and a door they had left shut now stood open — proof they were no longer alone in the garrison. In a side chamber of alchemical apparatus they found a long case bound in cord. Varic cut it open. Within lay a masterwork longsword, and near its hilt, engraved in celestial, two words: ***Solemn Hour***. A note tucked beside it named the blade's rightful owner — **Irabeth** — and the company resolved to see it returned to her hand. Harlock took the case upon his back.
 
@@ -502,7 +502,7 @@ Dretches waited beyond, small and vile, and one of them exhaled a ***Stinking Cl
 
 ### **The Black Stair**
 
-![Set in the chokepoint at the foot of the stair, **Harlock** is very nearly unmade — his garments alight, ***Radiance*** falling on the tieflings above — while **Varic** holds him upright with one hand and tears the demons' ***darkness*** away with ***daylight*** from the other.](images/the-black-stair.webp)
+![The battle of the stairwell was fierce and costly, and hard-won](images/the-black-stair.webp)
 
 Stairs climbed the wall toward the upper floor, and from their head a tiefling alchemist flung a smoking vial that burst among them. What followed was the longest and cruelest fight of the night. Crossbow-armed tieflings crouched upon the steps; bombs bloomed in fire and acid; casters chanted from beyond sight; and then a smothering ***darkness*** fell over everything, until Varic drew a wand and loosed ***daylight*** to tear it away.
 
@@ -600,7 +600,7 @@ But it did not drain entirely. Something had woken in the four of them that woul
 
 *The hour after the Gray Garrison, in the wounded city of Kenabres*
 
-![**Harlock**, **Varic**, **Lupenor** and **Rabiah** come up into the ruined streets still burning with a light that would not fade, and the crusaders and refugees of the **Defender's Heart** stop where they stand. Above the broken city, for the first time since **Armasse**, the stars.](images/the-march-of-the-glowing-ones.webp)
+![**Harlock**, **Varic**, **Lupenor** and **Rabiah** come up into the ruined streets still burning with a light that would not fade, and above the broken city, for the first time since **Armasse**, the stars.](images/the-march-of-the-glowing-ones.webp)
 
 ### **A Room Full of Silence**
 
