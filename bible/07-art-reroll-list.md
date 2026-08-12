@@ -20,20 +20,6 @@ with a counter-example.
 
 ## To do
 
-### `the-burning-sky.webp` — **wrong style**
-*Book I, "Varic claws his way up to his first open sky in days" — Kenabres broken above him.*
-
-It is a **photograph, not a painting**: photoreal skin, a wide-angle lens look with the near hand
-thrown huge into the foreground, and a saturated orange-red sky filling the whole frame. The house
-look wants a traditional oil painting, a muted earthy palette, and **one** luminous accent rather
-than an all-over red wash. Lead the prompt with the medium block from the style guide and put the
-camera words in `Avoid:`. The pose and the beat are right — he is on his hands and knees at the top
-of the climb, looking up at a sky he expected to be daylight — so keep them.
-
-**Cited as an exemplar:** `05-kit-and-timeline.md` Era I uses it for *"Varic's Era I kit — the humble
-priest, no gold."* The re-roll must keep that legible: chain shirt or padded leather over travel
-robes, deep-red scarf, plain iron sunburst, **no gold filigree, no mantle**.
-
 ### `the-doors-that-would-not-open.webp` — **Harlock unconvincing, and the style is wrong**
 *Book II Ch. IX, "The Silencing of the Catapults" — while the fight rages above him, Varic kneels at
 an ironbound door and makes it stop being a door at all.*
@@ -215,6 +201,23 @@ Regenerate to the humble kit, or accept the drift and note it as accepted.
 ---
 
 ## Done
+
+### `the-burning-sky.webp` — re-rolled Aug 2026
+*Book I, "The Sundered Sky".*
+
+The original was a photograph — photoreal skin, a wide-angle look with the near hand thrown huge into
+the foreground, and a saturated orange-red sky filling the frame. Rebuilt from scratch on the medium
+block, with every camera word in `Avoid:`. **The chapter text settled the palette argument**: the
+prose says the heavens hang *black* and raining embers, so the sky is now near-black and turbulent
+and the single warm accent is a low band of burning quarters confined to the horizon, rimming his
+jaw and shoulder from below. The picture reads dark grey, not orange. Camera moved to a normal lens
+with the hands pinned to true proportion.
+
+Still the Era I exemplar in `05-kit-and-timeline.md` — the battered chain shirt over travel robes,
+the deep-red scarf, the bare sunburst with no sword, and no gold or mantle anywhere all survive.
+**Two accepted drifts:** the sunburst renders brass-toned rather than dull iron, and the instant sits
+half a beat earlier than the old plate — he is hauling himself over the lip rather than already up on
+hands and knees, which suits the caption's *"claws his way up"* at least as well.
 
 ### `rabiahs-raw-magic.webp` — re-rolled Aug 2026
 *Book I, "The Hall of the Horned Lord".*
