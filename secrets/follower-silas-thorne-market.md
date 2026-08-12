@@ -52,7 +52,9 @@ That's when she appeared — Lupenor Celest herself, moving through the market o
 
 She studied me for a moment. Two heartbeats. Three. "Merchant's guilt — blaming yourself for others' mistakes. Bad for negotiation, good for reputation." She turned to Mira. "Add them to the fire insurance pool we're establishing. Retroactive to yesterday."
 
-Before I could respond, she was gone, continuing whatever business had brought her here. Seven seconds of conversation that changed everything. To her, it was probably a minor administrative decision, forgotten within the hour. To me, it was salvation. The insurance pool — funded by small contributions from all permanent merchants — would cover enough of my losses to continue.
+Before I could respond, she was gone, continuing whatever business had brought her here. Seven seconds of conversation that changed everything.
+
+![**Lupenor** never broke stride, and never looked at him — she gave the order to **Mira** and walked on. Four hundred and twenty silver pieces of cloth lay in the wet ash, and the man kneeling in it had not yet understood what he had just been given.](images/retroactive-to-yesterday.webp) To her, it was probably a minor administrative decision, forgotten within the hour. To me, it was salvation. The insurance pool — funded by small contributions from all permanent merchants — would cover enough of my losses to continue.
 
 ### Building Trust
 
