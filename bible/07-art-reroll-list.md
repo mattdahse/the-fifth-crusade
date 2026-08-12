@@ -20,36 +20,6 @@ with a counter-example.
 
 ## To do
 
-### `the-doors-that-would-not-open.webp` — **Harlock unconvincing, and the style is wrong**
-*Book II Ch. IX, "The Silencing of the Catapults" — while the fight rages above him, Varic kneels at
-an ironbound door and makes it stop being a door at all.*
-**Note the filename is plural — `the-doors-…`, not `the-door-…`.** Keep it; both the chapter and the
-search index reference it by name.
-
-**Harlock does not read as Harlock.** He is a small distant figure on the parapet, and at that size
-nothing identifies him: **no green skin**, no half-orc features, and silvery-white plate instead of
-his Era III kit. Two fixes, and they combine — **bring the parapet fight closer and larger** in the
-upper frame so there is a face to recognise, and **attach `harlock.webp`** and give him the anchors
-that survive at distance: green skin catching the gold of *Radiance*, the big solid build, the
-battered **plain steel breastplate over a padded gambeson**, and the **steel shield of blinding**
-blazoned with Iomedae's sword-and-sun. **This is Era III** — before *The Citadel's Gauntlet*, so
-**no golden full plate**. *Radiance* is awake by now and may blaze.
-
-**Style:** the frame is a saturated orange bath of molten rivulets — spectacle where the house look
-wants a muted earthy picture with **one** placed accent.
-
-**And the spell is drawn wrong, which is the deeper problem.** Varic **shapes stone**; he does not
-melt it. Lava, running fire and glowing seams are the model's own idea of "magic on masonry" and they
-misrepresent what happened. Render it as **stone behaving like wet clay**: dull grey masonry flowing,
-slumping and knitting over the hinges, the sill and the seam until the door is a slab of wall — soft
-folds in cold stone, dust sifting, no heat anywhere. Keep the **single accent** small and cold at his
-palm, and let *Radiance* above be the only warm light in the frame. Put `lava, molten rock, glowing
-orange seams, running fire, melting stone, embers` in `Avoid:`.
-
-**Keep:** the composition is good and unusual — Varic large in the near foreground with his back to
-us, the door filling the frame, the fight small and desperate on the parapet above. That framing is
-also why he needs no reference for his face, which is out of shot.
-
 ### `the-taking-of-the-ford.webp` — **the charge reads as wallpaper, and Rabiah is missing from it**
 *Book II — a hundred armoured horse come out of the concealing ground into the tiefling encampment at
 the West Sellen ford. Caption: "Surprise!"*
@@ -201,6 +171,30 @@ Regenerate to the humble kit, or accept the drift and note it as accepted.
 ---
 
 ## Done
+
+### `the-doors-that-would-not-open.webp` — re-rolled Aug 2026
+*Book II Ch. IX, "The Silencing of the Catapults".*
+
+The original was a saturated orange bath of molten rivulets with Harlock an unrecognisable silvery
+speck on a distant parapet. Rebuilt from scratch: the spell is now **cold**, dull grey masonry
+slumping and knitting like wet clay over the hinges, jamb, sill and seam with grey dust sifting
+down, and the only glimmer is small and pale blue-white at Varic's palm. *Radiance* is the single
+warm light in the frame and everything it does not reach falls to cold blue-grey. Harlock is in his
+Era III kit with the sword-and-sun on both breastplate and shield, checked magnified and correctly
+hilt-up.
+
+**The chapter fixed the framing problem, and this generalises.** The entry said to bring the
+*parapet* fight closer; the prose actually puts the doors *"at the head of the tower's spiral
+stair"* with the demons crowding *"the tower top"* — so Harlock is on the **same deck**, a few paces
+behind Varic, and never was above him. Staging it that way made his legibility structural instead of
+a matter of zooming. **Read the passage before trusting a re-roll note's geography.**
+
+**Harlock's shield and breastplate fused on the first roll** — a shield floating free of the arm and
+plate overlapping the upper arm. Adjectives would not have fixed it; what worked was *building the
+armour outward in named layers* (gambeson with full sleeves → breastplate covering **torso only**,
+edges stopping at armpit and shoulder joint → vambraces) and *swinging the left arm down and out
+away from the body* so a clear span of empty air separates shield from chest. **Give a fusing pair
+somewhere to not touch.** Both failures went into `Avoid:` verbatim.
 
 ### `the-burning-sky.webp` — re-rolled Aug 2026
 *Book I, "The Sundered Sky".*
