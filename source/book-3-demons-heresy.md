@@ -12,7 +12,7 @@
 
 *12th of Lamashan, 4713 AR*
 
-![He turned it over the way a man turns over a stone that got into his boot. Nobody else looked up.](images/the-rain-of-teeth.webp)
+![This is normal now.](images/the-rain-of-teeth.webp)
 
 ### **Into the Ahari**
 
@@ -108,7 +108,7 @@ At the first switchback, a figure emerged from the cliff wall — or rather, wha
 
 This had been a statue of ***Sarenrae***.
 
-![Someone had come at her with hand tools and taken their time. Only the robes were left to know her by.](images/the-broken-sarenrae.webp)
+![Someone had come at her with hand tools and taken their time.  The rage seethed.](images/the-broken-sarenrae.webp)
 
 **Varic:** *This place is sacred. Or it was. It has been profaned. Defiled. This is an unspeakable insult to* ***Sarenrae****, and to everything good that once stood here.*
 
@@ -474,7 +474,7 @@ The Dwigereth's response was immediate and catastrophic. Both serpent-mouths lun
 
 He was inside the thing, and the walls were trying to digest him.
 
-![**In the name of Iomedae, I smite--"** _slurrp!_](images/the-second-mouth.webp)
+![Harlock: **In the name of Iomedae, I smite--!"** *sssslurrp!*](images/the-second-mouth.webp)
 
 **Harlock** drew his dagger and began cutting. The stuff of the walls was softer than the hide outside and still tougher than it had any business being; he went at it twice, opened a hole in the side of the intestinal maze, and tumbled out of the creature's flank in a deluge of slime and acid. He landed on his feet, dripping with viscera, and immediately raised ***Radiance*** for another swing.
 
@@ -504,7 +504,7 @@ Its extradimensional gullet ruptured as it died. **Chyrrik** and **Lupenor** spi
 
 **Varic** channeled positive energy until everyone was standing upright without assistance. Wands were passed around. Potions were drunk. The physical wounds closed, but the look in people's eyes did not change. **Mira** sat apart from the group, plucking absently at her lute strings, still carrying whatever it was the Nabasu had taken out of her. **Chyrrik** cleaned her new longsword in silence, scrubbing the digestive acid from the blade with a piece of torn cloth. **Lupenor** would not go near the carcass and said so plainly, and nobody pressed her about it. It was **Rabiah** who went back to it with a knife — because she was the one who knew that a bag of holding is stitched together out of exactly that, and that three pounds of it was worth having, and because there is a particular satisfaction in cutting up a thing that has spent the afternoon trying to digest your friends.
 
-![Battered, acid-scarred, and exactly one of them still immaculate.](images/drezen-at-dusk.webp)
+![Battered, acid-scarred, and done with the Marchlands for today.](images/drezen-at-dusk.webp)
 
 They marched the final miles in near silence, following the Ahari until the land began to rise and the walls of **Drezen** appeared on the eastern horizon, backlit by the last amber light of a setting sun. The gates were open. The sentries recognized them. And as the party passed through the outer defenses and into the streets of the city they had liberated — battered, acid-scarred, one member permanently diminished, all of them carrying the kind of exhaustion that sleep alone cannot cure — it occurred to more than one of them that the Worldwound had not merely tested them on this journey.
 
@@ -714,7 +714,7 @@ He could not give the ring back. It had gone wherever the demon's trophies go, a
 
 At dawn, **Varic** woke the priest and they sat together in the thin light of a Worldwound sunrise. By the letter of the thing an ***Atonement*** should be spoken by a priest of the penitent's own god, and **Varic** was **Sarenrae**'s man kneeling with **Erastil**'s. He did it anyway. He reached down past everything he had made ready that morning and hauled the prayer up out of the deep water — a spell he had not prepared and had no business having, pulled through on mythic strength and the assumption that the Dawnflower would rather he tried. The casting took an hour. When it was done, **Jeskar** opened his eyes, and everything about his bearing had changed.
 
-![By the letter of the thing, an ***Atonement*** should be spoken by a priest of the penitent's own god. He did it anyway.](images/atonement-at-dawn.webp)
+![They knew of no priest of Erastil within a hundred miles, so Varic took his confession and offered absolution.](images/atonement-at-dawn.webp)
 
 **Jeskar:** *I still look back at what I've done. But now I feel like I'm in complete control, and that wasn't me. That was the influence I was under — a sickness of the soul. And just now, with my eyes closed, I had a vision of* ***Delamere****'s crystalline coffin, cracking and falling away.*
 
@@ -824,7 +824,7 @@ On a chair slightly too tall for her, boots swinging three inches clear of the f
 
 **Selyse:** *This is the guy? I thought you'd be taller.*
 
-![Three inches of air under her boots, and unimpressed by everything in the room.](images/i-thought-youd-be-taller.webp)
+![Ten inches of air under her boots, and unimpressed by everything in the room.](images/i-thought-youd-be-taller.webp)
 
 The briefing was blunt. **Selyse** was a wizard. **Horace** was her familiar, and **Selyse** could see through his eyes; between them they had produced more detailed maps of the Worldwound than any other asset **Anevia** possessed. Nobody outside that room could know she was a wizard. Nobody could connect her to the hawk. And if that hawk were spotted anywhere near the column, by a congregation of ***Erastil***'s hunters who shoot birds for a living, one idle arrow would cost the crusade its best cartographer.
 
@@ -1108,7 +1108,7 @@ There were no bodies. That was the first thing **Varic** noted. No corpses to ex
 
 **Chyrrik:** *Dragon. A big one, and no youngster. The burns are acid — so a black, or something near enough to one.*
 
-![So our new neighbor is a dragon. Got it.](images/what-the-dragon-left.webp)
+![So our new neighbor is a dragon? Got it.](images/what-the-dragon-left.webp)
 
 The armor fragments confirmed what they had suspected: these were the same cultist templars — or a group very like them — that the party had observed riding their giant lizard mounts during their previous expedition to this region. The tracks matched. Even with the recent rain, the prints of the massive lizards were deep enough to read clearly.
 
@@ -1144,7 +1144,7 @@ Meanwhile, the caravan continued west. About an hour ahead of where the scouting
 
 By the time **Varic**'s group caught up on foot, everyone was on their feet and in excellent spirits. **Cornelia** had spent the wand freely and without asking anyone's leave — half of what she drew out of it went into **Jeskar**, who had been gored badly when the lizard charged him, and the rest across the other hunters. The beast itself was a Worldwound-contaminated monitor lizard easily the size of a horse, muscular and mean, and the hunters had killed it through sheer persistence: peppered it with arrows while **Jeskar** served as the living distraction, drawing its charges and taking the hits until the others could bring it down.
 
-![One sacred hunt. Check](images/one-sacred-hunt.webp)
+![One sacred hunt: Check.](images/one-sacred-hunt.webp)
 
 **Jeskar** was beaming. He recounted the hunt in breathless, overlapping detail with his hunters, each correcting the other on who had shot which arrow and who had screamed the loudest. The lizard had been saddled — one of the cultist mounts — with the upper half of its rider still strapped in and flailing, which explained the blood trail. The saddlebags had been mostly empty: dry rations, an unholy symbol of ***Baphomet*** that they left where it fell, and a messenger case containing a scroll.
 
@@ -1338,7 +1338,7 @@ They did not fight it. They hid.
 
 Every member of the party carried an ***Elixir of Hiding*** — recovered from a cultist cache months ago, distributed as standard equipment for exactly this kind of emergency. **Lupenor**, whose stealth was already formidable, did not need one. The rest drank and went still, pressing themselves into what the riverbed offered by way of contour, pulling cloaks over armor, becoming nothing.
 
-![I am a rock. I am a rock. I am a rock.](images/nobody-looked-up.webp)
+![I am a rock I am a rock I am a rock.](images/nobody-looked-up.webp)
 
 The dragon flew over them. They felt the heat of its passage, felt acid droplets sting where exposed skin caught the wind from its wings. It banked south toward the lava fields, caught a thermal, rose, turned, and flew back north directly over their position. Two passes. Each one close enough to count scales, if anyone had been foolish enough to look up.
 
@@ -1668,7 +1668,7 @@ Nobody suggested camping. There was half a day of light left and two days of ope
 
 *11th through 13th of Neth, 4713 AR*
 
-![Varic vows then and there: No more escort missions. Ever.](images/no-more-escort-missions.webp)
+![Varic vows then and there: **No** more escort missions. **Ever.**](images/no-more-escort-missions.webp)
 
 ### **The Empty Field**
 
@@ -1858,7 +1858,7 @@ The fight nearly slipped from them. The dragon's hide turned every blade and eve
 
 **Varic** called down ***Holy Smite***, forcing it past her resistance on a second attempt, and she failed to turn it aside. The divine half of it found the abyssal taint in **Scorizscar**'s hide and bit clean through — and the spell, with the flat literalism of divine law, also struck her blind. She had no eyes. She had never had eyes. She took the blindness anyway, and for a moment the oldest thing in that cave was groping.
 
-![Sooner or later, there was always going to be a Holy Smite.](images/always-a-holy-smite.webp)
+![There was **always** going to be a Holy Smite.](images/always-a-holy-smite.webp)
 
 **Harlock**, under ***Haste***, under ***Smite Evil***, went at her with everything he had left and hit twice. Then the extra stroke that ***Haste*** had bought him came round — and landed true, and kept going, and went on going until something in her gave. He went up onto the dragon's head and drove ***Radiance*** straight down through her skull. She dropped where she stood, all at once, the way a building comes down; and the shimmer of the ***Entropic Shield*** that had turned aside half the arrows in the room simply winked out, and did not come back.
 
@@ -1968,7 +1968,7 @@ Then a poisoned fog came rolling over the top of them, thick enough to pull the 
 
 Then the bard turned her art on **Chyrrik**, and the scout's will gave way. ***Dominated***, emptied of her own intent, she rounded on **Rabiah** — the woman she had followed into a dozen worse places than this — and loosed shaft after shaft at her, and kept missing, and kept being made to try. **Rabiah** reached out through the noise and laid a ***protection from evil*** on her by main force, touching her the way you touch an enemy because at that moment she was one. It gave her one more chance to find herself, and she did not find herself.
 
-![Oh.  This again.](images/the-puppet.webp)
+![Oh. This again.](images/the-puppet.webp)
 
 The sorceress herself fell and rose and fell again under the weight of all of it: lightning, arrows, poison, the spectral scythe that had peeled itself out of the blade barrier and hunted her, alone, for the entire battle and never once stopped. Three times the dark took her. Three times she was hauled back — a potion **Varic** forced between her teeth because ***silence*** had left him nothing else; a mythic ***Breath of Life*** the moment he could speak again; at last a hoarded scroll of ***Heal*** that closed everything at once and gave her back the strength the poison had drunk out of her. *Rabiah the Everliving*, **Varic** named her, half prayer and half plain disbelief. The **Red Swarm** bent every advantage they had toward putting her in the ground, and could not make it stick.
 
@@ -2166,7 +2166,7 @@ She spoke quickly, urgently. The sky-patrols were down for the moment; they had 
 
 They set to digging. She rubbed her clawed hands together and asked, gently, if she might touch **Rabiah**'s cheek — and the young sorcerer, trusting, let her. The touch was ***Slay Living***. Only a surge of mythic power dragged **Rabiah** back from the killing spell; she screamed the alarm even as she survived it, and in that same breath the truth broke loose beneath their feet.
 
-![The clawed hand laid gently against Rabiah's cheek, and the kindly touch that was *Slay Living* — the instant the trap sprang.](images/touch-and-trap.webp)
+![The instant the trap sprang.](images/touch-and-trap.webp)
 
 The "retriever wreckage" was no wreckage at all. A disgusting, towering thing hauled itself up out of the debris — a **Bebilith**, a spider-demon vast enough to blot out the chamber, mechanical legs sloughing off its back as it rose. And the penitent's kindly face fell away. This was **Jaruunicka**, the hag who had hunted the true **Arueshalae** to this place — a devotee of the cult of *Sifkesh*, mistress of trickery, her every seeming a lie. The saving of the child, the vestments, the dream of Desna: all of it bait, laid with a craft that had fooled even a hero's memory.
 
@@ -2292,7 +2292,7 @@ The green wall had watchdogs. **Lupenor** caught the first of them low in the sh
 
 But the basilisks had their due. **Lupenor**, drawing a bead in the open, met one gaze too many — and the skin about her eyes crackled and hardened and ran gray, and the slayer froze mid-draw into a statue of herself, arrow nocked, a look of plain surprise fixed on her stone face, awake and aware inside it and remembering every moment. It was **Rabiah** who broke the fight open. She tore a ***Hungry Pit*** in the earth beneath the largest cluster of them, and two of the cold-slowed lizards pitched fifty feet into the dark, and the pit's walls closed and ground them round after round until there was nothing left of either but the sickening sound of the doing. The rest died to fire and star-metal and a last volley of arcane force, and the plaza fell quiet, and no alarm had gone up from the wall.
 
-![The down-side of aiming for the eyes, when it's a basilisk](images/a-statue-of-herself.webp)
+![Note to self: Do not aim for the eyes.](images/a-statue-of-herself.webp)
 
 That left the matter of **Lupenor**. **Varic** remembered the old cure — that the fresh blood of a basilisk, any basilisk, will undo what its gaze has done, if it is used before it cools. He seized one of the dead lizards by its weight, dragged it the width of the plaza to the stone that had been the slayer, opened its belly, and — with the whole company kneeling in to help, and rather more thoroughness than the slayer would afterward feel had been strictly necessary — painted her stone body over in blood until the gray crust flaked and crumbled away and **Lupenor** stepped free of it, spitting sediment and dignity, restored.
 
