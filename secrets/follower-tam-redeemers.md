@@ -126,6 +126,8 @@ Magic flared around her — not controlled, just pure expression.
 
 "They say we're disorganized. They're right. They say we're chaos. Absolutely. They say we can't possibly succeed like this." She grinned, and for a moment she looked exactly what she was — a teenager who'd discovered the universe's cheat codes. "Bet you we can."
 
+![She is the small shape on the roofline, and she is not what the picture is about. This is the thing she built without meaning to: sixty-something people who found each other, packed into a courtyard they made by accident. **Cornelia** is at the front on the left, and for half a second she is the only one in the yard not laughing.](images/bet-you-we-can.webp)
+
 As she climbed down, I caught Cornelia watching with an expression I couldn't read. For just a second, the halfling's mask of simple devotion slipped, revealing something sharper, more calculating. Then she was cheering with the rest of us, eyes wide with manufactured wonder.
 
 ### Following the Flame
