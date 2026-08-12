@@ -230,7 +230,9 @@ iron hanging lanterns belong to an old city that had centuries to accumulate the
 months. *(Caught by Matt, Aug 2026, when it was staged as a Drezen reference for exactly this scene.)*
 
 **Lupenor's Market** — the open trading square of the **Celest House** district in **Drezen**
-([`something-better-than-coin`](../images/something-better-than-coin.webp), Book III Ch. IV): the market
+([`something-better-than-coin`](../images/something-better-than-coin.webp), Book III Ch. IV, and
+[`retroactive-to-yesterday`](../images/retroactive-to-yesterday.webp) for the lane at ground level with
+the trading house lit at the far end): the market
 **Lupenor Celest** founded with three thousand gold of her own, at the southeastern foot of the walls.
 *The follower account [`follower-silas-thorne-market`](../secrets/follower-silas-thorne-market.md) is the
 authority on how it works* — sixty-odd registered merchants, permanent stalls twelve feet by eight with
@@ -272,13 +274,67 @@ not merely "behind the figures", or the model obligingly hangs a sunrise in the 
 *Avoid also:* `a sunrise or sun disk visible through the gateway, a glowing horizon through the
 arch, a sunset through the gate, the sun sitting in the archway`.
 
-The other three strongholds on Paradise Hill are not yet illustrated**, and each has a follower account
-that should be read before one is: **Varic**'s modest **Temple of Sarenrae**
-([`follower-dawns-fire-temple`](../secrets/follower-dawns-fire-temple.md)), **Harlock**'s garrison of
-**Iomedae's Preservers** ([`follower-aldwin-brightblade-preservers`](../secrets/follower-aldwin-brightblade-preservers.md)),
-and **Lupenor**'s trading house, the **Celest House**, sited closer to the citadel where commerce flows
-([`follower-silas-thorne-market`](../secrets/follower-silas-thorne-market.md)). Book II's *Paradise Hill*
-section describes what each was built to be.
+**The strongholds on Paradise Hill each have a follower account, and that account is the authority on
+the place — read it before illustrating there.** Book II's *Paradise Hill* section describes what each
+was built to be. Three of the four are now established by the follower-story plates below; **Lupenor**'s
+**Celest House** itself — the trading house sited closer to the citadel, as opposed to her market — is
+still unillustrated inside.
+
+**THE WESTERN TOWER** — the hall **Harlock** claimed for **Iomedae's Preservers**
+([`the-true-preservers`](../images/the-true-preservers.webp); the account is
+[`follower-aldwin-brightblade-preservers`](../secrets/follower-aldwin-brightblade-preservers.md)): a
+**dwarf-built** hall in a tower of the citadel, defiled through the occupation and **scrubbed out by hand
+by the volunteers who then swore their oaths in it** — so it is **INTACT, SOUND, CLEAN AND BARE, never a
+wreck**, and the house ruin register must be fought here as everywhere in **Drezen**. Massive squared
+warm grey-brown masonry, heavy square piers carrying **low broad round-headed arches**, deep-cut geometric
+relief banding at head height, a ceiling of stone ribs lost in darkness. **Bare flagstone floor, dark and
+wet from scrubbing, standing water in the joints** — that wet floor is the room's signature, because it
+takes the light as a long reflection. Iron sconces on the piers. A low plain stone altar. **Buckets and
+scrubbing brushes still pushed against the wall**: the place was cleaned yesterday and the order is a
+month old. Light it with **one source and nothing else** — in the investiture that is ***Radiance*** drawn,
+gold-white, falling off fast to brown-black. *Avoid:* `a ruined hall, rubble, a collapsed ceiling, broken
+walls, a cathedral, stained glass, pointed gothic arches, a church interior, daylight, windows, a second
+light source`.
+
+**THE TEMPLE OF SARENRAE's COURTYARD** — **Varic**'s temple in **Drezen**
+([`the-first-green-in-seventy-years`](../images/the-first-green-in-seventy-years.webp); the account is
+[`follower-dawns-fire-temple`](../secrets/follower-dawns-fire-temple.md)): **eight open ALCOVES for eight
+faiths** — low bays with plain round-headed arches — enclosing a courtyard on three sides, **still being
+built a month after the liberation**: several bays finished, others open to the sky with rough timber
+scaffolding lashed to them, cut stone waiting on the ground, a mortar trough and coils of rope. The
+**Drezen months-not-centuries rule governs**: squared warm grey-brown dwarven masonry, freshly cut and
+sound, extended with obvious **raw new-sawn pale timber** and pale new mortar; grubby from work, never
+weathered or smoke-blackened. **In the middle of the courtyard is ASHA's GARDEN**, and it is canon: a
+worked plot some **twenty-five feet by fifteen** of turned earth, darker and damper than the ash-grey dust
+around it, bounded on all four sides by a **LOW EDGING FENCE only a few inches high — short new-sawn
+boards on edge, squared stakes every few feet, a taut line of twine between the stake tops** — unbroken
+but for one gap at the near corner. **The only saturated colour in any picture of this place is the green
+growing inside that fence.** It is the first natural growth in **Drezen** in seventy years, so keep the
+planting young: rows of **two- or three-inch seedlings** with most of the earth still bare, and never a
+mature or lush garden. Light it at **evening**, a low westering sun raking across the courtyard through
+hanging dust. *Avoid:* `a lush or full-grown garden, mature crops, flowers, grass, a lawn, weeds, trees,
+moss, green anywhere except the seedlings, a cathedral, stained glass, pointed gothic arches, a finished
+or grand temple, an ancient weathered building`.
+
+**THE COMPOUND OF RABIAH'S REDEEMERS — the OUTSIDE**
+([`bet-you-we-can`](../images/bet-you-we-can.webp) for the yard and the roofline; the interior logic is
+[`a-lot-to-take-in`](../images/a-lot-to-take-in.webp) and the account is
+[`follower-tam-redeemers`](../secrets/follower-tam-redeemers.md)). Everything in the Paradise Hill entry
+above holds outdoors and is, if anything, more obvious from the yard: mismatched salvaged timber plank
+walls that do not meet square, **crooked roofs of reused beams sitting at three different heights** where
+different builders met in the middle, doorways with no doors, a window where no window belongs, a lean-to
+propped against a lean-to. **Cheap bright dyed cloth — reds, purples, yellows — strung between posts at
+odd angles overhead.** Nothing is plumb and the place looks **grown rather than built**. The buildings
+enclose a **rough courtyard the followers made by accident, by building in a circle**. Light it at night
+or dusk **from BELOW and INSIDE** — cooking fires, braziers and hanging lanterns throwing warm gold up
+onto faces, the undersides of the strung cloth, and the crooked eaves. ⚠️ **A scene here is a scene about
+the SIXTY-ODD FOLLOWERS, and the follower accounts are their stories, not Rabiah's** — put the camera
+down among the crowd, let every readable face belong to them, and if **Rabiah** must be present keep her
+small, distant and unreadable. *(Matt's direction, Aug 2026, on this very plate: the first staging put the
+camera up at roof height with her as the subject and was rebuilt from inside the crowd. **Her portrait was
+deliberately not attached** — see *A referenced character will not recede* above; describing her in text
+is what let her stay small.)* *Avoid:* `a tidy well-built structure, square plumb carpentry, neat matching
+rooflines, a stone building, a castle, a barracks, an ancient weathered timber building, moss or ivy`.
 
 **RABIAH'S SECURE SHELTER** — the conjured stone cottage
 ([`the-shelter-in-the-rain`](../images/the-shelter-in-the-rain.webp) for the outside,
@@ -423,7 +479,8 @@ safe, not a wreck** — the whole point of the place is that it is the first she
 *Avoid:* `a ruined rubble-strewn room, a collapsed ceiling, a second light source, daylight`.
 
 Locations with an established look so far: **Rabiah's Secure Shelter** (above), the **Molten Scar** (above),
-the **Corruption Forge**
+the three **Paradise Hill** strongholds — the **Western Tower**, the **Temple of Sarenrae's courtyard** and
+the **Redeemers' compound** (all above) — the **Corruption Forge**
 ([`the-cage-over-the-forge`](../images/the-cage-over-the-forge.webp), and
 [`the-ice-that-would-not-lie`](../images/the-ice-that-would-not-lie.webp) for its floor and its salamanders) and
 the **Ritual Chamber** ([`the-line-the-ice-drew`](../images/the-line-the-ice-drew.webp)), and the
