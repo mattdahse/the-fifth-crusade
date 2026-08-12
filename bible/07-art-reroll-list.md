@@ -34,6 +34,40 @@ of the climb, looking up at a sky he expected to be daylight — so keep them.
 priest, no gold."* The re-roll must keep that legible: chain shirt or padded leather over travel
 robes, deep-red scarf, plain iron sunburst, **no gold filigree, no mantle**.
 
+### `the-blessing-of-the-dawn.webp` — **wrong style, and the face is not Varic**
+*Book I, the gates of Defender's Heart — Varic kneels over a man who would not put down his wife, and
+calls the light of Sarenrae down to warm them both.*
+
+**Style:** photoreal again — skin pores, a photographic sheen on every wet surface, and a warm
+all-over orange bath from the braziers instead of one placed accent. Lead with the medium block and
+put the camera words in `Avoid:`.
+
+**Likeness:** it is not his face. Held against
+[`../characters/varic.webp`](../characters/varic.webp) the render gives him a long, thin, hollow face
+with a heavy jaw and a receding hairline, where the portrait is a fuller, younger, even-featured
+half-elf with grey-blue eyes. **His ears are long tapered elf ears here; he is a HALF-elf and they
+should be subtly pointed**, closer to Harlock's than to Lupenor's. Attach the portrait and describe
+the face positively rather than trusting "half-elf priest" to carry it.
+
+**Kit — two real faults, and one thing not to flag:**
+- **The red mantle over his shoulder is portrait-only in every era** and does not belong in any
+  scene. `a red mantle or cloak` goes in `Avoid:`.
+- **Era I is humble**: a plain battered chain shirt or padded leather over simple travel robes, the
+  deep-red scarf, a **plain iron sunburst — a bare stylised sun with no sword** and no compass-rose
+  spokes. The render's mail sleeve and dressier layering push him toward his later look.
+- **Do NOT flag the gold band in his hair.** It is his hair — see *The circlet is not a fault* in the
+  kit guide. It has cost review cycles before.
+
+**Keep:** the beat and the staging are right — him kneeling, the hand held over the pair, the
+blessing as the only warm light in a cold blue night, and crusaders standing off in the gloom.
+
+⚠️ **Prompt this one carefully.** The subject is a man holding his wife's body, and naming that
+plainly — in the body *or* in `Avoid:` — is what gets a prompt refused (see the `Avoid:`-line rule in
+`CANON.md`'s *Known drift*, and the refusal on `rabiahs-raw-magic` above). Carry it entirely through
+posture and light: a man on his knees with his face bowed to the hair of the woman he is holding, her
+weight gone slack against him, and Varic's lit hand held over them both. Keep every body word out of
+both halves of the prompt.
+
 ### `the-kindling-of-radiance.webp` — **both likenesses drifted**
 *Book I, Defender's Heart — Harlock speaks the Code of Iomedae, light climbs the dead blade and wakes
 it, and Irabeth looks on in wonder.*
