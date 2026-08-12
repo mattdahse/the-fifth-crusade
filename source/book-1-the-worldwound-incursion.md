@@ -32,7 +32,7 @@ Even here, gathered and grieving, they were not of one mind. **Horgus** dismisse
 
 Scouting the cavern's edge, **Rabiah** found the great upturned corpse of a black widow — and from a wound in its bloated abdomen slithered pale, undulating maggots the size of a man's arm, groping toward her. She loosed a bolt; **Varic** hurled a lance of fire; and **Harlock**, drawing his sword, clove one of the vile things in twain so that its digested filth pooled steaming between the halves. The second was pinned and finished at dagger's point. It was no great battle, but it was their first shed together.
 
-![Four silvered scales of **Terendelev**, cold and lovely in the dark.](images/the-scales-of-terendelev.webp)
+![Four silvered scales of **Terendelev**, her last gift to Kenabres.](images/the-scales-of-terendelev.webp)
 
 Among the debris they uncovered four silvered scales, each the span of a splayed hand and glowing softly — fragments, it was said, of the fallen dragon **Terendelev**. As each of the four laid hand upon one, its gift made itself known: to one the buoyancy of rolling cloud, to another the veil of a false face, to another a ward against harm. **Harlock**, receiving his, looked up toward the unseen vault of the cave and clutched at a pendant beneath his mail, and said nothing at all.
 
@@ -46,7 +46,7 @@ At last the passages opened upon a windowless bunker of worked stone, its facade
 
 ### **A Safe Haven Restored**
 
-![The shrine of **Torag** made holy again by their own hands — and **Harlock** playing a low, sad tune into the dark while the others sleep.](images/a-safe-haven-restored.webp)
+![The shrine of **Torag** made holy again by their own hands.](images/a-safe-haven-restored.webp)
 
 **Horgus**, in his fear, slipped away into the dark, and the company chose — against grievance and good sense both — to go after him. **Varic's** patient words turned the noble back, and together they returned to the shrine. For eight long hours they labored to cleanse and reconsecrate the temple of **Torag**, and when it was done a quiet sense of safety settled over them, a feeling of being watched over by a kindly god. **Varic** spent the last of his gathered grace to heal the wounded. Weary and far from their goal, they knew well how much road still lay between them and the surface.
 
@@ -76,7 +76,7 @@ Their road ran on through winding tunnels, past a harmless nest of spiders that 
 
 As **Rabiah** stepped close to read them, a patch of the ceiling darker than any shadow unfurled like a demon's umbrella and dropped upon her. A second fell upon Harlock. The creatures smothered their prey in inky wings and gnashing beaks, and the young sorcerer — who had strayed too far from Harlock's shadow — was seized and swallowed whole into a writhing leather sack, her cries falling suddenly silent. Blood ran from where the thing gripped her. She hung a hair's breadth from death when Harlock's hammer and Lupenor's arrows brought the beasts down; and as the dark things died, the unnatural gloom that clung to them dissolved, and the cavern brightened.
 
-![The darkmantles fall from the grieving dark, and **Rabiah** is seized — while **Harlock's** hammer, **Lupenor's** bow, and the cold light of **Varic's** holy symbol turn to the fight.](images/the-host-of-sorrowful-stone.webp)
+![Rabiah learns the rule about standing behind Harlock.](images/the-host-of-sorrowful-stone.webp)
 
 Varic reached his fallen friend and, drawing on the mercy of his goddess, called Rabiah back from the very threshold — a ***rebuke of death*** that stole the last breath from oblivion's grasp. Channelled light and a healer's touch did the rest. The blind wizard of their company came groping to her side and laid ***mage armor*** upon her like a benediction. It was a hard lesson, gently given: the frail must not run ahead of the shield.
 
@@ -92,7 +92,7 @@ Beyond a chamber where a broken tower lay toppled on its side, they came upon a 
 
 A steep, piton-studded shaft rose before them, and it cost long, careful minutes to haul their blind and crippled charges up its face with rope and patient hands. At the top, in a cavern where another tower had collapsed, three horned and misshapen figures labored to dig a trapped companion from the rubble. Wary but not cruel, their leader **Lann** offered a bargain: pass in peace, or lend aid. The company chose aid. Straining together beneath a boulder that even Harlock could not shift alone, they freed the pinned wretch — a thing of tentacle and pincer and clustered eyes — and Varic mended what he could of the wretch's shattered leg.
 
-![The company chooses to lend aid: **Harlock** sets his shoulder to the boulder beside the mongrelmen while **Varic** kneels to mend the freed wretch, his healing the one warm light in the dark.](images/the-mongrels-of-the-deep.webp)
+![Wretched and ugly, but worthy of kindness](images/the-mongrels-of-the-deep.webp)
 
 These were the mongrelmen, the very descendants of the carven host, and Lann pledged to guide his rescuers toward the surface. It fell to Rabiah's careful tongue to soothe the grumbling noble **Horgus**, whose disgust the mongrels bore in weary silence, while Aravashnial's fascination spilled over into thoughtless insult. Where the earth had torn itself into a great new chasm, the company crossed by the grace of a levitation charm, ferrying those who could not climb across the gulf.
 
@@ -116,7 +116,7 @@ The road out of the dark had been long. Behind them lay a rescued huddle of mong
 
 Beyond a narrow causeway, upon an island in a black underground lake, glimmered the candle-lights of **Neathholm**. Its dwellings were a hodgepodge of scavenged timber, stone, and one absurd patch of white picket fence, each hut as individual and ill-matched as the twisted people who had built them. **Harlock Greyforge**, **Lupenor Celest**, **Rabiah**, and **Varic Sarian** found themselves gazing on children as grotesque as their elders, peering from breaches in the walls. Even to hearts as forgiving as theirs, the sight was hard to bear — and every mongrel eye told them the feeling was mutual, and old.
 
-![Beyond a narrow causeway, on an island in a black underground lake, glimmer the candle-lights of **Neathholm**](images/candle-lights-of-neathholm.webp)
+![Sanctuary in the hostile dark, in the candle-light of **Neathholm**](images/candle-lights-of-neathholm.webp)
 
 ### **The Tale Chief Chusul Told**
 
@@ -130,7 +130,7 @@ Among the spoils the company carried was a curious copper brooch, bat-shaped, ta
 
 It had belonged to his son — the boy who had burned to charge the surface and take his place among heroes, who had defied his father's counsel and gone, and never returned. The dwarf must have taken it from his body. When Lupenor pressed the brooch back into his hand, Chusul in his grief gave the company his own morningstar in return — an heirloom of masterwork craft that had been carried into the very First Crusade by his ancestors — and asked only a promise: *beat up a demon with it.* Then he shuffled to his chamber, and the company withdrew, pretending not to hear him weep.
 
-![By a single candle, **Lupenor** presses the copper brooch back into the trembling hands of **Chusul**](images/the-brooch-returned.webp)
+![**Lupenor** presses the copper brooch back into the trembling hands of **Chusul**](images/the-brooch-returned.webp)
 
 ### **A Charge, and a Night's Rest**
 
