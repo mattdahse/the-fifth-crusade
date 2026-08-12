@@ -34,6 +34,42 @@ of the climb, looking up at a sky he expected to be daylight — so keep them.
 priest, no gold."* The re-roll must keep that legible: chain shirt or padded leather over travel
 robes, deep-red scarf, plain iron sunburst, **no gold filigree, no mantle**.
 
+### `the-taking-of-the-ford.webp` — **the charge reads as wallpaper, and Rabiah is missing from it**
+*Book II — a hundred armoured horse come out of the concealing ground into the tiefling encampment at
+the West Sellen ford. Caption: "Surprise!"*
+
+Matt's notes:
+
+- **Too many paladins in view.** The frame is a wall of near-identical knights running the full width
+  of the picture. Show **eight or ten horse cresting the rise** and let the rest of the hundred be
+  implied — dust, and lance-tips still behind the ridge. A charge is more frightening glimpsed than
+  counted.
+- **The battle line is too flat and repetitive** — one dead-straight rank at even spacing, every
+  rider at the same angle with the same lance at the same height, visibly cloned. Break it in
+  **depth and in terrain**: come at the line **obliquely**, stagger the riders fore and aft, and use
+  the rise itself to break them up so some are already over and driving down while others are still
+  climbing with only heads and lance-points showing. Vary horse colour, gait and the set of each
+  rider.
+- **Put Rabiah back in.** It is her army — *"Not one of Rabiah's people was left on the field"* — and
+  she is nowhere in the picture. Book II is **Era III**: the green hooded cloak thrown back over a
+  high-necked green tunic, the leather baldric with the round dark medallion, neat and uncannily
+  clean. **She is 5'1" and never towers over anyone**, so pin her height and pin the horse: *full-
+  sized working horses, the top of the shoulder level with a tall man's head*, or she will end up on
+  a pony.
+- **Show the moment they break cover over the rise** — the instant of the reveal, before contact.
+  Nothing has landed yet; the tieflings below are only just turning to look. That is the beat the
+  caption is making a joke about, and it is a better picture than the aftermath.
+
+**Two craft notes to carry into the prompt:**
+- **Describe the lances mechanically, not by name.** "Lances couched" came back upright twice and
+  shoulder-carried once on earlier art; what worked was joint positions — *"the butt clamped against
+  the rider's right side just below the armpit, the hand gripping at mid-chest, the shaft crossing
+  diagonally over the horse's neck and out past the left side of its head, the point lower than the
+  grip."* See *Prompt craft* in the `chatgpt-image-gen` skill.
+- **The shields carry bare starbursts.** Crusader devices are **Iomedae's**: a vertical sword, hilt
+  and crossguard at the top, blade hanging below, in front of a blazing sun. All new art carries the
+  sword.
+
 ### `the-inheritors-kiss.webp` — **wrong style, wrong holy symbols, and Radiance should not be in it**
 *Book I, the mythic dream — Iomedae moves through their sleep to thank them and set a kiss on each brow.*
 
