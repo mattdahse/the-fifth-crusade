@@ -34,6 +34,36 @@ of the climb, looking up at a sky he expected to be daylight — so keep them.
 priest, no gold."* The re-roll must keep that legible: chain shirt or padded leather over travel
 robes, deep-red scarf, plain iron sunburst, **no gold filigree, no mantle**.
 
+### `the-doors-that-would-not-open.webp` — **Harlock unconvincing, and the style is wrong**
+*Book II Ch. IX, "The Silencing of the Catapults" — while the fight rages above him, Varic kneels at
+an ironbound door and makes it stop being a door at all.*
+**Note the filename is plural — `the-doors-…`, not `the-door-…`.** Keep it; both the chapter and the
+search index reference it by name.
+
+**Harlock does not read as Harlock.** He is a small distant figure on the parapet, and at that size
+nothing identifies him: **no green skin**, no half-orc features, and silvery-white plate instead of
+his Era III kit. Two fixes, and they combine — **bring the parapet fight closer and larger** in the
+upper frame so there is a face to recognise, and **attach `harlock.webp`** and give him the anchors
+that survive at distance: green skin catching the gold of *Radiance*, the big solid build, the
+battered **plain steel breastplate over a padded gambeson**, and the **steel shield of blinding**
+blazoned with Iomedae's sword-and-sun. **This is Era III** — before *The Citadel's Gauntlet*, so
+**no golden full plate**. *Radiance* is awake by now and may blaze.
+
+**Style:** the frame is a saturated orange bath of molten rivulets — spectacle where the house look
+wants a muted earthy picture with **one** placed accent.
+
+**And the spell is drawn wrong, which is the deeper problem.** Varic **shapes stone**; he does not
+melt it. Lava, running fire and glowing seams are the model's own idea of "magic on masonry" and they
+misrepresent what happened. Render it as **stone behaving like wet clay**: dull grey masonry flowing,
+slumping and knitting over the hinges, the sill and the seam until the door is a slab of wall — soft
+folds in cold stone, dust sifting, no heat anywhere. Keep the **single accent** small and cold at his
+palm, and let *Radiance* above be the only warm light in the frame. Put `lava, molten rock, glowing
+orange seams, running fire, melting stone, embers` in `Avoid:`.
+
+**Keep:** the composition is good and unusual — Varic large in the near foreground with his back to
+us, the door filling the frame, the fight small and desperate on the parapet above. That framing is
+also why he needs no reference for his face, which is out of shot.
+
 ### `the-taking-of-the-ford.webp` — **the charge reads as wallpaper, and Rabiah is missing from it**
 *Book II — a hundred armoured horse come out of the concealing ground into the tiefling encampment at
 the West Sellen ford. Caption: "Surprise!"*
