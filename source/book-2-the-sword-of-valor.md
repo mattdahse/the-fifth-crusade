@@ -4,11 +4,13 @@
 
 ## **The Waystation at Vineyard Hills**
 
+<!-- date: April 11, 2025 -->
+
 <!-- inworld: 25 Arodus 4713 -->
 
 <!-- fathom: call=274449789 recording=56966087 -->
 
-*April 11, 2025 session — the road southeast of Kenabres, in the first days after the city's deliverance*
+*The road southeast of Kenabres, in the first days after the city's deliverance*
 
 ### **Ashes and Rebuilding**
 
@@ -50,9 +52,11 @@ Over the spoils a quiet argument rose. Rabiah held that the outpost's coin was n
 
 ## **A Queen's Commission**
 
+<!-- date: April 26, 2025 -->
+
 <!-- inworld: approx 26 Arodus 4713 to 29 Arodus 4713 -->
 
-*April 26, 2025 session — the geomancer's road home to **Kenabres**, and the coming of the sovereign of Mendev*
+*The geomancer's road home to **Kenabres**, and the coming of the sovereign of Mendev*
 
 ### **The Slow Road Home**
 
@@ -166,9 +170,11 @@ Neither favor had been offered. Both were granted. They went out through the nor
 
 ## **March of the Redeemers**
 
+<!-- date: April 26, 2025 -->
+
 <!-- inworld: 30 Arodus 4713 -->
 
-*April 26, 2025 session — the camps beyond Kenabres's northern wall, a hard bargain in a nobleman's counting-house, and the road north*
+*The camps beyond Kenabres's northern wall, a hard bargain in a nobleman's counting-house, and the road north*
 
 ### **Rabiah's Redeemers**
 
@@ -242,9 +248,11 @@ They made their first camp with **Kenabres** behind them and above them, and the
 
 ## **The Battle of Vilareth Ford**
 
+<!-- date: April 26, 2025 -->
+
 <!-- inworld: approx 31 Arodus 4713 to 1 Rova 4713 -->
 
-*April 26, 2025 session — the northernmost crossing of the **West Sellen**, a gaol emptied, and a river that divided two worlds*
+*The northernmost crossing of the **West Sellen**, a gaol emptied, and a river that divided two worlds*
 
 ### **The Ford Taken**
 
@@ -284,7 +292,7 @@ From the heights **Lupenor** had marked a thing that unsettled even her elven ca
 
 <!-- date: May 10, 2025 -->
 
-*May 10, 2025 session — the road west from the ford, a canyon held by two armies, and the night a demon came through a sleeping camp for the girl who commanded it*
+*The road west from the ford, a canyon held by two armies, and the night a demon came through a sleeping camp for the girl who commanded it*
 
 ### **The Road from the Ford**
 
@@ -380,7 +388,7 @@ And not one of them thought to ask, that night, who had put three vials of a dem
 
 <!-- date: May 10, 2025 -->
 
-*May 10 and June 21, 2025 sessions — a crusade quietly coming apart on the march, and the clifftop chapel that had to be cleansed before it could be given back*
+*A crusade quietly coming apart on the march, and the clifftop chapel that had to be cleansed before it could be given back*
 
 ### **The Grumbling in the Ranks**
 
@@ -466,7 +474,7 @@ The courtyard itself was the trap they had not read. Stunted trees and strangled
 
 <!-- date: June 21, 2025 -->
 
-*June 21, 2025 session — a chapel given back to the light, a crusade's faith shored up on a column of cloud, and the queen laying beneath the canyon*
+*A chapel given back to the light, a crusade's faith shored up on a column of cloud, and the queen laying beneath the canyon*
 
 ### **The Light Given Back**
 
@@ -530,11 +538,13 @@ They burned the queen's body, climbed the rope back into the jaundiced daylight,
 
 ## **The Liberation of Drezen City**
 
+<!-- date: July 4, 2025 -->
+
 <!-- inworld: 6 Rova 4713 to 7 Rova 4713 -->
 
 <!-- fathom: call=343836789 recording=72314274 -->
 
-*July 4, 2025 session — the storming of Paradise Hill, four battles in a single day for the streets of **Drezen**, and at the last the bridge that was built to fall*
+*The storming of Paradise Hill, four battles in a single day for the streets of **Drezen**, and at the last the bridge that was built to fall*
 
 ### **The Reckoning of the Scouts**
 
@@ -585,11 +595,13 @@ The triumph did not come clean. Even as they leaned over the war-table, word cam
 
 ## **The Silencing of the Catapults**
 
+<!-- date: July 18, 2025 -->
+
 <!-- inworld: 8 Rova 4713 -->
 
 <!-- fathom: call=355809076 recording=75197926 -->
 
-*July 18, 2025 session — the broken bridge over the Ahari, and the four watchtowers that stood between an army and the gates of Drezen*
+*The broken bridge over the Ahari, and the four watchtowers that stood between an army and the gates of Drezen*
 
 ### **What the Bridge Cost**
 
@@ -695,11 +707,13 @@ It was not hunting the army. It was hunting them.
 
 ## **Stoltengraabe**
 
+<!-- date: August 15, 2025 -->
+
 <!-- inworld: 8 Rova 4713 -->
 
 <!-- fathom: call=382513279 recording=80959372 -->
 
-*August 15, 2025 session — the beast above the breach, the breaking of three armies, and the courtyard of Citadel Drezen taken at last*
+*The beast above the breach, the breaking of three armies, and the courtyard of Citadel Drezen taken at last*
 
 ### **Three Heads**
 
@@ -775,9 +789,11 @@ They stood in the wreckage among the broken guardians and looked at the passage 
 
 ## **The False Goddess**
 
+<!-- date: September 13, 2025 -->
+
 <!-- inworld: 9 Rova 4713 -->
 
-*September 13, 2025 session — through the sally port into Citadel Drezen: the murder hall, the weeping berserker, and a demon wearing Iomedae's face*
+*Through the sally port into Citadel Drezen: the murder hall, the weeping berserker, and a demon wearing Iomedae's face*
 
 ### **The Murder Hall**
 
@@ -814,11 +830,13 @@ When it was done, **Harlock** and **Varic** knelt and cleansed the chapel with p
 
 ## **The Citadel's Gauntlet**
 
+<!-- date: September 26, 2025 -->
+
 <!-- inworld: 9 Rova 4713 -->
 
 <!-- fathom: call=423214214 recording=90259705 -->
 
-*September 26, 2025 session — the false shrine, the defiled cemetery, and the burning halls of Citadel Drezen*
+*The false shrine, the defiled cemetery, and the burning halls of Citadel Drezen*
 
 ### **The False Shrine**
 
@@ -862,11 +880,13 @@ The day's last door gave onto a room choked with sulfur-smoke that stung the eye
 
 ## **A Face Out of Kenabres**
 
+<!-- date: October 10, 2025 -->
+
 <!-- inworld: 10 Rova 4713 -->
 
 <!-- fathom: call=438834731 recording=93494898 -->
 
-*October 10, 2025 session — the eastern wing of Citadel Drezen, the statues that woke, and a man chained to a bed who was not a man at all*
+*The eastern wing of Citadel Drezen, the statues that woke, and a man chained to a bed who was not a man at all*
 
 ### **The Statues That Woke**
 
@@ -954,9 +974,11 @@ And there, with the succubus dead on the floor between them and the bard finally
 
 ## **Corridors of Deceit**
 
+<!-- date: October 25, 2025 -->
+
 <!-- inworld: 10 Rova 4713 to 11 Rova 4713 -->
 
-*October 25, 2025 session — the bard's confession and the judgment upon him, and the deeper rooms of Citadel Drezen*
+*The bard's confession and the judgment upon him, and the deeper rooms of Citadel Drezen*
 
 ### **The Traitor's Tale**
 
@@ -1022,11 +1044,13 @@ Suddenly — the door to the next room burst open.
 
 ## **The Fall of Staunton Vhane**
 
+<!-- date: November 7, 2025 -->
+
 <!-- inworld: 11 Rova 4713 to 12 Rova 4713 -->
 
 <!-- fathom: call=468815144 recording=100198392 -->
 
-*November 7, 2025 session — the planning room of Citadel Drezen, and the first death among the company*
+*The planning room of Citadel Drezen, and the first death among the company*
 
 ### **The Door Bursts Open**
 
@@ -1126,11 +1150,13 @@ Whether every soul the glaive had eaten went free at the end of it, none of them
 
 ## **Into the Dungeons Beneath Drezen**
 
+<!-- date: November 29, 2025 -->
+
 <!-- inworld: 12 Rova 4713 -->
 
 <!-- fathom: call=490590311 recording=105055470 -->
 
-*November 29, 2025 session — beneath Citadel Drezen: the whispering prison, the specters in the cells, and the thing that was in the room long before anybody saw it*
+*Beneath Citadel Drezen: the whispering prison, the specters in the cells, and the thing that was in the room long before anybody saw it*
 
 ### **The Warning Signs**
 
@@ -1274,11 +1300,13 @@ Nobody took him up on it. **Harlock** could still feel his prayers going out int
 
 ## **The Ritual Chamber**
 
+<!-- date: December 12, 2025 -->
+
 <!-- inworld: 12 Rova 4713 to 13 Rova 4713 -->
 
 <!-- fathom: call=506425868 recording=108516665 -->
 
-*December 12, 2025 session — the anti-magic cell, the butterfly cell, and the seneschal's ritual beneath Citadel Drezen*
+*The anti-magic cell, the butterfly cell, and the seneschal's ritual beneath Citadel Drezen*
 
 ### **The Creeping Madness**
 
@@ -1426,11 +1454,13 @@ But for now, the company had won a crucial victory. The mage conducting the ritu
 
 ## **The Sword of Valor Reclaimed**
 
+<!-- date: December 20, 2025 -->
+
 <!-- inworld: 13 Rova 4713 -->
 
 <!-- fathom: call=513922584 recording=110237046 -->
 
-*December 20, 2025 session — the Corruption Forge, the false banner, the shadow demon's dark, and what was written in **Staunton Vhane**'s own hand*
+*The Corruption Forge, the false banner, the shadow demon's dark, and what was written in **Staunton Vhane**'s own hand*
 
 ### **The Question of Prisoners**
 
@@ -1668,13 +1698,15 @@ Not quite four weeks.
 
 ## **The Rebuilding of Drezen**
 
+<!-- date: January 2, 2026 -->
+
 <!-- inworld: 14 Rova 4713 to 11 Lamashan 4713 -->
 
 <!-- epilogue -->
 
 <!-- fathom: call=521042087 recording=111547804 -->
 
-*January 2, 2026 session — Star Day, the 14th of Rova through Lamashan, 4713 AR: the settling of liberated Drezen*
+*Star Day, the 14th of Rova through Lamashan, 4713 AR: the settling of liberated Drezen*
 
 ### **The Raising**
 

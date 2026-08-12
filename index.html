@@ -575,6 +575,18 @@ secrets.forEach(function(s){ s._lc = (s.text||'').toLowerCase(); });
    minor character lives only in their entry, and it was invisible to the search box.
    Flattened once here, with a slug so a result can link to the person and not just the tab. */
 function pslug(s){ return s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''); }
+
+/* Alphabetical within each group, by the person's own name rather than by an honorific —
+   "Sir Brannic Vayne" files under B, "Brother Tomás" under T. Sorted once, in place, so the
+   Personalities page and the search index agree. Accents fold ("Tomás" sorts as Tomas). */
+var HONORIFIC = /^(?:the|sir|dame|lady|lord|brother|sister|father|mother|queen|king|captain|commander)\s+/i;
+function nameKey(n){ return n.replace(HONORIFIC, ''); }
+CAST.forEach(function(g){
+  g.people.sort(function(a,b){
+    return nameKey(a[0]).localeCompare(nameKey(b[0]), undefined, {sensitivity:'base'});
+  });
+});
+
 var PEOPLE = [];
 CAST.forEach(function(g){
   g.people.forEach(function(p){

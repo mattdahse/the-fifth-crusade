@@ -4,11 +4,13 @@
 
 ## **The Gathering in the Dark**
 
+<!-- date: October 17, 2024 -->
+
 <!-- inworld: 16 Arodus 4713 -->
 
 <!-- fathom: call=165703544 recording=32256159 -->
 
-*October 17, 2024 session — the caverns beneath **Kenabres**, in the first hours after the demon-fall*
+*The caverns beneath **Kenabres**, in the first hours after the demon-fall*
 
 ![Strangers in the ruin beneath **Kenabres** — a guttering holy symbol, a hand out of the rubble, and a darkness that pressed upon the eyes like a hand.](images/waking-among-the-ruins.webp)
 
@@ -58,11 +60,13 @@ So the first night beneath **Kenabres** passed without further terror, in a hous
 
 ## **Beneath the Wounded City**
 
+<!-- date: November 8, 2024 -->
+
 <!-- inworld: approx 17 Arodus 4713 -->
 
 <!-- fathom: call=178009368 recording=34934762 -->
 
-*November 8, 2024 session — the lightless tunnels beneath Kenabres, in the days after the city's fall*
+*The lightless tunnels beneath Kenabres, in the days after the city's fall*
 
 ### **A Watch in the Reconsecrated Dark**
 
@@ -104,11 +108,13 @@ In a round cavern choked with a hostile, spore-belching fungus, fire and oil cle
 
 ## **The Children of the First Crusade**
 
+<!-- date: November 23, 2024 -->
+
 <!-- inworld: approx 17 Arodus 4713 to 18 Arodus 4713 -->
 
 <!-- fathom: call=186092746 recording=36731415 -->
 
-*November 23, 2024 session — the mongrel village of Neathholm, deep beneath Kenabres, and the tunnels of the fallen tribe that guard the way upward*
+*The mongrel village of Neathholm, deep beneath Kenabres, and the tunnels of the fallen tribe that guard the way upward*
 
 ### **The Crossing to Neathholm**
 
@@ -156,11 +162,13 @@ At last two shafts descended into deeper dark — one plunging forty feet to rus
 
 ## **The Dimmed Blade and the Burning Sky**
 
+<!-- date: December 7, 2024 -->
+
 <!-- inworld: approx 18 Arodus 4713 to 19 Arodus 4713 -->
 
 <!-- fathom: call=194019062 recording=38329906 -->
 
-*December 7, 2024 session — beneath and above the stricken city of Kenabres*
+*Beneath and above the stricken city of Kenabres*
 
 ### **In the Deep Beneath the City**
 
@@ -206,11 +214,13 @@ At last, past an hour of clawing through wreckage, they reached the manor of **H
 
 ## **The Long Road to the House of Tirabade**
 
+<!-- date: December 21, 2024 -->
+
 <!-- inworld: approx 20 Arodus 4713 -->
 
 <!-- fathom: call=201534049 recording=40199600 -->
 
-*December 21, 2024 session — the ruin of **Kenabres**, in the days after the demon assault, as the company crosses the shattered city*
+*The ruin of **Kenabres**, in the days after the demon assault, as the company crosses the shattered city*
 
 ### **An Unnatural Dawn**
 
@@ -244,11 +254,13 @@ The dead man wore no true armor, only spellcraft and cunning. Upon him they foun
 
 ## **The Kindling of Radiance**
 
+<!-- date: January 4, 2025 -->
+
 <!-- inworld: approx 20 Arodus 4713 to 21 Arodus 4713 -->
 
 <!-- fathom: call=205551629 recording=40900407 -->
 
-*January 4, 2025 session — Kenabres besieged, from the Tirabade house to the gates of the Defender's Heart*
+*Kenabres besieged, from the Tirabade house to the gates of the Defender's Heart*
 
 ### **A Vigil Beneath a Poisoned Sky**
 
@@ -296,11 +308,13 @@ Something in each of them had quietly deepened along that hard road, tempered by
 
 ## **The Broken Black Wing**
 
+<!-- date: January 17, 2025 -->
+
 <!-- inworld: approx 21 Arodus 4713 to 22 Arodus 4713 -->
 
 <!-- fathom: call=215319354 recording=42978903 -->
 
-*January 17, 2025 session — the ruin of Kenabres, from Defender's Heart to the fallen Library of the Black Wing*
+*The ruin of Kenabres, from Defender's Heart to the fallen Library of the Black Wing*
 
 ### **The Errand**
 
@@ -352,11 +366,13 @@ At the barricades of **Defender's Heart** the watchword was given and the gates 
 
 ## **Merely a Prelude**
 
+<!-- date: January 31, 2025 -->
+
 <!-- inworld: approx 22 Arodus 4713 -->
 
 <!-- fathom: call=223129507 recording=45149314 -->
 
-*January 31, 2025 session — the Defender's Heart and the cultist safehouses of fallen Kenabres*
+*The Defender's Heart and the cultist safehouses of fallen Kenabres*
 
 ### **The Fortress of Refugees**
 
@@ -396,11 +412,13 @@ The apothecary's shelves proved false, their jars glued fast to hide a secret do
 
 ## **The Gaze Upon the Gray Garrison**
 
+<!-- date: February 14, 2025 -->
+
 <!-- inworld: approx 22 Arodus 4713 to 23 Arodus 4713 -->
 
 <!-- fathom: call=234064236 recording=47407438 -->
 
-*February 14, 2025 session — the broken streets of **Kenabres**, from the ruin of **Topaz Solutions** to the very threshold of the **Gray Garrison***
+*The broken streets of **Kenabres**, from the ruin of **Topaz Solutions** to the very threshold of the **Gray Garrison***
 
 ### **Ashes of the Apothecary**
 
@@ -448,11 +466,13 @@ The last chamber had been a museum, now smashed to splinters, where two headless
 
 ## **In This Solemn Hour**
 
+<!-- date: February 28, 2025 -->
+
 <!-- inworld: 23 Arodus 4713 -->
 
 <!-- fathom: call=242607886 recording=49699568 -->
 
-*February 28, 2025 session — the storming of the **Gray Garrison**, deep within occupied **Kenabres***
+*The storming of the **Gray Garrison**, deep within occupied **Kenabres***
 
 ### **The Threshold Regained**
 
@@ -500,9 +520,11 @@ Varic's channeled light washed the weariness from the company, and they took sto
 
 ## **The Breaking of the Wardstone**
 
+<!-- date: March 15, 2025 -->
+
 <!-- inworld: 23 Arodus 4713 -->
 
-*March 15, 2025 session — the upper **Gray Garrison**, and the shattering of the last **Wardstone***
+*The upper **Gray Garrison**, and the shattering of the last **Wardstone***
 
 ### **The Scrying Font**
 
@@ -568,13 +590,15 @@ But it did not drain entirely. Something had woken in the four of them that woul
 
 ## **The Light That Would Not Fade**
 
+<!-- date: March 28, 2025 -->
+
 <!-- inworld: 23 Arodus 4713 to 24 Arodus 4713 -->
 
 <!-- epilogue -->
 
 <!-- fathom: call=264621584 recording=54488768 -->
 
-*March 28, 2025 session — the hour after the Gray Garrison, in the wounded city of Kenabres*
+*The hour after the Gray Garrison, in the wounded city of Kenabres*
 
 ![**Harlock**, **Varic**, **Lupenor** and **Rabiah** come up into the ruined streets still burning with a light that would not fade, and the crusaders and refugees of the **Defender's Heart** stop where they stand. Above the broken city, for the first time since **Armasse**, the stars.](images/the-march-of-the-glowing-ones.webp)
 

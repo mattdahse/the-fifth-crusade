@@ -4,11 +4,13 @@
 
 ## **The Teeth of the Worldwound**
 
+<!-- date: January 16, 2026 -->
+
 <!-- inworld: 12 Lamashan 4713 to 15 Lamashan 4713 -->
 
 <!-- fathom: call=536080480 recording=115049381 -->
 
-*16 January 2026 session — 12th of Lamashan, 4713 AR*
+*12th of Lamashan, 4713 AR*
 
 ![He turned it over the way a man turns over a stone that got into his boot. Nobody else looked up.](images/the-rain-of-teeth.webp)
 
@@ -154,11 +156,13 @@ The battle was far from over. But the Redeemers had come to redeem.
 
 ## **The Fane Remade**
 
+<!-- date: February 6, 2026 -->
+
 <!-- inworld: 16 Lamashan 4713 to 17 Lamashan 4713 -->
 
 <!-- fathom: call=560152788 recording=120570185 -->
 
-*6 February 2026 session — 16th of Lamashan, 4713 AR*
+*16th of Lamashan, 4713 AR*
 
 ### **The Shrine Contested**
 
@@ -308,11 +312,13 @@ So they stayed. Nine of them, in a house of ***Sarenrae*** two hard days from **
 
 ## **The Homeward Trail**
 
+<!-- date: February 13, 2026 -->
+
 <!-- inworld: 17 Lamashan 4713 to 20 Lamashan 4713 -->
 
 <!-- fathom: call=568159356 recording=122467760 -->
 
-*13 February 2026 session — 17th through 20th of Lamashan, 4713 AR*
+*17th through 20th of Lamashan, 4713 AR*
 
 ### **The Night at the Fallen Fane**
 
@@ -510,11 +516,13 @@ For now.
 
 ## **The Stag King's Bride**
 
+<!-- date: February 28, 2026 -->
+
 <!-- inworld: 21 Lamashan 4713 to 27 Lamashan 4713 -->
 
 <!-- fathom: call=584676973 recording=126202607 -->
 
-*28 February 2026 session — 21st through 27th of Lamashan, 4713 AR*
+*21st through 27th of Lamashan, 4713 AR*
 
 ### **The Mark**
 
@@ -854,11 +862,13 @@ On the morning of the twenty-seventh of Lamashan, the gates of **Drezen** opened
 
 ## **A Gathering of Storms**
 
+<!-- date: March 14, 2026 -->
+
 <!-- inworld: 27 Lamashan 4713 to 29 Lamashan 4713 -->
 
 <!-- fathom: call=601424518 recording=129959673 -->
 
-*14 March 2026 session — 27th through 29th of Lamashan, 4713 AR*
+*27th through 29th of Lamashan, 4713 AR*
 
 ![Were the rules unclear?](images/the-clash-beneath-the-fortress-gate.webp)
 
@@ -1058,11 +1068,13 @@ The Worldwound watched them go. It was not finished with them yet.
 
 ## **The Founding of the Fane**
 
+<!-- date: March 28, 2026 -->
+
 <!-- inworld: 30 Lamashan 4713 to 6 Neth 4713 -->
 
 <!-- fathom: call=616792241 recording=133657313 -->
 
-*28 March 2026 session — 30th of Lamashan through 6th of Neth, 4713 AR*
+*30th of Lamashan through 6th of Neth, 4713 AR*
 
 ### **What the Hawk Saw**
 
@@ -1348,11 +1360,13 @@ They would reach it. Or die in the attempt. Welcome to adventuring.
 
 ## **Fury Repaid**
 
+<!-- date: April 10, 2026 -->
+
 <!-- inworld: 6 Neth 4713 to 9 Neth 4713 -->
 
 <!-- fathom: call=633810405 recording=137193872 -->
 
-*10 April 2026 session — 6th through 9th of Neth, 4713 AR*
+*6th through 9th of Neth, 4713 AR*
 
 ### **The Pull South**
 
@@ -1488,11 +1502,13 @@ Evening came. **Rabiah** raised three ***Secure Shelters*** — one for the hors
 
 ## **The Bird in the Hand**
 
+<!-- date: April 24, 2026 -->
+
 <!-- inworld: 10 Neth 4713 -->
 
 <!-- fathom: call=650843307 recording=141062294 -->
 
-*24 April 2026 session — 10th of Neth, 4713 AR*
+*10th of Neth, 4713 AR*
 
 ![The Cartographer at Work](images/the-rim-of-the-grey-sea.webp)
 
@@ -1644,11 +1660,13 @@ Nobody suggested camping. There was half a day of light left and two days of ope
 
 ## **Lies, Spies, and Prying Eyes**
 
+<!-- date: May 9, 2026 -->
+
 <!-- inworld: 11 Neth 4713 to 13 Neth 4713 -->
 
 <!-- fathom: call=667972898 recording=145028220 -->
 
-*9 May 2026 session — 11th through 13th of Neth, 4713 AR*
+*11th through 13th of Neth, 4713 AR*
 
 ![Varic vows then and there: No more escort missions. Ever.](images/no-more-escort-missions.webp)
 
@@ -1768,11 +1786,13 @@ And there, beneath the roof of the Dawnflower's hidden shrine — the wyrm somew
 
 ## **The Knight in Obsidian**
 
+<!-- date: May 22, 2026 -->
+
 <!-- inworld: 14 Neth 4713 to 15 Neth 4713 -->
 
 <!-- fathom: call=684541862 recording=149015333 -->
 
-*22 May 2026 session — 14th through 15th of Neth, 4713 AR*
+*14th through 15th of Neth, 4713 AR*
 
 ![In the Worldwound, this passes for decent weather.](images/decent-weather.webp)
 
@@ -1862,11 +1882,13 @@ There was one last spell **Varic** meant to spend before they slept. He gathered
 
 ## **The Swarm Descends**
 
+<!-- date: June 6, 2026 -->
+
 <!-- inworld: 16 Neth 4713 to 18 Neth 4713 -->
 
 <!-- fathom: call=701608077 recording=152868183 -->
 
-*6 June 2026 session — The Gray Road, 18th of Neth, 4713 AR*
+*The Gray Road, 18th of Neth, 4713 AR*
 
 ### **The Spoils of the Wyrm**
 
@@ -2022,11 +2044,13 @@ But the road still ran west, and **Arueshalae** still waited at **Takira's Redou
 
 ## **The Gates of the Redoubt**
 
+<!-- date: June 19, 2026 -->
+
 <!-- inworld: 18 Neth 4713 to 20 Neth 4713 -->
 
 <!-- fathom: call=718333386 recording=156802136 -->
 
-*19 June 2026 session — Takira's Redoubt, 20th of Neth, 4713 AR*
+*Takira's Redoubt, 20th of Neth, 4713 AR*
 
 ![Takira's Redoubt rises out of the frozen Marchlands — and Lupenor knows it, stone for stone, from a dream.](images/fort-in-the-dream.webp)
 
@@ -2110,11 +2134,13 @@ The way into **Takira's Redoubt** stands open. The company holds nothing yet but
 
 ## **The False Arueshalae**
 
+<!-- date: July 4, 2026 -->
+
 <!-- inworld: 20 Neth 4713 -->
 
 <!-- fathom: call=734953039 recording=160772142 -->
 
-*4 July 2026 session — Takira's Redoubt, 20th of Neth, 4713 AR (continued)*
+*Takira's Redoubt, 20th of Neth, 4713 AR (continued)*
 
 ![The succubus finishes the demons that threatened Chyrrik.](images/false-arueshalae.webp)
 
@@ -2182,11 +2208,13 @@ They had come to **Takira's Redoubt** to reach **Arueshalae** before her hunters
 
 ## **The Bell of Mercy**
 
+<!-- date: July 18, 2026 -->
+
 <!-- inworld: 20 Neth 4713 to 25 Neth 4713 -->
 
 <!-- fathom: call=752135749 recording=165040528 -->
 
-*18 July 2026 session — Takira's Redoubt to the Ivory Sanctum, 20th through 25th of Neth, 4713 AR*
+*Takira's Redoubt to the Ivory Sanctum, 20th through 25th of Neth, 4713 AR*
 
 ![Arueshalae — the penitent succubus.](images/arueshalae.webp)
 
@@ -2276,11 +2304,13 @@ That left the matter of **Lupenor**. **Varic** remembered the old cure — that 
 
 ## **The Jailer's Ring**
 
+<!-- date: July 31, 2026 -->
+
 <!-- inworld: 25 Neth 4713 to 26 Neth 4713 -->
 
 <!-- fathom: call=769093056 recording=169318901 -->
 
-*July 31, 2026 session — the Green Gates and the Ivory Sanctum, 25th of Neth, 4713 AR*
+*The Green Gates and the Ivory Sanctum, 25th of Neth, 4713 AR*
 
 ![The floors were clean a minute ago.](images/the-floors-were-clean.webp)
 
