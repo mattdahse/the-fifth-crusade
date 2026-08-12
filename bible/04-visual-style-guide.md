@@ -410,6 +410,18 @@ the surface`.
 *(Keep every blood word out of BOTH halves of the prompt — describe the straps as old, dark and much-used leather
 and say nothing more. Naming it as an exclusion is what counts it as content.)*
 
+The **SHRINE OF TORAG** in the warrens beneath **Kenabres**, cleansed and reconsecrated by the company
+([`a-safe-haven-restored`](../images/a-safe-haven-restored.webp), Book I): a small, low, windowless
+dwarven shrine of heavy squared warm grey-brown masonry, ancient and dusty, its stone flag floor swept
+clean in a rough circle where the company camps. The far wall carries a tall arched niche of **deep-cut
+interlocking geometric dwarven relief**, and at the centre of it, carved in flat relief, **THE HAMMER OF
+TORAG — a plain broad blacksmith's hammer, head and haft, and no other symbol.** Below it a low plain
+stone altar with a **shallow round stone basin of still water** (the holy water Varic fills his vials
+from). Light it with **two small clay oil lamps on the altar step and nothing else** — the gold rakes up
+the carved relief and everything past its reach falls to brown-black. **It is cleansed, sound and quietly
+safe, not a wreck** — the whole point of the place is that it is the first shelter the company has had.
+*Avoid:* `a ruined rubble-strewn room, a collapsed ceiling, a second light source, daylight`.
+
 Locations with an established look so far: **Rabiah's Secure Shelter** (above), the **Molten Scar** (above),
 the **Corruption Forge**
 ([`the-cage-over-the-forge`](../images/the-cage-over-the-forge.webp), and
