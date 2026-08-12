@@ -167,6 +167,13 @@
   #reader figure.fig figcaption{font-style:italic;color:var(--ink-soft);font-size:.86rem;
     margin:.5rem auto 0;max-width:44ch;line-height:1.45}
   .backbar{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-bottom:.6rem}
+  /* the sticky copy of the chapter nav. It collapses entirely when empty, so every other
+     view keeps the header height it had before. */
+  #stickynav:empty{display:none}
+  #stickynav .backbar{margin:.5rem 0 .1rem}
+  /* On a phone the header is already most of the screen, so the buttons come out and a
+     horizontal swipe moves between chapters instead; the nav below the chapter stays. */
+  @media (max-width:640px){ #stickynav{display:none} }
   .btn{cursor:pointer;font-size:.85rem;padding:.35rem .8rem;border:1px solid var(--rule);border-radius:20px;
     background:var(--card);color:var(--accent);user-select:none}
   .btn:hover{background:var(--bg2)}
@@ -365,6 +372,9 @@
       <span class="tab" data-view="map">Map</span>
       <span class="tab" data-view="secrets">Lore</span>
     </div>
+    <!-- Chapter nav rides inside the sticky header so it never scrolls out of reach.
+         Empty (and hidden) on every view except a reader. -->
+    <div id="stickynav"></div>
   </div>
 
   <div id="app"></div>
@@ -767,7 +777,8 @@ function viewSecretReader(id){
   document.body.classList.remove('wide');
   var s = secrets.filter(function(x){return x.id===id;})[0]; if(!s){ viewSecrets(); return; }
   var nav = '<div class="backbar"><span class="btn" onclick="history.back()">← Back</span><span></span></div>';
-  app.innerHTML = nav + '<div id="reader"><div class="chapkicker">Lore</div>'+ mdToHtml(s.md) + '</div>' + nav;
+  setStickyNav(nav);   /* Back stays reachable here too; a lore document can run long */
+  app.innerHTML = '<div id="reader"><div class="chapkicker">Lore</div>'+ mdToHtml(s.md) + '</div>' + nav;
   bindLightbox(); window.scrollTo(0,0);
 }
 /* ---------- Timeline ----------
@@ -1240,7 +1251,12 @@ function viewReader(id){
     + '<span>'+ (prev?('<span class="btn" onclick="location.hash=\'#/read/'+prev.id+'\'">‹ prev</span> '):'')
     + (next?('<span class="btn" onclick="location.hash=\'#/read/'+next.id+'\'">next ›</span>'):'') +'</span></div>';
   var kick = '<div class="chapkicker">Book '+esc(c.book)+' · '+esc(c.label)+(c.date?(' · '+esc(c.date)):'')+'</div>';
-  app.innerHTML = nav + '<div id="reader">'+ kick + mdToHtml(c.md) + '</div>' + nav;
+  /* The nav goes in the locked header (desktop) and once more at the foot of the chapter,
+     where you actually finish reading. The old copy at the top of the scrolling column is
+     gone — the sticky one replaces it. */
+  setStickyNav(nav);
+  SWIPE = {prev: prev ? prev.id : null, next: next ? next.id : null};
+  app.innerHTML = '<div id="reader">'+ kick + mdToHtml(c.md) + '</div>' + nav;
   bindLightbox(); window.scrollTo(0,0);
 }
 
@@ -1277,6 +1293,36 @@ function search(query){
 }
 
 /* ---------- routing & events ---------- */
+/* ---------- chapter navigation ----------
+   The nav lives in the sticky header while a chapter is open, and is emptied on every other
+   view. SWIPE carries the neighbouring chapter ids for the touch gesture that stands in for
+   those buttons on a phone. */
+var SWIPE = {prev:null, next:null};
+function setStickyNav(html){
+  var el = document.getElementById('stickynav');
+  if(el) el.innerHTML = html || '';
+  if(!html) SWIPE = {prev:null, next:null};
+}
+
+/* A horizontal drag moves between chapters on touch devices. Deliberately conservative:
+   it must be mostly sideways, far enough to be intentional, and not a pinch — otherwise a
+   diagonal scroll would fling the reader into the next chapter. */
+(function(){
+  var x0=0, y0=0, tracking=false;
+  document.addEventListener('touchstart', function(e){
+    if(e.touches.length !== 1 || (!SWIPE.prev && !SWIPE.next)) { tracking=false; return; }
+    tracking = true; x0 = e.touches[0].clientX; y0 = e.touches[0].clientY;
+  }, {passive:true});
+  document.addEventListener('touchend', function(e){
+    if(!tracking) return;
+    tracking = false;
+    var t = e.changedTouches[0], dx = t.clientX - x0, dy = t.clientY - y0;
+    if(Math.abs(dx) < 70 || Math.abs(dx) < Math.abs(dy) * 2) return;   /* a scroll, not a swipe */
+    var target = dx < 0 ? SWIPE.next : SWIPE.prev;                      /* drag left = onward */
+    if(target) location.hash = '#/read/' + target;
+  }, {passive:true});
+})();
+
 function showActiveTab(){
   var t = document.querySelector('.tab.active');
   var v = t ? t.dataset.view : 'contents';
@@ -1288,6 +1334,7 @@ function showActiveTab(){
 }
 function route(){
   var h = location.hash;
+  setStickyNav('');   /* a reader view puts its own nav back; everything else stays clear */
   if(h.indexOf('#/who/')===0){ viewCast(h.slice(6)); return; }
   if(h.indexOf('#/secret/')===0){ viewSecretReader(h.slice(9)); return; }
   if(h.indexOf('#/read/')===0){ viewReader(h.slice(7)); return; }
