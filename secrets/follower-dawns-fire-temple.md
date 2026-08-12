@@ -110,6 +110,8 @@ I helped her sometimes, during breaks from stonework. She taught me about soil p
 
 Three days later, the first green shoots appeared. Word spread through the camps like wildfire. People came just to stare at those tiny leaves — the first natural growth in Drezen since before their grandparents were born.
 
+![Masons came with their mallets still in their hands. Nobody cheered. **Asha** had staked the plot out and run a line of twine round it before anything was in the ground, as though she had always known something would come up inside it.](images/the-first-green-in-seventy-years.webp)
+
 ### A Brief Exchange
 
 I had been working on installing windows in the Abadar alcove when I badly cut my hand on a shard of broken glass. Blood flowed freely, and the wound was deep enough to see bone. Brother Tomás was away, tending to sick refugees, so I wrapped it in cloth and continued working, not wanting to seem weak.
