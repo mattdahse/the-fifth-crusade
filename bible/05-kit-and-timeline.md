@@ -44,14 +44,20 @@ inline (Harlock's *Radiance*, from its recovery onward; Lupenor's bow, her const
 
 ### Harlock Greyforge
 ![Harlock's Era I kit — the dimmed blade, the plain breastplate.](../images/the-dimmed-blade.webp)
-- **Armor:** a plain, battered **steel breastplate bearing Iomedae's holy symbol — a
-  vertical sword, point down, in front of a blazing sun** — over a padded gambeson.
+- **Armor:** a plain, battered, **SALVAGED steel breastplate** over a padded gambeson.
   **NO pauldrons, gauntlets, greaves, or filigree. NO golden plate** — that is his
-  much-later look. The sword-and-sun is on his chest in **every** era; only the armor
-  under it changes.
-- **Shield:** a basic **scavenged wooden shield**, likewise blazoned with the
-  sword-and-sun (unnamed; the device is Iomedae's, not a relic). **He carries this only
-  through Era I — it is replaced in the Book I Epilogue; see Era II.**
+  much-later look.
+- **His device in Era I is a BARE STARBURST — a plain stylised sun with NO sword in front
+  of it.** *(Matt's ruling, Aug 2026, settling a contradiction this file used to carry.)*
+  **The breastplate is scavenged, so it wears whatever device was already on it** — he is
+  not yet a knight of the order and has not yet been given its arms. From the **Book I
+  Epilogue** onward the **sword-and-sun** is his constant on every breastplate and every
+  shield; before it, this bare sun is correct and is **not** a drift to be fixed.
+  *(This supersedes the old line here that "the sword-and-sun is on his chest in every era",
+  which contradicted both the shipped Book I art and the* Reconcile *section below.)*
+- **Shield:** a basic **scavenged wooden shield**, likewise bearing the bare starburst
+  (unnamed; not a relic). **He carries this only through Era I — it is replaced in the
+  Book I Epilogue; see Era II.**
 - **Weapon:** **fluid before the middle of Ch. IV** — in the earliest undercity scenes he
   fights with whatever he has (a glaive, a hammer, a plain sword); take it from the scene.
 - **Radiance:** he bears it **from "Radiance Reclaimed" (Book I, Ch. IV) onward** — a **dull,
@@ -331,5 +337,13 @@ Book I Epilogue. Every Harlock image made before it — the chest device in
 and the rest of Book I — shows a **bare starburst with no sword**, or no legible device at all.
 
 **Decided (Matt, July 2026): leave the prior art in place.** The bare starburst stands in the
-existing Book I images; the sword-and-sun holds from the Book I Epilogue forward, and **all new
-art carries it** without exception. Do not reopen this.
+existing Book I images; the sword-and-sun holds from the Book I Epilogue forward. Do not reopen this.
+
+**Upgraded from accepted drift to canon (Matt, Aug 2026).** This is no longer merely tolerated: the
+Era I breastplate is **salvaged**, so it carries whatever device was already on it, and Harlock has
+not yet been given the order's arms. **New Era I art therefore carries the BARE STARBURST too** —
+see the Era I block above. The re-rolled
+[`the-kindling-of-radiance`](../images/the-kindling-of-radiance.webp) is the exemplar, and it shows
+both devices in one frame: his bare sun, and **Irabeth's** full sword-and-sun opposite it.
+*(The older rule that "all new art carries the sword-and-sun without exception" holds from the Book I
+Epilogue forward, which is where it was always aimed — it was never meant to reach back into Era I.)*
