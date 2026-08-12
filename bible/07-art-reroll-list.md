@@ -34,6 +34,42 @@ of the climb, looking up at a sky he expected to be daylight — so keep them.
 priest, no gold."* The re-roll must keep that legible: chain shirt or padded leather over travel
 robes, deep-red scarf, plain iron sunburst, **no gold filigree, no mantle**.
 
+### `the-inheritors-kiss.webp` — **wrong style, wrong holy symbols, and Radiance should not be in it**
+*Book I, the mythic dream — Iomedae moves through their sleep to thank them and set a kiss on each brow.*
+
+**⚠️ This file is used TWICE, with different captions**, and a re-roll has to satisfy both:
+`source/book-1-the-worldwound-incursion.md` (*"Deep in a dream, Iomedae sets her kiss upon Harlock's
+brow"*) and [`../secrets/dream-harlock.md`](../secrets/dream-harlock.md).
+
+**Style:** soft, airbrushed and washed in an all-over warm gold — a stock devotional illustration
+rather than the house look. It wants the oil-painting medium block, a muted earthy frame, and the
+divine glow as the *single* placed accent instead of light coming from everywhere at once.
+
+**Holy symbols — every device in the frame is wrong.** Iomedae's is **a vertical sword, point down,
+set in front of a blazing sun: hilt and crossguard at the TOP, blade hanging below, tip at the
+BOTTOM**, in engraved raised gold, one pommel, one straight crossguard, not glowing. The render has
+**bare starbursts** on Harlock's breastplate and on Iomedae's chest and pauldron, and the sword's
+pommel disc reads as a ship's wheel or compass rose. Spell the geometry out in the body, put
+`a bare starburst with no sword, an inverted sword, a crossguard at the bottom, a ship's wheel, a
+compass rose` in `Avoid:`, and magnify the devices before publishing — an inverted sword is easy to
+miss at page size.
+
+**Radiance comes out of the picture entirely** (Matt's direction). No sword planted between them, no
+blade in the frame at all — the beat is the kiss and nothing else. **Consequence to handle in the
+same pass:** the `dream-harlock.md` caption currently reads *"the Inheritor names the two fires he
+carries — one stolen, one earned — and **Radiance** wakes in the air between them"*, which describes
+the sword that is being removed. **Rewrite that caption when the new plate lands.**
+
+**Iomedae is a deity, and the deity rules apply** — see *Known drift* in `CANON.md`. Her plate,
+mantle and person are **flawless: no dent, smudge, soot or wear**, however ruined the world around
+her, and she carries a subtle divine glow that is the image's one luminous accent. The current render
+grimes her up to match Harlock, which is exactly backwards — the contrast against his battered Era I
+kit is the point. Only her face may carry scars.
+
+**Keep:** Harlock is good here — green skin reading clearly, subtly pointed ears, kneeling in the
+battered Era I breastplate over a padded gambeson. Keep the composition too: him on one knee, her
+bent over him, the summit above the cloud-sea.
+
 ### `the-blessing-of-the-dawn.webp` — **wrong style, and the face is not Varic**
 *Book I, the gates of Defender's Heart — Varic kneels over a man who would not put down his wife, and
 calls the light of Sarenrae down to warm them both.*
