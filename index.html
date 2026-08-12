@@ -157,6 +157,12 @@
     #reader .ballad .stanza{max-width:none}
     #reader .ballad .stanza:not(.chorus)::before{display:none}
   }
+  /* A bolded name that has a Personalities entry. Marked quietly on purpose: the name keeps
+     its own weight and ink colour, and only a faint dotted rule says it can be followed —
+     a chapter should still read as prose, not as a web page. */
+  #reader a.who{color:inherit;border-bottom:1px dotted var(--accent2);text-decoration:none}
+  #reader a.who:hover{border-bottom-style:solid;color:var(--link)}
+  #reader .letter a.who,#reader .ballad a.who{color:inherit;border-bottom-color:rgba(110,78,34,.5)}
   #reader .ornament{text-align:center;color:var(--accent2);letter-spacing:.4em;margin:1rem 0}
   #reader .rdsub{text-align:center;font-style:italic;color:var(--ink-soft);margin:.1rem 0 1rem}
   #reader figure.fig{margin:1.6rem 0;text-align:center}
@@ -595,15 +601,52 @@ CAST.forEach(function(g){
   });
 });
 
+/* ---------- names in the prose link to their entry ----------
+   The chronicle already bolds every proper noun, and about half of those spans name someone
+   with a Personalities entry — so the markup for this was written years ago and just wasn't
+   wired up. Only the FIRST mention in a document is linked: a chapter that linked every
+   "**Harlock**" would be a page of underlines rather than a page of prose. */
+var WHOIDX = (function(){
+  var idx = {}, firsts = {};
+  CAST.forEach(function(g){ g.people.forEach(function(p){
+    idx[p[0].toLowerCase()] = pslug(p[0]);
+    /* The prose calls people by whichever part of the name is natural — "Brannic", not "Sir
+       Brannic Vayne"; "Vorlesh" as often as "Areelu". So index both ends of the name, minus
+       any honorific. */
+    var parts = nameKey(p[0]).split(/[\s,]+/).filter(function(x){ return x.length > 2; });
+    [parts[0], parts[parts.length-1]].forEach(function(t){
+      if(!t) return;
+      t = t.toLowerCase();
+      firsts[t] = (firsts[t] === undefined || firsts[t] === pslug(p[0])) ? pslug(p[0]) : null;
+    });
+  }); });
+  /* An ambiguous given name is left unlinked rather than guessed at — "Elara" belongs to both
+     Elara Dawnstrider and Sister Elara, and picking one would send readers to the wrong woman. */
+  Object.keys(firsts).forEach(function(k){ if(firsts[k] && !idx[k]) idx[k] = firsts[k]; });
+  return idx;
+})();
+var WHOSEEN = null;    /* non-null only while a reader document renders; gates linking off elsewhere */
+function linkNames(html){
+  if(!WHOSEEN) return html;
+  return html.replace(/<strong>([^<>]{2,60})<\/strong>/g, function(m, txt){
+    var key = txt.toLowerCase().replace(/[’']s$/,'').replace(/[:,.;!?]+$/,'').trim();
+    var slug = WHOIDX[key];
+    if(!slug || WHOSEEN[slug]) return m;
+    WHOSEEN[slug] = 1;
+    return '<a class="who" href="#/who/'+slug+'" title="Who is this?">'+m+'</a>';
+  });
+}
+
 function esc(s){ return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 function inline(s){
   s = esc(s);
   s = s.replace(/\*\*\*(.+?)\*\*\*/g,'<strong><em>$1</em></strong>');
   s = s.replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');
   s = s.replace(/\*(.+?)\*/g,'<em>$1</em>');
-  return s;
+  return linkNames(s);
 }
 function mdToHtml(md){
+  WHOSEEN = {};   /* one document, one link per person; see linkNames above */
   var blocks = md.split(/\n{2,}/), out=[], inBallad=false;
   for(var i=0;i<blocks.length;i++){
     var b = blocks[i].replace(/\s+$/,''); if(!b.trim()) continue;
@@ -640,7 +683,9 @@ function mdToHtml(md){
     else if(/^\*[^*].*\*$/.test(b) && b.indexOf('\n')<0){ out.push('<div class="rdsub">'+inline(b)+'</div>'); }
     else { out.push('<p>'+inline(b.replace(/\n/g,' '))+'</p>'); }
   }
-  return out.join('\n');
+  var html = out.join('\n');
+  WHOSEEN = null;   /* leave linking off for the cast list, snippets and contents subtitles */
+  return html;
 }
 /* recording links removed — each chapter now lists its real-world play date (c.date) */
 
