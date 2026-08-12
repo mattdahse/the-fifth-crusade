@@ -121,6 +121,42 @@
       box-shadow:0 1px 0 rgba(0,0,0,.4),0 12px 32px rgba(0,0,0,.55),inset 0 0 52px rgba(110,72,28,.34)}
   }
   @media (max-width:520px){ #reader .letter{padding:1.4rem 1.15rem 6.5rem;line-height:1.8} }
+  /* a song, not a document: a printed broadside sheet hawked round the taverns, so it is
+     cheap PRESSED PAPER rather than the letters' vellum — cooler, flatter, rule-and-type
+     instead of a hand. Verses centred and numbered; the chorus is the room's part, so it
+     is set apart in its own banded panel. */
+  #reader .ballad{position:relative;margin:1.8rem 0;padding:2.4rem 1.5rem 2rem;
+    counter-reset:vs;text-align:center;
+    background:linear-gradient(162deg,#f8f2df,#f3ead2 58%,#eadfbd);
+    color:#2a2114;border-top:4px double #b09668;border-bottom:4px double #b09668;
+    box-shadow:0 8px 24px rgba(0,0,0,.16),inset 0 0 44px rgba(150,118,58,.13)}
+  #reader .ballad::before{content:"✦ ❦ ✦";display:block;color:#a07a3a;font-size:.72rem;
+    letter-spacing:.5em;margin:-1rem 0 1.2rem}
+  #reader .ballad .rdsub{color:#6f5a34;margin:0 0 1.4rem}
+  #reader .ballad .stanza{position:relative;max-width:36ch;margin:1.3rem auto;line-height:1.72}
+  #reader .ballad .stanza:not(.chorus){counter-increment:vs}
+  #reader .ballad .stanza:not(.chorus)::before{content:counter(vs);position:absolute;
+    left:-2.4rem;top:.15rem;font-size:.68rem;letter-spacing:.08em;color:#a98f5e}
+  /* the singer's first breath — the first stanza, whether or not a tune line precedes it.
+     There is no "first of class" selector, so both openings are named. */
+  #reader .ballad > .stanza:first-child::first-letter,
+  #reader .ballad > .rdsub + .stanza::first-letter{font-size:2.4em;line-height:.9;
+    color:#7a1e1e;padding-right:.04em;vertical-align:-.14em}
+  #reader .ballad .stanza.chorus{font-style:italic;color:#6b3a18;max-width:44ch;
+    padding:.85rem 1rem;background:rgba(160,122,52,.12);
+    border-top:1px solid rgba(140,105,50,.38);border-bottom:1px solid rgba(140,105,50,.38)}
+  #reader .ballad .stanza.chorus::after{content:"✦";display:block;color:#a07a3a;
+    font-size:.66rem;margin-top:.5rem}
+  #reader .ballad strong{color:#4a1d14;font-weight:600}
+  @media (prefers-color-scheme: dark){
+    #reader .ballad{filter:brightness(.9) saturate(.95);
+      box-shadow:0 8px 26px rgba(0,0,0,.5),inset 0 0 44px rgba(140,108,50,.16)}
+  }
+  @media (max-width:520px){
+    #reader .ballad{padding:2rem 1rem 1.6rem}
+    #reader .ballad .stanza{max-width:none}
+    #reader .ballad .stanza:not(.chorus)::before{display:none}
+  }
   #reader .ornament{text-align:center;color:var(--accent2);letter-spacing:.4em;margin:1rem 0}
   #reader .rdsub{text-align:center;font-style:italic;color:var(--ink-soft);margin:.1rem 0 1rem}
   #reader figure.fig{margin:1.6rem 0;text-align:center}
@@ -134,7 +170,11 @@
   .btn{cursor:pointer;font-size:.85rem;padding:.35rem .8rem;border:1px solid var(--rule);border-radius:20px;
     background:var(--card);color:var(--accent);user-select:none}
   .btn:hover{background:var(--bg2)}
-  .person{background:var(--card);border:1px solid var(--rule);border-left:3px solid var(--accent);border-radius:5px;padding:.6rem .85rem;margin:.5rem 0}
+  .person{background:var(--card);border:1px solid var(--rule);border-left:3px solid var(--accent);border-radius:5px;padding:.6rem .85rem;margin:.5rem 0;
+    transition:background .35s ease,box-shadow .35s ease}
+  /* landed here from a search result — hold the eye for a moment, then let go */
+  .person.found{background:var(--mark);color:var(--markink);box-shadow:0 0 0 2px var(--accent2)}
+  .person.found .rl,.person.found .nm{color:var(--markink)}
   .person .nm{font-weight:700;color:var(--accent)}
   .person .rl{font-size:.88rem;color:var(--ink-soft)}
   .person .dead{color:var(--accent);font-size:.92em}
@@ -317,13 +357,13 @@
   </header>
 
   <div class="searchbar">
-    <input id="q" type="search" placeholder="Search chapters and secrets — a name, a place, a battle…" autocomplete="off" spellcheck="false">
+    <input id="q" type="search" placeholder="Search chapters, lore and personalities — a name, a place, a battle…" autocomplete="off" spellcheck="false">
     <div class="tabs" id="tabs">
       <span class="tab active" data-view="contents">Chronicle</span>
       <span class="tab" data-view="timeline">Timeline</span>
-      <span class="tab" data-view="cast">Cast</span>
+      <span class="tab" data-view="cast">Personalities</span>
       <span class="tab" data-view="map">Map</span>
-      <span class="tab" data-view="secrets">Secrets</span>
+      <span class="tab" data-view="secrets">Lore</span>
     </div>
   </div>
 
@@ -502,6 +542,18 @@ var JOURNAL = window.JOURNAL || [];
 chapters.forEach(function(c){ c._lc = (c.text||'').toLowerCase(); });
 secrets.forEach(function(s){ s._lc = (s.text||'').toLowerCase(); });
 
+/* The Personalities entries are searchable too — a lot of what the archive knows about a
+   minor character lives only in their entry, and it was invisible to the search box.
+   Flattened once here, with a slug so a result can link to the person and not just the tab. */
+function pslug(s){ return s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''); }
+var PEOPLE = [];
+CAST.forEach(function(g){
+  g.people.forEach(function(p){
+    PEOPLE.push({ id:pslug(p[0]), title:p[0], group:g.c, dead:p[2]==='dead',
+                  text:p[0]+' — '+p[1], _lc:(p[0]+' '+p[1]).toLowerCase() });
+  });
+});
+
 function esc(s){ return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 function inline(s){
   s = esc(s);
@@ -511,7 +563,7 @@ function inline(s){
   return s;
 }
 function mdToHtml(md){
-  var blocks = md.split(/\n{2,}/), out=[];
+  var blocks = md.split(/\n{2,}/), out=[], inBallad=false;
   for(var i=0;i<blocks.length;i++){
     var b = blocks[i].replace(/\s+$/,''); if(!b.trim()) continue;
     var first = b.split('\n')[0].trim();
@@ -520,11 +572,23 @@ function mdToHtml(md){
     var lo = b.trim().match(/^<!--\s*letter(?:\s*:\s*([a-z][\w-]*))?\s*-->$/);
     if(lo){ out.push('<div class="letter'+(lo[1]?' '+lo[1]:'')+'">'); continue; }
     if(/^<!--\s*\/letter\s*-->$/.test(b.trim())){ out.push('</div>'); continue; }
+    /* a song, set as a broadside sheet: a blank line ends a stanza, and the line breaks
+       inside one are the song's own, so they are kept rather than reflowed as prose.
+       A stanza written as a blockquote is the chorus. */
+    if(/^<!--\s*ballad\s*-->$/.test(b.trim())){ inBallad = true; out.push('<div class="ballad">'); continue; }
+    if(/^<!--\s*\/ballad\s*-->$/.test(b.trim())){ inBallad = false; out.push('</div>'); continue; }
     var im = b.trim().match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
     if(im){
       var cap=im[1].trim(), src=im[2].trim();
       out.push('<figure class="fig"><img src="'+esc(src)+'" alt="'+esc(cap)+'" loading="lazy">'
         + (cap?('<figcaption>'+inline(cap)+'</figcaption>'):'') + '</figure>');
+      continue;
+    }
+    if(inBallad && !/^#{1,3}\s/.test(first) && !(/^\*[^*].*\*$/.test(b) && b.indexOf('\n')<0)){
+      var isChorus = /^>\s/.test(first);
+      var sung = b.replace(/^>\s?/gm,'').split('\n')
+        .map(function(l){ return inline(l.trim()); }).join('<br>');
+      out.push('<div class="stanza'+(isChorus?' chorus':'')+'">'+sung+'</div>');
       continue;
     }
     if(/^###\s/.test(first)){ out.push('<h3>'+inline(b.replace(/^###\s*/,''))+'</h3>'); }
@@ -586,11 +650,11 @@ function viewContents(keepScroll){
         + '</span><span class="d">'+esc(c.date||'')+'</span></div>';
     });
   });
-  app.innerHTML = '<div class="hint">Pick a book to open its chapters, or type above to search the full text of all '+chapters.length+' chapters and '+secrets.length+' secrets.</div>'+html;
+  app.innerHTML = '<div class="hint">Pick a book to open its chapters, or type above to search the full text of all '+chapters.length+' chapters, '+secrets.length+' pieces of lore and '+PEOPLE.length+' personalities.</div>'+html;
   if(!keepScroll) window.scrollTo(0,0);
 }
 
-function viewCast(){
+function viewCast(who){
   setTab('cast');
   var html='<div class="hint">The chronicle uses in-game names throughout. Tap a portrait to see it full-size.</div>';
   CAST.forEach(function(g){
@@ -599,11 +663,17 @@ function viewCast(){
       var dead = p[2]==='dead' ? ' <span class="dead" title="Slain">☠</span>' : '';
       var src = PORTRAITS[p[0]], thumb='';
       if(src) thumb = '<img class="pface" src="'+esc(src)+'" alt="'+esc(p[0])+'" loading="lazy">';
-      html += '<div class="person'+(src?' haspic':'')+'">'+thumb
+      html += '<div class="person'+(src?' haspic':'')+'" id="who-'+esc(pslug(p[0]))+'">'+thumb
         + '<div class="pbody"><span class="nm">'+esc(p[0])+dead+'</span> — <span class="rl">'+inline(p[1])+'</span></div></div>';
     });
   });
-  app.innerHTML = html; bindLightbox(); window.scrollTo(0,0);
+  app.innerHTML = html; bindLightbox();
+  /* Arriving from a search result: put that person on screen and mark them briefly, so the
+     eye lands on the row rather than on a wall of entries. */
+  var el = who && document.getElementById('who-'+who);
+  if(el){ el.scrollIntoView({block:'center'}); el.classList.add('found');
+          setTimeout(function(){ el.classList.remove('found'); }, 2600); }
+  else window.scrollTo(0,0);
 }
 
 /* ---------- lightbox ----------
@@ -653,7 +723,7 @@ document.addEventListener('keydown', function(e){
 
 function viewSecrets(){
   setTab('secrets');
-  if(!secrets.length){ app.innerHTML = '<div class="hint">No secrets have been recorded yet.</div>'; window.scrollTo(0,0); return; }
+  if(!secrets.length){ app.innerHTML = '<div class="hint">Nothing has been recorded here yet.</div>'; window.scrollTo(0,0); return; }
   var html = '<div class="hint">The record beside the chronicle — knowledge the company wrested from the enemy, and the accounts of those who flocked to their banners as Drezen rose again.</div>';
   // Grouped under the headings the build assigns from each file's name. Anything the build
   // could not place still appears, under its own heading at the end, rather than vanishing.
@@ -678,7 +748,7 @@ function viewSecretReader(id){
   document.body.classList.remove('wide');
   var s = secrets.filter(function(x){return x.id===id;})[0]; if(!s){ viewSecrets(); return; }
   var nav = '<div class="backbar"><span class="btn" onclick="history.back()">← Back</span><span></span></div>';
-  app.innerHTML = nav + '<div id="reader"><div class="chapkicker">Secrets</div>'+ mdToHtml(s.md) + '</div>' + nav;
+  app.innerHTML = nav + '<div id="reader"><div class="chapkicker">Lore</div>'+ mdToHtml(s.md) + '</div>' + nav;
   bindLightbox(); window.scrollTo(0,0);
 }
 /* ---------- Timeline ----------
@@ -1159,7 +1229,9 @@ function search(query){
   document.body.classList.remove('wide');
   var terms = query.toLowerCase().split(/\s+/).filter(function(t){return t.length>1;});
   if(!terms.length){ showActiveTab(); return; }
-  var corpus = chapters.map(function(c){return {kind:'chapter',o:c};}).concat(secrets.map(function(s){return {kind:'secret',o:s};}));
+  var corpus = chapters.map(function(c){return {kind:'chapter',o:c};})
+    .concat(secrets.map(function(s){return {kind:'secret',o:s};}))
+    .concat(PEOPLE.map(function(p){return {kind:'person',o:p};}));
   var res=[];
   corpus.forEach(function(e){
     var o=e.o, score=0, ok=true;
@@ -1171,13 +1243,13 @@ function search(query){
   var html = '<div class="count">'+res.length+' result'+(res.length!==1?'s':'')+' match “'+esc(query)+'”</div>';
   if(!res.length){ html += '<div class="hint">Nothing contains all of those words. Try fewer or different terms.</div>'; }
   res.forEach(function(r){
-    var e=r.e, o=e.o, isSec=e.kind==='secret';
+    var e=r.e, o=e.o, isSec=e.kind==='secret', isPer=e.kind==='person';
     var pos=o._lc.search(rx); if(pos<0)pos=0;
     var start=Math.max(0,pos-90), snip=o.text.slice(start, start+240);
-    if(start>0) snip='…'+snip; snip=snip+'…';
+    if(start>0) snip='…'+snip; if(start+240 < o.text.length) snip=snip+'…';
     snip = esc(snip).replace(rx,'<mark>$1</mark>');
-    var href = (isSec ? '#/secret/' : '#/read/') + o.id;
-    var tag = isSec ? 'Secret' : ('Book '+esc(o.book)+' · '+esc(o.label));
+    var href = (isPer ? '#/who/' : isSec ? '#/secret/' : '#/read/') + o.id;
+    var tag = isPer ? esc(o.group) : isSec ? 'Lore' : ('Book '+esc(o.book)+' · '+esc(o.label));
     html += '<div class="entry"><span class="ttl"><a class="t" href="'+href+'">'+esc(o.title)+'</a>'
       + '<div class="snip">'+snip+'</div></span>'
       + '<span class="d">'+tag+'</span></div>';
@@ -1197,6 +1269,7 @@ function showActiveTab(){
 }
 function route(){
   var h = location.hash;
+  if(h.indexOf('#/who/')===0){ viewCast(h.slice(6)); return; }
   if(h.indexOf('#/secret/')===0){ viewSecretReader(h.slice(9)); return; }
   if(h.indexOf('#/read/')===0){ viewReader(h.slice(7)); return; }
   if(h.indexOf('#/map/')===0){ var s = h.slice(6).split('/'); viewMap(s[0], s[1]); return; }

@@ -2,138 +2,95 @@
 
 *A ballad sung across Mendev of the four who broke the Gray Garrison.*
 
-Gather, ye souls who thirst for tales of might!
-
-Of heroes four who turned the endless night
-
-Into a dawn when none thought light would break,
-
-And made the lords of Abyss themselves quake!
-
-When Kenabres fell and demons filled our skies,
-
-When great Terendelev before our eyes
-
-Was struck by Khorramzadeh's wicked flame—
-
-A debt of blood our champions would claim!
-
-At Defender's Heart, when hope had all but died,
-
-Commander Tirabade stood forth and cried,
-
-"Who dares to strike our foes at their dark heart?
-
-Who'll breach the Gray Garrison, tear it apart?"
-
-From common folk stepped forth four chosen souls,
-
-Whose names shall now be carved on glory's scrolls:
-
-Bold Harlock Greyforge with his ancient blade,
-
-That glowed as if by gods themselves 'twas made!
-
-Fair Lupenor Celest, whose arrows flew
-
-As if by Erastil's own hand they drew!
-
-A hundred demons fell beneath her rain
-
-Of shafts that pierced through armor, bone, and brain!
-
-Young Rabiah, small but fierce as wildfire bright,
-
-Whose arcane might turned day to darkest night!
-
-They say she called down lightning with a word
-
-And split the very earth with spells unheard!
-
-And Varic Sarian, blessed by dawn's first light,
-
-Whose prayers kept death at bay throughout the fight!
-
-A dozen fatal wounds he sealed with grace,
-
-While smiting demons back to their foul place!
-
-Through ten score cultists, these brave heroes cut,
-
-Through demon hordes that lesser folk would glut.
-
-A babau legion fell beneath their wrath,
-
-As bodies paved their unstoppable path!
-
-Deep in the Garrison's most sacred hall,
-
-Where darkness gathered for crusaders' fall,
-
-Stood Khorramzadeh's champion wreathed in flame,
-
-A balor lord too terrible to name!
-
-"For Terendelev!" mighty Harlock roared,
-
-As Radiance cleaved the fiend with righteous sword!
-
-While Lupenor's arrows struck like heaven's stars,
-
-And Rabiah's magic tore reality's bars!
-
-The wardstone stood, a prize both sides would claim,
-
-The demons sought to twist its holy flame.
-
-But Varic's blessing shielded Rabiah's hand,
-
-As she approached the stone with purpose grand!
-
-She struck it once! The stone began to crack!
-
-She struck it twice! The power surged straight back!
-
-She struck it thrice! The wardstone burst apart,
-
-And mythic power flooded each hero's heart!
-
-A tidal wave of light swept through our land,
-
-First outward, then returning on command.
-
-It burned the demons back to whence they came,
-
-And wrote our champions into deathless fame!
-
-The Storm King's general howled in dire defeat,
-
-As vengeance for Terendelev grew complete.
-
-The spawn of Abyss fled from Kenabres' wall,
-
-As Worldwound's darkness knew its first great fall!
-
-When they returned, these four of destiny,
-
-Their bodies shimmered with divinity!
-
-No longer mortal flesh and mortal bone,
-
-But heroes into legend fully grown!
-
-So sing of Harlock Greyforge, paladin true!
-
-Of Lupenor Celest, whose aim strikes through!
-
-Of young Rabiah, magic's chosen child!
-
-Of Varic Sarian, by no dark defiled!
-
-The Champions of Kenabres, saviors four,
-
-Who pushed the Worldwound back and closed its door!
-
-While they draw breath, all demons well should fear,
-
-For mythic vengeance finally draws near!
+<!-- ballad -->
+
+*To be sung in common measure, with the chorus taken up by the room.*
+
+Come fill the cup and bar the door
+and set the lamp alight;
+I'll sing the four of Kenabres
+and how they broke the night.
+
+The Storm King came on wings of coal
+and fire enough to blind;
+and silver Terendelev fell
+and left us all behind.
+
+We held Defender's Heart, and there
+our hope was all but gone;
+then Irabeth Tirabade called —
+and four came walking on.
+
+> Then sing the four! Then sing the four
+> who broke the Garrison door!
+> The sword, the bow, the wildfire word,
+> and the dawn that went before!
+
+Bold Harlock Greyforge took the stair,
+his blade a burning white;
+he never turned to look behind
+to see who'd joined the fight.
+
+Fair Lupenor Celest drew back
+and loosed, and loosed once more;
+they say her shafts came down like rain
+on forty at the door.
+
+Young Rabiah of sixteen years,
+her hair a struck-match red,
+she spoke a word she was not taught
+and stone did what she said.
+
+And Varic came with dawn in hand
+and would not let them fall;
+he gave the dying back their feet
+and never asked at all.
+
+> Then sing the four! Then sing the four
+> who broke the Garrison door!
+> The sword, the bow, the wildfire word,
+> and the dawn that went before!
+
+Through cultist ranks and babau
+they climbed from floor to floor,
+and every door that barred their way
+was afterward no door.
+
+And in the highest chamber stood
+the wardstone, cracked and grey;
+the Abyss had come to turn it,
+and there was but one way.
+
+She struck it once — the chamber rang.
+She struck it twice — it groaned.
+She struck it thrice — the wardstone broke
+and gave up all it owned.
+
+The light rolled out through Kenabres
+and back the way it came;
+it drove the Abyss from our streets,
+and the four were not the same.
+
+> Then sing the four! Then sing the four
+> who broke the Garrison door!
+> The sword, the bow, the wildfire word,
+> and the dawn that went before!
+
+Sing Harlock Greyforge, paladin;
+sing Lupenor Celest;
+sing Rabiah, who broke the stone;
+sing Varic Sarian, blessed.
+
+Now Kenabres binds her wall,
+and counts her dead by name;
+but the four have gone to Drezen —
+and the song has gone the same.
+
+> Then sing the four! Then sing the four
+> who broke the Garrison door!
+> The sword, the bow, the wildfire word,
+> and the dawn that went before!
+
+<!-- /ballad -->
+
+*The verse about the forty at the door is disputed by the archer herself, who has been heard to put the number at nine and to note that the door was not a door by then. The singers have declined to amend it.*
