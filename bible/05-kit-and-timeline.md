@@ -321,13 +321,17 @@ kit forward. Things that belong to **later** eras, **not** Era I:
 
 ## Reconcile — existing art that predates this guide
 
-Two early Book I images were made **before** Varic's humble Era I kit was settled, and show
-him **already gilded**, inconsistent with Era I above:
+Two early Book I images were made **before** Varic's humble Era I kit was settled, and showed
+him **already gilded**, inconsistent with Era I above. **One is fixed; one is still open.**
 
-- [`../images/the-mongrels-of-the-deep.webp`](../images/the-mongrels-of-the-deep.webp)
-- [`../images/the-host-of-sorrowful-stone.webp`](../images/the-host-of-sorrowful-stone.webp)
-
-**Decision pending (Matt):** regenerate these two to the humble kit, or accept the drift.
+- ✅ [`../images/the-mongrels-of-the-deep.webp`](../images/the-mongrels-of-the-deep.webp) —
+  **re-rolled Aug 2026 to the humble kit.** Varic now wears the battered chain shirt over travel
+  robes with the deep-red scarf and the plain iron sunburst, no gold and no mantle. **This image is
+  now a good Era I exemplar for the whole company at once**: Harlock's salvaged breastplate with its
+  bare starburst, Rabiah's uncannily clean green, and Lupenor's green tunic and pauldron are all in
+  the same frame.
+- ⏳ [`../images/the-host-of-sorrowful-stone.webp`](../images/the-host-of-sorrowful-stone.webp) —
+  **still gilded. Decision pending (Matt):** regenerate to the humble kit, or accept the drift.
 
 **Harlock's holy symbol predates this rule.** The sword-and-sun device was settled only at the
 Book I Epilogue. Every Harlock image made before it — the chest device in

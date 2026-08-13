@@ -26,17 +26,51 @@ with a counter-example.
 
 ## Raised but not decided (Matt's call)
 
-Both are flagged in `05-kit-and-timeline.md` under *Reconcile*: they were made before Varic's humble
-Era I kit was settled and show him **already gilded**, which contradicts the era.
+Flagged in `05-kit-and-timeline.md` under *Reconcile*: made before Varic's humble Era I kit was
+settled, and shows him **already gilded**, which contradicts the era.
 
-- `the-mongrels-of-the-deep.webp`
 - `the-host-of-sorrowful-stone.webp`
 
 Regenerate to the humble kit, or accept the drift and note it as accepted.
+*(Its companion `the-mongrels-of-the-deep.webp` was re-rolled Aug 2026 — see Done.)*
 
 ---
 
 ## Done
+
+### `the-mongrels-of-the-deep.webp` — re-rolled Aug 2026
+*Book I, "The Mongrels of the Deep". Caption: "Wretched and ugly, but worthy of kindness".*
+
+**The reason for the re-roll was Varic's gilded kit**, which contradicted Era I. He is now in the
+battered chain shirt over ash-smeared travel robes, deep-red scarf, plain iron sunburst, **no gold
+and no mantle** — with `a gold-filigree breastplate`, `golden or gilded armour`, `a red mantle` in
+`Avoid:`. This closes one of the two *Reconcile* items in `05-kit-and-timeline.md`; the other,
+`the-host-of-sorrowful-stone.webp`, is still open.
+
+**The frame is now a strong Era I group exemplar**, because everyone in it is correct at once:
+Harlock's **salvaged breastplate with its bare starburst** (per Matt's Aug 2026 device ruling),
+Rabiah's uncannily clean green against all that filth, Lupenor's high-collared green tunic and single
+steel pauldron. Heights were stated tallest-to-shortest and Rabiah pinned as the smallest, so she
+does not loom.
+
+**Matt's addition: one mongrelman with a split face.** *"One side of his face reptilian and a goat
+horn on the other side."* Rendered by describing it as a **midline split** with each half spelled out
+separately — scales, brow, slit-pupil eye and lipless mouth-corner on one half; ordinary weathered
+human skin, round pupil and stubble on the other — plus **an explicit count and side for the horn**
+(*"exactly one horn, and it is on the human side; there is NO horn on the reptilian side"*), with
+`two horns`, `a horn on the reptilian side`, `a pair of matching horns` in `Avoid:`. It came back
+right first try. **Stating the count and the side is what makes an asymmetric feature survive** — a
+description alone tends to get symmetrised. He was also pinned as *one of the standing haulers, NOT
+the one under the rock*, since the trapped mongrel is the obvious figure for the model to attach a
+distinctive face to.
+*(Accepted: a low scaled crest rises from the reptilian side of his skull. It has no ribbing and no
+curl and does not read as a second horn.)*
+
+⭐ **Second image made entirely self-serve** — all four portraits pulled from the ChatGPT library and
+sent without Matt touching the browser. **New finding, now in the skill: library selections do NOT
+survive a search change.** Searching for a second name silently clears the first selection, so
+multi-reference scenes must be added **one at a time** — open the dialog, search, select, *Add to
+chat*, repeat. The attachments accumulate correctly in the composer.
 
 ### `the-crypt-that-drank-the-light.webp` — re-rolled Aug 2026
 *Book II, "The Desecrated Ground". Raised directly by Matt, never on the To-do list.*

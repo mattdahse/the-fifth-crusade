@@ -77,6 +77,23 @@ and keeps the DOM light.
 > 5. Verify: `form [class*="group/file-tile"]` is 1 (or however many you added), and screenshot the
 >    composer to **confirm the thumbnail is the character you meant** — the library holds every
 >    reference ever dragged plus every render, and the names collide.
+>
+> ### ⚠️ SEVERAL REFERENCES? ADD THEM ONE AT A TIME — SELECTION DOES NOT SURVIVE A SEARCH CHANGE.
+> Typing a new query into the dialog's search box **silently clears whatever you had already
+> selected**, so searching four names in a row and then clicking *Add to chat* attaches only the
+> last one — and the footer quietly reads "1 selected" the whole time. Run the **whole cycle per
+> reference**: open `+` → *Add from library* → search → click the row → **Add to chat**; then
+> reopen the menu and do the next one. Attachments accumulate correctly in the composer, so finish
+> by checking the tile count equals the number of characters in the scene.
+> *(Aug 2026, the four-reference `the-mongrels-of-the-deep` re-roll.)*
+>
+> **Two coordinate notes for that loop:** the `+` button **moves down as the composer grows** with
+> each attached tile — re-screenshot rather than reusing the old coordinate — and the search box
+> keeps focus after a selection, so `triple_click` it before typing the next name.
+>
+> **The library holds many copies under drifting names** (`REF-1-harlock(10)`,
+> `REF-1-harlock(20260812-145805)`, `REF-1-lupenor-COPPER-hair-VIOLET-eyes-POINTED-ears`). They are
+> generally the same portrait; take the newest, then confirm by thumbnail.
 > 6. Then paste the prompt and **send it yourself** (step C's DOM-method send). Matt never touches it.
 >
 > ⚠️ **These clicks need REAL GESTURES.** `element.click()` on the `+` button does nothing — React
