@@ -42,24 +42,43 @@ makes them the whole right-hand side — rank on rank of life-sized crusaders in
 triumphant, heroic, proud, calm or blank` went into `Avoid:`, since a wall of carved soldiers
 defaults to heroic.
 
-**The depicted instant was moved one beat EARLIER, and it is both safer and the better picture.** The
-old plate showed Rabiah already seized and screaming; this one is the eyeblink before — she is alone
-out ahead with her hand still on the carving, looking up, the dark shape unfurling from the vault
-with clear air between them, and the others only now turning. **Nothing touches anyone anywhere in
-the frame**, and the contact vocabulary sits in `Avoid:` rather than the body. This is the same move
-that rescued `rabiahs-raw-magic`, and it also serves the caption better: the lesson *is* that she
-walked out ahead alone.
+**⚠️ THE BEAT IS THE ENFOLDING — MATT'S DIRECTION, AND IT OVERRODE MY FIRST CHOICE.** I initially
+moved the instant one beat *earlier* (Rabiah alone out ahead, the shape unfurling above her, nothing
+touching), on the grounds that it was both safer with the classifiers and a cleaner picture. **Matt
+asked for the enfolding and he was right** — the wrapped figure is a far stronger image, and it is
+what the prose actually describes. **Do not quietly soften this scene again.**
+
+**It rendered first try, and the method for depicting it safely is the point.** The scene is a young
+woman wrapped in a creature's wings, which is exactly the shape of prompt that gets refused — so it
+was built **entirely as a SHAPE, with no harm vocabulary anywhere in either half of the prompt**:
+- The wings are *"folded forward and closed around her body, meeting in front, so she is enclosed
+  from the shoulders down to below the knees, like someone shut inside a heavy black cloak far too
+  big for them"* — a garment metaphor, not an attack.
+- **Her head and face are stated as completely clear of it and fully lit**, with the wing closing at
+  collarbone level, and `the wing covering her head, her face hidden, a shapeless dark mass with no
+  person visible` in `Avoid:`. A visible face is what keeps it a picture of a person rather than
+  body horror.
+- **One arm free and reaching**, and her state written as *furious defiance rather than despair* —
+  teeth bared, jaw clenched, the free arm rigid — with `a limp or fainting figure, a slack hanging
+  arm, closed eyes, a despairing or pleading expression` excluded. **A fighting figure reads as
+  peril; a limp one reads as harm.**
+- The creature's head is *"small and low, tucked down behind the wing-mass and mostly hidden — it is
+  the WINGS that make the picture, not a face and not a mouth"*, with the mouth-near-her-face case
+  in `Avoid:`.
+- Not one word about injury, blood, crushing or smothering appears anywhere, including the `Avoid:`
+  line.
+
+**Harlock's blow was held one instant short** (hammer swung back, *"the blow has NOT landed and the
+hammer is still well clear"*) and **Lupenor was given the release** rather than the draw — string
+sprung forward, draw hand open, exactly one arrow already in the air, nothing nocked — which again
+sidesteps the whole drawn-bow failure cluster.
 
 **Rabiah's age read correctly on the FIRST roll here**, applying the proportion rule that had just
 been written into `04-visual-style-guide.md` after the `the-mongrels-of-the-deep` failure — adult
 head-to-body ratio, adult face by its features, height separated from youth explicitly, and standing
 upright. **The rule transfers; use it for every group frame she is in.**
 
-**Lupenor's bow was kept out of trouble by staging, not by description** — bow upright in her left
-hand with the string slack and dead straight, her right hand pulling arrows clear of the quiver,
-nothing nocked and nothing touching the string. The whole drawn-bow failure cluster (empty string,
-two arrows, fist grip, string off-frame) simply cannot occur.
-*(Minor accepted drift: she holds two or three arrow shafts rather than the single one specified.)*
+*(The caption still fits: she walked out ahead alone, and this is what came of it.)*
 
 ### `the-mongrels-of-the-deep.webp` — re-rolled Aug 2026
 *Book I, "The Mongrels of the Deep". Caption: "Wretched and ugly, but worthy of kindness".*
