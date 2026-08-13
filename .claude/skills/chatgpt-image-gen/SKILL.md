@@ -60,11 +60,36 @@ and tell him.
 `navigate(TAB, "https://chatgpt.com/")`, then wait ~3s. A fresh chat per image avoids state bleed
 and keeps the DOM light.
 
-### B. Stage the reference portraits
+### B. Attach the references — **PREFER "ADD FROM LIBRARY"; DRAGGING IS THE FALLBACK**
 
-References **cannot be attached programmatically** — `file_upload` needs a ref from `find`/`read_page`,
-and both reliably time out on chatgpt.com. So stage the files where Matt can drag them in one motion,
-then ask him to.
+> ### ⭐ THE COMPOSER CAN ATTACH REFERENCES BY ITSELF. NO DRAG, NO HANDOFF.
+> *(Matt's suggestion, Aug 2026, on the `the-crypt-that-drank-the-light` re-roll. It worked first
+> try, and it removes the single most tedious step in this whole workflow.)*
+>
+> **Every file Matt has ever dragged into ChatGPT stays in his library**, and the composer can pull
+> one back out. So a reference that has been used before needs no human hands at all:
+>
+> 1. Click the composer's **`+`** button — `[data-testid="composer-plus-btn"]`.
+> 2. Choose **"Add from library"** (*"Browse and search your files"*), the second menu item.
+> 3. The dialog lists files newest-first with a **search box**. Click the row you want — the
+>    portraits are there under the names they were staged with, e.g. `REF-1-lupenor(9)`.
+> 4. Click **"Add to chat"**.
+> 5. Verify: `form [class*="group/file-tile"]` is 1 (or however many you added), and screenshot the
+>    composer to **confirm the thumbnail is the character you meant** — the library holds every
+>    reference ever dragged plus every render, and the names collide.
+> 6. Then paste the prompt and **send it yourself** (step C's DOM-method send). Matt never touches it.
+>
+> ⚠️ **These clicks need REAL GESTURES.** `element.click()` on the `+` button does nothing — React
+> ignores it and the menu never opens. Use `computer{left_click}` by coordinate, and remember
+> coordinates are **screenshot pixels**, not CSS pixels (see the scaling warning in step E).
+>
+> **When this does NOT apply:** a reference that has never been uploaded before is not in the
+> library. Stage it and ask Matt to drag it **once** — from then on it is in the library forever and
+> every later image can self-serve.
+
+**Fallback — staging files for Matt to drag.** Use this for a first-time reference. `file_upload`
+needs a ref from `find`/`read_page`, and both reliably time out on chatgpt.com, so stage the files
+where Matt can drag them in one motion, then ask him to.
 
 ```bash
 # macOS / Linux
@@ -181,9 +206,15 @@ If `len` is a multiple of your prompt length, you have duplicates — clear and 
 reasoning model that otherwise stalls in a long "Thinking" loop. **Put the aspect ratio in the text**
 (`Aspect ratio 3:2.`); there is no reliable UI control for it.
 
-### THE HANDOFF — paste the prompt, then get out of the way
+### THE HANDOFF — **only when the library cannot serve the reference**
 
-**This is the settled workflow. Follow it exactly.**
+**Default to the self-serve route in step B.** If every reference the scene needs is already in
+Matt's ChatGPT library — which it is for any character who has been illustrated before — attach them
+yourself, send yourself, and hand him a finished picture. Do not make him drag a file he has already
+dragged once.
+
+**The handoff below is for a FIRST-TIME reference only** (a new character, a new location plate, a
+render from this session being fed into the next one before it has been re-uploaded).
 
 1. Navigate to a fresh chat and verify the composer is clean (`pmLen`, `msgs`, `attachments` all 0).
 2. **Paste the prompt.** Verify exactly one copy landed.
@@ -192,9 +223,10 @@ reasoning model that otherwise stalls in a long "Thinking" loop. **Put the aspec
 4. **Wait.** Do not poll the tab, do not click send, do not "check whether it started." **Matt tells
    you when the image has resolved.** Only then do you go to step D/E and pull the render down.
 
-**Why the handoff and not automation:** references cannot be attached programmatically —
-`file_upload` needs a ref from `find`/`read_page`, and both reliably time out on chatgpt.com. Since
-he has to touch the keyboard anyway, he sends too. One handoff, one hand-back, no polling in between.
+**Why the handoff exists at all:** a reference that is not yet in the library cannot be attached
+programmatically — `file_upload` needs a ref from `find`/`read_page`, and both reliably time out on
+chatgpt.com. Since he has to touch the keyboard anyway, he sends too. **But once he has dragged it
+that one time, it is in the library and no later image needs him.**
 
 **When a scene needs NO references** — an establishing shot, a rite, a landscape, anonymous crowds —
 there is nothing to drag, so send it yourself rather than making him wait. **Do not click the send

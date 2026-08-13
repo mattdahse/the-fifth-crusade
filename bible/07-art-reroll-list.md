@@ -38,6 +38,34 @@ Regenerate to the humble kit, or accept the drift and note it as accepted.
 
 ## Done
 
+### `the-crypt-that-drank-the-light.webp` — re-rolled Aug 2026
+*Book II, "The Desecrated Ground". Raised directly by Matt, never on the To-do list.*
+
+**The fault was scale: the crypt door was absurdly small** — a little hatch with a lock plate, in a
+tight close-up that cropped away any context to judge it against. The company walks *into* this
+crypt, so the door has to be a door.
+
+**Scale was fixed by pinning it in feet and by comparison, not by adjective.** The vault is stated as
+a freestanding mausoleum ten feet to the roof; the door as seven feet tall and three and a half wide,
+in a squared stone surround with a lintel; and then the comparison that did the real work — *"plainly
+big enough for a grown armoured man to walk straight through without stooping"*, and *"if the
+crouching woman stood up in front of it, the top of her head would reach only about two-thirds of the
+way up"*. **The lock plate was pinned too** (waist height on a standing adult, ~3 feet up), which is
+what makes her crouch read as natural rather than arbitrary. `a small door, a hatch, a doorway shorter
+than the crouching woman, a lock plate above her head` went into `Avoid:`.
+**The camera had to move as well** — the prompt says explicitly to stand back far enough that the
+whole mausoleum front and the whole door are in frame, lintel to threshold, because a tight crop is
+what let the bad proportion hide.
+
+The title's own image now reads: the vault's stone is flat, matte and unnaturally dark on the faces
+turned *toward* the light, with properly-lit pale stone right beside it — a hole cut in the daylight
+in the shape of a building, rather than shadow cast by something.
+
+⭐ **This one was made with the new self-serve reference workflow** — see the `chatgpt-image-gen`
+skill, step B. Lupenor's portrait was attached from Matt's **ChatGPT library** via the composer's
+`+` → *Add from library*, and the prompt was sent without him touching anything. **Every reference
+ever dragged is still in that library**, so no previously-used portrait ever needs dragging again.
+
 ### `the-kindling-of-radiance.webp` — re-rolled Aug 2026
 *Book I Ch. VI, Defender's Heart.*
 
