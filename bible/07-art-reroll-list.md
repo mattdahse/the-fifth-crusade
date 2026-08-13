@@ -24,19 +24,42 @@ with a counter-example.
 
 ---
 
-## Raised but not decided (Matt's call)
-
-Flagged in `05-kit-and-timeline.md` under *Reconcile*: made before Varic's humble Era I kit was
-settled, and shows him **already gilded**, which contradicts the era.
-
-- `the-host-of-sorrowful-stone.webp`
-
-Regenerate to the humble kit, or accept the drift and note it as accepted.
-*(Its companion `the-mongrels-of-the-deep.webp` was re-rolled Aug 2026 — see Done.)*
-
----
-
 ## Done
+
+### `the-host-of-sorrowful-stone.webp` — re-rolled Aug 2026
+*Book I, "The Host of Sorrowful Stone". Caption: "Rabiah learns the rule about standing behind
+Harlock." **This was the last *Reconcile* item; that section of the kit guide is now closed.***
+
+**The re-roll reason was Varic's gilded kit**, and he is now in the humble Era I look — battered
+chain shirt over dark travel robes, deep-red scarf, plain iron sunburst, no gold, no mantle, no
+pauldrons — holding the lantern that lights the scene. Harlock's **salvaged breastplate and its bare
+starburst read more clearly here than in any other plate**, and he carries the warhammer the text
+gives him.
+
+**The hall finally illustrates its own title.** The old plate barely showed the carvings; the new one
+makes them the whole right-hand side — rank on rank of life-sized crusaders in bas-relief with
+**every graven face bent in grief**, heads bowed, hands raised to faces. `carved figures that look
+triumphant, heroic, proud, calm or blank` went into `Avoid:`, since a wall of carved soldiers
+defaults to heroic.
+
+**The depicted instant was moved one beat EARLIER, and it is both safer and the better picture.** The
+old plate showed Rabiah already seized and screaming; this one is the eyeblink before — she is alone
+out ahead with her hand still on the carving, looking up, the dark shape unfurling from the vault
+with clear air between them, and the others only now turning. **Nothing touches anyone anywhere in
+the frame**, and the contact vocabulary sits in `Avoid:` rather than the body. This is the same move
+that rescued `rabiahs-raw-magic`, and it also serves the caption better: the lesson *is* that she
+walked out ahead alone.
+
+**Rabiah's age read correctly on the FIRST roll here**, applying the proportion rule that had just
+been written into `04-visual-style-guide.md` after the `the-mongrels-of-the-deep` failure — adult
+head-to-body ratio, adult face by its features, height separated from youth explicitly, and standing
+upright. **The rule transfers; use it for every group frame she is in.**
+
+**Lupenor's bow was kept out of trouble by staging, not by description** — bow upright in her left
+hand with the string slack and dead straight, her right hand pulling arrows clear of the quiver,
+nothing nocked and nothing touching the string. The whole drawn-bow failure cluster (empty string,
+two arrows, fist grip, string off-frame) simply cannot occur.
+*(Minor accepted drift: she holds two or three arrow shafts rather than the single one specified.)*
 
 ### `the-mongrels-of-the-deep.webp` — re-rolled Aug 2026
 *Book I, "The Mongrels of the Deep". Caption: "Wretched and ugly, but worthy of kindness".*
@@ -44,8 +67,8 @@ Regenerate to the humble kit, or accept the drift and note it as accepted.
 **The reason for the re-roll was Varic's gilded kit**, which contradicted Era I. He is now in the
 battered chain shirt over ash-smeared travel robes, deep-red scarf, plain iron sunburst, **no gold
 and no mantle** — with `a gold-filigree breastplate`, `golden or gilded armour`, `a red mantle` in
-`Avoid:`. This closes one of the two *Reconcile* items in `05-kit-and-timeline.md`; the other,
-`the-host-of-sorrowful-stone.webp`, is still open.
+`Avoid:`. One of the two *Reconcile* items in `05-kit-and-timeline.md`; the other,
+`the-host-of-sorrowful-stone.webp`, was re-rolled the same day and **that section is now closed.**
 
 **The frame is now a strong Era I group exemplar**, because everyone in it is correct at once:
 Harlock's **salvaged breastplate with its bare starburst** (per Matt's Aug 2026 device ruling),
