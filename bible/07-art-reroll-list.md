@@ -66,6 +66,18 @@ distinctive face to.
 *(Accepted: a low scaled crest rises from the reptilian side of his skull. It has no ribbing and no
 curl and does not read as a second horn.)*
 
+⚠️ **The first roll made Rabiah look about ten, and the cause is worth knowing.** The prompt had
+stacked *short* + *"plainly the smallest and slightest of the four"* with **no age anchor**, and that
+combination is read as *young* rather than *small*. **Fixed on the second roll by pinning PROPORTION
+rather than height** — head at about one-seventh of standing height, adult limb length, an adult face
+named by its features, and the explicit separation *"she is short the way a small adult woman is
+short; her height is the ONLY small thing about her"* — plus standing her **upright** instead of
+crouching, since a crouching short figure loses the cues that prove she is grown. **The full rule is
+now in `04-visual-style-guide.md` under the group-heights section**, because this will recur every
+time Rabiah is in a group.
+*(Minor accepted drift on the second roll: Harlock's salvaged breastplate reads less distinctly than
+on the first, mostly gambeson and straps in shadow. Still humble, un-gilded, correct bare starburst.)*
+
 ⭐ **Second image made entirely self-serve** — all four portraits pulled from the ChatGPT library and
 sent without Matt touching the browser. **New finding, now in the skill: library selections do NOT
 survive a search change.** Searching for a second name silently clears the first selection, so

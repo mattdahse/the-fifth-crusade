@@ -545,6 +545,28 @@ loomed over the whole queue, and Cornelia's horse was pony-sized.)*
 **Pin the animals too.** A horse beside people defaults to pony-sized; say *"full-sized working
 horses — the top of the shoulder level with or above a tall man's head."*
 
+**⚠️ A SHORT ADULT RENDERS AS A CHILD UNLESS YOU PIN PROPORTIONS — AND HEIGHT WORDS MAKE IT WORSE.**
+Stacking *short* + *smallest* + *slightest* on a figure with no age anchor is read as "young", not
+"small", and what comes back is a child. **This bites Rabiah every time**, because she is genuinely
+the shortest of the company and the temptation is to say so three ways.
+*(Aug 2026, `the-mongrels-of-the-deep`: she came back looking about ten.)*
+
+**The fix is PROPORTION, not height — height was never the problem.** Say all three:
+1. **Head-to-body ratio, numerically:** *"her head is small relative to her body, about one-seventh
+   of her standing height, with adult limb length and adult shoulder width."*
+2. **An adult face, by its features:** *"a defined jawline, visible cheekbones, an adult nose and
+   mouth at adult scale, eyes of normal adult size set at the midline of the skull"* — and name the
+   child version as the negative: `large round childlike eyes, full round cheeks, a tiny chin, a
+   tall rounded forehead`.
+3. **Separate shortness from youth explicitly:** *"she is short the way a SMALL ADULT WOMAN is
+   short, with adult proportions throughout. Her height is the ONLY small thing about her."*
+
+**Also stand them up.** A short figure crouching or kneeling among standing adults loses the
+proportion cues that prove they are grown; give them an upright pose where the full body reads.
+And put `a child, a little girl, childlike proportions, an oversized head on a small body` in
+`Avoid:` — this is about proportion only, so it carries no classifier risk, but keep every harm or
+body word out of that line, as always.
+
 **The cast's settled heights:** Fenna Tusk ~6'0" (tallest of the regulars) · Cobb Harwick ~5'10" ·
 Pol Ashden ~5'9" and stooped · **Rabiah ~5'1" — SHORT for a human, and shorter than every adult
 human around her; she never towers over anyone** · Durvik Stonesign ~4'6" and immensely broad ·
