@@ -117,8 +117,10 @@ What happened there, in the chronicle's voice. Shown when the marker is tapped.
 
 - `at:` — **x, y as percentages of the plate**, so a marker keeps its spot at any size. The
   build warns for any place that lacks one, and skips it.
-- `kind:` — picks the glyph and colour, and groups the legend. One of `city`, `temple`, `ruin`,
-  `battle`, `lair`, `water`, `peril`, `camp`; anything else falls back to a plain `site` diamond.
+- `kind:` — picks the glyph and colour, groups the legend, and is what the reader filters by. One
+  of `city`, `temple`, `ruin`, `battle`, `lair`, `water`, `peril`, `camp`; anything else falls back
+  to a plain `site` diamond — and filters as one, so an unknown kind is hidden by switching **Site**
+  off, not by its own name.
 - `style:` — `pin` (default) plants a flag whose staff-foot is the coordinate; `icon` lays a
   medallion centred on it. Both hold their size on screen however far the reader zooms in.
 - `chapter:` — the chapter's **title**, not its id. Ids are assigned by build order and move when
@@ -147,6 +149,14 @@ A region with no `surface`/`hexes` simply gets no grid and no Hexes toggle. `sca
 only while the grid is on — a scale line with nothing to count is what made the note wrong in the
 first place. To re-derive the numbers for a new plate: measure the hex pitch on the source chart,
 then find the plate's four surface corners (Alt-click reads coordinates off any spot).
+
+**The legend is the filter.** Each entry names a kind, counts how many of them the plate carries,
+and switches that kind off and on when it is clicked. The markers and the chips beneath the plate
+go together, so the list under the map is always an honest index of what is drawn on it, and a
+**Show every kind** control appears in the toolbar as soon as anything is hidden. This is what
+makes a crowded region readable — the Worldwound's forty-eight places answer one question at a
+time (where are the strongholds, where does the water run) rather than all of them at once.
+Filters are per-region and reset when the reader changes plates, since the kinds differ.
 
 **Crowding:** names are laid out after the markers are drawn — each is offered its own line, then
 one above, then below, until it clears every name already placed. A name with nowhere to go is

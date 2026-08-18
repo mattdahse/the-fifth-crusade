@@ -332,12 +332,24 @@
   .map-frame.no-marks .mk.icon .mk-label{top:50%}
   .map-frame.no-marks.no-names .mk{display:none}
   .mk.sel .mk-label{color:#ffe6a8}
-  .map-legend{display:flex;flex-wrap:wrap;gap:.3rem .95rem;align-items:center;
+  .map-legend{display:flex;flex-wrap:wrap;gap:.3rem .55rem;align-items:center;
     font-size:.78rem;color:var(--ink-soft);margin:.55rem 0 .2rem}
   .map-legend span{display:inline-flex;align-items:center;gap:.3rem}
   .map-legend svg{width:15px;height:15px;overflow:visible}
   .map-legend .glyph{fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
   .map-legend .glyph.solid{stroke:none}
+  /* The legend is also the filter: a kind comes off the plate by its own key. */
+  .map-legend .lg{cursor:pointer;user-select:none;padding:.26rem .6rem .26rem .45rem;
+    border:1px solid transparent;border-radius:20px}
+  .map-legend .lg:hover{border-color:var(--rule);color:var(--ink)}
+  .map-legend .lg:focus-visible{outline:2px solid var(--accent2);outline-offset:1px}
+  .map-legend .lg.off{opacity:.4;text-decoration:line-through}
+  .map-legend .lgn{font-weight:400;opacity:.72;font-size:.92em}
+  /* A hidden kind takes its markers and its chips with it, so the list under the plate
+     always names exactly what is drawn on it. */
+  .hk-city .k-city,.hk-temple .k-temple,.hk-ruin .k-ruin,.hk-battle .k-battle,
+  .hk-lair .k-lair,.hk-water .k-water,.hk-peril .k-peril,.hk-camp .k-camp,
+  .hk-site .k-site{display:none}
   .map-scale{font-size:.78rem;font-style:italic;color:var(--ink-soft);margin:.1rem 0 0}
   .map-detail{background:var(--card);border:1px solid var(--rule);border-left:3px solid var(--accent);
     border-radius:6px;padding:.7rem .95rem;margin:.9rem 0 .2rem}
@@ -350,7 +362,10 @@
     background:var(--card);color:var(--ink-soft)}
   .map-places a:hover,.map-places a.sel{color:var(--accent);border-color:var(--accent2)}
   .mk-label.crowded{display:none}   /* no room for this name at this zoom; it returns when there is */
-  @media (max-width:760px){ .mk-label{font-size:.62rem;letter-spacing:.02em} }
+  @media (max-width:760px){ .mk-label{font-size:.62rem;letter-spacing:.02em}
+    /* a legend entry is a control here, not a caption, so it wants a thumb-sized target */
+    .map-legend{gap:.35rem .4rem}
+    .map-legend .lg{padding:.42rem .7rem .42rem .5rem;border-color:var(--rule)} }
   .map-pick{position:absolute;left:.5rem;bottom:.5rem;z-index:3;font-size:.75rem;
     background:rgba(20,15,9,.9);color:#fdf3dd;border:1px solid #6b5a3a;border-radius:5px;
     padding:.3rem .55rem;font-family:ui-monospace,Menlo,Consolas,monospace}
@@ -1061,7 +1076,16 @@ function hexLayerSvg(m){
     + '<g clip-path="url(#hexclip)"><path vector-effect="non-scaling-stroke" d="'+d.join('')+'"/></g></svg>';
 }
 
-var MAPV = {id:null, z:1, tx:0, ty:0, sel:'', names:true, marks:true, hexes:false};
+var MAPV = {id:null, z:1, tx:0, ty:0, sel:'', names:true, marks:true, hexes:false, hidden:{}};
+
+/* A place whose kind is not one the legend knows is drawn as a plain site, so it must be
+   filtered as one too — otherwise it would be listed under Site and stay put when Site is
+   switched off. */
+function kindKey(k){ return MK[k] ? k : 'site'; }
+function hkClasses(){
+  return Object.keys(MAPV.hidden).filter(function(k){ return MAPV.hidden[k]; })
+    .map(function(k){ return 'hk-'+k; }).join(' ');
+}
 
 function viewMap(id, placeId){
   setTab('map');
@@ -1076,7 +1100,8 @@ function viewMap(id, placeId){
   /* already on this plate: just move the selection, and keep the reader's zoom and pan */
   if(MAPV.id===m.id && document.getElementById('mapframe')){ mapSelect(placeId||'', true); return; }
 
-  MAPV.id = m.id; MAPV.z = 1; MAPV.tx = 0; MAPV.ty = 0; MAPV.sel = '';
+  /* Kinds differ from region to region, so a filter set on one plate means nothing on the next. */
+  MAPV.id = m.id; MAPV.z = 1; MAPV.tx = 0; MAPV.ty = 0; MAPV.sel = ''; MAPV.hidden = {};
 
   var picker = '';
   if(maps.length > 1){
@@ -1089,48 +1114,64 @@ function viewMap(id, placeId){
     + '<span class="toggle'+(MAPV.names?' on':'')+'" id="tgNames" onclick="mapToggle(\'names\')">Place names</span>'
     + '<span class="toggle'+(MAPV.marks?' on':'')+'" id="tgMarks" onclick="mapToggle(\'marks\')">Markers</span>'
     + (hasHex ? '<span class="toggle'+(MAPV.hexes?' on':'')+'" id="tgHexes" onclick="mapToggle(\'hexes\')">Hexes</span>' : '')
+    /* only worth offering once the reader has actually taken something off the plate */
+    + '<span class="toggle" id="tgAll" hidden onclick="mapKindsAll()">Show every kind</span>'
     + '<span class="sp"></span>'
     + '<span class="zoomer"><span class="toggle" onclick="mapZoom(1/1.5)" title="Zoom out">&minus;</span>'
     + '<span class="toggle" onclick="mapHome()" title="Fit the whole map">&#9635;</span>'
     + '<span class="toggle" onclick="mapZoom(1.5)" title="Zoom in">+</span></span></div>';
 
   var pins = m.places.map(function(p){
-    return '<a class="mk '+esc(p.style==='icon'?'icon':'pin')+(p.x>68?' lft':'')+'" id="mk-'+esc(p.id)+'"'
+    return '<a class="mk k-'+esc(kindKey(p.kind))+' '+esc(p.style==='icon'?'icon':'pin')
+      + (p.x>68?' lft':'')+'" id="mk-'+esc(p.id)+'"'
       + ' href="#/map/'+esc(m.id)+'/'+esc(p.id)+'"'
       + ' style="left:'+p.x+'%;top:'+p.y+'%"'
       + ' title="'+esc(p.name)+'">'+ markerSvg(p)
       + '<span class="mk-label">'+esc(p.name)+'</span></a>';
   }).join('');
 
-  var kinds = [];
-  m.places.forEach(function(p){ if(kinds.indexOf(p.kind)<0) kinds.push(p.kind); });
+  /* One entry per kind actually present, in the legend's own order rather than the order the
+     places happen to be written in, and each one carrying how many of them there are. */
+  var kinds = [], order = Object.keys(MK);
+  m.places.forEach(function(p){
+    var kk = kindKey(p.kind); if(kinds.indexOf(kk)<0) kinds.push(kk);
+  });
+  kinds.sort(function(a,b){ return order.indexOf(a) - order.indexOf(b); });
   var legend = kinds.map(function(k){
-    var mk = mkOf(k);
+    var mk = mkOf(k), off = !!MAPV.hidden[k];
+    var n = m.places.filter(function(p){ return kindKey(p.kind)===k; }).length;
     var paint = mk.s ? 'fill:'+mk.c+';stroke:none' : 'stroke:'+mk.c+';fill:none';
-    return '<span><svg viewBox="-11 -11 22 22"><g style="'+paint+'" class="glyph'+(mk.s?' solid':'')
-      + '" transform="scale(0.85)">'+mk.g+'</g></svg>'+esc(mk.n)+'</span>';
+    return '<span class="lg'+(off?' off':'')+'" id="lg-'+esc(k)+'" role="button" tabindex="0"'
+      + ' aria-pressed="'+(off?'false':'true')+'"'
+      + ' title="Show or hide every '+esc(mk.n.toLowerCase())+' on this plate"'
+      + ' onclick="mapKind(\''+esc(k)+'\')"'
+      + ' onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();mapKind(\''+esc(k)+'\')}">'
+      + '<svg viewBox="-11 -11 22 22"><g style="'+paint+'" class="glyph'+(mk.s?' solid':'')
+      + '" transform="scale(0.85)">'+mk.g+'</g></svg>'+esc(mk.n)
+      + ' <b class="lgn">'+n+'</b></span>';
   }).join('');
 
   var chips = m.places.map(function(p){
-    return '<a href="#/map/'+esc(m.id)+'/'+esc(p.id)+'" id="chip-'+esc(p.id)+'">'+esc(p.name)+'</a>';
+    return '<a class="k-'+esc(kindKey(p.kind))+'" href="#/map/'+esc(m.id)+'/'+esc(p.id)+'"'
+      + ' id="chip-'+esc(p.id)+'">'+esc(p.name)+'</a>';
   }).join('');
 
   app.innerHTML = (m.intro ? '<div class="hint">'+inline(m.intro.replace(/\n/g,' '))+'</div>' : '')
     + tools
     + '<div class="map-frame'+(MAPV.names?'':' no-names')+(MAPV.marks?'':' no-marks')
-    +     (MAPV.hexes?'':' no-hexes')+'" id="mapframe">'
+    +     (MAPV.hexes?'':' no-hexes')+' '+hkClasses()+'" id="mapframe">'
     +   '<div class="map-stage" id="mapstage">'
     +     '<img class="plate" src="'+esc(m.image)+'" alt="'+esc(m.title)+'">'
     +     hexLayerSvg(m)
     +     pins
     +   '</div>'
     + '</div>'
-    + '<div class="map-legend">'+legend+'</div>'
+    + '<div class="map-legend" id="maplegend">'+legend+'</div>'
     /* the scale means nothing without the grid it counts, so it comes and goes with it */
     + (hasHex && m.scale ? '<div class="map-scale" id="mapscale"'+(MAPV.hexes?'':' hidden')+'>'
         + inline(m.scale)+'</div>' : '')
     + '<div id="mapdetail"></div>'
-    + '<div class="map-places" id="mapchips">'+chips+'</div>';
+    + '<div class="map-places '+hkClasses()+'" id="mapchips">'+chips+'</div>';
 
   mapBindDrag();
   mapApply();
@@ -1161,6 +1202,37 @@ function mapToggle(what){
   else { MAPV.marks = !MAPV.marks; f.classList.toggle('no-marks', !MAPV.marks);
     document.getElementById('tgMarks').classList.toggle('on', MAPV.marks); }
   mapLayoutLabels();   /* names moving onto the spot, or reappearing, changes what collides */
+}
+
+/* ---- filtering by kind ----
+   Forty-eight places on one plate is more than the eye can hold, and most readers want one
+   question answered at a time: where are the strongholds, where does the water run. So the
+   legend does double duty — each entry switches its own kind off the plate and back on.
+   The markers and the chips beneath them move together, so the list under the plate is always
+   an honest index of what is drawn above it. */
+function mapKindApply(k){
+  var on = !MAPV.hidden[k];
+  ['mapframe','mapchips'].forEach(function(id){
+    var el = document.getElementById(id); if(el) el.classList.toggle('hk-'+k, !on);
+  });
+  var lg = document.getElementById('lg-'+k);
+  if(lg){ lg.classList.toggle('off', !on); lg.setAttribute('aria-pressed', on ? 'true' : 'false'); }
+}
+function mapKindsChanged(){
+  var any = Object.keys(MAPV.hidden).some(function(k){ return MAPV.hidden[k]; });
+  var all = document.getElementById('tgAll'); if(all) all.hidden = !any;
+  mapLayoutLabels();   /* the names that were crowded out have room again, or have lost it */
+}
+function mapKind(k){
+  MAPV.hidden[k] = !MAPV.hidden[k];
+  mapKindApply(k);
+  mapKindsChanged();
+}
+function mapKindsAll(){
+  Object.keys(MAPV.hidden).forEach(function(k){
+    if(MAPV.hidden[k]){ MAPV.hidden[k] = false; mapKindApply(k); }
+  });
+  mapKindsChanged();
 }
 
 /* Places sit where they sit; it is their names that have to give way. Two markers a mile apart
