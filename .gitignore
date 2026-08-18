@@ -1,2 +1,5 @@
 # macOS Finder metadata
 .DS_Store
+
+# Third-party source charts used as art references — kept local, never published
+source/refs/

@@ -721,3 +721,61 @@ list.
 These bite hardest on **archers — Lupenor above all**: aim-at-viewer, extra-arrow, and
 broken-string faults tend to show up *together* on a first pass, so prompt against all three
 from the start.
+
+---
+
+## Map plates — the one photographic exception, and the four-pass recipe
+
+**A region plate is not painted.** Everything else in this archive is a painting and says so at the
+top of its prompt; a plate is the opposite — **a photograph of a physical, hand-built terrain model
+in a heavy dark oak frame, standing on a table in a dim, lamplit room.** Lead the prompt with
+*"THIS IS A PHOTOGRAPH, NOT A PAINTING, NOT AN ILLUSTRATION AND NOT A DRAWN MAP"*, name the
+materials (sculpted plaster, pigmented sand, model-railway clump foliage), and put `a painting`,
+`an illustration`, `flat cartography` in `Avoid:`. The established look is
+[`../images/map-marchlands.webp`](../images/map-marchlands.webp) — warm lamp from high on the left,
+ochre and umber earth, opaque teal-green water, dark clump forest, molten orange where the ground
+is open, corners falling to black.
+
+**A plate carries no text of its own** — no names, no title, no compass rose, no scale bar, no
+legend, no letters, no grid. The site draws every marker and name in HTML over the plate so they
+stay editable, searchable and linkable. Art with a label baked into it is unusable, so say this
+twice: once as its own block in the prompt body, once in `Avoid:`.
+
+### Do not ask for the whole plate in one prompt
+
+**One prompt asking for "this map, as a lit model on a table" invents the geography and hands back a
+handsome picture of the wrong country.** *(Aug 2026, the first Worldwound roll: the canyon fan came
+back as a butterfly, the coast was fiction, and the materials were the only thing that landed.)* The
+model cannot hold "copy these landforms exactly" and "restage them as a photographed object" at the
+same time — the staging wins and the geography is redrawn to suit it.
+
+**Take it in four passes, each one using the previous render as its reference.** Every render lands
+in Matt's ChatGPT library automatically, so passes 2–4 attach from the library and need nothing from
+him. *(Matt's direction, Aug 2026, and it worked on the first roll of every pass.)*
+
+1. **Strip the labels.** Attach the source chart. Reproduce it exactly, minus every name, banner,
+   compass, scale bar, settlement dot and boundary line; fill each removed mark with the terrain
+   around it. Forbid restyling, recolouring, cropping and rotating — this pass must change nothing
+   but the lettering.
+2. **Repaint in the house palette.** Attach pass 1 (geography, fixed) and the Marchlands plate
+   (palette and materials only — *"take nothing else from it: not its frame, not its table, not its
+   camera angle, not its shapes"*). Still flat, still straight-down. Ochre earth, teal water, dark
+   canopy, and the molten accent placed where the story says the ground is open.
+3. **Tilt it and build the topography.** Attach pass 2. Same country, now solid: ridges, terraces,
+   canyon walls with strata and talus, rivers in cut beds, one warm light from the upper left,
+   ground falling to haze past the coast. No frame and no table yet.
+4. **Stage it in the room.** Attach pass 3 (the terrain, fixed) and the Marchlands plate (the
+   presentation: frame, table, camera height, lamp). Name the room — a war room at night, a rolled
+   chart and a pewter cup at the frame's corner, stone walls lost in the dark.
+
+**Why it holds:** each pass changes exactly one thing, so the geography is never competing with the
+staging for the model's attention. **Name the job of every attached reference explicitly** —
+*"THE X IS THE GEOGRAPHY AND IT IS FIXED"* / *"THE Y IS THE PALETTE ONLY"* — and describe each one
+by what it looks like rather than by its filename, since drop order is not guaranteed.
+
+**Re-roll the failing pass, not the chain.** A framing note is a pass-4 re-roll; shallow canyons are
+a pass-3 re-roll. Neither costs the passes above it.
+
+**Check the source chart's features survived pass 1** before spending three more passes on them. The
+Worldwound's *Lake Lost to the Sun* was quietly dropped there and its north-east corner came back as
+highland — cheap to catch at pass 1, expensive at pass 4.
