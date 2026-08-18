@@ -349,7 +349,7 @@
      always names exactly what is drawn on it. */
   .hk-city .k-city,.hk-temple .k-temple,.hk-ruin .k-ruin,.hk-battle .k-battle,
   .hk-lair .k-lair,.hk-water .k-water,.hk-peril .k-peril,.hk-camp .k-camp,
-  .hk-site .k-site{display:none}
+  .hk-region .k-region,.hk-site .k-site{display:none}
   .map-scale{font-size:.78rem;font-style:italic;color:var(--ink-soft);margin:.1rem 0 0}
   .map-detail{background:var(--card);border:1px solid var(--rule);border-left:3px solid var(--accent);
     border-radius:6px;padding:.7rem .95rem;margin:.9rem 0 .2rem}
@@ -995,6 +995,9 @@ var MK = {
   water:  {c:'#56b8c9', n:'Water',      s:0, g:'<path d="M-9-3c3-3 4.5 3 7.5 0s4.5 3 7.5 0M-9 4c3-3 4.5 3 7.5 0s4.5 3 7.5 0"/>'},
   peril:  {c:'#ff8a3d', n:'Peril',      s:1, g:'<path d="M0 10c4.5 0 7-3.2 7-6.8C7-1.6 2-4.4 2-9.8c0 0-3.6 2.6-3.6 6.2 0 2.4-2.4 2.4-2.4 4.8C-4 6-3 10 0 10z"/>'},
   camp:   {c:'#7fc98a', n:'Camp',       s:0, g:'<path d="M0-9L-9 9h18zM0 9V-1"/>'},
+  /* A stretch of country rather than a spot on it: a boundary drawn the way a chart draws one,
+     which is why this glyph is the only dashed mark in the set. */
+  region: {c:'#aebb8b', n:'Region',     s:0, g:'<path stroke-dasharray="3.6 2.8" d="M-8.5-3c0-4 4-6.2 8-5.2 4 1 5.5-1.6 8 .4 2.5 2 1.6 6-.4 7 -2 1-1 4.5-3.5 7 -2.5 2.5-6.5 2-9-.5 -2.5-2.5-3.1-4.7-3.1-8.7z"/>'},
   site:   {c:'#d9cdb4', n:'Site',       s:1, g:'<path d="M0-9l8 9-8 9-8-9z"/>'}
 };
 function mkOf(k){ return MK[k] || MK.site; }

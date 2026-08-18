@@ -10,7 +10,8 @@ around it: the ground split in a fan of canyons that reaches nearly to every bor
 went into their beds and stayed there, and the fire has not gone out since. The names on this
 chart are older than the crusade and most of them are older than the wound — steadings, shrines
 and holdfasts of Sarkoris, kept on the charts because the crusade has never had anything better
-to put in their place. The company has stood in exactly one of them.
+to put in their place. The company has stood in exactly one of them, and walked one stretch of
+this country hard enough to have earned it a chart of its own.
 
 ## Drezen
 <!-- at: 74.4, 25.2 -->
@@ -20,6 +21,16 @@ to put in their place. The company has stood in exactly one of them.
 The citadel on the eastern arm, taken by the crusade's first march and held by the demons for a
 hundred years after. It is ours again, and it is the only place on this chart where a crusader
 can sleep behind a wall. Every expedition west begins at its gate.
+
+## The Marchlands
+<!-- at: 65.5, 29.5 -->
+<!-- kind: region -->
+<!-- style: icon -->
+
+The broken country west of **Drezen** — badlands, canyon and lava, and the ground every expedition
+out of the city has had to cross. It is not a name on the old charts; it is what the crusade calls
+the part of this it has had to learn. **Selyse Avelia** was hired to put it down on one sheet, and
+that sheet is the other plate on this table.
 
 ## The Gray Road
 <!-- at: 67.9, 35.5 -->
@@ -39,7 +50,7 @@ chart is arranged around it, whether it was built that way or not.
 
 ## The Wounded Lands
 <!-- at: 60.8, 48.8 -->
-<!-- kind: peril -->
+<!-- kind: region -->
 <!-- style: icon -->
 
 The canyon country itself — the fan of splits that runs out from the rift in every direction, deep
@@ -48,14 +59,14 @@ innermost of them after dark.
 
 ## Stonewilds
 <!-- at: 54.7, 25.5 -->
-<!-- kind: site -->
+<!-- kind: region -->
 <!-- style: icon -->
 
 The broken high country north of the canyons, between the old shrine sites and the eastern arm.
 
 ## Sarkorian Steppe
 <!-- at: 24.5, 48.4 -->
-<!-- kind: site -->
+<!-- kind: region -->
 <!-- style: icon -->
 
 Open ground in the west, flat and dry and almost featureless. It was grazing once. Nothing crosses
@@ -63,21 +74,21 @@ it now without being seen crossing it.
 
 ## Riftshadow
 <!-- at: 41.7, 50.4 -->
-<!-- kind: peril -->
+<!-- kind: region -->
 <!-- style: icon -->
 
 Where the canyon country begins in earnest on the western side, along the river.
 
 ## Needleglens
 <!-- at: 46.5, 53.1 -->
-<!-- kind: peril -->
+<!-- kind: region -->
 <!-- style: icon -->
 
 Narrow ground south of the rift, named on the charts and avoided by everyone who has to cross it.
 
 ## Frostmire
 <!-- at: 33.5, 27.3 -->
-<!-- kind: site -->
+<!-- kind: region -->
 <!-- style: icon -->
 
 The cold fen country of the north-west, pale green and standing in water, rimed at its edges for
@@ -92,14 +103,14 @@ The wet heart of it, where the water gathers and does not drain.
 
 ## Wolfscrags
 <!-- at: 19.5, 17.5 -->
-<!-- kind: site -->
+<!-- kind: region -->
 <!-- style: icon -->
 
 The northern range, teeth of rock along the top of the country.
 
 ## Shroud of Unicorns
 <!-- at: 38.0, 17.6 -->
-<!-- kind: temple -->
+<!-- kind: region -->
 <!-- style: icon -->
 
 A place of the old faith in the northern hills, named on every chart the crusade has copied and
@@ -170,7 +181,7 @@ on it.
 
 ## Sabertooth Vale
 <!-- at: 24.0, 23.6 -->
-<!-- kind: site -->
+<!-- kind: region -->
 <!-- style: icon -->
 
 A valley in the north-west, under the range.
@@ -227,7 +238,7 @@ worth writing down.
 
 ## Winged Wood
 <!-- at: 70.6, 52.2 -->
-<!-- kind: site -->
+<!-- kind: region -->
 <!-- style: icon -->
 
 A stand of trees east of the rift, dark and close, holding on where the rest of the country gave up.
@@ -246,14 +257,14 @@ A small fen in the south-west, bright against the dust around it.
 
 ## Moonscream Glade
 <!-- at: 29.6, 57.3 -->
-<!-- kind: site -->
+<!-- kind: region -->
 <!-- style: icon -->
 
 An opening in the north of the great wood, named for what is heard there.
 
 ## Shudderwood
 <!-- at: 28.2, 65.1 -->
-<!-- kind: site -->
+<!-- kind: region -->
 <!-- style: icon -->
 
 The one great forest left on the chart, filling the south-west. It is the largest living thing in
@@ -261,7 +272,7 @@ the Worldwound and nobody has walked the middle of it.
 
 ## Forest of Embers
 <!-- at: 45.3, 64.1 -->
-<!-- kind: site -->
+<!-- kind: region -->
 <!-- style: icon -->
 
 A smaller wood south of the rift, burnt through more than once and standing anyway.
