@@ -14,13 +14,22 @@ to put in their place. The company has stood in exactly one of them, and walked 
 this country hard enough to have earned it a chart of its own.
 
 ## Drezen
-<!-- at: 74.4, 25.2 -->
+<!-- at: 76.5, 21.0 -->
 <!-- kind: city -->
 <!-- chapter: The Liberation of Drezen City -->
 
 The citadel on the eastern arm, taken by the crusade's first march and held by the demons for a
 hundred years after. It is ours again, and it is the only place on this chart where a crusader
 can sleep behind a wall. Every expedition west begins at its gate.
+
+## Kenabres
+<!-- at: 80.3, 30.1 -->
+<!-- kind: city -->
+<!-- chapter: The Gathering in the Dark -->
+
+Across the river on the Mendevian bank, and the reason there is a crusade at all. It stood as the
+crusade's northern wall for a hundred years and fell in an afternoon; the company was under it in
+the dark when it did, and everything since has followed from that day.
 
 ## The Marchlands
 <!-- at: 65.5, 29.5 -->
