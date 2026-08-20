@@ -1384,6 +1384,8 @@ Around the second hour past midnight the wind came up the valley in a rush and n
 
 They walked through the long day. The lava lake to their left glowed and sighed, and the crystal formations along its shore threw strange blue light across the track. By late afternoon the wind had died and a different heat replaced it — wetter, closer. **Harlock** began to recognize the shape of the land. A narrow rocky track wound down from the higher ground toward the crust of cooled stone above the lava. He had fled up this track once, half a lifetime ago, bleeding from a stone altar and certain he was already damned.
 
+![The tailwind was helpful. The pull was not.](images/the-lava-shore.webp)
+
 *"Let us press on," he said, and pressed on.*
 
 ### **The Track to the Flame**
@@ -1451,6 +1453,8 @@ Then **Harlock** came over the top of it and spent the last smite he had. The st
 **Abner Suthi** lay where the lightning had taken him. The party had no five thousand gold piece diamond to hand — only diamond dust, and dust would not bring the merchant back. **Rabiah** did have one scroll of ***Resurrection***, worth twelve thousand gold and impossible to replace, and she offered it without being asked. The company talked her out of it, and the argument that won was not the price: raise the man here and they would have to walk a soft merchant home through the **Marchlands** past a six-legged dragon. Left as he was, he was cargo. If he did not make it back, it would only be because none of them had.
 
 So **Rabiah** solved the problem creatively instead: a ***Shrink Item*** cast with her wild arcana at twelfth level — the spell would take a corpse, they reasoned, where nothing meant for a living man would — and the body came down four sizes, to something that fit in a cupped hand. **Varic** followed with ***Gentle Repose*** to keep it from turning across the journey home. They wrapped the tiny merchant in a hanky, tucked him inside **Rabiah**'s ***bag of holding***, and resolved to buy him a diamond at the first opportunity.
+
+![Abner travels light.](images/a-body-for-later.webp)
 
 They also claimed **Vorimeraak**'s scythe, which had come down onto the dry shore with her rather than into the lava. It proved to be a corrosive thing built for something far larger than any of them, and it wept acid whether or not anyone was swinging it. **Rabiah** worked at the enchantment until she found the trick of shutting the acid off, shrank the weapon down to the length of a finger, and wrapped it herself in cloth out of her own kit before it went into the bag. A ***plus-one cloak of resistance***, a pair of bracers, and some four hundred gold in coin came off **Abner**'s body and were set aside untouched against his eventual return.
 
