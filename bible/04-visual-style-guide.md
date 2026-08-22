@@ -478,7 +478,28 @@ the carved relief and everything past its reach falls to brown-black. **It is cl
 safe, not a wreck** — the whole point of the place is that it is the first shelter the company has had.
 *Avoid:* `a ruined rubble-strewn room, a collapsed ceiling, a second light source, daylight`.
 
+The **LOST CHAPEL** on the clifftop above the march road — the ruined house of **Iomedae** the company
+cleansed on the way to **Drezen** (Book II Ch. VI). Established by three plates:
+[`the-bell-that-never-rang`](../images/the-bell-that-never-rang.webp) for its rough dark interior stonework,
+[`the-cache-beneath-the-altar`](../images/the-cache-beneath-the-altar.webp) for the **sanctuary**, and
+[`the-stone-came-off-the-walls`](../images/the-stone-came-off-the-walls.webp) for the **courtyard**.
+**SANCTUARY:** a tall stone hall, **vaulted ceiling near THIRTY FEET** ribbed in stone and lost in blackness
+overhead; tall narrow lancet window openings with the stained glass **smashed out, leaving only narrow teeth
+and shards still gripped in the twisted lead**; **FOUR tall ANGEL STATUES** cracked past recognition, faces
+broken away and wings snapped short; **rotted wooden pews** collapsed and shoved out of line. The **altar** is
+a heavy stone block, its fine carved work defaced with the crude scratched marks of the ghoul cult of
+**Kabriri**; a panel in its front face swings open on a hidden catch to a **metal-lined hollow** holding
+crates of small stoppered glass vials, the seventy-year-old cache. **COURTYARD:** an open yard walled on
+three sides by breached stone spilling rubble, the ground choked with **stunted twisted dead trees and
+strangled grass** between cracked flagstones, and a large **half-broken statue on a plinth reaching two
+broken arms at the sky** — which is itself a gargoyle. **LIGHT — and this governs every interior shot here:
+the only light in the building is *Radiance* itself**, a gold-white blaze that reaches a few feet and dies,
+leaving the rest brown-black. There is no daylight, no torch, no candle and no moon anywhere in this place.
+*Avoid:* `daylight, moonlight through the windows, torches, candles, lanterns, a second light source, intact
+or glowing stained glass, coloured light beams, a clean or restored interior`.
+
 Locations with an established look so far: **Rabiah's Secure Shelter** (above), the **Molten Scar** (above),
+the **Lost Chapel** (above),
 the three **Paradise Hill** strongholds — the **Western Tower**, the **Temple of Sarenrae's courtyard** and
 the **Redeemers' compound** (all above) — the **Corruption Forge**
 ([`the-cage-over-the-forge`](../images/the-cage-over-the-forge.webp), and

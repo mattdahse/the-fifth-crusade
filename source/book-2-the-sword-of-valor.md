@@ -442,6 +442,8 @@ Then, getting supper up, a cook turned a grain sack over and found a hole chewed
 
 And in between the sound and the sack, the talk went on. Dark thoughts had been riding in that column since the road from the ford. Down in the shadow of the cliff, with the four gone up into the ruin, the light going, and something gibbering away west where no one could see it, the dark thoughts began to be said out loud.
 
+![Not words. Not quite.](images/what-the-wind-carried.webp)
+
 ### **The Deeper Chapel**
 
 The knotted alarm-rope still hung untouched through its hole in the ceiling; beneath it lay **Ilzek** where they had felled him, the ghoul cleric who had never reached the cord. Nothing had come to move him. The rest of the place did not yet know they had returned.
@@ -454,6 +456,8 @@ The main sanctuary was a slaughter-hall still at its worship. Beneath a vaulted 
 
 **Lupenor**'s arrows found throat after throat. The ghouls' bite carried the fever that hollows a body into one of their own, and only the elf and the priest stood beyond its reach; the others fought warily and took no lasting hurt. **Harlock** waded into the pews with the blade throwing its own light, and one by one the worshippers were rolled down among the benches. Then **Harlock** knelt at the fouled altar, and where **Radiance** remembered a catch he found one — a locking mechanism, a click, and a metal-lined hollow beneath the stone holding crate upon crate of small healing potions, enough to keep an army on its feet through a hard campaign. They counted the store, set it back where it had lain safe for seventy years, and marked the altar to be reconsecrated with prayer and holy water before they left.
 
+![Seventy years, and not one bottle broken.](images/the-cache-beneath-the-altar.webp)
+
 ### **The Larder and the Flies**
 
 A side door gave onto a horror of a different colour. Two crusader soldiers hung by their ankles from meat-hooks over a cold hearth, the muscle carved from their thighs, their heads long since gone to some pot; the stoves stood dead, for the things that denned here had been eating the meat raw. When **Radiance**'s glow spilled in, a scatter of fat flies woke off the carcasses and blundered away into the dark — nothing worse than what always comes to meat left hanging, and nobody gave them a second thought. **Harlock** cut the two men down and laid them on the floor, that they might at least not hang like game while the fight went on.
@@ -465,6 +469,8 @@ Beyond the courtyard door waited the master of the house. **Harlock** set one fo
 ### **The Statues That Woke**
 
 The courtyard itself was the trap they had not read. Stunted trees and strangled grass choked the open ground, and at its heart a half-broken statue reached broken arms to the sky. The stone was watching them. As the company moved into the open the **gargoyles** came off their perches all at once — the reaching statue among them — and proved a good deal harder than their weathered stone suggested; it was **Lupenor**'s cold-iron and evil-outsider arrows that broke them, one shaft finding a seam in the stone and bringing a gargoyle down whole where a lesser shot would only have chipped it. And it was the elf's low-light eyes alone that caught the worse thing: a black shape blotting the stars, circling, dropping — a great winged **nabasu** come down out of the night to feed. It leached the vigour from those it neared and struck to kill, but the four had cleared harder rooms than this, and between arrow and spell and the light of the blade they brought it down among the dead grass. The chapel, at last, was empty of everything but its dead.
+
+![Nobody had thought to count the statues.](images/the-stone-came-off-the-walls.webp)
 
 *— Sessions of May 10 and June 21, 2025 —*
 
