@@ -370,7 +370,29 @@
     background:rgba(20,15,9,.9);color:#fdf3dd;border:1px solid #6b5a3a;border-radius:5px;
     padding:.3rem .55rem;font-family:ui-monospace,Menlo,Consolas,monospace}
   .catlabel{color:var(--accent2);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;margin:1.3rem 0 .2rem}
-  .decor{color:var(--accent2);letter-spacing:.4em;margin:.3rem 0}
+  /* The next-session band stands where the ✦ ❦ ✦ rule used to: it must still read as an
+     ornament under the title, so the notice is bracketed by hairline rules and diamonds. */
+  .nextses{display:flex;align-items:center;justify-content:center;gap:.55rem;margin:.55rem 0 .1rem}
+  .ns-line{flex:1 1 auto;max-width:6.5rem;height:0;border-top:1px solid var(--rule)}
+  .ns-orn{color:var(--accent2);font-size:.7rem;flex:0 0 auto;opacity:.85}
+  .ns-mid{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:.2rem .55rem}
+  .ns-k{letter-spacing:.24em;text-transform:uppercase;font-size:.62rem;color:var(--accent2)}
+  .ns-when{font-weight:600;font-size:.95rem;color:var(--ink)}
+  .ns-none{font-style:italic;font-size:.92rem;color:var(--ink-soft)}
+  .ns-rel{font-style:italic;font-size:.82rem;color:var(--ink-soft)}
+  .ns-rel.now{color:var(--accent);font-style:normal;letter-spacing:.06em;text-transform:uppercase;font-size:.68rem}
+  .ns-pill{font-size:.6rem;letter-spacing:.11em;text-transform:uppercase;padding:.12rem .5rem;
+    border-radius:20px;background:var(--accent2);color:var(--bg);white-space:nowrap}
+  .ns-pill.online{background:var(--tl3)}
+  .ns-where{font-size:.82rem;color:var(--ink-soft)}
+  /* Too narrow to bracket: the notice wraps to its own stack, so the flanking rules come
+     away and the diamonds close around the kicker instead. */
+  @media (max-width:560px){
+    .nextses{gap:0}
+    .ns-line,.nextses>.ns-orn{display:none}
+    .ns-k::before{content:'✦ '} .ns-k::after{content:' ✦'}
+    .ns-when{font-size:.88rem}
+  }
   .hidden{display:none}
   .count{color:var(--ink-soft);font-size:.85rem;margin:.2rem 0 .6rem}
 </style>
@@ -381,7 +403,7 @@
     <div class="kicker">Pathfinder · Wrath of the Righteous</div>
     <h1 class="site">The Fifth Crusade</h1>
     <div class="site-sub">A Chronicle of the Crusade Against the Worldwound</div>
-    <div class="decor">✦ ❦ ✦</div>
+    <div class="nextses" id="nextses"></div>
   </header>
 
   <div class="searchbar">
@@ -410,6 +432,7 @@
 </div>
 
 <script src="data.js"></script>
+<script src="next-session.js"></script>
 <script>
 /* ---------- Fathom recordings now travel with each chapter (c.fathom) ---------- */
 
@@ -1454,6 +1477,65 @@ function setStickyNav(html){
     if(target) location.hash = '#/read/' + target;
   }, {passive:true});
 })();
+
+/* ---------- the next session ----------
+   next-session.js carries one hand-written date in Arizona time (a fixed -07:00: the state
+   keeps no daylight saving, so no timezone table is needed). The browser turns that instant
+   into the reader's own local time, wherever in the world they happen to be sitting.
+
+   A date that has gone by without being replaced is not shown as though it were still coming:
+   once the session's hours have run out, the band says plainly that nothing is scheduled. */
+function nsRelative(start, now){
+  var a = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  var b = new Date(start.getFullYear(), start.getMonth(), start.getDate());
+  var days = Math.round((b - a) / 86400000);
+  if(days <= 0) return 'today';
+  if(days === 1) return 'tomorrow';
+  if(days <= 20) return 'in ' + days + ' days';
+  var weeks = Math.round(days / 7);
+  return 'in ' + weeks + ' weeks';
+}
+function renderNextSession(){
+  var el = document.getElementById('nextses');
+  if(!el) return;
+  var s = window.NEXT_SESSION || {};
+  var start = s.when ? new Date(s.when) : null;
+  if(start && isNaN(start.getTime())) start = null;     /* a typo degrades to "not scheduled" */
+
+  var now = new Date();
+  var runs = (typeof s.runsHours === 'number' && s.runsHours > 0) ? s.runsHours : 5;
+  var over = start ? (now - start) > runs * 3600000 : true;
+
+  var mid;
+  if(!start || over){
+    mid = '<span class="ns-k">Next Session</span>'
+        + '<span class="ns-none">not yet scheduled</span>';
+  } else {
+    var opts = {weekday:'long', month:'long', day:'numeric'};
+    if(start.getFullYear() !== now.getFullYear()) opts.year = 'numeric';
+    var day, time;
+    try{
+      day  = start.toLocaleDateString(undefined, opts);
+      time = start.toLocaleTimeString(undefined, {hour:'numeric', minute:'2-digit', timeZoneName:'short'});
+    }catch(e){ day = start.toDateString(); time = start.toTimeString().slice(0,5); }
+
+    var online = String(s.mode||'').toLowerCase().indexOf('online') === 0;
+    var under  = now >= start;                            /* begun, but not yet run out */
+    mid = '<span class="ns-k">' + (under ? 'Session Under Way' : 'Next Session') + '</span>'
+        + '<span class="ns-when">' + esc(day) + ' · ' + esc(time) + '</span>'
+        + '<span class="ns-pill' + (online?' online':'') + '">' + (online?'Online':'In Person') + '</span>'
+        + (s.where ? '<span class="ns-where">' + esc(s.where) + '</span>' : '')
+        + '<span class="ns-rel' + (under?' now':'') + '">'
+        + (under ? 'in session' : esc(nsRelative(start, now))) + '</span>';
+  }
+  el.innerHTML = '<i class="ns-line"></i><span class="ns-orn">✦</span>'
+    + '<span class="ns-mid">' + mid + '</span>'
+    + '<span class="ns-orn">✦</span><i class="ns-line"></i>';
+}
+renderNextSession();
+/* A page left open overnight must not go on promising a session that has already happened. */
+setInterval(renderNextSession, 60000);
+document.addEventListener('visibilitychange', function(){ if(!document.hidden) renderNextSession(); });
 
 function showActiveTab(){
   var t = document.querySelector('.tab.active');

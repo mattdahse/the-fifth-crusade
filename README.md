@@ -29,6 +29,7 @@ build.ps1                       ← compiles source/*.md + secrets/*.md + maps/*
 extract-calendar.ps1            ← re-extracts bible/06-in-world-calendar.json from Fantasy Grounds
 index.html                      ← the reader app (Contents / Cast / Secrets / Timeline / Map, search)
 data.js                         ← BUILD OUTPUT — do not hand-edit
+next-session.js                 ← the next game's date, hand-edited; drives the header notice
 favicon.svg                     ← the site mark: Iomedae's device off the Sword of Valor. Edit THIS one
 favicon.ico                     ← rasterised from favicon.svg (16/32/48) — regenerate, never hand-edit
 apple-touch-icon.png            ← rasterised from favicon.svg (180px, square) — same
@@ -79,6 +80,29 @@ the calendar. Weekday names are computed from the cycle the chronicle itself nam
    ```
 
 The `wotr-chronicle` skill automates steps 1–3 from a raw session transcript.
+
+## The next session
+
+The header carries a notice of the next game where the `✦ ❦ ✦` rule used to sit. It reads one
+hand-edited file, [`next-session.js`](next-session.js):
+
+```js
+window.NEXT_SESSION = {
+  when: '2026-09-05T18:00:00-07:00',   // Arizona time — always -07:00; the state keeps no DST
+  mode: 'in-person',                    // 'in-person' or 'online'
+  where: '',                            // optional — a table, a room, a voice channel
+  runsHours: 5                          // optional — how long a session runs
+};
+```
+
+Set the date after each game, alongside the new chapter. The page converts that instant into
+**each reader's own local time**, so a player in Berlin is told the hour in Berlin, without any
+setting of their own.
+
+A date left behind is never shown as though it were still coming: once `runsHours` have passed
+the notice says the next session is **not yet scheduled**, and it says the same for `when: null`,
+a missing file or a mistyped date. While a session is running it reads *Session Under Way*. A page
+left open across the change corrects itself — the notice re-reads the clock every minute.
 
 ## The Map
 
