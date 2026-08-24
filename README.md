@@ -96,9 +96,10 @@ window.NEXT_SESSION = {
 ```
 
 The `wotr-chronicle` skill writes this from Matt's Google Calendar as part of publishing a session:
-it takes the first future event matching `Pathfinder` and reads the mode off the **title** — the
-in-person events carry the same standing Zoom URL in their location, so location proves nothing.
-That URL is never copied into `where`, since this file is served publicly. The page converts that instant into
+it takes the first future event matching `Pathfinder`, and the **weekday** gives the mode — Friday
+games are online, Saturday games are in person. Neither the title nor the location is trusted for
+it: every event carries the same standing Zoom URL in its location, and a title can go stale when a
+game moves days. That URL is never copied into `where`, since this file is served publicly. The page converts that instant into
 **each reader's own local time**, so a player in Berlin is told the hour in Berlin, without any
 setting of their own.
 

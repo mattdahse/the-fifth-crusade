@@ -9,6 +9,8 @@
               Format: 'YYYY-MM-DDTHH:MM:00-07:00'  (24-hour clock; 17:00 = 5 PM)
               Set to null to say plainly that nothing is on the books.
    mode       'in-person', 'online', or 'hybrid' (a table with someone dialling in).
+              Friday games are online, Saturday games are in person — the day decides it,
+              never the calendar entry's title. 'hybrid' is only ever set by hand.
    where      optional — a room or a host's name. NEVER the Zoom link or its passcode:
               this file is served on the public site, and the calendar entries carry a
               standing meeting URL that must not be published.

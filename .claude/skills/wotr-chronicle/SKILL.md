@@ -141,21 +141,27 @@ other time Matt asks what's next.
 starts after now**. Do not assume the biweekly recurrence holds — single instances get cancelled
 (Maricopacon ate the 28 Aug 2026 game), and one-off sessions get added between them.
 
-**Read the mode off the title, not the location.** Every event — in-person ones included — carries
-the same standing Zoom URL in `location`, so location proves nothing. Titles have been written a
-dozen different ways over the years (`Online Pathfinder`, `In Person Pathfinder`, `In-person
-Pathfinder`, `Pathfinder In person`, `(in-person) Pathfinder`, `Pathfinder - In person`,
-`In-Person & Online Pathfinder`, `Online/In Person Pathfinder`, `Pathfinder (in Person except for
-Burt)`, plain `Pathfinder`). Match case-insensitively on the *substrings*, in this order:
+**The weekday decides the mode. Friday games are online; Saturday games are in person.** This is
+Matt's own rule and it is rock-solid — it beat the titles across every event of the past year:
 
-| Title contains | `mode` |
+| Event falls on | `mode` |
 |---|---|
-| both an in-person form (`in person` / `in-person` / `in Person`) **and** `online` | `'hybrid'` |
-| an in-person form only | `'in-person'` |
-| `online` only | `'online'` |
-| neither — a bare `Pathfinder` | **ask Matt**; never guess |
+| Friday | `'online'` |
+| Saturday | `'in-person'` |
+| any other day | no rule — **ask Matt** |
 
-A parenthetical about one player dialling in (`except for Burt`, `Online for Burt`) is a hybrid.
+**Do not read the mode off the title or the location.** Every event — the ones around a real table
+included — carries the same standing Zoom URL in `location`, so location proves nothing. Titles are
+written a dozen ways (`Online Pathfinder`, `In Person Pathfinder`, `(in-person) Pathfinder`,
+`Pathfinder - In person`, `In-Person & Online Pathfinder`, `Pathfinder (in Person except for Burt)`,
+plain `Pathfinder`) and they go stale: a recurring online game dragged onto a Saturday keeps the word
+"Online" in its name while the table meets in a room, which is exactly what happened on 6 Jun 2026.
+Where a title contradicts the weekday, **the weekday wins** — say so in the results so Matt can fix
+the calendar if he wants to.
+
+A parenthetical about one player dialling in (`except for Burt`, `Online for Burt`) does not change
+the mode: a Saturday game is in person. `'hybrid'` exists in `next-session.js` and halves the pill
+gold-and-green, but nothing derives it automatically — set it only if Matt asks for it.
 
 **Write the file** with the event's start in Arizona time (`-07:00`; the state keeps no DST, and the
 calendar is already `America/Phoenix`), and `runsHours` from the event's **own length** — end minus
