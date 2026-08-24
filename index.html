@@ -384,10 +384,13 @@
   .ns-pill{font-size:.6rem;letter-spacing:.11em;text-transform:uppercase;padding:.12rem .5rem;
     border-radius:20px;background:var(--accent2);color:var(--bg);white-space:nowrap}
   .ns-pill.online{background:var(--tl3)}
+  /* a table and a screen at once: the pill is halved, gold for the room, green for the call */
+  .ns-pill.hybrid{background:linear-gradient(100deg,var(--accent2) 48%,var(--tl3) 52%)}
   .ns-where{font-size:.82rem;color:var(--ink-soft)}
-  /* Too narrow to bracket: the notice wraps to its own stack, so the flanking rules come
-     away and the diamonds close around the kicker instead. */
-  @media (max-width:560px){
+  /* Too narrow to bracket on one line — and a hybrid pill or a named place makes that wrap
+     sooner than a phone. Below this the flanking rules come away and the diamonds close around
+     the kicker instead, so they never float beside a stack. */
+  @media (max-width:760px){
     .nextses{gap:0}
     .ns-line,.nextses>.ns-orn{display:none}
     .ns-k::before{content:'✦ '} .ns-k::after{content:' ✦'}
@@ -1519,11 +1522,14 @@ function renderNextSession(){
       time = start.toLocaleTimeString(undefined, {hour:'numeric', minute:'2-digit', timeZoneName:'short'});
     }catch(e){ day = start.toDateString(); time = start.toTimeString().slice(0,5); }
 
-    var online = String(s.mode||'').toLowerCase().indexOf('online') === 0;
-    var under  = now >= start;                            /* begun, but not yet run out */
+    /* the table's three shapes: a room, a call, or both at once (someone always dials in) */
+    var m = String(s.mode||'').toLowerCase();
+    var kind = m.indexOf('hybrid')===0 ? 'hybrid' : (m.indexOf('online')===0 ? 'online' : 'inperson');
+    var label = kind==='hybrid' ? 'In Person &amp; Online' : (kind==='online' ? 'Online' : 'In Person');
+    var under = now >= start;                             /* begun, but not yet run out */
     mid = '<span class="ns-k">' + (under ? 'Session Under Way' : 'Next Session') + '</span>'
         + '<span class="ns-when">' + esc(day) + ' · ' + esc(time) + '</span>'
-        + '<span class="ns-pill' + (online?' online':'') + '">' + (online?'Online':'In Person') + '</span>'
+        + '<span class="ns-pill ' + kind + '">' + label + '</span>'
         + (s.where ? '<span class="ns-where">' + esc(s.where) + '</span>' : '')
         + '<span class="ns-rel' + (under?' now':'') + '">'
         + (under ? 'in session' : esc(nsRelative(start, now))) + '</span>';

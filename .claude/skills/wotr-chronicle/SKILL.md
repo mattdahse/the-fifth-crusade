@@ -9,13 +9,14 @@ The campaign's **source of truth is the git repository** — the checkout you ar
 `drezen-archive` on each of Matt's three stations (two Macs and a PC). **Never hardcode an absolute
 path to it**; use repo-relative paths throughout, so the same instructions work at every station.
 Public GitHub Pages site: **https://mattdahse.github.io/the-fifth-crusade/**. Google Drive is a
-retired backup. Maintaining the archive after a session means up to **five** jobs — do all that apply:
+retired backup. Maintaining the archive after a session means up to **six** jobs — do all that apply:
 
 1. **Chronicle** — write the session's chapter and publish it.
 2. **Cast** — add any new persons of importance (allies, enemies, notable NPCs); mark the dead.
 3. **Secrets** — check the Fantasy Grounds Player Notes for anything new worth harvesting.
 4. **Calendar** — pull the session's new in-world days out of Fantasy Grounds.
 5. **Player draft** — leave a Gmail *draft* to the players linking the latest session.
+6. **Next session** — read the next game off Matt's Google Calendar into `next-session.js`.
 
 ## Repository layout
 
@@ -23,6 +24,8 @@ retired backup. Maintaining the archive after a session means up to **five** job
 - `secrets/*.md` — a **parallel corpus** of in-world documents (the "Secrets" tab), grouped by filename prefix: `dream-`, `follower-`, `letter-`, `lore-`, `staunton-vhane-journal-`.
 - `index.html` — the reader app. **The Cast is hand-authored here** (the `CAST` array), NOT built from source.
 - `bible/00-style-and-prompt-guide.md`, `02-dramatis-personae.md`, `03-lore-and-locations.md` — authoring reference; Matt curates these.
+- `next-session.js` — the next game's date, mode and length, read by the site header. Hand-written JS,
+  **not** build output; it is not touched by `build.ps1`.
 - `build.ps1` — compiles `source/*.md` + `secrets/*.md` → `data.js`. Run after any source/secrets change.
 - `extract-calendar.ps1` → `bible/06-in-world-calendar.json` — the campaign's in-world dates, pulled from Fantasy Grounds. Paired with `bible/06-in-world-calendar.md`, the hand-written prose calendar. **Neither is published** — they are authoring reference, not site content.
 - Chapters are **not numbered in the markdown**; the build assigns each book's Roman numeral by position (last = `Epilogue`). Each chapter's **real-world play date** is read from its subtitle line (`*<Month Day, Year> session — …*`) and shown on the site. Recordings are **not surfaced** on the site (Matt finds them in Fathom by date), but every chapter written from a recording carries a `<!-- fathom: call=<call-id> recording=<recording-id> -->` line — see **Recording metadata** below. If a subtitle can't carry a full date, add `<!-- date: Month Day, Year -->`.
@@ -127,6 +130,45 @@ rather than inventing dates.
 2. Commit & push (outward-facing publish — proceed, it's the skill's purpose, and tell Matt it's live):
    `git commit -am "Add <title>"` then `git push`, from the repo root. Pages redeploys in ~1 min; verify against the live URL.
 3. **Leave a Gmail draft** to the players linking the latest session — use the Gmail `create_draft` tool. **Draft only; never send** (Matt reviews and sends). Recipients (from the sent recaps): `madcat451@gmail.com` (Marco/Varic), `tstory@rocketmail.com` (Steve/Rabiah), `fenrisdahse@gmail.com` (Fenris/Lupenor), `burticvs@hotmail.com` (Burt/Harlock) — plus `dk2player@gmail.com` if he's a current player (confirm with Matt or the calendar invite). Keep it short: subject like `Pathfinder recap — <Chapter Title> (<date>)`, a one- or two-line teaser, and the site link. To deep-link the new chapter, use `https://mattdahse.github.io/the-fifth-crusade/#/read/ch<order>` where `<order>` is the new chapter's global position (= total chapter count after the build); otherwise link the site root and name the chapter.
+
+## Workflow — 6. The next session (Google Calendar → `next-session.js`)
+
+The site header announces the next game. Refresh it whenever a session is chronicled, and any
+other time Matt asks what's next.
+
+**Find it.** `list_events` on the primary calendar with `fullText:"Pathfinder"`,
+`orderBy:"startTime"`, `startTime:` now, `timeZone:"America/Phoenix"`. Take the **first event that
+starts after now**. Do not assume the biweekly recurrence holds — single instances get cancelled
+(Maricopacon ate the 28 Aug 2026 game), and one-off sessions get added between them.
+
+**Read the mode off the title, not the location.** Every event — in-person ones included — carries
+the same standing Zoom URL in `location`, so location proves nothing. Titles have been written a
+dozen different ways over the years (`Online Pathfinder`, `In Person Pathfinder`, `In-person
+Pathfinder`, `Pathfinder In person`, `(in-person) Pathfinder`, `Pathfinder - In person`,
+`In-Person & Online Pathfinder`, `Online/In Person Pathfinder`, `Pathfinder (in Person except for
+Burt)`, plain `Pathfinder`). Match case-insensitively on the *substrings*, in this order:
+
+| Title contains | `mode` |
+|---|---|
+| both an in-person form (`in person` / `in-person` / `in Person`) **and** `online` | `'hybrid'` |
+| an in-person form only | `'in-person'` |
+| `online` only | `'online'` |
+| neither — a bare `Pathfinder` | **ask Matt**; never guess |
+
+A parenthetical about one player dialling in (`except for Burt`, `Online for Burt`) is a hybrid.
+
+**Write the file** with the event's start in Arizona time (`-07:00`; the state keeps no DST, and the
+calendar is already `America/Phoenix`), and `runsHours` from the event's **own length** — end minus
+start, rounded to the half hour. Online games run about 5 hours, in-person ones 8–11, and that
+length is what keeps the header honest about a session being under way.
+
+**Never copy `location` into `where`.** It is a live Zoom URL with its passcode, and this file is
+served on the public GitHub Pages site. Leave `where` empty unless Matt gives a publishable
+plain-language place ("Steve's table").
+
+If no future Pathfinder event exists, set `when: null` — the header then says the next session is
+not yet scheduled, which is the truth. Say so in the results rather than carrying an old date
+forward.
 
 ## Illustrations & the house art style
 

@@ -88,14 +88,17 @@ hand-edited file, [`next-session.js`](next-session.js):
 
 ```js
 window.NEXT_SESSION = {
-  when: '2026-09-05T18:00:00-07:00',   // Arizona time — always -07:00; the state keeps no DST
-  mode: 'in-person',                    // 'in-person' or 'online'
-  where: '',                            // optional — a table, a room, a voice channel
-  runsHours: 5                          // optional — how long a session runs
+  when: '2026-09-11T17:00:00-07:00',   // Arizona time — always -07:00; the state keeps no DST
+  mode: 'online',                       // 'in-person', 'online', or 'hybrid'
+  where: '',                            // optional — a room or a host; never the Zoom link
+  runsHours: 5                          // the calendar event's own length
 };
 ```
 
-Set the date after each game, alongside the new chapter. The page converts that instant into
+The `wotr-chronicle` skill writes this from Matt's Google Calendar as part of publishing a session:
+it takes the first future event matching `Pathfinder` and reads the mode off the **title** — the
+in-person events carry the same standing Zoom URL in their location, so location proves nothing.
+That URL is never copied into `where`, since this file is served publicly. The page converts that instant into
 **each reader's own local time**, so a player in Berlin is told the hour in Berlin, without any
 setting of their own.
 
