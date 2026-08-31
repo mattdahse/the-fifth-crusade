@@ -1,319 +1,288 @@
-# Follower Threads
+# Follower Threads — The Road
 
-A GM-side outline for the **secondary storyline of the cohorts** — Chyrrik, Mira Thistledance,
-Elara Dawnstrider, Rothin Vald and Cornelia Dewfoot — while the company itself is four days west
-at the Ivory Sanctum.
+A GM-side outline for the **secondary storyline of the cohorts**, built around **Chyrrik** and the
+two-day thread between Drezen and the Sarian Fane.
 
 This file is **planning, not chronicle**. Nothing here is canon until it happens at the table.
-Each section separates **what is already on the page** (cite it, build on it) from **proposed
-threads** (take them, bend them, throw them out). Move anything that actually plays into
-`source/` and the calendar in the usual way, and strike it from here.
+Each section separates **what is already on the page** from **proposed** material. Move anything
+that plays into `source/` and the calendar in the usual way, and strike it from here.
+
+*Resolved and deliberately absent: the beacon, the leak of Rabiah's birthmark, Cornelia's hunt for
+the hunters, and Ashi Waxentong — all settled or settling in play. Cornelia is given a new task
+below, on the road.*
 
 ---
 
-## The spine
+## Why this is Chyrrik's story
 
 > **Book III, *The Fane Remade*:** *"The Fallen Fane was two hard days from Drezen — too far to
 > garrison, too remote to supply."*
 
-They garrisoned it anyway. Everything below hangs off that one line. The crusade's westernmost
-holding is joined to its only walls by a thread with no road, no waystation, and no relay — and
-that thread is one mongrelman ranger who asked not to be given the job.
+They garrisoned it anyway, and the whole arrangement rests on one ranger.
 
-So the secondary storyline is not five small stories. It is one story about **the crusade's
-nervous system**, told from the five places along it:
+She is the ideal courier, and the chronicle has spent three books proving it. She reads the
+Worldwound "the way other people read a signpost." She finds ground "that could not be seen easily
+from any two directions at once." She walks out last and **leaves no tracks of her own**. Nothing
+in the Marchlands can follow her home.
 
-```
-  THE SARIAN FANE  ────────  the road  ────────  DREZEN
-  Rothin commands            Chyrrik runs it     Mira listens
-  the outpost                 (2 days, no road,   Elara trains
-  Adara · Brix · Oswin        no waystation)      Cornelia hunts
-  Tobias · Fenna
-  Deren · Sera · 3 paladins
-```
+She is also the single most compromised link in the crusade, and the chronicle has spent three
+books proving *that*:
 
-Everything each of them does is limited, delayed, or falsified by the two days between them.
-The company cannot fix this from the Ivory Sanctum. That is the point.
+| Where | What happened |
+|---|---|
+| **Citadel Drezen** | A succubus turned her and she put an arrow into **Lupenor**. *"She has never been allowed to forget it, and has never asked to be."* |
+| **The northern waste** | A Derakni's drone *"caught **Chyrrik** first, and everybody who had been at the Citadel stopped breathing"* — and she refused it outright. |
+| **The Red Swarm's road, 18 Neth** | Puppeted again. Made to step sideways into a blade barrier. She nearly broke the hold, *"and it was not enough."* **She died shooting at her own mistress.** Harlock spent his only scroll of ***Resurrection***; Varic burned a ***Restoration***. Rabiah: *"She might remember firing arrows at me,"* and would not talk about it any further. |
+
+**That is the premise.** The safest courier in the crusade is also the most subvertible one, and the
+two facts are the same fact — she travels alone, unescorted, unwitnessed, out of contact, twice a
+week, through country that has taken her mind three times. If she is turned on that road, she does
+not disappear. **She arrives on schedule, with the right face, carrying the right seal.**
+
+Nobody has said this out loud yet. The storyline is the crusade working it out.
 
 ---
 
 ## Standing conditions — already on the page
 
-Do not contradict these; they are the load-bearing facts.
-
-- **The Fane is held.** Varic gave **Rothin Vald** command of the outpost (*The Founding of the
-  Fane*). Staying west: Rabiah's laborers (**Tobias Runt**, **Fenna Tusk**), Harlock's trainees
-  (**Deren Ashfall**, **Sera Vost**), Rothin's acolytes (**Adara Seln**, **Brix Copperfinch**,
-  **Oswin Tall**), and three more of Harlock's paladins delivered on the 21st of Neth.
-- **Chyrrik was posted as runner on the 21st of Neth**, "though she begged not to be left and wept
-  when she obeyed." She loves the broken country better than any of them. She has an adaptive
-  composite longbow and a *Pearl of Power*, and she rearranges her spell list for the job in front
-  of her.
-- **Elara Dawnstrider is back in Drezen.** Rabiah carried her home the same evening. Her report to
-  Harlock was the officer's worst: *plenty of recruits, and no way to train them.* The Preservers
-  outgrow anyone who can teach them, ecclesiastically or martially.
-- **The letters are out and unanswered.** Harlock wrote the Church of Iomedae over Elara's advice
-  — money split between a sweetener and quarters-and-food for whoever is sent; Varic put in a
-  thousand unasked. **Irabeth carried them herself** rather than trust a courier. No reply has
-  come.
-- **Mira runs the ear.** She screens applicants at the Celest House and asks them about trading
-  houses in Kenabres. Lupenor's Market is "a standing reservoir of rumor" with enough traffic
-  through the stalls to answer nearly any question by asking the right stallholder.
-- **Cornelia stayed behind in Drezen** with the sharp end of the beacon business: *find who is
-  talking about the birthmark, find who painted it, find where that bracelet came from.* Working
-  with her: **Sir Brannic Vayne** above, **Tilda Merrow** below, and **Tathus** — the young priest
-  running Drezen's temple in Rothin's absence — lent quietly by Varic.
-- **The trail is already cold.** **Smendrick** the dwarven jeweller was honest. The girl who
-  commissioned the beacons — *brown-haired, human, freckled, no name given and none asked* — has
-  melted out of the city.
-- **The road already leaks.** A crusader patrol passed through the Fane and *was followed*; a dozen
-  and more **Brimoraks** fell on the shrine and it barely held. **Samuel** died there and Varic
+- **Chyrrik was posted as runner on the 21st of Neth**, *"though she begged not to be left and wept
+  when she obeyed."* She loves the broken country better than any of them. She pledged herself to
+  **Rabiah's** service in a commander's office in Kenabres, and has served since.
+- **She is not a weak NPC.** ***+4 Mithril Scale Mail***, a ***Belt of Dwarvenkind***, an adaptive
+  composite longbow, a keen longsword, a ***Pearl of Power***, an amulet of natural armor, and the
+  ranger's trackless step. She rearranges her spell list for the job in front of her.
+- **There is already a track.** The route west runs the **Ahari Riverbed**, *"the same route the
+  party had traveled twice before, now worn into something approaching a road by crusader
+  traffic."* The bed gives concealment from above and flash floods and tick swarms; the banks are
+  safe underfoot and exposed to the sky.
+- **The track is watched.** A crusader patrol passed through the Fane and *was followed*. A dozen
+  and more **Brimoraks** fell on the shrine; it barely held; **Samuel** died on that wall and Varic
   raised him.
-- **Horgus Gwerm** left with *"you will regret this"* on his lips, and a standing order that he
-  receive not one soldier of Drezen save by Irabeth's own word. He is still the crusade's
-  quartermaster.
+- **The Fane holds something worth taking** — the copy of the cartographer's Marchlands chart,
+  carried there by the spy whose name nobody would give them, now marked with **Scorizscar**'s den
+  *"so that whoever came for the caravans would not have to find the place twice."* Caravans are
+  already assumed.
+- **Rothin Vald commands the outpost.** With him: **Adara Seln**, **Brix Copperfinch**, **Oswin
+  Tall**, **Tobias Runt**, **Fenna Tusk**, **Deren Ashfall**, **Sera Vost**, and three of Harlock's
+  paladins.
+- **Elara Dawnstrider is in Drezen** with plenty of recruits and no way to train them, and letters
+  to the Church of Iomedae carried out by **Irabeth** herself and not yet answered.
+- **Mira Thistledance** runs the Celest House vetting and *"a standing reservoir of rumor."*
+- **Horgus Gwerm** holds the crusade's supply, left the company with *"you will regret this,"* and
+  is under a standing order to receive not one soldier of Drezen save by Irabeth's word. **He is
+  also on record, from Book I, in open disgust at the mongrelmen** — *"whose disgust the mongrels
+  bore in weary silence."*
+- **Neathholm exists and owes them.** Chief **Chusul**, the guide **Lann**, the guide **Grew** —
+  mongrelmen of the deep beneath Kenabres, descendants of the corrupted First Crusade.
 
 ---
 
-## Chyrrik — *The Road That Isn't There*
+## The arc, in four acts
 
-**The job:** two days each way, no road, no waystation, no relay. She is the entire link.
+### Act I — The road becomes a thing
 
-**Her arc in one line:** she was left behind and wept — and discovers that the road is not a
-demotion, it is the reason the crusade can hold anything west of Drezen at all.
+Chyrrik's first professional judgment is the one that starts everything: **she stops using the
+Ahari track.** Crusader traffic has worn it into something approaching a road, the brimoraks proved
+what follows a road home, and she will not walk a line anyone can predict. So she cuts her own —
+different every trip, chosen off the ground she is standing on.
 
-**Threads**
+This is correct, and it is the seed of every problem below, because a courier nobody can predict is
+a courier **her own side cannot find, cannot meet, cannot escort, and cannot verify.**
 
-1. **The chain of hides.** She cannot walk it forever without cover. She starts making it: caches,
-   blinds, a hole at the halfway mark. Play out the halfway point as a *place* — she picks the
-   ground, she names it, and it is on the map because she put it there. Then it becomes something
-   worth attacking. This is the whole waystation problem played as a character arc rather than a
-   downtime expenditure.
-2. **Two days stale.** Treat the lag as a hard mechanic, not colour. Anything Drezen knows about
-   the Fane is forty-eight hours old and vice versa. Run one session where the party acts, correctly
-   and disastrously, on a report that was true when it was written.
-3. **Something learns her.** The brimoraks followed a patrol. The next thing follows *her* — and
-   the interesting version is a hunter that **times** her rather than ambushes her. Her counter is
-   to stop being predictable, which means **her own side stops knowing where she is**, which is
-   how a runner gets shot by her own pickets (see Elara, thread 2).
-4. **The dispatch that is a lie.** The payoff of 2 and 3. Right hand, right seal, wrong content —
-   or worse, she is taken, *read*, and released without ever knowing it. A campaign where the GM
-   can legitimately misinform the players is worth a great deal; this thread is what buys it.
-5. **Relays.** She needs other runners and there is nobody. Who will a crusader country accept as
-   a courier? Options, in ascending order of interest: crusader regulars (dull, and they get
-   followed), the Fane's own laborers (they start dying on her road), or **Neathholm** — she sends
-   for her own people, and the crusade has to decide what it thinks about a mongrelman postal
-   service. That last one is the one with a story in it.
-6. **What else is in the pack.** She is the only regular traffic between the two places. Sooner or
-   later somebody uses her for something she did not agree to carry.
-7. **The moment.** Give her one — the day the company survives because the road existed, and she
-   is standing there to hear it said out loud.
+*Beats*
 
----
+1. **She makes the halfway hole.** One day out, ground of her own choosing. A cache, a blind, water.
+   Play it as a *place* — she picks it, she stocks it, she names it. It goes on the Marchlands chart
+   because a follower put it there. (New `maps/marchlands.md` entry when it lands.)
+2. **The first near-miss at the gate.** A Preserver eight days sworn, on picket at dusk, sees a
+   beaked and scaled thing coming in off the Marchlands at a run, on a line nobody was told about.
+   Run it from **Elara's** side: close enough to hear the shout, not close enough to stop it.
+3. **The challenge system.** Elara's answer is a password and a countersign. It is the right answer
+   to Act I and precisely the wrong answer to Act III, because **a dominated courier knows the
+   password.** Let them build it and be pleased with it.
+4. **Somebody is pricing the road.** From the market side, **Mira** notices goods bound west being
+   priced as though the route were known and the risk quantified. Somebody is selling knowledge of
+   a road that is supposed to be a secret held by one person.
 
-## Mira Thistledance — *What the Market Knows*
+### Act II — The load
 
-**The job:** merchant connections and a bard's ear, turned on Drezen.
+The thread was sized for messages. It starts carrying weight.
 
-**Her arc in one line:** she learns that an intelligence service is a membrane, and that everything
-she pulls through it can be pushed back the other way.
+**The central bind, and it does not have a clean answer:** *a secret road cannot be supplied, and a
+supplied road cannot be secret.* Chyrrik is the exception that makes the Fane possible, and the
+exception cannot scale.
 
-**Threads**
+*Beats*
 
-1. **Her questions are the leak.** She vets stallholders by asking about Kenabres trading houses.
-   Somebody works out what the Redeemers do not know by cataloguing **what Mira keeps asking
-   about**. The counter-play is deliberately asking about things she does not care about, which
-   costs her real intelligence to run.
-2. **The girl who is nearly Mira.** ⭐ The jeweller's client was *brown-haired, human, freckled*.
-   So is Mira, near enough — and the chronicle already frets that she blurs with Lupenor. Someone
-   has either built a decoy in her likeness, or has been walking around Drezen **opening doors with
-   Mira's face and reputation**, and the first Mira hears of it is a shopkeeper greeting her warmly
-   for a conversation she never had. This braids the beacon plot into the market plot in one stroke
-   and puts a follower personally in the crosshairs.
-3. **The well she poisons.** She begins paying for rumor. Her sources learn that inventing rumor
-   pays just as well. Her first serious miss should be an honest one — bought, corroborated, and
-   entirely fabricated by three people who each independently discovered that Mira has money.
-4. **Horgus Gwerm's ledger.** He has a grudge, a threat on record, and the crusade's supply in his
-   hands. Mira's trade eyes are the natural counterweight. The trap worth setting: he is **crooked
-   and also right** — the Fane genuinely cannot be supplied on the current arrangement, and the
-   only man saying so out loud is the one nobody will listen to.
-5. **The counter-ballad.** **Callan Thornwind** wrote the company's ballad and was a Templar asset
-   from before they met him; enemy song is established precedent. Mira can answer in kind. Ask the
-   players explicitly whether they authorize propaganda — and then let it work rather too well, in
-   a direction they did not choose.
-6. **The rejection.** She screens people. Eventually she must refuse someone she likes, or clear
-   someone she should not have. Both are better if she is right about the person and wrong about
-   the risk.
+1. **Pilgrims.** The **Herald of Sarenrae** came through a gate at that shrine and re-hallowed it.
+   Word of that does not stay quiet. Refugees and devotees start arriving at a place that cannot
+   feed them, and **Rothin** cannot turn them away without deciding what kind of house he is
+   keeping. The demand he generates is what breaks the road.
+2. **Which means caravans.** Which means a published route, escorts, and a waystation — everything
+   Chyrrik abandoned in Act I, undone by the Fane's own success.
+3. **Which means Horgus Gwerm.** The supply is his. He has a grudge on the record and contempt for
+   mongrelmen on the record, and he is the only man in Drezen with the numbers. **Play him as
+   hostile and correct**: the Fane genuinely cannot be held on the current arrangement, he has been
+   saying so, and nobody will hear it from him. Irabeth has to adjudicate.
+4. **Which means escorts, and the only bodies are Elara's.** Untrained recruits with more zeal than
+   discipline, walking a road whose whole safety was that nobody walked it.
+5. **The chart.** Whoever wants the road wants the Fane's copy of Selyse's map. It is the one
+   document that turns a secret route into a campaign.
 
----
+### Act III — The turn
 
-## Elara Dawnstrider — *Zeal Without a Whetstone*
+The thing hunting the road stops trying to intercept her. Against a courier who cannot be caught,
+the correct play is not to catch her. It is to **take her** — and the enemy has three precedents to
+work from.
 
-**The job:** an influx of recruits with more zeal than discipline or skill, and no instructors.
+**The dread here is doubt, not surprise.** The party already knows this can happen, because it has
+happened three times, and one of those times they buried what was left of her. Every dispatch after
+this point is a question.
 
-**Her arc in one line:** she is quietly becoming the person who actually runs Iomedae's Preservers,
-and the order is going to find out what it is before Harlock gets home to decide.
+**How it lands — pick one:**
 
-**Threads**
+- **(a) Taken and used.** She arrives on schedule, correct in every particular, and something in
+  Drezen or the Fane goes wrong four days later. Slowest, coldest, hardest to prove.
+- **(b) Attempted and refused.** She throws it off — as she did the Derakni — and **reports it
+  herself.** Which is the most dangerous thing she can possibly do, because reporting it is exactly
+  what gets her taken off the road. Her integrity is the trap.
+- **(c) ⭐ Taken, broken by her own effort, and not reported.** She wins, alone, and says nothing —
+  because she wept when they left her behind and she will not be left again. The failure is not
+  weakness. It is love, and it is entirely in character.
 
-1. **The reply from the Church.** Four ways it can land, ranked by how much story is in them:
-   **(a)** nobody comes; **(b)** too few come, too late; **(c)** the right instructors come and are
-   excellent, and the bill for their upkeep breaks Drezen's supply — which hands the problem to
-   Mira and Horgus; **(d)** ⭐ they send a superb trainer who is **also an inspector**, sent to
-   determine whether the Preservers are an order of Iomedae or a personality cult built around one
-   half-orc. Harlock is four days west and cannot answer for himself. Elara must.
-2. **The atrocity of the righteous.** ⭐ The centrepiece. A recruit does something monstrous while
-   doing exactly what he was taught. The best target is **Chyrrik** — a new Preserver on picket
-   duty, told demons come out of the west, who has never met her, sees a beaked and scaled thing
-   coming in off the Marchlands at dusk on a route she changed *specifically so it could not be
-   predicted*, and shoots. It braids two threads in one incident, it is the direct consequence of
-   both characters doing their jobs correctly, and nobody in it is a villain.
-   *(Second-best targets, if you want it uglier and slower: **Arueshalae**, sheltered by the company
-   and unknown to every recruit sworn in since; or **Joran Vhane**, who surrendered and is asking
-   for a forge.)*
-3. **She is the better officer and everyone knows it but Harlock.** The chronicle says outright
-   that her diplomacy has always been better than his, and she has already talked him out of a bad
-   allocation of five thousand gold. Let that compound. The question is not whether she is capable
-   — it is whether she wants it, and what she does the first time she is right and he is not there
-   to be overruled by.
-4. **Zeal is the easiest thing to counterfeit.** An enthusiastic recruit is the cheapest cover in
-   Drezen. Ties directly to Cornelia's hunt: whoever placed the beacons wants proximity, and the
-   Preservers are recruiting faster than anyone can vet.
-5. **The washout.** She has to turn someone away — probably someone brave, devout and hopeless.
-   Her first command decision that costs her something.
-6. **A rival school.** Somebody else in Drezen offers to train them: faster, cheaper, harder, and
-   at a price to the order's soul. A veteran with a mercenary's doctrine, a Sarenrite offering
-   something gentler than the Preservers can afford, or a Kenabres survivor teaching hatred as a
-   discipline and getting results.
+**(c) is the recommendation.** It puts the crisis on the company's judgment rather than on
+Chyrrik's, it does not require her to lose, and it gives the discovery to somebody else — which is
+where the rest of the cast comes in.
+
+*How it surfaces*
+
+- **Mira catches it from the ledger.** Not from a spy: from a discrepancy. What the Fane records as
+  received does not match what Drezen records as sent, by one item, on one trip.
+- **Rothin gets a dispatch that smells wrong** — right hand, right seal, right countersign, one
+  small thing out of character in the phrasing — and must decide, alone, two days from anyone who
+  could tell him.
+- **Cornelia already knows** (see below), and has to decide whether to say so.
+
+### Act IV — The decision
+
+The company is presented with a problem that has no good answer, about someone they love, and every
+option costs.
+
+| Option | What it costs |
+|---|---|
+| **Take her off the road** | She breaks. She already begged not to be left, and this time it is because they do not trust her mind. |
+| **Keep her on it, warded** | Real resources every trip — *Protection from Evil*, a *Ring of Mind Shielding*, ultimately *Mind Blank*. And every ward says out loud: *we expect you to fail again.* |
+| **Replace her with Neathholm** | The crusade must formally take mongrelmen into its service, in the open, past Horgus, past a Preserver corps that shoots at silhouettes, past Irabeth's ruling. |
+| **Publish the road** | Build the waystation, escort the caravans, accept that the Fane is now a place with an address. |
+
+**Nobody at the table gets to pick only one.** The interesting session is the argument.
 
 ---
 
-## Rothin Vald — *The Door and the Altar*
+## What it does to the campaign
 
-**The job:** command of an outpost that is also a consecrated shrine of Sarenrae, thirty miles
-from help.
+This is why the thread is worth running rather than narrating.
 
-**His arc in one line:** every ruling he makes alone becomes doctrine for the whole western
-Marchlands, and the company hears about it two days later.
-
-**Threads**
-
-1. **A shrine that is also a fort.** Sarenrae's church is a redemption faith and Rothin is now
-   running a killing ground with paladins on the wall. He has to set the standing rule for what
-   happens at that gate, and he has to set it before he is ready.
-2. **Sanctuary.** ⭐ Someone comes to the door asking for it. The sharpest version is a **Templar
-   of the Ivory Labyrinth** — a deserter, or claiming to be. Rothin decides alone. Whatever he
-   decides is the answer the Marchlands now has, and Varic finds out about it from a runner.
-3. **Pilgrims.** The Herald of Sarenrae came through a gate here and re-hallowed the place. Word of
-   that does not stay quiet. People start arriving — refugees, devotees, the desperate — and
-   feeding them is impossible on a two-day thread with no road. **This is the pressure that makes
-   Chyrrik's road load-bearing**, and the point where the Fane's story and Drezen's supply story
-   become one story.
-4. **Two temples, one priest.** **Tathus** is running Drezen's temple in his absence, and is
-   currently on loan to Cornelia's investigation. A young priest left alone with a congregation
-   develops opinions. Varic's own church begins doing things Varic did not authorize — not
-   corruptly, just *differently* — and Rothin cannot be in both places to stop it.
-5. **Brix Copperfinch digs.** The gnome is a scholar of pre-Worldwound Sarkorian worship of
-   Sarenrae, permanently late and permanently talking, and he is now living inside a Sarkorian
-   shrine of Sarenrae. He will find something in the stonework. Use him as a low-cost lore engine
-   that can be turned sharp at any time.
-6. **Samuel came back.** A man died on that wall and was brought across the threshold again, and
-   Rothin stood there and watched it done. Worth one quiet scene about what the survivors of the
-   garrison now believe about their own odds — and whether that belief is making them brave or
-   making them careless.
+1. **It settles whether the crusade can hold anything west of Drezen.** The Fane is the prototype
+   for every forward holding after it. If the thread works, the crusade can push into the
+   Marchlands. If it does not, Drezen is the western limit and the company's reach is whatever
+   Rabiah can teleport.
+2. **It forces the mongrelman question into the open.** Neathholm couriers means the crusade
+   publicly accepts the descendants of the corrupted First Crusade into its own service, with
+   Horgus opposing and Irabeth ruling. That is a permanent change to the setting and a payoff for
+   Book I that has been sitting unclaimed for two books.
+3. **It puts a new place on the map** — a waystation made by a follower, which then has to be
+   defended, which is the next problem.
+4. **It makes every dispatch untrustworthy, permanently.** A GM who can legitimately misinform the
+   players is worth a great deal, and this arc buys it honestly.
+5. **It resolves Chyrrik.** She either becomes the one thing in the Worldwound that cannot be
+   turned, or she is turned finally — and the company has to decide what to do about someone they
+   have already spent a *Resurrection* on once.
 
 ---
 
-## Cornelia Dewfoot — *Nobody Sees a Child*
+## The rest of the cast, pointed at the road
 
-**The job:** run down the beacon, the jeweller's girl, and the leak of Rabiah's birthmark.
+### Cornelia Dewfoot — *the bird over the road*
 
-**Her arc in one line:** she is the sole survivor of the first company of marked children, and she
-is now hunting the same kind of hunter on behalf of the second.
+Her hunt is finished; give her this instead. She is a druid who is a fox and a kestrel, she reads
+as a child, and **she is the only redundancy the road can have.**
 
-**Threads**
+- **The second channel.** A bird flies the two days in a fraction of the time and by no route at
+  all. She becomes the crusade's other thread — unpredictable, unfollowable, and unable to carry
+  anything heavier than a word.
+- **⭐ The check Chyrrik does not know about.** Someone — Rabiah alone, most likely — quietly puts
+  Cornelia over the road *to watch the runner.* It is a betrayal of a woman who died for them, and
+  it is also the correct call, and both of those stay true. It is the reason the party finds out
+  about Act III at all. And when Chyrrik learns she has been watched, after everything: that is the
+  payload.
+- **Cornelia has an opinion about being the one who is watched.** She was the only survivor of the
+  first company of marked children. She knows what it is to be the thing everyone is careful
+  around.
 
-1. **She is the only other one.** This is the emotional centre of the entire follower storyline and
-   should not be spent cheaply. Everything she learns, she is learning twice — once for Rabiah, and
-   once against her own memory of how it went the first time.
-2. **A cold trail through helpful people.** The jeweller was honest. The girl is gone. The
-   description — brown hair, freckles, human — fits a third of Drezen, and **that is why it was
-   chosen**. Run an investigation where nobody lies, everybody cooperates, and nothing is learned;
-   then let the break come from something nobody thought to mention.
-3. **Her cover is her wound.** She reads as a child and can be a fox or a bird, so she goes
-   everywhere and nobody minds her. The cost is that people say things in front of a little girl
-   that they would never say to an adult — including, eventually, things about her.
-4. **What she does not report.** ⭐ The dangerous one. She finds something about the marked
-   children and keeps it back, because she watched the first company die and has a settled opinion
-   about what should have been done differently. A loyal follower with a secret from her patron is
-   the best engine in this whole document — and it is entirely in character.
-5. **There are others.** If there was a first company and a second, the second was not made of one
-   child. She starts finding where the others were taken from, or who else is still out there and
-   does not know what they are.
-6. **And she cannot tell anyone.** Her patron is four days west and the mail is a mongrelman with a
-   bow. Whatever Cornelia finds, she sits on for two days minimum — or spends something precious to
-   get it there faster.
+### Elara Dawnstrider — *the pickets and the escorts*
 
----
+- Her recruits are the gate that Chyrrik has to come through, and the escort the caravans will
+  need. Zeal without discipline, on the two jobs where discipline is the entire point.
+- The challenge-and-countersign she builds in Act I is her competence — and its failure in Act III
+  is not her fault, which is worse for her than if it were.
+- **The reply from the Church of Iomedae** is still the lever on her own arc. The version with the
+  most in it: they send a superb instructor who is *also an inspector*, sent to determine whether
+  the Preservers are an order of Iomedae or a personality cult around one half-orc — with Harlock
+  four days west and Elara answering for him.
 
-## The braid
+### Mira Thistledance — *the only independent check*
 
-The threads cross at four places. Keep these crossings and the five arcs stay one storyline.
+- **The market is the audit.** She is the one place the road's traffic can be verified against
+  something that is not the road's own paperwork. Act III surfaces through her ledger.
+- **Who is buying road knowledge**, and what they paid, and in what currency.
+- **Horgus.** Her trade eyes against the quartermaster's ledger — with the trap that he is right.
+- **The poisoned well.** She pays for rumor; her sources learn that inventing it pays as well. Her
+  first serious miss should be honest — bought, corroborated, and wholly fabricated by three people
+  who each discovered independently that Mira has money.
 
-| Crossing | Who | What it does |
-|---|---|---|
-| **The beacon** | Cornelia → Mira → Elara | The girl is found through the market; the infiltration route is the recruiting queue. |
-| **Supply** | Rothin → Mira → Horgus | Pilgrims at the Fane break the supply line; the only man with the numbers is the one under a standing order. |
-| **The picket** | Chyrrik ↔ Elara | An unpredictable runner and an untrained sentry. Nobody is at fault. |
-| **The lag** | everyone | Two days. Every decision above is made on stale information by someone who cannot ask. |
+### Rothin Vald — *the far end*
 
-**An escalation ladder for the road**, if you want one spine to run the whole arc on:
-
-1. **Watched** — she is being observed and does not know it. Small tells: a cache disturbed, prints
-   that double back.
-2. **Read** — a dispatch reaches its recipient having been opened. The company acts on good
-   information that the enemy also holds.
-3. **Used** — a message arrives that was never sent, or is sent and never arrives. The Fane and
-   Drezen each believe something false about the other.
-4. **Cut** — the road closes. The Fane is alone, Drezen does not know it, and the company is at the
-   Ivory Sanctum.
-
-Step 4 is the natural act break. Step 2 is where the players should first *suspect* and be unable
-to prove it.
+- **He generates the load** that breaks the road: sanctuary, pilgrims, refugees, and a redemption
+  faith running a killing ground.
+- **He is the one who has to act on a dispatch he cannot verify**, alone, two days from help. Every
+  ruling he makes becomes the western Marchlands' doctrine, and Varic learns it from a runner.
+- **Brix Copperfinch** — a gnome scholar of pre-Worldwound Sarkorian worship of Sarenrae, living
+  inside a Sarkorian shrine of Sarenrae. A cheap lore engine that can be turned sharp whenever you
+  want it.
 
 ---
 
 ## Decisions this needs from Matt
 
-These change which threads are live, and only you can answer them:
-
-- **Does the Church of Iomedae answer, and with what?** Option (d) — an inspector — reframes
-  Elara's entire arc and puts Harlock's order on trial in his absence.
-- **Whose agent was the jeweller's girl?** The **Templars of the Ivory Labyrinth** (established,
-  tidy, already the Fane's former tenants), **Ashi Waxentong** (a name and nothing else — this
-  would be his second reach at the company's support staff after Selyse's maps), or a third party
-  who wants Rabiah alive and locatable rather than dead.
-- **Is Horgus Gwerm corrupt, or merely hostile and correct?** The second is a better antagonist and
-  a worse problem.
-- **Does Chyrrik get relays, and from where?** Neathholm is the answer with a story in it, and it
-  commits the campaign to a position on mongrelmen in the crusade.
-- **Does Cornelia keep something back?** Say yes early or the thread never grows teeth.
+- **Who wants the road?** With Ashi Waxentong spent, the grounded candidates are the **Templars of
+  the Ivory Labyrinth** (the Fane was theirs, they moved through that country in numbers, and they
+  have every reason to want it back), whatever sent the **brimoraks** that followed the patrol home
+  (established and still unattributed — a clean slot), or plain raiders in the tradition of the
+  South Bank men who took the baggage camp in Book II.
+- **Does Chyrrik get turned, and which way (a / b / c)?** Everything downstream hangs on this.
+- **Does anyone put Cornelia over the road without telling her?** And if so — Rabiah alone, or the
+  company together? Alone is better.
+- **Does the Church of Iomedae answer, and with an inspector?**
+- **Does Irabeth rule for Neathholm?** This is the one with permanent consequences for the setting.
+- **Is Horgus corrupt, or merely hostile and right?** The second is a better antagonist and a worse
+  problem.
 
 ---
 
-## Three scenes playable now
+## Four scenes playable now
 
-Small enough to drop into the front or back of a session while the company is still west.
+Small enough to drop into the edge of a session while the company is still west.
 
-1. **The Picket.** Dusk at Drezen's western gate. A new Preserver, eight days sworn, on his first
-   watch. Something beaked and scaled coming in off the Marchlands at a run, on a route nobody was
-   told about. Run it from **Elara's** side — she is close enough to hear the shout and not close
-   enough to stop it.
-2. **A Warm Greeting.** A stallholder thanks **Mira** for a conversation she never had, and is
-   quite specific about it. Two questions in, Mira understands that somebody has been walking
-   Drezen with her face and her credit. Ends on the shopkeeper describing "her" — and getting
-   the eyes wrong.
-3. **The Halfway Hole.** **Chyrrik** alone, one day out, at the cache she made herself. The stores
-   are intact. The blind has been sat in. Nothing is taken, nothing is broken, and the only way she
-   knows is that the ground is compressed and she is very good at her job. She has a day's walk in
-   either direction to decide what to do about it, and no way to ask.
+1. **The Picket.** Dusk at Drezen's western gate. A Preserver eight days sworn, first watch, and
+   something beaked and scaled coming in fast off the Marchlands on a line nobody was told about.
+   Elara is close enough to hear the shout.
+2. **The Halfway Hole.** Chyrrik alone at the cache she made herself. Stores intact. Nothing taken,
+   nothing broken — and the blind has been **sat in**. She knows because the ground is compressed
+   and she is very good at her job. A day's walk in either direction to decide what to do, and no
+   way to ask.
+3. **One Item Short.** Mira, at a table with two ledgers, finding that the Fane received eleven of
+   something Drezen sent twelve of. Nobody is lying. It is not theft. It is four days old.
+4. **The Countersign.** Rothin at the shrine door at night, holding a dispatch in the right hand,
+   with the right seal and the right countersign, and one word in it that Varic would never use.
+   Three paladins waiting on his answer.
