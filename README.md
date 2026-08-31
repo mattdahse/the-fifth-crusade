@@ -23,6 +23,7 @@ bible/                          ← authoring reference (voice, cast, lore)
   06-in-world-calendar.md       the crusade's days in the chronicle's voice → the Timeline tab
   06-in-world-calendar.json     MACHINE-WRITTEN extraction from Fantasy Grounds — never hand-edit
   07-art-reroll-list.md         plates to regenerate, and why — early art that predates the house look
+  08-follower-threads.md        GM-side outline of the cohorts' storyline — planning, not chronicle
 secrets/                        ← in-world documents (recovered journals, enemy words) → the Secrets tab
 maps/                           ← one region per file, and the places found on it → the Map tab
 build.ps1                       ← compiles source/*.md + secrets/*.md + maps/*.md + the calendar → data.js
