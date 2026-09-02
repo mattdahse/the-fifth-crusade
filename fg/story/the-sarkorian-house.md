@@ -43,7 +43,7 @@ kills everyone has to work it out on their own, which is slower and less interes
 
 @link parcel: sarkorian_house
 @link battle: sarkorian_house
-@link quest: halfway_house
+@link quest: hold_the_halfway_house
 
 ## What It Changes
 

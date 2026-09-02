@@ -1,6 +1,6 @@
 # Hold the Halfway House
 
-<!-- id: halfway_house -->
+<!-- id: hold_the_halfway_house -->
 <!-- level: 1 -->
 <!-- giver: Elara Dawnstrider -->
 <!-- xp: 400 -->
