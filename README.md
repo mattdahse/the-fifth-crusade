@@ -34,9 +34,12 @@ favicon.svg                     ← the site mark: Iomedae's device off the Swor
 favicon.ico                     ← rasterised from favicon.svg (16/32/48) — regenerate, never hand-edit
 apple-touch-icon.png            ← rasterised from favicon.svg (180px, square) — same
 make-favicon.py                 ← redraws those two; `--preview` checks the mark at tab size
+fg/                             ← the table's own campaign, compiled to a Fantasy Grounds module
+build-fg.ps1                    ← compiles fg/*.md + fg/art/ → build/<Module Name>.mod
 .claude/skills/                 ← Claude Code skills, checked in so they travel to every station
   wotr-chronicle/               Compile a session into a chapter, then publish
   chatgpt-image-gen/            Generate chapter art through a logged-in ChatGPT tab
+  fantasy-grounds/              Author NPCs, encounters, parcels and maps for the FG module
 .nojekyll
 ```
 
@@ -209,6 +212,47 @@ rose — since the labels are drawn over it and need to stay editable and search
 Secrets are in-world documents shown in their own tab, parallel to the chronicle. Drop a markdown file in `secrets/` — a `# Title` line, an italic `*attribution*` line, then the body (`### Section` headers, `*dates*`, and `> blockquotes` all render). Run `build.ps1`, then commit and push. The build compiles every `secrets/*.md` into `window.SECRETS`.
 
 `data.js` carries five globals: `window.CHAPTERS`, `window.SECRETS`, `window.CALENDAR` (month names and lengths, weekday names, and the weekday anchor), `window.JOURNAL` (one entry per recorded day) and `window.MAPS` (one region per entry, each carrying its places).
+
+## The table's own campaign — Fantasy Grounds
+
+A second, ground-level campaign runs alongside the chronicle: **The Marchlands Commission**, in
+which the PCs' cohorts hire 1st-level adventurers to do the half of the war the mythic four have
+outgrown. Its content is authored **here, as markdown**, and compiled into a Fantasy Grounds
+module — the same trade this repo already makes for the site.
+
+```
+fg/module.md          the module's name, category, author, ruleset
+fg/npcs/*.md          statblocks (a fenced ```stats block) + bio
+fg/encounters/*.md    battles — a list of `N x npc_id`, XP totalled by the build
+fg/parcels/*.md       treasure — `## Coin` lines and one `###` section per item
+fg/quests/*.md        the quest log the players see
+fg/maps/*.md          map records: grid, scale, and line-of-sight occluders
+fg/story/*.md         GM-facing adventure text
+fg/art/               plates and tokens — travel inside the .mod
+build-fg.ps1          compiles all of it into build/<Module Name>.mod
+```
+
+```powershell
+pwsh -File ./build-fg.ps1 -Install
+```
+
+`-Install` also drops the `.mod` into the local Fantasy Grounds modules folder. **FG does not
+hot-reload** — close and reopen the module to see a change. `build/` is not committed.
+
+**The build never writes to a campaign `db.xml`, and neither should anything else.** Fantasy
+Grounds holds the campaign in memory and rewrites that file wholesale on exit, so a write made
+underneath a running FG is destroyed silently. Modules load additively and are never written
+back, which is the whole reason this pipeline exists. Reading the campaign db is fine — that is
+what [`extract-calendar.ps1`](extract-calendar.ps1) does, and its 13 NPCs, 29 encounters and 14
+treasure parcels are the best available documentation of the formats.
+
+A map whose art is missing is **skipped with a warning** rather than shipped as a record pointing
+at nothing, and the generated `db.xml` is parsed as XML before packaging — a malformed module
+fails silently inside FG and is miserable to diagnose.
+
+The `fantasy-grounds` skill in `.claude/skills/` carries the field-by-field formats, the
+occluder notes, and the continuity rules. Note that `fg/` is public: GM content there is secret
+from the site, not from anyone reading the source.
 
 ## Running locally
 

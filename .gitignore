@@ -3,3 +3,6 @@
 
 # Third-party source charts used as art references — kept local, never published
 source/refs/
+
+# Fantasy Grounds build output
+build/
