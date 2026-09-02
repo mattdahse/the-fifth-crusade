@@ -5,11 +5,21 @@ What each asset is, and the prompt that makes it. Generated through the
 logged-in ChatGPT tab, following the house look in
 [`../../bible/04-visual-style-guide.md`](../../bible/04-visual-style-guide.md).
 
-Save every render as a **2048 × 2048 PNG** into `fg/art/tokens/`, matching the Marchlands
-Expedition tokens already in the campaign (`Fenna Tusk.png`, `cobb_harwick.png` and the rest) —
-square painted portrait busts with an environmental background, used by FG for both `<picture>`
-and `<token>`. FG crops them to a circle on the map, so **keep the head well clear of the
-edges and out of the corners.**
+Save every render as a **512 × 512 WebP at quality 85** into `fg/art/tokens/` — square painted
+portrait busts with an environmental background, used by FG for both `<picture>` and `<token>`.
+FG crops them to a circle on the map, so **keep the head well clear of the edges and out of the
+corners.** ChatGPT returns these at 1254 × 1254; **downscale, never upscale** — enlarging past the
+render adds bytes and no detail.
+
+**Small on purpose: some of the table is on low-end hardware.** What costs a player's machine is
+the *decoded texture*, not the file. A 2048 × 2048 token holds ~16 MB of video memory however
+small its file compresses to; at 512 it holds 1 MB. The older Marchlands Expedition tokens
+(`Fenna Tusk.png`, `cobb_harwick.png` and the rest) are 2048 PNGs at 6–8 MB each, about 80 MB of
+tokens in one campaign — that is the mistake this campaign does not repeat. FG draws a token at
+roughly one grid square and the portrait window at a few hundred pixels, so 512 is already
+generous. WebP over PNG because a painted bust has no flat colour for PNG to exploit: the same
+plate is 486 KB as a PNG and 51 KB as a WebP, indistinguishable at token size. FG reads WebP —
+the live campaign already serves both tokens and images from `.webp`.
 
 These are campaign NPCs, not chronicle cast, so they are deliberately **not** in
 [`../../characters/CANON.md`](../../characters/CANON.md) and must not go on the site's Cast
@@ -22,8 +32,8 @@ gallery. Their likeness anchors live here instead.
 | Asset | File | State |
 |---|---|---|
 | The Sarkorian House battlemap | `images/the-sarkorian-house.jpg` | **done** — blockout at 1600 × 1400, drawn by [`make-sarkorian-house.py`](make-sarkorian-house.py) |
-| Labyrinth Squatter token | `tokens/labyrinth-squatter.png` | **done** — 2048 × 2048 |
-| Hookhand Acolyte token | `tokens/hookhand-acolyte.png` | **done** — 2048 × 2048 |
+| Labyrinth Squatter token | `tokens/labyrinth-squatter.webp` | **done** — 512 × 512, 51 KB |
+| Hookhand Acolyte token | `tokens/hookhand-acolyte.webp` | **done** — 512 × 512, 39 KB |
 
 ---
 
