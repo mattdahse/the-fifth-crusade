@@ -127,6 +127,27 @@ function S($tag, $val, $indent) { ("`t" * $indent) + "<$tag type=""string"">$(Es
 function N($tag, $val, $indent) { ("`t" * $indent) + "<$tag type=""number"">$val</$tag>" }
 function T($tag, $val, $indent) { ("`t" * $indent) + "<$tag type=""token"">$(Esc $val)</$tag>" }
 
+# Emit one top-level section, with its records wrapped in a <category>.
+#
+# The category wrapper is NOT optional. Every record type in a real Fantasy Grounds
+# adventure module carries one, and without it a section can load but never appear in
+# the module's list window - which is exactly how <encounter> and <treasureparcels>
+# came back empty on the first build while <npc> and <battle> happened to survive.
+#
+# Records are generated at their natural indent and shifted one tab deeper here, so
+# the per-record code does not have to know it is inside a category.
+function Add-Section($tag, $category, $lines) {
+  if (-not $lines -or $lines.Count -eq 0) { return }
+  [void]$xml.Add("`t<$tag>")
+  [void]$xml.Add("`t`t<category name=""$(Esc $category)"" mergeid="""" baseicon=""1"" decalicon=""0"">")
+  foreach ($l in $lines) {
+    # A single element may carry embedded newlines (formattedtext); indent every line.
+    foreach ($sub in ($l -split "`n")) { [void]$xml.Add("`t" + $sub) }
+  }
+  [void]$xml.Add("`t`t</category>")
+  [void]$xml.Add("`t</$tag>")
+}
+
 function Read-Docs($sub) {
   $d = Join-Path $src $sub
   if (-not (Test-Path $d)) { return @() }
@@ -174,17 +195,17 @@ $xml = New-Object System.Collections.ArrayList
 # ---------------------------------------------------------------- <npc>
 
 if ($npcs.Count) {
-  [void]$xml.Add("`t<npc>")
+  $sec = New-Object System.Collections.ArrayList
   foreach ($n in $npcs) {
-    [void]$xml.Add("`t`t<$($n.id)>")
+    [void]$sec.Add("`t`t<$($n.id)>")
     foreach ($k in @('ac', 'alignment', 'atk', 'babgrp', 'feats', 'fullatk', 'hd', 'languages',
         'senses', 'size', 'skills', 'spacereach', 'specialattacks', 'specialqualities',
         'speed', 'subtype', 'type')) {
-      if ($n.stats[$k]) { [void]$xml.Add((S $k $n.stats[$k] 3)) }
+      if ($n.stats[$k]) { [void]$sec.Add((S $k $n.stats[$k] 3)) }
     }
     foreach ($k in @('hp', 'init', 'strength', 'dexterity', 'constitution', 'intelligence',
         'wisdom', 'charisma', 'fortitudesave', 'reflexsave', 'willsave')) {
-      if ($n.stats[$k]) { [void]$xml.Add((N $k ([int]$n.stats[$k]) 3)) }
+      if ($n.stats[$k]) { [void]$sec.Add((N $k ([int]$n.stats[$k]) 3)) }
     }
     if ($n.stats['cr']) {
       $crRaw = $n.stats['cr']
@@ -195,25 +216,25 @@ if ($npcs.Count) {
         '^1/8$' { 0.125 }
         default { [double]$crRaw }
       }
-      [void]$xml.Add((N 'cr' $crNum 3))
+      [void]$sec.Add((N 'cr' $crNum 3))
     }
-    [void]$xml.Add((S 'name' $n.title 3))
+    [void]$sec.Add((S 'name' $n.title 3))
     if ($n.meta.token) {
-      [void]$xml.Add((T 'token' ([string]$n.meta.token) 3))
-      [void]$xml.Add((T 'picture' ([string]$n.meta.token) 3))
+      [void]$sec.Add((T 'token' ([string]$n.meta.token) 3))
+      [void]$sec.Add((T 'picture' ([string]$n.meta.token) 3))
     }
-    [void]$xml.Add("`t`t`t<text type=""formattedtext"">")
-    [void]$xml.Add((ConvertTo-FormattedText $n.body 4))
-    [void]$xml.Add("`t`t`t</text>")
-    [void]$xml.Add("`t`t</$($n.id)>")
+    [void]$sec.Add("`t`t`t<text type=""formattedtext"">")
+    [void]$sec.Add((ConvertTo-FormattedText $n.body 4))
+    [void]$sec.Add("`t`t`t</text>")
+    [void]$sec.Add("`t`t</$($n.id)>")
   }
-  [void]$xml.Add("`t</npc>")
+  Add-Section 'npc' 'NPCs' $sec
 }
 
 # ---------------------------------------------------------------- <battle>
 
 if ($encounters.Count) {
-  [void]$xml.Add("`t<battle>")
+  $sec = New-Object System.Collections.ArrayList
   foreach ($e in $encounters) {
     $foes = New-Object System.Collections.ArrayList
     $totalXp = 0
@@ -226,41 +247,41 @@ if ($encounters.Count) {
       [void]$foes.Add(@{ count = $cnt; npc = $npc })
     }
     if ($foes.Count -eq 0) { Warn "$($e.file): no foes resolved"; continue }
-    [void]$xml.Add("`t`t<$($e.id)>")
-    [void]$xml.Add((N 'exp' $totalXp 3))
-    if ($e.meta.level) { [void]$xml.Add((N 'level' ([int]$e.meta.level) 3)) }
-    [void]$xml.Add((S 'name' $e.title 3))
-    [void]$xml.Add("`t`t`t<npclist>")
+    [void]$sec.Add("`t`t<$($e.id)>")
+    [void]$sec.Add((N 'exp' $totalXp 3))
+    if ($e.meta.level) { [void]$sec.Add((N 'level' ([int]$e.meta.level) 3)) }
+    [void]$sec.Add((S 'name' $e.title 3))
+    [void]$sec.Add("`t`t`t<npclist>")
     $i = 0
     foreach ($f in $foes) {
       $i++
       $slot = 'id-{0:D5}' -f $i
-      [void]$xml.Add("`t`t`t`t<$slot>")
-      [void]$xml.Add((N 'count' $f.count 5))
-      [void]$xml.Add((S 'faction' 'foe' 5))
-      [void]$xml.Add("`t`t`t`t`t<link type=""windowreference"">")
-      [void]$xml.Add("`t`t`t`t`t`t<class>npc</class>")
-      [void]$xml.Add("`t`t`t`t`t`t<recordname>npc.$($f.npc.id)@$(Esc $modName)</recordname>")
-      [void]$xml.Add("`t`t`t`t`t</link>")
-      [void]$xml.Add((S 'name' $f.npc.title 5))
+      [void]$sec.Add("`t`t`t`t<$slot>")
+      [void]$sec.Add((N 'count' $f.count 5))
+      [void]$sec.Add((S 'faction' 'foe' 5))
+      [void]$sec.Add("`t`t`t`t`t<link type=""windowreference"">")
+      [void]$sec.Add("`t`t`t`t`t`t<class>npc</class>")
+      [void]$sec.Add("`t`t`t`t`t`t<recordname>npc.$($f.npc.id)@$(Esc $modName)</recordname>")
+      [void]$sec.Add("`t`t`t`t`t</link>")
+      [void]$sec.Add((S 'name' $f.npc.title 5))
       if ($f.npc.meta.token) {
-        [void]$xml.Add((T 'token' ("$([string]$f.npc.meta.token)@$modName") 5))
+        [void]$sec.Add((T 'token' ("$([string]$f.npc.meta.token)@$modName") 5))
       }
-      [void]$xml.Add("`t`t`t`t</$slot>")
+      [void]$sec.Add("`t`t`t`t</$slot>")
     }
-    [void]$xml.Add("`t`t`t</npclist>")
-    [void]$xml.Add("`t`t</$($e.id)>")
+    [void]$sec.Add("`t`t`t</npclist>")
+    [void]$sec.Add("`t`t</$($e.id)>")
   }
-  [void]$xml.Add("`t</battle>")
+  Add-Section 'battle' 'Encounters' $sec
 }
 
 # ---------------------------------------------------------------- <treasureparcels>
 
 if ($parcels.Count) {
-  [void]$xml.Add("`t<treasureparcels>")
+  $sec = New-Object System.Collections.ArrayList
   foreach ($p in $parcels) {
-    [void]$xml.Add("`t`t<$($p.id)>")
-    [void]$xml.Add("`t`t`t<coinlist>")
+    [void]$sec.Add("`t`t<$($p.id)>")
+    [void]$sec.Add("`t`t`t<coinlist>")
     $ci = 0
     foreach ($denom in @('PP', 'GP', 'SP', 'CP')) {
       $ci++
@@ -268,60 +289,69 @@ if ($parcels.Count) {
       $m = [regex]::Match($p.raw, "(?m)^\s*[-*]\s*([\d,]+)\s+$denom\s*$")
       if ($m.Success) { $amt = [int]($m.Groups[1].Value -replace ',', '') }
       $slot = 'id-{0:D5}' -f $ci
-      [void]$xml.Add("`t`t`t`t<$slot>")
-      [void]$xml.Add((N 'amount' $amt 5))
-      [void]$xml.Add((S 'description' $denom 5))
-      [void]$xml.Add("`t`t`t`t</$slot>")
+      [void]$sec.Add("`t`t`t`t<$slot>")
+      [void]$sec.Add((N 'amount' $amt 5))
+      [void]$sec.Add((S 'description' $denom 5))
+      [void]$sec.Add("`t`t`t`t</$slot>")
     }
-    [void]$xml.Add("`t`t`t</coinlist>")
-    [void]$xml.Add("`t`t`t<itemlist>")
+    [void]$sec.Add("`t`t`t</coinlist>")
+    [void]$sec.Add("`t`t`t<itemlist>")
     $ii = 0
     $itemsPart = ([regex]::Match($p.raw, '(?ms)^##\s+Items\s*$(.*)')).Groups[1].Value
-    foreach ($sec in [regex]::Matches($itemsPart, '(?ms)^###\s+(.*?)\s*$(.*?)(?=^###\s|\z)')) {
+    foreach ($itemSec in [regex]::Matches($itemsPart, '(?ms)^###\s+(.*?)\s*$(.*?)(?=^###\s|\z)')) {
       $ii++
-      $iname = $sec.Groups[1].Value.Trim()
-      $ibody = $sec.Groups[2].Value
+      $iname = $itemSec.Groups[1].Value.Trim()
+      $ibody = $itemSec.Groups[2].Value
       $imeta = Get-Meta $ibody
       $slot = 'id-{0:D5}' -f $ii
-      [void]$xml.Add("`t`t`t`t<$slot>")
-      [void]$xml.Add((N 'carried' 1 5))
-      [void]$xml.Add((N 'count' $(if ($imeta.count) { [int]$imeta.count } else { 1 }) 5))
-      if ($imeta.cost) { [void]$xml.Add((S 'cost' ([string]$imeta.cost) 5)) }
-      if ($imeta.weight) { [void]$xml.Add((N 'weight' ([double]$imeta.weight) 5)) }
-      if ($imeta.type) { [void]$xml.Add((S 'type' ([string]$imeta.type) 5)) }
-      [void]$xml.Add((S 'name' $iname 5))
+      [void]$sec.Add("`t`t`t`t<$slot>")
+      [void]$sec.Add((N 'carried' 1 5))
+      [void]$sec.Add((N 'count' $(if ($imeta.count) { [int]$imeta.count } else { 1 }) 5))
+      if ($imeta.cost) { [void]$sec.Add((S 'cost' ([string]$imeta.cost) 5)) }
+      if ($imeta.weight) { [void]$sec.Add((N 'weight' ([double]$imeta.weight) 5)) }
+      if ($imeta.type) { [void]$sec.Add((S 'type' ([string]$imeta.type) 5)) }
+      [void]$sec.Add((S 'name' $iname 5))
       if ($imeta.nonid) {
-        [void]$xml.Add((N 'isidentified' 0 5))
-        [void]$xml.Add((S 'nonid_name' ([string]$imeta.nonid) 5))
+        [void]$sec.Add((N 'isidentified' 0 5))
+        [void]$sec.Add((S 'nonid_name' ([string]$imeta.nonid) 5))
       }
-      else { [void]$xml.Add((N 'isidentified' 1 5)) }
-      [void]$xml.Add("`t`t`t`t`t<description type=""formattedtext"">")
-      [void]$xml.Add((ConvertTo-FormattedText (Get-Body $ibody) 6))
-      [void]$xml.Add("`t`t`t`t`t</description>")
-      [void]$xml.Add("`t`t`t`t</$slot>")
+      else { [void]$sec.Add((N 'isidentified' 1 5)) }
+      [void]$sec.Add("`t`t`t`t`t<description type=""formattedtext"">")
+      [void]$sec.Add((ConvertTo-FormattedText (Get-Body $ibody) 6))
+      [void]$sec.Add("`t`t`t`t`t</description>")
+      [void]$sec.Add("`t`t`t`t</$slot>")
     }
-    [void]$xml.Add("`t`t`t</itemlist>")
-    [void]$xml.Add((S 'name' $p.title 3))
-    [void]$xml.Add("`t`t</$($p.id)>")
+    [void]$sec.Add("`t`t`t</itemlist>")
+    [void]$sec.Add((S 'name' $p.title 3))
+    [void]$sec.Add("`t`t</$($p.id)>")
   }
-  [void]$xml.Add("`t</treasureparcels>")
+  Add-Section 'treasureparcels' 'Treasure' $sec
 }
 
 # ---------------------------------------------------------------- <quest>
 
 if ($quests.Count) {
-  [void]$xml.Add("`t<quest>")
+  $sec = New-Object System.Collections.ArrayList
   foreach ($q in $quests) {
-    [void]$xml.Add("`t`t<$($q.id)>")
-    [void]$xml.Add((S 'name' $q.title 3))
-    if ($q.meta.giver) { [void]$xml.Add((S 'group' ([string]$q.meta.giver) 3)) }
-    if ($q.meta.xp) { [void]$xml.Add((N 'xp' ([int]$q.meta.xp) 3)) }
-    [void]$xml.Add("`t`t`t<text type=""formattedtext"">")
-    [void]$xml.Add((ConvertTo-FormattedText $q.body 4))
-    [void]$xml.Add("`t`t`t</text>")
-    [void]$xml.Add("`t`t</$($q.id)>")
+    # A quest's prose lives in <description>, NOT <text> -- and <level> must be present
+    # or the sheet reads "Level 0". There is no field for the quest-giver, so the giver
+    # goes into <gmnotes> where the GM can actually see it.
+    [void]$sec.Add("`t`t<$($q.id)>")
+    [void]$sec.Add("`t`t`t<description type=""formattedtext"">")
+    [void]$sec.Add((ConvertTo-FormattedText $q.body 4))
+    [void]$sec.Add("`t`t`t</description>")
+    [void]$sec.Add("`t`t`t<gmnotes type=""formattedtext"">")
+    if ($q.meta.giver) {
+      [void]$sec.Add((ConvertTo-FormattedText "Given by **$([string]$q.meta.giver)**." 4))
+    }
+    else { [void]$sec.Add("`t`t`t`t<p />") }
+    [void]$sec.Add("`t`t`t</gmnotes>")
+    [void]$sec.Add((N 'level' $(if ($q.meta.level) { [int]$q.meta.level } else { 0 }) 3))
+    [void]$sec.Add((S 'name' $q.title 3))
+    if ($q.meta.xp) { [void]$sec.Add((N 'xp' ([int]$q.meta.xp) 3)) }
+    [void]$sec.Add("`t`t</$($q.id)>")
   }
-  [void]$xml.Add("`t</quest>")
+  Add-Section 'quest' 'Quests' $sec
 }
 
 # ---------------------------------------------------------------- <image>
@@ -378,26 +408,24 @@ if ($maps.Count) {
     [void]$rows.Add("`t`t</$($mp.id)>")
   }
   if ($rows.Count) {
-    [void]$xml.Add("`t<image>")
-    foreach ($r in $rows) { [void]$xml.Add($r) }
-    [void]$xml.Add("`t</image>")
+    Add-Section 'image' 'Maps' $rows
   }
 }
 
 # ---------------------------------------------------------------- <encounter> (story text)
 
 if ($stories.Count) {
-  [void]$xml.Add("`t<encounter>")
+  $sec = New-Object System.Collections.ArrayList
   $ordered = $stories | Sort-Object { if ($_.meta.order) { [int]$_.meta.order } else { 999 } }
   foreach ($s in $ordered) {
-    [void]$xml.Add("`t`t<$($s.id)>")
-    [void]$xml.Add((S 'name' $s.title 3))
-    [void]$xml.Add("`t`t`t<text type=""formattedtext"">")
-    [void]$xml.Add((ConvertTo-FormattedText $s.body 4))
-    [void]$xml.Add("`t`t`t</text>")
-    [void]$xml.Add("`t`t</$($s.id)>")
+    [void]$sec.Add("`t`t<$($s.id)>")
+    [void]$sec.Add((S 'name' $s.title 3))
+    [void]$sec.Add("`t`t`t<text type=""formattedtext"">")
+    [void]$sec.Add((ConvertTo-FormattedText $s.body 4))
+    [void]$sec.Add("`t`t`t</text>")
+    [void]$sec.Add("`t`t</$($s.id)>")
   }
-  [void]$xml.Add("`t</encounter>")
+  Add-Section 'encounter' 'Adventure' $sec
 }
 
 # ---------------------------------------------------------------- <library>

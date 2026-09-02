@@ -56,6 +56,37 @@ but its records open with the wrong sheet.
 
 ---
 
+## Every record type lives inside a `<category>`
+
+```xml
+<npc>
+  <category name="NPCs" mergeid="" baseicon="1" decalicon="0">
+    <labyrinth_squatter>
+      ...
+```
+
+**This wrapper is not optional and its absence fails silently.** Records without it can load
+and still never appear in the module's list window. On the first build, `<npc>`, `<battle>` and
+`<quest>` happened to list anyway while `<encounter>` and `<treasureparcels>` came back as empty
+windows — same module, same code path, no error anywhere. `build-fg.ps1` now wraps every section
+via `Add-Section`, matching what every real adventure module does.
+
+The worked example is `modules/ks01_ogl_well_met_in_kithtakharos.mod` — an unencrypted OGL
+adventure with story, items, NPCs and images. **Read it when a record type misbehaves.** The
+purchased AP modules are encrypted `.dat` files in `vault/` and cannot be inspected.
+
+## Field names that are not what you would guess
+
+| Record | Gotcha |
+|---|---|
+| **quest** | prose is `<description>`, **not** `<text>`. Needs `<level type="number">` or the sheet reads "Level 0". Has `<gmnotes>`. There is **no** field for the quest-giver — put it in `gmnotes`. |
+| **encounter** (story) | prose *is* `<text>`. |
+| **npc** | prose is `<text>`; `<token>` and `<picture>` both take `type="token"`. |
+| **treasureparcels** | `<coinlist>` and `<itemlist>` use numeric `id-NNNNN` slots; item prose is `<description>`. |
+
+Named record ids (`<labyrinth_squatter>` rather than `<id-00001>`) work fine and are what make
+`npc.labyrinth_squatter@Module Name` a stable cross-reference, so prefer them.
+
 ## Reading the format from Matt's own campaign
 
 The live `db.xml` is the best documentation there is, because it holds 13 NPCs, 29 encounters,
@@ -134,6 +165,17 @@ Prose body here.
 - `cr: 1/3` and friends convert to the decimals FG expects (0.33, 0.5, …).
 - Any stat key the build does not recognise is dropped silently, so check the built XML when you
   add a field for the first time.
+
+**Spells are not yet wired up.** A caster's spells currently sit in its prose and render under
+Notes, not on the Spells tab. Doing it properly means emitting `<spellset>`, which carries every
+spell's *full* text inline — description, components, range, duration, save, school, and a
+`<actions>` block that makes the cast button work. Hand-authoring that per spell is not viable.
+
+The path is a lookup: `modules/PF-SRD-Spells.mod` holds every SRD spell in exactly that shape.
+Note it stores them in **`client.xml`, not `db.xml`**, under `<spelldesc>`. The build should read
+a spell by name from there and inject it into the NPC's `<spellset>`, under
+`<levels><level1><spells>`, with `castertype` (`prepared` or `spontaneous`), `cl`, the `<dc>`
+block, and `availablelevelN` counts.
 
 ### Encounters — `fg/encounters/*.md`
 
