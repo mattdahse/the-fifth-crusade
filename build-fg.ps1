@@ -52,9 +52,221 @@ function Get-Stats([string]$text) {
   return $h
 }
 
+# ---------------------------------------------------------------- spells
+
+# An NPC's <spellset> carries each spell's FULL text inline - description, components,
+# range, save, school, and an <actions> block that makes the cast button work. Hand-writing
+# that is not viable, so spells are looked up by name from the SRD spell module and copied in.
+# PF-SRD-Spells.mod keeps its data in client.xml, NOT db.xml, under <spelldesc>.
+$script:SpellIndex = $null
+
+function Get-ModulesDir {
+  $candidates = @(
+    (Join-Path $env:APPDATA 'SmiteWorks/Fantasy Grounds/modules'),
+    (Join-Path $HOME 'Library/Application Support/SmiteWorks/Fantasy Grounds/modules'),
+    (Join-Path $HOME 'SmiteWorks/Fantasy Grounds/modules'),
+    (Join-Path $HOME '.smiteworks/fantasygrounds/modules')
+  )
+  return ($candidates | Where-Object { $_ -and (Test-Path $_) } | Select-Object -First 1)
+}
+
+function Get-SpellIndex {
+  if ($null -ne $script:SpellIndex) { return $script:SpellIndex }
+  $idx = @{}
+  $dir = Get-ModulesDir
+  if (-not $dir) { Warn 'no Fantasy Grounds modules folder found; spells cannot be looked up' }
+  else {
+    try { Add-Type -AssemblyName System.IO.Compression.FileSystem -ErrorAction Stop } catch { }
+    foreach ($modName in @('PF-SRD-Spells.mod', '3.5E-spells.mod')) {
+      $path = Join-Path $dir $modName
+      if (-not (Test-Path $path)) { continue }
+      $zip = [IO.Compression.ZipFile]::OpenRead($path)
+      try {
+        foreach ($entryName in @('client.xml', 'db.xml')) {
+          $entry = $zip.Entries | Where-Object { $_.FullName -eq $entryName } | Select-Object -First 1
+          if (-not $entry) { continue }
+          $reader = New-Object IO.StreamReader($entry.Open())
+          $text = $reader.ReadToEnd()
+          $reader.Close()
+          [xml]$doc = $text
+          $bank = $doc.root.SelectSingleNode('spelldesc')
+          if (-not $bank) { continue }
+          foreach ($rec in $bank.ChildNodes) {
+            if ($rec.NodeType -ne 'Element') { continue }
+            # SelectSingleNode('name'), never .Name -- these carry a child <name> that
+            # hijacks PowerShell's XML adapter.
+            $nameNode = $rec.SelectSingleNode('name')
+            if (-not $nameNode) { continue }
+            $key = ($nameNode.InnerText -replace '[^a-zA-Z0-9]', '').ToLower()
+            if (-not $idx.ContainsKey($key)) { $idx[$key] = $rec }
+          }
+          break
+        }
+      }
+      finally { $zip.Dispose() }
+    }
+  }
+  $script:SpellIndex = $idx
+  return $idx
+}
+
+function Get-SpellField($rec, [string]$tag) {
+  $n = $rec.SelectSingleNode($tag)
+  if (-not $n) { return '' }
+  return ([string]$n.InnerText).Trim()
+}
+
+# FG's own drag-and-drop writes a spellset description as a plain string with a literal \n
+# between paragraphs, so match that rather than copying the source formattedtext across.
+function Get-SpellDescription($rec) {
+  $n = $rec.SelectSingleNode('description')
+  if (-not $n) { return '' }
+  $ps = $n.SelectNodes('p')
+  if ($ps -and $ps.Count -gt 0) {
+    return ((@($ps | ForEach-Object { ([string]$_.InnerText).Trim() }) | Where-Object { $_ }) -join '\n')
+  }
+  return ([string]$n.InnerText).Trim()
+}
+
+# Read a fenced spells block: caster settings plus one "N: spell, spell" line per level.
+function Get-SpellPlan([string]$text) {
+  $m = [regex]::Match($text, '(?ms)^```spells\s*$(.*?)^```\s*$')
+  if (-not $m.Success) { return $null }
+  $plan = @{ castertype = 'prepared'; cl = 1; ability = ''; label = ''; levels = @{} }
+  foreach ($line in ($m.Groups[1].Value -split "`n")) {
+    $line = $line.Trim()
+    if (-not $line -or $line.StartsWith('#')) { continue }
+    $i = $line.IndexOf(':')
+    if ($i -lt 1) { continue }
+    $k = $line.Substring(0, $i).Trim().ToLower()
+    $v = $line.Substring($i + 1).Trim()
+    if ($k -match '^[0-9]$') { $plan.levels[[int]$k] = $v } else { $plan[$k] = $v }
+  }
+  return $plan
+}
+
+function Get-AbilityMod($stats, [string]$ability) {
+  if (-not $ability) { return 0 }
+  $score = $stats[$ability.ToLower()]
+  if (-not $score) { return 0 }
+  return [int][math]::Floor((([int]$score) - 10) / 2)
+}
+
+# Emit an NPC's <spellset> at the given indent. Returns lines, or nothing if the NPC has
+# no spells block.
+function Build-SpellSet($npc, [int]$indent) {
+  $plan = Get-SpellPlan $npc.raw
+  if (-not $plan) { return @() }
+  $pad = "`t" * $indent
+  $idx = Get-SpellIndex
+  $mod = Get-AbilityMod $npc.stats ([string]$plan.ability)
+  $cl = 1
+  if ($plan.cl) { $cl = [int]$plan.cl }
+  $label = [string]$plan.label
+  if (-not $label) {
+    $label = if ([string]$plan.castertype -eq 'spontaneous') { 'Spells Known' } else { 'Spells Prepared' }
+  }
+
+  # Resolve every named spell first, so the per-level counts are known before emitting.
+  $byLevel = @{}
+  foreach ($lvl in ($plan.levels.Keys | Sort-Object)) {
+    $entries = New-Object System.Collections.ArrayList
+    foreach ($raw in (([string]$plan.levels[$lvl]) -split ',')) {
+      $nm = $raw.Trim()
+      if (-not $nm) { continue }
+      $count = 1
+      if ($nm -match '^(.*?)\s*[xX]\s*(\d+)$') { $nm = $matches[1].Trim(); $count = [int]$matches[2] }
+      $key = ($nm -replace '[^a-zA-Z0-9]', '').ToLower()
+      if (-not $idx.ContainsKey($key)) {
+        Warn "$($npc.file): no SRD spell named '$nm' -- skipped"
+        continue
+      }
+      for ($c = 0; $c -lt $count; $c++) { [void]$entries.Add($idx[$key]) }
+    }
+    $byLevel[$lvl] = $entries
+  }
+
+  $out = New-Object System.Collections.ArrayList
+  [void]$out.Add("$pad<spellset>")
+  [void]$out.Add("$pad`t<id-00001>")
+  for ($l = 0; $l -le 9; $l++) {
+    $n = 0
+    if ($byLevel.ContainsKey($l)) { $n = $byLevel[$l].Count }
+    [void]$out.Add("$pad`t`t<availablelevel$l type=""number"">$n</availablelevel$l>")
+  }
+  [void]$out.Add("$pad`t`t<castertype type=""string"">$(Esc ([string]$plan.castertype))</castertype>")
+  [void]$out.Add("$pad`t`t<cc>")
+  [void]$out.Add("$pad`t`t`t<misc type=""number"">0</misc>")
+  [void]$out.Add("$pad`t`t</cc>")
+  [void]$out.Add("$pad`t`t<cl type=""number"">$cl</cl>")
+  [void]$out.Add("$pad`t`t<dc>")
+  if ($plan.ability) {
+    [void]$out.Add("$pad`t`t`t<ability type=""string"">$(Esc ([string]$plan.ability).ToLower())</ability>")
+  }
+  [void]$out.Add("$pad`t`t`t<abilitymod type=""number"">$mod</abilitymod>")
+  [void]$out.Add("$pad`t`t`t<misc type=""number"">0</misc>")
+  [void]$out.Add("$pad`t`t`t<total type=""number"">$(10 + $mod)</total>")
+  [void]$out.Add("$pad`t`t</dc>")
+  [void]$out.Add("$pad`t`t<label type=""string"">$(Esc $label)</label>")
+  [void]$out.Add("$pad`t`t<levels>")
+  for ($l = 0; $l -le 9; $l++) {
+    $entries = @()
+    if ($byLevel.ContainsKey($l)) { $entries = $byLevel[$l] }
+    [void]$out.Add("$pad`t`t`t<level$l>")
+    [void]$out.Add("$pad`t`t`t`t<level type=""number"">$l</level>")
+    [void]$out.Add("$pad`t`t`t`t<maxprepared type=""number"">$($entries.Count)</maxprepared>")
+    [void]$out.Add("$pad`t`t`t`t<spells>")
+    $i = 0
+    foreach ($rec in $entries) {
+      $i++
+      $slot = 'id-{0:D5}' -f $i
+      $save = Get-SpellField $rec 'save'
+      $sr = Get-SpellField $rec 'sr'
+      [void]$out.Add("$pad`t`t`t`t`t<$slot>")
+      [void]$out.Add("$pad`t`t`t`t`t`t<actions>")
+      [void]$out.Add("$pad`t`t`t`t`t`t`t<id-00001>")
+      [void]$out.Add("$pad`t`t`t`t`t`t`t`t<order type=""number"">1</order>")
+      if ($save -match '^(Reflex|Will|Fortitude)') {
+        [void]$out.Add("$pad`t`t`t`t`t`t`t`t<savetype type=""string"">$($matches[1].ToLower())</savetype>")
+      }
+      if ($sr -match '^No') {
+        [void]$out.Add("$pad`t`t`t`t`t`t`t`t<srnotallowed type=""number"">1</srnotallowed>")
+      }
+      [void]$out.Add("$pad`t`t`t`t`t`t`t`t<type type=""string"">cast</type>")
+      [void]$out.Add("$pad`t`t`t`t`t`t`t</id-00001>")
+      [void]$out.Add("$pad`t`t`t`t`t`t</actions>")
+      [void]$out.Add("$pad`t`t`t`t`t`t<cast type=""number"">0</cast>")
+      foreach ($f in @('castingtime', 'components')) {
+        [void]$out.Add("$pad`t`t`t`t`t`t<$f type=""string"">$(Esc (Get-SpellField $rec $f))</$f>")
+      }
+      [void]$out.Add("$pad`t`t`t`t`t`t<cost type=""number"">0</cost>")
+      [void]$out.Add("$pad`t`t`t`t`t`t<description type=""string"">$(Esc (Get-SpellDescription $rec))</description>")
+      foreach ($f in @('duration', 'effect', 'level')) {
+        [void]$out.Add("$pad`t`t`t`t`t`t<$f type=""string"">$(Esc (Get-SpellField $rec $f))</$f>")
+      }
+      [void]$out.Add("$pad`t`t`t`t`t`t<linkedspells />")
+      [void]$out.Add("$pad`t`t`t`t`t`t<name type=""string"">$(Esc (Get-SpellField $rec 'name'))</name>")
+      [void]$out.Add("$pad`t`t`t`t`t`t<prepared type=""number"">1</prepared>")
+      foreach ($f in @('range', 'save', 'school', 'shortdescription', 'sr')) {
+        [void]$out.Add("$pad`t`t`t`t`t`t<$f type=""string"">$(Esc (Get-SpellField $rec $f))</$f>")
+      }
+      [void]$out.Add("$pad`t`t`t`t`t</$slot>")
+    }
+    [void]$out.Add("$pad`t`t`t`t</spells>")
+    [void]$out.Add("$pad`t`t`t`t<totalcast type=""number"">0</totalcast>")
+    [void]$out.Add("$pad`t`t`t`t<totalprepared type=""number"">$($entries.Count)</totalprepared>")
+    [void]$out.Add("$pad`t`t`t</level$l>")
+  }
+  [void]$out.Add("$pad`t`t</levels>")
+  [void]$out.Add("$pad`t</id-00001>")
+  [void]$out.Add("$pad</spellset>")
+  return $out.ToArray()
+}
+
 # Strip metadata comments, the stats fence and the H1; what remains is prose.
 function Get-Body([string]$text) {
   $t = [regex]::Replace($text, '(?ms)^```stats\s*$.*?^```\s*$', '')
+  $t = [regex]::Replace($t, '(?ms)^```spells\s*$.*?^```\s*$', '')
   $t = [regex]::Replace($t, '<!--.*?-->', '')
   $t = [regex]::Replace($t, '(?m)^#\s+.*$', '')
   return $t.Trim()
@@ -271,6 +483,15 @@ if ($npcs.Count) {
     [void]$sec.Add("`t`t`t<text type=""formattedtext"">")
     [void]$sec.Add((ConvertTo-FormattedText $n.body 4))
     [void]$sec.Add("`t`t`t</text>")
+    $spellLines = Build-SpellSet $n 3
+    if ($spellLines.Count) {
+      # These two drive how the Spells tab renders; without them the set is stored
+      # but the tab does not show a usable casting layout.
+      $mode = if ((Get-SpellPlan $n.raw).castertype -eq 'spontaneous') { 'standard' } else { 'preparation' }
+      [void]$sec.Add((S 'spellmode' $mode 3))
+      [void]$sec.Add((S 'spelldisplaymode' 'action' 3))
+      foreach ($spellLine in $spellLines) { [void]$sec.Add($spellLine) }
+    }
     [void]$sec.Add("`t`t</$($n.id)>")
   }
   Add-Section 'npc' 'NPCs' $sec

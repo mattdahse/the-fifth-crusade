@@ -37,9 +37,14 @@ spacereach: 5 ft./5 ft.
 specialattacks: adept spells (CL 2nd; concentration +5)
 ```
 
-**Spells Prepared** (CL 2nd; concentration +5)
-1st — *burning hands* (DC 14), *cure light wounds*
-0 — *guidance*, *touch of fatigue* (DC 13)
+```spells
+castertype: prepared
+cl: 2
+ability: wisdom
+label: Adept Spells
+1: burning hands, cure light wounds
+0: guidance, touch of fatigue
+```
 
 An acolyte takes the name Hookhand on being given a warband, and wears an iron hook lashed
 over the left hand from that day. It is a poor weapon and a very good argument: the hook is

@@ -264,16 +264,44 @@ Prose body here.
 - Any stat key the build does not recognise is dropped silently, so check the built XML when you
   add a field for the first time.
 
-**Spells are not yet wired up.** A caster's spells currently sit in its prose and render under
-Notes, not on the Spells tab. Doing it properly means emitting `<spellset>`, which carries every
-spell's *full* text inline — description, components, range, duration, save, school, and a
-`<actions>` block that makes the cast button work. Hand-authoring that per spell is not viable.
+### Spells
 
-The path is a lookup: `modules/PF-SRD-Spells.mod` holds every SRD spell in exactly that shape.
-Note it stores them in **`client.xml`, not `db.xml`**, under `<spelldesc>`. The build should read
-a spell by name from there and inject it into the NPC's `<spellset>`, under
-`<levels><level1><spells>`, with `castertype` (`prepared` or `spontaneous`), `cl`, the `<dc>`
-block, and `availablelevelN` counts.
+A caster gets a second fenced block. Spells are **looked up by name** from the SRD spell module
+and copied in whole, so only the names are written here:
+
+```spells
+castertype: prepared
+cl: 2
+ability: wisdom
+label: Adept Spells
+1: burning hands, cure light wounds
+0: guidance, touch of fatigue
+```
+
+- Level lines are `N: spell, spell`. Repeat a prepared spell with `magic missile x2`.
+- `castertype` is `prepared` or `spontaneous`; it picks the default label and the NPC's
+  `spellmode` (`preparation` / `standard`).
+- `ability` names the casting stat. The build reads that score from the `stats` block and
+  computes the DC base as `10 + mod` — FG adds the spell level itself, so a Wis 16 adept comes
+  out with DC 14 for a 1st-level spell and DC 13 for an orison, without either being written down.
+- Slot counts per level default to the number of spells listed.
+- **An unknown spell name is a warning, not an error** — it is skipped and the rest still build.
+  Check the build output.
+
+**Where the spells come from.** `PF-SRD-Spells.mod`, falling back to `3.5E-spells.mod`. Two
+traps: that module keeps its data in **`client.xml`, not `db.xml`**, and the records sit under
+**`<spelldesc>`**. Lookup is by name with all non-alphanumerics stripped, so "Cure Light Wounds"
+finds `<curelightwounds>`.
+
+**What gets copied.** Every field FG needs inline — description, components, casting time,
+range, duration, effect, save, school, SR, short description — plus an `<actions>` block that
+makes the cast button work, with `savetype` derived from the save line (`Reflex half` →
+`reflex`) and `srnotallowed` set when the spell ignores spell resistance. Hand-authoring this
+is not viable: one spell is roughly forty lines.
+
+**`spellmode` and `spelldisplaymode` are required on the NPC**, not just the spellset. Without
+them the set is stored but the Spells tab has no usable casting layout. The build writes them
+only for NPCs that actually have spells.
 
 ### Encounters — `fg/encounters/*.md`
 
