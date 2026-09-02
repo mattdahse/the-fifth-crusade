@@ -44,6 +44,11 @@ ability: wisdom
 label: Adept Spells
 1: burning hands, cure light wounds
 0: guidance, touch of fatigue
+
+burning hands: damage d4 per cl max 5 fire
+cure light wounds: heal d8 plus 1 per cl max 5
+guidance: effect Guidance; +1 competence on one attack, save or skill check for 1 minute
+touch of fatigue: effect Fatigued for 1 round per cl
 ```
 
 An acolyte takes the name Hookhand on being given a warband, and wears an iron hook lashed

@@ -152,6 +152,142 @@ function Get-AbilityMod($stats, [string]$ability) {
   return [int][math]::Floor((([int]$score) - 10) / 2)
 }
 
+# Build a spell's <actions> block.
+#
+# The cast action alone only posts the spell and its save to chat. What makes a spell
+# usable at the table is the damage / heal / effect actions beside it, and FG has no way
+# to derive those from a spell's prose - they are hand-modelled data. So they are declared
+# in the spells block, one line per spell:
+#
+#   burning hands: damage d4 per cl max 5 fire
+#   cure light wounds: heal d8 plus 1 per cl max 5
+#   touch of fatigue: effect Fatigued for 1 round per cl
+#
+# Clauses are separated by ";" and any number may appear on one line. "onmiss half" is
+# added to the cast action automatically whenever the spell's save line says "half".
+function Build-SpellActions($rec, [string]$spec, [string]$pad) {
+  $out = New-Object System.Collections.ArrayList
+  $save = Get-SpellField $rec 'save'
+  $sr = Get-SpellField $rec 'sr'
+  $order = 0
+
+  # --- the cast action, always present
+  $order++
+  [void]$out.Add("$pad<id-{0:D5}>" -f $order)
+  # "Will half (harmless)" on a cure spell is not a half-damage-on-save case, so only
+  # carry onmissdamage across when the spell actually deals damage.
+  if ($save -match '(?i)half' -and $spec -match '(?i)\bdamage\b') {
+    [void]$out.Add("$pad`t<onmissdamage type=""string"">half</onmissdamage>")
+  }
+  [void]$out.Add("$pad`t<order type=""number"">$order</order>")
+  if ($save -match '^(Reflex|Will|Fortitude)') {
+    [void]$out.Add("$pad`t<savetype type=""string"">$($matches[1].ToLower())</savetype>")
+  }
+  if ($sr -match '^No') { [void]$out.Add("$pad`t<srnotallowed type=""number"">1</srnotallowed>") }
+  [void]$out.Add("$pad`t<type type=""string"">cast</type>")
+  [void]$out.Add(("$pad</id-{0:D5}>" -f $order))
+
+  if (-not $spec) { return $out.ToArray() }
+
+  # FG effect labels legitimately contain semicolons ("Align Weapon - Good; DMGTYPE: good"),
+  # so a fragment that does not begin with a clause keyword belongs to the clause before it.
+  $clauses = New-Object System.Collections.ArrayList
+  foreach ($frag in ($spec -split ';')) {
+    $f = $frag.Trim()
+    if (-not $f) { continue }
+    if ($f -match '(?i)^(damage|heal|effect|onmiss)\s' -or $clauses.Count -eq 0) {
+      [void]$clauses.Add($f)
+    }
+    else {
+      $clauses[$clauses.Count - 1] = $clauses[$clauses.Count - 1] + '; ' + $f
+    }
+  }
+
+  foreach ($clause in $clauses) {
+    $c = $clause.Trim()
+    if (-not $c) { continue }
+
+    # --- damage DICE [per cl] [max N] [TYPE]
+    if ($c -match '(?i)^damage\s+(\d*d\d+)(?:\s+per\s+cl)?(?:\s+max\s+(\d+))?(?:\s+([a-zA-Z]+))?\s*$') {
+      $dice = $matches[1]
+      $max = $matches[2]
+      $dtype = $matches[3]
+      $perCl = $c -match '(?i)\sper\s+cl'
+      $order++
+      [void]$out.Add(("$pad<id-{0:D5}>" -f $order))
+      [void]$out.Add("$pad`t<damagelist>")
+      [void]$out.Add("$pad`t`t<id-00001>")
+      [void]$out.Add("$pad`t`t`t<bonus type=""number"">0</bonus>")
+      [void]$out.Add("$pad`t`t`t<dice type=""dice"">$dice</dice>")
+      if ($perCl) { [void]$out.Add("$pad`t`t`t<dicestat type=""string"">cl</dicestat>") }
+      if ($max) { [void]$out.Add("$pad`t`t`t<dicestatmax type=""number"">$max</dicestatmax>") }
+      if ($dtype) { [void]$out.Add("$pad`t`t`t<type type=""string"">$(Esc $dtype.ToLower())</type>") }
+      [void]$out.Add("$pad`t`t</id-00001>")
+      [void]$out.Add("$pad`t</damagelist>")
+      [void]$out.Add("$pad`t<order type=""number"">$order</order>")
+      [void]$out.Add("$pad`t<type type=""string"">damage</type>")
+      [void]$out.Add(("$pad</id-{0:D5}>" -f $order))
+      continue
+    }
+
+    # --- heal DICE [plus N per cl] [max N] [self]
+    if ($c -match '(?i)^heal\s+(\d*d\d+)(?:\s+plus\s+(\d+)\s+per\s+cl)?(?:\s+max\s+(\d+))?(\s+self)?\s*$') {
+      $dice = $matches[1]
+      $mult = $matches[2]
+      $max = $matches[3]
+      $self = $matches[4]
+      $order++
+      [void]$out.Add(("$pad<id-{0:D5}>" -f $order))
+      [void]$out.Add("$pad`t<heallist>")
+      [void]$out.Add("$pad`t`t<id-00001>")
+      [void]$out.Add("$pad`t`t`t<bonus type=""number"">0</bonus>")
+      [void]$out.Add("$pad`t`t`t<dice type=""dice"">$dice</dice>")
+      [void]$out.Add("$pad`t`t`t<dicestatmax type=""number"">1</dicestatmax>")
+      if ($max) { [void]$out.Add("$pad`t`t`t<statmax type=""number"">$max</statmax>") }
+      if ($mult) { [void]$out.Add("$pad`t`t`t<statmult type=""number"">$mult</statmult>") }
+      [void]$out.Add("$pad`t`t</id-00001>")
+      [void]$out.Add("$pad`t</heallist>")
+      if ($self) { [void]$out.Add("$pad`t<healtargeting type=""string"">self</healtargeting>") }
+      [void]$out.Add("$pad`t<order type=""number"">$order</order>")
+      [void]$out.Add("$pad`t<type type=""string"">heal</type>")
+      [void]$out.Add(("$pad</id-{0:D5}>" -f $order))
+      continue
+    }
+
+    # --- effect LABEL [for N round|minute|hour|day [per cl]]
+    if ($c -match '(?i)^effect\s+(.+?)(?:\s+for\s+(\d+)\s+(round|minute|hour|day)s?(\s+per\s+cl)?)?\s*$') {
+      $label = $matches[1].Trim()
+      $durN = $matches[2]
+      $durUnit = $matches[3]
+      $perCl = $matches[4]
+      $order++
+      [void]$out.Add(("$pad<id-{0:D5}>" -f $order))
+      [void]$out.Add("$pad`t<dmaxstat type=""number"">0</dmaxstat>")
+      [void]$out.Add("$pad`t<durdice type=""dice""></durdice>")
+      [void]$out.Add("$pad`t<durdicestatmax type=""number"">0</durdicestatmax>")
+      if ($perCl) {
+        [void]$out.Add("$pad`t<durmod type=""number"">0</durmod>")
+        [void]$out.Add("$pad`t<durmult type=""number"">$(if ($durN) { $durN } else { 1 })</durmult>")
+        [void]$out.Add("$pad`t<durstat type=""string"">cl</durstat>")
+      }
+      else {
+        [void]$out.Add("$pad`t<durmod type=""number"">$(if ($durN) { $durN } else { 0 })</durmod>")
+        [void]$out.Add("$pad`t<durmult type=""number"">0</durmult>")
+        [void]$out.Add("$pad`t<durstat type=""string""></durstat>")
+      }
+      [void]$out.Add("$pad`t<durunit type=""string"">$(if ($durUnit) { $durUnit.ToLower() } else { 'minute' })</durunit>")
+      [void]$out.Add("$pad`t<label type=""string"">$(Esc $label)</label>")
+      [void]$out.Add("$pad`t<order type=""number"">$order</order>")
+      [void]$out.Add("$pad`t<type type=""string"">effect</type>")
+      [void]$out.Add(("$pad</id-{0:D5}>" -f $order))
+      continue
+    }
+
+    Warn "spell action not understood: $c"
+  }
+  return $out.ToArray()
+}
+
 # Emit an NPC's <spellset> at the given indent. Returns lines, or nothing if the NPC has
 # no spells block.
 function Build-SpellSet($npc, [int]$indent) {
@@ -220,20 +356,15 @@ function Build-SpellSet($npc, [int]$indent) {
     foreach ($rec in $entries) {
       $i++
       $slot = 'id-{0:D5}' -f $i
-      $save = Get-SpellField $rec 'save'
-      $sr = Get-SpellField $rec 'sr'
+      $spellName = Get-SpellField $rec 'name'
+      $actionSpec = ''
+      $specKey = $spellName.ToLower()
+      if ($plan.ContainsKey($specKey)) { $actionSpec = [string]$plan[$specKey] }
       [void]$out.Add("$pad`t`t`t`t`t<$slot>")
       [void]$out.Add("$pad`t`t`t`t`t`t<actions>")
-      [void]$out.Add("$pad`t`t`t`t`t`t`t<id-00001>")
-      [void]$out.Add("$pad`t`t`t`t`t`t`t`t<order type=""number"">1</order>")
-      if ($save -match '^(Reflex|Will|Fortitude)') {
-        [void]$out.Add("$pad`t`t`t`t`t`t`t`t<savetype type=""string"">$($matches[1].ToLower())</savetype>")
+      foreach ($actLine in (Build-SpellActions $rec $actionSpec "$pad`t`t`t`t`t`t`t")) {
+        [void]$out.Add($actLine)
       }
-      if ($sr -match '^No') {
-        [void]$out.Add("$pad`t`t`t`t`t`t`t`t<srnotallowed type=""number"">1</srnotallowed>")
-      }
-      [void]$out.Add("$pad`t`t`t`t`t`t`t`t<type type=""string"">cast</type>")
-      [void]$out.Add("$pad`t`t`t`t`t`t`t</id-00001>")
       [void]$out.Add("$pad`t`t`t`t`t`t</actions>")
       [void]$out.Add("$pad`t`t`t`t`t`t<cast type=""number"">0</cast>")
       foreach ($f in @('castingtime', 'components')) {
@@ -245,7 +376,7 @@ function Build-SpellSet($npc, [int]$indent) {
         [void]$out.Add("$pad`t`t`t`t`t`t<$f type=""string"">$(Esc (Get-SpellField $rec $f))</$f>")
       }
       [void]$out.Add("$pad`t`t`t`t`t`t<linkedspells />")
-      [void]$out.Add("$pad`t`t`t`t`t`t<name type=""string"">$(Esc (Get-SpellField $rec 'name'))</name>")
+      [void]$out.Add("$pad`t`t`t`t`t`t<name type=""string"">$(Esc $spellName)</name>")
       [void]$out.Add("$pad`t`t`t`t`t`t<prepared type=""number"">1</prepared>")
       foreach ($f in @('range', 'save', 'school', 'shortdescription', 'sr')) {
         [void]$out.Add("$pad`t`t`t`t`t`t<$f type=""string"">$(Esc (Get-SpellField $rec $f))</$f>")

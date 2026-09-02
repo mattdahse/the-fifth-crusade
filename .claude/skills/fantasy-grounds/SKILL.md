@@ -288,6 +288,36 @@ label: Adept Spells
 - **An unknown spell name is a warning, not an error** — it is skipped and the rest still build.
   Check the build output.
 
+**Spell actions must be declared.** The looked-up spell gives you a *cast* action, which only
+posts the spell and its save to chat. The damage / heal / effect buttons are hand-modelled data
+that FG cannot derive from a spell's prose, so they are declared one line per spell, below the
+level lines in the same block:
+
+```
+burning hands: damage d4 per cl max 5 fire
+cure light wounds: heal d8 plus 1 per cl max 5
+guidance: effect Guidance; +1 competence on one attack, save or skill check for 1 minute
+touch of fatigue: effect Fatigued for 1 round per cl
+```
+
+| Clause | Meaning |
+|---|---|
+| `damage DICE [per cl] [max N] [TYPE]` | scaling damage; `per cl` sets `dicestat`, `max` caps the dice |
+| `heal DICE [plus N per cl] [max N] [self]` | healing; `plus N per cl` is the per-level bonus |
+| `effect LABEL [for N round\|minute\|hour\|day [per cl]]` | applies an FG effect for a duration |
+
+Clauses are separated by `;`, and several may sit on one line. A fragment that does **not**
+begin with a clause keyword is merged back into the clause before it — FG effect labels
+legitimately contain semicolons (`Align Weapon - Good; DMGTYPE: good`), so the separator alone
+cannot be trusted.
+
+Derived automatically, so don't write them: `savetype` from the save line, `srnotallowed` from
+the SR line, and `onmissdamage: half` — but only on a spell that actually deals damage, since
+"Will half (harmless)" on a cure spell is not a half-damage-on-save case.
+
+An unparsed clause is a **warning, not an error**, so read the build output; the spell still
+ships with whatever else was understood.
+
 **Where the spells come from.** `PF-SRD-Spells.mod`, falling back to `3.5E-spells.mod`. Two
 traps: that module keeps its data in **`client.xml`, not `db.xml`**, and the records sit under
 **`<spelldesc>`**. Lookup is by name with all non-alphanumerics stripped, so "Cure Light Wounds"
