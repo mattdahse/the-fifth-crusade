@@ -5,7 +5,6 @@
 <!-- grid: on -->
 <!-- gridtype: square -->
 <!-- gridsize: 50 -->
-<!-- gridoffset: 0,0 -->
 <!-- scale: one square — five feet -->
 
 A stone-and-wattle longhouse under a slate roof laid over beams, built to last by people who
@@ -15,20 +14,30 @@ is the whole reason the place is worth having.
 
 The valley falls away sharply to the west. The road runs past the east wall.
 
+## The plate
+
+Drawn by [`../art/make-sarkorian-house.py`](../art/make-sarkorian-house.py) rather than
+generated — a readable floor plan at **50 px to a five-foot square**, ten squares by eight.
+Settling the geometry in code first means painted art can replace the plate later without
+moving a single wall, because the occluders below are written against these coordinates.
+
 ## Occluders
 
-Line-of-sight walls, in image pixel coordinates. Calibrate against the plate before the
-first session — see the skill's map notes.
+Line-of-sight walls, in image pixel coordinates.
 
-<!-- occluder: 120,90 640,90 640,470 120,470 120,90 -->
-<!-- occluder: 300,90 300,300 -->
-<!-- occluder-open: 300,300 300,380 -->
-<!-- occluder: 300,380 300,470 -->
+<!-- occluder: 150,150 150,550 -->
+<!-- occluder: 150,550 650,550 -->
+<!-- occluder: 650,550 650,150 -->
+<!-- occluder: 400,150 400,330 -->
+<!-- occluder: 400,380 400,550 -->
+<!-- occluder-open: 150,150 650,150 -->
 
 ## Notes
 
-- The **north wall** is a rubble spill, not a barrier: difficult terrain, and no line-of-sight
-  block. It is drawn as an open segment above.
+- The **north wall** is a rubble spill, not a barrier: difficult terrain, and it does not block
+  line of sight. It is the last occluder above — the one drawn as passable terrain.
+- The **doorway** in the cross-wall is the one-square gap between the two wall segments, and
+  it is the only way between the two rooms that does not involve the rubble.
 - The **hearth** in the south-east corner is cold and has been cold for seventy years. There is
   something under the ash.
 - The **roof** matters. A fight here is fought indoors, which is why the acolyte's

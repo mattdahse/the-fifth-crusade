@@ -886,7 +886,11 @@ $def = @(
 $artSrc = Join-Path $src 'art'
 $artCount = 0
 if (Test-Path $artSrc) {
+  # Only ship actual assets. fg/art/ also holds the scripts that draw the plates, and
+  # those have no business inside the module.
+  $assetExt = @('.png', '.jpg', '.jpeg', '.webp', '.gif', '.bmp', '.svg', '.ttf', '.otf')
   foreach ($f in (Get-ChildItem $artSrc -Recurse -File)) {
+    if ($assetExt -notcontains $f.Extension.ToLower()) { continue }
     $rel = $f.FullName.Substring($artSrc.Length).TrimStart('\', '/')
     $dst = Join-Path $stage $rel
     New-Item -ItemType Directory -Path (Split-Path $dst) -Force | Out-Null
