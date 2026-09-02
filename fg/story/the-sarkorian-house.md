@@ -29,7 +29,7 @@ party stumbling into the reason the road is about to become dangerous.
 sneaking up on it in daylight, and the squatters keep a watch that is honest in the morning
 and not at all honest after noon.
 
-**The fight.** [encounter: sarkorian_house] — 670 XP, a hard encounter at 1st level, and it
+**The fight.** 670 XP, a hard encounter at 1st level, and it
 should feel like one. Fought indoors under a roof: no long bowshots, and the acolyte opens
 with *burning hands* the moment two characters are adjacent. The rubble spill on the north
 side is the tactical answer — difficult terrain, but it flanks the room and the squatters
@@ -39,7 +39,11 @@ will not think to guard it.
 surrender, and a party that takes a prisoner gets the ledger explained to them. A party that
 kills everyone has to work it out on their own, which is slower and less interesting.
 
-**The reward.** [parcel: sarkorian_house]
+**The reward.**
+
+@link parcel: sarkorian_house
+@link battle: sarkorian_house
+@link quest: halfway_house
 
 ## What It Changes
 

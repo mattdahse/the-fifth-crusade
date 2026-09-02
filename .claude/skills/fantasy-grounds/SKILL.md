@@ -107,16 +107,49 @@ list**; the recordtype above is. This build does not emit categories.
 Named record ids (`<labyrinth_squatter>` rather than `<id-00001>`) work, and are what make
 `npc.labyrinth_squatter@Module Name` a stable cross-reference. Prefer them.
 
+## Record links
+
+FG puts links in a block-level `<linklist>`, **never inline inside a `<p>`**, so a link is its
+own block in the source. Consecutive `@link` lines become one list:
+
+```markdown
+**The reward.**
+
+@link parcel: sarkorian_house
+@link battle: sarkorian_house
+@link quest: halfway_house
+```
+
+The build resolves each id to that record's title and warns if it points at nothing. Override
+the label with `| My own label` after the id.
+
+| `@link` kind | `class` | `recordname` node |
+|---|---|---|
+| `npc` | `npc` | `npc.<id>` |
+| `battle` (or `encounter`) | `battle` | `battle.<id>` |
+| `parcel` | `treasureparcel` | `treasureparcels.<id>` |
+| `map` (or `image`) | `imagewindow` | `image.<id>` |
+| `quest` | `quest` | `quest.<id>` |
+| `story` | `encounter` | `encounter.<id>` |
+
+Note the same node-vs-type split as the `<library>` block: `class` is the record type,
+`recordname` is the node path. Links inside one module need no `@Module Name` suffix.
+
 ## Diagnosing a module that loads but shows nothing
 
 In order, cheapest first:
 
-1. **`console.log`** in the FG data root — confirms the module loaded and timestamps it
+1. **Reopen the record window.** An FG record window that was open across a module reload
+   keeps showing the values it was opened with. A stale window cost a full debugging round
+   here: a quest kept reading "Level 0" with an empty description long after the module on
+   disk had both, because that one window had never been closed. Close it and reopen from
+   the list before believing anything it says.
+2. **`console.log`** in the FG data root — confirms the module loaded and timestamps it
    (`MEASURE: MODULE LOAD - … - <name>`). If your build time is later than that line, FG
    loaded an older file.
-2. **Hash the installed `.mod`** against `build/` to prove which file FG actually has.
-3. **Check the recordtype table above** — this is the usual answer.
-4. **Compare against a real module.** `MachineFrequency.mod` is the reference adventure
+3. **Hash the installed `.mod`** against `build/` to prove which file FG actually has.
+4. **Check the recordtype table above** — this is the usual answer.
+5. **Compare against a real module.** `MachineFrequency.mod` is the reference adventure
    (story + parcels + battles + npcs) and `ks01_ogl_well_met_in_kithtakharos.mod` the
    reference for older layout. The purchased APs are encrypted `.dat` files in `vault/` and
    cannot be read.

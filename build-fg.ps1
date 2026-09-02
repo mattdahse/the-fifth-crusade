@@ -70,6 +70,20 @@ function Format-Inline([string]$s) {
   return $s
 }
 
+# Record links. FG puts links in a block-level <linklist>, never inline in a <p>, so a
+# link is its own block in the source. `class` is the RECORD TYPE and `recordname` is the
+# NODE path - the two differ for parcels and story, exactly as in the <library> block.
+# Links within one module need no @Module suffix.
+$linkKinds = @{
+  npc     = @{ node = 'npc';             class = 'npc';            label = 'NPC' }
+  battle  = @{ node = 'battle';          class = 'battle';         label = 'Encounter' }
+  parcel  = @{ node = 'treasureparcels'; class = 'treasureparcel'; label = 'Parcel' }
+  map     = @{ node = 'image';           class = 'imagewindow';    label = 'Image' }
+  quest   = @{ node = 'quest';           class = 'quest';          label = 'Quest' }
+  story   = @{ node = 'encounter';       class = 'encounter';      label = 'Story' }
+}
+$linkTitles = @{}   # "kind:id" -> display title, filled in once the docs are loaded
+
 # Markdown prose -> FG <formattedtext>.
 #
 # Parses BLOCKS, not lines. The source is hard-wrapped for readable diffs, so a
@@ -91,7 +105,30 @@ function ConvertTo-FormattedText([string]$md, [int]$indent) {
     $lines = @($block -split "`r?`n" | ForEach-Object { $_.Trim() } | Where-Object { $_ })
     if ($lines.Count -eq 0) { continue }
 
-    if ($lines[0] -match '^#{2,6}\s+') {
+    if ($lines[0] -match '^@link\s+') {
+      [void]$out.Add("$pad<linklist>")
+      foreach ($l in $lines) {
+        if ($l -notmatch '^@link\s+([a-zA-Z]+)\s*:\s*([A-Za-z0-9_]+)\s*(?:\|\s*(.+?))?$') {
+          Warn "link not understood: $l"
+          continue
+        }
+        $kind = $matches[1].ToLower()
+        $id = $matches[2]
+        $custom = $matches[3]
+        if ($kind -eq 'encounter') { $kind = 'battle' }
+        if ($kind -eq 'image') { $kind = 'map' }
+        if (-not $linkKinds.ContainsKey($kind)) { Warn "unknown link kind '$kind' in: $l"; continue }
+        $k = $linkKinds[$kind]
+        $title = $custom
+        if (-not $title) {
+          if ($linkTitles.ContainsKey("${kind}:$id")) { $title = $linkTitles["${kind}:$id"] }
+          else { Warn "link points at nothing: $kind`:$id"; $title = $id }
+        }
+        [void]$out.Add("$pad`t<link class=""$($k.class)"" recordname=""$($k.node).$id""><b>$($k.label): </b>$(Esc $title)</link>")
+      }
+      [void]$out.Add("$pad</linklist>")
+    }
+    elseif ($lines[0] -match '^#{2,6}\s+') {
       # A heading block may be followed by prose lines; emit the heading, then the rest.
       [void]$out.Add("$pad<h>$(Format-Inline ($lines[0] -replace '^#{2,6}\s+', ''))</h>")
       if ($lines.Count -gt 1) {
@@ -182,6 +219,13 @@ $stories    = @(Read-Docs 'story')
 
 $npcById = @{}
 foreach ($n in $npcs) { $npcById[$n.id] = $n }
+
+foreach ($n in $npcs)       { $linkTitles["npc:$($n.id)"] = $n.title }
+foreach ($e in $encounters) { $linkTitles["battle:$($e.id)"] = $e.title }
+foreach ($p in $parcels)    { $linkTitles["parcel:$($p.id)"] = $p.title }
+foreach ($q in $quests)     { $linkTitles["quest:$($q.id)"] = $q.title }
+foreach ($m in $maps)       { $linkTitles["map:$($m.id)"] = $m.title }
+foreach ($t in $stories)    { $linkTitles["story:$($t.id)"] = $t.title }
 
 $xml = New-Object System.Collections.ArrayList
 [void]$xml.Add('<?xml version="1.0" encoding="utf-8"?>')
