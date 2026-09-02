@@ -32,17 +32,26 @@ never write FG's centred coordinates here by hand.
 
 <!-- occluder: 300,300 300,1100 -->
 <!-- occluder: 300,1100 1300,1100 -->
-<!-- occluder: 1300,1100 1300,300 -->
+<!-- occluder: 1300,1100 1300,800 -->
+<!-- occluder-door: 1300,800 1300,700 -->
+<!-- occluder: 1300,700 1300,300 -->
 <!-- occluder: 800,300 800,660 -->
 <!-- occluder: 800,760 800,1100 -->
-<!-- occluder-open: 300,300 1300,300 -->
 
 ## Notes
 
-- The **north wall** is a rubble spill, not a barrier: difficult terrain, and it does not block
-  line of sight. It is the last occluder above — the one drawn as passable terrain.
-- The **doorway** in the cross-wall is the one-square gap between the two wall segments, and
-  it is the only way between the two rooms that does not involve the rubble.
+- The **front door** is in the east wall, facing the road, and is the way in that does not
+  involve climbing. It ships **closed**: FG draws it as a door the GM or a player can open, and
+  it blocks sight until someone does. Shut, it is the reason the party can knock, listen, or come
+  over the rubble instead.
+- The **north wall** is a rubble spill and carries **no occluder at all**. It is difficult
+  terrain, which is a GM ruling and not something FG models with occluders, and it does not block
+  line of sight — so an occluder there would be wrong in both directions. Sight and movement both
+  pass freely over the north edge.
+- The **doorway** in the cross-wall is the one-square gap between the two wall segments. It has
+  no door left in it.
+- **Two ways in, which is the point.** Off the road through the front door, or round the north
+  over the rubble. A single entrance funnels every approach into one plan.
 - The **hearth** in the south-east corner is cold and has been cold for seventy years. There is
   something under the ash.
 - The **roof** matters. A fight here is fought indoors, which is why the acolyte's

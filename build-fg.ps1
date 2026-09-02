@@ -840,8 +840,13 @@ if ($maps.Count) {
     [void]$rows.Add("`t`t`t`t`t`t<type>image</type>")
     [void]$rows.Add("`t`t`t`t`t`t<bitmap>$(Esc $rel)</bitmap>")
     $occ = New-Object System.Collections.ArrayList
-    if ($mp.meta.occluder) { foreach ($o in @($mp.meta.occluder)) { [void]$occ.Add(@{ pts = $o; open = $false }) } }
-    if ($mp.meta.'occluder-open') { foreach ($o in @($mp.meta.'occluder-open')) { [void]$occ.Add(@{ pts = $o; open = $true }) } }
+    # Three kinds of line-of-sight wall. FG keeps movement and vision on separate flags,
+    # so "passable" and "see-through" are independent: occluder-open is terrain you can walk
+    # through but not see through (a thicket, a smoke bank), NOT an open edge. Terrain that
+    # blocks neither needs no occluder at all.
+    if ($mp.meta.occluder) { foreach ($o in @($mp.meta.occluder)) { [void]$occ.Add(@{ pts = $o; kind = 'wall' }) } }
+    if ($mp.meta.'occluder-open') { foreach ($o in @($mp.meta.'occluder-open')) { [void]$occ.Add(@{ pts = $o; kind = 'open' }) } }
+    if ($mp.meta.'occluder-door') { foreach ($o in @($mp.meta.'occluder-door')) { [void]$occ.Add(@{ pts = $o; kind = 'door' }) } }
     if ($occ.Count) {
       [void]$rows.Add("`t`t`t`t`t`t<occluders>")
       $oi = 0
@@ -859,13 +864,39 @@ if ($maps.Count) {
           [void]$xy.Add((([double]$c[0] - $ox)).ToString([Globalization.CultureInfo]::InvariantCulture))
           [void]$xy.Add((([double]$c[1] - $oy)).ToString([Globalization.CultureInfo]::InvariantCulture))
         }
+        # FG writes its own doors as a thin quad rather than a bare segment, so a
+        # two-point door is widened into one here. A door authored as a plain polyline
+        # may well work, but matching the shape the client itself emits costs nothing
+        # and removes the question.
+        if ($o.kind -eq 'door' -and $xy.Count -eq 4) {
+          $x1 = [double]$xy[0]; $y1 = [double]$xy[1]
+          $x2 = [double]$xy[2]; $y2 = [double]$xy[3]
+          $dx = $x2 - $x1; $dy = $y2 - $y1
+          $len = [Math]::Sqrt($dx * $dx + $dy * $dy)
+          if ($len -gt 0) {
+            $nx = -$dy / $len * 2.5; $ny = $dx / $len * 2.5
+            $inv = [Globalization.CultureInfo]::InvariantCulture
+            # Each element is parenthesised: PowerShell's comma binds tighter than +,
+            # so `$x1 + $nx, $y1` would add an array to a double and throw.
+            $quad = @(($x1 + $nx), ($y1 + $ny), ($x2 + $nx), ($y2 + $ny),
+                      ($x2 - $nx), ($y2 - $ny), ($x1 - $nx), ($y1 - $ny))
+            $xy = New-Object System.Collections.ArrayList
+            foreach ($v in $quad) { [void]$xy.Add(([double]$v).ToString($inv)) }
+          }
+        }
         $pts = $xy -join ','
         [void]$rows.Add("`t`t`t`t`t`t`t<occluder>")
         [void]$rows.Add("`t`t`t`t`t`t`t`t<id>$oi</id>")
         [void]$rows.Add("`t`t`t`t`t`t`t`t<points>$pts</points>")
-        if ($o.open) {
+        if ($o.kind -eq 'open') {
           [void]$rows.Add("`t`t`t`t`t`t`t`t<terrain />")
           [void]$rows.Add("`t`t`t`t`t`t`t`t<allow_move />")
+        }
+        elseif ($o.kind -eq 'door') {
+          # A door ships closed, and FG gives it a click target to open. Without
+          # <closed /> it loads standing open, which quietly removes the wall.
+          [void]$rows.Add("`t`t`t`t`t`t`t`t<toggleable />")
+          [void]$rows.Add("`t`t`t`t`t`t`t`t<closed />")
         }
         [void]$rows.Add("`t`t`t`t`t`t`t</occluder>")
       }
