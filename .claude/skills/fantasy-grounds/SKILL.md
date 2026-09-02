@@ -56,24 +56,74 @@ but its records open with the wrong sheet.
 
 ---
 
-## Every record type lives inside a `<category>`
+## The `<library>` recordtype is NOT the XML node name
 
-```xml
-<npc>
-  <category name="NPCs" mergeid="" baseicon="1" decalicon="0">
-    <labyrinth_squatter>
-      ...
+This is the single most expensive thing to rediscover, because **it fails completely
+silently**: the module loads, the console logs no error, the list window simply comes up
+empty.
+
+The XML node a record lives in and the *record type* the ruleset knows it by are different
+strings. CoreRPG's `scripts/data_library.lua` holds the authoritative `aRecords` table:
+
+| Section node in `db.xml` | `recordtype` in `<library>` | Sidebar |
+|---|---|---|
+| `<encounter>` | **`story`** | World |
+| `<treasureparcels>` | **`treasureparcel`** (singular) | — |
+| `<quest>` | `quest` | World |
+| `<npc>` | `npc` | — |
+| `<battle>` | `battle` | — |
+| `<image>` | `image` | — |
+| `<item>` | `item` | — |
+| `<location>` | `location` | World |
+| `<notes>` | `note` | World |
+| `<tables>` | `table` | — |
+
+Four of them share both names, which is exactly what made the first build so confusing:
+`npc`, `battle`, `image` and `quest` listed correctly while `story` and `treasureparcel`
+came back as empty windows off the identical code path.
+
+To re-derive this list on any machine, read the ruleset itself:
+
+```python
+import zipfile, os, re
+pak = os.environ['APPDATA'] + r'/SmiteWorks/Fantasy Grounds/rulesets/CoreRPG.pak'
+d = zipfile.ZipFile(pak).read('scripts/data_library.lua').decode('utf-8', 'replace')
+seg = d[d.find('aRecords = {'):]
+for m in re.finditer(r'\["(\w+)"\] = \{', seg):
+    body = seg[m.start():m.start() + 900]
+    dm = re.search(r'aDataMap = \{([^}]*)\}', body)
+    if dm:
+        print(m.group(1), '->', dm.group(1).strip())
 ```
 
-**This wrapper is not optional and its absence fails silently.** Records without it can load
-and still never appear in the module's list window. On the first build, `<npc>`, `<battle>` and
-`<quest>` happened to list anyway while `<encounter>` and `<treasureparcels>` came back as empty
-windows — same module, same code path, no error anywhere. `build-fg.ps1` now wraps every section
-via `Add-Section`, matching what every real adventure module does.
+## `<category>` is a grouping label, not a requirement
 
-The worked example is `modules/ks01_ogl_well_met_in_kithtakharos.mod` — an unencrypted OGL
-adventure with story, items, NPCs and images. **Read it when a record type misbehaves.** The
-purchased AP modules are encrypted `.dat` files in `vault/` and cannot be inspected.
+An old module (`ks01_ogl_well_met_in_kithtakharos.mod`, 2009) wraps every record in
+`<category name="..." mergeid="" baseicon="1" decalicon="0">`. A modern one
+(`MachineFrequency.mod` — a full adventure with story, parcels, battles and NPCs) does not,
+and puts records directly under the section node. **The wrapper is not what makes a section
+list**; the recordtype above is. This build does not emit categories.
+
+Named record ids (`<labyrinth_squatter>` rather than `<id-00001>`) work, and are what make
+`npc.labyrinth_squatter@Module Name` a stable cross-reference. Prefer them.
+
+## Diagnosing a module that loads but shows nothing
+
+In order, cheapest first:
+
+1. **`console.log`** in the FG data root — confirms the module loaded and timestamps it
+   (`MEASURE: MODULE LOAD - … - <name>`). If your build time is later than that line, FG
+   loaded an older file.
+2. **Hash the installed `.mod`** against `build/` to prove which file FG actually has.
+3. **Check the recordtype table above** — this is the usual answer.
+4. **Compare against a real module.** `MachineFrequency.mod` is the reference adventure
+   (story + parcels + battles + npcs) and `ks01_ogl_well_met_in_kithtakharos.mod` the
+   reference for older layout. The purchased APs are encrypted `.dat` files in `vault/` and
+   cannot be read.
+
+Note that FG's own sidebar reaches these records regardless of the library block: **World →
+Story / Quests**, and the Campaign section for parcels. If a library window is empty but the
+sidebar list has the records, the bug is in the `<library>` block, not the data.
 
 ## Field names that are not what you would guess
 
@@ -82,10 +132,7 @@ purchased AP modules are encrypted `.dat` files in `vault/` and cannot be inspec
 | **quest** | prose is `<description>`, **not** `<text>`. Needs `<level type="number">` or the sheet reads "Level 0". Has `<gmnotes>`. There is **no** field for the quest-giver — put it in `gmnotes`. |
 | **encounter** (story) | prose *is* `<text>`. |
 | **npc** | prose is `<text>`; `<token>` and `<picture>` both take `type="token"`. |
-| **treasureparcels** | `<coinlist>` and `<itemlist>` use numeric `id-NNNNN` slots; item prose is `<description>`. |
-
-Named record ids (`<labyrinth_squatter>` rather than `<id-00001>`) work fine and are what make
-`npc.labyrinth_squatter@Module Name` a stable cross-reference, so prefer them.
+| **treasureparcels** (node) | `<coinlist>` and `<itemlist>` use numeric `id-NNNNN` slots; item prose is `<description>`. |
 
 ## Reading the format from Matt's own campaign
 

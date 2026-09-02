@@ -127,24 +127,19 @@ function S($tag, $val, $indent) { ("`t" * $indent) + "<$tag type=""string"">$(Es
 function N($tag, $val, $indent) { ("`t" * $indent) + "<$tag type=""number"">$val</$tag>" }
 function T($tag, $val, $indent) { ("`t" * $indent) + "<$tag type=""token"">$(Esc $val)</$tag>" }
 
-# Emit one top-level section, with its records wrapped in a <category>.
+# Emit one top-level section. Records go directly under the section node, which is what
+# a modern adventure module does (MachineFrequency.mod). An older module wraps them in
+# <category>; that is a grouping label, NOT what makes a section list, so it is not used
+# here. What makes a section list is the recordtype in the <library> block - see below.
 #
-# The category wrapper is NOT optional. Every record type in a real Fantasy Grounds
-# adventure module carries one, and without it a section can load but never appear in
-# the module's list window - which is exactly how <encounter> and <treasureparcels>
-# came back empty on the first build while <npc> and <battle> happened to survive.
-#
-# Records are generated at their natural indent and shifted one tab deeper here, so
-# the per-record code does not have to know it is inside a category.
+# $category is kept as the list's display name only.
 function Add-Section($tag, $category, $lines) {
   if (-not $lines -or $lines.Count -eq 0) { return }
   [void]$xml.Add("`t<$tag>")
-  [void]$xml.Add("`t`t<category name=""$(Esc $category)"" mergeid="""" baseicon=""1"" decalicon=""0"">")
   foreach ($l in $lines) {
-    # A single element may carry embedded newlines (formattedtext); indent every line.
-    foreach ($sub in ($l -split "`n")) { [void]$xml.Add("`t" + $sub) }
+    # A single element may carry embedded newlines (formattedtext); emit each line.
+    foreach ($sub in ($l -split "`n")) { [void]$xml.Add($sub) }
   }
-  [void]$xml.Add("`t`t</category>")
   [void]$xml.Add("`t</$tag>")
 }
 
@@ -435,12 +430,17 @@ if ($stories.Count) {
 [void]$xml.Add((S 'categoryname' ([string]$modMeta.category) 3))
 [void]$xml.Add((S 'name' $modName 3))
 [void]$xml.Add("`t`t`t<entries>")
+# The library's recordtype is the ruleset's RECORD TYPE, which is not always the XML
+# node name. CoreRPG's data_library.lua maps them: node <encounter> is recordtype
+# "story", and node <treasureparcels> is recordtype "treasureparcel" (singular).
+# npc/battle/image/quest happen to share both names, which is exactly why those four
+# listed on the first build while the other two came back as empty windows.
 $entries = [ordered]@{
-  adventure = @('Adventure', 'encounter')
+  adventure = @('Adventure', 'story')
   quests    = @('Quests', 'quest')
   npcs      = @('NPCs', 'npc')
   battles   = @('Encounters', 'battle')
-  parcels   = @('Treasure', 'treasureparcels')
+  parcels   = @('Treasure', 'treasureparcel')
   maps      = @('Maps', 'image')
 }
 foreach ($k in $entries.Keys) {
