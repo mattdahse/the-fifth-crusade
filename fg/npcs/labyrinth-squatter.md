@@ -4,7 +4,7 @@
 rather than take it.*
 
 <!-- id: labyrinth_squatter -->
-<!-- token: tokens/labyrinth-squatter.png -->
+<!-- token: tokens/labyrinth-squatter.webp -->
 
 ```stats
 cr: 1/3

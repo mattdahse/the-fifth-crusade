@@ -396,9 +396,21 @@ players roll for it. Omit it and the item arrives already identified.
   says so** — it will not ship a record pointing at nothing.
 - `gridtype:` is `square`, `hexrow` or `hexcolumn`. `gridsize` is the grid pitch in **image
   pixels**, so it must be measured against the actual plate.
-- **Occluders are line-of-sight walls**, given as space-separated `x,y` points in image pixel
-  coordinates. `occluder:` blocks sight and movement; `occluder-open:` marks terrain that can be
-  crossed but still occludes (rubble, low walls) — it gets `<terrain />` and `<allow_move />`.
+- **Occluders are line-of-sight walls**, given as space-separated `x,y` points in **top-left
+  image pixel coordinates**. `occluder:` blocks sight and movement; `occluder-open:` marks terrain
+  that can be crossed but still occludes (rubble, low walls) — it gets `<terrain />` and
+  `<allow_move />`.
+- **FG stores occluders relative to the image CENTRE, not its top-left corner.** The build measures
+  the plate and subtracts half its width and height, so markdown stays in the same pixel space the
+  blockout script draws in. This is worth knowing because it fails *plausibly*: written as raw
+  pixels the whole LOS layer lands half a plate up and to the left, so walls exist, doors exist,
+  and none of it is where the art is — on a 1600 × 1400 plate the house sits entirely off the
+  north-west corner. Verified against Matt's own campaign: every map's occluders fit inside
+  ±W/2, ±H/2, and `country_manor.png` (2000 × 3000) has x within ±1000 and y within ±1500. The
+  y-axis points **down**, same as the image.
+- **Check a finished LOS layer by drawing it.** Read the occluders back out of the built `.mod`,
+  add half the plate, and draw them over the bitmap — that exercises the real emitted numbers
+  rather than your arithmetic, and a misalignment is instantly obvious.
 - Occluders are the expensive part of map prep and the reason this pipeline is worth having.
   They must be **calibrated against the real plate** — you cannot write them before the art
   exists, only after. Author the map record first, generate the art, then measure.
@@ -472,14 +484,19 @@ compass, and no grid. FG draws the grid itself.
 
 ### Tokens
 
-`fg/art/tokens/*.png`, referenced by the NPC's `token:` marker. Match the Marchlands
-Expedition tokens already in the campaign (`Fenna Tusk.png`, `cobb_harwick.png`):
+`fg/art/tokens/*.webp`, referenced by the NPC's `token:` marker:
 
-- **2048 × 2048 PNG**, opaque, square.
+- **512 × 512 WebP at quality 85**, opaque, square. Do **not** copy the older Marchlands
+  Expedition tokens (`Fenna Tusk.png` and the rest): those are 2048 PNGs at 6–8 MB each, and a
+  2048 token costs ~16 MB of video memory however well the file compresses. Some of this table
+  is on low-end hardware. `fg/art/PROMPTS.md` carries the full reasoning.
 - A **painted portrait bust** with an environmental background — the archive's house look, not
   a top-down counter.
 - FG uses the same file for `<picture>` and `<token>` and **crops it to a circle** on the map,
   so keep the head well clear of the edges and nothing important in the corners.
+- **Renaming a token means editing the NPC's `token:` marker too.** The build now warns when a
+  marker points at a file that is not there; before that it shipped the broken reference and FG
+  silently fell back to a default marker.
 
 For anyone who already has a portrait in `characters/*.webp`, take the likeness from there and
 from `characters/CANON.md` — never from memory, exactly as `chatgpt-image-gen` Step 0 requires.

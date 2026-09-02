@@ -52,6 +52,59 @@ function Get-Stats([string]$text) {
   return $h
 }
 
+# Pixel dimensions of an image, read from its header.
+#
+# Occluders are authored in top-left image pixels but FG stores them relative to the
+# image CENTRE, so the build has to know how big the plate is to translate them. Headers
+# are parsed by hand rather than through System.Drawing: that assembly is Windows-only on
+# modern .NET and this build has to run on Matt's Macs too.
+function Get-ImageSize([string]$path) {
+  $b = [IO.File]::ReadAllBytes($path)
+  function BE2($o) { [int]$b[$o] * 256 + [int]$b[$o + 1] }
+  function BE4($o) { ([int]$b[$o] -shl 24) -bor ([int]$b[$o + 1] -shl 16) -bor ([int]$b[$o + 2] -shl 8) -bor [int]$b[$o + 3] }
+  function LE2($o) { [int]$b[$o + 1] * 256 + [int]$b[$o] }
+  function LE4($o) { ([int]$b[$o + 3] -shl 24) -bor ([int]$b[$o + 2] -shl 16) -bor ([int]$b[$o + 1] -shl 8) -bor [int]$b[$o] }
+
+  # PNG: IHDR width/height are the two big-endian ints at offset 16.
+  if ($b.Length -gt 24 -and $b[0] -eq 0x89 -and $b[1] -eq 0x50) {
+    return @{ w = (BE4 16); h = (BE4 20) }
+  }
+  # GIF: little-endian shorts in the logical screen descriptor.
+  if ($b.Length -gt 10 -and $b[0] -eq 0x47 -and $b[1] -eq 0x49 -and $b[2] -eq 0x46) {
+    return @{ w = (LE2 6); h = (LE2 8) }
+  }
+  # BMP
+  if ($b.Length -gt 26 -and $b[0] -eq 0x42 -and $b[1] -eq 0x4D) {
+    return @{ w = (LE4 18); h = [Math]::Abs((LE4 22)) }
+  }
+  # WebP: RIFF container, then a VP8 / VP8L / VP8X chunk, each with its own encoding.
+  if ($b.Length -gt 30 -and $b[0] -eq 0x52 -and $b[8] -eq 0x57 -and $b[9] -eq 0x45) {
+    $tag = [Text.Encoding]::ASCII.GetString($b, 12, 4)
+    if ($tag -eq 'VP8X') { return @{ w = 1 + (([int]$b[26] -shl 16) -bor ([int]$b[25] -shl 8) -bor [int]$b[24]); h = 1 + (([int]$b[29] -shl 16) -bor ([int]$b[28] -shl 8) -bor [int]$b[27]) } }
+    if ($tag -eq 'VP8L') {
+      $n = ([int]$b[22] -shl 16) -bor ([int]$b[22 - 1] -shl 8) -bor [int]$b[21]
+      return @{ w = 1 + ($n -band 0x3FFF); h = 1 + (((([int]$b[24] -shl 24) -bor ([int]$b[23] -shl 16) -bor ([int]$b[22] -shl 8) -bor [int]$b[21]) -shr 14) -band 0x3FFF) }
+    }
+    if ($tag -eq 'VP8 ') { return @{ w = (LE2 26) -band 0x3FFF; h = (LE2 28) -band 0x3FFF } }
+  }
+  # JPEG: walk the segment chain to a start-of-frame marker, which carries the size.
+  if ($b.Length -gt 4 -and $b[0] -eq 0xFF -and $b[1] -eq 0xD8) {
+    $i = 2
+    while ($i -lt $b.Length - 9) {
+      if ($b[$i] -ne 0xFF) { $i++; continue }
+      $m = $b[$i + 1]
+      if ($m -eq 0xD8 -or $m -eq 0x01 -or ($m -ge 0xD0 -and $m -le 0xD7)) { $i += 2; continue }
+      $len = BE2 ($i + 2)
+      # SOF0-SOF15, excluding the DHT/JPG/DAC markers that share the range.
+      if ($m -ge 0xC0 -and $m -le 0xCF -and $m -ne 0xC4 -and $m -ne 0xC8 -and $m -ne 0xCC) {
+        return @{ w = (BE2 ($i + 7)); h = (BE2 ($i + 5)) }
+      }
+      $i += 2 + $len
+    }
+  }
+  return $null
+}
+
 # ---------------------------------------------------------------- spells
 
 # An NPC's <spellset> carries each spell's FULL text inline - description, components,
@@ -608,6 +661,11 @@ if ($npcs.Count) {
     }
     [void]$sec.Add((S 'name' $n.title 3))
     if ($n.meta.token) {
+      # A token marker pointing at a file that is not there ships a broken reference:
+      # FG falls back to a default marker and says nothing, so catch it at build time.
+      if (-not (Test-Path (Join-Path (Join-Path $src 'art') ([string]$n.meta.token)))) {
+        Warn "$($n.file): token art missing at fg/art/$([string]$n.meta.token)"
+      }
       [void]$sec.Add((T 'token' ([string]$n.meta.token) 3))
       [void]$sec.Add((T 'picture' ([string]$n.meta.token) 3))
     }
@@ -759,10 +817,13 @@ if ($maps.Count) {
   foreach ($mp in $maps) {
     $rel = [string]$mp.meta.image
     if (-not $rel) { Warn "$($mp.file): no image marker $em map skipped"; continue }
-    if (-not (Test-Path (Join-Path (Join-Path $src 'art') $rel))) {
+    $plate = Join-Path (Join-Path $src 'art') $rel
+    if (-not (Test-Path $plate)) {
       Warn "$($mp.file): art missing at fg/art/$rel $em map skipped"
       continue
     }
+    $dim = Get-ImageSize $plate
+    if (-not $dim) { Warn "$($mp.file): could not read the size of fg/art/$rel $em occluders left untranslated" }
     $mapsIncluded++
     [void]$rows.Add("`t`t<$($mp.id)>")
     [void]$rows.Add("`t`t`t<image type=""image"">")
@@ -786,7 +847,19 @@ if ($maps.Count) {
       $oi = 0
       foreach ($o in $occ) {
         $oi++
-        $pts = (($o.pts -split '\s+') | Where-Object { $_ }) -join ','
+        # Authored in top-left image pixels; FG stores occluders relative to the
+        # image CENTRE, so shift by half the plate. Without this the whole LOS layer
+        # lands half an image up and to the left of the art it was measured against.
+        $ox = 0.0; $oy = 0.0
+        if ($dim) { $ox = $dim.w / 2.0; $oy = $dim.h / 2.0 }
+        $xy = New-Object System.Collections.ArrayList
+        foreach ($pair in (($o.pts -split '\s+') | Where-Object { $_ })) {
+          $c = $pair -split ','
+          if ($c.Count -ne 2) { Warn "$($mp.file): occluder point '$pair' is not x,y $em skipped"; continue }
+          [void]$xy.Add((([double]$c[0] - $ox)).ToString([Globalization.CultureInfo]::InvariantCulture))
+          [void]$xy.Add((([double]$c[1] - $oy)).ToString([Globalization.CultureInfo]::InvariantCulture))
+        }
+        $pts = $xy -join ','
         [void]$rows.Add("`t`t`t`t`t`t`t<occluder>")
         [void]$rows.Add("`t`t`t`t`t`t`t`t<id>$oi</id>")
         [void]$rows.Add("`t`t`t`t`t`t`t`t<points>$pts</points>")

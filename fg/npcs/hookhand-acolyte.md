@@ -3,7 +3,7 @@
 *Ivory Labyrinth adept; the one who keeps the others in line.*
 
 <!-- id: hookhand_acolyte -->
-<!-- token: tokens/hookhand-acolyte.png -->
+<!-- token: tokens/hookhand-acolyte.webp -->
 
 ```stats
 cr: 1
