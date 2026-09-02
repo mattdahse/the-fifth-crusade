@@ -4,7 +4,7 @@
 <!-- image: images/the-sarkorian-house.jpg -->
 <!-- grid: on -->
 <!-- gridtype: square -->
-<!-- gridsize: 50 -->
+<!-- gridsize: 100 -->
 <!-- scale: one square — five feet -->
 
 A stone-and-wattle longhouse under a slate roof laid over beams, built to last by people who
@@ -17,7 +17,7 @@ The valley falls away sharply to the west. The road runs past the east wall.
 ## The plate
 
 Drawn by [`../art/make-sarkorian-house.py`](../art/make-sarkorian-house.py) rather than
-generated — a readable floor plan at **50 px to a five-foot square**, ten squares by eight.
+generated — a readable floor plan at **100 px to a five-foot square**, ten squares by eight.
 Settling the geometry in code first means painted art can replace the plate later without
 moving a single wall, because the occluders below are written against these coordinates.
 
@@ -25,12 +25,12 @@ moving a single wall, because the occluders below are written against these coor
 
 Line-of-sight walls, in image pixel coordinates.
 
-<!-- occluder: 150,150 150,550 -->
-<!-- occluder: 150,550 650,550 -->
-<!-- occluder: 650,550 650,150 -->
-<!-- occluder: 400,150 400,330 -->
-<!-- occluder: 400,380 400,550 -->
-<!-- occluder-open: 150,150 650,150 -->
+<!-- occluder: 300,300 300,1100 -->
+<!-- occluder: 300,1100 1300,1100 -->
+<!-- occluder: 1300,1100 1300,300 -->
+<!-- occluder: 800,300 800,660 -->
+<!-- occluder: 800,760 800,1100 -->
+<!-- occluder-open: 300,300 1300,300 -->
 
 ## Notes
 

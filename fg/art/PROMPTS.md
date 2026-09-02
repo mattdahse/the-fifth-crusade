@@ -21,7 +21,7 @@ gallery. Their likeness anchors live here instead.
 
 | Asset | File | State |
 |---|---|---|
-| The Sarkorian House battlemap | `images/the-sarkorian-house.jpg` | **done** — blockout, drawn by [`make-sarkorian-house.py`](make-sarkorian-house.py) |
+| The Sarkorian House battlemap | `images/the-sarkorian-house.jpg` | **done** — blockout at 1600 × 1400, drawn by [`make-sarkorian-house.py`](make-sarkorian-house.py) |
 | Labyrinth Squatter token | `tokens/labyrinth-squatter.png` | **pending** |
 | Hookhand Acolyte token | `tokens/hookhand-acolyte.png` | **pending** |
 
@@ -105,9 +105,9 @@ present and visible.**
 
 The blockout is playable, so this is polish rather than a blocker. If it is done, the geometry
 is **fixed** and the occluders in [`../maps/the-sarkorian-house.md`](../maps/the-sarkorian-house.md)
-are written against it: ten squares by eight at 50 px each, the house at x 150–650 and y 150–550,
-a cross-wall at x 400 with a one-square doorway at y 330–380, and the whole north edge a rubble
-spill rather than a wall.
+are written against it: a 1600 × 1400 plate, ten squares by eight at 100 px each, the house at
+x 300–1300 and y 300–1100, a cross-wall at x 800 with a one-square doorway at y 660–760, and the
+whole north edge a rubble spill rather than a wall.
 
 Attach the blockout and name its job explicitly — *"THIS IS THE FLOOR PLAN AND IT IS FIXED;
 repaint it, move nothing"* — the same discipline the region plates need, and for the same
