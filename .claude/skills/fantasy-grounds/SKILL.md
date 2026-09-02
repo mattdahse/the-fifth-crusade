@@ -433,22 +433,60 @@ a broken module otherwise fails silently inside FG, which is very hard to diagno
 
 ## Art
 
-Battlemaps follow a **hybrid** rule, decided Sept 2026:
+Prompts, likeness anchors and per-asset status live in
+[`fg/art/PROMPTS.md`](../../../fg/art/PROMPTS.md), not here and **not in
+`characters/CANON.md`** — campaign NPCs are not chronicle cast and must never reach the site's
+Cast gallery.
 
-- **Interiors, rooms, dungeons, generic terrain** — build from the owned asset packs. Installed
-  and worth knowing: `Shockbolt GMW Kit.mod` (1,334 backgrounds, brushes and tiles),
-  `TorstansArtPack.mod` (571), `Combat_Battlemaps.mod` (finished battlemaps — the simplest case,
-  just a `<bitmap>` and a name), `SmiteWorks Assets.mod`.
-- **Worldwound-specific things no pack contains** — the Gray Road's scree walls, abyssal
-  pimples, a lava shore, a Sarkorian ruin — generate through the **`chatgpt-image-gen`** skill.
+Generation goes through the **`chatgpt-image-gen`** skill, which needs the Chrome extension
+connected. That dependency is external and does fail; when it does, the prompts in
+`PROMPTS.md` are written to be pasted by hand, so art is never a hard blocker.
 
-Whatever the source, a battlemap plate carries **no text of its own**: no titles, no room
-numbers, no labels. Same rule as the archive's region plates, for the same reason.
+The build copies `fg/art/**` into the module, but **only real asset extensions**
+(`.png .jpg .jpeg .webp .gif .bmp .svg .ttf .otf`) — the scripts that draw plates live in
+`fg/art/` too and have no business inside a `.mod`.
 
-**Tokens.** NPC tokens go in `fg/art/tokens/`. For anyone who already has a portrait in
-`characters/*.webp`, take the likeness from there and from `characters/CANON.md` — never from
-memory, exactly as `chatgpt-image-gen` Step 0 requires. Matt has been cutting these by hand;
-`campaign/tokens/` in the live campaign holds the Marchlands Expedition set as worked examples.
+### Battlemaps — settle the geometry in code first
+
+**Draw a blockout before commissioning art.** A plain floor plan drawn by a script pins the
+grid, the wall positions and the occluder coordinates, and it is playable immediately;
+painted art can replace the plate later without moving a wall, because the occluders are
+written against those exact coordinates and the script records them.
+[`fg/art/make-sarkorian-house.py`](../../../fg/art/make-sarkorian-house.py) is the worked
+example — 50 px to a five-foot square, seeded so reruns are identical.
+
+This ordering also dodges the trap the region plates hit: asked for exact geometry and a
+staged look at once, an image model keeps the staging and redraws the geometry. Repainting a
+fixed blockout gives it only one job. Name that job in the prompt — *"THIS IS THE FLOOR PLAN
+AND IT IS FIXED; repaint it, move nothing."*
+
+**Correction to an earlier assumption:** the owned art packs are **tile and brush kits, not
+finished maps.** `Shockbolt GMW Kit.mod` (1,334 files) and `TorstansArtPack.mod` (571) are
+backgrounds, brushes and tiles meant to be composed in FG's own map editor, which this
+pipeline cannot drive. Only `Combat_Battlemaps.mod` ships finished battlemaps, and those are
+generic. So "use the art packs for interiors" is not a shortcut — in practice a map is either
+a drawn blockout, a hand-composed map in FG, or generated art.
+
+A battlemap plate carries **no text of its own** — no titles, no room numbers, no labels, no
+compass, and no grid. FG draws the grid itself.
+
+### Tokens
+
+`fg/art/tokens/*.png`, referenced by the NPC's `token:` marker. Match the Marchlands
+Expedition tokens already in the campaign (`Fenna Tusk.png`, `cobb_harwick.png`):
+
+- **2048 × 2048 PNG**, opaque, square.
+- A **painted portrait bust** with an environmental background — the archive's house look, not
+  a top-down counter.
+- FG uses the same file for `<picture>` and `<token>` and **crops it to a circle** on the map,
+  so keep the head well clear of the edges and nothing important in the corners.
+
+For anyone who already has a portrait in `characters/*.webp`, take the likeness from there and
+from `characters/CANON.md` — never from memory, exactly as `chatgpt-image-gen` Step 0 requires.
+For a new campaign NPC, write the likeness anchors into `PROMPTS.md` first so later art stays
+consistent.
+
+Missing tokens are cosmetic: FG falls back to default markers and the encounter still runs.
 
 ---
 
