@@ -22,8 +22,8 @@ gallery. Their likeness anchors live here instead.
 | Asset | File | State |
 |---|---|---|
 | The Sarkorian House battlemap | `images/the-sarkorian-house.jpg` | **done** — blockout at 1600 × 1400, drawn by [`make-sarkorian-house.py`](make-sarkorian-house.py) |
-| Labyrinth Squatter token | `tokens/labyrinth-squatter.png` | **pending** |
-| Hookhand Acolyte token | `tokens/hookhand-acolyte.png` | **pending** |
+| Labyrinth Squatter token | `tokens/labyrinth-squatter.png` | **done** — 2048 × 2048 |
+| Hookhand Acolyte token | `tokens/hookhand-acolyte.png` | **done** — 2048 × 2048 |
 
 ---
 
