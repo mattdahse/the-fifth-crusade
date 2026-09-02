@@ -107,6 +107,24 @@ list**; the recordtype above is. This build does not emit categories.
 Named record ids (`<labyrinth_squatter>` rather than `<id-00001>`) work, and are what make
 `npc.labyrinth_squatter@Module Name` a stable cross-reference. Prefer them.
 
+## FG puts a space after every inline element
+
+`<b>Chyrrik</b>, alone` renders on screen as "Chyrrik , alone". The build works around it by
+pulling trailing punctuation inside the tag (`<b>Chyrrik,</b>`), which reads correctly. This
+matters here more than in most campaigns because the chronicle voice bolds a name in nearly
+every sentence.
+
+## Editing a module record can fork it into the campaign
+
+Unlocking a module record in FG and editing it creates a campaign-side copy that **shadows the
+module from then on** — further module reloads will not reach it, and the record appears frozen
+at whatever the data was when it forked. Symptom: one record type stubbornly shows stale values
+while every other type updates correctly.
+
+Confirm by shipping that record under a **new id**: if the list comes back with two entries (one
+of them blank, having lost the name the module used to supply), a campaign copy exists. Delete
+the stale entry from the list. Prefer reading module records over unlocking them.
+
 ## Record links
 
 FG puts links in a block-level `<linklist>`, **never inline inside a `<p>`**, so a link is its

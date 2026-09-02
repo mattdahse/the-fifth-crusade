@@ -67,6 +67,12 @@ function Format-Inline([string]$s) {
   $s = [regex]::Replace($s, '\*(.+?)\*', '<i>$1</i>')
   $s = [regex]::Replace($s, '\[(.+?)\]\((.+?)\)', '$1')
   $s = [regex]::Replace($s, '`(.+?)`', '$1')
+  # FG's formattedtext renderer puts a space after every inline element, so "<b>X</b>,"
+  # comes out as "X ," on screen. Pull trailing punctuation inside the tag instead - the
+  # chronicle voice bolds a name in almost every sentence, so this shows up constantly.
+  for ($i = 0; $i -lt 2; $i++) {
+    $s = [regex]::Replace($s, '</(b|i)>([,.;:!?]+)', '$2</$1>')
+  }
   return $s
 }
 
