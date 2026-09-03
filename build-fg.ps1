@@ -759,14 +759,18 @@ if ($npcs.Count) {
     if ($n.meta.token) {
       # A token marker pointing at a file that is not there ships a broken reference:
       # FG falls back to a default marker and says nothing, so catch it at build time.
-      if (-not (Test-Path (Join-Path (Join-Path $src 'art') ([string]$n.meta.token)))) {
+      # A path containing @ names an asset in ANOTHER module - FG's own cross-module
+      # reference - so it is not on disk here and must not be checked for or copied.
+      # Standard bestiary monsters usually already have official art; use it.
+      if (([string]$n.meta.token) -notmatch '@' -and
+          -not (Test-Path (Join-Path (Join-Path $src 'art') ([string]$n.meta.token)))) {
         Warn "$($n.file): token art missing at fg/art/$([string]$n.meta.token)"
       }
       [void]$sec.Add((T 'token' ([string]$n.meta.token) 3))
       # <picture> is what the NPC sheet shows, so it wants the full-size portrait when
       # there is one. Falls back to the token, which is better than an empty frame.
       $pic = if ($n.meta.portrait) { [string]$n.meta.portrait } else { [string]$n.meta.token }
-      if ($n.meta.portrait -and -not (Test-Path (Join-Path (Join-Path $src 'art') $pic))) {
+      if ($n.meta.portrait -and $pic -notmatch '@' -and -not (Test-Path (Join-Path (Join-Path $src 'art') $pic))) {
         Warn "$($n.file): portrait art missing at fg/art/$pic"
       }
       [void]$sec.Add((T 'picture' $pic 3))
@@ -857,7 +861,9 @@ if ($encounters.Count) {
       [void]$sec.Add("`t`t`t`t`t</link>")
       [void]$sec.Add((S 'name' $f.npc.title 5))
       if ($f.npc.meta.token) {
-        [void]$sec.Add((T 'token' ("$([string]$f.npc.meta.token)@$modName") 5))
+        $tk = [string]$f.npc.meta.token
+        if ($tk -notmatch '@') { $tk = "$tk@$modName" }
+        [void]$sec.Add((T 'token' $tk 5))
       }
       # Where the tokens stand. FG hangs this off the foe as <maplink>, one entry per
       # token, pointing at image.<map>.image - note the second ".image", which is the
@@ -1044,11 +1050,12 @@ if ($maps.Count) {
     $rel = [string]$mp.meta.image
     if (-not $rel) { Warn "$($mp.file): no image marker $em map skipped"; continue }
     $plate = Join-Path (Join-Path $src 'art') $rel
-    if (-not (Test-Path $plate)) {
+    if ($rel -match '@') { $plate = $null }
+    if ($plate -and -not (Test-Path $plate)) {
       Warn "$($mp.file): art missing at fg/art/$rel $em map skipped"
       continue
     }
-    $dim = Get-ImageSize $plate
+    $dim = if ($plate) { Get-ImageSize $plate } else { $null }
     if (-not $dim) { Warn "$($mp.file): could not read the size of fg/art/$rel $em occluders left untranslated" }
     $mapsIncluded++
     $cat = if ($mp.meta.category) { [string]$mp.meta.category } else { 'Maps' }

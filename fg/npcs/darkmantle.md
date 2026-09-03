@@ -3,8 +3,8 @@
 *It is on the ceiling. It has been on the ceiling the whole time.*
 
 <!-- id: darkmantle -->
-<!-- token: tokens/darkmantle.webp -->
-<!-- portrait: portraits/darkmantle.webp -->
+<!-- token: tokens/Darkmantle Token.webp@PFRPG - Bestiary, Paizo (AI) -->
+<!-- portrait: images/Darkmantle.webp@PFRPG - Bestiary, Paizo (AI) -->
 
 ```stats
 cr: 1
@@ -42,7 +42,6 @@ specialattacks: constrict (1d4+4)
 > lantern-bearer without a sound. It is all leather and gripping muscle, the colour of wet stone,
 > and it wraps the head first.
 
-@link image: portrait_darkmantle | Portrait (full size)
 @link ability: grab | Grab (Ex)
 @link ability: darkmantle_constrict | Constrict (Ex)
 

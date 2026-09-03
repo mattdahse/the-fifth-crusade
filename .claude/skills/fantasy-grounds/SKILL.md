@@ -317,6 +317,36 @@ specialattacks: adept spells (CL 2nd; concentration +5)
 Prose body here.
 ```
 
+#### Check the bestiaries before generating art for a standard monster
+
+A creature out of a published bestiary usually **already has official art**, and generating a
+replacement is wasted effort and a worse match for the rest of the table's monsters. Look first:
+
+```bash
+python - <<'EOF'
+import zipfile, glob, os, re
+base = os.path.expandvars(r'%APPDATA%') + r'/SmiteWorks/Fantasy Grounds/modules'
+for p in glob.glob(base + '/*.mod'):
+    hits = [n for n in zipfile.ZipFile(p).namelist() if re.search(r'darkmantle', n, re.I)]
+    if hits: print(os.path.basename(p), hits)
+EOF
+```
+
+`PFRPG - Bestiary, Paizo (AI).mod` alone carries hundreds of `images/<Name>.webp` and
+`tokens/<Name> Token.webp`. Point at them with FG's cross-module syntax rather than copying:
+
+```markdown
+<!-- token: tokens/Darkmantle Token.webp@PFRPG - Bestiary, Paizo (AI) -->
+<!-- portrait: images/Darkmantle.webp@PFRPG - Bestiary, Paizo (AI) -->
+```
+
+The build recognises a path containing `@` as another module's asset: it does not look for the
+file on disk, does not copy it, and does not append our own module name. **Reference, do not
+repackage** — the art belongs to that module and FG is built to share it. The cost is that the
+module must be loaded at the table, which for a bestiary it will be.
+
+Art is only worth generating for **NPCs of our own invention**, which is most of them.
+
 #### Every NPC has a token. No exceptions.
 
 Without one FG falls back to a lettered marker, which is unreadable the moment there is more than
