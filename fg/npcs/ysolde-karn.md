@@ -1,10 +1,10 @@
-# Hookhand Acolyte
+# Ysolde Karn
 
 *Deskari cultist, and the one who keeps the others in line — by feeding them to the nest.*
 
-<!-- id: hookhand_acolyte -->
-<!-- token: tokens/hookhand-acolyte.webp -->
-<!-- portrait: portraits/hookhand-acolyte.webp -->
+<!-- id: ysolde_karn -->
+<!-- token: tokens/ysolde-karn.webp -->
+<!-- portrait: portraits/ysolde-karn.webp -->
 
 ```stats
 cr: 1
@@ -62,8 +62,8 @@ touch of fatigue: effect Fatigued for 1 round per cl
 > There is a small bronze thing pinned inside the breast of her coat where a badge would go if
 > she wanted one seen. It is a locust, wings spread.
 
-@link image: portrait_hookhand_acolyte | Portrait (full size)
-@link parcel: gear_hookhand_acolyte | Gear
+@link image: portrait_ysolde_karn | Portrait (full size)
+@link parcel: gear_ysolde_karn | Gear
 @link npc: labyrinth_squatter | What is left of her warband
 @link battle: ant_nest | The nest she believes is hers
 

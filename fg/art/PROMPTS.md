@@ -71,7 +71,7 @@ gallery. Their likeness anchors live here instead.
 | The Sarkorian House battlemap | `images/the-sarkorian-house.jpg` | **done** — blockout at 1600 × 1400, drawn by [`make-sarkorian-house.py`](make-sarkorian-house.py) |
 | The Cellar battlemap | `images/the-cellar.webp` | **done** — generated at 1536 × 1024, cropped and extended to 1560 × 1080 for the grid |
 | Labyrinth Squatter token | `tokens/labyrinth-squatter.webp` | **done** — 512 × 512, 51 KB |
-| Hookhand Acolyte token | `tokens/hookhand-acolyte.webp` | **done** — 512 × 512, 39 KB |
+| Ysolde Karn token | `tokens/ysolde-karn.webp` | **done** — 512 × 512, 39 KB |
 
 ---
 
@@ -113,7 +113,7 @@ stayed because there was nowhere to go back to.
 > modern clothing or objects, text, watermark, signature, border, a frame, extra limbs, deformed
 > hands, a calm or blank expression, looking at the viewer.
 
-## Hookhand Acolyte
+## Ysolde Karn
 
 **Likeness anchors (keep constant).** Human woman in her thirties, dark hair scraped back hard
 and pinned, a lean and watchful face, pale eyes. Plain **studded leather** over dark wool, a

@@ -245,12 +245,12 @@ H1 is the display name. A fenced ` ```stats ` block carries the statblock; every
 is the bio, which becomes the NPC's `<text>`.
 
 ```markdown
-# Hookhand Acolyte
+# Ysolde Karn
 
 *Ivory Labyrinth adept; the one who keeps the others in line.*
 
-<!-- id: hookhand_acolyte -->
-<!-- token: tokens/hookhand-acolyte.png -->
+<!-- id: ysolde_karn -->
+<!-- token: tokens/ysolde-karn.png -->
 
 ```stats
 cr: 1
@@ -423,7 +423,7 @@ and warns on any id it cannot find.
 ## Foes
 
 - 2x labyrinth_squatter
-- 1x hookhand_acolyte
+- 1x ysolde_karn
 ```
 
 Only lines matching exactly `- N x some_id` are read as foes.

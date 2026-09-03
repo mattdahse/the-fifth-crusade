@@ -3,11 +3,13 @@
 <!-- id: cellar_nest -->
 <!-- order: 2 -->
 
-The hatch in the floor of the east room goes down a short stair into a dry stone cellar the house
-was built on. It is why the acolyte stopped counting patrols, and it is where eleven of her men
-went.
+The trapdoor in the floor of the manor's table room goes down a short stair into a dry stone
+cellar the house was built on. It is why Ysolde Karn stopped counting patrols, it is where eleven
+of her men went, and it is what Corwin Skell came here for eighteen months ago.
 
-@link npc: hookhand_acolyte | The woman who thinks this is hers
+@link npc: ysolde_karn | The woman who thinks this is hers
+@link npc: corwin_skell | The man who thinks the same thing
+@link npc: fiendish_ant_queen | What is actually down here
 @link map: cellar | The Cellar (map)
 @link battle: ant_nest | The Ant Nest (encounter)
 @link parcel: nest_midden | What is in the nest
@@ -76,3 +78,17 @@ not send anything up the tunnel next season, and the road past the east wall sta
 
 If they leave the eggs — because they are hurt, or because nobody thought of it — that is a real
 consequence and worth remembering rather than punishing immediately. It comes back in a season.
+
+## The bore-hole
+
+At the north end of the nest chamber, a fresh shaft goes **up** — not bored west like the rest of
+the tunnel, but climbed, and recently, and by something much bigger than a soldier. It comes out
+in the sealed room in the manor's north-east corner.
+
+This is the connection that makes the two maps one adventure. It is how the queen reached a room
+whose door has been blocked for years; it is how her soldiers get to her when she calls; and it
+is a second way into the boss fight for a party that would rather not spend ten loud minutes
+clearing masonry with two factions listening.
+
+It is a climb, and it is exactly as wide as she is, which means anybody going up it is going up
+it alone and arriving one at a time.

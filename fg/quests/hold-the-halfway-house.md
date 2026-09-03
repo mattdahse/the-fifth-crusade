@@ -14,10 +14,14 @@ taking recruits faster than anyone in Drezen can train them, every sworn blade s
 needed inside the walls, and the letter she sent to the Church of Iomedae asking for
 instructors has not been answered. So she is hiring.
 
-Halfway along the road, on the lip of the valley, stands a Sarkorian house that outlasted
-its village — three walls and most of a slate roof. The company that came through in
-Lamashan sheltered in it and moved on. Clear it, make it defensible, and the two-day road
-becomes two one-day roads.
+Halfway along the road, on the lip of the valley, stands a Sarkorian manor that outlasted its
+village — six rooms and most of its walls. The company that came through in Lamashan sheltered in
+it and reported a ruin. Clear it, make it defensible, and the two-day road becomes two one-day
+roads.
+
+**Elara's information is a season old and it is wrong.** She is not being careless; nobody has
+walked that road since Lamashan who was not in a hurry. What is in the manor is in
+[the adventure text](../story/the-manor.md), and it is considerably more than she is paying for.
 
 > *"I can give you forty gold and a writ that says you're mine. I can't give you anyone to
 > come with you. If that's not enough, say so now and I'll think better of you than if you

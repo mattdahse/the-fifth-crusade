@@ -1,6 +1,6 @@
-# Gear: Hookhand Acolyte
+# Gear: Ysolde Karn
 
-<!-- id: gear_hookhand_acolyte -->
+<!-- id: gear_ysolde_karn -->
 
 What she carries. She is paid better than the men she commands and it shows in exactly one place:
 the coin. Nothing here is Labyrinth issue except the coin, which is the tell — she was attached to

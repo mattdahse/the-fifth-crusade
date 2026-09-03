@@ -51,7 +51,7 @@ spacereach: 5 ft./5 ft.
 
 @link image: portrait_labyrinth_squatter | Portrait (full size)
 @link parcel: gear_labyrinth_squatter | Gear
-@link npc: hookhand_acolyte | The woman he is afraid of
+@link npc: ysolde_karn | The woman he is afraid of
 
 ## Special abilities
 
