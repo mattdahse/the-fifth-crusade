@@ -22,6 +22,9 @@ Carried openly into the wrong tavern in Drezen it will start a fight; carried qu
 **Mira Thistledance** it is worth a good deal more than a gold piece, because she is keeping
 a count of how many of these are moving through the Marchlands and who is wearing them.
 
+**There are three of these and two men wearing them.** The odd one out came off somebody, and a
+party that counts is asking the right question.
+
 ### Slate-Cutter's Maul
 <!-- count: 1 -->
 <!-- type: Weapon -->

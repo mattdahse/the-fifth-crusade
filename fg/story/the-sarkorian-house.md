@@ -9,19 +9,36 @@
 
 The house is empty. She is wrong.
 
-The company that sheltered there in Lamashan left it empty, and said so, and that was six
-weeks ago. What has moved in since is a hand of the Ivory Labyrinth — two squatters and the
-acolyte who keeps them — put there deliberately to count crusader traffic on the western road.
+The company that sheltered there in Lamashan left it empty, and said so, and that was six weeks
+ago. What has moved in since is a hand of the Ivory Labyrinth — put there to count crusader
+traffic on the western road — and the woman who was attached to it, who does not serve
+**Baphomet** at all.
 
 ## What Is Actually Happening
 
-The Labyrinth worked out something the crusade has not: that everything moving west from
-Drezen now moves along one road, and that one house sits halfway along it. They are not
-raiding. They are **counting**. The ledger in the house is three months of tallies, and the
-last four entries are patrols.
+**Nineteen men came to this house.** The Templars of the Ivory Labyrinth sent them, because the
+Labyrinth worked out something the crusade has not: everything moving west from Drezen now moves
+along one road, and one house sits halfway along it. They were not raiding. They were
+**counting**. The ledger is three months of tallies and the last four entries are patrols.
 
-That is the thread. This is a first job that looks like clearing a ruin and is actually the
-party stumbling into the reason the road is about to become dangerous.
+The adept who came with them serves **Deskari**, Lord of the Locust Host. Nobody thought twice
+about that — the two lords are allies, and an adept is an adept. She counted patrols for a year
+and told nobody anything.
+
+Then she found the hatch in the east room, and what is under it.
+
+**She believes the hive belongs to her.** She has no spell that commands vermin and no evidence of
+any kind, and she has decided with total conviction that the Lord of the Locust Host put a
+fiendish nest beneath her post as a gift. Everything since follows from that. The tallies stop
+three weeks ago because counting stopped mattering. And the men who argued with her about the
+hatch, or tried to walk south in the night, went down it — **eleven of them**, which is why there
+are two squatters in a house built for nineteen.
+
+That is the thread, and it is worth being clear about the shape: this looks like clearing a ruin,
+it is actually a counting-post that stopped counting, and the reason it stopped is in the cellar.
+
+**She is not certain any more.** Eleven men have gone down that hatch and none of them came back
+up with an answer. She will not say so. It is the only thing that frightens her.
 
 ## Running It
 
@@ -35,9 +52,18 @@ with *burning hands* the moment two characters are adjacent. The rubble spill on
 side is the tactical answer — difficult terrain, but it flanks the room and the squatters
 will not think to guard it.
 
-**The break.** The squatters are mercenaries. When the acolyte goes down, they run or they
-surrender, and a party that takes a prisoner gets the ledger explained to them. A party that
-kills everyone has to work it out on their own, which is slower and less interesting.
+**The break.** The squatters are mercenaries and they are frightened men. When the acolyte goes
+down, they run or they surrender, and a party that takes a prisoner gets the ledger explained and
+the hatch explained in about nine words. A party that kills everyone has to work it out on their
+own from the muster list and the ledger, which is slower and less interesting.
+
+**The hatch.** Do not hide it and do not push them through it. It is in the floor of the east
+room and it is plainly a way down. The squatters will not go near it, will not fight with their
+backs to it, and cannot be made to open it — a party paying attention will notice that before
+anybody says a word about it.
+
+**If the acolyte is losing, she goes down there**, and she goes believing she is retreating into
+her own house. Play it absolutely straight. Whether she is right is the cellar's business.
 
 **The reward.**
 

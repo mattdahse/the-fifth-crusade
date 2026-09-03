@@ -82,7 +82,9 @@ close-cropped hair going grey at the temples, a broken nose set badly. Battered 
 gone brown with rust and neglect over a filthy quilted gambeson, a small dented **buckler**
 strapped to the left forearm, a plain **handaxe**. Around his throat on a leather thong hangs a
 **hooked iron disc stamped with a maze** — the Ivory Labyrinth's mark, and the one thing about
-him that is deliberate. Not a fanatic and not a soldier: a man who came north for pay and
+him that is deliberate. It stays: the squatters are Baphomet's men, sent here to count crusader
+traffic, and the woman who now commands them serves a different lord entirely. The two are
+allies, which is why nobody questioned it. Not a fanatic and not a soldier: a man who came north for pay and
 stayed because there was nowhere to go back to.
 
 > THIS IS A PAINTING, NOT A PHOTOGRAPH. A traditional narrative OIL PAINTING on canvas: visible
@@ -115,7 +117,10 @@ stayed because there was nowhere to go back to.
 
 **Likeness anchors (keep constant).** Human woman in her thirties, dark hair scraped back hard
 and pinned, a lean and watchful face, pale eyes. Plain **studded leather** over dark wool, a
-**heavy mace** at her belt. **An iron hook is lashed over her left hand** with cord that has
+**heavy mace** at her belt. She serves **Deskari**, and her mark is a small **bronze locust with
+spread wings** — but it is pinned *inside* the breast of her coat and is deliberately **not
+visible** in any portrait. She wears no badge and no colours; that is the character. Do not add a
+holy symbol to her art. **An iron hook is lashed over her left hand** with cord that has
 worn grooves into the wrist — she took the name Hookhand on being given a warband, and the hook
 is a poor weapon and a very good argument. **The hook is her signature and must always be
 present and visible.**

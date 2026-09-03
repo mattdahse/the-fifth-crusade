@@ -4,9 +4,10 @@
 <!-- order: 2 -->
 
 The hatch in the floor of the east room goes down a short stair into a dry stone cellar the house
-was built on. It is the reason to take the house rather than burn it, and it is also the reason
-the house has not been taken already.
+was built on. It is why the acolyte stopped counting patrols, and it is where eleven of her men
+went.
 
+@link npc: hookhand_acolyte | The woman who thinks this is hers
 @link map: cellar | The Cellar (map)
 @link battle: ant_nest | The Ant Nest (encounter)
 @link parcel: nest_midden | What is in the nest
@@ -28,6 +29,11 @@ shifting the rest, which is **loud**, and the things on the other side hear it.
 That is the beat worth landing: the party gets to decide whether to open it, knowing something is
 listening. Give them the choice out loud.
 
+**The rubble has been moved before, and put back.** Somebody has opened this door repeatedly, and
+whoever did it was not trying to hide the door so much as close it again afterwards. There is a
+smear of old dark staining on the flagstones from the foot of the stair to the heap. It is a drag
+mark, and it is not one drag mark — it is a year of them, laid over each other.
+
 ## The tunnel
 
 Bored, not built. No tool marks, and it is exactly as wide as the thing that made it. It does not
@@ -44,11 +50,23 @@ allows — which is the party's advantage, and the only one they get.
 Four soldiers hold this room and will not leave it. **Read the encounter's notes before running
 it** — four is past deadly for a 1st-level party, and there are three honest ways to pitch it.
 
+**This is where the acolyte's answer is.** She has fed eleven men to this hive believing it
+belongs to her. If she came down the stair ahead of the party, they will find her here, and the
+ants will be doing to her exactly what they did to the others — which is the whole argument
+settled in front of the party, without a word of exposition from anybody.
+
+If she is a prisoner instead, bring her down and let her call them off. She will do it. She will
+mean it. Nothing happens, and she hears herself.
+
 The treasure belongs to the room, not to the ants: they carry nothing and wear nothing. The
 **corroded signet** in the midden is the piece worth reading out. Somebody walked down here a
 long time before the party did and did not walk back up, and the sacks with a Kenabres
-quartermaster's mark say the hive has been into the cellar's stores — which means somebody was
-still supplying this house within living memory.
+quartermaster's mark say the hive has been into the cellar's stores.
+
+**And the midden is not only old.** Among seventy years of husks there is a hooked iron disc on a
+rotted thong, stamped with a maze — the third Labyrinth token, the one that came off somebody.
+There are others further in. A party that starts counting them arrives at eleven, and does not
+need to be told what the muster list means.
 
 ## What the party's work changes
 

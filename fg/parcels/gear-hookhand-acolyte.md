@@ -3,7 +3,8 @@
 <!-- id: gear_hookhand_acolyte -->
 
 What she carries. She is paid better than the men she commands and it shows in exactly one place:
-the coin.
+the coin. Nothing here is Labyrinth issue except the coin, which is the tell — she was attached to
+this post, not raised in it.
 
 ## Coin
 
@@ -47,8 +48,9 @@ be used twice.
 <!-- weight: 4 -->
 
 A roll of oiled cloth holding a bone stylus, three stubs of chalk, a flask of lamp oil, and a
-palm-sized slate scored with a maze. She prepares from the slate each morning and it means
-nothing to anyone else.
+palm-sized slate. The slate is scored with a locust, wings spread, cut over the top of an older
+mark that was a maze. She prepares from it each morning. The lamp oil is for the lamp — she has
+never thrown it at anyone and will not start now.
 
 ### Folded Muster List
 <!-- count: 1 -->
@@ -57,5 +59,13 @@ nothing to anyone else.
 <!-- weight: 0 -->
 <!-- nonid: A folded square of vellum, much handled -->
 
-Nineteen names in a careful hand. Eleven are struck through. Nobody has been added in some time,
-and the last four strikes are in a different ink from the rest.
+Nineteen names in a careful hand. **Eleven are struck through.** Nobody has been added in a long
+while, and the last four strikes are in a different ink from the rest.
+
+She struck them herself, and not for desertion. Every man on this list who argued with her about
+the hatch, or tried to walk south in the night, went down it. The eleventh strike is three weeks
+old, and it is the same week the tally ledger downstairs stops.
+
+Read together with the ledger this is the whole case against her, in her own handwriting, and it
+is worth a great deal to **Mira Thistledance** — who has been trying to work out for two months
+why the Labyrinth's counting-post went quiet without being taken.
