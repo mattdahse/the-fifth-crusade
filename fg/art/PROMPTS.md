@@ -31,6 +31,17 @@ keeps the table legible and the chronicle's look intact, instead of compromising
 
 ---
 
+Tokens are cut from the full-size portrait by
+[`make-token.py`](make-token.py), which applies that adjustment — contrast, saturation, a lift,
+and a vignette that darkens the corners the circle crop eats anyway — and writes the 512 WebP:
+
+```
+python fg/art/make-token.py "portraits/*.webp"
+```
+
+It is a rescue and not a substitute: it cannot separate two portraits painted in the same
+palette, which is why the rule above applies at generation time.
+
 Save every render as a **512 × 512 WebP at quality 85** into `fg/art/tokens/` — square painted
 portrait busts with an environmental background, used by FG for both `<picture>` and `<token>`.
 FG crops them to a circle on the map, so **keep the head well clear of the edges and out of the
