@@ -18,9 +18,8 @@ left once the fight is over.
 <!-- cost: 100 gp -->
 <!-- weight: 25 -->
 
-Crusade issue, kept better than anything else he owns, and the quartermaster's stamp is still
-legible inside the collar. It is the most valuable thing in the manor and the party will notice
-where it came from.
+Crusade issue, and kept better than anything else its owner has. The quartermaster's stamp is
+still legible inside the collar: a Kenabres mark, and an issue date eighteen months old.
 
 ### Longspear
 <!-- count: 1 -->

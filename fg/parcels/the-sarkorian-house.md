@@ -42,6 +42,6 @@ a pinch. **Tobias Runt** would want to see it, and would say so at length.
 <!-- cost: 0 -->
 <!-- nonid: A water-swollen book of tallies -->
 
-Three months of tallies in a clerk's hand: how many passed through, going which way,
-carrying what. The last four entries are in a different hand and count crusader patrols.
-Somebody was using this house to watch the road long before the party arrived.
+Three months of tallies in a clerk's hand: how many passed through, going which way, carrying
+what. The last four entries are in a different hand and count crusader patrols. Then it stops,
+three weeks ago, in the middle of a page.

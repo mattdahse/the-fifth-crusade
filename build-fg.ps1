@@ -897,8 +897,19 @@ if ($parcels.Count) {
         [void]$sec.Add((S 'nonid_name' ([string]$imeta.nonid) 5))
       }
       else { [void]$sec.Add((N 'isidentified' 1 5)) }
+      # An item's <description> is PLAYER-FACING. Anything lootable gets looted and read,
+      # so a note addressed to the GM printed here is a note the table reads out. Those
+      # belong in a story record. Catch the giveaway second-person-about-the-table voice.
+      $ibodyText = Get-Body $ibody
+      foreach ($phrase in @('the party', 'the players', 'the GM', 'show this', 'read out',
+                            'read this', 'if they kill', 'put it in their hands')) {
+        if ($ibodyText -match [regex]::Escape($phrase)) {
+          Warn "$($p.file): '$iname' description says '$phrase' $em item descriptions are player-facing; move GM notes to fg/story/"
+          break
+        }
+      }
       [void]$sec.Add("`t`t`t`t`t<description type=""formattedtext"">")
-      [void]$sec.Add((ConvertTo-FormattedText (Get-Body $ibody) 6))
+      [void]$sec.Add((ConvertTo-FormattedText $ibodyText 6))
       [void]$sec.Add("`t`t`t`t`t</description>")
       [void]$sec.Add("`t`t`t`t</$slot>")
     }

@@ -32,8 +32,6 @@ Too big for him. It was somebody else's first.
 <!-- weight: 0 -->
 <!-- nonid: A stamped tin disc on a cord, much rubbed -->
 
-A relief token from Drezen's outer wards, the kind handed out for a bread ration eighteen months
-ago when the queue was longer than the bread. Tin, worthless, and he has kept it.
-
-**Show this to the party if they kill him.** It does more work than any amount of explanation
-about who these people are.
+A relief token from Drezen's outer wards — the kind handed out for a bread ration eighteen months
+ago, when the queue was longer than the bread. Tin, stamped, worthless, and rubbed shiny at the
+edges from being carried every day since.

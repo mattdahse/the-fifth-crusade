@@ -90,6 +90,31 @@ rubble, she is over her clutch, and she has one use of **Call the Brood**. Read 
 notes before running her: the number of soldiers that answer is the difficulty dial, and if the
 party has already burned the clutch in the cellar, **nothing answers at all.**
 
+## Three things to put in front of them
+
+These are GM notes, deliberately kept out of the item descriptions — the players loot those and
+read them, so the descriptions say only what the object is.
+
+@link parcel: gear_locust_sworn | What is on a Locust-Sworn
+@link parcel: gear_corwin_skell | What is on Corwin
+@link parcel: sarkorian_house | The waystation ledger
+
+**The ward token.** Every Locust-Sworn carries a Drezen relief token — tin, worthless, stamped
+for a bread ration eighteen months ago and rubbed shiny from being carried every day since. If
+the party kills one and searches him, put it in their hands. It does more work than any amount of
+explaining who these people are: Corwin did not recruit fanatics, he recruited two boys who were
+starving in the outer wards and fed them.
+
+**Corwin's chain shirt** is crusade issue with a legible Kenabres quartermaster's stamp and an
+issue date eighteen months old — the same season as the tokens, and the same season as his
+discharge paper. A party that lays the three side by side has his whole history without asking
+him a question.
+
+**The ledger stops mid-page, three weeks ago.** That is the single most important object in the
+manor and it is easy to walk past. Three months of careful tallies and then nothing, in the same
+week Ysolde struck the eleventh name off her muster list. Whatever happened under this house, it
+happened then.
+
 ## What the party's work changes
 
 Elara asked for a waystation on a two-day road. What is actually on offer is bigger, and the

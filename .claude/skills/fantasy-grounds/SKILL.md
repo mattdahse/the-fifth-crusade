@@ -484,6 +484,19 @@ The SRD keeps equipment in **`client.xml`, not `db.xml`**, under three separate 
 
 The fields are copied into our module, so nothing at the table needs the SRD module loaded.
 
+**An item's description is player-facing.** Anything lootable gets looted, and the player reads
+the description off their own sheet — so it says what the object *is*, in the world, and nothing
+about what it is for. A GM note printed there is a GM note the table reads out loud.
+
+That means no *"show this to the party"*, no *"the players will notice"*, no *"read this out"*.
+Those belong in the **story record**, linked to the parcel, where the GM is the only reader. The
+build warns on the giveaway phrases. And a **parcel has no prose field at all** — verified against
+fourteen in the live campaign, which carry only `coinlist`, `itemlist` and `name` — so a parcel
+file's own body text is repository documentation and never reaches FG either way.
+
+The item field that *does* control what a player sees is `nonid:`, which hides the real name until
+they identify it. Use that for concealment rather than writing the concealment into the prose.
+
 ### Maps — `fg/maps/*.md`
 
 ```markdown
