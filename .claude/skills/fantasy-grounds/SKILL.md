@@ -128,7 +128,8 @@ the stale entry from the list. Prefer reading module records over unlocking them
 ## Record links
 
 FG puts links in a block-level `<linklist>`, **never inline inside a `<p>`**, so a link is its
-own block in the source. Consecutive `@link` lines become one list:
+own block in the source. An `@link` written mid-sentence is dropped entirely; the build warns
+about it now, because it produces a paragraph that silently loses its link. Consecutive `@link` lines become one list:
 
 ```markdown
 **The reward.**
@@ -149,6 +150,7 @@ the label with `| My own label` after the id.
 | `map` (or `image`) | `imagewindow` | `image.<id>` |
 | `quest` | `quest` | `quest.<id>` |
 | `story` | `encounter` | `encounter.<id>` |
+| `ability` | `specialability` | `specialability.<id>` |
 
 Note the same node-vs-type split as the `<library>` block: `class` is the record type,
 `recordname` is the node path. Links inside one module need no `@Module Name` suffix.
@@ -301,16 +303,30 @@ what the GM actually reads mid-session, so it carries these, in this order:
 |---|---|
 | **Description** | A `>` block — FG renders it as boxed read-aloud text. Chat-style, present tense, what the players see and hear. |
 | **Links** | `@link image:` the full-size portrait, `@link parcel:` its gear, plus any NPC, story or map worth one click. |
-| **Special abilities** | Poison, smite, breath, anything non-standard — with the numbers inline **and** an `@link story:` to a record holding the full rule. Write "None" explicitly when there are none, so the reader knows it was considered. |
+| **Special abilities** | Poison, grab, breath, anything non-standard — the numbers inline **and** an `@link ability:` to a `specialability` record holding the full rule. Write "None" explicitly when there are none. |
 | **Tactics** | What it does in combat. Opening move, when it retreats, what it will not do, what makes it dangerous in this specific room. |
 | **Roleplaying** | Backstory only where it changes play. Then the questions that actually come up: **can it be bribed, and with what? What does it want? Is it looking for an excuse to stop fighting, or to turn on the people it works for?** |
 
-Provenance — which book a statblock came from, what was de-rated, which template was applied —
-is worth writing down, but it goes **last**, under its own heading, after everything the GM needs
-during play.
+**Do not write a provenance section.** Which book a statblock came from, what was de-rated, which
+template was applied — none of it belongs in the record. It is not wanted at runtime, and if the
+reasoning matters it gets asked about when the NPC is written, not read off the sheet mid-fight.
+Say it in the reply instead.
 
-A creature with no possessions still gets a parcel: make it what is recoverable from where it
-lives (`nest_midden` is the worked example) rather than omitting the link.
+**A gear parcel is what is on the body**, and nothing else — what the party finds on a captured
+NPC or a corpse. Two consequences. Anything in it that the NPC would *use* in a fight (armour,
+weapons, wands, potions) must also be reflected in the **statblock or the tactics**, because a
+parcel is not where a GM looks mid-combat. And a creature that carries nothing gets **no gear
+parcel at all**: treasure lying in its lair belongs to the **room**, written into the story
+record and linked from there, never hung off the NPC. `nest_midden` is the worked example — it is
+linked from the cellar's story text, not from the ants.
+
+#### Special abilities are their own record type
+
+`fg/abilities/*.md` builds a `<specialability>` record (recordtype **`specialability`**, from
+3.5E's `data_library_35E.lua`, which PFRPG inherits). That is how the published bestiaries carry
+grab, poison, pounce and the rest, and it is what `@link ability:` points at. Write the
+creature's *own* numbers into it — a poison DC is specific to the creature that carries it, so a
+shared "Poison (Ex)" record from another module is the wrong target.
 
 Portrait and handout images live in **`fg/images/*.md`** with `grid: off`, and their art in
 `fg/art/portraits/`. They build as `<image>` records through the same path as maps, because
@@ -410,8 +426,13 @@ and warns on any id it cannot find.
 - 1x hookhand_acolyte
 ```
 
-Only lines matching exactly `- N x some_id` are read as foes, so scaling notes and prose in the
-same file are safe.
+Only lines matching exactly `- N x some_id` are read as foes.
+
+**An encounter cannot carry prose.** An FG `<battle>` holds *only* name, level, exp and npclist —
+there is no text field, verified against thirty battle records in the live campaign. Anything
+written in an encounter file is silently discarded, so running notes, tactics and scaling go in a
+**story** record and the encounter keeps just its foes. The build warns when it finds prose in an
+encounter, because this failure is invisible from inside FG.
 
 ### Treasure parcels — `fg/parcels/*.md`
 

@@ -1,9 +1,11 @@
-# Gear: The Nest Midden
+# The Nest Midden
 
 <!-- id: nest_midden -->
 
-A drone carries nothing, so this stands in for its gear: what is recoverable from the nest floor
-once the biting stops. Everything here came off something the hive ate.
+**Not a gear parcel.** The ants carry nothing and wear nothing, so nothing here rides on the NPC
+record — this is what is recoverable from the nest floor once the biting stops, and it belongs to
+the room. Linked from [the encounter](../encounters/the-ant-nest.md) rather than from the
+creatures. Everything in it came off something the hive ate.
 
 ## Coin
 
@@ -19,7 +21,7 @@ once the biting stops. Everything here came off something the hive ate.
 <!-- weight: 3 -->
 <!-- nonid: A curved plate of dark red shell, oddly cold -->
 
-Cut from a drone's back. It stays cold in a warm room and it does not take a stain. An armourer
+Cut from a soldier's back. It stays cold in a warm room and it does not take a stain. An armourer
 who works the Worldwound salvage trade will pay for it and not ask; anyone else will want to know
 where it came from before they touch it.
 

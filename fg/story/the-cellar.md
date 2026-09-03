@@ -1,0 +1,60 @@
+# The Cellar and the Nest
+
+<!-- id: cellar_nest -->
+<!-- order: 2 -->
+
+The hatch in the floor of the east room goes down a short stair into a dry stone cellar the house
+was built on. It is the reason to take the house rather than burn it, and it is also the reason
+the house has not been taken already.
+
+@link map: cellar | The Cellar (map)
+@link battle: ant_nest | The Ant Nest (encounter)
+@link parcel: nest_midden | What is in the nest
+
+## The cellar
+
+> The stair comes down into cold air that smells of dry stone and, underneath it, something
+> sourly sweet. The room is square and the shelving along the north wall has come down slowly
+> rather than all at once — the barrels are still where they fell. Everything here is exactly as
+> dry as the house above is wet.
+>
+> The west wall is wrong. A spill of fallen masonry is heaped against it, and the wall behind the
+> heap does not match the rest: dressed stone, mortared, and newer.
+
+The rubble hides a **door**. Finding it is a Perception check against the heap, not a search of
+the whole room — a character who moves stone will find it in a minute or two. Opening it means
+shifting the rest, which is **loud**, and the things on the other side hear it.
+
+That is the beat worth landing: the party gets to decide whether to open it, knowing something is
+listening. Give them the choice out loud.
+
+## The tunnel
+
+Bored, not built. No tool marks, and it is exactly as wide as the thing that made it. It does not
+run straight, so sight down it is short and a fight in it happens at whatever range the bend
+allows — which is the party's advantage, and the only one they get.
+
+## The nest
+
+> The tunnel opens out. The floor is deep in husks and chitin fragments that give underfoot, and
+> against the walls, heaped where the ground is warmest, are clutches of pale eggs the size of a
+> man's fist. There are a great many of them. The smell is the sour-sweet one from the stair,
+> and here it is everything.
+
+Four soldiers hold this room and will not leave it. **Read the encounter's notes before running
+it** — four is past deadly for a 1st-level party, and there are three honest ways to pitch it.
+
+The treasure belongs to the room, not to the ants: they carry nothing and wear nothing. The
+**corroded signet** in the midden is the piece worth reading out. Somebody walked down here a
+long time before the party did and did not walk back up, and the sacks with a Kenabres
+quartermaster's mark say the hive has been into the cellar's stores — which means somebody was
+still supplying this house within living memory.
+
+## What the party's work changes
+
+The clutch is the point. Killing four soldiers is a fight; **burning the clutch is the thing that
+is permanently different afterwards.** Say so at the table. A hive that loses a generation does
+not send anything up the tunnel next season, and the road past the east wall stays a road.
+
+If they leave the eggs — because they are hurt, or because nobody thought of it — that is a real
+consequence and worth remembering rather than punishing immediately. It comes back in a season.

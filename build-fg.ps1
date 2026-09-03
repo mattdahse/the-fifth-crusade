@@ -491,6 +491,10 @@ $linkKinds = @{
   map     = @{ node = 'image';           class = 'imagewindow';    label = 'Image' }
   quest   = @{ node = 'quest';           class = 'quest';          label = 'Quest' }
   story   = @{ node = 'encounter';       class = 'encounter';      label = 'Story' }
+  # Poison, grab, and the rest of a monster's non-standard rules. Published bestiaries
+  # ship these as their own records rather than burying them in the statblock text, so
+  # the rule is one click from the creature that uses it.
+  ability = @{ node = 'specialability';  class = 'specialability'; label = 'Ability' }
 }
 $linkTitles = @{}   # "kind:id" -> display title, filled in once the docs are loaded
 
@@ -506,6 +510,13 @@ $linkTitles = @{}   # "kind:id" -> display title, filled in once the docs are lo
 #   > quote      -> <frame>   (FG's boxed read-aloud text)
 #   anything else-> <p>
 function ConvertTo-FormattedText([string]$md, [int]$indent) {
+  # An @link only becomes a link when it is its own block - FG has no inline link, and a
+  # paragraph that mentions one silently loses it. Silently is the problem, so say so.
+  foreach ($ln in ($md -split "`n")) {
+    if ($ln -match '@link\s' -and $ln -notmatch '^\s*@link\s') {
+      Warn "an @link mid-paragraph is dropped $em put it on its own line: $($ln.Trim())"
+    }
+  }
   $pad = "`t" * $indent
   if (-not $md) { return "$pad<p />" }
   $out = New-Object System.Collections.ArrayList
@@ -624,6 +635,7 @@ $npcs       = @(Read-Docs 'npcs')
 $encounters = @(Read-Docs 'encounters')
 $parcels    = @(Read-Docs 'parcels')
 $quests     = @(Read-Docs 'quests')
+$abilities  = @(Read-Docs 'abilities')
 # fg/images/ holds portrait and handout records. They are <image> records exactly like
 # a battlemap - that is the only record type an @link image can point at - so they build
 # through the same path and simply carry `grid: off`.
@@ -637,6 +649,7 @@ foreach ($n in $npcs)       { $linkTitles["npc:$($n.id)"] = $n.title }
 foreach ($e in $encounters) { $linkTitles["battle:$($e.id)"] = $e.title }
 foreach ($p in $parcels)    { $linkTitles["parcel:$($p.id)"] = $p.title }
 foreach ($q in $quests)     { $linkTitles["quest:$($q.id)"] = $q.title }
+foreach ($a in $abilities)  { $linkTitles["ability:$($a.id)"] = $a.title }
 foreach ($m in $maps)       { $linkTitles["map:$($m.id)"] = $m.title }
 foreach ($t in $stories)    { $linkTitles["story:$($t.id)"] = $t.title }
 
@@ -711,6 +724,12 @@ if ($npcs.Count) {
 if ($encounters.Count) {
   $sec = New-Object System.Collections.ArrayList
   foreach ($e in $encounters) {
+    # An FG <battle> holds only name, level, exp and npclist - there is no text field, so
+    # prose in an encounter file is discarded. Say so; it belongs in a story record.
+    $prose = @(($e.body -split "`n") | Where-Object { $_ -match '\S' -and $_ -notmatch '^\s*[-#>|]' -and $_ -notmatch '^\s*<!--' })
+    if ($prose.Count -gt 2) {
+      Warn "$($e.file): prose in an encounter is dropped $em an FG battle has no text field; move it to fg/story/"
+    }
     $foes = New-Object System.Collections.ArrayList
     $totalXp = 0
     foreach ($m in [regex]::Matches($e.raw, '(?m)^\s*[-*]\s*(\d+)\s*[xX]\s+([a-zA-Z0-9_]+)\s*$')) {
@@ -827,6 +846,22 @@ if ($quests.Count) {
     [void]$sec.Add("`t`t</$($q.id)>")
   }
   Add-Section 'quest' 'Quests' $sec
+}
+
+# ---------------------------------------------------------- <specialability>
+
+if ($abilities.Count) {
+  $sec = New-Object System.Collections.ArrayList
+  foreach ($ab in $abilities) {
+    [void]$sec.Add("`t`t<$($ab.id)>")
+    [void]$sec.Add((S 'name' $ab.title 3))
+    if ($ab.meta.abilitytype) { [void]$sec.Add((S 'type' ([string]$ab.meta.abilitytype) 3)) }
+    [void]$sec.Add("`t`t`t<text type=""formattedtext"">")
+    [void]$sec.Add((ConvertTo-FormattedText $ab.body 4))
+    [void]$sec.Add("`t`t`t</text>")
+    [void]$sec.Add("`t`t</$($ab.id)>")
+  }
+  Add-Section 'specialability' 'Special Abilities' $sec
 }
 
 # ---------------------------------------------------------------- <image>
@@ -979,6 +1014,7 @@ $entries = [ordered]@{
   npcs      = @('NPCs', 'npc')
   battles   = @('Encounters', 'battle')
   parcels   = @('Treasure', 'treasureparcel')
+  abilities = @('Special Abilities', 'specialability')
   maps      = @('Maps', 'image')
 }
 foreach ($k in $entries.Keys) {
@@ -1050,6 +1086,7 @@ Write-Host ''
 Write-Host "Built $mod" -ForegroundColor Green
 Write-Host ("  npcs {0}  encounters {1}  parcels {2}  quests {3}  maps {4}/{5}  story {6}  art {7}" -f `
     $npcs.Count, $encounters.Count, $parcels.Count, $quests.Count, $mapsIncluded, $maps.Count, $stories.Count, $artCount)
+Write-Host ("  abilities {0}" -f $abilities.Count)
 if ($warns.Count) { Write-Host ("  {0} warning(s) above" -f $warns.Count) -ForegroundColor Yellow }
 
 if ($Install) {

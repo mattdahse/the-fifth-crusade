@@ -65,3 +65,12 @@ meets a woman who is glad to see them.
 - **The tokens** — three hooked iron discs. Somebody in Drezen is handing these out.
 - **Whoever the fourth hand in the ledger belongs to** never came back to the house. They are
   still out there, still counting.
+
+## Scaling the house fight
+
+**Five players, or a party that has already cleared the outbuilding:** add a third
+`labyrinth_squatter` — 935 XP, still inside a hard encounter for 1st level.
+
+**Three players:** drop a squatter, and let the acolyte start with *cure light wounds* already
+spent on herself. She is the fight either way; the squatters only decide how long it takes.
+

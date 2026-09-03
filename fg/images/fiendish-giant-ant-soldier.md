@@ -1,7 +1,7 @@
-# Fiendish Giant Ant Drone (portrait)
+# Fiendish Giant Ant Soldier (portrait)
 
-<!-- id: portrait_fiendish_giant_ant_drone -->
-<!-- image: portraits/fiendish-giant-ant-drone.webp -->
+<!-- id: portrait_fiendish_giant_ant_soldier -->
+<!-- image: portraits/fiendish-giant-ant-soldier.webp -->
 <!-- grid: off -->
 
 The full-size portrait. Worth showing rather than describing — the carapace and the mandibles do
