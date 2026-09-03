@@ -610,8 +610,14 @@ compass, and no grid. FG draws the grid itself.
   Expedition tokens (`Fenna Tusk.png` and the rest): those are 2048 PNGs at 6–8 MB each, and a
   2048 token costs ~16 MB of video memory however well the file compresses. Some of this table
   is on low-end hardware. `fg/art/PROMPTS.md` carries the full reasoning.
-- A **painted portrait bust** with an environmental background — the archive's house look, not
-  a top-down counter.
+- **High contrast, and much higher than the archive's house look.** Muted earth tones collapse
+  into identical brown squares at the size FG actually draws a token. Separate the subject from
+  the background by *value*, give each creature a distinct silhouette and dominant colour, keep
+  the background dark and plain, and push the key light on the head. In-game art is allowed to be
+  brighter and more vivid than the site's style; if a campaign asset ever needs to appear on the
+  site, use the in-game painting as a **reference to generate site-style art from** rather than
+  publishing it directly. `fg/art/PROMPTS.md` carries the full rule.
+- A **painted portrait bust** with an environmental background — not a top-down counter.
 - FG uses the same file for `<picture>` and `<token>` and **crops it to a circle** on the map,
   so keep the head well clear of the edges and nothing important in the corners.
 - **Renaming a token means editing the NPC's `token:` marker too.** The build now warns when a

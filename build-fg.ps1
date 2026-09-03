@@ -494,7 +494,11 @@ $linkKinds = @{
   # Poison, grab, and the rest of a monster's non-standard rules. Published bestiaries
   # ship these as their own records rather than burying them in the statblock text, so
   # the rule is one click from the creature that uses it.
-  ability = @{ node = 'specialability';  class = 'specialability'; label = 'Ability' }
+  # The window class is NOT the recordtype here. data_library_35E.lua gives
+  # specialability sRecordDisplayClass = "referenceclassability", and a link carrying
+  # the recordtype instead simply opens nothing when clicked - no error, no window.
+  # Published modules put the data under reference.specialabilities, so we do too.
+  ability = @{ node = 'reference.specialabilities'; class = 'referenceclassability'; label = 'Ability' }
 }
 $linkTitles = @{}   # "kind:id" -> display title, filled in once the docs are loaded
 
@@ -861,7 +865,11 @@ if ($abilities.Count) {
     [void]$sec.Add("`t`t`t</text>")
     [void]$sec.Add("`t`t</$($ab.id)>")
   }
-  Add-Section 'specialability' 'Special Abilities' $sec
+  [void]$xml.Add("`t<reference>")
+  [void]$xml.Add("`t`t<specialabilities>")
+  foreach ($l in $sec) { foreach ($sub in ($l -split "`n")) { [void]$xml.Add("`t$sub") } }
+  [void]$xml.Add("`t`t</specialabilities>")
+  [void]$xml.Add("`t</reference>")
 }
 
 # ---------------------------------------------------------------- <image>

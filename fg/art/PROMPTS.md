@@ -5,6 +5,32 @@ What each asset is, and the prompt that makes it. Generated through the
 logged-in ChatGPT tab, following the house look in
 [`../../bible/04-visual-style-guide.md`](../../bible/04-visual-style-guide.md).
 
+### Tokens are read at 40 pixels, not 512
+
+**The archive's house look does not survive token size.** It is built on muted earth — browns,
+rust, ash-grey, low-key light — and that is right for a chapter plate the reader studies. Cropped
+to a circle and drawn at roughly one grid square on a shared screen, it collapses into
+indistinguishable brown-on-brown squares. Two NPCs painted this way are the same token.
+
+So tokens are held to a different standard from the rest of the archive's art:
+
+- **High contrast, and value first.** The subject must separate from its background by *value*,
+  not by hue or detail. Squint at the render: if the head does not read as a distinct shape at
+  thumbnail size, the token has failed regardless of how good the painting is.
+- **A distinct silhouette and a distinct dominant colour per creature**, so two tokens on the
+  same map are told apart at a glance rather than by reading names.
+- **Simplify the background.** Darker and plainer than a portrait would have it — the background
+  exists to push the subject forward, not to describe the scene.
+- **Push the key light.** A brighter rim or a stronger light on the head is worth more at token
+  size than any amount of texture.
+
+**In-game art may be brighter and more vivid than the site's house style, and that is fine.** The
+two are allowed to diverge. Where a campaign asset needs to appear on the site, the in-game
+painting is used as a **reference to generate site-style art from**, not published directly. That
+keeps the table legible and the chronicle's look intact, instead of compromising both.
+
+---
+
 Save every render as a **512 × 512 WebP at quality 85** into `fg/art/tokens/` — square painted
 portrait busts with an environmental background, used by FG for both `<picture>` and `<token>`.
 FG crops them to a circle on the map, so **keep the head well clear of the edges and out of the
