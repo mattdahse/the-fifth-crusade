@@ -23,6 +23,7 @@ Plain, dark, and kept oiled. No mark, no colours, nothing that names who she ser
 itself a choice, and a recent one.
 
 ### Heavy Mace
+<!-- srd: Mace, heavy -->
 <!-- count: 1 -->
 <!-- type: Weapon -->
 <!-- cost: 12 gp -->

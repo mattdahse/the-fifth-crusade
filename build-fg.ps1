@@ -113,6 +113,60 @@ function Get-ImageSize([string]$path) {
   return $null
 }
 
+# ---------------------------------------------------------------- items
+
+# Mundane gear copied out of the SRD rather than hand-written.
+#
+# A parcel item that only carries a name, a cost and a weight ships an item FG cannot
+# use: a longspear with no damage rolls nothing, and a chain shirt with no <ac> gives
+# no armour when a player equips it. Those fields are not optional decoration, they are
+# what the record is FOR. So an item is looked up by name in PF-SRD-Basic-Rules.mod and
+# its real fields are copied in, exactly as spells already are.
+#
+# The SRD keeps this in client.xml (not db.xml) under reference.weapon / .armor /
+# .equipment - three separate lists, so all three are searched.
+$script:ItemIndex = $null
+function Get-ItemIndex {
+  if ($null -ne $script:ItemIndex) { return $script:ItemIndex }
+  $idx = @{}
+  $modDir = Get-ModulesDir
+  foreach ($modName in @('PF-SRD-Basic-Rules.mod', '3.5E-basicrules.mod')) {
+    $mod = Join-Path $modDir $modName
+    if (-not (Test-Path $mod)) { continue }
+    try {
+      $zip = [IO.Compression.ZipFile]::OpenRead($mod)
+      foreach ($entryName in @('client.xml', 'db.xml')) {
+        $entry = $zip.Entries | Where-Object { $_.FullName -eq $entryName } | Select-Object -First 1
+        if (-not $entry) { continue }
+        $sr = New-Object IO.StreamReader($entry.Open())
+        $xmlText = $sr.ReadToEnd(); $sr.Close()
+        $doc = [xml]$xmlText
+        $ref = $doc.root.reference
+        if (-not $ref) { continue }
+        foreach ($grp in @('weapon', 'armor', 'equipment')) {
+          $node = $ref.$grp
+          if (-not $node) { continue }
+          foreach ($rec in $node.ChildNodes) {
+            if ($rec.NodeType -ne 'Element') { continue }
+            $nm = $rec.SelectSingleNode('name')
+            if (-not $nm) { continue }
+            $key = ($nm.InnerText -replace '[^a-zA-Z0-9]', '').ToLower()
+            if ($key -and -not $idx.ContainsKey($key)) { $idx[$key] = $rec }
+          }
+        }
+      }
+      $zip.Dispose()
+    }
+    catch { Warn "could not read $modName for item lookup: $_" }
+  }
+  $script:ItemIndex = $idx
+  return $idx
+}
+
+# Fields worth copying. Anything the markdown sets wins over the SRD value.
+$itemStrFields = @('cost', 'damage', 'critical', 'damagetype', 'properties', 'type', 'subtype')
+$itemNumFields = @('weight', 'ac', 'maxstatbonus', 'checkpenalty', 'spellfailure', 'speed30', 'speed20', 'range')
+
 # ---------------------------------------------------------------- spells
 
 # An NPC's <spellset> carries each spell's FULL text inline - description, components,
@@ -805,9 +859,38 @@ if ($parcels.Count) {
       [void]$sec.Add("`t`t`t`t<$slot>")
       [void]$sec.Add((N 'carried' 1 5))
       [void]$sec.Add((N 'count' $(if ($imeta.count) { [int]$imeta.count } else { 1 }) 5))
-      if ($imeta.cost) { [void]$sec.Add((S 'cost' ([string]$imeta.cost) 5)) }
-      if ($imeta.weight) { [void]$sec.Add((N 'weight' ([double]$imeta.weight) 5)) }
-      if ($imeta.type) { [void]$sec.Add((S 'type' ([string]$imeta.type) 5)) }
+
+      # Copy the real SRD record's fields, then let the markdown override any of them.
+      # `srd:` names the record to look up when the item is called something else in the
+      # fiction; `srd: none` opts a genuinely invented item out of the lookup.
+      $srdName = if ($imeta.srd) { [string]$imeta.srd } else { $iname }
+      $srdRec = $null
+      if ($srdName -ne 'none') {
+        $key = ($srdName -replace '[^a-zA-Z0-9]', '').ToLower()
+        $idx = Get-ItemIndex
+        if ($idx.ContainsKey($key)) { $srdRec = $idx[$key] }
+        elseif ($imeta.srd) { Warn "$($p.file): no SRD item called '$srdName' for $em $iname" }
+      }
+      foreach ($f in $itemStrFields) {
+        $v = if ($imeta.$f) { [string]$imeta.$f } elseif ($srdRec) { $srdRec.SelectSingleNode($f).InnerText } else { $null }
+        if ($v) { [void]$sec.Add((S $f $v 5)) }
+      }
+      foreach ($f in $itemNumFields) {
+        $v = $null
+        if ($imeta.$f) { $v = [double]$imeta.$f }
+        elseif ($srdRec -and $srdRec.SelectSingleNode($f)) { $v = [double]$srdRec.SelectSingleNode($f).InnerText }
+        if ($null -ne $v) { [void]$sec.Add((N $f $v 5)) }
+      }
+
+      # The failure this whole lookup exists to prevent: a weapon that rolls nothing and
+      # armour that grants no AC when a player equips it.
+      $itype = if ($imeta.type) { [string]$imeta.type } elseif ($srdRec -and $srdRec.SelectSingleNode('type')) { $srdRec.SelectSingleNode('type').InnerText } else { '' }
+      if ($itype -eq 'Weapon' -and -not ($imeta.damage -or ($srdRec -and $srdRec.SelectSingleNode('damage')))) {
+        Warn "$($p.file): '$iname' is a Weapon with no damage $em it will roll nothing in FG"
+      }
+      if ($itype -eq 'Armor' -and -not ($imeta.ac -or ($srdRec -and $srdRec.SelectSingleNode('ac')))) {
+        Warn "$($p.file): '$iname' is Armor with no ac $em equipping it will do nothing"
+      }
       [void]$sec.Add((S 'name' $iname 5))
       if ($imeta.nonid) {
         [void]$sec.Add((N 'isidentified' 0 5))

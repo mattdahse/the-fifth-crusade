@@ -466,6 +466,24 @@ What it is, in the chronicle's voice.
 `nonid:` sets the unidentified name and marks the item unidentified, which is what makes the
 players roll for it. Omit it and the item arrives already identified.
 
+**An item's mechanical fields are not optional.** A weapon with no `damage` rolls nothing when a
+player clicks it, and armour with no `ac` gives no protection when it is equipped — the record
+looks complete in the parcel and does nothing at the table. So mundane gear is **looked up by
+name in `PF-SRD-Basic-Rules.mod` and its real fields copied in**, exactly as spells already are.
+The SRD keeps equipment in **`client.xml`, not `db.xml`**, under three separate lists —
+`reference.weapon`, `reference.armor`, `reference.equipment` — and all three are searched.
+
+- Matching is by name with non-alphanumerics stripped, so `Chain Shirt` finds `Chain shirt`.
+- Anything the markdown sets **overrides** the SRD value, which is how a battered scale mail keeps
+  its real `ac 5` while costing what a rusted one is worth.
+- When the fiction renames a thing, point at the record: `<!-- srd: Mace, heavy -->` on an item
+  called *Heavy Mace*, `<!-- srd: Warhammer -->` on a *Slate-Cutter's Maul*.
+- `<!-- srd: none -->` opts a genuinely invented item out of the lookup.
+- The build **warns** on a `Weapon` with no damage or `Armor` with no `ac`, from either source.
+  That warning is the whole point of this section — it is the failure that looks fine in the file.
+
+The fields are copied into our module, so nothing at the table needs the SRD module loaded.
+
 ### Maps — `fg/maps/*.md`
 
 ```markdown

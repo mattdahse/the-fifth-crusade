@@ -13,6 +13,7 @@ wearing it.
 ## Items
 
 ### Battered Scale Mail
+<!-- srd: Scale mail -->
 <!-- count: 1 -->
 <!-- type: Armor -->
 <!-- cost: 50 gp -->
@@ -24,6 +25,7 @@ Worth a quarter of the book price to anyone honest, and rather more to someone w
 tonight.
 
 ### Dented Buckler
+<!-- srd: Buckler -->
 <!-- count: 1 -->
 <!-- type: Armor -->
 <!-- cost: 5 gp -->

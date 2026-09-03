@@ -26,6 +26,7 @@ a count of how many of these are moving through the Marchlands and who is wearin
 party that counts is asking the right question.
 
 ### Slate-Cutter's Maul
+<!-- srd: Warhammer -->
 <!-- count: 1 -->
 <!-- type: Weapon -->
 <!-- cost: 12 gp -->
