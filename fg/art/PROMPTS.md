@@ -230,59 +230,81 @@ model is placing something.
 
 ## The approach — terrain map
 
-A wide-area plate for planning the approach: the manor small, seen from outside, in the country
-around it. **Not a battlemap** — no interior, and the map record ships with `grid: off`.
+A wide-area plate for planning the approach: the manor small and **roofed**, in four hundred yards
+of country. Ships with `grid: off` and no occluders.
 
-**The constraint that matters is that there is no road, and a model will draw one anyway.** Every
-instinct in an image model puts a track between two features, so the prohibition is stated three
-times below: as its own paragraph, in the layout, and in the avoid line. Whatever road ran through
-this country was erased generations ago by demons, Worldwound weather and armies going both ways,
-and the ground has closed over it. *"The road"* in this campaign is the name of a direction, not a
-thing anybody can stand on — the quest record now says so explicitly.
+**Three things had to be said very plainly, and the first version got two of them wrong.**
+
+**Say the camera is straight down, and say what that forbids.** "Top-down" alone produced a
+gently oblique picture with the side of a ravine wall visible and foundations drawn in
+three-quarter. What fixed it was naming the consequence: *nothing shows its side — you can see the
+top of a wall, a cliff, a rock or a tree, never its face.* Then repeat it in the avoid line as
+`an oblique view, a tilted view, visible cliff faces, visible tree trunks`.
+
+**A building seen from outside has a roof.** The first version drew the manor open, which handed
+the players the floor plan before they had crossed the ground. Ask for the roof explicitly — slate,
+a ridge line, a chimney, a couple of fallen-through holes — and say *it hides the interior
+completely*. This does not contradict the battlemap: the manor keeps its roof and the battlemap is
+a cutaway.
+
+**Varied ground has to be itemised.** Asked for "broken country" a model paints one texture over
+the whole plate. List the patches: a copse, thorn clusters, an ash drift, scree fields, dead
+grass, bare dust, a stony wash.
+
+**And there is no road, which needs saying three times** — its own paragraph, again in the layout,
+and again in the avoid line — because every instinct in an image model is to connect two features
+with a track. Whatever road ran through this country was erased generations ago by demons,
+Worldwound weather and armies going both ways. *"The road"* in this campaign is the name of a
+direction, not a thing anybody can stand on, and the quest record says so outright.
 
 > Please generate this image directly. Aspect ratio 3:2.
 >
-> A TOP-DOWN TERRAIN MAP for a tabletop RPG, seen from directly overhead, orthographic, no
-> perspective. A WIDE AREA map for planning an approach — roughly four hundred yards across — not
-> a battlemap. Painted in oils with visible brushwork, muted earthy palette of dust-brown,
-> ash-grey, dead olive and cold stone.
+> A TOP-DOWN TERRAIN MAP for a tabletop RPG. Painted in oils, visible brushwork, muted earthy
+> palette.
 >
-> THERE IS NO ROAD ANYWHERE ON THIS MAP. Do not draw a road, track, path, trail, lane, causeway,
-> paved way or wheel ruts. Whatever road once crossed this country was erased generations ago by
-> war, weather and armies, and the ground has closed over it. The land is OPEN BROKEN COUNTRY with
-> no route marked on it.
+> THE CAMERA IS STRAIGHT DOWN. This is a TRUE ORTHOGRAPHIC BIRD'S-EYE VIEW, looking vertically
+> down at the ground like a satellite photograph. NOTHING shows its side. You cannot see the side
+> face of a wall, a cliff, a rock or a tree trunk — only their tops. There is no tilt, no lean, no
+> oblique angle, no three-quarter view, no isometric projection, and no vanishing point anywhere.
 >
-> LAYOUT: Slightly right of centre and SMALL — about one sixth of the image width — a RUINED STONE
-> MANOR seen from above: a plain rectangle of thick grey stone walls, wider than tall, roof gone so
-> the tops of a few internal dividing walls show as bare lines. A small grey ruin in a large empty
-> landscape. No furniture, no room detail.
+> THERE IS NO ROAD ANYWHERE ON THIS MAP. No road, track, path, trail, lane, causeway, paved way or
+> wheel ruts. Whatever road once crossed this country was erased generations ago by war, weather
+> and armies, and the ground has closed over it. Open broken country with no route marked on it.
 >
-> To the LEFT, the ground falls away sharply into a deep dry valley: a broken lip of exposed pale
-> rock running north to south, shadowed ground dropping out of frame below it.
+> LAYOUT, roughly four hundred yards across:
 >
-> Scattered around the manor at a distance, the FOUNDATIONS OF A VANISHED VILLAGE: a dozen low
-> rectangles of tumbled stone, barely knee high, half swallowed by dust and dead grass, in no
-> arrangement.
+> Slightly right of centre and SMALL — about one sixth of the image width — a STONE MANOR seen from
+> straight above, so what you see is ITS ROOF AND NOTHING ELSE. Dark grey slate, a simple long
+> pitched roof with a straight ridge running its length and a stone chimney at one end. Old and
+> patched: two or three small places where slates have fallen through show as dark ragged holes,
+> but the roof is substantially intact and it HIDES THE INTERIOR COMPLETELY. No rooms, walls,
+> floors, furniture or inside detail. A closed grey roof on the ground.
 >
-> Elsewhere: dry broken ground, drifts of pale ash in the hollows, dead scrub and thorn in low
-> clumps, loose scattered rock, a dry stony watercourse winding from the right down toward the
-> valley, and one dead leafless tree above the manor.
+> Along the LEFT edge the ground simply ENDS at a ravine: a pale broken rim line, and beyond it
+> flat dark shadow filling the left of the frame. Because the view is straight down you see only
+> the rim and the darkness below it — never the rock face.
 >
-> Lit evenly and flatly from above like a map, overcast, no long shadows.
+> Scattered across the open ground, the FOUNDATIONS OF A VANISHED VILLAGE: a dozen low rectangles
+> of tumbled stone seen from above, knee high, half swallowed by dust and dead grass.
+>
+> THE TERRAIN MUST BE VARIED, not one flat texture. Well spread out: a COPSE of a dozen leafless
+> twisted trees in the upper right, seen from directly above as tangles of bare grey branches;
+> several dense CLUSTERS OF SCRAGGLY THORN BUSHES in dark olive and grey-green; open stretches of
+> dry pale dust and cracked earth; a broad drift of pale grey ash caught in a hollow; fields of
+> loose broken scree and scattered boulders; patches of coarse dead yellow grass; a dry stony
+> watercourse winding down from the right into the ravine; a few standing rocks and one lone dead
+> tree near the manor.
+>
+> Lit evenly and flatly from directly above, overcast, no long shadows.
 >
 > CRITICAL: NO TEXT of any kind — no title, labels, place names, legend, compass or scale bar — and
 > NO GRID. No border, no frame, no parchment edge, no vignette. Art fills the frame edge to edge.
 >
-> **Avoid:** a road, a track, a path, a trail, a lane, a causeway, a paved way, cart ruts, wheel
-> ruts, a line of worn or trodden ground, a bridge, flowing water, a lake, forest, dense trees,
-> green grass, farmland, hedges, fences, tents, camps, banners, a grid, grid lines, squares, hexes,
-> text, letters, numbers, labels, a legend, a compass, a scale bar, a title, a border, a frame,
-> parchment, torn paper edges, a vignette, isometric or three-quarter or perspective view, a side
-> view, a photograph, a 3-D render, cartoon, cel-shaded, flat vector, bright saturated colours,
-> miniatures, tokens, figures, creatures, people, a large building filling the frame, interior
-> rooms, furniture.
-
-**When the render exists**, save it to `fg/art/images/the-approach.webp` and add
-`fg/maps/the-approach.md` with `grid: off` and no occluders — it is a planning plate, not a
-tactical one, and a 400-yard map has no useful five-foot squares. Link it from the manor's story
-record above the map link.
+> **Avoid:** an oblique view, a tilted view, a three-quarter view, an isometric view, a perspective
+> view, a side view, visible walls, visible cliff faces, visible tree trunks, seeing inside the
+> building, an open roofless building, interior rooms, floors, furniture, a cutaway, a road, a
+> track, a path, a trail, a causeway, cart ruts, wheel ruts, a line of worn ground, a bridge,
+> flowing water, a lake, green healthy forest, farmland, hedges, fences, tents, camps, banners, a
+> grid, text, letters, numbers, labels, a legend, a compass, a scale bar, a border, a frame,
+> parchment, a vignette, a photograph, a 3-D render, cartoon, cel-shaded, flat vector, bright
+> saturated colours, miniatures, tokens, figures, creatures, people.

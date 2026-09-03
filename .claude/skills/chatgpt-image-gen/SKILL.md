@@ -272,6 +272,20 @@ mean the image is in the DOM yet; on the Chapter XVI edits the new render appear
 seconds after the generating indicator cleared. If `gen` is false but the byte count still matches
 the previous render, scroll to the bottom and wait one more cycle before concluding it failed.
 
+> ⚠️ **Never conclude "no image" before 90 seconds have passed. `generating:false` with an empty
+> image list is the NORMAL state of a healthy render in its first minute** — the stop-answering
+> button tracks the *text* turn and clears long before the image tool finishes. Poll on the image
+> appearing, not on the flag clearing.
+>
+> This is worth a hard rule because the failure is so convincing. In one session three renders were
+> abandoned at 20–30 seconds on `{generating:false, big:[]}`; a one-line throwaway prompt was then
+> sent as a "diagnostic", abandoned on the same signal, and the whole thing written up as an
+> account-wide image cap. Every one of those images was sitting in its conversation, finished. The
+> user had to say *"I'm seeing results in the Chrome page"* before the real cause was found.
+>
+> If a render genuinely looks dead, reopen the conversation by URL and look again before saying so
+> — and say what was observed rather than naming a cause.
+
 ### D. Wait for the render
 
 Poll with **short** `computer{action:"wait", duration:10}` steps (`duration` is capped at 10), then

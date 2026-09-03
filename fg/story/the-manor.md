@@ -5,11 +5,23 @@
 
 *The first commission. A 1st-level adventure for four, running one long session or two short ones.*
 
+@link map: approach | The approach (show the players first)
 @link map: manor | The manor (map)
 @link quest: hold_the_halfway_house | Hold the Halfway House
 @link battle: labyrinth_post | The Labyrinth post
 @link battle: locust_cell | The Locust-Sworn
 @link battle: young_queen | The young queen
+
+## Before they commit to a direction
+
+Put **the approach plate** in front of them. It shows the manor small in four hundred yards of
+open country, the valley shutting off the west, a scatter of village foundations that are the only
+cover, and a dry watercourse a careful party can move along. There is no road on it because there
+is no road — the ground closed over whatever was built here generations ago.
+
+That is the planning scene, and it is worth giving them: the manor has two breaches and no front
+door, so *which side they arrive on* is the single most consequential decision they make all
+session, and it should be made from a map rather than from a corridor.
 
 ## What Elara knows
 
