@@ -12,8 +12,10 @@ is the plate to put in front of the players before they commit to a direction.
 ## What is on it
 
 - **The manor**, small, and seen as what it actually is from outside: **a slate roof.** A straight
-  ridge, a chimney at one end, and two ragged holes where slates have gone through. The players
-  cannot see inside it, because from four hundred yards away nobody can.
+  ridge, two ragged holes where slates have gone through, and **two chimneys at the west end** —
+  which is where the two flues actually are on [the battlemap](the-manor.md): the kitchen's brick
+  oven in the north-west room, and the great hall's hearth in the west wall. The players cannot
+  see inside it, because from four hundred yards away nobody can.
 - **The ravine**, west, where the ground simply stops at a pale broken rim and goes dark. Sheer
   enough to matter: nothing approaches from that side.
 - **The vanished village** — a dozen low foundations scattered across the ground, knee high and

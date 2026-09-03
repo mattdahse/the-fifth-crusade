@@ -247,6 +247,14 @@ a ridge line, a chimney, a couple of fallen-through holes — and say *it hides 
 completely*. This does not contradict the battlemap: the manor keeps its roof and the battlemap is
 a cutaway.
 
+**Ask for the chimney where the fire is.** The render put a single stack at the east end of the
+ridge; both of the manor's flues — the kitchen's brick oven and the great hall's hearth — are at
+the **west** end. A model has no idea what is under a roof it is drawing, so either name the
+position in the prompt or fix it afterwards. It was cheaper to fix: the east stack was cloned out
+with roof texture and two were drawn back in at the west end, sized to the interior. Mapping is
+straightforward — the battlemap's interior spans x 80–1420 and y 80–892, this roof spans
+x 897–1060 and y 445–540, so a feature's position is the same fraction along each.
+
 **Varied ground has to be itemised.** Asked for "broken country" a model paints one texture over
 the whole plate. List the patches: a copse, thorn clusters, an ash drift, scree fields, dead
 grass, bare dust, a stony wash.
