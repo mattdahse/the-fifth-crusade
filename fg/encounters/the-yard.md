@@ -3,10 +3,10 @@
 <!-- id: yard_dogs -->
 <!-- level: 1 -->
 <!-- map: scrapyard -->
-<!-- Placements added once the plate exists. Fight-start: both dogs loose in the yard, -->
-<!-- one at the gate and one round the back of the scrap piles. -->
+<!-- Fight-start: one dog inside the gate among the piles, the other coming round the -->
+<!-- north end. They work as a pair and neither can be outrun. -->
 <!-- Prose lives in fg/story/the-southshore-job.md - an FG battle has no text field. -->
 
 ## Foes
 
-- 2x yard_dog
+- 2x yard_dog @ 330,480; 760,300
