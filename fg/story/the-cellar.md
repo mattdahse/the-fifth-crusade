@@ -74,7 +74,7 @@ need to be told what the muster list means.
 
 The clutch is the point. Killing four soldiers is a fight; **burning the clutch is the thing that
 is permanently different afterwards.** Say so at the table. A hive that loses a generation does
-not send anything up the tunnel next season, and the road past the east wall stays a road.
+not send anything up the tunnel next season, and the country outside stays crossable.
 
 If they leave the eggs — because they are hurt, or because nobody thought of it — that is a real
 consequence and worth remembering rather than punishing immediately. It comes back in a season.

@@ -90,7 +90,8 @@ She is a sergeant, not a duellist, and she fights like one.
   rather than waste it on one target.
 - **She does not close.** The mace is for when something reaches her.
 - **She heals herself, not them.**
-- **Losing, she goes for the hatch**, not the road — and this is the moment the encounter turns.
+- **Losing, she goes for the hatch**, not the open country — and this is the moment the
+  encounter turns.
   She goes down there believing she is retreating into her own house. Let her. Play it straight.
 
 ## Roleplaying

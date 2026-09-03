@@ -63,7 +63,8 @@ He fights like someone who intends to still be alive at the end of it, which mak
 dangerous than his numbers and easier to get rid of than his numbers.
 
 - **He does not open.** Left alone he holds a doorway and makes the party come to him.
-- **He gives ground**, hurt past about half, backing toward the road rather than trading — but
+- **He gives ground**, hurt past about half, backing toward the nearest breach rather than
+  trading — but
   **never toward the hatch**, and he will take a bad position to avoid going that way.
 - **He will not die for the acolyte.** If she goes down, he stops.
 - **Two together are the problem**, because neither has to worry about being flanked.

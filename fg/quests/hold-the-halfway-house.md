@@ -9,6 +9,12 @@ The road from Drezen to the Sarian Fane is two days on foot and there is nothing
 courier who walks it sleeps one night in the open, in country that has ash storms, abyssal
 vermin, and worse.
 
+**"The road" is a name for a direction, not a thing on the ground.** Whatever was built here was
+erased generations ago — by demons, by Worldwound weather, and by armies going both ways over it.
+What is left is open broken country, and every courier crosses it on the line that looks least
+bad on the day. That is precisely why a building halfway along matters: there is nothing else to
+steer by, and nowhere else to sleep.
+
 **Elara Dawnstrider** wants that changed and has nobody to send. Iomedae's Preservers are
 taking recruits faster than anyone in Drezen can train them, every sworn blade she has is
 needed inside the walls, and the letter she sent to the Church of Iomedae asking for

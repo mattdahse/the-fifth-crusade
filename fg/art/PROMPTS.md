@@ -225,3 +225,64 @@ map is 3:2, so the grid pitch is **60 px** here rather than the house's 100.
 however the layout was phrased; repeating the constraint as *bottom-right* in plain terms, and
 again in the avoid list, is what fixed it. Screen directions beat compass directions when the
 model is placing something.
+
+---
+
+## The approach — terrain map
+
+A wide-area plate for planning the approach: the manor small, seen from outside, in the country
+around it. **Not a battlemap** — no interior, and the map record ships with `grid: off`.
+
+**The constraint that matters is that there is no road, and a model will draw one anyway.** Every
+instinct in an image model puts a track between two features, so the prohibition is stated three
+times below: as its own paragraph, in the layout, and in the avoid line. Whatever road ran through
+this country was erased generations ago by demons, Worldwound weather and armies going both ways,
+and the ground has closed over it. *"The road"* in this campaign is the name of a direction, not a
+thing anybody can stand on — the quest record now says so explicitly.
+
+> Please generate this image directly. Aspect ratio 3:2.
+>
+> A TOP-DOWN TERRAIN MAP for a tabletop RPG, seen from directly overhead, orthographic, no
+> perspective. A WIDE AREA map for planning an approach — roughly four hundred yards across — not
+> a battlemap. Painted in oils with visible brushwork, muted earthy palette of dust-brown,
+> ash-grey, dead olive and cold stone.
+>
+> THERE IS NO ROAD ANYWHERE ON THIS MAP. Do not draw a road, track, path, trail, lane, causeway,
+> paved way or wheel ruts. Whatever road once crossed this country was erased generations ago by
+> war, weather and armies, and the ground has closed over it. The land is OPEN BROKEN COUNTRY with
+> no route marked on it.
+>
+> LAYOUT: Slightly right of centre and SMALL — about one sixth of the image width — a RUINED STONE
+> MANOR seen from above: a plain rectangle of thick grey stone walls, wider than tall, roof gone so
+> the tops of a few internal dividing walls show as bare lines. A small grey ruin in a large empty
+> landscape. No furniture, no room detail.
+>
+> To the LEFT, the ground falls away sharply into a deep dry valley: a broken lip of exposed pale
+> rock running north to south, shadowed ground dropping out of frame below it.
+>
+> Scattered around the manor at a distance, the FOUNDATIONS OF A VANISHED VILLAGE: a dozen low
+> rectangles of tumbled stone, barely knee high, half swallowed by dust and dead grass, in no
+> arrangement.
+>
+> Elsewhere: dry broken ground, drifts of pale ash in the hollows, dead scrub and thorn in low
+> clumps, loose scattered rock, a dry stony watercourse winding from the right down toward the
+> valley, and one dead leafless tree above the manor.
+>
+> Lit evenly and flatly from above like a map, overcast, no long shadows.
+>
+> CRITICAL: NO TEXT of any kind — no title, labels, place names, legend, compass or scale bar — and
+> NO GRID. No border, no frame, no parchment edge, no vignette. Art fills the frame edge to edge.
+>
+> **Avoid:** a road, a track, a path, a trail, a lane, a causeway, a paved way, cart ruts, wheel
+> ruts, a line of worn or trodden ground, a bridge, flowing water, a lake, forest, dense trees,
+> green grass, farmland, hedges, fences, tents, camps, banners, a grid, grid lines, squares, hexes,
+> text, letters, numbers, labels, a legend, a compass, a scale bar, a title, a border, a frame,
+> parchment, torn paper edges, a vignette, isometric or three-quarter or perspective view, a side
+> view, a photograph, a 3-D render, cartoon, cel-shaded, flat vector, bright saturated colours,
+> miniatures, tokens, figures, creatures, people, a large building filling the frame, interior
+> rooms, furniture.
+
+**When the render exists**, save it to `fg/art/images/the-approach.webp` and add
+`fg/maps/the-approach.md` with `grid: off` and no occluders — it is a planning plate, not a
+tactical one, and a 400-yard map has no useful five-foot squares. Link it from the manor's story
+record above the map link.
