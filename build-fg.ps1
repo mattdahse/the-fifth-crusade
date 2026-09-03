@@ -837,7 +837,16 @@ if ($maps.Count) {
     [void]$rows.Add("`t`t`t<image type=""image"">")
     [void]$rows.Add("`t`t`t`t<grid>$(if ($mp.meta.grid) { $mp.meta.grid } else { 'on' })</grid>")
     if ($mp.meta.gridtype) { [void]$rows.Add("`t`t`t`t<gridtype>$($mp.meta.gridtype)</gridtype>") }
-    if ($mp.meta.gridsize) { [void]$rows.Add("`t`t`t`t<gridsize>$($mp.meta.gridsize)</gridsize>") }
+    # FG stores gridsize as a PAIR, "100,100" - a bare "100" is not the same thing.
+    # Written as one number in markdown, since these grids are always square.
+    if ($mp.meta.gridsize) {
+      $gs = [string]$mp.meta.gridsize
+      if ($gs -notmatch ',') { $gs = "$gs,$gs" }
+      [void]$rows.Add("`t`t`t`t<gridsize>$gs</gridsize>")
+    }
+    # Shifts the grid so its lines fall on the art. Only needed for a generated plate,
+    # where the walls do not start at a round multiple of the square size.
+    if ($mp.meta.gridoffset) { [void]$rows.Add("`t`t`t`t<gridoffset>$([string]$mp.meta.gridoffset)</gridoffset>") }
     [void]$rows.Add("`t`t`t`t<gridsnap>on</gridsnap>")
     [void]$rows.Add("`t`t`t`t<uselos>on</uselos>")
     [void]$rows.Add("`t`t`t`t<layers>")
@@ -1006,6 +1015,9 @@ if (Test-Path $artSrc) {
   $assetExt = @('.png', '.jpg', '.jpeg', '.webp', '.gif', '.bmp', '.svg', '.ttf', '.otf')
   foreach ($f in (Get-ChildItem $artSrc -Recurse -File)) {
     if ($assetExt -notcontains $f.Extension.ToLower()) { continue }
+    # trace-occluders.py drops <plate>-mask.png beside the plate it traced. That is a
+    # working file for judging a threshold by eye, not art, and has no business shipping.
+    if ($f.Name -like '*-mask.png') { continue }
     $rel = $f.FullName.Substring($artSrc.Length).TrimStart('\', '/')
     $dst = Join-Path $stage $rel
     New-Item -ItemType Directory -Path (Split-Path $dst) -Force | Out-Null

@@ -32,6 +32,7 @@ gallery. Their likeness anchors live here instead.
 | Asset | File | State |
 |---|---|---|
 | The Sarkorian House battlemap | `images/the-sarkorian-house.jpg` | **done** — blockout at 1600 × 1400, drawn by [`make-sarkorian-house.py`](make-sarkorian-house.py) |
+| The Cellar battlemap | `images/the-cellar.webp` | **done** — generated at 1536 × 1024, cropped and extended to 1560 × 1080 for the grid |
 | Labyrinth Squatter token | `tokens/labyrinth-squatter.webp` | **done** — 512 × 512, 51 KB |
 | Hookhand Acolyte token | `tokens/hookhand-acolyte.webp` | **done** — 512 × 512, 39 KB |
 
@@ -124,3 +125,61 @@ repaint it, move nothing"* — the same discipline the region plates need, and f
 reason: asked for geometry and staging at once, the model keeps the staging and redraws the
 geometry. A battlemap carries **no text, no grid, no room numbers and no compass**; FG draws the
 grid itself.
+
+---
+
+## The Cellar battlemap
+
+Generated rather than drawn, which is the **reverse** of the order used for the Sarkorian House
+and deliberate. A blockout first is right when geometry has to be agreed before art exists, or
+when art is replacing a plate whose walls are already load-bearing. It is the wrong way round for
+an organic space: a script drawing a bored tunnel and a nest chamber in polygons produces walls
+that self-intersect at every bend and read as machine-made. Generate the space, then measure it.
+
+Measuring is [`trace-occluders.py`](trace-occluders.py), which thresholds the plate and walks the
+boundary of the open floor. Use `--channel warm` (red minus blue): dug earth is warm and cut rock
+is neutral, whereas in plain brightness they overlap badly — a shadowed stretch of this tunnel is
+*darker* than the rock beside it. The exact invocation is recorded in
+[`../maps/the-cellar.md`](../maps/the-cellar.md) so a re-render can be retraced without
+rediscovering the settings.
+
+Two things a generated plate costs you, both handled in `the-cellar.md`: the walls do not land on
+a round multiple of the square, so the plate is cropped and edge-extended until they do; and the
+map is 3:2, so the grid pitch is **60 px** here rather than the house's 100.
+
+> [the full prompt, as sent]
+>
+> A TOP-DOWN TABLETOP RPG BATTLEMAP, viewed from directly overhead, orthographic, no perspective.
+> Painted in oils, visible brushwork, a muted earthy palette — browns, soot-black, ash-grey, cold
+> stone.
+>
+> On the RIGHT half, a SQUARE stone cellar room with heavy mortared block walls on all four sides
+> and a flagstone floor. In its SOUTH-EAST CORNER — the BOTTOM-RIGHT corner of the room — a short
+> flight of stone steps leads UP and out of frame, with a square opening in the ceiling above
+> them. This is the way down from the ruined house above, and it MUST be in the bottom-right
+> corner of the room, not the top. Along the room's NORTH wall, collapsed wooden shelving and a
+> few broken barrels. In the middle of the cellar's WEST wall a low STONE DOOR, HALF BURIED behind
+> a spill of fallen masonry heaped against that wall, so the door is only partly visible behind
+> and between the broken stone.
+>
+> Leading WEST from that door, a rough TUNNEL bored through dark earth and rock — not built, not
+> bricked, gnawed. About as wide as the door, curving and wandering rather than straight, its
+> walls irregular and organic. On the LEFT the tunnel opens into a larger roughly ROUND NEST
+> CHAMBER dug out of the earth, its floor fouled with a midden of chitin fragments, husks, dry
+> pale egg clutches heaped against the walls, and dark stains. A few smaller side burrows lead off
+> it and stop.
+>
+> The cellar reads as worked stone and is the lightest thing in the picture. The tunnel and nest
+> read as raw dug earth, darker and warmer. The solid rock between them is the darkest value,
+> nearly black. Lit evenly and flatly from above as a map.
+>
+> **Avoid:** stairs in any corner other than the bottom-right, a grid, grid lines, squares, hexes,
+> text, letters, numbers, labels, a legend, a compass, a scale bar, a title, a border, a frame,
+> parchment, torn paper edges, a vignette, an isometric or three-quarter or perspective view, a
+> side view, a photograph, a 3-D render, cartoon, cel-shaded, flat vector, bright saturated
+> colours, visible miniatures or tokens or figures, any living creatures, any people.
+
+**Naming the corner twice was necessary.** The first render put the stair in the north-east
+however the layout was phrased; repeating the constraint as *bottom-right* in plain terms, and
+again in the avoid list, is what fixed it. Screen directions beat compass directions when the
+model is placing something.

@@ -1,4 +1,4 @@
-# The Sarkorian House
+# Ruined House
 
 <!-- id: sarkorian_house -->
 <!-- image: images/the-sarkorian-house.jpg -->

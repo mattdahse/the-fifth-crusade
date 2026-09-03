@@ -500,6 +500,34 @@ The build copies `fg/art/**` into the module, but **only real asset extensions**
 
 ### Battlemaps — settle the geometry in code first
 
+**Two orders, and the space decides which.** For a built space with straight walls — a house, a
+room, a corridor — draw the blockout first: it pins the grid and the occluder coordinates, it is
+playable immediately, and painted art can replace it later without moving a wall. For an
+**organic** space — a cave, a bored tunnel, a nest — generate the art FIRST and measure the
+occluders off it. A script drawing a cave in offset polygons self-intersects at every bend and
+looks machine-made, and no amount of tuning fixes that.
+
+When the art comes first, [`fg/art/trace-occluders.py`](../../../fg/art/trace-occluders.py) reads
+the walls out of the plate rather than off a picture of it by eye. Notes that cost time to learn:
+
+- **`--channel warm` before anything else.** It thresholds red minus blue instead of brightness.
+  Dug earth is warm and cut rock is neutral, so they separate cleanly (+25..+40 against 0..+6 on
+  the cellar plate), whereas in brightness they overlap badly — a shadowed stretch of that tunnel
+  is *darker* than the rock beside it, so no brightness threshold takes in the whole tunnel
+  without also taking in the rock.
+- **`--exclude` the built rooms.** Bright worked stone reads as open floor and gets traced as a
+  second cavern otherwise. Cover the walls too, not just the room inside them.
+- **`--open-at` the doorways.** A traced ring is closed, which seals the cave off from the room it
+  connects to. Break it where the door is and let an `occluder-door` carry that gap.
+- **Look at `--preview`.** It writes `<plate>-mask.png` beside the plate; blend it over the art
+  and check coverage before trusting a single coordinate. The build refuses to ship `*-mask.png`.
+
+**A generated plate does not land on the grid**, so crop and edge-extend it until the room's
+inside corner is a round multiple of the square size *and* half the plate's width and height are
+too — then the grid lines up whichever corner FG anchors from. `<gridsize>` is a **pair**
+(`60,60`); a bare number is not the same thing, and `<gridoffset>` shifts the lines if cropping
+is not an option.
+
 **Draw a blockout before commissioning art.** A plain floor plan drawn by a script pins the
 grid, the wall positions and the occluder coordinates, and it is playable immediately;
 painted art can replace the plate later without moving a wall, because the occluders are

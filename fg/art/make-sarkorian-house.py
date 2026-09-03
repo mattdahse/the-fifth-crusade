@@ -204,23 +204,30 @@ for r in WALLS:
 # --- the front door: a worn stone threshold, and the door itself long since off its
 #     hinges and lying just inside. Drawn after the walls so it sits in the gap.
 d.rectangle([R - TH, EDOOR_T, R + TH, EDOOR_B], fill=(96, 89, 76))
-for _ in range(260):
-    x = random.randint(R - TH, R + TH)
-    y = random.randint(EDOOR_T, EDOOR_B)
-    v = random.randint(-14, 14)
-    d.point((x, y), fill=(96 + v, 89 + v, 76 + v))
+d.rectangle([R - TH + 4, EDOOR_T + 6, R + TH - 4, EDOOR_B - 6], fill=(72, 60, 46),
+            outline=(44, 37, 29), width=3)
+for i in range(4):                     # planks, so the gap reads as a door and not a hole
+    py = EDOOR_T + 12 + i * 20
+    d.line([R - TH + 7, py, R + TH - 7, py], fill=(50, 42, 33), width=3)
+for py in (EDOOR_T + 16, EDOOR_B - 16):   # iron straps
+    d.line([R - TH + 6, py, R + TH - 6, py], fill=(104, 96, 82), width=5)
 d.line([R - TH, EDOOR_T, R + TH, EDOOR_T], fill=STONE_D, width=5)
 d.line([R - TH, EDOOR_B, R + TH, EDOOR_B], fill=STONE_D, width=5)
-door = [(R - 150, EDOOR_T + 8), (R - 34, EDOOR_T + 30),
-        (R - 48, EDOOR_B + 26), (R - 164, EDOOR_B + 4)]
-d.polygon(door, fill=(62, 52, 41), outline=(41, 34, 27))
-for i in range(3):                       # planks, so it reads as a door
-    t = 0.25 + i * 0.25
-    d.line([(door[0][0] + (door[3][0] - door[0][0]) * t,
-             door[0][1] + (door[3][1] - door[0][1]) * t),
-            (door[1][0] + (door[2][0] - door[1][0]) * t,
-             door[1][1] + (door[2][1] - door[1][1]) * t)],
-           fill=(48, 40, 32), width=4)
+# --- the cellar hatch, in the floor of the east room toward the south, drawn as a
+#     trapdoor and not as a fallen door: a framed square opening with plank leaves and
+#     a ring pull. It is the way down to fg/maps/the-cellar.md, and the stair at the
+#     south-east corner of that plate is drawn to meet it.
+HX, HY = 1150, 700           # its north-west corner; one square, grid-aligned
+d.rectangle([HX - 10, HY - 10, HX + 110, HY + 110], fill=(58, 49, 39),
+            outline=(38, 32, 25), width=4)
+d.rectangle([HX, HY, HX + 100, HY + 100], fill=(30, 26, 21))   # the dark of the hole
+for i in range(4):                     # plank leaves, thrown back off the opening
+    px0 = HX + 6 + i * 23
+    d.rectangle([px0, HY + 6, px0 + 18, HY + 94], fill=(74, 62, 48),
+                outline=(45, 38, 30), width=2)
+d.ellipse([HX + 66, HY + 40, HX + 90, HY + 64], outline=(112, 102, 84), width=5)
+d.line([HX, HY, HX + 100, HY], fill=(96, 88, 72), width=4)     # a lit lip, so it reads
+d.line([HX, HY + 100, HX + 100, HY + 100], fill=(96, 88, 72), width=4)
 
 # --- the north wall came down long ago: a climbable rubble spill, not a barrier.
 #     Broken masonry, so angular blocks rather than boulders - big ones laid first
