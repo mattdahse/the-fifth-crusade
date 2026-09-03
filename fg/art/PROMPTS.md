@@ -228,6 +228,37 @@ model is placing something.
 
 ---
 
+## Fixing a plate locally instead of re-rolling it
+
+A generated plate is just pixels once it is downloaded, and Pillow can edit it. That is often the
+right move: a re-roll costs a render and, worse, **changes everything** — a plate that was correct
+in nine ways comes back different in all nine, and any occluders traced against it are void.
+
+**Local editing works well for:**
+
+- **Moving or removing a small discrete object** — the manor's chimney. Clone neighbouring texture
+  over where it was, then put it back where it belongs.
+- **Anything geometric**: a doorway, a hatch, a stack, a threshold. These are shapes, and shapes
+  can be drawn.
+- **Crop, pad, scale and colour** — the grid alignment on every plate here, and the contrast pass
+  that makes tokens legible.
+- **Composites**, where a feature has to line up with another map. That is arithmetic, and
+  arithmetic is exactly what a script is better at than a prompt.
+
+**It does not work for:**
+
+- **New painted content of any size.** A room, a landscape, a face. Drawn geometry reads as drawn
+  the moment it is bigger than a few dozen pixels.
+- **Anything that has to respect the plate's lighting across a wide area.** A patch borrowed from
+  the north slope of a roof will not sit on the south slope.
+- **Changing what the picture *is*** — the view angle, the roof being on or off, the composition.
+  Those are prompt problems and re-rolling is the honest answer.
+
+**Two traps, both hit while moving that chimney.** Cropping an object off a plate brings its
+*surroundings* with it, so pasting the chimney elsewhere pasted a rectangle of ground onto the
+slate — draw the replacement rather than copying the original. And drawn geometry is too crisp
+against brushwork: a **0.6 px Gaussian blur** over just the edited patch is enough to seat it.
+
 ## The approach — terrain map
 
 A wide-area plate for planning the approach: the manor small and **roofed**, in four hundred yards
