@@ -3,12 +3,12 @@
 <!-- id: locust_cell -->
 <!-- level: 1 -->
 <!-- map: manor -->
+<!-- Fight-start positions: the two hold Corwin's doorways (pallet room, table room) -->
+<!-- and Corwin stands back in the hall between them, where a longspear reaches -->
+<!-- either doorway and nothing gets past him toward the sealed room. -->
 <!-- Prose lives in fg/story/the-manor.md - an FG battle has no text field. -->
 
 ## Foes
 
-Corwin's three hold the east: the pallet room, the table room with the trapdoor in it, and the
-east end of the hall.
-
-- 1x corwin_skell @ 1105,380
-- 2x locust_sworn @ 740,260; 1240,640
+- 1x corwin_skell @ 1120,600
+- 2x locust_sworn @ 740,505; 1020,505

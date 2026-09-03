@@ -85,11 +85,25 @@ know it is happening. The other way in is up the bore-hole from the cellar — s
 
 ## Running the three fights
 
-**All three encounters arrive pre-placed on the map.** Dropping one on the manor puts its people
-in the rooms their faction actually holds — the Labyrinth in the kitchen, the store and the west
-hall; Corwin's three in the pallet room, the table room and the east hall; the queen in the sealed
-room. That is where they *live*, not where they will be standing when the fight starts, so move
-them once the party's approach is known. It saves the setup, not the thinking.
+**All three encounters arrive placed as they will be when initiative is rolled** — not where
+they idle. Drop one on the manor and it comes in ready to fight, so a surprised enemy needs no
+setup at all and everyone else you move on round one once the approach is known.
+
+**The Labyrinth**, alarm raised, forms at its own two doorways with the hall in front of it. Two
+squatters plug the kitchen and store doorways, the third stands back as a second rank, and Ysolde
+is behind all of them with the hearth at her back — which is the range her *burning hands* wants,
+and the reason bunching in a doorway is the mistake.
+
+**The Locust-Sworn** hold Corwin's two doorways, the pallet room and the table room, with Corwin
+standing back in the hall between them. He does not stand in a doorway himself; the whole point of
+the longspear is that somebody else is in it, and from there he reaches either one and nothing
+gets past him toward the sealed room.
+
+**The queen** is squarely on her clutch, because she never leaves it.
+
+**These are postures, not predictions.** They assume the alarm went up and nobody knows yet which
+way the party is coming. If the party achieves surprise, this is exactly where they are. If not,
+move them on round one.
 
 **The Labyrinth post** — Ysolde and three squatters, 1,205 XP, a hard fight for four 1st-level
 characters. Indoors, under what is left of a roof: no long bowshots, and Ysolde opens with

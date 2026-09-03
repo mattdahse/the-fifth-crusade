@@ -447,6 +447,13 @@ FG stores this as a `<maplink>` on the foe, and the record path has a trap in it
 `image.<mapid>.image`. **The second `.image` is the layer inside the record, not a typo** — a
 maplink pointing at `image.<mapid>` alone silently places nothing.
 
+**Place them where they will be when initiative is rolled, not where they live.** A GM who has
+surprise wants to drop the encounter and play; a GM who does not will move everyone on round one
+anyway. Idle positions serve neither. So the placement is the faction's *posture* the moment the
+alarm goes and before anybody knows which way the party is coming — formed at their own doorways,
+casters back at the range their spell wants, reach weapons behind the front rank, and anything
+guarding something standing on it.
+
 **Verify placements by drawing them back.** Read the maplinks out of the built `.mod`, add half
 the plate, and draw a circle at each. It takes seconds and it catches what coordinates alone
 cannot: the first pass here put a squatter standing in a lit hearth and Corwin on top of a table.

@@ -49,6 +49,12 @@ allows — which is the party's advantage, and the only one they get.
 > man's fist. There are a great many of them. The smell is the sour-sweet one from the stair,
 > and here it is everything.
 
+**The nest starts the fight already moving.** Shifting the rubble off that door is loud, and the
+encounter is placed for what that means: by the time anyone is down the tunnel, **two soldiers are
+already coming up it** toward the noise and **two are holding the egg heaps**. The two on the
+clutch will not leave it; the two in the tunnel are the fight the party meets first, in a passage
+one creature wide, which is the only reason four of these is survivable at all.
+
 Four soldiers hold this room and will not leave it. **Read the encounter's notes before running
 it** — four is past deadly for a 1st-level party, and there are three honest ways to pitch it.
 
