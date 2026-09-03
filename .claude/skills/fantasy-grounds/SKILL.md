@@ -134,9 +134,9 @@ about it now, because it produces a paragraph that silently loses its link. Cons
 ```markdown
 **The reward.**
 
-@link parcel: sarkorian_house
-@link battle: sarkorian_house
-@link quest: halfway_house
+@link parcel: nest_midden
+@link battle: labyrinth_post
+@link quest: hold_the_halfway_house
 ```
 
 The build resolves each id to that record's title and warns if it points at nothing. Override
@@ -250,7 +250,8 @@ is the bio, which becomes the NPC's `<text>`.
 *Ivory Labyrinth adept; the one who keeps the others in line.*
 
 <!-- id: ysolde_karn -->
-<!-- token: tokens/ysolde-karn.png -->
+<!-- token: tokens/ysolde-karn.webp -->
+<!-- portrait: portraits/ysolde-karn.webp -->
 
 ```stats
 cr: 1
@@ -420,16 +421,16 @@ Foes are a plain list of `N x npc_id`. The build resolves each to the NPC record
 and warns on any id it cannot find.
 
 ```markdown
-# The Sarkorian House
+# The Labyrinth Post
 
-<!-- id: sarkorian_house -->
+<!-- id: labyrinth_post -->
 <!-- level: 1 -->
-<!-- map: sarkorian_house -->
+<!-- map: manor -->
 
 ## Foes
 
-- 2x labyrinth_squatter
 - 1x ysolde_karn
+- 3x labyrinth_squatter
 ```
 
 A foe line may also say **where its tokens stand**, in top-left pixels of that encounter's map:
@@ -524,7 +525,7 @@ they identify it. Use that for concealment rather than writing the concealment i
 ### Maps — `fg/maps/*.md`
 
 ```markdown
-<!-- image: images/the-sarkorian-house.jpg -->
+<!-- image: images/the-manor.webp -->
 <!-- grid: on -->
 <!-- gridtype: square -->
 <!-- gridsize: 50 -->
@@ -645,8 +646,11 @@ is not an option.
 grid, the wall positions and the occluder coordinates, and it is playable immediately;
 painted art can replace the plate later without moving a wall, because the occluders are
 written against those exact coordinates and the script records them.
-[`fg/art/make-sarkorian-house.py`](../../../fg/art/make-sarkorian-house.py) is the worked
-example — 50 px to a five-foot square, seeded so reruns are identical.
+There is **no live blockout in this repo any more** — the three-wall house it was written for was
+replaced by the manor, and both current plates are art-first. The principle stands for the next
+built space whose geometry has to be agreed before anyone draws it; write the script seeded, at a
+round number of pixels per five-foot square, and have it print the occluder markers it drew
+against.
 
 This ordering also dodges the trap the region plates hit: asked for exact geometry and a
 staged look at once, an image model keeps the staging and redraws the geometry. Repainting a
