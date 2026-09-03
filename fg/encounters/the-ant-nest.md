@@ -8,4 +8,6 @@
 
 ## Foes
 
-- 4x fiendish_giant_ant_soldier
+Spread through the nest chamber at the west end of the tunnel, between the party and the clutch.
+
+- 4x fiendish_giant_ant_soldier @ 180,380; 340,470; 200,650; 390,640

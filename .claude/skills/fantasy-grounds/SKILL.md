@@ -432,7 +432,24 @@ and warns on any id it cannot find.
 - 1x ysolde_karn
 ```
 
-Only lines matching exactly `- N x some_id` are read as foes.
+A foe line may also say **where its tokens stand**, in top-left pixels of that encounter's map:
+
+```markdown
+- 1x ysolde_karn @ 250,300
+- 3x labyrinth_squatter @ 500,300; 270,660; 480,700
+```
+
+One coordinate pair per token, and the build warns when the count and the number of placements
+disagree. It measures the plate named by the encounter's `map:` marker and converts to FG's own
+space — origin at the plate's centre, **y pointing up** — the same convention as occluders.
+
+FG stores this as a `<maplink>` on the foe, and the record path has a trap in it:
+`image.<mapid>.image`. **The second `.image` is the layer inside the record, not a typo** — a
+maplink pointing at `image.<mapid>` alone silently places nothing.
+
+**Verify placements by drawing them back.** Read the maplinks out of the built `.mod`, add half
+the plate, and draw a circle at each. It takes seconds and it catches what coordinates alone
+cannot: the first pass here put a squatter standing in a lit hearth and Corwin on top of a table.
 
 **An encounter cannot carry prose.** An FG `<battle>` holds *only* name, level, exp and npclist —
 there is no text field, verified against thirty battle records in the live campaign. Anything

@@ -790,15 +790,44 @@ if ($encounters.Count) {
     }
     $foes = New-Object System.Collections.ArrayList
     $totalXp = 0
-    foreach ($m in [regex]::Matches($e.raw, '(?m)^\s*[-*]\s*(\d+)\s*[xX]\s+([a-zA-Z0-9_]+)\s*$')) {
+    # A foe line may carry where its tokens stand on the map:
+    #     - 3x labyrinth_squatter @ 250,300; 400,350; 300,620
+    # in top-left pixels of that map's plate, converted below to FG's own space.
+    foreach ($m in [regex]::Matches($e.raw, '(?m)^\s*[-*]\s*(\d+)\s*[xX]\s+([a-zA-Z0-9_]+)\s*(?:@\s*(.+?))?\s*$')) {
       $cnt = [int]$m.Groups[1].Value
       $ref = $m.Groups[2].Value
       if (-not $npcById.ContainsKey($ref)) { Warn "$($e.file): unknown npc '$ref'"; continue }
       $npc = $npcById[$ref]
       if ($npc.stats['xp']) { $totalXp += $cnt * [int]($npc.stats['xp'] -replace '[^0-9]', '') }
-      [void]$foes.Add(@{ count = $cnt; npc = $npc })
+      $spots = @()
+      if ($m.Groups[3].Success) {
+        foreach ($pair in ($m.Groups[3].Value -split ';')) {
+          $c = $pair.Trim() -split ','
+          if ($c.Count -ne 2) { Warn "$($e.file): placement '$($pair.Trim())' is not x,y"; continue }
+          $spots += , @([double]$c[0], [double]$c[1])
+        }
+        if ($spots.Count -ne $cnt) {
+          Warn "$($e.file): $ref has $cnt token(s) but $($spots.Count) placement(s)"
+        }
+      }
+      [void]$foes.Add(@{ count = $cnt; npc = $npc; spots = $spots })
     }
     if ($foes.Count -eq 0) { Warn "$($e.file): no foes resolved"; continue }
+    # Placements are in the plate's pixels, so the plate has to be measured.
+    $mapDim = $null
+    if ($e.meta.map) {
+      $mapRec = $maps | Where-Object { $_.id -eq [string]$e.meta.map } | Select-Object -First 1
+      if (-not $mapRec) {
+        if ($foes | Where-Object { $_.spots.Count }) { Warn "$($e.file): map '$($e.meta.map)' not found $em placements skipped" }
+      }
+      else {
+        $mapPlate = Join-Path (Join-Path $src 'art') ([string]$mapRec.meta.image)
+        if (Test-Path $mapPlate) { $mapDim = Get-ImageSize $mapPlate }
+      }
+    }
+    elseif ($foes | Where-Object { $_.spots.Count }) {
+      Warn "$($e.file): placements given but no map: marker"
+    }
     [void]$sec.Add("`t`t<$($e.id)>")
     [void]$sec.Add((N 'exp' $totalXp 3))
     if ($e.meta.level) { [void]$sec.Add((N 'level' ([int]$e.meta.level) 3)) }
@@ -818,6 +847,30 @@ if ($encounters.Count) {
       [void]$sec.Add((S 'name' $f.npc.title 5))
       if ($f.npc.meta.token) {
         [void]$sec.Add((T 'token' ("$([string]$f.npc.meta.token)@$modName") 5))
+      }
+      # Where the tokens stand. FG hangs this off the foe as <maplink>, one entry per
+      # token, pointing at image.<map>.image - note the second ".image", which is the
+      # layer inside the record and not a typo. Coordinates use the same convention as
+      # occluders: origin at the plate's centre, y pointing UP.
+      if ($f.spots.Count -gt 0 -and $mapDim) {
+        [void]$sec.Add("`t`t`t`t`t<maplink>")
+        $si = 0
+        foreach ($sp in $f.spots) {
+          $si++
+          $sslot = 'id-{0:D5}' -f $si
+          $inv = [Globalization.CultureInfo]::InvariantCulture
+          $sx = ($sp[0] - $mapDim.w / 2.0).ToString($inv)
+          $sy = ($mapDim.h / 2.0 - $sp[1]).ToString($inv)
+          [void]$sec.Add("`t`t`t`t`t`t<$sslot>")
+          [void]$sec.Add("`t`t`t`t`t`t`t<imageref type=""windowreference"">")
+          [void]$sec.Add("`t`t`t`t`t`t`t`t<class>imagewindow</class>")
+          [void]$sec.Add("`t`t`t`t`t`t`t`t<recordname>image.$($e.meta.map).image@$(Esc $modName)</recordname>")
+          [void]$sec.Add("`t`t`t`t`t`t`t</imageref>")
+          [void]$sec.Add("`t`t`t`t`t`t`t<imagex type=""number"">$sx</imagex>")
+          [void]$sec.Add("`t`t`t`t`t`t`t<imagey type=""number"">$sy</imagey>")
+          [void]$sec.Add("`t`t`t`t`t`t</$sslot>")
+        }
+        [void]$sec.Add("`t`t`t`t`t</maplink>")
       }
       [void]$sec.Add("`t`t`t`t</$slot>")
     }

@@ -85,6 +85,12 @@ know it is happening. The other way in is up the bore-hole from the cellar — s
 
 ## Running the three fights
 
+**All three encounters arrive pre-placed on the map.** Dropping one on the manor puts its people
+in the rooms their faction actually holds — the Labyrinth in the kitchen, the store and the west
+hall; Corwin's three in the pallet room, the table room and the east hall; the queen in the sealed
+room. That is where they *live*, not where they will be standing when the fight starts, so move
+them once the party's approach is known. It saves the setup, not the thinking.
+
 **The Labyrinth post** — Ysolde and three squatters, 1,205 XP, a hard fight for four 1st-level
 characters. Indoors, under what is left of a roof: no long bowshots, and Ysolde opens with
 *burning hands* the moment two characters bunch in a doorway. The squatters break when she falls.
