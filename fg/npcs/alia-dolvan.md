@@ -79,9 +79,17 @@ building and she is standing in the open.
 ## The children
 
 **Sera is twelve. Corin is nine.** They are in the room behind her, and the baby is in a crib in
-the corner with them. They are **not NPCs, they have no statblocks, and they are never in the
-initiative order.** They hide, and they run, and if a fight happens in that room they get hurt by
-accident — which the GM should let land rather than engineer.
+the corner with them. **All three are on the map, in squares, with tokens** — deliberately, so
+that an area spell, a flask of oil or a summoned animal has a cost the party can see before it
+commits rather than discover afterwards.
+
+@link npc: sera_dolvan | Sera, twelve
+@link npc: corin_dolvan | Corin, nine
+@link npc: dolvan_infant | The baby in the crib
+
+None of them attacks and none of them is worth XP. What they do is **get in the way**: Sera moves
+to the crib every round, Corin bolts in whatever direction is worst, and the baby does not move at
+all. Controlling that room costs the party actions, and spending them is the correct play.
 
 Taking Alia and all three children out alive is worth **800 XP**, and the story record says so
 out loud. Mira's people take them either way; the cell is broken either way. The only difference

@@ -66,13 +66,28 @@ using a house they know in the dark. And behind Hesk, across the door of the chi
 stands **Alia Dolvan** — his wife, seven months pregnant, with a carving knife and no intention of
 moving.
 
-**Sera is twelve. Corin is nine. There is a baby in a crib in the corner.** None of them has a
-statblock, none of them is in the initiative order, and none of them fights.
+**Sera is twelve. Corin is nine. There is a baby in a crib in the corner.** All three have
+tokens and all three are on the map. None of them attacks, none is worth XP, and none of them is
+there to be a threat — they are there to be **in the way**.
 
-> **This is the scene the adventure is about.** Everything else is a dungeon. Do not narrate the
-> children as a threat and do not put them in danger to force a reaction — put them in the room,
-> say where they are, and let the party decide what kind of people they are while somebody is
-> shouting and Hesk is in the doorway with an axe.
+@link npc: sera_dolvan | Sera, twelve
+@link npc: corin_dolvan | Corin, nine
+@link npc: dolvan_infant | The baby in the crib
+
+> **Put the tokens down the moment the party can see into that room, and do not spring them.**
+> The entire point is that a cone spell through that doorway, a flask of oil, or an animal
+> companion sent in ahead has a cost the party can *see* before committing. Information given
+> early makes the choice real; information given afterwards is just a punishment.
+>
+> Sera moves to the crib every round and drags Corin with her. Corin bolts, badly, in whatever
+> direction is worst. The baby does not move at all. **Controlling that room costs actions** —
+> a grapple, a doorway blocked, a child picked up and carried — and spending them is the correct
+> play and will cost the party tempo in the fight. That trade is the scene.
+>
+> **This is what the adventure is about.** Everything else is a dungeon. Do not narrate the
+> children as a threat and do not engineer their danger — put them in the room, say where they
+> are, and let the party decide what kind of people they are while Hesk is in the doorway with
+> an axe.
 >
 > **Alia and all three children taken out alive is worth 800 XP.** It is the largest single award
 > in the adventure and that is deliberate. Mira's agents take them at the end of Cinder Row; the
