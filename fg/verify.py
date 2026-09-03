@@ -88,10 +88,12 @@ def placements(root_el):
                 mid = (ref.findtext('recordname') or '').split('.')
                 if len(mid) < 2:
                     continue
+                # imagey on a MAPLINK measures DOWN from the centre - the opposite of an
+                # occluder's. Returned negated here so callers can use one formula.
                 out.setdefault(mid[1], []).append(
                     (entry.findtext('name') or '?',
                      float(spot.findtext('imagex') or 0),
-                     float(spot.findtext('imagey') or 0)))
+                     -float(spot.findtext('imagey') or 0)))
     return out
 
 

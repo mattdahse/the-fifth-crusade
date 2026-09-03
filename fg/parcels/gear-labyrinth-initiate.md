@@ -2,21 +2,45 @@
 
 <!-- id: gear_labyrinth_initiate -->
 
-What is on the body. Anything here that it would actually use in a fight belongs in the
-statblock or the tactics as well — a parcel is not where a GM looks mid-combat.
+What is on one of the six in the tunnel. Better kit than anything upstairs, and none of it local.
 
 ## Coin
 
-- 0 GP
+- 12 GP
 
 ## Items
 
-### TODO
+### Chain Shirt
+<!-- srd: Chain shirt -->
+<!-- count: 1 -->
+
+Issued, sized and maintained. Not bought in Drezen.
+
+### Short Sword
+<!-- srd: Sword, short -->
+<!-- count: 1 -->
+
+### Buckler
+<!-- srd: Buckler -->
+<!-- count: 1 -->
+
+### Hooked Labyrinth Token
+<!-- srd: none -->
 <!-- count: 1 -->
 <!-- type: Gear -->
-<!-- cost: 0 gp -->
-<!-- weight: 0 -->
+<!-- cost: 1 gp -->
+<!-- weight: 0.5 -->
+<!-- nonid: A hooked iron disc, stamped with a maze -->
 
-TODO: what the object is, in the world, and nothing else. This description is
-**player-facing** — anything lootable gets looted and read off the character sheet — so
-notes about how to use the prop belong in a story record instead.
+Worn openly at the throat rather than inked on a wrist. These men are not hiding from anyone down
+here.
+
+### Marching Rations
+<!-- srd: none -->
+<!-- count: 4 -->
+<!-- type: Gear -->
+<!-- cost: 5 sp -->
+<!-- weight: 1 -->
+
+Four days of hard bread and salt meat, packed to travel. Six men with four days of rations each
+are not garrisoning a cellar - they are waiting to leave.

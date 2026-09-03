@@ -38,6 +38,22 @@ spacereach: 5 ft./5 ft.
 specialattacks: adept spells (CL 3rd; concentration +5)
 ```
 
+```spells
+castertype: prepared
+cl: 3
+ability: wisdom
+label: Adept Spells
+1: cause fear, bless, cure light wounds
+0: guidance, detect magic, touch of fatigue
+
+cause fear: effect Shaken for 1 round per cl
+bless: effect Bless; +1 morale bonus on attack rolls and saves for 1 minute per cl
+cure light wounds: heal d8 plus 1 per cl max 5
+guidance: effect Guidance; +1 competence on one attack, save or skill check for 1 minute
+touch of fatigue: effect Fatigued for 1 round per cl
+```
+
+
 ## Description
 
 > A heavy man past fifty in a good coat gone shiny at the elbows, with a scrap merchant's hands

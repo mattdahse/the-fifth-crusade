@@ -568,6 +568,13 @@ $linkTitles = @{}   # "kind:id" -> display title, filled in once the docs are lo
 #   > quote      -> <frame>   (FG's boxed read-aloud text)
 #   anything else-> <p>
 function ConvertTo-FormattedText([string]$md, [int]$indent) {
+  # A scaffold placeholder that reaches the module is a record with the word TODO on it
+  # open in front of the players. new.py stamps them deliberately; this is what stops one
+  # being forgotten.
+  if ($md -match 'TODO') {
+    $first = ($md -split "`n" | Where-Object { $_ -match 'TODO' } | Select-Object -First 1).Trim()
+    Warn "unfilled scaffold placeholder $em $($first.Substring(0, [Math]::Min(80, $first.Length)))"
+  }
   # Emphasis that overlaps produces crossed tags - <b>..<i>..</b> - and the XML check at
   # the end of the build then fails with the whole document as its error message, which
   # says nothing about where. `***word***` is the usual culprit. Name the file instead.
@@ -876,8 +883,13 @@ if ($encounters.Count) {
           $si++
           $sslot = 'id-{0:D5}' -f $si
           $inv = [Globalization.CultureInfo]::InvariantCulture
+          # NOTE THE SIGN, AND THAT IT IS NOT THE OCCLUDER CONVENTION.
+          # Occluders measure y UP from the image centre. A maplink measures y DOWN.
+          # They disagree, in the same file, on the same map. Emitting the occluder
+          # convention here mirrors every token about the horizontal centre line, which
+          # puts the family upstairs into the shop and one child outside the building.
           $sx = ($sp[0] - $mapDim.w / 2.0).ToString($inv)
-          $sy = ($mapDim.h / 2.0 - $sp[1]).ToString($inv)
+          $sy = ($sp[1] - $mapDim.h / 2.0).ToString($inv)
           [void]$sec.Add("`t`t`t`t`t`t<$sslot>")
           [void]$sec.Add("`t`t`t`t`t`t`t<imageref type=""windowreference"">")
           [void]$sec.Add("`t`t`t`t`t`t`t`t<class>imagewindow</class>")
