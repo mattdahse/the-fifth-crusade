@@ -105,15 +105,15 @@ gets past him toward the sealed room.
 way the party is coming. If the party achieves surprise, this is exactly where they are. If not,
 move them on round one.
 
-**The Labyrinth post** — Ysolde and three squatters, 1,205 XP, a hard fight for four 1st-level
-characters. Indoors, under what is left of a roof: no long bowshots, and Ysolde opens with
+**The Labyrinth post** — Ysolde and three squatters, **805 XP**, an average fight for four at 2nd
+level and a hard one if they arrive at 1st. Indoors, under what is left of a roof: no long bowshots, and Ysolde opens with
 *burning hands* the moment two characters bunch in a doorway. The squatters break when she falls.
 
 **The Locust-Sworn** — Corwin and two, 670 XP, a moderate fight that plays completely differently.
 Corwin has reach and a doorway and will not come out from behind it; the Locust-Sworn hold
 because leaving is not something available to them, and then break the instant he goes down.
 
-**Both at once** is 1,875 XP and past deadly. It should only happen if the party makes it happen,
+**Both at once** is **1,475 XP** and well past what four 2nd-level characters should take on. It should only happen if the party makes it happen,
 and if they do, let it — with the two factions also swinging at each other, which is the only
 reason anyone survives it.
 

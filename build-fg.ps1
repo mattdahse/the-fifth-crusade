@@ -568,6 +568,17 @@ $linkTitles = @{}   # "kind:id" -> display title, filled in once the docs are lo
 #   > quote      -> <frame>   (FG's boxed read-aloud text)
 #   anything else-> <p>
 function ConvertTo-FormattedText([string]$md, [int]$indent) {
+  # Emphasis that overlaps produces crossed tags - <b>..<i>..</b> - and the XML check at
+  # the end of the build then fails with the whole document as its error message, which
+  # says nothing about where. `***word***` is the usual culprit. Name the file instead.
+  foreach ($para in ($md -split "`n`n")) {
+    $j = ($para -split "`n" | ForEach-Object { $_.Trim() }) -join ' '
+    # An EVEN number of *** is a legitimate bold-italic span (***word***). An ODD one
+    # means a ** and a * closed in the wrong order, which is what crosses the tags.
+    if ((([regex]::Matches($j, '\*\*\*')).Count % 2) -eq 1) {
+      Warn "ambiguous *** emphasis $em split the bold and the italic: $($j.Substring(0, [Math]::Min(90, $j.Length)))"
+    }
+  }
   # An @link only becomes a link when it is its own block - FG has no inline link, and a
   # paragraph that mentions one silently loses it. Silently is the problem, so say so.
   foreach ($ln in ($md -split "`n")) {

@@ -57,7 +57,7 @@ they are exactly the four a man protecting a house would learn.
 
 - **He fights in the doorway to the back rooms** and nowhere else. Everything he does is about
   what is behind him.
-- **He opens with *cause fear*** on whoever looks most dangerous, then *bless* if he has a round
+- **He opens with** *cause fear* on whoever looks most dangerous, then *bless* if he has a round
   to spare and his people are still up.
 - **He does not run**, and this is the problem with him. If the party breaks the yard and the
   shop, Hesk is still standing in that doorway.
