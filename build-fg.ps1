@@ -624,7 +624,10 @@ $npcs       = @(Read-Docs 'npcs')
 $encounters = @(Read-Docs 'encounters')
 $parcels    = @(Read-Docs 'parcels')
 $quests     = @(Read-Docs 'quests')
-$maps       = @(Read-Docs 'maps')
+# fg/images/ holds portrait and handout records. They are <image> records exactly like
+# a battlemap - that is the only record type an @link image can point at - so they build
+# through the same path and simply carry `grid: off`.
+$maps       = @(Read-Docs 'maps') + @(Read-Docs 'images')
 $stories    = @(Read-Docs 'story')
 
 $npcById = @{}
@@ -668,6 +671,9 @@ if ($npcs.Count) {
       [void]$sec.Add((N 'cr' $crNum 3))
     }
     [void]$sec.Add((S 'name' $n.title 3))
+    # Every NPC gets a token. FG falls back to a lettered marker without one, which is
+    # unreadable the moment there is more than one kind of enemy on the map.
+    if (-not $n.meta.token) { Warn "$($n.file): no token $em every NPC needs one" }
     if ($n.meta.token) {
       # A token marker pointing at a file that is not there ships a broken reference:
       # FG falls back to a default marker and says nothing, so catch it at build time.
@@ -675,7 +681,13 @@ if ($npcs.Count) {
         Warn "$($n.file): token art missing at fg/art/$([string]$n.meta.token)"
       }
       [void]$sec.Add((T 'token' ([string]$n.meta.token) 3))
-      [void]$sec.Add((T 'picture' ([string]$n.meta.token) 3))
+      # <picture> is what the NPC sheet shows, so it wants the full-size portrait when
+      # there is one. Falls back to the token, which is better than an empty frame.
+      $pic = if ($n.meta.portrait) { [string]$n.meta.portrait } else { [string]$n.meta.token }
+      if ($n.meta.portrait -and -not (Test-Path (Join-Path (Join-Path $src 'art') $pic))) {
+        Warn "$($n.file): portrait art missing at fg/art/$pic"
+      }
+      [void]$sec.Add((T 'picture' $pic 3))
     }
     [void]$sec.Add("`t`t`t<text type=""formattedtext"">")
     [void]$sec.Add((ConvertTo-FormattedText $n.body 4))

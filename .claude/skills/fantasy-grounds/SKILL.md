@@ -285,6 +285,37 @@ specialattacks: adept spells (CL 2nd; concentration +5)
 Prose body here.
 ```
 
+#### Every NPC has a token. No exceptions.
+
+Without one FG falls back to a lettered marker, which is unreadable the moment there is more than
+one kind of enemy on the map. The build **warns** on an NPC with no `token:`, and warns again if
+the file it names is not there. `portrait:` sets `<picture>` — the art the NPC sheet shows —
+and should be the full-size painting, not the token; it falls back to the token if omitted.
+
+#### The notes are for running the NPC at the table, not for explaining how it was built
+
+This is the part that is easy to get wrong. The body of an NPC file becomes `<text>`, which is
+what the GM actually reads mid-session, so it carries these, in this order:
+
+| Section | What goes in it |
+|---|---|
+| **Description** | A `>` block — FG renders it as boxed read-aloud text. Chat-style, present tense, what the players see and hear. |
+| **Links** | `@link image:` the full-size portrait, `@link parcel:` its gear, plus any NPC, story or map worth one click. |
+| **Special abilities** | Poison, smite, breath, anything non-standard — with the numbers inline **and** an `@link story:` to a record holding the full rule. Write "None" explicitly when there are none, so the reader knows it was considered. |
+| **Tactics** | What it does in combat. Opening move, when it retreats, what it will not do, what makes it dangerous in this specific room. |
+| **Roleplaying** | Backstory only where it changes play. Then the questions that actually come up: **can it be bribed, and with what? What does it want? Is it looking for an excuse to stop fighting, or to turn on the people it works for?** |
+
+Provenance — which book a statblock came from, what was de-rated, which template was applied —
+is worth writing down, but it goes **last**, under its own heading, after everything the GM needs
+during play.
+
+A creature with no possessions still gets a parcel: make it what is recoverable from where it
+lives (`nest_midden` is the worked example) rather than omitting the link.
+
+Portrait and handout images live in **`fg/images/*.md`** with `grid: off`, and their art in
+`fg/art/portraits/`. They build as `<image>` records through the same path as maps, because
+`<image>` is the only record type an `@link image:` can point at.
+
 - **`id:`** is the FG record name and is referenced by encounters. Use `snake_case`. Changing it
   breaks every encounter that points at it — the build warns when a reference does not resolve.
 - **`xp:`** is not an FG field. The build uses it to total an encounter's XP.
