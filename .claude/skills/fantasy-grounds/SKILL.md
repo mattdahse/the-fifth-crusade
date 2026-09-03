@@ -153,21 +153,49 @@ the label with `| My own label` after the id.
 Note the same node-vs-type split as the `<library>` block: `class` is the record type,
 `recordname` is the node path. Links inside one module need no `@Module Name` suffix.
 
+## The campaign caches the module, and a constant `dataversion` freezes it
+
+FG does not read a module fresh every time. It caches the module's records **per campaign**, in
+`campaigns/<name>/moduledb/<Module Name>.xml`, stamps that cache with the module's `dataversion`
+from `definition.xml`, and re-imports only when the module's is **newer**.
+
+So a build shipping a hard-coded `dataversion` reaches a campaign exactly **once**. Every edit
+after that is invisible: FG keeps serving the cache, reloading the module changes nothing,
+restarting FG changes nothing, and the `.mod` on disk is provably correct the entire time. The
+symptom is "I have a cached map and reloading doesn't fix it", and every instinct — rebuild,
+reinstall, restart — makes no difference, because none of them touch the cache.
+
+`build-fg.ps1` therefore stamps `dataversion` with the **build date** (`yyyyMMdd`, the 8-digit
+form every real module uses — do not widen it). `-Install` reports each campaign's cached
+version against the one being shipped, and warns when FG will not refresh.
+
+**Two builds on the same day carry the same date**, so a second same-day change hits exactly this
+trap. `-ResetModuleCache` deletes the cached copies to force a re-import.
+
+**The cache is not purely derived, so do not delete it casually.** FG also keeps campaign-side
+additions there — notably `maplink` / `imagex` / `imagey`, which is *where tokens were dropped on
+a map*. Clearing the cache throws that staging away. Prefer letting a newer `dataversion` drive
+the re-import; reset only when it will not. And FG rewrites the file on exit like `db.xml`, so
+deleting it under a running client accomplishes nothing — `-ResetModuleCache` refuses while FG is
+running.
+
 ## Diagnosing a module that loads but shows nothing
 
 In order, cheapest first:
 
-1. **Reopen the record window.** An FG record window that was open across a module reload
+1. **Check the campaign's module cache** (above) if the record shows *stale* rather than empty
+   data. A constant `dataversion` is the usual cause and no amount of reloading reaches it.
+2. **Reopen the record window.** An FG record window that was open across a module reload
    keeps showing the values it was opened with. A stale window cost a full debugging round
    here: a quest kept reading "Level 0" with an empty description long after the module on
    disk had both, because that one window had never been closed. Close it and reopen from
    the list before believing anything it says.
-2. **`console.log`** in the FG data root — confirms the module loaded and timestamps it
+3. **`console.log`** in the FG data root — confirms the module loaded and timestamps it
    (`MEASURE: MODULE LOAD - … - <name>`). If your build time is later than that line, FG
    loaded an older file.
-3. **Hash the installed `.mod`** against `build/` to prove which file FG actually has.
-4. **Check the recordtype table above** — this is the usual answer.
-5. **Compare against a real module.** `MachineFrequency.mod` is the reference adventure
+4. **Hash the installed `.mod`** against `build/` to prove which file FG actually has.
+5. **Check the recordtype table above** — this is the usual answer.
+6. **Compare against a real module.** `MachineFrequency.mod` is the reference adventure
    (story + parcels + battles + npcs) and `ks01_ogl_well_met_in_kithtakharos.mod` the
    reference for older layout. The purchased APs are encrypted `.dat` files in `vault/` and
    cannot be read.

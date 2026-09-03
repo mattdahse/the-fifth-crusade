@@ -8,7 +8,15 @@
 # running FG is silently lost. Modules load additively and are never written back,
 # which is why all authoring goes here.
 [CmdletBinding()]
-param([switch]$Install)
+param([switch]$Install, [switch]$ResetModuleCache)
+
+# Fantasy Grounds caches a module's records per campaign, in
+# campaigns/<name>/moduledb/<Module Name>.xml, and stamps that cache with the module's
+# dataversion. It re-imports only when the module's dataversion is NEWER. A build that
+# ships a constant dataversion therefore reaches a campaign exactly once: after that FG
+# keeps serving the cache, reloading changes nothing, and the module on disk is provably
+# correct the whole time. So the dataversion is the build date, not a literal.
+$dataVersion = (Get-Date).ToString('yyyyMMdd')
 
 $ErrorActionPreference = 'Stop'
 $root  = $PSScriptRoot
@@ -631,7 +639,7 @@ foreach ($t in $stories)    { $linkTitles["story:$($t.id)"] = $t.title }
 
 $xml = New-Object System.Collections.ArrayList
 [void]$xml.Add('<?xml version="1.0" encoding="utf-8"?>')
-[void]$xml.Add('<root version="4.5" dataversion="20260124" release="1.1|PFRPG:18|CoreRPG:7">')
+[void]$xml.Add("<root version=""4.5"" dataversion=""$dataVersion"" release=""1.1|PFRPG:18|CoreRPG:7"">")
 
 # ---------------------------------------------------------------- <npc>
 
@@ -977,7 +985,7 @@ try { $null = [xml]$dbText } catch { throw "Generated db.xml is not well-formed 
 
 $def = @(
   '<?xml version="1.0" encoding="utf-8"?>'
-  '<root version="4.5" dataversion="20260124" release="1.1|PFRPG:18|CoreRPG:7">'
+  "<root version=""4.5"" dataversion=""$dataVersion"" release=""1.1|PFRPG:18|CoreRPG:7"">"
   "`t<name>$(Esc $modName)</name>"
   "`t<category>$(Esc ([string]$modMeta.category))</category>"
   "`t<author>$(Esc ([string]$modMeta.author))</author>"
@@ -1028,5 +1036,34 @@ if ($Install) {
   if (-not $dest) { throw ("Could not find the Fantasy Grounds modules folder. Looked in:`n  " + ($candidates -join "`n  ")) }
   Copy-Item $mod (Join-Path $dest ([IO.Path]::GetFileName($mod))) -Force
   Write-Host "Installed to $dest" -ForegroundColor Green
+
+  # Report every campaign holding a cached copy, and say whether FG will refresh it.
+  # The cache is not purely derived: FG also keeps campaign-side additions there, such
+  # as where tokens were dropped on a map, so it is never deleted without being asked.
+  $fgRunning = @(Get-Process -Name 'FantasyGrounds', 'FantasyGroundsUnity' -ErrorAction SilentlyContinue).Count -gt 0
+  $campRoot = Join-Path (Split-Path $dest -Parent) 'campaigns'
+  if (Test-Path $campRoot) {
+    foreach ($camp in (Get-ChildItem $campRoot -Directory -ErrorAction SilentlyContinue)) {
+      $cache = Join-Path (Join-Path $camp.FullName 'moduledb') "$modName.xml"
+      if (-not (Test-Path $cache)) { continue }
+      $cv = ''
+      try { $cv = ([xml][IO.File]::ReadAllText($cache)).root.dataversion } catch { }
+      if ($ResetModuleCache) {
+        if ($fgRunning) {
+          Warn "Fantasy Grounds is running $em not touching $($camp.Name); it would be rewritten on exit. Close FG and rerun."
+        }
+        else {
+          Remove-Item $cache -Force
+          Write-Host "  cleared cached copy in campaign '$($camp.Name)' (token placements on maps are lost)" -ForegroundColor Yellow
+        }
+      }
+      elseif ($cv -and $cv -ge $dataVersion) {
+        Warn ("campaign '{0}' has a cached copy stamped {1} and the module is {2} $em FG will NOT refresh it. Close FG and rerun with -ResetModuleCache." -f $camp.Name, $cv, $dataVersion)
+      }
+      else {
+        Write-Host "  campaign '$($camp.Name)' cached at $cv $em FG will re-import at $dataVersion" -ForegroundColor DarkGray
+      }
+    }
+  }
   Write-Host "Close and reopen the module in FG $em it does not hot-reload."
 }
