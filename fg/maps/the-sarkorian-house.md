@@ -26,9 +26,12 @@ moving a single wall, because the occluders below are written against these coor
 Line-of-sight walls, written in **top-left image pixel coordinates** — the same coordinates the
 blockout script draws in, so a wall can be read straight off `make-sarkorian-house.py`.
 
-Fantasy Grounds itself stores occluders relative to the **centre** of the plate, so `build-fg.ps1`
-measures the image and subtracts half its width and height on the way out. Author in pixels;
-never write FG's centred coordinates here by hand.
+Fantasy Grounds itself stores occluders relative to the **centre** of the plate and with **y
+pointing up**, so `build-fg.ps1` measures the image and emits `x - W/2`, `H/2 - y`. Author in
+pixels; never write FG's coordinates here by hand.
+
+The house is centred vertically on this plate, so a y-axis mistake mirrors the outer walls onto
+themselves and hides itself. The door and the cross-wall gap are the only things that show it.
 
 <!-- occluder: 300,300 300,1100 -->
 <!-- occluder: 300,1100 1300,1100 -->

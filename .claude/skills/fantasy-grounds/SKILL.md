@@ -435,7 +435,19 @@ players roll for it. Omit it and the item arrives already identified.
   and none of it is where the art is — on a 1600 × 1400 plate the house sits entirely off the
   north-west corner. Verified against Matt's own campaign: every map's occluders fit inside
   ±W/2, ±H/2, and `country_manor.png` (2000 × 3000) has x within ±1000 and y within ±1500. The
-  y-axis points **down**, same as the image.
+  y-axis points **UP**: `x' = x - W/2` but `y' = H/2 - y`.
+- **The y-direction is the easy half to get wrong, and the expensive half.** Origin-only errors
+  throw the layer off the art entirely and are obvious. Get the origin right and the direction
+  wrong and the layer *mirrors about the middle of the plate*: it still looks like a floor plan,
+  the walls are still walls, and every one of them is on the wrong side of the room. On a plate
+  whose building is roughly centred, the outer walls land back on themselves and only the
+  asymmetric details — a door, an off-centre gap — are visibly wrong.
+- **Do not verify a transform by round-tripping it.** Decoding the built module with the same
+  helper that encoded it proves the arithmetic is self-consistent and nothing else; a convention
+  error cancels out perfectly and the overlay looks right. This mistake was made here and shipped.
+  Validate against something *outside* the pipeline instead: overlay a map FG itself authored onto
+  its own plate and check the lines land on real features. Pick an **asymmetric** map — a
+  vertically symmetric one looks correct under both conventions.
 - **Check a finished LOS layer by drawing it.** Read the occluders back out of the built `.mod`,
   add half the plate, and draw them over the bitmap — that exercises the real emitted numbers
   rather than your arithmetic, and a misalignment is instantly obvious.

@@ -860,9 +860,12 @@ if ($maps.Count) {
       $oi = 0
       foreach ($o in $occ) {
         $oi++
-        # Authored in top-left image pixels; FG stores occluders relative to the
-        # image CENTRE, so shift by half the plate. Without this the whole LOS layer
-        # lands half an image up and to the left of the art it was measured against.
+        # Authored in top-left image pixels. FG stores occluders relative to the image
+        # CENTRE and with y pointing UP, so x shifts by half the width but y is
+        # SUBTRACTED from half the height. Getting the origin right and the direction
+        # wrong is the nastier failure of the two: the layer mirrors about the middle of
+        # the plate, so it still looks like a floor plan and every wall is on the wrong
+        # side of the room.
         $ox = 0.0; $oy = 0.0
         if ($dim) { $ox = $dim.w / 2.0; $oy = $dim.h / 2.0 }
         $xy = New-Object System.Collections.ArrayList
@@ -870,7 +873,7 @@ if ($maps.Count) {
           $c = $pair -split ','
           if ($c.Count -ne 2) { Warn "$($mp.file): occluder point '$pair' is not x,y $em skipped"; continue }
           [void]$xy.Add((([double]$c[0] - $ox)).ToString([Globalization.CultureInfo]::InvariantCulture))
-          [void]$xy.Add((([double]$c[1] - $oy)).ToString([Globalization.CultureInfo]::InvariantCulture))
+          [void]$xy.Add((($oy - [double]$c[1])).ToString([Globalization.CultureInfo]::InvariantCulture))
         }
         # FG writes its own doors as a thin quad rather than a bare segment, so a
         # two-point door is widened into one here. A door authored as a plain polyline
