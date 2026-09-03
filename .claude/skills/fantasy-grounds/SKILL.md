@@ -484,6 +484,19 @@ alarm goes and before anybody knows which way the party is coming — formed at 
 casters back at the range their spell wants, reach weapons behind the front rank, and anything
 guarding something standing on it.
 
+**A drawn map can still be unwalkable, and drawing it does not show that.** Run
+`python fg/passable.py` as well: it rasterises the occluders, erodes the open space by half a
+token, and asks whether the placed tokens can still reach one another. A traced boundary sits on
+the edge of the *lit* floor, which is inside the real walkable space, and at cell resolution it is
+a saw-tooth whose every tooth eats into the corridor — so a tunnel that looks a square and a half
+wide on the plate can come out too narrow for FG to slide a token down, and the overlay picture
+will look perfectly correct because the walls *are* on the right features.
+
+The fix is **`--grow`** on `trace-occluders.py` (default 2, use 3 for a tight cave): it dilates the
+open mask before tracing so the wall line sits back in the rock. Two results from `passable.py`
+are legitimate rather than bugs — a token deliberately standing **in** a doorway, and a room that
+is **meant** to be sealed.
+
 **Verify placements by drawing them back.** Read the maplinks out of the built `.mod`, add half
 the plate, and draw a circle at each. It takes seconds and it catches what coordinates alone
 cannot: the first pass here put a squatter standing in a lit hearth and Corwin on top of a table.

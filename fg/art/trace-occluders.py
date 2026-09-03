@@ -59,6 +59,33 @@ def coarse_mask(img, cell, threshold, blur):
     return [[px[x, y] >= threshold for x in range(gw)] for y in range(gh)], gw, gh
 
 
+def grow(mask, gw, gh, n):
+    """Dilate the open region by n cells.
+
+    The traced boundary otherwise sits on the edge of the LIT FLOOR, which is inside the
+    real walkable space - painted maps shade the floor darker as it meets the wall. Worse,
+    the boundary is a saw-tooth at cell resolution, and each tooth eats into the corridor.
+    Between them a passage that looks a square and a half wide on the plate can come out
+    narrower than one square of occluder, and Fantasy Grounds will not slide a token
+    through a gap narrower than the token.
+
+    Growing the mask pushes the wall line back INTO the rock, where it belongs: the art
+    still reads correctly and the corridor is passable.
+    """
+    for _ in range(n):
+        add = []
+        for y in range(gh):
+            for x in range(gw):
+                if mask[y][x]:
+                    continue
+                if ((x and mask[y][x - 1]) or (x + 1 < gw and mask[y][x + 1]) or
+                        (y and mask[y - 1][x]) or (y + 1 < gh and mask[y + 1][x])):
+                    add.append((x, y))
+        for x, y in add:
+            mask[y][x] = True
+    return mask
+
+
 def components(mask, gw, gh, min_cells):
     """Flood-fill the open cells into regions, discarding specks."""
     seen = [[False] * gw for _ in range(gh)]
@@ -139,6 +166,9 @@ def main():
                          "better than brightness on a painted plate; try it first")
     ap.add_argument('--cell', type=int, default=8, help='pixels per sampled cell')
     ap.add_argument('--blur', type=float, default=3.0)
+    ap.add_argument('--grow', type=int, default=2,
+                    help='dilate the open region by this many cells before tracing, so the '
+                         'wall line sits in the rock and corridors stay passable (default 2)')
     ap.add_argument('--epsilon', type=float, default=9.0, help='simplification, in pixels')
     ap.add_argument('--min-cells', type=int, default=400, help='ignore regions smaller than this')
     ap.add_argument('--exclude', default=None, metavar='x0,y0,x1,y1',
@@ -167,6 +197,8 @@ def main():
                 if ex[0] <= px_ <= ex[2] and ex[1] <= py_ <= ex[3]:
                     mask[y][x] = False
 
+    if a.grow:
+        mask = grow(mask, gw, gh, a.grow)
     regions = components(mask, gw, gh, a.min_cells)
     regions.sort(key=len, reverse=True)
     print('# %s  %dx%d  channel %s  threshold %d  cell %d  -> %d region(s)'
