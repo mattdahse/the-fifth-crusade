@@ -26,6 +26,35 @@ build-fg.ps1          compiles all of it into build/<Module Name>.mod
 pwsh -File ./build-fg.ps1 -Install
 ```
 
+**Do not hand-write a record's skeleton. Scaffold it.** The prose is the work and no script
+writes it, but the boilerplate is not, and the boilerplate is where the mistakes happen — one NPC
+means five markdown files whose ids all have to agree plus two art files whose names must match,
+and nothing about writing that by hand is more reliable than generating it.
+
+```bash
+python fg/new.py npc corwin-skell --name "Corwin Skell" --cr 1
+python fg/new.py encounter the-locust-sworn --name "The Locust-Sworn" --map manor
+python fg/new.py ability grab --name "Grab (Ex)"
+python fg/new.py map the-manor --image images/the-manor.webp
+```
+
+`new.py` stamps every marker, the section headings the conventions ask for, and the cross-links,
+then names the art still missing. It never overwrites. `npc` writes the NPC, its portrait record
+and its gear parcel in one go.
+
+**And check every map by looking at it, not by reading it.**
+
+```bash
+python fg/verify.py --grid
+```
+
+`verify.py` decodes the built module's occluders and token placements back to pixels and draws
+them on the plates in `build/verify/`. **A round trip cannot catch a convention error** — decoding
+with the same helper that encoded is self-consistent by construction — so this re-implements the
+decode from FG's convention on purpose, and disagrees with the build when the build is wrong. It
+is what caught the mirrored y-axis, a squatter standing in a lit hearth, a spearman on a table,
+and a breach thirty pixels from its occluder gap.
+
 `-Install` copies the built `.mod` into the local Fantasy Grounds modules folder. **FG does not
 hot-reload a module** — Matt has to close and reopen it (or restart FG) to see changes.
 
@@ -734,9 +763,12 @@ something genuinely must stay hidden, keep it out of the repo entirely.
 
 ## Checklist
 
-1. Write or edit the markdown under `fg/`.
+1. **Scaffold** the record — `python fg/new.py <kind> <slug>` — then write the prose into it.
 2. Check names and continuity against the bible and the chronicle.
 3. `pwsh -File ./build-fg.ps1 -Install`
-4. **Read the warnings.** A skipped map or an unresolved NPC id is reported, not fatal.
-5. Have Matt close and reopen the module in FG.
-6. Commit and push — the source is only safe once it is on `origin/main`.
+4. **Read the warnings.** The build makes 28 of them and they are the cheapest review available:
+   a skipped map, an unresolved id, a weapon with no damage, a GM note in a player-facing item
+   description, prose in an encounter that FG will discard.
+5. **`python fg/verify.py --grid`** and look at the pictures, for anything with a map.
+6. Have Matt close and reopen the module in FG.
+7. Commit and push — the source is only safe once it is on `origin/main`.
