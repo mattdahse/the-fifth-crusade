@@ -877,6 +877,11 @@ if ($abilities.Count) {
 $mapsIncluded = 0
 if ($maps.Count) {
   $rows = New-Object System.Collections.ArrayList
+  # FG lists every <image> record in one window, so a portrait and a battlemap land in the
+  # same list together. Categories are what separate them there: maps stay in "Maps" and a
+  # portrait record declares `category: Portraits`. Sorted so each category emits as one block.
+  $curCat = ''
+  $maps = @($maps | Sort-Object @{ e = { if ($_.meta.category) { [string]$_.meta.category } else { 'Maps' } } }, title)
   foreach ($mp in $maps) {
     $rel = [string]$mp.meta.image
     if (-not $rel) { Warn "$($mp.file): no image marker $em map skipped"; continue }
@@ -888,6 +893,12 @@ if ($maps.Count) {
     $dim = Get-ImageSize $plate
     if (-not $dim) { Warn "$($mp.file): could not read the size of fg/art/$rel $em occluders left untranslated" }
     $mapsIncluded++
+    $cat = if ($mp.meta.category) { [string]$mp.meta.category } else { 'Maps' }
+    if ($cat -ne $curCat) {
+      if ($curCat) { [void]$rows.Add("`t`t</category>") }
+    [void]$rows.Add("`t`t<category name=""$(Esc $cat)"" mergeid="""">")
+      $curCat = $cat
+    }
     [void]$rows.Add("`t`t<$($mp.id)>")
     [void]$rows.Add("`t`t`t<image type=""image"">")
     [void]$rows.Add("`t`t`t`t<grid>$(if ($mp.meta.grid) { $mp.meta.grid } else { 'on' })</grid>")
@@ -984,7 +995,8 @@ if ($maps.Count) {
     [void]$rows.Add("`t`t</$($mp.id)>")
   }
   if ($rows.Count) {
-    Add-Section 'image' 'Maps' $rows
+    if ($curCat) { [void]$rows.Add("`t`t</category>") }
+    Add-Section 'image' 'Maps & Portraits' $rows
   }
 }
 
@@ -1023,7 +1035,7 @@ $entries = [ordered]@{
   battles   = @('Encounters', 'battle')
   parcels   = @('Treasure', 'treasureparcel')
   abilities = @('Special Abilities', 'specialability')
-  maps      = @('Maps', 'image')
+  maps      = @('Maps & Portraits', 'image')
 }
 foreach ($k in $entries.Keys) {
   [void]$xml.Add("`t`t`t`t<$k>")

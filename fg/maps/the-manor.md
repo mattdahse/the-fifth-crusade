@@ -35,8 +35,8 @@ the manor is a built space and its walls are straight, so exact coordinates beat
 
 <!-- occluder: 80,80 80,892 -->
 <!-- occluder: 80,892 1420,892 -->
-<!-- occluder: 1420,892 1420,505 -->
-<!-- occluder: 1420,365 1420,80 -->
+<!-- occluder: 1420,892 1420,700 -->
+<!-- occluder: 1420,600 1420,80 -->
 <!-- occluder: 1420,80 925,80 -->
 <!-- occluder: 595,80 80,80 -->
 <!-- occluder: 383,80 383,452 -->
@@ -44,13 +44,22 @@ the manor is a built space and its walls are straight, so exact coordinates beat
 <!-- occluder: 865,80 865,452 -->
 <!-- occluder: 1145,80 1145,452 -->
 <!-- occluder: 80,452 175,452 -->
+<!-- occluder-door: 175,452 262,452 -->
 <!-- occluder: 262,452 429,452 -->
+<!-- occluder-door: 429,452 530,452 -->
 <!-- occluder: 530,452 705,452 -->
+<!-- occluder-door: 705,452 780,452 -->
 <!-- occluder: 780,452 984,452 -->
+<!-- occluder-door: 984,452 1063,452 -->
 <!-- occluder: 1063,452 1420,452 -->
 
+**The four doorways off the great hall are doors**, not gaps — the plate draws a frame and a leaf
+in each, so they ship as `occluder-door`: closed, toggleable, and blocking sight until somebody
+opens one. That matters here more than on most maps, because two factions live either side of
+them and neither can see the other's rooms.
+
 **The two breaches carry no occluder**, which is the point of them: the gap in the north wall
-(x 595–925) opens into the pallet room, and the gap in the east wall (y 365–505) opens into the
+(x 595–925) opens into the pallet room, and the gap in the east wall (y 600–700) opens into the
 hall. Sight and movement both pass. They are the reason this building cannot be held by six
 people, and the reason the party does not have to come in through a door.
 

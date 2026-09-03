@@ -330,7 +330,13 @@ shared "Poison (Ex)" record from another module is the wrong target.
 
 Portrait and handout images live in **`fg/images/*.md`** with `grid: off`, and their art in
 `fg/art/portraits/`. They build as `<image>` records through the same path as maps, because
-`<image>` is the only record type an `@link image:` can point at.
+`<image>` is the only record type an `@link image:` can point at — which means **FG lists them in
+the same window as the battlemaps**, since that window lists a recordtype and both are `image`.
+
+`<category>` is what separates them there. A portrait record declares `category: Portraits`; maps
+default to `Maps`; the build sorts by category and wraps each run in
+`<category name="..." mergeid="">`. This is the one place the category wrapper earns its keep —
+it is still not what makes a section list, and the rest of the build does not emit it.
 
 - **`id:`** is the FG record name and is referenced by encounters. Use `snake_case`. Changing it
   breaks every encounter that points at it — the build warns when a reference does not resolve.

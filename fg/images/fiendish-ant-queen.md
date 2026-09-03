@@ -3,5 +3,6 @@
 <!-- id: portrait_fiendish_ant_queen -->
 <!-- image: portraits/fiendish-ant-queen.webp -->
 <!-- grid: off -->
+<!-- category: Portraits -->
 
 The full-size portrait, for showing the players.
