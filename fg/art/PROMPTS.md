@@ -31,6 +31,24 @@ keeps the table legible and the chronicle's look intact, instead of compromising
 
 ---
 
+**A PC's portrait needs the same pass as an NPC's token.** Fantasy Grounds uses a character's
+portrait for *both* the sheet and the figure on the map — a PC has no separate `<token>` record the
+way an NPC does — so a portrait installed straight from the painting puts the untreated, muted
+version on the battlemap. That is the brown-on-brown failure this whole section exists to prevent,
+arriving by a different door. [`install-pc-portraits.py`](install-pc-portraits.py) applies the
+identical adjustment and writes the campaign's files:
+
+```
+python fg/art/install-pc-portraits.py            # dry run, shows the id mapping
+python fg/art/install-pc-portraits.py --write
+```
+
+FG stores them as **extensionless PNGs named for the charsheet id** —
+`campaigns/<name>/portraits/id-00001`. There is no `db.xml` entry; the file existing under that
+name *is* the link, which is the only reason this script is allowed to exist. It reads the
+id-to-name mapping out of the campaign `db.xml` (**read only**) rather than hardcoding it, because
+ids are assigned in creation order and a guess silently gives one player another player's face.
+
 Tokens are cut from the full-size portrait by
 [`make-token.py`](make-token.py), which applies that adjustment — contrast, saturation, a lift,
 and a vignette that darkens the corners the circle crop eats anyway — and writes the 512 WebP:
@@ -78,6 +96,8 @@ gallery. Their likeness anchors live here instead.
 | Wende Sandhauler token | `tokens/wende-sandhauler.webp` | **done** — 512 × 512, 86 KB |
 | Esper Toevel portrait | `portraits/esper-toevel.webp` | **done** — 1024 × 1024, 179 KB |
 | Esper Toevel token | `tokens/esper-toevel.webp` | **done** — 512 × 512, 61 KB |
+| Jules Arine portrait | `portraits/jules-arine.webp` | **done** — 1024 × 1024, 284 KB |
+| Jules Arine token | `tokens/jules-arine.webp` | **done** — 512 × 512, 82 KB |
 
 ---
 
@@ -207,9 +227,9 @@ on a crowded map.
 
 ## The party's three tokens must not share a colour
 
-Theep, Wende and Esper sit on the same map at the same time, so they are painted to a **triad**
-rather than each to its own taste: **Theep cold blue-white, Wende copper and hot orange, Esper
-green and brass.** Value contrast alone is not enough when three tokens are all lit and all
+The party sits on the same map at the same time, so they are painted to a **set** rather than each
+to its own taste: **Theep cold blue-white, Wende copper and hot orange, Esper green and brass,
+Jules rose-pink and silver.** Value contrast alone is not enough when three tokens are all lit and all
 roughly head-sized; the hue is what tells them apart in a glance at a crowded doorway.
 
 ---
@@ -288,6 +308,59 @@ third corner of the party's triad, and it must never drift toward Wende's copper
 > bright even lighting, oversaturated, glossy, a feathered cap, motley, a jester, a lute held out
 > at arm's length, ornate embroidered finery, red or copper hair, orange light, a broad theatrical
 > grin, text, watermark, signature, border, a frame, extra limbs, deformed hands.
+
+---
+
+## Jules Arine
+
+**Likeness anchors (keep constant).** Human woman, early thirties, a priestess of **Shelyn**.
+Warm brown skin, dark hair pinned up with loose strands escaping, dark eyes, a calm and level
+face that is not sweet. Robes in **dove-grey and rose** over a padded gambeson, travel-worn and
+plainly cut — she is 1st level and a working priest, not a prelate. **Her colour is rose-pink and
+silver**, the fourth corner of the party's set, and it must not slide into Wende's copper.
+
+**Two pieces of canon govern this portrait and both fail silently if left unsaid.**
+
+1. **Shelyn's holy symbol is a SONGBIRD with a long multicoloured tail feather**, in silver and
+   enamel. **Never a sunburst, never a sun, never a sword** — the chronicle already carries
+   Sarenrae's bare sun and Iomedae's sword-and-sun, and a third sun-device collapses all three
+   faiths together. Her sacred weapon is the **glaive**, carried across the back almost as an
+   afterthought.
+2. **The model reaches for a Christian cross whenever a scene smells of priests or crusaders**, and
+   it does it unprompted. Every religious figure needs its device named explicitly *and* the cross
+   named in the Avoid line. See the note in [`../../characters/CANON.md`](../../characters/CANON.md).
+
+The enamel of the songbird is the **only fully saturated colour on her** — the same discipline the
+chronicle holds for Sosiel Vaenic, Shelyn's other priest.
+
+> THIS IS A PAINTING, NOT A PHOTOGRAPH. A traditional narrative OIL PAINTING on canvas: visible
+> directional brush strokes throughout, loaded paint and impasto in the lights, soft scumbled
+> painted edges, visible canvas weave, colour mixed on a palette rather than sampled from life.
+> Every surface should read as pigment. Render the background in looser, broader brushwork than
+> the figure.
+>
+> Cinematic painterly fantasy illustration, semi-realistic. Square composition, head-and-chest
+> portrait bust, the figure centred with clear space around the head and nothing important in the
+> corners. A human woman in her early thirties with warm brown skin, dark eyes and dark hair
+> pinned up with loose strands escaping, her expression calm and level rather than sweet. She
+> wears plainly cut travel-worn robes in DOVE-GREY AND ROSE over a padded gambeson. AT HER
+> THROAT, ON A SILVER CHAIN, HANGS HER ONLY ORNAMENT: A SMALL SILVER AND ENAMEL SONGBIRD WITH A
+> LONG SWEEPING MULTICOLOURED TAIL FEATHER. The enamel of that bird is the only fully saturated
+> colour in the painting. The shaft of a glaive rests across her back, barely noticed. Behind her,
+> a dim stone chapel interior in loose broad brushwork. Lighting is a soft pale rose-tinted light
+> from the upper left with a cool silver rim along the jaw and shoulder; everything it does not
+> touch falls to near black. Strong value contrast, dominant colours rose-pink and silver-grey
+> against near-black. She is looking at someone off frame who is hurt and has not admitted it yet.
+> High detail on the face, the enamel songbird and the worn wool.
+>
+> **Avoid:** a cross, a crucifix, a Latin cross, a cross on a surcoat or tabard, any Christian
+> symbol, a sunburst, a sun, a radiant halo, a sword device, a scale, a chalice, a photograph,
+> photorealistic rendering, photoreal skin, photographic grain, a film still, DSLR photography,
+> lens bokeh, shallow depth-of-field blur, lens flare, visible skin pores, hyperreal skin texture,
+> anime, cartoon, cel-shaded, 3-D render, comic ink, flat vector, bright even lighting,
+> oversaturated, glossy, white-and-gold vestments, a mitre, a wimple, a nun's habit, plate armour,
+> gold jewellery, copper or orange light, a beatific smile, eyes turned up to heaven, text,
+> watermark, signature, border, a frame, extra limbs, deformed hands.
 
 ---
 
