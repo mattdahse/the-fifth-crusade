@@ -709,6 +709,35 @@ book what the total does** — whether it levels the party or deliberately stops
 - **Check a finished LOS layer by drawing it.** Read the occluders back out of the built `.mod`,
   add half the plate, and draw them over the bitmap — that exercises the real emitted numbers
   rather than your arithmetic, and a misalignment is instantly obvious.
+**Shortcut pins** put the room's page one click away on the map itself:
+
+```markdown
+<!-- shortcut: book:23_the_childrens_room @ 1320,135 | B4. The Children's Room -->
+<!-- shortcut: battle:scrapyard_house @ 1220,400 -->
+```
+
+`kind:id @ x,y | Label`, in the same top-left pixels as the occluders, with any link kind plus
+`book:` for a reference-manual page. The label defaults to the record's own title.
+
+**A pin uses the TOKEN coordinate convention, not the occluder one** — centre origin, **y pointing
+DOWN**, exactly like a maplink. This is derived rather than copied: nothing in the live campaign or
+any installed module ships a pin, so there was no worked example to read. The evidence is CoreRPG's
+`manager_image.lua`, where `ImageManager.onImageShortcutDrop` falls through to
+`onImageTokenDrop` — a dropped shortcut and a dropped token are placed by the same handler. The
+pins live **inside `<layer>`, beside `<occluders>`**, which is what `icon_image_layer_shortcut_on`
+in `graphics_radial.xml` says they are: a layer feature.
+
+A book page is not a record type — it is a row in `reference.refmanualdata` — so its id is
+assigned by the build. That assignment now happens in a **pre-pass**, before the maps are emitted,
+and both the manual's index and any pin read the same stamped `dataId`. Two copies of the ordering
+logic would drift and the pins would quietly open the wrong rooms.
+
+`verify.py` draws pins in magenta with their labels, so the check is the same as for everything
+else on a map: **look at the picture.** That is what confirms a pin is in the room it names —
+though note it cannot confirm the y-direction, since decoding with FG's convention only disagrees
+with the build when the build disagrees with FG. One glance in the client settles that, and a
+mirrored pin is obvious rather than subtle: the kitchen pin lands in the shop.
+
 - Occluders are the expensive part of map prep and the reason this pipeline is worth having.
   They must be **calibrated against the real plate** — you cannot write them before the art
   exists, only after. Author the map record first, generate the art, then measure.

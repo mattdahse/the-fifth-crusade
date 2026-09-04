@@ -26,6 +26,19 @@ what lets two dogs work a party that came in through the gate.
    **trapdoor** in the floor.
 4. **The shop**, the whole south end — counters and sorted metal, with the street door.
 
+## Shortcuts
+
+Pins the GM clicks to open the room's page in the book. Top-left image pixels, same space as
+the occluders - the build converts them to FG's own (centre origin, y DOWN, which is the token
+convention and NOT the occluder one).
+
+<!-- shortcut: book:10_the_yard @ 520,180 | A1. The Yard -->
+<!-- shortcut: book:11_the_kennel @ 250,800 | A2. The Kennel -->
+<!-- shortcut: book:22_the_kitchen @ 1080,135 | B3. The Kitchen -->
+<!-- shortcut: book:23_the_childrens_room @ 1320,135 | B4. The Children's Room -->
+<!-- shortcut: book:21_the_living_room @ 1220,400 | B2. The Living Room -->
+<!-- shortcut: book:20_the_shop @ 1220,720 | B1. The Shop -->
+
 ## Occluders
 
 Top-left image pixels. The fence and the house walls are straight, so these are written by hand.

@@ -548,6 +548,9 @@ $linkKinds = @{
   map     = @{ node = 'image';           class = 'imagewindow';    label = 'Map' }
   image   = @{ node = 'image';           class = 'imagewindow';    label = 'Image' }
   quest   = @{ node = 'quest';           class = 'quest';          label = 'Quest' }
+  # A book page is not a record type - it is a row inside reference.refmanualdata - so its
+  # recordname is resolved from the page's stamped dataId rather than built from an id.
+  book    = @{ node = '';                class = 'story_book_page_advanced'; label = 'Book' }
   story   = @{ node = 'encounter';       class = 'encounter';      label = 'Story' }
   # Poison, grab, and the rest of a monster's non-standard rules. Published bestiaries
   # ship these as their own records rather than burying them in the statblock text, so
@@ -643,7 +646,9 @@ function ConvertTo-FormattedText([string]$md, [int]$indent) {
           if ($linkTitles.ContainsKey("${kind}:$id")) { $title = $linkTitles["${kind}:$id"] }
           else { Warn "link points at nothing: $kind`:$id"; $title = $id }
         }
-        [void]$out.Add("$pad`t<link class=""$($k.class)"" recordname=""$($k.node).$id""><b>$($k.label): </b>$(Esc $title)</link>")
+        $rec = Get-RecordPath $kind $id
+        if (-not $rec) { Warn "link points at nothing: $kind`:$id"; continue }
+        [void]$out.Add("$pad`t<link class=""$($k.class)"" recordname=""$rec""><b>$($k.label): </b>$(Esc $title)</link>")
       }
       [void]$out.Add("$pad</linklist>")
     }
@@ -735,6 +740,33 @@ $parcels    = @(Read-Docs 'parcels')
 $quests     = @(Read-Docs 'quests')
 $abilities  = @(Read-Docs 'abilities')
 $bookpages  = @(Read-Docs 'book')
+
+# The book's pages are emitted far below, but a MAP may want to pin one, and a pin needs the
+# page's record id. So the chapter/section grouping happens once, here, and stamps each page
+# with the id it will be written under. The emitter below reuses this structure rather than
+# regrouping - two copies of the ordering logic would drift and the pins would point at the
+# wrong pages, which is exactly the kind of silent wrongness this build exists to prevent.
+$bookChapters = [ordered]@{}
+foreach ($bp in $bookpages) {
+  $ch = if ($bp.meta.chapter) { [string]$bp.meta.chapter } else { 'Adventure' }
+  $sc = if ($bp.meta.section) { [string]$bp.meta.section } else { $ch }
+  if (-not $bookChapters.Contains($ch)) { $bookChapters[$ch] = [ordered]@{} }
+  if (-not $bookChapters[$ch].Contains($sc)) { $bookChapters[$ch][$sc] = New-Object System.Collections.ArrayList }
+  [void]$bookChapters[$ch][$sc].Add($bp)
+}
+$bookPageNo = 0
+foreach ($ch in @($bookChapters.Keys)) {
+  # Snapshot the keys: the loop replaces each section's list with a sorted copy, and
+  # enumerating an ordered dictionary while assigning into it throws.
+  foreach ($sc in @($bookChapters[$ch].Keys)) {
+    $sorted = @($bookChapters[$ch][$sc] | Sort-Object @{ e = { if ($_.meta.order) { [int]$_.meta.order } else { 999 } } }, title)
+    $bookChapters[$ch][$sc] = $sorted
+    foreach ($bp in $sorted) {
+      $bookPageNo++
+      $bp | Add-Member -NotePropertyName dataId -NotePropertyValue ('id-{0:D5}' -f $bookPageNo) -Force
+    }
+  }
+}
 # fg/images/ holds portrait and handout records. They are <image> records exactly like
 # a battlemap - that is the only record type an @link image can point at - so they build
 # through the same path and simply carry `grid: off`.
@@ -748,6 +780,20 @@ foreach ($n in $npcs)       { $linkTitles["npc:$($n.id)"] = $n.title }
 foreach ($e in $encounters) { $linkTitles["battle:$($e.id)"] = $e.title }
 foreach ($p in $parcels)    { $linkTitles["parcel:$($p.id)"] = $p.title }
 foreach ($q in $quests)     { $linkTitles["quest:$($q.id)"] = $q.title }
+foreach ($bp in $bookpages) { $linkTitles["book:$($bp.id)"] = $bp.title }
+$bookById = @{}
+foreach ($bp in $bookpages) { $bookById[$bp.id] = $bp }
+
+# One resolver for both `@link` and a map's shortcut pins. Everything except a book page is
+# "<node>.<id>"; a book page is a row inside reference.refmanualdata and has to be looked up.
+function Get-RecordPath($kind, $id) {
+  if ($kind -eq 'book') {
+    if ($bookById.ContainsKey($id)) { return "reference.refmanualdata.$($bookById[$id].dataId)" }
+    return $null
+  }
+  if (-not $linkKinds.ContainsKey($kind)) { return $null }
+  return "$($linkKinds[$kind].node).$id"
+}
 foreach ($a in $abilities)  { $linkTitles["ability:$($a.id)"] = $a.title }
 foreach ($m in $maps)       { $linkTitles["map:$($m.id)"] = $m.title; $linkTitles["image:$($m.id)"] = $m.title }
 foreach ($t in $stories)    { $linkTitles["story:$($t.id)"] = $t.title }
@@ -1193,6 +1239,59 @@ if ($maps.Count) {
       }
       [void]$rows.Add("`t`t`t`t`t`t</occluders>")
     }
+    # Shortcut pins - the little link icons a GM clicks on the map to open the room's page.
+    # Authored as `shortcut: <kind>:<id> @ x,y | Label` in top-left image pixels.
+    #
+    # THE COORDINATE CONVENTION IS THE TOKEN ONE, NOT THE OCCLUDER ONE. Occluders measure y
+    # UP from the image centre; a pin measures y DOWN, exactly like a maplink, because FG
+    # routes a dropped shortcut through the same handler as a dropped token
+    # (ImageManager.onImageShortcutDrop falls through to onImageTokenDrop). Getting this
+    # backwards mirrors every pin about the middle of the plate, which on a symmetric
+    # building still looks plausible - see the note on occluder y in the skill.
+    if ($mp.meta.shortcut) {
+      $pins = New-Object System.Collections.ArrayList
+      foreach ($sc in @($mp.meta.shortcut)) {
+        if ($sc -notmatch '^\s*(\w+)\s*:\s*([\w\-]+)\s*@\s*(-?[\d.]+)\s*,\s*(-?[\d.]+)\s*(?:\|\s*(.*))?$') {
+          Warn "$($mp.file): cannot read shortcut '$sc' $em expected 'kind:id @ x,y | Label'"
+          continue
+        }
+        $sk = $matches[1].ToLower(); $sid = $matches[2]
+        $sx = [double]$matches[3]; $sy = [double]$matches[4]
+        $slabel = $matches[5]
+        if ($sk -eq 'encounter') { $sk = 'battle' }
+        $srec = Get-RecordPath $sk $sid
+        if (-not $srec) { Warn "$($mp.file): shortcut points at nothing $em $sk`:$sid"; continue }
+        if (-not $slabel) {
+          $slabel = if ($linkTitles.ContainsKey("${sk}:$sid")) { $linkTitles["${sk}:$sid"] } else { $sid }
+        }
+        if (-not $dim) { Warn "$($mp.file): shortcut left untranslated $em plate size unknown"; continue }
+        if ($sx -lt 0 -or $sy -lt 0 -or $sx -gt $dim.w -or $sy -gt $dim.h) {
+          Warn "$($mp.file): shortcut '$slabel' at $sx,$sy is off the $($dim.w)x$($dim.h) plate"
+        }
+        [void]$pins.Add(@{
+          class = $linkKinds[$sk].class
+          rec   = $srec
+          label = $slabel
+          x     = ($sx - $dim.w / 2.0)
+          y     = ($sy - $dim.h / 2.0)
+        })
+      }
+      if ($pins.Count) {
+        [void]$rows.Add("`t`t`t`t`t`t<shortcuts>")
+        $si2 = 0
+        foreach ($pin in $pins) {
+          $si2++
+          [void]$rows.Add(("`t`t`t`t`t`t`t<id-{0:D5}>" -f $si2))
+          [void]$rows.Add("`t`t`t`t`t`t`t`t<class>$($pin.class)</class>")
+          [void]$rows.Add("`t`t`t`t`t`t`t`t<recordname>$(Esc $pin.rec)</recordname>")
+          [void]$rows.Add((S 'description' $pin.label 8))
+          [void]$rows.Add((N 'x' ([math]::Round($pin.x)) 8))
+          [void]$rows.Add((N 'y' ([math]::Round($pin.y)) 8))
+          [void]$rows.Add(("`t`t`t`t`t`t`t</id-{0:D5}>" -f $si2))
+        }
+        [void]$rows.Add("`t`t`t`t`t`t</shortcuts>")
+      }
+    }
     [void]$rows.Add("`t`t`t`t`t</layer>")
     [void]$rows.Add("`t`t`t`t</layers>")
     [void]$rows.Add("`t`t`t</image>")
@@ -1275,15 +1374,7 @@ $bookCount = 0
 if ($bookpages.Count) {
   $pageXml = New-Object System.Collections.ArrayList
   $idxXml = New-Object System.Collections.ArrayList
-  $pageNo = 0
-  $chapters = [ordered]@{}
-  foreach ($bp in $bookpages) {
-    $ch = if ($bp.meta.chapter) { [string]$bp.meta.chapter } else { 'Adventure' }
-    $sec2 = if ($bp.meta.section) { [string]$bp.meta.section } else { $ch }
-    if (-not $chapters.Contains($ch)) { $chapters[$ch] = [ordered]@{} }
-    if (-not $chapters[$ch].Contains($sec2)) { $chapters[$ch][$sec2] = New-Object System.Collections.ArrayList }
-    [void]$chapters[$ch][$sec2].Add($bp)
-  }
+  $chapters = $bookChapters
   [void]$idxXml.Add("`t`t<refmanualindex>")
   [void]$idxXml.Add("`t`t`t<chapters>")
   $ci = 0
@@ -1301,9 +1392,9 @@ if ($bookpages.Count) {
       [void]$idxXml.Add((N 'order' $si 7))
       [void]$idxXml.Add("`t`t`t`t`t`t`t<refpages>")
       $pi = 0
-      foreach ($bp in ($chapters[$ch][$sec2] | Sort-Object @{ e = { if ($_.meta.order) { [int]$_.meta.order } else { 999 } } }, title)) {
-        $pi++; $pageNo++; $bookCount++
-        $dataId = 'id-{0:D5}' -f $pageNo
+      foreach ($bp in $chapters[$ch][$sec2]) {
+        $pi++; $bookCount++
+        $dataId = $bp.dataId
         # Keywords drive the manual's search box. Built from the page's own prose.
         $words = ($bp.body -replace '[^a-zA-Z ]', ' ') -split '\s+' |
                  Where-Object { $_.Length -gt 4 } | ForEach-Object { $_.ToLower() } |
