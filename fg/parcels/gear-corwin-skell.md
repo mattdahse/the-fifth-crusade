@@ -19,7 +19,8 @@ left once the fight is over.
 <!-- weight: 25 -->
 
 Crusade issue, and kept better than anything else its owner has. The quartermaster's stamp is
-still legible inside the collar: a Kenabres mark, and an issue date eighteen months old.
+still legible inside the collar: a Kenabres mark, and an issue date two years old - from before
+the city was broken open, when there were still quartermasters to stamp things.
 
 ### Longspear
 <!-- count: 1 -->

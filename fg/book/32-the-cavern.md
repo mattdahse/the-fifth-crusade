@@ -1,0 +1,22 @@
+# C3. The Cavern
+
+<!-- chapter: The Southshore Job -->
+<!-- section: The Undercroft -->
+<!-- order: 3 -->
+
+Natural, irregular, far wider than the tunnel, with fallen rock and stalagmites. The cult did not
+dig it and does not like it.
+
+**Six darkmantles are on the ceiling** and have been the whole time. This is why the initiates
+cross with torches, quickly, in pairs - a party that noticed how they moved has been told what is
+coming.
+
+> Run it as **two waves of three**. All six at once on a 1st-level party is a slaughter. It is the
+> same 2,400 XP either way and it is the difference between a set piece and a wipe.
+
+**Blindsight 90 ft. means putting the lantern out helps them, not the party.** Say so the first
+time somebody reaches for it.
+
+@link battle: the_cavern | The cavern (encounter)
+@link npc: darkmantle | Darkmantle
+@link ability: darkmantle_constrict | Constrict (Ex)

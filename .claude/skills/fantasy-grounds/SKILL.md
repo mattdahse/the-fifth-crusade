@@ -641,6 +641,34 @@ they identify it. Use that for concealment rather than writing the concealment i
   They must be **calibrated against the real plate** — you cannot write them before the art
   exists, only after. Author the map record first, generate the art, then measure.
 
+### The book — `fg/book/*.md`
+
+The module ships a **reference manual**: the two-pane Book window a published adventure has, with
+chapters down the side. One markdown file is one page.
+
+```markdown
+# B4. The Children's Room
+
+<!-- chapter: The Southshore Job -->
+<!-- section: The House -->
+<!-- order: 4 -->
+```
+
+Chapters and sections are created in the order they are first seen; `order:` sorts pages within a
+section. **Give every room its own page**, and put `@link` blocks in it for the encounter, the
+treasure, the map and the NPCs that belong to that room — the links work exactly as they do in a
+story record, so the book becomes the thing a GM actually runs from.
+
+It is **two structures that have to agree**: `reference.refmanualindex` is the navigation and
+`reference.refmanualdata` holds the pages, and the index points at the data by record path
+(`reference.refmanualdata.id-00007`). A page missing from the index does not appear; an index entry
+pointing at a missing page opens blank. The build generates both, and the search keywords, from
+the same source.
+
+`<reference>` can only appear **once**, so the manual and the special abilities are accumulated and
+emitted together — and it has to be emitted **before `</root>`**, which is not where the rest of
+the section-building code lives.
+
 ### Adventure text — `fg/story/*.md`
 
 GM-facing prose. `<!-- order: 1 -->` sets the position in FG's list. This is where the "what is
@@ -781,6 +809,20 @@ or a hook, check what the archive already establishes:
 - `source/book-*.md` — what actually happened. The chronicle is the authority; if a session
   contradicts it, the chronicle wins until Matt says otherwise.
 - `maps/marchlands.md` — the region chart, including places held back with `revealed: no`.
+- `bible/06-in-world-calendar.md` — **the dates, and they bite.**
+
+**Drezen was taken on the 13th of Neth, 4713 — this year, weeks before the campaign present.**
+Before that it had been in demon hands for seventy years. So anything written about a person's
+life *in Drezen* has a hard ceiling of about two months: no long-established businesses under the
+crusade, no crusade relief queues eighteen months back, no watch that has been keeping records.
+
+What that ceiling does **not** cover is Kenabres, which was a crusader city for decades until it
+was broken open this Arodus, or the Marchlands, or anyone who lived in Drezen *under the
+occupation* — a scrap dealer who kept trading through it is not a continuity error, he is a
+collaborator, and that is a better character anyway.
+
+Check a date against the calendar before writing it. A tally book with eleven honest years in it
+sounds like texture and is a claim about who held the city.
 
 The five cohorts are the quest-givers. Their standing, unsolved problems are canon and are the
 engine of the campaign — Elara has recruits and no instructors, Rothin holds an outpost two days

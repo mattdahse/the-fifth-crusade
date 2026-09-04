@@ -64,9 +64,10 @@ None.
 
 ## Roleplaying
 
-They are not fanatics. They are two young men who were starving in Drezen's outer wards eighteen
-months ago and were fed by a big calm man who told them there was a purpose in it. The brand came
-later, and it was explained as a kindness.
+They are not fanatics. They are two young men who were starving in Drezen's outer wards in the
+weeks after the crusade took the city - when there were suddenly more mouths than bread - and were
+fed by a big calm man who told them there was a purpose in it. The brand came a few weeks later,
+and it was explained as a kindness.
 
 **They can be talked to, and they are the softest thing in this building.** Neither has ever been
 asked a question by someone who was not Corwin. A party that separates one of them — in the store

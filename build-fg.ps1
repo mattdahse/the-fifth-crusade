@@ -712,6 +712,7 @@ $encounters = @(Read-Docs 'encounters')
 $parcels    = @(Read-Docs 'parcels')
 $quests     = @(Read-Docs 'quests')
 $abilities  = @(Read-Docs 'abilities')
+$bookpages  = @(Read-Docs 'book')
 # fg/images/ holds portrait and handout records. They are <image> records exactly like
 # a battlemap - that is the only record type an @link image can point at - so they build
 # through the same path and simply carry `grid: off`.
@@ -1028,6 +1029,8 @@ if ($quests.Count) {
   Add-Section 'quest' 'Quests' $sec
 }
 
+$refBlocks = New-Object System.Collections.ArrayList
+
 # ---------------------------------------------------------- <specialability>
 
 if ($abilities.Count) {
@@ -1041,11 +1044,9 @@ if ($abilities.Count) {
     [void]$sec.Add("`t`t`t</text>")
     [void]$sec.Add("`t`t</$($ab.id)>")
   }
-  [void]$xml.Add("`t<reference>")
-  [void]$xml.Add("`t`t<specialabilities>")
-  foreach ($l in $sec) { foreach ($sub in ($l -split "`n")) { [void]$xml.Add("`t$sub") } }
-  [void]$xml.Add("`t`t</specialabilities>")
-  [void]$xml.Add("`t</reference>")
+  [void]$refBlocks.Add("`t`t<specialabilities>")
+  foreach ($l in $sec) { foreach ($sub in ($l -split "`n")) { [void]$refBlocks.Add("`t$sub") } }
+  [void]$refBlocks.Add("`t`t</specialabilities>")
 }
 
 # ---------------------------------------------------------------- <image>
@@ -1214,6 +1215,15 @@ $entries = [ordered]@{
   abilities = @('Special Abilities', 'specialability')
   maps      = @('Maps & Portraits', 'image')
 }
+if ($bookpages.Count) {
+  [void]$xml.Add("`t`t`t`t<story_book>")
+  [void]$xml.Add("`t`t`t`t`t<librarylink type=""windowreference"">")
+  [void]$xml.Add("`t`t`t`t`t`t<class>reference_manual</class>")
+  [void]$xml.Add("`t`t`t`t`t`t<recordname>reference.refmanualindex</recordname>")
+  [void]$xml.Add("`t`t`t`t`t</librarylink>")
+  [void]$xml.Add((S 'name' "Book $em $modName" 5))
+  [void]$xml.Add("`t`t`t`t</story_book>")
+}
 foreach ($k in $entries.Keys) {
   [void]$xml.Add("`t`t`t`t<$k>")
   [void]$xml.Add("`t`t`t`t`t<librarylink type=""windowreference"">")
@@ -1227,6 +1237,93 @@ foreach ($k in $entries.Keys) {
 [void]$xml.Add("`t`t`t</entries>")
 [void]$xml.Add("`t`t</$modId>")
 [void]$xml.Add("`t</library>")
+# ------------------------------------------------------- <refmanual> (the book)
+#
+# FG's reference manual is what a published adventure's Book looks like: a two-pane
+# window with chapters down the side. It is TWO structures that have to agree -
+# reference.refmanualindex holds the navigation, reference.refmanualdata holds the pages,
+# and the index points at the data by record path. A page missing from the index simply
+# does not appear; one pointing at a data id that is not there opens blank.
+$bookCount = 0
+if ($bookpages.Count) {
+  $pageXml = New-Object System.Collections.ArrayList
+  $idxXml = New-Object System.Collections.ArrayList
+  $pageNo = 0
+  $chapters = [ordered]@{}
+  foreach ($bp in $bookpages) {
+    $ch = if ($bp.meta.chapter) { [string]$bp.meta.chapter } else { 'Adventure' }
+    $sec2 = if ($bp.meta.section) { [string]$bp.meta.section } else { $ch }
+    if (-not $chapters.Contains($ch)) { $chapters[$ch] = [ordered]@{} }
+    if (-not $chapters[$ch].Contains($sec2)) { $chapters[$ch][$sec2] = New-Object System.Collections.ArrayList }
+    [void]$chapters[$ch][$sec2].Add($bp)
+  }
+  [void]$idxXml.Add("`t`t<refmanualindex>")
+  [void]$idxXml.Add("`t`t`t<chapters>")
+  $ci = 0
+  foreach ($ch in $chapters.Keys) {
+    $ci++
+    [void]$idxXml.Add("`t`t`t`t<id-{0:D5}>" -f $ci)
+    [void]$idxXml.Add((S 'name' $ch 5))
+    [void]$idxXml.Add((N 'order' $ci 5))
+    [void]$idxXml.Add("`t`t`t`t`t<subchapters>")
+    $si = 0
+    foreach ($sec2 in $chapters[$ch].Keys) {
+      $si++
+      [void]$idxXml.Add("`t`t`t`t`t`t<id-{0:D5}>" -f $si)
+      [void]$idxXml.Add((S 'name' $sec2 7))
+      [void]$idxXml.Add((N 'order' $si 7))
+      [void]$idxXml.Add("`t`t`t`t`t`t`t<refpages>")
+      $pi = 0
+      foreach ($bp in ($chapters[$ch][$sec2] | Sort-Object @{ e = { if ($_.meta.order) { [int]$_.meta.order } else { 999 } } }, title)) {
+        $pi++; $pageNo++; $bookCount++
+        $dataId = 'id-{0:D5}' -f $pageNo
+        # Keywords drive the manual's search box. Built from the page's own prose.
+        $words = ($bp.body -replace '[^a-zA-Z ]', ' ') -split '\s+' |
+                 Where-Object { $_.Length -gt 4 } | ForEach-Object { $_.ToLower() } |
+                 Select-Object -Unique | Select-Object -First 40
+        [void]$idxXml.Add("`t`t`t`t`t`t`t`t<$dataId>")
+        [void]$idxXml.Add((S 'keywords' ($words -join ' ') 9))
+        [void]$idxXml.Add("`t`t`t`t`t`t`t`t`t<listlink type=""windowreference"">")
+        [void]$idxXml.Add("`t`t`t`t`t`t`t`t`t`t<class>story_book_page_advanced</class>")
+        [void]$idxXml.Add("`t`t`t`t`t`t`t`t`t`t<recordname>reference.refmanualdata.$dataId</recordname>")
+        [void]$idxXml.Add("`t`t`t`t`t`t`t`t`t</listlink>")
+        [void]$idxXml.Add((S 'name' $bp.title 9))
+        [void]$idxXml.Add((N 'order' $pi 9))
+        [void]$idxXml.Add("`t`t`t`t`t`t`t`t</$dataId>")
+
+        [void]$pageXml.Add("`t`t`t<$dataId>")
+        [void]$pageXml.Add("`t`t`t`t<blocks>")
+        [void]$pageXml.Add("`t`t`t`t`t<id-00001>")
+        [void]$pageXml.Add((S 'blocktype' 'singletext' 6))
+        [void]$pageXml.Add((N 'order' 1 6))
+        [void]$pageXml.Add("`t`t`t`t`t`t<text type=""formattedtext"">")
+        [void]$pageXml.Add((ConvertTo-FormattedText $bp.body 7))
+        [void]$pageXml.Add("`t`t`t`t`t`t</text>")
+        [void]$pageXml.Add("`t`t`t`t`t</id-00001>")
+        [void]$pageXml.Add("`t`t`t`t</blocks>")
+        [void]$pageXml.Add((S 'name' $bp.title 4))
+        [void]$pageXml.Add("`t`t`t</$dataId>")
+      }
+      [void]$idxXml.Add("`t`t`t`t`t`t`t</refpages>")
+      [void]$idxXml.Add("`t`t`t`t`t`t</id-{0:D5}>" -f $si)
+    }
+    [void]$idxXml.Add("`t`t`t`t`t</subchapters>")
+    [void]$idxXml.Add("`t`t`t`t</id-{0:D5}>" -f $ci)
+  }
+  [void]$idxXml.Add("`t`t`t</chapters>")
+  [void]$idxXml.Add("`t`t</refmanualindex>")
+  foreach ($l in $idxXml) { [void]$refBlocks.Add($l) }
+  [void]$refBlocks.Add("`t`t<refmanualdata>")
+  foreach ($l in $pageXml) { [void]$refBlocks.Add($l) }
+  [void]$refBlocks.Add("`t`t</refmanualdata>")
+}
+
+if ($refBlocks.Count) {
+  [void]$xml.Add("`t<reference>")
+  foreach ($l in $refBlocks) { foreach ($sub in ($l -split "`n")) { [void]$xml.Add($sub) } }
+  [void]$xml.Add("`t</reference>")
+}
+
 [void]$xml.Add('</root>')
 
 # ---------------------------------------------------------------- write
@@ -1283,7 +1380,7 @@ Write-Host ''
 Write-Host "Built $mod" -ForegroundColor Green
 Write-Host ("  npcs {0}  encounters {1}  parcels {2}  quests {3}  maps {4}/{5}  story {6}  art {7}" -f `
     $npcs.Count, $encounters.Count, $parcels.Count, $quests.Count, $mapsIncluded, $maps.Count, $stories.Count, $artCount)
-Write-Host ("  abilities {0}" -f $abilities.Count)
+Write-Host ("  abilities {0}  book pages {1}" -f $abilities.Count, $bookCount)
 if ($warns.Count) { Write-Host ("  {0} warning(s) above" -f $warns.Count) -ForegroundColor Yellow }
 
 if ($Install) {

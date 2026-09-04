@@ -53,5 +53,8 @@ Twenty years of being carried against the skin. The stamp is nearly rubbed out o
 <!-- weight: 1 -->
 <!-- nonid: A scrap merchant's account book -->
 
-Honest scrap accounts for eleven years, in a careful hand. The last two years have a second
-column that does not add up to anything a scrap yard sells.
+Eleven years of scrap accounts in a careful hand, kept straight through the whole occupation -
+which tells you something on its own, because a man does not go on trading in a demon-held city
+for seven years without an arrangement.
+
+A second column runs down the last two years and does not add up to anything a scrap yard sells.

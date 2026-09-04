@@ -32,6 +32,6 @@ Too big for him. It was somebody else's first.
 <!-- weight: 0 -->
 <!-- nonid: A stamped tin disc on a cord, much rubbed -->
 
-A relief token from Drezen's outer wards — the kind handed out for a bread ration eighteen months
-ago, when the queue was longer than the bread. Tin, stamped, worthless, and rubbed shiny at the
-edges from being carried every day since.
+A relief token from Drezen's outer wards, stamped this season — the kind handed out for a bread
+ration in the weeks after the city changed hands, when the queue was longer than the bread. Tin,
+worthless, and already rubbed shiny at the edges from being carried every day since.

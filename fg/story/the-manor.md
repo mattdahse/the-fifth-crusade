@@ -132,15 +132,17 @@ read them, so the descriptions say only what the object is.
 @link parcel: sarkorian_house | The waystation ledger
 
 **The ward token.** Every Locust-Sworn carries a Drezen relief token — tin, worthless, stamped
-for a bread ration eighteen months ago and rubbed shiny from being carried every day since. If
+for a bread ration in the weeks after the crusade took Drezen, and rubbed shiny from being
+carried every day since. If
 the party kills one and searches him, put it in their hands. It does more work than any amount of
-explaining who these people are: Corwin did not recruit fanatics, he recruited two boys who were
-starving in the outer wards and fed them.
+explaining who these people are: Corwin did not recruit fanatics. He recruited two boys who were
+starving in the outer wards in the weeks after the crusade took Drezen, and he fed them.
 
 **Corwin's chain shirt** is crusade issue with a legible Kenabres quartermaster's stamp and an
-issue date eighteen months old — the same season as the tokens, and the same season as his
-discharge paper. A party that lays the three side by side has his whole history without asking
-him a question.
+issue date from before Kenabres was broken open, which is also the date on his discharge paper. A
+party that lays the coat, the paper and the boys' ration tokens side by side has his whole history
+without asking him a question: a crusader invalided out, and two starving children he fed a season
+ago.
 
 **The ledger stops mid-page, three weeks ago.** That is the single most important object in the
 manor and it is easy to walk past. Three months of careful tallies and then nothing, in the same
