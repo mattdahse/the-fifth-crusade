@@ -76,5 +76,5 @@ She knows what the cellar is. She has known for about a year, and she has not to
 She is not a cultist and she is not innocent of it either — she has carried food down those stairs.
 
 Taken alive she will not speak in front of her mother, and will say a great deal once separated:
-the tunnel, the men in it, the rope, and the fact that her father has been frightened since
+the tunnel, the men in it, the ladder, and the fact that her father has been frightened since
 midwinter.

@@ -657,6 +657,15 @@ link from the room page where it is decided:
 something the GM has to remember and then award by hand; a link is something they drag. Scaffold
 them — `python fg/new.py quest the-dolvans-alive --name "..." --xp 800`.
 
+**Objective XP is about 27% of an adventure's total**, held to deliberately in both adventures so
+far — 2,200 of 8,000 in the Southshore, 1,925 of 7,000 at the manor. Below that the campaign's
+stated values are just talk; much above it and the objectives outweigh the encounters, which reads
+as the GM paying for compliance. Most of the awards should reward a **decision** rather than a
+kill, and no more than one of them should be the job the party was actually hired for.
+
+Check the arithmetic against the medium track before writing the numbers down, and **say in the
+book what the total does** — whether it levels the party or deliberately stops short.
+
 ### Maps — `fg/maps/*.md`
 
 ```markdown

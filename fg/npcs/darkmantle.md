@@ -65,5 +65,5 @@ the ceiling again if it can.
 ## Roleplaying
 
 None; they are animals with an ambush and no plan. What they *mean* is the point: the cult keeps
-a rope and a bolt-hole on the far side of this cavern and still sends people through it two at a
+a ladder and a bolt-hole on the far side of this cavern and still sends people through it two at a
 time, carrying torches, quickly. That is the tell the party should read.

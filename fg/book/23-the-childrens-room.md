@@ -9,7 +9,7 @@ dungeon.**
 
 **Alia stands in the doorway** with a carving knife and her other arm out flat, and she does not
 move. She surrenders the moment the children are safe and not one second before, and she knows
-everything under this house - the door, the tunnel, the rope, the map - and will trade all of it
+everything under this house - the door, the tunnel, the ladder, the map - and will trade all of it
 for them. Behind her, all three children are **on the map, in squares, with tokens** - deliberately, so
 that a cone spell through that doorway, a flask of oil, or an animal companion sent in ahead has a
 cost the party can see before committing.

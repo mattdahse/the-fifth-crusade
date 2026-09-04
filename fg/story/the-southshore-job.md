@@ -99,7 +99,7 @@ cell is broken exactly as thoroughly either way; the only thing that changes is 
 did.
 
 Alia surrenders the instant the children are safe and not one second before. She is also the
-fastest route to everything under the house — she knows about the door, the tunnel, the rope and
+fastest route to everything under the house — she knows about the door, the tunnel, the ladder and
 the map, and she will trade all of it.
 
 @link quest: the_dolvans_alive | Award: the Dolvans taken alive (800 XP)
@@ -127,8 +127,8 @@ still a good find.
 
 Kept, it is a **tool rather than power**: it makes nobody harder to kill or better in a fight, it
 makes one specific cliff survivable, and the party has just found out there is a cliff. It also
-answers a question nobody asked out loud, which is what happened to whoever used that rope before
-the cult did.
+answers a question nobody asked out loud, which is what happened to whoever used that ladder
+before the cult did.
 
 @link parcel: scrapyard_strongbox | Under the shop counter
 @link parcel: yard_cache | Hidden in the yard
@@ -146,9 +146,11 @@ These are not Southshore scrappers. They are the Ivory Labyrinth proper, posted 
 city to keep a door open, and they are a **clean fight**: no families, no surrender, no leverage.
 That is deliberate. The party has earned an uncomplicated one by now.
 
-**Four hold the narrow part of the tunnel in a line. Two are at the far end and go for the rope**
-rather than joining — a party that lets them get to the cliff loses the two who know most about
-where the route comes out.
+**Four hold the narrow part of the tunnel in a line. Two are at the far end and go for the ladder**
+rather than joining — they are not running, they are doing their job, which is to make sure
+somebody outside the city hears about this by morning. Kicking the heap over the lip is one move
+action and the descent needs no check, so **they are gone in two rounds if nobody chases**, and a
+party that lets them go loses the two who know most about where the route comes out.
 
 ## The cavern
 
@@ -168,9 +170,11 @@ between a set piece and a wipe.
 Blindsight 90 ft. means **putting out the lantern helps them and not the party.** Say so the
 first time somebody reaches for it.
 
-Beyond the cavern the passage narrows and comes out in a **cave in the cliff face**, with a
-**coiled climbing rope** made fast to a spur of rock. Lowered, it puts a careful climber on the
-ground outside Drezen's wall — no gate, no toll, no watch officer writing a name in a book.
+Beyond the cavern the passage narrows and comes out in a **cave in the cliff face**, with a **rope
+ladder** spiked to the stone at the lip and heaped on the floor ready to go over at a word.
+Dropped, it puts anyone at all on the ground outside Drezen's wall — no gate, no toll, no watch
+officer writing a name in a book. Heaped, it shows nothing from below, which is why the route has
+never been given away by the cliff face.
 
 **Finding and mapping that route is worth 400 XP**, and it is the piece of intel Mira did not
 know she was buying.

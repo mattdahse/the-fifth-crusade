@@ -12,6 +12,7 @@ proper, posted from outside the city to keep a door open. This is a **clean figh
 no surrender, no leverage, and the party has earned an uncomplicated one by now.
 
 Four hold the narrowest stretch in single file, because that is all the width there is. **Two are
-at the far end and go for the rope** rather than joining.
+at the far end and go for the ladder** rather than joining - not running, but making sure somebody
+outside the city hears about this by morning. They are over the lip in two rounds if nobody chases.
 
 @link battle: labyrinth_tunnel | The tunnel (encounter)

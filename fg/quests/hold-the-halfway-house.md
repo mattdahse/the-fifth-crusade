@@ -3,7 +3,7 @@
 <!-- id: hold_the_halfway_house -->
 <!-- level: 1 -->
 <!-- giver: Elara Dawnstrider -->
-<!-- xp: 400 -->
+<!-- xp: 0 -->
 
 The road from Drezen to the Sarian Fane is two days on foot and there is nothing on it. Every
 courier who walks it sleeps one night in the open, in country that has ash storms, abyssal
@@ -43,5 +43,11 @@ walked that road since Lamashan who was not in a hurry. What is in the manor is 
 
 ## Completion
 
-The house is held, and word is sent back to Drezen. **Rothin Vald** at the Fane learns of it
-by the next runner and starts using it within the week.
+**This record carries no XP of its own.** It is the commission; the four awards below carry the
+experience, so that each can go onto the party sheet at the moment it is actually earned. Only one
+of them is the job Elara paid for.
+
+@link quest: the_manor_held | The manor held (400 XP)
+@link quest: the_ledger_delivered | The ledger delivered (600 XP)
+@link quest: the_clutch_burned | The clutch burned (500 XP)
+@link quest: the_truce_turned | The truce turned (425 XP)

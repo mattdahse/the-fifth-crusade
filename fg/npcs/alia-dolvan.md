@@ -72,7 +72,7 @@ happens next happens to her first.
 will not be touched, and mean it, and the knife goes down. Say anything else and she does not
 hear it.
 
-**She knows what is under the house** — the door, the tunnel, the rope, the map, all of it — and
+**She knows what is under the house** — the door, the tunnel, the ladder, the map, all of it — and
 she will trade every word of it for the children. She is the fastest route to the intel in the
 building and she is standing in the open.
 

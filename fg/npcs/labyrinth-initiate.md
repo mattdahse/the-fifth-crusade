@@ -58,7 +58,8 @@ None. Trained, equipped and rested, which at 1st level is worth more than an abi
 - **The tunnel is one man wide in places** and they know exactly which places. They fall back to
   those and make the party come to them.
 - **Two are always at the far end**, at the cavern mouth, and those two do not join the fight —
-  they go for the rope. See the encounter.
+  they go for the ladder - one move action to kick it over the lip, no check to go down it. See
+  the encounter.
 
 ## Roleplaying
 

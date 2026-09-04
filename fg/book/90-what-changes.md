@@ -17,4 +17,10 @@ hive that loses a season sends nothing up the tunnel next year.
 Vald's runners start using it within the week, and that is the whole commission.
 
 A party that gets one of the three has done a job. A party that gets all three has changed the
-road.
+road. **Each is its own quest record and carries its own XP** - drag them onto the party sheet as
+they land, rather than totalling anything at the end.
+
+@link quest: the_manor_held | The manor held (400 XP)
+@link quest: the_ledger_delivered | The ledger delivered (600 XP)
+@link quest: the_clutch_burned | The clutch burned (500 XP)
+@link quest: the_truce_turned | The truce turned (425 XP)

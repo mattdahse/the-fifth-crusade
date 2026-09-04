@@ -8,7 +8,7 @@
 <!-- scale: one square - five feet -->
 
 Under the scrap shop: a built cellar, a dug tunnel, a natural cavern the cult did not make, and a
-cave in the cliff face with a rope in it. Read right to left; that is the direction the party
+cave in the cliff face with the ladder in it. Read right to left; that is the direction the party
 travels.
 
 **This plate needed no cropping.** 1536 x 1024 divides exactly by 64 both ways, and so does half
@@ -25,7 +25,8 @@ of each, so the grid lands true from either anchor without a pixel being moved.
    walls, a crate for a table, a burnt-out fire ring. Six initiates sleep here.
 4. **The cavern** - natural, irregular, far wider than the tunnel, with fallen rock and
    stalagmites. The cult did not dig it and does not like it. Six darkmantles are on the ceiling.
-5. **The cliff cave**, far left, open to the air, with a coil of rope beside an iron spike.
+5. **The cliff cave**, far left, open to the air, with a rope ladder spiked to the lip and heaped
+   on the floor beside it.
    Lowered, it puts a climber on the ground outside Drezen's wall.
 
 ## Occluders
@@ -57,4 +58,5 @@ as floor. Raising it past 20 separates all three cleanly.
 - **The secret door ships closed**, and the initiates behind it are not expecting anyone. Opening
   it quietly is possible, and a party that manages it starts the tunnel fight on its own terms.
 - **The cliff cave mouth is a closed edge.** Nobody walks out of it by accident - the drop is the
-  point and the rope is the only way down.
+  point and the ladder is the only way down. It is heaped on the floor, not hanging, so the cliff
+  face shows nothing until somebody kicks it over.

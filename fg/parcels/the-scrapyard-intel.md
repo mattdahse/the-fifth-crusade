@@ -41,11 +41,12 @@ A water-swollen book of tallies in a clerk's hand: counts, directions and cargoe
 
 A palm-sized slate, chalked and rubbed and chalked again. Six strokes in a row, the top one rewritten far more often than the others.
 
-### Iron Spike and Coil
+### Rope Ladder, Spiked
 <!-- srd: none -->
 <!-- count: 1 -->
 <!-- type: Gear -->
-<!-- cost: 12 gp -->
-<!-- weight: 22 -->
+<!-- cost: 20 gp -->
+<!-- weight: 40 -->
+<!-- nonid: A heavy rope ladder with wooden rungs, and four iron spikes -->
 
-Fifty feet of good hemp rope and the iron spike it was made fast to. The rope is worn shiny in bands an arm's length apart.
+Sixty feet of hemp ladder with hardwood rungs lashed through it, made to be dropped down a rock face and climbed in the dark. Four iron spikes are driven through the head of it. The rungs are worn pale in the middle and dark at the ends.
