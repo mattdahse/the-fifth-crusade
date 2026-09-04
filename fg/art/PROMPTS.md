@@ -74,6 +74,10 @@ gallery. Their likeness anchors live here instead.
 | Ysolde Karn token | `tokens/ysolde-karn.webp` | **done** — 512 × 512, 39 KB |
 | Theep Gvosh portrait | `portraits/theep-gvosh.webp` | **done** — 1024 × 1024, 243 KB |
 | Theep Gvosh token | `tokens/theep-gvosh.webp` | **done** — 512 × 512, 72 KB |
+| Wende Sandhauler portrait | `portraits/wende-sandhauler.webp` | **done** — 1024 × 1024, 250 KB |
+| Wende Sandhauler token | `tokens/wende-sandhauler.webp` | **done** — 512 × 512, 86 KB |
+| Esper Toevel portrait | `portraits/esper-toevel.webp` | **done** — 1024 × 1024, 179 KB |
+| Esper Toevel token | `tokens/esper-toevel.webp` | **done** — 512 × 512, 61 KB |
 
 ---
 
@@ -198,6 +202,92 @@ on a crowded map.
 > hooded robe, ornate embroidered vestments, a staff, a floating spellbook, warm orange or amber
 > firelight, red or crimson skin, long swept-back horns, a snarling or shouting expression, text,
 > watermark, signature, border, a frame, extra limbs, deformed hands, more than two horns.
+
+---
+
+## The party's three tokens must not share a colour
+
+Theep, Wende and Esper sit on the same map at the same time, so they are painted to a **triad**
+rather than each to its own taste: **Theep cold blue-white, Wende copper and hot orange, Esper
+green and brass.** Value contrast alone is not enough when three tokens are all lit and all
+roughly head-sized; the hue is what tells them apart in a glance at a crowded doorway.
+
+---
+
+## Wende Sandhauler
+
+**Likeness anchors (keep constant).** Dwarf woman, stocky and broad-shouldered, mid-thirties.
+**Copper-red hair in tight braids bound with dull steel rings**, a strong brow, a broad nose
+broken once, ruddy freckled skin, pale grey eyes. **No beard** — heavy braids and short
+sideburns. She is a quarry dwarf and it shows: **grey stone dust worked into the braids and the
+creases of her knuckles**, hands too big for her. First level, so her gear is **plain and
+dented** — a battered chain shirt over a padded coat, a plain steel shield strapped on the left
+arm, a warhammer. No heraldry, no plate, nothing polished. **Her light is warm — forge-orange
+from low and to one side.**
+
+> THIS IS A PAINTING, NOT A PHOTOGRAPH. A traditional narrative OIL PAINTING on canvas: visible
+> directional brush strokes throughout, loaded paint and impasto in the lights, soft scumbled
+> painted edges, visible canvas weave, colour mixed on a palette rather than sampled from life.
+> Every surface should read as pigment. Render the background in looser, broader brushwork than
+> the figure.
+>
+> Cinematic painterly fantasy illustration, semi-realistic. Square composition, head-and-chest
+> portrait bust, the figure centred with clear space around the head and nothing important in the
+> corners. A stocky broad-shouldered DWARF WOMAN in her mid-thirties with a strong brow, a broad
+> once-broken nose, ruddy freckled skin and pale grey eyes. CLEAN-SHAVEN, NO BEARD. Her
+> COPPER-RED HAIR is in tight braids bound with dull steel rings, with grey stone dust worked
+> into them. She wears a battered chain shirt over a padded coat, plain and dented, with a plain
+> steel shield strapped to her left arm and a warhammer resting against her shoulder. Behind her,
+> a dark stone interior in loose broad brushwork. Lighting is WARM FORGE-ORANGE from low and to
+> one side, catching the copper braids and the rim of the shield, everything it does not touch
+> falling to near black. Strong value contrast, dominant colours copper-red and hot orange
+> against near-black. She is looking levelly at someone she has decided not to argue with any
+> further — jaw set, entirely unbothered. High detail on the face, the braids and the dented mail.
+>
+> **Avoid:** a photograph, photorealistic rendering, photoreal skin, photographic grain, a film
+> still, DSLR photography, lens bokeh, shallow depth-of-field blur, lens flare, visible skin
+> pores, hyperreal skin texture, anime, cartoon, cel-shaded, 3-D render, comic ink, flat vector,
+> bright even lighting, oversaturated, glossy, a beard on the woman, a horned helmet, full plate
+> armour, ornate or polished armour, heraldry, a tabard, gold, blue or green light, a cheerful
+> grin, text, watermark, signature, border, a frame, extra limbs, deformed hands.
+
+---
+
+## Esper Toevel
+
+**Likeness anchors (keep constant).** Human man, late twenties, lean and quick-faced. Dark brown
+hair worn a little long and pushed back, a few days' stubble, brown eyes, a mouth that is always
+about to say something. **A deep green wool coat with tarnished brass buttons** over a travel-worn
+shirt, a wound scarf, and **a small brass-fitted stringed instrument carried high against the
+chest** where it stays inside a circular token crop. First level and on the road, so the coat is
+worn at the cuffs and the brass is dull, not gleaming. **His colour is green and brass** — the
+third corner of the party's triad, and it must never drift toward Wende's copper.
+
+> THIS IS A PAINTING, NOT A PHOTOGRAPH. A traditional narrative OIL PAINTING on canvas: visible
+> directional brush strokes throughout, loaded paint and impasto in the lights, soft scumbled
+> painted edges, visible canvas weave, colour mixed on a palette rather than sampled from life.
+> Every surface should read as pigment. Render the background in looser, broader brushwork than
+> the figure.
+>
+> Cinematic painterly fantasy illustration, semi-realistic. Square composition, head-and-chest
+> portrait bust, the figure centred with clear space around the head and nothing important in the
+> corners. A lean human man in his late twenties with a quick expressive face, dark brown hair
+> worn a little long and pushed back, a few days' stubble and brown eyes. He wears a DEEP GREEN
+> WOOL COAT with tarnished brass buttons over a travel-worn shirt and a wound scarf, the cuffs
+> frayed. A small brass-fitted stringed instrument is held high against his chest, close in, one
+> hand across the strings. Behind him, a dim tavern interior in loose broad brushwork, almost lost
+> in shadow. Lighting is a single cool pale lantern from the upper left, with a warm secondary
+> glint on the brass. Dominant colours deep green and dull brass against near-black; strong value
+> contrast. He is mid-sentence and looking at someone off frame with amused calculation, as though
+> he has just worked out what they want and is deciding what to charge for it. High detail on the
+> face, the green wool and the tarnished brass.
+>
+> **Avoid:** a photograph, photorealistic rendering, photoreal skin, photographic grain, a film
+> still, DSLR photography, lens bokeh, shallow depth-of-field blur, lens flare, visible skin
+> pores, hyperreal skin texture, anime, cartoon, cel-shaded, 3-D render, comic ink, flat vector,
+> bright even lighting, oversaturated, glossy, a feathered cap, motley, a jester, a lute held out
+> at arm's length, ornate embroidered finery, red or copper hair, orange light, a broad theatrical
+> grin, text, watermark, signature, border, a frame, extra limbs, deformed hands.
 
 ---
 
