@@ -155,6 +155,29 @@ Confirm by shipping that record under a **new id**: if the list comes back with 
 of them blank, having lost the name the module used to supply), a campaign copy exists. Delete
 the stale entry from the list. Prefer reading module records over unlocking them.
 
+**Unlocking is not the only way to fork one.** Merely *using* a module map does it — dropping a
+link pin on it, dragging a token onto it — and FG writes that `<image>` record into
+`campaigns/<name>/moduledb/<Module>.xml` where it shadows the module from then on. Four of this
+module's maps were forked that way with nobody editing anything.
+
+**The symptom is exact, and it was misread once.** The **art updates and the geometry does not**,
+because the bitmap is still read live out of the `.mod` while the record comes from the fork. A
+door newly painted into a plate showed up in the same session that six new pins did not, and the
+map's line-of-sight still had a door in the position it was moved away from.
+
+**A cache stamped OLDER than the module is not the all-clear** — the version governs whether FG
+re-imports, but a campaign-side copy of an individual record wins either way. So `-Install` now
+reads the cache and warns, by name, for every map the campaign holds its own copy of. Fix it with
+FG closed:
+
+```bash
+pwsh -File ./build-fg.ps1 -Install -ResetModuleCache
+```
+
+That deletes the cached copies. What is lost is staged token positions; the rest of the file is
+FG's own default fields (spell slot counts, `isidentified` flags, item capacity zeroes) and is
+not worth keeping. Back the file up first anyway — it is campaign data.
+
 ## Record links
 
 FG puts links in a block-level `<linklist>`, **never inline inside a `<p>`**, so a link is its

@@ -1551,6 +1551,21 @@ if ($Install) {
       }
       else {
         Write-Host "  campaign '$($camp.Name)' cached at $cv $em FG will re-import at $dataVersion" -ForegroundColor DarkGray
+        # An OLDER stamp is not the all-clear. This file also holds campaign-side copies
+        # of individual module records, and those SHADOW the module whatever the version
+        # says: touching a module map in the client - dropping a pin on it, dragging a
+        # token onto it - forks its <image> record here, and from then on the module's
+        # occluders and pins never reach that campaign again. The symptom is precise and
+        # was misread once already: the ART updates, because the bitmap is still read out
+        # of the .mod, while the geometry and the pins stay frozen. Six pins invisible,
+        # a door in the right place on the plate and the wrong place in line-of-sight.
+        $shadow = ''
+        try { $shadow = [IO.File]::ReadAllText($cache) } catch { }
+        foreach ($mp in $maps) {
+          if ($shadow -match "<$([regex]::Escape($mp.id))>") {
+            Warn ("campaign '{0}' holds its own copy of map '{1}' $em it SHADOWS the module, so occluders and pins there are frozen. Close FG and rerun with -ResetModuleCache." -f $camp.Name, $mp.id)
+          }
+        }
       }
     }
   }
