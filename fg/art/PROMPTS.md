@@ -72,6 +72,8 @@ gallery. Their likeness anchors live here instead.
 | The Cellar battlemap | `images/the-cellar.webp` | **done** — generated at 1536 × 1024, cropped and extended to 1560 × 1080 for the grid |
 | Labyrinth Squatter token | `tokens/labyrinth-squatter.webp` | **done** — 512 × 512, 51 KB |
 | Ysolde Karn token | `tokens/ysolde-karn.webp` | **done** — 512 × 512, 39 KB |
+| Theep Gvosh portrait | `portraits/theep-gvosh.webp` | **done** — 1024 × 1024, 243 KB |
+| Theep Gvosh token | `tokens/theep-gvosh.webp` | **done** — 512 × 512, 72 KB |
 
 ---
 
@@ -151,6 +153,51 @@ present and visible.**
 > obvious demonic horns, modern clothing or objects, text, watermark, signature, border, a
 > frame, extra limbs, deformed hands, a missing hook, a calm or blank expression, looking at the
 > viewer with a neutral face.
+
+---
+
+## Theep Gvosh
+
+**Likeness anchors (keep constant).** Tiefling man, late thirties, an evoker. **Ash-grey skin with
+a cold blue undertone** — deliberately *not* the dusky grey-brown of Barrid Isen in the chronicle,
+because two horned spellcasters in one archive must not read as the same man. **Short, thick,
+forward-curving ram's horns** low on the brow, ridged and chipped at the tips — a compact silhouette
+against Barrid's long sweeping-back pair. Scalp shaved to stubble, a hard narrow face, **eyes with
+no visible whites, lit from within**. A **slender tail**. He wears no robes worth the name: scorched
+dark wool and hard-worn leather, sleeves burned back to the elbow and the forearms bare, a high
+collar, a satchel of chalk and slate on a strap. **His spell light is COLD — actinic blue-white**,
+and that is his signature. Everything else in this campaign is lit by amber firelight; Theep is the
+one asset lit by his own hand in a colour nothing else uses, which is what makes his token findable
+on a crowded map.
+
+> THIS IS A PAINTING, NOT A PHOTOGRAPH. A traditional narrative OIL PAINTING on canvas: visible
+> directional brush strokes throughout, loaded paint and impasto in the lights, soft scumbled
+> painted edges, visible canvas weave, colour mixed on a palette rather than sampled from life.
+> Every surface should read as pigment. Render the background in looser, broader brushwork than
+> the figure.
+>
+> Cinematic painterly fantasy illustration, semi-realistic. Square composition, head-and-chest
+> portrait bust, the figure centred with clear space around the head and nothing important in the
+> corners. A tiefling man in his late thirties, ash-grey skin with a cold blue undertone, a hard
+> narrow face, scalp shaved to stubble, and SHORT THICK FORWARD-CURVING RAM'S HORNS low on the
+> brow, ridged and chipped at the tips. His eyes have no whites and glow faintly from within. He
+> wears scorched dark wool and hard-worn leather with a high collar, the sleeves burned back to
+> the elbow leaving the forearms bare and marked. HE IS MID-CAST: one hand raised and open at
+> chest height, and the light of the spell gathering in that palm is COLD ACTINIC BLUE-WHITE,
+> throwing hard blue light up under his jaw, along the underside of the horns and across the
+> collar, with everything it does not touch falling to near black. Behind him, a dark ruined
+> interior in loose broad brushwork, almost lost in shadow. Strong low-key value contrast: a
+> near-black ground, ash-grey skin, and one brilliant cold light source. He is not shouting and
+> not grimacing; he is looking past his own raised hand at something he has already decided to
+> destroy, entirely calm about it. High detail on the face, the horns, and the burned leather.
+>
+> **Avoid:** a photograph, photorealistic rendering, photoreal skin, photographic grain, a film
+> still, DSLR photography, lens bokeh, shallow depth-of-field blur, lens flare, visible skin
+> pores, hyperreal skin texture, anime, cartoon, cel-shaded, 3-D render, comic ink, flat vector,
+> bright even lighting, flat frontal lighting, oversaturated, glossy, a pointed wizard's hat, a
+> hooded robe, ornate embroidered vestments, a staff, a floating spellbook, warm orange or amber
+> firelight, red or crimson skin, long swept-back horns, a snarling or shouting expression, text,
+> watermark, signature, border, a frame, extra limbs, deformed hands, more than two horns.
 
 ---
 
