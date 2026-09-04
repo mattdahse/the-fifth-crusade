@@ -18,3 +18,5 @@ wrong about the first part in a way that gets people killed.
 **The shape to run for.** A party that walks in swinging fights six people at once and probably
 loses. A party that talks fights three, then three, on ground of its own choosing. A party that is
 clever gets the two factions to fight each other and walks into the sealed room while it happens.
+
+@link map: manor | The manor (map)

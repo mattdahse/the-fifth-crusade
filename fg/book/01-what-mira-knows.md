@@ -21,3 +21,4 @@ award, and it is meant to be dragged onto the party sheet when it is earned rath
 as an incentive.
 
 @link quest: the_yard_watched | Award: the yard watched first (200 XP)
+@link map: scrapyard | The scrapyard (map)

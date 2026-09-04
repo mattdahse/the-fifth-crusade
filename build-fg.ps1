@@ -1239,61 +1239,74 @@ if ($maps.Count) {
       }
       [void]$rows.Add("`t`t`t`t`t`t</occluders>")
     }
-    # Shortcut pins - the little link icons a GM clicks on the map to open the room's page.
+    # Shortcut pins - the link icons a GM clicks on the map to open a room's page.
     # Authored as `shortcut: <kind>:<id> @ x,y | Label` in top-left image pixels.
     #
-    # THE COORDINATE CONVENTION IS THE TOKEN ONE, NOT THE OCCLUDER ONE. Occluders measure y
-    # UP from the image centre; a pin measures y DOWN, exactly like a maplink, because FG
-    # routes a dropped shortcut through the same handler as a dropped token
-    # (ImageManager.onImageShortcutDrop falls through to onImageTokenDrop). Getting this
-    # backwards mirrors every pin about the middle of the plate, which on a symmetric
-    # building still looks plausible - see the note on occluder y in the skill.
-    if ($mp.meta.shortcut) {
-      $pins = New-Object System.Collections.ArrayList
-      foreach ($sc in @($mp.meta.shortcut)) {
-        if ($sc -notmatch '^\s*(\w+)\s*:\s*([\w\-]+)\s*@\s*(-?[\d.]+)\s*,\s*(-?[\d.]+)\s*(?:\|\s*(.*))?$') {
-          Warn "$($mp.file): cannot read shortcut '$sc' $em expected 'kind:id @ x,y | Label'"
-          continue
-        }
-        $sk = $matches[1].ToLower(); $sid = $matches[2]
-        $sx = [double]$matches[3]; $sy = [double]$matches[4]
-        $slabel = $matches[5]
-        if ($sk -eq 'encounter') { $sk = 'battle' }
-        $srec = Get-RecordPath $sk $sid
-        if (-not $srec) { Warn "$($mp.file): shortcut points at nothing $em $sk`:$sid"; continue }
-        if (-not $slabel) {
-          $slabel = if ($linkTitles.ContainsKey("${sk}:$sid")) { $linkTitles["${sk}:$sid"] } else { $sid }
-        }
-        if (-not $dim) { Warn "$($mp.file): shortcut left untranslated $em plate size unknown"; continue }
-        if ($sx -lt 0 -or $sy -lt 0 -or $sx -gt $dim.w -or $sy -gt $dim.h) {
-          Warn "$($mp.file): shortcut '$slabel' at $sx,$sy is off the $($dim.w)x$($dim.h) plate"
-        }
-        [void]$pins.Add(@{
-          class = $linkKinds[$sk].class
-          rec   = $srec
-          label = $slabel
-          x     = ($sx - $dim.w / 2.0)
-          y     = ($sy - $dim.h / 2.0)
-        })
+    # THIS FORMAT IS COPIED FROM FG, NOT DERIVED. A pin is not a node on the image; it is
+    # its OWN LAYER, type "shortcut", parentid -1, sitting beside the image layer (which is
+    # parentid -2). It carries <shortcut><class>/<record> - note `record`, not `recordname`
+    # as a <link> uses - and its position is a 4x4 transform <matrix>, not an x/y pair. The
+    # translation is the last row: 1,0,0,0, 0,1,0,0, 0,0,1,0, TX,TY,0,1.
+    #
+    # Coordinates are the OCCLUDER convention: centre origin, y pointing UP. Reasoning from
+    # the drop handler said otherwise and was wrong - a shortcut layer is a layer, and it
+    # measures like the other things in layers.
+    $pins = New-Object System.Collections.ArrayList
+    foreach ($sc in @($mp.meta.shortcut)) {
+      if (-not $sc) { continue }
+      if ($sc -notmatch '^\s*(\w+)\s*:\s*([\w\-]+)\s*@\s*(-?[\d.]+)\s*,\s*(-?[\d.]+)\s*(?:\|\s*(.*))?$') {
+        Warn "$($mp.file): cannot read shortcut '$sc' $em expected 'kind:id @ x,y | Label'"
+        continue
       }
-      if ($pins.Count) {
-        [void]$rows.Add("`t`t`t`t`t`t<shortcuts>")
-        $si2 = 0
-        foreach ($pin in $pins) {
-          $si2++
-          [void]$rows.Add(("`t`t`t`t`t`t`t<id-{0:D5}>" -f $si2))
-          [void]$rows.Add("`t`t`t`t`t`t`t`t<class>$($pin.class)</class>")
-          [void]$rows.Add("`t`t`t`t`t`t`t`t<recordname>$(Esc $pin.rec)</recordname>")
-          [void]$rows.Add((S 'description' $pin.label 8))
-          [void]$rows.Add((N 'x' ([math]::Round($pin.x)) 8))
-          [void]$rows.Add((N 'y' ([math]::Round($pin.y)) 8))
-          [void]$rows.Add(("`t`t`t`t`t`t`t</id-{0:D5}>" -f $si2))
-        }
-        [void]$rows.Add("`t`t`t`t`t`t</shortcuts>")
+      $sk = $matches[1].ToLower(); $sid = $matches[2]
+      $spx = [double]$matches[3]; $spy = [double]$matches[4]
+      $slabel = $matches[5]
+      if ($sk -eq 'encounter') { $sk = 'battle' }
+      $srec = Get-RecordPath $sk $sid
+      if (-not $srec) { Warn "$($mp.file): shortcut points at nothing $em $sk`:$sid"; continue }
+      if (-not $slabel) {
+        $slabel = if ($linkTitles.ContainsKey("${sk}:$sid")) { $linkTitles["${sk}:$sid"] } else { $sid }
       }
+      if (-not $dim) { Warn "$($mp.file): shortcut left untranslated $em plate size unknown"; continue }
+      if ($spx -lt 0 -or $spy -lt 0 -or $spx -gt $dim.w -or $spy -gt $dim.h) {
+        Warn "$($mp.file): shortcut '$slabel' at $spx,$spy is off the $($dim.w)x$($dim.h) plate"
+      }
+      # A pin's window class is NOT always the class a <link> uses for the same record.
+      # A reference-manual page links as story_book_page_advanced but pins as
+      # referencemanualpage, which is a real windowclass in CoreRPG's
+      # campaign/record_story_advanced.xml. Verified against a pin FG wrote itself.
+      $scls = if ($sk -eq 'book') { 'referencemanualpage' } else { $linkKinds[$sk].class }
+      [void]$pins.Add(@{
+        class = $scls
+        rec   = $srec
+        label = $slabel
+        tx    = [math]::Round($spx - $dim.w / 2.0)
+        ty    = [math]::Round($dim.h / 2.0 - $spy)
+      })
     }
     [void]$rows.Add("`t`t`t`t`t</layer>")
+    $li = 0
+    foreach ($pin in $pins) {
+      $li++
+      [void]$rows.Add("`t`t`t`t`t<layer>")
+      [void]$rows.Add("`t`t`t`t`t`t<name>$(Esc $pin.label)</name>")
+      [void]$rows.Add("`t`t`t`t`t`t<id>$li</id>")
+      [void]$rows.Add("`t`t`t`t`t`t<parentid>-1</parentid>")
+      [void]$rows.Add("`t`t`t`t`t`t<type>shortcut</type>")
+      [void]$rows.Add("`t`t`t`t`t`t<shortcut>")
+      [void]$rows.Add("`t`t`t`t`t`t`t<class>$($pin.class)</class>")
+      [void]$rows.Add("`t`t`t`t`t`t`t<record>$(Esc $pin.rec)</record>")
+      [void]$rows.Add("`t`t`t`t`t`t</shortcut>")
+      [void]$rows.Add("`t`t`t`t`t`t<matrix>1,0,0,0,0,1,0,0,0,0,1,0,$($pin.tx),$($pin.ty),0,1</matrix>")
+      [void]$rows.Add("`t`t`t`t`t</layer>")
+    }
     [void]$rows.Add("`t`t`t`t</layers>")
+    # How big FG draws the pin icons. 1.95 is what FG itself chose for this 80px-grid
+    # plate; without it they come out too small to hit.
+    if ($pins.Count) {
+      $lscale = if ($mp.meta.linkscale) { [string]$mp.meta.linkscale } else { '1.95' }
+      [void]$rows.Add("`t`t`t`t<linkscale>$lscale</linkscale>")
+    }
     [void]$rows.Add("`t`t`t</image>")
     [void]$rows.Add((S 'name' $mp.title 3))
     [void]$rows.Add("`t`t</$($mp.id)>")

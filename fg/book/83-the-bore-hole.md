@@ -15,3 +15,5 @@ factions listening.
 
 **Burn the clutch here and nothing answers when she calls.** That is the payoff for doing the
 cellar properly, and it should be said out loud when it happens.
+
+@link map: cellar | The manor cellar (map)

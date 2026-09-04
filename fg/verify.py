@@ -62,12 +62,24 @@ def image_records(root_el):
             im = rec.find('image')
             if im is None:
                 continue
-            layer = im.find('layers/layer')
-            if layer is None or not layer.findtext('bitmap'):
+            layers = im.findall('layers/layer')
+            layer = next((l for l in layers if l.findtext('bitmap')), None)
+            if layer is None:
                 continue
+            # A pin is its own layer, type "shortcut", positioned by a 4x4 matrix whose
+            # last row carries the translation. Decoded here from FG's convention -
+            # centre origin, y UP, the same as an occluder.
+            pins = []
+            for l in layers:
+                if l.findtext('type') != 'shortcut':
+                    continue
+                mt = [float(v) for v in (l.findtext('matrix') or '').split(',') if v.strip()]
+                if len(mt) < 14:
+                    continue
+                pins.append((l.findtext('name') or '?', mt[12], mt[13]))
             gs = (im.findtext('gridsize') or '0').split(',')[0]
             yield (rec.tag, layer.findtext('bitmap'), int(float(gs or 0)),
-                   layer.find('occluders'), layer.find('shortcuts'))
+                   layer.find('occluders'), pins)
 
 
 def placements(root_el):
@@ -123,7 +135,7 @@ def main():
     for mid, bitmap, gridsize, occ, pins in image_records(xml):
         if a.map and mid != a.map:
             continue
-        if occ is None and pins is None and mid not in spots:
+        if occ is None and not pins and mid not in spots:
             continue                                    # a portrait, nothing to check
         try:
             plate = Image.open(io.BytesIO(z.read(bitmap))).convert('RGB')
@@ -163,18 +175,13 @@ def main():
             d.text((x - r, y + r + 4), name[:20], fill=TOKEN)
 
         npins = 0
-        for pin in (pins if pins is not None else []):
-            # A PIN measures y DOWN from the centre, like a maplink and unlike an occluder.
-            # Decoded from FG's convention here rather than from the build's, so that a
-            # mirrored pin shows up as a pin in the wrong room instead of agreeing with
-            # the bug that put it there.
-            x = float(pin.findtext('x') or 0) + W / 2.0
-            y = float(pin.findtext('y') or 0) + H / 2.0
+        for label, tx, ty in pins:
+            x, y = tx + W / 2.0, H / 2.0 - ty
             npins += 1
             d.ellipse([x - 16, y - 16, x + 16, y + 16], outline=PIN, width=5)
             d.line([(x - 8, y), (x + 8, y)], fill=PIN, width=4)
             d.line([(x, y - 8), (x, y + 8)], fill=PIN, width=4)
-            d.text((x + 22, y - 7), (pin.findtext('description') or '?')[:28], fill=PIN)
+            d.text((x + 22, y - 7), label[:28], fill=PIN)
 
         name = os.path.join(out_dir, 'verify-%s.png' % mid)
         plate.save(name)

@@ -40,3 +40,4 @@ she was buying.
 
 @link quest: the_cliff_route | Award: the cliff route (400 XP)
 @link parcel: the_scrapyard_intel | What they came for
+@link map: undercroft | The undercroft (map)

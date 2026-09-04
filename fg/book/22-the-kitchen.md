@@ -9,3 +9,5 @@ parts.
 
 Empty when the fight starts, and worth knowing about for exactly that reason: it is the only room
 in the house a party can put its back into without a Dolvan in it.
+
+@link map: scrapyard | The scrapyard (map)

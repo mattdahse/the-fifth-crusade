@@ -31,6 +31,18 @@ The plate is cropped and extended so the cellar's inside corner lands on a round
 60-pixel square, and so half the plate's width and height are multiples too. That makes the grid
 line up on the walls whichever corner Fantasy Grounds anchors it to.
 
+## Shortcuts
+
+Pins to each space's page in the book. Top-left image pixels; the build converts to FG's own
+(centre origin, y up). The bore-hole sits at the north end of the nest chamber, which is where
+the shaft up into the sealed room actually is.
+
+<!-- shortcut: book:80_the_cellar @ 1180,400 | F1. The Cellar -->
+<!-- shortcut: book:81_the_tunnel @ 790,460 | F2. The Tunnel -->
+<!-- shortcut: book:82_the_nest @ 390,620 | F3. The Nest -->
+<!-- shortcut: book:83_the_bore_hole @ 170,220 | F4. The Bore-Hole -->
+
+
 ## Occluders
 
 Line-of-sight walls, in **top-left image pixel coordinates**. The build converts them to

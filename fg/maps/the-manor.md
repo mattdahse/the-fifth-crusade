@@ -28,6 +28,18 @@ Left to right along the north side, then the hall:
 6. **The great hall** — the whole south half, with the hearth in the west wall. Every one of the
    north rooms opens into it, which makes it the only ground everybody has to share.
 
+## Shortcuts
+
+Pins to each room's page in the book. Top-left image pixels; the build converts to FG's own
+(centre origin, y up). Placed from the room walls below rather than by eye.
+
+<!-- shortcut: book:71_the_kitchen @ 230,265 | D1. The Kitchen -->
+<!-- shortcut: book:72_the_store @ 500,265 | D2. The Store -->
+<!-- shortcut: book:73_the_pallet_room @ 740,265 | D3. The Pallet Room -->
+<!-- shortcut: book:74_the_table_room @ 1005,265 | D4. The Table Room -->
+<!-- shortcut: book:75_the_sealed_room @ 1280,265 | D5. The Sealed Room -->
+<!-- shortcut: book:70_the_great_hall @ 750,670 | D6. The Great Hall -->
+
 ## Occluders
 
 Line-of-sight walls in **top-left image pixel coordinates**, written by hand rather than traced:

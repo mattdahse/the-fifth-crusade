@@ -18,3 +18,4 @@ is nine and does not. There is a baby in a crib.
 @link npc: sera_dolvan | Sera, twelve
 @link npc: corin_dolvan | Corin, nine
 @link npc: dolvan_infant | The baby in the crib
+@link map: scrapyard | The scrapyard (map)

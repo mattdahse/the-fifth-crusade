@@ -36,3 +36,4 @@ back to the doorway at the north end of the living room the moment the shop is e
 
 @link battle: scrapyard_house | The house (encounter)
 @link parcel: scrapyard_strongbox | Under the counter
+@link map: scrapyard | The scrapyard (map)

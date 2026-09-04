@@ -25,3 +25,4 @@ adventure, and deliberately so. The award is its own quest record, so it can go 
 sheet the moment they walk out of Cinder Row with four prisoners breathing.
 
 @link quest: the_dolvans_alive | Award: the Dolvans taken alive (800 XP)
+@link map: scrapyard | The scrapyard (map)

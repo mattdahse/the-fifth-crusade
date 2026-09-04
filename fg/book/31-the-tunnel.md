@@ -16,3 +16,4 @@ at the far end and go for the ladder** rather than joining - not running, but ma
 outside the city hears about this by morning. They are over the lip in two rounds if nobody chases.
 
 @link battle: labyrinth_tunnel | The tunnel (encounter)
+@link map: undercroft | The undercroft (map)

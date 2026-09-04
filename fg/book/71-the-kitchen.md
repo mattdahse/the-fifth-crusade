@@ -12,3 +12,4 @@ On the alarm she does not stay in it: she falls back into the hall behind her sq
 range her *burning hands* wants.
 
 @link battle: labyrinth_post | The Labyrinth post
+@link map: manor | The manor (map)

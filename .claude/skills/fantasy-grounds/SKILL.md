@@ -713,30 +713,54 @@ book what the total does** — whether it levels the party or deliberately stops
 
 ```markdown
 <!-- shortcut: book:23_the_childrens_room @ 1320,135 | B4. The Children's Room -->
-<!-- shortcut: battle:scrapyard_house @ 1220,400 -->
 ```
 
 `kind:id @ x,y | Label`, in the same top-left pixels as the occluders, with any link kind plus
 `book:` for a reference-manual page. The label defaults to the record's own title.
 
-**A pin uses the TOKEN coordinate convention, not the occluder one** — centre origin, **y pointing
-DOWN**, exactly like a maplink. This is derived rather than copied: nothing in the live campaign or
-any installed module ships a pin, so there was no worked example to read. The evidence is CoreRPG's
-`manager_image.lua`, where `ImageManager.onImageShortcutDrop` falls through to
-`onImageTokenDrop` — a dropped shortcut and a dropped token are placed by the same handler. The
-pins live **inside `<layer>`, beside `<occluders>`**, which is what `icon_image_layer_shortcut_on`
-in `graphics_radial.xml` says they are: a layer feature.
+**A pin is its own LAYER.** It is not a node on the image, and there is no `<shortcuts>` element:
 
-A book page is not a record type — it is a row in `reference.refmanualdata` — so its id is
-assigned by the build. That assignment now happens in a **pre-pass**, before the maps are emitted,
-and both the manual's index and any pin read the same stamped `dataId`. Two copies of the ordering
-logic would drift and the pins would quietly open the wrong rooms.
+```xml
+<layer>
+  <name>A1. The Yard</name>          <!-- the pin's label -->
+  <id>1</id>                          <!-- sequential; the image layer is 0 -->
+  <parentid>-1</parentid>             <!-- the image layer is -2 -->
+  <type>shortcut</type>
+  <shortcut>
+    <class>referencemanualpage</class>
+    <record>reference.refmanualdata.id-00004</record>
+  </shortcut>
+  <matrix>1,0,0,0,0,1,0,0,0,0,1,0,-201,92,0,1</matrix>
+</layer>
+```
 
-`verify.py` draws pins in magenta with their labels, so the check is the same as for everything
-else on a map: **look at the picture.** That is what confirms a pin is in the room it names —
-though note it cannot confirm the y-direction, since decoding with FG's convention only disagrees
-with the build when the build disagrees with FG. One glance in the client settles that, and a
-mirrored pin is obvious rather than subtle: the kitchen pin lands in the shop.
+Four traps in that, every one of which cost a build:
+
+- The position is a **4x4 transform matrix**, not an x/y pair. The translation is the last row.
+- The field is **`<record>`**, not `<recordname>` as a `<link>` uses.
+- The **window class is not the link class for the same record**. A reference-manual page links
+  as `story_book_page_advanced` and pins as **`referencemanualpage`**.
+- Coordinates are the **OCCLUDER** convention — centre origin, **y UP**. A pin is a layer and
+  measures like the other things in layers.
+
+`<linkscale>` on the image (a sibling of `<layers>`) sets how big FG draws the icons; 1.95 is what
+FG chose for an 80px-grid plate, and without it they are too small to hit.
+
+**This format was copied, not derived.** The first attempt reasoned it out from
+`ImageManager.onImageShortcutDrop` falling through to `onImageTokenDrop` and concluded pins use
+the token convention. That reasoning was sound and the answer was wrong: **every field name, the
+class, the node structure and the axis were all different from the guess, and FG showed nothing
+at all rather than showing it wrongly.** Nothing in the live campaign or any installed module
+ships a pin, so there was no worked example — and the fix was to ask Matt to drop one pin in his
+campaign and read `campaigns/<name>/moduledb/<Module>.xml`, which is where a pin on a *module*
+map is cached. Thirty seconds of his time against an unbounded number of my guesses.
+
+**When a format cannot be read off real data, that is the finding.** Say so and ask for one
+example, rather than shipping a plausible guess.
+
+`verify.py` draws pins in magenta with their labels. Placing them is still a matter of looking at
+the picture: on a rectilinear building the room walls give the coordinates, but on a traced cave
+the only way to land a pin in the right chamber is to look at the overlay.
 
 - Occluders are the expensive part of map prep and the reason this pipeline is worth having.
   They must be **calibrated against the real plate** — you cannot write them before the art

@@ -10,3 +10,5 @@ allows - which is the party's advantage and the only one they get.
 
 Opening the door at the cellar end is **loud**, and the nest is already reacting by the time
 anyone is down here.
+
+@link map: cellar | The manor cellar (map)

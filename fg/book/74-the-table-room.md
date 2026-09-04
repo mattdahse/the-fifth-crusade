@@ -16,3 +16,4 @@ in it, so he stands back in the hall between his two doorways where he reaches e
   often, which says the cellar is in use rather than forgotten.
 
 @link map: cellar | The cellar below
+@link map: manor | The manor (map)

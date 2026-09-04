@@ -21,6 +21,11 @@ cover** rather than an open lot. A handcart, a chopping block and woodpile, a wa
 - One question to **Sera** finds it for free (**Diplomacy DC 15**, or nothing at all once the
   children are safe). She has watched her father move it twice.
 
+**The house has two ways in.** The **street door** opens off Cinder Row into the shop, at the
+front, in full view of the road. The **yard door** is in the west wall of the living room, and
+that is the one a party in the yard will use - it puts them in the middle of the house with the
+children's room on their right and Hesk between.
+
 **The gate** stands open and its hinges are dry — **Perception DC 5** to hear it move, which
 means opening it quietly is **Disable Device DC 12** with oil or a rag, and a free alarm without.
 

@@ -27,3 +27,4 @@ happen.
 @link ability: grab | Grab (Ex)
 @link ability: poison_giant_ant | Poison (Ex) - sting, DC 14
 @link parcel: nest_midden | What is in the nest
+@link map: cellar | The manor cellar (map)

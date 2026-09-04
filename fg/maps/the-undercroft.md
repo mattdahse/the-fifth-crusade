@@ -29,6 +29,18 @@ of each, so the grid lands true from either anchor without a pixel being moved.
    on the floor beside it.
    Lowered, it puts a climber on the ground outside Drezen's wall.
 
+## Shortcuts
+
+Pins to each space's page in the book. Top-left image pixels; the build converts to FG's own
+(centre origin, y up). Placed by looking at `build/verify/verify-undercroft.png`, not by eye
+on the numbers.
+
+<!-- shortcut: book:30_the_cellar @ 1385,370 | C1. The Cellar -->
+<!-- shortcut: book:31_the_tunnel @ 950,600 | C2. The Tunnel -->
+<!-- shortcut: book:32_the_cavern @ 470,790 | C3. The Cavern -->
+<!-- shortcut: book:33_the_cliff_cave @ 130,490 | C4. The Cliff Cave -->
+
+
 ## Occluders
 
 The cellar is built and straight, so its walls are written by hand. The cavity - tunnel, cavern

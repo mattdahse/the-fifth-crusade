@@ -12,3 +12,4 @@ Corwin's ground, and the boundary: the store next door is the Labyrinth's. Neith
 crossed that line in three weeks and both of them are counting the days.
 
 @link battle: locust_cell | The Locust-Sworn
+@link map: manor | The manor (map)

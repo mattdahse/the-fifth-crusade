@@ -18,7 +18,10 @@ handcart, a woodpile and chopping block, a water trough, and a kennel with a sta
 south-west. **Every heap blocks line of sight**, which is what makes the approach interesting and
 what lets two dogs work a party that came in through the gate.
 
-**The house** has four rooms and no door into the yard except one, at the south-west corner:
+**The house** has four rooms and two ways in. The **street door** is in the south wall of the
+shop, off Cinder Row. The **yard door** is in the west wall, into the living room - the family's
+own back door, and the one the party will use if it comes over the fence or through the gate
+rather than walking in off the street.
 
 1. **The kitchen**, north-west — stove and hanging pots.
 2. **The children's room**, north-east — two straw beds and a crib. This is the room.
@@ -32,7 +35,7 @@ Pins the GM clicks to open the room's page in the book. Top-left image pixels, s
 the occluders - the build converts them to FG's own (centre origin, y DOWN, which is the token
 convention and NOT the occluder one).
 
-<!-- shortcut: book:10_the_yard @ 520,180 | A1. The Yard -->
+<!-- shortcut: book:10_the_yard @ 580,450 | A1. The Yard -->
 <!-- shortcut: book:11_the_kennel @ 250,800 | A2. The Kennel -->
 <!-- shortcut: book:22_the_kitchen @ 1080,135 | B3. The Kitchen -->
 <!-- shortcut: book:23_the_childrens_room @ 1320,135 | B4. The Children's Room -->
@@ -48,8 +51,9 @@ Verify with `python fg/verify.py --map scrapyard`.
 <!-- occluder: 160,0 160,360 -->
 <!-- occluder: 160,610 160,930 -->
 <!-- occluder: 160,930 975,930 -->
-<!-- occluder: 985,0 985,850 -->
-<!-- occluder-door: 985,850 985,900 -->
+<!-- occluder: 985,0 985,352 -->
+<!-- occluder-door: 985,352 985,418 -->
+<!-- occluder: 985,418 985,900 -->
 <!-- occluder: 985,15 1462,15 -->
 <!-- occluder: 1462,15 1462,900 -->
 <!-- occluder: 985,900 1165,900 -->

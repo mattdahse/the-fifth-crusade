@@ -18,3 +18,5 @@ there is a map, and the map is why there is a second commission.
 
 @link quest: southshore_job | The job Mira offers
 @link story: southshore_job_story | Full adventure text
+@link map: scrapyard | The scrapyard (map)
+@link map: undercroft | The undercroft (map)

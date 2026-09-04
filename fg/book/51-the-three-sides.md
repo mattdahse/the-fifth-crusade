@@ -20,3 +20,4 @@ Labyrinth arrived and set up a counting-post on top of him.
 @link npc: corwin_skell | Corwin Skell
 @link npc: locust_sworn | Locust-Sworn
 @link npc: fiendish_ant_queen | The Young Queen
+@link map: manor | The manor (map)
