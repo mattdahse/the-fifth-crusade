@@ -740,6 +740,7 @@ $parcels    = @(Read-Docs 'parcels')
 $quests     = @(Read-Docs 'quests')
 $abilities  = @(Read-Docs 'abilities')
 $bookpages  = @(Read-Docs 'book')
+$shops      = @(Read-Docs 'shops')
 
 # The book's pages are emitted far below, but a MAP may want to pin one, and a pin needs the
 # page's record id. So the chapter/section grouping happens once, here, and stamps each page
@@ -978,6 +979,99 @@ if ($encounters.Count) {
   Add-Section 'battle' 'Encounters' $sec
 }
 
+# Items are shared between a treasure parcel and a shop: the same markdown (one `###` per
+# item, with the srd:/count:/cost:/weight: markers), the same SRD lookup and the same
+# warnings. Only the wrapper differs - <itemlist> in a parcel, <shopitemlist> in a shop -
+# so this is one function rather than two copies that drift.
+function Add-ItemEntries($doc, $sec, [switch]$shop) {
+  $ii = 0
+    $itemsPart = ([regex]::Match($doc.raw, '(?ms)^##\s+Items\s*$(.*)')).Groups[1].Value
+    foreach ($itemSec in [regex]::Matches($itemsPart, '(?ms)^###\s+(.*?)\s*$(.*?)(?=^###\s|\z)')) {
+      $ii++
+      $iname = $itemSec.Groups[1].Value.Trim()
+      $ibody = $itemSec.Groups[2].Value
+      $imeta = Get-Meta $ibody
+      $slot = 'id-{0:D5}' -f $ii
+      [void]$sec.Add("`t`t`t`t<$slot>")
+      if ($shop) {
+        # Stock, not loot: a shop item is not carried by anyone, and these three drive the
+        # cart in Shops.ext.
+        [void]$sec.Add((N 'cartCount' 0 5))
+        [void]$sec.Add((N 'excludedFromPurchase' 0 5))
+        [void]$sec.Add((N 'locked' 0 5))
+      }
+      else { [void]$sec.Add((N 'carried' 1 5)) }
+      [void]$sec.Add((N 'count' $(if ($imeta.count) { [int]$imeta.count } else { 1 }) 5))
+
+      # Copy the real SRD record's fields, then let the markdown override any of them.
+      # `srd:` names the record to look up when the item is called something else in the
+      # fiction; `srd: none` opts a genuinely invented item out of the lookup.
+      $srdName = if ($imeta.srd) { [string]$imeta.srd } else { $iname }
+      $srdRec = $null
+      if ($srdName -ne 'none') {
+        $key = ($srdName -replace '[^a-zA-Z0-9]', '').ToLower()
+        $idx = Get-ItemIndex
+        if ($idx.ContainsKey($key)) { $srdRec = $idx[$key] }
+        elseif ($imeta.srd) { Warn "$($doc.file): no SRD item called '$srdName' for $em $iname" }
+      }
+      foreach ($f in $itemStrFields) {
+        $v = if ($imeta.$f) { [string]$imeta.$f } elseif ($srdRec) { $srdRec.SelectSingleNode($f).InnerText } else { $null }
+        if ($v) { [void]$sec.Add((S $f $v 5)) }
+      }
+      foreach ($f in $itemNumFields) {
+        $v = $null
+        if ($imeta.$f) { $v = [double]$imeta.$f }
+        elseif ($srdRec -and $srdRec.SelectSingleNode($f)) { $v = [double]$srdRec.SelectSingleNode($f).InnerText }
+        if ($null -ne $v) { [void]$sec.Add((N $f $v 5)) }
+      }
+
+      # Almost every physical object has a weight, even if it is a tenth of a pound, and a
+      # weightless one silently breaks encumbrance for whoever carries it.
+      $iwt = if ($imeta.weight) { [double]$imeta.weight } elseif ($srdRec -and $srdRec.SelectSingleNode('weight')) { [double]$srdRec.SelectSingleNode('weight').InnerText } else { 0 }
+      if ($iwt -le 0) { Warn "$($doc.file): '$iname' has no weight $em give it one, even a fraction" }
+
+      # The failure this whole lookup exists to prevent: a weapon that rolls nothing and
+      # armour that grants no AC when a player equips it.
+      $itype = if ($imeta.type) { [string]$imeta.type } elseif ($srdRec -and $srdRec.SelectSingleNode('type')) { $srdRec.SelectSingleNode('type').InnerText } else { '' }
+      if ($itype -eq 'Weapon' -and -not ($imeta.damage -or ($srdRec -and $srdRec.SelectSingleNode('damage')))) {
+        Warn "$($doc.file): '$iname' is a Weapon with no damage $em it will roll nothing in FG"
+      }
+      if ($itype -eq 'Armor' -and -not ($imeta.ac -or ($srdRec -and $srdRec.SelectSingleNode('ac')))) {
+        Warn "$($doc.file): '$iname' is Armor with no ac $em equipping it will do nothing"
+      }
+      [void]$sec.Add((S 'name' $iname 5))
+      if ($imeta.nonid) {
+        [void]$sec.Add((N 'isidentified' 0 5))
+        [void]$sec.Add((S 'nonid_name' ([string]$imeta.nonid) 5))
+      }
+      else { [void]$sec.Add((N 'isidentified' 1 5)) }
+      # An item's <description> is PLAYER-FACING. Anything lootable gets looted and read,
+      # so a note addressed to the GM printed here is a note the table reads out. Those
+      # belong in a story record. Catch the giveaway second-person-about-the-table voice.
+      $ibodyText = Get-Body $ibody
+      foreach ($phrase in @('the party', 'the players', 'the GM', 'show this', 'read out',
+                            'read this', 'if they kill', 'put it in their hands')) {
+        if ($ibodyText -match [regex]::Escape($phrase)) {
+          Warn "$($doc.file): '$iname' description says '$phrase' $em item descriptions are player-facing; move GM notes to fg/story/"
+          break
+        }
+      }
+      [void]$sec.Add("`t`t`t`t`t<description type=""formattedtext"">")
+      if (-not $ibodyText.Trim() -and $srdRec -and $srdRec.SelectSingleNode('description')) {
+        # Ordinary gear off the shelf: let the SRD's own rules text through rather than
+        # shipping a blank description. A parcel item is written in the chronicle's voice
+        # and overrides this; a shop stocking forty mundane things should not need forty
+        # invented paragraphs, and the buyer wants the rule anyway.
+        foreach ($ln in ($srdRec.SelectSingleNode('description').InnerXml -split "`n")) {
+          [void]$sec.Add("`t`t`t`t`t`t" + $ln.Trim())
+        }
+      }
+      else { [void]$sec.Add((ConvertTo-FormattedText $ibodyText 6)) }
+      [void]$sec.Add("`t`t`t`t`t</description>")
+      [void]$sec.Add("`t`t`t`t</$slot>")
+    }
+}
+
 # ---------------------------------------------------------------- <treasureparcels>
 
 if ($parcels.Count) {
@@ -999,81 +1093,62 @@ if ($parcels.Count) {
     }
     [void]$sec.Add("`t`t`t</coinlist>")
     [void]$sec.Add("`t`t`t<itemlist>")
-    $ii = 0
-    $itemsPart = ([regex]::Match($p.raw, '(?ms)^##\s+Items\s*$(.*)')).Groups[1].Value
-    foreach ($itemSec in [regex]::Matches($itemsPart, '(?ms)^###\s+(.*?)\s*$(.*?)(?=^###\s|\z)')) {
-      $ii++
-      $iname = $itemSec.Groups[1].Value.Trim()
-      $ibody = $itemSec.Groups[2].Value
-      $imeta = Get-Meta $ibody
-      $slot = 'id-{0:D5}' -f $ii
-      [void]$sec.Add("`t`t`t`t<$slot>")
-      [void]$sec.Add((N 'carried' 1 5))
-      [void]$sec.Add((N 'count' $(if ($imeta.count) { [int]$imeta.count } else { 1 }) 5))
-
-      # Copy the real SRD record's fields, then let the markdown override any of them.
-      # `srd:` names the record to look up when the item is called something else in the
-      # fiction; `srd: none` opts a genuinely invented item out of the lookup.
-      $srdName = if ($imeta.srd) { [string]$imeta.srd } else { $iname }
-      $srdRec = $null
-      if ($srdName -ne 'none') {
-        $key = ($srdName -replace '[^a-zA-Z0-9]', '').ToLower()
-        $idx = Get-ItemIndex
-        if ($idx.ContainsKey($key)) { $srdRec = $idx[$key] }
-        elseif ($imeta.srd) { Warn "$($p.file): no SRD item called '$srdName' for $em $iname" }
-      }
-      foreach ($f in $itemStrFields) {
-        $v = if ($imeta.$f) { [string]$imeta.$f } elseif ($srdRec) { $srdRec.SelectSingleNode($f).InnerText } else { $null }
-        if ($v) { [void]$sec.Add((S $f $v 5)) }
-      }
-      foreach ($f in $itemNumFields) {
-        $v = $null
-        if ($imeta.$f) { $v = [double]$imeta.$f }
-        elseif ($srdRec -and $srdRec.SelectSingleNode($f)) { $v = [double]$srdRec.SelectSingleNode($f).InnerText }
-        if ($null -ne $v) { [void]$sec.Add((N $f $v 5)) }
-      }
-
-      # Almost every physical object has a weight, even if it is a tenth of a pound, and a
-      # weightless one silently breaks encumbrance for whoever carries it.
-      $iwt = if ($imeta.weight) { [double]$imeta.weight } elseif ($srdRec -and $srdRec.SelectSingleNode('weight')) { [double]$srdRec.SelectSingleNode('weight').InnerText } else { 0 }
-      if ($iwt -le 0) { Warn "$($p.file): '$iname' has no weight $em give it one, even a fraction" }
-
-      # The failure this whole lookup exists to prevent: a weapon that rolls nothing and
-      # armour that grants no AC when a player equips it.
-      $itype = if ($imeta.type) { [string]$imeta.type } elseif ($srdRec -and $srdRec.SelectSingleNode('type')) { $srdRec.SelectSingleNode('type').InnerText } else { '' }
-      if ($itype -eq 'Weapon' -and -not ($imeta.damage -or ($srdRec -and $srdRec.SelectSingleNode('damage')))) {
-        Warn "$($p.file): '$iname' is a Weapon with no damage $em it will roll nothing in FG"
-      }
-      if ($itype -eq 'Armor' -and -not ($imeta.ac -or ($srdRec -and $srdRec.SelectSingleNode('ac')))) {
-        Warn "$($p.file): '$iname' is Armor with no ac $em equipping it will do nothing"
-      }
-      [void]$sec.Add((S 'name' $iname 5))
-      if ($imeta.nonid) {
-        [void]$sec.Add((N 'isidentified' 0 5))
-        [void]$sec.Add((S 'nonid_name' ([string]$imeta.nonid) 5))
-      }
-      else { [void]$sec.Add((N 'isidentified' 1 5)) }
-      # An item's <description> is PLAYER-FACING. Anything lootable gets looted and read,
-      # so a note addressed to the GM printed here is a note the table reads out. Those
-      # belong in a story record. Catch the giveaway second-person-about-the-table voice.
-      $ibodyText = Get-Body $ibody
-      foreach ($phrase in @('the party', 'the players', 'the GM', 'show this', 'read out',
-                            'read this', 'if they kill', 'put it in their hands')) {
-        if ($ibodyText -match [regex]::Escape($phrase)) {
-          Warn "$($p.file): '$iname' description says '$phrase' $em item descriptions are player-facing; move GM notes to fg/story/"
-          break
-        }
-      }
-      [void]$sec.Add("`t`t`t`t`t<description type=""formattedtext"">")
-      [void]$sec.Add((ConvertTo-FormattedText $ibodyText 6))
-      [void]$sec.Add("`t`t`t`t`t</description>")
-      [void]$sec.Add("`t`t`t`t</$slot>")
-    }
+    Add-ItemEntries $p $sec
     [void]$sec.Add("`t`t`t</itemlist>")
     [void]$sec.Add((S 'name' $p.title 3))
     [void]$sec.Add("`t`t</$($p.id)>")
   }
   Add-Section 'treasureparcels' 'Treasure' $sec
+}
+
+# ---------------------------------------------------------------- <MKshops>
+#
+# Shops are NOT a CoreRPG record type. They come from the Shops.ext extension, which
+# registers recordtype "MKshops" with aDataMap {"MKshops", "reference.MKshops"} and a
+# window class of the same name. So the node, the recordtype and the class all agree here,
+# which is the exception rather than the rule - but the whole section is inert in a
+# campaign that does not load Shops.ext, and that is worth saying out loud rather than
+# discovering as an empty window.
+#
+# The record's shape is copied from the three shops in the live Wrath of the Righteous
+# campaign: coinlist (the shop's own float), encumbrance, locked, markup, name, notes and
+# shopitemlist. `markup` is a multiplier on the listed price - Kenabres runs 0.75, ruined
+# Drezen 1.0, recovering Drezen 1.2.
+if ($shops.Count) {
+  $sec = New-Object System.Collections.ArrayList
+  foreach ($sh in $shops) {
+    [void]$sec.Add("`t`t<$($sh.id)>")
+    [void]$sec.Add("`t`t`t<coinlist>")
+    $ci = 0
+    foreach ($denom in @('PP', 'GP', 'SP', 'CP')) {
+      $ci++
+      $amt = 0
+      $m = [regex]::Match($sh.raw, "(?m)^\s*[-*]\s*([\d,]+)\s+$denom\s*$")
+      if ($m.Success) { $amt = [int]($m.Groups[1].Value -replace ',', '') }
+      $slot = 'id-{0:D5}' -f $ci
+      [void]$sec.Add("`t`t`t`t<$slot>")
+      [void]$sec.Add((N 'amount' $amt 5))
+      [void]$sec.Add((S 'description' $denom 5))
+      [void]$sec.Add("`t`t`t`t</$slot>")
+    }
+    [void]$sec.Add("`t`t`t</coinlist>")
+    [void]$sec.Add("`t`t`t<encumbrance>")
+    [void]$sec.Add((N 'load' 0 4))
+    [void]$sec.Add("`t`t`t</encumbrance>")
+    [void]$sec.Add((N 'locked' 0 3))
+    $mk = if ($sh.meta.markup) { [double]$sh.meta.markup } else { 1 }
+    if ($mk -le 0) { Warn "$($sh.file): markup $mk $em a shop with no markup prices everything at nothing" }
+    [void]$sec.Add((N 'markup' $mk 3))
+    [void]$sec.Add((S 'name' $sh.title 3))
+    [void]$sec.Add("`t`t`t<notes type=""formattedtext"">")
+    [void]$sec.Add((ConvertTo-FormattedText $sh.body 4))
+    [void]$sec.Add("`t`t`t</notes>")
+    [void]$sec.Add("`t`t`t<shopitemlist>")
+    Add-ItemEntries $sh $sec -shop
+    [void]$sec.Add("`t`t`t</shopitemlist>")
+    [void]$sec.Add("`t`t</$($sh.id)>")
+  }
+  Add-Section 'MKshops' 'Shops' $sec
 }
 
 # ---------------------------------------------------------------- <quest>
@@ -1354,6 +1429,10 @@ $entries = [ordered]@{
   abilities = @('Special Abilities', 'specialability')
   maps      = @('Maps & Portraits', 'image')
 }
+# Only listed when there is a shop to list: the entry is dead weight in a campaign without
+# Shops.ext, and an entry pointing at a recordtype the ruleset has never heard of opens an
+# empty window rather than saying why.
+if ($shops.Count) { $entries['shops'] = @('Shops', 'MKshops') }
 if ($bookpages.Count) {
   [void]$xml.Add("`t`t`t`t<story_book>")
   [void]$xml.Add("`t`t`t`t`t<librarylink type=""windowreference"">")
@@ -1511,6 +1590,7 @@ Write-Host ''
 Write-Host "Built $mod" -ForegroundColor Green
 Write-Host ("  npcs {0}  encounters {1}  parcels {2}  quests {3}  maps {4}/{5}  story {6}  art {7}" -f `
     $npcs.Count, $encounters.Count, $parcels.Count, $quests.Count, $mapsIncluded, $maps.Count, $stories.Count, $artCount)
+Write-Host ("  shops {0}" -f $shops.Count)
 Write-Host ("  abilities {0}  book pages {1}" -f $abilities.Count, $bookCount)
 if ($warns.Count) { Write-Host ("  {0} warning(s) above" -f $warns.Count) -ForegroundColor Yellow }
 

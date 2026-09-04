@@ -225,6 +225,30 @@ TODO.
 
 TODO: say out loud what is permanently different afterwards.
 """ % (name, i, a.order or '1')
+    elif kind == 'shop':
+        text = """# %s
+
+<!-- id: %s -->
+<!-- markup: %s -->
+
+TODO: what the place is and who runs it. Markup is a multiplier on the listed price -
+Kenabres runs 0.75, ruined Drezen 1.0, recovering Drezen 1.2.
+
+NOTE: shops come from the Shops.ext extension, not from CoreRPG. The section is inert in a
+campaign that does not load it.
+
+## Coin
+
+- 0 GP
+
+## Items
+
+### TODO
+<!-- count: 1 -->
+
+Leave an SRD item's body EMPTY and its own rules text is used. Write a body only for
+something invented, or to override the book.
+""" % (name, i, a.markup or '1')
     elif kind == 'quest':
         text = """# %s
 
@@ -270,7 +294,7 @@ Check the result with `python fg/verify.py --map %s`.
 
     folder = {'encounter': 'encounters', 'ability': 'abilities',
               'parcel': 'parcels', 'story': 'story', 'map': 'maps',
-              'quest': 'quests'}[kind]
+              'quest': 'quests', 'shop': 'shops'}[kind]
     made, skipped = [], []
     write(os.path.join(HERE, folder, slug + '.md'), text, made, skipped)
     return made, skipped, []
@@ -278,13 +302,13 @@ Check the result with `python fg/verify.py --map %s`.
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('kind', choices=('npc', 'encounter', 'ability', 'parcel', 'story', 'map', 'quest'))
+    ap.add_argument('kind', choices=('npc', 'encounter', 'ability', 'parcel', 'story', 'map', 'quest', 'shop'))
     ap.add_argument('slug', help='file name without .md, e.g. corwin-skell')
     ap.add_argument('--name', help='display name (default: the slug, title-cased)')
     ap.add_argument('--cr'), ap.add_argument('--xp')
     ap.add_argument('--type'), ap.add_argument('--subtype'), ap.add_argument('--alignment')
     ap.add_argument('--map'), ap.add_argument('--level'), ap.add_argument('--order')
-    ap.add_argument('--image')
+    ap.add_argument('--image'), ap.add_argument('--markup')
     ap.add_argument('--no-parcel', action='store_true', help='npc: skip the gear parcel')
     a = ap.parse_args()
 

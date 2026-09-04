@@ -689,6 +689,46 @@ kill, and no more than one of them should be the job the party was actually hire
 Check the arithmetic against the medium track before writing the numbers down, and **say in the
 book what the total does** — whether it levels the party or deliberately stops short.
 
+### Shops — `fg/shops/*.md`
+
+**Shops are not a CoreRPG record type.** They come from the **`Shops.ext`** extension, which
+registers recordtype **`MKshops`** with `aDataMap {"MKshops", "reference.MKshops"}` and a window
+class of the same name — so node, recordtype and class all agree here, which is the exception
+rather than the rule. The section is **inert in a campaign that does not load `Shops.ext`**; check
+`campaigns/<name>/extensionstate.xml` for `<extension name="Shops" />` before promising it works.
+
+```markdown
+<!-- id: lupenors_counter -->
+<!-- markup: 1.2 -->
+
+## Coin
+
+- 400 GP
+
+## Items
+
+### Chain shirt
+<!-- count: 2 -->
+```
+
+The record's shape is copied from the three shops in the live Wrath of the Righteous campaign:
+`coinlist` (the shop's own float), `encumbrance`, `locked`, `markup`, `name`, `notes`,
+`shopitemlist`. **`markup` is a multiplier on the listed price** — Kenabres runs 0.75, ruined
+Drezen 1.0, recovering Drezen 1.2.
+
+**Items are the same markdown as a parcel's**, and the same code emits both — `Add-ItemEntries`,
+with `<itemlist>` for a parcel and `<shopitemlist>` for a shop. Two differences: shop stock is not
+`carried` by anyone, and it carries `cartCount` / `excludedFromPurchase` / `locked` for the buying
+UI.
+
+**Leave an SRD item's body empty and the SRD's own rules text becomes its description.** A parcel
+item is written in the chronicle's voice and overrides that; a shop stocking forty mundane things
+should not need forty invented paragraphs, and a buyer wants the rule anyway. Write a body only
+for something invented, or to override the book.
+
+The weight warning fires on items the book itself lists as "—" (a candle, flint and steel, a
+wooden holy symbol). Give them a fraction anyway: weightless is what breaks encumbrance.
+
 ### Maps — `fg/maps/*.md`
 
 ```markdown
