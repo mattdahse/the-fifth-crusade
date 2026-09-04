@@ -60,11 +60,11 @@ dead and the party is standing between him and the sealed room.
 **Ysolde will not deal**, because she believes the hive is hers and Corwin is a thief. She is
 wrong about the first part in a way that gets people killed.
 
-> **The shape to run for.** A party that walks in swinging fights six people at once and probably
-> loses. A party that talks fights three, then three, on ground of its own choosing — and a party
-> that is *clever* gets the two factions to fight each other and walks into the sealed room while
-> it happens. All three are good sessions. Make sure the first one is clearly a choice and not an
-> ambush.
+**The shape to run for.** A party that walks in swinging fights six people at once and probably
+loses. A party that talks fights three, then three, on ground of its own choosing — and a party
+that is *clever* gets the two factions to fight each other and walks into the sealed room while
+it happens. All three are good sessions. Make sure the first one is clearly a choice and not an
+ambush.
 
 ## The building
 

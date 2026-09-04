@@ -23,4 +23,5 @@ officer writing a name in a book. **This is what the cell was actually for.**
 **Finding and mapping the route is worth 400 XP**, and it is the piece of intel Mira did not know
 she was buying.
 
+@link quest: the_cliff_route | Award: the cliff route (400 XP)
 @link parcel: the_scrapyard_intel | What they came for

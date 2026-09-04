@@ -36,6 +36,7 @@ python fg/new.py npc corwin-skell --name "Corwin Skell" --cr 1
 python fg/new.py encounter the-locust-sworn --name "The Locust-Sworn" --map manor
 python fg/new.py ability grab --name "Grab (Ex)"
 python fg/new.py map the-manor --image images/the-manor.webp
+python fg/new.py quest the-dolvans-alive --name "The Dolvans Alive" --xp 800
 ```
 
 `new.py` stamps every marker, the section headings the conventions ask for, and the cross-links,
@@ -633,6 +634,29 @@ written down next to it, in the room's book page rather than on the item:
 Write the alternative route every time. A DC with no second path is a wall; a DC with a key, a
 prisoner who will talk, or ten loud minutes behind it is a choice.
 
+### Quests — `fg/quests/*.md`
+
+A quest record carries `<xp type="number">`, and **FG awards it when the GM drags the record onto
+the party sheet**. That is the whole reason to have them, and it dictates the shape: **one quest
+per objective, not one per adventure.** Matt's own campaign does it this way — *Defeat Tiefling
+Army, 600* and *Establish Outpost, 10,000* are separate records — because the objectives are
+earned at different moments and a single lump sum cannot be handed out in pieces.
+
+So an adventure's briefing quest carries `xp: 0` and links the awards; each award is its own
+record with its own XP, its own **Completion** section saying exactly what has to be true, and a
+link from the room page where it is decided:
+
+```markdown
+<!-- id: the_dolvans_alive -->
+<!-- level: 1 -->
+<!-- giver: Mira Thistledance -->
+<!-- xp: 800 -->
+```
+
+**Wherever a page says a thing is worth XP, link the quest that pays it.** A number in prose is
+something the GM has to remember and then award by hand; a link is something they drag. Scaffold
+them — `python fg/new.py quest the-dolvans-alive --name "..." --xp 800`.
+
 ### Maps — `fg/maps/*.md`
 
 ```markdown
@@ -729,6 +753,18 @@ an emphasis span that straddles a line break permanently open.)
 | `## Heading` | `<h>` |
 | `- item` | `<list><li>` |
 | `> quote` | `<frame>` — FG's boxed read-aloud text |
+
+**`>` is read-aloud, and read-aloud is player-facing.** `<frame>` is the speech-bubble box a
+published adventure uses for the text the GM reads out, and **CoreRPG defines exactly one frame** —
+there is no GM-note variant to move to. So a `>` block holding advice about how to run the scene
+is advice in a box that looks like it should be read to the table, which is how *"Put the tokens
+down and do not spring them"* ended up framed on the children's-room page.
+
+Read-aloud is **what the players perceive**, in the present tense. It does not say *the party*, it
+does not cite XP, and it does not tell anyone how to run anything. GM advice is a **plain
+paragraph with a bold lead-in** — that is already how the rest of these pages read, and it is
+visually distinct enough without a frame. The build **warns** when GM voice appears inside a `>`
+block.
 | `**bold**` / `*italic*` | `<b>` / `<i>` |
 
 The build parses the generated `db.xml` as XML before packaging and throws if it is malformed —

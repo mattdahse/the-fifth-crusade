@@ -12,8 +12,10 @@ initiative order until they drop. This is why the initiates
 cross with torches, quickly, in pairs - a party that noticed how they moved has been told what is
 coming.
 
-> Run it as **two waves of three**. All six at once on a 1st-level party is a slaughter. It is the
-> same 2,400 XP either way and it is the difference between a set piece and a wipe.
+**Run it as two waves of three.** All six at once on a 1st-level party is a slaughter. Three drop
+as the party reaches the middle; the other three come when the fight is loud enough, or when the
+party is halfway to the far side. It is the same 2,400 XP either way and it is the difference
+between a set piece and a wipe.
 
 **Blindsight 90 ft. means putting the lantern out helps them, not the party.** Say so the first
 time somebody reaches for it.

@@ -5,6 +5,7 @@
     python fg/new.py ability grab --name "Grab (Ex)"
     python fg/new.py parcel gear-corwin-skell --name "Gear: Corwin Skell"
     python fg/new.py story the-manor --name "The Sarkorian Manor"
+    python fg/new.py quest the-dolvans-alive --name "The Dolvans Alive" --xp 800
     python fg/new.py map the-manor --name "The Sarkorian Manor" --image images/the-manor.webp
 
 Writes the file (or, for an NPC, the whole set of them) with every marker filled in and
@@ -224,6 +225,26 @@ TODO.
 
 TODO: say out loud what is permanently different afterwards.
 """ % (name, i, a.order or '1')
+    elif kind == 'quest':
+        text = """# %s
+
+<!-- id: %s -->
+<!-- level: %s -->
+<!-- giver: TODO -->
+<!-- xp: %s -->
+
+TODO: what the party is being asked for, in a sentence, in the giver's voice.
+
+## Terms
+
+- TODO: what they are paid, and by whom.
+
+## Completion
+
+TODO: exactly what has to be true for this to be earned. Be specific enough that the GM
+can tell at the table, because this record gets dragged onto the party sheet the moment
+it is - that is what the xp marker is for.
+""" % (name, i, a.level or '1', a.xp or '0')
     elif kind == 'map':
         text = """# %s
 
@@ -248,7 +269,8 @@ Check the result with `python fg/verify.py --map %s`.
         sys.exit('unknown kind: ' + kind)
 
     folder = {'encounter': 'encounters', 'ability': 'abilities',
-              'parcel': 'parcels', 'story': 'story', 'map': 'maps'}[kind]
+              'parcel': 'parcels', 'story': 'story', 'map': 'maps',
+              'quest': 'quests'}[kind]
     made, skipped = [], []
     write(os.path.join(HERE, folder, slug + '.md'), text, made, skipped)
     return made, skipped, []
@@ -256,7 +278,7 @@ Check the result with `python fg/verify.py --map %s`.
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('kind', choices=('npc', 'encounter', 'ability', 'parcel', 'story', 'map'))
+    ap.add_argument('kind', choices=('npc', 'encounter', 'ability', 'parcel', 'story', 'map', 'quest'))
     ap.add_argument('slug', help='file name without .md, e.g. corwin-skell')
     ap.add_argument('--name', help='display name (default: the slug, title-cased)')
     ap.add_argument('--cr'), ap.add_argument('--xp')

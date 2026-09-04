@@ -17,8 +17,11 @@ cost the party can see before committing.
 Sera moves to the crib every round and drags Corin with her. Corin bolts, badly. The baby does not
 move at all. **Controlling this room costs actions**, and spending them is the correct play.
 
-> Put the tokens down the moment the party can see in, and do not spring them. Information given
-> early makes a choice; information given afterwards is a punishment.
+**Put the tokens down the moment the party can see in, and do not spring them.** Information
+given early makes a choice; information given afterwards is a punishment.
 
 **Alia and all three children taken out alive is worth 800 XP** - the largest single award in the
-adventure, and deliberately so.
+adventure, and deliberately so. The award is its own quest record, so it can go onto the party
+sheet the moment they walk out of Cinder Row with four prisoners breathing.
+
+@link quest: the_dolvans_alive | Award: the Dolvans taken alive (800 XP)

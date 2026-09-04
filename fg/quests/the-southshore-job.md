@@ -3,7 +3,7 @@
 <!-- id: southshore_job -->
 <!-- level: 1 -->
 <!-- giver: Mira Thistledance -->
-<!-- xp: 2200 -->
+<!-- xp: 0 -->
 
 **Mira Thistledance** has a scrap dealer's yard in the Southshore watched, and she wants it taken
 apart tonight by people who do not work for her.
@@ -34,9 +34,17 @@ She is straight about most of it and quiet about that part.
 ## The experience
 
 **This job is written to take four 1st-level characters to 2nd on the medium track — 2,000 XP
-each, 8,000 across the party.** The itemised awards are in
-[the adventure text](../story/the-southshore-job.md); the total on this record is the
-**objective** portion only, and the rest is earned in the four encounters.
+each, 8,000 across the party.** 5,800 of that is the four encounters and 2,200 is the objectives.
+
+**This record carries no XP of its own.** Each objective is its own quest so that it can be
+dragged onto the party sheet at the moment it is actually earned, which is the whole reason to
+split them - the Dolvans are decided in the first ten minutes of the house and the cliff route is
+decided an hour later.
+
+@link quest: intel_to_mira | The intel delivered (800 XP)
+@link quest: the_dolvans_alive | The Dolvans taken alive (800 XP)
+@link quest: the_cliff_route | The cliff route (400 XP)
+@link quest: the_yard_watched | The yard watched first (200 XP)
 
 ## Completion
 

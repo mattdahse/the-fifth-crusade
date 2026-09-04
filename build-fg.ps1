@@ -590,6 +590,25 @@ function ConvertTo-FormattedText([string]$md, [int]$indent) {
       Warn "ambiguous *** emphasis $em split the bold and the italic: $($j.Substring(0, [Math]::Min(90, $j.Length)))"
     }
   }
+  # A `>` block is NOT a generic quote. FG renders <frame> as the speech-bubble box that
+  # published adventures use for READ-ALOUD text, so anything in one is addressed to the
+  # players. There is no GM-note frame to move to - CoreRPG defines one frame and that is
+  # it - so GM advice in a `>` block is GM advice in a box the table reads out loud.
+  # Catch the tell: read-aloud is what the players see, in the second person. It does not
+  # say "the party", it does not cite XP, and it does not tell anyone how to run anything.
+  foreach ($blk in ($md -split "`n`n")) {
+    if ($blk -notmatch '(?m)^\s*>') { continue }
+    $btxt = (($blk -split "`n" | ForEach-Object { $_ -replace '^\s*>\s?', '' }) -join ' ')
+    foreach ($phrase in @('party', 'the players', 'the GM', 'run it as', 'XP',
+                          'award it', 'do not spring', 'at the table', '1st-level',
+                          '2nd-level', 'the fight is', 'roll initiative', 'the session',
+                          'good sessions', 'a check', 'DC ')) {
+      if ($btxt -match [regex]::Escape($phrase)) {
+        Warn "GM voice inside a read-aloud frame $em '$phrase'; FG boxes this for the players: $($btxt.Substring(0, [Math]::Min(70, $btxt.Length)))"
+        break
+      }
+    }
+  }
   # An @link only becomes a link when it is its own block - FG has no inline link, and a
   # paragraph that mentions one silently loses it. Silently is the problem, so say so.
   foreach ($ln in ($md -split "`n")) {
