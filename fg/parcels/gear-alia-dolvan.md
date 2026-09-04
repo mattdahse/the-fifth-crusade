@@ -30,7 +30,7 @@ in her hand because it was the nearest thing to the door, not because she meant 
 <!-- count: 1 -->
 <!-- type: Gear -->
 <!-- cost: 0 gp -->
-<!-- weight: 0 -->
+<!-- weight: 0.5 -->
 
 Four iron keys on a loop of cord: the shop, the yard gate, the strongbox under the counter, and
 one small one that opens nothing anybody has found yet.
@@ -40,6 +40,6 @@ one small one that opens nothing anybody has found yet.
 <!-- count: 1 -->
 <!-- type: Gear -->
 <!-- cost: 0 gp -->
-<!-- weight: 0 -->
+<!-- weight: 0.1 -->
 
 Polished smooth. In her apron pocket, where she put it when the shouting started.

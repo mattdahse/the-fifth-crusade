@@ -30,10 +30,9 @@ Kept behind the shop counter, where a scrap dealer keeps one.
 <!-- count: 1 -->
 <!-- type: Gear -->
 <!-- cost: 0 gp -->
-<!-- weight: 0 -->
+<!-- weight: 0.1 -->
 
-Worn on a thong round his neck rather than with the others, which is the tell that the box under
-the counter is worth opening.
+A small flat iron key on a leather thong, worn to carry against the skin rather than on a ring.
 
 ### Hooked Labyrinth Token
 <!-- srd: none -->

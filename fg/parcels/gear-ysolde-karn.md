@@ -57,7 +57,7 @@ never thrown it at anyone and will not start now.
 <!-- count: 1 -->
 <!-- type: Gear -->
 <!-- cost: 0 gp -->
-<!-- weight: 0 -->
+<!-- weight: 0.1 -->
 <!-- nonid: A folded square of vellum, much handled -->
 
 Nineteen names in a careful hand. **Eleven are struck through.** Nobody has been added in a long

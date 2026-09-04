@@ -29,9 +29,7 @@ Too big for him. It was somebody else's first.
 <!-- count: 1 -->
 <!-- type: Gear -->
 <!-- cost: 0 gp -->
-<!-- weight: 0 -->
+<!-- weight: 0.1 -->
 <!-- nonid: A stamped tin disc on a cord, much rubbed -->
 
-A relief token from Drezen's outer wards, stamped this season — the kind handed out for a bread
-ration in the weeks after the city changed hands, when the queue was longer than the bread. Tin,
-worthless, and already rubbed shiny at the edges from being carried every day since.
+A stamped tin disc on a cord, good for a bread ration in Drezen's outer wards. Worthless as metal and rubbed shiny at the edges.

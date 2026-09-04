@@ -968,6 +968,11 @@ if ($parcels.Count) {
         if ($null -ne $v) { [void]$sec.Add((N $f $v 5)) }
       }
 
+      # Almost every physical object has a weight, even if it is a tenth of a pound, and a
+      # weightless one silently breaks encumbrance for whoever carries it.
+      $iwt = if ($imeta.weight) { [double]$imeta.weight } elseif ($srdRec -and $srdRec.SelectSingleNode('weight')) { [double]$srdRec.SelectSingleNode('weight').InnerText } else { 0 }
+      if ($iwt -le 0) { Warn "$($p.file): '$iname' has no weight $em give it one, even a fraction" }
+
       # The failure this whole lookup exists to prevent: a weapon that rolls nothing and
       # armour that grants no AC when a player equips it.
       $itype = if ($imeta.type) { [string]$imeta.type } elseif ($srdRec -and $srdRec.SelectSingleNode('type')) { $srdRec.SelectSingleNode('type').InnerText } else { '' }

@@ -25,8 +25,7 @@ yard reads as scenery and it is not.
 <!-- cost: 306 gp -->
 <!-- properties: masterwork (+1 on attack rolls) -->
 
-Too good for this yard, and old. The haft has been replaced twice and the head has a maker's mark
-under the rust that is not a Drezen mark.
+A well-balanced handaxe, old, the haft replaced more than once. Under the rust on the head is a maker's mark.
 
 ### Scrap Dealer's Weights
 <!-- srd: none -->
@@ -36,20 +35,14 @@ under the rust that is not a Drezen mark.
 <!-- weight: 6 -->
 <!-- nonid: A nested set of brass weights in a fitted case -->
 
-A full set, honest and finely made, which is worth real money to anyone who buys and sells by
-weight. And a second set of three in the lid, filed light, for when the seller is not looking.
+A nested set of brass weights in a fitted wooden case, honest and finely made. Three more weights sit in the lid, the same sizes, filed light.
 
 ### Bundle of Letters
 <!-- srd: none -->
 <!-- count: 1 -->
 <!-- type: Gear -->
 <!-- cost: 0 gp -->
-<!-- weight: 0 -->
+<!-- weight: 0.3 -->
 <!-- nonid: Nine letters tied with cord, the top one water-stained -->
 
-Nine letters in the same hand, none of them signed, all of them instructions: what to hold, what
-to pass on, which nights to keep the yard clear. The last is three weeks old and says only that
-the counting is finished and to expect people.
-
-**Somebody warned this house that it was coming**, three weeks before Mira ever put a watcher on
-the street.
+Nine letters on cheap paper, tied with cord, none of them signed. The top sheet is water-stained. Every one is a short set of instructions in the same square hand.

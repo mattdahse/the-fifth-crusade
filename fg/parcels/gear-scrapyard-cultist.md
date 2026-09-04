@@ -37,7 +37,7 @@ owns one and none of them thinks of it as a weapon until it is.
 <!-- count: 1 -->
 <!-- type: Gear -->
 <!-- cost: 0 gp -->
-<!-- weight: 0 -->
+<!-- weight: 0.1 -->
 
 A wooden token good for a loaf at the Southshore bakehouse, dated this week. He was going to
 collect it tomorrow.

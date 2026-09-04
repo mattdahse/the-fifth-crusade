@@ -594,6 +594,45 @@ file's own body text is repository documentation and never reaches FG either way
 The item field that *does* control what a player sees is `nonid:`, which hides the real name until
 they identify it. Use that for concealment rather than writing the concealment into the prose.
 
+**A description travels with the object, so it describes the object.** What it is, what it is made
+of, what state it is in. Not how many of them there were, not where they were found, not who owned
+it or what that implies — the parcel splits into separate items on a sheet and the second potion
+does not know it had a twin. So this is wrong:
+
+> *Two of them, wrapped in rag so they would not knock together. Not cult supplies — these are the
+> kind a man keeps for his family.*
+
+and this is right:
+
+> *A stoppered glass vial of cloudy red liquid, about two swallows, wrapped in a strip of rag.*
+
+**The flavour is not thrown away, it is moved** into a `>` read-aloud block on the room's book
+page, where it is said once, at the moment the box is opened, by the person who should be saying
+it. Provenance is a property of the scene, not of the thing.
+
+**Almost everything has weight**, including a key (0.1) and a folded paper (0.1). A weightless item
+silently breaks encumbrance for whoever picks it up, so the build **warns** on any item that ends
+with no weight from either the markdown or the SRD. Fractions are fine and are usually the answer.
+
+### If a thing can be found, opened, or broken, it has a DC
+
+A room page that says *there is a hidden compartment* and stops has handed the GM a ruling to
+invent at the table. Every object in the fiction that a player can interact with gets its numbers
+written down next to it, in the room's book page rather than on the item:
+
+- **Hidden** — a Perception DC, and usually a *second, lower* one for a party that has already
+  earned a reason to look. Hesk's neck key makes the counter board DC 12 instead of DC 18.
+- **Locked** — a Disable Device DC. Say where the key is in the same breath, because a DC 30 lock
+  on a 1st-level adventure is a signpost to the key and not a puzzle.
+- **Breakable** — hardness, hit points, and a Break DC. Also say **how loud it is and how long it
+  takes**, which is the part that actually makes forcing it a decision.
+- **Blocked or heavy** — a Strength DC, whether two characters can help, and what a tool is worth.
+- **Creatures and hazards** — the CMD to escape a grapple, the Handle Animal DC to quiet a dog,
+  the Climb DC and the height of the fall.
+
+Write the alternative route every time. A DC with no second path is a wall; a DC with a key, a
+prisoner who will talk, or ten loud minutes behind it is a choice.
+
 ### Maps — `fg/maps/*.md`
 
 ```markdown

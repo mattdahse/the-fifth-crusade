@@ -41,6 +41,7 @@ a pinch. **Tobias Runt** would want to see it, and would say so at length.
 <!-- type: Gear -->
 <!-- cost: 0 -->
 <!-- nonid: A water-swollen book of tallies -->
+<!-- weight: 3 -->
 
 Three months of tallies in a clerk's hand: how many passed through, going which way, carrying
 what. The last four entries are in a different hand and count crusader patrols. Then it stops,

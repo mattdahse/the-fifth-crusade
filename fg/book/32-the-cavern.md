@@ -18,5 +18,12 @@ coming.
 **Blindsight 90 ft. means putting the lantern out helps them, not the party.** Say so the first
 time somebody reaches for it.
 
+- **Perception DC 20** to spot one before it drops — they hang still against the rock and have
+  **Stealth +10**. A character who thinks to look *up* gets a **+5 circumstance bonus**, and
+  telling them that only after they ask is the whole game here.
+- **Escape Artist or grapple vs. CMD 13** to get out of one, and **Constrict 1d4+4 automatic**
+  every round they do not.
+- The stalagmites are cover, not decoration: **+2 AC** to anyone fighting from behind one.
+
 @link battle: the_cavern | The cavern (encounter)
 @link ability: darkmantle_constrict | Constrict (Ex)

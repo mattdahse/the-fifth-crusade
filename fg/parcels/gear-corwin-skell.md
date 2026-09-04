@@ -42,7 +42,7 @@ recently and it has been used often, and three of the burns it made are on his o
 <!-- count: 1 -->
 <!-- type: Gear -->
 <!-- cost: 0 gp -->
-<!-- weight: 0 -->
+<!-- weight: 0.1 -->
 <!-- nonid: A folded paper, soft with handling -->
 
 A crusade discharge, eighteen months old, in the name of Corwin Skell, invalided out at Kenabres

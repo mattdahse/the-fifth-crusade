@@ -29,7 +29,7 @@ where it came from before they touch it.
 <!-- count: 1 -->
 <!-- type: Gear -->
 <!-- cost: 40 gp -->
-<!-- weight: 0 -->
+<!-- weight: 0.1 -->
 <!-- nonid: A pitted silver ring, the device eaten away -->
 
 Silver, and the device on the face has been chewed to nothing by seventy years in the wet. The
