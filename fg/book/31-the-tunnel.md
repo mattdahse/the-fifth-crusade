@@ -15,5 +15,3 @@ Four hold the narrowest stretch in single file, because that is all the width th
 at the far end and go for the rope** rather than joining.
 
 @link battle: labyrinth_tunnel | The tunnel (encounter)
-@link npc: labyrinth_initiate | Labyrinth Initiate
-@link parcel: gear_labyrinth_initiate | What is on an initiate

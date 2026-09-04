@@ -8,8 +8,7 @@ Two straw beds. **The north breach opens straight into it**, which makes it the 
 building to walk into uninvited - and the reason Corwin keeps one of his two men standing in its
 doorway rather than sleeping in it.
 
-Corwin's ground, and the boundary: the store next door is the Labyrinth's.
+Corwin's ground, and the boundary: the store next door is the Labyrinth's. Neither side has
+crossed that line in three weeks and both of them are counting the days.
 
 @link battle: locust_cell | The Locust-Sworn
-@link npc: locust_sworn | Locust-Sworn
-@link parcel: gear_locust_sworn | What is on a Locust-Sworn

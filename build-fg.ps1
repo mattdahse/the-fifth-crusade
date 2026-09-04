@@ -541,8 +541,12 @@ function Format-Inline([string]$s) {
 $linkKinds = @{
   npc     = @{ node = 'npc';             class = 'npc';            label = 'NPC' }
   battle  = @{ node = 'battle';          class = 'battle';         label = 'Encounter' }
-  parcel  = @{ node = 'treasureparcels'; class = 'treasureparcel'; label = 'Parcel' }
-  map     = @{ node = 'image';           class = 'imagewindow';    label = 'Image' }
+  # The label is what FG prints in front of the link, so it has to say what the thing IS
+  # at the table: treasure is treasure, a battlemap is a map, and only a portrait or a
+  # handout is an "image". `map` and `image` share a node and a class and differ only here.
+  parcel  = @{ node = 'treasureparcels'; class = 'treasureparcel'; label = 'Treasure' }
+  map     = @{ node = 'image';           class = 'imagewindow';    label = 'Map' }
+  image   = @{ node = 'image';           class = 'imagewindow';    label = 'Image' }
   quest   = @{ node = 'quest';           class = 'quest';          label = 'Quest' }
   story   = @{ node = 'encounter';       class = 'encounter';      label = 'Story' }
   # Poison, grab, and the rest of a monster's non-standard rules. Published bestiaries
@@ -613,7 +617,6 @@ function ConvertTo-FormattedText([string]$md, [int]$indent) {
         $id = $matches[2]
         $custom = $matches[3]
         if ($kind -eq 'encounter') { $kind = 'battle' }
-        if ($kind -eq 'image') { $kind = 'map' }
         if (-not $linkKinds.ContainsKey($kind)) { Warn "unknown link kind '$kind' in: $l"; continue }
         $k = $linkKinds[$kind]
         $title = $custom
@@ -727,7 +730,7 @@ foreach ($e in $encounters) { $linkTitles["battle:$($e.id)"] = $e.title }
 foreach ($p in $parcels)    { $linkTitles["parcel:$($p.id)"] = $p.title }
 foreach ($q in $quests)     { $linkTitles["quest:$($q.id)"] = $q.title }
 foreach ($a in $abilities)  { $linkTitles["ability:$($a.id)"] = $a.title }
-foreach ($m in $maps)       { $linkTitles["map:$($m.id)"] = $m.title }
+foreach ($m in $maps)       { $linkTitles["map:$($m.id)"] = $m.title; $linkTitles["image:$($m.id)"] = $m.title }
 foreach ($t in $stories)    { $linkTitles["story:$($t.id)"] = $t.title }
 
 $xml = New-Object System.Collections.ArrayList

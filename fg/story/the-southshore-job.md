@@ -14,6 +14,8 @@ end with everyone at 2nd level.*
 @link battle: labyrinth_tunnel | The tunnel
 @link battle: the_cavern | The cavern
 @link parcel: the_scrapyard_intel | What they came for
+@link parcel: scrapyard_strongbox | Under the shop counter
+@link parcel: yard_cache | Hidden in the yard
 @link parcel: miras_payment | What Mira pays
 
 ## Why these four
@@ -97,6 +99,35 @@ there to be a threat — they are there to be **in the way**.
 > Alia surrenders the instant the children are safe and not one second before. She is also the
 > fastest route to everything under the house — she knows about the door, the tunnel, the rope and
 > the map, and she will trade all of it.
+
+## What is worth finding, and only if they look
+
+Neither of these is on a body and neither is lying in the open.
+
+**Under the shop counter**, behind a board that looks like counter, an iron strongbox bolted
+through the floor. Hesk carries its key on a thong round his neck rather than with the house keys,
+which is the tell. It holds a scrap dealer's whole life savings, filed-down crusade silver, and
+one thing that is not his.
+
+**Under the chopping block in the yard**, which does not sit flat and never has, a tarred bundle
+in a hole lined with a barrel end. Coin, a good axe, an honest set of weights and a dishonest one -
+and nine unsigned letters, the last of them three weeks old, telling this house to expect people.
+
+**Somebody warned them, three weeks before Mira put a watcher on the street.** That is a thread for
+later and the party is not equipped to pull it yet. Let them notice it and leave it.
+
+**On the ring in the strongbox.** A *ring of feather falling* is worth more than everything else in
+this adventure put together and is well above what four 1st-level characters should be carrying.
+That is deliberate, and it is also the easiest thing here to cut — remove it and the strongbox is
+still a good find.
+
+Kept, it is a **tool rather than power**: it makes nobody harder to kill or better in a fight, it
+makes one specific cliff survivable, and the party has just found out there is a cliff. It also
+answers a question nobody asked out loud, which is what happened to whoever used that rope before
+the cult did.
+
+@link parcel: scrapyard_strongbox | Under the shop counter
+@link parcel: yard_cache | Hidden in the yard
 
 ## The undercroft
 

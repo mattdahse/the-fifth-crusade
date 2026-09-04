@@ -7,7 +7,8 @@
 Natural, irregular, far wider than the tunnel, with fallen rock and stalagmites. The cult did not
 dig it and does not like it.
 
-**Six darkmantles are on the ceiling** and have been the whole time. This is why the initiates
+**Six darkmantles are on the ceiling** and have been the whole time, and they do not appear in the
+initiative order until they drop. This is why the initiates
 cross with torches, quickly, in pairs - a party that noticed how they moved has been told what is
 coming.
 
@@ -18,5 +19,4 @@ coming.
 time somebody reaches for it.
 
 @link battle: the_cavern | The cavern (encounter)
-@link npc: darkmantle | Darkmantle
 @link ability: darkmantle_constrict | Constrict (Ex)

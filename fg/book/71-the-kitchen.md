@@ -8,7 +8,7 @@ North-west corner: brick oven, fallen shelving, and the warmest room left in the
 the two flues that the chimneys outside belong to.
 
 **The Labyrinth's ground.** Ysolde sleeps here and the post's stores are here, such as they are.
+On the alarm she does not stay in it: she falls back into the hall behind her squatters, at the
+range her *burning hands* wants.
 
 @link battle: labyrinth_post | The Labyrinth post
-@link npc: ysolde_karn | Ysolde Karn
-@link parcel: gear_ysolde_karn | What is on Ysolde

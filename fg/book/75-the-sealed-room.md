@@ -13,6 +13,5 @@ how her soldiers reach her - and it is a climb one creature wide, so anybody usi
 alone and one at a time.
 
 @link battle: young_queen | The young queen
-@link npc: fiendish_ant_queen | The Young Queen
 @link ability: call_the_brood | Call the Brood (Ex)
 @link ability: poison_ant_queen | Poison (Ex) - sting, DC 18

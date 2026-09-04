@@ -9,14 +9,14 @@ walls, heaped where the ground is warmest, are clutches of pale eggs the size of
 a great many of them.
 
 **Four soldiers**, and they start the fight already moving: two coming up the tunnel toward the
-noise, two holding the egg heaps and not leaving them.
+noise, two holding the egg heaps and not leaving them. The two on the clutch will not follow the
+party back up the tunnel, which is an exit for anyone who notices it.
 
 **This is where Ysolde's answer is.** She has fed eleven men to this hive believing it belongs to
 her. Brought down here as a prisoner she will call them off, she will mean it, and nothing will
 happen.
 
 @link battle: ant_nest | The ant nest
-@link npc: fiendish_giant_ant_soldier | Fiendish Giant Ant Soldier
 @link ability: grab | Grab (Ex)
 @link ability: poison_giant_ant | Poison (Ex) - sting, DC 14
 @link parcel: nest_midden | What is in the nest
