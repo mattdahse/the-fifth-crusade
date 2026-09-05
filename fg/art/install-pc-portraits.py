@@ -75,7 +75,7 @@ def charsheets(campaign):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--campaign', default='The Names')
+    ap.add_argument('--campaign', default='The Real Work')
     ap.add_argument('--write', action='store_true', help='actually write (default: dry run)')
     a = ap.parse_args()
 
