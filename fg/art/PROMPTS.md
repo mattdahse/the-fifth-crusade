@@ -98,6 +98,8 @@ gallery. Their likeness anchors live here instead.
 | Esper Toevel token | `tokens/esper-toevel.webp` | **done** — 512 × 512, 61 KB |
 | Jules Arine portrait | `portraits/jules-arine.webp` | **done** — 1024 × 1024, 284 KB |
 | Jules Arine token | `tokens/jules-arine.webp` | **done** — 512 × 512, 82 KB |
+| Snicker portrait | `portraits/snicker.webp` | **done** — 1024 × 1024, 203 KB |
+| Snicker token | `tokens/snicker.webp` | **done** — 512 × 512, 60 KB |
 
 ---
 
@@ -361,6 +363,41 @@ chronicle holds for Sosiel Vaenic, Shelyn's other priest.
 > oversaturated, glossy, white-and-gold vestments, a mitre, a wimple, a nun's habit, plate armour,
 > gold jewellery, copper or orange light, a beatific smile, eyes turned up to heaven, text,
 > watermark, signature, border, a frame, extra limbs, deformed hands.
+
+---
+
+## Snicker
+
+**Likeness anchors (keep constant).** A Tiny monkey, hand-sized, **ginger-brown fur going grey at
+the muzzle** — he is old, and that is the character. A long prehensile tail. Intelligent, watchful,
+entirely un-comic: he is not mugging or grinning.
+
+**He is lit with Theep's cold blue-white spell light on purpose.** A familiar should read as
+*belonging to* its master at token size, and sharing the light does that far more cleanly than
+matching his palette would. The ginger fur against that cold light is also the strongest value
+contrast available, which is what a Tiny creature needs when it is drawn at half a grid square.
+
+> THIS IS A PAINTING, NOT A PHOTOGRAPH. A traditional narrative OIL PAINTING on canvas: visible
+> directional brush strokes throughout, loaded paint and impasto in the lights, soft scumbled
+> painted edges, visible canvas weave. Every surface should read as pigment.
+>
+> Cinematic painterly fantasy illustration, semi-realistic. Square composition, a single small
+> animal centred with clear space around it and nothing important in the corners. A TINY OLD
+> MONKEY, hand-sized, with ginger-brown fur that has gone grey around the muzzle and a long
+> prehensile tail curled beside him. He is perched on a stone ledge, gripping it with both feet,
+> body low and still. His expression is alert and serious - watching something off frame with his
+> head slightly turned. Behind him a dark ruined interior in loose broad brushwork, almost black.
+> The light is COLD ACTINIC BLUE-WHITE from the lower left, as though from a spell being cast
+> nearby just out of frame, catching the rim of his fur, the grey muzzle and one bright eye, with
+> everything it does not touch falling to near black. Strong value contrast: warm ginger fur
+> against cold blue light and a near-black ground. High detail on the face and the fur.
+>
+> **Avoid:** a photograph, photorealistic rendering, photographic grain, a film still, DSLR
+> photography, lens bokeh, shallow depth-of-field blur, visible fur-by-fur hyperrealism, anime,
+> cartoon, cel-shaded, 3-D render, comic ink, flat vector, bright even lighting, oversaturated,
+> glossy, a cute or comical expression, a grinning monkey, a monkey wearing clothes, a fez, a
+> waistcoat, a collar, an organ-grinder, a gorilla, an ape, a chimpanzee, a large primate, warm
+> orange or amber firelight, text, watermark, signature, border, a frame, extra limbs.
 
 ---
 
