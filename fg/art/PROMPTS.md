@@ -100,6 +100,8 @@ gallery. Their likeness anchors live here instead.
 | Jules Arine token | `tokens/jules-arine.webp` | **done** — 512 × 512, 82 KB |
 | Snicker portrait | `portraits/snicker.webp` | **done** — 1024 × 1024, 203 KB |
 | Snicker token | `tokens/snicker.webp` | **done** — 512 × 512, 60 KB |
+| Dorogh Kell portrait | `portraits/dorogh-kell.webp` | **done** — 1024 × 1024, 217 KB, skin greyed in post |
+| Dorogh Kell token | `tokens/dorogh-kell.webp` | **done** — 512 × 512, 78 KB |
 
 ---
 
@@ -398,6 +400,71 @@ contrast available, which is what a Tiny creature needs when it is drawn at half
 > glossy, a cute or comical expression, a grinning monkey, a monkey wearing clothes, a fez, a
 > waistcoat, a collar, an organ-grinder, a gorilla, an ape, a chimpanzee, a large primate, warm
 > orange or amber firelight, text, watermark, signature, border, a frame, extra limbs.
+
+---
+
+## Dorogh Kell
+
+**Likeness anchors (keep constant).** Half-orc man, **young — early twenties**, and **noticeably
+bigger than a human**: a broad neck and heavy shoulders that crowd the frame. **More orc than human
+in the blood, and it reads**: a heavy brow, a broad jaw, **grey-green skin** greyer than Harlock's,
+**ears subtly pointed** (never round human ears — renders drift), and **two lower tusks, small and
+clean**, in Irabeth's register — present and dignified, never a brutish underbite.
+
+**Two details are the character and must always be there:**
+
+1. **Wireframe spectacles** — plain round wire, sitting small on a large face. He is an Int 18
+   fighter and this is the tell.
+2. **An OPEN-FACED steel helmet** — a plain nasal helm or open barbute. It must not hide the eyes,
+   the spectacles or the tusks, which is the whole reason for the portrait.
+
+**The expression is the hard part.** He is *attempting to look friendly*, and the attempt is
+visible. A closed-mouth smile, brows slightly raised, direct and steady eye contact, a trace of
+self-consciousness — a young man who knows exactly what people expect when they see his face and is
+trying, carefully, to head it off. **Not a grin. Not teeth. Not goofy, not cheerful, not a snarl.**
+A bared-teeth smile on a tusked face reads as caricature instantly, which is the failure mode.
+
+**His colour is bright steel and moss-grey**, warm key light on polished metal against his green-grey
+skin. **The render comes back warmer than that and needs a pass**: measured across the face it was
+r=101 g=85 b=59, red leading in every one of 1090 samples — half-orc skin under a torch is not green
+in RGB at all, it only reads green. [`edits/grey-the-skin.py`](edits/grey-the-skin.py) greys it by
+*warmth* inside a feathered ellipse over the head and neck, which leaves the steel, the glass and
+the torch alone. Run it at `--amount 0.5`; that took r-b from +43 to +23. He carries **no holy symbol and no device** — nothing at the chest — because the model reaches
+for a Christian cross on any armoured figure unprompted. See the note in
+[`../../characters/CANON.md`](../../characters/CANON.md).
+
+> THIS IS A PAINTING, NOT A PHOTOGRAPH. A traditional narrative OIL PAINTING on canvas: visible
+> directional brush strokes throughout, loaded paint and impasto in the lights, soft scumbled
+> painted edges, visible canvas weave, colour mixed on a palette rather than sampled from life.
+> Every surface should read as pigment. Render the background in looser, broader brushwork than
+> the figure.
+>
+> Cinematic painterly fantasy illustration, semi-realistic. Square composition, head-and-chest
+> portrait bust, the figure centred with clear space around the head and nothing important in the
+> corners. A YOUNG HALF-ORC MAN in his early twenties, clearly larger and broader than a human,
+> with a thick neck and heavy shoulders filling the lower frame. GREY-GREEN SKIN, a heavy brow, a
+> broad jaw, EARS SUBTLY POINTED AND TAPERED, and TWO SMALL LOWER TUSKS jutting gently upward -
+> dignified and clean, not a brutish underbite. He wears PLAIN ROUND WIREFRAME SPECTACLES, small
+> against his large face, and an OPEN-FACED STEEL HELMET - a simple nasal helm that leaves the
+> eyes, the spectacles and the mouth fully visible. Battered mail and a padded collar at his
+> shoulders; nothing at his chest, no pendant, no medallion, no holy symbol. His expression is a
+> deliberate, slightly self-conscious attempt at looking friendly: a CLOSED-MOUTH smile, brows a
+> little raised, looking directly and steadily at the viewer. Behind him a dim stone guardroom in
+> loose broad brushwork, almost lost in shadow. Lighting is a warm key from the upper left striking
+> the polished steel of the helmet and one lens of the spectacles, with everything it does not
+> touch falling to near black. Strong value contrast; dominant colours BRIGHT STEEL and MOSS-GREY
+> against near-black. High detail on the face, the spectacles and the worn metal.
+>
+> **Avoid:** round human ears, a brutish caricature, a heavy underbite, huge protruding tusks, a
+> snarl, bared teeth, an open-mouthed grin, a goofy or cheerful expression, a stupid expression, a
+> cross, a crucifix, a Latin cross, any Christian symbol, a holy symbol, a heraldic device, a
+> tabard, a full-face helm, a closed visor, a horned helmet, a winged helmet, modern glasses,
+> sunglasses, thick-rimmed glasses, an old man, a grey beard, a photograph, photorealistic
+> rendering, photoreal skin, photographic grain, a film still, DSLR photography, lens bokeh,
+> shallow depth-of-field blur, lens flare, visible skin pores, hyperreal skin texture, anime,
+> cartoon, cel-shaded, 3-D render, comic ink, flat vector, bright even lighting, oversaturated,
+> glossy, copper or orange dominant light, green wool, text, watermark, signature, border, a
+> frame, extra limbs, deformed hands.
 
 ---
 
