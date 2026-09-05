@@ -48,6 +48,7 @@ PORTRAITS = {
     'Wende Sandhauler': 'wende-sandhauler',
     'Esper Toevel': 'esper-toevel',
     'Jules Arine': 'jules-arine',
+    'Dorogh Kell': 'dorogh-kell',
 }
 SIZE = 512
 
