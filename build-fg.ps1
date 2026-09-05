@@ -1148,7 +1148,26 @@ if ($shops.Count) {
     [void]$sec.Add("`t`t`t</shopitemlist>")
     [void]$sec.Add("`t`t</$($sh.id)>")
   }
-  Add-Section 'MKshops' 'Shops' $sec
+  # DELIBERATELY NOT Add-Section: the shop does NOT go into the module.
+  #
+  # Shops.ext's MKshops window has a module-only branch in onInit:
+  #     if DB.getModule(getDatabaseNode()) ~= "" then
+  #         menubar.subwindow.locked.setVisible(false)
+  # and there is no control named `locked` in record_window_tabbed's menubar in current
+  # CoreRPG, so that line throws for every client that loads the module:
+  #     Script execution error: [string "W:MKshops"]:7: attempt to index field 'locked'
+  # It fires only for MODULE-sourced shop records, which is why nobody has hit it - a shop
+  # is normally a campaign record the GM makes in the client, and this build was the first
+  # thing to ship one. Patching someone else's extension is not ours to do and would be
+  # overwritten on their next update, so the shop is written campaign-side instead, where
+  # DB.getModule() returns "" and the broken branch never runs.
+  $shopOut = Join-Path $root 'build/shops-campaign.xml'
+  $shopXml = New-Object System.Collections.ArrayList
+  [void]$shopXml.Add("`t<MKshops>")
+  foreach ($l in $sec) { [void]$shopXml.Add($l) }
+  [void]$shopXml.Add("`t</MKshops>")
+  [IO.File]::WriteAllText($shopOut, ($shopXml -join "`n"), $utf8)
+  Write-Host "  shops -> $shopOut $em install with: python fg/shops/install-shop.py --write" -ForegroundColor DarkGray
 }
 
 # ---------------------------------------------------------------- <quest>
@@ -1429,10 +1448,8 @@ $entries = [ordered]@{
   abilities = @('Special Abilities', 'specialability')
   maps      = @('Maps & Portraits', 'image')
 }
-# Only listed when there is a shop to list: the entry is dead weight in a campaign without
-# Shops.ext, and an entry pointing at a recordtype the ruleset has never heard of opens an
-# empty window rather than saying why.
-if ($shops.Count) { $entries['shops'] = @('Shops', 'MKshops') }
+# No library entry for shops: they are not in this module at all (see the MKshops section
+# above for why), so an entry here would point at nothing.
 if ($bookpages.Count) {
   [void]$xml.Add("`t`t`t`t<story_book>")
   [void]$xml.Add("`t`t`t`t`t<librarylink type=""windowreference"">")

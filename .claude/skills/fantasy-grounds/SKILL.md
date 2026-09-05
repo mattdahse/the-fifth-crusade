@@ -711,6 +711,36 @@ rather than the rule. The section is **inert in a campaign that does not load `S
 <!-- count: 2 -->
 ```
 
+**The shop is NOT shipped in the module, and must not be.** `Shops.ext`'s MKshops window has a
+module-only branch in `onInit`:
+
+```lua
+if DB.getModule(getDatabaseNode()) ~= "" then
+    menubar.subwindow.locked.setVisible(false)
+```
+
+and current CoreRPG has no control named `locked` in `record_window_tabbed`'s menubar, so a shop
+record loaded **from a module** throws on every client that loads it:
+
+```
+Script execution error: [string "W:MKshops"]:7: attempt to index field 'locked' (a nil value)
+```
+
+That branch runs *only* for module-sourced records, which is why the extension has shipped this way
+for years without anyone noticing: a shop is normally a campaign record a GM makes in the client,
+and this build was the first thing to put one in a module. Patching a third-party extension is not
+ours to do and would be undone by its next update.
+
+So `build-fg.ps1` compiles `fg/shops/*.md` to **`build/shops-campaign.xml`** instead, and
+[`fg/shops/install-shop.py`](../../../fg/shops/install-shop.py) splices that into the campaign's
+`db.xml`, where `DB.getModule()` returns `""` and the line never executes. The markdown stays the
+source of truth and the items still go through the same SRD pipeline the parcels use. There is no
+library entry for shops, because they are not in the module.
+
+**That installer is the one sanctioned exception to never writing a campaign `db.xml`**, and it
+earns it by refusing to run while FG is up and taking a timestamped backup first. FG rewrites that
+file wholesale on exit, so a write underneath a running client is destroyed without warning.
+
 The record's shape is copied from the three shops in the live Wrath of the Righteous campaign:
 `coinlist` (the shop's own float), `encumbrance`, `locked`, `markup`, `name`, `notes`,
 `shopitemlist`. **`markup` is a multiplier on the listed price** — Kenabres runs 0.75, ruined
