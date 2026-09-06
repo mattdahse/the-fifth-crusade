@@ -759,6 +759,30 @@ for something invented, or to override the book.
 The weight warning fires on items the book itself lists as "—" (a candle, flint and steel, a
 wooden holy symbol). Give them a fraction anyway: weightless is what breaks encumbrance.
 
+### A limited-use class power is modelled as its own "class" on a PC sheet
+
+Matt's own fix for Force Missile, and the pattern to copy. FG has no first-class slot for
+"7 times a day, standard action, roll something", so a power like that becomes an extra
+**`<spellset>` entry** beside the real caster class:
+
+- `label` names the source — `Evoker`, `Channel Energy`, `Luck Domain`.
+- `availablelevel1` and the level's `maxprepared` both carry the **uses per day**, so the
+  sheet counts them down like spell slots.
+- The single entry inside holds an `<actions>` block: a `cast` action, plus a `damage` or
+  `heal` action for anything that rolls dice.
+- Scaling comes from the damage entry, not from text: Force Missile's `<damagelist>` uses
+  `dice d4`, `stat cl`, `statmult 0.5`, which is Intense Spells adding half caster level.
+
+Each pool is its own entry because each has its own count — Jules carries four (Cleric,
+Channel Energy 7/day, Luck Domain 7/day, Good Domain 7/day) and they tick down separately.
+
+**A PC sheet is not uniform, so never assume a node exists.** Jules had **no `featlist` and no
+`skillpoints` node at all**, and her skill entries were bare stubs carrying only `label`,
+`state` and `statname` — no `ranks`, no `total`, no `stat`. A regex that edits `<ranks>` on
+those matches the label, replaces nothing, and reports success. Two silent no-ops in one
+character. **Read the record you are about to edit, and verify by reading the values back**,
+not by trusting that the write ran.
+
 ### Maps — `fg/maps/*.md`
 
 ```markdown
