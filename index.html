@@ -80,6 +80,30 @@
   #reader p{margin:.6rem 0;text-align:justify}
   #reader blockquote{margin:1rem 1.2rem;padding:.2rem 0 .2rem 1rem;border-left:3px solid var(--accent);
     font-style:italic;color:var(--ink-soft)}
+  /* lists, tables, rules, code and links: a long reference document needs more than prose */
+  #reader ul,#reader ol{margin:.6rem 0 .6rem 1.4rem;padding:0}
+  #reader li{margin:.35rem 0;line-height:1.55}
+  #reader li blockquote{margin:.5rem .4rem .3rem}
+  #reader hr{border:0;border-top:1px solid var(--rule);margin:1.6rem 20%}
+  #reader .tablewrap{overflow-x:auto;margin:1rem 0}
+  #reader table{border-collapse:collapse;width:100%;font-size:.9rem;line-height:1.4}
+  #reader th,#reader td{border:1px solid var(--rule);padding:.35rem .5rem;vertical-align:top;text-align:left}
+  #reader th{color:var(--accent2);font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;background:var(--bg2)}
+  #reader code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.88em;background:var(--bg2);padding:0 .25em;border-radius:3px}
+  #reader a.lnk{color:var(--link);border-bottom:1px dotted var(--link);cursor:pointer}
+  #reader a.lnk:hover{border-bottom-style:solid}
+  /* the contents list a document asks for with <!-- toc --> */
+  #reader .toc{margin:1rem auto 1.4rem;padding:.8rem 1.2rem;border:1px solid var(--rule);background:var(--card);max-width:36rem}
+  #reader .toc .tocttl{letter-spacing:.2em;text-transform:uppercase;font-size:.72rem;color:var(--accent2);margin-bottom:.4rem;text-align:center}
+  #reader .toc ul{list-style:none;margin:0;padding:0;columns:2;column-gap:1.5rem}
+  #reader .toc li{margin:.2rem 0;break-inside:avoid;line-height:1.4}
+  @media (max-width:640px){ #reader .toc ul{columns:1} }
+  /* back to top: rides fixed at the corner, shown once a reader has scrolled a screen or so */
+  #totop{position:fixed;right:1.1rem;bottom:1.1rem;z-index:40;border:1px solid var(--accent);background:var(--card);color:var(--accent);
+    font:inherit;font-size:.82rem;letter-spacing:.06em;padding:.5rem .85rem;border-radius:999px;cursor:pointer;
+    box-shadow:0 4px 14px rgba(0,0,0,.25);opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s}
+  #totop.show{opacity:1;pointer-events:auto;transform:none}
+  #totop:hover{background:var(--accent);color:var(--card)}
   /* in-world letters: a document reproduced in its author's own hand, never in our prose voice.
      Parchment is a physical object, so it stays warm in dark mode — only the glare comes down. */
   /* the deep bottom padding is deliberate: she stopped because she was interrupted, and the
@@ -430,6 +454,7 @@
 
   <div id="app"></div>
 </div>
+<button id="totop" type="button" title="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑ Top</button>
 
 <div id="lightbox" class="hidden" onclick="if(event.target===this)closeLb()">
   <span class="lb-close" title="Close" onclick="closeLb()">✕</span>
@@ -686,14 +711,45 @@ function linkNames(html){
 function esc(s){ return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 function inline(s){
   s = esc(s);
+  s = s.replace(/`([^`]+)`/g,'<code>$1</code>');
   s = s.replace(/\*\*\*(.+?)\*\*\*/g,'<strong><em>$1</em></strong>');
   s = s.replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');
   s = s.replace(/\*(.+?)\*/g,'<em>$1</em>');
+  /* links: "#h-…" scrolls to a heading in this document (a plain hash would be read as a route);
+     "#/…" is one of the site's own routes; anything else opens in a new tab. */
+  s = s.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, function(m, t, u){
+    if(u.charAt(0)==='#' && u.charAt(1)!=='/') return '<a class="lnk" href="javascript:void(0)" onclick="gotoAnchor(\''+u.slice(1).replace(/[^\w-]/g,'')+'\')">'+t+'</a>';
+    if(u.charAt(0)==='#') return '<a class="lnk" href="'+u+'">'+t+'</a>';
+    return '<a class="lnk" href="'+u+'" target="_blank" rel="noopener">'+t+'</a>';
+  });
   return linkNames(s);
+}
+/* a heading's anchor id, from its text: "2. Mendev: the crusader state" -> "h-2-mendev-the-crusader-state" */
+function slugId(s){
+  return 'h-'+s.replace(/<[^>]+>/g,'').replace(/[*`]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
+}
+function gotoAnchor(id){
+  var el = document.getElementById(id); if(!el) return;
+  var bar = document.querySelector('.searchbar'), off = (bar ? bar.offsetHeight : 0) + 10;
+  window.scrollTo({top: el.getBoundingClientRect().top + window.scrollY - off, behavior:'smooth'});
+}
+/* a quotation's lines are prose and reflow, like a paragraph's; a line that ends in a backslash
+   breaks there, which is how a notice, a price board or a sheet of questions keeps its lines.
+   An empty line inside the quote also breaks. */
+function quoteHtml(raw){
+  var parts=[], cur=[];
+  raw.split('\n').forEach(function(l){
+    l = l.trim();
+    if(!l){ if(cur.length){ parts.push(cur.join(' ')); cur=[]; } return; }
+    if(/\\$/.test(l)){ cur.push(l.replace(/\\$/,'').trim()); parts.push(cur.join(' ')); cur=[]; return; }
+    cur.push(l);
+  });
+  if(cur.length) parts.push(cur.join(' '));
+  return parts.map(inline).join('<br>');
 }
 function mdToHtml(md){
   WHOSEEN = {};   /* one document, one link per person; see linkNames above */
-  var blocks = md.split(/\n{2,}/), out=[], inBallad=false;
+  var blocks = md.split(/\n{2,}/), out=[], inBallad=false, heads=[], tocAt=-1;
   for(var i=0;i<blocks.length;i++){
     var b = blocks[i].replace(/\s+$/,''); if(!b.trim()) continue;
     var first = b.split('\n')[0].trim();
@@ -721,13 +777,44 @@ function mdToHtml(md){
       out.push('<div class="stanza'+(isChorus?' chorus':'')+'">'+sung+'</div>');
       continue;
     }
-    if(/^###\s/.test(first)){ out.push('<h3>'+inline(b.replace(/^###\s*/,''))+'</h3>'); }
-    else if(/^##\s/.test(first)){ out.push('<h2>'+inline(b.replace(/^##\s*/,''))+'</h2>'); }
-    else if(/^#\s/.test(first)){ out.push('<h2>'+inline(b.replace(/^#\s*/,''))+'</h2>'); }
-    else if(/^>\s/.test(first)){ out.push('<blockquote>'+inline(b.replace(/^>\s?/gm,'').trim())+'</blockquote>'); }
+    /* <!-- toc --> marks where a contents list of the document's ## headings should go */
+    if(/^<!--\s*toc\s*-->$/.test(b.trim())){ tocAt = out.length; out.push(''); continue; }
+    if(/^###\s/.test(first)){ var t3=b.replace(/^###\s*/,''); out.push('<h3 id="'+slugId(t3)+'">'+inline(t3)+'</h3>'); }
+    else if(/^##\s/.test(first)){ var t2=b.replace(/^##\s*/,''), id2=slugId(t2); heads.push({id:id2, t:t2}); out.push('<h2 id="'+id2+'">'+inline(t2)+'</h2>'); }
+    else if(/^#\s/.test(first)){ var t1=b.replace(/^#\s*/,''); out.push('<h2 id="'+slugId(t1)+'">'+inline(t1)+'</h2>'); }
+    /* a quotation keeps its own line breaks: a notice, a price board, a sheet of questions */
+    else if(/^>\s/.test(first)){ out.push('<blockquote>'+quoteHtml(b.replace(/^>\s?/gm,''))+'</blockquote>'); }
     else if(/^[✦✧❥☆★\s—-]+$/.test(b) && /[✦❥☆★]/.test(b)){ out.push('<div class="ornament">'+esc(b.trim())+'</div>'); }
+    else if(/^-{3,}$/.test(b.trim())){ out.push('<hr>'); }
+    /* a table: a header row, a rule of dashes, then rows */
+    else if(first.charAt(0)==='|' && /^\|?\s*:?-{2,}/.test((b.split('\n')[1]||''))){
+      var cells = function(l){ return l.replace(/^\s*\|/,'').replace(/\|\s*$/,'').split('|').map(function(c){ return inline(c.trim()); }); };
+      var tl = b.split('\n'), th = cells(tl[0]);
+      var tb = tl.slice(2).map(function(l){ return '<tr>'+cells(l).map(function(c){ return '<td>'+c+'</td>'; }).join('')+'</tr>'; }).join('');
+      out.push('<div class="tablewrap"><table><thead><tr>'+th.map(function(c){ return '<th>'+c+'</th>'; }).join('')+'</tr></thead><tbody>'+tb+'</tbody></table></div>');
+    }
+    /* a list: items begin "- " or "1. "; an indented line continues the item, and an indented
+       "> " line is a quotation set inside it */
+    else if(/^\s*(?:[-*]|\d+\.)\s+/.test(first)){
+      var items=[], ordered=/^\s*\d+\./.test(first);
+      b.split('\n').forEach(function(l){
+        var m = l.match(/^\s*(?:[-*]|\d+\.)\s+(.*)$/);
+        if(m){ items.push({t:m[1], q:[]}); return; }
+        var it = items[items.length-1]; if(!it) return;
+        var q = l.match(/^\s*>\s?(.*)$/);
+        if(q) it.q.push(q[1]); else it.t += ' '+l.trim();
+      });
+      out.push((ordered?'<ol>':'<ul>')+items.map(function(it){
+        return '<li>'+inline(it.t)+(it.q.length?'<blockquote>'+quoteHtml(it.q.join('\n'))+'</blockquote>':'')+'</li>';
+      }).join('')+(ordered?'</ol>':'</ul>'));
+    }
     else if(/^\*[^*].*\*$/.test(b) && b.indexOf('\n')<0){ out.push('<div class="rdsub">'+inline(b)+'</div>'); }
     else { out.push('<p>'+inline(b.replace(/\n/g,' '))+'</p>'); }
+  }
+  if(tocAt>=0 && heads.length){
+    out[tocAt] = '<nav class="toc"><div class="tocttl">Contents</div><ul>'+heads.map(function(h){
+      return '<li><a class="lnk" href="javascript:void(0)" onclick="gotoAnchor(\''+h.id+'\')">'+inline(h.t)+'</a></li>';
+    }).join('')+'</ul></nav>';
   }
   var html = out.join('\n');
   WHOSEEN = null;   /* leave linking off for the cast list, snippets and contents subtitles */
@@ -1579,6 +1666,14 @@ qEl.addEventListener('input', function(){
   }, 120);
 });
 window.addEventListener('hashchange', route);
+/* the back-to-top button appears only inside a reader, and only once there is somewhere to go back to */
+(function(){
+  var btn = document.getElementById('totop');
+  function upd(){ btn.classList.toggle('show', window.scrollY > 600 && !!document.getElementById('reader')); }
+  window.addEventListener('scroll', upd, {passive:true});
+  window.addEventListener('hashchange', function(){ setTimeout(upd, 0); });
+  upd();
+})();
 route();
 </script>
 </body>

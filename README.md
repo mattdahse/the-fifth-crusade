@@ -209,7 +209,9 @@ rose — since the labels are drawn over it and need to stay editable and search
 
 ## Adding a secret
 
-Secrets are in-world documents shown in their own tab, parallel to the chronicle. Drop a markdown file in `secrets/` — a `# Title` line, an italic `*attribution*` line, then the body (`### Section` headers, `*dates*`, and `> blockquotes` all render). Run `build.ps1`, then commit and push. The build compiles every `secrets/*.md` into `window.SECRETS`.
+Secrets are in-world documents shown in their own tab, parallel to the chronicle. Drop a markdown file in `secrets/` — a `# Title` line, an italic `*attribution*` line (one line: the build takes the first single-line italic after the title as the subtitle), then the body. Run `build.ps1`, then commit and push. The build compiles every `secrets/*.md` into `window.SECRETS`.
+
+In the body, `### Section` and `## Section` headers, `*dates*`, `> blockquotes` (their lines reflow as prose; end a line with a backslash `\` to break there, which is how a notice or a price board keeps its lines), `- ` and `1. ` lists (an indented `> ` line inside an item is a quotation set in it), `| tables |` with a dashes rule under the header row, `---` rules, `` `code` `` and `[links](url)` all render. Every heading gets an anchor id from its text (lowercased, non-alphanumerics to dashes, prefixed `h-`: `## 2. Mendev: the crusader state` is `#h-2-mendev-the-crusader-state`), and a link to `#h-…` scrolls there without touching the route. Links to `#/map/marchlands` and the site's other routes work as links; anything else opens in a new tab. A line reading `<!-- toc -->` becomes a contents box of the document's `##` headings. Every reader view shows a fixed back-to-top button once the page has scrolled. These arrived from The Real Work's reader on 11 September 2026; the two engines are meant to stay in step.
 
 `data.js` carries five globals: `window.CHAPTERS`, `window.SECRETS`, `window.CALENDAR` (month names and lengths, weekday names, and the weekday anchor), `window.JOURNAL` (one entry per recorded day) and `window.MAPS` (one region per entry, each carrying its places).
 

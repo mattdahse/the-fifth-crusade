@@ -88,7 +88,7 @@ foreach ($b in $books) {
     $date = if ($dateExplicit) { $dateExplicit } else { Get-PlayDate ($block -join "`n") }
     # md with the fathom/epilogue/date/inworld comments stripped, for rendering
     $md = (($block | Where-Object { $_ -notmatch '^\s*<!--\s*(fathom|epilogue|date|inworld)' }) -join "`n").Trim()
-    $text = $md -replace '<!--.*?-->', ' ' -replace '!\[(.*?)\]\((.*?)\)', '$1' -replace '\[(.*?)\]\((.*?)\)', '$1' -replace '[#>*`_]', ' ' -replace '\s+', ' '
+    $text = $md -replace '<!--.*?-->', ' ' -replace '!\[(.*?)\]\((.*?)\)', '$1' -replace '\[(.*?)\]\((.*?)\)', '$1' -replace '[#>*`_\\]', ' ' -replace '\s+', ' '
     $order++
     [void]$all.Add([pscustomobject]@{
       id = "ch$order"; order = $order; book = $b.book; bookTitle = $b.title
@@ -143,7 +143,7 @@ if (Test-Path $secdir) {
       Write-Host ("  secrets: '{0}' matched no category prefix -- filed under {1}" -f $base, $cat)
     }
     $md = (($lines) -join "`n").Trim()
-    $text = $md -replace '<!--.*?-->', ' ' -replace '!\[(.*?)\]\((.*?)\)', '$1' -replace '\[(.*?)\]\((.*?)\)', '$1' -replace '[#>*`_]', ' ' -replace '\s+', ' '
+    $text = $md -replace '<!--.*?-->', ' ' -replace '!\[(.*?)\]\((.*?)\)', '$1' -replace '\[(.*?)\]\((.*?)\)', '$1' -replace '[#>*`_\\]', ' ' -replace '\s+', ' '
     $sorder++
     [void]$secrets.Add([pscustomobject]@{
       id = "sec$sorder"; order = $sorder; title = $title; subtitle = $sub
@@ -225,7 +225,7 @@ if (Test-Path $mapdir) {
         if ($hit) { $p.chapterId = $hit.id; $p.chapterLabel = ('Book ' + $hit.book + ' ' + $em + ' ' + $hit.label) }
         else { Write-Warning ("Map '{0}': place '{1}' names chapter '{2}', which no book contains." -f $mid, $p.name, $p.chapter) }
       }
-      $p.text = ($p.name + ' ' + $p.md) -replace '!\[(.*?)\]\((.*?)\)', '$1' -replace '\[(.*?)\]\((.*?)\)', '$1' -replace '[#>*`_]', ' ' -replace '\s+', ' '
+      $p.text = ($p.name + ' ' + $p.md) -replace '!\[(.*?)\]\((.*?)\)', '$1' -replace '\[(.*?)\]\((.*?)\)', '$1' -replace '[#>*`_\\]', ' ' -replace '\s+', ' '
       $p.text = $p.text.Trim()
     }
     if ($mimg -eq '') { Write-Warning ("Map '{0}' has no <!-- image: --> marker and will not draw." -f $mid) }
