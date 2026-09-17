@@ -10,6 +10,10 @@ Using the plate's own art keeps the lighting, palette and stonework consistent, 
 no amount of prompt-wrangling reliably does.
 
     python fg/art/edits/cut-yard-door.py
+
+Already applied, and the plate has since been widened (widen-street.py), so the
+coordinates below are for the ORIGINAL 1600px plate: add 480 to every x before
+running this against the current one.
 """
 import os
 from PIL import Image, ImageFilter

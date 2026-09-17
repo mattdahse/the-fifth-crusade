@@ -1305,12 +1305,23 @@ if ($maps.Count) {
           $dx = $x2 - $x1; $dy = $y2 - $y1
           $len = [Math]::Sqrt($dx * $dx + $dy * $dy)
           if ($len -gt 0) {
-            $nx = -$dy / $len * 2.5; $ny = $dx / $len * 2.5
+            $nx = -$dy / $len * 5; $ny = $dx / $len * 5
             $inv = [Globalization.CultureInfo]::InvariantCulture
             # Each element is parenthesised: PowerShell's comma binds tighter than +,
             # so `$x1 + $nx, $y1` would add an array to a double and throw.
             $quad = @(($x1 + $nx), ($y1 + $ny), ($x2 + $nx), ($y2 + $ny),
                       ($x2 - $nx), ($y2 - $ny), ($x1 - $nx), ($y1 - $ny))
+            # FG's doors wind counterclockwise (y up) and say so with <counterclockwise />.
+            # Which way this quad winds depends on which end the door was written from, so
+            # measure it and reverse the corners when it comes out clockwise.
+            $area = 0.0
+            for ($k = 0; $k -lt 8; $k += 2) {
+              $m = ($k + 2) % 8
+              $area += $quad[$k] * $quad[$m + 1] - $quad[$m] * $quad[$k + 1]
+            }
+            if ($area -lt 0) {
+              $quad = @($quad[6], $quad[7], $quad[4], $quad[5], $quad[2], $quad[3], $quad[0], $quad[1])
+            }
             $xy = New-Object System.Collections.ArrayList
             foreach ($v in $quad) { [void]$xy.Add(([double]$v).ToString($inv)) }
           }
@@ -1324,10 +1335,16 @@ if ($maps.Count) {
           [void]$rows.Add("`t`t`t`t`t`t`t`t<allow_move />")
         }
         elseif ($o.kind -eq 'door') {
-          # A door ships closed, and FG gives it a click target to open. Without
-          # <closed /> it loads standing open, which quietly removes the wall.
+          # Copied from the doors FG draws itself: all 124 plain doors in the live
+          # campaign carry exactly these four flags, in this order. <closed /> means the
+          # SHAPE is a closed polygon, not that the door is shut - a door stands open when
+          # it carries <open />, and FG writes both on an open door. Shipping only
+          # toggleable + closed (a combination FG never writes) gave doors that behaved
+          # as plain walls at the table.
           [void]$rows.Add("`t`t`t`t`t`t`t`t<toggleable />")
+          [void]$rows.Add("`t`t`t`t`t`t`t`t<single_sided />")
           [void]$rows.Add("`t`t`t`t`t`t`t`t<closed />")
+          [void]$rows.Add("`t`t`t`t`t`t`t`t<counterclockwise />")
         }
         [void]$rows.Add("`t`t`t`t`t`t`t</occluder>")
       }
@@ -1392,6 +1409,44 @@ if ($maps.Count) {
       [void]$rows.Add("`t`t`t`t`t`t`t<record>$(Esc $pin.rec)</record>")
       [void]$rows.Add("`t`t`t`t`t`t</shortcut>")
       [void]$rows.Add("`t`t`t`t`t`t<matrix>1,0,0,0,0,1,0,0,0,0,1,0,$($pin.tx),$($pin.ty),0,1</matrix>")
+      [void]$rows.Add("`t`t`t`t`t</layer>")
+    }
+    # Lights - `light: x,y [| range | #AARRGGBB]` in top-left pixels, occluder convention
+    # (centre origin, y UP), read off lights Matt placed on the scrapyard in FG. They sit in
+    # their own image layer with an empty bitmap and parentid -1, as FG writes them, and
+    # default to the warm firelight FG gave those.
+    $lights = @($mp.meta.light | Where-Object { $_ })
+    if ($lights.Count -and $dim) {
+      $li++
+      [void]$rows.Add("`t`t`t`t`t<layer>")
+      [void]$rows.Add("`t`t`t`t`t`t<name>Lights</name>")
+      [void]$rows.Add("`t`t`t`t`t`t<id>$li</id>")
+      [void]$rows.Add("`t`t`t`t`t`t<parentid>-1</parentid>")
+      [void]$rows.Add("`t`t`t`t`t`t<type>image</type>")
+      [void]$rows.Add("`t`t`t`t`t`t<bitmap />")
+      [void]$rows.Add("`t`t`t`t`t`t<lights>")
+      $lid = 0
+      foreach ($lt in $lights) {
+        if ($lt -notmatch '^\s*(-?[\d.]+)\s*,\s*(-?[\d.]+)\s*(?:\|\s*([\d.,]+)\s*)?(?:\|\s*(#[0-9A-Fa-f]{8})\s*)?$') {
+          Warn "$($mp.file): cannot read light '$lt' $em expected 'x,y | range | #AARRGGBB'"
+          continue
+        }
+        $lx = [math]::Round([double]$matches[1] - $dim.w / 2.0)
+        $ly = [math]::Round($dim.h / 2.0 - [double]$matches[2])
+        $lrange = if ($matches[3]) { $matches[3] } else { '3,0.75,6,0.5' }
+        $lcolor = if ($matches[4]) { $matches[4] } else { '#FFFFF3E1' }
+        [void]$rows.Add("`t`t`t`t`t`t`t<light>")
+        [void]$rows.Add("`t`t`t`t`t`t`t`t<id>$lid</id>")
+        [void]$rows.Add("`t`t`t`t`t`t`t`t<position>$lx,$ly</position>")
+        [void]$rows.Add("`t`t`t`t`t`t`t`t<on />")
+        [void]$rows.Add("`t`t`t`t`t`t`t`t<range>$lrange</range>")
+        [void]$rows.Add("`t`t`t`t`t`t`t`t<animtype>1</animtype>")
+        [void]$rows.Add("`t`t`t`t`t`t`t`t<animspeed>0.25</animspeed>")
+        [void]$rows.Add("`t`t`t`t`t`t`t`t<color>$lcolor</color>")
+        [void]$rows.Add("`t`t`t`t`t`t`t</light>")
+        $lid++
+      }
+      [void]$rows.Add("`t`t`t`t`t`t</lights>")
       [void]$rows.Add("`t`t`t`t`t</layer>")
     }
     [void]$rows.Add("`t`t`t`t</layers>")

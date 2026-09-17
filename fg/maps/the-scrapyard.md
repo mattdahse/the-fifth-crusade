@@ -7,8 +7,13 @@
 <!-- gridsize: 80 -->
 <!-- scale: one square — five feet -->
 
-Hesk Dolvan's yard and house on Cinder Row. The yard fills the west two-thirds; the house is
-the block on the east side, drawn as a cutaway so the rooms are visible.
+Hesk Dolvan's yard and house on Cinder Row. **Cinder Row itself** runs down the west side,
+eight squares of cobbles - room to stage a party outside the gate. The yard fills the middle;
+the house is the block on the east side, drawn as a cutaway so the rooms are visible.
+
+The plate was generated with only two squares of street, and widened by
+`fg/art/edits/widen-street.py`, which quilts the plate's own cobbles into the new space. That
+moved everything 480px east, so any coordinate written before it is 480 short.
 
 ## The ground
 
@@ -35,37 +40,51 @@ Pins the GM clicks to open the room's page in the book. Top-left image pixels, s
 the occluders - the build converts them to FG's own (centre origin, y DOWN, which is the token
 convention and NOT the occluder one).
 
-<!-- shortcut: book:10_the_yard @ 580,450 | A1. The Yard -->
-<!-- shortcut: book:11_the_kennel @ 250,800 | A2. The Kennel -->
-<!-- shortcut: book:22_the_kitchen @ 1080,135 | B3. The Kitchen -->
-<!-- shortcut: book:23_the_childrens_room @ 1320,135 | B4. The Children's Room -->
-<!-- shortcut: book:21_the_living_room @ 1220,400 | B2. The Living Room -->
-<!-- shortcut: book:20_the_shop @ 1220,720 | B1. The Shop -->
+<!-- shortcut: book:10_the_yard @ 1060,450 | A1. The Yard -->
+<!-- shortcut: book:11_the_kennel @ 730,800 | A2. The Kennel -->
+<!-- shortcut: book:22_the_kitchen @ 1560,135 | B3. The Kitchen -->
+<!-- shortcut: book:23_the_childrens_room @ 1800,135 | B4. The Children's Room -->
+<!-- shortcut: book:21_the_living_room @ 1700,400 | B2. The Living Room -->
+<!-- shortcut: book:20_the_shop @ 1700,720 | B1. The Shop -->
+
+## Lights
+
+Firelight in the house - the hearth, the stove, and lamps in each room. Top-left pixels, same
+space as the occluders. First placed by hand in FG, then written back here so they survive a
+module-cache reset.
+
+<!-- light: 1521,668 -->
+<!-- light: 1887,677 -->
+<!-- light: 1874,364 -->
+<!-- light: 1529,499 -->
+<!-- light: 1692,63 -->
+<!-- light: 1509,115 -->
+<!-- light: 1631,112 -->
 
 ## Occluders
 
 Top-left image pixels. The fence and the house walls are straight, so these are written by hand.
 Verify with `python fg/verify.py --map scrapyard`.
 
-<!-- occluder: 160,0 975,0 -->
-<!-- occluder: 160,0 160,360 -->
-<!-- occluder: 160,610 160,930 -->
-<!-- occluder: 160,930 975,930 -->
-<!-- occluder: 985,0 985,352 -->
-<!-- occluder-door: 985,352 985,418 -->
-<!-- occluder: 985,418 985,900 -->
-<!-- occluder: 985,15 1462,15 -->
-<!-- occluder: 1462,15 1462,900 -->
-<!-- occluder: 985,900 1165,900 -->
-<!-- occluder-door: 1165,900 1255,900 -->
-<!-- occluder: 1255,900 1462,900 -->
-<!-- occluder: 985,255 1160,255 -->
-<!-- occluder-door: 1160,255 1215,255 -->
-<!-- occluder: 1215,255 1462,255 -->
-<!-- occluder: 985,540 1165,540 -->
-<!-- occluder-door: 1165,540 1235,540 -->
-<!-- occluder: 1235,540 1462,540 -->
-<!-- occluder: 1190,15 1190,255 -->
+<!-- occluder: 640,0 1455,0 -->
+<!-- occluder: 640,0 640,360 -->
+<!-- occluder: 640,610 640,930 -->
+<!-- occluder: 640,930 1455,930 -->
+<!-- occluder: 1465,0 1465,352 -->
+<!-- occluder-door: 1465,352 1465,418 -->
+<!-- occluder: 1465,418 1465,900 -->
+<!-- occluder: 1465,15 1942,15 -->
+<!-- occluder: 1942,15 1942,900 -->
+<!-- occluder: 1465,900 1645,900 -->
+<!-- occluder-door: 1645,900 1735,900 -->
+<!-- occluder: 1735,900 1942,900 -->
+<!-- occluder: 1465,255 1640,255 -->
+<!-- occluder-door: 1640,255 1695,255 -->
+<!-- occluder: 1695,255 1942,255 -->
+<!-- occluder: 1465,540 1645,540 -->
+<!-- occluder-door: 1645,540 1715,540 -->
+<!-- occluder: 1715,540 1942,540 -->
+<!-- occluder: 1670,15 1670,255 -->
 
 **The gate is standing open** and carries no occluder — the gap in the west fence between
 y 360 and y 610 is the way in.
