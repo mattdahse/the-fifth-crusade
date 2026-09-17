@@ -803,6 +803,15 @@ not by trusting that the write ran.
   image pixel coordinates**. `occluder:` blocks sight and movement; `occluder-open:` marks terrain
   that can be crossed but still occludes (rubble, low walls) — it gets `<terrain />` and
   `<allow_move />`.
+- `occluder-door:` is a two-point door. The build widens it to a quad and writes **exactly the
+  flags FG writes on its own doors**: `<toggleable /><single_sided /><closed /><counterclockwise />`,
+  wound counterclockwise. **`<closed />` is the polygon, not the door**: a door stands open when
+  it carries `<open />`. The build once shipped only toggleable + closed, a combination FG never
+  writes, and every door on every map behaved as a plain wall at the table.
+- `light: x,y [| range | #AARRGGBB]` puts a light on the map, same pixel space and occluder
+  convention, emitted as its own `Lights` image layer. Lights Matt places in FG live only in the
+  campaign's forked copy of the map, so **write them back into the markdown** before
+  `-ResetModuleCache`, or the reset throws them away.
 - **FG stores occluders relative to the image CENTRE, not its top-left corner.** The build measures
   the plate and subtracts half its width and height, so markdown stays in the same pixel space the
   blockout script draws in. This is worth knowing because it fails *plausibly*: written as raw
