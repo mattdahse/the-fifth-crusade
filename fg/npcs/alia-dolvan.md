@@ -91,6 +91,6 @@ None of them attacks and none of them is worth XP. What they do is **get in the 
 to the crib every round, Corin bolts in whatever direction is worst, and the baby does not move at
 all. Controlling that room costs the party actions, and spending them is the correct play.
 
-Taking Alia and all three children out alive is worth **800 XP**, and the story record says so
+Taking Alia and all three children out alive is worth **1,100 XP**, and the story record says so
 out loud. Mira's people take them either way; the cell is broken either way. The only difference
 is whether the party chose to make it.

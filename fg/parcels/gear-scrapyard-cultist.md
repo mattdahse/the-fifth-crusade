@@ -1,4 +1,4 @@
-# Gear: Scrapyard Cultist
+# Gear: Scrapyard Worker
 
 <!-- id: gear_scrapyard_cultist -->
 
@@ -39,5 +39,5 @@ owns one and none of them thinks of it as a weapon until it is.
 <!-- cost: 0 gp -->
 <!-- weight: 0.1 -->
 
-A wooden token good for a loaf at the Southshore bakehouse, dated this week. He was going to
+A wooden token good for a loaf at the South Bank bakehouse, dated this week. He was going to
 collect it tomorrow.

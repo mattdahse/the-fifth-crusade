@@ -1,6 +1,6 @@
 # Labyrinth Initiate
 
-*Six of them living in a scrap dealer's cellar, waiting for a door to be needed.*
+*Four of them living in a scrap dealer's cellar, waiting for a door to be needed.*
 
 <!-- id: labyrinth_initiate -->
 <!-- token: tokens/labyrinth-initiate.webp -->
@@ -39,7 +39,7 @@ spacereach: 5 ft./5 ft.
 
 ## Description
 
-> Not a Southshore scrapper. This one is fed, rested, and wearing mail under a plain coat, with
+> Not a South Bank scrapper. This one is fed, rested, and wearing mail under a plain coat, with
 > the maze on an iron disc at the throat instead of inked on a wrist. He was awake before you were
 > down the stairs.
 

@@ -1,4 +1,4 @@
-# Scrapyard Cultist (portrait)
+# Scrapyard Worker (portrait)
 
 <!-- id: portrait_scrapyard_cultist -->
 <!-- image: portraits/scrapyard-cultist.webp -->

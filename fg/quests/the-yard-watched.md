@@ -3,7 +3,7 @@
 <!-- id: the_yard_watched -->
 <!-- level: 1 -->
 <!-- giver: Mira Thistledance -->
-<!-- xp: 200 -->
+<!-- xp: 350 -->
 
 **Look at the place before kicking the gate.**
 

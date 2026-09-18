@@ -3,7 +3,7 @@
 <!-- id: the_dolvans_alive -->
 <!-- level: 1 -->
 <!-- giver: Mira Thistledance -->
-<!-- xp: 800 -->
+<!-- xp: 1100 -->
 
 **Alia Dolvan and all three of her children walk out of that house breathing.**
 

@@ -164,8 +164,8 @@ function Get-ItemIndex {
 }
 
 # Fields worth copying. Anything the markdown sets wins over the SRD value.
-$itemStrFields = @('cost', 'damage', 'critical', 'damagetype', 'properties', 'type', 'subtype')
-$itemNumFields = @('weight', 'ac', 'maxstatbonus', 'checkpenalty', 'spellfailure', 'speed30', 'speed20', 'range')
+$itemStrFields = @('cost', 'damage', 'critical', 'damagetype', 'properties', 'type', 'subtype', 'aura')
+$itemNumFields = @('weight', 'ac', 'maxstatbonus', 'checkpenalty', 'spellfailure', 'speed30', 'speed20', 'range', 'cl')
 
 # ---------------------------------------------------------------- spells
 
@@ -1297,6 +1297,8 @@ if ($maps.Count) {
     if ($mp.meta.occluder) { foreach ($o in @($mp.meta.occluder)) { [void]$occ.Add(@{ pts = $o; kind = 'wall' }) } }
     if ($mp.meta.'occluder-open') { foreach ($o in @($mp.meta.'occluder-open')) { [void]$occ.Add(@{ pts = $o; kind = 'open' }) } }
     if ($mp.meta.'occluder-door') { foreach ($o in @($mp.meta.'occluder-door')) { [void]$occ.Add(@{ pts = $o; kind = 'door' }) } }
+    # A door that starts the session standing open: the same door, plus FG's <open /> flag.
+    if ($mp.meta.'occluder-door-open') { foreach ($o in @($mp.meta.'occluder-door-open')) { [void]$occ.Add(@{ pts = $o; kind = 'door'; open = $true }) } }
     if ($occ.Count) {
       [void]$rows.Add("`t`t`t`t`t`t<occluders>")
       $oi = 0
@@ -1367,6 +1369,7 @@ if ($maps.Count) {
           [void]$rows.Add("`t`t`t`t`t`t`t`t<single_sided />")
           [void]$rows.Add("`t`t`t`t`t`t`t`t<closed />")
           [void]$rows.Add("`t`t`t`t`t`t`t`t<counterclockwise />")
+          if ($o.open) { [void]$rows.Add("`t`t`t`t`t`t`t`t<open />") }
         }
         [void]$rows.Add("`t`t`t`t`t`t`t</occluder>")
       }
@@ -1716,8 +1719,12 @@ if ($Install) {
           Warn "Fantasy Grounds is running $em not touching $($camp.Name); it would be rewritten on exit. Close FG and rerun."
         }
         else {
+          # The cache holds every edit made in the client, not just staged tokens - keep a copy,
+          # because anything not yet written back into fg/ exists nowhere else.
+          $bak = "$cache.backup-$(Get-Date -Format 'yyyyMMdd-HHmmss')"
+          Copy-Item $cache $bak -Force
           Remove-Item $cache -Force
-          Write-Host "  cleared cached copy in campaign '$($camp.Name)' (token placements on maps are lost)" -ForegroundColor Yellow
+          Write-Host "  cleared cached copy in campaign '$($camp.Name)' - client-side edits are gone from the campaign; backup at $bak" -ForegroundColor Yellow
         }
       }
       elseif ($cv -and $cv -ge $dataVersion) {

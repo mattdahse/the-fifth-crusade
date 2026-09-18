@@ -39,7 +39,7 @@ A water-swollen book of tallies in a clerk's hand: counts, directions and cargoe
 <!-- weight: 2 -->
 <!-- nonid: A palm-sized slate, chalked and rubbed and chalked again -->
 
-A palm-sized slate, chalked and rubbed and chalked again. Six strokes in a row, the top one rewritten far more often than the others.
+A palm-sized slate, chalked and rubbed and chalked again. Four strokes in a row, the top one rewritten far more often than the others.
 
 ### Rope Ladder, Spiked
 <!-- srd: none -->
@@ -50,3 +50,47 @@ A palm-sized slate, chalked and rubbed and chalked again. Six strokes in a row, 
 <!-- nonid: A heavy rope ladder with wooden rungs, and four iron spikes -->
 
 Sixty feet of hemp ladder with hardwood rungs lashed through it, made to be dropped down a rock face and climbed in the dark. Four iron spikes are driven through the head of it. The rungs are worn pale in the middle and dark at the ends.
+
+### Mwk Backpack
+<!-- srd: none -->
+<!-- count: 1 -->
+<!-- type: Equipment -->
+<!-- subtype: Bags and Pouches -->
+<!-- cost: 50 gp -->
+<!-- weight: 4 -->
+
+This leather knapsack has one large pocket that closes with a buckled strap and holds about 2 cubic feet of material. Some may have one or more smaller pockets on the sides.
+
+### Potion of Cure Light Wounds
+<!-- srd: none -->
+<!-- count: 1 -->
+<!-- type: Potion -->
+<!-- cost: 50 gp -->
+<!-- weight: 0.1 -->
+<!-- aura: Faint conjuration -->
+<!-- cl: 1 -->
+<!-- nonid: Magical Potion -->
+
+A potion is a magic liquid that produces its effect when imbibed. A potion can be used only once.
+
+### Potion of Lesser Restoration
+<!-- srd: none -->
+<!-- count: 1 -->
+<!-- type: Potion -->
+<!-- cost: 300 gp -->
+<!-- weight: 0.1 -->
+<!-- aura: Faint conjuration -->
+<!-- cl: 3 -->
+<!-- nonid: Magical Potion -->
+
+A potion is a magic liquid that produces its effect when imbibed. A potion can be used only once.
+
+### Rations
+<!-- srd: none -->
+<!-- count: 10 -->
+<!-- type: Goods and Services -->
+<!-- subtype: Adventuring Gear -->
+<!-- cost: 5 sp -->
+<!-- weight: 1 -->
+
+The listed price is for a day's worth of food. This bland food is usually some kind of hard tack, jerky, and dried fruit, though the contents vary from region to region and the race of those creating it. As long as it stays dry, it can go for months without spoiling.

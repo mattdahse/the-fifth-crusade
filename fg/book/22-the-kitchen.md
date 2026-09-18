@@ -1,6 +1,6 @@
 # B3. The Kitchen
 
-<!-- chapter: The Southshore Job -->
+<!-- chapter: The South Bank Job -->
 <!-- section: The House -->
 <!-- order: 3 -->
 

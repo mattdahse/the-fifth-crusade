@@ -1,6 +1,6 @@
 # B2. The Living Room
 
-<!-- chapter: The Southshore Job -->
+<!-- chapter: The South Bank Job -->
 <!-- section: The House -->
 <!-- order: 2 -->
 

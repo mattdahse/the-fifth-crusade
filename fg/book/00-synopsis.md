@@ -1,11 +1,11 @@
 # Synopsis
 
-<!-- chapter: The Southshore Job -->
+<!-- chapter: The South Bank Job -->
 <!-- section: Introduction -->
 <!-- order: 1 -->
 
 Drezen changed hands on the **13th of Neth** and is still learning how to be a city again. The
-crusade holds the walls; it does not yet hold the Southshore, a quarter of scrap yards and
+crusade holds the walls; it does not yet hold the South Bank, a quarter of scrap yards and
 rope-walks that spent seventy years under demon rule and has not been searched.
 
 **Mira Thistledance** has a scrap dealer's yard on Cinder Row watched. She wants it taken apart

@@ -3,7 +3,7 @@
 <!-- id: intel_to_mira -->
 <!-- level: 1 -->
 <!-- giver: Mira Thistledance -->
-<!-- xp: 800 -->
+<!-- xp: 1000 -->
 
 **Get what is under that yard back to Lupenor's Market.** Mira is paying for what the party
 brings back, not for a body count, and she says so before they leave.

@@ -1,6 +1,6 @@
 # A2. The Kennel
 
-<!-- chapter: The Southshore Job -->
+<!-- chapter: The South Bank Job -->
 <!-- section: The Yard -->
 <!-- order: 2 -->
 

@@ -1,13 +1,13 @@
-# The Cavern
+# The Cavern - darkmantles
 
 <!-- id: the_cavern -->
 <!-- level: 1 -->
 <!-- map: undercroft -->
-<!-- All six start on the CEILING, unseen. These placements are where they DROP, not -->
-<!-- where they hang. Run as two waves of three: the eastern three as the party reaches -->
-<!-- the middle, the western three when the fight is loud or they near the far side. -->
+
+<!-- Both start on the CEILING, unseen. These placements are where they DROP, not where -->
+<!-- they hang: together, as the party reaches the middle of the cavern. Placed by Matt. -->
 <!-- Prose lives in fg/story/the-southshore-job.md - an FG battle has no text field. -->
 
 ## Foes
 
-- 6x darkmantle @ 608,480; 544,544; 608,608; 416,352; 480,608; 480,736
+- 2x darkmantle @ 352,544; 608,544

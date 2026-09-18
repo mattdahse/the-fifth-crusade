@@ -1,6 +1,6 @@
 # Hesk Dolvan
 
-*Scrap dealer, householder, and the reason there is a cell in the Southshore at all.*
+*Scrap dealer, householder, and the reason there is a cell in the South Bank at all.*
 
 <!-- id: hesk_dolvan -->
 <!-- token: tokens/hesk-dolvan.webp -->

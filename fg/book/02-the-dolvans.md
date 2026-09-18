@@ -1,6 +1,6 @@
 # The Dolvans
 
-<!-- chapter: The Southshore Job -->
+<!-- chapter: The South Bank Job -->
 <!-- section: Introduction -->
 <!-- order: 3 -->
 

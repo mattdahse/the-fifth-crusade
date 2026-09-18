@@ -1,6 +1,6 @@
 # B1. The Shop
 
-<!-- chapter: The Southshore Job -->
+<!-- chapter: The South Bank Job -->
 <!-- section: The House -->
 <!-- order: 1 -->
 

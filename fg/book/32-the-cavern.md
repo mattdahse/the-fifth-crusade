@@ -1,21 +1,20 @@
 # C3. The Cavern
 
-<!-- chapter: The Southshore Job -->
+<!-- chapter: The South Bank Job -->
 <!-- section: The Undercroft -->
 <!-- order: 3 -->
 
 Natural, irregular, far wider than the tunnel, with fallen rock and stalagmites. The cult did not
 dig it and does not like it.
 
-**Six darkmantles are on the ceiling** and have been the whole time, and they do not appear in the
+**Two darkmantles are on the ceiling** and have been the whole time, and they do not appear in the
 initiative order until they drop. This is why the initiates
 cross with torches, quickly, in pairs - a party that noticed how they moved has been told what is
 coming.
 
-**Run it as two waves of three.** All six at once on a 1st-level party is a slaughter. Three drop
-as the party reaches the middle; the other three come when the fight is loud enough, or when the
-party is halfway to the far side. It is the same 2,400 XP either way and it is the difference
-between a set piece and a wipe.
+**They drop together** as the party reaches the middle: one on whoever carries the light and one
+on whoever is behind them. Two is a real fight at 1st level, because a grabbed character is
+suffocating on the initiative count, and it is not a slaughter.
 
 **Blindsight 90 ft. means putting the lantern out helps them, not the party.** Say so the first
 time somebody reaches for it.

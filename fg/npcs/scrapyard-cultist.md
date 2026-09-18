@@ -1,4 +1,4 @@
-# Scrapyard Cultist
+# Scrapyard Worker
 
 *Hesk's people. They sort scrap by day and they are not sorting scrap tonight.*
 
@@ -61,7 +61,7 @@ None. Three of them and a yard full of edges is quite enough.
 
 ## Roleplaying
 
-They are Southshore scrappers who took the mark because the man who feeds them took it. Two of
+They are South Bank scrappers who took the mark because the man who feeds them took it. Two of
 the three have families in this house. They will not surrender while Alia and the children are
 behind them, and they will surrender fairly readily once the party has demonstrably not hurt them
 — which is a real lever, and the party has to notice it early enough to use it.

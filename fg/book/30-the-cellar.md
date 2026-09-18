@@ -1,6 +1,6 @@
 # C1. The Cellar
 
-<!-- chapter: The Southshore Job -->
+<!-- chapter: The South Bank Job -->
 <!-- section: The Undercroft -->
 <!-- order: 1 -->
 

@@ -18,6 +18,6 @@ held, tripped, grappled, tied, or asleep on the flagstones; it does not matter w
 him.
 
 He is not worth this if he escapes and Mira's people bring him in that evening. The information
-still reaches her, and the Southshore Job still happens, but the party did not do it. Award it
+still reaches her, and the South Bank Job still happens, but the party did not do it. Award it
 **afterwards** rather than announcing it; a party that chases him because a quest said to has
 learned a different lesson from one that chases him because he is the one who did this.

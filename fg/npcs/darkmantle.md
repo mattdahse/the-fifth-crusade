@@ -60,7 +60,7 @@ specialattacks: constrict (1d4+4)
 on that head. One that misses flops, is briefly clumsy on the ground (speed 20), and climbs for
 the ceiling again if it can.
 
-**Fight them in waves, not as a mob.** They do not all release at once — see the encounter.
+**They drop together**, one on the light-bearer and one on whoever is behind — see the encounter.
 
 ## Roleplaying
 

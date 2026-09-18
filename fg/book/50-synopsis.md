@@ -4,7 +4,7 @@
 <!-- section: Introduction -->
 <!-- order: 1 -->
 
-The map taken out of the Southshore tunnel ends on a Sarkorian ruin two days along the western
+The map taken out of the South Bank tunnel ends on a Sarkorian ruin two days along the western
 road. **Elara Dawnstrider** wants that ruin held: the road from Drezen to the Sarian Fane is two
 days on foot with nothing on it, and a waystation halfway turns it into two one-day roads.
 

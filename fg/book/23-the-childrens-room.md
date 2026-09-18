@@ -1,6 +1,6 @@
 # B4. The Children's Room
 
-<!-- chapter: The Southshore Job -->
+<!-- chapter: The South Bank Job -->
 <!-- section: The House -->
 <!-- order: 4 -->
 
@@ -20,9 +20,9 @@ move at all. **Controlling this room costs actions**, and spending them is the c
 **Put the tokens down the moment the party can see in, and do not spring them.** Information
 given early makes a choice; information given afterwards is a punishment.
 
-**Alia and all three children taken out alive is worth 800 XP** - the largest single award in the
+**Alia and all three children taken out alive is worth 1,100 XP** - the largest single award in the
 adventure, and deliberately so. The award is its own quest record, so it can go onto the party
 sheet the moment they walk out of Cinder Row with four prisoners breathing.
 
-@link quest: the_dolvans_alive | Award: the Dolvans taken alive (800 XP)
+@link quest: the_dolvans_alive | Award: the Dolvans taken alive (1,100 XP)
 @link map: scrapyard | The scrapyard (map)

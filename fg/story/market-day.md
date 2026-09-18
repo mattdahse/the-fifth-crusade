@@ -4,7 +4,7 @@
 <!-- order: -1 -->
 
 *The prologue. A short street fight for four 1st-level strangers who have not met. Run it at the
-top of the first session; it ends in Mira Thistledance's back room with the Southshore Job on the
+top of the first session; it ends in Mira Thistledance's back room with the South Bank Job on the
 table.*
 
 @link battle: market_day | The market (encounter)
@@ -15,17 +15,17 @@ table.*
 @link parcel: gear_jory_tallow | What is on Jory
 @link quest: the_market_kept | Award: the market kept (150 XP)
 @link quest: jory_taken_alive | Award: Jory taken alive (200 XP)
-@link quest: southshore_job | What it leads to: the Southshore Job
+@link quest: southshore_job | What it leads to: the South Bank Job
 
 ## What is actually happening
 
 **Jory Tallow** is a chandler's boy from Kenabres. He watched the Locust Lord break his city in
 Arodus, came up the road to Drezen on a relief cart, and decided on the way that if Deskari is what
 wins, he would rather belong to Deskari. He went looking for a cult to join on **Cinder Row**, where
-every rumour in the Southshore says there is one. He got as far as a scrap dealer's shop counter,
+every rumour in the South Bank says there is one. He got as far as a scrap dealer's shop counter,
 where a big man with an axe laughed at him and sold him an empty crate for two coppers.
 
-He filled the crate himself over three weeks, with **giant centipedes** out of the Southshore
+He filled the crate himself over three weeks, with **giant centipedes** out of the South Bank
 cellars, and fed them rats. Today he has carried it into the middle of Lupenor's Market at the
 busiest hour, climbed up onto it, and made a speech about Kenabres. Then he opens it, because he
 believes the Locust Lord will be pleased, and he has never been more wrong about anything.
@@ -41,8 +41,8 @@ trader who wants a pitch in it, and she is standing in the doorway of **Lupenor'
 when the lid comes off. She does not draw a weapon and she does not come out. **She watches** which of them looked at
 the crowd first and which looked at the centipedes, and that is the whole interview.
 
-It also sets the clock on the Southshore Job. Jory has **been to the yard on Cinder Row**. Once he
-is caught, the story that the market's candle boy tried to join something in the Southshore will be
+It also sets the clock on the South Bank Job. Jory has **been to the yard on Cinder Row**. Once he
+is caught, the story that the market's candle boy tried to join something in the South Bank will be
 all over Drezen by nightfall, and the people on Cinder Row will hear it. Whatever Mira was going to
 do about that yard, she now has to do **tonight**.
 
@@ -128,7 +128,7 @@ people who need it.
 
 **Jory runs in round 2.** See his record. He does not run for either end of the street, because the
 crowd is jamming both against the carts. He runs for **the alley he carried the crate up**, a gap
-between two empty houses on the south side that leads down toward the Southshore. A character already
+between two empty houses on the south side that leads down toward the South Bank. A character already
 standing at its mouth can simply be there when he arrives.
 
 ## The blame
@@ -141,7 +141,7 @@ They see a goblin with a bomb in his hand and a tiefling standing over a body, a
 spears.
 
 **Do not have Mira fix this.** She will not come out, and she cannot be seen claiming them; the
-Southshore Job depends on nothing leading back to her. **The people they helped fix it.** Whoever
+South Bank Job depends on nothing leading back to her. **The people they helped fix it.** Whoever
 the party actually helped — a baker whose child was pulled out from under a centipede, a herbalist
 nobody splashed, a porter brought back from dying — tells the Preservers what actually happened,
 loudly and all at once. If the party spent the fight on the crowd, the crowd speaks for them. If they did not,
@@ -204,7 +204,7 @@ again later in the campaign, somewhere useful.
 
 Then she puts a scrap-yard address on the table between them.
 
-@link quest: southshore_job | The Southshore Job
+@link quest: southshore_job | The South Bank Job
 
 ## What the party's work changes
 
@@ -227,10 +227,9 @@ that is deliberate.
 @link quest: the_market_kept | The market kept (150 XP)
 @link quest: jory_taken_alive | Jory taken alive (200 XP)
 
-**Total, 1,285**, about 320 each for four. The Southshore Job is written to take the party from 0
-to exactly 2,000 each; with this in front of it they reach the manor at about **2,320**. That is
-still 2nd level, a little ahead of the medium track, and nowhere near 3rd at 5,000. Nothing
-downstream needs rebalancing.
+**Total, 1,285**, about 320 each for four. The South Bank Job adds 6,750 across the party; with this in front of it the party reaches the
+manor at about **2,010 each**, just over 2nd level, which is what the manor is written for.
+The two were balanced together, so drop neither without looking at the other.
 
 **For three players**, run three centipedes and four market-goers, and pay the market kept at 100
 and Jory at 150. **For five**, add a fifth centipede.

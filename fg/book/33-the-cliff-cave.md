@@ -1,6 +1,6 @@
 # C4. The Cliff Cave
 
-<!-- chapter: The Southshore Job -->
+<!-- chapter: The South Bank Job -->
 <!-- section: The Undercroft -->
 <!-- order: 4 -->
 
@@ -33,11 +33,11 @@ watcher could see a yard and no more.
 **Cutting it down is a permanent change to the city.** Four spikes, a knife and about a minute, or
 the whole thing carried off at 40 lb. Either way the Ivory Labyrinth's back door into Drezen stops
 working, and that is worth saying out loud at the table when it happens — it is a bigger result
-than the six men in the tunnel.
+than the four men in the tunnel.
 
-**Finding and mapping the route is worth 400 XP**, and it is the piece of intel Mira did not know
+**Finding and mapping the route is worth 500 XP**, and it is the piece of intel Mira did not know
 she was buying.
 
-@link quest: the_cliff_route | Award: the cliff route (400 XP)
+@link quest: the_cliff_route | Award: the cliff route (500 XP)
 @link parcel: the_scrapyard_intel | What they came for
 @link map: undercroft | The undercroft (map)

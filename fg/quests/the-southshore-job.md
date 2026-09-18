@@ -1,11 +1,11 @@
-# The Southshore Job
+# The South Bank Job
 
 <!-- id: southshore_job -->
 <!-- level: 1 -->
 <!-- giver: Mira Thistledance -->
 <!-- xp: 0 -->
 
-**Mira Thistledance** has a scrap dealer's yard in the Southshore watched, and she wants it taken
+**Mira Thistledance** has a scrap dealer's yard in the South Bank watched, and she wants it taken
 apart tonight by people who do not work for her.
 
 That is the job and it is also the reason the party has it. They were picked in Drezen by agents
@@ -14,7 +14,7 @@ no watch commission. Nothing about them leads back to Lupenor's Market if it goe
 
 She is straight about most of it and quiet about that part.
 
-> *"There is a cell in the Southshore. Under a scrap yard on Cinder Row, and I am fairly sure of
+> *"There is a cell in the South Bank. Under a scrap yard on Cinder Row, and I am fairly sure of
 > the address and not at all sure of the rest — I do not know how many, I do not know what they
 > are, and I do not know what is under the floor. Which is why I am not sending anyone whose
 > face is known."*
@@ -33,18 +33,19 @@ She is straight about most of it and quiet about that part.
 
 ## The experience
 
-**This job is written to take four 1st-level characters to 2nd on the medium track — 2,000 XP
-each, 8,000 across the party.** 5,800 of that is the four encounters and 2,200 is the objectives.
+**This job, with Market Day in front of it, takes four 1st-level characters to 2nd on the medium
+track — about 2,010 XP each.** The job itself is 6,750 across the party: 3,800 from the four
+encounters and 2,950 from the objectives.
 
 **This record carries no XP of its own.** Each objective is its own quest so that it can be
 dragged onto the party sheet at the moment it is actually earned, which is the whole reason to
 split them - the Dolvans are decided in the first ten minutes of the house and the cliff route is
 decided an hour later.
 
-@link quest: intel_to_mira | The intel delivered (800 XP)
-@link quest: the_dolvans_alive | The Dolvans taken alive (800 XP)
-@link quest: the_cliff_route | The cliff route (400 XP)
-@link quest: the_yard_watched | The yard watched first (200 XP)
+@link quest: intel_to_mira | The intel delivered (1,000 XP)
+@link quest: the_dolvans_alive | The Dolvans taken alive (1,100 XP)
+@link quest: the_cliff_route | The cliff route (500 XP)
+@link quest: the_yard_watched | The yard watched first (350 XP)
 
 ## Completion
 

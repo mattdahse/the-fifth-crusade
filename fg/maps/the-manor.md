@@ -46,11 +46,13 @@ Line-of-sight walls in **top-left image pixel coordinates**, written by hand rat
 the manor is a built space and its walls are straight, so exact coordinates beat a threshold.
 
 <!-- occluder: 80,80 80,892 -->
-<!-- occluder: 80,892 1420,892 -->
+<!-- occluder: 80,892 617,892 -->
+<!-- occluder-door: 617,892 745,892 -->
+<!-- occluder: 745,892 1420,892 -->
 <!-- occluder: 1420,892 1420,700 -->
 <!-- occluder: 1420,600 1420,80 -->
-<!-- occluder: 1420,80 925,80 -->
-<!-- occluder: 595,80 80,80 -->
+<!-- occluder: 1420,80 865,80 -->
+<!-- occluder: 621,80 80,80 -->
 <!-- occluder: 383,80 383,452 -->
 <!-- occluder: 621,80 621,452 -->
 <!-- occluder: 865,80 865,452 -->
@@ -59,11 +61,11 @@ the manor is a built space and its walls are straight, so exact coordinates beat
 <!-- occluder-door: 175,452 262,452 -->
 <!-- occluder: 262,452 429,452 -->
 <!-- occluder-door: 429,452 530,452 -->
-<!-- occluder: 530,452 705,452 -->
-<!-- occluder-door: 705,452 780,452 -->
-<!-- occluder: 780,452 984,452 -->
-<!-- occluder-door: 984,452 1063,452 -->
-<!-- occluder: 1063,452 1420,452 -->
+<!-- occluder: 530,452 697,452 -->
+<!-- occluder-door: 697,452 788,452 -->
+<!-- occluder: 788,452 979,452 -->
+<!-- occluder-door: 979,452 1069,452 -->
+<!-- occluder: 1069,452 1420,452 -->
 
 **The four doorways off the great hall are doors**, not gaps — the plate draws a frame and a leaf
 in each, so they ship as `occluder-door`: closed, toggleable, and blocking sight until somebody

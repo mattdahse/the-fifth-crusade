@@ -74,7 +74,7 @@ and cornered he waves the dagger more than he uses it.
 **Catching him is a chase, not a fight.** He outruns anyone on foot. What stops him is a trip, a
 grapple, a net, *grease* or *sleep*, a handcart shoved across his path, or somebody who thought
 to stand in the alley mouth before he got there. Once he is into the alley he is in the lanes
-running down to the Southshore and gone, until Mira's people bring him back that evening. That is the soft failure, and the story
+running down to the South Bank and gone, until Mira's people bring him back that evening. That is the soft failure, and the story
 record covers it.
 
 **He surrenders the instant he is held.** A grapple, a successful trip, or any hit that knocks
@@ -90,11 +90,11 @@ somewhere on that road he decided that if Deskari is what wins, he would rather 
 Deskari.
 
 No real cult wants a loud, grieving twenty-year-old who tells everyone what he is. **He went
-looking for one on Cinder Row**, because every rumour in the Southshore says there is something
+looking for one on Cinder Row**, because every rumour in the South Bank says there is something
 under a scrap yard there. He got as far as the shop counter. A big man with a scrap axe told him
 that the people he was looking for do not take locusts, laughed at him, and sold him an empty
 crate for two coppers to be rid of him. Jory filled it himself over three weeks, with centipedes
-out of the Southshore cellars fed on rats, and moulded them a god out of candle wax.
+out of the South Bank cellars fed on rats, and moulded them a god out of candle wax.
 
 **What he wants now is to have mattered.** Taken alive he talks, all of it, in a flood: Kenabres,
 his master, the road, the yard, the man with the axe, the laugh. He is ashamed and defiant in the

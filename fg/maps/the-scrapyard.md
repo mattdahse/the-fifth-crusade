@@ -66,25 +66,30 @@ module-cache reset.
 Top-left image pixels. The fence and the house walls are straight, so these are written by hand.
 Verify with `python fg/verify.py --map scrapyard`.
 
-<!-- occluder: 640,0 1455,0 -->
-<!-- occluder: 640,0 640,360 -->
-<!-- occluder: 640,610 640,930 -->
+<!-- occluder: 664,0 1465,0 -->
+<!-- occluder: 664,0 609,362 -->
+<!-- occluder-door-open: 609,362 581,518 -->
+<!-- occluder-door: 581,518 602,629 -->
+<!-- occluder: 602,629 640,930 -->
 <!-- occluder: 640,930 1455,930 -->
-<!-- occluder: 1465,0 1465,352 -->
-<!-- occluder-door: 1465,352 1465,418 -->
-<!-- occluder: 1465,418 1465,900 -->
+<!-- occluder: 1461,865 1455,930 -->
+<!-- occluder: 1465,0 1465,15 1465,255 1465,340 -->
+<!-- occluder-door: 1465,340 1465,430 -->
+<!-- occluder: 1465,430 1465,540 1461,865 -->
 <!-- occluder: 1465,15 1942,15 -->
-<!-- occluder: 1942,15 1942,900 -->
-<!-- occluder: 1465,900 1645,900 -->
-<!-- occluder-door: 1645,900 1735,900 -->
-<!-- occluder: 1735,900 1942,900 -->
-<!-- occluder: 1465,255 1640,255 -->
-<!-- occluder-door: 1640,255 1695,255 -->
-<!-- occluder: 1695,255 1942,255 -->
-<!-- occluder: 1465,540 1645,540 -->
-<!-- occluder-door: 1645,540 1715,540 -->
-<!-- occluder: 1715,540 1942,540 -->
-<!-- occluder: 1670,15 1670,255 -->
+<!-- occluder: 1942,15 1942,247 1940,540 1938,865 -->
+<!-- occluder: 1461,865 1641,865 -->
+<!-- occluder-door: 1641,865 1731,865 -->
+<!-- occluder: 1731,865 1938,865 -->
+<!-- occluder: 1465,247 1505,247 -->
+<!-- occluder-door: 1505,247 1595,247 -->
+<!-- occluder: 1595,247 1670,250 -->
+<!-- occluder-door-open: 1670,250 1754,247 -->
+<!-- occluder: 1754,247 1942,247 -->
+<!-- occluder: 1670,15 1670,250 -->
+<!-- occluder: 1465,540 1635,540 -->
+<!-- occluder-door: 1635,540 1725,540 -->
+<!-- occluder: 1725,540 1940,540 -->
 
 **The gate is standing open** and carries no occluder — the gap in the west fence between
 y 360 and y 610 is the way in.

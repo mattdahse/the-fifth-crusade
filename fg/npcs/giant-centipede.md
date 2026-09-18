@@ -72,5 +72,5 @@ says what that costs.
 
 ## Roleplaying
 
-None. They are vermin out of the Southshore cellars, fed on rats for three weeks in a crate, and
+None. They are vermin out of the South Bank cellars, fed on rats for three weeks in a crate, and
 the only unnatural thing about them is the person who thought a demon lord would be proud of them.

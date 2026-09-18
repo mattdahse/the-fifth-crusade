@@ -5,7 +5,7 @@
 <!-- order: 2 -->
 
 Written for **four characters arriving at 2nd level on the medium track**, which is where the
-Southshore job leaves them.
+South Bank job leaves them.
 
 **Combat, 5,075.** The Labyrinth post 805, the Locust-Sworn 670, the ant nest 2,400, the young
 queen 1,200.
@@ -25,7 +25,7 @@ way to 3rd level and deliberately not all of it - **the manor does not level the
 is 5,000 on the medium track and the remaining 1,250 belongs to whatever Mira does with the ledger.
 
 Note the ratio, because it is the design and not an accident. Objectives are **27% of the total**,
-the same share they were in the Southshore. Three of these four reward a decision rather than a
+the same share they were in the South Bank. Three of these four reward a decision rather than a
 kill, and only one of them is the job anybody was actually hired for.
 
 **Award them even if the party does not ask**, and say what each was for. A party never told that

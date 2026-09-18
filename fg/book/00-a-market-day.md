@@ -4,7 +4,7 @@
 <!-- section: Introduction -->
 <!-- order: 1 -->
 
-The prologue, played before the Southshore Job. Four 1st-level strangers are shopping in
+The prologue, played before the South Bank Job. Four 1st-level strangers are shopping in
 **Lupenor's Market**, a street that turned into a market because people started selling in it,
 when a grieving boy from Kenabres named **Jory Tallow** climbs up onto a crate,
 makes a speech about Deskari, and lets four giant centipedes loose into the crowd.
@@ -15,7 +15,7 @@ trading house and does nothing visible. Within the hour a porter with no name br
 Jory tells them about a scrap yard on **Cinder Row** that laughed at him and sold him the crate.
 
 Jory has been to that yard. By nightfall all of Drezen will know he was caught, which means the
-yard will know too, and that is why Mira needs the Southshore Job done **tonight**.
+yard will know too, and that is why Mira needs the South Bank Job done **tonight**.
 
 @link story: market_day_story | Full scene text
 @link battle: market_day | The market (encounter)

@@ -174,9 +174,18 @@ FG closed:
 pwsh -File ./build-fg.ps1 -Install -ResetModuleCache
 ```
 
-That deletes the cached copies. What is lost is staged token positions; the rest of the file is
-FG's own default fields (spell slot counts, `isidentified` flags, item capacity zeroes) and is
-not worth keeping. Back the file up first anyway — it is campaign data.
+That deletes the cached copies — **and everything Matt changed in the client**, not just staged
+tokens. This was once written here as "nothing worth keeping" and a reset threw away a round of
+his work: wall fixes on two maps, a renamed NPC, two encounters cut down with their own token
+positions, a corrected book page and four items added to a parcel. Much of the file *is* FG's own
+noise (`isidentified`, `spelldisplaymode`, `token3Dflat`, zeroed item capacity fields), but it is
+also the only place a table-side edit exists.
+
+**So before any reset, read the cache and write every real edit back into the markdown**, then
+reset. Diff each forked map's occluders against the built module (a changed wall shows up as a
+set of lines only one side has), dump the forked `battle`, `npc`, `treasureparcels` and
+`reference` records, and separate edits from noise. The reset itself backs the file up, and the
+backup is where to read from if the order was got wrong.
 
 ## Record links
 
@@ -703,7 +712,8 @@ something the GM has to remember and then award by hand; a link is something the
 them — `python fg/new.py quest the-dolvans-alive --name "..." --xp 800`.
 
 **Objective XP is about 27% of an adventure's total**, held to deliberately in both adventures so
-far — 2,200 of 8,000 in the Southshore, 1,925 of 7,000 at the manor. Below that the campaign's
+far — 1,925 of 7,000 at the manor. The South Bank Job is the stated exception at 2,950 of
+6,750 (44%), raised when its tunnel and cavern were cut so the party still reaches 2nd level. Below that the campaign's
 stated values are just talk; much above it and the objectives outweigh the encounters, which reads
 as the GM paying for compliance. Most of the awards should reward a **decision** rather than a
 kill, and no more than one of them should be the job the party was actually hired for.
@@ -922,7 +932,7 @@ chapters down the side. One markdown file is one page.
 ```markdown
 # B4. The Children's Room
 
-<!-- chapter: The Southshore Job -->
+<!-- chapter: The South Bank Job -->
 <!-- section: The House -->
 <!-- order: 4 -->
 ```

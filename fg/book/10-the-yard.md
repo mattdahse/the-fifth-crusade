@@ -1,6 +1,6 @@
 # A1. The Yard
 
-<!-- chapter: The Southshore Job -->
+<!-- chapter: The South Bank Job -->
 <!-- section: The Yard -->
 <!-- order: 1 -->
 

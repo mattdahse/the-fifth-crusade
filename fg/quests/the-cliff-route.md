@@ -3,7 +3,7 @@
 <!-- id: the_cliff_route -->
 <!-- level: 1 -->
 <!-- giver: Mira Thistledance -->
-<!-- xp: 400 -->
+<!-- xp: 500 -->
 
 **Find out where that tunnel actually comes out, and be able to draw it.**
 

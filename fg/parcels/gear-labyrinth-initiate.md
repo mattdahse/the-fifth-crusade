@@ -2,7 +2,7 @@
 
 <!-- id: gear_labyrinth_initiate -->
 
-What is on one of the six in the tunnel. Better kit than anything upstairs, and none of it local.
+What is on one of the four in the tunnel. Better kit than anything upstairs, and none of it local.
 
 ## Coin
 
@@ -42,5 +42,4 @@ here.
 <!-- cost: 5 sp -->
 <!-- weight: 1 -->
 
-Four days of hard bread and salt meat, packed to travel. Six men with four days of rations each
-are not garrisoning a cellar - they are waiting to leave.
+Four days of hard bread and salt meat, packed to travel.

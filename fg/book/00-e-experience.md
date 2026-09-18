@@ -13,10 +13,9 @@ deliberately.
 @link quest: the_market_kept | The market kept (150 XP)
 @link quest: jory_taken_alive | Jory taken alive (200 XP)
 
-**Total, 1,285**, about 320 each for four. The Southshore Job is written to take the party from 0
-to exactly 2,000 each; with this in front of it they reach the manor at about **2,320**. That is
-still 2nd level, a little ahead of the medium track and nowhere near 3rd, so nothing downstream
-needs rebalancing.
+**Total, 1,285**, about 320 each for four. The South Bank Job adds 6,750 across the party; with this in front of it the party reaches the
+manor at about **2,010 each**, just over 2nd level, which is what the manor is written for.
+The two were balanced together, so drop neither without looking at the other.
 
 **Award the objectives even if the party does not ask.** Neither was offered, and that is the
 point: the market kept rewards looking at the crowd before the centipedes, and Jory alive rewards

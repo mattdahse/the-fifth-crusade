@@ -1,4 +1,4 @@
-# The Southshore Job
+# The South Bank Job
 
 <!-- id: southshore_job_story -->
 <!-- order: 0 -->
@@ -25,7 +25,7 @@ them, no company, no commission from the watch. She tells them that part; it sou
 compliment and it is half of one.
 
 The other half she does not say. Unaffiliated also means **untraceable**, and if four strangers
-are found dead in a scrap dealer's cellar in the Southshore, nothing about them leads back to
+are found dead in a scrap dealer's cellar in the South Bank, nothing about them leads back to
 Lupenor's Market. She is not cynical about this and she is not apologising for it either. It is
 simply how she does the work, and a party that later realises it has been used this way is
 entitled to say so to her face — she will not deny it.
@@ -50,9 +50,9 @@ an order of battle, and finding out is the first real decision they make.
 watched from it. A party that spends an hour looking learns the dogs, the shift, and that far
 more people go into that house at dusk than come out of it in the morning. A party that kicks
 the gate learns all of that at once and at speed. Both are legitimate. **Scouting first is worth
-200 XP**, and it is worth saying so afterwards rather than before.
+350 XP**, and it is worth saying so afterwards rather than before.
 
-@link quest: the_yard_watched | Award: the yard watched first (200 XP)
+@link quest: the_yard_watched | Award: the yard watched first (350 XP)
 
 ## The yard
 
@@ -100,7 +100,7 @@ children as a threat and do not engineer their danger — put them in the room, 
 are, and let the party decide what kind of people they are while Hesk is in the doorway with
 an axe.
 
-**Alia and all three children taken out alive is worth 800 XP.** It is the largest single award
+**Alia and all three children taken out alive is worth 1,100 XP.** It is the largest single award
 in the adventure and that is deliberate. Mira's agents take them at the end of Cinder Row; the
 cell is broken exactly as thoroughly either way; the only thing that changes is what the party
 did.
@@ -109,7 +109,7 @@ Alia surrenders the instant the children are safe and not one second before. She
 fastest route to everything under the house — she knows about the door, the tunnel, the ladder and
 the map, and she will trade all of it.
 
-@link quest: the_dolvans_alive | Award: the Dolvans taken alive (800 XP)
+@link quest: the_dolvans_alive | Award: the Dolvans taken alive (1,100 XP)
 
 ## What is worth finding, and only if they look
 
@@ -145,15 +145,16 @@ before the cult did.
 A dug-out cellar under the shop, and a **secret door** in its back wall. Finding it is a search of
 the shelving, not of the whole room; Alia or Hesk will simply tell the party where it is.
 
-**Six Labyrinth initiates** are quartered in the tunnel behind it.
+**Four Labyrinth initiates** are quartered in the tunnel behind it.
 
 @link battle: labyrinth_tunnel | The tunnel
 
-These are not Southshore scrappers. They are the Ivory Labyrinth proper, posted from outside the
+These are not South Bank scrappers. They are the Ivory Labyrinth proper, posted from outside the
 city to keep a door open, and they are a **clean fight**: no families, no surrender, no leverage.
 That is deliberate. The party has earned an uncomplicated one by now.
 
-**Four hold the narrow part of the tunnel in a line. Two are at the far end and go for the ladder**
+**Two hold the narrow part of the tunnel at the cellar end. The other two are at the far end and go
+for the ladder**
 rather than joining — they are not running, they are doing their job, which is to make sure
 somebody outside the city hears about this by morning. Kicking the heap over the lip is one move
 action and the descent needs no check, so **they are gone in two rounds if nobody chases**, and a
@@ -165,14 +166,13 @@ The tunnel opens into a natural cavern that the cult did not dig and does not li
 
 @link battle: the_cavern
 
-**Six darkmantles** are on the ceiling, and they have been the whole time. This is why the
+**Two darkmantles** are on the ceiling, and they have been the whole time. This is why the
 initiates cross with torches, quickly, in pairs — and a party that noticed how the initiates
 moved has been told what is coming.
 
-**Run it as two waves of three.** All six at once on a 1st-level party is a slaughter. Three
-drop as the party reaches the middle; the other three come when the fight is loud enough or the
-party is halfway to the far side. It is the same 2,400 XP either way and it is the difference
-between a set piece and a wipe.
+**They drop together**, as the party reaches the middle of the cavern: one on whoever carries the
+light and one on whoever is behind them. Two is a real fight at 1st level, because a grabbed
+character is suffocating on the initiative count, and it is not a slaughter.
 
 Blindsight 90 ft. means **putting out the lantern helps them and not the party.** Say so the
 first time somebody reaches for it.
@@ -183,10 +183,10 @@ Dropped, it puts anyone at all on the ground outside Drezen's wall — no gate, 
 officer writing a name in a book. Heaped, it shows nothing from below, which is why the route has
 never been given away by the cliff face.
 
-**Finding and mapping that route is worth 400 XP**, and it is the piece of intel Mira did not
+**Finding and mapping that route is worth 500 XP**, and it is the piece of intel Mira did not
 know she was buying.
 
-@link quest: the_cliff_route | Award: the cliff route (400 XP)
+@link quest: the_cliff_route | Award: the cliff route (500 XP)
 
 ## What they came for
 
@@ -196,36 +196,42 @@ One of the initiates carries a **rough map** — the Marchlands north and west o
 somebody who had walked it. It is unremarkable except for a set of small marks that are not
 places: they are a route, and they end at a Sarkorian ruin two days along the western road.
 
-**Getting it back to Mira is worth 800 XP** and is the reason there is a second commission.
+**Getting it back to Mira is worth 1,000 XP** and is the reason there is a second commission.
 
-@link quest: intel_to_mira | Award: the intel delivered (800 XP)
+@link quest: intel_to_mira | Award: the intel delivered (1,000 XP)
 
 ## The experience budget
 
-Written for **four characters at 1st level, medium track — 2,000 XP each, 8,000 across the
-party**, which is exactly what this adds up to if they finish it.
+Written for **four characters at 1st level, medium track.** On its own it is **6,750 across the
+party**, about 1,690 each. With [Market Day](market-day.md) in front of it (1,285) the party reaches
+the manor at **8,035, about 2,010 each: just over 2nd level**, which is what the manor is written
+for.
 
 | | XP |
 |---|---|
 | The yard — 2 dogs | 800 |
 | The house — Hesk, three scrappers, Alia | 1,400 |
-| The tunnel — six initiates | 1,200 |
-| The cavern — six darkmantles | 2,400 |
-| **Combat** | **5,800** |
-| The intel delivered to Mira | 800 |
-| Alia and the children taken alive | 800 |
-| The cliff route found and mapped | 400 |
-| The yard scouted before the strike | 200 |
-| **Objectives** | **2,200** |
-| **Total** | **8,000** |
+| The tunnel — four initiates | 800 |
+| The cavern — two darkmantles | 800 |
+| **Combat** | **3,800** |
+| The intel delivered to Mira | 1,000 |
+| Alia and the children taken alive | 1,100 |
+| The cliff route found and mapped | 500 |
+| The yard scouted before the strike | 350 |
+| **Objectives** | **2,950** |
+| **Total** | **6,750** |
+
+**The objectives are 44% of this job**, well above the 27% the rest of the module holds to. That
+is the price of the smaller tunnel and cavern: the awards were raised so that the party still
+reaches 2nd level before the manor, and they were raised on the decisions, not the kills.
 
 **Award the objectives even if the party does not ask.** Two of them — the children, and scouting
 first — reward decisions rather than actions, and a party that is never told those were worth
 anything learns the wrong lesson about what this campaign values.
 
-**For three players**, drop the cavern to four darkmantles and the objective awards to 1,400
-(intel 600, children 500, route 200, scouting 100) — 6,000 total, 2,000 each. **For five**, run
-all six darkmantles as one wave and add a seventh initiate.
+**For three players**, run three initiates and one darkmantle, and pay the objectives at 1,800
+(intel 600, children 700, route 300, scouting 200) — about 6,000 with Market Day, 2,000 each.
+**For five**, add a fifth initiate and a third darkmantle.
 
 ## Afterwards
 

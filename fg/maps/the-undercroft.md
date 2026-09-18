@@ -22,9 +22,9 @@ of each, so the grid lands true from either anchor without a pixel being moved.
 2. **The secret door** is behind that rack, in the west wall. Finding it is a search of the
    shelving; Alia or Hesk will simply say where it is.
 3. **The tunnel** - dug, timber-propped, three squares wide, and lived in: bedrolls along the
-   walls, a crate for a table, a burnt-out fire ring. Six initiates sleep here.
+   walls, a crate for a table, a burnt-out fire ring. Four initiates sleep here.
 4. **The cavern** - natural, irregular, far wider than the tunnel, with fallen rock and
-   stalagmites. The cult did not dig it and does not like it. Six darkmantles are on the ceiling.
+   stalagmites. The cult did not dig it and does not like it. Two darkmantles are on the ceiling.
 5. **The cliff cave**, far left, open to the air, with a rope ladder spiked to the lip and heaped
    on the floor beside it.
    Lowered, it puts a climber on the ground outside Drezen's wall.
@@ -53,7 +53,13 @@ off from the cellar.
 <!-- occluder: 1262,703 1262,565 -->
 <!-- occluder-door: 1262,565 1262,485 -->
 <!-- occluder: 1262,485 1262,305 -->
-<!-- occluder: 1105,625 1075,655 1025,595 965,595 925,645 875,625 795,655 745,615 665,675 685,715 655,745 695,825 665,855 625,845 595,895 535,925 445,915 385,865 395,815 365,785 335,795 275,715 305,655 285,625 295,575 215,555 155,595 65,605 25,565 25,475 55,445 155,495 265,475 305,415 335,445 355,415 325,325 365,285 355,245 435,155 555,155 615,215 615,245 635,225 665,255 605,325 635,355 625,405 645,435 735,465 835,405 895,435 1015,405 1085,455 1155,425 -->
+<!-- occluder: 1155,400 1262,405 -->
+<!-- occluder: 1105,632 1262,632 -->
+<!-- occluder: 1155,400 1085,398 1015,392 895,395 835,405 735,465 645,435 625,405 635,355 605,325 665,255 635,225 615,245 615,215 555,155 435,155 355,245 365,285 325,325 355,415 335,445 305,415 265,475 155,495 37,439 -->
+<!-- occluder-door: 740,462 741,618 -->
+<!-- occluder: 1105,632 1075,655 1025,632 965,632 925,645 875,632 795,655 741,618 -->
+<!-- occluder: 741,618 665,675 685,715 655,745 695,825 665,855 625,845 595,895 535,925 445,915 385,865 395,815 365,785 335,795 275,715 305,655 285,625 295,575 215,555 155,595 65,605 25,565 -->
+<!-- occluder-open: 37,439 25,565 -->
 
 To retrace after a change to the plate:
 

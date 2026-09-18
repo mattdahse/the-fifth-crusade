@@ -1,6 +1,6 @@
 # Payment and Downtime
 
-<!-- chapter: The Southshore Job -->
+<!-- chapter: The South Bank Job -->
 <!-- section: Afterwards -->
 <!-- order: 1 -->
 
