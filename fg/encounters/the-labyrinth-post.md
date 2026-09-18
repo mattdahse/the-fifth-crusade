@@ -10,5 +10,5 @@
 
 ## Foes
 
-- 1x ysolde_karn @ 250,700
-- 3x labyrinth_squatter @ 220,505; 480,505; 350,620
+- 1x ysolde_karn @ 280,680
+- 3x labyrinth_squatter @ 200,520; 440,520; 360,600

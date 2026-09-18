@@ -43,6 +43,7 @@ party did not help anybody, it is **Diplomacy DC 15**, and the Preservers take n
 **If a PC or a market-goer goes down, Mira plays**: an unseen lute, **inspire courage +2**, from the
 trading house. **Perception DC 15** spots her in her doorway before the door closes.
 
+@link map: lupenors_market | Lupenor's Market (map)
 @link battle: market_day | The market (encounter)
 @link npc: jory_tallow | Jory Tallow
 @link npc: giant_centipede | Giant centipede

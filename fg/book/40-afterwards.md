@@ -13,5 +13,7 @@ spent at 2nd level rather than carried into the Marchlands - let the downtime ha
 
 Then she sends for them again, with the map on the table between her and them.
 
+@link map: scrapyard | The scrapyard (map)
+@link map: undercroft | The undercroft (map)
 @link parcel: miras_payment | What Mira pays
 @link story: manor_story | The Sarkorian Manor

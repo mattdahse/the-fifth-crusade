@@ -10,4 +10,4 @@
 
 ## Foes
 
-- 1x fiendish_ant_queen @ 1275,265
+- 1x fiendish_ant_queen @ 1280,240

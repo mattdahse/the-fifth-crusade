@@ -527,6 +527,28 @@ One coordinate pair per token, and the build warns when the count and the number
 disagree. It measures the plate named by the encounter's `map:` marker and converts to FG's own
 space — origin at the plate's centre, **y pointing up** — the same convention as occluders.
 
+**Every placement sits on the grid** — a Medium or smaller token on a square's **centre**, a Large
+one on a grid **intersection**. A position picked by eye off the art lands between squares and the
+token straddles four of them, which is what every placement in this module did until Matt caught
+it. Write rough positions, build, then let the tool snap them:
+
+```bash
+python fg/snap.py            # dry run
+python fg/snap.py --write
+```
+
+It reads the **built** module and uses `passable.py`'s own erosion, so it only ever picks a square a
+token can stand in, never one across a wall from where it was written, and never one already taken.
+The build warns on any placement that is off the grid.
+
+**Walls follow the grid, not the pixel.** A token can only stand in a square whose centre is about
+55 px clear of a wall (at a 100 px grid), so a wall traced a few pixels on the room's side of a grid
+line throws away the whole row of squares beside it, and an alley or doorway drawn at its painted
+width is usually narrower than a square and cannot be entered at all. Set straight walls a few
+pixels **behind** a grid line, and make every passage a token must use **at least one full square
+wide**, centred on a grid column, even where the art draws it narrower. `the-scrapyard`'s house
+doors (55–70 px on an 80 px grid) and the manor's split are the standing examples of the failure.
+
 FG stores this as a `<maplink>` on the foe, and the record path has a trap in it:
 `image.<mapid>.image`. **The second `.image` is the layer inside the record, not a typo** — a
 maplink pointing at `image.<mapid>` alone silently places nothing.
@@ -904,6 +926,10 @@ chapters down the side. One markdown file is one page.
 <!-- section: The House -->
 <!-- order: 4 -->
 ```
+
+**Every book page and story record links its map** with `@link map:` — including the summary,
+payment and experience pages — so the GM is never one hunt through the Maps list away from the
+place being run. The build warns on any page without one.
 
 Chapters and sections are created in the order they are first seen; `order:` sorts pages within a
 section. **Give every room its own page**, and put `@link` blocks in it for the encounter, the

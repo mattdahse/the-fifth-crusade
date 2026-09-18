@@ -39,6 +39,7 @@ Then she puts a scrap-yard address on the table between them.
 **Say what changed, out loud:** who in the market is alive, who they owe, and that four strangers
 are now a company.
 
+@link map: lupenors_market | Lupenor's Market (map) — the trading house
 @link npc: jory_tallow | Jory Tallow
 @link quest: jory_taken_alive | Award: Jory taken alive (200 XP)
 @link quest: southshore_job | The Southshore Job

@@ -20,6 +20,8 @@ A party that gets one of the three has done a job. A party that gets all three h
 road. **Each is its own quest record and carries its own XP** - drag them onto the party sheet as
 they land, rather than totalling anything at the end.
 
+@link map: manor | The manor (map)
+@link map: approach | The approach (map)
 @link quest: the_manor_held | The manor held (400 XP)
 @link quest: the_ledger_delivered | The ledger delivered (600 XP)
 @link quest: the_clutch_burned | The clutch burned (500 XP)

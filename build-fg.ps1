@@ -774,6 +774,14 @@ foreach ($ch in @($bookChapters.Keys)) {
 $maps       = @(Read-Docs 'maps') + @(Read-Docs 'images')
 $stories    = @(Read-Docs 'story')
 
+# Every page a GM runs from must put its map one click away. A book page or story record
+# with no `@link map:` leaves the GM hunting the Maps list mid-session, so say so.
+foreach ($doc in @($bookpages) + @($stories)) {
+  if ($doc.raw -notmatch '(?m)^@link\s+(map|image):') {
+    Warn "$($doc.file): no @link map $em every story entry needs a reference to its map"
+  }
+}
+
 $npcById = @{}
 foreach ($n in $npcs) { $npcById[$n.id] = $n }
 
@@ -919,6 +927,20 @@ if ($encounters.Count) {
     }
     elseif ($foes | Where-Object { $_.spots.Count }) {
       Warn "$($e.file): placements given but no map: marker"
+    }
+    # A token that is not centred in its square straddles four of them. Medium and smaller
+    # sit on a square's centre; Large sits on a grid intersection. fg/snap.py fixes it.
+    if ($e.meta.map -and $mapRec -and $mapRec.meta.gridsize) {
+      $g = [double]$mapRec.meta.gridsize
+      foreach ($f in $foes) {
+        $large = ($f.npc.stats -and [string]$f.npc.stats['size'] -match '^(Large|Huge)$')
+        $off = if ($large) { 0.0 } else { $g / 2.0 }
+        foreach ($sp in $f.spots) {
+          if ((($sp[0] - $off) % $g) -ne 0 -or (($sp[1] - $off) % $g) -ne 0) {
+            Warn "$($e.file): $($f.npc.id) @ $($sp[0]),$($sp[1]) is off the grid $em run python fg/snap.py --write"
+          }
+        }
+      }
     }
     [void]$sec.Add("`t`t<$($e.id)>")
     [void]$sec.Add((N 'exp' $totalXp 3))

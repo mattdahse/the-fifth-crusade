@@ -13,6 +13,8 @@ queen 1,200.
 **Objectives, 1,925.** The manor held 400, the ledger delivered 600, the clutch burned 500, the
 truce turned 425.
 
+@link map: manor | The manor (map)
+@link map: approach | The approach (map)
 @link quest: the_manor_held | The manor held (400 XP)
 @link quest: the_ledger_delivered | The ledger delivered (600 XP)
 @link quest: the_clutch_burned | The clutch burned (500 XP)

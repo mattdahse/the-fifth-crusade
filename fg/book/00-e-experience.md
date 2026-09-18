@@ -9,6 +9,7 @@ deliberately.
 
 **Objectives, 350**, which is 27% of the total, in line with the rest of the module.
 
+@link map: lupenors_market | Lupenor's Market (map)
 @link quest: the_market_kept | The market kept (150 XP)
 @link quest: jory_taken_alive | Jory taken alive (200 XP)
 

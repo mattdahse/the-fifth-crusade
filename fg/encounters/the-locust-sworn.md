@@ -10,5 +10,5 @@
 
 ## Foes
 
-- 1x corwin_skell @ 1120,600
-- 2x locust_sworn @ 740,505; 1020,505
+- 1x corwin_skell @ 1080,600
+- 2x locust_sworn @ 760,520; 1000,520

@@ -10,4 +10,4 @@
 
 ## Foes
 
-- 4x fiendish_giant_ant_soldier @ 640,470; 470,500; 250,420; 250,640
+- 4x fiendish_giant_ant_soldier @ 630,450; 450,510; 270,390; 270,630

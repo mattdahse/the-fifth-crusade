@@ -12,6 +12,8 @@ party, which is exactly what this adds up to if they finish it.
 **Objectives, 2,200.** Each is its own quest record, carrying its own XP, so it can go onto the
 party sheet the moment it is earned rather than being totalled up at the end.
 
+@link map: scrapyard | The scrapyard (map)
+@link map: undercroft | The undercroft (map)
 @link quest: intel_to_mira | The intel delivered (800 XP)
 @link quest: the_dolvans_alive | The Dolvans taken alive (800 XP)
 @link quest: the_cliff_route | The cliff route (400 XP)

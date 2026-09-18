@@ -11,9 +11,9 @@
 
 ## Foes
 
-- 1x hesk_dolvan @ 1670,330
-- 3x scrapyard_cultist @ 1560,420; 1830,450; 1630,640
-- 1x alia_dolvan @ 1670,250
+- 1x hesk_dolvan @ 1640,360
+- 3x scrapyard_cultist @ 1560,440; 1800,440; 1640,600
+- 1x alia_dolvan @ 1720,200
 - 1x sera_dolvan @ 1800,200
-- 1x corin_dolvan @ 1760,90
-- 1x dolvan_infant @ 1855,205
+- 1x corin_dolvan @ 1720,120
+- 1x dolvan_infant @ 1880,200
