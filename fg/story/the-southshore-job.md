@@ -30,6 +30,13 @@ Lupenor's Market. She is not cynical about this and she is not apologising for i
 simply how she does the work, and a party that later realises it has been used this way is
 entitled to say so to her face — she will not deny it.
 
+**If you ran Market Day, that is where she found them**: four strangers who went toward a crate of
+centipedes in her own market while everyone else ran. It is also why the job is tonight rather than
+next week. The boy who opened the crate had been to Cinder Row, and by nightfall the yard will have
+heard that he was caught.
+
+@link story: market_day_story | Market Day
+
 ## What she knows, and what she does not
 
 She knows: **there is a cell**, it is under a scrap dealer's yard on **Cinder Row**, and it has

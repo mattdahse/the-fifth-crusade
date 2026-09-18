@@ -102,6 +102,11 @@ gallery. Their likeness anchors live here instead.
 | Snicker token | `tokens/snicker.webp` | **done** — 512 × 512, 60 KB |
 | Dorogh Kell portrait | `portraits/dorogh-kell.webp` | **done** — 1024 × 1024, 217 KB, skin greyed in post |
 | Dorogh Kell token | `tokens/dorogh-kell.webp` | **done** — 512 × 512, 78 KB |
+| Jory Tallow portrait | `portraits/jory-tallow.webp` | **done** — 1024 × 1024, 289 KB |
+| Jory Tallow token | `tokens/jory-tallow.webp` | **done** — 512 × 512, 90 KB; the wax locust is half cut by the circle, the yellow still reads |
+| Market-goer portrait | `portraits/market-goer.webp` | **done** — 1024 × 1024, 260 KB |
+| Market-goer token | `tokens/market-goer.webp` | **done** — 512 × 512, 87 KB |
+| Lupenor's Market battlemap | `images/lupenors-market.webp` | **done** — second render (the first, a walled yard, was rejected); 1536 × 1024 trimmed and padded to 1600 × 1000 for a 100 px grid, 570 KB |
 
 ---
 
@@ -468,6 +473,80 @@ for a Christian cross on any armoured figure unprompted. See the note in
 
 ---
 
+## Jory Tallow
+
+**Likeness anchors (keep constant).** Human man of **twenty**, thin to the point of looking
+underfed, pale, with **uncut mouse-brown hair** falling in his eyes and a patchy beard he cannot
+really grow. A **chandler's leather apron spotted all over with old drips of yellow wax** over a
+patched linen shirt, sleeves pushed up; along the back of his **left hand and wrist, a healed burn
+scar**, shiny and pink, from Kenabres in Arodus. In his raised right hand he holds up a **small,
+badly made yellow wax locust**, the way a priest holds up a relic. The expression is the whole
+character: **fervent and on the edge of tears at once** — mouth open mid-shout, eyes wet and too
+wide, a boy performing a conviction he is not sure of. Not sinister and not a villain; somebody you
+would feel sorry for if he were not doing this.
+
+**His colour is tallow yellow against canvas grey.** The wax locust and the drips on the apron are
+the brightest warm things in the frame, and the market behind him is cool and grey. That is his
+token silhouette: a raised hand with a point of yellow light in it.
+
+> THIS IS A PAINTING, NOT A PHOTOGRAPH. A traditional narrative OIL PAINTING on canvas: visible
+> directional brush strokes throughout, loaded paint and impasto in the lights, soft scumbled
+> painted edges, visible canvas weave, colour mixed on a palette rather than sampled from life.
+> Every surface should read as pigment. Render the background in looser, broader brushwork than
+> the figure.
+>
+> Cinematic painterly fantasy illustration, semi-realistic. Square composition, head-and-chest
+> portrait bust, the figure centred with clear space around the head and nothing important in the
+> corners. A thin, pale, underfed HUMAN YOUNG MAN of about twenty, uncut mouse-brown hair falling
+> into his eyes, a thin patchy beard. He wears a CHANDLER'S LEATHER APRON SPOTTED WITH DRIPS OF
+> YELLOW WAX over a patched linen shirt with the sleeves pushed up, and the back of his left hand
+> and wrist carries an old healed BURN SCAR, shiny and pink. His right hand is raised high, holding
+> up a SMALL CRUDE LOCUST MOULDED FROM YELLOW WAX like a relic. He is shouting: mouth open, eyes wet
+> and too wide, fervent and close to tears at the same moment - a frightened boy performing a
+> conviction. Behind him, out of focus in loose brushwork, the patched grey canvas awnings of a
+> crowded street market. Lighting is a cool overcast from above with one warm glow on the raised wax
+> locust and his face; the yellow wax is the brightest warm note in the picture. Strong value
+> contrast; dominant colours TALLOW YELLOW and CANVAS GREY against dark.
+>
+> **Avoid:** a sinister or evil expression, a sneer, a grin, glowing eyes, horns, demonic features,
+> robes, a hood, a cult robe, a holy symbol, a real insect, a swarm, blood, a raised weapon, armour,
+> an old man, a heavy beard, a photograph, photorealistic rendering, photoreal skin, photographic
+> grain, a film still, DSLR photography, lens bokeh, shallow depth-of-field blur, lens flare, visible
+> skin pores, hyperreal skin texture, anime, cartoon, cel-shaded, 3-D render, comic ink, flat
+> vector, oversaturated, glossy, text, watermark, signature, border, a frame, extra limbs, extra
+> fingers, deformed hands.
+
+## Market-goer
+
+**One token for six bystanders**, so it has to read as *anyone*: a **stallholder woman of about
+forty** in a faded blue headscarf and a brown work dress, holding a **pair of brass merchant's
+scales** against her chest as though she might have to defend them, looking past the viewer at
+something that has frightened her. Plain and ordinary, and **distinct at token size from every foe
+in the module**. Her dominant colour is the **faded blue** of the headscarf, which nothing hostile
+in this campaign wears.
+
+> THIS IS A PAINTING, NOT A PHOTOGRAPH. A traditional narrative OIL PAINTING on canvas: visible
+> directional brush strokes throughout, loaded paint and impasto in the lights, soft scumbled
+> painted edges, visible canvas weave. Render the background in looser, broader brushwork than the
+> figure.
+>
+> Cinematic painterly fantasy illustration, semi-realistic. Square composition, head-and-chest
+> portrait bust, the figure centred with clear space around the head and nothing important in the
+> corners. An ordinary HUMAN WOMAN of about forty, a market stallholder, in a FADED BLUE HEADSCARF
+> and a plain brown work dress with a canvas apron. She clutches a pair of BRASS MERCHANT'S SCALES
+> against her chest with both hands. She is frightened and frozen, looking past the viewer at
+> something off to one side, mouth slightly open. Behind her, loose and out of focus, the grey
+> tarps and handcarts of a crowded street market. Soft overcast light with a brighter key
+> on her face and the brass; the faded blue headscarf is the dominant colour. Strong value
+> contrast against a darker background.
+>
+> **Avoid:** a weapon, armour, a heroic pose, a smile, finery, jewellery, a noblewoman, a young
+> girl, an old crone, a photograph, photorealistic rendering, photoreal skin, photographic grain,
+> lens bokeh, anime, cartoon, cel-shaded, 3-D render, flat vector, oversaturated, text, watermark,
+> signature, border, a frame, extra limbs, deformed hands.
+
+---
+
 ## Replacing the battlemap with painted art
 
 The blockout is playable, so this is polish rather than a blocker. If it is done, the geometry
@@ -661,3 +740,71 @@ direction, not a thing anybody can stand on, and the quest record says so outrig
 > grid, text, letters, numbers, labels, a legend, a compass, a scale bar, a border, a frame,
 > parchment, a vignette, a photograph, a 3-D render, cartoon, cel-shaded, flat vector, bright
 > saturated colours, miniatures, tokens, figures, creatures, people.
+
+---
+
+## Lupenor's Market battlemap
+
+**The first render was rejected, and the reason is the whole brief.** Asked for "a market", the
+model drew a walled yard with a dozen identical stalls in tidy rows on a clean grid, which is a
+fair picture of a market and nothing like this one. **Lupenor's Market is a street that became a
+market because people started selling in it**, weeks after the city changed hands. Nothing was
+laid out. Merchants park a cart and throw a tarp over it, spread a rug on the cobbles, prop a
+lean-to against an empty house, or hawk out of a sack standing on a crate that is not theirs. The
+only thing stopping them from taking the whole road is that a cart has to get down the middle.
+
+So the prompt has to fight the model's instinct for order, and say so in plain words: **no two
+pitches the same size, nothing in rows, nothing aligned, no walls round it.** Itemise the kinds of
+pitch — a model asked for "stalls" paints one stall twelve times — and make the clear lane
+**crooked**, because a straight one reads as planned. It is a street, so it runs **edge to edge**,
+with houses along both long sides and alleys between them.
+
+> Please generate this image directly. Aspect ratio 3:2.
+>
+> A TOP-DOWN TABLETOP RPG BATTLEMAP, viewed from directly overhead, orthographic, no perspective.
+> Painted in oils, visible brushwork, a muted earthy palette: grey cobbles, weathered canvas, warm
+> wood, dull reds and ochres.
+>
+> A CITY STREET that has been taken over by a RAMSHACKLE, MAKESHIFT STREET MARKET. The street runs
+> from the LEFT EDGE of the image to the RIGHT EDGE. Along the TOP EDGE and the BOTTOM EDGE are the
+> ROOFTOPS of old, run-down stone and timber houses of different sizes, shoulder to shoulder, some
+> roofs patched, some with holes, one or two half-collapsed. Between the houses, two or three
+> NARROW ALLEYS lead off the street, each barely one person wide. One building on the TOP side,
+> right of centre, is noticeably sounder than the rest: a whole slate roof and a new wooden door
+> onto the street.
+>
+> NOTHING IN THIS MARKET WAS PLANNED. There are NO ROWS, NO GRID, NO MATCHING STALLS and NO TWO
+> PITCHES ALIKE. The traders have crept out of the house fronts into the road from both sides and
+> claimed every scrap of it, jammed together at odd angles:
+> - a two-wheeled HANDCART parked crooked with a stained tarp thrown over two poles above it;
+> - a larger wagon with its shafts on the ground, a patched sheet lashed over its load;
+> - RUGS and blankets spread straight on the cobbles with pots, bolts of cloth, tools and salvaged
+>   ironmongery laid out on them;
+> - LEAN-TOS of scrap timber and sacking propped against house fronts;
+> - a single sagging canvas sheet strung between a doorframe and a pole;
+> - baskets of vegetables and bread set down on the ground; sacks, crates and barrels piled
+>   anywhere; a crate stood on its end as a counter;
+> - a small cookfire in an iron brazier.
+> The covers are all different sizes and colours — faded red, dirty white, ochre, brown, one blue —
+> and none of them line up with anything.
+>
+> Down the middle of the street, a single CROOKED LANE of bare cobbles is left clear, just wide
+> enough for one cart. It WANDERS, narrowing and widening, because every trader has pushed in as far
+> as they dare. Slightly LEFT OF CENTRE the street widens a little around an old IRON PUMP with a
+> stone trough, and one wooden crate sits on the cobbles beside it.
+>
+> It looks crowded, improvised and poor, like a market that sprang up in a ruined city weeks ago.
+>
+> Lit evenly and flatly from directly above, overcast, no long shadows.
+>
+> CRITICAL: NO TEXT of any kind and NO GRID. No border, no frame, no parchment edge, no vignette.
+> Art fills the frame edge to edge. No people and no creatures.
+>
+> **Avoid:** a walled courtyard, a market square, a plaza, an enclosure, a wall around the market,
+> a gate, rows of stalls, stalls in a grid, identical stalls, evenly spaced stalls, matching awnings,
+> a tidy or planned layout, symmetry, a straight clear road, a well in the middle of a square, a
+> fountain, grass, trees, an oblique view, a tilted view, a three-quarter view, an isometric view, a
+> perspective view, visible wall faces, a grid, grid lines, squares, hexes, text, letters, numbers,
+> labels, a legend, a compass, a scale bar, a title, a border, a frame, parchment, a vignette, a
+> photograph, a 3-D render, cartoon, cel-shaded, flat vector, bright saturated colours, miniatures,
+> tokens, figures, people, creatures, animals.
