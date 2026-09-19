@@ -2550,7 +2550,7 @@ Then **Lupenor**, invisible and confused, went looking for the nearest person, a
 
 **Arueshalae** came down out of the air, pinned the sorcerer to the floor, and folded her wings around her. **Harlock** reached through the feathers to lay healing hands on whatever part of **Rabiah** he could touch. **Rabiah** came back to herself long enough to notice that she was pinned under a demon. She touched her earring, spoke the word, and stepped away through the air on a ***Dimension Door***. **Arueshalae** was still holding on, and went with her.
 
-They landed together in a room they had already cleared. By then **Lupenor**'s spell of vanishing had worn off, and the rest of them could see her again, hitting herself in the face with her bow. The succubus let the sorcerer go and offered her a hand up. **Harlock** tried to wrestle the slayer to the ground and couldn't. So he laid a ward against evil on her instead, and it gave her mind something to hold on to, and she got herself back.
+They landed together in a room they had already cleared. By then **Lupenor**'s spell of vanishing had worn off, and the rest of them could see her again, hitting herself in the face with her bow. The succubus let the sorcerer go and offered her a hand up. **Harlock** tried to wrestle the slayer to the ground and couldn't. **Varic** laid a ward against evil on her instead, the same one that had cleared his own head, and it gave her mind something to hold on to, and she got herself back.
 
 Then came the aftermath. **Rabiah** pulled the arrows out of her own body one at a time, carried them across the room, and handed them to **Lupenor**.
 
