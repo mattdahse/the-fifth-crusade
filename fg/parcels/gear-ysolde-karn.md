@@ -68,5 +68,5 @@ the hatch, or tried to walk south in the night, went down it. The eleventh strik
 old, and it is the same week the tally ledger downstairs stops.
 
 Read together with the ledger this is the whole case against her, in her own handwriting, and it
-is worth a great deal to **Mira Thistledance** — who has been trying to work out for two months
-why the Labyrinth's counting-post went quiet without being taken.
+is worth a great deal to **Mira Thistledance** — who has a whole corner of her wall of red
+wool given over to why the Labyrinth's counting-post went quiet without being taken.

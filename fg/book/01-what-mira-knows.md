@@ -7,8 +7,10 @@
 She knows there is a cell, that it is under a scrap dealer's yard on **Cinder Row**, and that it
 was there before the city was taken.
 
-She does not know how many, what they are, or what is under the floor. Her watcher can see a gate
-and a yard and nothing else. **The party genuinely has no order of battle**, and finding out is
+She does not know how many, what they are, or what is under the floor. Her watcher — a pot-boy
+she calls *Sparrow*, and is very proud of — can see a gate and a yard and nothing else. She will
+suggest they go in disguised as acrobats, or a laundry delivery, and drop the idea the moment
+anybody has a better one. **The party genuinely has no order of battle**, and finding out is
 the first real decision they make.
 
 **Put the choice to them plainly and early.** Cinder Row is a public street and the yard can be

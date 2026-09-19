@@ -16,7 +16,8 @@ Elara did not ask for this and does not know to. It is worth more than the manor
   directions and cargoes by the day. The last four entries are in a different hand and count
   patrols, and then it stops mid-page.
 - Mira pays nothing extra for it, because she never commissioned it. What she gives instead is
-  the next job, and she gives it to them specifically.
+  her complete, unguarded delight — an actual enemy ledger, like in the stories — and the next
+  job, which she gives to them specifically.
 
 ## Completion
 

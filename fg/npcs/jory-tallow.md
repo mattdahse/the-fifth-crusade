@@ -106,4 +106,5 @@ real and that someone there knew exactly what he meant, and nothing about the ho
 or what is under the floor.
 
 He is **redeemable**, and worth keeping alive for that as much as for what he knows. What happens
-to him next is Mira's decision, and she makes it in front of the party.
+to him next is settled in Mira's back room: she has ideas, most of them from books, and in the end
+she does what the party says.

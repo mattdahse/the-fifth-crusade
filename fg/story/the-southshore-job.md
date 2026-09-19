@@ -21,14 +21,21 @@ end with everyone at 2nd level.*
 ## Why these four
 
 Mira Thistledance picked them out of Drezen because they are **unaffiliated** — no order behind
-them, no company, no commission from the watch. She tells them that part; it sounds like a
-compliment and it is half of one.
+them, no company, no commission from the watch — and she tells them so as the highest compliment
+she knows. In every story she has ever read, the best operatives belong to no one. She has decided
+the four of them are her **elite strike force**, and she is thrilled.
 
-The other half she does not say. Unaffiliated also means **untraceable**, and if four strangers
-are found dead in a scrap dealer's cellar in the South Bank, nothing about them leads back to
-Lupenor's Market. She is not cynical about this and she is not apologising for it either. It is
-simply how she does the work, and a party that later realises it has been used this way is
-entitled to say so to her face — she will not deny it.
+What she has not thought through is the other half. Unaffiliated also means **untraceable**: if
+four strangers are found dead in a scrap dealer's cellar in the South Bank, nothing about them leads
+back to Lupenor's Market. That is the genre talking, not calculation, and a party that works it out
+and says so to her face finds her **stricken** — she had not thought of it that way, she apologises
+at length, and then, a little guiltily, asks whether that is the sort of thing a real spymaster
+*would* think of.
+
+**Play her from her record**, not as a cool handler: warm, fast, bubbling over, sure of a great many
+things she has only read about, and delighted every time the party does the thinking.
+
+@link npc: mira_thistledance | Mira Thistledance
 
 **If you ran Market Day, that is where she found them**: four strangers who went toward a crate of
 centipedes in her own market while everyone else ran. It is also why the job is tonight rather than
@@ -43,8 +50,13 @@ She knows: **there is a cell**, it is under a scrap dealer's yard on **Cinder Ro
 been there long enough to matter.
 
 She does not know: **how many, what they are, or what is under the floor.** That is not her being
-coy; her watcher can see a gate and a yard and nothing else. So the party genuinely does not have
-an order of battle, and finding out is the first real decision they make.
+coy; her watcher — a pot-boy she is enormously proud of, whom she calls *Sparrow* — can see a gate
+and a yard and nothing else. So the party genuinely does not have an order of battle, and finding
+out is the first real decision they make.
+
+**She has a plan, and it is from a ballad**: go in disguised, as a troupe of acrobats, or a
+laundry delivery. Let the party talk her out of it; the moment somebody offers something better she
+drops hers with open admiration — *"Oh, that's much better. See, this is why I need you."*
 
 **Put the choice to them plainly and early.** Cinder Row is a public street and the yard can be
 watched from it. A party that spends an hour looking learns the dogs, the shift, and that far

@@ -6,28 +6,26 @@
 <!-- xp: 0 -->
 
 **Mira Thistledance** has a scrap dealer's yard in the South Bank watched, and she wants it taken
-apart tonight by people who do not work for her.
+apart tonight — by her brand-new strike force, which is to say, by the party.
 
-That is the job and it is also the reason the party has it. They were picked in Drezen by agents
-who never gave a name, and they were picked because they belong to nobody: no order, no company,
-no watch commission. Nothing about them leads back to Lupenor's Market if it goes wrong.
+She picked them because they belong to nobody: no order, no company, no watch commission. She
+says so as though it were the best thing anyone could be, and she means it.
 
-She is straight about most of it and quiet about that part.
-
-> *"There is a cell in the South Bank. Under a scrap yard on Cinder Row, and I am fairly sure of
-> the address and not at all sure of the rest — I do not know how many, I do not know what they
-> are, and I do not know what is under the floor. Which is why I am not sending anyone whose
-> face is known."*
+> *"There is a cell in the South Bank. A* cell! *Under a scrap yard on Cinder Row. I'm fairly sure of
+> the address and — honestly — not very sure of anything else. I don't know how many, I don't know
+> what they are, and I don't know what's under the floor. That's what you're for. Well. That's*
+> one *of the things you're for."*
 >
-> *"Go and look at it first. Or don't, and find out the hard way. I am paying for what you bring
-> back, not for a body count."*
+> *"Go and look at it first, that's what they always do in the stories. Or don't, and surprise them!
+> I'm paying for what you bring back, not for a body count. Oh — and if anyone asks, you've never
+> heard of me."*
 > — **Mira Thistledance**
 
 ## Terms
 
-- **150 gp** on delivery of anything worth having, and Mira decides what is worth having.
-- **Whatever is in the house is theirs**, which she says the way people say things they have
-  already priced.
+- **150 gp** on delivery of anything worth having, and Mira decides what is worth having —
+  generously, and with a great deal of excitement about each item.
+- **Whatever is in the house is theirs.** *"Spoils of war! Is that the phrase? It's one of them."*
 - **Anyone who walks out alive walks out with them.** Mira's people will take prisoners off their
   hands at the end of Cinder Row and ask no questions in front of the party.
 

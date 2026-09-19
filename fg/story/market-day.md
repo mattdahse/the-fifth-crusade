@@ -36,10 +36,17 @@ dangerous as four centipedes in a crowd. At 1st level that is dangerous enough.
 ## Why it matters
 
 It is how the four of them meet: they are the four people in the market who move *toward* the
-crate. It is also how **Mira Thistledance** finds them. She keeps the market and screens every
-trader who wants a pitch in it, and she is standing in the doorway of **Lupenor's trading house**
-when the lid comes off. She does not draw a weapon and she does not come out. **She watches** which of them looked at
-the crowd first and which looked at the centipedes, and that is the whole interview.
+crate. It is also how **Mira Thistledance** finds them. She keeps the market for Lupenor, she has
+decided she is the spymaster of Drezen, and she is standing in the doorway of **Lupenor's trading
+house** when the lid comes off. She does not come out, because in the stories the spymaster never
+shows her hand. She watches instead, with her hand over her mouth and a wax tablet in the other,
+**and by the time the last centipede dies she has fallen completely in love with the four of them.**
+She has found her strike force. They do not know it yet.
+
+Play her as she is described on her own record: warm, fast, bubbling over, and sure of a great
+many things she has only read about.
+
+@link npc: mira_thistledance | Mira Thistledance
 
 It also sets the clock on the South Bank Job. Jory has **been to the yard on Cinder Row**. Once he
 is caught, the story that the market's candle boy tried to join something in the South Bank will be
@@ -140,8 +147,9 @@ round 3.
 They see a goblin with a bomb in his hand and a tiefling standing over a body, and they level their
 spears.
 
-**Do not have Mira fix this.** She will not come out, and she cannot be seen claiming them; the
-South Bank Job depends on nothing leading back to her. **The people they helped fix it.** Whoever
+**Do not have Mira fix this.** She is hopping from foot to foot in her doorway, but she will not
+come out: her operatives must be *deniable*, she has read that in a dozen books, and the South
+Bank Job depends on nothing leading back to her. **The people they helped fix it.** Whoever
 the party actually helped — a baker whose child was pulled out from under a centipede, a herbalist
 nobody splashed, a porter brought back from dying — tells the Preservers what actually happened,
 loudly and all at once. If the party spent the fight on the crowd, the crowd speaks for them. If they did not,
@@ -152,57 +160,78 @@ That is the point of the scene. Say it out loud if the table does not notice.
 
 ## If it goes badly
 
-**Mira plays.** If a member of the party goes down or a market-goer dies, music starts up from the
-doorway of the trading house: a lute, fast and bright. It is **inspire courage** from an 8th-level
+**Mira plays.** She cannot help herself. If a member of the party goes down or a market-goer dies,
+music starts up from the doorway of the trading house: a lute, fast and bright. It is **inspire courage** from an 8th-level
 bard: a **+2 morale bonus on attack and weapon damage rolls, and on saves against fear and charm**,
 for every ally who can hear it, lasting as long as the fight does. Nobody sees who is playing. A
 character who looks toward the sound (**Perception DC 15** through the chaos) sees a half-elf woman
 in a doorway with a lute, and then the door closes.
 
-That is the only help she gives. It is enough, and it is also a signature.
+That is the only help she gives. It is enough, and it is also a signature — the one thing a real
+spymaster would never have done, and she is very pleased with herself about it anyway.
 
 ## A centipede over the rooftops
 
 A centipede that climbs a house front and goes over the roof is loose in Drezen. It costs nothing on the party sheet, but
 it is not nothing: a child is bitten in the next street that evening. Mira mentions it in the back
-room, without blame, as a fact, and moves on.
+room, upset, and then brightens: the child is fine, and it is exactly the kind of thing her network
+exists to hear about.
 
 ## Afterwards: the back room
 
 When the last centipede is dead, **a porter** finds each of them separately within the hour, wherever
-they have gone. He will not give a name. He says a woman would like to buy them a drink, and would
-rather they came in by the side door off the alley, not the front.
+they have gone. He will not give a name. He has plainly been told exactly what to say, and says it
+with the air of a man reading it off his palm: *"A friend would like to buy you a drink. The
+nightingale sings at the side door."* He means the side door off the alley, not the front. He does
+not know what the nightingale is either.
 
 Mira's office is at the back of the trading house, over the yard where the Outfitter's Counter is.
 Jory is in the storeroom next to it, tied to a chair and crying. If the party caught him, they are the ones who carried him in. **If he escaped, Mira's people
-brought him in half an hour ago**, and she tells them so without making anything of it.
+brought him in half an hour ago**, and she tells them so as though it were a daring capture.
 
 **Mira Thistledance** is a half-elf with green eyes and plain brown hair worn with fine silver chains
-through it, and her lute is never far from her hand. She pours for them, asks their names and gives
-hers. She does not pretend she was not watching.
+through it, and her lute is never far from her hand. She has already poured four cups. She asks
+their names, gives hers, and tells them straight away that she watched the whole thing, because she
+could not possibly keep that to herself.
 
-> *"You didn't know each other an hour ago. I watched you work that out."*
+> *"You didn't know each other an hour ago. An* hour. *And then — the one with the bombs, and you with
+> the pump — I was* watching. *Nobody told you what to do. Nobody works for anybody. Do you know how
+> rare that is?"*
 >
-> *"There were four people in that market who went toward it, and not one of them works for anybody.
-> That is rarer in Drezen than you would think, and it is exactly what I need tonight."*
+> *"I'm going to be honest with you, because I think we're going to be working together for a very
+> long time. I need a team. Not guards. Not the watch. People who belong to no one, who can go where
+> I can't send anyone with a name. An elite strike force."* A pause, and a small, delighted breath.
+> *"Spies. And saboteurs, when it comes to it. Would you like some more wine?"*
 > — **Mira Thistledance**
+
+**She pitches the strike force, then and there, and then she pitches its name.** She has three
+candidates written on her tablet, she reads them out with feeling, and she wants to know what the
+party thinks and whether they have anything better. The candidates for this meeting, and how the
+game runs from here on, are on her record. She hands out codenames too, and they are not good.
+
+@link npc: mira_thistledance | Mira Thistledance — personality and the strike-force names
 
 Then she has Jory brought in and lets him tell it: Kenabres and his master, the road, the laugh on
 Cinder Row, the crate. He knows nothing past the shop counter. He does know the yard is real, and
 that the man with the axe knew exactly what he was asking about.
 
-**Mira then decides what happens to Jory, in front of the party**, and asks what they think before
-she does. She weighs the honest options aloud:
+**Then the question of Jory, and Mira has an idea, and it is from a book.** She wants to *turn* him:
+send him back to Cinder Row as a double agent. The party should talk her out of it — he has already
+been laughed out of the shop once, and he will be dead by morning — and she is crestfallen for about
+a breath and then agrees completely. Then she asks them what they think should happen instead, and
+means it. The honest options:
 
-- **Hand him to the Preservers.** They will hang him, and after Kenabres nobody will argue.
-- **Keep him.** Mira has a use for somebody who knows how to go unnoticed in a market and owes her
-  his neck. That is not mercy, and she does not pretend it is.
+- **Hand him to the Preservers.** They will hang him, and after Kenabres nobody will argue. She will
+  go along with it and not like it.
+- **Keep him.** A boy who can make himself invisible in a market is, to Mira, an *asset*. She would
+  love that, and she would take care of him, and she will call him "our man in the candle trade".
 - **Put him on the next cart south**, with a letter and a name to ask for at the other end.
 
-Let the party's answer move her, and let whichever way it goes stand. If Jory lives, he turns up
+Let the party's answer decide it; she will do what they say, and she will be sure it was her idea. If Jory lives, he turns up
 again later in the campaign, somewhere useful.
 
-Then she puts a scrap-yard address on the table between them.
+Then she puts a scrap-yard address on the table between them, taps it, and tells them — slightly
+too loudly, for a secret — that their first mission is tonight.
 
 @link quest: southshore_job | The South Bank Job
 
