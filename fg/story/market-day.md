@@ -61,7 +61,7 @@ allows and the clear lane wanders where they let it.
 counter, the Outfitter's, is in the yard behind it. The **public pump** stands where the street
 widens a little, and that bit of open cobble is the closest thing the market has to a middle.
 **Ways out:** the two ends of the street, both half-choked with carts, and the **alleys** between
-the houses, none of them wider than a man.
+the houses, too narrow for anything with wheels.
 
 ## Where the company is standing
 

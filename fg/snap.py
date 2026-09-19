@@ -8,8 +8,9 @@ will actually get. Medium and smaller go to the nearest square CENTRE; Large goe
 nearest grid INTERSECTION, where a 2x2 token sits. A candidate square is rejected if it is
 already taken in that encounter, if the line from the written position to it crosses a
 wall (doors do not count), or if passable.py's eroded mask says no token can stand there -
-so a snapped token is never pushed through a wall or into one. The build warns on any
-placement that is off the grid.
+so a snapped token is never pushed through a wall or into one. A placement that is ALREADY
+on the grid is left exactly where it is, so hand placements survive a run. The build warns
+on any placement that is off the grid.
 """
 import glob
 import io
@@ -104,6 +105,14 @@ def main():
             pts = [tuple(map(float, q.strip().split(','))) for q in line.split('@', 1)[1].split(';')]
             new = []
             for x, y in pts:
+                # Already on the grid: leave it. A token that is centred in a square was put
+                # there on purpose - often by Matt at the table, closer to a wall than this tool
+                # would choose - and only an off-grid placement is this tool's business.
+                off = 0 if big else g / 2.0
+                if (x - off) % g == 0 and (y - off) % g == 0 and (int(x), int(y)) not in taken:
+                    taken.add((int(x), int(y)))
+                    new.append((int(x), int(y)))
+                    continue
                 if big:
                     bx, by = round(x / g) * g, round(y / g) * g
                 else:

@@ -525,6 +525,10 @@ and warns on any id it cannot find.
 - 3x labyrinth_squatter
 ```
 
+**The heading a line sits under sets its faction.** `## Foes` (the default) builds as `foe`,
+`## Friends` as `friend`, `## Neutral` as `neutral`. Bystanders go under Friends — Market Day's
+market-goers shipped as foes at first, which paints every stallholder red in the combat tracker.
+
 A foe line may also say **where its tokens stand**, in top-left pixels of that encounter's map:
 
 ```markdown
@@ -840,6 +844,9 @@ not by trusting that the write ran.
   wound counterclockwise. **`<closed />` is the polygon, not the door**: a door stands open when
   it carries `<open />`. The build once shipped only toggleable + closed, a combination FG never
   writes, and every door on every map behaved as a plain wall at the table.
+- `occluder-door-open:` is a door that starts the session standing open (FG's `<open />`), and
+  `occluder-door-locked:` one that starts locked (`<locked />`) — the undercroft's cellar door is
+  the example, locked by Matt at the table and written back.
 - `light: x,y [| range | #AARRGGBB]` puts a light on the map, same pixel space and occluder
   convention, emitted as its own `Lights` image layer. Lights Matt places in FG live only in the
   campaign's forked copy of the map, so **write them back into the markdown** before

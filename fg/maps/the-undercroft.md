@@ -51,7 +51,7 @@ off from the cellar.
 <!-- occluder: 1508,305 1508,703 -->
 <!-- occluder: 1508,703 1262,703 -->
 <!-- occluder: 1262,703 1262,565 -->
-<!-- occluder-door: 1262,565 1262,485 -->
+<!-- occluder-door-locked: 1262,565 1262,485 -->
 <!-- occluder: 1262,485 1262,305 -->
 <!-- occluder: 1155,400 1262,405 -->
 <!-- occluder: 1105,632 1262,632 -->

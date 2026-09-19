@@ -893,7 +893,15 @@ if ($encounters.Count) {
     # A foe line may carry where its tokens stand on the map:
     #     - 3x labyrinth_squatter @ 250,300; 400,350; 300,620
     # in top-left pixels of that map's plate, converted below to FG's own space.
+    # The heading a line sits under sets its FG faction: `## Foes` (the default), `## Friends`
+    # or `## Neutral`. Bystanders are friends, so the combat tracker does not paint them red.
+    $heads = @([regex]::Matches($e.raw, '(?m)^##\s+(.+?)\s*$'))
     foreach ($m in [regex]::Matches($e.raw, '(?m)^\s*[-*]\s*(\d+)\s*[xX]\s+([a-zA-Z0-9_]+)\s*(?:@\s*(.+?))?\s*$')) {
+      $faction = 'foe'
+      foreach ($h in $heads) {
+        if ($h.Index -gt $m.Index) { break }
+        $faction = switch -Regex ($h.Groups[1].Value) { '^friend' { 'friend' } '^neutral' { 'neutral' } default { 'foe' } }
+      }
       $cnt = [int]$m.Groups[1].Value
       $ref = $m.Groups[2].Value
       if (-not $npcById.ContainsKey($ref)) { Warn "$($e.file): unknown npc '$ref'"; continue }
@@ -910,7 +918,7 @@ if ($encounters.Count) {
           Warn "$($e.file): $ref has $cnt token(s) but $($spots.Count) placement(s)"
         }
       }
-      [void]$foes.Add(@{ count = $cnt; npc = $npc; spots = $spots })
+      [void]$foes.Add(@{ count = $cnt; npc = $npc; spots = $spots; faction = $faction })
     }
     if ($foes.Count -eq 0) { Warn "$($e.file): no foes resolved"; continue }
     # Placements are in the plate's pixels, so the plate has to be measured.
@@ -953,7 +961,7 @@ if ($encounters.Count) {
       $slot = 'id-{0:D5}' -f $i
       [void]$sec.Add("`t`t`t`t<$slot>")
       [void]$sec.Add((N 'count' $f.count 5))
-      [void]$sec.Add((S 'faction' 'foe' 5))
+      [void]$sec.Add((S 'faction' $f.faction 5))
       [void]$sec.Add("`t`t`t`t`t<link type=""windowreference"">")
       [void]$sec.Add("`t`t`t`t`t`t<class>npc</class>")
       [void]$sec.Add("`t`t`t`t`t`t<recordname>npc.$($f.npc.id)@$(Esc $modName)</recordname>")
@@ -1299,6 +1307,8 @@ if ($maps.Count) {
     if ($mp.meta.'occluder-door') { foreach ($o in @($mp.meta.'occluder-door')) { [void]$occ.Add(@{ pts = $o; kind = 'door' }) } }
     # A door that starts the session standing open: the same door, plus FG's <open /> flag.
     if ($mp.meta.'occluder-door-open') { foreach ($o in @($mp.meta.'occluder-door-open')) { [void]$occ.Add(@{ pts = $o; kind = 'door'; open = $true }) } }
+    # A door that starts locked (FG's <locked /> flag): the GM has to unlock it before it opens.
+    if ($mp.meta.'occluder-door-locked') { foreach ($o in @($mp.meta.'occluder-door-locked')) { [void]$occ.Add(@{ pts = $o; kind = 'door'; locked = $true }) } }
     if ($occ.Count) {
       [void]$rows.Add("`t`t`t`t`t`t<occluders>")
       $oi = 0
@@ -1370,6 +1380,7 @@ if ($maps.Count) {
           [void]$rows.Add("`t`t`t`t`t`t`t`t<closed />")
           [void]$rows.Add("`t`t`t`t`t`t`t`t<counterclockwise />")
           if ($o.open) { [void]$rows.Add("`t`t`t`t`t`t`t`t<open />") }
+          if ($o.locked) { [void]$rows.Add("`t`t`t`t`t`t`t`t<locked />") }
         }
         [void]$rows.Add("`t`t`t`t`t`t`t</occluder>")
       }
