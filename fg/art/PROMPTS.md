@@ -106,28 +106,28 @@ gallery. Their likeness anchors live here instead.
 | Jory Tallow token | `tokens/jory-tallow.webp` | **done** — 512 × 512, 90 KB; the wax locust is half cut by the circle, the yellow still reads |
 | Bruna Aske portrait | `portraits/bruna-aske.webp` | **done** — 1024 × 1024, 260 KB; painted as the generic market-goer, now hers |
 | Bruna Aske token | `tokens/bruna-aske.webp` | **done** — 512 × 512, 87 KB |
-| Oskar Venn portrait | `portraits/oskar-venn.webp` | todo |
-| Oskar Venn token | `tokens/oskar-venn.webp` | todo |
-| Pip Venn portrait | `portraits/pip-venn.webp` | todo |
-| Pip Venn token | `tokens/pip-venn.webp` | todo |
-| Ketta Holm portrait | `portraits/ketta-holm.webp` | todo |
-| Ketta Holm token | `tokens/ketta-holm.webp` | todo |
-| Wat Crake portrait | `portraits/wat-crake.webp` | todo |
-| Wat Crake token | `tokens/wat-crake.webp` | todo |
-| Marit Olsk portrait | `portraits/marit-olsk.webp` | todo |
-| Marit Olsk token | `tokens/marit-olsk.webp` | todo |
-| Dun Ferrow portrait | `portraits/dun-ferrow.webp` | todo |
-| Dun Ferrow token | `tokens/dun-ferrow.webp` | todo |
-| Liesl Ambry portrait | `portraits/liesl-ambry.webp` | todo |
-| Liesl Ambry token | `tokens/liesl-ambry.webp` | todo |
-| Hobb Garrow portrait | `portraits/hobb-garrow.webp` | todo |
-| Hobb Garrow token | `tokens/hobb-garrow.webp` | todo |
-| Aldo Fenn portrait | `portraits/aldo-fenn.webp` | todo |
-| Aldo Fenn token | `tokens/aldo-fenn.webp` | todo |
-| Old Hrenna portrait | `portraits/old-hrenna.webp` | todo |
-| Old Hrenna token | `tokens/old-hrenna.webp` | todo |
-| Piet Harl portrait | `portraits/piet-harl.webp` | todo |
-| Piet Harl token | `tokens/piet-harl.webp` | todo |
+| Oskar Venn portrait | `portraits/oskar-venn.webp` | **done** — 1024 × 1024, 234 KB |
+| Oskar Venn token | `tokens/oskar-venn.webp` | **done** — 512 × 512, 94 KB |
+| Pip Venn portrait | `portraits/pip-venn.webp` | **done** — 1024 × 1024, 222 KB |
+| Pip Venn token | `tokens/pip-venn.webp` | **done** — 512 × 512, 85 KB |
+| Ketta Holm portrait | `portraits/ketta-holm.webp` | **done** — 1024 × 1024, 231 KB |
+| Ketta Holm token | `tokens/ketta-holm.webp` | **done** — 512 × 512, 102 KB |
+| Wat Crake portrait | `portraits/wat-crake.webp` | **done** — 1024 × 1024, 201 KB |
+| Wat Crake token | `tokens/wat-crake.webp` | **done** — 512 × 512, 95 KB |
+| Marit Olsk portrait | `portraits/marit-olsk.webp` | **done** — 1024 × 1024, 221 KB |
+| Marit Olsk token | `tokens/marit-olsk.webp` | **done** — 512 × 512, 93 KB |
+| Dun Ferrow portrait | `portraits/dun-ferrow.webp` | **done** — 1024 × 1024, 218 KB |
+| Dun Ferrow token | `tokens/dun-ferrow.webp` | **done** — 512 × 512, 88 KB |
+| Liesl Ambry portrait | `portraits/liesl-ambry.webp` | **done** — 1024 × 1024, 213 KB |
+| Liesl Ambry token | `tokens/liesl-ambry.webp` | **done** — 512 × 512, 93 KB |
+| Hobb Garrow portrait | `portraits/hobb-garrow.webp` | **done** — 1024 × 1024, 240 KB |
+| Hobb Garrow token | `tokens/hobb-garrow.webp` | **done** — 512 × 512, 93 KB |
+| Aldo Fenn portrait | `portraits/aldo-fenn.webp` | **done** — 1024 × 1024, 219 KB |
+| Aldo Fenn token | `tokens/aldo-fenn.webp` | **done** — 512 × 512, 80 KB |
+| Old Hrenna portrait | `portraits/old-hrenna.webp` | **done** — 1024 × 1024, 206 KB |
+| Old Hrenna token | `tokens/old-hrenna.webp` | **done** — 512 × 512, 80 KB |
+| Piet Harl portrait | `portraits/piet-harl.webp` | **done** — 1024 × 1024, 227 KB |
+| Piet Harl token | `tokens/piet-harl.webp` | **done** — 512 × 512, 87 KB |
 | Lupenor's Market battlemap | `images/lupenors-market.webp` | **done** — second render (the first, a walled yard, was rejected); 1536 × 1024 trimmed and padded to 1600 × 1000 for a 100 px grid, 570 KB |
 
 ---
