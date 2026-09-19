@@ -104,8 +104,30 @@ gallery. Their likeness anchors live here instead.
 | Dorogh Kell token | `tokens/dorogh-kell.webp` | **done** — 512 × 512, 78 KB |
 | Jory Tallow portrait | `portraits/jory-tallow.webp` | **done** — 1024 × 1024, 289 KB |
 | Jory Tallow token | `tokens/jory-tallow.webp` | **done** — 512 × 512, 90 KB; the wax locust is half cut by the circle, the yellow still reads |
-| Market-goer portrait | `portraits/market-goer.webp` | **done** — 1024 × 1024, 260 KB |
-| Market-goer token | `tokens/market-goer.webp` | **done** — 512 × 512, 87 KB |
+| Bruna Aske portrait | `portraits/bruna-aske.webp` | **done** — 1024 × 1024, 260 KB; painted as the generic market-goer, now hers |
+| Bruna Aske token | `tokens/bruna-aske.webp` | **done** — 512 × 512, 87 KB |
+| Oskar Venn portrait | `portraits/oskar-venn.webp` | todo |
+| Oskar Venn token | `tokens/oskar-venn.webp` | todo |
+| Pip Venn portrait | `portraits/pip-venn.webp` | todo |
+| Pip Venn token | `tokens/pip-venn.webp` | todo |
+| Ketta Holm portrait | `portraits/ketta-holm.webp` | todo |
+| Ketta Holm token | `tokens/ketta-holm.webp` | todo |
+| Wat Crake portrait | `portraits/wat-crake.webp` | todo |
+| Wat Crake token | `tokens/wat-crake.webp` | todo |
+| Marit Olsk portrait | `portraits/marit-olsk.webp` | todo |
+| Marit Olsk token | `tokens/marit-olsk.webp` | todo |
+| Dun Ferrow portrait | `portraits/dun-ferrow.webp` | todo |
+| Dun Ferrow token | `tokens/dun-ferrow.webp` | todo |
+| Liesl Ambry portrait | `portraits/liesl-ambry.webp` | todo |
+| Liesl Ambry token | `tokens/liesl-ambry.webp` | todo |
+| Hobb Garrow portrait | `portraits/hobb-garrow.webp` | todo |
+| Hobb Garrow token | `tokens/hobb-garrow.webp` | todo |
+| Aldo Fenn portrait | `portraits/aldo-fenn.webp` | todo |
+| Aldo Fenn token | `tokens/aldo-fenn.webp` | todo |
+| Old Hrenna portrait | `portraits/old-hrenna.webp` | todo |
+| Old Hrenna token | `tokens/old-hrenna.webp` | todo |
+| Piet Harl portrait | `portraits/piet-harl.webp` | todo |
+| Piet Harl token | `tokens/piet-harl.webp` | todo |
 | Lupenor's Market battlemap | `images/lupenors-market.webp` | **done** — second render (the first, a walled yard, was rejected); 1536 × 1024 trimmed and padded to 1600 × 1000 for a 100 px grid, 570 KB |
 
 ---
@@ -516,9 +538,31 @@ token silhouette: a raised hand with a point of yellow light in it.
 > vector, oversaturated, glossy, text, watermark, signature, border, a frame, extra limbs, extra
 > fingers, deformed hands.
 
-## Market-goer
+## The Lupenor's Market crowd
 
-**One token for six bystanders**, so it has to read as *anyone*: a **stallholder woman of about
+**Twelve bystanders in one fight, so every one must be told apart at token size.** Each has a
+**different dominant colour** and, where it can be managed, a different silhouette — a hat, a
+patch, a sack, a child, a pointing arm. None of them wears anything a foe in this module wears.
+They are ordinary people and should look it: no heroics, no finery.
+
+| Who | Dominant colour | Silhouette |
+|---|---|---|
+| Bruna Aske | faded blue | brass scales at the chest |
+| Oskar Venn | flour-white | tall baker's cap |
+| Pip Venn | sunflower yellow | small, under a cart |
+| Ketta Holm | leaf green | herbs overhead |
+| Wat Crake | burnished copper | eyepatch, lantern |
+| Marit Olsk | violet | open needle bag |
+| Dun Ferrow | teal | sack on the shoulder |
+| Liesl Ambry | rose pink | child on the hip |
+| Hobb Garrow | red face, white smock | raised cleaver |
+| Aldo Fenn | white and gold | oversized tabard, straight back |
+| Old Hrenna | madder red | lit from below by coals |
+| Piet Harl | black and white | pointing arm |
+
+## Bruna Aske
+
+**Painted as the one generic market-goer**, and now Bruna's: a **stallholder woman of about
 forty** in a faded blue headscarf and a brown work dress, holding a **pair of brass merchant's
 scales** against her chest as though she might have to defend them, looking past the viewer at
 something that has frightened her. Plain and ordinary, and **distinct at token size from every foe
@@ -544,6 +588,286 @@ in this campaign wears.
 > girl, an old crone, a photograph, photorealistic rendering, photoreal skin, photographic grain,
 > lens bokeh, anime, cartoon, cel-shaded, 3-D render, flat vector, oversaturated, text, watermark,
 > signature, border, a frame, extra limbs, deformed hands.
+
+
+## Oskar Venn
+
+*The baker.* **Likeness anchors (keep constant).** Human man of about forty-five, **narrow and stooped**, thinning sandy hair under a **tall
+white baker's cap**, flour to both elbows, a clean white apron he is proud of. Anxious, apologetic
+eyes and a too-quick smile. Dominant: **flour-white**, with the warm brown of the loaves behind.
+The tall cap is his silhouette.
+
+> THIS IS A PAINTING, NOT A PHOTOGRAPH. A traditional narrative OIL PAINTING on canvas: visible
+> directional brush strokes throughout, loaded paint and impasto in the lights, soft scumbled
+> painted edges, visible canvas weave. Render the background in looser, broader brushwork than the
+> figure.
+>
+> Cinematic painterly fantasy illustration, semi-realistic. Square composition, head-and-chest
+> portrait bust, the figure centred with clear space around the head and nothing important in the
+> corners. A narrow, stooped HUMAN MAN of about forty-five, a street baker, in a TALL WHITE BAKER'S CAP and a
+> clean white apron, flour dusted to both elbows, holding a round brown loaf in both hands. Thinning
+> sandy hair, an anxious face, a quick nervous half-smile, eyes glancing sideways at something large
+> and worrying. Dominant colour flour-white against the warm brown of a handcart heaped with bread.
+> Behind them, loose and out of focus, the tarps, carts and cobbles of a crowded
+> street market. Soft overcast light with a brighter key on the face. Strong value contrast against
+> a darker background.
+>
+> **Avoid:** armour, a heroic pose, finery, jewellery, a photograph, photorealistic rendering,
+> photoreal skin, photographic grain, lens bokeh, anime, cartoon, cel-shaded, 3-D render, flat
+> vector, oversaturated, text, watermark, signature, border, a frame, extra limbs, deformed hands.
+
+## Pip Venn
+
+*The baker's daughter.* **Likeness anchors (keep constant).** Human girl of **seven**, a single fair plait dusted with flour, a **sunflower-yellow smock**,
+round face, very serious. She is under a cart, so the light is low and from one side. Dominant:
+**sunflower yellow**. Not crying: watching.
+
+> THIS IS A PAINTING, NOT A PHOTOGRAPH. A traditional narrative OIL PAINTING on canvas: visible
+> directional brush strokes throughout, loaded paint and impasto in the lights, soft scumbled
+> painted edges, visible canvas weave. Render the background in looser, broader brushwork than the
+> figure.
+>
+> Cinematic painterly fantasy illustration, semi-realistic. Square composition, head-and-chest
+> portrait bust, the figure centred with clear space around the head and nothing important in the
+> corners. A HUMAN GIRL of about seven, crouched in the shadow under a wooden handcart, knees drawn up, a
+> single fair plait dusted with flour, in a SUNFLOWER-YELLOW SMOCK. Round serious face, enormous
+> watchful eyes, not crying. Low warm light from one side falls across her face and the yellow
+> smock; the cart's underside is dark above her. Dominant colour sunflower yellow. No fear-grimace,
+> no tears, not cute or doll-like.
+> Behind them, loose and out of focus, the tarps, carts and cobbles of a crowded
+> street market. Soft overcast light with a brighter key on the face. Strong value contrast against
+> a darker background.
+>
+> **Avoid:** armour, a heroic pose, finery, jewellery, a photograph, photorealistic rendering,
+> photoreal skin, photographic grain, lens bokeh, anime, cartoon, cel-shaded, 3-D render, flat
+> vector, oversaturated, text, watermark, signature, border, a frame, extra limbs, deformed hands.
+
+## Ketta Holm
+
+*The herbalist.* **Likeness anchors (keep constant).** Human woman of about thirty-five, **wiry**, sleeves rolled, dark hair tied up in a **leaf-green
+rag**, a pencil behind one ear, sharp amused eyes. Bunches of dried herbs hang behind her. Dominant:
+**leaf green**.
+
+> THIS IS A PAINTING, NOT A PHOTOGRAPH. A traditional narrative OIL PAINTING on canvas: visible
+> directional brush strokes throughout, loaded paint and impasto in the lights, soft scumbled
+> painted edges, visible canvas weave. Render the background in looser, broader brushwork than the
+> figure.
+>
+> Cinematic painterly fantasy illustration, semi-realistic. Square composition, head-and-chest
+> portrait bust, the figure centred with clear space around the head and nothing important in the
+> corners. A wiry HUMAN WOMAN of about thirty-five, a street herbalist, dark hair tied up in a LEAF-GREEN
+> RAG with a pencil tucked behind one ear, sleeves rolled to the elbow, holding a small labelled
+> glass jar. Sharp, amused, appraising eyes, one eyebrow raised as if in the middle of winning a
+> haggle. Bunches of dried herbs hang from a yellow tarp frame behind her. Dominant colour leaf green.
+> Behind them, loose and out of focus, the tarps, carts and cobbles of a crowded
+> street market. Soft overcast light with a brighter key on the face. Strong value contrast against
+> a darker background.
+>
+> **Avoid:** armour, a heroic pose, finery, jewellery, a photograph, photorealistic rendering,
+> photoreal skin, photographic grain, lens bokeh, anime, cartoon, cel-shaded, 3-D render, flat
+> vector, oversaturated, text, watermark, signature, border, a frame, extra limbs, deformed hands.
+
+## Wat Crake
+
+*The salvager.* **Likeness anchors (keep constant).** Human man of about fifty-five, **broad, grey-bearded, one eye**, a **black leather patch** over
+the other, a leather work apron, forearms scarred. He holds a mended **copper lantern**. Dominant:
+**burnished copper**. The eyepatch is his silhouette.
+
+> THIS IS A PAINTING, NOT A PHOTOGRAPH. A traditional narrative OIL PAINTING on canvas: visible
+> directional brush strokes throughout, loaded paint and impasto in the lights, soft scumbled
+> painted edges, visible canvas weave. Render the background in looser, broader brushwork than the
+> figure.
+>
+> Cinematic painterly fantasy illustration, semi-realistic. Square composition, head-and-chest
+> portrait bust, the figure centred with clear space around the head and nothing important in the
+> corners. A broad HUMAN MAN of about fifty-five, a salvager and old army sapper, full grey beard, one eye
+> with a BLACK LEATHER EYEPATCH over the other, a scarred leather work apron over a grey shirt. He
+> holds up a mended BURNISHED COPPER LANTERN, inspecting it critically. Weathered, unimpressed,
+> watchful. Behind him, a rug laid with oiled old tools and hinges. Dominant colour burnished copper.
+> Behind them, loose and out of focus, the tarps, carts and cobbles of a crowded
+> street market. Soft overcast light with a brighter key on the face. Strong value contrast against
+> a darker background.
+>
+> **Avoid:** armour, a heroic pose, finery, jewellery, a photograph, photorealistic rendering,
+> photoreal skin, photographic grain, lens bokeh, anime, cartoon, cel-shaded, 3-D render, flat
+> vector, oversaturated, text, watermark, signature, border, a frame, extra limbs, deformed hands.
+
+## Marit Olsk
+
+*The needle-seller from kenabres.* **Likeness anchors (keep constant).** Human woman of about fifty, **small and tired**, a good **dove-grey coat** threadbare at the
+cuffs with a **violet scarf** at the throat, greying hair pinned up, a cloth bag of needles and
+bright thread in one hand. Dominant: **violet**. She is calling out to someone.
+
+> THIS IS A PAINTING, NOT A PHOTOGRAPH. A traditional narrative OIL PAINTING on canvas: visible
+> directional brush strokes throughout, loaded paint and impasto in the lights, soft scumbled
+> painted edges, visible canvas weave. Render the background in looser, broader brushwork than the
+> figure.
+>
+> Cinematic painterly fantasy illustration, semi-realistic. Square composition, head-and-chest
+> portrait bust, the figure centred with clear space around the head and nothing important in the
+> corners. A small, tired HUMAN WOMAN of about fifty, a refugee seamstress, in a good DOVE-GREY COAT gone
+> threadbare at the cuffs, a VIOLET SCARF at her throat, greying hair pinned up. She holds open a
+> cloth bag of needles, pins and coloured thread, and is calling out urgently to someone off to one
+> side, one hand half raised. Dignified and worn. Dominant colour violet against grey.
+> Behind them, loose and out of focus, the tarps, carts and cobbles of a crowded
+> street market. Soft overcast light with a brighter key on the face. Strong value contrast against
+> a darker background.
+>
+> **Avoid:** armour, a heroic pose, finery, jewellery, a photograph, photorealistic rendering,
+> photoreal skin, photographic grain, lens bokeh, anime, cartoon, cel-shaded, 3-D render, flat
+> vector, oversaturated, text, watermark, signature, border, a frame, extra limbs, deformed hands.
+
+## Dun Ferrow
+
+*The porter.* **Likeness anchors (keep constant).** Human man of about twenty-five, **very big, slow and gentle**, a round open face, a **teal
+knitted cap**, a burlap sack of meal on one shoulder, a rope sling across his chest. Mouth open.
+Dominant: **teal**. The sack on the shoulder is his silhouette.
+
+> THIS IS A PAINTING, NOT A PHOTOGRAPH. A traditional narrative OIL PAINTING on canvas: visible
+> directional brush strokes throughout, loaded paint and impasto in the lights, soft scumbled
+> painted edges, visible canvas weave. Render the background in looser, broader brushwork than the
+> figure.
+>
+> Cinematic painterly fantasy illustration, semi-realistic. Square composition, head-and-chest
+> portrait bust, the figure centred with clear space around the head and nothing important in the
+> corners. A very big, gentle HUMAN MAN of about twenty-five, a street porter, round open face, a TEAL
+> KNITTED CAP, a heavy burlap sack of meal on one shoulder and a rope sling across his broad chest.
+> His mouth is slightly open; he is staring at something off to one side, not understanding it yet.
+> Dominant colour teal against pale burlap. Not a warrior, not menacing.
+> Behind them, loose and out of focus, the tarps, carts and cobbles of a crowded
+> street market. Soft overcast light with a brighter key on the face. Strong value contrast against
+> a darker background.
+>
+> **Avoid:** armour, a heroic pose, finery, jewellery, a photograph, photorealistic rendering,
+> photoreal skin, photographic grain, lens bokeh, anime, cartoon, cel-shaded, 3-D render, flat
+> vector, oversaturated, text, watermark, signature, border, a frame, extra limbs, deformed hands.
+
+## Liesl Ambry
+
+*The laundress.* **Likeness anchors (keep constant).** Human woman of about twenty-five, **red-handed**, tired, brown hair escaping a kerchief, a
+**rose-pink shawl**, a fat two-year-old boy on her hip gnawing a crust. Dominant: **rose pink**.
+The child on the hip is her silhouette.
+
+> THIS IS A PAINTING, NOT A PHOTOGRAPH. A traditional narrative OIL PAINTING on canvas: visible
+> directional brush strokes throughout, loaded paint and impasto in the lights, soft scumbled
+> painted edges, visible canvas weave. Render the background in looser, broader brushwork than the
+> figure.
+>
+> Cinematic painterly fantasy illustration, semi-realistic. Square composition, head-and-chest
+> portrait bust, the figure centred with clear space around the head and nothing important in the
+> corners. A tired young HUMAN WOMAN of about twenty-five, a laundress, red chapped hands, brown hair
+> escaping a plain kerchief, a ROSE-PINK SHAWL around her shoulders, a fat two-year-old boy on her
+> hip gnawing a bread crust. She is holding the child tighter and turning her body to shield him,
+> looking at something off to one side with sudden alarm. Dominant colour rose pink.
+> Behind them, loose and out of focus, the tarps, carts and cobbles of a crowded
+> street market. Soft overcast light with a brighter key on the face. Strong value contrast against
+> a darker background.
+>
+> **Avoid:** armour, a heroic pose, finery, jewellery, a photograph, photorealistic rendering,
+> photoreal skin, photographic grain, lens bokeh, anime, cartoon, cel-shaded, 3-D render, flat
+> vector, oversaturated, text, watermark, signature, border, a frame, extra limbs, deformed hands.
+
+## Hobb Garrow
+
+*The garrison cook.* **Likeness anchors (keep constant).** Human man in his fifties, **huge**, a **bald red face**, a grizzled horseshoe moustache, a
+stained white cook's smock over an old army tunic, forearms like hams, a **steel meat cleaver**
+raised. Dominant: **the red face and white smock**; the cleaver is the silhouette.
+
+> THIS IS A PAINTING, NOT A PHOTOGRAPH. A traditional narrative OIL PAINTING on canvas: visible
+> directional brush strokes throughout, loaded paint and impasto in the lights, soft scumbled
+> painted edges, visible canvas weave. Render the background in looser, broader brushwork than the
+> figure.
+>
+> Cinematic painterly fantasy illustration, semi-realistic. Square composition, head-and-chest
+> portrait bust, the figure centred with clear space around the head and nothing important in the
+> corners. A huge HUMAN MAN in his fifties, a garrison cook and old soldier, BALD with a BRIGHT RED FACE and a
+> grizzled horseshoe moustache, a stained white cook's smock over a faded army tunic, enormous
+> forearms. He holds a STEEL MEAT CLEAVER up and is bellowing, furious and delighted. A string of
+> onions hangs from his other fist. Dominant: the red face and the white smock.
+> Behind them, loose and out of focus, the tarps, carts and cobbles of a crowded
+> street market. Soft overcast light with a brighter key on the face. Strong value contrast against
+> a darker background.
+>
+> **Avoid:** armour, a heroic pose, finery, jewellery, a photograph, photorealistic rendering,
+> photoreal skin, photographic grain, lens bokeh, anime, cartoon, cel-shaded, 3-D render, flat
+> vector, oversaturated, text, watermark, signature, border, a frame, extra limbs, deformed hands.
+
+## Aldo Fenn
+
+*The preserver recruit.* **Likeness anchors (keep constant).** Human youth of **seventeen**, gangly, jug ears, close-cropped dark hair, a **white tabard a
+size too large** with the **gold sword of Iomedae** stitched badly over the heart. No weapon: a
+whetstone in his hand. Standing very straight, looking for an officer. Dominant: **white and gold**.
+
+> THIS IS A PAINTING, NOT A PHOTOGRAPH. A traditional narrative OIL PAINTING on canvas: visible
+> directional brush strokes throughout, loaded paint and impasto in the lights, soft scumbled
+> painted edges, visible canvas weave. Render the background in looser, broader brushwork than the
+> figure.
+>
+> Cinematic painterly fantasy illustration, semi-realistic. Square composition, head-and-chest
+> portrait bust, the figure centred with clear space around the head and nothing important in the
+> corners. A gangly HUMAN YOUTH of seventeen, a raw recruit, jug ears, close-cropped dark hair, in a plain
+> WHITE TABARD a size too large with a GOLD SWORD OF IOMEDAE clumsily stitched over the heart, no
+> armour, no weapon, a whetstone in one hand. He stands very straight and looks around anxiously as
+> if for an officer to tell him what to do. Dominant colours white and gold. Not heroic, not armoured.
+> Behind them, loose and out of focus, the tarps, carts and cobbles of a crowded
+> street market. Soft overcast light with a brighter key on the face. Strong value contrast against
+> a darker background.
+>
+> **Avoid:** armour, a heroic pose, finery, jewellery, a photograph, photorealistic rendering,
+> photoreal skin, photographic grain, lens bokeh, anime, cartoon, cel-shaded, 3-D render, flat
+> vector, oversaturated, text, watermark, signature, border, a frame, extra limbs, deformed hands.
+
+## Old Hrenna
+
+*The sarkorian elder.* **Likeness anchors (keep constant).** Kellid (Sarkorian) woman of about seventy, **tiny**, face **creased as a walnut**, white hair
+in two thin braids, a shawl of **deep madder red wool with black Sarkorian embroidery**, hands
+held out to brazier coals. Enormous, patient, dark eyes. Dominant: **madder red**, lit by coals
+from below. Not frail-looking: still.
+
+> THIS IS A PAINTING, NOT A PHOTOGRAPH. A traditional narrative OIL PAINTING on canvas: visible
+> directional brush strokes throughout, loaded paint and impasto in the lights, soft scumbled
+> painted edges, visible canvas weave. Render the background in looser, broader brushwork than the
+> figure.
+>
+> Cinematic painterly fantasy illustration, semi-realistic. Square composition, head-and-chest
+> portrait bust, the figure centred with clear space around the head and nothing important in the
+> corners. A tiny old KELLID WOMAN of about seventy, Sarkorian, her face deeply creased as a walnut, thin
+> white hair in two braids, wrapped in a shawl of DEEP MADDER-RED WOOL with black Sarkorian
+> embroidery. She holds her hands out to the coals of a brazier, which lights her face from below
+> in warm orange. Her dark eyes are enormous, calm and patient, looking straight past the viewer.
+> Stillness, not frailty. Dominant colour madder red. No witch, no crone caricature, no magic.
+> Behind them, loose and out of focus, the tarps, carts and cobbles of a crowded
+> street market. Soft overcast light with a brighter key on the face. Strong value contrast against
+> a darker background.
+>
+> **Avoid:** armour, a heroic pose, finery, jewellery, a photograph, photorealistic rendering,
+> photoreal skin, photographic grain, lens bokeh, anime, cartoon, cel-shaded, 3-D render, flat
+> vector, oversaturated, text, watermark, signature, border, a frame, extra limbs, deformed hands.
+
+## Piet Harl
+
+*The clerk from kenabres.* **Likeness anchors (keep constant).** Human man of about thirty-five, **thin, pale, hollow-cheeked**, lank dark hair, a clerk's
+**black coat** shiny at the elbows, ink on two fingers, clutching a satchel of papers. Shouting
+and pointing. Dominant: **black and paper-white**. The pointing arm is his silhouette.
+
+> THIS IS A PAINTING, NOT A PHOTOGRAPH. A traditional narrative OIL PAINTING on canvas: visible
+> directional brush strokes throughout, loaded paint and impasto in the lights, soft scumbled
+> painted edges, visible canvas weave. Render the background in looser, broader brushwork than the
+> figure.
+>
+> Cinematic painterly fantasy illustration, semi-realistic. Square composition, head-and-chest
+> portrait bust, the figure centred with clear space around the head and nothing important in the
+> corners. A thin, pale HUMAN MAN of about thirty-five, a refugee clerk, hollow-cheeked, lank dark hair, in
+> a threadbare BLACK CLERK'S COAT shiny at the elbows, ink stains on two fingers, clutching a satchel
+> spilling papers to his chest with one arm. With the other he points hard off to one side, and he
+> is shouting, wide-eyed with terror rather than malice. Dominant: black coat and white paper.
+> Behind them, loose and out of focus, the tarps, carts and cobbles of a crowded
+> street market. Soft overcast light with a brighter key on the face. Strong value contrast against
+> a darker background.
+>
+> **Avoid:** armour, a heroic pose, finery, jewellery, a photograph, photorealistic rendering,
+> photoreal skin, photographic grain, lens bokeh, anime, cartoon, cel-shaded, 3-D render, flat
+> vector, oversaturated, text, watermark, signature, border, a frame, extra limbs, deformed hands.
 
 ---
 

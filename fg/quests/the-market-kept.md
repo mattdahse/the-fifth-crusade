@@ -17,7 +17,8 @@ Nobody asked this of them. It is what Mira was watching for.
 
 ## Completion
 
-**Every market-goer is alive when the last centipede dies**, whether or not they were bitten or
+**Every bystander on the map is alive when the last centipede dies**, all twelve, stallholders
+and shoppers and Pip under the cart,, whether or not they were bitten or
 went down along the way. A bystander brought back from dying by a *stabilize*, a cure or a Heal
 check counts as alive, and that is the point: the award is for the people who were helped, not
 for a fight nobody was hurt in.

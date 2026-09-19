@@ -37,7 +37,8 @@ meant.
 **Then Jory, and Mira has an idea from a book:** send him back to Cinder Row as a *double agent*.
 Let the party talk her out of it — he would be dead by morning — and she agrees at once. Then she
 asks what they think should happen, and does it: the Preservers (he hangs), kept as "our man in the
-candle trade", or a cart south with a letter. She will be sure it was her idea.
+candle trade", a cart south with a letter, or **Marit Olsk**, the Kenabres seamstress who knew
+him, if she is waiting in the yard to ask for him. She will be sure it was her idea.
 
 **If a centipede got away over the roofs**, a child was bitten in the next street. She is upset, and
 then brightens: the child is fine, and it is exactly what her network is for.
@@ -51,5 +52,6 @@ are now a company.
 @link map: lupenors_market | Lupenor's Market (map) — the trading house
 @link npc: mira_thistledance | Mira Thistledance — voice, codenames, the strike-force names
 @link npc: jory_tallow | Jory Tallow
+@link npc: marit_olsk | Marit Olsk
 @link quest: jory_taken_alive | Award: Jory taken alive (200 XP)
 @link quest: southshore_job | The South Bank Job

@@ -4,10 +4,11 @@
 <!-- level: 1 -->
 <!-- map: lupenors_market -->
 <!-- Fight-start: Jory on his crate by the pump in the middle of the street, the four centipedes -->
-<!-- already out of it and scattering, one toward each member of the party, and the -->
-<!-- market-goers between them. The market-goers are ON THE MAP as FRIENDS: CR 0, no XP, they move -->
-<!-- on their own initiative toward the nearest street end or alley. -->
-<!-- The PCs are not placed; the players put them where the story record suggests. -->
+<!-- already out of it and scattering, one toward each member of the party, and the crowd -->
+<!-- between them. Everyone who is not the party or a foe is ON THE MAP: stallholders at their -->
+<!-- own pitches, shoppers where they were standing, all FRIENDS at no XP, each with a record -->
+<!-- that says how they behave. Pip, the one child with a token, is NEUTRAL, as the Dolvan -->
+<!-- children are. The PCs are not placed; the players put them where the story record suggests. -->
 <!-- Prose lives in fg/story/market-day.md - an FG battle has no text field. -->
 
 ## Foes
@@ -17,4 +18,18 @@
 
 ## Friends
 
-- 6x market_goer @ 225,325; 725,275; 1025,325; 225,525; 825,525; 1225,525
+- 1x oskar_venn @ 475,375
+- 1x ketta_holm @ 1175,375
+- 1x wat_crake @ 1025,575
+- 1x bruna_aske @ 275,525
+- 1x marit_olsk @ 975,375
+- 1x dun_ferrow @ 725,275
+- 1x liesl_ambry @ 225,325
+- 1x hobb_garrow @ 425,575
+- 1x aldo_fenn @ 825,525
+- 1x old_hrenna @ 1275,525
+- 1x piet_harl @ 575,375
+
+## Neutral
+
+- 1x pip_venn @ 425,325

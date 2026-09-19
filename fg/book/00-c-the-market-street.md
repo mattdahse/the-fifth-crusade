@@ -21,8 +21,10 @@ both ends of the street, half-choked by parked carts, and the narrow **alleys** 
 Motive DC 12** while he was shouting (Kora, closest, at **+2**).
 
 **Four centipedes, four directions**, each going for the nearest living thing, which is usually one
-of the **six market-goers**. Everything off the clear lane is **difficult terrain**, and so is any
-square with a market-goer in it; once the crowd reaches an end of the street it jams against the
+of the **twelve bystanders**, each with their own record and their own way of breaking the
+crowd's rule. **Hobb** the cook and **Wat** the salvager fight; **Ketta** the herbalist and **Aldo**
+the recruit stabilize the fallen; **Marit** shouts Jory's name; **Piet** shouts *"Goblin!"*.
+Everything off the clear lane is **difficult terrain**, and so is any square with a bystander in it; once the crowd reaches an end of the street it jams against the
 parked carts for a round. Centipedes with nothing to bite climb tarps, lean-tos and house fronts and
 drop on whoever is underneath the following round.
 
@@ -40,14 +42,26 @@ tiefling,
 and level spears. **Mira does not intervene.** The people the party helped speak for them. If the
 party did not help anybody, it is **Diplomacy DC 15**, and the Preservers take names either way.
 
-**If a PC or a market-goer goes down, Mira plays**: an unseen lute, **inspire courage +2**, from the
+**If a PC or a bystander goes down, Mira plays**: an unseen lute, **inspire courage +2**, from the
 trading house. **Perception DC 15** spots her in her doorway before the door closes.
 
 @link map: lupenors_market | Lupenor's Market (map)
 @link battle: market_day | The market (encounter)
 @link npc: jory_tallow | Jory Tallow
 @link npc: giant_centipede | Giant centipede
-@link npc: market_goer | Market-goer
+@link npc: market_goer | The crowd: how it moves, and who is in it
+@link npc: oskar_venn | Oskar Venn, the baker
+@link npc: pip_venn | Pip Venn, under his handcart
+@link npc: ketta_holm | Ketta Holm, the herbalist
+@link npc: wat_crake | Wat Crake, the salvager
+@link npc: bruna_aske | Bruna Aske, pots and honest scales
+@link npc: marit_olsk | Marit Olsk, needles; she knows Jory
+@link npc: dun_ferrow | Dun Ferrow, a porter
+@link npc: liesl_ambry | Liesl Ambry, a laundress with her baby
+@link npc: hobb_garrow | Hobb Garrow, the garrison cook
+@link npc: aldo_fenn | Aldo Fenn, a Preserver recruit
+@link npc: old_hrenna | Old Hrenna, by the brazier
+@link npc: piet_harl | Piet Harl, who screams "Goblin!"
 @link ability: poison_giant_centipede | Poison (Ex) — DC 13, 1d3 Dex
 @link parcel: gear_jory_tallow | What is on Jory
 @link quest: the_market_kept | Award: the market kept (150 XP)

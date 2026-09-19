@@ -1,10 +1,10 @@
 # Market-Goer
 
-*Anyone in Lupenor's Market who is not the party: a hawker, a porter, a crusader's cook buying onions.*
+*How the crowd in Lupenor's Market behaves, and a spare body for anyone the GM adds to it. Everyone on the map has their own record; this is the rule they share.*
 
 <!-- id: market_goer -->
-<!-- token: tokens/market-goer.webp -->
-<!-- portrait: portraits/market-goer.webp -->
+<!-- token: tokens/bruna-aske.webp -->
+<!-- portrait: portraits/bruna-aske.webp -->
 
 ```stats
 cr: 0
@@ -43,7 +43,25 @@ specialqualities: non-combatant; flees from the nearest centipede toward the nea
 > child under a parked cart, a porter drops a sack of meal and runs, and a hawker stands frozen on
 > her rug, holding a pair of scales as though she might need to defend them.
 
-@link image: portrait_market_goer | Portrait (full size)
+@link image: portrait_bruna_aske | Portrait (full size)
+
+**The people on the map.** Stallholders:
+
+@link npc: oskar_venn | Oskar Venn, the baker at the handcart
+@link npc: pip_venn | Pip Venn, under the handcart
+@link npc: ketta_holm | Ketta Holm, the herbalist
+@link npc: wat_crake | Wat Crake, the salvager
+@link npc: bruna_aske | Bruna Aske, pots and honest scales
+@link npc: marit_olsk | Marit Olsk, needles, and she knows Jory
+
+Shoppers:
+
+@link npc: dun_ferrow | Dun Ferrow, the porter
+@link npc: liesl_ambry | Liesl Ambry, a laundress with her baby
+@link npc: hobb_garrow | Hobb Garrow, the garrison cook with a cleaver
+@link npc: aldo_fenn | Aldo Fenn, a Preserver recruit
+@link npc: old_hrenna | Old Hrenna, by the brazier
+@link npc: piet_harl | Piet Harl, who screams "Goblin!"
 
 ## Special abilities
 
@@ -55,8 +73,12 @@ the ordinary rules, and a *stabilize*, a Heal check (DC 15) or any cure brings t
 
 **They are not combatants and do not take turns in the ordinary way.** On the market-goers'
 initiative, each one moves away from the nearest centipede and toward the nearest way out: an end
-of the street or an alley. One who
-is down stays where they fell until somebody helps them.
+of the street or an alley. One who is down stays where they fell until somebody helps them.
+
+**That is the default, and almost nobody on this map keeps to it.** Each of them has a record that
+says where they break it: the cook charges, the salvager holds his rug, the baker dives under his
+cart, the old woman does not move at all. The special qualities line on each sheet says how, so
+it is one glance when their turn comes.
 
 **They get in the way.** A square with a market-goer in it is difficult terrain for everyone, and
 a crowd funnelling into an alley or against the carts at a street end blocks it for a round. That is the point of having the
@@ -69,9 +91,9 @@ happens.
 ## Roleplaying
 
 They are the people this campaign is about: the ones who came to Drezen because there was work,
-or because there was nowhere else left. **They remember who helped.** A stallholder whose child
-was pulled out from under a centipede gives that character a discount of a fifth for as long as
-the campaign runs, and says so the next time they come by.
+or because there was nowhere else left. **They remember who helped.** Each named record says
+what that person does about it afterwards, and none of them is a discount: it is bread, gossip,
+a volunteer, a witness, a door opened into the barracks or the wash-yards or the cellars.
 
 And in the first seconds they look for someone to blame, and the easiest people in the market to
 blame are a goblin and a tiefling. The story record covers what to do with that.

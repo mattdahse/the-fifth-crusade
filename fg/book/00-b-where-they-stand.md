@@ -8,14 +8,15 @@ They are shoppers, and they do not know each other. Put each one somewhere diffe
 something ordinary, and let the players describe it. These are suggestions; every one of them is
 the player's to change.
 
-- **Riven Maelus** crouched over a salvage rug, where things pulled out of Drezen's ruins are laid
+- **Riven Maelus** crouched over Wat Crake's salvage rug, where things pulled out of Drezen's ruins are laid
   out mended. He has already noticed the alleys. **If his player says so, he is standing at the
   mouth of the one Jory runs for.**
-- **Dorogh Kell** at a baker's handcart, buying something small from a man who is plainly nervous
+- **Dorogh Kell** at Oskar Venn's bread handcart, buying something small from a man who is plainly nervous
   of a half-orc in a nasal helm, and making a careful, visible effort to look harmless.
-- **Diddle Scribes** under a herbalist's tarp, haggling over reagents. The herbalist has sold to a
+- **Diddle Scribes** under Ketta Holm's yellow tarp, haggling over reagents. The herbalist has sold to a
   goblin before and has not got used to it.
-- **Kora Sjon** by the pump, the closest of them to the crate.
+- **Kora Sjon** by the pump, the closest of them to the crate, and to Piet Harl, who has already
+  noticed her horns.
 
 **Scatter them.** Four people reaching the middle of the market from four directions is the
 fight, and it is literally how they meet.
@@ -29,3 +30,7 @@ fight, and it is literally how they meet.
 > has left a crate.
 
 @link map: lupenors_market | Lupenor's Market (map)
+@link npc: wat_crake | Wat Crake, the salvager
+@link npc: oskar_venn | Oskar Venn, the baker
+@link npc: ketta_holm | Ketta Holm, the herbalist
+@link npc: piet_harl | Piet Harl

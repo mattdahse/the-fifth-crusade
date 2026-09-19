@@ -11,7 +11,19 @@ table.*
 @link map: lupenors_market | Lupenor's Market (map)
 @link npc: jory_tallow | Jory Tallow
 @link npc: giant_centipede | Giant centipede
-@link npc: market_goer | Market-goer
+@link npc: market_goer | The crowd: how it moves, and who is in it
+@link npc: oskar_venn | Oskar Venn, the baker
+@link npc: pip_venn | Pip Venn, under his handcart
+@link npc: ketta_holm | Ketta Holm, the herbalist
+@link npc: wat_crake | Wat Crake, the salvager
+@link npc: bruna_aske | Bruna Aske, pots and honest scales
+@link npc: marit_olsk | Marit Olsk, needles; she knows Jory
+@link npc: dun_ferrow | Dun Ferrow, a porter
+@link npc: liesl_ambry | Liesl Ambry, a laundress with her baby
+@link npc: hobb_garrow | Hobb Garrow, the garrison cook
+@link npc: aldo_fenn | Aldo Fenn, a Preserver recruit
+@link npc: old_hrenna | Old Hrenna, by the brazier
+@link npc: piet_harl | Piet Harl, who screams "Goblin!"
 @link parcel: gear_jory_tallow | What is on Jory
 @link quest: the_market_kept | Award: the market kept (150 XP)
 @link quest: jory_taken_alive | Award: Jory taken alive (200 XP)
@@ -76,15 +88,16 @@ They are shoppers and they do not know each other. Put each of them somewhere di
 something ordinary, and let the players describe what. These are suggestions, and every one of them
 is the player's to change:
 
-- **Riven Maelus** crouched over a salvage rug, where things pulled out of Drezen's ruins are laid
-  out mended. He has already noticed the alleys, because he always does. **If his player says so,
+- **Riven Maelus** crouched over **Wat Crake**'s salvage rug, where things pulled out of Drezen's
+  ruins are laid out mended. He has already noticed the alleys, because he always does. **If his player says so,
   he is standing at the mouth of the alley Jory runs for.**
-- **Dorogh Kell** at a baker's handcart, buying something small from a man who is plainly nervous of
-  a half-orc in a nasal helm, and making a careful, visible effort to look harmless.
-- **Diddle Scribes** under a herbalist's tarp, haggling over reagents. The herbalist has sold to a
-  goblin before and has not got used to it.
+- **Dorogh Kell** at **Oskar Venn**'s bread handcart, buying something small from a man who is
+  plainly nervous of a half-orc in a nasal helm, while the baker's small daughter stares at him from
+  the cart step, and making a careful, visible effort to look harmless.
+- **Diddle Scribes** under **Ketta Holm**'s yellow tarp, haggling over reagents. The herbalist has
+  sold to a goblin before and has not got used to it.
 - **Kora Sjon** by the pump, close enough to Jory's crate to be the first of them to hear him start
-  shouting.
+  shouting, and close enough to **Piet Harl** that he has already noticed her horns.
 
 Scatter them. The fight is better when four people reach the middle of the market from four
 directions, and that is literally how they meet.
@@ -104,7 +117,40 @@ somebody about to do something. Kora, being closest, gets **+2**.
 ## Running the fight
 
 **Four centipedes, four directions.** Each one goes for the nearest living thing, and that is
-usually a market-goer. There are six market-goers on the map, and they are the scene.
+usually a bystander. There are twelve of them on the map, every one with a name, and they are the
+scene.
+
+## Who is in the street
+
+Nobody here behaves like a crowd. Each of them breaks the crowd's rule in their own way, and the
+special qualities line on every sheet says how, so it is one glance on their turn.
+
+**At their own stalls:**
+
+- **Oskar Venn**, the baker, dives under his handcart for his daughter and gets stuck there.
+- **Pip Venn**, seven, is already under it and does not move. She comes out for her father, or for
+  the goblin, because he is her height. *(Neutral, like the Dolvan children.)*
+- **Ketta Holm**, the herbalist, saves her jars and then works the wounded: **Heal +6**, on anyone
+  down, once no centipede is close.
+- **Wat Crake**, the salvager, holds his rug with a pry bar and knows where the centipedes came from.
+- **Bruna Aske**, pots and scales, freezes for two rounds and then remembers everything, exactly.
+- **Marit Olsk**, selling needles off a crate, knows the boy on the other crate, and shouts his name.
+
+**Shopping:**
+
+- **Dun Ferrow**, a porter, drops his sack of meal and runs the wrong way. The likeliest to go down.
+- **Liesl Ambry**, a laundress, lies on her baby under a cart and screams for help without stopping.
+- **Hobb Garrow**, the Preservers' cook, charges a centipede with a cleaver. He needs saving from
+  his own courage.
+- **Aldo Fenn**, a Preserver recruit with no weapon and no instructor, does exactly what the first
+  confident voice tells him.
+- **Old Hrenna**, fifty years a slave in this city, stays on her bucket by the brazier and lets
+  whatever comes, come. Two hit points.
+- **Piet Harl**, a clerk out of Kenabres, screams *"Goblin!"* in round 1 and *"Demon!"* in round 2.
+
+Four of them are also help, if the party notices: Hobb and Wat can hurt a centipede, and Ketta and
+Aldo can stabilize the fallen. A character who spends an action shouting at the cook or the recruit
+has bought more than an action's worth.
 
 **The street is terrain.** Rugs, handcarts, baskets and dropped sacks are everywhere off the lane:
 treat anything that is not the clear lane as **difficult terrain**, and a square holding a
@@ -140,8 +186,9 @@ standing at its mouth can simply be there when he arrives.
 
 ## The blame
 
-In the first round of shouting somebody screams *"Goblin!"*, and somebody else points at the
-**tiefling**. They are the easiest faces in the market to blame, and for a few seconds the crowd
+In the first round of shouting **Piet Harl** screams *"Goblin!"*, and in the second he points at
+the **tiefling** and screams *"Demon!"*. The crowd picks up whatever he shouts, and shutting him up
+(**Intimidate DC 10**, **Diplomacy DC 12**, or a hand over his mouth) stops the blame before it starts. They are the easiest faces in the market to blame, and for a few seconds the crowd
 blames them. **Two Preservers** on market watch push up the street from the west end at the end of
 round 3.
 They see a goblin with a bomb in his hand and a tiefling standing over a body, and they level their
@@ -150,9 +197,16 @@ spears.
 **Do not have Mira fix this.** She is hopping from foot to foot in her doorway, but she will not
 come out: her operatives must be *deniable*, she has read that in a dozen books, and the South
 Bank Job depends on nothing leading back to her. **The people they helped fix it.** Whoever
-the party actually helped — a baker whose child was pulled out from under a centipede, a herbalist
-nobody splashed, a porter brought back from dying — tells the Preservers what actually happened,
-loudly and all at once. If the party spent the fight on the crowd, the crowd speaks for them. If they did not,
+the party actually helped — Oskar, whose child was pulled out from under his cart, Ketta, whose
+stall nobody splashed, Dun, brought back from dying — tells the Preservers what actually happened,
+loudly and all at once. Three of them carry more weight than the rest:
+
+- **Hobb Garrow**, if he is standing, bellows at the Preservers to put their spears down, and they
+  do, because he cooks their supper.
+- **Bruna Aske** tells them everything, in order, with nothing added. That is the truth, and it
+  includes whatever the party did that it should not have.
+- **Old Hrenna**, from her bucket: *"That one's no demon. I know what demons look like."* It ends
+  the argument about the tiefling in one sentence, and it is better than any Diplomacy check. If the party spent the fight on the crowd, the crowd speaks for them. If they did not,
 it is a harder conversation: **Diplomacy DC 15** to talk the Preservers down, and the Preservers take
 names either way.
 
@@ -226,6 +280,11 @@ means it. The honest options:
 - **Keep him.** A boy who can make himself invisible in a market is, to Mira, an *asset*. She would
   love that, and she would take care of him, and she will call him "our man in the candle trade".
 - **Put him on the next cart south**, with a letter and a name to ask for at the other end.
+- **Give him to Marit Olsk.** If she saw him and nobody stopped her, the seamstress from Kenabres
+  who bought his master's candles for years is waiting in the yard to ask for him. She has a room,
+  and she can teach a boy to sew. Mira will think this is the loveliest thing she has ever heard.
+
+@link npc: marit_olsk | Marit Olsk
 
 Let the party's answer decide it; she will do what they say, and she will be sure it was her idea. If Jory lives, he turns up
 again later in the campaign, somewhere useful.
@@ -239,10 +298,14 @@ too loudly, for a secret — that their first mission is tonight.
 
 **Say it out loud before the job begins:** nobody died in Lupenor's Market today, or somebody did
 and the table knows who. The stallholders know four faces now, and whoever was helped remembers who
-helped them. The baker whose child was pulled clear has a loaf for that character, for nothing, for
-as long as the campaign runs. A herbalist whose stall was not splashed sells to a goblin without
-flinching from now on. A porter brought back from dying does not forget, and the next time the party
-needs a man on a door who will not ask questions, he is the one who volunteers.
+helped them. **Oskar Venn** has a loaf for whoever brought Pip out, for nothing, for as long as the
+campaign runs, and Pip has drawn the goblin in flour on the cart. **Ketta Holm**, her stall
+unsplashed, sells to a goblin without flinching from now on. **Dun Ferrow**, brought back from
+dying, does not forget, and the next time the party needs a man on a door who will not ask
+questions, he is the one who volunteers. **Liesl Ambry** tells the wash-yards, and by the end of the
+week every laundress in Drezen knows their faces. **Hobb Garrow** wants to buy somebody a drink.
+**Aldo Fenn** wants an instructor. **Old Hrenna**, if she lived, has things to say about the
+cellars under this city, and asks nothing for them.
 
 And four strangers are a company, because someone watched them become one and paid for it.
 
@@ -260,5 +323,5 @@ that is deliberate.
 manor at about **2,010 each**, just over 2nd level, which is what the manor is written for.
 The two were balanced together, so drop neither without looking at the other.
 
-**For three players**, run three centipedes and four market-goers, and pay the market kept at 100
-and Jory at 150. **For five**, add a fifth centipede.
+**For three players**, run three centipedes, leave **Liesl Ambry** and **Dun Ferrow** off the map,
+and pay the market kept at 100 and Jory at 150. **For five**, add a fifth centipede.

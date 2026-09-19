@@ -4,7 +4,7 @@
 <!-- section: Afterwards -->
 <!-- order: 1 -->
 
-**Combat, 935.** Four giant centipedes at 200 and Jory at 135. The market-goers are worth nothing,
+**Combat, 935.** Four giant centipedes at 200 and Jory at 135. The twelve bystanders are worth nothing,
 deliberately.
 
 **Objectives, 350**, which is 27% of the total, in line with the rest of the module.
@@ -21,5 +21,5 @@ The two were balanced together, so drop neither without looking at the other.
 point: the market kept rewards looking at the crowd before the centipedes, and Jory alive rewards
 seeing a frightened boy rather than a cultist.
 
-For **three players**, run three centipedes and four market-goers, and pay the market kept at 100
+For **three players**, run three centipedes, leave Liesl Ambry and Dun Ferrow off the map, and pay the market kept at 100
 and Jory at 150. For **five**, add a fifth centipede.
