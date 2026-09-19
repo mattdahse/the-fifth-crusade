@@ -18,11 +18,11 @@
 
 ## Friends
 
-- 1x oskar_venn @ 475,375
-- 1x ketta_holm @ 1175,375
-- 1x wat_crake @ 1025,575
-- 1x bruna_aske @ 275,525
-- 1x marit_olsk @ 975,375
+- 1x oskar_venn @ 375,225
+- 1x ketta_holm @ 1225,275
+- 1x wat_crake @ 1025,675
+- 1x bruna_aske @ 225,575
+- 1x marit_olsk @ 925,325
 - 1x dun_ferrow @ 725,275
 - 1x liesl_ambry @ 225,325
 - 1x hobb_garrow @ 425,575
@@ -32,4 +32,4 @@
 
 ## Neutral
 
-- 1x pip_venn @ 425,325
+- 1x pip_venn @ 425,275
