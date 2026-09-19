@@ -2478,3 +2478,151 @@ Something in it was moving.
 
 *— Session of July 31st, 2026 —*
 
+## **The Dominion's Guests**
+
+<!-- date: September 11, 2026 -->
+
+<!-- inworld: 26 Neth 4713 -->
+
+<!-- fathom: call=820739242 recording=182412279 -->
+
+*The Ivory Sanctum, 26th of Neth, 4713 AR*
+
+### **The Room That Woke**
+
+The dissection chamber was behind them, and its door stood open on a short flight of stairs, and at the top of the stairs the Ivory Sanctum stopped looking like a house.
+
+**Harlock** went first, because he always does, with ***Radiance*** throwing her light ahead of him and **Rabiah** close at his shoulder, her own light burning on the end of a wand. It was a cavern, or it had been built as a room and had since become one. Thick sheets of fibrous stuff hung across the whole northern half of it, floor to ceiling. Some strands were as thin as a finger and some as thick as a forearm, somewhere between cobweb and the white threads that run through rotting wood. The air smelled of earth and mushrooms, though not the good kind. No one could say how high the ceiling went. The far corners had disappeared into the tangle.
+
+About twenty feet up, where the strands grew thickest, something hung in the web like a sac. It was pulsing. When **Rabiah**'s light touched it they saw something glint far down inside it, the way light glints off wet glass. Then it made a noise. It was a dry, metallic rattle, a whole burst of clicks at once, and a moment later something answered it from the east side of the room.
+
+**Varic** wanted to know whether the stuff would burn. He called up his goddess's fire and sent a bolt of it into the strands at eye level, well away from the sac.
+
+It didn't burn. The strands it touched *flinched*. They twitched apart and recoiled like something that had felt pain, and then the flinch spread. Each strand shook the next one, and that one shook the one beyond it, until the whole room was shivering and every fibre in it was awake. Nothing lashed out at them. But the room knew they were there now.
+
+**Lupenor** put away her bow and drew her elven curve blade instead, since she expected spiders and thought steel would serve her better against a swarm than arrows would. Then she stepped sideways out of the light and out of sight entirely. A slayer's trick of vanishing, fed with a little mythic power, would keep her hidden this time even after she struck. **Varic** blessed them all. **Rabiah** raised a shimmering ***Shield*** in front of herself.
+
+Then the strands drew apart and made a tunnel, and they saw what lived there.
+
+### **Brains Under Glass**
+
+Nothing the company had killed in the Worldwound had prepared them for it. It was big, and it had a great many legs, and a beard of tentacles hung from its face. Held in those tentacles was a metal apparatus that no mortal smith could have made. It pointed the apparatus at them. A beam lanced out and burst in a swirl of colours at **Rabiah**'s feet.
+
+The sorcerer's mind came apart. **Lupenor**, standing invisible right beside her, held herself together by a thread. Then a second creature came out of the webs with a different device in its tentacles and fired the same kind of burst, and this time the slayer went too.
+
+Nobody could see what **Lupenor** saw. **Harlock** turned into an ogre beside her, horned and bursting with pustules, and then into the most adorable little kitten she had ever seen. Spiders crawled up her arms and dove into her skin and came scuttling out of her pores bigger and hairier than before. She looked down at herself and could see her own hands again, which was wrong, because she was invisible. Nobody noticed any of this. **Rabiah** stood on the stairs babbling to nobody and scraping invisible things off her sleeves: *"Get it off, get it off —"*
+
+There were three of them. They clung to the web twenty and thirty feet up, where **Harlock**'s sword couldn't reach, and the strands moved for them like servants. The fibres opened when one of them wanted to shoot and closed around it again afterward. The first time they fought with the lights full on them, the company saw what was on their backs. It was a cluster of glassy blisters, and each one held a human brain. When a creature fired a spell, force bolts rose out of those blisters and flew. **Varic** caught a handful of them and tried very hard not to be sick.
+
+It came to **Rabiah** later, when anyone was able to think again. The unfinished letter on **Jerribeth**'s desk had grumbled about **Xanthir Vang**'s *guests*, those *clattering tangles of legs and brains*, visitors from the **Dominion** out of the **Dark Tapestry**. **Vang** had been feeding them victims from the Sanctum. The two corpses on the slabs in the room behind them, with their skulls opened and emptied, had been the kitchen.
+
+### **A Wall of Fire, Ten Feet Up**
+
+**Harlock** had no bow and no wings. He could only watch.
+
+**Varic** asked his goddess for a ***Wall of Fire***. A wall like that stands twenty feet tall and no taller, and the priest couldn't make it any higher. But nothing in the prayer said it had to start at the floor. So he raised it from ten feet up to thirty: a wide, bright curtain of flame hanging in the air with its hot side toward the webs, where it cooked the creatures in their hammocks, and a gap underneath where his friends could walk without being burned. One of the three was already inside it when it formed. The shrieking started then, high and metallic, and all three drew back out of sight.
+
+The fibres did not burn, but they pulled back from the flames, and in that bright light the creatures fought back. One of them skittered down below the wall and fired a ***Lightning Bolt*** along the ground. It went through **Harlock** at full strength and jolted him so hard that even ***Radiance*** swore. It caught **Varic** too. More bolts came after that one, from another angle, through the priest and the sorcerer and a succubus who let the lightning wash over her and took no harm at all.
+
+The first one to come down within reach of the paladin paid for it. **Harlock** smote it, charged the full length of the room in a single mythic rush, and hit it with everything he had. It fought back with claws and spells, and the paladin kept cutting. At last it rolled over onto its back. One of the brain-blisters popped. Its legs curled up over its belly like a dead spider's, and the apparatus fell out of its beard.
+
+A second one blinked into the air right behind the paladin, and **Lupenor** carved into it without its ever seeing her. She was still confused. She went for it as though it were an old score. She was invisible and it couldn't see her coming, so every cut went somewhere soft, twice over, and it never knew where the blade was. A moment later the same slayer beat herself about the head with the flat of her own sword to get the spiders off. No one saw that either.
+
+The one on the ceiling aimed its device down again and sent another burst of colour through the whole company. **Lupenor** fell back into the nightmare. **Varic**, whose will had not failed him all night, failed it now, as even the clearest mind sometimes does. His faith caught him on his next breath. He spoke a ***Protection from Evil*** over himself, and the fog cleared out of his head.
+
+### **The Doors That Opened Themselves**
+
+The creatures were losing, and they knew it before the company did. The wounded one faded from sight. As it vanished, tendrils came down from the ceiling and the walls, took hold of the handles of two doors on the western side of the room, and opened them. The web was helping its master escape.
+
+To reach the doors it had to come down to the floor, and there **Harlock** caught it with a blow as it went by. **Arueshalae** caught it twice more and put everything she had into the shots. Then the paladin stepped into the doorway himself so that nothing could get past him. Still half out of her mind, **Lupenor** found her bow and put two arrows into the thing with a single pull. Both flew true, and both found the gap in its shell that a slayer spends her whole life looking for. The creature screamed and died in the doorway. That was probably the finest shot of her life, and nobody saw her make it.
+
+The last one was invisible somewhere overhead. **Arueshalae** couldn't see it either. She watched the web instead, saw the strands quivering over the stairs where **Rabiah** stood talking nonsense to herself, and stepped aside for a clear line. Then she drew her bow with no arrow on the string, whispered something, and let go.
+
+A cone of arrows made of pure light burst out from the bow and swept the stairwell. Up in the dark, something that had been invisible became visible, slid down out of the web, and died on the floor.
+
+### **Friendly Fire**
+
+That should have ended it. It didn't, because two of them were still out of their minds.
+
+**Rabiah** turned on whoever stood nearest, and **Arueshalae** stood nearest. She opened a ***Hungry Pit*** right under the succubus, a mouth in the floor full of grinding stone. **Arueshalae** saw it coming, spread her wings, and hung in the air above it, wondering what on earth had just happened.
+
+Then **Lupenor**, invisible and confused, went looking for the nearest person, and the nearest person was **Rabiah**. The arrows came from nowhere. It is becoming a tradition in the company. **Chirrik** has done it; **Lupenor** has done it before. Whenever the sorcerer loses her mind, her own side's archers find her. This time a shaft slipped past every ward she had and went looking for her heart. The warding in **Rabiah**'s mythic armour turned the worst of it aside. Nothing else stood between her and the grave.
+
+**Arueshalae** came down out of the air, pinned the sorcerer to the floor, and folded her wings around her. **Harlock** reached through the feathers to lay healing hands on whatever part of **Rabiah** he could touch. **Rabiah** came back to herself long enough to notice that she was pinned under a demon. She touched her earring, spoke the word, and stepped away through the air on a ***Dimension Door***. **Arueshalae** was still holding on, and went with her.
+
+They landed together in a room they had already cleared. By then **Lupenor**'s spell of vanishing had worn off, and the rest of them could see her again, hitting herself in the face with her bow. The succubus let the sorcerer go and offered her a hand up. **Harlock** tried to wrestle the slayer to the ground and couldn't. So he laid a ward against evil on her instead, and it gave her mind something to hold on to, and she got herself back.
+
+Then came the aftermath. **Rabiah** pulled the arrows out of her own body one at a time, carried them across the room, and handed them to **Lupenor**.
+
+*"Did you lose these?"*
+
+### **What the Web Kept**
+
+**Varic** put healing into all of them, over and over, until he had used the wand eleven times. **Harlock** tried to climb up to the sac and got about six feet. Every strand he reached for slid out of his grip, and the web wouldn't let him climb. A wand of fire made the fibres shrink back, and then they crept forward again when the fire was gone. In the end **Arueshalae** simply flew up. From the hammock where one of the creatures had slept she brought down a pouch and poured it out on the floor. It held gems, and stones that nobody could name.
+
+**Varic** collected the devices from the creatures' beards. **Rabiah** identified two of them: an *apparatus of confusion*, a curved bar strung with coloured wires, and a *gizmo of confusion*, a straight rod with a bend near the tip and three buttons down the side. The two were built differently but did the same job. The company had now seen that job done, from the receiving end. The third device, like nothing any of them had seen, gave up nothing to any of their spells. **Varic** kept it.
+
+There was still hammering, far away through several walls. Down the corridor to the east, a stair led back toward the minotaurs' hall. **Lupenor** was down to ten arrows. **Varic**, and then the others, went into the bag of holding and topped up her quiver, with some pointed remarks about who the arrows should and shouldn't be aimed at.
+
+### **The Temple of the Horned Prince**
+
+**Harlock** eased up to the next corner and looked around it. Something was looking back.
+
+It was a demon, about seven feet tall, heavy with muscle and bristling with horns, and it lounged against the wall as though it had been waiting. When it saw the paladin it drew back its lips and showed him a great many teeth. It might have been a smile.
+
+Behind it was a temple. A statue of a goat-headed man carved from ivory, twenty-five feet tall, stood on a dais and held a glaive with a crescent-moon blade. No one in the company needed a priest to name him. A walkway ran between black columns flecked with white down to an altar at **Baphomet**'s feet. The vaulted ceiling was painted as a night sky full of stars. The floor was tiled in black and grey, one great labyrinth underfoot. Blood-red curtains hung on either side, closing off alcoves, and a pair of huge braziers flanked the curtains to the east.
+
+*"Well?"* said the demon. *"Are you going to stand there all day, or are you going to come up here and kneel before **Baphomet**?"*
+
+*"We've got company,"* **Harlock** called back over his shoulder. Then, to the demon: *"I've walked through a few dungeons before. I know better than to trust a demon like you."*
+
+It shrugged and went on smiling. It didn't come to him. It wanted him to come to it.
+
+**Rabiah** had seen enough fights to know one when it was coming. She quickened the whole company with ***Haste***, and **Harlock** charged.
+
+He had crossed perhaps half the floor when a tile lit up under his boot. Purple letters and curling alien shapes shot through it, spreading outward in a sign the size of the room, a ***Symbol of Persuasion***. For a heartbeat every one of them felt a rush of pure fondness for the horned thing smiling at the end of the hall. It was their dearest friend in the world, and why were they fighting? Then that passed for all of them except one.
+
+It didn't touch the paladin at all. His god doesn't let his heart be taken that way. He reached his demon and struck, and ***Radiance*** bit deep enough to make it howl. But a second demon had come in behind him out of the hallway, and that one had its friend's grin. In **Rabiah**'s eyes it was nothing but good. It was her friend. Nobody else in the company could understand why they were trying to kill it.
+
+### **Rabiah's Friend**
+
+They fight like slavers, these horned demons. They try to take a man's weapon from him before they try to take his life. The first one hooked ***Radiance*** with its horns and twisted her out of **Harlock**'s grip, and the holy blade went skittering across the labyrinth tiles. A few moments later the second one did the same to **Varic**, and ***Battle Hymn*** slid away after her. It tried to force its will on **Arueshalae** too. She had spent forty years learning to say no, and she threw it off.
+
+**Rabiah** was not idle. She fired a blazing ray and then two more at the *bad* demon. She could see the difference between them perfectly well, and she couldn't understand why nobody else could. When **Lupenor** started shooting at her friend, the sorcerer took a scroll out of her bag and tried to freeze the slayer where she stood with ***Hold Person***. **Lupenor** had been under spells all night, and she shook this one off.
+
+*"Why are you attacking our friends?"* **Rabiah** demanded.
+
+*"He's not your friend, Rabiah,"* **Varic** shouted back, hacking at him. *"He's a demon."*
+
+**Harlock** walked straight through the demon's reach to pick up his sword, took the blow it gave him for his trouble, and lifted ***Radiance*** off the floor. An old fury rose up in him with her, one he had carried unspent since **Jerribeth**. **Lupenor** switched to cold iron and brought the sorcerer's friend down.
+
+**Rabiah** ran to it. She knelt beside the fallen demon, got a healing wand working with shaking hands, and poured the wand's warmth into its wounds until it stirred. *"Get up,"* she urged it. *"Get up."*
+
+**Arueshalae** put it down again with her star-knife and stabbed it once more on the floor, to make sure it wouldn't get up a second time.
+
+Then **Varic** picked up ***Battle Hymn***, walked over to the demon, and took its head off in one stroke. He looked straight at the sorcerer across the stump.
+
+*"Heal that."*
+
+The charm broke the moment the thing died. Suddenly **Rabiah** understood exactly what she had been doing. She went very red.
+
+*"You and I,"* **Varic** told her, *"are going to take up meditation."*
+
+**Harlock** had only one job left, and he did it. The last horned demon fell under a hasted flurry of holy steel, and the Temple of the Horned Prince fell quiet.
+
+**Rabiah** walked over to the corpse of the demon that had charmed her and kicked it, looking for a soft place among all those horns. Purple ichor came out of the neck stump with a very satisfying gloop.
+
+### **The Meditation Room**
+
+The alcoves behind the red curtains held no ambush. Behind one of them was a narrow room, a meditation cell with tables and a few chests. **Lupenor**, who everyone agreed was the least trustworthy member of the company that night, was nonetheless the one sent to check the chests for traps. She found none.
+
+The first chest held five books and four cat-o'-nine-tails. **Varic** and **Harlock** could both read Abyssal. The books were devotions to **Baphomet**. **Varic** picked up the whole chest, carried it out, and set it on the altar for burning. *Purification by fire.* No one argued.
+
+The second chest was locked, and **Lupenor**'s hands opened it easily. Inside were potions: healing, which the company shared out; a pair that would make the drinker grow; a potion of love; and four vials labelled *to overcome nerves*. **Rabiah** identified those four as elixirs of *unnatural lust*, each brewed to bind the drinker's desire to one particular creature. That creature had been chosen by whoever made the brew, in a temple to the Prince of Beasts, and no one wanted to find out who it was. The lust potions went onto the altar with the rest. The third chest held five unholy symbols of **Baphomet** and four vials of unholy water. Those went onto the altar too.
+
+When **Harlock** tipped the locked chest over to shake it out, the bottom fell away. It was false. Underneath lay a book.
+
+**Rabiah** felt the magic in it the moment she touched it. She tried to read it and couldn't; the pages kept their meaning to themselves. It would give itself up, she thought, only to someone willing to read every page of it carefully, over days, or to fresher eyes on another morning. So it went into the bag of holding along with the other things that had not yet said what they were: a pouch of strange gems, a device that no spell would explain, and a book whose owner had hidden it under a false bottom in a chest in the Temple of the Horned Prince.
+
+*— Session of September 11th, 2026 —*
+
