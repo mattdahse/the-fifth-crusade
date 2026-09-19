@@ -164,7 +164,7 @@ function Get-ItemIndex {
 }
 
 # Fields worth copying. Anything the markdown sets wins over the SRD value.
-$itemStrFields = @('cost', 'damage', 'critical', 'damagetype', 'properties', 'type', 'subtype', 'aura')
+$itemStrFields = @('cost', 'damage', 'critical', 'damagetype', 'properties', 'type', 'subtype', 'aura', 'ammoeffect')
 $itemNumFields = @('weight', 'ac', 'maxstatbonus', 'checkpenalty', 'spellfailure', 'speed30', 'speed20', 'range', 'cl')
 
 # ---------------------------------------------------------------- spells

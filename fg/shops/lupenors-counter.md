@@ -53,14 +53,23 @@ have one yet.
 <!-- srd: Crossbow, light -->
 <!-- count: 3 -->
 
-### Arrows (20)
-<!-- count: 12 -->
+### Arrows
+<!-- srd: Arrows (20) -->
+<!-- count: 240 -->
+<!-- cost: 5 cp -->
+<!-- weight: 0.15 -->
 
-### Bolts, crossbow (10)
-<!-- count: 12 -->
+### Bolts, crossbow
+<!-- srd: Bolts, crossbow (10) -->
+<!-- count: 120 -->
+<!-- cost: 1 sp -->
+<!-- weight: 0.1 -->
 
-### Bullets, sling (10)
-<!-- count: 12 -->
+### Bullets, sling
+<!-- srd: Bullets, sling (10) -->
+<!-- count: 120 -->
+<!-- cost: 1 cp -->
+<!-- weight: 0.5 -->
 
 ### Padded
 <!-- count: 4 -->

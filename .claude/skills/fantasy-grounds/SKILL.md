@@ -792,6 +792,15 @@ item is written in the chronicle's voice and overrides that; a shop stocking for
 should not need forty invented paragraphs, and a buyer wants the rule anyway. Write a body only
 for something invented, or to override the book.
 
+**Ammunition is stocked one round at a time, never as a bundle.** Both campaigns run
+`FG-Ammunition-Manager`, which spends ammo by decrementing the item's `count`, so a
+"Cold iron arrows (20)" at count 1 is gone after the first shot. Name it without the bundle
+size, point `srd:` at the book's bundle for the rules text, and divide cost and weight by the
+bundle: arrows `5 cp` / `0.15`, bolts `1 sp` / `0.1`, sling bullets `1 cp` / `0.5`. Stock
+`count` is in rounds (a dozen quivers is 240). Special ammunition also needs
+`<!-- ammoeffect: DMGTYPE: cold iron -->` — the `AmmoEffects` extension reads that field off the
+linked ammo and adds the type at DR time; putting it in `damagetype` or the name does nothing.
+
 The weight warning fires on items the book itself lists as "—" (a candle, flint and steel, a
 wooden holy symbol). Give them a fraction anyway: weightless is what breaks encumbrance.
 
