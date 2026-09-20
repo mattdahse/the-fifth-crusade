@@ -2478,7 +2478,7 @@ Something in it was moving.
 
 *— Session of July 31st, 2026 —*
 
-## **The Dominion's Guests**
+## **Mind Games**
 
 <!-- date: September 11, 2026 -->
 
@@ -2552,7 +2552,7 @@ That should have ended it. It didn't, because two of them were still out of thei
 
 Then **Lupenor**, invisible and confused, went looking for the nearest person, and the nearest person was **Rabiah**. The arrows came from nowhere. It is becoming a tradition in the company. **Chirrik** has done it; **Lupenor** has done it before. Whenever the sorcerer loses her mind, her own side's archers find her. This time a shaft slipped past every ward she had and went looking for her heart. The warding in **Rabiah**'s mythic armour turned the worst of it aside. Nothing else stood between her and the grave.
 
-**Arueshalae** came down out of the air, pinned the sorcerer to the floor, and folded her wings around her. **Harlock** reached through the feathers to lay healing hands on whatever part of **Rabiah** he could touch. **Rabiah** came back to herself long enough to notice that she was pinned under a demon. She touched her earring, spoke the word, and stepped away through the air on a ***Dimension Door***. **Arueshalae** was still holding on, and went with her.
+**Arueshalae** came down out of the air, pinned the sorcerer to the floor, and folded her wings around her. **Harlock** reached in past the membrane of a wing to lay healing hands on whatever part of **Rabiah** he could touch. **Rabiah** came back to herself long enough to notice that she was pinned under a demon. She touched her earring, spoke the word, and stepped away through the air on a ***Dimension Door***. **Arueshalae** was still holding on, and went with her.
 
 They landed together in a room they had already cleared. By then **Lupenor**'s spell of vanishing had worn off, and the rest of them could see her again, hitting herself in the face with her bow. The succubus let the sorcerer go and offered her a hand up. **Harlock** tried to wrestle the slayer to the ground and couldn't. **Varic** laid a ward against evil on her instead, the same one that had cleared his own head, and it gave her mind something to hold on to, and she got herself back.
 
