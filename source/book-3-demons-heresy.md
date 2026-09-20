@@ -2522,6 +2522,8 @@ It came to **Rabiah** later, when anyone was able to think again. The unfinished
 
 **Varic** asked his goddess for a ***Wall of Fire***. A wall like that stands twenty feet tall and no taller, and the priest couldn't make it any higher. But nothing in the prayer said it had to start at the floor. So he raised it from ten feet up to thirty: a wide, bright curtain of flame hanging in the air with its hot side toward the webs, where it cooked the creatures in their hammocks, and a gap underneath where his friends could walk without being burned. One of the three was already inside it when it formed. The shrieking started then, high and metallic, and all three drew back out of sight.
 
+![Nothing in the prayer said it had to start at the floor.](images/ten-feet-off-the-floor.webp)
+
 The fibres did not burn, but they pulled back from the flames, and in that bright light the creatures fought back. One of them skittered down below the wall and fired a ***Lightning Bolt*** along the ground. It went through **Harlock** at full strength and jolted him so hard that even ***Radiance*** swore. It caught **Varic** too. More bolts came after that one, from another angle, through the priest and the sorcerer and a succubus who let the lightning wash over her and took no harm at all.
 
 The first one to come down within reach of the paladin paid for it. **Harlock** smote it, charged the full length of the room in a single mythic rush, and hit it with everything he had. It fought back with claws and spells, and the paladin kept cutting. At last it rolled over onto its back. One of the brain-blisters popped. Its legs curled up over its belly like a dead spider's, and the apparatus fell out of its beard.
@@ -2539,6 +2541,8 @@ To reach the doors it had to come down to the floor, and there **Harlock** caugh
 The last one was invisible somewhere overhead. **Arueshalae** couldn't see it either. She watched the web instead, saw the strands quivering over the stairs where **Rabiah** stood talking nonsense to herself, and stepped aside for a clear line. Then she drew her bow with no arrow on the string, whispered something, and let go.
 
 A cone of arrows made of pure light burst out from the bow and swept the stairwell. Up in the dark, something that had been invisible became visible, slid down out of the web, and died on the floor.
+
+![She drew on nothing, and something died of it.](images/the-empty-bow.webp)
 
 ### **Friendly Fire**
 
@@ -2576,6 +2580,8 @@ Behind it was a temple. A statue of a goat-headed man carved from ivory, twenty-
 
 *"We've got company,"* **Harlock** called back over his shoulder. Then, to the demon: *"I've walked through a few dungeons before. I know better than to trust a demon like you."*
 
+![Are you going to stand there all day?](images/kneel-before-baphomet.webp)
+
 It shrugged and went on smiling. It didn't come to him. It wanted him to come to it.
 
 **Rabiah** had seen enough fights to know one when it was coming. She quickened the whole company with ***Haste***, and **Harlock** charged.
@@ -2597,6 +2603,8 @@ They fight like slavers, these horned demons. They try to take a man's weapon fr
 **Harlock** walked straight through the demon's reach to pick up his sword, took the blow it gave him for his trouble, and lifted ***Radiance*** off the floor. An old fury rose up in him with her, one he had carried unspent since **Jerribeth**. **Lupenor** switched to cold iron and brought the sorcerer's friend down.
 
 **Rabiah** ran to it. She knelt beside the fallen demon, got a healing wand working with shaking hands, and poured the wand's warmth into its wounds until it stirred. *"Get up,"* she urged it. *"Get up."*
+
+![Her dearest friend in all the world.](images/rabiahs-dearest-friend.webp)
 
 **Arueshalae** put it down again with her star-knife and stabbed it once more on the floor, to make sure it wouldn't get up a second time.
 
