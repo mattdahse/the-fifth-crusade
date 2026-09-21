@@ -3,16 +3,15 @@
 <!-- id: southshore_job_story -->
 <!-- order: 0 -->
 
-*The first commission. A 1st-level adventure for four, running one long session, and written to
-end with everyone at 2nd level.*
+*The first commission. A 1st-level adventure for four: the yard and the house in one session, the
+Low Road beneath them in about two more, and everyone at 2nd level by the ledge.*
 
 @link quest: southshore_job | The job Mira offers
 @link map: scrapyard | The scrapyard (map)
-@link map: undercroft | The undercroft (map)
+@link map: low_road | The Low Road (map)
 @link battle: yard_dogs | The yard
 @link battle: scrapyard_house | The house
-@link battle: labyrinth_tunnel | The tunnel
-@link battle: the_cavern | The cavern
+@link story: low_road_story | The Low Road, underneath
 @link parcel: the_scrapyard_intel | What they came for
 @link parcel: scrapyard_strongbox | Under the shop counter
 @link parcel: yard_cache | Hidden in the yard
@@ -152,98 +151,75 @@ before the cult did.
 @link parcel: scrapyard_strongbox | Under the shop counter
 @link parcel: yard_cache | Hidden in the yard
 
-## The undercroft
+## The Low Road
 
-A dug-out cellar under the shop, and a **secret door** in its back wall. Finding it is a search of
-the shelving, not of the whole room; Alia or Hesk will simply tell the party where it is.
+Under the Dolvans' cellar is the Low Road: seventy years of slave tunnels, and a small, badly run
+cell of the Ivory Labyrinth using them to smuggle people in and the city's grain and silver out.
+Nobody down there is sure who is in charge, because two men claim to be, and every room in it has a
+way through that is not a fight.
 
-**Four Labyrinth initiates** are quartered in the tunnel behind it.
+@link story: low_road_story | The Low Road
+@link map: low_road | The Low Road (map)
 
-@link battle: labyrinth_tunnel | The tunnel
-
-These are not South Bank scrappers. They are the Ivory Labyrinth proper, posted from outside the
-city to keep a door open, and they are a **clean fight**: no families, no surrender, no leverage.
-That is deliberate. The party has earned an uncomplicated one by now.
-
-**Two hold the narrow part of the tunnel at the cellar end. The other two are at the far end and go
-for the ladder**
-rather than joining — they are not running, they are doing their job, which is to make sure
-somebody outside the city hears about this by morning. Kicking the heap over the lip is one move
-action and the descent needs no check, so **they are gone in two rounds if nobody chases**, and a
-party that lets them go loses the two who know most about where the route comes out.
-
-## The cavern
-
-The tunnel opens into a natural cavern that the cult did not dig and does not like.
-
-@link battle: the_cavern
-
-**Two darkmantles** are on the ceiling, and they have been the whole time. This is why the
-initiates cross with torches, quickly, in pairs — and a party that noticed how the initiates
-moved has been told what is coming.
-
-**They drop together**, as the party reaches the middle of the cavern: one on whoever carries the
-light and one on whoever is behind them. Two is a real fight at 1st level, because a grabbed
-character is suffocating on the initiative count, and it is not a slaughter.
-
-Blindsight 90 ft. means **putting out the lantern helps them and not the party.** Say so the
-first time somebody reaches for it.
-
-Beyond the cavern the passage narrows and comes out in a **cave in the cliff face**, with a **rope
-ladder** spiked to the stone at the lip and heaped on the floor ready to go over at a word.
-Dropped, it puts anyone at all on the ground outside Drezen's wall — no gate, no toll, no watch
-officer writing a name in a book. Heaped, it shows nothing from below, which is why the route has
-never been given away by the cliff face.
-
-**Finding and mapping that route is worth 500 XP**, and it is the piece of intel Mira did not
-know she was buying.
+It has its own record and its own fifteen pages in the book, C1 to C15. The pieces that were here
+before are all still in it: the **secret door** (C1), the initiates (C2 and C3, now the relief
+detail, and now willing to surrender), the **darkmantles** (C14), the **ladder** (C15) and **the
+marked map**, which Tobin carries in his shirt in the lodging.
 
 @link quest: the_cliff_route | Award: the cliff route (500 XP)
+@link quest: intel_to_mira | Award: the intel delivered (1,000 XP)
 
 ## What they came for
 
 @link parcel: the_scrapyard_intel
 
-One of the initiates carries a **rough map** — the Marchlands north and west of Drezen, drawn by
-somebody who had walked it. It is unremarkable except for a set of small marks that are not
-places: they are a route, and they end at a Sarkorian ruin two days along the western road.
+Tobin carries a **rough map**: the Marchlands north and west of Drezen, drawn by somebody who had
+walked it, which was a runaway, and over the top of it in another ink a line of small marks that are
+not places. They are the Labyrinth's route, and they end at a Sarkorian ruin two days along the
+western road. The Keeper's sewn purse for *Y. K., the halfway house* (C11) points the same way.
 
 **Getting it back to Mira is worth 1,000 XP** and is the reason there is a second commission.
 
-@link quest: intel_to_mira | Award: the intel delivered (1,000 XP)
-
 ## The experience budget
 
-Written for **four characters at 1st level, medium track.** On its own it is **6,750 across the
-party**, about 1,690 each. With [Market Day](market-day.md) in front of it (1,285) the party reaches
-the manor at **8,035, about 2,010 each: just over 2nd level**, which is what the manor is written
-for.
+Written for **four characters at 1st level, medium track.** With the Low Road the job is **11,455
+across the party**. With Market Day in front of it (1,285) the party reaches the manor at **12,740,
+about 3,190 each**: well into 2nd level and, after the manor's own 1,750 each, just short of 3rd,
+which is where the manor's math already meant to leave them.
 
 | | XP |
 |---|---|
-| The yard — 2 dogs | 800 |
-| The house — Hesk, three scrappers, Alia | 1,400 |
-| The tunnel — four initiates | 800 |
-| The cavern — two darkmantles | 800 |
-| **Combat** | **3,800** |
+| The yard, 2 dogs | 800 |
+| The house, Hesk, three scrappers, Alia | 1,400 |
+| The lodging, Tobin and Hanno | 400 |
+| The knot, Wendel and Lutz | 400 |
+| The grain store, 3 dire rats | 405 |
+| The old ways, 3 giant centipedes | 600 |
+| The Diggers, a haunt | 400 |
+| The midden, the Bishop | 1,200 |
+| The gate, the Horn | 600 |
+| The Keeper | 600 |
+| The cavern, 2 darkmantles | 800 |
+| **Encounters** | **7,605** |
 | The intel delivered to Mira | 1,000 |
 | Alia and the children taken alive | 1,100 |
 | The cliff route found and mapped | 500 |
 | The yard scouted before the strike | 350 |
-| **Objectives** | **2,950** |
-| **Total** | **6,750** |
+| The stores recovered | 300 |
+| The Mole spared | 300 |
+| The quarrel turned | 300 |
+| **Objectives** | **3,850** |
+| **Total** | **11,455** |
 
-**The objectives are 44% of this job**, well above the 27% the rest of the module holds to. That
-is the price of the smaller tunnel and cavern: the awards were raised so that the party still
-reaches 2nd level before the manor, and they were raised on the decisions, not the kills.
+**Every encounter pays however it is overcome.** A Horn talked out of the gap is worth the same as a
+Horn put down in it, and so is a fed Bishop. **The objectives are 34%**, above the module's 27%, and
+the whole difference is the two upstairs awards raised when the old tunnel and cavern were cut. They
+stay raised, because the table is already in the house.
 
-**Award the objectives even if the party does not ask.** Two of them — the children, and scouting
-first — reward decisions rather than actions, and a party that is never told those were worth
-anything learns the wrong lesson about what this campaign values.
+**Award the objectives even if the party does not ask.** Most of them reward decisions, and a party
+never told those were worth anything learns the wrong lesson about what this campaign values.
 
-**For three players**, run three initiates and one darkmantle, and pay the objectives at 1,800
-(intel 600, children 700, route 300, scouting 200) — about 6,000 with Market Day, 2,000 each.
-**For five**, add a fifth initiate and a third darkmantle.
+**For three players or five**, see the scaling on the Low Road record.
 
 ## Afterwards
 

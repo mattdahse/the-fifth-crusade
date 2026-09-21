@@ -1,6 +1,6 @@
 # Labyrinth Initiate
 
-*Four of them living in a scrap dealer's cellar, waiting for a door to be needed.*
+*The relief detail: four recruits from the Marchlands in issued mail, packed for a march nobody will order.*
 
 <!-- id: labyrinth_initiate -->
 <!-- token: tokens/labyrinth-initiate.webp -->
@@ -39,35 +39,49 @@ spacereach: 5 ft./5 ft.
 
 ## Description
 
-> Not a South Bank scrapper. This one is fed, rested, and wearing mail under a plain coat, with
-> the maze on an iron disc at the throat instead of inked on a wrist. He was awake before you were
-> down the stairs.
+> A young man in a chain shirt that was issued to somebody else first, a plain coat over it and
+> the maze on an iron disc at his throat. He has a short sword out and a buckler up, the way he was
+> shown, and he is looking past you at the stairs, because he has been told two different things
+> about what to do when somebody comes down them.
 
 @link image: portrait_labyrinth_initiate | Portrait (full size)
 @link parcel: gear_labyrinth_initiate | Gear
-@link npc: labyrinth_squatter | What these become, further north
+@link npc: gerrit_bask | Who they would rather obey
+@link npc: anselm_vauk | Who they are supposed to obey
+@link npc: labyrinth_squatter | What these become, further west
 
 ## Special abilities
 
-None. Trained, equipped and rested, which at 1st level is worth more than an ability.
+None. The mail and the buckler are the order's; the training is three weeks of the Horn shouting.
 
 ## Tactics
 
-- **They form up**, which the scrappers upstairs cannot. A line across the tunnel, shields
-  forward, giving ground in order instead of breaking.
-- **The tunnel is one man wide in places** and they know exactly which places. They fall back to
-  those and make the party come to them.
-- **Two are always at the far end**, at the cavern mouth, and those two do not join the fight —
-  they go for the ladder - one move action to kick it over the lip, no check to go down it. See
-  the encounter.
+- **They hold a line** if there are two of them and a tunnel to hold it in, and they hold it
+  exactly as long as nobody has been hurt.
+- **The first real wound ends it.** When one of them drops or takes more than half his hit points
+  in a blow, the other surrenders or runs, and he runs toward the Horn, not the Keeper.
+- **They never fought anything**, and they know it. An **Intimidate DC 11** from anyone who has just
+  come down the stairs from the fight upstairs makes one surrender outright.
+- **An order in the right voice** stops them. Told to stand aside by somebody who sounds as if he
+  has the right, they stand aside and then argue with each other about whether he had.
 
 ## Roleplaying
 
-The Ivory Labyrinth proper, not local muscle: posted here from outside the city to keep a door
-open, and they regard the Dolvans as a convenience rather than as comrades.
+Marchlands boys the Labyrinth fed and put in mail, sent to Drezen to keep a door open, and then
+made into the relief detail for the manor three weeks ago. The relief has been ordered four times,
+by two different men, and countermanded by each of them. They have eaten half the rations.
 
-**They do not surrender and cannot be bought.** That is deliberate. The moral weight of this
-adventure is all upstairs, and the floor below it is meant to be an uncomplicated fight — the
-party has earned one by then.
+**The four of them**, for when one of them has to talk:
 
-**One of them is carrying the marked map**, which is the reason anybody came.
+- **Tobin** carries the marked map, because he has the best boots. He cannot read it.
+- **Hanno** will not cross the cavern since it took his cousin three weeks ago. He is the real
+  reason the relief never left, and he knows what is on the ceiling.
+- **Wendel** joined for the food and has eaten more of the relief detail's than anyone.
+- **Lutz** writes to his mother in Kenabres that he has joined the crusade.
+
+- **Will they surrender?** Readily, once somebody is bleeding. They want to be told what happens to
+  them next, and they want it to be something other than the cavern.
+- **Can they be bought?** With a way home. They are two days from the Marchlands and would like to
+  be further.
+- **Will they turn on the people they work for?** On the Keeper, gladly. On the Horn, not while he
+  is standing.

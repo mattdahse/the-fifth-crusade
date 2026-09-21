@@ -12,11 +12,11 @@ rope-walks that spent seventy years under demon rule and has not been searched.
 tonight, by people who do not work for her.
 
 The party are those people: picked in Drezen because they are unaffiliated, which she tells them,
-and untraceable, which she does not. Under the yard is a cellar, under the cellar a tunnel, and at
-the end of the tunnel a way out of Drezen that does not pass a gate. On one of the bodies down
+and untraceable, which she does not. Under the yard is a cellar, under the cellar the Low Road, the
+slaves' tunnels, and at the far end of them a way out of Drezen that does not pass a gate. On one of the bodies down
 there is a map, and the map is why there is a second commission.
 
 @link quest: southshore_job | The job Mira offers
 @link story: southshore_job_story | Full adventure text
 @link map: scrapyard | The scrapyard (map)
-@link map: undercroft | The undercroft (map)
+@link map: low_road | The Low Road (map)

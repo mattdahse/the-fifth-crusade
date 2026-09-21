@@ -66,5 +66,5 @@ party that wants the children out has to carry the baby or carry Sera. One round
 make a speech. The weight lands harder for being understated, and the party will supply the rest
 themselves.
 
-Carried out alive with the other three, it is part of the **800 XP** award in
+Carried out alive with the other three, it is part of the **1,100 XP** award in
 [the story record](../story/the-southshore-job.md).

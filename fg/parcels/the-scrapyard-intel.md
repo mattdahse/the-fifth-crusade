@@ -2,8 +2,8 @@
 
 <!-- id: the_scrapyard_intel -->
 
-What the job was actually for. All of it comes out of the tunnel or the cellar, none of it off a
-body in the house, and the map is the piece that starts the next commission.
+What the relief detail was carrying west, on and around Tobin in the lodging (C2), with the ladder
+from the ledge (C15). The map is the piece that starts the next commission.
 
 ## Coin
 
@@ -69,9 +69,10 @@ This leather knapsack has one large pocket that closes with a buckled strap and 
 <!-- weight: 0.1 -->
 <!-- aura: Faint conjuration -->
 <!-- cl: 1 -->
-<!-- nonid: Magical Potion -->
+<!-- nonid: A vial of cloudy red liquid with a paper tag -->
 
-A potion is a magic liquid that produces its effect when imbibed. A potion can be used only once.
+A stoppered glass vial of cloudy red liquid, about two swallows. A paper tag tied at the neck
+carries a stock number, *H.E. 211*, and beside it a tiny, careful drawing of a flask.
 
 ### Potion of Lesser Restoration
 <!-- srd: none -->
@@ -81,9 +82,10 @@ A potion is a magic liquid that produces its effect when imbibed. A potion can b
 <!-- weight: 0.1 -->
 <!-- aura: Faint conjuration -->
 <!-- cl: 3 -->
-<!-- nonid: Magical Potion -->
+<!-- nonid: A vial of clear blue liquid with a paper tag -->
 
-A potion is a magic liquid that produces its effect when imbibed. A potion can be used only once.
+A stoppered glass vial of clear, faintly blue liquid. A paper tag tied at the neck carries a stock
+number, *H.E. 212*, and beside it a tiny, careful drawing of a flask.
 
 ### Rations
 <!-- srd: none -->

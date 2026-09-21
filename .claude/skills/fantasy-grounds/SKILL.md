@@ -1007,6 +1007,16 @@ visually distinct enough without a frame. The build **warns** when GM voice appe
 block.
 | `**bold**` / `*italic*` | `<b>` / `<i>` |
 
+**Every source file must be LF, and Python on Windows does not write LF.** The converter splits
+paragraphs and read-aloud frames on a blank line, `
+
+`. A file with CRLF endings has none, so
+the whole record becomes one paragraph, a `>` frame swallows the heading above it and the links
+below it, and the only symptom is a "GM voice inside a read-aloud frame" warning that seems to be
+about text that is not in the frame. `open(p, 'w')` in text mode on Windows writes CRLF; write with
+`newline='
+'`. `.gitattributes` normalises on commit, but the build reads the working tree.
+
 The build parses the generated `db.xml` as XML before packaging and throws if it is malformed —
 a broken module otherwise fails silently inside FG, which is very hard to diagnose.
 
@@ -1081,6 +1091,16 @@ a drawn blockout, a hand-composed map in FG, or generated art.
 
 A battlemap plate carries **no text of its own** — no titles, no room numbers, no labels, no
 compass, and no grid. FG draws the grid itself.
+
+### A plate bigger than one render: blockout, quarters, stitch
+
+The Low Road (60 x 40 squares) is the worked example, written up in `fg/art/PROMPTS.md`. Draw the
+whole floor plan in code, render a master of the whole thing for palette, then render overlapping
+quarters from the plan and the master's crops, each sent with the quarters already painted as
+neighbours, and join them with `fg/art/stitch-tiles.py`. Put the seams where only rock and straight
+tunnels cross them, and trace the occluders from the blockout's own walkable mask rather than the
+painting. A loop of tunnels encloses an island of rock that the outer trace does not see; it needs
+its own ring.
 
 ### Tokens
 

@@ -129,6 +129,15 @@ gallery. Their likeness anchors live here instead.
 | Piet Harl portrait | `portraits/piet-harl.webp` | **done** — 1024 × 1024, 227 KB |
 | Piet Harl token | `tokens/piet-harl.webp` | **done** — 512 × 512, 87 KB |
 | Lupenor's Market battlemap | `images/lupenors-market.webp` | **done** — second render (the first, a walled yard, was rejected); 1536 × 1024 trimmed and padded to 1600 × 1000 for a 100 px grid, 570 KB |
+| The Low Road battlemap | `images/the-low-road.webp` | **done** — 3000 × 2000 at 50 px, blockout by [`make-low-road.py`](make-low-road.py), four quarters repainted and joined by [`stitch-tiles.py`](stitch-tiles.py), 1.3 MB |
+| Anselm Vauk portrait | `portraits/anselm-vauk.webp` | **done** — 1024 × 1024, 227 KB |
+| Anselm Vauk token | `tokens/anselm-vauk.webp` | **done** — 512 × 512, 90 KB |
+| Gerrit Bask portrait | `portraits/gerrit-bask.webp` | **done** — 1024 × 1024 |
+| Gerrit Bask token | `tokens/gerrit-bask.webp` | **done** — 512 × 512, 74 KB; the helm's silhouette carries it |
+| Emmet Rook portrait | `portraits/emmet-rook.webp` | **done** — 1024 × 1024 |
+| Emmet Rook token | `tokens/emmet-rook.webp` | **done** — 512 × 512, 90 KB |
+| Hired Porter portrait | `portraits/labyrinth-porter.webp` | **done** — 1024 × 1024; painted as Nell Carrow |
+| Hired Porter token | `tokens/labyrinth-porter.webp` | **done** — 512 × 512, 83 KB |
 
 ---
 
@@ -1132,3 +1141,74 @@ with houses along both long sides and alleys between them.
 > labels, a legend, a compass, a scale bar, a title, a border, a frame, parchment, a vignette, a
 > photograph, a 3-D render, cartoon, cel-shaded, flat vector, bright saturated colours, miniatures,
 > tokens, figures, people, creatures, animals.
+
+
+## The Low Road battlemap
+
+**One plate, four renders.** The dungeon is 60 × 40 squares, which no single render holds at a
+usable scale, so it is made the way the Sarkorian House says to make a built space: **geometry in
+code first.** [`make-low-road.py`](make-low-road.py) draws the whole floor plan at 3000 × 2000 on a
+50 px grid and writes the walkable mask the occluders are traced from. Then:
+
+1. **A master render** of the whole plan at 1536 × 1024, with the old undercroft plate attached as a
+   style reference. It kept every room where the plan put it, and it is what holds the four quarters
+   to one palette.
+2. **Four quarter renders**, each 1600 × 1067 of the plan (overlapping 200 px across and 134 down),
+   each sent with the matching crop of the master, the matching crop of the plan, and every quarter
+   already painted as a neighbour to match. The plan's seams were placed so that only rock and four
+   straight tunnels cross them.
+3. [`stitch-tiles.py`](stitch-tiles.py) scales each back, registers it to the plan by phase
+   correlation (none drifted more than 3 px), matches colour over the overlaps, and joins them along
+   the cheapest seam through each overlap, feathered six pixels.
+
+**Upload JPEGs, not PNGs, as references.** Three 3 MB PNGs in one message froze the ChatGPT tab;
+the same three at quality 90 were under 1 MB together and went through.
+
+**The renders copy the plan's mistakes faithfully.** The blockout left the crawl a hand's width short
+of the midden and every render drew the gap. It was patched on the plate (a stretch of crawl carried
+down and a patch of midden floor over the rim) and fixed at source in the plan.
+
+> [the quarter prompt, with the quarter and its contents substituted]
+>
+> This is ONE QUARTER of a larger painted battlemap: the top-left (north-west) quarter. IMAGE 1 is a
+> low-resolution painting of exactly this quarter: match its layout, colours and lighting exactly.
+> IMAGE 2 is its FLOOR PLAN, AND IT IS FIXED: every room, tunnel, wall, doorway and object stays
+> exactly where it is, at the same size and the same shape. IMAGE 3 is the neighbouring quarter,
+> already painted at full detail: match its painting style, rock texture, earth texture, timber
+> props, level of detail and brightness exactly, so that the two quarters can be stitched together
+> without a visible seam. Repaint IMAGE 1 at full detail and full sharpness. MOVE NOTHING. Tunnels
+> and rock that run off the edge of the frame must continue straight out to the edge; do not close
+> them off, do not round them off, do not frame the scene.
+>
+> **Avoid:** moving, adding, merging or removing any room or tunnel; closing or ending a tunnel at
+> the frame edge; a grid; text; a border, a frame, a vignette, darkened corners; any oblique view.
+
+## Anselm Vauk
+
+**Likeness anchors (keep constant).** Narrow, anxious human man of about fifty, clean-shaven,
+thinning grey hair combed flat, **ink on the fingers of both hands**. An issued **chain shirt far too
+big for him**, over a clerk's black sleeves gone grey at the cuffs; a hooked iron disc stamped with a
+maze at his throat. He holds **a ledger** to his chest and **a glaive leans on his shoulder like a mop**
+he was asked to hold. Background: a cramped plank office cut into rock, a shelf of ledgers, a lantern.
+
+## Gerrit Bask, the Horn
+
+**Likeness anchors (keep constant).** A very big man in **scale mail laced together from three
+coats**, and **a great horned iron helm made for a bigger head, sitting on his shoulders like a
+bucket**: two long curved horns, eye-slits set too wide, his face in shadow except **one eye** through
+one slit. **A greataxe held upright in both hands.** A crate barricade and a torchlit dug tunnel
+behind him. The helm is the character; never paint him bareheaded.
+
+## Emmet Rook
+
+**Likeness anchors (keep constant).** Old, thin man in his late sixties, white stubble going to a short
+beard, grey dust in every crease, a rag knotted round his head, scarred bare forearms. **Kneeling in
+rubble with a miner's pick across his thighs**, one hand flat on a stone, **a small lantern turned very
+low** by his knee. He looks at the rock, never at the viewer.
+
+## Hired Porter (Nell Carrow)
+
+**Likeness anchors (keep constant).** Square-built woman in her thirties, blue headscarf, sleeves
+rolled, grain dust on her forearms, **a porter's leather yoke with a pad over each shoulder**, **lowering
+a stencilled grain sack very carefully**, looking off to one side, wary. Heaped sacks and lantern light
+behind her.
