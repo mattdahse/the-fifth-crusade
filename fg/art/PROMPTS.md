@@ -138,6 +138,11 @@ gallery. Their likeness anchors live here instead.
 | Emmet Rook token | `tokens/emmet-rook.webp` | **done** — 512 × 512, 90 KB |
 | Hired Porter portrait | `portraits/labyrinth-porter.webp` | **done** — 1024 × 1024; painted as Nell Carrow |
 | Hired Porter token | `tokens/labyrinth-porter.webp` | **done** — 512 × 512, 83 KB |
+| The Wanderer (harrow card) | `harrow/the-wanderer.webp` | **done** — 1024 × 1536, 546 KB; first roll, no text on the card |
+| The Mountain Man (harrow card) | `harrow/the-mountain-man.webp` | **done** — 1024 × 1536, 417 KB; first roll, no text on the card |
+| The Juggler (harrow card) | `harrow/the-juggler.webp` | **done** — 1024 × 1536, 390 KB; first roll, no text on the card |
+| The Vision (harrow card) | `harrow/the-vision.webp` | **done** — 1024 × 1536, 417 KB; first roll, no text on the card |
+| The Theater (harrow card) | `harrow/the-theater.webp` | **done** — 1024 × 1536, 360 KB; first roll, no text on the card |
 
 ---
 
@@ -1212,3 +1217,89 @@ low** by his knee. He looks at the rock, never at the viewer.
 rolled, grain dust on her forearms, **a porter's leather yoke with a pad over each shoulder**, **lowering
 a stencilled grain sack very carefully**, looking off to one side, wary. Heaped sacks and lantern light
 behind her.
+
+## Mira's harrow cards
+
+Five cut cards, not a deck: four Mira presses on the company at the first meeting and one she
+keeps. The item records are in [`../parcels/harrow-cards-mira.md`](../parcels/harrow-cards-mira.md),
+the image records in `../images/harrow-*.md`.
+
+**Our own paintings of named cards, never copies of the published deck.** The card *names* and the
+suit-and-alignment scheme are Paizo's setting; the artwork and the card text are theirs too, so
+nothing here is described from a published card. Each composition below is invented for this table,
+and no card's printed meaning text is reproduced anywhere in the module.
+
+**Held to a different standard from portraits.** A card is looked at on a shared screen as a whole
+object, so the frame matters more than the face: **portrait aspect, 2:3**, a painted border the
+subject never crosses, and the suit device repeated small in all four corners. The archive's muted
+palette still governs the painted scene, but the border carries worn gilt, which is the one place
+these are allowed to be brighter than the house look.
+
+**No text anywhere on the card.** Harrow cards carry their name printed at the foot, and an image
+model will render that name as garbage lettering that cannot be fixed in post. FG shows the name in
+the record's own title bar, so the painting does not need it. `text, lettering, title, numerals,
+watermark, signature` stay in every `Avoid:` line, and a render that comes back with writing on it
+is re-rolled rather than retouched.
+
+**The shared spine.** Every card prompt opens with this block and ends with the common `Avoid:`
+line; only the middle paragraph changes.
+
+> THIS IS A PAINTING, NOT A PHOTOGRAPH. A traditional narrative OIL PAINTING on card: visible
+> directional brush strokes throughout, loaded paint and impasto in the lights, soft scumbled
+> painted edges, colour mixed on a palette rather than sampled from life.
+>
+> A single antique fortune-telling card, painted portrait aspect, 2:3, filling the frame. An ornate
+> painted border in worn gilt runs around the whole card with a small device repeated in each of the
+> four corners; the painted scene sits inside that border and nothing crosses it. Muted earthy
+> palette — browns, ash-grey, oxblood — with one luminous accent. The pasteboard is worn soft at the
+> corners and lightly scuffed.
+>
+> **Avoid:** text, lettering, a title, numerals, a watermark, a signature, a photograph,
+> photorealistic rendering, photoreal skin, photographic grain, lens bokeh, anime, cartoon,
+> cel-shaded, 3-D render, flat vector, oversaturated, neon, a modern playing card, a tarot deck
+> spread, several cards, hands holding the card, extra limbs, deformed hands.
+
+### The Wanderer — Riven's card
+
+*Books, neutral good.* Corner device: **a small closed book**.
+
+> The scene: a lone traveller seen from behind, small in the frame, walking away down an empty road
+> that runs to a low horizon under a wide pale sky. A bundle on one shoulder. Long shadow thrown back
+> toward the viewer. The road forks once, far ahead, and the traveller has not reached it yet.
+> Luminous accent: the pale cold light along the horizon.
+
+### The Mountain Man — Dorogh's card
+
+*Shields, chaotic neutral.* Corner device: **a small round shield**.
+
+> The scene: a broad, heavy-shouldered figure standing alone in a high mountain pass, seen
+> three-quarters from behind and below, half lost in blowing grey weather, shoulders squared into
+> the wind. No face visible. Bare rock rising on both sides. Luminous accent: a break of cold white
+> sky above the pass.
+
+### The Juggler — Diddle's card
+
+*Keys, chaotic good.* Corner device: **a small key**.
+
+> The scene: a pair of raised hands, palms up, with five small bright objects caught in the air
+> above them in a loose arc — a stoppered vial, a coin, a knife, an egg, a lit spark. The juggler's
+> face is out of frame above the wrists; only the hands and the arc are painted. Dark plain ground
+> behind. Luminous accent: the lit spark, throwing warm light up onto the palms.
+
+### The Vision — Kora's card
+
+*Books, chaotic neutral.* Corner device: **a small closed book**.
+
+> The scene: a seated figure in a hooded robe, facing the viewer, the eyes bound with a strip of
+> pale cloth — and a second pair of eyes painted open on the cloth itself, looking straight out. The
+> hands rest open in the lap. A cold corona of light rises behind the head. Luminous accent: that
+> cold light. Keep the figure human-shaped and ambiguous; this is not a portrait of anyone.
+
+### The Theater — Mira's own card
+
+*Crowns, neutral good.* Corner device: **a small crown**.
+
+> The scene: a lit and empty stage seen from the wings, boards running away from the viewer, a heavy
+> curtain half drawn back on the left, two masks left lying face-up on the boards at centre. No
+> people anywhere. Rows of dark empty seats beyond, barely indicated. Luminous accent: the warm
+> footlight glow along the front edge of the stage.
