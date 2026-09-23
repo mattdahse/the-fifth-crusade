@@ -2,9 +2,14 @@
 
 <!-- id: harrow_cards_mira -->
 
-The five cards Mira Thistledance brings to the first meeting. Four she presses on the company as
-their "operative cards"; the fifth she keeps for herself. Cut from a harrow deck she did not buy
-whole — the rest of the deck is elsewhere, and she has never said where.
+The loose cards Mira Thistledance has to hand, cut from a harrow deck she did not buy whole — the
+rest of the deck is elsewhere, and she has never said where. A whole deck, should one turn up as
+loot, is [`harrow-deck.md`](harrow-deck.md) instead.
+
+The first five are the ones she brings to the first meeting: four she presses on the company as
+their "operative cards", and The Theater she keeps for herself. The other five are the rest of her
+loose stock, for later meetings, and are here so any one of them can be handed over on the night
+without writing a new record mid-session.
 
 They carry no magic and are worth nothing. They are identification, in the sense that a thing is
 identification when one enthusiastic half-elf has decided it is.
@@ -70,3 +75,59 @@ A single harrow card, painted with a lit and empty stage seen from the wings, a 
 two masks left face-up on the boards. A crown is worked small into each corner of the border. The
 back is plain indigo. This one has been handled most of all; the gilt on the border is worn through
 to the pasteboard along one side.
+
+### The Fiend
+<!-- srd: none -->
+<!-- count: 1 -->
+<!-- type: Gear -->
+<!-- cost: 0 gp -->
+<!-- weight: 0.1 -->
+
+A single harrow card, painted with a tall horned shape standing still in a burning doorway, black
+against the fire, smoke drawn up the frame on either side. A hammer is worked small into each corner
+of the border. The back is plain indigo. The pasteboard has gone brittle and slightly cupped, as
+though it was once left too near a heat.
+
+### The Locksmith
+<!-- srd: none -->
+<!-- count: 1 -->
+<!-- type: Gear -->
+<!-- cost: 0 gp -->
+<!-- weight: 0.1 -->
+
+A single harrow card, painted with a heavy iron lock plate on a dark door, a ring of keys hung from
+it on a nail and one key still standing in the keyhole, a thin line of cold light down the door's
+edge. A key is worked small into each corner of the border. The back is plain indigo.
+
+### The Survivor
+<!-- srd: none -->
+<!-- count: 1 -->
+<!-- type: Gear -->
+<!-- cost: 0 gp -->
+<!-- weight: 0.1 -->
+
+A single harrow card, painted with a figure sitting among burnt timber and ash at dawn, head down,
+arms loose, a red cloak heaped off one shoulder. A round shield with an iron boss is worked small
+into each corner of the border. The back is plain indigo, foxed along one edge.
+
+### The Eclipse
+<!-- srd: none -->
+<!-- count: 1 -->
+<!-- type: Gear -->
+<!-- cost: 0 gp -->
+<!-- weight: 0.1 -->
+
+A single harrow card, painted with a black disc over the sun in a red-brown sky, a thin ring of light
+around it, and a flat empty country lying under a strange half-light below. A star is worked small
+into each corner of the border. The back is plain indigo.
+
+### The Betrayal
+<!-- srd: none -->
+<!-- count: 1 -->
+<!-- type: Gear -->
+<!-- cost: 0 gp -->
+<!-- weight: 0.1 -->
+
+A single harrow card, painted with two cloaked figures standing close at night over a single lantern
+set on the ground, seen from behind; the one in the darker cloak holds a knife low and turned in. A
+crown is worked small into each corner of the border. The back is plain indigo.
