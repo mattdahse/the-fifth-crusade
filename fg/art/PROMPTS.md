@@ -143,6 +143,12 @@ gallery. Their likeness anchors live here instead.
 | The Juggler (harrow card) | `harrow/the-juggler.webp` | **done** — 1024 × 1536, 390 KB; first roll, no text on the card |
 | The Vision (harrow card) | `harrow/the-vision.webp` | **done** — 1024 × 1536, 417 KB; first roll, no text on the card |
 | The Theater (harrow card) | `harrow/the-theater.webp` | **done** — 1024 × 1536, 360 KB; first roll, no text on the card |
+| The Fiend (harrow card) | `harrow/the-fiend.webp` | **done** — 1024 × 1536, 458 KB; first roll |
+| The Locksmith (harrow card) | `harrow/the-locksmith.webp` | **done** — 1024 × 1536, 430 KB; first roll |
+| The Survivor (harrow card) | `harrow/the-survivor.webp` | **done** — 1024 × 1536, 499 KB; **second roll** - the first came back with sunburst corners that read as Stars, not Shields |
+| The Eclipse (harrow card) | `harrow/the-eclipse.webp` | **done** — 1024 × 1536, 425 KB; first roll |
+| The Betrayal (harrow card) | `harrow/the-betrayal.webp` | **done** — 1024 × 1536, 427 KB; first roll |
+| A harrow deck (the deck) | `harrow/the-deck.webp` | **done** — 1254 × 1254, 395 KB; first roll, 1254 x 1254 square still life |
 
 ---
 
@@ -1235,6 +1241,14 @@ subject never crosses, and the suit device repeated small in all four corners. T
 palette still governs the painted scene, but the border carries worn gilt, which is the one place
 these are allowed to be brighter than the house look.
 
+**Name the corner device as an object, not as a suit.** *Shields* asked for as "a small round
+shield" came back as gold sunburst bosses — handsome, and indistinguishable from the *Stars* device
+on the card rendered beside it, which quietly destroys the one thing the border is carrying. Say
+what the thing is made of and what it looks like face-on (*a plain buckler with an iron rim and a
+single domed iron boss*), and put the near-misses in `Avoid:` (*a star, a sunburst, a rosette, a
+compass rose*). Check a new card's corners against the cards already rendered, not against the
+prompt.
+
 **No text anywhere on the card.** Harrow cards carry their name printed at the foot, and an image
 model will render that name as garbage lettering that cannot be fixed in post. FG shows the name in
 the record's own title bar, so the painting does not need it. `text, lettering, title, numerals,
@@ -1303,3 +1317,60 @@ line; only the middle paragraph changes.
 > curtain half drawn back on the left, two masks left lying face-up on the boards at centre. No
 > people anywhere. Rows of dark empty seats beyond, barely indicated. Luminous accent: the warm
 > footlight glow along the front edge of the stage.
+
+### The deck itself
+
+The whole deck as an object, for the parcel in
+[`../parcels/harrow-deck.md`](../parcels/harrow-deck.md). **Not** portrait 2:3 and **not** bordered
+— it is a still life of a thing on a table, so it takes the archive's ordinary square framing.
+
+> THIS IS A PAINTING, NOT A PHOTOGRAPH. A traditional still-life OIL PAINTING on canvas: visible
+> directional brush strokes, loaded paint and impasto in the lights, soft scumbled painted edges.
+>
+> A squared stack of old fortune-telling cards lying on a dark scarred table, seen from slightly
+> above. The backs are plain deep indigo with a thin worn gilt edge; the corners are soft and
+> rounded from use. A square of oiled cloth and a loose cord lie under and around the stack. One
+> single card has been turned face-up and set beside the stack, but it is seen at a steep angle and
+> its painted face is indistinct. Low warm light from one side, deep shadow behind. Muted earthy
+> palette.
+>
+> **Avoid:** text, lettering, a title, numerals, a watermark, a signature, a readable card face, a
+> fanned spread, a tarot layout, hands, people, a photograph, photorealistic rendering, photographic
+> grain, lens bokeh, anime, cartoon, cel-shaded, 3-D render, flat vector, oversaturated, neon.
+
+### Five more faces, one per remaining suit
+
+Riven's and Kora's cards are both Books, so the first five left Hammers, Keys, Shields, Stars and
+Crowns thin. These take one apiece, and between them they cover the tones a reading needs — a
+demon, a lock, a survival, an omen and a betrayal — so Mira can turn up something apt for most
+scenes without a sixth render. Same spine and same `Avoid:` line as the first five.
+
+**The Fiend** — *Hammers, lawful evil.* Corner device: **a small hammer**.
+
+> The scene: a tall horned silhouette standing perfectly still in a burning doorway, seen against
+> the light so that no detail of the face or body reads — only the shape and the horns. Smoke drawn
+> up the frame in long strokes. Luminous accent: the fire behind the shape.
+
+**The Locksmith** — *Keys, lawful neutral.* Corner device: **a small key**.
+
+> The scene: a heavy iron lock plate on a dark door, seen straight on and close, a ring of keys
+> hanging from the plate on a nail, one key still in the keyhole. No people. Luminous accent: a
+> narrow line of cold light along the door's edge, as though it stands very slightly open.
+
+**The Survivor** — *Shields, neutral good.* Corner device: **a small round shield**.
+
+> The scene: a single figure seated on the ground among broken timber and ash, seen from the side,
+> head down and arms loose, plainly exhausted and plainly alive. Everything around them is ruined.
+> Luminous accent: pale dawn light coming in low from the left across the wreckage.
+
+**The Eclipse** — *Stars, lawful evil.* Corner device: **a small star**.
+
+> The scene: a dark disc covering the sun above a flat empty landscape, a thin ring of light around
+> it, the ground below thrown into a strange dim half-light with long wrong shadows. No people.
+> Luminous accent: the ring itself.
+
+**The Betrayal** — *Crowns, neutral evil.* Corner device: **a small crown**.
+
+> The scene: two cloaked figures standing close together at night as if in confidence, seen from
+> behind and to one side; one of them holds a knife low and turned inward, out of the other's sight.
+> Neither face is visible. Luminous accent: a single lantern on the ground between them.
