@@ -673,6 +673,14 @@ it. Provenance is a property of the scene, not of the thing.
 silently breaks encumbrance for whoever picks it up, so the build **warns** on any item that ends
 with no weight from either the markdown or the SRD. Fractions are fine and are usually the answer.
 
+**`weight: 0` written out is taken at its word and passes silently.** The warning exists for the
+weight nobody thought about, not for the one someone decided on — a harrow card, a slip of paper, a
+ring. Omitting the line still warns, and the wording says so; a negative weight warns separately.
+The distinction is key *presence*, not value, so an empty `<!-- weight: -->` counts as absent. Say
+in the file why an item weighs nothing, because the next reader's first instinct will be that the
+line is a mistake. Ten identical warnings you have decided to ignore are worse than none: they are
+where a real missing weight goes unnoticed.
+
 ### If a thing can be found, opened, or broken, it has a DC
 
 A room page that says *there is a hidden compartment* and stops has handed the GM a ruling to

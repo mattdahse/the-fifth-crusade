@@ -11,8 +11,11 @@ their "operative cards", and The Theater she keeps for herself. The other five a
 loose stock, for later meetings, and are here so any one of them can be handed over on the night
 without writing a new record mid-session.
 
-They carry no magic and are worth nothing. They are identification, in the sense that a thing is
-identification when one enthusiastic half-elf has decided it is.
+They carry no magic. A gold apiece is the painting and nothing else; they are identification, in
+the sense that a thing is identification when one enthusiastic half-elf has decided it is.
+
+Every card is written `weight: 0` on purpose — a single piece of pasteboard weighs nothing a
+character sheet should track, and the build takes an explicit zero at its word rather than warning.
 
 Each card is its own item so a player can hold their own and the rest can go where they like.
 

@@ -1056,9 +1056,14 @@ function Add-ItemEntries($doc, $sec, [switch]$shop) {
       }
 
       # Almost every physical object has a weight, even if it is a tenth of a pound, and a
-      # weightless one silently breaks encumbrance for whoever carries it.
-      $iwt = if ($imeta.weight) { [double]$imeta.weight } elseif ($srdRec -and $srdRec.SelectSingleNode('weight')) { [double]$srdRec.SelectSingleNode('weight').InnerText } else { 0 }
-      if ($iwt -le 0) { Warn "$($doc.file): '$iname' has no weight $em give it one, even a fraction" }
+      # weightless one silently breaks encumbrance for whoever carries it. The warning is for
+      # the weight nobody wrote down, so `weight: 0` written out in full is taken at its word
+      # and passes silently — a harrow card, a slip of paper, a ring. Omitting the line still
+      # warns, and so does an SRD record that has no weight of its own.
+      $wtWritten = $imeta.ContainsKey('weight') -and ([string]$imeta.weight).Trim() -ne ''
+      $iwt = if ($wtWritten) { [double]$imeta.weight } elseif ($srdRec -and $srdRec.SelectSingleNode('weight')) { [double]$srdRec.SelectSingleNode('weight').InnerText } else { 0 }
+      if ($iwt -le 0 -and -not $wtWritten) { Warn "$($doc.file): '$iname' has no weight $em give it one, even a fraction, or write 'weight: 0' if it truly has none" }
+      if ($wtWritten -and $iwt -lt 0) { Warn "$($doc.file): '$iname' has a negative weight" }
 
       # The failure this whole lookup exists to prevent: a weapon that rolls nothing and
       # armour that grants no AC when a player equips it.
