@@ -22,8 +22,8 @@ Each card is its own item so a player can hold their own and the rest can go whe
 <!-- srd: none -->
 <!-- count: 1 -->
 <!-- type: Gear -->
-<!-- cost: 0 gp -->
-<!-- weight: 0.1 -->
+<!-- cost: 1 gp -->
+<!-- weight: 0 -->
 
 A single harrow card, pasteboard worn soft at the corners, painted with a lone figure walking away
 down an empty road under a wide pale sky. A book is worked small into each corner of the border.
@@ -33,8 +33,8 @@ The back is plain indigo. Someone has pressed a thumb into the lower edge often 
 <!-- srd: none -->
 <!-- count: 1 -->
 <!-- type: Gear -->
-<!-- cost: 0 gp -->
-<!-- weight: 0.1 -->
+<!-- cost: 1 gp -->
+<!-- weight: 0 -->
 
 A single harrow card, painted with a broad hooded figure climbing a snowbound pass on a staff, a
 ragged red cloak blowing out behind, bare peaks closing on both sides. A round shield is worked
@@ -45,8 +45,8 @@ where it has been folded and flattened again.
 <!-- srd: none -->
 <!-- count: 1 -->
 <!-- type: Gear -->
-<!-- cost: 0 gp -->
-<!-- weight: 0.1 -->
+<!-- cost: 1 gp -->
+<!-- weight: 0 -->
 
 A single harrow card, painted with a pair of raised open hands and five things caught in the air
 above them — a vial, a coin, a knife, an egg and a bright spark — the juggler's face out of frame. A
@@ -57,8 +57,8 @@ scuffed, as though it has been shuffled more than the others.
 <!-- srd: none -->
 <!-- count: 1 -->
 <!-- type: Gear -->
-<!-- cost: 0 gp -->
-<!-- weight: 0.1 -->
+<!-- cost: 1 gp -->
+<!-- weight: 0 -->
 
 A single harrow card, painted with a seated figure in a deep red robe, hands open in the lap, the
 eyes bound in pale cloth with a second pair of eyes drawn open on the cloth itself, a rayed halo
@@ -68,8 +68,8 @@ behind the head. A book is worked small into each corner of the border. The back
 <!-- srd: none -->
 <!-- count: 1 -->
 <!-- type: Gear -->
-<!-- cost: 0 gp -->
-<!-- weight: 0.1 -->
+<!-- cost: 1 gp -->
+<!-- weight: 0 -->
 
 A single harrow card, painted with a lit and empty stage seen from the wings, a half-drawn curtain,
 two masks left face-up on the boards. A crown is worked small into each corner of the border. The
@@ -80,8 +80,8 @@ to the pasteboard along one side.
 <!-- srd: none -->
 <!-- count: 1 -->
 <!-- type: Gear -->
-<!-- cost: 0 gp -->
-<!-- weight: 0.1 -->
+<!-- cost: 1 gp -->
+<!-- weight: 0 -->
 
 A single harrow card, painted with a tall horned shape standing still in a burning doorway, black
 against the fire, smoke drawn up the frame on either side. A hammer is worked small into each corner
@@ -92,8 +92,8 @@ though it was once left too near a heat.
 <!-- srd: none -->
 <!-- count: 1 -->
 <!-- type: Gear -->
-<!-- cost: 0 gp -->
-<!-- weight: 0.1 -->
+<!-- cost: 1 gp -->
+<!-- weight: 0 -->
 
 A single harrow card, painted with a heavy iron lock plate on a dark door, a ring of keys hung from
 it on a nail and one key still standing in the keyhole, a thin line of cold light down the door's
@@ -103,8 +103,8 @@ edge. A key is worked small into each corner of the border. The back is plain in
 <!-- srd: none -->
 <!-- count: 1 -->
 <!-- type: Gear -->
-<!-- cost: 0 gp -->
-<!-- weight: 0.1 -->
+<!-- cost: 1 gp -->
+<!-- weight: 0 -->
 
 A single harrow card, painted with a figure sitting among burnt timber and ash at dawn, head down,
 arms loose, a red cloak heaped off one shoulder. A round shield with an iron boss is worked small
@@ -114,8 +114,8 @@ into each corner of the border. The back is plain indigo, foxed along one edge.
 <!-- srd: none -->
 <!-- count: 1 -->
 <!-- type: Gear -->
-<!-- cost: 0 gp -->
-<!-- weight: 0.1 -->
+<!-- cost: 1 gp -->
+<!-- weight: 0 -->
 
 A single harrow card, painted with a black disc over the sun in a red-brown sky, a thin ring of light
 around it, and a flat empty country lying under a strange half-light below. A star is worked small
@@ -125,8 +125,8 @@ into each corner of the border. The back is plain indigo.
 <!-- srd: none -->
 <!-- count: 1 -->
 <!-- type: Gear -->
-<!-- cost: 0 gp -->
-<!-- weight: 0.1 -->
+<!-- cost: 1 gp -->
+<!-- weight: 0 -->
 
 A single harrow card, painted with two cloaked figures standing close at night over a single lantern
 set on the ground, seen from behind; the one in the darker cloak holds a knife low and turned in. A
