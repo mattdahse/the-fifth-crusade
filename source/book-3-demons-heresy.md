@@ -2652,6 +2652,8 @@ The priest unstoppered a vial of holy water and walked a slow circle around the 
 
 So **Varic** poured a flask of oil over the lot. The braziers flanking the statue burned with lumps of black basalt that some magic compelled to burn like coal. He took the camp shovel from his pack, dug a scoop of burning stone out of the nearest brazier, and tipped it onto the pile. The oil caught at once. He added two more shovelfuls for good measure, and stood watching the Horned Prince's devotions blacken and curl at the Horned Prince's feet while the vial of holy water in the middle of the heap began to bubble.
 
+![A shovelful, for good measure.](images/a-shovelful-for-good-measure.webp)
+
 ### **The Wall That Would Not Open**
 
 ***Radiance*** spoke up while the fire was still taking hold.
@@ -2720,11 +2722,15 @@ It was a library, or a study, with a long table and chairs, candles burning, and
 
 As she watched, a hand came out of nothing at the top of the left-hand rope. It held a curved wand about eighteen inches long. The hand drew a circle in the air with it, drew back, and vanished.
 
+![A hand came out of nothing.](images/the-hand-at-the-top-of-the-rope.webp)
+
 Out in the fog, a babau stumbled into **Varic**, looked him over, said *"Ah. Meat,"* and went for him.
 
 **Varic** gave it the kind of answer the priest doesn't often give, all of the soldier in him and none of the Dawnflower's patience. ***Battle Hymn*** struck twice and cut deep with both blows, and the babau was dead before it had finished being pleased with itself.
 
-The hand came back, at the other rope this time, and drew its circle, and another babau stepped out of nowhere into the fog. **Lupenor** snapped an arrow at the hand itself and missed a target that was only there for a heartbeat. The hand came again, and again. Each time it drew a circle, a babau arrived. They were tall, slimy, eyeless things with dripping hides. The whole Sanctum seemed to have been built to keep them coming. **Arueshalae** raked one open with her claws. **Varic** put another down. Two more stood in the cloud trading blows with **Harlock**, who glittered like a festival lantern. They couldn't do much to him, and they wouldn't stop trying.
+The hand came back, at the other rope this time, and drew its circle, and another babau stepped out of nowhere into the fog. **Lupenor** snapped an arrow at the hand itself and missed a target that was only there for a heartbeat. The hand came again, and again. Each time it drew a circle, a babau arrived. They were tall, gaunt, horned things with slick black hides. The whole Sanctum seemed to have been built to keep them coming. **Arueshalae** raked one open with her claws. **Varic** put another down. Two more stood in the cloud trading blows with **Harlock**, who glittered like a festival lantern. They couldn't do much to him, and they wouldn't stop trying.
+
+![Like a festival lantern.](images/like-a-festival-lantern.webp)
 
 **Rabiah** had got her wits about her. She spoke ***See Invisibility*** over herself, looked at the ropes, and understood them. It was a ***Rope Trick***. Each rope led up into a small pocket of space folded away from the world, big enough to hide a handful of people, and nothing on this side could reach into it. The adepts were up there. They had been summoning babau at the company all through the fight, and nobody could touch them.
 
@@ -2749,6 +2755,8 @@ A second dretch cloud rolled down over them before anyone could get clear of the
 Then **Rabiah** stepped into the doorway.
 
 She was the smallest person in the fight, and she wore no armour at all, and she was probably the hardest to hit. Her mythic armour, her ***Shield*** and years of dodging were layered over her like plate. The templars swung at her and struck nothing. She unrolled a scroll, and a ***Lightning Bolt*** went straight down the north hallway through every templar and adept in the line.
+
+![The smallest person in the fight.](images/the-smallest-person-in-the-fight.webp)
 
 ### **Grease and Hail**
 

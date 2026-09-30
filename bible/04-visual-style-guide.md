@@ -466,6 +466,18 @@ the surface`.
 *(Keep every blood word out of BOTH halves of the prompt — describe the straps as old, dark and much-used leather
 and say nothing more. Naming it as an exclusion is what counts it as content.)*
 
+The **ROPE-TRICK STUDY** in the **Ivory Sanctum**, off the templars' training hall
+([`the-hand-at-the-top-of-the-rope`](../images/the-hand-at-the-top-of-the-rope.webp), Book III Ch. XVII): walls of the
+same ivory-and-bone chip mottle as the rest of the Sanctum, a long dark table with chairs, candles and open books, tall
+bookshelves in shadow, and **two hemp ropes rising stiff from coils on the floor to about ten feet and stopping in empty
+air** — the Blackfire adepts' ***Rope Trick*** hideaways. **The hand that reaches out above a rope must DISSOLVE into
+shadow, a black robe sleeve fading into dark air "like an arm pushed down through dark water."** The first render
+simply cut the forearm off at an invisible plane and it read as a bloody severed stump; describe the fade positively
+and say `a hard edge where the arm meets the air, red at the end of the sleeve` in Avoid rather than naming a wound.
+**Babau** in this chapter ([`like-a-festival-lantern`](../images/like-a-festival-lantern.webp)): tall, gaunt,
+skeletal, glistening jet-black slimy hide, one long horn sweeping back from the skull, small red eyes, needle teeth,
+long hooked claws.
+
 The **SHRINE OF TORAG** in the warrens beneath **Kenabres**, cleansed and reconsecrated by the company
 ([`a-safe-haven-restored`](../images/a-safe-haven-restored.webp), Book I): a small, low, windowless
 dwarven shrine of heavy squared warm grey-brown masonry, ancient and dusty, its stone flag floor swept
