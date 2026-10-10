@@ -239,6 +239,38 @@
   #lightbox .lb-nav:hover{opacity:1}
   #lightbox .lb-prev{left:.3rem}
   #lightbox .lb-next{right:.3rem}
+  /* slideshow — every plate in the archive, one at a time, for leaving up on the table screen */
+  .ss-start{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center;margin:.2rem 0 1rem}
+  .ss-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:.45rem;margin:.4rem 0 1.2rem}
+  .ss-grid img{width:100%;aspect-ratio:1;object-fit:cover;object-position:top center;border:1px solid var(--rule);
+    border-radius:5px;cursor:pointer;background:var(--bg2);transition:transform .12s,border-color .12s}
+  .ss-grid img:hover{transform:scale(1.04);border-color:var(--accent2)}
+  #slideshow{position:fixed;inset:0;z-index:60;background:#0a0703;display:flex;flex-direction:column;
+    align-items:center;gap:.7rem;padding:1rem 1rem .8rem;color:#f4ecd8}
+  #slideshow.hidden{display:none}
+  #slideshow .ss-stage{flex:1 1 auto;min-height:0;width:100%;display:flex;align-items:center;justify-content:center}
+  #slideshow .ss-img{max-width:100%;max-height:100%;object-fit:contain;border-radius:8px;
+    box-shadow:0 10px 44px rgba(0,0,0,.6);opacity:0;transition:opacity .45s ease}
+  #slideshow .ss-img.in{opacity:1}
+  #slideshow .ss-cap{max-width:min(92vw,820px);text-align:center;font-size:.95rem;line-height:1.45;min-height:1.4em}
+  #slideshow .ss-text{font-style:italic}
+  #slideshow .ss-text strong{font-style:normal;color:#e8cf9a}
+  #slideshow .ss-from{display:inline-block;margin-top:.2rem;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;
+    color:#d9b46a;border-bottom:1px dotted rgba(217,180,106,.6)}
+  #slideshow .ss-bar{display:flex;gap:.45rem;flex-wrap:wrap;justify-content:center;align-items:center}
+  #slideshow .ss-btn{cursor:pointer;user-select:none;font-size:.85rem;padding:.38rem .85rem;border-radius:20px;
+    border:1px solid rgba(217,180,106,.45);color:#f4ecd8;background:rgba(255,255,255,.04)}
+  #slideshow .ss-btn:hover{background:rgba(217,180,106,.16)}
+  #slideshow .ss-btn.on{background:#d9b46a;color:#1b160f;border-color:#d9b46a}
+  #slideshow .ss-count{font-size:.78rem;color:#b9a884;min-width:4.5rem;text-align:center;font-variant-numeric:tabular-nums}
+  #slideshow .ss-close{position:absolute;top:.6rem;right:1rem;font-size:1.6rem;cursor:pointer;user-select:none;opacity:.8;z-index:1}
+  #slideshow .ss-close:hover{opacity:1}
+  #slideshow .ss-progress{position:absolute;left:0;right:0;bottom:0;height:3px;background:rgba(255,255,255,.06)}
+  #slideshow .ss-progress i{display:block;height:100%;width:0;background:#9c6b1e}
+  #slideshow .ss-progress i.run{animation:ssfill linear forwards}
+  #slideshow.paused .ss-progress i{animation-play-state:paused}
+  @keyframes ssfill{from{width:0}to{width:100%}}
+  @media (max-width:520px){ #slideshow .ss-btn{padding:.34rem .65rem;font-size:.8rem} #slideshow .ss-cap{font-size:.85rem} }
   /* timeline — a stack of the crusade's days, journal to the left, chapters enclosing */
   body.wide .wrap{max-width:1040px}
   .tl{position:relative;padding:.5rem 0}
@@ -446,6 +478,7 @@
       <span class="tab" data-view="cast">Personalities</span>
       <span class="tab" data-view="map">Map</span>
       <span class="tab" data-view="secrets">Lore</span>
+      <span class="tab" data-view="slides">Slideshow</span>
     </div>
     <!-- Chapter nav rides inside the sticky header so it never scrolls out of reach.
          Empty (and hidden) on every view except a reader. -->
@@ -462,6 +495,21 @@
   <img class="lb-img" src="" alt="">
   <div class="lb-cap"></div>
   <span class="lb-nav lb-next" title="Next" onclick="stepLb(1)">›</span>
+</div>
+
+<div id="slideshow" class="hidden">
+  <span class="ss-close" title="Close (Esc)" onclick="ssClose()">✕</span>
+  <div class="ss-stage"><img class="ss-img" src="" alt=""></div>
+  <div class="ss-cap"><div class="ss-text"></div><a class="ss-from" href="#" onclick="ssClose()"></a></div>
+  <div class="ss-bar">
+    <span class="ss-btn" title="Back (←)" onclick="ssStep(-1)">‹ Back</span>
+    <span class="ss-btn ss-pause" title="Pause / play (space)" onclick="ssPause()">❚❚ Pause</span>
+    <span class="ss-btn" title="Next (→)" onclick="ssStep(1)">Next ›</span>
+    <span class="ss-btn ss-shuf" title="Random order (S)" onclick="ssShuffle()">⤮ Shuffle</span>
+    <span class="ss-btn ss-fs" title="Full screen (F)" onclick="ssFull()">⛶</span>
+    <span class="ss-count"></span>
+  </div>
+  <div class="ss-progress"><i></i></div>
 </div>
 
 <script src="data.js"></script>
@@ -940,6 +988,151 @@ document.addEventListener('keydown', function(e){
   else if(e.key==='ArrowLeft') stepLb(-1);
   else if(e.key==='ArrowRight') stepLb(1);
 });
+
+/* ---------- slideshow ----------
+   Every image the archive shows anywhere — chapter plates, lore plates, maps and the cast
+   portraits — gathered once from the data itself, so a new illustration joins the show the
+   moment its chapter does. Each plate keeps its own caption and a link back to where it lives.
+   The show walks a play order: in order it is the archive's own sequence, shuffled it is a
+   fresh deal; Back always returns to the plate shown before, in either mode. */
+var SLIDES = null, SS = {order:[], pos:0, shuffle:true, paused:false, timer:0, token:0}, SS_MS = 8000;
+function collectSlides(){
+  if(SLIDES) return SLIDES;
+  var seen = {}, out = [];
+  function add(src, cap, from, href, grp){
+    if(!src || seen[src]) return; seen[src] = 1;
+    out.push({src:src, cap:cap||'', from:from, href:href, grp:grp});
+  }
+  function plates(md, from, href, grp){
+    var re = /^!\[([^\]]*)\]\(([^)]+)\)\s*$/gm, m;
+    while((m = re.exec(md||''))) add(m[2].trim(), m[1].trim(), from, href, grp);
+  }
+  chapters.forEach(function(c){ plates(c.md, (c.isEpilogue?'Epilogue':c.label)+' · '+c.title, '#/read/'+c.id, 'Chronicle'); });
+  secrets.forEach(function(s){ plates(s.md, 'Lore · '+s.title, '#/secret/'+s.id, 'Lore'); });
+  (window.MAPS||[]).forEach(function(m){ add(m.image, m.subtitle, 'Map · '+m.title, '#/map/'+m.id, 'Maps'); });
+  CAST.forEach(function(g){ g.people.forEach(function(p){
+    if(PORTRAITS[p[0]]) add(PORTRAITS[p[0]], '**'+p[0]+'**', 'Personalities · '+g.c, '#/who/'+pslug(p[0]), 'Personalities');
+  }); });
+  return SLIDES = out;
+}
+function viewSlides(){
+  setTab('slides');
+  var all = collectSlides(), groups = ['Chronicle','Lore','Maps','Personalities'];
+  var html = '<div class="hint">All '+all.length+' images from the chronicle, lore, maps and personalities, one after another. '
+    + 'Start the show, or tap any picture to begin from there. Keys: ← back, space pause, → next, S shuffle, F full screen, Esc close.</div>'
+    + '<div class="ss-start"><span class="btn" onclick="ssOpen(-1,true)">⤮ Shuffled slideshow</span>'
+    + '<span class="btn" onclick="ssOpen(0,false)">▶ In order</span></div>';
+  groups.forEach(function(gp){
+    var items = []; all.forEach(function(s,i){ if(s.grp===gp) items.push(i); });
+    if(!items.length) return;
+    html += '<div class="catlabel">'+esc(gp)+' · '+items.length+'</div><div class="ss-grid">'
+      + items.map(function(i){ return '<img src="'+esc(all[i].src)+'" alt="" loading="lazy" onclick="ssOpen('+i+')">'; }).join('')
+      + '</div>';
+  });
+  app.innerHTML = html;
+  window.scrollTo(0,0);
+}
+function ssDeal(first){
+  var n = SLIDES.length, rest = [];
+  for(var i=0;i<n;i++) if(i!==first) rest.push(i);
+  if(SS.shuffle){
+    for(var j=rest.length-1;j>0;j--){ var k=Math.floor(Math.random()*(j+1)), t=rest[j]; rest[j]=rest[k]; rest[k]=t; }
+    return first>=0 ? [first].concat(rest) : rest;
+  }
+  return rest.concat(first>=0?[first]:[]).sort(function(a,b){ return a-b; });
+}
+/* start at plate i (-1: anywhere); shuffle stays at whatever the show was last set to unless given */
+function ssOpen(i, shuffle){
+  collectSlides(); if(!SLIDES.length) return;
+  if(shuffle!==undefined) SS.shuffle = shuffle;
+  SS.order = ssDeal(i); SS.pos = i>=0 ? SS.order.indexOf(i) : 0;
+  SS.paused = false;
+  document.getElementById('slideshow').classList.remove('hidden','paused');
+  document.body.style.overflow = 'hidden';
+  ssShow();
+}
+function ssClose(){
+  clearTimeout(SS.timer); SS.token++;
+  document.getElementById('slideshow').classList.add('hidden');
+  document.body.style.overflow = '';
+  if(document.fullscreenElement) document.exitFullscreen();
+}
+function ssShow(){
+  var ov = document.getElementById('slideshow'), img = ov.querySelector('.ss-img');
+  var e = SLIDES[SS.order[SS.pos]], tok = ++SS.token;
+  clearTimeout(SS.timer);
+  img.classList.remove('in');
+  ov.querySelector('.ss-text').innerHTML = inline(e.cap);
+  var fr = ov.querySelector('.ss-from'); fr.textContent = e.from; fr.setAttribute('href', e.href);
+  ov.querySelector('.ss-count').textContent = (SS.pos+1)+' / '+SS.order.length;
+  ssButtons();
+  var bar = ov.querySelector('.ss-progress i'); bar.classList.remove('run'); bar.style.width = '0';
+  /* let the old plate fade out while the new one loads, then bring it up and start its clock */
+  var pre = new Image(), faded = false, loaded = false;
+  function go(){
+    if(tok!==SS.token || !faded || !loaded) return;
+    img.src = e.src; img.classList.add('in');
+    bar.style.width = ''; void bar.offsetWidth;
+    bar.style.animationDuration = SS_MS+'ms'; bar.classList.add('run');
+    if(!SS.paused) SS.timer = setTimeout(function(){ ssStep(1); }, SS_MS);
+    var nx = SLIDES[SS.order[(SS.pos+1)%SS.order.length]]; if(nx) (new Image()).src = nx.src;   /* warm the next one */
+  }
+  pre.onload = pre.onerror = function(){ loaded = true; go(); };
+  pre.src = e.src;
+  setTimeout(function(){ faded = true; go(); }, img.getAttribute('src') ? 300 : 0);
+}
+function ssButtons(){
+  var ov = document.getElementById('slideshow'), b = ov.querySelector('.ss-pause');
+  b.innerHTML = SS.paused ? '▶ Play' : '❚❚ Pause'; b.classList.toggle('on', SS.paused);
+  ov.querySelector('.ss-shuf').classList.toggle('on', SS.shuffle);
+  ov.classList.toggle('paused', SS.paused);
+}
+function ssStep(d){
+  var n = SS.order.length; if(!n) return;
+  var p = SS.pos + d;
+  if(p >= n){   /* through the whole deck: a shuffled show deals again, an ordered one goes round */
+    if(SS.shuffle){ var last = SS.order[n-1]; do { SS.order = ssDeal(-1); } while(n>1 && SS.order[0]===last); }
+    p = 0;
+  } else if(p < 0) p = n-1;
+  SS.pos = p; ssShow();
+}
+function ssPause(){
+  SS.paused = !SS.paused;
+  clearTimeout(SS.timer);
+  if(SS.paused) ssButtons();
+  else ssStep(1);   /* resuming moves on — the plate has already had its look */
+}
+function ssShuffle(){
+  SS.shuffle = !SS.shuffle;
+  var cur = SS.order[SS.pos];
+  SS.order = ssDeal(cur); SS.pos = SS.order.indexOf(cur);
+  ssButtons();
+  document.querySelector('#slideshow .ss-count').textContent = (SS.pos+1)+' / '+SS.order.length;
+}
+function ssFull(){
+  if(document.fullscreenElement) document.exitFullscreen();
+  else { var ov = document.getElementById('slideshow'); if(ov.requestFullscreen) ov.requestFullscreen(); }
+}
+document.addEventListener('keydown', function(e){
+  if(document.getElementById('slideshow').classList.contains('hidden')) return;
+  if(e.key==='Escape') ssClose();
+  else if(e.key==='ArrowLeft') ssStep(-1);
+  else if(e.key==='ArrowRight') ssStep(1);
+  else if(e.key===' '){ e.preventDefault(); ssPause(); }
+  else if(e.key==='s'||e.key==='S') ssShuffle();
+  else if(e.key==='f'||e.key==='F') ssFull();
+});
+/* on a phone: swipe for back and next, tap the picture to pause */
+(function(){
+  var st = document.querySelector('#slideshow .ss-stage'), x0 = null, y0 = 0;
+  st.addEventListener('touchstart', function(e){ x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; }, {passive:true});
+  st.addEventListener('touchend', function(e){
+    if(x0===null) return;
+    var dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0; x0 = null;
+    if(Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) ssStep(dx < 0 ? 1 : -1);
+  });
+  st.addEventListener('click', function(e){ if(e.target.classList.contains('ss-img')) ssPause(); });
+})();
 
 function viewSecrets(){
   setTab('secrets');
@@ -1643,6 +1836,7 @@ function showActiveTab(){
   else if(v==='secrets') viewSecrets();
   else if(v==='timeline') viewTimeline();
   else if(v==='map') viewMap();
+  else if(v==='slides') viewSlides();
   else viewContents();
 }
 function route(){
