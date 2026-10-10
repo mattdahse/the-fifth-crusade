@@ -241,36 +241,77 @@
   #lightbox .lb-next{right:.3rem}
   /* slideshow — every plate in the archive, one at a time, for leaving up on the table screen */
   .ss-start{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center;margin:.2rem 0 1rem}
+  .ss-filter{display:flex;gap:.35rem;flex-wrap:wrap;margin:.2rem 0 .7rem}
   .ss-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:.45rem;margin:.4rem 0 1.2rem}
   .ss-grid img{width:100%;aspect-ratio:1;object-fit:cover;object-position:top center;border:1px solid var(--rule);
     border-radius:5px;cursor:pointer;background:var(--bg2);transition:transform .12s,border-color .12s}
   .ss-grid img:hover{transform:scale(1.04);border-color:var(--accent2)}
   #slideshow{position:fixed;inset:0;z-index:60;background:#0a0703;display:flex;flex-direction:column;
-    align-items:center;gap:.7rem;padding:1rem 1rem .8rem;color:#f4ecd8}
+    align-items:center;gap:.7rem;padding:1rem 1rem .8rem;color:#f4ecd8;overflow:hidden}
   #slideshow.hidden{display:none}
-  #slideshow .ss-stage{flex:1 1 auto;min-height:0;width:100%;display:flex;align-items:center;justify-content:center}
+  #slideshow .ss-stage{flex:1 1 auto;min-height:0;width:100%;display:flex;align-items:center;justify-content:center;overflow:hidden}
+  /* the frame carries the slow pan-and-zoom, the image its entrance; kept apart so that pausing
+     can freeze the drift without ever freezing a plate half-faded in */
+  #slideshow .ss-frame{width:100%;height:100%;display:flex;align-items:center;justify-content:center}
+  #slideshow .ss-frame.kb{animation:ss-kb var(--dur,8s) linear both}
+  #slideshow.paused .ss-frame.kb{animation-play-state:paused}
   #slideshow .ss-img{max-width:100%;max-height:100%;object-fit:contain;border-radius:8px;
-    box-shadow:0 10px 44px rgba(0,0,0,.6);opacity:0;transition:opacity .45s ease}
-  #slideshow .ss-img.in{opacity:1}
+    box-shadow:0 10px 44px rgba(0,0,0,.6);opacity:0}
+  #slideshow .ss-img.out{animation:ss-out .32s ease forwards}
+  #slideshow .ss-img.t-fade{animation:ss-fade 1.1s ease both}
+  #slideshow .ss-img.t-zoomin{animation:ss-zoomin 1.1s cubic-bezier(.2,.7,.2,1) both}
+  #slideshow .ss-img.t-zoomout{animation:ss-zoomout 1.2s cubic-bezier(.2,.7,.2,1) both}
+  #slideshow .ss-img.t-slide{animation:ss-slide .9s cubic-bezier(.2,.8,.2,1) both}
+  #slideshow .ss-img.t-rise{animation:ss-rise 1s cubic-bezier(.2,.8,.2,1) both}
+  #slideshow .ss-img.t-blur{animation:ss-blur 1.3s ease both}
+  #slideshow .ss-img.t-iris{animation:ss-iris 1.2s cubic-bezier(.4,0,.2,1) both}
+  #slideshow .ss-img.t-wipe{animation:ss-wipe 1.1s cubic-bezier(.4,0,.2,1) both}
+  @keyframes ss-out{to{opacity:0;transform:scale(.985)}}
+  @keyframes ss-fade{from{opacity:0}to{opacity:1}}
+  @keyframes ss-zoomin{from{opacity:0;transform:scale(.9)}to{opacity:1;transform:none}}
+  @keyframes ss-zoomout{from{opacity:0;transform:scale(1.14)}to{opacity:1;transform:none}}
+  @keyframes ss-slide{from{opacity:0;transform:translateX(calc(var(--dir,1) * 9%))}to{opacity:1;transform:none}}
+  @keyframes ss-rise{from{opacity:0;transform:translateY(6%)}to{opacity:1;transform:none}}
+  @keyframes ss-blur{from{opacity:0;filter:blur(18px) brightness(1.6)}to{opacity:1;filter:none}}
+  @keyframes ss-iris{from{opacity:1;clip-path:circle(0% at 50% 50%)}to{opacity:1;clip-path:circle(75% at 50% 50%)}}
+  @keyframes ss-wipe{from{opacity:1;clip-path:inset(0 100% 0 0)}to{opacity:1;clip-path:inset(0 0 0 0)}}
+  @keyframes ss-kb{from{transform:scale(1) translate(0,0)}to{transform:scale(1.09) translate(var(--kx,0),var(--ky,0))}}
   #slideshow .ss-cap{max-width:min(92vw,820px);text-align:center;font-size:.95rem;line-height:1.45;min-height:1.4em}
   #slideshow .ss-text{font-style:italic}
   #slideshow .ss-text strong{font-style:normal;color:#e8cf9a}
   #slideshow .ss-from{display:inline-block;margin-top:.2rem;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;
     color:#d9b46a;border-bottom:1px dotted rgba(217,180,106,.6)}
   #slideshow .ss-bar{display:flex;gap:.45rem;flex-wrap:wrap;justify-content:center;align-items:center}
-  #slideshow .ss-btn{cursor:pointer;user-select:none;font-size:.85rem;padding:.38rem .85rem;border-radius:20px;
-    border:1px solid rgba(217,180,106,.45);color:#f4ecd8;background:rgba(255,255,255,.04)}
+  #slideshow .ss-btn,#slideshow .ss-sel{cursor:pointer;user-select:none;font-size:.85rem;padding:.38rem .85rem;border-radius:20px;
+    border:1px solid rgba(217,180,106,.45);color:#f4ecd8;background:rgba(255,255,255,.04);font-family:inherit}
+  #slideshow .ss-sel{padding:.34rem .5rem;background:#1b160f}
   #slideshow .ss-btn:hover{background:rgba(217,180,106,.16)}
   #slideshow .ss-btn.on{background:#d9b46a;color:#1b160f;border-color:#d9b46a}
   #slideshow .ss-count{font-size:.78rem;color:#b9a884;min-width:4.5rem;text-align:center;font-variant-numeric:tabular-nums}
-  #slideshow .ss-close{position:absolute;top:.6rem;right:1rem;font-size:1.6rem;cursor:pointer;user-select:none;opacity:.8;z-index:1}
+  #slideshow .ss-close{position:absolute;top:.6rem;right:1rem;font-size:1.6rem;cursor:pointer;user-select:none;opacity:.8;z-index:2}
   #slideshow .ss-close:hover{opacity:1}
-  #slideshow .ss-progress{position:absolute;left:0;right:0;bottom:0;height:3px;background:rgba(255,255,255,.06)}
+  #slideshow .ss-progress{position:absolute;left:0;right:0;bottom:0;height:3px;background:rgba(255,255,255,.06);z-index:2}
   #slideshow .ss-progress i{display:block;height:100%;width:0;background:#9c6b1e}
   #slideshow .ss-progress i.run{animation:ssfill linear forwards}
   #slideshow.paused .ss-progress i{animation-play-state:paused}
   @keyframes ssfill{from{width:0}to{width:100%}}
-  @media (max-width:520px){ #slideshow .ss-btn{padding:.34rem .65rem;font-size:.8rem} #slideshow .ss-cap{font-size:.85rem} }
+  /* full-screen mode: the plate takes the whole screen and the controls step out of the way,
+     coming back over the bottom of the picture only while the mouse moves */
+  #slideshow.immersive{padding:0;gap:0;cursor:none}
+  #slideshow.immersive .ss-img{border-radius:0;box-shadow:none}
+  #slideshow.immersive .ss-cap,#slideshow.immersive .ss-bar,#slideshow.immersive .ss-close{
+    position:absolute;z-index:1;opacity:0;pointer-events:none;transition:opacity .5s}
+  #slideshow.immersive .ss-cap{bottom:4.2rem;left:50%;transform:translateX(-50%);width:min(92vw,820px);
+    padding:.5rem 1rem;border-radius:8px;background:rgba(10,7,3,.72)}
+  #slideshow.immersive .ss-bar{bottom:1rem;left:0;right:0}
+  #slideshow.immersive.wake{cursor:auto}
+  #slideshow.immersive.wake .ss-cap,#slideshow.immersive.wake .ss-bar,#slideshow.immersive.wake .ss-close{opacity:1;pointer-events:auto}
+  #slideshow.immersive .ss-progress{opacity:.5}
+  @media (max-width:520px){ #slideshow .ss-btn,#slideshow .ss-sel{padding:.34rem .6rem;font-size:.8rem} #slideshow .ss-cap{font-size:.85rem} }
+  @media (prefers-reduced-motion: reduce){
+    #slideshow .ss-img[class*="t-"]{animation:ss-fade .6s ease both}
+    #slideshow .ss-frame.kb{animation:none}
+  }
   /* timeline — a stack of the crusade's days, journal to the left, chapters enclosing */
   body.wide .wrap{max-width:1040px}
   .tl{position:relative;padding:.5rem 0}
@@ -499,14 +540,16 @@
 
 <div id="slideshow" class="hidden">
   <span class="ss-close" title="Close (Esc)" onclick="ssClose()">✕</span>
-  <div class="ss-stage"><img class="ss-img" src="" alt=""></div>
+  <div class="ss-stage"><div class="ss-frame"><img class="ss-img" src="" alt=""></div></div>
   <div class="ss-cap"><div class="ss-text"></div><a class="ss-from" href="#" onclick="ssClose()"></a></div>
   <div class="ss-bar">
     <span class="ss-btn" title="Back (←)" onclick="ssStep(-1)">‹ Back</span>
-    <span class="ss-btn ss-pause" title="Pause / play (space)" onclick="ssPause()">❚❚ Pause</span>
+    <span class="ss-btn ss-pause" title="Pause / play (P)" onclick="ssPause()">❚❚ Pause</span>
     <span class="ss-btn" title="Next (→)" onclick="ssStep(1)">Next ›</span>
     <span class="ss-btn ss-shuf" title="Random order (S)" onclick="ssShuffle()">⤮ Shuffle</span>
-    <span class="ss-btn ss-fs" title="Full screen (F)" onclick="ssFull()">⛶</span>
+    <select class="ss-sel ss-filt" title="Which images" onchange="ssFilter(this.value)"></select>
+    <select class="ss-sel ss-speed" title="Time on each image (+ / −)" onchange="ssSpeed(+this.value)"></select>
+    <span class="ss-btn ss-fs" title="Full screen (space)" onclick="ssImmersive()">⛶ Full screen</span>
     <span class="ss-count"></span>
   </div>
   <div class="ss-progress"><i></i></div>
@@ -993,9 +1036,24 @@ document.addEventListener('keydown', function(e){
    Every image the archive shows anywhere — chapter plates, lore plates, maps and the cast
    portraits — gathered once from the data itself, so a new illustration joins the show the
    moment its chapter does. Each plate keeps its own caption and a link back to where it lives.
-   The show walks a play order: in order it is the archive's own sequence, shuffled it is a
-   fresh deal; Back always returns to the plate shown before, in either mode. */
-var SLIDES = null, SS = {order:[], pos:0, shuffle:true, paused:false, timer:0, token:0}, SS_MS = 8000;
+   The show walks a play order over the plates the filter lets through: in order it is the
+   archive's own sequence, shuffled it is a fresh deal; Back always returns to the plate shown
+   before, in either mode. Filter, speed and shuffle are remembered between visits. */
+var SS_GROUPS = ['Chronicle','Lore','Maps','Personalities'];
+var SS_SPEEDS = [4,6,8,12,20,30];   /* seconds on each plate */
+var SS_TX = ['fade','zoomin','zoomout','slide','rise','blur','iris','wipe'];
+var SLIDES = null, SS = {order:[], pos:0, shuffle:true, filter:'all', secs:8, paused:false, timer:0, token:0, lastTx:'', dir:1};
+(function(){
+  try {
+    var o = JSON.parse(localStorage.getItem('slideshow')||'{}');
+    if(typeof o.shuffle==='boolean') SS.shuffle = o.shuffle;
+    if(o.filter==='all' || SS_GROUPS.indexOf(o.filter)>=0) SS.filter = o.filter;
+    if(SS_SPEEDS.indexOf(o.secs)>=0) SS.secs = o.secs;
+  } catch(e){}
+})();
+function ssSave(){
+  try { localStorage.setItem('slideshow', JSON.stringify({shuffle:SS.shuffle, filter:SS.filter, secs:SS.secs})); } catch(e){}
+}
 function collectSlides(){
   if(SLIDES) return SLIDES;
   var seen = {}, out = [];
@@ -1015,14 +1073,24 @@ function collectSlides(){
   }); });
   return SLIDES = out;
 }
+function ssPool(){
+  var out = []; SLIDES.forEach(function(s,i){ if(SS.filter==='all' || s.grp===SS.filter) out.push(i); });
+  return out;
+}
 function viewSlides(){
   setTab('slides');
-  var all = collectSlides(), groups = ['Chronicle','Lore','Maps','Personalities'];
-  var html = '<div class="hint">All '+all.length+' images from the chronicle, lore, maps and personalities, one after another. '
-    + 'Start the show, or tap any picture to begin from there. Keys: ← back, space pause, → next, S shuffle, F full screen, Esc close.</div>'
+  var all = collectSlides();
+  function count(g){ return all.filter(function(s){ return g==='all' || s.grp===g; }).length; }
+  var html = '<div class="hint">The campaign\'s images, one after another. Pick which to show, then start the show or tap any picture to begin from there. '
+    + 'Keys: ← back, → next, P pause, space full screen, S shuffle, + / − speed, Esc close.</div>'
+    + '<div class="ss-filter">' + ['all'].concat(SS_GROUPS).map(function(g){
+        return '<span class="toggle'+(SS.filter===g?' on':'')+'" onclick="ssFilter(\''+g+'\');viewSlides()">'
+          + (g==='all'?'All':esc(g))+' · '+count(g)+'</span>';
+      }).join('') + '</div>'
     + '<div class="ss-start"><span class="btn" onclick="ssOpen(-1,true)">⤮ Shuffled slideshow</span>'
-    + '<span class="btn" onclick="ssOpen(0,false)">▶ In order</span></div>';
-  groups.forEach(function(gp){
+    + '<span class="btn" onclick="ssOpen(-1,false)">▶ In order</span></div>';
+  SS_GROUPS.forEach(function(gp){
+    if(SS.filter!=='all' && SS.filter!==gp) return;
     var items = []; all.forEach(function(s,i){ if(s.grp===gp) items.push(i); });
     if(!items.length) return;
     html += '<div class="catlabel">'+esc(gp)+' · '+items.length+'</div><div class="ss-grid">'
@@ -1030,61 +1098,89 @@ function viewSlides(){
       + '</div>';
   });
   app.innerHTML = html;
-  window.scrollTo(0,0);
 }
+/* a play order over the filtered plates, led by plate `first` when it is one of them */
 function ssDeal(first){
-  var n = SLIDES.length, rest = [];
-  for(var i=0;i<n;i++) if(i!==first) rest.push(i);
-  if(SS.shuffle){
-    for(var j=rest.length-1;j>0;j--){ var k=Math.floor(Math.random()*(j+1)), t=rest[j]; rest[j]=rest[k]; rest[k]=t; }
-    return first>=0 ? [first].concat(rest) : rest;
-  }
-  return rest.concat(first>=0?[first]:[]).sort(function(a,b){ return a-b; });
+  var pool = ssPool(), lead = pool.indexOf(first) >= 0;
+  if(!SS.shuffle) return pool;
+  var rest = pool.filter(function(i){ return i!==first; });
+  for(var j=rest.length-1;j>0;j--){ var k=Math.floor(Math.random()*(j+1)), t=rest[j]; rest[j]=rest[k]; rest[k]=t; }
+  return lead ? [first].concat(rest) : rest;
 }
-/* start at plate i (-1: anywhere); shuffle stays at whatever the show was last set to unless given */
+/* start at plate i (-1: the top of the order); shuffle stays as last set unless given */
 function ssOpen(i, shuffle){
-  collectSlides(); if(!SLIDES.length) return;
-  if(shuffle!==undefined) SS.shuffle = shuffle;
-  SS.order = ssDeal(i); SS.pos = i>=0 ? SS.order.indexOf(i) : 0;
-  SS.paused = false;
+  collectSlides();
+  if(shuffle!==undefined){ SS.shuffle = shuffle; ssSave(); }
+  if(i>=0 && SS.filter!=='all' && SLIDES[i].grp!==SS.filter) SS.filter = 'all';
+  SS.order = ssDeal(i); if(!SS.order.length) return;
+  SS.pos = Math.max(0, SS.order.indexOf(i));
+  SS.paused = false; SS.dir = 1;
+  ssFillSelects();
   document.getElementById('slideshow').classList.remove('hidden','paused');
   document.body.style.overflow = 'hidden';
   ssShow();
 }
 function ssClose(){
   clearTimeout(SS.timer); SS.token++;
-  document.getElementById('slideshow').classList.add('hidden');
+  var ov = document.getElementById('slideshow');
+  ov.classList.add('hidden'); ov.classList.remove('immersive','wake');
   document.body.style.overflow = '';
   if(document.fullscreenElement) document.exitFullscreen();
+  if(document.querySelector('.tab.active[data-view=slides]') && !location.hash) viewSlides();   /* keep the page's filter in step */
+}
+function ssFillSelects(){
+  var ov = document.getElementById('slideshow');
+  ov.querySelector('.ss-filt').innerHTML = ['all'].concat(SS_GROUPS).map(function(g){
+    return '<option value="'+g+'"'+(SS.filter===g?' selected':'')+'>'+(g==='all'?'All images':esc(g))+'</option>';
+  }).join('');
+  ov.querySelector('.ss-speed').innerHTML = SS_SPEEDS.map(function(s){
+    return '<option value="'+s+'"'+(SS.secs===s?' selected':'')+'>'+s+'s each</option>';
+  }).join('');
+}
+function ssPickTx(){
+  var t; do { t = SS_TX[Math.floor(Math.random()*SS_TX.length)]; } while(t===SS.lastTx);
+  return SS.lastTx = t;
 }
 function ssShow(){
-  var ov = document.getElementById('slideshow'), img = ov.querySelector('.ss-img');
-  var e = SLIDES[SS.order[SS.pos]], tok = ++SS.token;
+  var ov = document.getElementById('slideshow'), img = ov.querySelector('.ss-img'), frame = ov.querySelector('.ss-frame');
+  var e = SLIDES[SS.order[SS.pos]], tok = ++SS.token, ms = SS.secs*1000;
   clearTimeout(SS.timer);
-  img.classList.remove('in');
+  var had = !!img.getAttribute('src');
+  if(had){ img.className = 'ss-img'; void img.offsetWidth; img.className = 'ss-img out'; }
   ov.querySelector('.ss-text').innerHTML = inline(e.cap);
   var fr = ov.querySelector('.ss-from'); fr.textContent = e.from; fr.setAttribute('href', e.href);
   ov.querySelector('.ss-count').textContent = (SS.pos+1)+' / '+SS.order.length;
   ssButtons();
   var bar = ov.querySelector('.ss-progress i'); bar.classList.remove('run'); bar.style.width = '0';
-  /* let the old plate fade out while the new one loads, then bring it up and start its clock */
-  var pre = new Image(), faded = false, loaded = false;
+  /* let the old plate leave while the new one loads, then bring it in a different way each time */
+  var pre = new Image(), left = !had, loaded = false;
   function go(){
-    if(tok!==SS.token || !faded || !loaded) return;
-    img.src = e.src; img.classList.add('in');
+    if(tok!==SS.token || !left || !loaded) return;
+    img.src = e.src;
+    img.style.setProperty('--dir', SS.dir);
+    img.className = 'ss-img'; void img.offsetWidth; img.className = 'ss-img t-'+ssPickTx();
+    /* about half the plates also drift slowly across their time on screen */
+    frame.className = 'ss-frame'; void frame.offsetWidth;
+    if(Math.random() < .55){
+      frame.style.setProperty('--dur', (ms+1200)+'ms');
+      frame.style.setProperty('--kx', ((Math.random()*4-2).toFixed(2))+'%');
+      frame.style.setProperty('--ky', ((Math.random()*3-1.5).toFixed(2))+'%');
+      frame.className = 'ss-frame kb';
+    }
     bar.style.width = ''; void bar.offsetWidth;
-    bar.style.animationDuration = SS_MS+'ms'; bar.classList.add('run');
-    if(!SS.paused) SS.timer = setTimeout(function(){ ssStep(1); }, SS_MS);
+    bar.style.animationDuration = ms+'ms'; bar.classList.add('run');
+    if(!SS.paused) SS.timer = setTimeout(function(){ ssStep(1); }, ms);
     var nx = SLIDES[SS.order[(SS.pos+1)%SS.order.length]]; if(nx) (new Image()).src = nx.src;   /* warm the next one */
   }
   pre.onload = pre.onerror = function(){ loaded = true; go(); };
   pre.src = e.src;
-  setTimeout(function(){ faded = true; go(); }, img.getAttribute('src') ? 300 : 0);
+  if(had) setTimeout(function(){ left = true; go(); }, 320);
 }
 function ssButtons(){
   var ov = document.getElementById('slideshow'), b = ov.querySelector('.ss-pause');
   b.innerHTML = SS.paused ? '▶ Play' : '❚❚ Pause'; b.classList.toggle('on', SS.paused);
   ov.querySelector('.ss-shuf').classList.toggle('on', SS.shuffle);
+  ov.querySelector('.ss-fs').classList.toggle('on', ov.classList.contains('immersive'));
   ov.classList.toggle('paused', SS.paused);
 }
 function ssStep(d){
@@ -1094,7 +1190,7 @@ function ssStep(d){
     if(SS.shuffle){ var last = SS.order[n-1]; do { SS.order = ssDeal(-1); } while(n>1 && SS.order[0]===last); }
     p = 0;
   } else if(p < 0) p = n-1;
-  SS.pos = p; ssShow();
+  SS.pos = p; SS.dir = d < 0 ? -1 : 1; ssShow();
 }
 function ssPause(){
   SS.paused = !SS.paused;
@@ -1103,25 +1199,66 @@ function ssPause(){
   else ssStep(1);   /* resuming moves on — the plate has already had its look */
 }
 function ssShuffle(){
-  SS.shuffle = !SS.shuffle;
+  SS.shuffle = !SS.shuffle; ssSave();
   var cur = SS.order[SS.pos];
-  SS.order = ssDeal(cur); SS.pos = SS.order.indexOf(cur);
+  SS.order = ssDeal(cur); SS.pos = Math.max(0, SS.order.indexOf(cur));
   ssButtons();
   document.querySelector('#slideshow .ss-count').textContent = (SS.pos+1)+' / '+SS.order.length;
 }
-function ssFull(){
-  if(document.fullscreenElement) document.exitFullscreen();
-  else { var ov = document.getElementById('slideshow'); if(ov.requestFullscreen) ov.requestFullscreen(); }
+function ssFilter(g){
+  SS.filter = g; ssSave();
+  var ov = document.getElementById('slideshow');
+  if(ov.classList.contains('hidden')) return;
+  /* the plate on screen stays if the new filter keeps it; otherwise the show starts the new set */
+  var cur = SS.order[SS.pos], keep = g==='all' || SLIDES[cur].grp===g;
+  SS.order = ssDeal(keep ? cur : -1);
+  if(!SS.order.length) return;
+  if(keep){ SS.pos = Math.max(0, SS.order.indexOf(cur)); document.querySelector('#slideshow .ss-count').textContent = (SS.pos+1)+' / '+SS.order.length; }
+  else { SS.pos = 0; ssShow(); }
 }
+function ssSpeed(s){
+  SS.secs = s; ssSave();
+  document.querySelector('#slideshow .ss-speed').value = String(s);
+  if(!SS.paused) ssShow();   /* restart this plate's clock at the new pace */
+}
+function ssNudgeSpeed(d){
+  var i = SS_SPEEDS.indexOf(SS.secs) + d;
+  if(i>=0 && i<SS_SPEEDS.length) ssSpeed(SS_SPEEDS[i]);
+}
+/* full-screen mode: the browser's own full screen where it is allowed, and the plate alone
+   on the screen either way; Esc or space brings the controls back */
+function ssImmersive(on){
+  var ov = document.getElementById('slideshow');
+  if(on===undefined) on = !ov.classList.contains('immersive');
+  ov.classList.toggle('immersive', on); ov.classList.remove('wake');
+  if(on && !document.fullscreenElement && ov.requestFullscreen) ov.requestFullscreen().catch(function(){});
+  if(!on && document.fullscreenElement) document.exitFullscreen();
+  ssButtons();
+}
+document.addEventListener('fullscreenchange', function(){
+  if(!document.fullscreenElement) ssImmersive(false);   /* the browser's Esc leaves both at once */
+});
 document.addEventListener('keydown', function(e){
-  if(document.getElementById('slideshow').classList.contains('hidden')) return;
-  if(e.key==='Escape') ssClose();
+  var ov = document.getElementById('slideshow');
+  if(ov.classList.contains('hidden') || e.target.tagName==='SELECT') return;
+  if(e.key==='Escape'){ if(ov.classList.contains('immersive')) ssImmersive(false); else ssClose(); }
   else if(e.key==='ArrowLeft') ssStep(-1);
   else if(e.key==='ArrowRight') ssStep(1);
-  else if(e.key===' '){ e.preventDefault(); ssPause(); }
-  else if(e.key==='s'||e.key==='S') ssShuffle();
-  else if(e.key==='f'||e.key==='F') ssFull();
+  else if(e.key===' ' || e.key==='f' || e.key==='F'){ e.preventDefault(); ssImmersive(); }
+  else if(e.key==='p' || e.key==='P' || e.key==='k' || e.key==='K') ssPause();
+  else if(e.key==='s' || e.key==='S') ssShuffle();
+  else if(e.key==='+' || e.key==='=') ssNudgeSpeed(1);
+  else if(e.key==='-' || e.key==='_') ssNudgeSpeed(-1);
 });
+/* in full-screen mode a moving mouse brings the controls back for a few seconds */
+(function(){
+  var ov = document.getElementById('slideshow'), t = 0;
+  ov.addEventListener('mousemove', function(){
+    if(!ov.classList.contains('immersive')) return;
+    ov.classList.add('wake'); clearTimeout(t);
+    t = setTimeout(function(){ ov.classList.remove('wake'); }, 2500);
+  });
+})();
 /* on a phone: swipe for back and next, tap the picture to pause */
 (function(){
   var st = document.querySelector('#slideshow .ss-stage'), x0 = null, y0 = 0;
