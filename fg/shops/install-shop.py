@@ -22,6 +22,12 @@ The markdown under fg/shops/ stays the source of truth. build-fg.ps1 compiles it
 build/shops-campaign.xml with the same item pipeline the parcels use - SRD lookup, real
 weights, real damage - and this splices that block into db.xml.
 
+A SHOP ALREADY IN THE CAMPAIGN IS LEFT ALONE. Once a shop is in play its record is live
+state: stock sold down, items the GM added in the client, the shop's own coin. Reinstalling
+from markdown would quietly restock it and wipe all of that, which is what the first version
+of this script did. So only shops whose id is not yet in the campaign are added. To reset a
+shop to its markdown on purpose, name it: --replace lupenors_counter.
+
 WRITING A CAMPAIGN db.xml IS NORMALLY FORBIDDEN. Fantasy Grounds rewrites it wholesale on
 exit, so anything written underneath a running client is destroyed without warning. This
 refuses to run while FG is up, and takes a timestamped backup first.
@@ -54,6 +60,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--campaign', default='The Real Work')
     ap.add_argument('--write', action='store_true')
+    ap.add_argument('--replace', action='append', default=[], metavar='ID',
+                    help='reset this live shop to its markdown version (repeatable)')
     a = ap.parse_args()
 
     if not os.path.exists(BLOCK):
@@ -75,24 +83,38 @@ def main():
     if fg_running():
         sys.exit('Fantasy Grounds is RUNNING - it rewrites db.xml on exit and would eat this. Close it first.')
 
-    s = io.open(db, encoding='utf-8').read()
+    raw = io.open(db, encoding='utf-8', newline='').read()
+    nl = '\r\n' if '\r\n' in raw else '\n'
+    s = raw.replace('\r\n', '\n')
     backup = db.replace('db.xml', 'db.backup-%s.xml' % time.strftime('%Y%m%d-%H%M%S'))
     shutil.copy2(db, backup)
     print('backed up to', os.path.basename(backup))
 
-    if re.search(r'(?s)\n\t<MKshops>.*?\n\t</MKshops>', s):
-        s = re.sub(r'(?s)\n\t<MKshops>.*?\n\t</MKshops>', '\n' + block, s, count=1)
-        how = 'replaced the existing <MKshops> section'
-    else:
+    if not re.search(r'\n\t<MKshops>', s):
         s = s.replace('\n</root>', '\n' + block + '\n</root>', 1)
         how = 'added a new <MKshops> section'
+    else:
+        done = []
+        for m in re.finditer(r'(?s)\n\t\t<([\w\-]+)>.*?\n\t\t</\1>', block):
+            rid, rec = m.group(1), m.group(0)
+            live = re.search(r'(?s)\n\t\t<%s>.*?\n\t\t</%s>' % (rid, rid), s)
+            if live and rid in a.replace:
+                s = s[:live.start()] + rec + s[live.end():]
+                done.append('reset ' + rid)
+            elif live:
+                done.append('kept live ' + rid)
+            else:
+                at = re.search(r'\n\t<MKshops>', s).end()
+                s = s[:at] + rec + s[at:]
+                done.append('added ' + rid)
+        how = '; '.join(done)
 
     try:
         ET.fromstring(s)
     except Exception as e:
         sys.exit('refusing to write - result would not parse: %s' % e)
 
-    io.open(db, 'w', encoding='utf-8', newline='\n').write(s)
+    io.open(db, 'w', encoding='utf-8', newline=nl).write(s)
     print('%s in %r' % (how, a.campaign))
 
 
