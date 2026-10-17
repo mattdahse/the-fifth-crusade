@@ -2,6 +2,10 @@
 
 <!-- id: helmsmiths_alchemy -->
 <!-- markup: 1.2 -->
+<!-- store: market -->
+<!-- buys: goods, potion, oil -->
+<!-- markdown: 0.5 -->
+<!-- maxbuy: 300 gp -->
 
 **James Helmsmith** came up out of Kenabres with his shop in crates and a goblin apprentice, and
 set both up again in Drezen. He is an alchemist and a shopkeeper. He was an adventurer once, and

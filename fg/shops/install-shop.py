@@ -56,6 +56,19 @@ def fg_running():
     return 'fantasygrounds' in out.replace(' ', '')
 
 
+def market_ids():
+    """Shops marked `<!-- store: market -->` belong to install-market.py, not here."""
+    out = set()
+    for f in os.listdir(HERE):
+        if f.endswith('.md'):
+            head = io.open(os.path.join(HERE, f), encoding='utf-8').read().split('\n## ', 1)[0]
+            if re.search(r'<!--\s*store:\s*market\s*-->', head):
+                m = re.search(r'<!--\s*id:\s*([\w\-]+)\s*-->', head)
+                if m:
+                    out.add(m.group(1))
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--campaign', default='The Real Work')
@@ -68,10 +81,8 @@ def main():
         sys.exit('no %s - run build-fg.ps1 first' % os.path.relpath(BLOCK, ROOT))
     block = io.open(BLOCK, encoding='utf-8').read().rstrip()
     ids = re.findall(r'(?m)^\t\t<([\w\-]+)>', block)
-    names = re.findall(r'<name type="string">([^<]*)</name>', block)
-    print('shop records to install: %s' % ', '.join(ids))
-    if names:
-        print('  "%s" with %d items' % (names[-1] if False else names[0], max(0, len(names) - 1)))
+    markets = market_ids()
+    print('shop records to install: %s' % ', '.join(i for i in ids if i not in markets))
 
     db = os.path.join(CAMPAIGNS, a.campaign, 'db.xml')
     if not os.path.exists(db):
@@ -91,23 +102,26 @@ def main():
     print('backed up to', os.path.basename(backup))
 
     if not re.search(r'\n\t<MKshops>', s):
-        s = s.replace('\n</root>', '\n' + block + '\n</root>', 1)
-        how = 'added a new <MKshops> section'
-    else:
-        done = []
-        for m in re.finditer(r'(?s)\n\t\t<([\w\-]+)>.*?\n\t\t</\1>', block):
-            rid, rec = m.group(1), m.group(0)
-            live = re.search(r'(?s)\n\t\t<%s>.*?\n\t\t</%s>' % (rid, rid), s)
-            if live and rid in a.replace:
-                s = s[:live.start()] + rec + s[live.end():]
-                done.append('reset ' + rid)
-            elif live:
-                done.append('kept live ' + rid)
-            else:
-                at = re.search(r'\n\t<MKshops>', s).end()
-                s = s[:at] + rec + s[at:]
-                done.append('added ' + rid)
-        how = '; '.join(done)
+        s = s.replace('\n</root>', '\n\t<MKshops>\n\t</MKshops>\n</root>', 1)
+    done = []
+    for m in re.finditer(r'(?s)\n\t\t<([\w\-]+)>.*?\n\t\t</\1>', block):
+        rid, rec = m.group(1), m.group(0)
+        if rid in markets:
+            done.append('skipped %s (a market: install-market.py)' % rid)
+            continue
+        sec = re.search(r'(?s)\n\t<MKshops>.*?\n\t</MKshops>', s)
+        live = re.search(r'(?s)\n\t\t<%s>.*?\n\t\t</%s>' % (rid, rid), sec.group(0))
+        if live and rid in a.replace:
+            at = sec.start() + live.start()
+            s = s[:at] + rec + s[at + len(live.group(0)):]
+            done.append('reset ' + rid)
+        elif live:
+            done.append('kept live ' + rid)
+        else:
+            at = sec.start() + len('\n\t<MKshops>')
+            s = s[:at] + rec + s[at:]
+            done.append('added ' + rid)
+    how = '; '.join(done)
 
     try:
         ET.fromstring(s)
