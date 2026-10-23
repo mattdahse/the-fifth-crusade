@@ -2771,3 +2771,179 @@ In the library, a new pair of legs came down the second rope. **Lupenor** was st
 *"Free elf."*
 
 *— Session of September 25th, 2026 —*
+
+## **What Radiance Remembered**
+
+<!-- date: October 10, 2026 -->
+
+<!-- inworld: 26 Neth 4713 -->
+
+<!-- fathom: call=856816028 recording=191590238 -->
+
+*The Ivory Sanctum, 26th of Neth, 4713 AR*
+
+### **No Shield**
+
+The adept who had come down the rope was in no hurry. **Lupenor** was still doubled over and retching at the end of the stacks, and she was the one person in the Sanctum the Blackfire adepts had learned they could hurt. They came to her. They walked right up to the bookshelves to get a clear line, and the bolts of force came round the corner after her four at a time.
+
+She got herself behind the tallest shelf, still heaving, and made them walk further. Out in the hall, **Harlock** stood in the green fog, glittering like a lantern, and two babau traded blows with him and could not find a way through his armour. One of them found a blow of his instead, and then a second that went in deep, and it fell apart in the slush. A dretch crawled up out of a crack that opened in the flagstones and sealed shut behind it. It went for **Varic**, and it could no more touch the priest than it could fly. ***Battle Hymn*** struck twice, and it was gone.
+
+Then one of the adepts did something nobody expected. She lifted her hand and unmade her own stinking cloud.
+
+The green fog went out of the hall all at once. It had been blinding the company for half the fight, but it had been hiding them too. Now every adept in the north hallway could see exactly who was standing where.
+
+### **The Templar in the Door**
+
+**Harlock** saw what that meant before anyone else did. The adepts were bunched in the hallway beyond the north door, spellcasters in robes, and the only thing between them and ***Radiance*** was one templar with a glaive. He put his shoulder down and tried to go straight through him.
+
+The templar had been fighting defensively all night, guarding the squishier people behind him, and he did it again now. He set his feet, took the paladin's charge on his haft, and **Harlock** stopped dead in front of him, close enough to smell his breath. The adepts made him pay for trying. *"The real paladin,"* one of them sneered, and aimed past him at **Varic**. The priest had been mistaken for a paladin all night, and he was starting to take it as a compliment.
+
+**Lupenor** was down to almost nothing. Her bow lay by the training-hall door where she had dropped it, and she had a curved blade in her hand. That was a fine weapon for a duellist, and no use at all against a woman with a pocketful of force bolts. She came out from behind the shelves at a dead run, stepped over her own bow without breaking stride, and arrived in front of **Varic**. She did not ask to be healed so much as announce it, in a voice that was more panic than plea. The priest healed her. He had been healing himself a moment before, burning his reserves of the Dawnflower's light to close his own wounds, and he spent some of what he had left on her too.
+
+### **The Hungry Pit**
+
+**Rabiah** had spent the last several rounds learning that the adepts' ***Shields*** turned her ***Magic Missiles*** aside like rain off a roof. She decided to try something else.
+
+She cast defensively, with a babau right in her face, and it did not interrupt her. The floor of the hall opened into a pit. It was a deep, dimensional shaft, fifty feet straight down, and its walls were lined with something that looked a good deal like teeth. The babau went in. A templar went in. A dying templar on the lip slid off the edge after them. The ones who kept their feet backed away from it with a new respect.
+
+The next moment, the pit clenched. Its walls closed on everything inside like a fist, and then opened again. They all heard the crunch.
+
+One of the adepts had gone in with them. She did not try the climb, which no one in robes was ever going to manage. She opened a ***Dimension Door*** from the bottom of the shaft, brought a friend out with her, and reappeared in a corner of the hall, alive and furious. She aimed her first spell of her new life at **Rabiah**, and it failed against the sorcerer's ***Shield*** like everything else had.
+
+**Rabiah** liked how well it had worked, so she did it again. A second ***Hungry Pit*** opened in the north hallway under the adepts themselves, and four of them dropped into the dark together. One templar threw himself clear. The crunch came again, and then again. There were not many adepts left after that.
+
+### **Glitter**
+
+The adepts had a few spells left, and they spent them badly. One pelted **Harlock** with force bolts and found out the hard way that the paladin had a ***Shield*** of his own now, courtesy of **Rabiah**'s wand. Another threw glittering dust in **Rabiah**'s face, and the sorcerer's eyes filled with gold, and she could not see. Then a second burst caught **Lupenor**, and she was blind too. She had just gone back and picked up her bow, and an adept with a very pretty, very useless masterwork dagger had poked at her for it.
+
+Somebody shut a door on them with a cantrip.
+
+**Varic** pressed his last potion of sight into **Lupenor**'s hands and told her to drink. Then he walked straight past her and into an adept's face. **Harlock** stepped through the doorway, took up the foxtrot he had been dancing with the templars all night, and cleaved into the nearest Blackfire adept hard enough that she very nearly changed her religion. The last babau, which had spent the whole fight swinging at the paladin and missing, finally landed a single blow on him. He looked almost proud of it.
+
+**Rabiah** couldn't see a thing, so she cast ***Fly*** on herself and went where she had last seen the enemy. She stuck her wand out ahead of her and filled the corridor with ***Burning Hands***. Somebody in there screamed, and somebody else fell down.
+
+The adept who had told **Lupenor** she had no shield had used up her last force bolt. Now she found out what arrows do. Her final words were *"Stop shooting me!"* The elf did not, and when it was over there was an arrow in each of the woman's eyes. **Harlock** had done most of the work on that one. He stood over the body and reflected that **Lupenor** had a way of arriving just in time to take the credit.
+
+### **Something That Drones**
+
+**Rabiah** went north, flying blind, and something hit her in the dark.
+
+It struck her hard in the shoulder, a bludgeoning blow, and the air around her was battered by wings. Those wings droned like an insect's, loud and very close. She couldn't see what had hit her, and she didn't wait to find out. She touched her earring and stepped back through space to where she had last left her friends. *"There's something north of us,"* she announced, to the general direction of their voices, *"and it hurts."*
+
+**Harlock** opened a door on the south side and found an empty ivory-tiled chamber thirty feet high. Its walls were a tangle of labyrinthine carving. Across the far end, floor to ceiling, a goat-headed demon leered out of the stone with a crescent-bladed glaive in its hands. They all knew that face by now.
+
+**Varic** opened another door, took one look inside, and spoke very calmly.
+
+*"Close the door. Harlock. Close the door now."*
+
+There was a derakni in there. It was a great insectile demon-thing, the same kind that had ambushed the expedition on the march, and it was not alone. **Harlock** closed the door. Then he planted himself in front of it with ***Radiance*** drawn. If anything opened it from the other side, it would get the sword in its face.
+
+For a moment they saw something behind them in the corridor: a man-shaped thing with the head of a fly. Then it was gone. A thin mist rose out of the flagstones, and their thoughts went thick and slow. For a moment none of them could remember where they were or why. **Harlock** was the last to shake it off. He clenched his teeth, called up his mythic resolve, and pushed his way back to himself. **Rabiah** cast ***Mirror Image*** and seven copies of her joined her.
+
+Then the sky fell on them. Hail and sleet came down on the whole huddle, an ***Ice Storm*** like the ones **Rabiah** had dropped on the templars. It was cold enough and hard enough, and for a moment it was real enough. **Varic** looked at it properly and saw through it first. *"It's not real,"* he called. *"Not all of it. It's shadow."* The paladin believed him, and so did the slayer, more or less. **Rabiah** was flying above it and had never been under it.
+
+**Rabiah** wove ***Haste*** over them all. When the fly-headed thing came back into the doorway, **Lupenor** put arrows into it faster than it could think, and it turned in the air and fled north.
+
+### **The Wall Again**
+
+***Radiance*** had been waiting for a quiet moment, and she took this one.
+
+*"Champion. We must go back to that wall."*
+
+They went back. Once again they spent the better part of ten minutes going over the east wall of the temple inch by inch, and again they found nothing. It was solid stone faced with a random mosaic of ivory and bone, like every other wall in the place. **Varic** pressed his ***Channel of Opening*** against it, and nothing opened. Whatever it was, it was on the other side of the wall. ***Radiance*** insisted on that, and had less to say about how they were supposed to get there.
+
+So they went around. Up the north corridor, where the droning thing had been, they found a dead cultist lying beside another coil of rope that stood stiff into the air and ended ten feet up. **Harlock** climbed it out of plain stubbornness. He came out into a small grey box folded out of the world, with a hole in its floor and the rope knotted to its ceiling, and nothing else in it at all. He climbed back down. Beyond it was a storeroom lined with long cabinets, with cloaks and coils of rope hanging from pegs on the walls. ***Radiance*** stirred in his hand.
+
+*"It is very close now."*
+
+It was in the storeroom's inner wall, about where the company had reckoned it should be. There was a tiny catch near the floor. Slid to the left, it released a spring, the spring dropped a counterweight, and the counterweight swung a door open. **Lupenor** checked it for traps and found none. Everyone agreed that this seemed unlikely.
+
+### **The Lead Room**
+
+**Harlock** went in first, and regretted it.
+
+The room was lined with lead. Its walls were covered in tiny Abyssal prayers, thousands of them, and they sweated cold black water that ran down the lettering and soaked back into the stone. A low, discordant drone filled the air. Within a few breaths the paladin understood what the room was for. It was drinking at his memories, pulling at everything he had ever been, a little more with every moment he stayed.
+
+In the corner stood a robed thing with horns, more skeleton than flesh. It was a daemon, some servant of death, set here to keep the room.
+
+**Varic** spoke a ***Prayer*** over the company. **Harlock** called down his smite and went at it, and ***Radiance*** very nearly pulled him across the room. She bit deep and then deeper, two blows that found the gaps, and she was thirsty in a way he had never felt in her. **Lupenor**'s cold-iron arrows followed from the doorway, and **Rabiah** finished it with a spell from the threshold. The daemon never had the chance to say whatever it had been keeping to say. It screamed once, slumped down into a puddle of black water, and the puddle shrank away to nothing, as though there were a drain in the floor.
+
+On a shelf behind where it had stood lay a suit of full plate, neatly stacked. It was mithril, and it was glowing softly.
+
+***Radiance*** saw it, and the sword's voice rang in **Harlock**'s head like a struck bell.
+
+*"Champion — that is* ***Yaniel****'s armour!* ***Yaniel****! She bore me before you did. I remember. I remember! This is what I was sensing!"*
+
+He had thought she was sensing the daemon. Her hilt went warm in his hand, much warmer than usual, and for a moment her light burned so bright he had to look away. When it settled, something had changed in her for good. ***Radiance*** was holy now, edged against everything evil, and she would stay that way.
+
+They stripped the room in three trips. **Harlock** and **Varic** carried everything on the shelves out into the storeroom while the black walls sweated and the drone gnawed at their minds. Both of them came out with their memories their own, though not by much. **Harlock** closed the secret door behind them. Then he took out ink and pen and drew a large skull and crossbones on it.
+
+### **The Armour of Iomedae**
+
+It was plate of **Iomedae**. Her holy symbol was worked into it everywhere: the back of each gauntlet, the shin-plates, the breast. It was a masterwork of mithril, finer than anything the company had seen since **Drezen**. **Harlock** looked at it for a long time and then kept his own armour on. His ***Armour of the Pious*** has carried him a long way and knows his prayers. He thought, out loud, that this suit ought to go back to **Irabeth**. Or perhaps to **Elara**, if it came to that.
+
+He asked ***Radiance*** whether she would mind if he left it in the bag.
+
+*"I have no opinion on the matter,"* the sword said. *"I am only — so glad. To have found a sign of her."* ***Radiance*** has carried **Yaniel**'s last stand inside her for a long time: the trap she was lured into, the fight she could not win, her regret at not listening. What she had never known was where it happened, or what became of **Yaniel** after she fell. Now she had found the first sign of it, in a vault of the **Ivory Sanctum**. It was clear she meant to find the rest.
+
+The shelves gave up more. There was a ***Sword of the Planes***, which went to **Lupenor**. There was a little cube that nobody could make speak. There were also six suits of magical full plate the templars had been keeping for best.
+
+### **The Fly in Court Slippers**
+
+The fly-headed thing had fled into a room further on. When **Harlock** opened the door, it was waiting with the last of the cultists. They had dimension-doored there out of the pits, beaten and singed, and some of them still had **Lupenor**'s arrows in them.
+
+There was a large table covered with maps and scrolls. In the middle of it sat a jar holding a deformed locust that twitched against the glass. In the corner a covered birdcage hung from a wrought-iron stand.
+
+*"Stop! Don't attack! No one has to die here!"*
+
+Its voice came out loud, and then it came again inside **Harlock**'s skull. *Please. We mean you no harm. We have no love for the ones you are hunting. Go and deal with them, and leave us be.*
+
+It had chosen the wrong mind to put its idea in. **Lupenor** was laughing.
+
+She shot it while it was still talking. Her arrows went into it faster than it could flinch, and it hit the back wall and stayed there, stapled to the stone like a specimen. It had been wearing formal slippers, the kind a courtier wears to a levee. **Varic** promised the nearest adept that he would purge her soul in the holy fires of **Sarenrae**, and then he hit her with a bolt of them. **Harlock** laid into the templars with the new edge of ***Radiance***, and everything she touched now burned with it.
+
+One templar broke for the table. **Varic** cut at him as he passed, and **Harlock** hooked his legs out from under him. He went down an arm's length short. A second templar got there. He brought his fist down on the jar, and the locust came out as a swarm. It fell on the maps and scrolls and began to eat them, and it ate them at a horrible speed.
+
+The priest plunged his hand into the swarm and came out with a fistful of papers that were coming apart in his grip. He tried to read them.
+
+They had been written over with ***Explosive Runes***. The blast threw everyone around the table back, the priest and the paladin hardest of all. It knocked the last templar senseless, and it killed every locust in the room. The papers were gone, turned to a paste of ink and insect. It had been a good trap. Whatever happened to the jar, the documents were never going to leave that room.
+
+The birdcage had fallen over in the blast. Inside was a small hawk with no wings, mutilated and blinded. It had been kept alive in there right up until the runes went off. It could only have been **Horace**. **Selyse Avelia** had lost him on the march, and the last thing he had shown her was a fist that smelled of the pit and voices in the dark. He was dead now. For as long as he had lived in that cage, his mistress could not call him back to her. Now she could.
+
+### **Wharton**
+
+**Varic** tied the surviving templar up first, hand and foot, and only then let the Dawnflower's light wash over the room. *"I refuse the light of your sick goddess,"* the templar told him, and it healed him anyway.
+
+**Harlock** did the questioning, with a touch of **Varic**'s blessing on his tongue. They asked about **Xanthir Vang**. *"Down the hallway to the south,"* the templar said. *"You'll find him eventually."*
+
+*"Do you repent your sins?"* **Harlock** asked.
+
+*"What sins?"*
+
+The paladin asked **Iomedae** to take the man's soul and purify it in the holy fires of heaven, and then he took his head. It rolled a few feet and came to rest in the corner. So ended Wharton, Templar of the Ivory Labyrinth.
+
+### **Death First**
+
+There was one more party behind one more door: a fully armoured templar with a glaive, and behind him a Blackfire adept who was very nearly dead. **Harlock** asked whether anyone in there would deal for information.
+
+*"Death first!"* said the templar.
+
+The adept threw up her hands. *"I'll deal."*
+
+*"Help me!"* the templar cried, as the paladin came for him.
+
+*"I already did help you,"* the adept said, and stayed where she was.
+
+**Harlock** told the templar, sincerely, that he respected his conviction. Then he struck him with everything he had, and **Arueshalae** finished what was left. The adept was already down on her knees.
+
+She bargained well. Past the room to the south was the derakni, she said, and a second derakni watching the first. At the slightest sign of trouble the second would call for more. Beyond them was **Xanthir Vang**, and in his chamber a summoning circle. Its candles had to be put out, at least four of them, and never two side by side. The circle was built to shrug off damage to any one part of it. *"Do that, and they can still call their kin,"* she said, *"but the circle won't make them stronger."*
+
+They asked her name. *"If I told you, would you believe me?"* They wouldn't. *"Then let's say it's Casey Derricon."*
+
+**Harlock** gave her his word that she would go free. *"But if we ever see your face again,"* he said, *"you will be the first one I kill."* They tied her up anyway, for reasons that were obvious to everyone but her. **Rabiah** snipped off a lock of her hair and tucked it into a pouch, in case they ever needed to find her again. The adept looked at her for a long moment.
+
+Then the company rested for an hour, in the Sanctum where **Xanthir Vang** was waiting. Mythic power is a strange gift. An hour of stillness gave them back what a night of sleep would have, and something more besides. Each of them came out of it a little more than they had been going in. **Varic** and **Harlock** walked the adept to the front gate, through the corridors they had cleared, and let her go, as they had promised.
+
+The derakni was still waiting to the south, and beyond it **Xanthir Vang**.
+
+*— Session of October 10th, 2026 —*
