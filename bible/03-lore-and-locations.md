@@ -74,14 +74,21 @@ first time any named item is illustrated.
 - ***Yaniel's armour*** — **mithril full plate of Iomedae**, found stacked neatly on a shelf in
   the lead-lined vault of the **Ivory Sanctum** (Book III, *What Radiance Remembered*). **Pale
   silver-white mithril, cooler and lighter-looking than steel, and plainly NOT gold** — it must
-  never converge with **Harlock**'s ornate golden plate, which is often in the same frame. Clean,
-  classical, close-fitting plate with restrained engraving. **Iomedae's device is worked into it
+  never converge with **Harlock**'s ornate golden plate, which is often in the same frame. **It
+  was made for a WOMAN, and the whole harness is cut to a woman's frame** *(Matt's direction, Oct
+  2026)*: slimmer than a man's, with a defined waist, narrower shoulders and pauldrons, slender
+  vambraces and finer gauntlets. **The breastplate is shaped for a woman**: a gently rounded
+  protective chest, sculpted in one piece and tapering to the waist above a skirt of lames. It is
+  modest and practical, a working warrior's harness and never a costume. Clean classical lines and
+  restrained engraving. **Iomedae's device is worked into it
   everywhere**: the breastplate, the back of each gauntlet and the shin-plates. That device is a
   vertical longsword, **point down: hilt and crossguard at the TOP, tip at the BOTTOM**, before a
   sun, in engraved raised work. **It glows softly** with a faint silver-white light of its own, a
   sheen in the metal rather than beams. *Avoid:* `gold or gilded plate, ornate scrollwork matching
   Harlock's armour, spikes, a bare sunburst with no sword, an inverted sword, beams or rays of
-  light, a helmet with a crest or plume, a mannequin or armour stand` (it lies stacked on a shelf).
+  light, a helmet with a crest or plume, a mannequin or armour stand, men's armour, a broad
+  barrel-chested breastplate, separate breast cups, cleavage, revealing armour` (it lies stacked
+  on a shelf).
 
 ## Enemy Intelligence (from Vhane's journals)
 
