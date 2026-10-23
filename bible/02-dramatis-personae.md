@@ -75,7 +75,7 @@ Jeskar Hinton's congregation in Drezen — hunters and trappers who took the sac
 - **Jestak** — a raging barbarian of the Citadel gauntlet.
 - **Scorizscar** — six-legged, eyeless mythic dragon of the Gray Road; slain in its lair (Ch XVI).
 - **Vorimeraak** *(the chronicle first had "Vremorak", off a garbled recording; spelling and sex settled by Matt, Aug 2026 — **Vorimeraak**, and **she is female**, against the transcript's male pronouns)* — mythic vrock who led the ritual in **the Molten Scar**, the same working the cultists had laid on **Harlock** at fifteen. Killed by Harlock on the dry western shore; because she fell on rock rather than into the lava, her corrosive scythe went home with the company.
-- **Ashi Waxentong** — a name and nothing else. The master a **babau** messenger invoked when it stopped the company on the northern road and demanded **Selyse Avelia**'s bird and her maps (Ch VIII). Unknown to the planar catalogues; never seen. A third, smaller flyer hung at the edge of that engagement and left without ever coming into focus — the company's only guess at him. **Spelling unconfirmed** beyond the table's own rendering.
+- **Ashi Waxentong** — the fly-headed demon of the **Ivory Sanctum**: a tall, thin, man-shaped thing with a housefly's head, translucent droning wings, courtly robes and embroidered court slippers. His **babau** messenger stopped the company on the northern road and demanded **Selyse Avelia**'s bird and her maps (Ch VIII); he was the third flyer that never came into focus there. He kept **Horace** caged, wingless and blinded, in a map room of the Sanctum. In *What Radiance Remembered* he struck **Rabiah** unseen, hung a confusion mist and a shadow ice storm on the company, then begged them telepathically to leave him be and go after his rivals. **Lupenor** pinned him to his own wall with arrows. Dead. Unknown to the planar catalogues. **Spelling** is the table's own rendering (Matt says "Waxing Tongue").
 - **The Red Swarm & Jaruunicka** — a purpose-built hunting company that mirrored the party; and the Sifkesh hag who wore Arueshalae's face as a trap.
 
 ---
@@ -89,7 +89,7 @@ Introduced across the pre-Drezen chapters; confirm spellings and prune before tr
 - **Hulrun** (Hulrun Shappok) — the collector of Kenabres, hollowed by a worm-demon at the Gray Garrison.
 - **Minagho** — demon commander named in captured correspondence.
 - **Jeslyn** — oracle guardian of the wardstone at the Gray Garrison.
-- **Yaniel** — legendary fallen wielder of Radiance, long mourned by the blade.
+- **Yaniel** — legendary fallen wielder of Radiance, long mourned by the blade. Lured into a trap on an unauthorized mission into the Worldwound and slain (see `secrets/lore-history-of-radiance.md`). Her **mithril full plate of Iomedae** was found in a lead-lined vault of the **Ivory Sanctum** (*What Radiance Remembered*); at the sight of it Radiance remembered her and became a holy sword. Where she fell, and what became of her after, is still unknown. Harlock carries the armour in the bag of holding and has said it should go to **Irabeth**, or perhaps **Elara**.
 - **Ilzek** — ghoul-cleric of a desecrated chapel on the march.
 - **Callan** — a bard of the company with a troubled past.
 

@@ -2910,6 +2910,8 @@ They had been written over with ***Explosive Runes***. The blast threw everyone 
 
 The birdcage had fallen over in the blast. Inside was a small hawk with no wings, mutilated and blinded. It had been kept alive in there right up until the runes went off. It could only have been **Horace**. **Selyse Avelia** had lost him on the march, and the last thing he had shown her was a fist that smelled of the pit and voices in the dark. He was dead now. For as long as he had lived in that cage, his mistress could not call him back to her. Now she could.
 
+That told them who the thing on the wall had been. On the northern road, a babau under a flag of parley had demanded **Selyse**'s bird and her maps for a master no catalogue of the planes had ever heard of. A third, smaller flyer had hung at the edge of that fight, droning, and never come into focus. Now he had: **Ashi Waxentong**. He had kept the bird he stole, and he had worn his court slippers to the end.
+
 ### **Wharton**
 
 **Varic** tied the surviving templar up first, hand and foot, and only then let the Dawnflower's light wash over the room. *"I refuse the light of your sick goddess,"* the templar told him, and it healed him anyway.

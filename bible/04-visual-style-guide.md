@@ -478,6 +478,32 @@ and say `a hard edge where the arm meets the air, red at the end of the sleeve` 
 skeletal, glistening jet-black slimy hide, one long horn sweeping back from the skull, small red eyes, needle teeth,
 long hooked claws.
 
+*Babau ruling for the Sanctum (Oct 2026): inside the **Ivory Sanctum** chapters, follow this
+chapter's babau — one long horn swept back — for continuity, even though the CANON row's Avoid
+line says `horns`. The CANON row governs babau everywhere else.*
+
+The **LEAD VAULT** in the **Ivory Sanctum**, behind a secret door in a storeroom of cloaks and
+ropes (Book III, *What Radiance Remembered*): the room that drinks memory, where **Yaniel**'s
+armour was kept. **It is the ONE room in the Sanctum with NO ivory-and-bone mosaic** — say so,
+or the house Sanctum walls creep back in. A small, low, square chamber lined floor to ceiling in
+**dull grey sheet LEAD**, the panels seamed and riveted, soft and slightly dented. **Every inch of
+the lead is covered in thousands of TINY scratched Abyssal characters**, close as fine print, and
+**the walls SWEAT cold black water**: beads stand on the lettering, run down in thin dark threads
+and soak back into the metal, so the surfaces read wet and faintly glistening. A plain shelf on the
+far wall. The floor is lead too, wet, with a shallow dark puddle where its keeper died. **There is
+no light source in the room itself.** In the discovery scene the **only** light is ***Radiance***,
+gold-white, falling off fast to near-black, with the armour's own faint silver sheen as the second,
+much smaller note. The drone has no visual form, so **don't paint sound waves or a haze**.
+*Avoid:* `ivory or bone walls, a mosaic, stone masonry, torches, candles, lanterns, daylight,
+glowing runes, red or green light, a large hall, visible sound waves`.
+
+The **MAP ROOM of Ashi Waxentong**, further along the Sanctum's north rooms: the ivory-and-bone chip
+walls again, otherwise nearly empty. In the middle is **one large dark table heaped with maps and
+scrolls**, and in the centre of the table a **large stoppered glass jar holding one deformed,
+twitching locust**. In a corner a **wrought-iron stand with a curved hook arm** carries a **birdcage
+under a dark cloth cover**. Light it with candles on the table. *Avoid:* `bookshelves filling the
+room, a library` (that was the rope-trick study).
+
 The **SHRINE OF TORAG** in the warrens beneath **Kenabres**, cleansed and reconsecrated by the company
 ([`a-safe-haven-restored`](../images/a-safe-haven-restored.webp), Book I): a small, low, windowless
 dwarven shrine of heavy squared warm grey-brown masonry, ancient and dusty, its stone flag floor swept

@@ -4,7 +4,7 @@
 
 ## Artifacts & Relics
 
-- **Radiance** — an intelligent longsword of Iomedae, recovered dimmed from the cult in Book I and awakened to Harlock; effectively an NPC. Its warmth, cooling, or silence tracks Harlock's inner state.
+- **Radiance** — an intelligent longsword of Iomedae, recovered dimmed from the cult in Book I and awakened to Harlock; effectively an NPC. **Holy** from *What Radiance Remembered* (Book III), when she recognised **Yaniel**'s armour in the Ivory Sanctum: edged against all evil, and burning everything evil she touches. Its warmth, cooling, or silence tracks Harlock's inner state.
 - **Scales of Terendelev** — four silver scales of the fallen dragon Terendelev, each granting a distinct gift (cloud-walking, a veiling false face, a ward, and one that renders a blade good-aligned). Carried by the four heroes since the caverns of Kenabres.
 - **Soul Shear** — Staunton Vhane's glaive; slew Lupenor before his resurrection.
 - **The Sword of Valor** — the crusade banner reclaimed beneath Drezen; cleanses evil and can summon an angel of Iomedae.
@@ -71,6 +71,17 @@ first time any named item is illustrated.
   side-mounted sleeve or flown from a mast, wider-than-tall proportions, heraldic beasts or any
   extra charge, text or lettering, fringe or tassels, a bare sunburst with no sword, a sun behind
   the whole blade rather than behind the crosspiece, tattered, burned, stained or faded cloth.
+- ***Yaniel's armour*** — **mithril full plate of Iomedae**, found stacked neatly on a shelf in
+  the lead-lined vault of the **Ivory Sanctum** (Book III, *What Radiance Remembered*). **Pale
+  silver-white mithril, cooler and lighter-looking than steel, and plainly NOT gold** — it must
+  never converge with **Harlock**'s ornate golden plate, which is often in the same frame. Clean,
+  classical, close-fitting plate with restrained engraving. **Iomedae's device is worked into it
+  everywhere**: the breastplate, the back of each gauntlet and the shin-plates. That device is a
+  vertical longsword, **point down: hilt and crossguard at the TOP, tip at the BOTTOM**, before a
+  sun, in engraved raised work. **It glows softly** with a faint silver-white light of its own, a
+  sheen in the metal rather than beams. *Avoid:* `gold or gilded plate, ornate scrollwork matching
+  Harlock's armour, spikes, a bare sunburst with no sword, an inverted sword, beams or rays of
+  light, a helmet with a crest or plume, a mannequin or armour stand` (it lies stacked on a shelf).
 
 ## Enemy Intelligence (from Vhane's journals)
 
