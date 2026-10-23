@@ -2808,6 +2808,8 @@ She cast defensively, with a babau right in her face, and it did not interrupt h
 
 The next moment, the pit clenched. Its walls closed on everything inside like a fist, and then opened again. They all heard the crunch.
 
+![Fifty feet, straight down.](images/the-hungry-pit.webp)
+
 One of the adepts had gone in with them. She did not try the climb, which no one in robes was ever going to manage. She opened a ***Dimension Door*** from the bottom of the shaft, brought a friend out with her, and reappeared in a corner of the hall, alive and furious. She aimed her first spell of her new life at **Rabiah**, and it failed against the sorcerer's ***Shield*** like everything else had.
 
 **Rabiah** liked how well it had worked, so she did it again. A second ***Hungry Pit*** opened in the north hallway under the adepts themselves, and four of them dropped into the dark together. One templar threw himself clear. The crunch came again, and then again. There were not many adepts left after that.
@@ -2837,6 +2839,8 @@ It struck her hard in the shoulder, a bludgeoning blow, and the air around her w
 *"Close the door. Harlock. Close the door now."*
 
 There was a derakni in there. It was a great insectile demon-thing, the same kind that had ambushed the expedition on the march, and it was not alone. **Harlock** closed the door. Then he planted himself in front of it with ***Radiance*** drawn. If anything opened it from the other side, it would get the sword in its face.
+
+![Close the door now.](images/close-the-door-now.webp)
 
 For a moment they saw something behind them in the corridor: a man-shaped thing with the head of a fly. Then it was gone. A thin mist rose out of the flagstones, and their thoughts went thick and slow. For a moment none of them could remember where they were or why. **Harlock** was the last to shake it off. He clenched his teeth, called up his mythic resolve, and pushed his way back to himself. **Rabiah** cast ***Mirror Image*** and seven copies of her joined her.
 
@@ -2876,6 +2880,8 @@ On a shelf behind where it had stood lay a suit of full plate, neatly stacked. I
 
 He had thought she was sensing the daemon. Her hilt went warm in his hand, much warmer than usual, and for a moment her light burned so bright he had to look away. When it settled, something had changed in her for good. ***Radiance*** was holy now, edged against everything evil, and she would stay that way.
 
+![She bore me before you did.](images/she-bore-me-before-you.webp)
+
 They stripped the room in three trips. **Harlock** and **Varic** carried everything on the shelves out into the storeroom while the black walls sweated and the drone gnawed at their minds. Both of them came out with their memories their own, though not by much. **Harlock** closed the secret door behind them. Then he took out ink and pen and drew a large skull and crossbones on it.
 
 ### **The Armour of Iomedae**
@@ -2900,6 +2906,8 @@ Its voice came out loud, and then it came again inside **Harlock**'s skull. *Ple
 
 It had chosen the wrong mind to put its idea in. **Lupenor** was laughing.
 
+![No one has to die here.](images/no-one-has-to-die-here.webp)
+
 She shot it while it was still talking. Her arrows went into it faster than it could flinch, and it hit the back wall and stayed there, stapled to the stone like a specimen. It had been wearing formal slippers, the kind a courtier wears to a levee. **Varic** promised the nearest adept that he would purge her soul in the holy fires of **Sarenrae**, and then he hit her with a bolt of them. **Harlock** laid into the templars with the new edge of ***Radiance***, and everything she touched now burned with it.
 
 One templar broke for the table. **Varic** cut at him as he passed, and **Harlock** hooked his legs out from under him. He went down an arm's length short. A second templar got there. He brought his fist down on the jar, and the locust came out as a swarm. It fell on the maps and scrolls and began to eat them, and it ate them at a horrible speed.
@@ -2909,6 +2917,8 @@ The priest plunged his hand into the swarm and came out with a fistful of papers
 They had been written over with ***Explosive Runes***. The blast threw everyone around the table back, the priest and the paladin hardest of all. It knocked the last templar senseless, and it killed every locust in the room. The papers were gone, turned to a paste of ink and insect. It had been a good trap. Whatever happened to the jar, the documents were never going to leave that room.
 
 The birdcage had fallen over in the blast. Inside was a small hawk with no wings, mutilated and blinded. It had been kept alive in there right up until the runes went off. It could only have been **Horace**. **Selyse Avelia** had lost him on the march, and the last thing he had shown her was a fist that smelled of the pit and voices in the dark. He was dead now. For as long as he had lived in that cage, his mistress could not call him back to her. Now she could.
+
+![Now she could.](images/now-she-could.webp)
 
 That told them who the thing on the wall had been. On the northern road, a babau under a flag of parley had demanded **Selyse**'s bird and her maps for a master no catalogue of the planes had ever heard of. A third, smaller flyer had hung at the edge of that fight, droning, and never come into focus. Now he had: **Ashi Waxentong**. He had kept the bird he stole, and he had worn his court slippers to the end.
 

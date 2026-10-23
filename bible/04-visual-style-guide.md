@@ -482,7 +482,7 @@ long hooked claws.
 chapter's babau — one long horn swept back — for continuity, even though the CANON row's Avoid
 line says `horns`. The CANON row governs babau everywhere else.*
 
-The **LEAD VAULT** in the **Ivory Sanctum**, behind a secret door in a storeroom of cloaks and
+The **LEAD VAULT** in the **Ivory Sanctum** ([`she-bore-me-before-you`](../images/she-bore-me-before-you.webp)), behind a secret door in a storeroom of cloaks and
 ropes (Book III, *What Radiance Remembered*): the room that drinks memory, where **Yaniel**'s
 armour was kept. **It is the ONE room in the Sanctum with NO ivory-and-bone mosaic** — say so,
 or the house Sanctum walls creep back in. A small, low, square chamber lined floor to ceiling in
@@ -497,7 +497,7 @@ much smaller note. The drone has no visual form, so **don't paint sound waves or
 *Avoid:* `ivory or bone walls, a mosaic, stone masonry, torches, candles, lanterns, daylight,
 glowing runes, red or green light, a large hall, visible sound waves`.
 
-The **MAP ROOM of Ashi Waxentong**, further along the Sanctum's north rooms: the ivory-and-bone chip
+The **MAP ROOM of Ashi Waxentong** ([`no-one-has-to-die-here`](../images/no-one-has-to-die-here.webp); its floor after the blast is [`now-she-could`](../images/now-she-could.webp)), further along the Sanctum's north rooms: the ivory-and-bone chip
 walls again, otherwise nearly empty. In the middle is **one large dark table heaped with maps and
 scrolls**, and in the centre of the table a **large stoppered glass jar holding one deformed,
 twitching locust**. In a corner a **wrought-iron stand with a curved hook arm** carries a **birdcage
