@@ -47,9 +47,11 @@ the queen, and it says that N. has offered to show him.
 <!-- weight: 0 -->
 <!-- aura: Faint evocation -->
 <!-- cl: 1 -->
+<!-- charges: 7 -->
 <!-- nonid: A slim black rod of bog oak, capped in iron -->
 
-A slim rod of black bog oak, capped in iron at both ends. **7 charges.** One missile per charge
+A slim rod of black bog oak, capped in iron at both ends. **7 charges.** Equip it and it appears
+on the Actions tab; each use takes a charge off the wand itself, and a rest does not restore them. One missile per charge
 at caster level 1st, 1d4+1 force, never misses.
 
 ### Scroll of See Invisibility
