@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Adds a Charges box to wands and staves, under Caster Level. The rulesets have no such field. -->
+<root>
+	<windowclass name="item_main" merge="join">
+		<script file="campaign/scripts/item_main_charges.lua" />
+		<sheetdata>
+			<label_content_column name="charges_label" insertbefore="prerequisites_label">
+				<static>Charges</static>
+			</label_content_column>
+			<number_content_columnh name="charges" insertbefore="prerequisites_label">
+				<min>0</min>
+				<tooltip><text>Charges left. Each use takes one off; a rest does not restore them.</text></tooltip>
+			</number_content_columnh>
+		</sheetdata>
+	</windowclass>
+</root>

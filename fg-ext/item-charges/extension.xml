@@ -2,7 +2,7 @@
 <root version="3.3" release="1">
 	<properties>
 		<name>Feature: Item Charges (No Recharge)</name>
-		<version>1.0.0</version>
+		<version>1.2.0</version>
 		<loadorder>60</loadorder>
 		<author>Matt Dahse</author>
 		<description>Equipped wands, staves, scrolls and potions get a spell class on the Actions tab. The item itself holds the charges, so a long rest cannot recharge anything. Replaces Advanced Item Actions; do not run both.</description>
@@ -14,9 +14,10 @@
 		</ruleset>
 	</properties>
 
-	<announcement text="Item Charges (No Recharge) v1.0.0: equipped wands, staves, scrolls and potions cast from the Actions tab, and the item keeps the count." font="emotefont" icon="module_loaded" />
+	<announcement text="Item Charges (No Recharge) v1.2.0: equipped wands, staves, scrolls and potions cast from the Actions tab, and the item keeps the count." font="emotefont" icon="module_loaded" />
 
 	<base>
 		<script name="ItemChargesMC" file="scripts/manager_item_charges.lua" />
+		<includefile source="campaign/record_item.xml" />
 	</base>
 </root>

@@ -19,6 +19,8 @@
 
 local SPELLSET = "spellset";
 local MARK = "mc_item";          -- on a spell class: the path of the item it belongs to
+local CHARGES_SET = "mc_charges_set"; -- on an item: 1 once its Charges field holds a real count
+local SPENT = "mc_spent";        -- on a spell class: its potion or scroll is gone; clear it soon
 
 local _bBusy = false;            -- guards our own writes against the handlers they trigger
 
@@ -71,9 +73,14 @@ local function readCharges(nodeItem, sKind)
 	if sField == "count" then
 		return DB.getValue(nodeItem, "count", 0);
 	end
+	-- The Charges field is the record once anyone has really set it: this extension (from the
+	-- name, or by spending a charge) or a person typing a number. Opening the item window can
+	-- create the field at an empty 0, and that must not hide "[50 charges]" in the name, so a 0
+	-- counts only when CHARGES_SET says it was meant.
 	local nodeField = DB.getChild(nodeItem, "charges");
-	if nodeField then
-		return DB.getValue(nodeField) or 0;
+	local nField = nodeField and (DB.getValue(nodeField) or 0) or 0;
+	if nodeField and (nField > 0 or DB.getValue(nodeItem, CHARGES_SET, 0) == 1) then
+		return nField;
 	end
 	local n = chargesInName(DB.getValue(nodeItem, "name", ""));
 	if not n then
@@ -83,6 +90,7 @@ local function readCharges(nodeItem, sKind)
 	if n then
 		_bBusy = true;
 		DB.setValue(nodeItem, "charges", "number", n);
+		DB.setValue(nodeItem, CHARGES_SET, "number", 1);
 		_bBusy = false;
 		return n;
 	end
@@ -90,8 +98,12 @@ local function readCharges(nodeItem, sKind)
 end
 
 local function writeRemaining(nodeItem, sKind, n)
+	local sField = chargeField(sKind);
 	_bBusy = true;
-	DB.setValue(nodeItem, chargeField(sKind), "number", math.max(n, 0));
+	DB.setValue(nodeItem, sField, "number", math.max(n, 0));
+	if sField == "charges" then
+		DB.setValue(nodeItem, CHARGES_SET, "number", 1);
+	end
 	_bBusy = false;
 end
 
@@ -130,30 +142,32 @@ local function findSpell(sName)
 	return nil;
 end
 
-findSpellByKey = function(sKey)
-	local node = DB.findNode("spelldesc." .. sKey .. "@*");
-	if node then
-		return node;
-	end
-	-- Campaign spells, then every loaded module's spell list, by name.
-	for _,v in ipairs(DB.getChildList("spell")) do
-		if spellKey(DB.getValue(v, "name", "")) == sKey then
-			return v;
+-- Search the same places the ruleset's Spells list does: the spell record type's data paths
+-- ("spell", "reference.spells", "spelldesc" in 3.5E/PFRPG), in the campaign and in every loaded
+-- module, vault modules included. The campaign's own copy wins over a module's.
+local function spellDataPaths()
+	if RecordDataManager and RecordDataManager.getDataPaths then
+		local t = RecordDataManager.getDataPaths("spell");
+		if t and #t > 0 then
+			return t;
 		end
 	end
-	for _,sModule in ipairs(Module.getModules()) do
-		local tInfo = Module.getModuleInfo(sModule);
-		if tInfo and tInfo.loaded then
-			for _,sList in ipairs({ "spelldesc@", "reference.spells@" }) do
-				for _,v in ipairs(DB.getChildList(sList .. sModule)) do
-					if spellKey(DB.getValue(v, "name", "")) == sKey then
-						return v;
-					end
+	return { "spell", "reference.spells", "spelldesc" };
+end
+
+findSpellByKey = function(sKey)
+	local nodeModule;
+	for _,sPath in ipairs(spellDataPaths()) do
+		for _,v in ipairs(DB.getChildrenGlobal(sPath)) do
+			if spellKey(DB.getValue(v, "name", "")) == sKey then
+				if (DB.getModule(v) or "") == "" then
+					return v;
 				end
+				nodeModule = nodeModule or v;
 			end
 		end
 	end
-	return nil;
+	return nodeModule;
 end
 
 -- The lowest level the spell appears at in its "level" field ("Brd 3, Sor/Wiz 2" gives 2).
@@ -243,6 +257,23 @@ local function createClass(nodeChar, nodeItem, sKind)
 				DB.setValue(nodeAction, "savedcmod", "number", 10 + nLevel + math.floor(nLevel / 2));
 			end
 		end
+		-- A potion acts on whoever drinks it: healing and effects land on the drinker, with no
+		-- save, spell resistance or attack against anyone targeted. Oils are applied to
+		-- something, so they keep normal targeting.
+		if sKind == "potion" and not sItemName:lower():match("^%s*oil") then
+			for _,nodeAction in ipairs(DB.getChildList(nodeNew, "actions")) do
+				local sType = DB.getValue(nodeAction, "type", "");
+				if sType == "heal" then
+					DB.setValue(nodeAction, "healtargeting", "string", "self");
+				elseif sType == "effect" then
+					DB.setValue(nodeAction, "targeting", "string", "self");
+				elseif sType == "cast" then
+					DB.setValue(nodeAction, "savetype", "string", "");
+					DB.setValue(nodeAction, "atktype", "string", "");
+					DB.setValue(nodeAction, "srnotallowed", "number", 1);
+				end
+			end
+		end
 	end
 	_bBusy = false;
 	return nodeClass;
@@ -296,7 +327,7 @@ end
 -- Remove item classes whose item no longer exists or is no longer equipped, and any class left
 -- behind by Advanced Item Actions (it marks them with source_name = the item's path). Those
 -- would otherwise sit beside this extension's class for the same item, holding the stale count.
-local function sweepChar(nodeChar)
+local function sweepChar(nodeChar, bClearSpent)
 	for _,nodeClass in ipairs(DB.getChildList(nodeChar, SPELLSET)) do
 		if DB.getValue(nodeClass, MARK, "") == "" and DB.getValue(nodeClass, "source_name", ""):find("%.inventorylist%.") then
 			removeClass(nodeClass);
@@ -307,7 +338,9 @@ local function sweepChar(nodeChar)
 		if sPath ~= "" then
 			local nodeItem = DB.findNode(sPath);
 			if not nodeItem then
-				removeClass(nodeClass);
+				if bClearSpent or DB.getValue(nodeClass, SPENT, 0) ~= 1 then
+					removeClass(nodeClass);
+				end
 			else
 				refreshItem(nodeItem);
 			end
@@ -324,9 +357,15 @@ end
 --	HANDLERS
 --
 
-local function onItemField(nodeItem, _)
+local function onItemField(nodeItem, sField)
 	if _bBusy or not Session.IsHost then
 		return;
+	end
+	-- Someone typed a number into the Charges box: from now on that is the record.
+	if sField == "charges" and DB.getValue(nodeItem, "charges", 0) > 0 then
+		_bBusy = true;
+		DB.setValue(nodeItem, CHARGES_SET, "number", 1);
+		_bBusy = false;
 	end
 	refreshItem(nodeItem);
 end
@@ -351,9 +390,24 @@ local function onPointsUsed(nodeField)
 	local nUsed = DB.getValue(nodeField) or 0;
 	if nUsed > 0 then
 		local nLeft = DB.getValue(nodeClass, "points", 0) - nUsed;
+		local sName = DB.getValue(nodeItem, "name", "");
+		if nLeft <= 0 and (sKind == "potion" or sKind == "scroll") then
+			-- The last one is drunk or read: it leaves the inventory now. Its Actions entry stays,
+			-- empty, so the healing or effect can still be rolled; it clears at the drinker's next
+			-- turn, a long rest, or the next load.
+			_bBusy = true;
+			DB.setValue(nodeClass, SPENT, "number", 1);
+			DB.setValue(nodeClass, "points", "number", 0);
+			DB.setValue(nodeClass, "pointsused", "number", 0);
+			DB.setValue(nodeClass, "label", "string", sName .. " (used up)");
+			DB.deleteNode(nodeItem);
+			_bBusy = false;
+			chat(DB.getChild(nodeClass, "..."), string.format("'%s' is used up and removed from inventory.", sName));
+			return;
+		end
 		writeRemaining(nodeItem, sKind, nLeft);
 		if nLeft <= 0 then
-			chat(DB.getChild(nodeClass, "..."), string.format("'%s' is used up.", DB.getValue(nodeItem, "name", "")));
+			chat(DB.getChild(nodeClass, "..."), string.format("'%s' is used up.", sName));
 		end
 	end
 	syncClass(nodeClass, nodeItem, sKind);
@@ -392,6 +446,40 @@ function onInit()
 	DB.addHandler("charsheet.*." .. SPELLSET .. ".*.pointsused", "onUpdate", onPointsUsed);
 	DB.addHandler("charsheet.*." .. SPELLSET .. ".*.points", "onUpdate", onPoints);
 	DB.addHandler("charsheet.*.inventorylist", "onChildDeleted", onInventoryChildDeleted);
+
+	-- A used-up potion's or scroll's empty entry clears at the drinker's next turn...
+	if CombatManager and CombatManager.setCustomTurnStart then
+		CombatManager.setCustomTurnStart(onTurnStart);
+	end
+	-- ...or on a long rest (the ruleset's long rest is the one caller of resetSpells).
+	if SpellManager and SpellManager.resetSpells then
+		local fReset = SpellManager.resetSpells;
+		SpellManager.resetSpells = function(nodeCaster, ...)
+			if nodeCaster and Session.IsHost then
+				clearSpent(nodeCaster);
+			end
+			return fReset(nodeCaster, ...);
+		end
+	end
+end
+
+function clearSpent(nodeChar)
+	for _,nodeClass in ipairs(DB.getChildList(nodeChar, SPELLSET)) do
+		if DB.getValue(nodeClass, SPENT, 0) == 1 then
+			removeClass(nodeClass);
+		end
+	end
+end
+
+function onTurnStart(nodeCT)
+	if not Session.IsHost or not nodeCT then
+		return;
+	end
+	local rActor = ActorManager.resolveActor(nodeCT);
+	local nodeChar = rActor and ActorManager.getCreatureNode(rActor);
+	if nodeChar and DB.getName(DB.getParent(nodeChar)) == "charsheet" then
+		clearSpent(nodeChar);
+	end
 end
 
 function onTabletopInit()
@@ -399,6 +487,12 @@ function onTabletopInit()
 		return;
 	end
 	for _,nodeChar in ipairs(DB.getChildList("charsheet")) do
-		sweepChar(nodeChar);
+		sweepChar(nodeChar, true);
 	end
+end
+
+-- For the item window: wands and staves show a Charges box (potions and scrolls use Count).
+function usesChargesField(nodeItem)
+	local sKind = itemKind(nodeItem);
+	return sKind == "wand" or sKind == "staff";
 end

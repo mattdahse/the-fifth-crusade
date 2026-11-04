@@ -108,7 +108,7 @@ Session = { IsHost = true }
 StringManager = { trim = function(s) return (s:gsub("^%s+", ""):gsub("%s+$", "")) end }
 Module = { getModules = function() return {} end, getModuleInfo = function() return nil end }
 ChatManager = { SystemMessage = function(s) table.insert(log, s) end }
-ActorManager = { resolveActor = function(n) return n end, getDisplayName = function(n) return DB.getValue(n, "name", "?") end }
+ActorManager = { resolveActor = function(n) return n end, getCreatureNode = function(n) return n end, getDisplayName = function(n) return DB.getValue(n, "name", "?") end }
 CharInventoryManager = { registerFieldUpdateCallback = function(f, fn) invCallbacks[f] = invCallbacks[f] or {}; table.insert(invCallbacks[f], fn) end }
 SpellManager = {}
 function SpellManager.addSpell(src, cls, lvl)
@@ -116,6 +116,15 @@ function SpellManager.addSpell(src, cls, lvl)
   local n = DB.createChildAndCopy(spells, src)
   local a = DB.createChild(DB.createChild(n, "actions"))
   DB.setValue(a, "type", "string", "cast")
+  -- what the ruleset's parser makes: a save on the cast, heal or effect actions
+  local nm = DB.getValue(n, "name", "")
+  if nm:find("Cure") then
+    DB.setValue(a, "savetype", "string", "will")
+    local h = DB.createChild(DB.createChild(n, "actions")); DB.setValue(h, "type", "string", "heal")
+  end
+  if nm:find("Air Walk") or nm:find("Magic Weapon") then
+    local e = DB.createChild(DB.createChild(n, "actions")); DB.setValue(e, "type", "string", "effect")
+  end
   DB.setValue(n, "cost", "number", (lvl - 1) * 2 + 1)
   return n
 end
@@ -136,13 +145,24 @@ function usePower(nodeSpell)
   DB.setValue(cls, "pointsused", "number", used + cost); return true
 end
 
--- spells "module"
-for k, v in pairs({ magicmissile = { "Magic Missile", "Sor/Wiz 1" },
-                    seeinvisibility = { "See Invisibility", "Brd 3, Sor/Wiz 2" },
-                    curelightwounds = { "Cure Light Wounds", "Brd 1, Clr 1, Drd 1, Pal 1, Rgr 2" },
-                    restorationlesser = { "Restoration, Lesser", "Clr 2, Drd 2, Pal 1" },
-                    cureseriouswounds = { "Cure Serious Wounds", "Brd 3, Clr 3, Drd 4" } }) do
-  local n = DB.createChild(walk(root, "spelldesc", true), k)
+-- The ruleset's record paths for spells, and FG's global child lookup (campaign + modules).
+-- Module records are marked with .module; record keys are opaque ids, as in a real module,
+-- so a spell can only be found by its name.
+RecordDataManager = { getDataPaths = function(s) if s == "spell" then return { "spell", "reference.spells", "spelldesc" } end; return {} end }
+function DB.getChildrenGlobal(p) return DB.getChildList(p) end
+function DB.getModule(n) while n do if n.module then return n.module end; n = n.parent end; return "" end
+
+-- spells "module" (Core Rules keeps its spells under reference.spells)
+local spells = walk(root, "reference.spells", true)
+spells.module = "Core Rules"
+for _, v in ipairs({ { "Magic Missile", "Sor/Wiz 1" },
+                     { "See Invisibility", "Brd 3, Sor/Wiz 2" },
+                     { "Cure Light Wounds", "Brd 1, Clr 1, Drd 1, Pal 1, Rgr 2" },
+                     { "Restoration, Lesser", "Clr 2, Drd 2, Pal 1" },
+                     { "Air Walk", "Clr 4, Drd 4" },
+                     { "Magic Weapon", "Clr 1, Pal 1, Sor/Wiz 1" },
+                     { "Cure Serious Wounds", "Brd 3, Clr 3, Drd 4" } }) do
+  local n = DB.createChild(spells)
   DB.setValue(n, "name", "string", v[1]); DB.setValue(n, "level", "string", v[2])
 end
 '''
@@ -252,6 +272,80 @@ print("no charges anywhere: warns, does not invent 50")
 local bare = item("Wand of Magic Missile", "Wand", { carried = 2 })
 check(DB.getValue(class(bare), "points") == 0, "class at 0 points")
 check(LOG[#LOG]:find("no charges set") ~= nil, "GM warned: " .. LOG[#LOG])
+
+print("the Charges box: an empty 0 from opening the window does not hide the name's count")
+local w50 = item("Wand of Magic Missile [50 charges]", "Wand", { carried = 1, charges = 0 })
+DB.setValue(w50, "carried", "number", 2)
+check(DB.getValue(class(w50), "points") == 50 and DB.getValue(w50, "charges") == 50, "field at 0 without a mark: 50 read from the name")
+for i = 1, 50 do usePower(spellOf(class(w50))) end
+DB.setValue(w50, "carried", "number", 1); DB.setValue(w50, "carried", "number", 2)
+check(DB.getValue(w50, "charges") == 0 and DB.getValue(class(w50), "points") == 0, "spent to 0 and re-equipped: stays 0, not refilled from the name")
+local typed = item("Wand of Magic Missile", "Wand", { carried = 2 })
+DB.setValue(typed, "charges", "number", 12)
+check(DB.getValue(class(typed), "points") == 12 and DB.getValue(typed, "mc_charges_set") == 1, "typing 12 into the Charges box: class shows 12, marked as set")
+check(ItemChargesMC == nil and usesChargesField(typed) == true and usesChargesField(pot) == false, "Charges box shown for wands, not potions")
+
+print("potions act on the drinker")
+local function action(cls, typ)
+  for _, a in ipairs(DB.getChildList(spellOf(cls), "actions")) do if DB.getValue(a, "type") == typ then return a end end
+end
+local clw = item("Potion of Cure Light Wounds", "Potion", { carried = 2, count = 2 })
+local clwc = class(clw)
+check(DB.getValue(action(clwc, "heal"), "healtargeting") == "self", "healing targets self")
+check(DB.getValue(action(clwc, "cast"), "savetype") == "" and DB.getValue(action(clwc, "cast"), "srnotallowed") == 1, "no save or SR against a target")
+local pwalk = item("Potion of Air Walk", "Potion", { carried = 2, count = 1 })
+check(DB.getValue(action(class(pwalk), "effect"), "targeting") == "self", "effect targets self")
+local oil = item("Oil of Magic Weapon", "Potion", { carried = 2, count = 1 })
+check(DB.getValue(action(class(oil), "effect"), "targeting") == nil, "an oil keeps normal targeting")
+local wclw = item("Wand of Cure Light Wounds", "Wand", { carried = 2, charges = 5 })
+check(DB.getValue(action(class(wclw), "heal"), "healtargeting") == nil, "a wand keeps normal targeting")
+
+print("drinking the last potion removes it from inventory")
+usePower(spellOf(clwc))
+check(DB.getValue(clw, "count") == 1 and class(clw) ~= nil, "one of two drunk: count 1, still in inventory")
+local nodeCls = clwc
+usePower(spellOf(clwc))
+local gone = true
+for _, v in ipairs(DB.getChildList(inv)) do if v == clw then gone = false end end
+check(gone, "last one drunk: item deleted from inventory")
+check(DB.getValue(nodeCls, "mc_spent") == 1 and DB.getValue(nodeCls, "points") == 0, "its Actions entry stays, empty, so the healing can still be rolled")
+check(DB.getValue(nodeCls, "label"):find("used up") ~= nil, "labelled used up")
+check(LOG[#LOG]:find("removed from inventory") ~= nil, "chat says so")
+DB.deleteNode(oil)
+local still = false
+for _, c in ipairs(DB.getChildList(char, "spellset")) do if c == nodeCls then still = true end end
+check(still, "another inventory change does not clear it early")
+onTurnStart(char)
+still = false
+for _, c in ipairs(DB.getChildList(char, "spellset")) do if c == nodeCls then still = true end end
+check(not still, "cleared at the drinker's next turn")
+usePower(spellOf(class(pwalk)))
+local walkCls
+for _, c in ipairs(DB.getChildList(char, "spellset")) do if DB.getValue(c, "mc_spent") == 1 then walkCls = c end end
+check(walkCls ~= nil, "Potion of Air Walk drunk: empty entry kept")
+SpellManager.resetSpells(char)
+check(DB.getValue(walkCls, "mc_spent") == nil or #DB.getChildList(char, "spellset") == 0 or (function() for _, c in ipairs(DB.getChildList(char, "spellset")) do if c == walkCls then return false end end return true end)(), "cleared by a long rest")
+check(DB.getValue(wclw, "charges") == 5, "the wand is untouched by all this")
+
+print("reading the last scroll removes it too")
+local lastScroll = item("Scroll of Magic Missile", "Scroll", { carried = 2, count = 1 })
+usePower(spellOf(class(lastScroll)))
+gone = true
+for _, v in ipairs(DB.getChildList(inv)) do if v == lastScroll then gone = false end end
+check(gone, "scroll deleted from inventory")
+
+print("a module spell is found by name (the Wand of Air Walk case)")
+local aw = item("Wand of Air Walk", "Wand", { carried = 2, charges = 10 })
+local awc = class(aw)
+check(awc ~= nil and DB.getValue(spellOf(awc), "name") == "Air Walk", "Air Walk found in Core Rules' reference.spells")
+check(DB.getName(DB.getParent(DB.getParent(spellOf(awc)))) == "level4", "filed at level 4")
+
+print("the campaign's own copy of a spell wins over the module's")
+local mine = DB.createChild(DB.createChild(nil, "spell"))
+DB.setValue(mine, "name", "string", "Magic Missile"); DB.setValue(mine, "level", "string", "Sor/Wiz 1")
+DB.setValue(mine, "shortdescription", "string", "HOUSE COPY")
+local mm2 = item("Wand of Magic Missile", "Wand", { carried = 2, charges = 3 })
+check(DB.getValue(spellOf(class(mm2)), "shortdescription") == "HOUSE COPY", "campaign spell used")
 
 print(fails == 0 and "ALL PASS" or (fails .. " FAILED"))
 return fails

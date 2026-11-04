@@ -27,21 +27,35 @@ resets the class to the new total with nothing used.
 A rest sets points used to 0, which it already is, so there is nothing for a rest to restore. The
 extension does not fight the ruleset's rest code; it simply never gives it anything to reset.
 
-- **Charges:** wands and staves use the item's **Charges** field. If it has never been set, the
-  extension reads `[7 charges]`, `(48 charges)`, `[7 charge]` or a trailing ` - 44` in the name,
-  then `7 charges` in the description, and writes the number back to the field. Once the field
-  exists it is the only answer, even at 0, so a used-up wand is never refilled from its name. It never invents a default: an item with no charges
-  anywhere gets a class at 0 and a message to the GM. Potions and scrolls use **Count**.
+- **Charges:** neither ruleset has a charges field on items (Advanced Item Actions added one),
+  so this extension adds a **Charges** box to the item sheet of identified wands and staves,
+  under Caster Level; unlock the item to type in it. If it has never been set, the extension
+  reads `[7 charges]`, `(48 charges)`, `[7 charge]` or a trailing ` - 44` in the name, then
+  `7 charges` in the description, and writes the number into the box. From then on the box is
+  the only answer, even at 0, so a used-up wand is never refilled from its name. (The item is
+  marked `mc_charges_set` once the box holds a real count, because opening the window can
+  create an empty 0 that must not hide the name's count.) It never invents a default: an item
+  with no charges anywhere gets a class at 0 and a message to the GM. Potions and scrolls use
+  **Count**.
 - **The spell** is found by name: *Wand of Magic Missile*, *Wand (Magic Missile)*, *Potion of
-  Lesser Restoration* (Pathfinder's "Restoration, Lesser" is tried too). It searches
-  `spelldesc.*` across loaded modules, then the campaign's spells, then every loaded module's spell
-  list. A spell module has to be loaded.
+  Lesser Restoration* (Pathfinder's "Restoration, Lesser" is tried too). It searches by name in
+  the same places as the ruleset's Spells list (the spell record type's data paths, through
+  `DB.getChildrenGlobal`), so any spell the Spells list shows can be found, vault modules such as
+  Core Rules included. The campaign's own copy of a spell wins over a module's.
 - **Spell level** is the lowest level in the spell's level line ("Brd 3, Sor/Wiz 2" gives 2).
 - **Caster level** is the item's **CL** field, else `(CL 5)` in its name, else the minimum for the
   spell's level.
 - **Save DC** is fixed at the Pathfinder item rule: 10 + spell level + the minimum casting
   modifier for that level.
 - **One charge per use**, whatever the spell's level.
+- **Potions act on the drinker.** Their healing and effects are set to target self, and the cast
+  carries no save, spell resistance or attack against whoever happens to be targeted. Oils
+  ("Oil of ...") are applied to something else and keep normal targeting.
+- **The last potion or scroll leaves the inventory** the moment it is spent (the cast counter on
+  the Actions tab). Its Actions entry stays behind, empty and marked *(used up)*, so its healing
+  or effect can still be rolled; it clears at that character's next turn in the combat tracker,
+  on a long rest, or when the campaign next loads. Used-up wands and staves stay in the
+  inventory at 0.
 - **Leftovers from Advanced Item Actions** (spell classes it made for items) are removed when the
   campaign loads, so the same wand never shows two classes.
 - **One spell per item.** A staff with several spells (*Spherewalker's Staff*) has no single
