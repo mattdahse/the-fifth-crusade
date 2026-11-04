@@ -10,6 +10,7 @@
 @link quest: hold_the_halfway_house | Hold the Halfway House
 @link battle: labyrinth_post | The halfway house
 @link battle: young_queen | The young queen
+@link map: warren | The warren (map)
 @link npc: ysolde_karn | Ysolde Karn
 @link npc: nib | Nib
 @link parcel: gells_satchel | Gell's satchel
@@ -62,7 +63,9 @@ years. It will take a great deal longer than that. It will also not stop.
 
 **What is left:** Ysolde; **two Labyrinth men**, who have watched eleven of their friends go down
 a hatch and do exactly what they are told; Nib, invisibly, on Ysolde's left shoulder; and under
-the floor, a hive that is bigger every season. **Garth Wyle and Tam Ricket** walked out through the
+the floor, a hive that is bigger every season. Below the cellar and the nest is **the warren**, a
+web of galleries full of workers, with the **queen's chamber** at its west end, under the dry
+watercourse, its roof held up by two timber props the Labyrinth's men set. **Garth Wyle and Tam Ricket** walked out through the
 north breach two nights before the company arrives.
 
 ## The secret, and how they find it out
@@ -104,7 +107,8 @@ enough.
   It is where Nib used to whisper to the men at night.
 - **The table room** is Ysolde's. The trapdoor is in its floor, she sleeps beside it, and the
   table is chalked edge to edge with a plan of the tunnel.
-- **The sealed room** is the queen's, and the only place in the house that Nib is careful about.
+- **The sealed room** is where the queen laid her first clutch. It is empty now but for husks and
+  the bore-hole down.
 
 ## Running the fights
 
@@ -123,8 +127,20 @@ been waiting a year for somebody to make her fall.
 through the hatch. They know what Garth knew, and more about the tunnel, because they dig it.
 
 **The ant nest** in the cellar is four soldiers, and it is described in the cellar story. **The
-young queen** in the sealed room is a CR 4 boss with one use of **Call the Brood**: read that
-ability's notes before running her. If the clutch has been burned, **nothing answers**.
+warren** below it is dozens of **workers**, who are not a fight: they crowd the galleries and tidy
+away anything that does not belong. **The young queen** in her chamber at the warren's west end is
+a CR 4 boss with one use of **Call the Brood**: read that ability's notes before running her.
+
+## The ending
+
+**The natural end of this adventure is the roof.** The queen's chamber lies under the dry
+watercourse, and two timber props are holding its roof up. Dorogh can read a roof (Knowledge
+(engineering), +2 with the Keeper's *On Mines and Countermines*), Diddle can pack his bombs into
+fused charges (Craft (alchemy)), and between them they can bring the whole chamber down on the
+queen and her clutch while the workers try to tidy the charges away, the soldiers come in through
+the only way out, and Nib tries to pinch out the fuses. The full sequence is **Bringing Down the
+Roof** in the warren's pages. Point the players at it without telling them: the props are in the
+read-aloud, the scree is in the read-aloud, and the treatise is in their packs.
 
 **Nib is never a straight fight.** She claws from invisibility when she has to, uses ***cause
 fear*** when the company is winning, bargains when she is losing, and flees up the chimney when
@@ -166,9 +182,12 @@ measure of the session is which of these the party can say afterwards:
   seriously indeed.
 - **The hive loses a generation.** Burning the clutch is the thing that is permanently different.
   A hive that loses a season digs nothing next year, and the tunnel stops where it is.
+- **The roof comes down.** The queen and the clutch under tons of gravel, the watercourse sunk
+  into a hollow, and the warren dying by the season's end. That is the end of it, and it is
+  Dorogh and Diddle's.
 - **The manor is held.** Six rooms and a roof, halfway along a road that had nothing on it. Rothin
   Vald's runners start using it within the week, and that is the whole commission.
 
-A party that gets one of these has done a job. A party that gets all four has changed the road,
+A party that gets one of these has done a job. A party that gets them all has changed the road,
 and Elara, who is serious about the written report, will read it and know exactly what she nearly
 sent four people into.

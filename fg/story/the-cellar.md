@@ -77,13 +77,13 @@ rotted thong, stamped with a maze — the third Labyrinth token, the one that ca
 There are others further in. A party that starts counting them arrives at eleven, and does not
 need to be told what the muster list means.
 
-## The road
+## The warren
 
-**One of the side burrows does not stop.** Behind a curtain of loose earth it runs on east, wide
-enough for a soldier, shored here and there with timber the men carried down from the house. It
-is a quarter of a mile long, it is going toward Drezen, and on any given night there is a soldier
-or two at its head, digging. That is the road in the back of the ledger. A party that walks it to
-the end can tell Elara exactly what it is.
+**One of the side burrows does not stop.** It slopes down at a walk, and the rustling comes up it:
+the passage to **the warren**, a web of galleries and small chambers full of workers, with the
+**queen's chamber** at its west end and **the road** leaving east toward Drezen. The warren has its
+own map and its own pages, and the adventure's natural ending is there: **Bringing Down the
+Roof**.
 
 ## What the party's work changes
 
@@ -96,14 +96,7 @@ consequence and worth remembering rather than punishing immediately. It comes ba
 
 ## The bore-hole
 
-At the north end of the nest chamber, a fresh shaft goes **up** — not bored west like the rest of
-the tunnel, but climbed, and recently, and by something much bigger than a soldier. It comes out
-in the sealed room in the manor's north-east corner.
-
-This is the connection that makes the two maps one adventure. It is how the queen reached a room
-whose door has been blocked for years; it is how her soldiers get to her when she calls; and it
-is a second way into the boss fight for a party that would rather not spend ten loud minutes
-clearing masonry with the whole house listening.
-
-It is a climb, and it is exactly as wide as she is, which means anybody going up it is going up
-it alone and arriving one at a time.
+At the north end of the nest chamber a shaft goes **up**, climbed by something much bigger than a
+soldier, into the sealed room in the manor's north-east corner. The queen laid her first clutch up
+there and came down this way when it outgrew the room. It is a second way between the house and the
+nest, one creature wide.

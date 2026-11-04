@@ -7,7 +7,9 @@ The tunnel opens out. The floor is deep in husks and chitin that give underfoot,
 walls, heaped where the ground is warmest, are clutches of pale eggs the size of a fist. There are
 a great many of them.
 
-**Four soldiers**, and they start the fight already moving: two coming up the tunnel toward the
+**This is the brood's front door, not its heart**: the eggs here are the overflow from the queen's
+chamber below, carried up by workers to the warmest ground. **Four soldiers**, and they start the
+fight already moving: two coming up the tunnel toward the
 noise, two holding the egg heaps and not leaving them. The two on the clutch will not follow the
 party back up the tunnel, which is an exit for anyone who notices it.
 
@@ -17,9 +19,8 @@ party back up the tunnel, which is an exit for anyone who notices it.
   the open while something the size of a pony objects.
 - **Knowledge (dungeoneering) DC 15**, or simply counting, to recognise the heaps as a single
   season's laying rather than an established hive.
-- **The east burrow.** One of the side burrows that seem to stop does not. Behind a curtain of
-  loose earth it runs on east, shored with timber from the house. That is **the road**: a quarter
-  of a mile of it, and at its head, on any given night, a soldier or two digging.
+- **The way down.** One of the side burrows that seem to stop does not. It slopes down, and the
+  rustling comes up it: that is the passage to **the warren**, the queen, and the road east.
 
 **Gell is in the midden.** A scatter of bones in the rags of a good grey robe, and a silver signet
 with *O. G.* inside the band. Among the husks are hooked iron discs on rotted thongs, the
@@ -32,5 +33,5 @@ off, she will mean it, and nothing will happen.
 @link ability: grab | Grab (Ex)
 @link ability: poison_giant_ant | Poison (Ex) - sting, DC 14
 @link parcel: nest_midden | What is in the nest
-@link quest: the_road_under_the_road | The road under the road
+@link map: warren | The Warren below
 @link map: cellar | The manor cellar (map)

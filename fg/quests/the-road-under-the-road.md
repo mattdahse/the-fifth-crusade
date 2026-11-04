@@ -13,9 +13,9 @@ walls, a quarter of a mile so far and further every season, and nobody in the ci
 
 ## Terms
 
-- **The tunnel** leaves the nest by what looks like one of the side burrows that stop. It does not
-  stop. Behind a curtain of loose earth it runs on east, wide enough for a soldier, shored in places
-  with the post's own timber. At its head, a quarter of a mile on, there may be soldiers digging.
+- **The tunnel** leaves the warren east, the one straight passage down there, wide enough for a
+  soldier and shored every few yards with the post's own timber. At its head, a quarter of a mile
+  on, there are workers digging and a soldier standing over them.
 - **The back of the ledger** says the same thing in figures: *The Road*, a year of feet dug, and
   *Drezen, 22 miles less 1,240 ft.*
 - **Ysolde will tell them herself**, proudly, if anybody asks her what the road is for. So will

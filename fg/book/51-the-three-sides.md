@@ -15,12 +15,13 @@ gives them a reason.
 her voice the ants obey. She led her old master to his death, she is feeding the men to the brood
 to grow it, and she means to arrive before Deskari at the head of a swarm.
 
-**The young queen**, walled into the north-east room, laying; and her soldiers in the earth under
-the cellar, digging east.
+**The young queen**, in a chamber at the bottom of the warren under the cellar, laying; her soldiers;
+and dozens of workers, digging east.
 
 @link npc: ysolde_karn | Ysolde Karn
 @link npc: nib | Nib
 @link npc: labyrinth_squatter | Labyrinth Squatter
 @link npc: fiendish_ant_queen | The Young Queen
+@link npc: fiendish_giant_ant_worker | The workers
 @link ability: voice_of_the_brood | Voice of the Brood (Su)
 @link map: manor | The manor (map)

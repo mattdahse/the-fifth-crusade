@@ -40,10 +40,10 @@ specialqualities: Immune mind-affecting effects; Resist cold 5, fire 5
 
 ## Description
 
-> The rubble comes away and the smell arrives first — sour, sweet, and warm, like a byre that has
-> been shut up for a season. The room behind it is not a room any more. Every surface is packed
-> earth, and the floor is heaped with pale eggs, and in the middle of them is something the size
-> of a cart horse.
+> The gallery opens and the smell arrives first — sour, sweet, and warm, like a byre that has
+> been shut up for a season. The cavern beyond is bigger than the great hall above it, and its
+> floor is heaped with pale eggs around a mound of packed earth, and on the mound is something the
+> size of a cart horse.
 >
 > She is not the colour of the others. Her shell is bone-white and cold ivory, waxy, going amber
 > along the ridges of a head as broad as a shield, and behind that head is an abdomen swollen
@@ -68,15 +68,21 @@ specialqualities: Immune mind-affecting effects; Resist cold 5, fire 5
 ## Tactics
 
 **She is young, and that is the whole design of this fight.** An established queen does not move
-and cannot fight; this one flew here, shed her wings, walled herself in and started laying, and
-she is still quick enough to be dangerous. She has not yet become the immobile thing she is going
-to be.
+and cannot fight; this one flew here, shed her wings, walled herself into the north-east room of
+the house and started laying, then went down the bore-hole when the clutch outgrew it, into the
+cavern her workers had found under the watercourse. She is still quick enough to be dangerous. She
+has not yet become the immobile thing she is going to be.
+
+**The fight is probably not the ending.** Her chamber's roof is held up by two timber props, and
+the natural end of this adventure is the company bringing it down on her: see **Bringing Down the
+Roof**.
 
 **She fights over the clutch and will not step off it.** Ten feet of reach means she does not have
 to. Anything that comes within reach gets bitten, held, and stung; anything that stays back she
 ignores in favour of whatever is closest to the eggs.
 
-**Call the Brood on the first round.** Soldiers come up the bore-hole from the cellar. How many
+**Call the Brood on the first round.** Soldiers come in from the galleries, through the
+chamber's mouth. How many
 is the GM's dial and it is the main thing controlling this fight's difficulty — see the encounter.
 
 **Threaten the eggs and she loses her mind.** A character who visibly attacks the clutch becomes
@@ -93,4 +99,4 @@ cold front.
 Which is the joke at the centre of this adventure, and it should land without anybody explaining
 it. **Ysolde Karn believes something in this house belongs to her.** It is this. It has never
 noticed her, it has eaten eleven of her men, and it cannot be spoken to, bargained with,
-commanded, or made to care.
+commanded, or made to care. Even Nib only speaks to its soldiers.

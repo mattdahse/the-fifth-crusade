@@ -23,8 +23,8 @@ Left to right along the north side, then the hall:
    the easiest room in the building to walk into uninvited.
 4. **The table room** — a rough table and stools, and the **trapdoor** in the floor.
 5. **The sealed room** — north-east corner. Its doorway is completely blocked by fallen masonry,
-   and it has been blocked a long time. This is the queen's, and she did not come in through the
-   door.
+   and it has been blocked a long time. The queen laid her first clutch here and went down the
+   bore-hole when it outgrew the room; it is empty now but for husks.
 6. **The great hall** — the whole south half, with the hearth in the west wall. Every one of the
    north rooms opens into it, which makes it the only ground everybody has to share.
 

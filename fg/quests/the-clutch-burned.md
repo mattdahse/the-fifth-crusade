@@ -10,15 +10,16 @@ nobody in Drezen asked for it.
 
 ## Terms
 
-- The clutches are heaped where the ground is warmest, in the nest below and in the sealed room
-  above: pale eggs the size of a man's fist, a great many of them.
+- The clutches are heaped where the ground is warmest: in the nest under the cellar, in the
+  nursery in the warren, and on the mound in the queen's chamber.
 - Burning them takes a flask of oil or a torch and about a minute of standing still in the open.
 - **Knowledge (dungeoneering) DC 15**, or simply counting, recognises this as one season's laying
   rather than an established hive - which is what makes destroying it worth doing *now*.
 
 ## Completion
 
-The clutch is destroyed rather than left. A hive that loses a season sends nothing up the tunnel
+The clutch is destroyed rather than left: burned, or **buried with the queen** when the roof comes
+down, which counts. A hive that loses a season sends nothing up the tunnel
 next year, and the difference is the road staying open.
 
 **This is also a mechanical decision.** The queen's **Call the Brood** draws on the clutch, so a

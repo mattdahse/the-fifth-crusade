@@ -43,7 +43,7 @@ walked that road since Lamashan who was not in a hurry. What is in the manor is 
 
 ## Completion
 
-**This record carries no XP of its own.** It is the commission; the four awards below carry the
+**This record carries no XP of its own.** It is the commission; the awards below carry the
 experience, so that each can go onto the party sheet at the moment it is actually earned. Only one
 of them is the job Elara paid for.
 
@@ -51,3 +51,4 @@ of them is the job Elara paid for.
 @link quest: the_ledger_delivered | The ledger delivered (600 XP)
 @link quest: the_clutch_burned | The clutch burned (500 XP)
 @link quest: the_road_under_the_road | The road under the road (500 XP)
+@link quest: the_roof_brought_down | The roof brought down (500 XP)

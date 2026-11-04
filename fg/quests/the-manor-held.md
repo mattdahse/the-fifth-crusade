@@ -21,6 +21,6 @@ Nothing hostile left in the manor, the breaches blocked or watchable, and **word
 Drezen**. Rothin Vald at the Fane learns of it by the next runner and starts using it within the
 week, which is the whole commission.
 
-**The sealed room counts.** A party that clears the manor and leaves a laying queen behind a pile
-of rubble has not made the place safe to sleep in, and Elara's couriers are the ones who will find
-that out. Do not award this one until the north-east corner is dealt with.
+**The queen counts.** A party that clears the house and leaves a laying queen under its floor has
+not made the place safe to sleep in, and Elara's couriers are the ones who will find that out. Do
+not award this one until the hive is dealt with: the queen dead, or the roof down on her.

@@ -15,10 +15,13 @@ east toward its walls for a year. Elara will take that very seriously.
 **The hive loses a generation.** Burning the clutch is the thing that is permanently different. A
 hive that loses a season digs nothing next year, and the tunnel stops where it is.
 
+**The roof comes down.** The queen and her clutch under tons of gravel, and the warren dead within
+a season. The end of it, and the work of a half-orc who reads books and a goblin who makes bombs.
+
 **The manor is held.** Six rooms and a roof halfway along a road that had nothing on it. Rothin
 Vald's runners start using it within the week, and that is the whole commission.
 
-A party that gets one of these has done a job. A party that gets all four has changed the road.
+A party that gets one of these has done a job. A party that gets them all has changed the road.
 **Each is its own quest record and carries its own XP** - drag them onto the party sheet as they
 land, rather than totalling anything at the end.
 
@@ -28,3 +31,4 @@ land, rather than totalling anything at the end.
 @link quest: the_ledger_delivered | The ledger delivered (600 XP)
 @link quest: the_clutch_burned | The clutch burned (500 XP)
 @link quest: the_road_under_the_road | The road under the road (500 XP)
+@link quest: the_roof_brought_down | The roof brought down (500 XP)

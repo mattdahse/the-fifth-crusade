@@ -4,8 +4,8 @@
 <!-- abilitytype: Ex -->
 
 As a **standard action**, the queen shrills through her mandibles at a pitch that carries down
-every tunnel of the nest. **1d3 giant ant soldiers** arrive from the bore-hole in the chamber
-floor at the start of the queen's next turn.
+every tunnel of the nest. **1d3 giant ant soldiers** arrive through the chamber's mouth from the galleries
+at the start of the queen's next turn.
 
 She can do this **once**, and she does it immediately.
 

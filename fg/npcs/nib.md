@@ -82,8 +82,11 @@ specialqualities: change shape (bat or monstrous centipede, polymorph); fast hea
 - **When the fight turns, she uses cause fear**, and then she **bargains**.
 - **When she loses, she sells Ysolde.** Without hesitating, and with a speech about how she was a
   prisoner here too. See **Roleplaying**.
-- **When all else fails, she flees**: up the cold chimney in the great hall, then down the
-  bore-hole to her queen. Fast healing does the rest. A Nib who gets away is a Nib who comes back.
+- **When the company goes for the roof, she stops being a coward.** It is her whole future. She
+  goes invisibly from fuse to fuse and **pinches them out**, one a round (see **Bringing Down the
+  Roof**), and she will take real risks to do it.
+- **When all else fails, she flees**: up the cold chimney in the great hall, or down into the
+  warren. Fast healing does the rest. A Nib who gets away is a Nib who comes back.
 
 ## Roleplaying
 

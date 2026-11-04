@@ -157,6 +157,9 @@ gallery. Their likeness anchors live here instead.
 | Nib portrait | `portraits/nib.webp` | **done** — 1024 × 1024; first roll |
 | Nib token | `tokens/nib.webp` | **done** — 512 × 512, 64 KB; grey-green and yellow-eyed, nobody else's colours |
 | Ysolde Karn portrait, with the crown | `portraits/ysolde-karn.webp` | **done** — repainted from the first portrait as a reference, crown added, nothing else changed |
+| The Warren battlemap | `images/the-warren.webp` | **done** — 1536 × 1024 trimmed and reflect-padded to 1600 × 1000, **40 px grid**; first roll |
+| Fiendish Giant Ant Worker portrait | `portraits/fiendish-giant-ant-worker.webp` | **done** — 1024 × 1024; first roll |
+| Fiendish Giant Ant Worker token | `tokens/fiendish-giant-ant-worker.webp` | **done** — 512 × 512, 65 KB; pale dun, against the soldiers' rust red |
 
 ---
 
@@ -1500,3 +1503,52 @@ except that she had not yet been given a crown, and a re-roll would have changed
 existing portrait went in as an attached reference with the instruction *repaint this same
 portrait and change one thing only*, and the crown as the one thing. That is the pattern for any
 later change to a character whose face is already settled.
+
+## The Warren battlemap
+
+**Generated, then measured, like the Cellar, and right first time.** Asking for "an ant farm seen
+from above" as the frame of reference got a true plan view of a gallery web at once. The features
+were placed in screen terms (queen's chamber on the left third, nursery upper middle, larder lower
+middle, the entry top right, the shored road bottom right) and every one landed where asked,
+including the two man-made timber props that the ending depends on.
+
+**Two lessons from fitting it to the table**, both recorded in `../maps/the-warren.md`: the grid is
+**40 px** because the galleries are painted about one ant wide, and the walls are traced with a
+large dilation because a faithful trace leaves the web impassable to `passable.py`.
+
+> Please generate this image directly. Aspect ratio 3:2.
+>
+> A TOP-DOWN TABLETOP RPG BATTLEMAP of an underground GIANT ANT WARREN, viewed from directly
+> overhead, orthographic. Painted in oils, visible brushwork, muted earthy palette: warm brown dug
+> earth, soot-black rock, pale bone-white eggs, grey timber. THE CAMERA IS STRAIGHT DOWN, like a
+> cutaway floor plan of an ant farm seen from above. The solid rock between the tunnels is the
+> DARKEST value; the tunnels and chambers are raw dug EARTH, warm and lighter. Every passage is
+> bored, not built: smooth, organic, about two body-widths wide.
+>
+> LAYOUT: on the LEFT third, the QUEEN'S CHAMBER, a broad OVAL cavern; in its middle a raised
+> MOUND heaped with hundreds of pale eggs; holding up its roof, TWO HEAVY SQUARED TIMBER PIT-PROPS
+> seen from above as dark square tops with a crossbeam, one in the UPPER part and one in the LOWER
+> part, clearly man-made; near the middle-left a thick natural COLUMN of packed earth; along one
+> edge a spill of fallen scree. In the CENTRE, a WEB of a dozen winding GALLERIES connecting many
+> small round CHAMBERS: upper middle a NURSERY packed with pale grubs in neat rows; lower middle a
+> LARDER floored with bones, rags and husks; dead-end side burrows. RIGHT edge near the TOP, a
+> tunnel enters from off the edge; RIGHT edge near the BOTTOM, a straighter tunnel leaves off the
+> edge, shored with small grey timber posts and planks.
+>
+> **Avoid:** a perspective, isometric or side view, a cross-section seen from the side, ants,
+> insects, creatures, people, bricks, worked stone, doors, stairs, torches, [the house map list].
+
+## Fiendish Giant Ant Worker
+
+**Likeness anchors.** Dog-sized, lean, **pale dun-yellow** shell (the soldiers are rust red, the
+queen bone-white: three ants, three colours at token size), long restless antennae, small closed
+mandibles, carrying an egg. Busy and indifferent, never aggressive.
+
+> [the house paint override] A head-and-forequarters portrait of a single GIANT WORKER ANT, about
+> the size of a dog: lean and busy rather than fearsome, a smooth PALE DUN-YELLOW carapace, long
+> antennae swept forward, small closed mandibles carrying a single pale egg. Indifferent to the
+> viewer, intent on its task, three-quarter view, mid-stride. Plain DARK tunnel background, cold
+> rim light, warm key light on the head.
+>
+> **Avoid:** a red or black ant, huge serrated mandibles, a raised stinger, an aggressive pose,
+> more than one ant, cute, cartoon, macro photography, [the house list].
