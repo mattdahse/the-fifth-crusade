@@ -3,14 +3,16 @@
 <!-- id: manor_story -->
 <!-- order: 1 -->
 
-*The first commission. A 1st-level adventure for four, running one long session or two short ones.*
+*The first commission. A 2nd-level adventure for four, running one long session or two short ones.*
 
 @link map: approach | The approach (show the players first)
 @link map: manor | The manor (map)
 @link quest: hold_the_halfway_house | Hold the Halfway House
-@link battle: labyrinth_post | The Labyrinth post
-@link battle: locust_cell | The Locust-Sworn
+@link battle: labyrinth_post | The halfway house
 @link battle: young_queen | The young queen
+@link npc: ysolde_karn | Ysolde Karn
+@link npc: nib | Nib
+@link parcel: gells_satchel | Gell's satchel
 
 ## Before they commit to a direction
 
@@ -21,146 +23,152 @@ is no road — the ground closed over whatever was built here generations ago.
 
 That is the planning scene, and it is worth giving them: the manor has two breaches and no front
 door, so *which side they arrive on* is the single most consequential decision they make all
-session, and it should be made from a map rather than from a corridor.
+session, and it should be made from a map rather than from a corridor. If they met **Garth Wyle**
+at the last cairn, they already know a good deal about the inside, some of it wrong.
 
 ## What Elara knows
 
 The house is empty. She is wrong, and she is wrong in a way that matters: the company that
 sheltered there in Lamashan reported one ruin with three walls. What is standing on that road is
-a **Sarkorian manor** — six rooms, walls mostly intact — and it has been occupied for a year.
+a **Sarkorian manor** — six rooms, walls mostly intact — and it has been occupied for more than a
+year.
 
 ## What is actually in it
 
-**Three things, and none of them get on.**
+**The Ivory Labyrinth's counting-post, gone wrong.** Nineteen men came here under the Templars,
+with an arcanist named **Ostrander Gell** in charge, because the Labyrinth worked out something
+the crusade has not: everything moving west out of Drezen now moves along one road, and one house
+sits halfway along it. They were not raiding. They were counting.
 
-**The Ivory Labyrinth's post.** Nineteen men came here under the Templars, because the Labyrinth
-worked out something the crusade has not: everything moving west out of Drezen now moves along
-one road, and one house sits halfway along it. They were not raiding. They were counting, and the
-ledger is three months of tallies. **Ysolde Karn** runs what is left of them — three squatters —
-and holds the kitchen, the store and the west end of the hall.
+**A little over a year ago Gell found a young fiendish ant queen** walled into the north-east room,
+with a hive growing in the earth under the cellar, and went down to study her. His familiar, a
+quasit called **Nib**, showed him the best place to stand. He did not come back up, and a familiar
+whose master is dead is free.
 
-**The Locust-Sworn.** **Corwin Skell** and two young men he brands. Deskari's, and here first:
-Corwin came for the hive under the house eighteen months ago and was still working out how to
-reach it when the Labyrinth arrived and set up a counting-post on top of him. He holds the pallet
-room, the table room and the east end.
+**Nib can make the ants obey her.** She worked that out within a week. What she could not do was
+carry a muster list, give orders to men, or feed them to anything, so she found **Ysolde Karn**,
+the post's quiet Deskari adept, and gave her a destiny: a herald from the Lord of the Locust Host,
+an invisible voice in her ear, and a crown with antennae on it to command the brood with. The crown
+is a mummer's prop out of a chest in the attic. Ysolde has worn it every day since.
 
-**The young queen**, walled into the north-east room, who is why the other two are only six.
+**Since then the house has been a farm, and the men have been the feed.** Ysolde took command,
+kept the tallies going back along the markers so the pay would keep coming, and fed the men who
+argued with her down the hatch. Eleven of them. The brood grew. Three weeks ago she stopped
+counting crusaders altogether, because the herald said it no longer mattered, and everything now
+goes into **the tunnel**: a passage the soldiers are digging east from the nest, under the
+Marchlands, toward Drezen. It is a quarter of a mile long. Drezen is twenty-two. Ysolde has done
+the sums in the back of the ledger and believes, with the herald's help, that it will take four
+years. It will take a great deal longer than that. It will also not stop.
 
-## The truce, which is the adventure
+**What is left:** Ysolde; **two Labyrinth men**, who have watched eleven of their friends go down
+a hatch and do exactly what they are told; Nib, invisibly, on Ysolde's left shoulder; and under
+the floor, a hive that is bigger every season. **Garth Wyle and Tam Ricket** walked out through the
+north breach two nights before the company arrives.
 
-Neither faction can take the manor without losing enough people that what is under the floor
-finishes the rest. So they have split it, and nobody crosses, and nobody has for three weeks. It
-is not a friendship and both sides expect it to end badly.
+## The secret, and how they find it out
 
-**Corwin is waiting for something to happen to Ysolde.** That is his entire strategy. It is why he
-will not attack armed strangers who come in through the breach — he will let them in, tell them
-where the Labyrinth sleeps, offer to stay out of it, and mean it. Right up until the Labyrinth is
-dead and the party is standing between him and the sealed room.
+**Nobody in the house knows that Nib is the one in charge**, Ysolde least of all. The adventure
+works whether or not the company ever finds out. It works much better if they do, and the clues
+are everywhere:
 
-**Ysolde will not deal**, because she believes the hive is hers and Corwin is a thief. She is
-wrong about the first part in a way that gets people killed.
+- **Ysolde talks to her left shoulder.** Aloud, often, and she waits for answers.
+- **The ants answer a beat late.** When she commands them, they move a moment after she speaks,
+  and sometimes do something slightly different from what she said.
+- **Garth told them.** *"Something rides on her. Small. You can't see it. I've heard it."* The
+  company will think he is mad. He is, and he is also right.
+- **The soot.** Small clawed tracks in and out of the cold flue in the great hall, going somewhere
+  nothing Ysolde's size could follow (**Perception DC 15**).
+- **Detect magic** finds nothing on the crown, and a faint glow up the chimney.
+- **Gell's spellbook**, if they find it: *N. lies about the ants. They turn when she turns.*
+- ***See invisibility***, which is on a scroll in Gell's satchel, ends the question at once.
 
-**The shape to run for.** A party that walks in swinging fights six people at once and probably
-loses. A party that talks fights three, then three, on ground of its own choosing — and a party
-that is *clever* gets the two factions to fight each other and walks into the sealed room while
-it happens. All three are good sessions. Make sure the first one is clearly a choice and not an
-ambush.
+**The moment the adventure is built around** is the order that nobody answers. If Nib is gone
+(killed, scared off, caught out by a ***protection from evil***, or sold to the company for her
+freedom), Ysolde puts her hand to the crown and calls the brood, and nothing comes. Give it a
+long, long silence. Read **Voice of the Brood** before running any fight with her in it.
 
 ## The building
 
-**Two breaches, and they are the reason this is not a siege.** The north wall is open into the
-pallet room; the east wall is open into the hall. There is no front door to knock on, no wall to
-hold, and both factions know it — which is exactly why neither has won.
+**Two breaches, and they are the reason this is not a fortress.** The north wall is open into the
+pallet room; the east wall is open into the hall. There is no front door to knock on, and three
+people cannot watch both holes. Ysolde does not try. She has the hatch, and she believes that is
+enough.
 
-**The great hall is shared ground.** Everybody has to cross it. It is where a parley happens, and
-it is where a fight between the factions happens, and the long broken table is the only cover in
-it.
+- **The great hall** is where Ysolde holds court, from the hearth, and the long broken table is the
+  only cover. The hearth's flue is cold, and Gell's satchel is up it.
+- **The kitchen** is where the two men live now, because it is warm and it is the furthest room
+  from the hatch.
+- **The store** holds the ledger, and the baskets and shoring timber the men use for hauling spoil
+  up out of the cellar.
+- **The pallet room** is the old dormitory: straw beds for nineteen, and nobody in any of them.
+  It is where Nib used to whisper to the men at night.
+- **The table room** is Ysolde's. The trapdoor is in its floor, she sleeps beside it, and the
+  table is chalked edge to edge with a plan of the tunnel.
+- **The sealed room** is the queen's, and the only place in the house that Nib is careful about.
 
-**The trapdoor is in the table room**, which is Corwin's, and that is not an accident.
+## Running the fights
 
-**The sealed room is the north-east corner.** The doorway is filled with fallen masonry and has
-been for years. Clearing it is perhaps ten minutes of loud work, and everyone in the manor will
-know it is happening. The other way in is up the bore-hole from the cellar — see
-[the cellar](the-cellar.md) — which is how she gets out, and how the soldiers get to her.
+**All encounters arrive placed as they will be when initiative is rolled**, not where they idle.
+Drop one on the map and it comes in ready to fight; a surprised enemy needs no setup, and if the
+company was spotted, move them on round one.
 
-## Running the three fights
+**The halfway house.** Ysolde and the two men, **670 XP**, plus Nib (600) if she fights rather
+than whispers. On the alarm the men plug the two doorways the company is likeliest to use, and
+Ysolde stands back where her ***burning hands*** has range. **Her real weapon is the trapdoor**:
+once per fight she calls the brood, and if Nib is with her and the clutch is unburned, **1d2
+soldiers** come up out of the cellar the next round. The men break when Ysolde falls. They have
+been waiting a year for somebody to make her fall.
 
-**All three encounters arrive placed as they will be when initiative is rolled** — not where
-they idle. Drop one on the manor and it comes in ready to fight, so a surprised enemy needs no
-setup at all and everyone else you move on round one once the approach is known.
+**The men can be talked down**, easily, by anybody who offers them a way out that does not go
+through the hatch. They know what Garth knew, and more about the tunnel, because they dig it.
 
-**The Labyrinth**, alarm raised, forms at its own two doorways with the hall in front of it. Two
-squatters plug the kitchen and store doorways, the third stands back as a second rank, and Ysolde
-is behind all of them with the hearth at her back — which is the range her *burning hands* wants,
-and the reason bunching in a doorway is the mistake.
+**The ant nest** in the cellar is four soldiers, and it is described in the cellar story. **The
+young queen** in the sealed room is a CR 4 boss with one use of **Call the Brood**: read that
+ability's notes before running her. If the clutch has been burned, **nothing answers**.
 
-**The Locust-Sworn** hold Corwin's two doorways, the pallet room and the table room, with Corwin
-standing back in the hall between them. He does not stand in a doorway himself; the whole point of
-the longspear is that somebody else is in it, and from there he reaches either one and nothing
-gets past him toward the sealed room.
-
-**The queen** is squarely on her clutch, because she never leaves it.
-
-**These are postures, not predictions.** They assume the alarm went up and nobody knows yet which
-way the party is coming. If the party achieves surprise, this is exactly where they are. If not,
-move them on round one.
-
-**The Labyrinth post** — Ysolde and three squatters, **805 XP**, an average fight for four at 2nd
-level and a hard one if they arrive at 1st. Indoors, under what is left of a roof: no long bowshots, and Ysolde opens with
-*burning hands* the moment two characters bunch in a doorway. The squatters break when she falls.
-
-**The Locust-Sworn** — Corwin and two, 670 XP, a moderate fight that plays completely differently.
-Corwin has reach and a doorway and will not come out from behind it; the Locust-Sworn hold
-because leaving is not something available to them, and then break the instant he goes down.
-
-**Both at once** is **1,475 XP** and well past what four 2nd-level characters should take on. It should only happen if the party makes it happen,
-and if they do, let it — with the two factions also swinging at each other, which is the only
-reason anyone survives it.
-
-**The young queen** is a CR 4 boss and a separate session's worth of danger. She is behind the
-rubble, she is over her clutch, and she has one use of **Call the Brood**. Read that ability's
-notes before running her: the number of soldiers that answer is the difficulty dial, and if the
-party has already burned the clutch in the cellar, **nothing answers at all.**
+**Nib is never a straight fight.** She claws from invisibility when she has to, uses ***cause
+fear*** when the company is winning, bargains when she is losing, and flees up the chimney when
+bargaining fails. **Kora's cold iron dagger** ignores her damage reduction; say so the first time.
+A Nib who escapes comes back.
 
 ## Three things to put in front of them
 
-These are GM notes, deliberately kept out of the item descriptions — the players loot those and
+These are GM notes, deliberately kept out of the item descriptions: the players loot those and
 read them, so the descriptions say only what the object is.
 
-@link parcel: gear_locust_sworn | What is on a Locust-Sworn
-@link parcel: gear_corwin_skell | What is on Corwin
+@link parcel: gear_ysolde_karn | What is on Ysolde
 @link parcel: sarkorian_house | The waystation ledger
 
-**The ward token.** Every Locust-Sworn carries a Drezen relief token — tin, worthless, stamped
-for a bread ration in the weeks after the crusade took Drezen, and rubbed shiny from being
-carried every day since. If
-the party kills one and searches him, put it in their hands. It does more work than any amount of
-explaining who these people are: Corwin did not recruit fanatics. He recruited two boys who were
-starving in the outer wards in the weeks after the crusade took Drezen, and he fed them.
+**The crown.** When it comes off Ysolde (and it should, one way or another), let somebody try it
+on. It is felt-lined, it is a little small, and the antennae bob. There is a mummers' guild stamp
+inside the band. That is all it is, and a company that has just watched eleven names struck off a
+muster list should feel exactly how little that is.
 
-**Corwin's chain shirt** is crusade issue with a legible Kenabres quartermaster's stamp and an
-issue date from before Kenabres was broken open, which is also the date on his discharge paper. A
-party that lays the coat, the paper and the boys' ration tokens side by side has his whole history
-without asking him a question: a crusader invalided out, and two starving children he fed a season
-ago.
+**The muster list.** Nineteen names, eleven struck through, and two more crossed out in fresh ink
+with *deserted* beside them. If the company met Garth at the cairn, one of those names is his,
+and the other is the boy they found in the grass.
 
-**The ledger stops mid-page, three weeks ago.** That is the single most important object in the
-manor and it is easy to walk past. Three months of careful tallies and then nothing, in the same
-week Ysolde struck the eleventh name off her muster list. Whatever happened under this house, it
-happened then.
+**The back of the ledger.** The front is more than a year of careful tallies of crusader traffic, and
+it stops mid-page three weeks ago. Turn it over. The back pages run the other way, in Ysolde's
+hand, a column of figures headed *The Road*: feet dug, day by day, for most of a year, and at the
+bottom a sum, *Drezen, 22 miles less 1,240 ft.*, and beside it, underlined twice, *four years*.
+That is the single most important thing in the manor, and it is easy to walk past.
 
 ## What the party's work changes
 
 Elara asked for a waystation on a two-day road. What is actually on offer is bigger, and the
 measure of the session is which of these the party can say afterwards:
 
-- **The counting stops.** Ysolde's ledger goes back to Drezen and Mira Thistledance learns the
-  Labyrinth has been mapping crusader traffic for three months. That is worth more than the manor.
+- **The counting stops.** The ledger goes back to Drezen and Mira Thistledance learns the
+  Labyrinth has been mapping crusader traffic for a year.
+- **The road under the road.** Somebody walks the tunnel to its head, or reads the back of the
+  ledger, and Drezen learns that something has been digging toward it. Elara will take that very
+  seriously indeed.
 - **The hive loses a generation.** Burning the clutch is the thing that is permanently different.
-  A hive that loses a season sends nothing up the tunnel next year, and the road stays a road.
+  A hive that loses a season digs nothing next year, and the tunnel stops where it is.
 - **The manor is held.** Six rooms and a roof, halfway along a road that had nothing on it. Rothin
   Vald's runners start using it within the week, and that is the whole commission.
 
-A party that gets one of the three has done a job. A party that gets all three has changed the
-road, and Elara — who is serious about the written report — will read it and know exactly what
-she nearly sent four people into.
+A party that gets one of these has done a job. A party that gets all four has changed the road,
+and Elara, who is serious about the written report, will read it and know exactly what she nearly
+sent four people into.

@@ -5,8 +5,8 @@
 <!-- giver: Mira Thistledance -->
 <!-- xp: 600 -->
 
-**Ysolde's tally book goes back to Drezen**, and Mira Thistledance learns that the Ivory Labyrinth
-has been counting crusader traffic on the western road for three months.
+**The post's tally book goes back to Drezen**, and Mira Thistledance learns that the Ivory Labyrinth
+has been counting crusader traffic on the western road for more than a year.
 
 Elara did not ask for this and does not know to. It is worth more than the manor.
 
@@ -15,6 +15,9 @@ Elara did not ask for this and does not know to. It is worth more than the manor
 - The **waystation ledger** is a water-swollen book of tallies in a clerk's hand: counts,
   directions and cargoes by the day. The last four entries are in a different hand and count
   patrols, and then it stops mid-page.
+- **The back pages are the tunnel**: a year of daily figures in feet, under the heading *The
+  Road*, ending in *Drezen, 22 miles less 1,240 ft.* That half is for Elara as much as for Mira,
+  and both of them should hear about it.
 - Mira pays nothing extra for it, because she never commissioned it. What she gives instead is
   her complete, unguarded delight — an actual enemy ledger, like in the stories — and the next
   job, which she gives to them specifically.

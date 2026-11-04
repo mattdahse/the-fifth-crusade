@@ -25,16 +25,17 @@ Cut from a soldier's back. It stays cold in a warm room and it does not take a s
 who works the Worldwound salvage trade will pay for it and not ask; anyone else will want to know
 where it came from before they touch it.
 
-### Crusader's Signet, Corroded
+### Arcanist's Signet
 <!-- count: 1 -->
 <!-- type: Gear -->
 <!-- cost: 40 gp -->
 <!-- weight: 0.1 -->
-<!-- nonid: A pitted silver ring, the device eaten away -->
+<!-- nonid: A silver signet ring, a maze cut in its face -->
 
-Silver, and the device on the face has been chewed to nothing by seventy years in the wet. The
-band still carries three letters inside. Somebody walked into this cellar a long time before the
-party did, and did not walk out.
+Silver, with the Ivory Labyrinth's maze cut deep in the face and three letters inside the band:
+*O. G.* It was on a finger bone, among a scatter of other bones too big to be an ant's dinner and
+too few to be a whole man, wrapped in the rags of a good grey robe. **Ostrander Gell**, who ran
+this post, and who came down here a year ago to study the queen.
 
 ### Sacks, Ruined
 <!-- count: 2 -->

@@ -16,7 +16,7 @@ rather than rolled blind:
 
 - **Roll it honestly (1d3)** if the party came in fresh, cleared the cellar first, and is at 2nd
   level. That is the fight as designed.
-- **Fix it at 1** if they have already fought both factions today, or are still 1st level. The
+- **Fix it at 1** if they have already fought Ysolde and her men today, or are still 1st level. The
   queen alone is already a serious encounter at CR 4.
 - **Fix it at 3** only if the party has been careful, is rested, and has thinned the nest below
   already — and even then, expect somebody to go down.

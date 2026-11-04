@@ -17,7 +17,8 @@ it is happening.
 - **Strength DC 15**, repeated, to shift the blocks; each success is roughly two minutes off.
 - **Two characters working together** halve the time. Anyone with a crowbar or a pick gets **+2**.
 - **Perception DC 10** from either side to hear digging through it, which is why ten minutes of
-  this is a decision rather than a chore. The other way in is up the bore-hole from the nest below, which is how she got here and
+  this is a decision rather than a chore. **Nib will not follow anybody in here**: the queen
+  is the one thing in the house she does not command. The other way in is up the bore-hole from the nest below, which is how she got here and
 how her soldiers reach her - and it is a climb one creature wide, so anybody using it arrives
 alone and one at a time.
 

@@ -50,4 +50,4 @@ of them is the job Elara paid for.
 @link quest: the_manor_held | The manor held (400 XP)
 @link quest: the_ledger_delivered | The ledger delivered (600 XP)
 @link quest: the_clutch_burned | The clutch burned (500 XP)
-@link quest: the_truce_turned | The truce turned (425 XP)
+@link quest: the_road_under_the_road | The road under the road (500 XP)

@@ -4,11 +4,12 @@
 <!-- order: 2 -->
 
 The trapdoor in the floor of the manor's table room goes down a short stair into a dry stone
-cellar the house was built on. It is why Ysolde Karn stopped counting patrols, it is where eleven
-of her men went, and it is what Corwin Skell came here for eighteen months ago.
+cellar the house was built on. It is where the post's arcanist went to study the queen a year ago
+and did not come back, where eleven of Ysolde's men went after him, and where the road to Drezen
+begins.
 
 @link npc: ysolde_karn | The woman who thinks this is hers
-@link npc: corwin_skell | The man who thinks the same thing
+@link npc: nib | The one the ants actually answer
 @link npc: fiendish_ant_queen | What is actually down here
 @link map: cellar | The Cellar (map)
 @link battle: ant_nest | The Ant Nest (encounter)
@@ -59,28 +60,36 @@ Four soldiers hold this room and will not leave it. **Read the encounter's notes
 it** — four is past deadly for a 1st-level party, and there are three honest ways to pitch it.
 
 **This is where the acolyte's answer is.** She has fed eleven men to this hive believing it
-belongs to her. If she came down the stair ahead of the party, they will find her here, and the
-ants will be doing to her exactly what they did to the others — which is the whole argument
-settled in front of the party, without a word of exposition from anybody.
+obeys her. If she fled down the stair ahead of the party and Nib has decided she is finished,
+they will find her here, still giving orders, and the ants doing to her exactly what they did to
+the others.
 
-If she is a prisoner instead, bring her down and let her call them off. She will do it. She will
-mean it. Nothing happens, and she hears herself.
+If she is a prisoner instead, and Nib is gone, bring her down and let her call them off. She will
+do it. She will mean it. Nothing happens, and she hears herself.
 
 The treasure belongs to the room, not to the ants: they carry nothing and wear nothing. The
-**corroded signet** in the midden is the piece worth reading out. Somebody walked down here a
-long time before the party did and did not walk back up, and the sacks with a Kenabres
-quartermaster's mark say the hive has been into the cellar's stores.
+**silver signet** in the midden is the piece worth reading out: *O. G.* inside the band, on a
+finger bone, among the rags of a good grey robe. That is **Ostrander Gell**, who ran this post,
+at the foot of the bore-hole, which is exactly where his familiar told him to stand.
 
 **And the midden is not only old.** Among seventy years of husks there is a hooked iron disc on a
 rotted thong, stamped with a maze — the third Labyrinth token, the one that came off somebody.
 There are others further in. A party that starts counting them arrives at eleven, and does not
 need to be told what the muster list means.
 
+## The road
+
+**One of the side burrows does not stop.** Behind a curtain of loose earth it runs on east, wide
+enough for a soldier, shored here and there with timber the men carried down from the house. It
+is a quarter of a mile long, it is going toward Drezen, and on any given night there is a soldier
+or two at its head, digging. That is the road in the back of the ledger. A party that walks it to
+the end can tell Elara exactly what it is.
+
 ## What the party's work changes
 
 The clutch is the point. Killing four soldiers is a fight; **burning the clutch is the thing that
-is permanently different afterwards.** Say so at the table. A hive that loses a generation does
-not send anything up the tunnel next season, and the country outside stays crossable.
+is permanently different afterwards.** Say so at the table. A hive that loses a generation digs
+nothing next season, and the road under the road stops where it is.
 
 If they leave the eggs — because they are hurt, or because nobody thought of it — that is a real
 consequence and worth remembering rather than punishing immediately. It comes back in a season.
@@ -94,7 +103,7 @@ in the sealed room in the manor's north-east corner.
 This is the connection that makes the two maps one adventure. It is how the queen reached a room
 whose door has been blocked for years; it is how her soldiers get to her when she calls; and it
 is a second way into the boss fight for a party that would rather not spend ten loud minutes
-clearing masonry with two factions listening.
+clearing masonry with the whole house listening.
 
 It is a climb, and it is exactly as wide as she is, which means anybody going up it is going up
 it alone and arriving one at a time.

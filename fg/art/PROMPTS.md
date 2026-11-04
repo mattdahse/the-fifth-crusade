@@ -149,6 +149,14 @@ gallery. Their likeness anchors live here instead.
 | The Eclipse (harrow card) | `harrow/the-eclipse.webp` | **done** — 1024 × 1536, 425 KB; first roll |
 | The Betrayal (harrow card) | `harrow/the-betrayal.webp` | **done** — 1024 × 1536, 427 KB; first roll |
 | A harrow deck (the deck) | `harrow/the-deck.webp` | **done** — 1254 × 1254, 395 KB; first roll, 1254 x 1254 square still life |
+| Fiendish Wolf portrait | `portraits/fiendish-wolf.webp` | **done** — 1024 × 1024; **second roll** - the first came back a friendly husky (see below) |
+| Fiendish Wolf token | `tokens/fiendish-wolf.webp` | **done** — 512 × 512, 72 KB |
+| Garth Wyle portrait | `portraits/garth-wyle.webp` | **done** — 1024 × 1024; first roll |
+| Garth Wyle token | `tokens/garth-wyle.webp` | **done** — 512 × 512, 80 KB; the mustard coat carries it |
+| The Waiting Cairn battlemap | `images/the-waiting-cairn.webp` | **done** — 1536 × 1024 trimmed and reflect-padded to 1600 × 1000 for a 50 px grid; first roll |
+| Nib portrait | `portraits/nib.webp` | **done** — 1024 × 1024; first roll |
+| Nib token | `tokens/nib.webp` | **done** — 512 × 512, 64 KB; grey-green and yellow-eyed, nobody else's colours |
+| Ysolde Karn portrait, with the crown | `portraits/ysolde-karn.webp` | **done** — repainted from the first portrait as a reference, crown added, nothing else changed |
 
 ---
 
@@ -197,7 +205,10 @@ and pinned, a lean and watchful face, pale eyes. Plain **studded leather** over 
 **heavy mace** at her belt. She serves **Deskari**, and her mark is a small **bronze locust with
 spread wings** — but it is pinned *inside* the breast of her coat and is deliberately **not
 visible** in any portrait. She wears no badge and no colours; that is the character. Do not add a
-holy symbol to her art. **An iron hook is lashed over her left hand** with cord that has
+holy symbol to her art. **She wears the Crown of the Swarm**: a plain band of tarnished copper with
+two long thin brass antennae on coiled springs, each ending in a small brass ball. It is a
+mummer's prop and she wears it with total gravity; it is part of the likeness from the manor
+rewrite onward, and a re-render without it is wrong. **An iron hook is lashed over her left hand** with cord that has
 worn grooves into the wrist — she took the name Hookhand on being given a warband, and the hook
 is a poor weapon and a very good argument. **The hook is her signature and must always be
 present and visible.**
@@ -1374,3 +1385,118 @@ scenes without a sixth render. Same spine and same `Avoid:` line as the first fi
 > The scene: two cloaked figures standing close together at night as if in confidence, seen from
 > behind and to one side; one of them holds a knife low and turned inward, out of the other's sight.
 > Neither face is visible. Luminous accent: a single lantern on the ground between them.
+
+---
+
+## Fiendish Wolf
+
+**The first roll was too sweet, and the prompt asked for it.** "Relaxed, unhurried, almost
+amused" painted a husky grinning for a treat. Menace in an animal is in the *posture*, not the
+teeth: head lowered below the shoulders, ears pinned flat, hackles up, a lean starved skull, a
+torn ear, and a grin that is slow rather than open. Saying *"the feeling is dread, not cuteness"*
+outright, and putting "cute, friendly, smiling, dog-like, husky, majestic" in the avoid line, is
+what fixed it.
+
+**Likeness anchors.** Pale ash-grey coat (the token's whole identity at 40 px, kept distinct
+from the brown squatters and the rust-red ants), gaunt and mangy, a raw patch at the nape, one
+torn ear, dull ember-red eyes.
+
+> THIS IS A PAINTING, NOT A PHOTOGRAPH. [the house paint override, as for the squatter]
+>
+> Cinematic painterly dark-fantasy illustration, semi-realistic. Square composition, a
+> head-and-shoulders portrait of a single WOLF, the head centred with clear space all around it.
+> This is NOT a pet and NOT a noble animal. It is a STARVED, MANGY, DEMON-TAINTED predator from a
+> blighted wasteland: gaunt to the bone, its coat the colour of OLD PALE ASH, patchy and matted,
+> torn away in places to show raw grey skin and old scars, a raw wound along the back of the neck.
+> One ear is notched and torn. Its eyes are small, deep-set and glow a DULL EMBER-RED. HEAD
+> LOWERED below the shoulders, stalking, ears pinned flat back, hackles raised. The lips are drawn
+> back from long yellowed teeth in a slow, silent, knowing grin, and a thread of drool hangs from
+> the jaw. It is patient and cruel, and it is enjoying this. The feeling is dread, not cuteness.
+> Plain DARK background, dusk sky, the faint suggestion of a cairn, drifting ash. Strong cold rim
+> light along the spine and hackles, harsh low key light on the face. High contrast by value.
+>
+> **Avoid:** a cute, friendly, smiling, happy or dog-like expression, a husky, a healthy fluffy
+> coat, a noble or majestic wolf, soft eyes, a raised head, pricked forward ears, [the house
+> photograph/cartoon list], more than one animal, gore, text, border, a brown wolf, a black wolf.
+
+## Garth Wyle
+
+**Likeness anchors.** Human man of about thirty-five, gaunt and several days unshaven,
+sandy-brown hair matted flat, sunburnt. Dark battered leather armour under a **faded
+mustard-yellow wool coat with one sleeve torn off** (his token colour, and nobody else's).
+The Labyrinth's iron maze disc on a thong. A handaxe whose haft is **notched end to end with
+tally marks**. Wary, counting under his breath, never looking at the viewer.
+
+> [the house paint override]
+>
+> Square composition, head-and-chest portrait bust. A gaunt, exhausted human man of about
+> thirty-five, several days unshaven, hollow-cheeked, sandy-brown hair matted flat, sunburnt and
+> wind-chapped. Battered dark leather armour under a FADED MUSTARD-YELLOW WOOL COAT with one
+> sleeve torn off. A hooked iron disc stamped with a maze on a leather thong. He grips a plain
+> handaxe whose wooden haft is covered from end to end in hundreds of small notched tally marks.
+> His lips are moving: he is counting under his breath. Eyes narrowed and wary, looking off to
+> the side. Behind him the grey stones of a tall cairn and a dusk sky over flat broken wasteland.
+> Warm key light from a low red sunset, cool rim light on the other side.
+>
+> **Avoid:** [the house list], chain mail, scale mail, a helmet, a beard longer than stubble, a
+> heroic expression, looking at the viewer.
+
+## The Waiting Cairn battlemap
+
+Generated rather than drawn, like the Cellar, and right first time. The approach-map lessons
+carried over intact: **say the camera is straight down and what that forbids**, and **say there
+is no road**. Placing the features in screen terms (*left of centre in the upper half*, *to its
+lower right*, *along the bottom*) put every one where the encounter text needed it.
+
+Measured on the 1600 × 1000 plate at 50 px: the cairn spans x 480–590, y 140–245 (two squares,
+its own closed occluder); the sheepfold x 650–960, y 285–555 (six squares, no occluders, the
+walls are knee-high); the wash is the bottom quarter.
+
+> Please generate this image directly. Aspect ratio 3:2.
+>
+> A TOP-DOWN TABLETOP RPG BATTLEMAP of open wasteland, viewed from directly overhead. Painted in
+> oils, visible brushwork, muted earthy palette. THE CAMERA IS STRAIGHT DOWN [as for the approach].
+> THERE IS NO ROAD.
+>
+> LAYOUT, about 160 feet across and 100 feet tall: LEFT OF CENTRE and in the UPPER HALF, a low
+> grassy RISE; on its top a CAIRN, a round heap of piled grey fieldstones seen from above, about
+> one sixteenth of the image width across. Just DOWNHILL, to its LOWER RIGHT, the ruin of an old
+> SHEEPFOLD: four low dry-stone walls in a broken SQUARE about one fifth of the image width on a
+> side, with gaps and one corner collapsed. Along the BOTTOM, from the lower-left corner to the
+> lower-right, a DRY WASH of loose pale pebbles and a few boulders. Everywhere else dead yellow
+> grass, bare cracked earth, loose stones, two or three clumps of thorn scrub, a drift of pale ash
+> in a hollow near the upper-right corner. Lit evenly and flatly from directly above.
+>
+> **Avoid:** [the approach map's list], a tall tower, a campfire, animals, bodies.
+
+## Nib
+
+**Likeness anchors.** A quasit about the size of a cat: lean and wiry, sickly grey-green warty
+skin like a toad's, a hooked nose, a mouth too wide for the face full of needle teeth, long
+pointed ears, two short curled black horns, leathery bat wings folded tight, sulphur-yellow eyes
+with slit pupils. Female, in a sly, vain, gremlin way. Smug. Usually painted on Ysolde's shoulder,
+with a strand of her dark hair wound round one claw.
+
+> [the house paint override]
+>
+> Cinematic painterly dark-fantasy illustration, semi-realistic. Square composition, a
+> head-and-shoulders portrait of a single small DEMON, a QUASIT, the head centred. About the size
+> of a cat: lean, wiry, impish, SICKLY GREY-GREEN warty skin like a toad's, a hooked nose, a mouth
+> far too wide for its face full of small needle teeth, long pointed ears, two short curled black
+> horns, long bony clawed fingers steepled under its chin, leathery bat-like wings folded tight.
+> Bright SULPHUR-YELLOW slit-pupilled eyes. Female, in a sly, vain, gremlin way. A smug, scheming,
+> delighted smirk. Perched on a woman's dark leather-clad shoulder, a strand of her dark hair
+> wound round one finger; the woman only a dark blurred shape at the edge of the frame. Plain
+> DARK background, a ruined stone room and a cold hearth. Cold rim light on ears, horns and wing
+> edges, sickly warm key light from below on the face. High contrast by value.
+>
+> **Avoid:** a cute cartoon goblin, a baby, a pet, big friendly eyes, [the house list], a large
+> demon, a full human face, more than one creature, gore, red skin, clothing on the creature.
+
+## Ysolde's crown
+
+**Repainted from her own portrait, not re-rolled.** The first portrait was right in every way
+except that she had not yet been given a crown, and a re-roll would have changed her face. So the
+existing portrait went in as an attached reference with the instruction *repaint this same
+portrait and change one thing only*, and the crown as the one thing. That is the pattern for any
+later change to a character whose face is already settled.

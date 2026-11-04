@@ -11,7 +11,7 @@ A Sarkorian manor house that outlasted its village and most of its roof. One sto
 walls mostly standing. Two breaches let the weather in and let anybody else in with it, and a
 trapdoor in the fourth room goes down to [the cellar](the-cellar.md).
 
-Big enough that no one group can hold all of it, which is the whole reason there are two.
+Big enough that three people cannot watch all of it, which is why Ysolde relies on the hatch.
 
 ## The rooms
 
@@ -69,12 +69,12 @@ the manor is a built space and its walls are straight, so exact coordinates beat
 
 **The four doorways off the great hall are doors**, not gaps — the plate draws a frame and a leaf
 in each, so they ship as `occluder-door`: closed, toggleable, and blocking sight until somebody
-opens one. That matters here more than on most maps, because two factions live either side of
-them and neither can see the other's rooms.
+opens one. That matters here more than on most maps, because the company will want to know which
+room the two men are in before anybody opens a door.
 
 **The two breaches carry no occluder**, which is the point of them: the gap in the north wall
 (x 595–925) opens into the pallet room, and the gap in the east wall (y 600–700) opens into the
-hall. Sight and movement both pass. They are the reason this building cannot be held by six
+hall. Sight and movement both pass. They are the reason this building cannot be held by three
 people, and the reason the party does not have to come in through a door.
 
 **The sealed room's doorway is solid** — the cross-wall runs unbroken across it, because the

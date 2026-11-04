@@ -43,6 +43,11 @@ a pinch. **Tobias Runt** would want to see it, and would say so at length.
 <!-- nonid: A water-swollen book of tallies -->
 <!-- weight: 3 -->
 
-Three months of tallies in a clerk's hand: how many passed through, going which way, carrying
-what. The last four entries are in a different hand and count crusader patrols. Then it stops,
-three weeks ago, in the middle of a page.
+More than a year of tallies in a clerk's hand: how many passed through, going which way,
+carrying what. The last four entries are in a different hand and count crusader patrols. Then it
+stops, three weeks ago, in the middle of a page.
+
+**Turn it over.** The back pages run the other way, upside down, in a harder hand, under the
+heading *The Road*: a column of figures, one a day for most of a year, in feet. They start at six
+and do not stop. At the bottom of the last page is a sum, *Drezen, 22 miles less 1,240 ft.*, and
+beside it, underlined twice, *four years*.

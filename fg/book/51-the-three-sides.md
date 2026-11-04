@@ -1,23 +1,26 @@
-# The Three Sides
+# Who Is in the House
 
 <!-- chapter: The Sarkorian Manor -->
 <!-- section: Introduction -->
 <!-- order: 2 -->
+**Ysolde Karn**, Deskari's acolyte, who took command of the Labyrinth's post when its arcanist
+died a year ago. She wears the **Crown of the Swarm**, a mummer's prop with brass antennae on
+springs, and believes it lets her command the ants. She has fed eleven men to them.
 
-**The Ivory Labyrinth's post.** Nineteen men came here under the Templars, because the Labyrinth
-worked out that everything moving west out of Drezen now moves along one road and one house sits
-halfway along it. They were not raiding. They were **counting**. **Ysolde Karn** runs what is left
-of them.
+**Two Labyrinth men**, the last of nineteen. They dig, they haul spoil, and they do as they are
+told, because they have seen what happens to the ones who do not. They break the moment somebody
+gives them a reason.
 
-**The Locust-Sworn.** **Corwin Skell** and two young men he brands. Deskari's, and here first:
-Corwin came for the hive under the house and was still working out how to reach it when the
-Labyrinth arrived and set up a counting-post on top of him.
+**Nib**, a quasit, the dead arcanist's familiar. She sits invisible on Ysolde's shoulder and it is
+her voice the ants obey. She led her old master to his death, she is feeding the men to the brood
+to grow it, and she means to arrive before Deskari at the head of a swarm.
 
-**The young queen**, walled into the north-east room, which is why the other two are only six.
+**The young queen**, walled into the north-east room, laying; and her soldiers in the earth under
+the cellar, digging east.
 
 @link npc: ysolde_karn | Ysolde Karn
+@link npc: nib | Nib
 @link npc: labyrinth_squatter | Labyrinth Squatter
-@link npc: corwin_skell | Corwin Skell
-@link npc: locust_sworn | Locust-Sworn
 @link npc: fiendish_ant_queen | The Young Queen
+@link ability: voice_of_the_brood | Voice of the Brood (Su)
 @link map: manor | The manor (map)
