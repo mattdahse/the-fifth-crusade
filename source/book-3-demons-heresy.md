@@ -3060,6 +3060,8 @@ He did not climb out. He touched the scale of **Terendelev** that he had carried
 
 **Lupenor** drew the star-bow and shot, and the arrow went in and stayed in, and it shone. Now everyone in the room could see exactly where **Xanthir Vang** was. **Arueshalae** put an arrow in next to it.
 
+![A little wormy.](images/a-little-wormy.webp)
+
 **Rabiah** slid up beside **Harlock** and slapped a ***Fly*** spell on his back. *"Harlock, you are the wind beneath my wings."* The paladin felt lofty, lighter than air, like he could walk on sunshine.
 
 **Vang** turned his attention to the archer who had marked him. He reached into her mind and conjured up the thing she feared most in the world. It very nearly worked. **Lupenor** clawed her way out of the ***Phantasmal Killer*** on a surge of mythic will, and it unravelled without leaving a mark. **Varic**, standing on his cloud, poured out healing over everyone who still needed it.
