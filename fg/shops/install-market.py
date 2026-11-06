@@ -13,7 +13,8 @@ descriptions. This reads that record and reshapes it into Market.ext's: the item
     <!-- markup: 1.2 -->                   what the market charges over book price
     <!-- markdown: 0.5 -->                 the fraction of book price it pays when buying
     <!-- maxbuy: 300 gp -->                the most it pays for any one item
-    <!-- buys: goods, potion, oil -->      the item kinds it will buy from players
+    <!-- buys: goods, potion, oil -->      what it will buy from players: words matched
+                                           against each item's type or subtype
 
 A market already in the campaign is LEFT ALONE, for the same reason install-shop.py leaves
 a live shop alone: its stock, coin and deals are play state. --replace ID resets one to its
@@ -42,8 +43,6 @@ ROOT = _shop.ROOT
 BLOCK = _shop.BLOCK
 CAMPAIGNS = _shop.CAMPAIGNS
 
-BUY_KINDS = ['armor', 'goods', 'oil', 'potion', 'ring', 'rod', 'scroll', 'shield', 'staff',
-             'wand', 'weapon', 'wondrous']
 CP = {'pp': 1000, 'gp': 100, 'sp': 10, 'cp': 1}
 
 
@@ -86,14 +85,11 @@ def build_market(rid, rec, m):
     """rec is the MKshops record's XML text; returns the <market> record's XML text."""
     node = ET.fromstring(rec.strip())
     markup = float(m.get('markup', node.findtext('markup') or 1))
-    buys = set(b.strip().lower() for b in m.get('buys', '').split(',') if b.strip())
-    unknown = buys - set(BUY_KINDS)
-    if unknown:
-        sys.exit('%s: unknown buys: %s (known: %s)' % (rid, ', '.join(sorted(unknown)), ', '.join(BUY_KINDS)))
+    # Free text: each entry matches whole words of an item's type or subtype in Market.ext.
+    buys = [b.strip() for b in m.get('buys', '').split(',') if b.strip()]
 
-    L = ['\t\t<%s>' % rid, '\t\t\t<public />']
-    for k in BUY_KINDS:
-        L.append('\t\t\t<buy_%s type="number">%d</buy_%s>' % (k, 1 if k in buys else 0, k))
+    L = ['\t\t<%s>' % rid, '\t\t\t<public />',
+         '\t\t\t<buylist type="string">%s</buylist>' % esc(', '.join(buys))]
 
     # The coin float, verbatim from the shop record.
     coin = re.search(r'(?s)\n\t\t\t<coinlist>.*?\n\t\t\t</coinlist>', rec).group(0)
