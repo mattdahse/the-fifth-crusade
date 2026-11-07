@@ -3058,6 +3058,8 @@ The floor opened. It was **Vang**'s turn to dig a pit, and his was lined with sp
 
 He did not climb out. He touched the scale of **Terendelev** that he had carried since **Kenabres**, the one that walks on cloud, and rose up out of the pit on a pillar of rolling white vapour. He floated free of the spikes, leaving the babau where they were.
 
+![Two stars out of five.](images/two-stars-out-of-five.webp)
+
 ### **Tracer**
 
 **Lupenor** drew the star-bow and shot, and the arrow went in and stayed in, and it shone. Now everyone in the room could see exactly where **Xanthir Vang** was. **Arueshalae** put an arrow in next to it.
