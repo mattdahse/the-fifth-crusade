@@ -3006,8 +3006,6 @@ The sound got inside the head. **Harlock** lost the thread of himself at once. *
 
 She had carried it since the **Gray Garrison**. She held it now, inside **Varic**'s circle, and asked it for what it had left. The holy light went out of the stone and into her bow and her blades. For a day, every arrow she loosed would bite a fiend like cold iron, like something blessed, like something made to hunt them. When the light was gone, what lay in her palm was an ordinary stone. She kept it anyway.
 
-![She kept it anyway.](images/she-kept-it-anyway.webp)
-
 **Varic** called down a ***Holy Smite*** on the three that remained. Two of them went blind in the glare. Somebody called him a paladin. *"I'm a priest of Sarenrae, not a paladin,"* he said. *"Disrespectful to my guys."*
 
 **Harlock** came back to himself. He laid his own hand on his chest and let **Iomedae**'s mercy burn the confusion out of his head and the poison out of his blood. Then he went to work on a blinded derakni. They were still clawing at him, and they kept him at the very edge of death. **Rabiah**'s green ray went into a second derakni, and it was very badly hurt and still standing.
@@ -3057,6 +3055,8 @@ The star-bow's arrows burned like little suns for a minute after they struck. If
 **Vang** raised his staff, spoke a command word, and the ***Cloudkill*** came back. The babau did not care; poison meant nothing to them. **Varic** stepped clear of it and raised a ***Prayer*** to **Sarenrae**: *"to protect my friends and slaughter my enemies — I mean, defend my friends."* It reached up into the air and found the worm-thing anyway.
 
 **Harlock** had three babau around him. He raised ***Radiance*** and cut through all three of them in a single stroke, side by side, and every one of them would remember who had done it. **Lupenor** called on the wings of her celestial armour and rose up out of the cloud. **Rabiah** drew the last of her mythic power and tore the second cloud apart.
+
+![Trade me bows.](images/trade-me-bows.webp)
 
 The floor opened. It was **Vang**'s turn to dig a pit, and his was lined with spikes. **Varic** went into it, and two of the babau with him, fifty feet down. *"Hey, look,"* said the babau at the bottom, *"you and me, Paladin, we're both in the pit."* **Varic** rated the experience two stars out of five.
 
