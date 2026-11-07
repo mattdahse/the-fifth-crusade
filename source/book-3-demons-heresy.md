@@ -2996,6 +2996,8 @@ The sound got inside the head. **Harlock** lost the thread of himself at once. *
 
 **Harlock** was still lost. He stood in the middle of the demons babbling, and ***Radiance*** was screaming in his mind. *"Snap out of it! The demons are killing us!"* The demons had him flanked. Claw, claw, sting, and the paladin went down.
 
+![Snap out of it!](images/snap-out-of-it.webp)
+
 **Arueshalae** stepped back, drew a long breath, and let it out slowly. **Harlock** was on his feet again. He was still more dead than alive, but something in her presence would not let him fall while she stood near. Then she nocked an arrow made for killing fiends and put it into the derakni that **Rabiah** had half unmade. It ended that demon's story, at least on this plane.
 
 ### **The Last of the Wardstone**
