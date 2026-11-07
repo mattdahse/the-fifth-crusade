@@ -3006,6 +3006,8 @@ The sound got inside the head. **Harlock** lost the thread of himself at once. *
 
 She had carried it since the **Gray Garrison**. She held it now, inside **Varic**'s circle, and asked it for what it had left. The holy light went out of the stone and into her bow and her blades. For a day, every arrow she loosed would bite a fiend like cold iron, like something blessed, like something made to hunt them. When the light was gone, what lay in her palm was an ordinary stone. She kept it anyway.
 
+![She kept it anyway.](images/she-kept-it-anyway.webp)
+
 **Varic** called down a ***Holy Smite*** on the three that remained. Two of them went blind in the glare. Somebody called him a paladin. *"I'm a priest of Sarenrae, not a paladin,"* he said. *"Disrespectful to my guys."*
 
 **Harlock** came back to himself. He laid his own hand on his chest and let **Iomedae**'s mercy burn the confusion out of his head and the poison out of his blood. Then he went to work on a blinded derakni. They were still clawing at him, and they kept him at the very edge of death. **Rabiah**'s green ray went into a second derakni, and it was very badly hurt and still standing.
@@ -3017,6 +3019,8 @@ The company had done this long enough to hold a council in the middle of a fight
 The derakni that was left had one more thing to try. It called up a plague of insects: four great swarms of wasps that boiled into the room and over everyone in it. Every sting carried poison.
 
 They could not come into the circle. They had been summoned, and **Varic**'s ward would not let a summoned thing cross it unless someone inside struck first. The swarms battered themselves against the empty air at its edge, furious and helpless. **Lupenor** stepped into the circle, laid her bane back on her arrows, and shot the derakni that had called them until it died. As far as anyone could see, it was the last of them.
+
+![Very frustrated.](images/very-frustrated.webp)
 
 Then they waited inside the circle while the wasps raged against it, the better part of twelve minutes. **Varic** spent charges from his new staff restoring **Harlock**'s strength. **Harlock** drank potion after potion. **Rabiah** thought about dispelling the swarms and decided it was not worth the risk to their own wards. When the wasps finally thinned away, **Varic** poured out the Dawnflower's light and healed every wound in the company. The endurance and the haste had run out by then. The circle still held, and the wardstone's blessing still burned in **Lupenor**'s quiver.
 
