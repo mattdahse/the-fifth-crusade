@@ -1,5 +1,5 @@
 --
--- Spellbook window. Database node: <spell class>.mc_book
+-- Spellbook window. Database node: <character>.mc_spellbook.<spell class id>
 --
 
 --luacheck: globals title slots list filter levelfilter

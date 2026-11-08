@@ -81,8 +81,12 @@ function DB.getValue(n, p, d)
   if c and c.value ~= nil then return c.value end
   return d
 end
+_G.SHEET_OPEN = false
+_G.HOT = 0      -- writes under a spellset while the sheet is open (each one refreshes every action)
+local function cost(n) if _G.SHEET_OPEN and path(n):find("%.spellset%.") then _G.HOT = _G.HOT + 1 end end
 function DB.setValue(n, p, t, v, v2)
   local c = walk(n, p, true)
+  cost(c)
   if t == "windowreference" then c.value = v; c.record = v2 else c.value = v end
 end
 function DB.getChildList(n, p)
@@ -107,14 +111,21 @@ function DB.getModule(n) return top(n).module end
 function DB.getParent(n) return n.parent end
 function DB.getName(n) return n.name end
 function DB.getPath(n, sub) local s = path(n); if sub then s = s .. "." .. sub end; return s end
-function DB.deleteNode(n) n.parent.children[n.name] = nil end
+function DB.deleteNode(n) cost(n); n.parent.children[n.name] = nil end
 function DB.createChildAndCopy(dest, src)
   local function cp(s, d) d.value = s.value; for _, k in ipairs(s.order) do if s.children[k] then cp(s.children[k], child(d, k, true)) end end end
-  local n = DB.createChild(dest); cp(src, n); return n
+  local n = DB.createChild(dest); cp(src, n); cost(n); return n
 end
 
 ChatManager = { SystemMessage = function(s) table.insert(log, s) end }
-Interface = { openWindow = function(c, p) return { class = c, path = p } end }
+Interface = {}
+function Interface.openWindow(c, p)
+  if c == "charsheet" then _G.SHEET_OPEN = true; _G.REOPENED = (_G.REOPENED or 0) + 1 end
+  return { class = c, path = p }
+end
+function Interface.findWindow(c, p)
+  if c == "charsheet" and _G.SHEET_OPEN then return { close = function() _G.SHEET_OPEN = false end } end
+end
 SpellManager = {}
 function SpellManager.addSpell(src, cls, lvl)
   local spells = DB.getChild(cls, "levels.level" .. lvl .. ".spells")
@@ -213,13 +224,19 @@ def test_flow(L):
         DB.setValue(n, "name", "string", name); DB.setValue(n, "prepared", "number", prep); return n
       end
       sheet(1, "Bless", 2); sheet(1, "Bane", 0); AIDS = sheet(2, "Aid", 0); sheet(1, "Custom Smite", 0)
+      DB.setValue(DB.createChild(CLS, "mc_book.entries.id-00001"), "name", "string", "Old")  -- a v1.0.0 book
+      SHEET_OPEN = true; HOT = 0
       W = SpellbookMC.open(CLS)
-      BOOK = DB.getChild(CLS, "mc_book")
+      HOT_OPEN = HOT
+      BOOK = DB.findNode("charsheet.id-00003.mc_spellbook.id-00002")
     ''')
     G = L.globals()
     SB = G.SpellbookMC
     ev = L.eval
-    check("window opened on the book", (G.W["class"], G.W.path), ("mc_spellbook", "charsheet.id-00003.spellset.id-00002.mc_book"))
+    check("window opened on the book", (G.W["class"], G.W.path), ("mc_spellbook", "charsheet.id-00003.mc_spellbook.id-00002"))
+    check("book points back at its class", ev('SpellbookMC.getClassNode(BOOK) == CLS'), True)
+    check("v1.0.0 book under the spell class removed", ev('DB.getChild(CLS, "mc_book")'), None)
+    check("opening writes nothing under the spellset but the old book's removal", ev("HOT_OPEN"), 1)
     check("lists default from the class label", ev('DB.getValue(BOOK, "classkeys")'), "cleric")
     check("book has the cleric spells, not Fireball or the skipped 3.5E module", ev("entryCount(BOOK)"), 5)
     check("Holy Smite skipped (3.5E)", ev('entry(BOOK, "Holy Smite")'), None)
@@ -233,7 +250,9 @@ def test_flow(L):
     L.execute('DB.setValue(entry(BOOK, "Aid"), "keep", "number", 1)')
     plan = SB.tidyPlan(G.BOOK)
     check("tidy would remove only Bane", sorted(L.eval("function(t) local r={} for _,v in ipairs(t) do table.insert(r, DB.getValue(v,'name')) end return table.concat(r,',') end")(plan).split(",")), ["Bane"])
+    L.execute("SHEET_OPEN = true; HOT = 0")
     deleted, marked = SB.tidy(G.BOOK)
+    check("tidy ran with the sheet closed", (ev("HOT"), ev("SHEET_OPEN")), (0, True))
     check("tidy counts", (deleted, marked), (1, 1))
     check("after tidy, level 1", ev("sheetNames(CLS, 1)"), "Bless=2*,Custom Smite=0")
     check("after tidy, kept Aid untouched", ev("sheetNames(CLS, 2)"), "Aid=0")
@@ -243,8 +262,10 @@ def test_flow(L):
       DB.setValue(entry(BOOK, "Bless"), "prep", "number", 0)
       DB.setValue(entry(BOOK, "Cure Light Wounds"), "prep", "number", 3)
       DB.setValue(entry(BOOK, "Cure Light Wounds, Mass"), "prep", "number", 1)
+      SHEET_OPEN = true; HOT = 0; REOPENED = 0
       R = SpellbookMC.prepare(BOOK)
     ''')
+    check("prepare ran with the sheet closed, then reopened it", (ev("HOT"), ev("REOPENED"), ev("SHEET_OPEN")), (0, 1, True))
     check("prepare report", (G.R.added, G.R.removed, G.R.prepared, len(G.R.missing)), (2, 1, 4, 0))
     check("level 1 after prepare", ev("sheetNames(CLS, 1)"), "Cure Light Wounds=3*,Custom Smite=0")
     check("level 2: kept spell stays", ev("sheetNames(CLS, 2)"), "Aid=0")
@@ -316,7 +337,7 @@ def test_srd(L, path):
       DB.setValue(CLS, "label", "string", "Cleric")
       for i = 0, 9 do DB.createChild(CLS, "levels.level" .. i .. ".spells") end
       SpellbookMC.open(CLS)
-      BOOK = DB.getChild(CLS, "mc_book")
+      BOOK = DB.findNode("charsheet.id-00001.mc_spellbook.id-00001")
     ''')
     total = L.eval("entryCount(BOOK)")
     print(f"  {n} spells in the module, {total} in a cleric book")

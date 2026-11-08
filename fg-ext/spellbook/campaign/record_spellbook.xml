@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  Spellbook window. Its database node is the spell class's mc_book node, so every field below
+  Spellbook window. Its database node is the character's mc_spellbook.<class id> node, so every field below
   (classkeys, skipsources, levelfilter, entries) lives there and never on the Actions tab.
 -->
 <root>

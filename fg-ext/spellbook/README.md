@@ -60,11 +60,29 @@ directly on the sheet are respected. Changes in the window take effect only when
 
 ## Where the data lives
 
-The spellbook is stored under the spell class, at `<spellset>.mc_book`: the *Lists* and *Skip*
-settings, plus one small entry per spell (name, level, link, source, count, keep). Each entry is
+The spellbook is stored on the character, at `<character>.mc_spellbook.<spell class id>`: the
+*Lists* and *Skip* settings, a path back to the class, and one small entry per spell (name,
+level, link, source, count, keep). Each entry is
 about 150 bytes, against about 3 KB for a spell on the Actions tab. The window is only built
 while it's open. The extension runs on whoever opens it: a player on their own character, or the
 GM on anyone's. Players get it automatically once the host enables it.
+
+## Why the book isn't under the spell class, and the sheet blinks
+
+The 3.5E ruleset (which PFRPG uses) watches the character's whole `spellset` with an
+`onChildUpdate` handler. Every write anywhere under it, at any depth, refreshes every action of
+every spell on the open sheet. On Varic that's about 900 action windows per write. v1.0.0 kept the
+book under the spell class, so building it (about 1,700 writes) froze FG for minutes, and the
+client had to be force-quit. From v1.0.1:
+
+- The book lives on the character, outside `spellset`. Opening the window and editing counts
+  writes nothing under the spellset. A leftover v1.0.0 book under the class is deleted on open.
+- **Prepare** and **Tidy** have to write under the spellset, so they close the character sheet on
+  your machine while they run and reopen it after (that's the blink). They also skip writes that
+  change nothing.
+- Another machine with that sheet open still refreshes on each change it receives. Tidy deletes
+  a couple of hundred spells in one go, so ask the player to close Varic's sheet first (or have
+  them run Tidy on their own client, with the GM's copy of the sheet closed).
 
 ## Building and testing
 
@@ -87,6 +105,8 @@ campaign and module roots. It covers:
 - Tidy with Keep
 - Prepare adding and removing spells, and running it twice
 - spells added by hand, a prepared spell whose module is missing, and a class with no list
+- cost: opening the book writes nothing under the spellset, and Prepare and Tidy run with the
+  sheet closed, then reopen it
 
 Given an unpacked spell module's `client.xml`, it also builds a cleric book from the real data:
 236 of the PF SRD's 623 spells.

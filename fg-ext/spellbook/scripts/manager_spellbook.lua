@@ -5,10 +5,17 @@
 -- class could prepare. Each spell on the tab is a full copy with parsed actions and effects,
 -- and FG builds a window for every one of them, prepared or not.
 --
--- The spellbook keeps the full choice somewhere cheap: under the spell class, in mc_book, as one
--- small entry per spell (name, level, a link to the library record, how many to prepare). Only
--- the Prepare button touches the Actions tab, and it adds spells through the ruleset's own
--- SpellManager.addSpell, the same path a drag from the Spells list takes.
+-- The spellbook keeps the full choice somewhere cheap: on the character, in
+-- mc_spellbook.<spell class id>, as one small entry per spell (name, level, a link to the library
+-- record, how many to prepare). Only the Prepare button touches the Actions tab, and it adds
+-- spells through the ruleset's own SpellManager.addSpell, the same path a drag from the Spells
+-- list takes.
+--
+-- Why not under the spell class: the 3.5E ruleset puts an onChildUpdate handler on the whole
+-- spellset, and every write anywhere below it refreshes every action of every spell on the
+-- sheet. A book stored there froze FG for minutes on its first build (v1.0.0). For the same
+-- reason Prepare and Tidy, which must write under the spellset, close the character sheet while
+-- they run and reopen it after, and they skip writes that change nothing.
 --
 -- Rules for the Actions tab:
 --   * Prepare adds what is wanted and sets its prepared count. A spell it added itself (marked
@@ -19,7 +26,8 @@
 --     except kept ones, and marks what is left as the book's.
 --
 
-local BOOK = "mc_book";
+local BOOKS = "mc_spellbook";    -- on the character: one book per spell class, by its id
+local LEGACY = "mc_book";        -- v1.0.0 kept the book under the spell class; removed on open
 local MARK = "mc_book";          -- on a sheet spell: 1 when the spellbook added it
 
 -- Short class names used in the level lines of the 3.5E and PF SRD modules.
@@ -140,8 +148,45 @@ end
 --	THE BOOK
 --
 
+local function charOf(nodeSpellClass)
+	return DB.getParent(DB.getParent(nodeSpellClass));
+end
+
 function getClassNode(nodeBook)
-	return DB.getParent(nodeBook);
+	return DB.findNode(DB.getValue(nodeBook, "classpath", ""));
+end
+
+-- Only write when the value changes: under the spellset, every write costs a full refresh.
+local function setNumber(node, sField, n)
+	if DB.getValue(node, sField) ~= n then
+		DB.setValue(node, sField, "number", n);
+	end
+end
+
+-- Runs fn with the character's sheet closed here, so the ruleset's spellset handler (which
+-- refreshes every spell action on each write) isn't attached while fn makes many writes.
+local SHEET_CLASSES = { "charsheet", "npc" };
+function withSheetClosed(nodeSpellClass, fn)
+	local sPath = DB.getPath(charOf(nodeSpellClass));
+	local tClosed = {};
+	if Interface.findWindow then
+		for _,sClass in ipairs(SHEET_CLASSES) do
+			local w = Interface.findWindow(sClass, sPath);
+			if w then
+				table.insert(tClosed, sClass);
+				w.close();
+			end
+		end
+	end
+	local tResult = { pcall(fn) };
+	for _,sClass in ipairs(tClosed) do
+		Interface.openWindow(sClass, sPath);
+	end
+	if not tResult[1] then
+		error(tResult[2], 0);
+	end
+	local fnUnpack = unpack or table.unpack;
+	return select(2, fnUnpack(tResult));
 end
 
 function getEntries(nodeBook)
@@ -157,11 +202,18 @@ local function entryIndex(nodeBook)
 end
 
 function getBook(nodeSpellClass)
-	local nodeBook = DB.getChild(nodeSpellClass, BOOK);
+	local nodeLegacy = DB.getChild(nodeSpellClass, LEGACY);
+	if nodeLegacy then
+		DB.deleteNode(nodeLegacy);
+	end
+	local sName = DB.getName(nodeSpellClass);
+	local nodeChar = charOf(nodeSpellClass);
+	local nodeBook = DB.getChild(nodeChar, BOOKS .. "." .. sName);
 	if nodeBook then
 		return nodeBook;
 	end
-	nodeBook = DB.createChild(nodeSpellClass, BOOK);
+	nodeBook = DB.createChild(DB.createChild(nodeChar, BOOKS), sName);
+	DB.setValue(nodeBook, "classpath", "string", DB.getPath(nodeSpellClass));
 	DB.setValue(nodeBook, "classkeys", "string", classKey(DB.getValue(nodeSpellClass, "label", "")));
 	DB.setValue(nodeBook, "skipsources", "string", "3.5E");
 	return nodeBook;
@@ -210,10 +262,12 @@ function rebuild(nodeBook)
 			nAdded = nAdded + 1;
 		end
 		if DB.getValue(nodeEntry, "manual", 0) == 0 then
-			DB.setValue(nodeEntry, "level", "number", t.nLevel);
+			setNumber(nodeEntry, "level", t.nLevel);
 		end
-		setLink(nodeEntry, t.node);
-		DB.setValue(nodeEntry, "missing", "number", 0);
+		if DB.getValue(nodeEntry, "recordname", "") ~= DB.getPath(t.node) then
+			setLink(nodeEntry, t.node);
+		end
+		setNumber(nodeEntry, "missing", 0);
 	end
 	for k,nodeEntry in pairs(tIndex) do
 		if not tFound[k] and DB.getValue(nodeEntry, "manual", 0) == 0 then
@@ -221,7 +275,7 @@ function rebuild(nodeBook)
 				DB.deleteNode(nodeEntry);
 				nRemoved = nRemoved + 1;
 			else
-				DB.setValue(nodeEntry, "missing", "number", 1);
+				setNumber(nodeEntry, "missing", 1);
 			end
 		end
 	end
@@ -291,7 +345,7 @@ function syncFromSheet(nodeBook)
 		for _,n in ipairs(tNodes or {}) do
 			nPrep = nPrep + DB.getValue(n, "prepared", 0);
 		end
-		DB.setValue(v, "prep", "number", nPrep);
+		setNumber(v, "prep", nPrep);
 	end
 end
 
@@ -303,6 +357,10 @@ end
 
 -- Returns a report table: added, removed, prepared, missing (names).
 function prepare(nodeBook)
+	return withSheetClosed(getClassNode(nodeBook), function() return prepareNow(nodeBook); end);
+end
+
+function prepareNow(nodeBook)
 	local nodeSpellClass = getClassNode(nodeBook);
 	local tReport = { added = 0, removed = 0, prepared = 0, missing = {} };
 
@@ -338,11 +396,11 @@ function prepare(nodeBook)
 					end
 				end
 				if nodeSpell then
-					DB.setValue(nodeSpell, "prepared", "number", nPrep);
+					setNumber(nodeSpell, "prepared", nPrep);
 					tReport.prepared = tReport.prepared + nPrep;
 					-- duplicates of the same spell at this level carry no count
 					for i = 2, #(tNodes or {}) do
-						DB.setValue(tNodes[i], "prepared", "number", 0);
+						setNumber(tNodes[i], "prepared", 0);
 					end
 				end
 				tSheet[k] = nil;
@@ -358,7 +416,7 @@ function prepare(nodeBook)
 					DB.deleteNode(nodeSpell);
 					tReport.removed = tReport.removed + 1;
 				else
-					DB.setValue(nodeSpell, "prepared", "number", 0);
+					setNumber(nodeSpell, "prepared", 0);
 				end
 			end
 		end
@@ -393,6 +451,10 @@ end
 -- Deletes the plan, then hands every remaining sheet spell the book knows (and is not kept) to
 -- the book, so later Prepares can remove it when it is dropped. Returns deleted, handed over.
 function tidy(nodeBook)
+	return withSheetClosed(getClassNode(nodeBook), function() return tidyNow(nodeBook); end);
+end
+
+function tidyNow(nodeBook)
 	local tDelete = tidyPlan(nodeBook);
 	for _,nodeSpell in ipairs(tDelete) do
 		DB.deleteNode(nodeSpell);
@@ -405,7 +467,7 @@ function tidy(nodeBook)
 			local nodeEntry = tIndex[k];
 			if nodeEntry and DB.getValue(nodeEntry, "keep", 0) == 0 then
 				for _,nodeSpell in ipairs(tNodes) do
-					DB.setValue(nodeSpell, MARK, "number", 1);
+					setNumber(nodeSpell, MARK, 1);
 					nMarked = nMarked + 1;
 				end
 			end
