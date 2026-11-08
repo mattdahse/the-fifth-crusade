@@ -2962,11 +2962,13 @@ The derakni was still waiting to the south, and beyond it **Xanthir Vang**.
 
 ## **The Worm That Walks**
 
-<!-- date: October 23, 2026 -->
+<!-- date: October 23 & November 6, 2026 -->
 
-<!-- inworld: 26 Neth 4713 -->
+<!-- inworld: 26 Neth 4713 to 27 Neth 4713 -->
 
 <!-- fathom: call=874477059 recording=195964541 -->
+
+<!-- fathom: call=893098657 recording=200803082 -->
 
 *The Ivory Sanctum, 26th of Neth, 4713 AR*
 
@@ -3098,4 +3100,122 @@ The sanctuary of the **Ivory Labyrinth** was theirs, for now. There were other r
 
 Something had happened to the company in that room, as it had at the **Gray Garrison** and on the walls of **Drezen**. They had taken the house of a demon lord's servant and driven out its master, and the power that had first woken in them at the wardstone went deeper again. They were tired to the bone, and they were more than they had been that morning.
 
-*— Session of October 23rd, 2026 —*
+### **What Woke in Them**
+
+The babau at the bottom of the pit did not come out of it. By the time anyone thought to look down, the pit had finished with them, and the company let it close.
+
+They sat among the charred demons and the dead worms and found out what they had become. **Varic**'s healing no longer needed his hand. He could send it across a room to a friend he could not reach, the way an archer sends an arrow. The Dawnflower's mending now knit back what poison and withering took out of a body, as well as what blades took. A blessing he laid on someone at dawn could be made to last until the next dawn. **Rabiah** found that her magic had stopped needing her voice. She could close her mouth, keep her hands still, and cast anyway. There was more of it in her, too, a deeper well of the small spells she spent so freely. **Lupenor** could put two arrows on the string at once and send both home. And her mind had shut a door that it had always left ajar. Whatever a lesser enchanter tried to make her do, she would not have to do it.
+
+***Radiance*** had grown most of all. **Harlock** felt it in the hilt before he understood it. The sword had become something nearer an artifact than a blade. She could pour her own strength into her bearer's body to mend it, or to burn away a fetter laid on him. And when he asked it of her, one blow could land with twice the weight of the arm behind it.
+
+### **The Seven-Armed Rune**
+
+The room was as **Vang** had left it, give or take a great many worms. **Rabiah** studied the seven-armed rune in its ring of iron and recognised the work. It was a summoning circle of the same kind they had seen elsewhere in the temple, only finer. Whatever was called into it arrived hasted and full of borrowed courage, which explained why the babau had come at them so fast. They put the incense out. The rune itself was cut into the living stone. Nobody had a pick, or the spell that shapes stone, so for now it stayed.
+
+The cabinets and shelves gave up a ***Blessed Book*** with every page still empty, and a fragile ***Word Bottle*** that could hold a spell and be thrown like a flask of fire. There was a figurine of a silver raven that would take wing on command and carry a message a day's flight away, and **Varic** took the raven. Two little spider-shaped constructs turned out to be control drones for the great spider-machines called retrievers. **Harlock** kept those in case they ever met one. There were gems enough to fill a purse, and a collection of rare books worth a small fortune and weighing about eight hundred pounds. The black books written in **Abyssal** they burned.
+
+And there were papers. They were like the plans in the war room to the north, where the fly-headed demon had kept its locust swarm, only these were not trapped with explosive runes. They were maps, code phrases and long lists of names. None of the names meant anything to the company. But they were the names of crusaders who had been bought, and of the agents the **Ivory Labyrinth** had slipped into the supply lines and the villages, the brothels and the mercenary companies. Someone in **Drezen** would very much like to see them. It fell to **Harlock** to carry them to **Irabeth**.
+
+### **The Chest in the Hollow**
+
+**Harlock** led the way down the short stair into the hollow, with **Lupenor** at his shoulder. There was a chest there. It was locked, and **Lupenor** could find no trap on it, and the lock was very good indeed. Her picks would not do it. In the end **Rabiah** laid a touch of destiny on the slayer's hands, and **Lupenor** rang the ***Chime of Opening*** over the lock as she worked it. Between them, the lid came up.
+
+Inside was an arrow of rare make and a coffer of platinum. There were two empty vials, stained inside with a strange purple residue. The company had read enough in this place to guess what those vials had held: the elixir that made ordinary monsters mythic. There was a book bound in leather and strapped shut, with no magic on it at all. **Harlock** opened it. It was written in the letters of **Abyssal**, in the shape of **Abyssal**, and none of it meant anything. It was a cipher. He closed it again.
+
+There was also a dish of what looked like little chocolate sweets. It was ***Ambrosia***, food for mythic things, and a mouthful of it filled the eater back up with all the power they had spent. There was one each. Somebody worried aloud about where to keep theirs. It was, the others pointed out, a piece of chocolate. It went in the mouth, not the quiver.
+
+### **The Bag of Darkness**
+
+The stone sarcophagus in the corner had no lid. Inside was a hollow in the shape of a body, half-full of dead worms. It was where the worm-thing had slept, laid out like a corpse, because apparently it liked to. There was nothing in it to stake, which made **Lupenor** a great deal happier about walking past it.
+
+Then something about it struck someone as wrong, and they went back and looked again. **Varic** found the catch. A little spring-loaded drawer the width of a thumb popped out of the stone, and behind it was a dark compartment. **Varic** shone his light into it. There was a sack inside, sixty pounds of it, and **Harlock** hauled it out.
+
+When he opened the sack there was nothing to see but darkness. It was not the dark at the bottom of a bag. It was a darkness with no bottom at all, and nobody wanted to put a hand into it. *"Just tip it out,"* **Rabiah** said. **Harlock** took it by the bottom seam and upended it.
+
+Three great books in elaborate bindings fell out on the stone. After them came a tiny mithril key that rang as it landed. The bag weighed exactly what it had before. It was a ***Bag of Holding***, a very large one. The books were **Vang**'s own spellbooks, crammed with a wizard's spells, and when **Rabiah** turned to the spells of the fifth circle, ***Cloudkill*** was the first of them. The mithril key fitted the lead-lined chest in the hollow. **Harlock** took the bag, put the library in it and the chest after it, and kept the key. He thought the chest would look well in his room at **Drezen**.
+
+### **The Worst Room in the Sanctum**
+
+There were still doors in the **Sanctum** that nobody had opened. There was very little left in any of the company, though. Their spells were spent, and so was their mythic strength. The question was whether to press on or to rest. **Harlock** said they should keep going. He said it once and let it stand, and he was outvoted.
+
+They rested in **Vang**'s chamber. **Rabiah** wanted to learn the room by heart. Its circle made a fine landmark, and she might want to teleport back to it one day. They swept the worms into a corner to make room for bedrolls. **Lupenor** worked the lock on the great double doors and locked it again behind them, and she did it very well. **Varic** no longer needed to sleep. He took the watch. He settled into a chair with **Vang**'s books and tended to everyone's hurts while they slept. **Harlock** took off his armour, because a man cannot sleep in plate. **Lupenor** kept hers on.
+
+**Varic** heard nothing and saw nothing. There was nothing to notice.
+
+**Xanthir Vang** had not left his spellbooks behind by choice. And this was his house.
+
+### **The Rod of Withering**
+
+He came back the way he had left, by teleport, invisible and flying. The company slept on. He drifted down over the half-orc who had hurt him most, the one lying out of his armour, and touched him with a rod.
+
+***Radiance***'s bearer woke screaming. It was a ***Rod of Withering***, and it had found him perfectly. It took the strength out of his arms and the health out of his body, and it took them in a way that rest would never give back. For a moment it was a near thing whether his heart would go on at all. It did. He came up out of a dream that had turned into a nightmare all at once. Under his green skin, where the rod had touched him, black tendrils were spreading. His cheeks had gone hollow, and his muscles had shrunk on the bone. He was in his underclothes, with his hair standing up and the seam of his sleeve printed across his cheek.
+
+**Varic** heard something like a flag in a high wind: cloth flapping, rising away from **Harlock** toward the ceiling. **Lupenor**, looking straight at the empty air over the paladin, saw a single fresh worm appear out of nothing and fall to the floor.
+
+She came up with her bow already in her hand. Before anyone could do anything stupid, she put the ***Horn of Battle Clarity*** to her lips and blew. Nobody in the company would be caught sleeping now, even those who had been. **Rabiah** swept her hand across her eyes, and the unseen came clear for her. There he was, twenty feet up against the ceiling, and she pointed. **Varic** sent the Dawnflower's healing across the room into **Harlock**. It gave him back what the poisons of the night before had taken. What the rod had taken, it did not touch. That would need a priest, a little diamond dust and a quiet day in **Drezen**.
+
+![Rise and shine.](images/rise-and-shine.webp)
+
+### **Cloudkill, Again**
+
+**Xanthir Vang** answered with a ***Cloudkill***. Everyone knew by now how the company felt about ***Cloudkill***, and it was clearly one of his favourites. He had no spells of his own left to spend on it, but he had the staff.
+
+The yellow-green fog rolled out over the floor. **Rabiah** and **Lupenor** both breathed it in, and it went into their blood. **Harlock** shook it off. With no armour on he could move faster than he had in years, and he ran for clean air. Behind him a voice spoke in his head. *"Don't leave me, champion."*
+
+He stopped. He turned back into the cloud and found ***Radiance*** where she lay beside his bedroll. He picked her up and got to his feet holding her. He stood there in his nightclothes, with the fumes billowing around him and the sword glowing in his hand.
+
+**Arueshalae**, whom poison never touched, simply stood up and took up her bow. **Lupenor** made for the doors. They were locked, and locked very well; she had seen to that herself. She went down the stairs into the hollow instead.
+
+Everything hung on what **Rabiah** did next. The poison was already in her blood. Her best spells were spent, and her mythic strength was almost gone. If the cloud stayed, it would go on eating the company where they stood while the worm-thing hung above it and took them apart at his leisure. She flung out her arm and swept it through the air, as if clearing a bad smell out of a room. Her ***Dispel Magic*** caught the ***Cloudkill*** whole and tore it apart. In a single heartbeat the green fog was gone, every wisp of it. The room was clear, and so was the air in their lungs.
+
+![Clear the air.](images/clear-the-air.webp)
+
+### **Silence**
+
+**Rabiah** was still pointing. **Varic** could not see what she was pointing at, but he could see the ceiling. He cast ***Silence*** on it, on the place her finger named.
+
+A globe of nothing settled over the upper air of the chamber. It reached down far enough to catch **Harlock** and **Rabiah** too. Up under the ceiling, where **Vang** had fought them from all night and where no blade could reach him, a wizard who lives by his voice now had none. His high perch had become a cage. **Vang** opened the place where his mouth should be. The worms there worked, and no word came out. He drifted from one corner to another, unsure where its edge lay, and found the silence still around him.
+
+**Harlock** stood in the middle of the floor with ***Radiance*** raised. He reached out with the sense **Iomedae** had given him for evil and waited for anything that was not his friend to come within reach. **Arueshalae** stood with her star-bow half-drawn and no arrow on the string, watching **Rabiah** for the sign. **Lupenor** came back up the stairs into a quiet so complete it rang.
+
+Then **Rabiah** used the gift that had come to her that day. She pointed into the corner where he hung. She said nothing and moved nothing but the one finger, and five darts of force leapt silently up the wall. The worm-thing's own resistance to magic unravelled them just short of him. But everyone saw where they died.
+
+**Arueshalae** had been waiting for exactly that. She drew the star-bow, and an arrow of light formed on the string where there had been none. She loosed, and the one arrow became a barrage, a storm of little stars flying up into the corner where the darts had died. Some of them broke on the worm-thing's defences. Enough of them struck. Where they hit, they did not go out. They clung to him and kept shining, a soft starlight that traced every fold of his robe and every writhing line of his hands. For the first time that night, everyone in the room could see the shape of **Xanthir Vang**. **Varic** threw a ***Spear of Purity*** into it and drew blood. **Vang** had had enough of the quiet. He came down out of the silence to the floor, where he could speak again, and sent a ***Phantasmal Killer*** at **Varic**. The priest looked at whatever it showed him and declined to die of it.
+
+![Starlight.](images/starlight.webp)
+
+### **Everything She Had**
+
+He had come down within reach of **Harlock**.
+
+Everything the others had done had led here. **Rabiah**'s dispelling had cleared the poison out of the air, **Varic**'s silence had taken away his voice in the high places, and **Arueshalae**'s starlight had taken away his invisibility. Between them, they had driven the worm-thing out of every refuge he had and set him down, glowing, in front of the one man in the company who could not reach him anywhere else. **Harlock** did not waste it.
+
+![He did not waste it.](images/he-did-not-waste-it.webp)
+
+He called on **Iomedae** to mark the worm-thing for smiting, and then he gave ***Radiance*** everything. He spent all the power left in his own body and all that was left in the sword. The first blow struck true. He asked it to land with twice its weight, and then twice that again, and it did. The second blow struck too. **Xanthir Vang** came apart under them like a sack of grain under an axe, and somehow pulled himself back together.
+
+**Arueshalae** had been saving an arrow for something like this. It was made to bind whatever it struck to the plane it was struck on. She had waited until she could see him, and now she put it into him. Whatever else happened, he would not teleport out of this one.
+
+He tried other things, and so did they. **Rabiah**'s rays of fire, cast without a word, broke against his resistance to flame. **Varic**'s ***Searing Light*** went wide. **Vang** spoke a word into a wand, and suddenly there were eight of him. The worms of his body began to knit his wounds closed. **Harlock** cut down one of the images. **Lupenor**'s arrows hit nothing at all. They had all just woken up.
+
+**Varic** spent more of his power on **Sarenrae**'s behalf. He called a ***Holy Smite*** down on the place where **Lupenor** stood. It was the only spot from which the blast would catch the worm-thing at its edge and still miss **Arueshalae**. The light struck **Vang** blind. He tried to cast through it anyway, guarding himself as he wove, and the spell fell apart in his hands. **Harlock**'s next swing went cleanly through a **Vang** that was not him. It would have finished him if it had been. Then **Arueshalae** went down the row of reflections one by one with her bow. When she was done there was only one **Xanthir Vang** left in the room. He was blind, and he was badly hurt.
+
+### **The Last of the Worms**
+
+It was **Lupenor**'s shot. She drew two arrows together and loosed them, and it was the shot every archer waits a lifetime for. Both went in, and the first went in exactly where it would do the most harm. **Vang** was still standing, but only just.
+
+**Rabiah** pointed, and five darts of force went silently home. The robe fell in on itself. The man-shape went with it, and what landed on the stone was a heap of writhing, squirming worms with his belongings floating on top.
+
+**Rabiah** jumped into it with both boots and started stomping. Squish. Squish. Left and right, her boots thick with worm, like a dancer at a harvest festival.
+
+**Varic** looked at the heap. It might pull itself together into something new. It might slide under a door and come back another day. He decided not to find out. He spent the very last of his mythic power and called down a ***Flame Strike*** from the ceiling, half holy fire and half the Dawnflower's own light. It came down white-hot in a column over the heap of worms. It caught **Harlock** and the still-stomping **Rabiah** at its edges and burned them both, and the worms turned black and died. Nothing in that heap would ever move again.
+
+### **Yours, Now**
+
+**Xanthir Vang** had nearly finished them in their beds. Instead he had learned what it is to fight four heroes who had become more than they were that morning, with a redeemed demon at their side. As for the priest who kept setting the paladin on fire and then healing him, somebody called it a sick relationship. **Harlock** went to collect his armour.
+
+What **Vang** had carried now lay in the ashes, and it was theirs. So was the rest of the **Sanctum**. There were still a few rooms to clear and a great deal of loot to sort. There was a library to carry home, and a list of traitors to put in **Irabeth**'s hands. **Rabiah** could teleport them home when they were done. The strength the rod had taken from **Harlock** would be given back to him in **Drezen**, for the price of a little diamond dust.
+
+The **Sanctum** was quiet now. **Jerribeth** was still out there somewhere, wounded and spiteful and sure to come back. But the house of the worm was empty, and the company that had emptied it was going home.
+
+*— Sessions of October 23rd and November 6th, 2026 —*
