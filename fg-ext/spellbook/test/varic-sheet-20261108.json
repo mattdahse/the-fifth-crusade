@@ -1,0 +1,140 @@
+{
+ "character": "Varic Sarian",
+ "node": "charsheet.id-00003",
+ "sheet": "b2b9eb8b0d501e6af80913e00e2354cad1bee9e2dceb3ae9f49722f739d8e990",
+ "sections": {
+  "public": "fb41b6365f90da079c52f965272c3b964b81d39d84436e8866ccad8e45937020",
+  "holder": "51bd424f09615dceaabf560e8fedfc95965af8abea5b3e5f6d27ed1af97de1f9",
+  "abilities": "dde17074fec95a6d72850f16459bb114f79902c293614eea698a5a976bade9a6",
+  "ac": "976118aae3a1537c8f35fc87942e54bf3b4bb66d00b707bd7c7235a7b70ed041",
+  "age": "f9d7229f9353dc34de6a16d3ba0287ba074b8b2a81b6ee97fc7c1012b3be4ad4",
+  "alignment": "6e7202dda37d7ea2f392567da82d5e4b5c196d19872b68044ba9bebfb07fcaa8",
+  "appearance": "d8d404c383fadd96cde595f91fb4f60b49231ca636e6abe67976ec2a7bc7b2f6",
+  "attackbonus": "a38f1fa2240a46f8cf82b1b5fbd9411776d6b72584cfc964eded31338bd5dd0d",
+  "classes": "b0c88cae54f4a461edceec8a42082069f950bacd348accc14b80ee922ddf77c2",
+  "coins": "5b30f6eee8ea8c54dacfd0ffea2cb87b55abd3bf5071d103f89ac7210c6ef8ac",
+  "defenses": "3262373e4a989f34fe7fd0118b0c0a2e5651a224cb470d16c577472846c327fc",
+  "deity": "f1990980f9435da21d2b4bd06a417b808c7a48ef5f233ec178b029a5ab931262",
+  "encumbrance": "d98cf7669d23cb2657e1e5c5bdc2c2050db5b62ffd14f918a165c08da6729f07",
+  "exp": "d985a91aecebda7a0071d1710c130606211d85c9bde8fe05feece596c6375bc5",
+  "expneeded": "1a76e9367b663338ed03c2ec2e0884c5c34aafa54d3fdcfe74974e49c8d2b2c4",
+  "featlist": "d8cf854ff2fbd6ef068f256b84435de3282c1569dee6393e26a51e809097a59e",
+  "gender": "a246c7a27af9e31b9a64d235450b13e2cef0e1e9bb3f1236a28b516c9e6b3d5d",
+  "height": "0fbee0ae59abf5f50bba843eaeccc4b535394106099427289c720df87387f2dc",
+  "heropoint": "d07ae14c429f959d3d45cba7dc3a8a509ee77db2b237b7239e46d0049f8aa74d",
+  "hp": "b1625d9fd41750814465ac830fa30378434eec54ad5ed5035e464ace2cfda76a",
+  "initiative": "f2954bca070c4603c5bf11c45f240baa5efac8e02280cc5b3ea7aeaae31650db",
+  "inventorylist": "943ca42b0ddaa4b62777c461f7357b851d1a10ee040decd2b7b9c130d9ee67f1",
+  "languagelist": "f91911f22d009b11f4b9d1a56dee1264f22c4e30421e260f1a2526f3cbfdbd4d",
+  "level": "4ce9c68fb11cd2b504c4cbb7e6212fc096c3077e43553f1167803b166c8cf149",
+  "locked": "c1a9617197b585ee2bc0308b3a9ba083d8c4e372d76df0b574b1a05b18ddacf0",
+  "mythic": "b4f50eb60250cbcd4d53819916f10012e8e65c6e72b9469dc43c866b9ebbbb29",
+  "mythicpowertotal": "9d1024b1615660ad0697cb8ce343f151f070535c37ec5a160c6df0df410d9c03",
+  "name": "f84cce81dc5223bfcb9b6773785a18998e5361b69a2a8c95128c7495102764fd",
+  "notes": "6ae6d1174750a413ec87664db906cc9373a8d3fcd2f7d7886249d867c8ccfecf",
+  "portrait": "4156a9b88ea07780890cca12bda28da88bf7875ee966022316a8ba8411c1465b",
+  "proficiencylist": "8e65ca3f4985a99e09bd7af703f9431fbf3727c3668b1bc1924556a35616997b",
+  "race": "62e68ec22ab78165e5ce332684abbd12626d2963466253b23b461a88104caa04",
+  "racelink": "2d2413244ac2e1d6081e7db1a13d0b675fdb563b6e6ddf10de18664f872991f1",
+  "saves": "85045abb93bbbc23d7622cf9745cf9191580d9cdf0050e1126ed9fce691d917e",
+  "senses": "343fc87c7e20d1ba245d4031d35f5153cf61936c8cb9bb00187075202153b663",
+  "size": "db7f5eb927bc15fa8b1e15521d1e986e9a9cea5eae5ed0cfa5509b140e2e9518",
+  "skilllist": "baf44731bc26ec27fb9cc0f67d22eb5296441cf9c52860eb2272d7504f1b37d2",
+  "skillpoints": "7be407bb8ed7d84497b6f4f27252398511a20d837354947982993b4601e721c6",
+  "specialabilitylist": "90d9451e58c8f5d227cbabcc1833f119ffb110165410b505d30d776559528a93",
+  "speed": "635df8a2dc057e6953b99fdf4f48c0f6592ead56faa374752fd1f779f4c9bc23",
+  "spelldisplaymode": "2036ef3679f9b619ed58a7f92d692878914b9271a6333e0834b63ad7db98ca07",
+  "spellset": "1f920dedc81764cfbaf27d5f81d7b4b4c8b4f87bd18edabfdf32d6c025e11560",
+  "temp": "7785ce5ac8ba977f927c0209571e66f7a6577867f87f6efc5ab9591548936a1f",
+  "token": "5e2aa0cb4df78f1cdd11c922f545d2ef9fbf0c087db6ef4b89f2042c01cba57c",
+  "traitlist": "947c7917ee22d1156b4ce2213cc46bd0da661bc992494cbbbb2c5fc7c02beaee",
+  "weaponlist": "840dac4eea6ee4d515870871ead5e6f70416a7583227933fb8df1f01e83d742d",
+  "weight": "243d15e5f39c941e29fcf378b6c964af226a07076b4c7309ddac3f8f198e949f"
+ },
+ "spellclasses": {
+  "id-00001": {
+   "label": "Domain Spells",
+   "hash": "250aca6848ec51184b7e9f93a04c0afd07672071ec095bb84a54f04e527bfc69",
+   "spells": 12,
+   "prepared": 6
+  },
+  "id-00002": {
+   "label": "Cleric",
+   "hash": "ec65f95ecee9c80e6f571556af1ecd7f67fbf148c16409f68f4df2617b448c88",
+   "spells": 253,
+   "prepared": 31
+  },
+  "id-00003": {
+   "label": "Channel Positive Energy",
+   "hash": "3f7050df583edcb9a1370e54b8b22248ba1499489552ceda17954f7ddd343661",
+   "spells": 2,
+   "prepared": 0
+  },
+  "id-00004": {
+   "label": "Touched By Divinity - Mythic Tier - .  Level 1 - 5x per/day each as Spell Like Ability. L2/3/4 cost 1 Mythic Charge each.",
+   "hash": "bcaed2b0874ce4dec6630673244b35eb7289a4b1398e44e2cd196527ecc8027c",
+   "spells": 9,
+   "prepared": 10
+  },
+  "id-00005": {
+   "label": "Mythic Power",
+   "hash": "c27e46055ec51e557810dcd5ddf63d15fc3e3102ce19da8e124eacbd1e666bf3",
+   "spells": 3,
+   "prepared": 0
+  },
+  "id-00006": {
+   "label": "Potions",
+   "hash": "2c75d513a7783b083e47a1df2809df0f6b8b9d907adce4af5f7277bb116c3215",
+   "spells": 4,
+   "prepared": 5
+  },
+  "id-00008": {
+   "label": "Terendelev's Scale - Cloudwalking",
+   "hash": "ce199dd9ee925957acf6532e4548768b69cd71fe40036f558d7524f7534cda96",
+   "spells": 1,
+   "prepared": 3
+  },
+  "id-00009": {
+   "label": "Wand of Cure Serious Wounds (CL 5) ",
+   "hash": "3c228e490a5a9224ca330fb33f5c0236bcf8a35b7b1bb88ab5533e824df4ebe0",
+   "spells": 1,
+   "prepared": 0
+  },
+  "id-00010": {
+   "label": "Righteous Medals",
+   "hash": "88cfef010db034819e23e83695ca50056d3496d9ef903dc53597f110a9498cd5",
+   "spells": 2,
+   "prepared": 0
+  },
+  "id-00012": {
+   "label": "Wand of Daylight  (CL 5)",
+   "hash": "e77de59feb9588781353df20a3e18a5c6bec5a85e20be8cdc273a545d48979f7",
+   "spells": 1,
+   "prepared": 0
+  },
+  "id-00013": {
+   "label": "Domain Powers ",
+   "hash": "e771cb14f78190077187901a76d87324864ea95acd48d818a9e246fe62219bea",
+   "spells": 2,
+   "prepared": 20
+  },
+  "id-00014": {
+   "label": "Potion of Cure Moderate Wounds",
+   "hash": "a03bdef64bd96d2bfa670276eff4c07810595e77d5be0de7ecc7c2c50c4dac59",
+   "spells": 1,
+   "prepared": 0
+  },
+  "id-00031": {
+   "label": "Potion of Neutralize Poison",
+   "hash": "3a9ad570c4eedbc245f1798d27866bff3fd1b230ec8020f391c18b76fcb89e7f",
+   "spells": 1,
+   "prepared": 0
+  },
+  "id-00032": {
+   "label": "Scroll of Comprehend Languages",
+   "hash": "eaf6cea4e886b12a2413b38cb40858ed2ab1cf40d7e09dede87b19d1b21cde78",
+   "spells": 1,
+   "prepared": 0
+  }
+ }
+}
