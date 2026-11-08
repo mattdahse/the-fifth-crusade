@@ -1,33 +1,25 @@
-# Packs fg-ext/item-charges into a Fantasy Grounds extension (.ext).
-# Usage:  pwsh -File ./build-ext.ps1  [-Install]
+# Packs the Fantasy Grounds extensions under fg-ext/ into .ext files in build/.
+# Usage:  pwsh -File ./build-ext.ps1  [-Name item-charges|spellbook]  [-Install]
 #
-# -Install also copies the .ext into the local Fantasy Grounds extensions folder. It does not
-# enable it: tick it in the campaign's extension list at launch, and untick Advanced Item
-# Actions, which this replaces. Running both gives every equipped wand two spell classes.
+#   item-charges -> build/MC-Item-Charges.ext   (replaces Advanced Item Actions; never run both)
+#   spellbook    -> build/MC-Spellbook.ext
+#
+# With no -Name, every extension is built. -Install also copies each .ext into the local
+# Fantasy Grounds extensions folder. It does not enable it: tick it in the campaign's
+# extension list at launch.
 [CmdletBinding()]
-param([switch]$Install)
+param(
+  [ValidateSet('item-charges', 'spellbook')]
+  [string[]]$Name = @('item-charges', 'spellbook'),
+  [switch]$Install
+)
 
 $ErrorActionPreference = 'Stop'
 $root = $PSScriptRoot
-$src  = Join-Path $root 'fg-ext/item-charges'
 $out  = Join-Path $root 'build'
-$ext  = Join-Path $out 'MC-Item-Charges.ext'
+$files = @{ 'item-charges' = 'MC-Item-Charges.ext'; 'spellbook' = 'MC-Spellbook.ext' }
 
-New-Item -ItemType Directory -Force $out | Out-Null
-if (Test-Path $ext) { Remove-Item $ext -Force }
-
-# FG wants extension.xml at the root of the zip. The test folder stays out.
-Add-Type -AssemblyName System.IO.Compression, System.IO.Compression.FileSystem
-$zip = [IO.Compression.ZipFile]::Open($ext, 'Create')
-try {
-  Get-ChildItem $src -Recurse -File | Where-Object { $_.FullName -notmatch '[\\/]test[\\/]' } | ForEach-Object {
-    $rel = $_.FullName.Substring($src.Length + 1).Replace('\', '/')
-    [void][IO.Compression.ZipFileExtensions]::CreateEntryFromFile($zip, $_.FullName, $rel)
-  }
-}
-finally { $zip.Dispose() }
-Write-Host "Built $ext" -ForegroundColor Green
-
+$dest = $null
 if ($Install) {
   $candidates = @(
     (Join-Path $env:APPDATA 'SmiteWorks/Fantasy Grounds/extensions'),
@@ -37,6 +29,29 @@ if ($Install) {
   )
   $dest = $candidates | Where-Object { $_ -and (Test-Path $_) } | Select-Object -First 1
   if (-not $dest) { throw ("Could not find the Fantasy Grounds extensions folder. Looked in:`n  " + ($candidates -join "`n  ")) }
-  Copy-Item $ext (Join-Path $dest ([IO.Path]::GetFileName($ext))) -Force
-  Write-Host "Installed to $dest - enable it in the campaign's extension list, and disable Advanced Item Actions." -ForegroundColor Green
+}
+
+New-Item -ItemType Directory -Force $out | Out-Null
+Add-Type -AssemblyName System.IO.Compression, System.IO.Compression.FileSystem
+
+foreach ($n in $Name) {
+  $src = Join-Path $root "fg-ext/$n"
+  $ext = Join-Path $out $files[$n]
+  if (Test-Path $ext) { Remove-Item $ext -Force }
+
+  # FG wants extension.xml at the root of the zip. The test folder stays out.
+  $zip = [IO.Compression.ZipFile]::Open($ext, 'Create')
+  try {
+    Get-ChildItem $src -Recurse -File | Where-Object { $_.FullName -notmatch '[\\/]test[\\/]' -and $_.Name -ne 'README.md' } | ForEach-Object {
+      $rel = $_.FullName.Substring($src.Length + 1).Replace('\', '/')
+      [void][IO.Compression.ZipFileExtensions]::CreateEntryFromFile($zip, $_.FullName, $rel)
+    }
+  }
+  finally { $zip.Dispose() }
+  Write-Host "Built $ext" -ForegroundColor Green
+
+  if ($dest) {
+    Copy-Item $ext (Join-Path $dest ([IO.Path]::GetFileName($ext))) -Force
+    Write-Host "Installed to $dest - enable it in the campaign's extension list." -ForegroundColor Green
+  }
 }

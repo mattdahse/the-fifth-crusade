@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Spellbook window. Its database node is the spell class's mc_book node, so every field below
+  (classkeys, skipsources, levelfilter, entries) lives there and never on the Actions tab.
+-->
+<root>
+	<!-- Radial menu entry on a prepared spell class: "Spellbook..." -->
+	<windowclass name="spell_class" merge="join">
+		<script file="campaign/scripts/spell_class_spellbook.lua" />
+	</windowclass>
+
+	<windowclass name="mc_spellbook">
+		<frame>utilitybox</frame>
+		<placement>
+			<size width="460" height="600" />
+		</placement>
+		<sizelimits>
+			<dynamic />
+			<minimum width="420" height="400" />
+		</sizelimits>
+		<script file="campaign/scripts/spellbook_window.lua" />
+		<sheetdata>
+			<windowtitlebar_utilitybox name="title" />
+			<windowmenubar_utilitybox name="menubar" />
+
+			<anchor_content_utilitybox_top />
+			<anchor_content_utilitybox_bottom />
+
+			<!-- Top: which lists to read, which modules to skip, level filter, slot counts -->
+			<area_content_top name="area_top">
+				<anchored height="80" />
+			</area_content_top>
+
+			<label name="classkeys_label">
+				<anchored to="area_top" position="insidetopleft" offset="15,5" width="40" height="20" />
+				<static>Lists</static>
+				<tooltip><text>Spell lists to read, comma-separated: cleric, oracle. 3.5E modules also list domains (good, sun).</text></tooltip>
+			</label>
+			<basicstring name="classkeys">
+				<anchored to="area_top" position="insidetopleft" offset="65,5" height="20">
+					<right anchor="center" offset="-10" />
+				</anchored>
+				<tooltip><text>Spell lists to read, comma-separated: cleric, oracle. Press Rebuild after changing.</text></tooltip>
+			</basicstring>
+			<label name="skipsources_label">
+				<anchored to="area_top" position="insidetopleft" height="20" width="35">
+					<top offset="5" />
+					<left anchor="center" offset="5" />
+				</anchored>
+				<static>Skip</static>
+				<tooltip><text>Modules to leave out, comma-separated parts of their names. Press Rebuild after changing.</text></tooltip>
+			</label>
+			<basicstring name="skipsources">
+				<anchored to="area_top" height="20">
+					<top offset="5" />
+					<left anchor="center" offset="45" />
+					<right offset="-30" />
+				</anchored>
+				<tooltip><text>Modules to leave out, comma-separated parts of their names. Press Rebuild after changing.</text></tooltip>
+			</basicstring>
+
+			<button_stringcycler name="levelfilter">
+				<anchored to="area_top" position="insidetopleft" offset="15,35" width="90" height="20" />
+				<parameters>
+					<defaultlabel>All levels</defaultlabel>
+					<labels>Prepared|Level 0|Level 1|Level 2|Level 3|Level 4|Level 5|Level 6|Level 7|Level 8|Level 9</labels>
+					<values>prep|0|1|2|3|4|5|6|7|8|9</values>
+				</parameters>
+				<tooltip><text>Show one level, only what is prepared, or everything.</text></tooltip>
+			</button_stringcycler>
+			<stringcontrol name="slots">
+				<anchored to="area_top" height="20">
+					<top offset="35" />
+					<left offset="120" />
+					<right offset="-30" />
+				</anchored>
+				<font>sheetlabel</font>
+				<readonly />
+				<static />
+				<tooltip><text>Level: prepared / slots. ! means over the slots for that level.</text></tooltip>
+			</stringcontrol>
+			<label name="header_hint">
+				<anchored to="area_top" height="20">
+					<top offset="60" />
+					<left offset="15" />
+					<right offset="-30" />
+				</anchored>
+				<static>Set how many of each to prepare, then press Prepare. Drop spells here to add them.</static>
+				<font>sheettext</font>
+			</label>
+
+			<!-- Bottom: search and the three actions -->
+			<area_list_content_controls />
+			<anchor_list_content_controls_right />
+			<button_text name="button_prepare">
+				<anchored to="rightanchor" width="70">
+					<top />
+					<right relation="relative" offset="-10" postoffset="-10" />
+				</anchored>
+				<text>Prepare</text>
+				<tooltip><text>Put the chosen spells on the Actions tab and take off the rest.</text></tooltip>
+				<script>
+					function onButtonPress()
+						window.onPrepare();
+					end
+				</script>
+			</button_text>
+			<button_text name="button_tidy">
+				<anchored to="rightanchor" width="50">
+					<top />
+					<right relation="relative" offset="-10" postoffset="-10" />
+				</anchored>
+				<text>Tidy</text>
+				<tooltip><text>One-time cleanup: remove unprepared spells from the Actions tab that the spellbook can add back. Asks first.</text></tooltip>
+				<script>
+					function onButtonPress()
+						window.onTidy();
+					end
+				</script>
+			</button_text>
+			<button_text name="button_rebuild">
+				<anchored to="rightanchor" width="60">
+					<top />
+					<right relation="relative" offset="-10" postoffset="-10" />
+				</anchored>
+				<text>Rebuild</text>
+				<tooltip><text>Read the spell lists again from every loaded module. Counts and Keep are kept.</text></tooltip>
+				<script>
+					function onButtonPress()
+						window.onRebuild();
+					end
+				</script>
+			</button_text>
+			<filter_list_content_controls />
+
+			<list_content_framed_groupbox name="list">
+				<datasource>.entries</datasource>
+				<class>mc_spellbook_entry</class>
+				<script file="campaign/scripts/spellbook_list.lua" />
+			</list_content_framed_groupbox>
+			<scrollbar_content_list />
+
+			<resize_utilitybox />
+		</sheetdata>
+	</windowclass>
+
+	<windowclass name="mc_spellbook_entry">
+		<margins control="0,0,0,2" />
+		<script>
+			function onInit()
+				self.updateMissing();
+				DB.addHandler(DB.getPath(getDatabaseNode(), "prep"), "onUpdate", self.onPrepChanged);
+			end
+			function onClose()
+				DB.removeHandler(DB.getPath(getDatabaseNode(), "prep"), "onUpdate", self.onPrepChanged);
+			end
+			function onPrepChanged()
+				WindowManager.callOuterWindowFunction(self, "onCountsChanged");
+			end
+			function updateMissing()
+				if DB.getValue(getDatabaseNode(), "missing", 0) == 1 then
+					name.setColor("FF9A2B2B");
+					name.setTooltipText("Not found in any loaded module. Load its module or press Rebuild.");
+				end
+			end
+		</script>
+		<sheetdata>
+			<anchor_listitem_left />
+			<anchor_listitem_right />
+
+			<linkc_listitem_left name="link" />
+
+			<button_listitem_checkbox_right name="keep">
+				<tooltip><text>Keep on the Actions tab even when not prepared. Tick spells you edited by hand.</text></tooltip>
+			</button_listitem_checkbox_right>
+			<number_listitem_right name="prep">
+				<anchored width="25" />
+				<min>0</min>
+				<tooltip><text>How many to prepare. Type a number or use the mouse wheel.</text></tooltip>
+			</number_listitem_right>
+			<string_listitem_right_static name="source">
+				<anchored width="110" />
+			</string_listitem_right_static>
+			<number_listitem_right name="level">
+				<anchored width="20" />
+				<readonly />
+				<hideonvalue>-1</hideonvalue>
+				<tooltip><text>Spell level for this list</text></tooltip>
+			</number_listitem_right>
+
+			<string_listitem_center_static name="name" />
+		</sheetdata>
+	</windowclass>
+</root>
