@@ -664,6 +664,42 @@ small and unnoticed at the back of a roaring tavern. Every one of them came back
 elevated above the crowd — not because the prompt was unclear, but because five attached
 references cannot be background.*
 
+## Group scenes — build them one figure at a time
+
+**Never one-shot a plate with more than two canon characters.** Hand the model five references
+and five sets of instructions at once and it cannot attend to all of them: scale collapses, poses
+go stiff, props shrink, and the figures it can't spare attention for simply inherit the pose and
+expression of their reference portraits. Build the plate up instead:
+
+1. **Roll the scene first,** wide enough for everyone, with **at most one character** — the
+   biggest, to set the scale — and deliberate room left for the rest.
+2. **Add one character per roll.** Attach the previous finished render plus **one** portrait,
+   with a focused instruction for that figure alone: where they are, their scale against the
+   figures already there, what they are doing, where they look and what they feel. That render
+   becomes the base for the next roll.
+3. **Fix each roll before moving on,** with a single-change edit ("edit IMAGE 1 … change only
+   X"): scale, pose, a prop. An edit keeps everything already good; a re-roll throws it away.
+
+In each per-figure prompt:
+
+- **Take only face, hair and kit from the portrait — not its pose or expression.** Say so
+  explicitly, or the figure arrives in their portrait stance.
+- **State scale against what is already in the frame** ("standing, she is taller than the
+  kneeling Varic"). Without it a figure added late comes back child- or halfling-sized.
+- **Keep every figure inside any boundary the scene turns on** — a ward circle, a doorway, a
+  shield wall. A figure outside the ward is a deal breaker; widen the boundary with an edit
+  rather than shuffling the figure.
+- **Pose for the scene's actual mood.** An anxious wait is not an attack: a bow is lowered with
+  an arrow nocked, not drawn.
+
+**QA every figure on every roll** (hands, finger counts, legs, devices), because a defect
+carried forward is baked into every later roll.
+
+*Learned on `very-frustrated` (The Worm That Walks, Nov 2026). The five-reference one-shot gave
+a halfling-scale Lupenor, an unnatural kneel, a 16-inch staff, and Rabiah and Arueshalae frozen
+in their portrait poses. Built one figure at a time (Harlock, then Varic, Lupenor, Rabiah and
+Arueshalae), every figure came out at the right scale and doing something.*
+
 ## Every figure needs an eyeline and an inner state — this is mandatory
 
 A prompt that says where a figure stands and what they hold, but not **where they are looking**
