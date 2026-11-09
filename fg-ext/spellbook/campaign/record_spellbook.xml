@@ -59,15 +59,13 @@
 				<tooltip><text>Modules to leave out, comma-separated parts of their names. Press Rebuild after changing.</text></tooltip>
 			</basicstring>
 
-			<button_stringcycler name="levelfilter">
+			<!-- Filled in by the window script: the levels this class has slots for, then Prepared. -->
+			<combobox name="levelfilter">
 				<anchored to="area_top" position="insidetopleft" offset="15,35" width="90" height="20" />
-				<parameters>
-					<defaultlabel>All levels</defaultlabel>
-					<labels>Prepared|Level 0|Level 1|Level 2|Level 3|Level 4|Level 5|Level 6|Level 7|Level 8|Level 9</labels>
-					<values>prep|0|1|2|3|4|5|6|7|8|9</values>
-				</parameters>
-				<tooltip><text>Show one level, only what is prepared, or everything.</text></tooltip>
-			</button_stringcycler>
+				<unsorted />
+				<listmaxsize>11</listmaxsize>
+				<tooltip><text>Which spell level to show, or Prepared for everything prepared or kept.</text></tooltip>
+			</combobox>
 			<stringcontrol name="slots">
 				<anchored to="area_top" height="20">
 					<top offset="35" />
@@ -168,7 +166,9 @@
 			<anchor_listitem_left />
 			<anchor_listitem_right />
 
-			<linkc_listitem_left name="link" />
+			<!-- link_ (a field bound to the entry's "link" windowreference), not linkc_ (which links
+			     the row's own record and so opened nothing useful). -->
+			<link_listitem_left name="link" />
 
 			<button_listitem_checkbox_right name="keep">
 				<tooltip><text>Keep on the Actions tab even when not prepared. Tick spells you edited by hand.</text></tooltip>
@@ -177,14 +177,24 @@
 				<anchored width="25" />
 				<min>0</min>
 				<tooltip><text>How many to prepare. Type a number or use the mouse wheel.</text></tooltip>
+				<script>
+					function onWheel(notches)
+						if isReadOnly() then
+							return false;
+						end
+						setValue(math.max(0, getValue() + notches));
+						return true;
+					end
+				</script>
 			</number_listitem_right>
 			<string_listitem_right_static name="source">
 				<anchored width="110" />
 			</string_listitem_right_static>
+			<!-- Shown only in the Prepared view, which spans levels. -->
 			<number_listitem_right name="level">
 				<anchored width="20" />
 				<readonly />
-				<hideonvalue>-1</hideonvalue>
+				<invisible />
 				<tooltip><text>Spell level for this list</text></tooltip>
 			</number_listitem_right>
 

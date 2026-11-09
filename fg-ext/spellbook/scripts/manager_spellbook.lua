@@ -428,24 +428,29 @@ function prepareNow(nodeBook)
 	return tReport;
 end
 
--- The one-time handover. Returns the sheet spells Tidy would delete.
+-- The one-time handover. Returns the sheet spells Tidy would delete, and the names of
+-- unprepared sheet spells it must leave because the book doesn't know them (their module isn't
+-- loaded, or they're on a list the book doesn't read, or they're custom).
 function tidyPlan(nodeBook)
 	local nodeSpellClass = getClassNode(nodeBook);
 	local tIndex = entryIndex(nodeBook);
-	local tDelete = {};
+	local tDelete, tUnknown = {}, {};
 	for nLevel = 0, 9 do
 		for k,tNodes in pairs(sheetIndex(nodeSpellClass, nLevel)) do
 			local nodeEntry = tIndex[k];
-			if nodeEntry and DB.getValue(nodeEntry, "keep", 0) == 0 then
-				for _,nodeSpell in ipairs(tNodes) do
-					if DB.getValue(nodeSpell, "prepared", 0) == 0 then
+			for _,nodeSpell in ipairs(tNodes) do
+				if DB.getValue(nodeSpell, "prepared", 0) == 0 then
+					if not nodeEntry then
+						table.insert(tUnknown, DB.getValue(nodeSpell, "name", ""));
+					elseif DB.getValue(nodeEntry, "keep", 0) == 0 then
 						table.insert(tDelete, nodeSpell);
 					end
 				end
 			end
 		end
 	end
-	return tDelete;
+	table.sort(tUnknown);
+	return tDelete, tUnknown;
 end
 
 -- Deletes the plan, then hands every remaining sheet spell the book knows (and is not kept) to
@@ -477,6 +482,33 @@ function tidyNow(nodeBook)
 		SpellManager.updateSpellClassCounts(nodeSpellClass);
 	end
 	return #tDelete, nMarked;
+end
+
+-- The levels the level drop-down offers: those the class has slots for. A class with no slots
+-- set yet offers the levels its book holds, else level 0.
+function castableLevels(nodeBook)
+	local nodeSpellClass = getClassNode(nodeBook);
+	local t = {};
+	for n = 0, 9 do
+		if DB.getValue(nodeSpellClass, "availablelevel" .. n, 0) > 0 then
+			table.insert(t, n);
+		end
+	end
+	if #t == 0 then
+		local tSeen = {};
+		for _,v in ipairs(getEntries(nodeBook)) do
+			tSeen[DB.getValue(v, "level", 0)] = true;
+		end
+		for n = 0, 9 do
+			if tSeen[n] then
+				table.insert(t, n);
+			end
+		end
+	end
+	if #t == 0 then
+		t = { 0 };
+	end
+	return t;
 end
 
 -- "0: 4/4  1: 5/6  2: 7/6!" from the book's pending counts and the class's slots.
@@ -525,11 +557,21 @@ function reportPrepare(nodeBook, tReport)
 	msg(s);
 end
 
+local function unknownNote(tUnknown)
+	if #tUnknown == 0 then
+		return "";
+	end
+	return string.format("\n\nLeft on the Actions tab because the spellbook doesn't have them (%d): %s. " ..
+		"If they come from a module that isn't loaded, load it, press Rebuild, and Tidy again.",
+		#tUnknown, table.concat(tUnknown, ", "));
+end
+
 function confirmTidy(nodeBook)
-	local tPlan = tidyPlan(nodeBook);
+	local tPlan, tUnknown = tidyPlan(nodeBook);
 	if #tPlan == 0 then
 		local _, nMarked = tidy(nodeBook);
-		msg("Spellbook: nothing to remove. " .. nMarked .. " spells on the Actions tab are now managed by the spellbook.");
+		msg("Spellbook: nothing to remove. " .. nMarked .. " spells on the Actions tab are now managed by the spellbook." ..
+			unknownNote(tUnknown):gsub("^%s+", " "));
 		return;
 	end
 	local tNames = {};
@@ -539,8 +581,8 @@ function confirmTidy(nodeBook)
 	table.sort(tNames);
 	local sText = string.format(
 		"Remove %d unprepared spells from the Actions tab? The spellbook can add any of them back.\n\n" ..
-		"Spells you edited by hand: cancel, tick Keep on them, and Tidy again.\n\n%s",
-		#tPlan, table.concat(tNames, ", "));
+		"Spells you edited by hand: cancel, tick Keep on them, and Tidy again.\n\n%s%s",
+		#tPlan, table.concat(tNames, ", "), unknownNote(tUnknown));
 	DialogManager.openDialog("dialog_okcancel", {
 		sTitle = "Tidy the Actions tab",
 		sText = sText,

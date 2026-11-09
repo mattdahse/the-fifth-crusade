@@ -22,10 +22,11 @@ Right-click a prepared spell class on the Actions tab (the class header, e.g. *C
   domains are listed in the level line too (`good, sun`).
 - **Skip**: modules to leave out, by part of their name. This defaults to `3.5E`, so the old 3.5E
   spell module doesn't add a second copy of everything.
-- **Level filter**: all levels, one level, or *Prepared* (only what's prepared or kept).
+- **Level**: a drop-down of the levels the class has slots for, plus *Prepared* (everything
+  prepared or kept, across levels; the only view that shows each spell's level).
 - **Slot line**: `1: 5/6` means 5 prepared of 6 slots. A `!` means that level is over its slots.
-- For each spell: a link to the library record, its level, its source module, **how many to
-  prepare**, and **Keep**.
+- For each spell: a link that opens the library record (to read it before choosing), its source
+  module, **how many to prepare** (type it, or use the mouse wheel), and **Keep**.
 - **Drop** any spell from the Spells list or a module onto the list to add it by hand. It lands at
   the level the filter is showing, else its level for your lists, else its lowest level. Spells
   added by hand stay through a Rebuild.
@@ -41,7 +42,9 @@ Then press:
   Counts and Keep are kept.
 - **Tidy** is the one-time handover for a sheet that already holds everything. It deletes
   unprepared spells the spellbook can add back, after a confirmation that lists them. It then
-  marks the remaining spells the spellbook knows as its own.
+  marks the remaining spells the spellbook knows as its own. Unprepared spells the book doesn't
+  have are left, and the confirmation names them. Usually that's because their module isn't
+  loaded: load it, press Rebuild, and Tidy again.
 
 Each time the window opens, its counts are read from the Actions tab, so prepared counts edited
 directly on the sheet are respected. Changes in the window take effect only when you press Prepare.

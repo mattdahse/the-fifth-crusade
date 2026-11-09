@@ -2,7 +2,7 @@
 <root version="3.3" release="1">
 	<properties>
 		<name>Feature: Spellbook (Prepared Spells Only)</name>
-		<version>1.0.1</version>
+		<version>1.0.2</version>
 		<loadorder>61</loadorder>
 		<author>Matt Dahse</author>
 		<description>Prepared casters choose spells from a spellbook window built from every loaded module; only the prepared spells go on the Actions tab. Right-click a spell class on the Actions tab and pick Spellbook.</description>
@@ -14,7 +14,7 @@
 		</ruleset>
 	</properties>
 
-	<announcement text="Spellbook v1.0.1: right-click a prepared spell class on the Actions tab and choose Spellbook to pick the day's spells." font="emotefont" icon="module_loaded" />
+	<announcement text="Spellbook v1.0.2: right-click a prepared spell class on the Actions tab and choose Spellbook to pick the day's spells." font="emotefont" icon="module_loaded" />
 
 	<base>
 		<script name="SpellbookMC" file="scripts/manager_spellbook.lua" />

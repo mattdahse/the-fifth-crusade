@@ -1,5 +1,5 @@
 --
--- Spellbook list: sorted by level then name, filtered by the level cycler and the search box.
+-- Spellbook list: sorted by level then name, filtered by the level drop-down and the search box.
 --
 
 function onSortCompare(w1, w2)
@@ -14,6 +14,7 @@ end
 function onFilter(w)
 	local node = w.getDatabaseNode();
 	local sLevel = DB.getValue(window.getDatabaseNode(), "levelfilter", "");
+	w.level.setVisible(sLevel == "prep");
 	if sLevel == "prep" then
 		if DB.getValue(node, "prep", 0) == 0 and DB.getValue(node, "keep", 0) == 0 then
 			return false;

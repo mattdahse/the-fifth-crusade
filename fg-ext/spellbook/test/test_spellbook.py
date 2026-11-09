@@ -245,10 +245,12 @@ def test_flow(L):
     check("mass cure at 5", ev('DB.getValue(entry(BOOK, "Cure Light Wounds, Mass"), "level")'), 5)
     check("counts synced from the sheet", ev('DB.getValue(entry(BOOK, "Bless"), "prep")'), 2)
     check("slot summary", SB.slotSummary(G.BOOK), "1: 2/3   2: 0/2   5: 0/1")
+    check("level drop-down offers the levels with slots", list(SB.castableLevels(G.BOOK).values()), [1, 2, 5])
 
     # Tidy: Aid is hand-edited, so Keep it first.
     L.execute('DB.setValue(entry(BOOK, "Aid"), "keep", "number", 1)')
-    plan = SB.tidyPlan(G.BOOK)
+    plan, unknown = SB.tidyPlan(G.BOOK)
+    check("tidy names the unprepared spell the book can't restore", list(unknown.values()), ["Custom Smite"])
     check("tidy would remove only Bane", sorted(L.eval("function(t) local r={} for _,v in ipairs(t) do table.insert(r, DB.getValue(v,'name')) end return table.concat(r,',') end")(plan).split(",")), ["Bane"])
     L.execute("SHEET_OPEN = true; HOT = 0")
     deleted, marked = SB.tidy(G.BOOK)
@@ -320,6 +322,9 @@ def test_flow(L):
       SpellbookMC.open(C2)
     ''')
     check("no spells found message", "no spells found" in L.eval("LOG[#LOG]"), True)
+    check("a class with no slots or spells offers level 0", list(L.eval('SpellbookMC.castableLevels(DB.findNode("charsheet.id-00003.mc_spellbook.id-00009"))').values()), [0])
+    L.execute('DialogManager = { openDialog = function(_, t) DLG = t end }; SpellbookMC.confirmTidy(DB.findNode("charsheet.id-00003.mc_spellbook.id-00002"))')
+    check("Tidy message names what it leaves", "Custom Smite" in L.eval("DLG and DLG.sText or LOG[#LOG]"), True)
 
 def test_srd(L, path):
     print("real module: " + path)

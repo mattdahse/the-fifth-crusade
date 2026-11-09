@@ -11,8 +11,30 @@ function onInit()
 	title.setValue(string.format("Spellbook: %s (%s)",
 		DB.getValue(nodeClass, "label", ""), DB.getValue(nodeChar, "name", "")));
 
+	self.fillLevelFilter();
 	DB.addHandler(DB.getPath(nodeBook, "levelfilter"), "onUpdate", self.onLevelFilterChanged);
+	list.applyFilter();
 	self.onCountsChanged();
+end
+
+-- The levels this class can cast (from its slots), then Prepared. Keeps the current choice if it
+-- is still offered, else picks the lowest level.
+function fillLevelFilter()
+	local nodeBook = getDatabaseNode();
+	local tLevels = SpellbookMC.castableLevels(nodeBook);
+	levelfilter.clear();
+	for _,n in ipairs(tLevels) do
+		levelfilter.add(tostring(n), "Level " .. n);
+	end
+	levelfilter.add("prep", "Prepared");
+	local sCur = DB.getValue(nodeBook, "levelfilter", "");
+	if not levelfilter.hasValue(sCur) then
+		sCur = tostring(tLevels[1] or "prep");
+	end
+	if DB.getValue(nodeBook, "levelfilter", "") ~= sCur then
+		DB.setValue(nodeBook, "levelfilter", "string", sCur);
+	end
+	levelfilter.setValue(sCur);
 end
 
 function onClose()
@@ -50,6 +72,7 @@ function onRebuild()
 	local nAdded, nRemoved, nTotal = SpellbookMC.rebuild(nodeBook);
 	SpellbookMC.syncFromSheet(nodeBook);
 	ChatManager.SystemMessage(string.format("Spellbook: %d spells (%d new, %d gone).", nTotal, nAdded, nRemoved));
+	self.fillLevelFilter();
 	list.applyFilter();
 	self.onCountsChanged();
 end
