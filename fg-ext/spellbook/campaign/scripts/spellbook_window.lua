@@ -2,7 +2,7 @@
 -- Spellbook window. Database node: <character>.mc_spellbook.<spell class id>
 --
 
---luacheck: globals title slots list filter levelfilter
+--luacheck: globals title list filter levelfilter chip0 chip1 chip2 chip3 chip4 chip5 chip6 chip7 chip8 chip9
 
 function onInit()
 	local nodeBook = getDatabaseNode();
@@ -43,6 +43,56 @@ end
 
 function onLevelFilterChanged()
 	list.applyFilter();
+	self.updateChips();
+end
+
+local CHIP_COLORS = {
+	full = { back = "FF2E7D32", text = "FFFFFFFF" },   -- green: every slot filled
+	open = { back = "FFC77700", text = "FFFFFFFF" },   -- amber: slots left to fill
+	over = { back = "FFB71C1C", text = "FFFFFFFF" },   -- red: more prepared than slots
+};
+
+function updateChips()
+	local nodeBook = getDatabaseNode();
+	local sCur = DB.getValue(nodeBook, "levelfilter", "");
+	local tShown = {};
+	for _,r in ipairs(SpellbookMC.levelStatus(nodeBook)) do
+		local c = self["chip" .. r.level];
+		if c then
+			tShown[r.level] = true;
+			local tColor = CHIP_COLORS[r.state];
+			c.setValue(string.format("%d: %d/%d", r.level, r.prep, r.slots));
+			c.setBackColor(tColor.back);
+			c.setColor(tColor.text);
+			local sTip;
+			if r.state == "full" then
+				sTip = string.format("Level %d: all %d slots prepared.", r.level, r.slots);
+			elseif r.state == "open" then
+				sTip = string.format("Level %d: %d of %d prepared, %d still to prepare.", r.level, r.prep, r.slots, r.slots - r.prep);
+			else
+				sTip = string.format("Level %d: %d prepared for %d slots, %d too many.", r.level, r.prep, r.slots, r.prep - r.slots);
+			end
+			c.setTooltipText(sTip .. " Click to show this level.");
+			if tostring(r.level) == sCur then
+				c.setFrame("fieldfocus", 2, 2, 2, 2);
+			else
+				c.setFrame(nil);
+			end
+			c.setVisible(true);
+		end
+	end
+	for n = 0, 9 do
+		if not tShown[n] then
+			self["chip" .. n].setVisible(false);
+		end
+	end
+end
+
+function onChipClicked(n)
+	local sValue = tostring(n);
+	if levelfilter.hasValue(sValue) then
+		levelfilter.setValue(sValue);
+	end
 end
 
 function onFilterChanged()
@@ -50,7 +100,7 @@ function onFilterChanged()
 end
 
 function onCountsChanged()
-	slots.setValue(SpellbookMC.slotSummary(getDatabaseNode()));
+	self.updateChips();
 	if DB.getValue(getDatabaseNode(), "levelfilter", "") == "prep" then
 		list.applyFilter();
 	end

@@ -512,7 +512,10 @@ function castableLevels(nodeBook)
 end
 
 -- "0: 4/4  1: 5/6  2: 7/6!" from the book's pending counts and the class's slots.
-function slotSummary(nodeBook)
+-- Per level, from the book's pending counts and the class's slots: { level, prep, slots, state },
+-- for each level with slots or with something prepared. state is "full" (every slot filled),
+-- "open" (slots left to fill) or "over" (more prepared than slots).
+function levelStatus(nodeBook)
 	local nodeSpellClass = getClassNode(nodeBook);
 	local tPrep = {};
 	for _,v in ipairs(getEntries(nodeBook)) do
@@ -524,8 +527,17 @@ function slotSummary(nodeBook)
 		local nSlots = DB.getValue(nodeSpellClass, "availablelevel" .. n, 0);
 		local nPrep = tPrep[n] or 0;
 		if nSlots > 0 or nPrep > 0 then
-			table.insert(t, string.format("%d: %d/%d%s", n, nPrep, nSlots, nPrep > nSlots and "!" or ""));
+			local sState = (nPrep > nSlots and "over") or (nPrep == nSlots and "full") or "open";
+			table.insert(t, { level = n, prep = nPrep, slots = nSlots, state = sState });
 		end
+	end
+	return t;
+end
+
+function slotSummary(nodeBook)
+	local t = {};
+	for _,r in ipairs(levelStatus(nodeBook)) do
+		table.insert(t, string.format("%d: %d/%d%s", r.level, r.prep, r.slots, r.state == "over" and "!" or ""));
 	end
 	return table.concat(t, "   ");
 end

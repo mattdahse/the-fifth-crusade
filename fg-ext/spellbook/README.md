@@ -24,7 +24,11 @@ Right-click a prepared spell class on the Actions tab (the class header, e.g. *C
   spell module doesn't add a second copy of everything.
 - **Level**: a drop-down of the levels the class has slots for, plus *Prepared* (everything
   prepared or kept, across levels; the only view that shows each spell's level).
-- **Slot line**: `1: 5/6` means 5 prepared of 6 slots. A `!` means that level is over its slots.
+- **Level chips**: one per level with slots, `1: 5/6` meaning 5 prepared of 6. **Green** means
+  every slot is filled, **amber** means there are still spells to prepare, **red** means more
+  are prepared than there are slots. The tooltip says how many are left or over. Click a chip to
+  show that level; the level being shown has a highlight frame. The chips count what's set in
+  the window, before Prepare.
 - For each spell: a link that opens the library record (to read it before choosing), its source
   module, **how many to prepare** (type it, or use the mouse wheel), and **Keep**.
 - **Drop** any spell from the Spells list or a module onto the list to add it by hand. It lands at

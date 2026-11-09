@@ -313,6 +313,14 @@ def test_flow(L):
     ''')
     check("missing record reported, nothing added", (G.R4.added, list(G.R4.missing.values())), (0, ["Fireball"]))
     check("over-slot warning", SB.slotSummary(G.BOOK).split("   ")[0], "1: 1/3")
+    L.execute(r'''
+      DB.setValue(entry(BOOK, "Aid"), "prep", "number", 2)
+      DB.setValue(entry(BOOK, "Cure Light Wounds, Mass"), "prep", "number", 2)
+      ST = {}
+      for _,r in ipairs(SpellbookMC.levelStatus(BOOK)) do table.insert(ST, r.level .. ":" .. r.prep .. "/" .. r.slots .. ":" .. r.state) end
+      ST = table.concat(ST, " ")
+    ''')
+    check("level chips: open, full, over", ev("ST"), "1:1/3:open 2:2/2:full 3:1/0:over 5:2/1:over")
 
     # A class with no matching list.
     L.execute(r'''

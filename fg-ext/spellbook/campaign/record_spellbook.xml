@@ -12,7 +12,7 @@
 	<windowclass name="mc_spellbook">
 		<frame>utilitybox</frame>
 		<placement>
-			<size width="460" height="600" />
+			<size width="520" height="600" />
 		</placement>
 		<sizelimits>
 			<dynamic />
@@ -66,16 +66,161 @@
 				<listmaxsize>11</listmaxsize>
 				<tooltip><text>Which spell level to show, or Prepared for everything prepared or kept.</text></tooltip>
 			</combobox>
-			<stringcontrol name="slots">
-				<anchored to="area_top" height="20">
-					<top offset="35" />
-					<left offset="120" />
-					<right offset="-30" />
+			<!-- One chip per castable level, colored by the window script: green = every slot filled,
+			     amber = slots left, red = over. Click one to show that level. Hidden chips take no room. -->
+			<genericcontrol name="chipanchor">
+				<anchored to="area_top" position="insidetopleft" offset="112,35" width="0" height="0" />
+				<disabled />
+			</genericcontrol>
+			<stringcontrol name="chip0">
+				<anchored to="chipanchor" width="46" height="20">
+					<top />
+					<left relation="relative" offset="4" postoffset="4" />
 				</anchored>
 				<font>sheetlabel</font>
+				<center />
 				<readonly />
 				<static />
-				<tooltip><text>Level: prepared / slots. ! means over the slots for that level.</text></tooltip>
+				<invisible />
+				<script>
+					function onClickDown() return true; end
+					function onClickRelease() window.onChipClicked(0); return true; end
+				</script>
+			</stringcontrol>
+			<stringcontrol name="chip1">
+				<anchored to="chipanchor" width="46" height="20">
+					<top />
+					<left relation="relative" offset="4" postoffset="4" />
+				</anchored>
+				<font>sheetlabel</font>
+				<center />
+				<readonly />
+				<static />
+				<invisible />
+				<script>
+					function onClickDown() return true; end
+					function onClickRelease() window.onChipClicked(1); return true; end
+				</script>
+			</stringcontrol>
+			<stringcontrol name="chip2">
+				<anchored to="chipanchor" width="46" height="20">
+					<top />
+					<left relation="relative" offset="4" postoffset="4" />
+				</anchored>
+				<font>sheetlabel</font>
+				<center />
+				<readonly />
+				<static />
+				<invisible />
+				<script>
+					function onClickDown() return true; end
+					function onClickRelease() window.onChipClicked(2); return true; end
+				</script>
+			</stringcontrol>
+			<stringcontrol name="chip3">
+				<anchored to="chipanchor" width="46" height="20">
+					<top />
+					<left relation="relative" offset="4" postoffset="4" />
+				</anchored>
+				<font>sheetlabel</font>
+				<center />
+				<readonly />
+				<static />
+				<invisible />
+				<script>
+					function onClickDown() return true; end
+					function onClickRelease() window.onChipClicked(3); return true; end
+				</script>
+			</stringcontrol>
+			<stringcontrol name="chip4">
+				<anchored to="chipanchor" width="46" height="20">
+					<top />
+					<left relation="relative" offset="4" postoffset="4" />
+				</anchored>
+				<font>sheetlabel</font>
+				<center />
+				<readonly />
+				<static />
+				<invisible />
+				<script>
+					function onClickDown() return true; end
+					function onClickRelease() window.onChipClicked(4); return true; end
+				</script>
+			</stringcontrol>
+			<stringcontrol name="chip5">
+				<anchored to="chipanchor" width="46" height="20">
+					<top />
+					<left relation="relative" offset="4" postoffset="4" />
+				</anchored>
+				<font>sheetlabel</font>
+				<center />
+				<readonly />
+				<static />
+				<invisible />
+				<script>
+					function onClickDown() return true; end
+					function onClickRelease() window.onChipClicked(5); return true; end
+				</script>
+			</stringcontrol>
+			<stringcontrol name="chip6">
+				<anchored to="chipanchor" width="46" height="20">
+					<top />
+					<left relation="relative" offset="4" postoffset="4" />
+				</anchored>
+				<font>sheetlabel</font>
+				<center />
+				<readonly />
+				<static />
+				<invisible />
+				<script>
+					function onClickDown() return true; end
+					function onClickRelease() window.onChipClicked(6); return true; end
+				</script>
+			</stringcontrol>
+			<stringcontrol name="chip7">
+				<anchored to="chipanchor" width="46" height="20">
+					<top />
+					<left relation="relative" offset="4" postoffset="4" />
+				</anchored>
+				<font>sheetlabel</font>
+				<center />
+				<readonly />
+				<static />
+				<invisible />
+				<script>
+					function onClickDown() return true; end
+					function onClickRelease() window.onChipClicked(7); return true; end
+				</script>
+			</stringcontrol>
+			<stringcontrol name="chip8">
+				<anchored to="chipanchor" width="46" height="20">
+					<top />
+					<left relation="relative" offset="4" postoffset="4" />
+				</anchored>
+				<font>sheetlabel</font>
+				<center />
+				<readonly />
+				<static />
+				<invisible />
+				<script>
+					function onClickDown() return true; end
+					function onClickRelease() window.onChipClicked(8); return true; end
+				</script>
+			</stringcontrol>
+			<stringcontrol name="chip9">
+				<anchored to="chipanchor" width="46" height="20">
+					<top />
+					<left relation="relative" offset="4" postoffset="4" />
+				</anchored>
+				<font>sheetlabel</font>
+				<center />
+				<readonly />
+				<static />
+				<invisible />
+				<script>
+					function onClickDown() return true; end
+					function onClickRelease() window.onChipClicked(9); return true; end
+				</script>
 			</stringcontrol>
 			<label name="header_hint">
 				<anchored to="area_top" height="20">
