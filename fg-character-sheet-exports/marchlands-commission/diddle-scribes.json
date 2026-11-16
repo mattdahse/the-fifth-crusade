@@ -1,0 +1,2045 @@
+{
+  "campaign": "The Real Work",
+  "record": "charsheet.id-00007",
+  "abilities": {
+    "charisma": {
+      "abilperms": {
+        "id-00001": {
+          "bonus_type": "racial",
+          "name": "Racial Attribute Adjustments",
+          "permnum": -2
+        }
+      },
+      "base": 10,
+      "bonus": -1,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": -2,
+      "permbon": 1,
+      "score": 8
+    },
+    "constitution": {
+      "base": 14,
+      "bonus": 2,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 14
+    },
+    "dexterity": {
+      "abilperms": {
+        "id-00001": {
+          "bonus_type": "racial",
+          "name": "Racial Attribute Adjustments",
+          "permnum": 8
+        }
+      },
+      "base": 15,
+      "bonus": 6,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 8,
+      "permbon": 1,
+      "score": 23
+    },
+    "intelligence": {
+      "base": 16,
+      "bonus": 3,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 16
+    },
+    "strength": {
+      "abilperms": {
+        "id-00001": {
+          "bonus_type": "racial",
+          "name": "Racial Attribute Adjustments",
+          "permnum": -2
+        }
+      },
+      "base": 13,
+      "bonus": 0,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": -2,
+      "permbon": 1,
+      "score": 11
+    },
+    "wisdom": {
+      "base": 17,
+      "bonus": 3,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 17
+    }
+  },
+  "ac": {
+    "sources": {
+      "abilitymod": 5,
+      "abilitymod2": 0,
+      "armor": 3,
+      "cmdabilitymod": 0,
+      "cmdbasemod": 1,
+      "cmdmisc": 0,
+      "deflection": 3,
+      "dodge": 0,
+      "ffmisc": 0,
+      "misc": 0,
+      "naturalarmor": 2,
+      "shield": 0,
+      "size": 1,
+      "temporary": 0,
+      "touchmisc": 0
+    },
+    "totals": {
+      "cmd": 19,
+      "flatfooted": 19,
+      "general": 24,
+      "touch": 19
+    }
+  },
+  "age": "16",
+  "alignment": "CG",
+  "attackbonus": {
+    "base": 1,
+    "grapple": {
+      "abilitymod": 0,
+      "misc": 0,
+      "size": -1,
+      "temporary": 0,
+      "total": 0
+    },
+    "melee": {
+      "abilitymod": 0,
+      "misc": 0,
+      "size": 1,
+      "temporary": 0,
+      "total": 2
+    },
+    "ranged": {
+      "abilitymod": 6,
+      "misc": 0,
+      "size": 1,
+      "temporary": 0,
+      "total": 8
+    }
+  },
+  "classes": {
+    "id-00001": {
+      "favored": 0,
+      "level": 2,
+      "name": "Alchemist",
+      "shortcut": {
+        "class": "referenceclass",
+        "recordname": "class.alchemist@Pathfinder Advanced Players Guide"
+      },
+      "skillranks": 16,
+      "skillranksused": 0
+    }
+  },
+  "coins": {
+    "id-00001": {
+      "amount": 0,
+      "name": "PP"
+    },
+    "id-00002": {
+      "amount": 65,
+      "name": "GP"
+    },
+    "id-00003": {
+      "amount": 3,
+      "name": "SP"
+    },
+    "id-00004": {
+      "amount": 0,
+      "name": "CP"
+    }
+  },
+  "defenses": {
+    "sr": {
+      "base": 0,
+      "misc": 0,
+      "temporary": 0,
+      "total": 0
+    }
+  },
+  "encumbrance": {
+    "armorcheckpenalty": -1,
+    "armormaxstatbonus": 5,
+    "armormaxstatbonusactive": 1,
+    "checkpenalty": 0,
+    "heavyload": 86.25,
+    "level": 0,
+    "liftoffground": 172.5,
+    "liftoverhead": 86.25,
+    "lightload": 28.5,
+    "load": 19.2,
+    "maxstatbonus": 0,
+    "mediumload": 57,
+    "pushordrag": 431.25,
+    "spellfailure": 15
+  },
+  "exp": 2347,
+  "expneeded": 2000,
+  "featlist": {
+    "id-00001": {
+      "benefit": "<p>You get a +1 bonus on attack and damage rolls with ranged weapons at ranges of up to 30 feet.</p>",
+      "name": "Point Blank Shot",
+      "normal": "<p>-</p>",
+      "prerequisites": "-",
+      "special": "<p>-</p>",
+      "summary": "+1 attack and damage on targets within 30 feet",
+      "type": "Combat"
+    },
+    "id-00002": {
+      "benefit": "<p>You do not suffer any penalties for using an improvised ranged weapon. You receive a +1 circumstance bonus on attack rolls made with thrown splash weapons.</p>",
+      "name": "Throw Anything",
+      "normal": "<p>You take a -4 penalty on attack rolls made with an improvised weapon.</p>",
+      "prerequisites": "-",
+      "special": "<p>-</p>",
+      "summary": "No penalties for improvised ranged weapons",
+      "type": "Combat"
+    },
+    "id-00003": {
+      "benefit": "<p>You can create a potion of any 3rd-level or lower spell that you know and that targets one or more creatures or objects. Brewing a potion takes 2 hours if its base price is 250 gp or less, otherwise brewing a potion takes 1 day for each 1,000 gp in its base price. When you create a potion, you set the caster level, which must be sufficient to cast the spell in question and no higher than your own level. To brew a potion, you must use up raw materials costing one half this base price. See the magic item creation rules in Magic Items for more information</p>\n\t\t\t\t\t\t<p>When you create a potion, you make any choices that you would normally make when casting the spell. Whoever drinks the potion is the target of the spell.</p>",
+      "name": "Brew Potion",
+      "normal": "<p>-</p>",
+      "prerequisites": "Caster level 3rd.",
+      "special": "<p>-</p>",
+      "summary": "Create magic potions",
+      "type": "Item Creation"
+    }
+  },
+  "gender": "Male",
+  "height": "2'7",
+  "heropoint": 0,
+  "hp": {
+    "nonlethal": 0,
+    "temporary": 0,
+    "total": 17,
+    "wounds": 0
+  },
+  "initiative": {
+    "abilitymod": 6,
+    "misc": 0,
+    "temporary": 0,
+    "total": 6
+  },
+  "inventorylist": {
+    "id-00001": {
+      "carried": 1,
+      "cost": "0 gp",
+      "count": 22,
+      "hitshots": 0,
+      "isidentified": 1,
+      "locked": 1,
+      "missedshots": 0,
+      "name": "Bolts, crossbow",
+      "showonminisheet": 1,
+      "subtype": "Ammunition",
+      "type": "Goods and Services",
+      "weight": 0.1
+    },
+    "id-00002": {
+      "carried": 2,
+      "cost": "35 gp",
+      "count": 1,
+      "critical": "19-20/x2",
+      "damage": "1d8",
+      "damagetype": "Piercing",
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Crossbow, light",
+      "range": 80,
+      "showonminisheet": 1,
+      "subtype": "Simple Ranged",
+      "type": "Weapon",
+      "weight": 1
+    },
+    "id-00003": {
+      "ac": 3,
+      "bonus": 0,
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 2,
+      "charges": 0,
+      "checkpenalty": -1,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "25 gp",
+      "count": 1,
+      "depth": 0,
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 0,
+      "max_charges": 1,
+      "maxstatbonus": 5,
+      "name": "Studded Leather",
+      "showonminisheet": 1,
+      "speed20": 20,
+      "speed30": 30,
+      "spell_caster_level": "item_caster_level",
+      "spellfailure": 15,
+      "spells": "",
+      "subtype": "Light",
+      "type": "Armor",
+      "volume": 0,
+      "weight": 10,
+      "width": 0
+    },
+    "id-00004": {
+      "ammoeffect": "DMGTYPE: cold iron",
+      "carried": 2,
+      "cost": "2 sp",
+      "count": 1,
+      "description": "<p>Cold iron. Twice the price of the ordinary sort, and the only thing on this rack that bites a demon properly.</p>",
+      "hitshots": 0,
+      "isidentified": 1,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00007.inventorylist.id-00008"
+      },
+      "locked": 1,
+      "missedshots": 0,
+      "name": "Cold iron crossbow bolts",
+      "showonminisheet": 1,
+      "subtype": "Ammunition",
+      "type": "Goods and Services",
+      "weight": 0.1
+    },
+    "id-00005": {
+      "carried": 0,
+      "cost": "5 sp",
+      "count": 5,
+      "isidentified": 1,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00007.inventorylist.id-00008"
+      },
+      "locked": 1,
+      "name": "Rations, trail (per day)",
+      "showonminisheet": 0,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 1
+    },
+    "id-00006": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 1,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "2 gp",
+      "count": 1,
+      "depth": 0,
+      "description": "<p>This 1-foot-long, gold-tipped, iron rod glows brightly when struck as a standard action. It sheds normal light in a 30-foot radius and increases the light level by one step for an additional 30 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A sunrod does not increase the light level in normal light or bright light. It glows for 6 hours, after which the gold tip is burned out and worthless.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00007.inventorylist.id-00008"
+      },
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Sunrod",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "subtype": "Special Substances and Items",
+      "type": "Goods and Services",
+      "volume": 0,
+      "weight": 1,
+      "width": 0
+    },
+    "id-00007": {
+      "carried": 0,
+      "cost": "1 gp",
+      "count": 1,
+      "isidentified": 1,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00007.inventorylist.id-00008"
+      },
+      "locked": 1,
+      "name": "Waterskin",
+      "showonminisheet": 0,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 4
+    },
+    "id-00008": {
+      "carried": 1,
+      "contentscount": 0,
+      "contentsvolume": 0,
+      "cost": "2 gp",
+      "count": 1,
+      "extraplanarcontents": 1,
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Backpack",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 2
+    },
+    "id-00009": {
+      "carried": 2,
+      "cl": 1,
+      "cost": "50 gp",
+      "count": 1,
+      "description": "<p>A faintly shimmering silver liquid. For 1 minute it grants a +2 deflection bonus to AC.</p>",
+      "isidentified": 1,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00007.inventorylist.id-00008"
+      },
+      "locked": 1,
+      "name": "Potion of Shield of Faith",
+      "showonminisheet": 1,
+      "type": "Potion",
+      "weight": 0.1
+    },
+    "id-00010": {
+      "carried": 2,
+      "cost": "50 gp",
+      "count": 2,
+      "description": "<p>If you drink a vial of antitoxin, you get a +5 alchemical bonus on Fortitude saving throws against poison for 1 hour.</p>",
+      "isidentified": 1,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00007.inventorylist.id-00008"
+      },
+      "locked": 1,
+      "name": "Antitoxin",
+      "showonminisheet": 1,
+      "subtype": "Special Substances and Items",
+      "type": "Goods and Services",
+      "weight": 0.1
+    },
+    "id-00012": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 1,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "1 gp",
+      "count": 1,
+      "depth": 0,
+      "description": "<p>Worn openly at the throat rather than inked on a wrist. These men are not hiding from anyone down here.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Hooked Labyrinth Token",
+      "nonid_name": "A hooked iron disc, stamped with a maze",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "type": "Gear",
+      "volume": 0,
+      "weight": 0.5,
+      "width": 0
+    },
+    "id-00013": {
+      "aura": "Faint conjuration",
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 2,
+      "charges": 0,
+      "cl": 1,
+      "contentsvolume": 0,
+      "cost": "50 gp",
+      "count": 6,
+      "depth": 0,
+      "description": "<p>A stoppered glass vial of cloudy red liquid, about two swallows. A paper tag tied at the neck carries a stock number, <i>H.E. 214, </i>and beside it a tiny, careful drawing of a flask.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00007.inventorylist.id-00008"
+      },
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Potion of Cure Light Wounds",
+      "nonid_name": "A vial of cloudy red liquid with a paper tag",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "type": "Potion",
+      "volume": 0,
+      "weight": 0.1,
+      "width": 0
+    },
+    "id-00014": {
+      "aura": "Faint conjuration",
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 2,
+      "charges": 0,
+      "cl": 3,
+      "contentsvolume": 0,
+      "cost": "300 gp",
+      "count": 1,
+      "depth": 0,
+      "description": "<p>A stoppered glass vial of clear, faintly blue liquid. A paper tag tied at the neck carries a stock number, <i>H.E. 212, </i>and beside it a tiny, careful drawing of a flask.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00007.inventorylist.id-00008"
+      },
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Potion of Lesser Restoration",
+      "nonid_name": "A vial of clear blue liquid with a paper tag",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "type": "Potion",
+      "volume": 0,
+      "weight": 0.1,
+      "width": 0
+    }
+  },
+  "languagelist": {
+    "id-00001": {
+      "name": "Goblin"
+    },
+    "id-00002": {
+      "name": "Common"
+    },
+    "id-00003": {
+      "name": "Gnome"
+    },
+    "id-00004": {
+      "name": "Dwarf"
+    }
+  },
+  "level": 2,
+  "locked": 0,
+  "name": "Diddle Scribes",
+  "notes": "Enter Diddle Scribes, a goblin Alchemist raised by a human with the name James Helmsmith. He found Diddle about 15 years ago while he still adventured and gathered his own supplies for his alchemy shop and wares. James taught Diddle how to mingle with the other races outside being a goblin. At first it was very rough due to him being a goblin. As time went on people learned to know Diddle. He is quirky and a bit naive at times, but its part of his charm. His social skills are not exactly up to par, and more leaner than your average goblin. Diddle however had a knack for the alchemy craft and took after his adoptive father, James. He enjoyed the merchant life. Going to other shops to help out, help sell wares, help bring people in and so on earning a wage every week. Diddle also has sharp eyes for items and a vast knowledge of potions. Able to look over a potion to figure out what it is, as well the value of most items.\\n\\nThough Diddle wanted to learn more of the world so James allowed and agreed Diddle should see the world. He signed up with the Guards of the town to see if he couldn't help. Armed with his potions and brews, he was ready to take on the world, one explosion at a time! He can assist with combat from afar with his light crossbow, and if enemies get too close he will throw one of his many bombs at them! Careful as it has a bit of a reach too each explosion for sure. Hope you can dodge! Hehe. Further he can be very stealthy and offer knowledge as the mission or job goes. Can not wait to see how DIddle handles himself in the world.",
+  "proficiencylist": {
+    "id-00001": {
+      "name": "Weapon: simple"
+    },
+    "id-00002": {
+      "name": "Armor: light"
+    }
+  },
+  "race": "Goblin",
+  "racelink": {
+    "class": "referencerace",
+    "recordname": "reference.races.id-00004@Pathfinder Bestiary"
+  },
+  "saves": {
+    "fortitude": {
+      "abilitymod": 2,
+      "base": 3,
+      "misc": 0,
+      "temporary": 0,
+      "total": 5
+    },
+    "reflex": {
+      "abilitymod": 6,
+      "base": 3,
+      "misc": 0,
+      "temporary": 0,
+      "total": 9
+    },
+    "will": {
+      "abilitymod": 3,
+      "base": 0,
+      "misc": 0,
+      "temporary": 0,
+      "total": 3
+    }
+  },
+  "senses": "Darkvision 60",
+  "size": "Small",
+  "skilllist": {
+    "id-00001": {
+      "armorcheckmultiplier": 1,
+      "label": "Stealth",
+      "misc": 8,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 6,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 13
+    },
+    "id-00002": {
+      "armorcheckmultiplier": 1,
+      "label": "Ride",
+      "misc": 4,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 6,
+      "state": 1,
+      "statname": "dexterity",
+      "total": 13
+    },
+    "id-00003": {
+      "armorcheckmultiplier": 0,
+      "label": "Intimidate",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": -1,
+      "state": 0,
+      "statname": "charisma",
+      "total": -1
+    },
+    "id-00004": {
+      "armorcheckmultiplier": 1,
+      "label": "Climb",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 0,
+      "statname": "strength",
+      "total": -1
+    },
+    "id-00005": {
+      "armorcheckmultiplier": 1,
+      "label": "Escape Artist",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 6,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 5
+    },
+    "id-00006": {
+      "armorcheckmultiplier": 0,
+      "label": "Diplomacy",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": -1,
+      "state": 0,
+      "statname": "charisma",
+      "total": -1
+    },
+    "id-00007": {
+      "armorcheckmultiplier": 0,
+      "label": "Perception",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 0,
+      "statname": "wisdom",
+      "total": 4
+    },
+    "id-00008": {
+      "armorcheckmultiplier": 1,
+      "label": "Fly",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 6,
+      "state": 1,
+      "statname": "dexterity",
+      "total": 5
+    },
+    "id-00009": {
+      "armorcheckmultiplier": 1,
+      "label": "Disable Device",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 6,
+      "state": 1,
+      "statname": "dexterity",
+      "total": 5
+    },
+    "id-00010": {
+      "armorcheckmultiplier": 1,
+      "label": "Acrobatics",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 6,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 5
+    },
+    "id-00011": {
+      "armorcheckmultiplier": 0,
+      "label": "Use Magic Device",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": -1,
+      "state": 1,
+      "statname": "charisma",
+      "total": -1
+    },
+    "id-00012": {
+      "armorcheckmultiplier": 0,
+      "label": "Handle Animal",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": -1,
+      "state": 0,
+      "statname": "charisma",
+      "total": -1
+    },
+    "id-00013": {
+      "armorcheckmultiplier": 1,
+      "label": "Swim",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 0,
+      "statname": "strength",
+      "total": -1
+    },
+    "id-00014": {
+      "armorcheckmultiplier": 1,
+      "label": "Sleight of Hand",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 6,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 5
+    },
+    "id-00015": {
+      "armorcheckmultiplier": 0,
+      "label": "Survival",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 0,
+      "statname": "wisdom",
+      "total": 3
+    },
+    "id-00016": {
+      "armorcheckmultiplier": 0,
+      "label": "Appraise",
+      "misc": 0,
+      "ranks": 2,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "intelligence",
+      "total": 8
+    },
+    "id-00017": {
+      "armorcheckmultiplier": 0,
+      "label": "Linguistics",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 3,
+      "state": 0,
+      "statname": "intelligence",
+      "total": 3
+    },
+    "id-00018": {
+      "armorcheckmultiplier": 0,
+      "label": "Bluff",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": -1,
+      "state": 0,
+      "statname": "charisma",
+      "total": -1
+    },
+    "id-00019": {
+      "armorcheckmultiplier": 0,
+      "label": "Disguise",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": -1,
+      "state": 0,
+      "statname": "charisma",
+      "total": -1
+    },
+    "id-00020": {
+      "armorcheckmultiplier": 0,
+      "label": "Sense Motive",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 0,
+      "statname": "wisdom",
+      "total": 3
+    },
+    "id-00021": {
+      "armorcheckmultiplier": 0,
+      "label": "Heal",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 3,
+      "state": 1,
+      "statname": "wisdom",
+      "total": 3
+    },
+    "id-00022": {
+      "armorcheckmultiplier": 0,
+      "label": "Spellcraft",
+      "misc": 0,
+      "ranks": 2,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "intelligence",
+      "total": 8
+    },
+    "id-00023": {
+      "armorcheckmultiplier": 0,
+      "label": "Craft",
+      "misc": 2,
+      "ranks": 2,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Alchemy",
+      "total": 10
+    },
+    "id-00024": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 0,
+      "ranks": 2,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Arcana",
+      "total": 8
+    },
+    "id-00025": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 0,
+      "ranks": 2,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Nature",
+      "total": 8
+    },
+    "id-00026": {
+      "armorcheckmultiplier": 0,
+      "label": "Profession",
+      "misc": 0,
+      "ranks": 2,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "wisdom",
+      "sublabel": "Merchant",
+      "total": 8
+    },
+    "id-00027": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 0,
+      "ranks": 2,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Local",
+      "total": 8
+    }
+  },
+  "skillpoints": {
+    "spent": 16
+  },
+  "specialabilitylist": {
+    "id-00001": {
+      "level": 1,
+      "locked": 1,
+      "name": "Alchemy",
+      "source": "Alchemist",
+      "text": "<p>Alchemists are not only masters of creating mundane alchemical substances such as alchemist's fire and smokesticks, but also of fashioning magical potion-like extracts in which they can store spell effects. In effect, an alchemist prepares his spells by mixing ingredients into a number of extracts, and then \"casts\" his spells by drinking the extract. When an alchemist creates an extract or bomb, he infuses the concoction with a tiny fraction of his own magical power-this enables the creation of powerful effects, but also binds the effects to the creator.</p>\n\t\t\t\t\t\t<p>When using Craft (alchemy) to create an alchemical item, an alchemist gains a competence bonus equal to his class level on the Craft (alchemy) check. In addition, an alchemist can use Craft (alchemy) to identify potions as if using <i>detect magic </i>. He must hold the potion for 1 round to make such a check.</p>\n\t\t\t\t\t\t<p>An alchemist can create three special types of magical items-extracts, bombs, and mutagens. Bombs are explosive splash weapons, and mutagens are transformative elixirs that the alchemist drinks to enhance his physical abilities-both of these are detailed in their own sections below.</p>\n\t\t\t\t\t\t<p>Extracts are the most varied of the three. In many ways, they behave like spells in potion form, and as such their effects can be dispelled by effects like <i>dispel magic </i>using the alchemist's level as the caster level. Unlike potions, though, extracts can have powerful effects and duplicate spells that a potion normally could not.</p>\n\t\t\t\t\t\t<p>An alchemist can create only a certain number of extracts of each level per day. His base daily allotment of extracts is given on Table 2-1. In addition, he receives bonus extracts per day if he has a high Intelligence score, in the same way a wizard receives bonus spells per day.</p>\n\t\t\t\t\t\t<p>When an alchemist mixes an extract, he infuses the chemicals and reagents in the extract with magic siphoned from his own magical aura. An extract immediately becomes inert if it leaves the alchemist's possession, reactivating as soon as it returns to his keeping-an alchemist cannot normally pass out his extracts for allies to use (but see the \"infusion\" discovery below). An extract, once created, remains potent for 1 day before losing its magic, so an alchemist must re-prepare his extracts every day. Mixing an extract takes 1 minute of work-most alchemists prepare many extracts at the start of the day or just before going on an adventure, but it's not uncommon for an alchemist to keep some (or even all) of his daily extract slots open so that he can prepare extracts in the field as needed.</p>\n\t\t\t\t\t\t<p>Although the alchemist doesn't actually cast spells, he does have a formulae list that determines what extracts he can create. An alchemist can utilize spell-trigger items if the spell appears on his formuale list, but not spell-completion items (unless he uses Use Magic Device to do so). An extract is \"cast\" by drinking it, as if imbibing a potion-the effects of an extract exactly duplicate the spell upon which its formula is based, save that the spell always affects only the drinking alchemist. An alchemist can draw and drink an extract as a standard action. The alchemist uses his level as the caster level to determine any effect based on caster level.</p>\n\t\t\t\t\t\t<p>Creating extracts consumes raw materials, but the cost of these materials is insignificant-comparable to the valueless material components of most spells. If a spell normally has a costly material component, that component is expended during the consumption of that particular extract. Extracts cannot be made from spells that have focus requirements (alchemist extracts that duplicate divine spells never have a divine focus requirement).</p>\n\t\t\t\t\t\t<p>An alchemist can prepare an extract of any formula he knows. To learn or use an extract, an alchemist must have an Intelligence score equal to at least 10 + the extract's level. The Difficulty Class for a saving throw against an alchemist's extract is 10 + the extract level + the alchemist's Intelligence modifier.</p>\n\t\t\t\t\t\t<p>An alchemist may know any number of formulae. He stores his formulae in a special tome called a formula book. He must refer to this book whenever he prepares an extract but not when he consumes it. An alchemist begins play with two 1st-level formulae of his choice, plus a number of additional forumlae equal to his Intelligence modifier. At each new alchemist level, he gains one new formula of any level that he can create. An alchemist can also add formulae to his book just like a wizard adds spells to his spellbook, using the same costs, pages, and time requirements. An alchemist can study a wizard's spellbook to learn any formula that is equivalent to a spell the spellbook contains. A wizard, however, cannot learn spells from a formula book. An alchemist does not need to decipher arcane writings before copying them.</p>"
+    },
+    "id-00002": {
+      "level": 1,
+      "locked": 1,
+      "name": "Bomb (1d6)",
+      "source": "Alchemist",
+      "text": "<p>In addition to magical extracts, alchemists are adept at swiftly mixing various volatile chemicals and infusing them with their magical reserves to create powerful bombs that they can hurl at their enemies. An alchemist can use a number of bombs each day equal to his class level + his Intelligence modifier. Bombs are unstable, and if not used in the round they are created, they degrade and become inert-their method of creation prevents large volumes of explosive material from being created and stored. In order to create a bomb, the alchemist must use a small vial containing an ounce of liquid catalyst-the alchemist can create this liquid catalyst from small amounts of chemicals from an alchemy lab, and these supplies can be readily refilled in the same manner as a spellcaster's component pouch. Most alchemists create a number of catalyst vials at the start of the day equal to the total number of bombs they can create in that day-once created, a catalyst vial remains usable by the alchemist for years.</p>\n\t\t\t\t\t\t<p>Drawing the components of, creating, and throwing a bomb requires a standard action that provokes an attack of opportunity. Thrown bombs have a range of 20 feet and use the Throw Splash Weapon special attack. Bombs are considered weapons and can be selected using feats such as Point-Blank Shot and Weapon Focus. On a direct hit, an alchemist's bomb inflicts 1d6 points of fire damage + additional damage equal to the alchemist's Intelligence modifier. The damage of an alchemist's bomb increases by 1d6 points at every odd-numbered alchemist level (this bonus damage is not multiplied on a critical hit or by using feats such as Vital Strike). Splash damage from an alchemist bomb is always equal to the bomb's minimum damage (so if the bomb would deal 2d6+4 points of fire damage on a direct hit, its splash damage would be 6 points of fire damage). Those caught in the splash damage can attempt a Reflex save for half damage. The DC of this save is equal to 10 + 1/2 the alchemist's level + the alchemist's Intelligence modifier.</p>\n\t\t\t\t\t\t<p>Alchemists can learn new types of bombs as discoveries (see the Discovery ability) as they level up. An alchemist's bomb, like an extract, becomes inert if used or carried by anyone else.</p>"
+    },
+    "id-00003": {
+      "level": 1,
+      "locked": 1,
+      "name": "Brew Potion",
+      "source": "Alchemist",
+      "text": "<p>At 1st level, alchemists receive Brew Potion as a bonus feat. An alchemist can brew potions of any formulae he knows (up to 3rd level), using his alchemist level as his caster level. The spell must be one that can be made into a potion. The alchemist does not need to meet the prerequisites for this feat.</p>"
+    },
+    "id-00004": {
+      "level": 1,
+      "locked": 1,
+      "name": "Mutagen",
+      "source": "Alchemist",
+      "text": "<p>At 1st level, an alchemist discovers how to create a mutagen that he can imbibe in order to heighten his physical prowess at the cost of his personality. It takes 1 hour to brew a dose of mutagen, and once brewed, it remains potent until used. An alchemist can only maintain one dose of mutagen at a time-if he brews a second dose, any existing mutagen becomes inert. As with an extract or bomb, a mutagen that is not in an alchemist's possession becomes inert until an alchemist picks it up again.</p>\n\t\t\t\t\t\t<p>When an alchemist brews a mutagen, he selects one physical ability score-either Strength, Dexterity, or Constitution. It's a standard action to drink a mutagen. Upon being imbibed, the mutagen causes the alchemist to grow bulkier and more bestial, granting him a +2 natural armor bonus and a +4 alchemical bonus to the selected ability score for 10 minutes per alchemist level. In addition, while the mutagen is in effect, the alchemist takes a -2 penalty to one of his mental ability scores. If the mutagen enhances his Strength, it applies a penalty to his Intelligence. If it enhances his Dexterity, it applies a penalty to his Wisdom. If it enhances his Constitution, it applies a penalty to his Charisma.</p>\n\t\t\t\t\t\t<p>A non-alchemist who drinks a mutagen must make a Fortitude save (DC 10 + 1/2 the alchemist's level + the alchemist's Intelligence modifier) or become nauseated for 1 hour-a non-alchemist can never gain the benefit of a mutagen, but an alchemist can gain the effects of another alchemist's mutagen if he drinks it. (Although if the other alchemist creates a different mutagen, the effects of the \"stolen\" mutagen immediately cease.) The effects of a mutagen do not stack. Whenever an alchemist drinks a mutagen, the effects of any previous mutagen immediately end.</p>"
+    },
+    "id-00005": {
+      "level": 1,
+      "locked": 1,
+      "name": "Throw Anything",
+      "source": "Alchemist",
+      "text": "<p>All alchemists gain the Throw Anything feat as a bonus feat at 1st level. An alchemist adds his Intelligence modifier to damage done with splash weapons, including the splash damage if any. This bonus damage is already included in the bomb class feature.</p>"
+    },
+    "id-00006": {
+      "level": 2,
+      "locked": 1,
+      "name": "Discovery",
+      "source": "Alchemist",
+      "text": "<p>At 2nd level, and then again every 2 levels thereafter (up to 18th level), an alchemist makes an incredible alchemical discovery. Unless otherwise noted, an alchemist cannot select an individual discovery more than once. Some discoveries can only be made if the alchemist has met certain prerequisites first, such as uncovering other discoveries. Discoveries that modify bombs that are marked with an asterisk (*) do not stack. Only one such discovery can be applied to an individual bomb. The DC of any saving throw called for by a discovery is equal to 10 + 1/2 the alchemist's level + the alchemist's Intelligence modifier.</p>"
+    },
+    "id-00007": {
+      "level": 2,
+      "locked": 1,
+      "name": "Poison resistance (+2)",
+      "source": "Alchemist",
+      "text": "<p>At 2nd level, an alchemist gains a +2 bonus on all saving throws against poison. This bonus increases to +4 at 5th level, and then again to +6 at 8th level. At 10th level, an alchemist becomes completely immune to poison.</p>"
+    },
+    "id-00008": {
+      "level": 2,
+      "locked": 1,
+      "name": "Poison use",
+      "source": "Alchemist",
+      "text": "<p>Alchemists are trained in the use of poison and starting at 2nd level, cannot accidentally poison themselves when applying poison to a weapon.</p>"
+    },
+    "id-00009": {
+      "locked": 1,
+      "name": "Precise bombs",
+      "text": "<p>\n\t\t\t\t\t\t\t<b>Type: </b>Bomb</p>\n\t\t\t\t\t\t<p>Whenever the alchemist throws a bomb, he can select a number of squares equal to his Intelligence modifier that are not affected by the splash damage from his bombs. If the bomb misses, this discovery has no effect.</p>",
+      "type": "Alchemist Discovery - Bomb"
+    }
+  },
+  "speed": {
+    "armor": 0,
+    "base": 30,
+    "fastmovement": 0,
+    "final": 30,
+    "misc": 0,
+    "temporary": 0,
+    "total": 30
+  },
+  "spelldisplaymode": "action",
+  "spellmode": "combat",
+  "spellset": {
+    "id-00001": {
+      "availablelevel0": 0,
+      "availablelevel1": 4,
+      "availablelevel2": 0,
+      "availablelevel3": 0,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "cc": {
+        "misc": 0
+      },
+      "cl": 2,
+      "dc": {
+        "ability": "intelligence",
+        "abilitymod": 3,
+        "misc": 0,
+        "total": 13
+      },
+      "label": "Alchemist",
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 2,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "savetype": "reflex",
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "Once during this spell's duration, you can spit a viscous liquid as a standard action. This liquid functions as a tanglefoot bag, except you do not have to make a successful attack roll to hit your target. The DCs to counteract this adhesive (to avoid being stuck to the floor, to fly, to break the adhesive, or to cast a spell) use the spell's DC rather than a tanglefoot bag's normal DCs. The adhesive persists for 2d4 rounds after you spit it.",
+              "duration": "1 round/level or until discharged (see text)",
+              "effect": "Target-one creature",
+              "level": "Alchemist 1, Arcanist 1, Investigator 1, Psychic 1, Sorcerer 1, Witch 1, Wizard 1",
+              "linkedspells": "",
+              "name": "Adhesive Spittle",
+              "prepared": 0,
+              "range": "15 ft.",
+              "save": "Reflex partial",
+              "school": "conjuration (creation)",
+              "shortdescription": "Spit a tanglefoot bag at a creature.",
+              "sr": "no"
+            },
+            "id-00002": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M (wine stirred with an owl's feather)",
+              "cost": 1,
+              "description": "This spell functions as detect magic , except that it gives you a +10 enhancement bonus on Spellcraft checks made to identify the properties and command words of magic items in your possession. This spell does not allow you to identify artifacts.\\n\\nDetect Magic : You detect magical auras. The amount of information revealed depends on how long you study a particular area or subject.\\n\\n1st Round : Presence or absence of magical auras.\\n\\n2nd Round : Number of different magical auras and the power of the most potent aura.\\n\\n3rd Round : The strength and location of each aura. If the items or creatures bearing the auras are in line of sight, you can make Knowledge (arcana) skill checks to determine the school of magic involved in each. (Make one check per aura: DC 15 + spell level, or 15 + 1/2 caster level for a nonspell effect.) If the aura eminates from a magic item, you can attempt to identify its properties (see Spellcraft).\\n\\nMagical areas, multiple types of magic, or strong local magical emanations may distort or conceal weaker auras.\\n\\nAura Strength : An aura's power depends on a spell's functioning spell level or an item's caster level; see the accompanying table. If an aura falls into more than one category, detect magic indicates the stronger of the two.\\n\\nLingering Aura : A magical aura lingers after its original source dissipates (in the case of a spell) or is destroyed (in the case of a magic item). If detect magic is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power:\\n\\n[Original Strength] [Duration of Lingering Aura]\\n[Faint] [1d6 rounds]\\n[Moderate] [1d6 minutes]\\n[Strong] [1d6 x 10 minutes]\\n[Overwhelming] [1d6 days]\\n\\nOutsiders and elementals are not magical in themselves, but if they are summoned, the conjuration spell registers. Each round, you can turn to detect magic in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.\\n\\nDetect magic can be made permanent with a permanency spell.\\n\\n[Spell or Object] [Aura Power]\\n[] [Faint] [Moderate] [Strong] [Overwhelming]\\n[Functioning spell (spell level)] [3rd or lower] [4th-6th] [7th-9th] [10th+ (deity-level)]\\n[Magic item (caster level)] [5th or lower] [6th-11th] [12th-20th] [21st+ (artifact)]",
+              "duration": "3 rounds/level (D)",
+              "effect": "Area-cone-shaped emanation",
+              "level": "Alchemist 1, Arcanist 1, Bard 1, Investigator 1, Medium 1, Occultist 1, Psychic 1, Skald 1, Sorcerer 1, Spiritualist 1, Summoner 1, Summoner UC 1, Witch 1, Wizard 1",
+              "linkedspells": "",
+              "name": "Identify",
+              "prepared": 1,
+              "range": "60 ft.",
+              "save": "none",
+              "school": "divination",
+              "shortdescription": "Gives +10 bonus to identify magic items.",
+              "sr": "no",
+              "text": "<p>This spell functions as <i>detect magic </i>, except that it gives you a +10 enhancement bonus on Spellcraft checks made to identify the properties and command words of magic items in your possession. This spell does not allow you to identify artifacts.</p>"
+            },
+            "id-00003": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "You can detect secret doors, compartments, caches, and so forth. Only passages, doors, or openings that have been specifically constructed to escape detection are detected by this spell. The amount of information revealed depends on how long you study a particular area or subject.\\n\\n1st Round : Presence or absence of secret doors.\\n\\n2nd Round : Number of secret doors and the location of each. If an aura is outside your line of sight, then you discern its direction but not its exact location.\\n\\nEach Additional Round : The mechanism or trigger for one particular secret portal closely examined by you. Each round, you can turn to detect secret doors in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.",
+              "duration": "concentration, up to 1 min./level (D)",
+              "effect": "Area-cone-shaped emanation",
+              "level": "Alchemist 1, Arcanist 1, Bard 1, Investigator 1, Mesmerist 1, Occultist 1, Psychic 1, Skald 1, Sorcerer 1, Witch 1, Wizard 1",
+              "linkedspells": "",
+              "name": "Detect Secret Doors",
+              "prepared": 0,
+              "range": "60 ft.",
+              "save": "none",
+              "school": "divination",
+              "shortdescription": "Reveals hidden doors within 60 ft.",
+              "sr": "no",
+              "text": "<p>You can detect secret doors, compartments, caches, and so forth. Only passages, doors, or openings that have been specifically constructed to escape detection are detected by this spell. The amount of information revealed depends on how long you study a particular area or subject.</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>1st Round </i>: Presence or absence of secret doors.</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>2nd Round </i>: Number of secret doors and the location of each. If an aura is outside your line of sight, then you discern its direction but not its exact location.</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>Each Additional Round </i>: The mechanism or trigger for one particular secret portal closely examined by you. Each round, you can turn to detect secret doors in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.</p>"
+            },
+            "id-00004": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "heallist": {
+                    "id-00001": {
+                      "dice": "d8",
+                      "stat": "cl",
+                      "statmax": 5,
+                      "statmult": 1
+                    }
+                  },
+                  "order": 2,
+                  "type": "heal"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage.",
+              "duration": "instantaneous",
+              "effect": "Target-creature touched",
+              "level": "Adept 1, Alchemist 1, Bard 1, Cleric 1, Druid 1, Hunter 1, Inquisitor 1, Investigator 1, Occultist 1, Oracle 1, Paladin 1, Ranger 2, Shaman 1, Skald 1, Spiritualist 1, Warpriest 1, Witch 1",
+              "linkedspells": "",
+              "name": "Cure Light Wounds",
+              "prepared": 2,
+              "range": "touch",
+              "save": "Will half (harmless)",
+              "school": "conjuration (healing)",
+              "shortdescription": "Cures 1d8 damage + 1/level (max +5).",
+              "sr": "yes (harmless); see text",
+              "text": "<p>When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage.</p>"
+            },
+            "id-00005": {
+              "actions": {
+                "id-00001": {
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "S",
+              "cost": 1,
+              "description": "This extract allows you to throw weapons farther and more accurately. While this extract is in effect, increase the range of any thrown weapon by 10 feet. In addition, you receive a +1 insight bonus on attack rolls made with thrown weapons.",
+              "duration": "1 round/level",
+              "effect": "Target-you",
+              "level": "Alchemist 1, Investigator 1",
+              "linkedspells": "",
+              "name": "Bomber's Eye",
+              "prepared": 0,
+              "range": "personal",
+              "school": "transmutation",
+              "shortdescription": "Increases thrown weapon range; +1 attack.",
+              "text": "<p>This extract allows you to throw weapons farther and more accurately. While this extract is in effect, increase the range of any thrown weapon by 10 feet. In addition, you receive a +1 insight bonus on attack rolls made with thrown weapons.</p>"
+            },
+            "id-00006": {
+              "actions": {
+                "id-00001": {
+                  "type": "cast"
+                }
+              },
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "Shield creates an invisible shield of force that hovers in front of you. It negates magic missile attacks directed at you. The disk also provides a +4 shield bonus to AC. This bonus applies against incorporeal touch attacks, since it is a force effect. The shield has no armor check penalty or arcane spell failure chance.",
+              "duration": "1 min./level (D)",
+              "effect": "Target-you",
+              "level": "Alchemist 1, Arcanist 1, Bloodrager 1, Investigator 1, Magus 1, Occultist 1, Psychic 1, Sorcerer 1, Spiritualist 1, Summoner 1, Summoner UC 1, Wizard 1",
+              "linkedspells": "",
+              "name": "Shield",
+              "prepared": 1,
+              "range": "personal",
+              "school": "abjuration [force]",
+              "shortdescription": "Invisible disc gives +4 to AC, blocks magic missiles."
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 4
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "points": 0,
+      "pointsused": 0,
+      "sp": 0
+    },
+    "id-00002": {
+      "availablelevel0": 4,
+      "availablelevel1": 5,
+      "availablelevel2": 0,
+      "availablelevel3": 0,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "castertype": "spontaneous",
+      "cc": {
+        "misc": 0
+      },
+      "cl": 1,
+      "dc": {
+        "ability": "intelligence",
+        "abilitymod": 3,
+        "misc": 0,
+        "total": 13
+      },
+      "label": "Bombs",
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 0,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "atkmod": 0,
+                  "clcmod": 0,
+                  "onmissdamage": "half",
+                  "order": 1,
+                  "savedcmod": 0,
+                  "savetype": "reflex",
+                  "srnotallowed": 0,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "damagelist": {
+                    "id-00001": {
+                      "bonus": 0,
+                      "dicestat": "oddcl",
+                      "dicestatmax": 0,
+                      "stat": "intelligence",
+                      "statmax": 0,
+                      "statmult": 1,
+                      "type": "fire"
+                    }
+                  },
+                  "dmgnotspell": 1,
+                  "order": 2,
+                  "type": "damage"
+                }
+              },
+              "cast": 0,
+              "cost": 0,
+              "name": "Splash Damage"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 0,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "atkmod": 1,
+                  "atktype": "rtouch",
+                  "clcmod": 0,
+                  "order": 1,
+                  "savedcmod": 0,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "damagelist": {
+                    "id-00001": {
+                      "bonus": 0,
+                      "dice": "d6",
+                      "dicestat": "oddcl",
+                      "dicestatmax": 0,
+                      "stat": "intelligence",
+                      "statmax": 0,
+                      "statmult": 1,
+                      "type": "fire"
+                    }
+                  },
+                  "dmgnotspell": 1,
+                  "order": 2,
+                  "type": "damage"
+                }
+              },
+              "cast": 1,
+              "castingtime": "Standard Action",
+              "components": "S,M",
+              "cost": 1,
+              "description": "Throw Splash Weapon\\nA splash weapon is a ranged weapon that breaks on impact, splashing or scattering its contents over its target and nearby creatures or objects. To attack with a splash weapon, make \\na ranged touch attack against the target. Thrown splash \\nweapons require no weapon proficiency, so you don’t take \\nthe –4 nonproficiency penalty. A hit deals direct hit damage \\nto the target and splash damage to all creatures within 5 \\nfeet of the target. If the target is Large or larger, you choose \\none of its squares and the splash damage affects creatures \\n202\\nwithin 5 feet of that square. Splash weapons cannot deal \\nprecision-based damage (such as sneak attack).\\nYou can instead target a specific grid intersection. Treat \\nthis as a ranged attack against AC 5. However, if you target \\na grid intersection, creatures in all adjacent squares are \\ndealt the splash damage, and the direct hit damage is not \\ndealt to any creature. You can’t target a grid intersection \\noccupied by a creature, such as a Large or larger creature; \\nin this case, you’re aiming at the creature.\\nIf you miss the target (whether aiming at a creature or a \\ngrid intersection), roll 1d8. This determines the misdirection \\nof the throw, with 1 falling short (off-target in a straight line \\ntoward the thrower), and 2 through 8 rotating around the \\ntarget creature or grid intersection in a clockwise direction. \\nThen, count a number of squares in the indicated direction \\nequal to the range increment of the throw. After you \\ndetermine where the weapon landed, it deals splash damage \\nto all creatures in that square and in all adjacent squares",
+              "duration": "instant",
+              "effect": "1 target + splash",
+              "level": "1",
+              "linkedspells": "",
+              "name": "Throw Bomb",
+              "range": "20'",
+              "save": "special",
+              "school": "N/A",
+              "shortdescription": "Fire in the hole!",
+              "sr": "yes"
+            }
+          },
+          "totalcast": 1,
+          "totalprepared": 0
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 0,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "dmaxstat": 0,
+                  "durdicestatmax": 0,
+                  "durmod": 0,
+                  "durmult": 1,
+                  "order": 1,
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "cost": 3,
+              "name": "Mutagen +Dex (-Wis)"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "points": 0,
+      "pointsused": 0,
+      "sp": 0
+    },
+    "id-00003": {
+      "availablelevel0": 0,
+      "availablelevel1": 1,
+      "availablelevel2": 0,
+      "availablelevel3": 0,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "cc": {
+        "misc": 0
+      },
+      "cl": 1,
+      "dc": {
+        "ability": "intelligence",
+        "abilitymod": 3,
+        "misc": 0,
+        "total": 13
+      },
+      "label": "Mutagens",
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 1,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "dmaxstat": 0,
+                  "durdicestatmax": 0,
+                  "durmod": 0,
+                  "durmult": 10,
+                  "durstat": "cl",
+                  "durunit": "minute",
+                  "label": "Dexterity Mutagen; DEX: 4 alchemical; WIS: -2 alchemical; AC: 2 natural",
+                  "order": 1,
+                  "targeting": "self",
+                  "type": "effect"
+                }
+              },
+              "cast": 1,
+              "cost": 1,
+              "name": "Dexterity Mutagen",
+              "prepared": 1
+            },
+            "id-00002": {
+              "actions": {
+                "id-00001": {
+                  "dmaxstat": 0,
+                  "durdicestatmax": 0,
+                  "durmod": 0,
+                  "durmult": 10,
+                  "durstat": "cl",
+                  "durunit": "minute",
+                  "label": "Strength Mutagen; AC: 2 natural; STR: 4 alchemical; INT: -2 alchemical",
+                  "order": 1,
+                  "targeting": "self",
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "cost": 1,
+              "name": "Strength Mutagen"
+            },
+            "id-00003": {
+              "actions": {
+                "id-00001": {
+                  "dmaxstat": 0,
+                  "durdicestatmax": 0,
+                  "durmod": 0,
+                  "durmult": 10,
+                  "durstat": "cl",
+                  "durunit": "minute",
+                  "label": "Constitution Mutagen; AC: 2 natural; CON: 4 alchemical; CHA: -2 alchemical",
+                  "order": 1,
+                  "targeting": "self",
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "cost": 1,
+              "name": "Constitution Mutagen"
+            }
+          },
+          "totalcast": 1,
+          "totalprepared": 1
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "points": 0,
+      "pointsused": 0,
+      "sp": 0
+    },
+    "id-00005": {
+      "availablelevel0": 0,
+      "availablelevel1": 1,
+      "availablelevel2": 0,
+      "availablelevel3": 0,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "castertype": "points",
+      "cc": {
+        "misc": 0
+      },
+      "cl": 3,
+      "dc": {
+        "abilitymod": 0,
+        "misc": 0,
+        "total": 10
+      },
+      "label": "Potion of Cure Light Wounds",
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 0,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "savedcmod": 11,
+                  "savedctype": "fixed",
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "heallist": {
+                    "id-00001": {
+                      "dice": "d8",
+                      "stat": "cl",
+                      "statmax": 5,
+                      "statmult": 1
+                    }
+                  },
+                  "healtargeting": "self",
+                  "type": "heal"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage.",
+              "duration": "instantaneous",
+              "effect": "Target-creature touched",
+              "level": "Adept 1, Alchemist 1, Bard 1, Cleric 1, Druid 1, Hunter 1, Inquisitor 1, Investigator 1, Occultist 1, Oracle 1, Paladin 1, Ranger 2, Shaman 1, Skald 1, Spiritualist 1, Warpriest 1, Witch 1",
+              "linkedspells": "",
+              "name": "Cure Light Wounds",
+              "range": "touch",
+              "save": "Will half (harmless)",
+              "school": "conjuration (healing)",
+              "shortdescription": "Cures 1d8 damage + 1/level (max +5).",
+              "sr": "yes (harmless); see text"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "mc_item": "charsheet.id-00007.inventorylist.id-00013",
+      "points": 6,
+      "pointsused": 0,
+      "sp": 0
+    },
+    "id-00006": {
+      "availablelevel0": 0,
+      "availablelevel1": 1,
+      "availablelevel2": 0,
+      "availablelevel3": 0,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "castertype": "points",
+      "cc": {
+        "misc": 0
+      },
+      "cl": 3,
+      "dc": {
+        "abilitymod": 0,
+        "misc": 0,
+        "total": 10
+      },
+      "label": "Potion of Lesser Restoration",
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 0,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "savedcmod": 11,
+                  "savedctype": "fixed",
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "3 rounds",
+              "components": "V, S",
+              "cost": 1,
+              "description": "Lesser restoration dispels any magical effects reducing one of the subject's ability scores or cures 1d4 points of temporary ability damage to one of the subject's ability scores. It also eliminates any fatigue suffered by the character, and improves an exhausted condition to fatigued. It does not restore permanent ability drain.",
+              "duration": "instantaneous",
+              "effect": "Target-creature touched",
+              "level": "Alchemist 2, Cleric 2, Druid 2, Hunter 2, Inquisitor 2, Investigator 2, Mesmerist 2, Oracle 2, Paladin 1, Shaman 2, Spiritualist 2, Warpriest 2",
+              "linkedspells": "",
+              "name": "Restoration, Lesser",
+              "range": "touch",
+              "save": "Will negates (harmless)",
+              "school": "conjuration (healing)",
+              "shortdescription": "Dispels magical ability penalty or repairs 1d4 ability damage.",
+              "sr": "yes (harmless)"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "mc_item": "charsheet.id-00007.inventorylist.id-00014",
+      "points": 1,
+      "pointsused": 0,
+      "sp": 0
+    },
+    "id-00007": {
+      "availablelevel0": 0,
+      "availablelevel1": 1,
+      "availablelevel2": 0,
+      "availablelevel3": 0,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "castertype": "points",
+      "cc": {
+        "misc": 0
+      },
+      "cl": 3,
+      "dc": {
+        "abilitymod": 0,
+        "misc": 0,
+        "total": 10
+      },
+      "label": "Potion of Shield of Faith",
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 0,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "savedcmod": 11,
+                  "savedctype": "fixed",
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "castingtime": "1 standard action",
+              "components": "V, S, M (parchment with a holy text written on it)",
+              "cost": 1,
+              "description": "This spell creates a shimmering, magical field around the target that averts and deflects attacks. The spell grants the subject a +2 deflection bonus to AC, with an additional +1 to the bonus for every six levels you have (maximum +5 deflection bonus at 18th level).",
+              "duration": "1 min./level",
+              "effect": "Target-creature touched",
+              "level": "Cleric 1, Inquisitor 1, Oracle 1, Warpriest 1",
+              "linkedspells": "",
+              "name": "Shield of Faith",
+              "range": "touch",
+              "save": "Will negates (harmless)",
+              "school": "abjuration",
+              "shortdescription": "Aura grants +2 or higher deflection bonus.",
+              "sr": "yes (harmless)"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "mc_item": "charsheet.id-00007.inventorylist.id-00009",
+      "points": 1,
+      "pointsused": 0,
+      "sp": 0
+    }
+  },
+  "temp": "",
+  "token": "portrait_id-00007_token",
+  "traitlist": {
+    "id-00001": {
+      "locked": 1,
+      "name": "Fast",
+      "source": "Goblin",
+      "text": "<p>Goblins are fast for their size, and have a base speed of 30 feet.</p>"
+    },
+    "id-00002": {
+      "locked": 1,
+      "name": "Skilled",
+      "source": "Goblin",
+      "text": "<p>+4 racial bonus on Ride and Stealth checks.</p>"
+    }
+  },
+  "weaponlist": {
+    "id-00001": {
+      "ammo": 0,
+      "ammopicker": "Bolts, crossbow",
+      "ammunitionmanager": {
+        "ammopickershortcut": {
+          "class": "item",
+          "recordname": ".....inventorylist.id-00001"
+        },
+        "hitrecoverypercentage": 50,
+        "hitshots": 0,
+        "isloaded": 1,
+        "missedshots": 0,
+        "missrecoverypercentage": 50
+      },
+      "attack1modifier": 0,
+      "attack2modifier": 0,
+      "attack3modifier": 0,
+      "attack4modifier": 0,
+      "attacks": 1,
+      "attackview1": 8,
+      "attackview2": 3,
+      "attackview3": -2,
+      "attackview4": -7,
+      "bonus": 0,
+      "carried": 2,
+      "critatkrange": 19,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d8",
+          "statmax": 0,
+          "statmult": 1,
+          "type": "piercing"
+        }
+      },
+      "isidentified": 1,
+      "maxammo": 22,
+      "name": "Crossbow, light",
+      "properties": "piercing",
+      "rangeincrement": 80,
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00002"
+      },
+      "type": 1
+    }
+  },
+  "weight": "34"
+}

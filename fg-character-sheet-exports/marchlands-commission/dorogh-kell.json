@@ -1,0 +1,1847 @@
+{
+  "campaign": "The Real Work",
+  "record": "charsheet.id-00005",
+  "abilities": {
+    "charisma": {
+      "base": 11,
+      "bonus": 0,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 11
+    },
+    "constitution": {
+      "base": 15,
+      "bonus": 2,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 15
+    },
+    "dexterity": {
+      "abilperms": {
+        "id-00001": ""
+      },
+      "base": 15,
+      "bonus": 2,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 15
+    },
+    "intelligence": {
+      "base": 18,
+      "bonus": 4,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 18
+    },
+    "strength": {
+      "base": 16,
+      "bonus": 3,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 16
+    },
+    "wisdom": {
+      "base": 15,
+      "bonus": 2,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 15
+    }
+  },
+  "ac": {
+    "sources": {
+      "abilitymod": 2,
+      "abilitymod2": 0,
+      "armor": 5,
+      "cmdabilitymod": 3,
+      "cmdbasemod": 2,
+      "cmdmisc": 0,
+      "deflection": 0,
+      "dodge": 0,
+      "ffmisc": 0,
+      "misc": 0,
+      "naturalarmor": 0,
+      "shield": 2,
+      "size": 0,
+      "temporary": 0,
+      "touchmisc": 0
+    },
+    "totals": {
+      "cmd": 17,
+      "flatfooted": 17,
+      "general": 19,
+      "touch": 12
+    }
+  },
+  "attackbonus": {
+    "base": 2,
+    "grapple": {
+      "abilitymod": 3,
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": 5
+    },
+    "melee": {
+      "abilitymod": 3,
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": 5
+    },
+    "ranged": {
+      "abilitymod": 2,
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": 4
+    }
+  },
+  "classes": {
+    "id-00001": {
+      "favored": 1,
+      "level": 2,
+      "name": "Fighter",
+      "shortcut": {
+        "class": "referenceclass",
+        "recordname": "class.fighter@Pathfinder Core Rules"
+      },
+      "skillranks": 13,
+      "skillranksused": 0
+    }
+  },
+  "coins": {
+    "id-00001": {
+      "amount": 0,
+      "name": "PP"
+    },
+    "id-00002": {
+      "amount": 642,
+      "name": "GP"
+    },
+    "id-00003": {
+      "amount": 9,
+      "name": "SP"
+    },
+    "id-00004": {
+      "amount": 7,
+      "name": "CP"
+    }
+  },
+  "defenses": {
+    "sr": {
+      "base": 0,
+      "misc": 0,
+      "temporary": 0,
+      "total": 0
+    }
+  },
+  "encumbrance": {
+    "armorcheckpenalty": -6,
+    "armormaxstatbonus": 3,
+    "armormaxstatbonusactive": 1,
+    "checkpenalty": -3,
+    "heavyload": 230,
+    "level": 1,
+    "liftoffground": 460,
+    "liftoverhead": 230,
+    "lightload": 76,
+    "load": 152,
+    "maxstatbonus": 3,
+    "mediumload": 153,
+    "pushordrag": 1150,
+    "spellfailure": 40,
+    "state": "Medium Load"
+  },
+  "exp": 2344,
+  "expneeded": 2000,
+  "featlist": {
+    "id-00001": {
+      "benefit": "<p>You may make a number of additional attacks of opportunity per round equal to your Dexterity bonus. With this feat, you may also make attacks of opportunity while flat-footed.</p>",
+      "name": "Combat Reflexes",
+      "normal": "<p>A character without this feat can make only one attack of opportunity per round and can't make attacks of opportunity while flat-footed.</p>",
+      "prerequisites": "-",
+      "special": "<p>The Combat Reflexes feat does not allow a rogue to use her opportunist ability more than once per round.</p>",
+      "summary": "Make additional attacks of opportunity",
+      "type": "Combat"
+    },
+    "id-00012": {
+      "benefit": "<p>You can choose to take a -1 penalty on all melee attack rolls and combat maneuver checks to gain a +2 bonus on all melee damage rolls. This bonus to damage is increased by half (+50%) if you are making an attack with a two-handed weapon, a one handed weapon using two hands, or a primary natural weapon that adds 1-1/2 times your Strength modifier on damage rolls. This bonus to damage is halved (-50%) if you are making an attack with an off-hand weapon or secondary natural weapon. When your base attack bonus reaches +4, and every 4 points thereafter, the penalty increases by -1 and the bonus to damage increases by +2. You must choose to use this feat before making an attack roll, and its effects last until your next turn. The bonus damage does not apply to touch attacks or effects that do not deal hit point damage.</p>",
+      "name": "Power Attack",
+      "normal": "<p>-</p>",
+      "prerequisites": "Str 13, base attack bonus +1.",
+      "special": "<p>-</p>",
+      "summary": "Trade melee attack bonus for damage",
+      "type": "Combat"
+    },
+    "id-00013": {
+      "benefit": "<p>You get a +1 bonus on attack and damage rolls with ranged weapons at ranges of up to 30 feet.</p>",
+      "name": "Point Blank Shot",
+      "normal": "<p>-</p>",
+      "prerequisites": "-",
+      "special": "<p>-</p>",
+      "summary": "+1 attack and damage on targets within 30 feet",
+      "type": "Combat"
+    }
+  },
+  "gender": "Male",
+  "heropoint": 1,
+  "hp": {
+    "nonlethal": 0,
+    "temporary": 0,
+    "total": 21,
+    "wounds": 0
+  },
+  "initiative": {
+    "abilitymod": 2,
+    "misc": 0,
+    "temporary": 0,
+    "total": 2
+  },
+  "inventorylist": {
+    "id-00001": {
+      "carried": 0,
+      "cost": "5 sp",
+      "count": 3,
+      "excludedFromPurchase": 0,
+      "isidentified": 1,
+      "location": "left at Home",
+      "locked": 1,
+      "name": "Rations, trail (per day)",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 1
+    },
+    "id-00002": {
+      "carried": 1,
+      "cost": "1 cp",
+      "count": 5,
+      "isidentified": 1,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00005.inventorylist.id-00005"
+      },
+      "locked": 1,
+      "name": "Torch",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 1
+    },
+    "id-00003": {
+      "carried": 1,
+      "cost": "1 sp",
+      "count": 1,
+      "excludedFromPurchase": 0,
+      "isidentified": 1,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00005.inventorylist.id-00005"
+      },
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Bedroll",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 5
+    },
+    "id-00004": {
+      "carried": 2,
+      "cost": "2 gp",
+      "count": 1,
+      "critical": "19-20/x2",
+      "damage": "1d4",
+      "damagetype": "Piercing or slashing",
+      "description": "<p>A dagger has a blade that is about 1 foot in length. You get a +2 bonus on Sleight of Hand skill checks made to conceal a dagger on your body</p>",
+      "excludedFromPurchase": 0,
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Dagger",
+      "range": 10,
+      "showonminisheet": 1,
+      "subtype": "Simple Light Melee",
+      "type": "Weapon",
+      "weight": 1
+    },
+    "id-00005": {
+      "carried": 1,
+      "contentscount": 0,
+      "contentsvolume": 0,
+      "cost": "2 gp",
+      "count": 1,
+      "excludedFromPurchase": 0,
+      "extraplanarcontents": 66.7,
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Backpack",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 2
+    },
+    "id-00006": {
+      "carried": 1,
+      "cost": "1 gp",
+      "count": 1,
+      "description": "<p>Lighting a torch with f lint and steel is a full-round action, and lighting any other fire with them takes at least that long.</p>",
+      "excludedFromPurchase": 0,
+      "isidentified": 1,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00005.inventorylist.id-00005"
+      },
+      "locked": 1,
+      "name": "Flint and steel",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 0.5
+    },
+    "id-00007": {
+      "bonus": 0,
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 0,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "-",
+      "count": 1,
+      "critical": "x2",
+      "damage": "1d6/1d6",
+      "damagetype": "Bludgeoning",
+      "depth": 0,
+      "description": "<p>A quarterstaff is a simple piece of wood, about 5 feet in length.</p>",
+      "excludedFromPurchase": 0,
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "left at Home",
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Quarterstaff",
+      "properties": "Double, Monk",
+      "range": 0,
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "subtype": "Simple Two-Handed Melee",
+      "type": "Weapon",
+      "volume": 0,
+      "weight": 4,
+      "width": 0
+    },
+    "id-00008": {
+      "carried": 0,
+      "cost": "-",
+      "count": 1,
+      "critical": "x2",
+      "damage": "1d6",
+      "damagetype": "Bludgeoning",
+      "excludedFromPurchase": 0,
+      "isidentified": 1,
+      "location": "left at Home",
+      "locked": 1,
+      "name": "Club",
+      "range": 10,
+      "showonminisheet": 1,
+      "subtype": "Simple One-Handed Melee",
+      "type": "Weapon",
+      "weight": 3
+    },
+    "id-00009": {
+      "carried": 0,
+      "count": 1,
+      "name": "Left at Home",
+      "showonminisheet": 1,
+      "weight": 0
+    },
+    "id-00010": {
+      "carried": 1,
+      "cost": "5 sp",
+      "count": 1,
+      "excludedFromPurchase": 0,
+      "isidentified": 1,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00005.inventorylist.id-00005"
+      },
+      "locked": 1,
+      "name": "Blanket, winter",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 3
+    },
+    "id-00011": {
+      "carried": 1,
+      "cost": "1 gp",
+      "count": 1,
+      "excludedFromPurchase": 0,
+      "isidentified": 1,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00005.inventorylist.id-00005"
+      },
+      "locked": 1,
+      "name": "Waterskin*",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 4
+    },
+    "id-00012": {
+      "carried": 1,
+      "cost": "2 cp",
+      "count": 1,
+      "excludedFromPurchase": 0,
+      "isidentified": 1,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00005.inventorylist.id-00005"
+      },
+      "locked": 1,
+      "name": "Whetstone",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 1
+    },
+    "id-00013": {
+      "carried": 1,
+      "cost": "8 sp",
+      "count": 1,
+      "isidentified": 1,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00005.inventorylist.id-00005"
+      },
+      "locked": 1,
+      "name": "Signal whistle",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 0
+    },
+    "id-00014": {
+      "carried": 2,
+      "cost": "8 gp",
+      "count": 1,
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Cold weather outfit",
+      "showonminisheet": 1,
+      "subtype": "Clothing",
+      "type": "Goods and Services",
+      "weight": 7
+    },
+    "id-00015": {
+      "carried": 2,
+      "cost": "5 gp",
+      "count": 1,
+      "critical": "x3",
+      "damage": "1d8",
+      "damagetype": "Piercing",
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Longspear",
+      "properties": "Brace, Reach",
+      "range": 0,
+      "showonminisheet": 1,
+      "subtype": "Simple Two-Handed Melee",
+      "type": "Weapon",
+      "weight": 9
+    },
+    "id-00016": {
+      "carried": 2,
+      "cost": "8 gp",
+      "count": 1,
+      "critical": "x2",
+      "damage": "1d8",
+      "damagetype": "Bludgeoning and piercing",
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Morningstar",
+      "range": 0,
+      "showonminisheet": 1,
+      "subtype": "Simple One-Handed Melee",
+      "type": "Weapon",
+      "weight": 6
+    },
+    "id-00017": {
+      "carried": 2,
+      "cost": "30 gp",
+      "count": 1,
+      "critical": "x3",
+      "damage": "1d6",
+      "damagetype": "Piercing",
+      "isidentified": 1,
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Shortbow",
+      "range": 60,
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "subtype": "Martial Ranged",
+      "type": "Weapon",
+      "weight": 2
+    },
+    "id-00018": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 1,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "5 cp",
+      "count": 19,
+      "depth": 0,
+      "extraplanarcontents": 0,
+      "hitshots": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00005.inventorylist.id-00005"
+      },
+      "locked": 1,
+      "max_charges": 1,
+      "missedshots": 0,
+      "name": "Arrows",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "subtype": "Ammunition",
+      "type": "Goods and Services",
+      "volume": 0,
+      "weight": 0.15,
+      "width": 0
+    },
+    "id-00019": {
+      "carried": 0,
+      "cost": "1 gp",
+      "count": 1,
+      "isidentified": 1,
+      "location": "left at Home",
+      "locked": 1,
+      "name": "Traveler's outfit",
+      "showonminisheet": 1,
+      "subtype": "Clothing",
+      "type": "Goods and Services",
+      "weight": 5
+    },
+    "id-00020": {
+      "ac": 5,
+      "carried": 2,
+      "checkpenalty": -4,
+      "cost": "50 gp",
+      "count": 1,
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 3,
+      "name": "Scale mail",
+      "showonminisheet": 1,
+      "speed20": 15,
+      "speed30": 20,
+      "spellfailure": 25,
+      "subtype": "Medium",
+      "type": "Armor",
+      "weight": 30
+    },
+    "id-00021": {
+      "ac": 2,
+      "carried": 2,
+      "checkpenalty": -2,
+      "cost": "20 gp",
+      "count": 1,
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Shield, heavy steel",
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 15,
+      "subtype": "Shield",
+      "type": "Armor",
+      "weight": 15
+    },
+    "id-00022": {
+      "ac": 1,
+      "bonus": 0,
+      "carried": 0,
+      "checkpenalty": 0,
+      "cl": 0,
+      "cost": "5 gp",
+      "count": 1,
+      "description": "<p>More than simple clothing, padded armor combines heavy, quilted cloth and layers of densely packed stuffing to create a cheap and basic protection. It is typically worn by those not intending to face lethal combat or those who wish their maneuverability to be impacted as little as possible.</p>",
+      "isidentified": 1,
+      "location": "left at Home",
+      "locked": 1,
+      "maxstatbonus": 8,
+      "name": "Padded armor",
+      "pfslegal": "True",
+      "properties": "-",
+      "showonminisheet": 1,
+      "slot": "Armor",
+      "speed20": 20,
+      "speed30": 30,
+      "spellfailure": 5,
+      "subtype": "Light",
+      "type": "Armor",
+      "weight": 10
+    },
+    "id-00023": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 1,
+      "charges": 5,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "25",
+      "count": 1,
+      "created_by": "Alchemist",
+      "depth": 0,
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "length": 0,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00005.inventorylist.id-00005"
+      },
+      "locked": 1,
+      "max_charges": 5,
+      "name": "Mustache Paste",
+      "nonid_name": "A small jar of foul-smelling cream.  Like REALLY nasty.  Dead fish maybe?",
+      "nonidentified": "Ohmygod put the lid back on!",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "type": "potion",
+      "volume": 0,
+      "weight": 0,
+      "width": 0
+    },
+    "id-00024": {
+      "carried": 1,
+      "cl": 1,
+      "cost": "50 gp",
+      "count": 1,
+      "description": "<p>A thin blue oil that is worked into a blade or the head of a weapon. For 1 minute the weapon has a +1 enhancement bonus on attack and damage rolls.</p>",
+      "isidentified": 1,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00005.inventorylist.id-00005"
+      },
+      "locked": 1,
+      "name": "Oil of Magic Weapon",
+      "showonminisheet": 1,
+      "type": "Oil",
+      "weight": 0.1
+    },
+    "id-00030": {
+      "carried": 1,
+      "cost": "5 sp",
+      "count": 16,
+      "description": "<p>Four days of hard bread and salt meat, packed to travel.</p>",
+      "isidentified": 1,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00005.inventorylist.id-00005"
+      },
+      "locked": 1,
+      "name": "Marching Rations",
+      "showonminisheet": 1,
+      "type": "Gear",
+      "weight": 1
+    },
+    "id-00031": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 1,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "1 gp",
+      "count": 2,
+      "depth": 0,
+      "description": "<p>Worn openly at the throat rather than inked on a wrist. These men are not hiding from anyone down here.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00005.inventorylist.id-00005"
+      },
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Hooked Labyrinth Token",
+      "nonid_name": "A hooked iron disc, stamped with a maze",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "type": "Gear",
+      "volume": 0,
+      "weight": 0.5,
+      "width": 0
+    },
+    "id-00033": {
+      "carried": 1,
+      "cost": "5 sp",
+      "count": 1,
+      "isidentified": 1,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00005.inventorylist.id-00005"
+      },
+      "locked": 1,
+      "name": "Soap (per)",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 1
+    },
+    "id-00034": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 0,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "25 gp",
+      "count": 1,
+      "depth": 0,
+      "description": "<p>A treatise on siege-mining in a Kenabres printing, water-stained along the bottom edge: sapping, shoring, countermines and the proper spacing of props, with engraved plates of the tools. Somebody pressed a dead moth at the chapter on shoring and never came back for it.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "left at Home",
+      "locked": 1,
+      "max_charges": 1,
+      "name": "On Mines and Countermines",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "type": "Gear",
+      "volume": 0,
+      "weight": 3,
+      "width": 0
+    },
+    "id-00035": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 1,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "110 gp",
+      "count": 1,
+      "depth": 0,
+      "description": "<p>This otherwise normal torch has a <i>continual flame </i>spell cast on it. This causes it to shed light like an ordinary torch, but it does not emit heat or deal fire damage if used as a weapon.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00005.inventorylist.id-00005"
+      },
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Everburning torch",
+      "pfslegal": "True",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "volume": 0,
+      "weight": 1,
+      "width": 0
+    },
+    "id-00036": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 0,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "0 gp",
+      "count": 1,
+      "depth": 0,
+      "description": "<p>A ledger in a careful clerk's hand, ruled in five columns: <i>Received, Sent West, Spoiled, The Bishop </i>and <i>Shrinkage. </i>Every column adds up. <i>Spoiled </i>and <i>Sent West </i>rise together, week on week, by the same amounts. An entry in Lamashan reads: <i>Helmsmith's, potions, four, bought, two hundred gold. </i>The newest entry, in fresh ink, reads: <i>Arrivals, unscheduled: four.</i></p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "left at Home",
+      "locked": 1,
+      "name": "The Keeper's Ledger",
+      "nonid_name": "A clerk's ledger, ruled in five columns",
+      "showonminisheet": 1,
+      "type": "Gear",
+      "volume": 0,
+      "weight": 3,
+      "width": 0
+    },
+    "id-00037": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 0,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "0 gp",
+      "count": 1,
+      "depth": 0,
+      "description": "<p>A narrow book in a careful clerk's hand: fourteen entries since Rova. For each one, a date, the name the arrival was given, the trade that went with it, and a remark. The remarks are short and not kind: <i>a cooper; cannot cooper. A laundress; for the market end. A widow, for the west end; comes and goes by the ladder. </i>The eighth and the eleventh entries read only <i>For the Preservers, </i>with no remark at all.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "left at Home",
+      "locked": 1,
+      "max_charges": 1,
+      "name": "The Arrivals Register",
+      "nonid_name": "A narrow book of entries in a clerk's hand",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "type": "Gear",
+      "volume": 0,
+      "weight": 1,
+      "width": 0
+    },
+    "id-00038": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 0,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "5 gp",
+      "count": 1,
+      "depth": 0,
+      "description": "<p>A brass hand seal on a short chain, its face cut with a maze. It leaves a very neat impression.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "left at Home",
+      "locked": 1,
+      "max_charges": 1,
+      "name": "The Keeper's Seal",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "type": "Gear",
+      "volume": 0,
+      "weight": 0.2,
+      "width": 0
+    },
+    "id-00039": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 1,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "0 gp",
+      "count": 1,
+      "depth": 0,
+      "description": "<p>A soft-folded sheet of oiled linen. The Marchlands north and west of Drezen in one hand, and over the top of it, in a different ink, a line of small marks that are not places.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00005.inventorylist.id-00005"
+      },
+      "locked": 1,
+      "max_charges": 1,
+      "name": "The Marked Map",
+      "nonid_name": "A soft-folded sheet of oiled linen, drawn on in two hands",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "type": "Gear",
+      "volume": 0,
+      "weight": 0.2,
+      "width": 0
+    },
+    "id-00041": {
+      "carried": 1,
+      "cost": "1 gp",
+      "count": 1,
+      "isidentified": 1,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00005.inventorylist.id-00005"
+      },
+      "locked": 1,
+      "name": "Rope, hempen (50 ft.)",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 10
+    },
+    "id-00042": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 0,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "0 gp",
+      "count": 1,
+      "depth": 0,
+      "description": "<p>A water-swollen book of tallies in a clerk's hand: counts, directions and cargoes by the day. The last four entries are in a different hand and count patrols. Then it stops, mid-page.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 0,
+      "length": 0,
+      "location": "left at Home",
+      "locked": 1,
+      "max_charges": 1,
+      "name": "The Waystation Ledger",
+      "nonid_name": "A water-swollen book of tallies",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "type": "Gear",
+      "volume": 0,
+      "weight": 1,
+      "width": 0
+    },
+    "id-00043": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 1,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "1 gp",
+      "count": 1,
+      "depth": 0,
+      "description": "<p>A white tabard of Iomedae's Preservers, newly made, the sword on the breast stitched in cheap red thread.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00005.inventorylist.id-00005"
+      },
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Preservers' Tabard",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "type": "Gear",
+      "volume": 0,
+      "weight": 2,
+      "width": 0
+    },
+    "id-00049": {
+      "carried": 0,
+      "cost": "0 gp",
+      "count": 1,
+      "description": "<p>An iron ring of fourteen keys, none of them labelled. Three of them are nearly the same shape.</p>",
+      "isidentified": 1,
+      "location": "left at Home",
+      "locked": 1,
+      "name": "Key Ring",
+      "showonminisheet": 1,
+      "type": "Gear",
+      "weight": 0.5
+    },
+    "id-00050": {
+      "carried": 1,
+      "cost": "5 sp",
+      "count": 10,
+      "description": "<p>The listed price is for a day's worth of food. This bland food is usually some kind of hard tack, jerky, and dried fruit, though the contents vary from region to region and the race of those creating it. As long as it stays dry, it can go for months without spoiling.</p>",
+      "isidentified": 1,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00005.inventorylist.id-00005"
+      },
+      "locked": 1,
+      "name": "Rations",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 1
+    },
+    "id-00053": {
+      "carried": 1,
+      "cost": "50 gp",
+      "count": 1,
+      "isidentified": 1,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00005.inventorylist.id-00005"
+      },
+      "locked": 1,
+      "name": "Antitoxin",
+      "showonminisheet": 1,
+      "subtype": "Special Substances and Items",
+      "type": "Goods and Services",
+      "weight": 0
+    },
+    "id-00054": {
+      "carried": 1,
+      "cost": "1 cp",
+      "count": 1,
+      "isidentified": 1,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00005.inventorylist.id-00005"
+      },
+      "locked": 1,
+      "name": "Chalk, 1 piece",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 0
+    },
+    "id-00055": {
+      "carried": 1,
+      "cost": "1 gp",
+      "count": 1,
+      "isidentified": 1,
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00005.inventorylist.id-00005"
+      },
+      "locked": 1,
+      "name": "Grappling hook",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 4
+    }
+  },
+  "languagelist": {
+    "id-00001": {
+      "name": "Common"
+    },
+    "id-00002": {
+      "name": "Orc"
+    }
+  },
+  "level": 2,
+  "locked": 1,
+  "name": "Dorogh Kell",
+  "portrait": "portraits/Dorogh v1.png",
+  "proficiencylist": {
+    "id-00001": {
+      "name": "Weapon: greataxes, falchions"
+    },
+    "id-00002": {
+      "name": "Weapon: simple, martial"
+    },
+    "id-00003": {
+      "name": "Armor: all, shields (including tower shields)"
+    }
+  },
+  "race": "Half-Orc",
+  "racelink": {
+    "class": "referencerace",
+    "recordname": "race.halforc@Pathfinder Core Rules"
+  },
+  "saves": {
+    "fortitude": {
+      "abilitymod": 2,
+      "base": 3,
+      "misc": 0,
+      "temporary": 0,
+      "total": 5
+    },
+    "reflex": {
+      "abilitymod": 2,
+      "base": 0,
+      "misc": 0,
+      "temporary": 0,
+      "total": 2
+    },
+    "will": {
+      "abilitymod": 2,
+      "base": 0,
+      "misc": 0,
+      "temporary": 0,
+      "total": 2
+    }
+  },
+  "senses": "Darkvision 60'",
+  "size": "Medium",
+  "skilllist": {
+    "id-00001": {
+      "armorcheckmultiplier": 0,
+      "label": "Intimidate",
+      "misc": 2,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 1,
+      "statname": "charisma",
+      "total": 6
+    },
+    "id-00002": {
+      "armorcheckmultiplier": 1,
+      "label": "Climb",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "strength",
+      "total": 1
+    },
+    "id-00003": {
+      "armorcheckmultiplier": 0,
+      "label": "Craft",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "intelligence",
+      "total": 4
+    },
+    "id-00004": {
+      "armorcheckmultiplier": 0,
+      "label": "Handle Animal",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 1,
+      "statname": "charisma",
+      "total": 4
+    },
+    "id-00005": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Dungeoneering",
+      "total": 8
+    },
+    "id-00006": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Engineering",
+      "total": 8
+    },
+    "id-00007": {
+      "armorcheckmultiplier": 0,
+      "label": "Profession",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 1,
+      "statname": "wisdom",
+      "total": 2
+    },
+    "id-00008": {
+      "armorcheckmultiplier": 1,
+      "label": "Ride",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 1,
+      "statname": "dexterity",
+      "total": -4
+    },
+    "id-00009": {
+      "armorcheckmultiplier": 0,
+      "label": "Survival",
+      "misc": 0,
+      "ranks": 2,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 1,
+      "statname": "wisdom",
+      "total": 7
+    },
+    "id-00010": {
+      "armorcheckmultiplier": 1,
+      "label": "Swim",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "strength",
+      "total": 1
+    },
+    "id-00011": {
+      "armorcheckmultiplier": 1,
+      "label": "Escape Artist",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "dexterity",
+      "total": -4
+    },
+    "id-00012": {
+      "armorcheckmultiplier": 0,
+      "label": "Diplomacy",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 0,
+      "statname": "charisma",
+      "total": 0
+    },
+    "id-00013": {
+      "armorcheckmultiplier": 0,
+      "label": "Perception",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "wisdom",
+      "total": 3
+    },
+    "id-00014": {
+      "armorcheckmultiplier": 1,
+      "label": "Fly",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "dexterity",
+      "total": -4
+    },
+    "id-00015": {
+      "armorcheckmultiplier": 1,
+      "label": "Disable Device",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 2,
+      "state": 0,
+      "statname": "dexterity",
+      "total": -4
+    },
+    "id-00016": {
+      "armorcheckmultiplier": 1,
+      "label": "Acrobatics",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "dexterity",
+      "total": -3
+    },
+    "id-00017": {
+      "armorcheckmultiplier": 0,
+      "label": "Use Magic Device",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 0,
+      "state": 0,
+      "statname": "charisma",
+      "total": 0
+    },
+    "id-00018": {
+      "armorcheckmultiplier": 1,
+      "label": "Sleight of Hand",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "dexterity",
+      "total": -4
+    },
+    "id-00019": {
+      "armorcheckmultiplier": 0,
+      "label": "Appraise",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 0,
+      "statname": "intelligence",
+      "total": 4
+    },
+    "id-00020": {
+      "armorcheckmultiplier": 0,
+      "label": "Linguistics",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 4,
+      "state": 0,
+      "statname": "intelligence",
+      "total": 4
+    },
+    "id-00021": {
+      "armorcheckmultiplier": 0,
+      "label": "Bluff",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 0,
+      "statname": "charisma",
+      "total": 1
+    },
+    "id-00022": {
+      "armorcheckmultiplier": 0,
+      "label": "Disguise",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 0,
+      "statname": "charisma",
+      "total": 0
+    },
+    "id-00023": {
+      "armorcheckmultiplier": 0,
+      "label": "Sense Motive",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "wisdom",
+      "total": 3
+    },
+    "id-00024": {
+      "armorcheckmultiplier": 1,
+      "label": "Stealth",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "dexterity",
+      "total": -4
+    },
+    "id-00025": {
+      "armorcheckmultiplier": 0,
+      "label": "Heal",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "wisdom",
+      "total": 3
+    },
+    "id-00026": {
+      "armorcheckmultiplier": 0,
+      "label": "Spellcraft",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 4,
+      "state": 0,
+      "statname": "intelligence",
+      "total": 4
+    },
+    "id-00028": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 0,
+      "statname": "intelligence",
+      "total": 4
+    }
+  },
+  "skillpoints": {
+    "spent": 13
+  },
+  "specialabilitylist": {
+    "id-00001": {
+      "level": 1,
+      "locked": 1,
+      "name": "Bonus feat (2x)",
+      "source": "Fighter",
+      "text": "<p>At 1st level, and at every even level thereafter, a fighter gains a bonus feat in addition to those gained from normal advancement (meaning that the fighter gains a feat at every level). These bonus feats must be selected from those listed as combat feats, sometimes also called \"fighter bonus feats.\"</p>\n\t\t\t\t\t\t<p>Upon reaching 4th level, and every four levels thereafter (8th, 12th, and so on), a fighter can choose to learn a new bonus feat in place of a bonus feat he has already learned. In effect, the fighter loses the bonus feat in exchange for the new one. The old feat cannot be one that was used as a prerequisite for another feat, prestige class, or other ability. A fighter can only change one feat at any given level and must choose whether or not to swap the feat at the time he gains a new bonus feat for the level.</p>"
+    },
+    "id-00002": {
+      "level": 2,
+      "locked": 1,
+      "name": "Bravery +1",
+      "source": "Fighter",
+      "text": "<p>Starting at 2nd level, a fighter gains a +1 bonus on Will saves against fear. This bonus increases by +1 for every four levels beyond 2nd.</p>"
+    }
+  },
+  "speed": {
+    "armor": -10,
+    "base": 30,
+    "fastmovement": 0,
+    "final": 20,
+    "misc": 0,
+    "temporary": 0,
+    "total": 20
+  },
+  "spellset": "",
+  "temp": "",
+  "token": "portrait_id-00005_token",
+  "traitlist": {
+    "id-00001": {
+      "locked": 1,
+      "name": "Intimidating",
+      "source": "Half-Orc",
+      "text": "<p>Half-orcs receive a +2 racial bonus on Intimidate skill checks due to their fearsome nature.</p>"
+    },
+    "id-00002": {
+      "locked": 1,
+      "name": "Orc Blood",
+      "source": "Half-Orc",
+      "text": "<p>Half-orcs count as both humans and orcs for any effect related to race.</p>"
+    },
+    "id-00003": {
+      "locked": 1,
+      "name": "Orc Ferocity",
+      "source": "Half-Orc",
+      "text": "<p>Once per day, when a half-orc is brought below 0 hit points but not killed, he can fight on for one more round as if disabled. At the end of his next turn, unless brought to above 0 hit points, he immediately falls unconscious and begins dying.</p>"
+    },
+    "id-00004": {
+      "locked": 1,
+      "name": "Weapon Familiarity",
+      "source": "Half-Orc",
+      "text": "<p>Half-orcs are proficient with greataxes and falchions and treat any weapon with the word \"orc\" in its name as a martial weapon.</p>"
+    }
+  },
+  "weaponlist": {
+    "id-00001": {
+      "attacks": 1,
+      "attackview1": 5,
+      "attackview2": 0,
+      "attackview3": -5,
+      "attackview4": -10,
+      "bonus": 0,
+      "carried": 2,
+      "critatkrange": 19,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d4",
+          "stat": "strength",
+          "type": "piercing,slashing"
+        }
+      },
+      "isidentified": 1,
+      "name": "Dagger",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00004"
+      },
+      "type": 0
+    },
+    "id-00002": {
+      "ammo": 0,
+      "ammunitionmanager": {
+        "isloaded": 0
+      },
+      "attacks": 1,
+      "attackview1": 4,
+      "attackview2": -1,
+      "attackview3": -6,
+      "attackview4": -11,
+      "bonus": 0,
+      "carried": 2,
+      "critatkrange": 19,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d4",
+          "stat": "strength",
+          "type": "piercing,slashing"
+        }
+      },
+      "isidentified": 1,
+      "maxammo": 0,
+      "name": "Dagger",
+      "rangeincrement": 10,
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00004"
+      },
+      "type": 1
+    },
+    "id-00003": {
+      "attacks": 1,
+      "attackview1": 5,
+      "attackview2": 0,
+      "attackview3": -5,
+      "attackview4": -10,
+      "bonus": 0,
+      "carried": 0,
+      "critatkrange": 20,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d6",
+          "stat": "strength",
+          "statmult": 1.5,
+          "type": "bludgeoning"
+        }
+      },
+      "isidentified": 1,
+      "name": "Quarterstaff (2H)",
+      "properties": "Double, Monk",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00007"
+      },
+      "type": 0
+    },
+    "id-00004": {
+      "attacks": 1,
+      "attackview1": 1,
+      "attackview2": -4,
+      "attackview3": -9,
+      "attackview4": -14,
+      "bonus": -4,
+      "carried": 0,
+      "critatkrange": 20,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d6",
+          "stat": "strength",
+          "type": "bludgeoning"
+        }
+      },
+      "isidentified": 1,
+      "name": "Quarterstaff (D1)",
+      "properties": "Double, Monk",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00007"
+      },
+      "type": 0
+    },
+    "id-00005": {
+      "attacks": 1,
+      "attackview1": -3,
+      "attackview2": -8,
+      "attackview3": -13,
+      "attackview4": -18,
+      "bonus": -8,
+      "carried": 0,
+      "critatkrange": 20,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d6",
+          "stat": "strength",
+          "statmult": 0.5,
+          "type": "bludgeoning"
+        }
+      },
+      "isidentified": 1,
+      "name": "Quarterstaff (D2)",
+      "properties": "Double, Monk",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00007"
+      },
+      "type": 0
+    },
+    "id-00006": {
+      "attacks": 1,
+      "attackview1": 5,
+      "attackview2": 0,
+      "attackview3": -5,
+      "attackview4": -10,
+      "bonus": 0,
+      "carried": 0,
+      "critatkrange": 20,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d6",
+          "stat": "strength",
+          "type": "bludgeoning"
+        }
+      },
+      "isidentified": 1,
+      "name": "Club",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00008"
+      },
+      "type": 0
+    },
+    "id-00007": {
+      "ammo": 0,
+      "ammunitionmanager": {
+        "hitrecoverypercentage": 50,
+        "hitshots": 0,
+        "isloaded": 0,
+        "missedshots": 0,
+        "missrecoverypercentage": 50
+      },
+      "attack1modifier": 0,
+      "attack2modifier": 0,
+      "attack3modifier": 0,
+      "attack4modifier": 0,
+      "attacks": 1,
+      "attackview1": 4,
+      "attackview2": -1,
+      "attackview3": -6,
+      "attackview4": -11,
+      "bonus": 0,
+      "carried": 0,
+      "critatkrange": 20,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d6",
+          "stat": "strength",
+          "statmax": 0,
+          "statmult": 1,
+          "type": "bludgeoning"
+        }
+      },
+      "isidentified": 1,
+      "maxammo": 0,
+      "name": "Club",
+      "rangeincrement": 10,
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00008"
+      },
+      "type": 1
+    },
+    "id-00009": {
+      "attacks": 1,
+      "attackview1": 5,
+      "attackview2": 0,
+      "attackview3": -5,
+      "attackview4": -10,
+      "bonus": 0,
+      "carried": 2,
+      "critatkrange": 20,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 3,
+          "dice": "d8",
+          "stat": "strength",
+          "statmult": 1.5,
+          "type": "piercing"
+        }
+      },
+      "isidentified": 1,
+      "name": "Longspear",
+      "properties": "Brace, Reach",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00015"
+      },
+      "type": 0
+    },
+    "id-00010": {
+      "attacks": 1,
+      "attackview1": 5,
+      "attackview2": 0,
+      "attackview3": -5,
+      "attackview4": -10,
+      "bonus": 0,
+      "carried": 2,
+      "critatkrange": 20,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d8",
+          "stat": "strength",
+          "type": "bludgeoning,piercing"
+        }
+      },
+      "isidentified": 1,
+      "name": "Morningstar",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00016"
+      },
+      "type": 0
+    },
+    "id-00011": {
+      "ammo": 0,
+      "ammopicker": "Arrows",
+      "ammunitionmanager": {
+        "ammopickershortcut": {
+          "class": "item",
+          "recordname": ".....inventorylist.id-00018"
+        },
+        "hitrecoverypercentage": 50,
+        "isloaded": 0,
+        "missammopickershortcut": {
+          "class": "item",
+          "recordname": ".....inventorylist.id-00018"
+        },
+        "missedshots": 0,
+        "missrecoverypercentage": 50
+      },
+      "attacks": 1,
+      "attackview1": 4,
+      "attackview2": -1,
+      "attackview3": -6,
+      "attackview4": -11,
+      "bonus": 0,
+      "carried": 2,
+      "critatkrange": 20,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 3,
+          "dice": "d6",
+          "statmult": 1,
+          "type": "piercing"
+        }
+      },
+      "isidentified": 1,
+      "maxammo": 19,
+      "missammopicker": "Arrows",
+      "name": "Shortbow",
+      "rangeincrement": 60,
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00017"
+      },
+      "type": 1
+    },
+    "id-00012": {
+      "attacks": 1,
+      "attackview1": 5,
+      "attackview2": 0,
+      "attackview3": -5,
+      "attackview4": -10,
+      "bonus": 0,
+      "carried": 2,
+      "critatkrange": 20,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "stat": "strength"
+        }
+      },
+      "isidentified": 1,
+      "name": "Shield, heavy steel",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00021"
+      },
+      "type": 0
+    }
+  }
+}

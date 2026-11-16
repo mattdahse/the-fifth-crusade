@@ -1,0 +1,2243 @@
+{
+  "campaign": "Wrath of the Righteous - AZ",
+  "record": "charsheet.id-00007",
+  "abilities": {
+    "charisma": {
+      "base": 27,
+      "bonus": 8,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 27
+    },
+    "constitution": {
+      "abilperms": {
+        "id-00001": {
+          "bonus_type": "enhancement",
+          "name": "Belt of physical perfection",
+          "permnum": 2
+        }
+      },
+      "base": 20,
+      "bonus": 6,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 2,
+      "permbon": 1,
+      "score": 22
+    },
+    "dexterity": {
+      "abilperms": {
+        "id-00001": {
+          "bonus_type": "enhancement",
+          "name": "Belt of physical perfection",
+          "permnum": 2
+        }
+      },
+      "base": 17,
+      "bonus": 4,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 2,
+      "permbon": 1,
+      "score": 19
+    },
+    "intelligence": {
+      "base": 18,
+      "bonus": 4,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 18
+    },
+    "strength": {
+      "abilperms": {
+        "id-00001": {
+          "bonus_type": "enhancement",
+          "name": "Belt of physical perfection",
+          "permnum": 2
+        }
+      },
+      "base": 13,
+      "bonus": 2,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 2,
+      "permbon": 1,
+      "score": 15
+    },
+    "wisdom": {
+      "base": 14,
+      "bonus": 2,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 14
+    }
+  },
+  "ac": {
+    "sources": {
+      "ability": "dexterity",
+      "abilitymod": 4,
+      "abilitymod2": 0,
+      "armor": 5,
+      "cmdabilitymod": 2,
+      "cmdbasemod": 12,
+      "cmdmisc": 0,
+      "deflection": 0,
+      "dodge": 0,
+      "ffmisc": 0,
+      "misc": 0,
+      "naturalarmor": 7,
+      "shield": 0,
+      "size": 0,
+      "temporary": 0,
+      "touchmisc": 0
+    },
+    "totals": {
+      "cmd": 28,
+      "flatfooted": 22,
+      "general": 26,
+      "touch": 14
+    }
+  },
+  "age": "?",
+  "alignment": "CN",
+  "attackbonus": {
+    "base": 12,
+    "grapple": {
+      "ability": "dexterity",
+      "abilitymod": 4,
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": 16
+    },
+    "melee": {
+      "abilitymod": 2,
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": 14
+    },
+    "ranged": {
+      "abilitymod": 4,
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": 16
+    }
+  },
+  "classes": {
+    "id-00001": {
+      "favored": 0,
+      "level": 7,
+      "name": "Succubus",
+      "skillranks": 0,
+      "skillranksused": 0
+    },
+    "id-00002": {
+      "favored": 0,
+      "level": 6,
+      "name": "Master Spy",
+      "shortcut": {
+        "class": "referenceclass",
+        "recordname": "class.masterspy@Pathfinder Advanced Players Guide"
+      },
+      "skillranks": 60,
+      "skillranksused": 0
+    }
+  },
+  "coins": {
+    "id-00001": {
+      "amount": 180,
+      "name": "PP"
+    },
+    "id-00002": {
+      "amount": 200,
+      "name": "GP"
+    },
+    "id-00003": {
+      "amount": 10,
+      "name": "SP"
+    },
+    "id-00004": {
+      "amount": 0,
+      "name": "CP"
+    }
+  },
+  "defenses": {
+    "damagereduction": "DR 10/cold iron or lawful",
+    "sr": {
+      "base": 18,
+      "misc": 0,
+      "temporary": 0,
+      "total": 18
+    }
+  },
+  "deity": "Desna",
+  "encumbrance": {
+    "armorcheckpenalty": 0,
+    "armormaxstatbonus": 6,
+    "armormaxstatbonusactive": 1,
+    "checkpenalty": 0,
+    "heavyload": 200,
+    "level": 0,
+    "liftoffground": 400,
+    "liftoverhead": 200,
+    "lightload": 66,
+    "load": 25.3,
+    "maxstatbonus": 0,
+    "mediumload": 133,
+    "pushordrag": 1000,
+    "spellfailure": 10
+  },
+  "exp": 0,
+  "expneeded": 0,
+  "featlist": {
+    "id-00001": {
+      "benefit": "<p>You add your Dexterity bonus to your base attack bonus and size bonus when determining your Combat Maneuver Bonus (see Combat) instead of your Strength bonus.</p>",
+      "name": "Agile Maneuvers",
+      "normal": "<p>You add your Strength bonus to your base attack bonus and size bonus when determining your Combat Maneuver Bonus.</p>",
+      "prerequisites": "-",
+      "special": "<p>-</p>",
+      "summary": "Use your Dex bonus when calculating your CMB",
+      "type": "Combat"
+    },
+    "id-00002": {
+      "benefit": "<p>You may make a number of additional attacks of opportunity per round equal to your Dexterity bonus. With this feat, you may also make attacks of opportunity while flat-footed.</p>",
+      "name": "Combat Reflexes",
+      "normal": "<p>A character without this feat can make only one attack of opportunity per round and can't make attacks of opportunity while flat-footed.</p>",
+      "prerequisites": "-",
+      "special": "<p>The Combat Reflexes feat does not allow a rogue to use her opportunist ability more than once per round.</p>",
+      "summary": "Make additional attacks of opportunity",
+      "type": "Combat"
+    },
+    "id-00003": {
+      "benefit": "<p>You get a +2 bonus on all Will saving throws.</p>",
+      "name": "Iron Will",
+      "normal": "<p>-</p>",
+      "prerequisites": "-",
+      "special": "<p>-</p>",
+      "summary": "+2 bonus on Will saves",
+      "type": "General"
+    },
+    "id-00004": {
+      "benefit": "<p>You can choose to take a -1 penalty on all ranged attack rolls to gain a +2 bonus on all ranged damage rolls. When your base attack bonus reaches +4, and every +4 thereafter, the penalty increases by -1 and the bonus to damage increases by +2. You must choose to use this feat before making an attack roll and its effects last until your next turn. The bonus damage does not apply to touch attacks or effects that do not deal hit point damage.</p>",
+      "name": "Deadly Aim",
+      "normal": "<p>-</p>",
+      "prerequisites": "Dex 13, base attack bonus +1.",
+      "special": "<p>-</p>",
+      "summary": "Trade ranged attack bonus for damage",
+      "type": "Combat"
+    }
+  },
+  "gender": "Female",
+  "height": "5' 6\"",
+  "heropoint": 0,
+  "hp": {
+    "nonlethal": 0,
+    "temporary": 0,
+    "total": 280,
+    "wounds": 18
+  },
+  "initiative": {
+    "abilitymod": 4,
+    "misc": 3,
+    "temporary": 0,
+    "total": 7
+  },
+  "inventorylist": {
+    "id-00001": {
+      "ammoeffect": "DMGTYPE: cold iron, magic, good, silver",
+      "bonus": 0,
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 1,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "0 gp",
+      "cost_visibility": 0,
+      "count": 1,
+      "critical": "20",
+      "damage": "-",
+      "damagetype": "-",
+      "depth": 0,
+      "description": "<p>An arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier ×2). Arrows come in a leather quiver that holds 20 arrows.</p>",
+      "extraplanarcontents": 0,
+      "hitshots": 30,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 0,
+      "max_charges": 1,
+      "missedshots": 22,
+      "name": "Arrows",
+      "pfslegal": "True",
+      "properties": "-",
+      "range": 0,
+      "showonminisheet": 1,
+      "slot": "Armor",
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "type": "Ammo",
+      "volume": 0,
+      "weight": 0.15,
+      "width": 0
+    },
+    "id-00003": {
+      "ac": 0,
+      "ammoeffect": "DMGTYPE: cold iron, magic, good; ATK: 3; DMG: 3",
+      "aura": "Moderate conjuration",
+      "bonus": 0,
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 1,
+      "charges": 0,
+      "checkpenalty": 0,
+      "cl": 8,
+      "contentsvolume": 0,
+      "cost": "166 gp",
+      "cost_visibility": 0,
+      "count": -1,
+      "depth": 0,
+      "description": "<p>An arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier ×2).</p>\n\t\t\t\t\t\t<p>Arrows come in a leather quiver that holds 20 arrows.</p>",
+      "extraplanarcontents": 0,
+      "hitshots": 6,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 0,
+      "max_charges": 1,
+      "maxstatbonus": 0,
+      "missedshots": 12,
+      "name": "+1 Evil Outsider Bane Arrow",
+      "nonid_name": "Magical Arrow",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spell_caster_level": "item_caster_level",
+      "spellfailure": 0,
+      "spells": "",
+      "subtype": "Ammunition",
+      "type": "Magical",
+      "volume": 0,
+      "weight": 0.1,
+      "width": 0
+    },
+    "id-00004": {
+      "ac": 0,
+      "aura": "Moderate evocation",
+      "bonus": 1,
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 2,
+      "checkpenalty": 0,
+      "cl": 7,
+      "contentsvolume": 0,
+      "cost": "20,324 gp",
+      "cost_visibility": 0,
+      "count": 1,
+      "critical": "x3",
+      "damage": "1d4",
+      "damagetype": "Piercing",
+      "depth": 0,
+      "description": "<p>From a central metal ring, four tapering metal blades extend like points on a compass rose. A wielder can stab with the starknife or throw it.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "+1 Holy Cold Iron Starknife",
+      "nonid_name": "Magical Starknife",
+      "properties": "cold iron, magic, holy",
+      "range": 20,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "subtype": "Martial Light Melee",
+      "type": "Weapon",
+      "volume": 0,
+      "weight": 3,
+      "width": 0
+    },
+    "id-00005": {
+      "ac": 0,
+      "ammoeffect": "DMGTYPE: cold iron, magic, good",
+      "aura": "Moderate abjuration",
+      "bonus": 0,
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 1,
+      "charges": 0,
+      "checkpenalty": 0,
+      "cl": 7,
+      "contentsvolume": 0,
+      "cost": "366 gp",
+      "cost_visibility": 0,
+      "count": 4,
+      "depth": 0,
+      "description": "<p>An arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier ×2).</p>\n\t\t\t\t\t\t<p>Arrows come in a leather quiver that holds 20 arrows.</p>",
+      "extraplanarcontents": 0,
+      "hitshots": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 1,
+      "max_charges": 1,
+      "maxstatbonus": 0,
+      "missedshots": 6,
+      "name": "+1 Phase Locking Arrow",
+      "nonid_name": "Magical Arrow",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spell_caster_level": "item_caster_level",
+      "spellfailure": 0,
+      "spells": "",
+      "subtype": "Ammunition",
+      "type": "Magical",
+      "volume": 0,
+      "weight": 0.1,
+      "width": 0
+    },
+    "id-00006": {
+      "ac": 2,
+      "aura": "Faint abjuration",
+      "bonus": 3,
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 2,
+      "checkpenalty": 0,
+      "cl": 5,
+      "contentsvolume": 0,
+      "cost": "9,160 gp",
+      "cost_visibility": 0,
+      "count": 1,
+      "depth": 0,
+      "description": "<p>Leather armor is made up of pieces of hard boiled leather carefully sewn together.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 1,
+      "maxstatbonus": 6,
+      "name": "+3 Leather",
+      "nonid_name": "Magical Leather",
+      "properties": "magic",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 20,
+      "speed30": 30,
+      "spellfailure": 10,
+      "subtype": "Light",
+      "type": "Armor",
+      "volume": 0,
+      "weight": 15,
+      "width": 0
+    },
+    "id-00007": {
+      "ac": 0,
+      "aura": "Moderate evocation",
+      "bonus": 3,
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 2,
+      "charges": 0,
+      "checkpenalty": 0,
+      "cl": 11,
+      "contentsvolume": 0,
+      "cost": "30,400 gp",
+      "cost_visibility": 0,
+      "count": 1,
+      "critical": "x3",
+      "damage": "1d8",
+      "damagetype": "piercing",
+      "depth": 0,
+      "description": "<p>\n\t\t\t\t\t\t\t<b>Slot: </b>None</p>\n\t\t\t\t\t\t<p>Favored by worshipers of Desna and elves alike, the silvery wooden limbs and green riser of this +3 composite longbow are decorated with rows of tiny stars, sparkling comets, and little moons. Arrows fired from this bow trail streams of silvery light, and resemble shooting stars as they fly. Creatures that take penalties in bright light take these penalties for 1 round after being struck by such an arrow. An arrow shot from the starbow sheds light as a sunrod for 1 minute after it is shot. A starbow responds to the strength of its wielder, acting as a bow with a strength rating equal to its wielder's Strength bonus. The wielder can fire it with a lesser Strength bonus (and cause less damage) if desired. Three times per day as a standard action, the wielder can use a starbow to fire a 30-foot-long cone of arrow-shaped bolts of radiance. All creatures in the area of effect take 5d8 points of damage unless they are undead or creatures harmed by sunlight, in which case the damage increases to 10d8. This damage bypasses damage reduction and energy resistance. A successful DC 18 Reflex save halves the damage. A creature that takes damage from this attack is shrouded with a soft radiance (as faerie fire) for 1 minute.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 1,
+      "max_charges": 1,
+      "maxstatbonus": 0,
+      "name": "Starbow",
+      "nonid_name": "Magic Composite Longbow",
+      "pfslegal": "True",
+      "prerequisites": "Craft Arms and Armor, searing light, warp wood",
+      "properties": "magic",
+      "range": 110,
+      "showonminisheet": 1,
+      "slot": "Armor",
+      "speed20": 0,
+      "speed30": 0,
+      "spell_caster_level": "item_caster_level",
+      "spellfailure": 0,
+      "spells": "",
+      "subtype": "Martial Ranged",
+      "type": "Weapon",
+      "volume": 0,
+      "weight": 3,
+      "width": 0
+    },
+    "id-00008": {
+      "aura": "Strong transmutation",
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 2,
+      "cl": 16,
+      "contentsvolume": 0,
+      "cost": "16,000 gp",
+      "cost_visibility": 0,
+      "count": 1,
+      "depth": 0,
+      "description": "<p>This belt has a large platinum buckle, usually depicting the image of a titan. The belt grants the wearer an enhancement bonus to all physical ability scores (Strength, Dexterity, and Constitution) of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 1,
+      "name": "Belt of Physical Perfection +2",
+      "nonid_name": "Magical Belt",
+      "prerequisites": "Craft Wondrous Item, bear's endurance, bull's strength, cat's grace",
+      "showonminisheet": 1,
+      "type": "Wondrous Item",
+      "volume": 0,
+      "weight": 0,
+      "width": 0
+    },
+    "id-00009": {
+      "ac": 0,
+      "aura": "Moderate transmutation",
+      "bonus": 0,
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 1,
+      "checkpenalty": 0,
+      "cl": 10,
+      "contentsvolume": 0,
+      "cost": "12,000 gp",
+      "cost_visibility": 0,
+      "count": 1,
+      "depth": 0,
+      "description": "<p>As a free action, the wearer can click her heels together, letting her act as though affected by a <i>haste </i>spell for up to 10 rounds each day. The haste effect's duration need not be consecutive rounds.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Boots of Speed",
+      "nonid_name": "Magic Boots",
+      "prerequisites": "Craft Wondrous Item, haste",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "type": "Wondrous Item",
+      "volume": 0,
+      "weight": 1,
+      "width": 0
+    },
+    "id-00010": {
+      "ac": 0,
+      "aura": "Moderate conjuration",
+      "bonus": 0,
+      "carried": 1,
+      "checkpenalty": 0,
+      "cl": 9,
+      "contentscount": 0,
+      "contentsvolume": 0,
+      "cost": "1,800 gp",
+      "count": 1,
+      "description": "<p>This appears to be a typical arrow container capable of holding about 20 arrows. It has three distinct portions, each with a nondimensional space allowing it to store far more than would normally be possible. The first and smallest one can contain up to 60 objects of the same general size and shape as an arrow. The second slightly longer compartment holds up to 18 objects of the same general size and shape as a javelin. The third and longest portion of the case contains as many as 6 objects of the same general size and shape as a bow (spears, staffs, or the like). Once the owner has filled it, the quiver can quickly produce any item she wishes that is within the quiver, as if from a regular quiver or scabbard. The efficient quiver weighs the same no matter what's placed inside it.</p>",
+      "extraplanarcontents": 0,
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Efficient Quiver",
+      "nonid_name": "Magical Quiver",
+      "prerequisites": "Craft Wondrous Item, secret chest",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "type": "Wondrous Item",
+      "weight": 2
+    },
+    "id-00011": {
+      "ac": 0,
+      "ammoeffect": "DMGTYPE: cold iron, magic, good",
+      "aura": "Strong necromancy",
+      "bonus": 0,
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 1,
+      "charges": 0,
+      "checkpenalty": 0,
+      "cl": 13,
+      "contentsvolume": 0,
+      "cost": "4,057 gp",
+      "cost_visibility": 0,
+      "count": -1,
+      "depth": 0,
+      "description": "<p>This <i>+1 arrow </i>is keyed to a particular type or subtype of creature. If it strikes such a creature, the target must make a DC 20 Fortitude save or take 50 points of damage. Note that even creatures normally exempt from Fortitude saves (undead and constructs) are subject to this attack. When keyed to a living creature, this is a death effect (and thus <i>death ward </i>protects a target). To determine the type or subtype of creature the arrow is keyed to, roll on the table below.</p>\n\t\t\t\t\t\t<table>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t<b>d%</b>\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t<b>Designated Type or Subtype</b>\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>01-05</td>\n\t\t\t\t\t\t\t\t<td>Aberrations</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>06-09</td>\n\t\t\t\t\t\t\t\t<td>Animals</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>10-16</td>\n\t\t\t\t\t\t\t\t<td>Constructs</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>17-27</td>\n\t\t\t\t\t\t\t\t<td>Dragons</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>28-32</td>\n\t\t\t\t\t\t\t\t<td>Fey</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>33</td>\n\t\t\t\t\t\t\t\t<td>Humanoids, aquatic</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>34-35</td>\n\t\t\t\t\t\t\t\t<td>Humanoids, dwarf</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>36-37</td>\n\t\t\t\t\t\t\t\t<td>Humanoids, elf</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>38-44</td>\n\t\t\t\t\t\t\t\t<td>Humanoids, giant</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>45</td>\n\t\t\t\t\t\t\t\t<td>Humanoids, gnoll</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>46</td>\n\t\t\t\t\t\t\t\t<td>Humanoids, gnome</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>47-49</td>\n\t\t\t\t\t\t\t\t<td>Humanoids, goblinoid</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>50</td>\n\t\t\t\t\t\t\t\t<td>Humanoids, halfling</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>51-54</td>\n\t\t\t\t\t\t\t\t<td>Humanoids, human</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>55-57</td>\n\t\t\t\t\t\t\t\t<td>Humanoids, reptilian</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>58-60</td>\n\t\t\t\t\t\t\t\t<td>Humanoids, orc</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>61-65</td>\n\t\t\t\t\t\t\t\t<td>Magical beasts</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>66-70</td>\n\t\t\t\t\t\t\t\t<td>Monstrous humanoids</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>71-72</td>\n\t\t\t\t\t\t\t\t<td>Oozes</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>73</td>\n\t\t\t\t\t\t\t\t<td>Outsiders, air</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>74-76</td>\n\t\t\t\t\t\t\t\t<td>Outsiders, chaotic</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>77</td>\n\t\t\t\t\t\t\t\t<td>Outsiders, earth</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>78-80</td>\n\t\t\t\t\t\t\t\t<td>Outsiders, evil</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>81</td>\n\t\t\t\t\t\t\t\t<td>Outsiders, fire</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>82-84</td>\n\t\t\t\t\t\t\t\t<td>Outsiders, good</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>85-87</td>\n\t\t\t\t\t\t\t\t<td>Outsiders, lawful</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>88</td>\n\t\t\t\t\t\t\t\t<td>Outsiders, water</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>89-90</td>\n\t\t\t\t\t\t\t\t<td>Plants</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>91-98</td>\n\t\t\t\t\t\t\t\t<td>Undead</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>99-100</td>\n\t\t\t\t\t\t\t\t<td>Vermin</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</table>",
+      "extraplanarcontents": 0,
+      "hitshots": 4,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 0,
+      "max_charges": 1,
+      "maxstatbonus": 0,
+      "missedshots": 2,
+      "name": "Evil Outsider Slaying Arrow",
+      "nonid_name": "Magical Arrow",
+      "prerequisites": "Craft Magic Arms and Armor, finger of death (Slaying arrow) or heightened finger of death (greater slaying arrow)",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spell_caster_level": "item_caster_level",
+      "spellfailure": 0,
+      "spells": "",
+      "subtype": "Ammunition",
+      "type": "Weapon",
+      "volume": 0,
+      "weight": 0.1,
+      "width": 0
+    },
+    "id-00012": {
+      "aura": "Moderate transmutation",
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 1,
+      "cl": 7,
+      "contentsvolume": 0,
+      "cost": "25,000 gp",
+      "cost_visibility": 0,
+      "count": 1,
+      "depth": 0,
+      "description": "<p>This ring continually grants the wearer the ability to avoid damage as if she had evasion. Whenever she makes a Reflex saving throw to determine whether she takes half damage, a successful save results in no damage.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 1,
+      "name": "Ring of Evasion",
+      "nonid_name": "Magical Ring",
+      "prerequisites": "Forge Ring, jump",
+      "showonminisheet": 1,
+      "type": "Ring",
+      "volume": 0,
+      "weight": 0,
+      "width": 0
+    },
+    "id-00013": {
+      "ac": 0,
+      "aura": "Faint abjuration",
+      "bonus": 0,
+      "carried": 1,
+      "checkpenalty": 0,
+      "cl": 5,
+      "cost": "18,000 gp",
+      "count": 1,
+      "description": "<p>This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Ring of Protection +3",
+      "nonid_name": "Magical Ring",
+      "prerequisites": "Forge Ring, shield of faith, caster must be of a level at least three times greater than the bonus of the ring",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "type": "Ring",
+      "weight": 0
+    },
+    "id-00014": {
+      "ac": 0,
+      "bonus": 0,
+      "carried": 1,
+      "checkpenalty": 0,
+      "cl": 0,
+      "cost": "200 gp",
+      "count": 1,
+      "description": "<p>A holy symbol focuses positive energy and is used by good clerics and paladins (or by neutral clerics who want to cast good spells or channel positive energy). Each religion has its own holy symbol.</p>\n\t\t\t\t\t\t<p>An unholy symbol is like a holy symbol except that it focuses negative energy and is used by evil clerics (or by neutral clerics who want to cast evil spells or channel negative energy).</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Silver-and-Turquoise Holy Symbol (Desna)",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "subtype": "Tools and Skill Kits",
+      "type": "Goods and Services",
+      "weight": 0
+    },
+    "id-00017": {
+      "ac": 0,
+      "aura": "Moderate abjuration",
+      "bonus": 0,
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 1,
+      "checkpenalty": 0,
+      "cl": 9,
+      "contentsvolume": 0,
+      "cost": "27,000 gp",
+      "cost_visibility": 0,
+      "count": 1,
+      "depth": 0,
+      "description": "<p>\n\t\t\t\t\t\t\t<b>Slot: </b>Wrist</p>\n\t\t\t\t\t\t<p>These delicate sliver bracers are decorated with blue butterflies. While worn, swallowtail bracers grant the wearer a +1 luck bonus on all saving throws, ability checks, and skill checks. If the wearer worships Desna, the bracers grant an additional boon: Once per day, by speaking a command word and the name and/or title of the intended recipient, the wearer may cast dream. Such a wearer is also immune to nightmare, and when the wearer is targeted by that spell, the effects reflect back upon the caster.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Swallowtail Bracers",
+      "nonid_name": "Magic Bracers",
+      "prerequisites": "Craft Wondrous Item, divine favor, dream, creator must worship Desna",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "type": "Wondrous Item",
+      "volume": 0,
+      "weight": 1,
+      "width": 0
+    },
+    "id-00018": {
+      "ac": 0,
+      "aura": "Faint conjuration",
+      "bonus": 0,
+      "carried": 1,
+      "charge": 28,
+      "checkpenalty": 0,
+      "cl": 5,
+      "cost": "6,300 gp",
+      "count": 1,
+      "description": "<p>A wand is a thin baton that contains a single spell. Each wand has 50 charges when created, and each charge expended allows the user to use the wand's spell one time. A wand that runs out of charges is just a stick.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Wand of Cure Serious Wounds",
+      "nonid_name": "Magic Wand",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "type": "Wand",
+      "weight": 0
+    }
+  },
+  "languagelist": "",
+  "level": 13,
+  "locked": 0,
+  "mythic": {
+    "mythicabilities": {
+      "id-00002": {
+        "abilitytype": "Ex",
+        "locked": 0,
+        "name": "Aura of Perseverance",
+        "shortcut": {
+          "class": "referenceclassability",
+          "recordname": "reference.specialabilities.tier3marshalpathabilitiesauraofperseverance@Pathfinder Mythic Adventures"
+        },
+        "text": "<p>Your leadership keeps your allies going even when they're at death's door. Allies within 30 feet of you don't become unconscious or disabled when reduced to 0 hit points or fewer. As soon as you and an ally at 0 hit points or fewer are more than 30 feet apart, that ally becomes unconscious or disabled. You can expend one use of mythic power to stabilize all dying allies within 30 feet and let all allies within this range ignore the staggered condition for a number of rounds equal to your tier.</p>",
+        "type": "Tier 3 Marshal Path Abilities"
+      },
+      "id-00003": {
+        "abilitytype": "Ex",
+        "locked": 0,
+        "name": "Deadly Dodge",
+        "shortcut": {
+          "class": "referenceclassability",
+          "recordname": "reference.specialabilities.tier1tricksterpathabilitiesdeadlydodge@Pathfinder Mythic Adventures"
+        },
+        "text": "<p>As a swift action, you can expend one use of mythic power to gain a +4 dodge bonus to your AC until the start of your next turn. During this time, whenever a creature misses on a melee attack against you, it provokes an attack of opportunity from you. You can choose to either take this attack of opportunity or force that creature to reroll the attack and change the target to a creature of your choice that is adjacent to you and within the attacker's reach. This reroll uses the same modifiers as the initial attack roll.</p>",
+        "type": "Tier 1 Trickster Path Abilities"
+      },
+      "id-00004": {
+        "abilitytype": "Su",
+        "locked": 0,
+        "name": "Commune with Power",
+        "shortcut": {
+          "class": "referenceclassability",
+          "recordname": "reference.specialabilities.tier1universalpathabilitiescommunewithpower@Pathfinder Mythic Adventures"
+        },
+        "text": "<p>You can tap into your mythic nature to seek answers to the quandaries you encounter in your adventures. Once per day, in a special ritual that requires you to spend 1 hour of uninterrupted meditation, you can commune with the source of your power. This acts as the commune spell, using your tier as your caster level. The source of your power may be limited in the knowledge it possesses or can deliver, as decided upon by the GM.</p>",
+        "type": "Tier 1 Universal Path Abilities"
+      }
+    },
+    "mythicfeats": {
+      "id-00001": {
+        "locked": 1,
+        "name": "Deadly Aim (Mythic)",
+        "shortcut": {
+          "class": "referencefeat",
+          "recordname": "charsheet.id-00004.mythic.mythicfeats.id-00002"
+        },
+        "summary": "Adds a +1 to Deadly Aim's damage per tier (-1/+3, -2/+5, ect)"
+      }
+    },
+    "mythicspells": "",
+    "nexttier": {
+      "abilities": "+1",
+      "bonus": "+2",
+      "feats": "-"
+    },
+    "path": "Trickster",
+    "pathfeatures": {
+      "id-00001": {
+        "abilitytype": "Su",
+        "locked": 1,
+        "name": "Trickster Attack - Surprise Strike",
+        "shortcut": {
+          "class": "referenceclassability",
+          "recordname": "charsheet.id-00007.mythic.mythicabilities.id-00001"
+        },
+        "text": "<p>Use a Mythic Surge as a Swift Action to make a free attack against a creature within 30 ft.</p>\n\t\t\t\t\t\t\t<p>The attack gains your mythic tier as a bonus and attacks the target as if it were flat-footed.</p>\n\t\t\t\t\t\t\t<p>Damage from this attack bypasses DR.</p>",
+        "type": "Trickster Features"
+      },
+      "id-00002": {
+        "abilitytype": "Ex",
+        "locked": 0,
+        "name": "Amazing Initiative",
+        "shortcut": {
+          "class": "referenceclassability",
+          "recordname": "reference.specialabilities.basemythicabilitiesamazinginitiative@Pathfinder Mythic Adventures"
+        },
+        "text": "<p>At 2nd tier, you gain a bonus on initiative checks equal to your mythic tier. In addition, as a free action on your turn, you can expend one use of mythic power to take an additional standard action during that turn. This additional standard action can't be used to cast a spell. You can't gain an extra action in this way more than once per round.</p>",
+        "type": "Base Mythic Abilities"
+      },
+      "id-00003": {
+        "abilitytype": "Ex",
+        "locked": 0,
+        "name": "Recuperation",
+        "shortcut": {
+          "class": "referenceclassability",
+          "recordname": "reference.specialabilities.basemythicabilitiesrecuperation@Pathfinder Mythic Adventures"
+        },
+        "text": "<p>At 3rd tier, you are restored to full hit points after 8 hours of rest so long as you aren't dead. In addition, by expending one use of mythic power and resting for 1 hour, you regain a number of hit points equal to half your full hit points (up to a maximum of your full hit points) and regain the use of any class features that are limited to a certain number of uses per day (such as barbarian rage, bardic performance, spells per day, and so on). This rest is treated as 8 hours of sleep for such abilities. This rest doesn't refresh uses of mythic power or any mythic abilities that are limited to a number of times per day.</p>",
+        "type": "Base Mythic Abilities"
+      }
+    },
+    "powerbase": 9,
+    "powerbonus": 0,
+    "surgedie": "1d6",
+    "thistier": {
+      "abilities": "3",
+      "bonus": "+2",
+      "feats": "2"
+    },
+    "tier": 3,
+    "trials": {
+      "completed": 0,
+      "needed": 2
+    }
+  },
+  "name": "Arueshalae",
+  "portrait": "portraits/Areushalae FG Token.png",
+  "proficiencylist": "",
+  "race": "Succubus",
+  "saves": {
+    "fortitude": {
+      "abilitymod": 6,
+      "base": 8,
+      "misc": 0,
+      "temporary": 0,
+      "total": 14
+    },
+    "reflex": {
+      "abilitymod": 4,
+      "base": 13,
+      "misc": 0,
+      "temporary": 0,
+      "total": 17
+    },
+    "will": {
+      "abilitymod": 2,
+      "base": 9,
+      "misc": 2,
+      "temporary": 0,
+      "total": 13
+    }
+  },
+  "senses": "darkvision",
+  "size": "M",
+  "skilllist": {
+    "id-00001": {
+      "armorcheckmultiplier": 0,
+      "label": "Intimidate",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 8,
+      "state": 0,
+      "statname": "charisma",
+      "total": 8
+    },
+    "id-00002": {
+      "armorcheckmultiplier": 1,
+      "label": "Climb",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "strength",
+      "total": 2
+    },
+    "id-00003": {
+      "armorcheckmultiplier": 1,
+      "label": "Escape Artist",
+      "misc": 0,
+      "ranks": 6,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "dexterity",
+      "total": 13
+    },
+    "id-00004": {
+      "armorcheckmultiplier": 0,
+      "label": "Diplomacy",
+      "misc": 0,
+      "ranks": 5,
+      "showonminisheet": 1,
+      "stat": 8,
+      "state": 1,
+      "statname": "charisma",
+      "total": 16
+    },
+    "id-00005": {
+      "armorcheckmultiplier": 0,
+      "label": "Perception",
+      "misc": 0,
+      "ranks": 10,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 1,
+      "statname": "wisdom",
+      "total": 15
+    },
+    "id-00006": {
+      "armorcheckmultiplier": 1,
+      "label": "Fly",
+      "misc": 0,
+      "ranks": 6,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "dexterity",
+      "total": 13
+    },
+    "id-00007": {
+      "armorcheckmultiplier": 1,
+      "label": "Disable Device",
+      "misc": 0,
+      "ranks": 4,
+      "showonminisheet": 0,
+      "stat": 4,
+      "state": 1,
+      "statname": "dexterity",
+      "total": 11
+    },
+    "id-00008": {
+      "armorcheckmultiplier": 1,
+      "label": "Acrobatics",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 4
+    },
+    "id-00009": {
+      "armorcheckmultiplier": 0,
+      "label": "Use Magic Device",
+      "misc": 0,
+      "ranks": 6,
+      "showonminisheet": 1,
+      "stat": 8,
+      "state": 1,
+      "statname": "charisma",
+      "total": 17
+    },
+    "id-00010": {
+      "armorcheckmultiplier": 0,
+      "label": "Handle Animal",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 8,
+      "state": 0,
+      "statname": "charisma",
+      "total": 8
+    },
+    "id-00011": {
+      "armorcheckmultiplier": 1,
+      "label": "Swim",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "strength",
+      "total": 2
+    },
+    "id-00012": {
+      "armorcheckmultiplier": 1,
+      "label": "Sleight of Hand",
+      "misc": 0,
+      "ranks": 10,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "dexterity",
+      "total": 17
+    },
+    "id-00013": {
+      "armorcheckmultiplier": 0,
+      "label": "Survival",
+      "misc": 0,
+      "ranks": 6,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "wisdom",
+      "total": 8
+    },
+    "id-00014": {
+      "armorcheckmultiplier": 0,
+      "label": "Appraise",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 0,
+      "statname": "intelligence",
+      "total": 4
+    },
+    "id-00015": {
+      "armorcheckmultiplier": 0,
+      "label": "Linguistics",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 4,
+      "state": 1,
+      "statname": "intelligence",
+      "total": 4
+    },
+    "id-00016": {
+      "armorcheckmultiplier": 0,
+      "label": "Bluff",
+      "misc": 0,
+      "ranks": 6,
+      "showonminisheet": 1,
+      "stat": 8,
+      "state": 1,
+      "statname": "charisma",
+      "total": 17
+    },
+    "id-00017": {
+      "armorcheckmultiplier": 0,
+      "label": "Disguise",
+      "misc": 0,
+      "ranks": 10,
+      "showonminisheet": 1,
+      "stat": 8,
+      "state": 1,
+      "statname": "charisma",
+      "total": 21
+    },
+    "id-00018": {
+      "armorcheckmultiplier": 0,
+      "label": "Sense Motive",
+      "misc": 0,
+      "ranks": 5,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 1,
+      "statname": "wisdom",
+      "total": 10
+    },
+    "id-00019": {
+      "armorcheckmultiplier": 1,
+      "label": "Ride",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 4
+    },
+    "id-00020": {
+      "armorcheckmultiplier": 1,
+      "label": "Stealth",
+      "misc": 0,
+      "ranks": 10,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "dexterity",
+      "total": 17
+    },
+    "id-00021": {
+      "armorcheckmultiplier": 0,
+      "label": "Heal",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "wisdom",
+      "total": 2
+    },
+    "id-00022": {
+      "armorcheckmultiplier": 0,
+      "label": "Spellcraft",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 4,
+      "state": 0,
+      "statname": "intelligence",
+      "total": 4
+    },
+    "id-00023": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 0,
+      "ranks": 10,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Lower Planes",
+      "total": 17
+    }
+  },
+  "skillpoints": {
+    "spent": 94
+  },
+  "specialabilitylist": {
+    "id-00001": {
+      "level": 1,
+      "locked": 1,
+      "name": "Art of deception",
+      "source": "Master Spy",
+      "text": "<p>A master spy adds her class level to all Bluff, Disguise, and Sense Motive checks.</p>"
+    },
+    "id-00002": {
+      "level": 1,
+      "locked": 1,
+      "name": "Master of disguise",
+      "source": "Master Spy",
+      "text": "<p>A master spy can create a disguise in half the time normally required. In addition, any penalties from assuming a disguise of a different gender, race, age, or size are reduced by 1.</p>"
+    },
+    "id-00003": {
+      "level": 1,
+      "locked": 1,
+      "name": "Sneak attack (+2d6)",
+      "source": "Master Spy",
+      "text": "<p>This ability is exactly like the rogue ability of the same name. The extra damage dealt increases by +1d6 at every third level (1st, 4th, 7th, and 10th). If a master spy gets a sneak attack bonus from another source, the bonuses on damage stack.</p>"
+    },
+    "id-00004": {
+      "level": 2,
+      "locked": 1,
+      "name": "Glib lie",
+      "source": "Master Spy",
+      "text": "<p>A master spy of 2nd level or higher can deceive truth-detecting magic. A creature using this sort of magic against the spy must succeed on a caster level check against a DC of 15 + the master spy's class level to succeed (as if she were under the effect of a <i>glibness </i>spell); failure means the magic doesn't detect the spy's lies or force her to speak only the truth. This ability does not give the master spy the <i>glibness </i>spell's bonus on Bluff checks.</p>"
+    },
+    "id-00005": {
+      "level": 2,
+      "locked": 1,
+      "name": "Mask alignment",
+      "source": "Master Spy",
+      "text": "<p>A master spy of 2nd level or higher can alter her alignment aura to deceive spells that discern alignment (such as <i>detect evil </i>). She may choose to detect as any specific alignment, or to detect as no alignment at all. This ability does not protect against spells or effects that cause harm based on alignment. Masking her alignment aura is a standard action, and lasts until she changes it again or ends the effect.</p>"
+    },
+    "id-00006": {
+      "level": 3,
+      "locked": 1,
+      "name": "Nonmagical aura 2/day",
+      "source": "Master Spy",
+      "text": "<p>At 3rd level, a master spy can use <i>magic aura </i>twice per day, but only for the purpose of making an object appear nonmagical.</p>"
+    },
+    "id-00007": {
+      "level": 3,
+      "locked": 1,
+      "name": "Superficial knowledge",
+      "source": "Master Spy",
+      "text": "<p>A master spy gives the appearance of knowing more than she actually does. Starting at 3rd level, she can make untrained Knowledge and Profession checks pertaining to her cover or assumed identity as if she were trained and gains a bonus equal to half her level on these checks. For example, a master spy masquerading as a noblewoman can make untrained Knowledge (history) checks about the kingdom and Knowledge (nobility) checks about its noble and royal families as if she were trained, but she cannot make untrained Knowledge (nature) skill checks to identify herbs.</p>"
+    },
+    "id-00008": {
+      "level": 4,
+      "locked": 1,
+      "name": "Concealed thoughts",
+      "source": "Master Spy",
+      "text": "<p>A 4th-level master spy can conceal her schemes from mind-reading magic. When a creature is using <i>detect thoughts </i>or similar magic to read her mind, she decides what surface thoughts her opponent detects, and her true surface thoughts remain private. This ability does not protect against mental attacks or mind-reading that delves deeper than surface thoughts.</p>"
+    },
+    "id-00009": {
+      "level": 4,
+      "locked": 1,
+      "name": "Quick change",
+      "source": "Master Spy",
+      "text": "<p>Starting at 4th level, a master spy can assume a disguise in only 2d4 rounds by taking a -10 penalty on her Disguise check. This penalty drops to -5 at 8th level.</p>"
+    },
+    "id-00010": {
+      "level": 5,
+      "locked": 1,
+      "name": "Elude detection",
+      "source": "Master Spy",
+      "text": "<p>At 5th level, a master spy can befuddle divinations used against her as if she were under the effect of a <i>nondetection </i>spell with a caster level equal to her character level. She can suppress or resume this protection as a standard action. If dispelled, the spy cannot resume the <i>nondetection </i>for 1d4 rounds.</p>"
+    },
+    "id-00011": {
+      "level": 5,
+      "locked": 1,
+      "name": "Slippery mind",
+      "source": "Master Spy",
+      "text": "<p>At 5th level, a master spy can slip away from mental control. This functions as the rogue advanced talent of the same name. If the spy has the slippery mind ability from another class, these abilities stack, but she can still only use slippery mind once per round.</p>"
+    },
+    "id-00012": {
+      "level": 6,
+      "locked": 1,
+      "name": "Shift alignment",
+      "source": "Master Spy",
+      "text": "<p>Starting at 6th level, a master spy's control over her aura improves. When she assumes a false alignment, she can choose to have all spells and magic items affect her as though she were that alignment; this includes helpful and harmful effects. For example, a neutral good master spy can shift her aura to lawful evil so she can pass through a doorway that shocks creatures that aren't lawful evil; if hit by <i>holy smite </i>with this shifted aura, she takes damage as if she were evil. A master spy can change her alignment aura from a masked alignment (as per her 2nd-level class feature, where effects still function based on her actual alignment) to a shifted alignment (as per this ability, where effects function based on her assumed alignment) as a standard action. Shifting her alignment aura is a standard action, and lasts until she changes it again or ends the effect.</p>"
+    },
+    "id-00013": {
+      "locked": 1,
+      "name": "Path to Redemption (Ex)",
+      "source": "Arueshalae",
+      "text": "<p>Arueshalae's hopeful path toward redemption has had some unique effects on her abilities as a demon. She no longer has the evil subtype, and she's lost the use of some of her demonic spell-like abilities as detailed above. Her DR has changed from DR 10/cold iron or good to DR 10/cold iron or lawful. When she's within 30 feet of a CR 6 or higher demon at the start of any turn, she must succeed at a DC 15 Fortitude save or be staggered for 1 round by flashbacks of her evil past.</p>"
+    }
+  },
+  "speed": {
+    "armor": 0,
+    "base": 18,
+    "fastmovement": 0,
+    "final": 18,
+    "misc": 0,
+    "special": "30 ft / Fly 50 ft (average)",
+    "temporary": 0,
+    "total": 18
+  },
+  "spelldisplaymode": "action",
+  "spellset": {
+    "id-00001": {
+      "availablelevel0": 0,
+      "availablelevel1": 9,
+      "availablelevel2": 0,
+      "availablelevel3": 0,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "castertype": "spontaneous",
+      "cc": {
+        "misc": 0
+      },
+      "cl": 3,
+      "dc": {
+        "abilitymod": 0,
+        "misc": 0,
+        "total": 10
+      },
+      "label": "Mythic Power",
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 0,
+          "spells": {
+            "id-00001": {
+              "actions": "",
+              "cast": 1,
+              "cost": 0,
+              "name": "Mythic Surge"
+            },
+            "id-00002": {
+              "actions": "",
+              "cast": 3,
+              "cost": 0,
+              "name": "Mythic Spellcasting"
+            },
+            "id-00003": {
+              "actions": "",
+              "cast": 0,
+              "cost": 0,
+              "name": "Path Ability Use"
+            }
+          },
+          "totalcast": 4,
+          "totalprepared": 0
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "points": 0,
+      "pointsused": 0,
+      "sp": 0
+    },
+    "id-00002": {
+      "availablelevel0": 4,
+      "availablelevel1": 9,
+      "availablelevel2": 0,
+      "availablelevel3": 0,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "cc": {
+        "misc": 0
+      },
+      "cl": 12,
+      "dc": {
+        "ability": "charisma",
+        "abilitymod": 8,
+        "misc": 0,
+        "total": 18
+      },
+      "label": "Succubus",
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 1,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, DF",
+              "cost": 0,
+              "description": "This spell functions like detect evil , except that it detects the auras of good creatures, clerics or paladins of good deities, good spells, and good magic items, and you are vulnerable to an overwhelming good aura if you are evil. Healing potions, antidotes, and similar beneficial items are not good.Detect Evil",
+              "duration": "Concentration, up to 10 min./ level (D)",
+              "effect": "Cone-shaped emanation",
+              "level": "Clr 1",
+              "linkedspells": {
+                "id-00001": {
+                  "link": {
+                    "class": "spelldesc",
+                    "recordname": "spell.detectevil@Wrath of the Righteous AP 3 Demon's Heresy"
+                  },
+                  "linkedname": "Detect Evil"
+                }
+              },
+              "name": ">Constant: Detect Good",
+              "prepared": 1,
+              "range": "60 ft.",
+              "save": "None",
+              "school": "Divination",
+              "shortdescription": "Reveals creatures, spells, or objects with Good alignment.",
+              "sr": "No"
+            },
+            "id-00002": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, M/DF (a clay model of a ziggurat)",
+              "cost": 0,
+              "description": "This spell grants the creature touched the ability to speak and understand the language of any intelligent creature, whether it is a racial tongue or a regional dialect. The subject can speak only one language at a time, although it may be able to understand several languages. Tongues does not enable the subject to speak with creatures who don't speak. The subject can make itself understood as far as its voice carries. This spell does not predispose any creature addressed toward the subject in any way.Tongues can be made permanent with a permanency spell.",
+              "duration": "10 min./level",
+              "effect": "Creature touched",
+              "level": "Brd 2, Clr 4, Sor/Wiz 3",
+              "linkedspells": "",
+              "name": ">Constant: Tongues",
+              "prepared": 1,
+              "range": "Touch",
+              "save": "Will negates (harmless)",
+              "school": "Divination",
+              "shortdescription": "Speak and understand any language.",
+              "sr": "No"
+            },
+            "id-00003": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "savedcmod": 2,
+                  "savetype": "will",
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "durmod": 1,
+                  "label": "Stunned",
+                  "order": 2,
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, F/DF (a copper piece)",
+              "cost": 0,
+              "description": "You detect surface thoughts. The amount of information revealed depends on how long you study a particular area or subject.\\n1st Round: Presence or absence of thoughts (from conscious creatures with Intelligence scores of 1 or higher).2nd Round: Number of thinking minds and the Intelligence score of each. If the highest Intelligence is 26 or higher (and at least 10 points higher than your own Intelligence score), you are stunned for 1 round and the spell ends. This spell does not let you determine the location of the thinking minds if you can't see the creatures whose thoughts you are detecting.3rd Round: Surface thoughts of any mind in the area. A target's Will save prevents you from reading its thoughts, and you must cast detect thoughts again to have another chance. Creatures of animal intelligence (Int 1 or 2) have simple, instinctual thoughts that you can pick up.Each round, you can turn to detect thoughts in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.",
+              "duration": "Concentration, up to 1 min./level (D)",
+              "effect": "Cone-shaped emanation",
+              "level": "Brd 2, Sor/Wiz 2",
+              "linkedspells": "",
+              "name": "Detect Thoughts",
+              "prepared": 1,
+              "range": "60 ft.",
+              "save": "Will negates; see text",
+              "school": "Divination [Mind-Affecting]",
+              "shortdescription": "Allows \"listening\" to surface thoughts.",
+              "sr": "No"
+            },
+            "id-00004": {
+              "actions": {
+                "id-00001": {
+                  "dmaxstat": 0,
+                  "durdicestatmax": 0,
+                  "durmod": 0,
+                  "durmult": 1,
+                  "label": "Succubus Immunities; DR: 10, cold iron or lawful; IMMUNE: electricity; IMMUNE: fire; IMMUNE: poison; RESIST: 10, acid; RESIST: 10, cold",
+                  "order": 1,
+                  "targeting": "self",
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "cost": 0,
+              "name": "Resistances and Immunities",
+              "prepared": 1
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 4
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 3,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "atkmod": 0,
+                  "clcmod": 0,
+                  "order": 1,
+                  "savedcmod": 3,
+                  "savetype": "will",
+                  "srnotallowed": 0,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "This spell functions like charm person , except that the effect is not restricted by creature type or size.Charm Person",
+              "duration": "1 day/level",
+              "effect": "One living creature",
+              "level": "Brd 3, Sor/Wiz 4",
+              "linkedspells": {
+                "id-00001": {
+                  "link": {
+                    "class": "spelldesc",
+                    "recordname": "spell.charmperson@Wrath of the Righteous AP 3 Demon's Heresy"
+                  },
+                  "linkedname": "Charm Person"
+                }
+              },
+              "name": "Charm Monster",
+              "prepared": 3,
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "Will negates",
+              "school": "Enchantment (Charm) [Mind-Affecting]",
+              "shortdescription": "Makes monster believe it is your ally.",
+              "sr": "Yes"
+            },
+            "id-00002": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "savedcmod": 2,
+                  "savetype": "will",
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, M (a snake's tongue and a honeycomb)",
+              "cost": 1,
+              "description": "You influence the actions of the target creature by suggesting a course of activity (limited to a sentence or two). The suggestion must be worded in such a manner as to make the activity sound reasonable. Asking the creature to do some obviously harmful act automatically negates the effect of the spell.The suggested course of activity can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what it was asked to do. You can instead specify conditions that will trigger a special activity during the duration. If the condition is not met before the spell duration expires, the activity is not performed.\\nA very reasonable suggestion causes the save to be made with a penalty (such as -1 or -2).",
+              "duration": "1 hour/level or until completed",
+              "effect": "One living creature",
+              "level": "Brd 2, Sor/Wiz 3",
+              "linkedspells": "",
+              "name": "Suggestion",
+              "prepared": 3,
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "Will negates",
+              "school": "Enchantment (Compulsion) [Language-Dependent, Mind-Affecting]",
+              "shortdescription": "Compels subject to follow stated course of action.",
+              "sr": "Yes"
+            },
+            "id-00003": {
+              "actions": {
+                "id-00001": {
+                  "atktype": "mtouch",
+                  "order": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "damagelist": {
+                    "id-00001": {
+                      "bonus": 0,
+                      "dice": "d6",
+                      "dicestat": "halfcl",
+                      "dicestatmax": 10
+                    }
+                  },
+                  "order": 2,
+                  "type": "damage"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "You must succeed on a melee touch attack. Your touch deals 1d6 points of damage per two caster levels (maximum 10d6). You gain temporary hit points equal to the damage you deal. However, you can't gain more than the subject's current hit points + the subject's Constitution score (which is enough to kill the subject). The temporary hit points disappear 1 hour later.",
+              "duration": "Instantaneous/1 hour; see text",
+              "effect": "Living creature touched",
+              "level": "Sor/Wiz 3",
+              "linkedspells": "",
+              "name": "Vampiric Touch",
+              "prepared": 3,
+              "range": "Touch",
+              "save": "None",
+              "school": "Necromancy",
+              "shortdescription": "Touch deals 1d6 per two levels damage; caster gains damage as hp.",
+              "sr": "Yes"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 9
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "points": 0,
+      "pointsused": 0,
+      "sp": 0
+    },
+    "id-00003": {
+      "availablelevel0": 10,
+      "availablelevel1": 0,
+      "availablelevel2": 0,
+      "availablelevel3": 0,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "cc": {
+        "misc": 0
+      },
+      "cl": 1,
+      "dc": {
+        "ability": "charisma",
+        "abilitymod": 8,
+        "misc": 0,
+        "total": 18
+      },
+      "label": "Feats",
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 10,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "dmaxstat": 0,
+                  "durdicestatmax": 0,
+                  "durmod": 1,
+                  "durmult": 1,
+                  "label": "Mythic Deadly Aim; ATK: -4, ranged; DMG: 9, ranged",
+                  "order": 1,
+                  "targeting": "self",
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "cost": 0,
+              "name": "Mythic Deadly Aim",
+              "prepared": 10
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 10
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "points": 0,
+      "pointsused": 0,
+      "sp": 0
+    },
+    "id-00004": {
+      "availablelevel0": 0,
+      "availablelevel1": 3,
+      "availablelevel2": 0,
+      "availablelevel3": 0,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "castertype": "spontaneous",
+      "cc": {
+        "misc": 0
+      },
+      "cl": 0,
+      "dc": {
+        "abilitymod": 0,
+        "misc": 0,
+        "total": 10
+      },
+      "label": "Starbow",
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 0,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "damagelist": {
+                    "id-00001": {
+                      "bonus": 0,
+                      "dice": "5d8",
+                      "dicestatmax": 0,
+                      "statmax": 0,
+                      "statmult": 1,
+                      "type": "radiant"
+                    }
+                  },
+                  "dmgnotspell": 0,
+                  "order": 1,
+                  "type": "damage"
+                },
+                "id-00002": {
+                  "atkmod": 0,
+                  "clcmod": 0,
+                  "onmissdamage": "half",
+                  "order": 2,
+                  "savedcmod": 18,
+                  "savedctype": "fixed",
+                  "savetype": "reflex",
+                  "srnotallowed": 0,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "cost": 1,
+              "name": "Radiant Barage",
+              "prepared": 1,
+              "shortdescription": "30' code of arrow-shaped bolts of radiance.  5d8 DC18 - 10D8 light sensitive or undead"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "points": 0,
+      "pointsused": 0,
+      "sp": 0
+    },
+    "id-00005": {
+      "availablelevel0": 0,
+      "availablelevel1": 3,
+      "availablelevel2": 0,
+      "availablelevel3": 0,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "cc": {
+        "misc": 0
+      },
+      "cl": 12,
+      "dc": {
+        "abilitymod": 0,
+        "misc": 0,
+        "total": 10
+      },
+      "label": "Starbow Burst",
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 0,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "damagelist": {
+                    "id-00001": {
+                      "bonus": 0,
+                      "dice": "5d8",
+                      "dicestatmax": 0,
+                      "statmax": 0,
+                      "statmult": 1
+                    }
+                  },
+                  "dmgnotspell": 0,
+                  "order": 1,
+                  "type": "damage"
+                }
+              },
+              "cast": 0,
+              "cost": 1,
+              "name": "Starburst"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "points": 0,
+      "pointsused": 0,
+      "sp": 0
+    }
+  },
+  "temp": "",
+  "token": "portrait_id-00007_token",
+  "token3Dflat": "portraits/Arueshalae - full.png",
+  "traitlist": {
+    "id-00001": {
+      "locked": 1,
+      "name": "Anarchic Gift (Su)",
+      "source": "Arueshalae",
+      "text": "<p>Arueshalae's redemption has altered her profane gift ability. This ability functions the same, except the bonus to an ability score granted by anarchic gift is a sacred bonus, and the gift cannot be removed by dispel evil. She can maintain only one anarchic gift at a time.</p>"
+    },
+    "id-00002": {
+      "locked": 1,
+      "name": "Change Shape (Su)",
+      "text": "<p>A creature with this special quality has the ability to assume the appearance of a specific creature or type of creature (usually a humanoid), but retains most of its own physical qualities. A creature cannot change shape to a form more than one size category smaller or larger than its original form. This ability functions as a polymorph spell, the type of which is listed in the creature’s description, but the creature does not adjust its ability scores (although it gains any other abilities of the creature it mimics). Unless otherwise stated, it can remain in an alternate form indefinitely. Some creatures, such as lycanthropes, can transform into unique forms with special modifiers and abilities. These creatures do adjust their ability scores, as noted in their descriptions.</p>",
+      "type": "Universal Monster Rule"
+    }
+  },
+  "weaponlist": {
+    "id-00001": {
+      "attack1modifier": 0,
+      "attack2modifier": 0,
+      "attack3modifier": 0,
+      "attack4modifier": 0,
+      "attacks": 1,
+      "attackview1": 15,
+      "attackview2": 10,
+      "attackview3": 5,
+      "attackview4": 0,
+      "bonus": 1,
+      "carried": 2,
+      "critatkrange": 20,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 1,
+          "critmult": 3,
+          "dice": "d4",
+          "stat": "strength",
+          "statmax": 0,
+          "statmult": 1,
+          "type": "piercing"
+        }
+      },
+      "isidentified": 1,
+      "name": "+1 Holy Cold Iron Starknife",
+      "properties": "cold iron, magic, holy",
+      "rangeincrement": 0,
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00004"
+      },
+      "type": 0
+    },
+    "id-00002": {
+      "ammo": 0,
+      "ammunitionmanager": {
+        "isloaded": 0
+      },
+      "attacks": 1,
+      "attackview1": 17,
+      "attackview2": 12,
+      "attackview3": 7,
+      "attackview4": 2,
+      "bonus": 1,
+      "carried": 2,
+      "critatkrange": 20,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 1,
+          "critmult": 3,
+          "dice": "d4",
+          "stat": "strength",
+          "type": "piercing"
+        }
+      },
+      "isidentified": 1,
+      "maxammo": 0,
+      "name": "+1 Holy Cold Iron Starknife",
+      "properties": "cold iron, magic, holy",
+      "rangeincrement": 20,
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00004"
+      },
+      "type": 1
+    },
+    "id-00004": {
+      "ammo": 0,
+      "ammopicker": "Arrows",
+      "ammunitionmanager": {
+        "ammopickershortcut": {
+          "class": "item",
+          "recordname": ".....inventorylist.id-00001"
+        },
+        "hitrecoverypercentage": 50,
+        "hitshots": 30,
+        "isloaded": 0,
+        "missedshots": 22,
+        "missrecoverypercentage": 50
+      },
+      "attack1modifier": 0,
+      "attack2modifier": 0,
+      "attack3modifier": 0,
+      "attack4modifier": 0,
+      "attacks": 3,
+      "attackview1": 19,
+      "attackview2": 14,
+      "attackview3": 9,
+      "attackview4": 4,
+      "bonus": 3,
+      "carried": 2,
+      "critatkrange": 20,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 3,
+          "critmult": 3,
+          "dice": "d8",
+          "stat": "strength",
+          "statmax": 0,
+          "statmult": 1,
+          "type": "piercing"
+        }
+      },
+      "isidentified": 1,
+      "maxammo": 1,
+      "name": "Starbow",
+      "properties": "magic",
+      "rangeincrement": 110,
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00007"
+      },
+      "type": 1
+    },
+    "id-00005": {
+      "attack1modifier": 0,
+      "attack2modifier": 0,
+      "attack3modifier": 0,
+      "attack4modifier": 0,
+      "attacks": 1,
+      "attackview1": 14,
+      "attackview2": 9,
+      "attackview3": 4,
+      "attackview4": -1,
+      "bonus": 0,
+      "carried": 2,
+      "critatkrange": 20,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d6",
+          "stat": "dexterity",
+          "statmax": 0,
+          "statmult": 1,
+          "type": "slashing"
+        }
+      },
+      "name": "Claw",
+      "rangeincrement": 0,
+      "type": 0
+    }
+  },
+  "weight": "125"
+}

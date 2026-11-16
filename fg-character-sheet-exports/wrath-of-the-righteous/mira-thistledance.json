@@ -1,0 +1,2102 @@
+{
+  "campaign": "Wrath of the Righteous - AZ",
+  "record": "charsheet.id-00011",
+  "abilities": {
+    "charisma": {
+      "base": 23,
+      "bonus": 7,
+      "bonusmodifier": 0,
+      "damage": -2,
+      "perm": 0,
+      "permbon": 1,
+      "score": 23
+    },
+    "constitution": {
+      "base": 16,
+      "bonus": 3,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 16
+    },
+    "dexterity": {
+      "base": 18,
+      "bonus": 4,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 18
+    },
+    "intelligence": {
+      "base": 12,
+      "bonus": 1,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 12
+    },
+    "strength": {
+      "base": 8,
+      "bonus": -1,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 8
+    },
+    "wisdom": {
+      "base": 10,
+      "bonus": 0,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 10
+    }
+  },
+  "ac": {
+    "sources": {
+      "abilitymod": 4,
+      "abilitymod2": 0,
+      "armor": 3,
+      "cmdabilitymod": -1,
+      "cmdbasemod": 6,
+      "cmdmisc": 0,
+      "deflection": 1,
+      "dodge": 0,
+      "ffmisc": 0,
+      "misc": 0,
+      "naturalarmor": 2,
+      "shield": 0,
+      "size": 0,
+      "temporary": 0,
+      "touchmisc": 0
+    },
+    "totals": {
+      "cmd": 20,
+      "flatfooted": 16,
+      "general": 17,
+      "touch": 12
+    }
+  },
+  "age": "34",
+  "alignment": "Chaotic Good",
+  "appearance": "Mira Thistledance is a radiant half-elf bard with wavy chestnut hair and bright green eyes, her sharp ears framed by silver-and-sapphire Desnan jewelry. She carries herself like a charming confidante—half starlit performer, half shrewd mercantile master—with a lute always within easy reach.",
+  "attackbonus": {
+    "base": 6,
+    "grapple": {
+      "abilitymod": -1,
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": 5
+    },
+    "melee": {
+      "abilitymod": -1,
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": 5
+    },
+    "ranged": {
+      "abilitymod": 4,
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": 10
+    }
+  },
+  "classes": {
+    "id-00001": {
+      "favored": 1,
+      "level": 8,
+      "name": "Bard",
+      "shortcut": {
+        "class": "referenceclass",
+        "recordname": "class.bard@Pathfinder Core Rules"
+      },
+      "skillranks": 63,
+      "skillranksused": 0
+    }
+  },
+  "coins": {
+    "id-00001": {
+      "amount": 0,
+      "name": "PP"
+    },
+    "id-00002": {
+      "amount": 196,
+      "name": "GP"
+    },
+    "id-00003": {
+      "amount": 5,
+      "name": "SP"
+    },
+    "id-00004": {
+      "amount": 0,
+      "name": "CP"
+    }
+  },
+  "defenses": {
+    "sr": {
+      "base": 0,
+      "misc": 0,
+      "temporary": 0,
+      "total": 0
+    }
+  },
+  "deity": "Desna",
+  "encumbrance": {
+    "armorcheckpenalty": 0,
+    "armormaxstatbonus": 6,
+    "armormaxstatbonusactive": 1,
+    "checkpenalty": -6,
+    "heavyload": 80,
+    "level": 2,
+    "liftoffground": 160,
+    "liftoverhead": 80,
+    "lightload": 26,
+    "load": 61,
+    "maxstatbonus": 1,
+    "mediumload": 53,
+    "pushordrag": 400,
+    "spellfailure": 0,
+    "state": "Heavy Load"
+  },
+  "exp": 0,
+  "expneeded": 0,
+  "featlist": {
+    "id-00001": {
+      "benefit": "<p>The bonuses and penalties from your bardic performance continue for 2 rounds after you cease performing. Any other requirement, such as range or specific conditions, must still be met for the effect to continue. If you begin a new bardic performance during this time, the effects of the previous performance immediately cease.</p>",
+      "name": "Lingering Performance",
+      "normal": "<p>-</p>",
+      "prerequisites": "Bardic performance class feature.",
+      "special": "<p>-</p>",
+      "summary": "Bardic performance continues for 2 rounds after you stop performing",
+      "type": "General"
+    },
+    "id-00002": {
+      "benefit": "<p>You get a +4 bonus on initiative checks.</p>",
+      "name": "Improved Initiative",
+      "normal": "<p>-</p>",
+      "prerequisites": "-",
+      "special": "<p>-</p>",
+      "summary": "+4 bonus on initiative checks",
+      "type": "Combat"
+    },
+    "id-00003": {
+      "benefit": "<p>You get a +2 bonus on all Will saving throws.</p>",
+      "name": "Iron Will",
+      "normal": "<p>-</p>",
+      "prerequisites": "-",
+      "special": "<p>-</p>",
+      "summary": "+2 bonus on Will saves",
+      "type": "General"
+    },
+    "id-00004": {
+      "benefit": "<p>You get a +1 bonus on attack and damage rolls with ranged weapons at ranges of up to 30 feet.</p>",
+      "name": "Point Blank Shot",
+      "normal": "<p>-</p>",
+      "prerequisites": "-",
+      "special": "<p>-</p>",
+      "summary": "+1 attack and damage on targets within 30 feet",
+      "type": "Combat"
+    }
+  },
+  "gender": "Female",
+  "height": "5'7\"",
+  "heropoint": 0,
+  "hp": {
+    "nonlethal": 0,
+    "temporary": 0,
+    "total": 65,
+    "wounds": 0
+  },
+  "initiative": {
+    "abilitymod": 4,
+    "misc": 0,
+    "temporary": 0,
+    "total": 4
+  },
+  "inventorylist": {
+    "id-00001": {
+      "bonus": 1,
+      "carried": 2,
+      "cl": 0,
+      "cost": "30 gp",
+      "count": 1,
+      "critical": "x3",
+      "damage": "1d6",
+      "damagetype": "Piercing",
+      "description": "<p>A shortbow is made up of one piece of wood, about 3 feet in length. You need two hands to use a bow, regardless of its size. You can use a shortbow while mounted. If you have a penalty for low Strength, apply it to damage rolls when you use a shortbow. If you have a bonus for high Strength, you can apply it to damage rolls when you use a composite shortbow, but not a regular shortbow.</p>",
+      "isidentified": 1,
+      "location": "Weapon 1",
+      "locked": 1,
+      "name": "+1 Shortbow",
+      "properties": "magic",
+      "range": 60,
+      "showonminisheet": 1,
+      "subtype": "Martial Ranged",
+      "type": "Weapon",
+      "weight": 2
+    },
+    "id-00002": {
+      "carried": 1,
+      "count": 20,
+      "location": "Quiver",
+      "name": "Arrow",
+      "showonminisheet": 1,
+      "weight": 0.5
+    },
+    "id-00003": {
+      "carried": 1,
+      "cost": "300 gp",
+      "count": 3,
+      "description": "<p>A potion is a magic liquid that produces its effect when imbibed. A potion can be used only once.</p>\n\t\t\t\t\t\t<p>A heavier draught, for wounds that have stopped being shallow.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Potion (Cure Moderate Wounds)",
+      "showonminisheet": 1,
+      "type": "Potion",
+      "weight": 0
+    },
+    "id-00004": {
+      "aura": "Faint conjuration",
+      "carried": 1,
+      "cl": 5,
+      "cost": "750 gp",
+      "count": 2,
+      "description": "<p>A potion is a magic liquid that produces its effect when imbibed. A potion can be used only once.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Potion of Cure Serious Wounds",
+      "nonid_name": "Magical Potion",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "type": "Potion",
+      "weight": 0
+    },
+    "id-00005": {
+      "ac": 2,
+      "aura": "Faint abjuration",
+      "bonus": 1,
+      "carried": 2,
+      "checkpenalty": 0,
+      "cl": 5,
+      "cost": "1,160 gp",
+      "count": 1,
+      "description": "<p>Leather armor is made up of pieces of hard boiled leather carefully sewn together.</p>",
+      "isidentified": 1,
+      "location": "Chest",
+      "locked": 1,
+      "maxstatbonus": 6,
+      "name": "+1 Leather",
+      "nonid_name": "Magical Leather",
+      "properties": "magic",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 20,
+      "speed30": 30,
+      "spellfailure": 10,
+      "subtype": "Light",
+      "type": "Armor",
+      "weight": 15
+    },
+    "id-00006": {
+      "aura": "Faint abjuration",
+      "carried": 2,
+      "cl": 5,
+      "cost": "4,000 gp",
+      "count": 1,
+      "description": "<p>These garments offer magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).</p>",
+      "isidentified": 1,
+      "location": "Back",
+      "locked": 1,
+      "name": "Cloak of Resistance +2",
+      "nonid_name": "Magical Cloak",
+      "prerequisites": "Craft Wondrous Item, resistance, creator's caster level must be at least three times the cloak's bonus",
+      "showonminisheet": 1,
+      "type": "Wondrous Item",
+      "weight": 1
+    },
+    "id-00007": {
+      "ac": 0,
+      "aura": "Moderate evocation",
+      "bonus": 1,
+      "carried": 2,
+      "checkpenalty": 0,
+      "cl": 8,
+      "cost": "8,320 gp",
+      "count": 1,
+      "critical": "18-20/x2",
+      "damage": "1d6",
+      "damagetype": "Piercing",
+      "description": "<p>You can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a rapier sized for you, even though it isn't a light weapon. You can't wield a rapier in two hands in order to apply 1-1/2 times your Strength bonus to damage.</p>",
+      "isidentified": 1,
+      "location": "Weapon 2",
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "+1 Frost Rapier",
+      "nonid_name": "Magical Rapier",
+      "properties": "magic, frost",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "subtype": "Martial One-Handed Melee",
+      "type": "Weapon",
+      "weight": 0
+    },
+    "id-00008": {
+      "ac": 0,
+      "bonus": 0,
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 1,
+      "checkpenalty": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "1,165 gp",
+      "cost_visibility": 0,
+      "count": 1,
+      "depth": 0,
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "Weapon 2",
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "+1 Buckler",
+      "nonid_name": "Magical Buckler",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "subtype": "Armor (Shield)",
+      "type": "Armor (Shield)",
+      "volume": 0,
+      "weight": 0,
+      "width": 0
+    },
+    "id-00009": {
+      "ac": 0,
+      "aura": "Faint abjuration",
+      "bonus": 0,
+      "carried": 1,
+      "checkpenalty": 0,
+      "cl": 5,
+      "cost": "2,000 gp",
+      "count": 1,
+      "description": "<p>This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.</p>",
+      "isidentified": 1,
+      "location": "Finger",
+      "locked": 1,
+      "max_charges": 1,
+      "maxstatbonus": 0,
+      "name": "Ring of Protection +1",
+      "nonid_name": "Magical Ring",
+      "prerequisites": "Forge Ring, shield of faith, caster must be of a level at least three times greater than the bonus of the ring",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spell_caster_level": "item_caster_level",
+      "spellfailure": 0,
+      "type": "Ring",
+      "weight": 0
+    },
+    "id-00010": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 1,
+      "cl": 0,
+      "contentscount": 0,
+      "contentsvolume": 0,
+      "cost": "8,000 gp",
+      "cost_visibility": 0,
+      "count": 1,
+      "depth": 0,
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "Neck",
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Amulet of Natural Armor +2",
+      "nonid_name": "Magical Amulet",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "subtype": "Wondrous Item",
+      "type": "Wondrous Item",
+      "volume": 0,
+      "weight": 0,
+      "width": 0
+    },
+    "id-00011": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 1,
+      "cl": 3,
+      "contentsvolume": 0,
+      "cost": "300 gp",
+      "cost_visibility": 0,
+      "count": 1,
+      "depth": 0,
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Wand of Shield (20 charges)",
+      "nonid_name": "Magical Wand",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "subtype": "Wondrous Item",
+      "type": "Wondrous Item",
+      "volume": 0,
+      "weight": 0,
+      "width": 0
+    },
+    "id-00012": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 1,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "4,000 gp",
+      "cost_visibility": 0,
+      "count": 1,
+      "depth": 0,
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "Head",
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Headband of Alluring Charisma +2",
+      "nonid_name": "Magical Headband",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "subtype": "Wondrous Item",
+      "type": "Wondrous Item",
+      "volume": 0,
+      "weight": 0,
+      "width": 0
+    },
+    "id-00013": {
+      "carried": 1,
+      "cost": "20 gp",
+      "count": 2,
+      "description": "<p>You can throw a flask of alchemist's fire as a splash weapon. Treat this attack as a ranged touch attack with a range increment of 10 feet.</p>\n\t\t\t\t\t\t<p>A direct hit deals 1d6 points of fire damage. Every creature within 5 feet of the point where the flask hits takes 1 point of fire damage from the splash. On the round following a direct hit, the target takes an additional 1d6 points of damage. If desired, the target can use a full-round action to attempt to extinguish the f lames before taking this additional damage. Extinguishing the f lames requires a DC 15 Reflex save. Rolling on the ground provides the target a +2 bonus on the save. Leaping into a lake or magically extinguishing the flames automatically smothers the fire.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Alchemist's Fire",
+      "showonminisheet": 1,
+      "subtype": "Special Substances and Items",
+      "type": "Goods and Services",
+      "weight": 1
+    },
+    "id-00014": {
+      "carried": 1,
+      "cost": "200 gp",
+      "count": 1,
+      "description": "<p>An alchemist's lab always has the perfect tool for making alchemical items, so it provides a +2 circumstance bonus on Craft (alchemy) checks. It has no bearing on the costs related to the Craft (alchemy) skill. Without this lab, a character with the Craft (alchemy) skill is assumed to have enough tools to use the skill but not enough to get the +2 bonus that the lab provides.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Alchemist's Lab",
+      "showonminisheet": 1,
+      "subtype": "Tools and Skill Kits",
+      "type": "Goods and Services",
+      "weight": 40
+    },
+    "id-00015": {
+      "carried": 1,
+      "cost": "100 gp",
+      "count": 1,
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Amethyst",
+      "showonminisheet": 1,
+      "subtype": "Gem",
+      "type": "Wealth",
+      "weight": 0
+    },
+    "id-00016": {
+      "carried": 1,
+      "cost": "110 gp",
+      "count": 1,
+      "description": "<p>This otherwise normal torch has a continual flame spell cast on it. This causes it to shed light like an ordinary torch, but it does not emit heat or deal fire damage if used as a weapon.</p>\n\t\t\t\t\t\t<p>A brand fixed with a cold, tireless light that neither smokes nor gutters.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Everburning Torch",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "subtype": "Special Substances and Items",
+      "type": "Goods and Services",
+      "weight": 1
+    }
+  },
+  "languagelist": {
+    "id-00001": {
+      "name": "Common"
+    },
+    "id-00002": {
+      "name": "Elven"
+    }
+  },
+  "level": 8,
+  "locked": 1,
+  "mythic": {
+    "nexttier": {
+      "abilities": "+1",
+      "bonus": "-",
+      "feats": "+1"
+    },
+    "powerbase": 0,
+    "surgedie": "-",
+    "thistier": {
+      "abilities": "0",
+      "bonus": "-",
+      "feats": "0"
+    },
+    "trials": {
+      "needed": 0
+    }
+  },
+  "name": "Mira Thistledance",
+  "notes": "Mira Thistledance came to Drezen on the heels of a story that wouldn’t stop traveling—an elven scout who climbed out of death itself, outsmarted the citadel’s traps, and raised the Sword of Valor where demons once ruled. To a devotee of Desna, that wasn’t just heroism; it was a sign. Mira had spent years moving between caravans, taverns, and war camps, learning how to turn rumor into morale and coin into supplies. When the crusade reclaimed Drezen, she saw the city’s next battle wouldn’t be fought only with steel, but with steadier roads, honest trade, and people who believed tomorrow was possible.\\n\\nSo she volunteered to Lupenor and Horgus Gworm: let her rebuild the mercantile district and make it sing again—safe stalls, clean contracts, and a quiet web of informants to keep demon-blood and cult rot out of the markets. Lupenor earned her loyalty the Desnan way: not by command, but by surviving the impossible and still choosing mercy. Mira calls it “good luck with teeth,” and she intends to keep that luck fed, armed, and smiling—whether from behind a ledger in Drezen or at Lupenor’s side on a road that needs a little starlight.",
+  "portrait": "portraits/Untitled.png",
+  "proficiencylist": {
+    "id-00001": {
+      "locked": 0,
+      "name": "Weapon Proficinecy - Bard Weapons",
+      "text": "<p>Proficient with Simple Weapons, Longsword, Rapier, Sap, Short Sword, Shortbow, and Whip.</p>"
+    },
+    "id-00002": {
+      "name": "Armor Proficiency",
+      "text": "<p>Proficent in Light Armor, Light Shield, and Heavy Shields</p>"
+    },
+    "id-00003": {
+      "level": 1,
+      "locked": 1,
+      "name": "Spells",
+      "source": "Mira Thistledance",
+      "text": "<p>A bard casts arcane spells drawn from the bard spell list presented in Spell Lists. He can cast any spell he knows without preparing it ahead of time. Every bard spell has a verbal component (song, recitation, or music). To learn or cast a spell, a bard must have a Charisma score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a bard's spell is 10 + the spell level + the bard's Charisma modifier.</p>\n\t\t\t\t\t\t<p>Like other spellcasters, a bard can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given on the provided table. In addition, he receives bonus spells per day if he has a high Charisma score (see Ability Modifiers and Bonus Spells).</p>\n\t\t\t\t\t\t<p>The bard's selection of spells is extremely limited. A bard begins play knowing four 0-level spells and two 1st-level spells of the bard's choice. At each new bard level, he gains one or more new spells, as indicated on the Table, Bard Spells Known. (Unlike spells per day, the number of spells a bard knows is not affected by his Charisma score. The numbers on the Bard Spells Known Table are fixed.)</p>\n\t\t\t\t\t\t<p>Upon reaching 5th level, and at every third bard level after that (8th, 11th, and so on), a bard can choose to learn a new spell in place of one he already knows. In effect, the bard \"loses\" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level bard spell the bard can cast. A bard may swap only a single spell at any given level and must choose whether or not to swap the spell at the same time that he gains new spells known for the level.</p>\n\t\t\t\t\t\t<p>A bard need not prepare his spells in advance. He can cast any spell he knows at any time, assuming he has not yet used up his allotment of spells per day for the spell's level.</p>"
+    },
+    "id-00004": {
+      "level": 1,
+      "locked": 1,
+      "name": "Cantrips",
+      "source": "Mira Thistledance",
+      "text": "<p>Bards learn a number of cantrips, or 0-level spells, as noted on the Bard Spells Known Table under \"Spells Known.\" These spells are cast like any other spell, but they do not consume any slots and may be used again.</p>"
+    }
+  },
+  "race": "Half-Elf",
+  "racelink": {
+    "class": "referencerace",
+    "recordname": "reference.races.halfelf@Pathfinder Core Rules"
+  },
+  "saves": {
+    "fortitude": {
+      "abilitymod": 3,
+      "base": 2,
+      "misc": 2,
+      "temporary": 0,
+      "total": 7
+    },
+    "reflex": {
+      "abilitymod": 4,
+      "base": 6,
+      "misc": 2,
+      "temporary": 0,
+      "total": 12
+    },
+    "will": {
+      "abilitymod": 0,
+      "base": 6,
+      "misc": 4,
+      "temporary": 0,
+      "total": 10
+    }
+  },
+  "senses": "Low-Light Vision",
+  "size": "Medium",
+  "skilllist": {
+    "id-00001": {
+      "armorcheckmultiplier": 1,
+      "label": "Acrobatics",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "dexterity",
+      "total": 4
+    },
+    "id-00002": {
+      "armorcheckmultiplier": 0,
+      "label": "Appraise",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 1,
+      "state": 1,
+      "statname": "intelligence",
+      "total": 1
+    },
+    "id-00003": {
+      "armorcheckmultiplier": 0,
+      "label": "Bluff",
+      "misc": 0,
+      "ranks": 8,
+      "showonminisheet": 1,
+      "stat": 7,
+      "state": 1,
+      "statname": "charisma",
+      "total": 18
+    },
+    "id-00004": {
+      "armorcheckmultiplier": 1,
+      "label": "Climb",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": -1,
+      "state": 1,
+      "statname": "strength",
+      "total": -1
+    },
+    "id-00005": {
+      "armorcheckmultiplier": 0,
+      "label": "Craft",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 1,
+      "state": 1,
+      "statname": "intelligence",
+      "total": 1
+    },
+    "id-00006": {
+      "armorcheckmultiplier": 0,
+      "label": "Diplomacy",
+      "misc": 0,
+      "ranks": 8,
+      "showonminisheet": 1,
+      "stat": 7,
+      "state": 1,
+      "statname": "charisma",
+      "total": 18
+    },
+    "id-00007": {
+      "armorcheckmultiplier": 0,
+      "label": "Disguise",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 7,
+      "state": 1,
+      "statname": "charisma",
+      "total": 7
+    },
+    "id-00008": {
+      "armorcheckmultiplier": 1,
+      "label": "Escape Artist",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "dexterity",
+      "total": 4
+    },
+    "id-00009": {
+      "armorcheckmultiplier": 0,
+      "label": "Intimidate",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 7,
+      "state": 0,
+      "statname": "charisma",
+      "total": 7
+    },
+    "id-00010": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 3,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 1,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Local",
+      "total": 4
+    },
+    "id-00011": {
+      "armorcheckmultiplier": 0,
+      "label": "Linguistics",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 1,
+      "state": 1,
+      "statname": "intelligence",
+      "total": 1
+    },
+    "id-00012": {
+      "armorcheckmultiplier": 0,
+      "label": "Perception",
+      "misc": 2,
+      "ranks": 8,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 1,
+      "statname": "wisdom",
+      "total": 13
+    },
+    "id-00013": {
+      "armorcheckmultiplier": 0,
+      "label": "Perform",
+      "misc": 0,
+      "ranks": 6,
+      "showonminisheet": 1,
+      "stat": 7,
+      "state": 1,
+      "statname": "charisma",
+      "sublabel": "String Instruments",
+      "total": 16
+    },
+    "id-00014": {
+      "armorcheckmultiplier": 0,
+      "label": "Profession",
+      "misc": 0,
+      "ranks": 6,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 0,
+      "statname": "wisdom",
+      "sublabel": "Merchant",
+      "total": 6
+    },
+    "id-00015": {
+      "armorcheckmultiplier": 0,
+      "label": "Sense Motive",
+      "misc": 0,
+      "ranks": 7,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 1,
+      "statname": "wisdom",
+      "total": 10
+    },
+    "id-00016": {
+      "armorcheckmultiplier": 1,
+      "label": "Sleight of Hand",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "dexterity",
+      "total": 4
+    },
+    "id-00017": {
+      "armorcheckmultiplier": 0,
+      "label": "Spellcraft",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 1,
+      "state": 1,
+      "statname": "intelligence",
+      "total": 1
+    },
+    "id-00018": {
+      "armorcheckmultiplier": 1,
+      "label": "Stealth",
+      "misc": 0,
+      "ranks": 8,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 12
+    },
+    "id-00019": {
+      "armorcheckmultiplier": 0,
+      "label": "Use Magic Device",
+      "misc": 0,
+      "ranks": 7,
+      "showonminisheet": 0,
+      "stat": 7,
+      "state": 1,
+      "statname": "charisma",
+      "total": 17
+    },
+    "id-00020": {
+      "armorcheckmultiplier": 1,
+      "label": "Fly",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 4
+    },
+    "id-00021": {
+      "armorcheckmultiplier": 1,
+      "label": "Disable Device",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 4,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 4
+    },
+    "id-00022": {
+      "armorcheckmultiplier": 0,
+      "label": "Handle Animal",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 7,
+      "state": 0,
+      "statname": "charisma",
+      "total": 7
+    },
+    "id-00023": {
+      "armorcheckmultiplier": 1,
+      "label": "Swim",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": -1,
+      "state": 0,
+      "statname": "strength",
+      "total": -1
+    },
+    "id-00024": {
+      "armorcheckmultiplier": 0,
+      "label": "Survival",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 0,
+      "statname": "wisdom",
+      "total": 0
+    },
+    "id-00025": {
+      "armorcheckmultiplier": 1,
+      "label": "Ride",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 4
+    },
+    "id-00026": {
+      "armorcheckmultiplier": 0,
+      "label": "Heal",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 0,
+      "statname": "wisdom",
+      "total": 0
+    },
+    "id-00028": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 3,
+      "ranks": 5,
+      "showonminisheet": 1,
+      "stat": 1,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Planes",
+      "total": 12
+    }
+  },
+  "skillpoints": {
+    "spent": 63
+  },
+  "specialabilitylist": {
+    "id-00001": {
+      "level": 1,
+      "locked": 1,
+      "name": "Bardic knowledge",
+      "source": "Bard",
+      "text": "<p>A bard adds half his class level (minimum 1) to all Knowledge skill checks and may make all Knowledge skill checks untrained.</p>"
+    },
+    "id-00002": {
+      "level": 1,
+      "locked": 1,
+      "name": "Bardic performance",
+      "source": "Bard",
+      "text": "<p>A bard is trained to use the Perform skill to create magical effects on those around him, including himself if desired. He can use this ability for a number of rounds per day equal to 4 + his Charisma modifier. At each level after 1st a bard can use bardic performance for 2 additional rounds per day. Each round, the bard can produce any one of the types of bardic performance that he has mastered, as indicated by his level.</p>\n\t\t\t\t\t\t<p>Starting a bardic performance is a standard action, but it can be maintained each round as a free action. Changing a bardic performance from one effect to another requires the bard to stop the previous performance and start a new one as a standard action. A bardic performance cannot be disrupted, but it ends immediately if the bard is killed, paralyzed, stunned, knocked unconscious, or otherwise prevented from taking a free action to maintain it each round. A bard cannot have more than one bardic performance in effect at one time.</p>\n\t\t\t\t\t\t<p>At 7th level, a bard can start a bardic performance as a move action instead of a standard action. At 13th level, a bard can start a bardic performance as a swift action.</p>\n\t\t\t\t\t\t<p>Each bardic performance has audible components, visual components, or both.</p>\n\t\t\t\t\t\t<p>If a bardic performance has audible components, the targets must be able to hear the bard for the performance to have any effect, and such performances are language dependent. A deaf bard has a 20% chance to fail when attempting to use a bardic performance with an audible component. If he fails this check, the attempt still counts against his daily limit. Deaf creatures are immune to bardic performances with audible components.</p>\n\t\t\t\t\t\t<p>If a bardic performance has a visual component, the targets must have line of sight to the bard for the performance to have any effect. A blind bard has a 50% chance to fail when attempting to use a bardic performance with a visual component. If he fails this check, the attempt still counts against his daily limit. Blind creatures are immune to bardic performances with visual components.</p>"
+    },
+    "id-00003": {
+      "level": 8,
+      "link": {
+        "class": "referenceclassability",
+        "recordname": null
+      },
+      "locked": 1,
+      "name": "Dirge of doom",
+      "source": "Bard",
+      "text": "<p>A bard of 8th level or higher can use his performance to foster a sense of growing dread in his enemies, causing them to become shaken. To be affected, an enemy must be within 30 feet and able to see and hear the bard's performance. The effect persists for as long as the enemy is within 30 feet and the bard continues his performance. This performance cannot cause a creature to become frightened or panicked, even if the targets are already shaken from another effect. Dirge of doom is a mind-affecting fear effect, and it relies on audible and visual components.</p>"
+    },
+    "id-00004": {
+      "level": 1,
+      "locked": 1,
+      "name": "Countersong",
+      "source": "Bard",
+      "text": "<p>At 1st level, a bard learns to counter magic effects that depend on sound (but not spells that have verbal components). Each round of the countersong he makes a Perform (keyboard, percussion, wind, string, or sing) skill check. Any creature within 30 feet of the bard (including the bard himself) that is affected by a sonic or language-dependent magical attack may use the bard's Perform check result in place of its saving throw if, after the saving throw is rolled, the Perform check result proves to be higher. If a creature within range of the countersong is already under the effect of a noninstantaneous sonic or language-dependent magical attack, it gains another saving throw against the effect each round it hears the countersong, but it must use the bard's Perform skill check result for the save. Countersong does not work on effects that don't allow saves. Countersong relies on audible components.</p>"
+    },
+    "id-00005": {
+      "level": 1,
+      "locked": 1,
+      "name": "Distraction",
+      "source": "Bard",
+      "text": "<p>At 1st level, a bard can use his performance to counter magic effects that depend on sight. Each round of the distraction, he makes a Perform (act, comedy, dance, or oratory) skill check. Any creature within 30 feet of the bard (including the bard himself) that is affected by an illusion (pattern) or illusion (figment) magical attack may use the bard's Perform check result in place of its saving throw if, after the saving throw is rolled, the Perform skill check proves to be higher. If a creature within range of the distraction is already under the effect of a noninstantaneous illusion (pattern) or illusion (figment) magical attack, it gains another saving throw against the effect each round it sees the distraction, but it must use the bard's Perform skill check result for the save. Distraction does not work on effects that don't allow saves. Distraction relies on visual components.</p>"
+    },
+    "id-00006": {
+      "level": 1,
+      "locked": 1,
+      "name": "Fascinate",
+      "source": "Bard",
+      "text": "<p>At 1st level, a bard can use his performance to cause one or more creatures to become fascinated with him. Each creature to be fascinated must be within 90 feet, able to see and hear the bard, and capable of paying attention to him. The bard must also be able to see the creatures affected. The distraction of a nearby combat or other dangers prevents this ability from working. For every three levels the bard has attained beyond 1st, he can target one additional creature with this ability.</p>\n\t\t\t\t\t\t<p>Each creature within range receives a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier) to negate the effect. If a creature's saving throw succeeds, the bard cannot attempt to fascinate that creature again for 24 hours. If its saving throw fails, the creature sits quietly and observes the performance for as long as the bard continues to maintain it. While fascinated, a target takes a -4 penalty on all skill checks made as reactions, such as Perception checks. Any potential threat to the target allows the target to make a new saving throw against the effect. Any obvious threat, such as someone drawing a weapon, casting a spell, or aiming a weapon at the target, automatically breaks the effect.</p>\n\t\t\t\t\t\t<p>Fascinate is an enchantment (compulsion), mind-affecting ability. Fascinate relies on audible and visual components in order to function.</p>"
+    },
+    "id-00007": {
+      "level": 1,
+      "locked": 1,
+      "name": "Inspire courage (+2)",
+      "source": "Bard",
+      "text": "<p>A 1st-level bard can use his performance to inspire courage in his allies (including himself), bolstering them against fear and improving their combat abilities. To be affected, an ally must be able to perceive the bard's performance. An affected ally receives a +1 morale bonus on saving throws against charm and fear effects and a +1 competence bonus on attack and weapon damage rolls. At 5th level, and every six bard levels thereafter, this bonus increases by +1, to a maximum of +4 at 17th level. Inspire courage is a mind-affecting ability. Inspire courage can use audible or visual components. The bard must choose which component to use when starting his performance.</p>"
+    },
+    "id-00010": {
+      "level": 2,
+      "locked": 1,
+      "name": "Well-versed",
+      "source": "Bard",
+      "text": "<p>At 2nd level, the bard becomes resistant to the bardic performance of others, and to sonic effects in general. The bard gains a +4 bonus on saving throws made against bardic performance, sonic, and language-dependent effects.</p>"
+    },
+    "id-00011": {
+      "level": 3,
+      "locked": 1,
+      "name": "Inspire competence (+3)",
+      "source": "Bard",
+      "text": "<p>A bard of 3rd level or higher can use his performance to help an ally succeed at a task. That ally must be within 30 feet and be able to hear the bard. The ally gets a +2 competence bonus on skill checks with a particular skill as long as she continues to hear the bard's performance. This bonus increases by +1 for every four levels the bard has attained beyond 3rd (+3 at 7th, +4 at 11th, +5 at 15th, and +6 at 19th). Certain uses of this ability are infeasible, such as Stealth, and may be disallowed at the GM's discretion. A bard can't inspire competence in himself. Inspire competence relies on audible components.</p>"
+    },
+    "id-00012": {
+      "level": 5,
+      "locked": 1,
+      "name": "Lore master (1/day)",
+      "source": "Bard",
+      "text": "<p>At 5th level, the bard becomes a master of lore and can take 10 on any Knowledge skill check that he has ranks in. A bard can choose not to take 10 and can instead roll normally. In addition, once per day, the bard can take 20 on any Knowledge skill check as a standard action. He can use this ability one additional time per day for every six levels he possesses beyond 5th, to a maximum of three times per day at 17th level.</p>"
+    },
+    "id-00013": {
+      "level": 6,
+      "locked": 1,
+      "name": "Suggestion",
+      "source": "Bard",
+      "text": "<p>A bard of 6th level or higher can use his performance to make a <i>suggestion </i>(as per the spell) to a creature he has already fascinated (see above). Using this ability does not disrupt the fascinate effect, but it does require a standard action to activate (in addition to the free action to continue the fascinate effect). A bard can use this ability more than once against an individual creature during an individual performance.</p>\n\t\t\t\t\t\t<p>Making a <i>suggestion </i>does not count against a bard's daily use of bardic performance. A Will saving throw (DC 10 + 1/2 the bard's level + the bard's Cha modifier) negates the effect. This ability affects only a single creature. <i>Suggestion </i>is an enchantment (compulsion), mind affecting, language-dependent ability and relies on audible components.</p>"
+    },
+    "id-00014": {
+      "name": "Versatile Preformance - Oratory",
+      "text": "<p>At 2nd level can choose a type of Preform Skill. He uses his bonus in that skill in place of his bonus in associated skill. Whne substituting in this way, the Bard uses his Preform skill in place of the skill bonus. At 6th level, and every 4 levels after, he adds on</p>\n\t\t\t\t\t\t<p>e more preformance.</p>\n\t\t\t\t\t\t<p>Oratory - Diplomancy, Sense Motive</p>",
+      "type": "Class Feature"
+    },
+    "id-00015": {
+      "name": "Versitile Preformance - Sing",
+      "text": "<p>At 2nd level can choose a type of Preform Skill. He uses his bonus in that skill in place of his bonus in associated skill. Whne substituting in this way, the Bard uses his Preform skill in place of the skill bonus. At 6th level, and every 4 levels after, he adds one more preformance.</p>\n\t\t\t\t\t\t<p>Sing - Bluff, Sense Motive</p>"
+    }
+  },
+  "speed": {
+    "armor": 0,
+    "base": 30,
+    "fastmovement": 0,
+    "final": 30,
+    "misc": 0,
+    "temporary": 0,
+    "total": 30
+  },
+  "spellmode": "standard",
+  "spellset": {
+    "id-00001": {
+      "availablelevel0": 3,
+      "availablelevel1": 6,
+      "availablelevel2": 6,
+      "availablelevel3": 3,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "castertype": "spontaneous",
+      "cc": {
+        "misc": 0
+      },
+      "cl": 8,
+      "dc": {
+        "ability": "charisma",
+        "abilitymod": 7,
+        "misc": 0,
+        "total": 17
+      },
+      "label": "Bard",
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 0,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 0,
+              "description": "You detect magical auras. The amount of information revealed depends on how long you study a particular area or subject.\\n\\n1st Round: Presence or absence of magical auras.\\n\\n2nd Round: Number of different magical auras and the power of the most potent aura.\\n\\n3rd Round: The strength and location of each aura. If the items or creatures bearing the auras are in line of sight, you can make Knowledge (Arcana) skill checks to determine the school of magic involved in each. (Make one check per aura; DC 15 + spell level, or 15 + half caster level for a nonspell effect.) If the aura eminates from a magic item, you can attempt to identify its properties (see Spellcraft).\\n\\nMagical areas, multiple types of magic, or strong local magical emanations may distort or conceal weaker auras.\\n\\nAura Strength: An aura's power depends on a spell's functioning spell level or an item's caster level. If an aura falls into more than one category, detect magic indicates the stronger of the two.\\n\\n[] [Aura Power]\\n[Source] [Faint] [Moderate] [Strong] [Overwhelming]\\n[Functioning spell (spell level)] [3rd or lower] [4th-6th] [7th-9th] [10th+ (deity-level)]\\n[Magic item (caster level)] [5th or lower] [6th-11th] [12th-20th] [21st+ (artifact)]\\n\\nLingering Aura: A magical aura lingers after its original source dissipates (in the case of a spell) or is destroyed (in the case of a magic item). If detect magic is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power:\\n\\n[Original Strength] [Duration of Lingering Aura]\\n[Faint] [1d6 rounds]\\n[Moderate] [1d6 minutes]\\n[Strong] [1d6x10 minutes]\\n[Overwhelming] [1d6 days]\\n\\nOutsiders and elementals are not magical in themselves, but if they are summoned, the conjuration spell registers. Each round, you can turn to detect magic in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.\\n\\nDetect magic can be made permanent with a permanency spell.",
+              "duration": "Concentration, up to 1 min./level (D)",
+              "effect": "Cone-shaped emanation",
+              "level": "Brd 0, Clr 0, Drd 0, Sor/Wiz 0",
+              "linkedspells": "",
+              "name": "Detect Magic",
+              "range": "60 ft.",
+              "save": "None",
+              "school": "Divination",
+              "shortdescription": "Detects spells and magic items within 60 ft.",
+              "sr": "No"
+            },
+            "id-00002": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "savetype": "will",
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "durmult": 1,
+                  "order": 2,
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 0,
+              "description": "Any creature within the area that fails a Will save becomes drowsy and inattentive, taking a -5 penalty on Listen and Spot checks and a -2 penalty on Will saves against sleep effects while the lullaby is in effect. Lullaby lasts for as long as the caster concentrates, plus up to 1 round per caster level thereafter.",
+              "duration": "Concentration + 1 round/level (D)",
+              "effect": "Living creatures within a 10-ft.-radius burst",
+              "level": "Brd 0",
+              "linkedspells": "",
+              "name": "Lullaby",
+              "range": "Medium (100 ft. + 10 ft./level)",
+              "save": "Will negates",
+              "school": "Enchantment (Compulsion) [Mind-Affecting]",
+              "shortdescription": "Makes subject drowsy; -5 on Spot and Listen checks, -2 on Will saves against Sleep.",
+              "sr": "Yes"
+            },
+            "id-00003": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 0,
+              "description": "Prestidigitations are minor tricks that novice spellcasters use for practice. Once cast, a prestidigitation spell enables you to perform simple magical effects for 1 hour. The effects are minor and have severe limitations. A prestidigitation can slowly lift 1 pound of material. It can color, clean, or soil items in a 1-foot cube each round. It can chill, warm, or flavor 1 pound of nonliving material. It cannot deal damage or affect the concentration of spellcasters. Prestidigitation can create small objects, but they look crude and artificial. The materials created by a prestidigitation spell are extremely fragile, and they cannot be used as tools, weapons, or spell components. Finally, a prestidigitation lacks the power to duplicate any other spell effects. Any actual change to an object (beyond just moving, cleaning, or soiling it) persists only 1 hour.",
+              "duration": "1 hour",
+              "effect": "See text",
+              "level": "Brd 0, Sor/Wiz 0",
+              "linkedspells": "",
+              "name": "Prestidigitation",
+              "range": "10 ft.",
+              "save": "See text",
+              "school": "Universal",
+              "shortdescription": "Performs minor tricks.",
+              "sr": "No"
+            },
+            "id-00004": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "durmod": 1,
+                  "durmult": 1,
+                  "durunit": "minute",
+                  "label": "Resistance; SAVES: 1 resistance",
+                  "order": 2,
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M/DF",
+              "cost": 0,
+              "description": "You imbue the subject with magical energy that protects it from harm, granting it a +1 resistance bonus on saves.\\n\\nResistance can be made permanent with a permanency spell.\\n\\nArcane Material Component: A miniature cloak.",
+              "duration": "1 minute",
+              "effect": "Creature touched",
+              "level": "Brd 0, Clr 0, Drd 0, Pal 1, Sor/Wiz 0",
+              "linkedspells": "",
+              "name": "Resistance",
+              "range": "Touch",
+              "save": "Will negates (harmless)",
+              "school": "Abjuration",
+              "shortdescription": "Subject gains +1 bonus on saving throws.",
+              "sr": "Yes (harmless)"
+            },
+            "id-00005": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 round",
+              "components": "V, S",
+              "cost": 0,
+              "description": "This spell summons one handheld musical instrument of your choice. This instrument appears in your hands or at your feet (your choice). The instrument is typical for its type. Only one instrument appears per casting, and it will play only for you. You can't summon an instrument too large to be held in two hands. The summoned instrument disappears at the end of this spell.",
+              "duration": "1 min./level (D)",
+              "effect": "One summoned handheld musical instrument",
+              "level": "Brd 0",
+              "linkedspells": "",
+              "name": "Summon Instrument",
+              "range": "0 ft.",
+              "save": "None",
+              "school": "Conjuration (Summoning)",
+              "shortdescription": "Summons one musical instrument.",
+              "sr": "No"
+            },
+            "id-00006": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 0,
+              "description": "This spell repairs damaged objects, restoring 1d4 hit points to the object. If the object has the broken condition, this condition is removed if the object is restored to at least half its original hit points. All of the pieces of an object must be present for this spell to function. Magic items can be repaired by this spell, but you must have a caster level equal to or higher than that of the object. Magic items that are destroyed (at 0 hit points or less) can be repaired with this spell, but this spell does not restore their magic abilities. This spell does not affect creatures (including constructs). This spell has no effect on objects that have been warped or otherwise transmuted, but it can still repair damage done to such items.",
+              "duration": "Instantaneous",
+              "effect": "One object of up to 1 lb.",
+              "level": "Brd 0, Clr 0, Drd 0, Sor/Wiz 0",
+              "linkedspells": "",
+              "name": "Mending",
+              "range": "10 ft.",
+              "save": "Will negates (harmless, object)",
+              "school": "Transmutation",
+              "shortdescription": "Makes minor repairs on an object.",
+              "sr": "Yes (harmless, object)"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 0,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M (butter)",
+              "cost": 1,
+              "description": "A grease spell covers a solid surface with a layer of slippery grease. Any creature in the area when the spell is cast must make a successful Reflex save or fall. A creature can walk within or through the area of grease at half normal speed with a DC 10 Acrobatics check. Failure means it can't move that round (and must then make a Reflex save or fall), while failure by 5 or more means it falls (see the Acrobatics skill for details). Creatures that do not move on their turn do not need to make this check and are not considered flat-footed.\\n\\nThe spell can also be used to create a greasy coating on an item. Material objects not in use are always affected by this spell, while an object wielded or employed by a creature requires its bearer to make a Reflex saving throw to avoid the effect. If the initial saving throw fails, the creature immediately drops the item. A saving throw must be made in each round that the creature attempts to pick up or use the greased item. A creature wearing greased armor or clothing gains a +10 circumstance bonus on Escape Artist checks and combat maneuver checks made to escape a grapple, and to their CMD to avoid being grappled.",
+              "duration": "1 min./level (D)",
+              "effect": "One object or a 10-ft. square",
+              "level": "Brd 1, Sor/Wiz 1",
+              "linkedspells": "",
+              "name": "Grease",
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "See text",
+              "school": "Conjuration (Creation)",
+              "shortdescription": "Makes 10-ft. square or one object slippery.",
+              "sr": "No"
+            },
+            "id-00002": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "savetype": "will",
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "durmult": 1,
+                  "durstat": "cl",
+                  "label": "Hideous Laughter; Prone; Paralyzed; Flat-footed",
+                  "order": 2,
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M",
+              "cost": 1,
+              "description": "This spell afflicts the subject with uncontrollable laughter. It collapses into gales of manic laughter, falling prone. The subject can take no actions while laughing, but is not considered helpless. After the spell ends, it can act normally.\\n\\nA creature with an Intelligence score of 2 or lower is not affected. A creature whose type is different from the caster's receives a +4 bonus on its saving throw, because humor doesn't \"translate\" well.\\n\\nMaterial Component: Tiny tarts that are thrown at the target and a feather that is waved in the air.",
+              "duration": "1 round/level",
+              "effect": "One creature; see text",
+              "level": "Brd 1, Sor/Wiz 2",
+              "linkedspells": "",
+              "name": "Hideous Laughter",
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "Will negates",
+              "school": "Enchantment (Compulsion) [Mind-Affecting]",
+              "shortdescription": "Subject loses actions for 1 round/ level.",
+              "sr": "Yes"
+            },
+            "id-00003": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "durmod": 1,
+                  "durmult": 1,
+                  "label": "Confused",
+                  "order": 2,
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "components": "V, S, DF",
+              "cost": 1,
+              "description": "This spell causes a single creature to become confused for 1 round.",
+              "duration": "1 round",
+              "effect": "One living creature",
+              "level": "Brd 1",
+              "linkedspells": "",
+              "name": "Confusion, Lesser",
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "school": "Enchantment (Compulsion) [Mind-Affecting]",
+              "shortdescription": "Confuse 1 creature."
+            },
+            "id-00004": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "heallist": {
+                    "id-00001": {
+                      "dice": "d8",
+                      "stat": "cl",
+                      "statmax": 5,
+                      "statmult": 1
+                    }
+                  },
+                  "order": 2,
+                  "type": "heal"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage.",
+              "duration": "Instantaneous",
+              "effect": "Creature touched",
+              "level": "Brd 1, Clr 1, Drd 1, Pal 1, Rgr 2",
+              "linkedspells": "",
+              "name": "Cure Light Wounds",
+              "range": "Touch",
+              "save": "Will half (harmless); see text",
+              "school": "Conjuration (Healing)",
+              "shortdescription": "Heal 1d8 (+1 per CL, max 5)",
+              "sr": "Yes (harmless); see text"
+            },
+            "id-00005": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M (wine stirred with an owl's feather)",
+              "cost": 1,
+              "description": "This spell functions as detect magic, except that it gives you a +10 enhancement bonus on Spellcraft checks made to identify the properties and command words of magic items in your possession. This spell does not allow you to identify artifacts.\\n\\n*Detect Magic",
+              "duration": "3 rounds/level (D)",
+              "effect": "Cone-shaped emanation",
+              "level": "Brd 1, Sor/Wiz 1",
+              "linkedspells": {
+                "id-00001": {
+                  "link": {
+                    "class": "spelldesc",
+                    "recordname": "spelldesc.detectmagic@PFRPG Spells"
+                  },
+                  "linkedname": "Detect Magic"
+                }
+              },
+              "name": "Identify",
+              "range": "60 ft.",
+              "save": "None",
+              "school": "Divination",
+              "shortdescription": "Gives +10 bonus to identify magic items.",
+              "sr": "No"
+            },
+            "id-00006": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 free action",
+              "components": "V",
+              "cost": 1,
+              "description": "The affected creatures or objects fall slowly. Feather fall instantly changes the rate at which the targets fall to a mere 60 feet per round (equivalent to the end of a fall from a few feet), and the subjects take no damage upon landing while the spell is in effect. However, when the spell duration expires, a normal rate of falling resumes.\\n\\nThe spell affects one or more Medium or smaller creatures (including gear and carried objects up to each creature's maximum load) or objects, or the equivalent in larger creatures: A Large creature or object counts as two Medium creatures or objects, a Huge creature or object counts as two Large creatures or objects, and so forth.\\n\\nYou can cast this spell with an instant utterance, quickly enough to save yourself if you unexpectedly fall. Casting the spell is a free action, like casting a quickened spell, and it counts toward the normal limit of one quickened spell per round. You may even cast this spell when it isn't your turn.\\n\\nThis spell has no special effect on ranged weapons unless they are falling quite a distance. If the spell is cast on a falling item the object does half normal damage based on its weight, with no bonus for the height of the drop.\\n\\nFeather fall works only upon free-falling objects. It does not affect a sword blow or a charging or flying creature.",
+              "duration": "Until landing or 1 round/level",
+              "effect": "One Medium or smaller freefalling object or creature/level, no two of which may be more than 20 ft. apart",
+              "level": "Brd 1, Sor/Wiz 1",
+              "linkedspells": "",
+              "name": "Feather Fall",
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "Will negates (harmless) or Will negates (object)",
+              "school": "Transmutation",
+              "shortdescription": "Objects or creatures fall slowly.",
+              "sr": "Yes (object)"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 0,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 round",
+              "components": "V, S, F/DF (a tiny bag and a small candle)",
+              "cost": 3,
+              "description": "This spell functions like summon monster I, except that you can summon one creature from the 2nd-level list or 1d3 creatures of the same kind from the 1st-level list.\\n\\n[2nd Level] [Subtype]\\n[Ant, giant (worker)*] [-]\\n[Elemental (Small)] [Elemental]\\n[Giant centipede*] [-]\\n[Giant frog*] [-]\\n[Giant spider*] [-]\\n[Goblin dog*] [-]\\n[Horse*] [-]\\n[Hyena*] [-]\\n[Lemure (devil)] [Evil, Lawful]\\n[Octopus*] [-]\\n[Squid*] [-]\\n[Wolf*] [-]\\n\\n*Summon Monster I",
+              "duration": "1 round/level (D)",
+              "effect": "One or more summoned creatures, no two of which can be more than 30 ft. apart",
+              "level": "Brd 2, Clr 2, Sor/Wiz 2",
+              "linkedspells": {
+                "id-00001": {
+                  "link": {
+                    "class": "spelldesc",
+                    "recordname": "spelldesc.summonmonsteri@PFRPG Spells"
+                  },
+                  "linkedname": "Summon Monster I"
+                }
+              },
+              "name": "Summon Monster II",
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "None",
+              "school": "Conjuration (Summoning)",
+              "shortdescription": "Summons extraplanar creature to fight for you.",
+              "sr": "No"
+            },
+            "id-00002": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "durmult": 1,
+                  "durstat": "cl",
+                  "durunit": "minute",
+                  "label": "Invisible",
+                  "order": 2,
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M/DF (an eyelash encased in gum arabic)",
+              "cost": 3,
+              "description": "The creature or object touched becomes invisible. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so.\\n\\nItems dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisible, although a source of light can become so (thus, the effect is that of a light with no visible source). Any part of an item that the subject carries but that extends more than 10 feet from it becomes visible.\\n\\nOf course, the subject is not magically silenced, and certain other conditions can render the recipient detectable (such as swimming in water or stepping in a puddle). If a check is required, a stationary invisible creature has a +40 bonus on its Stealth checks. This bonus is reduced to +20 if the creature is moving. The spell ends if the subject attacks any creature. For purposes of this spell, an attack includes any spell targeting a foe or whose area or effect includes a foe. Exactly who is a foe depends on the invisible character's perceptions. Actions directed at unattended objects do not break the spell. Causing harm indirectly is not an attack. Thus, an invisible being can open doors, talk, eat, climb stairs, summon monsters and have them attack, cut the ropes holding a rope bridge while enemies are on the bridge, remotely trigger traps, open a portcullis to release attack dogs, and so forth. If the subject attacks directly, however, it immediately becomes visible along with all its gear. Spells such as bless that specifically affect allies but not foes are not attacks for this purpose, even when they include foes in their area.\\n\\nInvisibility can be made permanent (on objects only) with a permanency spell.",
+              "duration": "1 min./level (D)",
+              "effect": "You or a creature or object weighing no more than 100 lb./level",
+              "level": "Brd 2, Sor/Wiz 2",
+              "linkedspells": "",
+              "name": "Invisibility",
+              "range": "Personal or touch",
+              "save": "Will negates (harmless) or Will negates (harmless, object)",
+              "school": "Illusion (Glamer)",
+              "shortdescription": "Subject is invisible for 1 min./level or until it attacks.",
+              "sr": "Yes (harmless) or Yes (harmless, object)"
+            },
+            "id-00004": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "savetype": "fortitude",
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "damagelist": {
+                    "id-00001": {
+                      "bonus": 0,
+                      "dice": "d8",
+                      "type": "sonic"
+                    }
+                  },
+                  "order": 2,
+                  "type": "damage"
+                },
+                "id-00003": {
+                  "durmod": 1,
+                  "label": "Stunned",
+                  "order": 3,
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, F/DF",
+              "cost": 3,
+              "description": "You blast an area with a tremendous cacophony. Every creature in the area takes 1d8 points of sonic damage and must succeed on a Fortitude save to avoid being stunned for 1 round.\\n\\nCreatures that cannot hear are not stunned but are still damaged.\\n\\nArcane Focus: A musical instrument.",
+              "duration": "Instantaneous",
+              "effect": "10-ft.-radius spread",
+              "level": "Brd 2, Clr 2",
+              "linkedspells": "",
+              "name": "Sound Burst",
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "Fortitude partial",
+              "school": "Evocation [Sonic]",
+              "shortdescription": "Deals 1d8 sonic damage to subjects; may stun them.",
+              "sr": "Yes"
+            },
+            "id-00005": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "durmult": 1,
+                  "durstat": "cl",
+                  "durunit": "minute",
+                  "label": "Cat's Grace; DEX: 4 enhancement",
+                  "order": 2,
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M",
+              "cost": 3,
+              "description": "The transmuted creature becomes more graceful, agile, and coordinated. The spell grants a +4 enhancement bonus to Dexterity, adding the usual benefits to AC, Reflex saves, and other uses of the Dexterity modifier.\\n\\nMaterial Component: A pinch of cat fur.",
+              "duration": "1 min./level",
+              "effect": "Creature touched",
+              "level": "Brd 2, Drd 2, Rgr 2, Sor/Wiz 2",
+              "linkedspells": "",
+              "name": "Cat's Grace",
+              "range": "Touch",
+              "save": "Will negates (harmless)",
+              "school": "Transmutation",
+              "shortdescription": "Subject gains +4 to Dex for 1 min./level.",
+              "sr": "Yes"
+            },
+            "id-00006": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "durmult": 1,
+                  "durunit": "minute",
+                  "label": "Invisible",
+                  "order": 2,
+                  "type": "effect"
+                },
+                "id-00003": {
+                  "durmult": 1,
+                  "durstat": "cl",
+                  "durunit": "minute",
+                  "label": "MI: 1d4+3",
+                  "order": 3,
+                  "targeting": "self",
+                  "type": "effect"
+                },
+                "id-00004": {
+                  "durmod": 0,
+                  "durmult": 1,
+                  "durunit": "minute",
+                  "label": "Mirrored Images: 4",
+                  "order": 4,
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 3,
+              "description": "Several illusory duplicates of you pop into being, making it difficult for enemies to know which target to attack. The figments stay near you and disappear when struck.\\n\\nMirror image creates 1d4 images plus one image per three caster levels (maximum eight images total). These figments separate from you and remain in a cluster, each within 5 feet of at least one other figment or you. You can move into and through a mirror image. When you and the mirror image separate, observers can't use vision or hearing to tell which one is you and which the image. The figments may also move through each other. The figments mimic your actions, pretending to cast spells when you cast a spell, drink potions when you drink a potion, levitate when you levitate, and so on.\\n\\nEnemies attempting to attack you or cast spells at you must select from among indistinguishable targets. Generally, roll randomly to see whether the selected target is real or a figment. Any successful attack against an image destroys it. An image's AC is 10 + your size modifier + your Dex modifier. Figments seem to react normally to area spells (such as looking like they're burned or dead after being hit by a fireball ).\\n\\nWhile moving, you can merge with and split off from figments so that enemies who have learned which image is real are again confounded.\\n\\nAn attacker must be able to see the images to be fooled. If you are invisible or an attacker shuts his or her eyes, the spell has no effect. (Being unable to see carries the same penalties as being blinded.)",
+              "duration": "1 min./level (D)",
+              "effect": "You",
+              "level": "Brd 2, Sor/Wiz 2",
+              "linkedspells": "",
+              "name": "Mirror Image",
+              "range": "Personal; see text",
+              "school": "Illusion (Figment)",
+              "shortdescription": "Creates decoy duplicates of you (1d4 +1 per three levels, max 8)."
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 5,
+              "description": "The object touched sheds light as bright as full daylight in a 60-foot radius, and dim light for an additional 60 feet beyond that. Creatures that take penalties in bright light also take them while within the radius of this magical light. Despite its name, this spell is not the equivalent of daylight for the purposes of creatures that are damaged or destroyed by bright light.\\n\\nIf daylight is cast on a small object that is then placed inside or under a light- proof covering, the spell's effects are blocked until the covering is removed.\\n\\nDaylight brought into an area of magical darkness (or vice versa) is temporarily negated, so that the otherwise prevailing light conditions exist in the overlapping areas of effect.\\n\\nDaylight counters or dispels any darkness spell of equal or lower level, such as darkness.",
+              "duration": "10 min./level (D)",
+              "effect": "Object touched",
+              "level": "Brd 3, Clr 3, Drd 3, Pal 3, Sor/Wiz 3",
+              "linkedspells": "",
+              "name": "Daylight",
+              "range": "Touch",
+              "save": "None",
+              "school": "Evocation [Light]",
+              "shortdescription": "60-ft. radius of bright light.",
+              "sr": "No"
+            },
+            "id-00002": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "heallist": {
+                    "id-00001": {
+                      "dice": "3d8",
+                      "stat": "cl",
+                      "statmax": 15,
+                      "statmult": 1
+                    }
+                  },
+                  "order": 2,
+                  "type": "heal"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 5,
+              "description": "This spell functions like cure light wounds , except that it cures 3d8 points of damage + 1 point per caster level (maximum +15).\\n\\nMythic\\n\\nThe damage cured increases to 6d8 points of damage + 2 points per caster level (maximum +30). The spell cures up to 3 points of ability damage if the target is a living creature. The target chooses what types of ability damage are cured.",
+              "duration": "instantaneous",
+              "effect": "Target-creature touched",
+              "level": "Adept 3, Alchemist 3, Bard 3, Cleric 3, Druid 4, Hunter 4, Inquisitor 3, Investigator 3, Occultist 3, Oracle 3, Paladin 4, Ranger 4, Shaman 3, Skald 3, Spiritualist 3, Warpriest 3, Witch 4",
+              "linkedspells": "",
+              "name": "Cure Serious Wounds",
+              "range": "touch",
+              "save": "Will half (harmless)",
+              "school": "conjuration (healing)",
+              "shortdescription": "Cures 3d8 damage + 1/level (max +15).",
+              "sr": "yes (harmless); see text"
+            },
+            "id-00003": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "dmaxstat": 0,
+                  "durdicestatmax": 0,
+                  "durmod": 0,
+                  "durmult": 1,
+                  "durstat": "cl",
+                  "durunit": "minute",
+                  "label": "Good Hope; ATK: 2 morale; DMG: 2 morale; SAVE: 2 morale; SKILL: 2 morale",
+                  "order": 2,
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 5,
+              "description": "This spell instills powerful hope in the subjects. Each affected creature gains a +2 morale bonus on saving throws, attack rolls, ability checks, skill checks, and weapon damage rolls.\\n\\nGood hope counters and dispels crushing despair .",
+              "duration": "1 min./level",
+              "effect": "Targets-one living creature/level, no two of which can be more than 30 ft. apart",
+              "level": "Bard 3, Skald 3",
+              "linkedspells": "",
+              "name": "Good Hope",
+              "range": "Medium (100 ft. + 10 ft./level)",
+              "save": "Will negates (harmless)",
+              "school": "enchantment (compulsion) [emotion, mind-affecting]",
+              "shortdescription": "Subjects gain +2 on attack rolls, damage rolls, saves, and checks.",
+              "sr": "yes (harmless)",
+              "text": "<p>This spell instills powerful hope in the subjects. Each affected creature gains a +2 morale bonus on saving throws, attack rolls, ability checks, skill checks, and weapon damage rolls.</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>Good hope </i>counters and dispels <i>crushing despair </i>.</p>"
+            },
+            "id-00004": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "savedcmod": 11,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 5,
+              "description": "You can use dispel magic to end ongoing spells that have been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, to end ongoing spells (or at least their effects) within an area, or to counter another spellcaster's spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can't be defeated by dispel magic . Dispel magic can dispel (but not counter) spell-like effects just as it does spells.\\n\\nNote: The effect of a spell with an instantaneous duration can't be dispelled, because the magical effect is already over before the dispel magic can take effect.\\n\\nYou choose to use dispel magic in one of three ways: a targeted dispel, an area dispel, or a counterspell:\\n\\nTargeted Dispel: One object, creature, or spell is the target of the dispel magic spell. You make a dispel check (1d20 + your caster level, maximum +10) against the spell or against each ongoing spell currently in effect on the object or creature. The DC for this dispel check is 11 + the spell's caster level. If you succeed on a particular check, that spell is dispelled; if you fail, that spell remains in effect.\\n\\nIf you target an object or creature that is the effect of an ongoing spell (such as a monster summoned by monster summoning ), you make a dispel check to end the spell that conjured the object or creature.\\n\\nIf the object that you target is a magic item, you make a dispel check against the item's caster level. If you succeed, all the item's magical properties are suppressed for 1d4 rounds, after which the item recovers on its own. A suppressed item becomes nonmagical for the duration of the effect. An interdimensional interface (such as a bag of holding ) is temporarily closed. A magic item's physical properties are unchanged: A suppressed magic sword is still a sword (a masterwork sword, in fact). Artifacts and deities are unaffected by mortal magic such as this.\\n\\nYou automatically succeed on your dispel check against any spell that you cast yourself.\\n\\nArea Dispel: When dispel magic is used in this way, the spell affects everything within a 20-foot radius.\\n\\nFor each creature within the area that is the subject of one or more spells, you make a dispel check against the spell with the highest caster level. If that check fails, you make dispel checks against progressively weaker spells until you dispel one spell (which discharges the dispel magic spell so far as that target is concerned) or until you fail all your checks. The creature's magic items are not affected.\\n\\nFor each object within the area that is the target of one or more spells, you make dispel checks as with creatures. Magic items are not affected by an area dispel.\\n\\nFor each ongoing area or effect spell whose point of origin is within the area of the dispel magic spell, you can make a dispel check to dispel the spell.\\n\\nFor each ongoing spell whose area overlaps that of the dispel magic spell, you can make a dispel check to end the effect, but only within the overlapping area.\\n\\nIf an object or creature that is the effect of an ongoing spell (such as a monster summoned by monster summoning ) is in the area, you can make a dispel check to end the spell that conjured that object or creature (returning it whence it came) in addition to attempting to dispel spells targeting the creature or object.\\n\\nYou may choose to automatically succeed on dispel checks against any spell that you have cast.\\n\\nCounterspell: When dispel magic is used in this way, the spell targets a spellcaster and is cast as a counterspell. Unlike a true counterspell, however, dispel magic may not work; you must make a dispel check to counter the other spellcaster's spell.",
+              "duration": "Instantaneous",
+              "effect": "One spellcaster, creature, or object; or 20-ft.-radius burst",
+              "level": "Brd 3, Clr 3, Drd 4, Magic 3, Pal 3, Sor/Wiz 3",
+              "linkedspells": "",
+              "name": "Dispel Magic",
+              "range": "Medium (100 ft. + 10 ft./level)",
+              "save": "None",
+              "school": "Abjuration",
+              "shortdescription": "Dispel a magical effect. Roll D20 + CL (max 10) vs DC 10 + CL of Effect. Can be targeted, area, or used as Counterspell.",
+              "sr": "No"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "points": 0,
+      "pointsused": 0,
+      "powersource": "arcane",
+      "sp": 0
+    },
+    "id-00002": {
+      "availablelevel0": 0,
+      "availablelevel1": 24,
+      "availablelevel2": 5,
+      "availablelevel3": 0,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "castertype": "spontaneous",
+      "cc": {
+        "misc": 0
+      },
+      "cl": 7,
+      "dc": {
+        "ability": "charisma",
+        "abilitymod": 7,
+        "misc": 0,
+        "total": 17
+      },
+      "label": "Bard Songs",
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 0,
+          "spells": {
+            "id-00001": {
+              "actions": "",
+              "cast": 0,
+              "cost": 0
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 0,
+          "spells": {
+            "id-00001": {
+              "actions": "",
+              "cast": 0,
+              "cost": 1,
+              "name": "Bardic Performance",
+              "shortdescription": "Used to keep track of rounds of Bardic Performances"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 0,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "dmaxstat": 0,
+                  "durmod": 1,
+                  "durmult": 1,
+                  "label": "Inspire Courage; ATK: 2 competence; DMG: 2 competence\\n",
+                  "order": 1,
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "cost": 3,
+              "name": "Inspire Courage",
+              "shortdescription": "Add bonus to ATT and DMG, and Saving Throws against Charm and Fear"
+            },
+            "id-00002": {
+              "actions": {
+                "id-00001": {
+                  "durmod": 1,
+                  "durmult": 1,
+                  "label": "Fascinated",
+                  "order": 1,
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "cost": 3,
+              "name": "Fascinate",
+              "shortdescription": "Fascinate enemies"
+            },
+            "id-00003": {
+              "actions": {
+                "id-00001": {
+                  "durmod": 1,
+                  "durmult": 1,
+                  "label": "SKILL: 2 comptence",
+                  "order": 1,
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "cost": 3,
+              "name": "Inspire Competence",
+              "shortdescription": "Add bonus for skills"
+            },
+            "id-00004": {
+              "actions": {
+                "id-00001": {
+                  "durmod": 1,
+                  "durmult": 1,
+                  "label": "Shaken",
+                  "order": 1,
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "cost": 3,
+              "name": "Dirge of Doom",
+              "shortdescription": "Frighten and Shaken enemies"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "points": 0,
+      "pointsused": 0,
+      "sp": 0
+    }
+  },
+  "temp": "",
+  "token": "portrait_id-00011_token",
+  "traitlist": {
+    "id-00001": {
+      "locked": 1,
+      "name": "Adaptability",
+      "source": "Half-Elf",
+      "text": "<p>Half-elves receive Skill Focus as a bonus feat at 1st level.</p>"
+    },
+    "id-00002": {
+      "locked": 1,
+      "name": "Elf Blood",
+      "source": "Half-Elf",
+      "text": "<p>Half-elves count as both elves and humans for any effect related to race.</p>"
+    },
+    "id-00003": {
+      "locked": 1,
+      "name": "Elven Immunities",
+      "source": "Half-Elf",
+      "text": "<p>Half-elves are immune to magic sleep effects and get a +2 racial saving throw bonus against enchantment spells and effects.</p>"
+    },
+    "id-00004": {
+      "locked": 1,
+      "name": "Keen Senses",
+      "source": "Half-Elf",
+      "text": "<p>Half-elves receive a +2 racial bonus on Perception skill checks.</p>"
+    },
+    "id-00005": {
+      "locked": 1,
+      "name": "Multitalented",
+      "source": "Half-Elf",
+      "text": "<p>Half-elves choose two favored classes at first level and gain +1 hit point or +1 skill point whenever they take a level in either one of those classes. See Classes for more information about favored classes.</p>"
+    }
+  },
+  "weaponlist": {
+    "id-00001": {
+      "ammo": 0,
+      "ammunitionmanager": {
+        "isloaded": 0
+      },
+      "attacks": 1,
+      "attackview1": 11,
+      "attackview2": 6,
+      "attackview3": 1,
+      "attackview4": -4,
+      "bonus": 1,
+      "carried": 2,
+      "critatkrange": 20,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 1,
+          "critmult": 3,
+          "dice": "d6",
+          "stat": "strength",
+          "statmult": 1,
+          "type": "piercing, magic"
+        }
+      },
+      "isidentified": 1,
+      "maxammo": 0,
+      "name": "01 - 1 Shortbow | +1",
+      "properties": "magic",
+      "rangeincrement": 60,
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00001"
+      },
+      "type": 1
+    },
+    "id-00002": {
+      "ammunitionmanager": "",
+      "attacks": 1,
+      "attackview1": 6,
+      "attackview2": 1,
+      "attackview3": -4,
+      "attackview4": -9,
+      "bonus": 1,
+      "carried": 2,
+      "critatkrange": 18,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 1,
+          "critmult": 2,
+          "dice": "d6",
+          "stat": "strength",
+          "statmult": 1,
+          "type": "piercing, magic"
+        },
+        "id-00002": {
+          "critmult": 0,
+          "dice": "d6",
+          "statmult": 1,
+          "type": "Cold"
+        }
+      },
+      "isidentified": 1,
+      "name": "02 -  1 Rapier| +1 Frost",
+      "properties": "magic, frost",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00007"
+      },
+      "type": 0
+    },
+    "id-00003": {
+      "ammo": 0,
+      "ammunitionmanager": {
+        "isloaded": 0
+      },
+      "attacks": 1,
+      "attackstat": "dexterity",
+      "attackview1": 10,
+      "attackview2": 5,
+      "attackview3": 0,
+      "attackview4": -5,
+      "carried": 1,
+      "critatkrange": 20,
+      "damagelist": {
+        "id-00002": {
+          "bonus": 1,
+          "critmult": 3,
+          "dice": "d6",
+          "stat": "strength",
+          "statmult": 1,
+          "type": "piercing, magic"
+        }
+      },
+      "maxammo": 20,
+      "name": "01 - Arrow | Normal",
+      "rangeincrement": 0,
+      "type": 1
+    }
+  },
+  "weight": "132 lbs"
+}

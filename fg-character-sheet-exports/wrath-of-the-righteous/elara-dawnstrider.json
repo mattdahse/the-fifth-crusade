@@ -1,0 +1,2015 @@
+{
+  "campaign": "Wrath of the Righteous - AZ",
+  "record": "charsheet.id-00009",
+  "abilities": {
+    "charisma": {
+      "base": 16,
+      "bonus": 3,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 16
+    },
+    "constitution": {
+      "base": 12,
+      "bonus": 1,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 12
+    },
+    "dexterity": {
+      "base": 14,
+      "bonus": 2,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 14
+    },
+    "intelligence": {
+      "base": 13,
+      "bonus": 1,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 13
+    },
+    "strength": {
+      "base": 17,
+      "bonus": 3,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 17
+    },
+    "wisdom": {
+      "base": 15,
+      "bonus": 2,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 15
+    }
+  },
+  "ac": {
+    "sources": {
+      "abilitymod": 1,
+      "abilitymod2": 0,
+      "armor": 12,
+      "cmdabilitymod": 3,
+      "cmdbasemod": 9,
+      "cmdmisc": 0,
+      "deflection": 1,
+      "dodge": 2,
+      "ffmisc": 0,
+      "misc": 0,
+      "naturalarmor": 0,
+      "shield": 0,
+      "size": 0,
+      "temporary": 0,
+      "touchmisc": 0
+    },
+    "totals": {
+      "cmd": 27,
+      "flatfooted": 23,
+      "general": 26,
+      "touch": 14
+    }
+  },
+  "age": "24",
+  "alignment": "LG",
+  "attackbonus": {
+    "base": 9,
+    "grapple": {
+      "abilitymod": 3,
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": 12
+    },
+    "melee": {
+      "abilitymod": 3,
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": 12
+    },
+    "ranged": {
+      "abilitymod": 2,
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": 11
+    }
+  },
+  "classes": {
+    "id-00001": {
+      "favored": 1,
+      "level": 9,
+      "name": "Paladin",
+      "shortcut": {
+        "class": "referenceclass",
+        "recordname": "class.paladin@Pathfinder Core Rules"
+      },
+      "skillranks": 22
+    }
+  },
+  "coins": {
+    "id-00001": {
+      "amount": 0,
+      "name": "PP"
+    },
+    "id-00002": {
+      "amount": 5,
+      "name": "GP"
+    },
+    "id-00003": {
+      "amount": 0,
+      "name": "SP"
+    },
+    "id-00004": {
+      "amount": 0,
+      "name": "CP"
+    }
+  },
+  "defenses": {
+    "sr": {
+      "base": 0,
+      "misc": 0,
+      "temporary": 0,
+      "total": 0
+    }
+  },
+  "deity": "Iomedae",
+  "encumbrance": {
+    "armorcheckpenalty": -5,
+    "armormaxstatbonus": 1,
+    "armormaxstatbonusactive": 1,
+    "checkpenalty": 0,
+    "heavyload": 260,
+    "level": 0,
+    "liftoffground": 520,
+    "liftoverhead": 260,
+    "lightload": 86,
+    "load": 80.5,
+    "maxstatbonus": 0,
+    "mediumload": 173,
+    "pushordrag": 1300,
+    "spellfailure": 35
+  },
+  "exp": 6943,
+  "expneeded": 0,
+  "featlist": {
+    "id-00002": {
+      "benefit": "<p>You gain a +1 bonus on all attack rolls you make using the selected weapon.</p>",
+      "name": "Weapon Focus - longspear",
+      "normal": "<p>-</p>",
+      "prerequisites": "Proficiency with selected weapon, base attack bonus +1.",
+      "special": "<p>You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.</p>",
+      "summary": "+1 bonus on attack rolls with one weapon",
+      "type": "Combat"
+    },
+    "id-00003": {
+      "benefit": "<p>When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon's damage dice for the attack twice and add the results together before adding bonuses from Strength, weapon abilities (such as <i>flaming </i>), precision based damage, and other damage bonuses. These extra weapon damage dice are not multiplied on a critical hit, but are added to the total.</p>",
+      "name": "Vital Strike",
+      "normal": "<p>-</p>",
+      "prerequisites": "Base attack bonus +6.",
+      "special": "<p>-</p>",
+      "summary": "Deal twice the normal damage on a single attack",
+      "type": "Combat"
+    },
+    "id-00004": {
+      "benefit": "<p>You gain +3 hit points. For every Hit Die you possess beyond 3, you gain an additional +1 hit point. If you have more than 3 Hit Dice, you gain +1 hit points whenever you gain a Hit Die (such as when you gain a level).</p>",
+      "name": "Toughness",
+      "normal": "<p>-</p>",
+      "prerequisites": "-",
+      "special": "<p>-</p>",
+      "summary": "+3 hit points, +1 per Hit Die beyond 3",
+      "type": "General"
+    },
+    "id-00005": {
+      "benefit": "<p>Whenever an adjacent foe attempts to take a 5-foot step away from you, you may also make a 5-foot step as an immediate action so long as you end up adjacent to the foe that triggered this ability. If you take this step, you cannot take a 5-foot step during your next turn. If you take an action to move during your next turn, subtract 5 feet from your total movement.</p>",
+      "name": "Step Up",
+      "normal": "<p>-</p>",
+      "prerequisites": "Base attack bonus +1.",
+      "special": "<p>-</p>",
+      "summary": "Take a 5-foot step as an immediate action",
+      "type": "Combat"
+    },
+    "id-00006": {
+      "benefit": "<p>You make attack rolls with the weapon normally.</p>",
+      "name": "Ex Wpn Prof - Spiked Armor",
+      "normal": "<p>A character who uses a weapon with which he is not proficient takes a -4 penalty on attack rolls.</p>",
+      "prerequisites": "Base attack bonus +1.",
+      "special": "<p>You can gain Exotic Weapon Proficiency multiple times. Each time you take the feat, it applies to a new type of exotic weapon.</p>",
+      "summary": "No penalty on attacks made with one exotic weapon",
+      "type": "Combat"
+    }
+  },
+  "gender": "Female",
+  "height": "6'0\"",
+  "heropoint": 0,
+  "hp": {
+    "nonlethal": 0,
+    "temporary": 0,
+    "total": 72,
+    "wounds": 0
+  },
+  "initiative": {
+    "abilitymod": 2,
+    "misc": 0,
+    "temporary": 0,
+    "total": 2
+  },
+  "inventorylist": {
+    "id-00001": {
+      "ac": 9,
+      "aura": "Faint abjuration",
+      "bonus": 3,
+      "carried": 2,
+      "checkpenalty": -5,
+      "cl": 5,
+      "cost": "10,700 gp",
+      "count": 1,
+      "description": "<p>This metal suit includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost of 200 to 800 (2d4 × 100) gold pieces.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 1,
+      "name": "+3 Full Plate with Armor Spikes",
+      "nonid_name": "Magical Full Plate",
+      "properties": "magic",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 15,
+      "speed30": 20,
+      "spellfailure": 35,
+      "subtype": "Heavy",
+      "type": "Armor",
+      "weight": 50
+    },
+    "id-00002": {
+      "ac": 0,
+      "aura": "Faint conjuration",
+      "bonus": 0,
+      "carried": 1,
+      "checkpenalty": 0,
+      "cl": 3,
+      "cost": "300 gp",
+      "count": 4,
+      "description": "<p>A potion is a magic liquid that produces its effect when imbibed. A potion can be used only once.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Potion of Cure Moderate Wounds",
+      "nonid_name": "Magical Potion",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "type": "Potion",
+      "weight": 0
+    },
+    "id-00003": {
+      "aura": "Faint evocation",
+      "bonus": 1,
+      "carried": 2,
+      "checkpenalty": 0,
+      "cl": 5,
+      "cost": "310 gp",
+      "count": 1,
+      "critical": "x3",
+      "damage": "1d8",
+      "damagetype": "Piercing",
+      "description": "<p>A longspear is about 8 feet in length.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "+1 Cold Iron Longspear",
+      "nonid_name": "Magical Cold Iron Longspear",
+      "properties": "Brace, Reach, cold iron, magic",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "subtype": "Simple Two-Handed Melee",
+      "type": "Weapon",
+      "weight": 9
+    },
+    "id-00004": {
+      "ac": 2,
+      "bonus": 0,
+      "carried": 1,
+      "checkpenalty": 0,
+      "cl": 0,
+      "cost": "1,170 gp",
+      "count": 1,
+      "description": "<p>You strap a shield to your forearm and grip it with your hand. A heavy shield is so heavy that you can't use your shield hand for anything else.</p>\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t<i>Wooden or Steel </i>Wooden and steel shields offer the same basic protection, though they respond differently to spells and effects.</p>\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t<i>Shield Bash Attacks </i>You can bash an opponent with a heavy shield, using it as an off-hand weapon. See \"shield, heavy\" in Weapons section for the damage dealt by a shield bash. Used this way, a heavy shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a heavy shield as a one-handed weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Mithral Heavy Steel Shield",
+      "properties": "mithral",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 5,
+      "subtype": "Shield",
+      "type": "Armor",
+      "weight": 7.5
+    },
+    "id-00005": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 2,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "4,000 gp",
+      "cost_visibility": 0,
+      "count": 1,
+      "depth": 0,
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 1,
+      "name": "Headband of Alluring Charisma +2",
+      "nonid_name": "Magical Headband",
+      "showonminisheet": 1,
+      "subtype": "Wondrous Item",
+      "type": "Wondrous Item",
+      "volume": 0,
+      "weight": 0,
+      "width": 0
+    },
+    "id-00006": {
+      "carried": 2,
+      "contentscount": 0,
+      "contentsvolume": 0,
+      "cost": "2 gp",
+      "count": 1,
+      "description": "<p>-</p>",
+      "extraplanarcontents": 0,
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Backpack (common)",
+      "pfslegal": "True",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 2
+    },
+    "id-00007": {
+      "carried": 2,
+      "cost": "25 gp",
+      "count": 1,
+      "description": "<p>A holy symbol focuses positive energy and is used by good clerics and paladins (or by neutral clerics who want to cast good spells or channel positive energy). Each religion has its own holy symbol.</p>\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t<i>Unholy Symbols </i>: An unholy symbol is like a holy symbol except that it focuses negative energy and is used by evil clerics (or by neutral clerics who want to cast evil spells or channel negative energy).</p>",
+      "isidentified": 1,
+      "location": "backpack (common)",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00009.inventorylist.id-00006"
+      },
+      "locked": 1,
+      "name": "Holy symbol (silver)",
+      "pfslegal": "True",
+      "showonminisheet": 1,
+      "subtype": "Tools",
+      "type": "Goods and Services",
+      "weight": 1
+    },
+    "id-00008": {
+      "carried": 2,
+      "cost": "25 gp",
+      "count": 1,
+      "description": "<p>Holy water damages undead creatures and evil outsiders almost as if it were acid. A flask of holy water can be thrown as a splash weapon.</p>\n\t\t\t\t\t\t<p>Treat this attack as a ranged touch attack with a range increment of 10 feet. A flask breaks if thrown against the body of a corporeal creature, but to use it against an incorporeal creature, you must open the flask and pour the holy water out onto the target. Thus, you can douse an incorporeal creature with holy water only if you are adjacent to it. Doing so is a ranged touch attack that does not provoke attacks of opportunity.</p>\n\t\t\t\t\t\t<p>A direct hit by a flask of holy water deals 2d4 points of damage to an undead creature or an evil outsider. Each such creature within 5 feet of the point where the flask hits takes 1 point of damage from the splash.</p>\n\t\t\t\t\t\t<p>Temples to good deities sell holy water at cost (making no profit). Holy water is made using the <i>bless water </i>spell.</p>",
+      "isidentified": 1,
+      "location": "backpack (common)",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00009.inventorylist.id-00006"
+      },
+      "locked": 1,
+      "name": "Holy water",
+      "pfslegal": "True",
+      "showonminisheet": 1,
+      "subtype": "Alchemical Weapons",
+      "type": "Goods and Services",
+      "weight": 1
+    },
+    "id-00009": {
+      "carried": 2,
+      "cost": "1 gp",
+      "count": 1,
+      "description": "<p>Lighting a torch with flint and steel is a full-round action, and lighting any other fire with them takes at least that long.</p>",
+      "isidentified": 1,
+      "location": "backpack (common)",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00009.inventorylist.id-00006"
+      },
+      "locked": 1,
+      "name": "Flint and steel",
+      "pfslegal": "True",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 0
+    },
+    "id-00010": {
+      "carried": 2,
+      "cost": "1 gp",
+      "count": 1,
+      "description": "<p>-</p>",
+      "isidentified": 1,
+      "location": "backpack (common)",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00009.inventorylist.id-00006"
+      },
+      "locked": 1,
+      "name": "Waterskin",
+      "pfslegal": "True",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 4
+    },
+    "id-00011": {
+      "carried": 1,
+      "cost": "5 sp",
+      "count": 1,
+      "description": "<p>-</p>",
+      "isidentified": 1,
+      "location": "b",
+      "locked": 1,
+      "name": "Trail rations",
+      "pfslegal": "True",
+      "showonminisheet": 1,
+      "subtype": "Food Drink",
+      "type": "Goods and Services",
+      "weight": 1
+    },
+    "id-00012": {
+      "bonus": 0,
+      "carried": 2,
+      "cl": 0,
+      "cost": "special",
+      "count": 1,
+      "critical": "x2",
+      "damage": "1d6",
+      "damagetype": "Piercing",
+      "description": "<p>You can outfit your armor with spikes, which can deal damage in a grapple or as a separate attack. See Armor, below, for details.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Spiked armor",
+      "pfslegal": "True",
+      "properties": "-",
+      "range": 0,
+      "showonminisheet": 1,
+      "slot": "Armor",
+      "subtype": "Martial Light Melee",
+      "type": "Weapon",
+      "weight": 0
+    },
+    "id-00013": {
+      "ac": 0,
+      "aura": "Faint abjuration",
+      "bonus": 0,
+      "carried": 2,
+      "checkpenalty": 0,
+      "cl": 5,
+      "cost": "1,000 gp",
+      "count": 1,
+      "description": "<p>These garments offer magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Cloak of Resistance +1",
+      "nonid_name": "Magical Cloak",
+      "prerequisites": "Craft Wondrous Item, resistance, creator's caster level must be at least three times the cloak's bonus",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "type": "Wondrous Item",
+      "weight": 1
+    },
+    "id-00014": {
+      "aura": "faint abjuration",
+      "carried": 2,
+      "cl": 5,
+      "cost": "2,000 gp",
+      "count": 1,
+      "description": "<p>This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Ring of Protection +1",
+      "pfslegal": "True",
+      "prerequisites": "Forge Ring, shield of faith, caster must be of a level at least three times higher than the bonus of the ring",
+      "showonminisheet": 1,
+      "slot": "ring",
+      "subtype": "Magic Ring",
+      "type": "Magic Ring",
+      "weight": 0
+    },
+    "id-00015": {
+      "aura": "Faint conjuration",
+      "carried": 1,
+      "cl": 5,
+      "cost": "750 gp",
+      "count": 1,
+      "description": "<p>A potion is a magic liquid that produces its effect when imbibed. A potion can be used only once.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Potion of Cure Serious Wounds",
+      "nonid_name": "Magical Potion",
+      "showonminisheet": 1,
+      "type": "Potion",
+      "weight": 0
+    },
+    "id-00016": {
+      "ac": 0,
+      "aura": "Moderate evocation [good]",
+      "bonus": 2,
+      "carried": 2,
+      "checkpenalty": 0,
+      "cl": 7,
+      "cost": "34,330 gp",
+      "count": 1,
+      "critical": "19-20/x2",
+      "damage": "1d8",
+      "damagetype": "Slashing",
+      "description": "<p>This sword is about 3-1/2 feet in length.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "+2 Holy Cold Iron Longsword",
+      "nonid_name": "Magical Cold Iron Longsword",
+      "properties": "cold iron, magic, holy",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "subtype": "Martial One-Handed Melee",
+      "type": "Weapon",
+      "weight": 4
+    },
+    "id-00017": {
+      "bonus": 0,
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 1,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "5 gp",
+      "cost_visibility": 0,
+      "count": 1,
+      "depth": 0,
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 1,
+      "name": "Spiked Gauntlet",
+      "range": 0,
+      "showonminisheet": 1,
+      "subtype": "Weapon (Simple Light Melee)",
+      "type": "Weapon (Simple Light Melee)",
+      "volume": 0,
+      "weight": 0,
+      "width": 0
+    }
+  },
+  "languagelist": "",
+  "level": 9,
+  "locked": 1,
+  "mythic": {
+    "mythicabilities": "",
+    "mythicfeats": "",
+    "mythicspells": "",
+    "nexttier": {
+      "abilities": "-",
+      "bonus": "-",
+      "feats": "+1",
+      "path": "+1"
+    },
+    "pathfeatures": "",
+    "powerbase": 0,
+    "powerbonus": 0,
+    "surgedie": "-",
+    "thistier": {
+      "abilities": "0",
+      "bonus": "-",
+      "feats": "0",
+      "path": "0"
+    },
+    "tier": 0,
+    "trials": {
+      "completed": 0,
+      "needed": 0
+    }
+  },
+  "mythicpowertotal": 0,
+  "name": "Elara Dawnstrider",
+  "notes": "Elara Dawnstrider\\n\\nElara grew up on the outskirts of Kenabres in a small noble family. While being the only daughter of the family, she felt a draw to serving the people of Kenabres for the greater good. Upon her coming of age, she insisted that her family allow her to serve in the Kenabres military. Elara’s father, Krelek Izmam, absolutely refused and only relented enough to allow Elara to join the Clerics of Iomedae to fulfill her desire to help the people of the city. Not being one to be told what to do, Elara later pressured the Clerics of the order using the political prowess ingrained in her from House Izmam to allow her to train with the paladins of the church. Exhibiting an unrivaled faith in the teachings of Iomedae and an uncanny toughness and ability with the spear, she was allowed to don the armor of the Paladins of Iomedae. Upon learning of the promotion her father immediately sought to withdraw her from the church. Elara, being the driven person that she is, refused her father’s commands and rescinded her associations with the Izmam family. She has since taken the surname Dawnstrider as she seeks a new dawn in the service of Iomedae.\\n\\nUpon her renunciation of the Izmam family, she became a full fledged member of the Paladins of Iomedae in Kenabres. Elara Dawnstrider has since served in many military campaigns over her time receiving many rewards for her exemplary service. Tales of a group known as Rabiah’s Redeemers have filtered through the city, especially the followers of Iomedae as one of the church’s own members has shown himself to be a model paladin serving alongside Irabeth Tirabade. Ever seeking a higher calling, she has been able to convince the church to send her to accompany Harlok Greyforge in order to pursue the evil that has infected the World Wound. \\n\\n",
+  "portrait": "portraits/Elara Avatar.png",
+  "proficiencylist": {
+    "id-00001": {
+      "name": "Weapon: simple, martial"
+    },
+    "id-00002": {
+      "name": "Armor: all, shields (except tower shields)"
+    }
+  },
+  "race": "Human",
+  "saves": {
+    "fortitude": {
+      "abilitymod": 1,
+      "base": 6,
+      "misc": 4,
+      "temporary": 0,
+      "total": 11
+    },
+    "reflex": {
+      "abilitymod": 2,
+      "base": 3,
+      "misc": 4,
+      "temporary": 0,
+      "total": 9
+    },
+    "will": {
+      "abilitymod": 2,
+      "base": 6,
+      "misc": 4,
+      "temporary": 0,
+      "total": 12
+    }
+  },
+  "size": "M",
+  "skilllist": {
+    "id-00001": {
+      "armorcheckmultiplier": 0,
+      "label": "Craft",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 1,
+      "state": 1,
+      "statname": "intelligence",
+      "total": 1
+    },
+    "id-00002": {
+      "armorcheckmultiplier": 0,
+      "label": "Diplomacy",
+      "misc": 0,
+      "ranks": 6,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "charisma",
+      "total": 12
+    },
+    "id-00003": {
+      "armorcheckmultiplier": 0,
+      "label": "Handle Animal",
+      "misc": 0,
+      "ranks": 2,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "charisma",
+      "total": 8
+    },
+    "id-00004": {
+      "armorcheckmultiplier": 0,
+      "label": "Heal",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 1,
+      "statname": "wisdom",
+      "total": 6
+    },
+    "id-00005": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 1,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Nobility",
+      "total": 1
+    },
+    "id-00006": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 1,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Religion",
+      "total": 5
+    },
+    "id-00007": {
+      "armorcheckmultiplier": 0,
+      "label": "Profession",
+      "misc": 0,
+      "ranks": 2,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 1,
+      "statname": "wisdom",
+      "sublabel": "Soldier (spearman)",
+      "total": 7
+    },
+    "id-00008": {
+      "armorcheckmultiplier": 1,
+      "label": "Ride",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 1,
+      "statname": "dexterity",
+      "total": 1
+    },
+    "id-00009": {
+      "armorcheckmultiplier": 0,
+      "label": "Sense Motive",
+      "misc": 0,
+      "ranks": 3,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 1,
+      "statname": "wisdom",
+      "total": 8
+    },
+    "id-00010": {
+      "armorcheckmultiplier": 0,
+      "label": "Spellcraft",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 1,
+      "state": 1,
+      "statname": "intelligence",
+      "total": 1
+    },
+    "id-00011": {
+      "armorcheckmultiplier": 0,
+      "label": "Intimidate",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 0,
+      "statname": "charisma",
+      "total": 3
+    },
+    "id-00012": {
+      "armorcheckmultiplier": 1,
+      "label": "Climb",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 0,
+      "statname": "strength",
+      "total": -2
+    },
+    "id-00013": {
+      "armorcheckmultiplier": 1,
+      "label": "Escape Artist",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "dexterity",
+      "total": -3
+    },
+    "id-00014": {
+      "armorcheckmultiplier": 0,
+      "label": "Perception",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "wisdom",
+      "total": 3
+    },
+    "id-00015": {
+      "armorcheckmultiplier": 1,
+      "label": "Fly",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "dexterity",
+      "total": -3
+    },
+    "id-00016": {
+      "armorcheckmultiplier": 1,
+      "label": "Disable Device",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 2,
+      "state": 0,
+      "statname": "dexterity",
+      "total": -3
+    },
+    "id-00017": {
+      "armorcheckmultiplier": 1,
+      "label": "Acrobatics",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "dexterity",
+      "total": -3
+    },
+    "id-00018": {
+      "armorcheckmultiplier": 0,
+      "label": "Use Magic Device",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 3,
+      "state": 0,
+      "statname": "charisma",
+      "total": 3
+    },
+    "id-00019": {
+      "armorcheckmultiplier": 1,
+      "label": "Swim",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 0,
+      "statname": "strength",
+      "total": -2
+    },
+    "id-00020": {
+      "armorcheckmultiplier": 1,
+      "label": "Sleight of Hand",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "dexterity",
+      "total": -3
+    },
+    "id-00021": {
+      "armorcheckmultiplier": 0,
+      "label": "Survival",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "wisdom",
+      "total": 3
+    },
+    "id-00022": {
+      "armorcheckmultiplier": 0,
+      "label": "Appraise",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 1,
+      "state": 0,
+      "statname": "intelligence",
+      "total": 1
+    },
+    "id-00023": {
+      "armorcheckmultiplier": 0,
+      "label": "Linguistics",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 1,
+      "state": 0,
+      "statname": "intelligence",
+      "total": 1
+    },
+    "id-00024": {
+      "armorcheckmultiplier": 0,
+      "label": "Bluff",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 0,
+      "statname": "charisma",
+      "total": 3
+    },
+    "id-00025": {
+      "armorcheckmultiplier": 0,
+      "label": "Disguise",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 0,
+      "statname": "charisma",
+      "total": 3
+    },
+    "id-00026": {
+      "armorcheckmultiplier": 1,
+      "label": "Stealth",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "dexterity",
+      "total": -3
+    }
+  },
+  "skillpoints": {
+    "spent": 18
+  },
+  "specialabilitylist": {
+    "id-00001": {
+      "level": 1,
+      "locked": 1,
+      "name": "Aura of good",
+      "source": "Paladin",
+      "text": "<p>The power of a paladin's aura of good (see the <i>detect good </i>spell) is equal to her paladin level.</p>"
+    },
+    "id-00002": {
+      "level": 1,
+      "locked": 1,
+      "name": "Detect evil",
+      "source": "Paladin",
+      "text": "<p>At will, a paladin can use <i>detect evil </i>, as the spell. A paladin can, as a move action, concentrate on a single item or individual within 60 feet and determine if it is evil, learning the strength of its aura as if having studied it for 3 rounds. While focusing on one individual or object, the paladin does not detect evil in any other object or individual within range.</p>"
+    },
+    "id-00003": {
+      "level": 1,
+      "locked": 1,
+      "name": "Smite evil (1/day)",
+      "source": "Paladin",
+      "text": "<p>Once per day, a paladin can call out to the powers of good to aid her in her struggle against evil. As a swift action, the paladin chooses one target within sight to smite. If this target is evil, the paladin adds her Charisma bonus (if any) to her attack rolls and adds her paladin level to all damage rolls made against the target of her smite. If the target of smite evil is an outsider with the evil subtype, an evil-aligned dragon, or an undead creature, the bonus to damage on the first successful attack increases to 2 points of damage per level the paladin possesses. Regardless of the target, smite evil attacks automatically bypass any DR the creature might possess.</p>\n\t\t\t\t\t\t<p>In addition, while smite evil is in effect, the paladin gains a deflection bonus equal to her Charisma modifier (if any) to her AC against attacks made by the target of the smite. If the paladin targets a creature that is not evil, the smite is wasted with no effect.</p>\n\t\t\t\t\t\t<p>The smite evil effect remains until the target of the smite is dead or the next time the paladin rests and regains her uses of this ability. At 4th level, and at every three levels thereafter, the paladin may smite evil one additional time per day, as indicated, to a maximum of seven times per day at 19th level.</p>"
+    },
+    "id-00004": {
+      "name": "Divine Grace",
+      "text": "<p>Charisma bonus on all saving throws</p>"
+    },
+    "id-00005": {
+      "name": "Aura of Courage",
+      "text": "<p>You provide a +4 morale bonus on saving throws against fear effects to all allies within 30 ft. If you are a paladin, this range extends to 60 ft.</p>"
+    },
+    "id-00006": {
+      "name": "Divine Health",
+      "text": "<p>Immune to all diseases, including supernatural and magical diseases including Mummy Rot</p>"
+    },
+    "id-00008": {
+      "level": 8,
+      "link": {
+        "class": "referenceclassability",
+        "recordname": null
+      },
+      "locked": 1,
+      "name": "Aura of resolve",
+      "source": "Paladin",
+      "text": "<p>At 8th level, a paladin is immune to charm spells and spell-like abilities. Each ally within 10 feet of her gains a +4 morale bonus on saving throws against charm effects.This ability functions only while the paladin is conscious, not if she is unconscious or dead.</p>"
+    },
+    "id-00009": {
+      "level": 9,
+      "locked": 1,
+      "name": "Mercy - Shaken, Frightened",
+      "source": "Paladin",
+      "text": "<p>At 3rd level, and every three levels thereafter, a paladin can select one mercy. Each mercy adds an effect to the paladin's lay on hands ability. Whenever the paladin uses lay on hands to heal damage to one target, the target also receives the additional effects from all of the mercies possessed by the paladin. A mercy can remove a condition caused by a curse, disease, or poison without curing the affliction. Such conditions return after 1 hour unless the mercy actually removes the affliction that causes the condition.</p>\n\t\t\t\t\t\t<p>At 3rd level, the paladin can select from the following initial mercies.</p>\n\t\t\t\t\t\t<list>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<i>Fatigued </i>The target is no longer fatigued.</li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<i>Shaken </i>The target is no longer shaken.</li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<i>Sickened </i>The target is no longer sickened. At 6th level, a paladin adds the following mercies to the list of those that can be selected.</li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<i>Dazed </i>The target is no longer dazed.</li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<i>Diseased </i>The paladin's lay on hands ability also acts as <i>remove disease </i>, using the paladin's level as the caster level.</li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<i>Staggered </i>The target is no longer staggered, unless the target is at exactly 0 hit points. At 9th level, a paladin adds the following mercies to the list of those that can be selected.</li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<i>Cursed </i>The paladin's lay on hands ability also acts as <i>remove curse </i>, using the paladin's level as the caster level.</li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<i>Exhausted </i>The target is no longer exhausted. The paladin must have the fatigue mercy before selecting this mercy.</li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<i>Frightened </i>The target is no longer frightened. The paladin must have the shaken mercy before selecting this mercy.</li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<i>Nauseated </i>The target is no longer nauseated. The paladin must have the sickened mercy before selecting this mercy.</li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<i>Poisoned </i>The paladin's lay on hands ability also acts as <i>neutralize poison </i>, using the paladin's level as the caster level. At 12th level, a paladin adds the following mercies to the list of those that can be selected.</li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<i>Blinded </i>The target is no longer blinded.</li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<i>Deafened </i>The target is no longer deafened.</li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<i>Paralyzed </i>The target is no longer paralyzed.</li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<i>Stunned </i>The target is no longer stunned. These abilities are cumulative. For example, a 12th-level paladin's lay on hands ability heals 6d6 points of damage and might also cure fatigued and exhausted conditions as well as removing diseases and neutralizing poisons. Once a condition or spell effect is chosen, it can't be changed.</li>\n\t\t\t\t\t\t</list>"
+    }
+  },
+  "speed": {
+    "armor": -5,
+    "base": 0,
+    "fastmovement": 0,
+    "final": -5,
+    "misc": 0,
+    "temporary": 0,
+    "total": -5
+  },
+  "spelldisplaymode": "action",
+  "spellmode": "combat",
+  "spellset": {
+    "id-00001": {
+      "availablelevel0": 0,
+      "availablelevel1": 3,
+      "availablelevel2": 7,
+      "availablelevel3": 0,
+      "availablelevel4": 3,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "cc": {
+        "misc": 0
+      },
+      "cl": 0,
+      "dc": {
+        "abilitymod": 0,
+        "misc": 0,
+        "total": 10
+      },
+      "label": "Paladin Abilities",
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 3,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "type": "smite"
+                }
+              },
+              "cast": 0,
+              "cost": 1,
+              "name": "Smite Evil",
+              "prepared": 3
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 3
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 7,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00002": {
+                  "heallist": {
+                    "id-00001": {
+                      "dicestatmax": 0,
+                      "statmax": 0,
+                      "statmult": 1
+                    },
+                    "id-00002": {
+                      "dice": "d6",
+                      "statmult": 1
+                    },
+                    "id-00003": {
+                      "dice": "d6",
+                      "statmult": 1
+                    },
+                    "id-00004": {
+                      "dice": "d6",
+                      "statmult": 1
+                    },
+                    "id-00005": {
+                      "dice": "d6",
+                      "statmult": 1
+                    }
+                  },
+                  "order": 1,
+                  "type": "heal"
+                }
+              },
+              "cast": 0,
+              "cost": 3,
+              "name": "Lay on Hands Mercy - Shaken, Frightened",
+              "prepared": 7
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 7
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "points": 0,
+      "pointsused": 0,
+      "sp": 0
+    },
+    "id-00002": {
+      "availablelevel0": 0,
+      "availablelevel1": 2,
+      "availablelevel2": 2,
+      "availablelevel3": 0,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "cc": {
+        "misc": 0
+      },
+      "cl": 0,
+      "dc": {
+        "abilitymod": 0,
+        "misc": 0,
+        "total": 10
+      },
+      "label": "Paladin Spells",
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 1,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, DF",
+              "cost": 1,
+              "description": "Bless fills your allies with courage. Each ally gains a +1 morale bonus on attack rolls and on saving throws against fear effects.\\n\\nBless counters and dispels bane .",
+              "duration": "1 min./level",
+              "effect": "Area-The caster and all allies within a 50-ft. burst, centered on the caster",
+              "level": "Adept 1, Cleric 1, Inquisitor 1, Oracle 1, Paladin 1, Shaman 1, Warpriest 1",
+              "linkedspells": "",
+              "name": "Bless",
+              "range": "50 ft.",
+              "save": "none",
+              "school": "enchantment (compulsion) [mind-affecting]",
+              "shortdescription": "Allies gain +1 on attack rolls and saves against fear.",
+              "sr": "yes (harmless)",
+              "text": "<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>Bless </i>fills your allies with courage. Each ally gains a +1 morale bonus on attack rolls and on saving throws against fear effects.</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>Bless </i>counters and dispels <i>bane </i>.</p>"
+            },
+            "id-00002": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "savetype": "will",
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 minute",
+              "components": "V, S, M (5 pounds of powdered silver worth 25 gp)",
+              "cost": 1,
+              "description": "This transmutation imbues a flask (1 pint) of water with positive energy, turning it into holy water.",
+              "duration": "instantaneous",
+              "effect": "Target-flask of water touched",
+              "level": "Cleric 1, Inquisitor 1, Oracle 1, Paladin 1, Warpriest 1",
+              "linkedspells": "",
+              "name": "Bless Water",
+              "range": "touch",
+              "save": "Will negates (object)",
+              "school": "transmutation [good]",
+              "shortdescription": "Makes holy water.",
+              "sr": "yes (object)",
+              "text": "<p>This transmutation imbues a flask (1 pint) of water with positive energy, turning it into holy water.</p>"
+            },
+            "id-00003": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "This transmutation makes a weapon strike true against evil foes. The weapon is treated as having a +1 enhancement bonus for the purpose of bypassing the DR of evil creatures or striking evil incorporeal creatures (though the spell doesn't grant an actual enhancement bonus). The weapon also becomes good-aligned, which means it can bypass the DR of certain creatures. (This effect overrides and suppresses any other alignment the weapon might have.) Individual arrows or bolts can be transmuted, but affected projectile weapons (such as bows) don't confer the benefit to the projectiles they shoot.\\n\\nIn addition, all critical hit rolls against evil foes are automatically successful, so every threat is a critical hit. This last effect does not apply to any weapon that already has a magical effect related to critical hits, such as a keen weapon or a vorpal sword .",
+              "duration": "1 min./level",
+              "effect": "Target-weapon touched",
+              "level": "Paladin 1",
+              "linkedspells": "",
+              "name": "Bless Weapon",
+              "range": "touch",
+              "save": "none",
+              "school": "transmutation",
+              "shortdescription": "Weapon strikes true against evil foes.",
+              "sr": "no",
+              "text": "<p>This transmutation makes a weapon strike true against evil foes. The weapon is treated as having a +1 enhancement bonus for the purpose of bypassing the DR of evil creatures or striking evil incorporeal creatures (though the spell doesn't grant an actual enhancement bonus). The weapon also becomes good-aligned, which means it can bypass the DR of certain creatures. (This effect overrides and suppresses any other alignment the weapon might have.) Individual arrows or bolts can be transmuted, but affected projectile weapons (such as bows) don't confer the benefit to the projectiles they shoot.</p>\n\t\t\t\t\t\t\t\t\t\t<p>In addition, all critical hit rolls against evil foes are automatically successful, so every threat is a critical hit. This last effect does not apply to any weapon that already has a magical effect related to critical hits, such as a <i>keen </i>weapon or a <i>vorpal sword </i>.</p>"
+            },
+            "id-00004": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "This spell generates wholesome, drinkable water, just like clean rain water. Water can be created in an area as small as will actually contain the liquid, or in an area three times as large-possibly creating a downpour or filling many small receptacles. This water disappears after 1 day if not consumed.\\n\\nNote : Conjuration spells can't create substances or objects within a creature. Water weighs about 8 pounds per gallon. One cubic foot of water contains roughly 8 gallons and weighs about 60 pounds.",
+              "duration": "instantaneous",
+              "effect": "Effect-up to 2 gallons of water/level",
+              "level": "Adept 0, Cleric 0, Druid 0, Hunter 0, Inquisitor 0, Occultist 0, Oracle 0, Paladin 1, Shaman 0, Warpriest 0",
+              "linkedspells": "",
+              "name": "Create Water",
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "none",
+              "school": "conjuration (creation) [water]",
+              "shortdescription": "Creates 2 gallons/level of pure water.",
+              "sr": "no",
+              "text": "<p>This spell generates wholesome, drinkable water, just like clean rain water. Water can be created in an area as small as will actually contain the liquid, or in an area three times as large-possibly creating a downpour or filling many small receptacles. This water disappears after 1 day if not consumed.</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>Note </i>: Conjuration spells can't create substances or objects within a creature. Water weighs about 8 pounds per gallon. One cubic foot of water contains roughly 8 gallons and weighs about 60 pounds.</p>"
+            },
+            "id-00005": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "heallist": {
+                    "id-00001": {
+                      "dice": "d8",
+                      "stat": "cl",
+                      "statmax": 5,
+                      "statmult": 1
+                    }
+                  },
+                  "order": 2,
+                  "type": "heal"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage.",
+              "duration": "instantaneous",
+              "effect": "Target-creature touched",
+              "level": "Adept 1, Alchemist 1, Bard 1, Cleric 1, Druid 1, Hunter 1, Inquisitor 1, Investigator 1, Occultist 1, Oracle 1, Paladin 1, Ranger 2, Shaman 1, Skald 1, Spiritualist 1, Warpriest 1, Witch 1",
+              "linkedspells": "",
+              "name": "Cure Light Wounds",
+              "prepared": 0,
+              "range": "touch",
+              "save": "Will half (harmless)",
+              "school": "conjuration (healing)",
+              "shortdescription": "Cures 1d8 damage + 1/level (max +5).",
+              "sr": "yes (harmless); see text",
+              "text": "<p>When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage.</p>"
+            },
+            "id-00006": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "You determine whether a creature, object, or area has been poisoned or is poisonous. You can determine the exact type of poison with a DC 20 Wisdom check. A character with the Craft (alchemy) skill may try a DC 20 Craft (alchemy) check if the Wisdom check fails, or may try the Craft (alchemy) check prior to the Wisdom check. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.",
+              "duration": "instantaneous",
+              "effect": "Target or Area-one creature, one object, or a 5-ft. cube",
+              "level": "Antipaladin 1, Arcanist 0, Cleric 0, Druid 0, Hunter 0, Inquisitor 0, Mesmerist 0, Occultist 0, Oracle 0, Paladin 1, Psychic 0, Ranger 1, Shaman 0, Sorcerer 0, Warpriest 0, Witch 0, Wizard 0",
+              "linkedspells": "",
+              "name": "Detect Poison",
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "none",
+              "school": "divination",
+              "shortdescription": "Detects poison in one creature or object.",
+              "sr": "no",
+              "text": "<p>You determine whether a creature, object, or area has been poisoned or is poisonous. You can determine the exact type of poison with a DC 20 Wisdom check. A character with the Craft (alchemy) skill may try a DC 20 Craft (alchemy) check if the Wisdom check fails, or may try the Craft (alchemy) check prior to the Wisdom check. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.</p>"
+            },
+            "id-00007": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "durmod": 1,
+                  "label": "Stunned",
+                  "order": 2,
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M/DF (earth from a grave)",
+              "cost": 1,
+              "description": "You can detect the aura that surrounds undead creatures. The amount of information revealed depends on how long you study a particular area.\\n\\n1st Round : Presence or absence of undead auras.\\n\\n2nd Round : Number of undead auras in the area and the strength of the strongest undead aura present. If you are of good alignment, and the strongest undead aura's strength is overwhelming (see below), and the creature has HD of at least twice your character level, you are stunned for 1 round and the spell ends.\\n\\n3rd Round : The strength and location of each undead aura. If an aura is outside your line of sight, then you discern its direction but not its exact location.\\n\\nAura Strength : The strength of an undead aura is determined by the HD of the undead creature, as given on the table below.\\n\\nLingering Aura : An undead aura lingers after its original source is destroyed. If detect undead is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power, as given on the table below.\\n\\n\\n\\n[HD] [Strength] [Lingering Aura Duration]\\n[1 or lower] [Faint] [1d6 rounds]\\n[2-4] [Moderate] [1d6 minutes]\\n[5-10] [Strong] [1d6 x 10 minutes]\\n[11 or higher] [Overwhelming] [1d6 days]\\n\\nEach round, you can turn to detect undead in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.",
+              "duration": "concentration, up to 1 min./level",
+              "effect": "Area-cone-shaped emanation",
+              "level": "Alchemist 1, Arcanist 1, Cleric 1, Inquisitor 1, Investigator 1, Medium 1, Mesmerist 1, Oracle 1, Paladin 1, Psychic 1, Shaman 1, Sorcerer 1, Spiritualist 1, Warpriest 1, Wizard 1",
+              "linkedspells": "",
+              "name": "Detect Undead",
+              "range": "60 ft.",
+              "save": "none",
+              "school": "divination",
+              "shortdescription": "Reveals undead within 60 ft.",
+              "sr": "no",
+              "text": "<p>You can detect the aura that surrounds undead creatures. The amount of information revealed depends on how long you study a particular area.</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>1st Round </i>: Presence or absence of undead auras.</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>2nd Round </i>: Number of undead auras in the area and the strength of the strongest undead aura present. If you are of good alignment, and the strongest undead aura's strength is overwhelming (see below), and the creature has HD of at least twice your character level, you are stunned for 1 round and the spell ends.</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>3rd Round </i>: The strength and location of each undead aura. If an aura is outside your line of sight, then you discern its direction but not its exact location.</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>Aura Strength </i>: The strength of an undead aura is determined by the HD of the undead creature, as given on the table below.</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>Lingering Aura </i>: An undead aura lingers after its original source is destroyed. If detect undead is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power, as given on the table below.</p>\n\t\t\t\t\t\t\t\t\t\t<p />\n\t\t\t\t\t\t\t\t\t\t<table>\n\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<b>HD</b>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<b>Strength</b>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<b>Lingering Aura Duration</b>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>1 or lower</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>Faint</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>1d6 rounds</td>\n\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>2-4</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>Moderate</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>1d6 minutes</td>\n\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>5-10</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>Strong</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>1d6 x 10 minutes</td>\n\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>11 or higher</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>Overwhelming</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>1d6 days</td>\n\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t\t\t<p>Each round, you can turn to detect undead in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.</p>"
+            },
+            "id-00008": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, DF",
+              "cost": 1,
+              "description": "Calling upon the strength and wisdom of a deity, you gain a +1 luck bonus on attack and weapon damage rolls for every three caster levels you have (at least +1, maximum +3). The bonus doesn't apply to spell damage.",
+              "duration": "1 minute",
+              "effect": "Target-you",
+              "level": "Cleric 1, Inquisitor 1, Oracle 1, Paladin 1, Warpriest 1",
+              "linkedspells": "",
+              "name": "Divine Favor",
+              "prepared": 1,
+              "range": "personal",
+              "school": "evocation",
+              "shortdescription": "You gain +1 per three levels on attack and damage rolls.",
+              "text": "<p>Calling upon the strength and wisdom of a deity, you gain a +1 luck bonus on attack and weapon damage rolls for every three caster levels you have (at least +1, maximum +3). The bonus doesn't apply to spell damage.</p>"
+            },
+            "id-00009": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "A creature protected by endure elements suffers no harm from being in a hot or cold environment. It can exist comfortably in conditions between -50 and 140 degrees Fahrenheit without having to make Fortitude saves. The creature's equipment is likewise protected.\\n\\nEndure elements doesn't provide any protection from fire or cold damage, nor does it protect against other environmental hazards such as smoke, lack of air, and so forth.",
+              "duration": "24 hours",
+              "effect": "Target-creature touched",
+              "level": "Adept 1, Alchemist 1, Arcanist 1, Bloodrager 1, Cleric 1, Druid 1, Hunter 1, Investigator 1, Oracle 1, Paladin 1, Psychic 1, Ranger 1, Shaman 1, Sorcerer 1, Spiritualist 1, Summoner 1, Summoner UC 1, Warpriest 1, Wizard 1",
+              "linkedspells": "",
+              "name": "Endure Elements",
+              "prepared": 0,
+              "range": "touch",
+              "save": "Will negates (harmless)",
+              "school": "abjuration",
+              "shortdescription": "Exist comfortably in hot or cold regions.",
+              "sr": "yes (harmless)",
+              "text": "<p>A creature protected by <i>endure elements </i>suffers no harm from being in a hot or cold environment. It can exist comfortably in conditions between -50 and 140 degrees Fahrenheit without having to make Fortitude saves. The creature's equipment is likewise protected.</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>Endure elements </i>doesn't provide any protection from fire or cold damage, nor does it protect against other environmental hazards such as smoke, lack of air, and so forth.</p>"
+            },
+            "id-00010": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, DF",
+              "cost": 1,
+              "description": "Magic weapon gives a weapon a +1 enhancement bonus on attack and damage rolls. An enhancement bonus does not stack with a masterwork weapon's +1 bonus on attack rolls.\\n\\nYou can't cast this spell on a natural weapon, such as an unarmed strike (instead, see magic fang ). A monk's unarmed strike is considered a weapon, and thus it can be enhanced by this spell.",
+              "duration": "1 min./level",
+              "effect": "Target-weapon touched",
+              "level": "Antipaladin 1, Arcanist 1, Bloodrager 1, Cleric 1, Inquisitor 1, Magus 1, Occultist 1, Oracle 1, Paladin 1, Red Mantis Assassin 1, Shaman 1, Sorcerer 1, Warpriest 1, Wizard 1",
+              "linkedspells": "",
+              "name": "Magic Weapon",
+              "range": "touch",
+              "save": "Will negates (harmless, object)",
+              "school": "transmutation",
+              "shortdescription": "Weapon gains +1 bonus.",
+              "sr": "yes (harmless, object)",
+              "text": "<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>Magic weapon </i>gives a weapon a +1 enhancement bonus on attack and damage rolls. An enhancement bonus does not stack with a masterwork weapon's +1 bonus on attack rolls.</p>\n\t\t\t\t\t\t\t\t\t\t<p>You can't cast this spell on a natural weapon, such as an unarmed strike (instead, see <i>magic fang </i>). A monk's unarmed strike is considered a weapon, and thus it can be enhanced by this spell.</p>"
+            },
+            "id-00011": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M/DF",
+              "cost": 1,
+              "description": "This spell functions like protection from evil , except that the deflection and resistance bonuses apply to attacks made by chaotic creatures. The target receives a new saving throw against control by chaotic creatures and chaotic summoned creatures cannot touch the target.\\n\\nProtection from Evil: This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects.\\n\\nFirst, the subject gains a +2 deflection bonus to AC and a +2 resistance bonus on saves. Both these bonuses apply against attacks made or effects created by evil creatures.\\n\\nSecond, the subject immediately receives another saving throw (if one was allowed to begin with) against any spells or effects that possess or exercise mental control over the creature (including enchantment [charm] effects and enchantment [compulsion] effects, such as charm person , command , and dominate person . This saving throw is made with a +2 morale bonus, using the same DC as the original effect. If successful, such effects are suppressed for the duration of this spell. The effects resume when the duration of this spell expires. While under the effects of this spell, the target is immune to any new attempts to possess or exercise mental control over the target. This spell does not expel a controlling life force (such as a ghost or spellcaster using magic jar ), but it does prevent them from controlling the target. This second effect only functions against spells and effects created by evil creatures or objects, subject to GM discretion.\\n\\nThird, the spell prevents bodily contact by evil summoned creatures. This causes the natural weapon attacks of such creatures to fail and the creatures to recoil if such attacks require touching the warded creature. Summoned creatures that are not evil are immune to this effect. The protection against contact by summoned creatures ends if the warded creature makes an attack against or tries to force the barrier against the blocked creature. Spell resistance can allow a creature to overcome this protection and touch the warded creature.",
+              "duration": "1 min./level (D)",
+              "effect": "Target-creature touched",
+              "level": "Adept 1, Arcanist 1, Bloodrager 1, Cleric 1, Inquisitor 1, Medium 1, Oracle 1, Paladin 1, Shaman 1, Sorcerer 1, Spiritualist 1, Summoner 1, Summoner UC 1, Warpriest 1, Wizard 1",
+              "linkedspells": "",
+              "name": "Protection from Chaos",
+              "range": "touch",
+              "save": "Will negates (harmless)",
+              "school": "abjuration [lawful]",
+              "shortdescription": "+2 to AC and saves, plus additional protection against selected alignment.",
+              "sr": "no; see text",
+              "text": "<p>This spell functions like <i>protection from evil </i>, except that the deflection and resistance bonuses apply to attacks made by chaotic creatures. The target receives a new saving throw against control by chaotic creatures and chaotic summoned creatures cannot touch the target.</p>"
+            },
+            "id-00012": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M/DF",
+              "cost": 1,
+              "description": "This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects.\\n\\nFirst, the subject gains a +2 deflection bonus to AC and a +2 resistance bonus on saves. Both these bonuses apply against attacks made or effects created by evil creatures.\\n\\nSecond, the subject immediately receives another saving throw (if one was allowed to begin with) against any spells or effects that possess or exercise mental control over the creature (including enchantment [charm] effects and enchantment [compulsion] effects, such as charm person , command , and dominate person . This saving throw is made with a +2 morale bonus, using the same DC as the original effect. If successful, such effects are suppressed for the duration of this spell. The effects resume when the duration of this spell expires. While under the effects of this spell, the target is immune to any new attempts to possess or exercise mental control over the target. This spell does not expel a controlling life force (such as a ghost or spellcaster using magic jar ), but it does prevent them from controlling the target. This second effect only functions against spells and effects created by evil creatures or objects, subject to GM discretion.\\n\\nThird, the spell prevents bodily contact by evil summoned creatures. This causes the natural weapon attacks of such creatures to fail and the creatures to recoil if such attacks require touching the warded creature. Summoned creatures that are not evil are immune to this effect. The protection against contact by summoned creatures ends if the warded creature makes an attack against or tries to force the barrier against the blocked creature. Spell resistance can allow a creature to overcome this protection and touch the warded creature.",
+              "duration": "1 min./level (D)",
+              "effect": "Target-creature touched",
+              "level": "Adept 1, Arcanist 1, Bloodrager 1, Cleric 1, Inquisitor 1, Medium 1, Oracle 1, Paladin 1, Shaman 1, Sorcerer 1, Spiritualist 1, Summoner 1, Summoner UC 1, Warpriest 1, Wizard 1",
+              "linkedspells": "",
+              "name": "Protection from Evil",
+              "prepared": 1,
+              "range": "touch",
+              "save": "Will negates (harmless)",
+              "school": "abjuration [good]",
+              "shortdescription": "+2 to AC and saves, plus additional protection against selected alignment.",
+              "sr": "no; see text",
+              "text": "<p>This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects.</p>\n\t\t\t\t\t\t\t\t\t\t<p>First, the subject gains a +2 deflection bonus to AC and a +2 resistance bonus on saves. Both these bonuses apply against attacks made or effects created by evil creatures.</p>\n\t\t\t\t\t\t\t\t\t\t<p>Second, the subject immediately receives another saving throw (if one was allowed to begin with) against any spells or effects that possess or exercise mental control over the creature (including enchantment [charm] effects and enchantment [compulsion] effects, such as <i>charm person </i>, <i>command </i>, and <i>dominate person </i>. This saving throw is made with a +2 morale bonus, using the same DC as the original effect. If successful, such effects are suppressed for the duration of this spell. The effects resume when the duration of this spell expires. While under the effects of this spell, the target is immune to any new attempts to possess or exercise mental control over the target. This spell does not expel a controlling life force (such as a ghost or spellcaster using <i>magic jar </i>), but it does prevent them from controlling the target. This second effect only functions against spells and effects created by evil creatures or objects, subject to GM discretion.</p>\n\t\t\t\t\t\t\t\t\t\t<p>Third, the spell prevents bodily contact by evil summoned creatures. This causes the natural weapon attacks of such creatures to fail and the creatures to recoil if such attacks require touching the warded creature. Summoned creatures that are not evil are immune to this effect. The protection against contact by summoned creatures ends if the warded creature makes an attack against or tries to force the barrier against the blocked creature. Spell resistance can allow a creature to overcome this protection and touch the warded creature.</p>"
+            },
+            "id-00013": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, F (a clear crystal or mineral prism)",
+              "cost": 1,
+              "description": "You can decipher magical inscriptions on objects-books, scrolls, weapons, and the like-that would otherwise be unintelligible. This deciphering does not normally invoke the magic contained in the writing, although it may do so in the case of a cursed or trapped scroll. Furthermore, once the spell is cast and you have read the magical inscription, you are thereafter able to read that particular writing without recourse to the use of read magic . You can read at the rate of one page (250 words) per minute. The spell allows you to identify a glyph of warding with a DC 13 Spellcraft check, a greater glyph of warding with a DC 16 Spellcraft check, or any symbol spell with a Spellcraft check (DC 10 + spell level).\\n\\nRead magic can be made permanent with a permanency spell.",
+              "duration": "10 min./level",
+              "effect": "Target-you",
+              "level": "Adept 0, Antipaladin 1, Arcanist 0, Bard 0, Cleric 0, Druid 0, Hunter 0, Inquisitor 0, Magus 0, Medium 0, Mesmerist 0, Occultist 0, Oracle 0, Paladin 1, Psychic 0, Ranger 1, Shaman 0, Skald 0, Sorcerer 0, Spiritualist 0, Summoner 0, Summoner UC 0, Warpriest 0, Witch 0, Wizard 0",
+              "linkedspells": "",
+              "name": "Read Magic",
+              "range": "personal",
+              "school": "divination",
+              "shortdescription": "Read scrolls and spellbooks.",
+              "text": "<p>You can decipher magical inscriptions on objects-books, scrolls, weapons, and the like-that would otherwise be unintelligible. This deciphering does not normally invoke the magic contained in the writing, although it may do so in the case of a cursed or trapped scroll. Furthermore, once the spell is cast and you have read the magical inscription, you are thereafter able to read that particular writing without recourse to the use of <i>read magic </i>. You can read at the rate of one page (250 words) per minute. The spell allows you to identify a <i>glyph of warding </i>with a DC 13 Spellcraft check, a <i>greater glyph of warding </i>with a DC 16 Spellcraft check, or any <i>symbol </i>spell with a Spellcraft check (DC 10 + spell level).</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>Read magic </i>can be made permanent with a <i>permanency </i>spell.</p>"
+            },
+            "id-00014": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M/DF (a miniature cloak)",
+              "cost": 1,
+              "description": "You imbue the subject with magical energy that protects it from harm, granting it a +1 resistance bonus on saves.\\n\\nResistance can be made permanent with a permanency spell.",
+              "duration": "1 minute",
+              "effect": "Target-creature touched",
+              "level": "Arcanist 0, Bard 0, Cleric 0, Druid 0, Hunter 0, Inquisitor 0, Medium 0, Occultist 0, Oracle 0, Paladin 1, Psychic 0, Shaman 0, Skald 0, Sorcerer 0, Spiritualist 0, Summoner 0, Summoner UC 0, Warpriest 0, Witch 0, Wizard 0",
+              "linkedspells": "",
+              "name": "Resistance",
+              "prepared": 0,
+              "range": "touch",
+              "save": "Will negates (harmless)",
+              "school": "abjuration",
+              "shortdescription": "Subject gains +1 on saving throws.",
+              "sr": "yes (harmless)",
+              "text": "<p>You imbue the subject with magical energy that protects it from harm, granting it a +1 resistance bonus on saves.</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>Resistance </i>can be made permanent with a <i>permanency </i>spell.</p>"
+            },
+            "id-00015": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "3 rounds",
+              "components": "V, S",
+              "cost": 1,
+              "description": "Lesser restoration dispels any magical effects reducing one of the subject's ability scores or cures 1d4 points of temporary ability damage to one of the subject's ability scores. It also eliminates any fatigue suffered by the character, and improves an exhausted condition to fatigued. It does not restore permanent ability drain.",
+              "duration": "instantaneous",
+              "effect": "Target-creature touched",
+              "level": "Alchemist 2, Cleric 2, Druid 2, Hunter 2, Inquisitor 2, Investigator 2, Mesmerist 2, Oracle 2, Paladin 1, Shaman 2, Spiritualist 2, Warpriest 2",
+              "linkedspells": "",
+              "name": "Restoration, Lesser",
+              "prepared": 0,
+              "range": "touch",
+              "save": "Will negates (harmless)",
+              "school": "conjuration (healing)",
+              "shortdescription": "Dispels magical ability penalty or repairs 1d4 ability damage.",
+              "sr": "yes (harmless)",
+              "text": "<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>Lesser restoration </i>dispels any magical effects reducing one of the subject's ability scores or cures 1d4 points of temporary ability damage to one of the subject's ability scores. It also eliminates any fatigue suffered by the character, and improves an exhausted condition to fatigued. It does not restore permanent ability drain.</p>"
+            },
+            "id-00016": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, DF",
+              "cost": 1,
+              "description": "With a touch, you infuse a creature with a tiny surge of life, granting the subject 1 temporary hit point.",
+              "duration": "1 min.",
+              "effect": "Target-creature touched",
+              "level": "Cleric 0, Druid 0, Hunter 0, Inquisitor 0, Medium 0, Oracle 0, Paladin 1, Psychic 0, Shaman 0, Spiritualist 0, Warpriest 0",
+              "linkedspells": "",
+              "name": "Virtue",
+              "prepared": 0,
+              "range": "touch",
+              "save": "none",
+              "school": "transmutation",
+              "shortdescription": "Subject gains 1 temporary hp.",
+              "sr": "yes (harmless)",
+              "text": "<p>With a touch, you infuse a creature with a tiny surge of life, granting the subject 1 temporary hit point.</p>"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 2
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 1,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M/DF (a few hairs, or a pinch of dung, from a bull)",
+              "cost": 3,
+              "description": "The subject becomes stronger. The spell grants a +4 enhancement bonus to Strength, adding the usual benefits to melee attack rolls, melee damage rolls, and other uses of the Strength modifier.",
+              "duration": "1 min./level",
+              "effect": "Target-creature touched",
+              "level": "Adept 2, Alchemist 2, Antipaladin 2, Arcanist 2, Bloodrager 2, Cleric 2, Druid 2, Hunter 2, Investigator 2, Magus 2, Medium 2, Oracle 2, Paladin 2, Psychic 2, Red Mantis Assassin 2, Shaman 2, Sorcerer 2, Summoner 2, Summoner UC 2, Warpriest 2, Wizard 2",
+              "linkedspells": "",
+              "name": "Bull's Strength",
+              "prepared": 1,
+              "range": "touch",
+              "save": "Will negates (harmless)",
+              "school": "transmutation",
+              "shortdescription": "Subject gains +4 to Str for 1 min./level.",
+              "sr": "yes (harmless)",
+              "text": "<p>The subject becomes stronger. The spell grants a +4 enhancement bonus to Strength, adding the usual benefits to melee attack rolls, melee damage rolls, and other uses of the Strength modifier.</p>"
+            },
+            "id-00002": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, DF",
+              "cost": 3,
+              "description": "The subject becomes temporarily immune to poison. Any poison in its system or any poison to which it is exposed during the spell's duration does not affect the subject until the spell's duration has expired. Delay poison does not cure any damage that poison may have already done.",
+              "duration": "1 hour/level",
+              "effect": "Target-creature touched",
+              "level": "Adept 2, Alchemist 2, Bard 2, Cleric 2, Druid 2, Hunter 1, Inquisitor 2, Investigator 2, Mesmerist 2, Occultist 2, Oracle 2, Paladin 2, Ranger 1, Shaman 2, Skald 2, Warpriest 2, Witch 2",
+              "linkedspells": "",
+              "name": "Delay Poison",
+              "range": "touch",
+              "save": "Fortitude negates (harmless)",
+              "school": "conjuration (healing)",
+              "shortdescription": "Stops poison from harming target for 1 hour/level.",
+              "sr": "yes (harmless)",
+              "text": "<p>The subject becomes temporarily immune to poison. Any poison in its system or any poison to which it is exposed during the spell's duration does not affect the subject until the spell's duration has expired. <i>Delay poison </i>does not cure any damage that poison may have already done.</p>"
+            },
+            "id-00003": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M/DF (feathers or droppings from an eagle)",
+              "cost": 3,
+              "description": "The transmuted creature becomes more poised, articulate, and personally forceful. The spell grants a +4 enhancement bonus to Charisma, adding the usual benefits to Charisma-based skill checks and other uses of the Charisma modifier. Bards, paladins, and sorcerers (and other spellcasters who rely on Charisma) affected by this spell do not gain any additional bonus spells for the increased Charisma, but the save DCs for spells they cast while under this spell's effect do increase.",
+              "duration": "1 min./level",
+              "effect": "Target-creature touched",
+              "level": "Alchemist 2, Antipaladin 2, Arcanist 2, Bard 2, Bloodrager 2, Cleric 2, Investigator 2, Medium 2, Mesmerist 2, Oracle 2, Paladin 2, Psychic 2, Red Mantis Assassin 2, Shaman 2, Skald 2, Sorcerer 2, Summoner 2, Summoner UC 2, Warpriest 2, Wizard 2",
+              "linkedspells": "",
+              "name": "Eagle's Splendor",
+              "range": "touch",
+              "save": "Will negates (harmless)",
+              "school": "transmutation",
+              "shortdescription": "Subject gains +4 to Cha for 1 min./level.",
+              "sr": "yes",
+              "text": "<p>The transmuted creature becomes more poised, articulate, and personally forceful. The spell grants a +4 enhancement bonus to Charisma, adding the usual benefits to Charisma-based skill checks and other uses of the Charisma modifier. Bards, paladins, and sorcerers (and other spellcasters who rely on Charisma) affected by this spell do not gain any additional bonus spells for the increased Charisma, but the save DCs for spells they cast while under this spell's effect do increase.</p>"
+            },
+            "id-00004": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M/DF (feathers or droppings from an owl)",
+              "cost": 3,
+              "description": "The transmuted creature becomes wiser. The spell grants a +4 enhancement bonus to Wisdom, adding the usual benefit to Wisdom-related skills. Clerics, druids, and rangers (and other Wisdom-based spellcasters) who receive owl's wisdom do not gain any additional bonus spells for the increased Wisdom, but the save DCs for their spells increase.",
+              "duration": "1 min./level",
+              "effect": "Target-creature touched",
+              "level": "Alchemist 2, Arcanist 2, Cleric 2, Druid 2, Hunter 2, Investigator 2, Medium 2, Oracle 2, Paladin 2, Psychic 2, Ranger 2, Red Mantis Assassin 2, Shaman 2, Sorcerer 2, Summoner 2, Summoner UC 2, Warpriest 2, Wizard 2",
+              "linkedspells": "",
+              "name": "Owl's Wisdom",
+              "range": "touch",
+              "save": "Will negates (harmless)",
+              "school": "transmutation",
+              "shortdescription": "Subject gains +4 to Wis for 1 min./level.",
+              "sr": "yes",
+              "text": "<p>The transmuted creature becomes wiser. The spell grants a +4 enhancement bonus to Wisdom, adding the usual benefit to Wisdom-related skills. Clerics, druids, and rangers (and other Wisdom-based spellcasters) who receive owl's wisdom do not gain any additional bonus spells for the increased Wisdom, but the save DCs for their spells increase.</p>"
+            },
+            "id-00005": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 3,
+              "description": "You can free one or more creatures from the effects of temporary paralysis or related magic, including spells and effects that cause a creature to gain the staggered condition. If the spell is cast on one creature, the paralysis is negated. If cast on two creatures, each receives another save with a +4 resistance bonus against the effect that afflicts it. If cast on three or four creatures, each receives another save with a +2 resistance bonus.\\n\\nThe spell does not restore ability scores reduced by penalties, damage, or drain.",
+              "duration": "instantaneous",
+              "effect": "Targets-up to four creatures, no two of which can be more than 30 ft. apart",
+              "level": "Cleric 2, Inquisitor 2, Oracle 2, Paladin 2, Shaman 2, Spiritualist 2, Warpriest 2",
+              "linkedspells": "",
+              "name": "Remove Paralysis",
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "Will negates (harmless)",
+              "school": "conjuration (healing)",
+              "shortdescription": "Frees creatures from paralysis or",
+              "sr": "yes (harmless)",
+              "text": "<p>You can free one or more creatures from the effects of temporary paralysis or related magic, including spells and effects that cause a creature to gain the staggered condition. If the spell is cast on one creature, the paralysis is negated. If cast on two creatures, each receives another save with a +4 resistance bonus against the effect that afflicts it. If cast on three or four creatures, each receives another save with a +2 resistance bonus.</p>\n\t\t\t\t\t\t\t\t\t\t<p>The spell does not restore ability scores reduced by penalties, damage, or drain.</p>"
+            },
+            "id-00006": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, DF",
+              "cost": 3,
+              "description": "This abjuration grants a creature limited protection from damage of whichever one of five energy types you select: acid, cold, electricity, fire, or sonic. The subject gains resist energy 10 against the energy type chosen, meaning that each time the creature is subjected to such damage (whether from a natural or magical source), that damage is reduced by 10 points before being applied to the creature's hit points. The value of the energy resistance granted increases to 20 points at 7th level and to a maximum of 30 points at 11th level. The spell protects the recipient's equipment as well.\\n\\nResist energy absorbs only damage. The subject could still suffer unfortunate side effects.\\n\\nResist energy overlaps (and does not stack with) protection from energy . If a character is warded by protection from energy and resist energy , the protection spell absorbs damage until its power is exhausted.",
+              "duration": "10 min./level",
+              "effect": "Target-creature touched",
+              "level": "Adept 2, Alchemist 2, Arcanist 2, Bloodrager 2, Cleric 2, Druid 2, Hunter 1, Inquisitor 2, Investigator 2, Occultist 2, Oracle 2, Paladin 2, Psychic 2, Ranger 1, Shaman 2, Sorcerer 2, Spiritualist 2, Summoner 2, Summoner UC 2, Warpriest 2, Wizard 2",
+              "linkedspells": "",
+              "name": "Resist Energy",
+              "prepared": 1,
+              "range": "touch",
+              "save": "Fortitude negates (harmless)",
+              "school": "abjuration",
+              "shortdescription": "Ignores 10 (or more) points of damage/attack from specified energy type.",
+              "sr": "yes (harmless)",
+              "text": "<p>This abjuration grants a creature limited protection from damage of whichever one of five energy types you select: acid, cold, electricity, fire, or sonic. The subject gains resist energy 10 against the energy type chosen, meaning that each time the creature is subjected to such damage (whether from a natural or magical source), that damage is reduced by 10 points before being applied to the creature's hit points. The value of the energy resistance granted increases to 20 points at 7th level and to a maximum of 30 points at 11th level. The spell protects the recipient's equipment as well.</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>Resist energy </i>absorbs only damage. The subject could still suffer unfortunate side effects.</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>Resist energy </i>overlaps (and does not stack with) <i>protection from energy </i>. If a character is warded by <i>protection from energy </i>and <i>resist energy </i>, the <i>protection </i>spell absorbs damage until its power is exhausted.</p>"
+            },
+            "id-00007": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, F (a pair of platinum rings worth 50 gp worn by both you and the target)",
+              "cost": 3,
+              "description": "This spell wards the subject and creates a mystic connection between you and the subject so that some of its wounds are transferred to you. The subject gains a +1 deflection bonus to AC and a +1 resistance bonus on saves. Additionally, the subject takes only half damage from all wounds and attacks (including those dealt by special abilities) that deal hit point damage. The amount of damage not taken by the warded creature is taken by you. Forms of harm that do not involve hit points, such as charm effects, temporary ability damage, level draining, and death effects, are not affected. If the subject suffers a reduction of hit points from a lowered Constitution score, the reduction is not split with you because it is not hit point damage. When the spell ends, subsequent damage is no longer divided between the subject and you, but damage already split is not reassigned to the subject.\\n\\nIf you and the subject of the spell move out of range of each other, the spell ends.",
+              "duration": "1 hour/level (D)",
+              "effect": "Target-one creature",
+              "level": "Cleric 2, Inquisitor 2, Oracle 2, Paladin 2, Psychic 2, Warpriest 2",
+              "linkedspells": "",
+              "name": "Shield Other",
+              "prepared": 0,
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "Will negates (harmless)",
+              "school": "abjuration",
+              "shortdescription": "You take half of subject's damage.",
+              "sr": "yes (harmless)",
+              "text": "<p>This spell wards the subject and creates a mystic connection between you and the subject so that some of its wounds are transferred to you. The subject gains a +1 deflection bonus to AC and a +1 resistance bonus on saves. Additionally, the subject takes only half damage from all wounds and attacks (including those dealt by special abilities) that deal hit point damage. The amount of damage not taken by the warded creature is taken by you. Forms of harm that do not involve hit points, such as charm effects, temporary ability damage, level draining, and death effects, are not affected. If the subject suffers a reduction of hit points from a lowered Constitution score, the reduction is not split with you because it is not hit point damage. When the spell ends, subsequent damage is no longer divided between the subject and you, but damage already split is not reassigned to the subject.</p>\n\t\t\t\t\t\t\t\t\t\t<p>If you and the subject of the spell move out of range of each other, the spell ends.</p>"
+            },
+            "id-00008": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "savetype": "will",
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 3,
+              "description": "An undetectable alignment spell conceals the alignment of an object or a creature from all forms of divination.",
+              "duration": "24 hours",
+              "effect": "Target-one creature or object",
+              "level": "Alchemist 2, Antipaladin 2, Bard 1, Cleric 2, Inquisitor 2, Investigator 2, Mesmerist 1, Oracle 2, Paladin 2, Psychic 2, Skald 1, Warpriest 2",
+              "linkedspells": "",
+              "name": "Undetectable Alignment",
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "Will negates (object)",
+              "school": "abjuration",
+              "shortdescription": "Conceals alignment for 24 hours.",
+              "sr": "yes (object)",
+              "text": "<p>An <i>undetectable alignment </i>spell conceals the alignment of an object or a creature from all forms of divination.</p>"
+            },
+            "id-00009": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "savetype": "will",
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, DF",
+              "cost": 3,
+              "description": "Creatures within the emanation area (or those who enter it) can't speak any deliberate and intentional lies. Each potentially affected creature is allowed a save to avoid the effects when the spell is cast or when the creature first enters the emanation area. Affected creatures are aware of this enchantment. Therefore, they may avoid answering questions to which they would normally respond with a lie, or they may be evasive as long as they remain within the boundaries of the truth. Creatures who leave the area are free to speak as they choose.",
+              "duration": "1 min./level",
+              "effect": "Area-20-ft.-radius emanation",
+              "level": "Cleric 2, Inquisitor 2, Medium 2, Oracle 2, Paladin 2, Psychic 2, Warpriest 2, Witch 2",
+              "linkedspells": "",
+              "name": "Zone of Truth",
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "Will negates",
+              "school": "enchantment (compulsion) [mind-affecting]",
+              "shortdescription": "Subjects within range cannot lie.",
+              "sr": "yes",
+              "text": "<p>Creatures within the emanation area (or those who enter it) can't speak any deliberate and intentional lies. Each potentially affected creature is allowed a save to avoid the effects when the spell is cast or when the creature first enters the emanation area. Affected creatures are aware of this enchantment. Therefore, they may avoid answering questions to which they would normally respond with a lie, or they may be evasive as long as they remain within the boundaries of the truth. Creatures who leave the area are free to speak as they choose.</p>"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 2
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "points": 0,
+      "pointsused": 0,
+      "sp": 0
+    }
+  },
+  "temp": "",
+  "token": "portrait_id-00009_token",
+  "traitlist": "",
+  "weaponlist": {
+    "id-00001": {
+      "ammunitionmanager": "",
+      "attacks": 2,
+      "attackview1": 14,
+      "attackview2": 9,
+      "attackview3": 4,
+      "attackview4": -1,
+      "bonus": 2,
+      "carried": 2,
+      "critatkrange": 19,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 2,
+          "critmult": 2,
+          "dice": "d8",
+          "stat": "strength",
+          "statmult": 1,
+          "type": "slashing"
+        }
+      },
+      "isidentified": 1,
+      "name": "+2 Holy Cold Iron Longsword",
+      "properties": "cold iron, magic, holy",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00016"
+      },
+      "type": 0
+    },
+    "id-00006": {
+      "ammunitionmanager": "",
+      "attack1modifier": 0,
+      "attack2modifier": 0,
+      "attack3modifier": 0,
+      "attack4modifier": 0,
+      "attacks": 2,
+      "attackview1": 14,
+      "attackview2": 9,
+      "attackview3": 4,
+      "attackview4": -1,
+      "bonus": 2,
+      "carried": 2,
+      "critatkrange": 20,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 1,
+          "critmult": 3,
+          "dice": "d8",
+          "stat": "strength",
+          "statmax": 0,
+          "statmult": 1.5,
+          "type": "piercing, cold iron"
+        }
+      },
+      "isidentified": 1,
+      "name": "+1 Cold Iron Longspear",
+      "properties": "Brace, Reach, cold iron, magic",
+      "rangeincrement": 0,
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00003"
+      },
+      "type": 0
+    },
+    "id-00008": {
+      "ammunitionmanager": "",
+      "attacks": 2,
+      "attackview1": 12,
+      "attackview2": 7,
+      "attackview3": 2,
+      "attackview4": -3,
+      "bonus": 0,
+      "carried": 2,
+      "critatkrange": 20,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d6",
+          "stat": "strength",
+          "statmult": 1,
+          "type": "piercing"
+        }
+      },
+      "isidentified": 1,
+      "name": "Spiked armor",
+      "properties": "-",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00012"
+      },
+      "type": 0
+    }
+  },
+  "weight": "180"
+}

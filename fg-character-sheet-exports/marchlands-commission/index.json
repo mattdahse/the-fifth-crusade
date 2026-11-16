@@ -1,0 +1,50 @@
+{
+  "campaign": "The Real Work",
+  "characters": [
+    {
+      "name": "Riven Maelus",
+      "record": "id-00001",
+      "file": "riven-maelus.json",
+      "level": 2,
+      "class": [
+        "Wizard"
+      ]
+    },
+    {
+      "name": "Anita Character",
+      "record": "id-00002",
+      "file": "anita-character.json",
+      "level": 1,
+      "class": [
+        "Barbarian"
+      ]
+    },
+    {
+      "name": "Dorogh Kell",
+      "record": "id-00005",
+      "file": "dorogh-kell.json",
+      "level": 2,
+      "class": [
+        "Fighter"
+      ]
+    },
+    {
+      "name": "Diddle Scribes",
+      "record": "id-00007",
+      "file": "diddle-scribes.json",
+      "level": 2,
+      "class": [
+        "Alchemist"
+      ]
+    },
+    {
+      "name": "Kora Sjon",
+      "record": "id-00008",
+      "file": "kora-sjon.json",
+      "level": 2,
+      "class": [
+        "Oracle"
+      ]
+    }
+  ]
+}

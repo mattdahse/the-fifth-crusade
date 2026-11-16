@@ -1,0 +1,2053 @@
+{
+  "campaign": "Wrath of the Righteous - AZ",
+  "record": "charsheet.id-00005",
+  "abilities": {
+    "charisma": {
+      "base": 5,
+      "bonus": -3,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 5
+    },
+    "constitution": {
+      "abilperms": {
+        "id-00001": {
+          "bonus_type": "enhancement",
+          "permnum": 2
+        }
+      },
+      "base": 15,
+      "bonus": 3,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 2,
+      "permbon": 1,
+      "score": 17
+    },
+    "dexterity": {
+      "base": 18,
+      "bonus": 4,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 18
+    },
+    "intelligence": {
+      "base": 12,
+      "bonus": 1,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 12
+    },
+    "strength": {
+      "base": 16,
+      "bonus": 3,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 16
+    },
+    "wisdom": {
+      "base": 16,
+      "bonus": 3,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 16
+    }
+  },
+  "ac": {
+    "sources": {
+      "abilitymod": 3,
+      "abilitymod2": 0,
+      "armor": 8,
+      "cmdabilitymod": 3,
+      "cmdbasemod": 9,
+      "cmdmisc": 0,
+      "deflection": 0,
+      "dodge": 0,
+      "ffmisc": 0,
+      "misc": 0,
+      "naturalarmor": 4,
+      "shield": 0,
+      "size": 0,
+      "temporary": 0,
+      "touchmisc": 0
+    },
+    "totals": {
+      "cmd": 26,
+      "flatfooted": 22,
+      "general": 25,
+      "touch": 13
+    }
+  },
+  "age": "17",
+  "alignment": "CG",
+  "attackbonus": {
+    "base": 9,
+    "grapple": {
+      "abilitymod": 3,
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": 12
+    },
+    "melee": {
+      "abilitymod": 3,
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": 12
+    },
+    "ranged": {
+      "abilitymod": 4,
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": 13
+    }
+  },
+  "classes": {
+    "id-00001": {
+      "favored": 1,
+      "level": 9,
+      "name": "Ranger",
+      "shortcut": {
+        "class": "referenceclass",
+        "recordname": "reference.classes.ranger@PFRPG Basic Rules"
+      },
+      "skillranks": 65,
+      "skillranksused": 65
+    }
+  },
+  "coins": {
+    "id-00001": {
+      "amount": 1,
+      "name": "PP"
+    },
+    "id-00002": {
+      "amount": 15,
+      "name": "GP"
+    },
+    "id-00003": {
+      "amount": 1,
+      "name": "SP"
+    },
+    "id-00004": {
+      "amount": 0,
+      "name": "CP"
+    }
+  },
+  "defenses": {
+    "sr": {
+      "base": 0,
+      "misc": 0,
+      "temporary": 0,
+      "total": 0
+    }
+  },
+  "deity": "Desna",
+  "encumbrance": {
+    "armorcheckpenalty": -2,
+    "armormaxstatbonus": 4,
+    "armormaxstatbonusactive": 1,
+    "checkpenalty": -3,
+    "heavyload": 230,
+    "level": 1,
+    "liftoffground": 460,
+    "liftoverhead": 230,
+    "lightload": 76,
+    "load": 80.5,
+    "maxstatbonus": 3,
+    "mediumload": 153,
+    "pushordrag": 1150,
+    "spellfailure": 20,
+    "state": "Medium Load"
+  },
+  "exp": 4160,
+  "expneeded": 0,
+  "featlist": {
+    "id-00001": {
+      "benefit": "<p>You gain a +4 bonus on the following checks and saves: Swim checks made to resist nonlethal damage from exhaustion; Constitution checks made to continue running; Constitution checks made to avoid nonlethal damage from a forced march; Constitution checks made to hold your breath; Constitution checks made to avoid nonlethal damage from starvation or thirst; Fortitude saves made to avoid nonlethal damage from hot or cold environments; and Fortitude saves made to resist damage from suffocation</p>\n\t\t\t\t\t\t<p>You may sleep in light or medium armor without becoming fatigued.</p>",
+      "name": "Endurance",
+      "normal": "<p>A character without this feat who sleeps in medium or heavier armor is fatigued the next day.</p>",
+      "prerequisites": "-",
+      "special": "<p>-</p>",
+      "summary": "+4 bonus on checks to avoid nonlethal damage",
+      "type": "General"
+    },
+    "id-00002": {
+      "benefit": "<p>You gain a +1 bonus on all attack rolls you make using the selected weapon.</p>",
+      "name": "Weapon Focus (longbow)",
+      "normal": "<p>-</p>",
+      "prerequisites": "Proficiency with selected weapon, base attack bonus +1.",
+      "special": "<p>You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.</p>",
+      "summary": "+1 bonus on attack rolls with one weapon",
+      "type": "Combat"
+    },
+    "id-00003": {
+      "benefit": "<p>You get a +1 bonus on attack and damage rolls with ranged weapons at ranges of up to 30 feet.</p>",
+      "name": "Point Blank Shot",
+      "normal": "<p>-</p>",
+      "prerequisites": "-",
+      "special": "<p>-</p>",
+      "summary": "+1 attack and damage on targets within 30 feet",
+      "type": "Combat"
+    },
+    "id-00004": {
+      "benefit": "<p>You can shoot or throw ranged weapons at an opponent engaged in melee without taking the standard -4 penalty on your attack roll.</p>",
+      "name": "Precise Shot",
+      "normal": "<p>-</p>",
+      "prerequisites": "Point-Blank Shot.",
+      "special": "<p>-</p>",
+      "summary": "No penalty for shooting into melee",
+      "type": "Combat"
+    },
+    "id-00005": {
+      "benefit": "<p>When making a full-attack action with a ranged weapon, you can fire one additional time this round. All of your attack rolls take a -2 penalty when using Rapid Shot.</p>",
+      "flavor": "You can make an additional ranged attack.",
+      "mult": 0,
+      "name": "Rapid Shot",
+      "prerequisites": "Dex 13, Point Blank Shot",
+      "stack": 0,
+      "summary": "Make one extra ranged attack",
+      "type": "Combat"
+    },
+    "id-00006": {
+      "benefit": "<p>Your ranged attacks ignore the AC bonus granted to targets by anything less than total cover, and the miss chance granted to targets by anything less than total concealment. Total cover and total concealment provide their normal benefits against your ranged attacks.</p>",
+      "flavor": "Your ranged attacks ignore anything but total concealment and cover.",
+      "mult": 0,
+      "name": "Improved Precise Shot",
+      "normal": "<p>See the normal rules on the effects of cover and concealment in Chapter 8.</p>",
+      "prerequisites": "Dex 19, Point Blank Shot, Precise Shot, base attack bonus +11",
+      "stack": 0,
+      "summary": "No cover or concealment chance on ranged attacks",
+      "type": "Combat"
+    },
+    "id-00007": {
+      "benefit": "<p>You gain a +1 dodge bonus to your AC. A condition that makes you lose your Dex bonus to AC also makes you lose the benefits of this feat.</p>",
+      "flavor": "Your training and reflexes allow you to react swiftly to avoid an opponents' attacks.",
+      "mult": 0,
+      "name": "Dodge",
+      "prerequisites": "Dex 13",
+      "stack": 0,
+      "summary": "+1 dodge bonus to AC",
+      "type": "Combat"
+    },
+    "id-00008": {
+      "benefit": "<p>When making a full-attack action with a bow, your first attack fires two arrows. If the attack hits, both arrows hit. Apply precision-based damage (such as sneak attack) and critical hit damage only once for this attack. Damage bonuses from using a composite bow with a high Strength bonus apply to each arrow, as do other damage bonuses, such as a ranger's favored enemy bonus. Damage reduction and resistances apply separately to each arrow.</p>",
+      "flavor": "You can fire multiple arrows at a single target.",
+      "mult": 0,
+      "name": "Manyshot",
+      "prerequisites": "Dex 17, Point Blank Shot, Rapid Shot, base attack bonus +6",
+      "stack": 0,
+      "summary": "Shoot two arrows simultaneously",
+      "type": "Combat"
+    }
+  },
+  "gender": "Female",
+  "height": "5'-3\"",
+  "heropoint": 0,
+  "hp": {
+    "nonlethal": 0,
+    "temporary": 0,
+    "total": 80,
+    "wounds": 0
+  },
+  "initiative": {
+    "abilitymod": 4,
+    "misc": 2,
+    "temporary": 0,
+    "total": 6
+  },
+  "inventorylist": {
+    "id-00001": {
+      "aura": "moderate evocation",
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 1,
+      "cl": 11,
+      "contentsvolume": 0,
+      "cost": "1100 gp",
+      "cost_visibility": 0,
+      "count": 1,
+      "depth": 0,
+      "description": "<p>This strange bubbling elixir bestows upon the drinker the ability to spit gouts of flame. He can breathe fire up to three times, each time dealing 4d6 points of fire damage to a single target up to 25 feet away. The victim can attempt a DC 13 Reflex save for half damage. Unused blasts of fire dissipate 1 hour after the liquid is consumed.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 1,
+      "name": "Elixir of Fire Breath",
+      "pfslegal": "True",
+      "prerequisites": "Craft Wondrous Item, scorching ray",
+      "showonminisheet": 1,
+      "slot": "none",
+      "subtype": "Magic Wondrous Item",
+      "type": "Magic Wondrous Item",
+      "volume": 0,
+      "weight": 0,
+      "width": 0
+    },
+    "id-00002": {
+      "ac": 0,
+      "bonus": 0,
+      "carried": 1,
+      "checkpenalty": 0,
+      "cl": 0,
+      "cost": "30 gp",
+      "count": 1,
+      "critical": "19-20/x2",
+      "damage": "1d8",
+      "damagetype": "Slashing",
+      "description": "<p>This sword is about 3-1/2 feet in length.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Cold Iron Longsword",
+      "properties": "cold iron",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "subtype": "Martial One-Handed Melee",
+      "type": "Weapon",
+      "weight": 4
+    },
+    "id-00003": {
+      "ac": 0,
+      "aura": "Faint evocation",
+      "bonus": 0,
+      "carried": 1,
+      "checkpenalty": 0,
+      "cl": 1,
+      "cost": "50 gp",
+      "count": 1,
+      "description": "<p>A potion is a magic liquid that produces its effect when imbibed. A potion can be used only once.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Potion of Divine Favor",
+      "nonid_name": "Magical Potion",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "type": "Potion",
+      "weight": 0
+    },
+    "id-00004": {
+      "bonus": 0,
+      "carried": 2,
+      "cl": 0,
+      "cost": "2 gp",
+      "count": 1,
+      "critical": "19-20/x2",
+      "damage": "1d4",
+      "damagetype": "Piercing or Slashing",
+      "description": "<p>A dagger has a blade that is about 1 foot in length. You get a +2 bonus on Sleight of Hand skill checks made to conceal a dagger on your body (see Using Skills).</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Dagger",
+      "pfslegal": "True",
+      "properties": "-",
+      "range": 10,
+      "showonminisheet": 1,
+      "slot": "Armor",
+      "subtype": "Simple Light Melee",
+      "type": "Weapon",
+      "weight": 0
+    },
+    "id-00005": {
+      "carried": 1,
+      "contentscount": 0,
+      "contentsvolume": 0,
+      "cost": "2 gp",
+      "count": 1,
+      "description": "<p>-</p>",
+      "extraplanarcontents": 0,
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Backpack (common)",
+      "pfslegal": "True",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 2
+    },
+    "id-00006": {
+      "carried": 1,
+      "cost": "1 sp",
+      "count": 1,
+      "description": "<p>-</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Bedroll",
+      "pfslegal": "True",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 5
+    },
+    "id-00007": {
+      "carried": 1,
+      "cost": "1 gp",
+      "count": 1,
+      "description": "<p>Lighting a torch with flint and steel is a full-round action, and lighting any other fire with them takes at least that long.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Flint and steel",
+      "pfslegal": "True",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 0
+    },
+    "id-00008": {
+      "carried": 1,
+      "contentscount": 0,
+      "contentsvolume": 0,
+      "cost": "1 gp",
+      "count": 2,
+      "description": "<p>-</p>",
+      "extraplanarcontents": 0,
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Pouch, belt (empty)",
+      "pfslegal": "True",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 0
+    },
+    "id-00009": {
+      "carried": 1,
+      "cost": "10 gp",
+      "count": 1,
+      "description": "<p>This rope has 4 hit points and can be burst with a DC 24 Strength check.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Rope (silk, 50 ft.)",
+      "pfslegal": "True",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 5
+    },
+    "id-00010": {
+      "carried": 1,
+      "cost": "1 gp",
+      "count": 1,
+      "description": "<p>-</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Waterskin",
+      "pfslegal": "True",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 4
+    },
+    "id-00011": {
+      "carried": 1,
+      "cost": "2 cp",
+      "count": 1,
+      "description": "<p>-</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Whetstone",
+      "pfslegal": "True",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 1
+    },
+    "id-00012": {
+      "carried": 1,
+      "cost": "1 gp",
+      "count": 1,
+      "description": "<p>This set of clothes consists of boots, a wool skirt or breeches, a sturdy belt, a shirt (perhaps with a vest or jacket), and an ample cloak with a hood.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Traveler's outfit",
+      "pfslegal": "True",
+      "showonminisheet": 1,
+      "subtype": "Clothing",
+      "type": "Goods and Services",
+      "weight": 5
+    },
+    "id-00013": {
+      "ac": 0,
+      "aura": "Moderate transmutation",
+      "bonus": 1,
+      "carried": 1,
+      "checkpenalty": 0,
+      "cl": 10,
+      "cost": "8,315 gp",
+      "count": 1,
+      "critical": "17-20/x2",
+      "damage": "1d8",
+      "damagetype": "Slashing",
+      "description": "<p>This sword is about 3-1/2 feet in length.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "+1 Keen Longsword",
+      "nonid_name": "Magic Longsword",
+      "properties": "magic, keen",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "subtype": "Martial One-Handed Melee",
+      "type": "Weapon",
+      "weight": 4
+    },
+    "id-00015": {
+      "carried": 1,
+      "cost": "300 gp",
+      "count": 1,
+      "description": "<p>A potion is a magic liquid that produces its effect when imbibed. A potion can be used only once.</p>",
+      "excludedFromPurchase": 0,
+      "locked": 1,
+      "name": "Potion (Bull's Strength)",
+      "showonminisheet": 1,
+      "type": "Potion",
+      "weight": 0
+    },
+    "id-00016": {
+      "ac": 0,
+      "aura": "Faint evocation",
+      "bonus": 1,
+      "carried": 1,
+      "checkpenalty": 0,
+      "cl": 5,
+      "cost": "5,350 gp",
+      "count": 1,
+      "critical": "19-20/x2",
+      "damage": "2d6",
+      "damagetype": "Slashing",
+      "description": "<p>This immense two-handed sword is about 5 feet in length.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "+1 Adamantine Greatsword",
+      "nonid_name": "Magical Adamantine Greatsword",
+      "properties": "adamantine, magic",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "subtype": "Martial Two-Handed Melee",
+      "type": "Weapon",
+      "weight": 8
+    },
+    "id-00017": {
+      "ac": 0,
+      "aura": "Faint transmutation",
+      "bonus": 0,
+      "carried": 2,
+      "checkpenalty": 0,
+      "cl": 5,
+      "cost": "2,500 gp",
+      "count": 1,
+      "description": "<p>This ring is actually a magic leather cord that ties around a finger. It continually grants the wearer a +5 competence bonus on Climb checks.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Ring of Climbing",
+      "nonid_name": "Magical Ring",
+      "prerequisites": "Forge Ring, creator must have 5 ranks in the Climb skill",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "type": "Ring",
+      "weight": 0
+    },
+    "id-00019": {
+      "ac": 0,
+      "aura": "Faint conjuration",
+      "bonus": 0,
+      "carried": 1,
+      "checkpenalty": 0,
+      "cl": 1,
+      "cost": "50 gp",
+      "count": 1,
+      "description": "<p>A potion is a magic liquid that produces its effect when imbibed. A potion can be used only once.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Potion of Cure Light Wounds",
+      "nonid_name": "Magical Potion",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "type": "Potion",
+      "weight": 0
+    },
+    "id-00020": {
+      "ac": 0,
+      "aura": "Moderate evocation",
+      "bonus": 0,
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 2,
+      "checkpenalty": 0,
+      "cl": 9,
+      "contentsvolume": 0,
+      "cost": "8,000 gp",
+      "cost_visibility": 0,
+      "count": 1,
+      "depth": 0,
+      "description": "<p>This band negates any force spell or force spell-like ability targeted at the wearer. Doing so gives the ring a number of charges equal to the spell level of the incoming force effect. The ring can hold a maximum of 9 charges.</p>\n\t\t\t\t\t\t<p>If an incoming force attack would charge the ring beyond this limit, the ring does not negate the attack or gain charges, and the attack affects the wearer normally. On command, the wearer can use the ring's charges to cast magic missile, unleashing one missile (1d4+1 force damage) per charge but no more than five missiles per round.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Ring of Forcefangs",
+      "nonid_name": "Magical Ring",
+      "prerequisites": "Forge Ring, Heighten Spell, magic missile",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "type": "Ring",
+      "volume": 0,
+      "weight": 0,
+      "width": 0
+    },
+    "id-00021": {
+      "ac": 0,
+      "ammoeffect": "cold iron",
+      "bonus": 0,
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 1,
+      "checkpenalty": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "0 gp",
+      "cost_visibility": 0,
+      "count": 20,
+      "depth": 0,
+      "description": "<p>An arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier ×2).</p>\n\t\t\t\t\t\t<p>Arrows come in a leather quiver that holds 20 arrows.</p>",
+      "extraplanarcontents": 0,
+      "hitshots": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "missedshots": 0,
+      "name": "Arrows, cold iron",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "subtype": "Ammunition",
+      "type": "Goods and Services",
+      "volume": 0,
+      "weight": 0.15,
+      "width": 0
+    },
+    "id-00022": {
+      "carried": 1,
+      "cost": "80 gp",
+      "count": 1,
+      "description": "<p>These crampons, pitons, ropes, and tools give you a +2 circumstance bonus on Climb checks.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Climber's Kit",
+      "showonminisheet": 1,
+      "subtype": "Tools and Skill Kits",
+      "type": "Goods and Services",
+      "weight": 5
+    },
+    "id-00025": {
+      "carried": 1,
+      "cost": "50 gp",
+      "count": 1,
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Tourmaline",
+      "showonminisheet": 1,
+      "subtype": "Gem",
+      "type": "Wealth",
+      "weight": 0
+    },
+    "id-00026": {
+      "ac": 0,
+      "aura": "Faint evocation",
+      "bonus": 2,
+      "carried": 2,
+      "checkpenalty": 0,
+      "cl": 5,
+      "cost": "8,312 gp",
+      "count": 1,
+      "critical": "x3",
+      "damage": "1d8",
+      "damagetype": "Bludgeoning",
+      "description": "<p>This warhammer has a soft glow to it.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "+2 Warhammer",
+      "nonid_name": "Magical Warhammer",
+      "properties": "magic",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "subtype": "Martial One-Handed Melee",
+      "type": "Weapon",
+      "weight": 5
+    },
+    "id-00027": {
+      "ac": 0,
+      "aura": "Moderate divination",
+      "bonus": 0,
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 2,
+      "checkpenalty": 0,
+      "cl": 12,
+      "contentsvolume": 0,
+      "cost": "14,900 gp",
+      "cost_visibility": 0,
+      "count": 1,
+      "depth": 0,
+      "description": "<p>This belt gives the wearer a +4 competence bonus on Charisma checks and Charisma-based skill checks as they relate to dealing with dwarves, a +2 competence bonus on similar checks when dealing with gnomes and halflings, and a -2 competence penalty on similar checks when dealing with anyone else. The wearer can understand, speak, and read Dwarven. If the wearer is not a dwarf, he gains 60-foot darkvision, dwarven stonecunning, a +2 enhancement bonus to Constitution, and a +2 resistance bonus on saves against poison, spells, or spell-like effects.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Belt of Dwarvenkind",
+      "nonid_name": "Magic Belt",
+      "prerequisites": "Craft Wondrous Item, tongues, creator must be a dwarf",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "type": "Wondrous Item",
+      "volume": 0,
+      "weight": 1,
+      "width": 0
+    },
+    "id-00028": {
+      "ac": 0,
+      "aura": "Faint abjuration",
+      "bonus": 0,
+      "carried": 2,
+      "checkpenalty": 0,
+      "cl": 5,
+      "cost": "1,000 gp",
+      "count": 1,
+      "description": "<p>These garments offer magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Cloak of Resistance +1",
+      "nonid_name": "Magical Cloak",
+      "prerequisites": "Craft Wondrous Item, resistance, creator's caster level must be at least three times the cloak's bonus",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "type": "Wondrous Item",
+      "weight": 1
+    },
+    "id-00029": {
+      "ac": 0,
+      "aura": "Faint conjuration",
+      "bonus": 0,
+      "carried": 1,
+      "checkpenalty": 0,
+      "cl": 3,
+      "cost": "300 gp",
+      "count": 6,
+      "description": "<p>A potion is a magic liquid that produces its effect when imbibed. A potion can be used only once.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Potion of Cure Moderate Wounds",
+      "nonid_name": "Magical Potion",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "type": "Potion",
+      "weight": 0
+    },
+    "id-00030": {
+      "ac": 0,
+      "aura": "Faint evocation",
+      "bonus": 1,
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 2,
+      "checkpenalty": 0,
+      "cl": 5,
+      "contentsvolume": 0,
+      "cost": "4,300 gp",
+      "cost_visibility": 0,
+      "count": 1,
+      "critical": "x3",
+      "damage": "1d8",
+      "damagetype": "Piercing",
+      "depth": 0,
+      "description": "<p>You need at least two hands to use a bow, regardless of its size. You can use a composite longbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier to use with proficiency). If your Strength bonus is less than the strength rating of the composite bow, you can't effectively use it, so you take a -2 penalty on attacks with it. The default composite longbow requires a Strength modifier of +0 or higher to use with proficiency. A composite longbow can be made with a high strength rating to take advantage of an above-average Strength score; this feature allows you to add your Strength bonus to damage, up to the maximum bonus indicated for the bow. Each point of Strength bonus granted by the bow adds 100 gp to its cost. If you have a penalty for low Strength, apply it to damage rolls when you use a composite longbow.</p>\n\t\t\t\t\t\t<p>For purposes of Weapon Proficiency and similar feats, a composite longbow is treated as if it were a longbow.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "+1 Adaptive Composite Longbow",
+      "nonid_name": "Magical Composite Longbow",
+      "properties": "magic",
+      "range": 110,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "subtype": "Martial Ranged",
+      "type": "Weapon",
+      "volume": 0,
+      "weight": 3,
+      "width": 0
+    },
+    "id-00031": {
+      "carried": 1,
+      "cost": "150 gp",
+      "count": 2,
+      "description": "<p>This is a particularly potent bottle of dwarven ale.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Bottle of Dwarven Ale",
+      "showonminisheet": 1,
+      "type": "Food/Drink",
+      "weight": 0
+    },
+    "id-00032": {
+      "carried": 1,
+      "cost": "1,500 gp",
+      "count": 1,
+      "description": "<p>A potion is a magic liquid that produces its effect when imbibed. A potion can be used only once.</p>",
+      "locked": 1,
+      "name": "Potion (Protection from Arrows 15/Magic)",
+      "showonminisheet": 1,
+      "type": "Potion",
+      "weight": 0
+    },
+    "id-00033": {
+      "ac": 0,
+      "aura": "Moderate conjuration",
+      "bonus": 1,
+      "carried": 2,
+      "checkpenalty": 0,
+      "cl": 8,
+      "cost": "8,315 gp",
+      "count": 1,
+      "critical": "19-20/x2",
+      "damage": "1d8",
+      "damagetype": "Slashing",
+      "description": "<p>This sword is an Evil Outsider Bane +1</p>\n\t\t\t\t\t\t<p>Longsword.</p>\n\t\t\t\t\t\t<p>It's 3-1/2 feet in length and bears the inscription: Spare us from evil in this solemn hour</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "+1 Evil Outsider Bane Long Sword(Solemn Hour)",
+      "nonid_name": "Magical Longsword",
+      "properties": "magic, bane",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "subtype": "Martial One-Handed Melee",
+      "type": "Weapon",
+      "weight": 4
+    },
+    "id-00034": {
+      "ac": 0,
+      "aura": "Strong abjuration",
+      "bonus": 0,
+      "carried": 1,
+      "checkpenalty": 0,
+      "cl": 20,
+      "count": 1,
+      "description": "<p>When the final fragment of the Kenabres <i>wardstone </i>shatters, a few tiny shards of the stone remain behind. The magic remaining in these fragments is fleeting, usable only once before the shard becomes an inert sliver of stone. As a standard action, a <i>wardstone </i>shard may be rubbed along a weapon or a suit of armor to transfer the shard's magic to the weapon or armor for 1 day.</p>\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t<b>Weapon: </b>A weapon enhanced by a <i>wardstone </i>shard gains the evil outsider bane quality, and is treated as being made of cold iron and as a good weapon for the purposes of overcoming a demon's damage reduction. The shard cannot be used to enhance ammunition in this manner, but can be used to enhance a weapon that fires ammunition; doing so causes the weapon to impart these qualities to the ammunition as it is fired.</p>\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t<b>Armor: </b>A suit of armor enhanced by a <i>wardstone </i>shard gains the spell resistance (13) armor special ability, but only against evil outsiders. Against demons, this spell resistance increases to 17. A nonmagical suit of armor also gains a +1 enhancement bonus as well.</p>\n\t\t\t\t\t\t<h>Destruction</h>\n\t\t\t\t\t\t<p>A <i>wardstone </i>shard may be destroyed simply by crushing it - a shard has hardness 16 and 12 hit points.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Wardstone Shard",
+      "nonid_name": "Magic Stone Fragment",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "subtype": "Minor",
+      "type": "Artifact",
+      "weight": 0.5
+    },
+    "id-00035": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 1,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "1,000 gp",
+      "cost_visibility": 0,
+      "count": 1,
+      "depth": 0,
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 1,
+      "name": "Pearl of Power (1st)",
+      "nonid_name": "Magical Pearl",
+      "showonminisheet": 1,
+      "subtype": "Wondrous Item",
+      "type": "Wondrous Item",
+      "volume": 0,
+      "weight": 0,
+      "width": 0
+    },
+    "id-00036": {
+      "ac": 0,
+      "aura": "Faint transmutation",
+      "bonus": 0,
+      "carried": 1,
+      "checkpenalty": 0,
+      "cl": 3,
+      "cost": "300 gp",
+      "count": 1,
+      "description": "<p>A potion is a magic liquid that produces its effect when imbibed. A potion can be used only once.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Potion of Bear's Endurance",
+      "nonid_name": "Magical Potion",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "type": "Potion",
+      "weight": 0
+    },
+    "id-00037": {
+      "ac": 6,
+      "aura": "Faint abjuration",
+      "bonus": 2,
+      "carried": 2,
+      "checkpenalty": -2,
+      "cl": 5,
+      "cost": "9,150 gp",
+      "count": 1,
+      "description": "<p>This extremely light chainmail is made of very fine mithral links. Speed while wearing elven chain is 30 feet for Medium creatures, or 20 feet for Small. The armor has an arcane spell failure chance of 20%, a maximum Dexterity bonus of +4, and an armor check penalty of -2. It is considered light armor and weighs 20 pounds.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 4,
+      "name": "+2 Elven Chain",
+      "nonid_name": "Magical Elven Chain",
+      "properties": "mithral, magic",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 20,
+      "speed30": 30,
+      "spellfailure": 20,
+      "type": "Armor",
+      "weight": 20
+    },
+    "id-00038": {
+      "aura": "Faint transmutation",
+      "carried": 1,
+      "cl": 3,
+      "cost": "300 gp",
+      "count": 1,
+      "description": "<p>A potion is a magic liquid that produces its effect when imbibed. A potion can be used only once.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Potion of Spider Climb",
+      "nonid_name": "Magical Potion",
+      "showonminisheet": 1,
+      "type": "Potion",
+      "weight": 0
+    },
+    "id-00039": {
+      "aura": "Faint illusion",
+      "carried": 1,
+      "cl": 3,
+      "cost": "300 gp",
+      "count": 1,
+      "description": "<p>A potion is a magic liquid that produces its effect when imbibed. A potion can be used only once.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Potion of Invisibility",
+      "nonid_name": "Magical Potion",
+      "showonminisheet": 1,
+      "type": "Potion",
+      "weight": 0
+    },
+    "id-00040": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 2,
+      "cl": 0,
+      "contentscount": 0,
+      "contentsvolume": 0,
+      "cost": "8,000 gp",
+      "cost_visibility": 0,
+      "count": 1,
+      "depth": 0,
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 1,
+      "name": "Amulet of Natural Armor +2",
+      "nonid_name": "Magical Amulet",
+      "showonminisheet": 1,
+      "subtype": "Wondrous Item",
+      "type": "Wondrous Item",
+      "volume": 0,
+      "weight": 0,
+      "width": 0
+    }
+  },
+  "languagelist": {
+    "id-00001": {
+      "name": "Hallit"
+    },
+    "id-00002": {
+      "name": "undercommon"
+    },
+    "id-00004": {
+      "name": "common"
+    }
+  },
+  "level": 9,
+  "locked": 1,
+  "mythic": {
+    "nexttier": {
+      "abilities": "+1",
+      "bonus": "-",
+      "feats": "+1"
+    },
+    "powerbase": 0,
+    "surgedie": "-",
+    "thistier": {
+      "abilities": "0",
+      "bonus": "-",
+      "feats": "0"
+    },
+    "trials": {
+      "needed": 0
+    }
+  },
+  "name": "Chyrrik",
+  "notes": "Her face resembles that of a bird of prey, with smallish eyes set back from a protruding muzzle that ends in a curved beak. The rest of her head, and her body to the waist, resemble a slender human woman's, with her long, thick red hair tied back into a bushy pony tail. Her legs have what look like fish scales instead of skin, and her feet are bird talons. She has a tail which might best be described as dinosaur-like, extending about four feet with some feathers and horns at the tip.\\n\\nBackground: Chyrrik grew up idolizing the stories of crusaders battling demons on the surface. Despite her strange appearance, she exhibited a natural grace and speed, climbing rock faces and dashing through narrow tunnels with ease. Her sharp eyesight and precise movements made her an exceptional scout and archer. Chyrrik’s community near Neathholm often relied on her to locate resources in the dangerous deeper tunnels, as her speed and agility allowed her to evade threats that others couldn’t. Her bird-like visage and tail earned her the nickname \"Hawk of the Hollows,\" and she secretly dreams of proving herself as a hero in the fight against the Abyss.\\n\\nPersonality: Chyrrik is bold and daring, with an adventurous spirit that borders on reckless. She has a quick wit and loves trading banter, often cracking jokes to keep spirits high. While confident in her abilities, she occasionally struggles with doubts about whether she truly belongs in the crusade. She deeply values loyalty and sees the party as her chance to contribute to something greater.\\n\\nQuirks:\\n\\nShe sharpens her talons obsessively, claiming it helps her think.\\n\\nChyrrik has a habit of tilting her head sharply to one side when observing others, mimicking the mannerisms of a bird.\\n\\nShe collects small feathers and scales from creatures she defeats, braiding them into her ponytail as trophies.",
+  "portrait": "portraits/Chyrrik.webp",
+  "proficiencylist": {
+    "id-00001": {
+      "name": "Weapon: simple, martial"
+    },
+    "id-00002": {
+      "name": "Armor: light, medium, shields (except tower shields)"
+    }
+  },
+  "race": "Mongrelman",
+  "saves": {
+    "fortitude": {
+      "abilitymod": 3,
+      "base": 6,
+      "misc": 1,
+      "temporary": 0,
+      "total": 10
+    },
+    "reflex": {
+      "abilitymod": 4,
+      "base": 6,
+      "misc": 1,
+      "temporary": 0,
+      "total": 11
+    },
+    "will": {
+      "abilitymod": 3,
+      "base": 3,
+      "misc": 1,
+      "temporary": 0,
+      "total": 7
+    }
+  },
+  "senses": "darkvision (60'), low-light vision",
+  "skilllist": {
+    "id-00001": {
+      "armorcheckmultiplier": 1,
+      "label": "Climb",
+      "misc": 5,
+      "ranks": 6,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "strength",
+      "total": 14
+    },
+    "id-00002": {
+      "armorcheckmultiplier": 0,
+      "label": "Craft",
+      "misc": 0,
+      "ranks": 4,
+      "showonminisheet": 1,
+      "stat": 1,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Bowyer",
+      "total": 8
+    },
+    "id-00003": {
+      "armorcheckmultiplier": 0,
+      "label": "Handle Animal",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": -3,
+      "state": 1,
+      "statname": "charisma",
+      "total": -3
+    },
+    "id-00004": {
+      "armorcheckmultiplier": 0,
+      "label": "Heal",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "wisdom",
+      "total": 3
+    },
+    "id-00005": {
+      "armorcheckmultiplier": 0,
+      "label": "Intimidate",
+      "misc": 0,
+      "ranks": 9,
+      "showonminisheet": 1,
+      "stat": -3,
+      "state": 1,
+      "statname": "charisma",
+      "total": 9
+    },
+    "id-00006": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 0,
+      "ranks": 9,
+      "showonminisheet": 1,
+      "stat": 1,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Dungeoneering",
+      "total": 13
+    },
+    "id-00007": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 1,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Geography",
+      "total": 1
+    },
+    "id-00008": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 1,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Nature",
+      "total": 1
+    },
+    "id-00009": {
+      "armorcheckmultiplier": 0,
+      "label": "Perception",
+      "misc": 0,
+      "ranks": 9,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "wisdom",
+      "total": 15
+    },
+    "id-00010": {
+      "armorcheckmultiplier": 0,
+      "label": "Profession",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "wisdom",
+      "total": 3
+    },
+    "id-00011": {
+      "armorcheckmultiplier": 1,
+      "label": "Ride",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "dexterity",
+      "total": 1
+    },
+    "id-00012": {
+      "armorcheckmultiplier": 0,
+      "label": "Spellcraft",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 1,
+      "state": 1,
+      "statname": "intelligence",
+      "total": 1
+    },
+    "id-00013": {
+      "armorcheckmultiplier": 1,
+      "label": "Stealth",
+      "misc": 0,
+      "ranks": 9,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "dexterity",
+      "total": 13
+    },
+    "id-00014": {
+      "armorcheckmultiplier": 0,
+      "label": "Survival",
+      "misc": 0,
+      "ranks": 9,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "wisdom",
+      "total": 15
+    },
+    "id-00015": {
+      "armorcheckmultiplier": 1,
+      "label": "Swim",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "strength",
+      "total": 0
+    },
+    "id-00016": {
+      "armorcheckmultiplier": 1,
+      "label": "Escape Artist",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 1
+    },
+    "id-00017": {
+      "armorcheckmultiplier": 0,
+      "label": "Diplomacy",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": -3,
+      "state": 0,
+      "statname": "charisma",
+      "total": -3
+    },
+    "id-00018": {
+      "armorcheckmultiplier": 1,
+      "label": "Fly",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 1
+    },
+    "id-00019": {
+      "armorcheckmultiplier": 1,
+      "label": "Disable Device",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 4,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 1
+    },
+    "id-00020": {
+      "armorcheckmultiplier": 1,
+      "label": "Acrobatics",
+      "misc": 0,
+      "ranks": 7,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 8
+    },
+    "id-00021": {
+      "armorcheckmultiplier": 0,
+      "label": "Use Magic Device",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": -3,
+      "state": 0,
+      "statname": "charisma",
+      "total": -3
+    },
+    "id-00022": {
+      "armorcheckmultiplier": 1,
+      "label": "Sleight of Hand",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 1
+    },
+    "id-00023": {
+      "armorcheckmultiplier": 0,
+      "label": "Appraise",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 1,
+      "state": 0,
+      "statname": "intelligence",
+      "total": 1
+    },
+    "id-00024": {
+      "armorcheckmultiplier": 0,
+      "label": "Linguistics",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 1,
+      "state": 0,
+      "statname": "intelligence",
+      "total": 1
+    },
+    "id-00025": {
+      "armorcheckmultiplier": 0,
+      "label": "Bluff",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": -3,
+      "state": 0,
+      "statname": "charisma",
+      "total": -3
+    },
+    "id-00026": {
+      "armorcheckmultiplier": 0,
+      "label": "Disguise",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": -3,
+      "state": 0,
+      "statname": "charisma",
+      "total": -3
+    },
+    "id-00027": {
+      "armorcheckmultiplier": 0,
+      "label": "Sense Motive",
+      "misc": 0,
+      "ranks": 3,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 0,
+      "statname": "wisdom",
+      "total": 6
+    }
+  },
+  "skillpoints": {
+    "spent": 65
+  },
+  "specialabilitylist": {
+    "id-00001": {
+      "level": 1,
+      "locked": 1,
+      "name": "Favored enemy (1st)Humans",
+      "source": "Ranger",
+      "text": "<p>At 1st level, a ranger selects a creature type from the ranger favored enemies table. He gains a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against creatures of his selected type. Likewise, he gets a +2 bonus on weapon attack and damage rolls against them. A ranger may make Knowledge skill checks untrained when attempting to identify these creatures.</p>\n\t\t\t\t\t\t<p>At 5th level and every five levels thereafter (10th, 15th, and 20th level), the ranger may select an additional favored enemy. In addition, at each such interval, the bonus against any one favored enemy (including the one just selected, if so desired) increases by +2.</p>\n\t\t\t\t\t\t<p>If the ranger chooses humanoids or outsiders as a favored enemy, he must also choose an associated subtype, as indicated on the table below. (Note that there are other types of humanoid to choose from-those called out specifically on the table below are merely the most common.) If a specific creature falls into more than one category of favored enemy, the ranger's bonuses do not stack; he simply uses whichever bonus is higher.</p>"
+    },
+    "id-00002": {
+      "level": 1,
+      "locked": 1,
+      "name": "Track",
+      "source": "Ranger",
+      "text": "<p>A ranger adds half his level (minimum 1) to Survival skill checks made to follow or identify tracks.</p>"
+    },
+    "id-00003": {
+      "level": 1,
+      "locked": 1,
+      "name": "Wild empathy",
+      "source": "Ranger",
+      "text": "<p>A ranger can improve the initial attitude of an animal. This ability functions just like a Diplomacy check to improve the attitude of a person (see Using Skills). The ranger rolls 1d20 and adds his ranger level and his Charisma bonus to determine the wild empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly.</p>\n\t\t\t\t\t\t<p>To use wild empathy, the ranger and the animal must be within 30 feet of one another under normal visibility conditions. Generally, influencing an animal in this way takes 1 minute, but, as with influencing people, it might take more or less time.</p>\n\t\t\t\t\t\t<p>The ranger can also use this ability to influence a magical beast with an Intelligence score of 1 or 2, but he takes a -4 penalty on the check.</p>"
+    },
+    "id-00004": {
+      "level": 2,
+      "locked": 1,
+      "name": "Combat style feat (2x)",
+      "source": "Ranger",
+      "text": "<p>At 2nd level, a ranger must select one of two combat styles to pursue: archery or two-weapon combat. The ranger's expertise manifests in the form of bonus feats at 2nd, 6th, 10th, 14th, and 18th level. He can choose feats from his selected combat style, even if he does not have the normal prerequisites.</p>\n\t\t\t\t\t\t<p>The benefits of the ranger's chosen style feats apply only when he wears light, medium, or no armor. He loses all benefits of his combat style feats when wearing heavy armor. Once a ranger selects a combat style, it cannot be changed.</p>"
+    },
+    "id-00005": {
+      "level": 3,
+      "locked": 1,
+      "name": "Endurance",
+      "source": "Ranger",
+      "text": "<p>A ranger gains Endurance as a bonus feat at 3rd level.</p>\n\t\t\t\t\t\t<p />\n\t\t\t\t\t\t<table>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>Cold (ice, glaciers, snow, and tundra)</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>Desert (sand and wastelands)</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>Forest (coniferous and deciduous)</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>Jungle</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>Mountain (including hills)</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>Plains</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>Planes (pick one, other than Material Plane)</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>Swamp</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>Underground (caves and dungeons)</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>Urban (buildings, streets, and sewers)</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>Water (above and below the surface)</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</table>"
+    },
+    "id-00006": {
+      "level": 3,
+      "locked": 1,
+      "name": "Favored terrain (1st)Underground +2",
+      "source": "Ranger",
+      "text": "<p>At 3rd level, a ranger may select a type of terrain from the Favored Terrains table. The ranger gains a +2 bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival skill checks when he is in this terrain. A ranger traveling through his favored terrain normally leaves no trail and cannot be tracked (though he may leave a trail if he so chooses).</p>\n\t\t\t\t\t\t<p>At 8th level and every five levels thereafter, the ranger may select an additional favored terrain. In addition, at each such interval, the skill bonus and initiative bonus in any one favored terrain (including the one just selected, if so desired), increases by +2.</p>\n\t\t\t\t\t\t<p>If a specific terrain falls into more than one category of favored terrain, the ranger's bonuses do not stack; he simply uses whichever bonus is higher.</p>"
+    },
+    "id-00007": {
+      "level": 4,
+      "locked": 1,
+      "name": "Hunter's bond, companions",
+      "source": "Ranger",
+      "text": "<p>At 4th level, a ranger forms a bond with his hunting companions. This bond can take one of two forms. Once the form is chosen, it cannot be changed. The first is a bond to his companions. This bond allows him to spend a move action to grant half his favored enemy bonus against a single target of the appropriate type to all allies within 30 feet who can see or hear him. This bonus lasts for a number of rounds equal to the ranger's Wisdom modifier (minimum 1). This bonus does not stack with any favored enemy bonuses possessed by his allies; they use whichever bonus is higher.</p>\n\t\t\t\t\t\t<p>The second option is to form a close bond with an animal companion. A ranger who selects an animal companion can choose from the following list - badger, bird, camel, cat (small), dire rat, dog, horse, pony, snake (viper or constrictor), or wolf. If the campaign takes place wholly or partly in an aquatic environment, the ranger may choose a shark instead. This animal is a loyal companion that accompanies the ranger on his adventures as appropriate for its kind. A ranger's animal companion shares his favored enemy and favored terrain bonuses.</p>\n\t\t\t\t\t\t<p>This ability functions like the druid animal companion ability (which is part of the Nature Bond class feature), except that the ranger's effective druid level is equal to his ranger level - 3.</p>"
+    },
+    "id-00008": {
+      "level": 4,
+      "locked": 1,
+      "name": "Spells",
+      "source": "Ranger",
+      "text": "<p>Beginning at 4th level, a ranger gains the ability to cast a small number of divine spells, which are drawn from the ranger spell list presented in Spell Lists. A ranger must choose and prepare his spells in advance.</p>\n\t\t\t\t\t\t<p>To prepare or cast a spell, a ranger must have a Wisdom score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a ranger's spell is 10 + the spell level + the ranger's Wisdom modifier.</p>\n\t\t\t\t\t\t<p>Like other spellcasters, a ranger can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given on the Ranger Table. In addition, he receives bonus spells per day if he has a high Wisdom score (see Ability Modifiers Table and Bonus Spells). When the Ranger Table indicates that the ranger gets 0 spells per day of a given spell level, he gains only the bonus spells he would be entitled to based on his Wisdom score for that spell level.</p>\n\t\t\t\t\t\t<p>A ranger must spend 1 hour per day in quiet meditation to regain his daily allotment of spells. A ranger may prepare and cast any spell on the ranger spell list, provided that he can cast spells of that level, but he must choose which spells to prepare during his daily meditation.</p>\n\t\t\t\t\t\t<p>Through 3rd level, a ranger has no caster level. At 4th level and higher, his caster level is equal to his ranger level - 3.</p>"
+    },
+    "id-00009": {
+      "name": "Darkvision 60'"
+    },
+    "id-00010": {
+      "name": "low-light vision"
+    },
+    "id-00011": {
+      "name": "sound mimicry(voices)"
+    },
+    "id-00012": {
+      "level": 5,
+      "locked": 1,
+      "name": "Favored enemy (2nd)Demons",
+      "source": "Ranger",
+      "text": "<p>At 1st level, a ranger selects a creature type from the ranger favored enemies table. He gains a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against creatures of his selected type. Likewise, he gets a +2 bonus on weapon attack and damage rolls against them. A ranger may make Knowledge skill checks untrained when attempting to identify these creatures.At 5th level and every five levels thereafter (10th, 15th, and 20th level), the ranger may select an additional favored enemy. In addition, at each such interval, the bonus against any one favored enemy (including the one just selected, if so desired) increases by +2. If the ranger chooses humanoids or outsiders as a favored enemy, he must also choose an associated subtype, as indicated on the table below. (Note that there are other types of humanoid to choose from-those called out specifically on the table below are merely the most common.) If a specific creature falls into more than one category of favored enemy, the ranger's bonuses do not stack; he simply uses whichever bonus is higher.</p>"
+    },
+    "id-00013": {
+      "level": 7,
+      "locked": 1,
+      "name": "Woodland stride (2x)",
+      "source": "Ranger",
+      "text": "<p>Starting at 7th level, a ranger may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at his normal speed and without taking damage or suffering any other impairment.Thorns, briars, and overgrown areas that are enchanted or magically manipulated to impede motion, however, still affect him.</p>"
+    },
+    "id-00014": {
+      "level": 8,
+      "locked": 1,
+      "name": "Favored terrain (2nd)Worldwound +4",
+      "source": "Ranger",
+      "text": "<p>At 3rd level, a ranger may select a type of terrain from the Favored Terrains table. The ranger gains a +2 bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival skill checks when he is in this terrain. A ranger traveling through his favored terrain normally leaves no trail and cannot be tracked (though he may leave a trail if he so chooses).</p>\n\t\t\t\t\t\t<p>At 8th level and every five levels thereafter, the ranger may select an additional favored terrain. In addition, at each such interval, the skill bonus and initiative bonus in any one favored terrain (including the one just selected, if so desired), increases by +2.</p>\n\t\t\t\t\t\t<p>If a specific terrain falls into more than one category of favored terrain, the ranger's bonuses do not stack; he simply uses whichever bonus is higher.</p>"
+    },
+    "id-00015": {
+      "level": 8,
+      "locked": 1,
+      "name": "Swift tracker",
+      "source": "Ranger",
+      "text": "<p>Beginning at 8th level, a ranger can move at his normal speed while using Survival to follow tracks without taking the normal -5 penalty. He takes only a -10 penalty (instead of the normal -20) when moving at up to twice normal speed while tracking.</p>"
+    },
+    "id-00016": {
+      "level": 9,
+      "locked": 1,
+      "name": "Evasion",
+      "source": "Ranger",
+      "text": "<p>When he reaches 9th level, a ranger can avoid even magical and unusual attacks with great agility. If he makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, he instead takes no damage. Evasion can be used only if the ranger is wearing light armor, medium armor, or no armor. A helpless ranger does not gain the benefit of evasion.</p>"
+    }
+  },
+  "speed": {
+    "armor": 0,
+    "base": 30,
+    "fastmovement": 0,
+    "final": 30,
+    "misc": 0,
+    "temporary": 0,
+    "total": 30
+  },
+  "spellmode": "combat",
+  "spellset": {
+    "id-00002": {
+      "availablelevel0": 0,
+      "availablelevel1": 3,
+      "availablelevel2": 2,
+      "availablelevel3": 0,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "cc": {
+        "misc": 0
+      },
+      "cl": 6,
+      "dc": {
+        "ability": "wisdom",
+        "abilitymod": 3,
+        "misc": 0,
+        "total": 13
+      },
+      "label": "Ranger",
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 1,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, DF",
+              "cost": 1,
+              "description": "This abjuration grants a creature limited protection from damage of whichever one of five energy types you select: acid, cold, electricity, fire, or sonic. The subject gains resist energy 10 against the energy type chosen, meaning that each time the creature is subjected to such damage (whether from a natural or magical source), that damage is reduced by 10 points before being applied to the creature's hit points. The value of the energy resistance granted increases to 20 points at 7th level and to a maximum of 30 points at 11th level. The spell protects the recipient's equipment as well.\\n\\nResist energy absorbs only damage. The subject could still suffer unfortunate side effects.\\n\\nResist energy overlaps (and does not stack with) protection from energy. If a character is warded by protection from energy and resist energy, the protection spell absorbs damage until its power is exhausted.",
+              "duration": "10 min./level",
+              "effect": "Creature touched",
+              "level": "Clr 2, Drd 2, Pal 2, Rgr 1, Sor/Wiz 2",
+              "linkedspells": "",
+              "name": "Resist Energy",
+              "prepared": 1,
+              "range": "Touch",
+              "save": "Fortitude negates (harmless)",
+              "school": "Abjuration",
+              "shortdescription": "Ignores 10 or more points of damage/attack from specified energy type.",
+              "sr": "Yes (harmless)"
+            },
+            "id-00003": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "A creature protected by endure elements suffers no harm from being in a hot or cold environment. It can exist comfortably in conditions between -50 and 140 degrees Fahrenheit without having to make Fortitude saves. The creature's equipment is likewise protected.\\n\\nEndure elements doesn't provide any protection from fire or cold damage, nor does it protect against other environmental hazards such as smoke, lack of air, and so forth.",
+              "duration": "24 hours",
+              "effect": "Creature touched",
+              "level": "Clr 1, Drd 1, Pal 1, Rgr 1, Sor/Wiz 1",
+              "linkedspells": "",
+              "name": "Endure Elements",
+              "prepared": 1,
+              "range": "Touch",
+              "save": "Will negates (harmless)",
+              "school": "Abjuration",
+              "shortdescription": "Exist comfortably in hot or cold regions.",
+              "sr": "Yes (harmless)"
+            },
+            "id-00004": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M (a pinch of dirt)",
+              "cost": 1,
+              "description": "This spell gives you a +10 foot enhancement bonus to your base speed. It has no effect on other modes of movement, such as burrow, climb, fly, or swim.",
+              "duration": "1 hour/level (D)",
+              "effect": "You",
+              "level": "Drd 1, Rgr 1",
+              "linkedspells": "",
+              "name": "Longstrider",
+              "prepared": 1,
+              "range": "Personal",
+              "school": "Transmutation",
+              "shortdescription": "Your speed increases by 10 ft."
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 3
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 2,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "heallist": {
+                    "id-00001": {
+                      "dice": "d8",
+                      "stat": "cl",
+                      "statmax": 5,
+                      "statmult": 1
+                    }
+                  },
+                  "order": 2,
+                  "type": "heal"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 3,
+              "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage.",
+              "duration": "Instantaneous",
+              "effect": "Creature touched",
+              "level": "Brd 1, Clr 1, Drd 1, Pal 1, Rgr 2",
+              "linkedspells": "",
+              "name": "Cure Light Wounds",
+              "prepared": 2,
+              "range": "Touch",
+              "save": "Will half (harmless); see text",
+              "school": "Conjuration (Healing)",
+              "shortdescription": "Cures 1d8 damage +1/level (max +5).",
+              "sr": "Yes (harmless); see text"
+            },
+            "id-00002": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, DF",
+              "cost": 3,
+              "description": "A protective spirit is an invisible, mindless, shapeless force that hovers about you, defending you against unexpected attacks. When a creature makes an attack of opportunity against you, the protective spirit makes an immediate attack using your base attack bonus plus your Dexterity modifier. On a successful hit, the spirit does no damage, but it causes the attack of opportunity to automatically miss. A protective spirit can defend against a number of attacks of opportunity equal to your Dexterity bonus (minimum 1) per round\\n\\nA protective spirit occupies your space, and moves with you. It cannot be attacked or harmed by physical attacks, but dispel magic, disintegrate, a sphere of annihilation, or a rod of cancellation affects it. A protective spirit's AC against touch attacks is 10 + your Dexterity modifier.",
+              "duration": "1 round/level",
+              "effect": "Target-you",
+              "level": "Hunter 2, Ranger 2",
+              "linkedspells": "",
+              "name": "Protective Spirit",
+              "range": "personal",
+              "school": "conjuration (creation)",
+              "shortdescription": "Protects from attacks of opportunity.",
+              "text": "<p>A protective spirit is an invisible, mindless, shapeless force that hovers about you, defending you against unexpected attacks. When a creature makes an attack of opportunity against you, the protective spirit makes an immediate attack using your base attack bonus plus your Dexterity modifier. On a successful hit, the spirit does no damage, but it causes the attack of opportunity to automatically miss. A protective spirit can defend against a number of attacks of opportunity equal to your Dexterity bonus (minimum 1) per round</p>\n\t\t\t\t\t\t\t\t\t\t<p>A protective spirit occupies your space, and moves with you. It cannot be attacked or harmed by physical attacks, but dispel magic, disintegrate, a sphere of annihilation, or a rod of cancellation affects it. A protective spirit's AC against touch attacks is 10 + your Dexterity modifier.</p>"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 2
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "points": 0,
+      "pointsused": 0,
+      "powersource": "divine",
+      "sp": 0
+    }
+  },
+  "temp": "",
+  "token": "portrait_id-00005_token",
+  "traitlist": {
+    "id-00001": {
+      "name": "natural armor+2"
+    }
+  },
+  "weaponlist": {
+    "id-00002": {
+      "ammunitionmanager": {
+        "isloaded": 0
+      },
+      "attacks": 2,
+      "attackview1": 12,
+      "attackview2": 7,
+      "attackview3": 2,
+      "attackview4": -3,
+      "bonus": 0,
+      "carried": 1,
+      "critatkrange": 19,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d8",
+          "stat": "strength",
+          "statmult": 1,
+          "type": "slashing"
+        }
+      },
+      "isidentified": 1,
+      "name": "Cold Iron Longsword",
+      "properties": "cold iron",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00002"
+      },
+      "type": 0
+    },
+    "id-00003": {
+      "ammo": 0,
+      "ammunitionmanager": "",
+      "attacks": 2,
+      "attackview1": 12,
+      "attackview2": 7,
+      "attackview3": 2,
+      "attackview4": -3,
+      "bonus": 0,
+      "carried": 2,
+      "critatkrange": 19,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d4",
+          "stat": "strength",
+          "statmult": 1,
+          "type": "piercing,slashing"
+        }
+      },
+      "isidentified": 1,
+      "name": "Dagger",
+      "properties": "-",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00004"
+      },
+      "type": 0
+    },
+    "id-00004": {
+      "ammo": 0,
+      "ammunitionmanager": {
+        "isloaded": 0
+      },
+      "attacks": 2,
+      "attackview1": 13,
+      "attackview2": 8,
+      "attackview3": 3,
+      "attackview4": -2,
+      "bonus": 0,
+      "carried": 2,
+      "critatkrange": 19,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d4",
+          "stat": "strength",
+          "statmult": 1,
+          "type": "piercing,slashing"
+        }
+      },
+      "isidentified": 1,
+      "maxammo": 1,
+      "name": "Dagger",
+      "properties": "-",
+      "rangeincrement": 10,
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00004"
+      },
+      "type": 1
+    },
+    "id-00005": {
+      "ammunitionmanager": {
+        "isloaded": 0
+      },
+      "attacks": 2,
+      "attackview1": 13,
+      "attackview2": 8,
+      "attackview3": 3,
+      "attackview4": -2,
+      "bonus": 1,
+      "carried": 1,
+      "critatkrange": 17,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 1,
+          "critmult": 2,
+          "dice": "d8",
+          "stat": "strength",
+          "type": "slashing"
+        }
+      },
+      "isidentified": 1,
+      "name": "+1 Keen Longsword",
+      "properties": "magic, keen",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00013"
+      },
+      "type": 0
+    },
+    "id-00006": {
+      "attacks": 2,
+      "attackview1": 13,
+      "attackview2": 8,
+      "attackview3": 3,
+      "attackview4": -2,
+      "bonus": 1,
+      "carried": 2,
+      "critatkrange": 19,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 1,
+          "critmult": 2,
+          "dice": "d8",
+          "stat": "strength",
+          "type": "slashing"
+        }
+      },
+      "isidentified": 1,
+      "name": "+1 Evil Outsider Bane Long Sword(Solemn Hour)",
+      "properties": "magic, bane",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00033"
+      },
+      "type": 0
+    },
+    "id-00007": {
+      "ammunitionmanager": {
+        "isloaded": 0
+      },
+      "attacks": 2,
+      "attackview1": 14,
+      "attackview2": 9,
+      "attackview3": 4,
+      "attackview4": -1,
+      "bonus": 2,
+      "carried": 2,
+      "critatkrange": 20,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 2,
+          "critmult": 3,
+          "dice": "d8",
+          "stat": "strength",
+          "statmult": 1,
+          "type": "bludgeoning, magic, good"
+        }
+      },
+      "isidentified": 1,
+      "name": "+2 Warhammer",
+      "properties": "magic",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00026"
+      },
+      "type": 0
+    },
+    "id-00008": {
+      "ammunitionmanager": "",
+      "attacks": 2,
+      "attackview1": 13,
+      "attackview2": 8,
+      "attackview3": 3,
+      "attackview4": -2,
+      "bonus": 1,
+      "carried": 1,
+      "critatkrange": 19,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 1,
+          "critmult": 2,
+          "dice": "2d6",
+          "stat": "strength",
+          "statmult": 1.5,
+          "type": "slashing"
+        }
+      },
+      "isidentified": 1,
+      "name": "+1 Adamantine Greatsword",
+      "properties": "adamantine, magic",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00016"
+      },
+      "type": 0
+    },
+    "id-00009": {
+      "ammo": 0,
+      "ammopicker": "Arrows, cold iron",
+      "ammunitionmanager": {
+        "ammopickershortcut": {
+          "class": "item",
+          "recordname": ".....inventorylist.id-00021"
+        },
+        "hitrecoverypercentage": 50,
+        "hitshots": 0,
+        "isloaded": 0,
+        "missammopickershortcut": {
+          "class": "item",
+          "recordname": ".....inventorylist.id-00021"
+        },
+        "missedshots": 0,
+        "missrecoverypercentage": 50
+      },
+      "attacks": 2,
+      "attackview1": 14,
+      "attackview2": 9,
+      "attackview3": 4,
+      "attackview4": -1,
+      "bonus": 1,
+      "carried": 2,
+      "critatkrange": 20,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 1,
+          "critmult": 3,
+          "dice": "d8",
+          "stat": "strength",
+          "statmult": 1,
+          "type": "piercing"
+        }
+      },
+      "isidentified": 1,
+      "maxammo": 20,
+      "missammopicker": "Arrows, cold iron",
+      "name": "+1 Adaptive Composite Longbow",
+      "properties": "magic",
+      "rangeincrement": 110,
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00030"
+      },
+      "type": 1
+    }
+  }
+}

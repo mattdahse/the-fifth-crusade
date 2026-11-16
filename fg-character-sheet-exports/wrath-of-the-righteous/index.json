@@ -1,0 +1,98 @@
+{
+  "campaign": "Wrath of the Righteous - AZ",
+  "characters": [
+    {
+      "name": "Harlok Greyforge",
+      "record": "id-00001",
+      "file": "harlok-greyforge.json",
+      "level": 12,
+      "class": [
+        "Paladin",
+        "Fighter"
+      ]
+    },
+    {
+      "name": "Rabiah",
+      "record": "id-00002",
+      "file": "rabiah.json",
+      "level": 12,
+      "class": [
+        "Sorcerer"
+      ]
+    },
+    {
+      "name": "Varic Sarian",
+      "record": "id-00003",
+      "file": "varic-sarian.json",
+      "level": 12,
+      "class": [
+        "Cleric",
+        "Fighter"
+      ]
+    },
+    {
+      "name": "Lupenor Celest",
+      "record": "id-00004",
+      "file": "lupenor-celest.json",
+      "level": 12,
+      "class": [
+        "Slayer"
+      ]
+    },
+    {
+      "name": "Chyrrik",
+      "record": "id-00005",
+      "file": "chyrrik.json",
+      "level": 9,
+      "class": [
+        "Ranger"
+      ]
+    },
+    {
+      "name": "Arueshalae",
+      "record": "id-00007",
+      "file": "arueshalae.json",
+      "level": 13,
+      "class": [
+        "Succubus",
+        "Master Spy"
+      ]
+    },
+    {
+      "name": "Rothin Vald",
+      "record": "id-00008",
+      "file": "rothin-vald.json",
+      "level": 9,
+      "class": [
+        "Cleric"
+      ]
+    },
+    {
+      "name": "Elara Dawnstrider",
+      "record": "id-00009",
+      "file": "elara-dawnstrider.json",
+      "level": 9,
+      "class": [
+        "Paladin"
+      ]
+    },
+    {
+      "name": "Cornelia Dewfoot",
+      "record": "id-00010",
+      "file": "cornelia-dewfoot.json",
+      "level": 9,
+      "class": [
+        "Druid"
+      ]
+    },
+    {
+      "name": "Mira Thistledance",
+      "record": "id-00011",
+      "file": "mira-thistledance.json",
+      "level": 8,
+      "class": [
+        "Bard"
+      ]
+    }
+  ]
+}

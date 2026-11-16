@@ -1,0 +1,1935 @@
+{
+  "campaign": "The Real Work",
+  "record": "charsheet.id-00008",
+  "abilities": {
+    "charisma": {
+      "base": 17,
+      "bonus": 3,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 17
+    },
+    "constitution": {
+      "abilperms": {
+        "id-00001": {
+          "bonus_type": "racial",
+          "name": "Racial Attribute Adjustments",
+          "permnum": -2
+        }
+      },
+      "base": 14,
+      "bonus": 1,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": -2,
+      "permbon": 1,
+      "score": 12
+    },
+    "dexterity": {
+      "abilperms": {
+        "id-00001": {
+          "bonus_type": "racial",
+          "name": "Racial Attribute Adjustments",
+          "permnum": 2
+        }
+      },
+      "base": 10,
+      "bonus": 1,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 2,
+      "permbon": 1,
+      "score": 12
+    },
+    "intelligence": {
+      "base": 17,
+      "bonus": 3,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 17
+    },
+    "strength": {
+      "base": 4,
+      "bonus": -3,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 4
+    },
+    "wisdom": {
+      "abilperms": {
+        "id-00001": {
+          "bonus_type": "racial",
+          "name": "Racial Attribute Adjustments",
+          "permnum": 2
+        }
+      },
+      "base": 9,
+      "bonus": 0,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 2,
+      "permbon": 1,
+      "score": 11
+    }
+  },
+  "ac": {
+    "sources": {
+      "abilitymod": 1,
+      "abilitymod2": 0,
+      "armor": 0,
+      "cmdabilitymod": -3,
+      "cmdbasemod": 1,
+      "cmdmisc": 0,
+      "deflection": 0,
+      "dodge": 0,
+      "ffmisc": 0,
+      "misc": 0,
+      "naturalarmor": 0,
+      "shield": 0,
+      "size": 0,
+      "temporary": 0,
+      "touchmisc": 0
+    },
+    "totals": {
+      "cmd": 9,
+      "flatfooted": 10,
+      "general": 11,
+      "touch": 11
+    }
+  },
+  "age": "33",
+  "alignment": "Neutral Good",
+  "appearance": "Kora is a Kwanlai Tengu. She is in her 30s and is slightly taller than the average human woman. She has black feathers all over her body, humanlike hands, birdlike legs, and her face, head, and neck all resemble a raven's. She wears a light, grey dress and hooded robe.",
+  "attackbonus": {
+    "base": 1,
+    "grapple": {
+      "abilitymod": -3,
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": -2
+    },
+    "melee": {
+      "abilitymod": -3,
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": -2
+    },
+    "ranged": {
+      "abilitymod": 1,
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": 2
+    }
+  },
+  "classes": {
+    "id-00002": {
+      "favored": 1,
+      "level": 2,
+      "name": "Oracle",
+      "shortcut": {
+        "class": "referenceclass",
+        "recordname": "class.oracle@Pathfinder Advanced Players Guide"
+      },
+      "skillranks": 8,
+      "skillranksused": 0
+    }
+  },
+  "coins": {
+    "id-00001": {
+      "amount": 0,
+      "name": "PP"
+    },
+    "id-00002": {
+      "amount": 0,
+      "name": "GP"
+    },
+    "id-00003": {
+      "amount": 62,
+      "name": "SP"
+    },
+    "id-00004": {
+      "amount": 4,
+      "name": "CP"
+    }
+  },
+  "defenses": {
+    "sr": {
+      "base": 0,
+      "misc": 0,
+      "temporary": 0,
+      "total": 0
+    }
+  },
+  "deity": "Hei Feng",
+  "encumbrance": {
+    "armorcheckpenalty": 0,
+    "armormaxstatbonus": 0,
+    "armormaxstatbonusactive": 0,
+    "carrymult": 1,
+    "checkpenalty": -3,
+    "heavyload": 60,
+    "level": 1,
+    "liftoffground": 120,
+    "liftoverhead": 60,
+    "lightload": 20,
+    "load": 21.6,
+    "maxstatbonus": 3,
+    "mediumload": 40,
+    "pushordrag": 300,
+    "spellfailure": 0,
+    "state": "Medium Load",
+    "stradj": 2
+  },
+  "exp": 2347,
+  "expneeded": 2000,
+  "featlist": {
+    "id-00002": {
+      "benefit": "<p>You get a +1 bonus on attack and damage rolls with ranged weapons at ranges of up to 30 feet.</p>",
+      "name": "Point Blank Shot",
+      "normal": "<p>-</p>",
+      "prerequisites": "-",
+      "special": "<p>-</p>",
+      "summary": "+1 attack and damage on targets within 30 feet",
+      "type": "Combat"
+    }
+  },
+  "gender": "F",
+  "height": "5'7\"",
+  "heropoint": 2,
+  "hp": {
+    "nonlethal": 0,
+    "temporary": 0,
+    "total": 10,
+    "wounds": 0
+  },
+  "initiative": {
+    "abilitymod": 1,
+    "misc": 0,
+    "temporary": 0,
+    "total": 1
+  },
+  "inventorylist": {
+    "id-00001": {
+      "bonus": 0,
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 2,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "35 gp",
+      "count": 1,
+      "critical": "19-20/x2",
+      "damage": "1d8",
+      "damagetype": "Piercing",
+      "depth": 0,
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Crossbow, light",
+      "range": 80,
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "subtype": "Simple Ranged",
+      "type": "Weapon",
+      "volume": 0,
+      "weight": 4,
+      "width": 0
+    },
+    "id-00002": {
+      "carried": 1,
+      "cost": "1 gp",
+      "count": 1,
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Traveler's outfit",
+      "showonminisheet": 1,
+      "subtype": "Clothing",
+      "type": "Goods and Services",
+      "weight": 2
+    },
+    "id-00003": {
+      "carried": 0,
+      "cost": "1 cp",
+      "count": 1,
+      "isidentified": 1,
+      "location": "Stashed at Home",
+      "locked": 1,
+      "name": "Torch",
+      "showonminisheet": 0,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 0
+    },
+    "id-00004": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 0,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "1 gp",
+      "count": 1,
+      "depth": 0,
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "Stashed at Home",
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Rope, hempen (50 ft.)",
+      "showonminisheet": 0,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "volume": 0,
+      "weight": 0,
+      "width": 0
+    },
+    "id-00005": {
+      "carried": 1,
+      "contentscount": 0,
+      "contentsvolume": 0,
+      "cost": "1 gp",
+      "count": 1,
+      "extraplanarcontents": 0.4,
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Pouch, belt (empty)",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 0.5
+    },
+    "id-00006": {
+      "carried": 1,
+      "cost": "0 gp",
+      "count": 13,
+      "hitshots": 0,
+      "isidentified": 1,
+      "locked": 1,
+      "max_charges": 1,
+      "missedshots": 0,
+      "name": "Bolts, crossbow",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "subtype": "Ammunition",
+      "type": "Goods and Services",
+      "weight": 0.1
+    },
+    "id-00007": {
+      "carried": 0,
+      "cost": "1 sp",
+      "count": 1,
+      "isidentified": 1,
+      "location": "Mwk Backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00008.inventorylist.id-00019"
+      },
+      "locked": 1,
+      "name": "Bedroll",
+      "showonminisheet": 0,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 5
+    },
+    "id-00008": {
+      "carried": 0,
+      "contentscount": 0,
+      "contentsvolume": 0,
+      "cost": "2 gp",
+      "count": 1,
+      "extraplanarcontents": 0,
+      "isidentified": 1,
+      "location": "Stashed at Home",
+      "locked": 1,
+      "name": "Backpack",
+      "showonminisheet": 0,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 0
+    },
+    "id-00009": {
+      "carried": 1,
+      "cost": "5 sp",
+      "count": 3,
+      "isidentified": 1,
+      "location": "Mwk Backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00008.inventorylist.id-00019"
+      },
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Rations, trail (per day)",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 1
+    },
+    "id-00010": {
+      "carried": 1,
+      "cost": "1 gp",
+      "count": 1,
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Waterskin",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 4
+    },
+    "id-00011": {
+      "carried": 0,
+      "cost": "4 gp",
+      "count": 1,
+      "critical": "19-20/x2",
+      "damage": "1d4",
+      "damagetype": "Piercing or slashing",
+      "description": "<p>Cold iron. Twice the price of the ordinary sort, and the only thing on this rack that bites a demon properly.</p>",
+      "isidentified": 1,
+      "location": "Stashed at Home",
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Cold iron dagger",
+      "range": 10,
+      "showonminisheet": 0,
+      "spell_caster_level": "item_caster_level",
+      "subtype": "Simple Light Melee",
+      "type": "Weapon",
+      "weight": 1
+    },
+    "id-00012": {
+      "carried": 1,
+      "cost": "50 gp",
+      "count": 1,
+      "isidentified": 1,
+      "location": "Mwk Backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00008.inventorylist.id-00019"
+      },
+      "locked": 1,
+      "name": "Healer's Kit",
+      "showonminisheet": 1,
+      "subtype": "Tools and Skill Kits",
+      "type": "Goods and Services",
+      "weight": 1
+    },
+    "id-00013": {
+      "carried": 0,
+      "cost": "5 sp",
+      "count": 2,
+      "isidentified": 1,
+      "location": "Stashed at Home",
+      "locked": 1,
+      "name": "Soap (per)",
+      "showonminisheet": 0,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 0
+    },
+    "id-00014": {
+      "carried": 0,
+      "count": 1,
+      "name": "Stashed at Home",
+      "showonminisheet": 0,
+      "weight": 0
+    },
+    "id-00015": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 0,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "count": 31,
+      "depth": 0,
+      "extraplanarcontents": 0,
+      "hitshots": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "length": 0,
+      "location": "Stashed at Home",
+      "max_charges": 0,
+      "missedshots": 0,
+      "name": "(not carried) Bolts, crossbow",
+      "showonminisheet": 0,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "volume": 0,
+      "weight": 0,
+      "width": 0
+    },
+    "id-00016": {
+      "carried": 0,
+      "count": 230,
+      "location": "Stashed at Home",
+      "name": "GP",
+      "showonminisheet": 0,
+      "weight": 0
+    },
+    "id-00017": {
+      "carried": 0,
+      "count": 8,
+      "location": "Stashed at Home",
+      "name": "Rations, trail (per day)",
+      "showonminisheet": 0,
+      "weight": 0
+    },
+    "id-00018": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 0,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "1 gp",
+      "count": 1,
+      "depth": 0,
+      "description": "<p>Worn openly at the throat rather than inked on a wrist. These men are not hiding from anyone down here.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "Stashed at Home",
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Hooked Labyrinth Token",
+      "nonid_name": "A hooked iron disc, stamped with a maze",
+      "showonminisheet": 0,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "type": "Gear",
+      "volume": 0,
+      "weight": 0.5,
+      "width": 0
+    },
+    "id-00019": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 2,
+      "charges": 0,
+      "cl": 0,
+      "contentscount": 0,
+      "contentsvolume": 0,
+      "cost": "50 gp",
+      "count": 1,
+      "depth": 0,
+      "description": "<p>This leather knapsack has one large pocket that closes with a buckled strap and holds about 2 cubic feet of material. Some may have one or more smaller pockets on the sides.</p>",
+      "extraplanarcontents": 4,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Mwk Backpack",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "subtype": "Bags and Pouches",
+      "type": "Equipment",
+      "volume": 0,
+      "weight": 4,
+      "width": 0
+    },
+    "id-00020": {
+      "aura": "Faint conjuration",
+      "carried": 2,
+      "cl": 1,
+      "cost": "50 gp",
+      "count": 1,
+      "description": "<p>A stoppered glass vial of cloudy red liquid, about two swallows. A paper tag tied at the neck carries a stock number, <i>H.E. 211, </i>and beside it a tiny, careful drawing of a flask.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Potion of Cure Light Wounds",
+      "nonid_name": "A vial of cloudy red liquid with a paper tag",
+      "showonminisheet": 1,
+      "type": "Potion",
+      "weight": 0.1
+    },
+    "id-00021": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 0,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "0 gp",
+      "count": 1,
+      "depth": 0,
+      "description": "<p>A scrap of paper, rain-stained, with a brown stain at one corner. On the outside: <i>For the Master of the Drezen Way. </i>Inside, two words in a big square hand: <i>Send men.</i></p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "Stashed at Home",
+      "locked": 1,
+      "max_charges": 1,
+      "name": "The Note",
+      "showonminisheet": 0,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "type": "Gear",
+      "volume": 0,
+      "weight": 0.1,
+      "width": 0
+    },
+    "id-00022": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 0,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "0 gp",
+      "count": 1,
+      "depth": 0,
+      "description": "<p>Three letters in the same careful hand, each sealed with a maze and addressed to the Templars of the Ivory Labyrinth, each asking for a ruling on who holds the title of Master of the Drezen Way. The third is shorter than the first.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "Stashed at Home",
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Three Unsent Letters",
+      "showonminisheet": 0,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "type": "Gear",
+      "volume": 0,
+      "weight": 0.2,
+      "width": 0
+    },
+    "id-00023": {
+      "carried": 0,
+      "cost": "0 gp",
+      "count": 1,
+      "description": "<p>A letter from the Templars of the Ivory Labyrinth in a frame of scrap wood: the correct hymns for the Feast of the Horned Month, in order, and a reminder that attendance is expected.</p>",
+      "isidentified": 1,
+      "location": "Stashed at Home",
+      "locked": 1,
+      "name": "The Framed Letter",
+      "showonminisheet": 0,
+      "type": "Gear",
+      "weight": 1
+    },
+    "id-00024": {
+      "carried": 0,
+      "count": 100,
+      "location": "Stashed at Home",
+      "name": "SP",
+      "showonminisheet": 0,
+      "weight": 0
+    },
+    "id-00025": {
+      "carried": 1,
+      "cost": "8 sp",
+      "count": 1,
+      "isidentified": 1,
+      "location": "Mwk Backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00008.inventorylist.id-00019"
+      },
+      "locked": 1,
+      "name": "Signal whistle",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 0
+    },
+    "id-00026": {
+      "carried": 1,
+      "count": 1,
+      "location": "Pouch, belt (empty)",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00008.inventorylist.id-00005"
+      },
+      "name": "Graveyard Dirt",
+      "showonminisheet": 1,
+      "weight": 0.4
+    }
+  },
+  "languagelist": {
+    "id-00001": {
+      "name": "Common"
+    },
+    "id-00002": {
+      "name": "Tengu"
+    }
+  },
+  "level": 2,
+  "locked": 0,
+  "name": "Kora Sjon",
+  "notes": "As a chick in the nation of Kwanlai, Kora began to train under an oracle of her city after it was discovered that she was able to see visions. She learned how to willingly manifest and interpret her abilities, enough to run a small fortune telling business to earn a living. When she was a young adult, she fell in love with a thief named Marrak, who would shortly become her husband and life-long mate. They had no children, but they were happy with each other despite the stresses of daily life.\\nEventually, the two longed for something new. They'd lived in Kwanlai for most of their lives, and decided to see more of the world. Sailors tend to consider the Tengu as good luck charms, so very little convincing was needed to be brought on board. Kora and Marrak sailed for years, occasionally boarding onto a new ship to continue their journey, until they reached a continent on the other side of the world. From there, they continued travelling. They sometimes found someone with an open spot in their wagon, sometimes they walked alone. Eventually, the two came to a city where they could set up their businesses. There were still homes available then, and Marrak managed to steal enough funding to purchase one for them, on the outskirts of the city. It was small, but it was somewhere that the two could return to at night and call theirs. \\nThings were fine for a while. Kora would tell Marrak which marketplace he'd be most likely to succeed at, and he would go thieving while Kora advised customers of their futures from another small fortune teller business. One day, Marrak let Kora sleep in while he went off to work. He had grown complacent, and felt that he didn't need to bother her for a vision that morning. He should have. Tensions were high in the marketplace he chose, and he got caught up in a fight. Someone saw him swipe some gold from another's pouch and shouted that he be caught. As he ran, someone shot him with a crossbow bolt. He made it back home after losing his pursuers, but the bolt had been dipped in a poison. \\nThe poison didn't kill him immediately. It expeditated an infection from the wound, and Kora could not find a healer willing or able to assist them. Instead, she was forced to helplessly sit by the love of her life's side and watch him deteriorate. She blamed herself for not being awake to tell him where to avoid that day, and, as he grew more delirious, Marrak worsened her guilt. He told her that she could have stopped this, and pleaded for her to heal him. After a few days, he was gone, and she was alone. After she buried him, she would sit by his grave most hours of the day. Not only had she lost the only person she would ever love, she had convinced herself that she was to blame for it.  \\nThe guilt ate at her mood and motivation, but it also did something else. It opened a weakness that unsettled spirits were able to latch onto. Everywhere in the world, people die with unresolved emotions, and become wandering spirits. Oracles are already more connected to other planes than most, so any weakness can attract spirits to latch onto one for some time. Ever since the loss of her husband, Kora has been able to feel different spirits hitchhike onto her energy. Some of them are sad, and feel like a weight physically making it difficult to move. Some are angry, and can manifest enough presence to send an object flying away, or towards her at times. Some are mischievous, shoving items out of reach as soon as Kora reaches for it. Some spirits latch on for weeks, some for hours, some for months. \\nThe guilt also inspired her in a way. It inspired her to never want to feel as helpless again. She began seeking out healers to teach her their ways, dedicating her life to learning medicine and healing magic. There are plenty of people who need help these days, and healers are in short supply. She wants to learn all she can to be able to prevent someone else from watching their loved one die. \\nThere is one issue, however, with her healing abilities. She can see to all manner of wounds except one. Seeing or smelling a late-stage infection will bring her back to the worst of her partner's condition. She is still unable to bring herself to face that memory enough to help. She can handle seeing corpses, or the beginning of an infection, but not late-stage. \\n",
+  "portrait": "portraits/PZOPSS0912E-Mitoko.jpg",
+  "proficiencylist": {
+    "id-00001": {
+      "name": "Weapon: simple"
+    },
+    "id-00002": {
+      "name": "Armor: light, medium, shields (except tower shields)"
+    }
+  },
+  "race": "Tengu",
+  "racelink": {
+    "class": "referencerace",
+    "recordname": "race.id-00010@Pathfinder Bestiary - Player"
+  },
+  "saves": {
+    "fortitude": {
+      "abilitymod": 1,
+      "base": 0,
+      "misc": 0,
+      "temporary": 0,
+      "total": 1
+    },
+    "reflex": {
+      "abilitymod": 1,
+      "base": 0,
+      "misc": 0,
+      "temporary": 0,
+      "total": 1
+    },
+    "will": {
+      "abilitymod": 0,
+      "base": 3,
+      "misc": 0,
+      "temporary": 0,
+      "total": 3
+    }
+  },
+  "senses": "Low-Light Vision 60",
+  "size": "Medium",
+  "skilllist": {
+    "id-00001": {
+      "armorcheckmultiplier": 0,
+      "label": "Craft",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "intelligence",
+      "total": 3
+    },
+    "id-00002": {
+      "armorcheckmultiplier": 0,
+      "label": "Diplomacy",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "charisma",
+      "total": 3
+    },
+    "id-00003": {
+      "armorcheckmultiplier": 0,
+      "label": "Heal",
+      "misc": 0,
+      "ranks": 2,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 1,
+      "statname": "wisdom",
+      "total": 5
+    },
+    "id-00004": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "History",
+      "total": 7
+    },
+    "id-00005": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Planes",
+      "total": 7
+    },
+    "id-00006": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Religion",
+      "total": 7
+    },
+    "id-00007": {
+      "armorcheckmultiplier": 0,
+      "label": "Profession",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 1,
+      "statname": "wisdom",
+      "total": 4
+    },
+    "id-00008": {
+      "armorcheckmultiplier": 0,
+      "label": "Sense Motive",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 1,
+      "statname": "wisdom",
+      "total": 0
+    },
+    "id-00009": {
+      "armorcheckmultiplier": 0,
+      "label": "Spellcraft",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "intelligence",
+      "total": 7
+    },
+    "id-00010": {
+      "armorcheckmultiplier": 0,
+      "label": "Intimidate",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 0,
+      "statname": "charisma",
+      "total": 3
+    },
+    "id-00011": {
+      "armorcheckmultiplier": 1,
+      "label": "Climb",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": -3,
+      "state": 0,
+      "statname": "strength",
+      "total": -6
+    },
+    "id-00012": {
+      "armorcheckmultiplier": 1,
+      "label": "Escape Artist",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 1,
+      "state": 0,
+      "statname": "dexterity",
+      "total": -2
+    },
+    "id-00013": {
+      "armorcheckmultiplier": 0,
+      "label": "Perception",
+      "misc": 2,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 0,
+      "statname": "wisdom",
+      "total": 3
+    },
+    "id-00014": {
+      "armorcheckmultiplier": 1,
+      "label": "Fly",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 1,
+      "state": 0,
+      "statname": "dexterity",
+      "total": -2
+    },
+    "id-00015": {
+      "armorcheckmultiplier": 1,
+      "label": "Disable Device",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 1,
+      "state": 0,
+      "statname": "dexterity",
+      "total": -2
+    },
+    "id-00016": {
+      "armorcheckmultiplier": 1,
+      "label": "Acrobatics",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 1,
+      "state": 1,
+      "statname": "dexterity",
+      "total": -2
+    },
+    "id-00017": {
+      "armorcheckmultiplier": 0,
+      "label": "Use Magic Device",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 0,
+      "stat": 3,
+      "state": 0,
+      "statname": "charisma",
+      "total": 4
+    },
+    "id-00018": {
+      "armorcheckmultiplier": 0,
+      "label": "Handle Animal",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 3,
+      "state": 1,
+      "statname": "charisma",
+      "total": 3
+    },
+    "id-00019": {
+      "armorcheckmultiplier": 1,
+      "label": "Swim",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": -3,
+      "state": 0,
+      "statname": "strength",
+      "total": -6
+    },
+    "id-00020": {
+      "armorcheckmultiplier": 1,
+      "label": "Sleight of Hand",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 1,
+      "state": 0,
+      "statname": "dexterity",
+      "total": -1
+    },
+    "id-00021": {
+      "armorcheckmultiplier": 0,
+      "label": "Survival",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 1,
+      "statname": "wisdom",
+      "total": 4
+    },
+    "id-00022": {
+      "armorcheckmultiplier": 0,
+      "label": "Appraise",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 0,
+      "statname": "intelligence",
+      "total": 3
+    },
+    "id-00023": {
+      "armorcheckmultiplier": 0,
+      "label": "Linguistics",
+      "misc": 4,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 3,
+      "state": 0,
+      "statname": "intelligence",
+      "total": 7
+    },
+    "id-00024": {
+      "armorcheckmultiplier": 0,
+      "label": "Bluff",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 0,
+      "statname": "charisma",
+      "total": 3
+    },
+    "id-00025": {
+      "armorcheckmultiplier": 0,
+      "label": "Disguise",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 0,
+      "statname": "charisma",
+      "total": 3
+    },
+    "id-00026": {
+      "armorcheckmultiplier": 1,
+      "label": "Ride",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 1,
+      "state": 0,
+      "statname": "dexterity",
+      "total": -2
+    },
+    "id-00027": {
+      "armorcheckmultiplier": 1,
+      "label": "Stealth",
+      "misc": 2,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 1,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 1
+    },
+    "id-00028": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Nature",
+      "total": 7
+    }
+  },
+  "skillpoints": {
+    "spent": 13
+  },
+  "specialabilitylist": {
+    "id-00001": {
+      "locked": 1,
+      "name": "Channel",
+      "text": "<p>\n\t\t\t\t\t\t\t<b>Oracle Mystery: </b>Life</p>\n\t\t\t\t\t\t<p>You can channel positive energy like a cleric, using your oracle level as your effective cleric level when determining the amount of damage healed (or caused to undead) and the DC. You can use this ability a number of times per day equal to 1 + your Charisma modifier.</p>",
+      "type": "Life Mystery Power"
+    },
+    "id-00003": {
+      "level": 1,
+      "locked": 1,
+      "name": "Orisons",
+      "source": "Oracle",
+      "text": "<p>Oracles learn a number of orisons, or 0-level spells, as noted on Table 2-6 under \"Spells Known.\" These spells are cast like any other spell, but they do not consume any slots and may be used again.</p>"
+    },
+    "id-00004": {
+      "level": 1,
+      "locked": 1,
+      "name": "Revelation",
+      "source": "Oracle",
+      "text": "<p>At 1st level, 3rd level, and every four levels thereafter (7th, 11th, and so on), an oracle uncovers a new secret about her mystery that grants her powers and abilities. The oracle must select a revelation from the list of revelations available to her mystery. If a revelation is chosen at a later level, the oracle gains all of the abilities and bonuses granted by that revelation based on her current level. Unless otherwise noted, activating the power of a revelation is a standard action.</p>"
+    },
+    "id-00005": {
+      "level": 1,
+      "locked": 1,
+      "name": "Spells",
+      "source": "Oracle",
+      "text": "<p>An oracle casts divine spells drawn from the cleric spell lists. She can cast any spell she knows without preparing it ahead of time. To learn or cast a spell, an oracle must have a Charisma score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against an oracle's spell is 10 + the spell's level + the oracle's Charisma modifier.</p>\n\t\t\t\t\t\t<p>Like other spellcasters, an oracle can cast only a certain number of spells per day of each spell level. Her base daily spell allotment is given on Table 2-5. In addition, she receives bonus spells per day if she has a high Charisma score (see Table 1-3 of the <i>Pathfinder RPG Core Rulebook </i>).</p>\n\t\t\t\t\t\t<p>Unlike other divine spellcasters, an oracle's selection of spells is extremely limited. An oracle begins play knowing four 0-level spells and two 1st-level spells of her choice. At each new oracle level, she gains one or more new spells, as indicated on Table 2-6. Unlike spells per day, the number of spells an oracle knows is not affected by her Charisma score; the numbers on Table 2-6 are fixed.</p>\n\t\t\t\t\t\t<p>In addition to the spells gained by oracles as they gain levels, each oracle also adds all of either the cure spells or the inflict spells to her list of spells known (cure spells include all spells with \"cure\" in the name, inflict spells include all spells with \"inflict\" in the name). These spells are added as soon as the oracle is capable of casting them. This choice is made when the oracle gains her first level and cannot be changed.</p>\n\t\t\t\t\t\t<p>Upon reaching 4th level, and at every even-numbered oracle level after that (6th, 8th, and so on), an oracle can choose to learn a new spell in place of one she already knows. In effect, the oracle loses the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged. An oracle may swap only a single spell at any given level, and must choose whether or not to swap the spell at the same time that she gains new spells known for the level. She cannot swap any cure or inflict spells, nor can she swap any spells gained from her mystery.</p>\n\t\t\t\t\t\t<p>Unlike a cleric, an oracle need not prepare her spells in advance. She can cast any spell she knows at any time, assuming she has not yet used up her spells per day for that spell level. Oracles do not need to provide a divine focus to cast spells that list divine focus (DF) as part of the components.</p>"
+    },
+    "id-00006": {
+      "locked": 1,
+      "name": "Haunted Curse",
+      "text": "<p>Malevolent spirits follow you wherever you go, causing minor mishaps and strange occurrences (such as unexpected breezes, small objects moving on their own, and faint noises). Retrieving any stored item from your gear requires a standard action, unless it would normally take longer. Any item you drop lands 10 feet away from you in a random direction. Add <i>mage hand </i>and <i>ghost sound </i>to your list of spells known. At 5th level, add <i>levitate </i>and <i>minor image </i>to your list of spells known. At 10th level, add <i>telekinesis </i>to your list of spells known. At 15th level, add <i>reverse gravity </i>to your list of spells known.</p>",
+      "type": "Oracle Curse"
+    },
+    "id-00007": {
+      "locked": 1,
+      "name": "Life Mystery",
+      "text": "<p>\n\t\t\t\t\t\t\t<b>Deities: </b>Gozreh, Pharasma, Sarenrae.</p>\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t<b>Class Skills: </b>An oracle with the life mystery adds Handle Animal, Knowledge (nature), and Survival to her list of class skills.</p>\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t<b>Bonus Spells: </b>detect undead (2nd), lesser restoration (4th), neutralize poison (6th), restoration (8th), breath of life (10th), heal (12th), greater restoration (14th), mass heal (16th), true resurrection (18th)</p>\n\t\t\t\t\t\t<h>Spell List</h>\n\t\t\t\t\t\t<linklist>\n\t\t\t\t\t\t\t<link class=\"spelldesc\" recordname=\"spell.detectundead@*\">detect undead</link>\n\t\t\t\t\t\t\t<link class=\"spelldesc\" recordname=\"spell.restorationlesser@*\">lesser restoration</link>\n\t\t\t\t\t\t\t<link class=\"spelldesc\" recordname=\"spell.neutralizepoison@*\">neutralize poison</link>\n\t\t\t\t\t\t\t<link class=\"spelldesc\" recordname=\"spell.restoration@*\">restoration</link>\n\t\t\t\t\t\t\t<link class=\"spelldesc\" recordname=\"spell.breathoflife@*\">breath of life</link>\n\t\t\t\t\t\t\t<link class=\"spelldesc\" recordname=\"spell.heal@*\">heal</link>\n\t\t\t\t\t\t\t<link class=\"spelldesc\" recordname=\"spell.restorationgreater@*\">greater restoration</link>\n\t\t\t\t\t\t\t<link class=\"spelldesc\" recordname=\"spell.healmass@*\">mass heal</link>\n\t\t\t\t\t\t\t<link class=\"spelldesc\" recordname=\"spell.trueresurrection@*\">true resurrection</link>\n\t\t\t\t\t\t</linklist>\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t<b>Revelations: </b>An oracle with the Life mystery can choose from the Life Mystery Powers</p>",
+      "type": "Oracle Mystery"
+    }
+  },
+  "speed": {
+    "armor": 0,
+    "base": 30,
+    "fastmovement": 0,
+    "final": 30,
+    "misc": 0,
+    "temporary": 0,
+    "total": 30
+  },
+  "spelldisplaymode": "action",
+  "spellset": {
+    "id-00001": {
+      "availablelevel0": 10,
+      "availablelevel1": 5,
+      "availablelevel2": 0,
+      "availablelevel3": 0,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "castertype": "spontaneous",
+      "cc": {
+        "misc": 0
+      },
+      "cl": 2,
+      "dc": {
+        "ability": "charisma",
+        "abilitymod": 3,
+        "misc": 0,
+        "total": 13
+      },
+      "label": "Oracle",
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 0,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 0,
+              "description": "You point your finger at an object and can lift it and move it at will from a distance. As a move action, you can propel the object as far as 15 feet in any direction, though the spell ends if the distance between you and the object ever exceeds the spell's range.",
+              "duration": "concentration",
+              "effect": "Target-one nonmagical, unattended object weighing up to 5 lbs.",
+              "level": "Arcanist 0, Bard 0, Magus 0, Medium 0, Mesmerist 0, Occultist 0, Psychic 0, Skald 0, Sorcerer 0, Spiritualist 0, Summoner 0, Summoner UC 0, Wizard 0",
+              "linkedspells": "",
+              "name": "Mage Hand",
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "none",
+              "school": "transmutation",
+              "shortdescription": "5-pound telekinesis.",
+              "sr": "no"
+            },
+            "id-00002": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 0,
+              "description": "Upon casting this spell, you target a living creature that has -1 or fewer hit points. That creature is automatically stabilized and does not lose any further hit points. If the creature later takes damage, it continues dying normally.",
+              "duration": "instantaneous",
+              "effect": "Target-one living creature",
+              "level": "Adept 0, Cleric 0, Druid 0, Hunter 0, Inquisitor 0, Medium 0, Occultist 0, Oracle 0, Psychic 0, Shaman 0, Spiritualist 0, Warpriest 0, Witch 0",
+              "linkedspells": "",
+              "name": "Stabilize",
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "Will negates (harmless)",
+              "school": "conjuration (healing)",
+              "shortdescription": "Cause a dying creature to stabilize.",
+              "sr": "yes (harmless)",
+              "text": "<p>Upon casting this spell, you target a living creature that has -1 or fewer hit points. That creature is automatically stabilized and does not lose any further hit points. If the creature later takes damage, it continues dying normally.</p>"
+            },
+            "id-00003": {
+              "actions": {
+                "id-00001": {
+                  "atkmod": 0,
+                  "clcmod": 0,
+                  "order": 1,
+                  "savedcmod": 0,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "dmaxstat": 0,
+                  "durdicestatmax": 0,
+                  "durmod": 0,
+                  "durmult": 10,
+                  "durstat": "cl",
+                  "durunit": "minute",
+                  "label": "LIGHT: 20 light [100]",
+                  "order": 2,
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, M/DF (a firefly)",
+              "cost": 0,
+              "description": "This spell causes a touched object to glow like a torch, shedding normal light in a 20-foot radius, and increasing the light level for an additional 20 feet by one step, up to normal light (darkness becomes dim light, and dim light becomes normal light). In an area of normal or bright light, this spell has no effect. The effect is immobile, but it can be cast on a movable object.\\n\\nYou can only have one light spell active at any one time. If you cast this spell while another casting is still in effect, the previous casting is dispelled. If you make this spell permanent (through permanency or a similar effect), it does not count against this limit. Light can be used to counter or dispel any darkness spell of equal or lower spell level.",
+              "duration": "10 min./level",
+              "effect": "Target-object touched",
+              "level": "Adept 0, Arcanist 0, Bard 0, Cleric 0, Druid 0, Hunter 0, Inquisitor 0, Magus 0, Medium 0, Mesmerist 0, Occultist 0, Oracle 0, Psychic 0, Shaman 0, Skald 0, Sorcerer 0, Spiritualist 0, Summoner 0, Summoner UC 0, Warpriest 0, Witch 0, Wizard 0",
+              "linkedspells": "",
+              "name": "Light",
+              "range": "touch",
+              "save": "none",
+              "school": "evocation [light]",
+              "shortdescription": "Object shines like a torch.",
+              "sr": "no",
+              "text": "<p>This spell causes a touched object to glow like a torch, shedding normal light in a 20-foot radius, and increasing the light level for an additional 20 feet by one step, up to normal light (darkness becomes dim light, and dim light becomes normal light). In an area of normal or bright light, this spell has no effect. The effect is immobile, but it can be cast on a movable object.</p>\n\t\t\t\t\t\t\t\t\t\t<p>You can only have one <i>light </i>spell active at any one time. If you cast this spell while another casting is still in effect, the previous casting is dispelled. If you make this spell permanent (through <i>permanency </i>or a similar effect), it does not count against this limit. <i>Light </i>can be used to counter or dispel any darkness spell of equal or lower spell level.</p>"
+            },
+            "id-00004": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "savetype": "will",
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 0,
+              "description": "This spell makes spoiled, rotten, diseased, poisonous, or otherwise contaminated food and water pure and suitable for eating and drinking. This spell does not prevent subsequent natural decay or spoilage. Unholy water and similar food and drink of significance is spoiled by purify food and drink , but the spell has no effect on creatures of any type nor upon magic potions. Water weighs about 8 pounds per gallon. One cubic foot of water contains roughly 8 gallons and weighs about 60 pounds.",
+              "duration": "instantaneous",
+              "effect": "Target-1 cu. ft./level of contaminated food and water",
+              "level": "Adept 0, Cleric 0, Druid 0, Hunter 0, Occultist 0, Oracle 0, Shaman 0, Warpriest 0",
+              "linkedspells": "",
+              "name": "Purify Food and Drink",
+              "range": "10 ft.",
+              "save": "Will negates (object)",
+              "school": "transmutation",
+              "shortdescription": "Purifies 1 cu. ft./level of food or water.",
+              "sr": "yes (object)",
+              "text": "<p>This spell makes spoiled, rotten, diseased, poisonous, or otherwise contaminated food and water pure and suitable for eating and drinking. This spell does not prevent subsequent natural decay or spoilage. Unholy water and similar food and drink of significance is spoiled by <i>purify food and drink </i>, but the spell has no effect on creatures of any type nor upon magic potions. Water weighs about 8 pounds per gallon. One cubic foot of water contains roughly 8 gallons and weighs about 60 pounds.</p>"
+            },
+            "id-00005": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 0,
+              "description": "You detect magical auras. The amount of information revealed depends on how long you study a particular area or subject\\n\\n1st Round: Presence or absence of magical auras\\n\\n2nd Round: Number of different magical auras and the power of the most potent aura\\n\\n3rd Round: The strength and location of each aura. If the items or creatures bearing the auras are in line of sight, you can make Knowledge (arcana) skill checks to determine the school of magic involved in each. (Make one check per aura: DC 15 + spell level, or 15 + 1/2 caster level for a nonspell effect.) If the aura eminates from a magic item, you can attempt to identify its properties (see Spellcraft)\\n\\nMagical areas, multiple types of magic, or strong local magical emanations may distort or conceal weaker auras\\n\\nAura Strength: An aura's power depends on a spell's functioning spell level or an item's caster level; see the accompanying table. If an aura falls into more than one category, detect magic indicates the stronger of the two\\n\\nLingering Aura: A magical aura lingers after its original source dissipates (in the case of a spell) or is destroyed (in the case of a magic item). If detect magic is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power:\\n\\n\\n\\n[Original Strength] [Duration of Lingering Aura]\\n[Faint] [1d6 rounds]\\n[Moderate] [1d6 minutes]\\n[Strong] [1d6 x 10 minutes]\\n[Overwhelming] [1d6 days]\\n\\nOutsiders and elementals are not magical in themselves, but if they are summoned, the conjuration spell registers. Each round, you can turn to detect magic in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it\\n\\nDetect magic can be made permanent with a permanency spell\\n\\n\\n\\n[Spell or Object] [Aura Power]\\n[Faint] [Moderate] [Strong] [Overwhelming]\\n[Functioning spell (spell level)] [3rd or lower] [4th-6th] [7th-9th] [10th+ (deity-level)]\\n[Magic item (caster level)] [5th or lower] [6th-11th] [12th-20th] [21st+ (artifact)]",
+              "duration": "concentration, up to 1 min./level (D)",
+              "effect": "Area-cone-shaped emanation",
+              "level": "Adept 0, Arcanist 0, Bard 0, Cleric 0, Druid 0, Hunter 0, Inquisitor 0, Magus 0, Medium 0, Mesmerist 0, Occultist 0, Oracle 0, Psychic 0, Shaman 0, Skald 0, Sorcerer 0, Spiritualist 0, Summoner 0, Summoner UC 0, Warpriest 0, Witch 0, Wizard 0",
+              "linkedspells": "",
+              "name": "Detect Magic",
+              "range": "60 ft.",
+              "save": "none",
+              "school": "divination",
+              "shortdescription": "Detects spells and magic items within 60 ft.",
+              "sr": "no"
+            },
+            "id-00006": {
+              "actions": {
+                "id-00001": {
+                  "savetype": "will",
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M (a bit of wool or a small lump of wax)",
+              "cost": 0,
+              "description": "Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place. You choose what type of sound ghost sound creates when casting it and cannot thereafter change the sound's basic character\\n\\nThe volume of sound created depends on your level. You can produce as much noise as four normal humans per caster level (maximum 40 humans). Thus, talking, singing, shouting, walking, marching, or running sounds can be created. The noise a ghost sound spell produces can be virtually any type of sound within the volume limit. A horde of rats running and squeaking is about the same volume as eight humans running and shouting. A roaring lion is equal to the noise from 16 humans, while a roaring dragon is equal to the noise from 32 humans. Anyone who hears a ghost sound receives a Will save to disbelieve\\n\\nGhost sound can enhance the effectiveness of a silent image spell\\n\\nGhost sound can be made permanent with a permanency spell.",
+              "duration": "1 round/level (D)",
+              "effect": "Effect-illusory sounds",
+              "level": "Adept 0, Arcanist 0, Bard 0, Magus 0, Medium 0, Mesmerist 0, Occultist 0, Psychic 0, Skald 0, Sorcerer 0, Wizard 0",
+              "linkedspells": "",
+              "name": "Ghost Sound",
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "Will disbelief",
+              "school": "illusion (figment)",
+              "shortdescription": "Figment sounds.",
+              "sr": "no"
+            },
+            "id-00007": {
+              "actions": {
+                "id-00001": {
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 0,
+              "description": "This spell generates wholesome, drinkable water, just like clean rain water. Water can be created in an area as small as will actually contain the liquid, or in an area three times as large-possibly creating a downpour or filling many small receptacles. This water disappears after 1 day if not consumed.\\n\\nNote : Conjuration spells can't create substances or objects within a creature. Water weighs about 8 pounds per gallon. One cubic foot of water contains roughly 8 gallons and weighs about 60 pounds.",
+              "duration": "instantaneous",
+              "effect": "Effect-up to 2 gallons of water/level",
+              "level": "Adept 0, Cleric 0, Druid 0, Hunter 0, Inquisitor 0, Occultist 0, Oracle 0, Paladin 1, Shaman 0, Warpriest 0",
+              "linkedspells": "",
+              "name": "Create Water",
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "none",
+              "school": "conjuration (creation) [water]",
+              "shortdescription": "Creates 2 gallons/level of pure water.",
+              "sr": "no",
+              "text": "<p>This spell generates wholesome, drinkable water, just like clean rain water. Water can be created in an area as small as will actually contain the liquid, or in an area three times as large-possibly creating a downpour or filling many small receptacles. This water disappears after 1 day if not consumed.</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>Note </i>: Conjuration spells can't create substances or objects within a creature. Water weighs about 8 pounds per gallon. One cubic foot of water contains roughly 8 gallons and weighs about 60 pounds.</p>"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 0,
+          "spells": {
+            "id-00002": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "heallist": {
+                    "id-00001": {
+                      "dice": "d8",
+                      "stat": "cl",
+                      "statmax": 5,
+                      "statmult": 1
+                    }
+                  },
+                  "order": 2,
+                  "type": "heal"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage.",
+              "duration": "instantaneous",
+              "effect": "Target-creature touched",
+              "level": "Adept 1, Alchemist 1, Bard 1, Cleric 1, Druid 1, Hunter 1, Inquisitor 1, Investigator 1, Occultist 1, Oracle 1, Paladin 1, Ranger 2, Shaman 1, Skald 1, Spiritualist 1, Warpriest 1, Witch 1",
+              "linkedspells": "",
+              "name": "Cure Light Wounds",
+              "range": "touch",
+              "save": "Will half (harmless)",
+              "school": "conjuration (healing)",
+              "shortdescription": "Cures 1d8 damage + 1/level (max +5).",
+              "sr": "yes (harmless); see text",
+              "text": "<p>When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage.</p>"
+            },
+            "id-00003": {
+              "actions": {
+                "id-00001": {
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "durmod": 1,
+                  "label": "Stunned",
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M/DF (earth from a grave)",
+              "cost": 1,
+              "description": "You can detect the aura that surrounds undead creatures. The amount of information revealed depends on how long you study a particular area.\\n\\n1st Round : Presence or absence of undead auras.\\n\\n2nd Round : Number of undead auras in the area and the strength of the strongest undead aura present. If you are of good alignment, and the strongest undead aura's strength is overwhelming (see below), and the creature has HD of at least twice your character level, you are stunned for 1 round and the spell ends.\\n\\n3rd Round : The strength and location of each undead aura. If an aura is outside your line of sight, then you discern its direction but not its exact location.\\n\\nAura Strength : The strength of an undead aura is determined by the HD of the undead creature, as given on the table below.\\n\\nLingering Aura : An undead aura lingers after its original source is destroyed. If detect undead is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power, as given on the table below.\\n\\n\\n\\n[HD] [Strength] [Lingering Aura Duration]\\n[1 or lower] [Faint] [1d6 rounds]\\n[2-4] [Moderate] [1d6 minutes]\\n[5-10] [Strong] [1d6 x 10 minutes]\\n[11 or higher] [Overwhelming] [1d6 days]\\n\\nEach round, you can turn to detect undead in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.",
+              "duration": "concentration, up to 1 min./level",
+              "effect": "Area-cone-shaped emanation",
+              "level": "Alchemist 1, Arcanist 1, Cleric 1, Inquisitor 1, Investigator 1, Medium 1, Mesmerist 1, Oracle 1, Paladin 1, Psychic 1, Shaman 1, Sorcerer 1, Spiritualist 1, Warpriest 1, Wizard 1",
+              "linkedspells": "",
+              "name": "Detect Undead",
+              "range": "60 ft.",
+              "save": "none",
+              "school": "divination",
+              "shortdescription": "Reveals undead within 60 ft.",
+              "sr": "no",
+              "text": "<p>You can detect the aura that surrounds undead creatures. The amount of information revealed depends on how long you study a particular area.</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>1st Round </i>: Presence or absence of undead auras.</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>2nd Round </i>: Number of undead auras in the area and the strength of the strongest undead aura present. If you are of good alignment, and the strongest undead aura's strength is overwhelming (see below), and the creature has HD of at least twice your character level, you are stunned for 1 round and the spell ends.</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>3rd Round </i>: The strength and location of each undead aura. If an aura is outside your line of sight, then you discern its direction but not its exact location.</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>Aura Strength </i>: The strength of an undead aura is determined by the HD of the undead creature, as given on the table below.</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>Lingering Aura </i>: An undead aura lingers after its original source is destroyed. If detect undead is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power, as given on the table below.</p>\n\t\t\t\t\t\t\t\t\t\t<p />\n\t\t\t\t\t\t\t\t\t\t<table>\n\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<b>HD</b>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<b>Strength</b>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<b>Lingering Aura Duration</b>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>1 or lower</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>Faint</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>1d6 rounds</td>\n\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>2-4</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>Moderate</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>1d6 minutes</td>\n\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>5-10</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>Strong</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>1d6 x 10 minutes</td>\n\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>11 or higher</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>Overwhelming</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td>1d6 days</td>\n\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t\t\t<p>Each round, you can turn to detect undead in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.</p>"
+            },
+            "id-00004": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "dmaxstat": 0,
+                  "durdicestatmax": 0,
+                  "durmod": 0,
+                  "durmult": 1,
+                  "durstat": "cl",
+                  "durunit": "minute",
+                  "label": "Shield of Faith; AC: 2 deflection",
+                  "order": 2,
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M (parchment with a holy text written on it)",
+              "cost": 1,
+              "description": "This spell creates a shimmering, magical field around the target that averts and deflects attacks. The spell grants the subject a +2 deflection bonus to AC, with an additional +1 to the bonus for every six levels you have (maximum +5 deflection bonus at 18th level).",
+              "duration": "1 min./level",
+              "effect": "Target-creature touched",
+              "level": "Cleric 1, Inquisitor 1, Oracle 1, Warpriest 1",
+              "linkedspells": "",
+              "name": "Shield of Faith",
+              "range": "touch",
+              "save": "Will negates (harmless)",
+              "school": "abjuration",
+              "shortdescription": "Aura grants +2 or higher deflection bonus.",
+              "sr": "yes (harmless)"
+            },
+            "id-00005": {
+              "actions": {
+                "id-00001": {
+                  "savetype": "will",
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V",
+              "cost": 1,
+              "description": "You give the subject a single command, which it obeys to the best of its ability at its earliest opportunity. You may select from the following options\\n\\nApproach: On its turn, the subject moves toward you as quickly and directly as possible for 1 round. The creature may do nothing but move during its turn, and it provokes attacks of opportunity for this movement as normal\\n\\nDrop: On its turn, the subject drops whatever it is holding. It can't pick up any dropped item until its next turn\\n\\nFall: On its turn, the subject falls to the ground and remains prone for 1 round. It may act normally while prone but takes any appropriate penalties\\n\\nFlee: On its turn, the subject moves away from you as quickly as possible for 1 round. It may do nothing but move during its turn, and it provokes attacks of opportunity for this movement as normal\\n\\nHalt: The subject stands in place for 1 round. It may not take any actions but is not considered helpless\\n\\nIf the subject can't carry out your command on its next turn, the spell automatically fails.",
+              "duration": "1 round",
+              "effect": "Target-one living creature",
+              "level": "Adept 1, Antipaladin 1, Cleric 1, Inquisitor 1, Medium 1, Mesmerist 1, Occultist 1, Oracle 1, Psychic 1, Warpriest 1, Witch 1",
+              "linkedspells": "",
+              "name": "Command",
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "Will negates",
+              "school": "enchantment (compulsion) [language-dependent, mind-affecting]",
+              "shortdescription": "One subject obeys selected command for 1 round.",
+              "sr": "yes"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "points": 0,
+      "pointsused": 0,
+      "powersource": "divine",
+      "sp": 0
+    },
+    "id-00002": {
+      "availablelevel0": 0,
+      "availablelevel1": 4,
+      "availablelevel2": 0,
+      "availablelevel3": 0,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "castertype": "spontaneous",
+      "cc": {
+        "misc": 0
+      },
+      "cl": 0,
+      "dc": {
+        "ability": "charisma",
+        "abilitymod": 3,
+        "misc": 0,
+        "total": 13
+      },
+      "label": "Mystery Powers",
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 0,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "heallist": {
+                    "id-00001": {
+                      "bonus": 0,
+                      "dice": "d6",
+                      "dicestatmax": 0,
+                      "stat": "oddcl",
+                      "statmax": 0,
+                      "statmult": 1
+                    }
+                  },
+                  "order": 1,
+                  "type": "heal"
+                }
+              },
+              "cast": 0,
+              "cost": 1,
+              "name": "Channel",
+              "shortdescription": "Emit a burst of healing energy centered on you, extending 30 feet in all directions"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "points": 0,
+      "pointsused": 0,
+      "sp": 0
+    },
+    "id-00003": {
+      "availablelevel0": 0,
+      "availablelevel1": 1,
+      "availablelevel2": 0,
+      "availablelevel3": 0,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "castertype": "points",
+      "cc": {
+        "misc": 0
+      },
+      "cl": 1,
+      "dc": {
+        "abilitymod": 0,
+        "misc": 0,
+        "total": 10
+      },
+      "label": "Potion of Cure Light Wounds",
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 0,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "savedcmod": 11,
+                  "savedctype": "fixed",
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "heallist": {
+                    "id-00001": {
+                      "dice": "d8",
+                      "stat": "cl",
+                      "statmax": 5,
+                      "statmult": 1
+                    }
+                  },
+                  "healtargeting": "self",
+                  "type": "heal"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage.",
+              "duration": "instantaneous",
+              "effect": "Target-creature touched",
+              "level": "Adept 1, Alchemist 1, Bard 1, Cleric 1, Druid 1, Hunter 1, Inquisitor 1, Investigator 1, Occultist 1, Oracle 1, Paladin 1, Ranger 2, Shaman 1, Skald 1, Spiritualist 1, Warpriest 1, Witch 1",
+              "linkedspells": "",
+              "name": "Cure Light Wounds",
+              "range": "touch",
+              "save": "Will half (harmless)",
+              "school": "conjuration (healing)",
+              "shortdescription": "Cures 1d8 damage + 1/level (max +5).",
+              "sr": "yes (harmless); see text"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "mc_item": "charsheet.id-00008.inventorylist.id-00020",
+      "points": 1,
+      "pointsused": 0,
+      "sp": 0
+    }
+  },
+  "temp": "",
+  "token": "portrait_id-00008_token",
+  "traitlist": {
+    "id-00001": {
+      "locked": 1,
+      "name": "Senses",
+      "source": "Tengu",
+      "text": "<p>Tengus have low-light vision.</p>"
+    },
+    "id-00002": {
+      "locked": 1,
+      "name": "Swordtrained",
+      "source": "Tengu",
+      "text": "<p>Tengus are trained from birth in swordplay, and as a result are automatically proficient with sword-like weapons (including bastard swords, daggers, elven curve blades, falchions, greatswords, kukris, longswords, punching daggers, rapiers, scimitars, short swords, and two-bladed swords).</p>"
+    },
+    "id-00003": {
+      "locked": 1,
+      "name": "Gifted Linguist",
+      "source": "Tengu",
+      "text": "<p>Tengus gain a +4 racial bonus on Linguistics checks, and learn 2 languages each time they gain a rank in Linguistics rather than 1 language.</p>"
+    },
+    "id-00004": {
+      "locked": 1,
+      "name": "Sneaky",
+      "source": "Tengu",
+      "text": "<p>Tengus gain a +2 racial bonus on Perception and Stealth.</p>"
+    },
+    "id-00005": {
+      "locked": 1,
+      "name": "Natural Weapon",
+      "source": "Tengu",
+      "text": "<p>Tengus possess a bite natural attack that inflicts 1d3 points of damage on a hit. This is a primary attack, or a secondary attack if the tengu wields a manufactured weapon.</p>"
+    }
+  },
+  "weaponlist": {
+    "id-00001": {
+      "ammo": 0,
+      "ammopicker": "Bolts, crossbow",
+      "ammunitionmanager": {
+        "ammopickershortcut": {
+          "class": "item",
+          "recordname": ".....inventorylist.id-00006"
+        },
+        "hitrecoverypercentage": 50,
+        "hitshots": 0,
+        "isloaded": 1,
+        "missammopickershortcut": {
+          "class": "item",
+          "recordname": null
+        },
+        "missedshots": 0,
+        "missrecoverypercentage": 50
+      },
+      "attack1modifier": 0,
+      "attack2modifier": 0,
+      "attack3modifier": 0,
+      "attack4modifier": 0,
+      "attacks": 1,
+      "attackview1": 2,
+      "attackview2": -3,
+      "attackview3": -8,
+      "attackview4": -13,
+      "bonus": 0,
+      "carried": 2,
+      "critatkrange": 19,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d8",
+          "statmax": 0,
+          "statmult": 1,
+          "type": "piercing"
+        },
+        "id-00002": {
+          "bonus": 2,
+          "critmult": 1,
+          "statmult": 1
+        }
+      },
+      "isidentified": 1,
+      "maxammo": 13,
+      "missammopicker": "Return to Original Item",
+      "name": "Crossbow, light",
+      "rangeincrement": 80,
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00001"
+      },
+      "type": 1
+    },
+    "id-00002": {
+      "attacks": 1,
+      "attackview1": -2,
+      "attackview2": -7,
+      "attackview3": -12,
+      "attackview4": -17,
+      "bonus": 0,
+      "carried": 0,
+      "critatkrange": 19,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d4",
+          "stat": "strength",
+          "type": "piercing,slashing"
+        }
+      },
+      "isidentified": 1,
+      "name": "Cold iron dagger",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00011"
+      },
+      "type": 0
+    },
+    "id-00003": {
+      "ammo": 0,
+      "ammunitionmanager": {
+        "isloaded": 0
+      },
+      "attacks": 1,
+      "attackview1": 2,
+      "attackview2": -3,
+      "attackview3": -8,
+      "attackview4": -13,
+      "bonus": 0,
+      "carried": 0,
+      "critatkrange": 19,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d4",
+          "stat": "strength",
+          "type": "piercing,slashing"
+        }
+      },
+      "isidentified": 1,
+      "maxammo": 0,
+      "name": "Cold iron dagger",
+      "rangeincrement": 10,
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00011"
+      },
+      "type": 1
+    }
+  },
+  "weight": "80"
+}

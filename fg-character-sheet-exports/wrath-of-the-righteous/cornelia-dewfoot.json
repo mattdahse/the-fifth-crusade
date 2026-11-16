@@ -1,0 +1,2367 @@
+{
+  "campaign": "Wrath of the Righteous - AZ",
+  "record": "charsheet.id-00010",
+  "abilities": {
+    "charisma": {
+      "base": 14,
+      "bonus": 2,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 14
+    },
+    "constitution": {
+      "base": 14,
+      "bonus": 2,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 14
+    },
+    "dexterity": {
+      "abilperms": "",
+      "base": 17,
+      "bonus": 3,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 17
+    },
+    "intelligence": {
+      "base": 14,
+      "bonus": 2,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 14
+    },
+    "strength": {
+      "base": 10,
+      "bonus": 0,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 10
+    },
+    "wisdom": {
+      "base": 18,
+      "bonus": 4,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 18
+    }
+  },
+  "ac": {
+    "sources": {
+      "ability": "dexterity",
+      "abilitymod": 3,
+      "abilitymod2": 0,
+      "armor": 6,
+      "cmdability": "strength",
+      "cmdabilitymod": 0,
+      "cmdbasemod": 6,
+      "cmdmisc": 0,
+      "deflection": 1,
+      "dodge": 1,
+      "ffmisc": 0,
+      "misc": 0,
+      "naturalarmor": 2,
+      "shield": 2,
+      "size": 1,
+      "temporary": 0,
+      "touchmisc": 0
+    },
+    "totals": {
+      "cmd": 20,
+      "flatfooted": 22,
+      "general": 26,
+      "touch": 16
+    }
+  },
+  "age": "33",
+  "alignment": "NG",
+  "appearance": "She is a blonde haired halfling. She loves the natural world and the bleakness of the world wound angers her. She is here to help heal it.\\n\\nmedium sized air elemental\\n90'darkvision\\nwhirlwind DC:14\\nelemental traits",
+  "attackbonus": {
+    "base": 6,
+    "grapple": {
+      "ability": "strength",
+      "abilitymod": 0,
+      "misc": 0,
+      "size": -1,
+      "temporary": 0,
+      "total": 5
+    },
+    "melee": {
+      "ability": "strength",
+      "abilitymod": 0,
+      "misc": 0,
+      "size": 1,
+      "temporary": 0,
+      "total": 7
+    },
+    "ranged": {
+      "ability": "dexterity",
+      "abilitymod": 3,
+      "misc": 0,
+      "size": 1,
+      "temporary": 0,
+      "total": 10
+    }
+  },
+  "classes": {
+    "id-00001": {
+      "favored": 1,
+      "level": 9,
+      "name": "Druid",
+      "shortcut": {
+        "class": "referenceclass",
+        "recordname": "reference.classes.druid@PFRPG Basic Rules"
+      },
+      "skillranks": 62,
+      "skillranksused": 62
+    }
+  },
+  "coins": {
+    "id-00001": {
+      "amount": 0,
+      "name": "PP"
+    },
+    "id-00002": {
+      "amount": 104,
+      "name": "GP"
+    },
+    "id-00003": {
+      "amount": 0,
+      "name": "SP"
+    },
+    "id-00004": {
+      "amount": 0,
+      "name": "CP"
+    }
+  },
+  "defenses": {
+    "sr": {
+      "base": 0,
+      "misc": 0,
+      "temporary": 0,
+      "total": 0
+    }
+  },
+  "deity": "Desna",
+  "encumbrance": {
+    "armorcheckpenalty": -2,
+    "armormaxstatbonus": 4,
+    "armormaxstatbonusactive": 1,
+    "checkpenalty": -3,
+    "heavyload": 75,
+    "level": 1,
+    "liftoffground": 150,
+    "liftoverhead": 75,
+    "lightload": 24.75,
+    "load": 30,
+    "maxstatbonus": 3,
+    "mediumload": 49.5,
+    "pushordrag": 375,
+    "spellfailure": 25,
+    "state": "Medium Load"
+  },
+  "exp": 6943,
+  "expneeded": 0,
+  "featlist": {
+    "id-00001": {
+      "benefit": "<p>You get a +4 bonus on concentration checks made to cast a spell or use a spell-like ability when casting on the defensive or while grappled.</p>",
+      "flavor": "You are adept at spellcasting when threatened or distracted.",
+      "mult": 0,
+      "name": "Combat Casting",
+      "stack": 0,
+      "summary": "+4 bonus on concentration checks for casting defensively",
+      "type": "General"
+    },
+    "id-00002": {
+      "benefit": "<p>You gain a +1 dodge bonus to your AC. A condition that makes you lose your Dex bonus to AC also makes you lose the benefits of this feat.</p>",
+      "flavor": "Your training and reflexes allow you to react swiftly to avoid an opponents' attacks.",
+      "mult": 0,
+      "name": "Dodge",
+      "prerequisites": "Dex 13",
+      "stack": 0,
+      "summary": "+1 dodge bonus to AC",
+      "type": "Combat"
+    },
+    "id-00003": {
+      "benefit": "<p>You can complete the verbal and somatic components of spells while using wild shape. You substitute various noises and gestures for the normal verbal and somatic components of a spell.</p>\n\t\t\t\t\t\t<p>You can also use any material components or focuses you possess, even if such items are melded within your current form. This feat does not permit the use of magic items while you are in a form that could not ordinarily use them, and you do not gain the ability to speak while using wild shape.</p>",
+      "flavor": "You can cast spells even while in a form that cannot normally cast spells.",
+      "mult": 0,
+      "name": "Natural Spell",
+      "prerequisites": "Wis 13, wild shape class feature",
+      "stack": 0,
+      "summary": "Cast spells while using wildshape",
+      "type": "General"
+    },
+    "id-00004": {
+      "benefit": "<p>You get a +2 bonus on caster level checks (1d20 + caster level) made to overcome a creature's spell resistance</p>",
+      "flavor": "Your spells break through spell resistance more easily than most.",
+      "mult": 0,
+      "name": "Spell Penetration",
+      "stack": 0,
+      "summary": "+2 bonus on level checks to beat spell resistance",
+      "type": "General"
+    },
+    "id-00005": {
+      "benefit": "<p>You get a +2 bonus on caster level checks (1d20 + caster level) made to overcome a creature's spell resistance. This bonus stacks with the one from Spell Penetration.</p>",
+      "flavor": "Your spells break through spell resistance much more easily than most.",
+      "mult": 0,
+      "name": "Greater Spell Penetration",
+      "prerequisites": "Spell Penetration",
+      "stack": 0,
+      "summary": "+2 bonus on level checks to beat spell resistance",
+      "type": "General"
+    }
+  },
+  "gender": "female",
+  "height": "3'2\"",
+  "heropoint": 0,
+  "hp": {
+    "nonlethal": 0,
+    "temporary": 0,
+    "total": 67,
+    "wounds": 0
+  },
+  "initiative": {
+    "abilitymod": 3,
+    "misc": 0,
+    "temporary": 0,
+    "total": 3
+  },
+  "inventorylist": {
+    "id-00001": {
+      "ac": 0,
+      "bonus": 0,
+      "carried": 2,
+      "checkpenalty": 0,
+      "cl": 0,
+      "cost": "4 gp",
+      "count": 2,
+      "critical": "19-20/x2",
+      "damage": "1d4",
+      "damagetype": "Piercing or slashing",
+      "description": "<p>A dagger has a blade that is about 1 foot in length. You get a +2 bonus on Sleight of Hand skill checks made to conceal a dagger on your body</p>",
+      "isidentified": 1,
+      "location": "belt",
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Cold Iron Dagger",
+      "properties": "cold iron",
+      "range": 10,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "subtype": "Simple Light Melee",
+      "type": "Weapon",
+      "weight": 0.5
+    },
+    "id-00002": {
+      "ac": 0,
+      "aura": "Moderate transmutation",
+      "bonus": 1,
+      "carried": 2,
+      "checkpenalty": 0,
+      "cl": 7,
+      "cost": "8,324 gp",
+      "count": 1,
+      "critical": "19-20/x2",
+      "damage": "1d4",
+      "damagetype": "Piercing or slashing",
+      "description": "<p>A dagger has a blade that is about 1 foot in length. You get a +2 bonus on Sleight of Hand skill checks made to conceal a dagger on your body</p>",
+      "isidentified": 1,
+      "location": "belt",
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "+1 Returning Dagger",
+      "nonid_name": "Magical Dagger",
+      "properties": "magic, returning",
+      "range": 10,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "subtype": "Simple Light Melee",
+      "type": "Weapon",
+      "weight": 0.5
+    },
+    "id-00003": {
+      "ac": 4,
+      "aura": "Faint abjuration",
+      "bonus": 2,
+      "carried": 2,
+      "checkpenalty": -2,
+      "cl": 5,
+      "cost": "4,165 gp",
+      "count": 1,
+      "description": "<p>Hide armor is made up of the tanned and preserved skin of any thick-hided beast.</p>",
+      "isidentified": 1,
+      "location": "worn",
+      "locked": 1,
+      "maxstatbonus": 4,
+      "name": "+2 Hide",
+      "nonid_name": "Magical Hide",
+      "properties": "magic",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 15,
+      "speed30": 20,
+      "spellfailure": 20,
+      "subtype": "Medium",
+      "type": "Armor",
+      "weight": 12.5
+    },
+    "id-00004": {
+      "ac": 1,
+      "aura": "Faint abjuration",
+      "bonus": 1,
+      "carried": 2,
+      "checkpenalty": 0,
+      "cl": 5,
+      "cost": "1,153 gp",
+      "count": 1,
+      "description": "<p>You strap a shield to your forearm and grip it with your hand. A light shield's weight lets you carry other items in that hand, although you cannot use weapons with it.</p>\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t<i>Wooden or Steel </i>Wooden and steel shields offer the same basic protection, though they respond differently to some spells and effects.</p>\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t<i>Shield Bash Attacks </i>You can bash an opponent with a light shield, using it as an off-hand weapon. See \"shield, light\" in Weapons section for the damage dealt by a shield bash. Used this way, a light shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a light shield as a light weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.</p>",
+      "isidentified": 1,
+      "location": "back",
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "+1 Light Wooden Shield",
+      "nonid_name": "Magical Light wooden shield",
+      "properties": "magic",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 5,
+      "subtype": "Shield",
+      "type": "Armor",
+      "weight": 2.5
+    },
+    "id-00005": {
+      "ac": 0,
+      "aura": "Faint conjuration",
+      "bonus": 0,
+      "carried": 1,
+      "checkpenalty": 0,
+      "cl": 3,
+      "cost": "300 gp",
+      "count": 4,
+      "description": "<p>A potion is a magic liquid that produces its effect when imbibed. A potion can be used only once.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Potion of Cure Moderate Wounds",
+      "nonid_name": "Magical Potion",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "type": "Potion",
+      "weight": 0
+    },
+    "id-00006": {
+      "carried": 1,
+      "contentscount": 0,
+      "contentsvolume": 0,
+      "cost": "2 gp",
+      "count": 1,
+      "extraplanarcontents": 1,
+      "location": "back",
+      "locked": 1,
+      "name": "Backpack",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 1
+    },
+    "id-00007": {
+      "ac": 0,
+      "aura": "Faint evocation",
+      "bonus": 1,
+      "carried": 2,
+      "checkpenalty": 0,
+      "cl": 5,
+      "cost": "2,318 gp",
+      "count": 1,
+      "critical": "x4",
+      "damage": "1d6",
+      "damagetype": "Piercing or slashing",
+      "description": "<p>A scythe can be used to make trip attacks. If you are tripped during your own trip attempt, you can drop the scythe to avoid being tripped.</p>",
+      "isidentified": 1,
+      "location": "held",
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "+1 Scythe",
+      "nonid_name": "Magical Scythe",
+      "properties": "magic",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "subtype": "Martial Two-Handed Melee",
+      "type": "Weapon",
+      "weight": 5
+    },
+    "id-00008": {
+      "carried": 1,
+      "cost": "1 cp",
+      "count": 2,
+      "description": "<p>A candle dimly illuminates a small area, increasing the light level (see page 172) in a 5-foot radius by one step (darkness becomes dim light and dim light becomes normal light). A candle cannot increase the light level above normal light. A candle burns for 1 hour.</p>",
+      "location": "pouch, belt (empty)",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00010.inventorylist.id-00010"
+      },
+      "locked": 1,
+      "name": "Candle",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 0
+    },
+    "id-00009": {
+      "aura": "Moderate transmutation",
+      "carried": 2,
+      "cl": 9,
+      "cost": "8,600 gp",
+      "count": 1,
+      "description": "<p>The <i>ring of the ram </i>is an ornate ring forged of hard metal, usually iron or an iron alloy. It has the head of a ram as its device.</p>\n\t\t\t\t\t\t<p>The wearer can command the ring to give forth a ram-like force, manifested by a vaguely discernible shape that resembles the head of a ram or a goat. This force strikes a single target, dealing 1d6 points of damage if 1 charge is expended, 2d6 points if 2 charges are used, or 3d6 points if 3 charges (the maximum) are used. Treat this as a ranged attack with a 50-foot maximum range and no penalties for distance.</p>\n\t\t\t\t\t\t<p>The force of the blow is considerable, and those struck by the ring are subject to a bull rush if within 30 feet of the ring-wearer. The ram is Large and uses the ring's caster level as its base attack bonus with a Strength of 25. This gives the ram a Combat Maneuver Bonus of +17. The ram gains a +1 bonus on the bull rush attempt if 2 charges are expended, or +2 if 3 charges are expended.</p>\n\t\t\t\t\t\t<p>In addition to its attack mode, the ring of the ram also has the power to open doors as if it were a character with Strength 25. This expends 1 charge. If 2 charges are expended, the effect is equivalent to a character with Strength 27. If 3 charges are expended, the effect is that of a character with Strength 29.</p>\n\t\t\t\t\t\t<p>A newly created ring has 50 charges. When all the charges are expended, the ring becomes a nonmagical item.</p>",
+      "location": "right hand",
+      "locked": 1,
+      "name": "Ring of the Ram (43 charges)",
+      "prerequisites": "Forge Ring, bull's strength, telekinesis",
+      "showonminisheet": 1,
+      "type": "Ring",
+      "weight": 0
+    },
+    "id-00010": {
+      "carried": 1,
+      "contentscount": 0,
+      "contentsvolume": 0,
+      "cost": "1 gp",
+      "count": 1,
+      "extraplanarcontents": 0,
+      "location": "belt",
+      "locked": 1,
+      "name": "Pouch, belt (empty)",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 0.5
+    },
+    "id-00011": {
+      "carried": 1,
+      "cost": "50 gp",
+      "count": 1,
+      "description": "<p>It is the perfect tool for healing and provides a +2 circumstance bonus on Heal checks. A healer''s kit is exhausted after 10 uses.</p>",
+      "location": "backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00010.inventorylist.id-00006"
+      },
+      "locked": 1,
+      "name": "Healer's Kit",
+      "showonminisheet": 1,
+      "subtype": "Tools and Skill Kits",
+      "type": "Goods and Services",
+      "weight": 1
+    },
+    "id-00012": {
+      "carried": 1,
+      "cost": "1 gp",
+      "count": 1,
+      "description": "<p>This set of clothes consists of boots, a wool skirt or breeches, a sturdy belt, a shirt (perhaps with a vest or jacket), and an ample cloak with a hood.</p>",
+      "location": "worn",
+      "locked": 1,
+      "name": "Traveler's outfit",
+      "showonminisheet": 1,
+      "subtype": "Clothing",
+      "type": "Goods and Services",
+      "weight": 0
+    },
+    "id-00013": {
+      "carried": 1,
+      "count": 1,
+      "location": "worn",
+      "name": "belt",
+      "showonminisheet": 1,
+      "weight": 0
+    },
+    "id-00014": {
+      "aura": "Faint conjuration",
+      "carried": 1,
+      "cl": 5,
+      "cost": "750 gp",
+      "count": 1,
+      "description": "<p>A potion is a magic liquid that produces its effect when imbibed. A potion can be used only once.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Potion of Cure Serious Wounds",
+      "nonid_name": "Magical Potion",
+      "showonminisheet": 1,
+      "type": "Potion",
+      "weight": 0
+    },
+    "id-00015": {
+      "ac": 0,
+      "aura": "Moderate enchantment",
+      "bonus": 0,
+      "carried": 1,
+      "checkpenalty": 0,
+      "cl": 7,
+      "cost": "4,900 gp",
+      "count": 1,
+      "description": "<p>This small rectangular block of sweet-smelling incense is visually indistinguishable from nonmagical incense until lit. When it is burned, the special fragrance and pearly hued smoke of this special incense are recognizable by anyone making a DC 15 Spellcraft check.</p>\n\t\t\t\t\t\t<p>When a divine spellcaster lights a block of incense of meditation and then spends 8 hours praying and meditating nearby, the incense enables him to prepare all his spells as though affected by the Maximize Spell feat. However, all the spells prepared in this way are at their normal level, not at three levels higher (as with the regular metamagic feat).</p>\n\t\t\t\t\t\t<p>Each block of incense burns for 8 hours, and the effects persist for 24 hours.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Incense of Meditation",
+      "nonid_name": "Magical Incense",
+      "prerequisites": "Craft Wondrous Item, Maximize Spell, bless",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "type": "Wondrous Item",
+      "weight": 1
+    },
+    "id-00016": {
+      "carried": 1,
+      "cost": "1 gp",
+      "count": 1,
+      "locked": 1,
+      "name": "Waterskin*",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 4
+    },
+    "id-00017": {
+      "aura": "faint enchantment",
+      "carried": 1,
+      "cl": 3,
+      "cost": "300 gp",
+      "count": 1,
+      "description": "<p>A potion is a magic liquid that produces its effect when imbibed. Potions vary incredibly in appearance. Magic oils are similar to potions, except that oils are applied externally rather than imbibed. A potion or oil can be used only once. It can duplicate the effect of a spell of up to 3rd level that has a casting time of less than 1 minute and targets one or more creatures or objects. The price of a potion is equal to the level of the spell x the creator's caster level x 50 gp. If the potion has a material component cost, it is added to the base price and cost to create. Table: Potions gives sample prices for potions created at the lowest possible caster level for each spellcasting class. Note that some spells appear at different levels for different casters. The level of such spells depends on the caster brewing the potion.</p>\n\t\t\t\t\t\t<p>Potions are like spells cast upon the imbiber. The character taking the potion doesn't get to make any decisions about the effect-the caster who brewed the potion has already done so. The drinker of a potion is both the effective target and the caster of the effect (though the potion indicates the caster level, the drinker still controls the effect).</p>\n\t\t\t\t\t\t<p>The person applying an oil is the effective caster, but the object is the target.</p>",
+      "excludedFromPurchase": 0,
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Potion of Aid",
+      "pfslegal": "True",
+      "prerequisites": "Craft Potion",
+      "showonminisheet": 1,
+      "slot": "none",
+      "subtype": "Magic Potion/Oil",
+      "type": "Magic Potion/Oil",
+      "weight": 0
+    },
+    "id-00018": {
+      "ac": 0,
+      "aura": "Faint conjuration",
+      "bonus": 0,
+      "carried": 2,
+      "charge": 50,
+      "charges": 48,
+      "checkpenalty": 0,
+      "cl": 1,
+      "cost": "465 gp",
+      "count": 1,
+      "description": "<p>A wand is a thin baton that contains a single spell. Each wand has 50 charges when created, and each charge expended allows the user to use the wand's spell one time. A wand that runs out of charges is just a stick.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxcharges": 50,
+      "maxstatbonus": 0,
+      "mc_charges_set": 1,
+      "name": "Wand of Cure Light Wounds (48 charges)",
+      "nonid_name": "Magic Wand",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "type": "Wand",
+      "weight": 0
+    },
+    "id-00019": {
+      "ac": 0,
+      "aura": "Faint abjuration",
+      "bonus": 0,
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 2,
+      "checkpenalty": 0,
+      "cl": 5,
+      "contentsvolume": 0,
+      "cost": "1,000 gp",
+      "cost_visibility": 0,
+      "count": 1,
+      "depth": 0,
+      "description": "<p>These garments offer magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Cloak of Resistance +1",
+      "nonid_name": "Magical Cloak",
+      "prerequisites": "Craft Wondrous Item, resistance, creator's caster level must be at least three times the cloak's bonus",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "type": "Wondrous Item",
+      "volume": 0,
+      "weight": 1,
+      "width": 0
+    },
+    "id-00020": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 2,
+      "cl": 0,
+      "contentscount": 0,
+      "contentsvolume": 0,
+      "cost": "8,000 gp",
+      "cost_visibility": 0,
+      "count": 1,
+      "depth": 0,
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 1,
+      "name": "Amulet of Natural Armor +2",
+      "nonid_name": "Magical Amulet",
+      "showonminisheet": 1,
+      "subtype": "Wondrous Item",
+      "type": "Wondrous Item",
+      "volume": 0,
+      "weight": 0,
+      "width": 0
+    },
+    "id-00021": {
+      "ac": 0,
+      "aura": "Faint abjuration",
+      "bonus": 0,
+      "carried": 2,
+      "checkpenalty": 0,
+      "cl": 5,
+      "cost": "2,000 gp",
+      "count": 1,
+      "description": "<p>This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.</p>",
+      "isidentified": 1,
+      "locked": 1,
+      "maxstatbonus": 0,
+      "name": "Ring of Protection +1",
+      "nonid_name": "Magical Ring",
+      "prerequisites": "Forge Ring, shield of faith, caster must be of a level at least three times greater than the bonus of the ring",
+      "range": 0,
+      "showonminisheet": 1,
+      "speed20": 0,
+      "speed30": 0,
+      "spellfailure": 0,
+      "type": "Ring",
+      "weight": 0
+    }
+  },
+  "languagelist": {
+    "id-00001": {
+      "name": "Common"
+    },
+    "id-00002": {
+      "name": "Halfling"
+    },
+    "id-00003": {
+      "name": "Dwarven"
+    },
+    "id-00004": {
+      "name": "Goblin"
+    }
+  },
+  "level": 9,
+  "locked": 1,
+  "mythic": {
+    "nexttier": {
+      "abilities": "+1",
+      "bonus": "-",
+      "feats": "+1"
+    },
+    "powerbase": 0,
+    "surgedie": "-",
+    "thistier": {
+      "abilities": "0",
+      "bonus": "-",
+      "feats": "0"
+    },
+    "trials": {
+      "needed": 0
+    }
+  },
+  "name": "Cornelia Dewfoot",
+  "notes": "She was raised in a small village on the edge of the world wound, near Kanabras. She spent her childhood exploring the outdoors around her, learning the ways of nature. She is drawn to the element of earth. The village grew grain for the surrounding towns so she grew up using a scythe and it is comfortable in her hand. She also witnessed the many raids from the demonic forces that plagued her people. many family and friends died. She swore that someday, she would join the crusades. After the disaster at Kanabras, she made her way there. She helped in the rebuilding, hearing many tales of the Heros. The sorcerer, Rabiah, intrigued her, so she set out to follow her. After aiding several refuges reach Drezen, she sought out Rabiah and swore to follow her.",
+  "portrait": "portraits/cornelia2.png",
+  "proficiencylist": {
+    "id-00001": {
+      "name": "Weapon: club, dagger, dart, quarterstaff, scimitar, scythe, sickle, shortspear, sling, spear"
+    },
+    "id-00002": {
+      "name": "Armor: light, medium, shields (except tower shields)"
+    },
+    "id-00003": {
+      "name": "Weapon: slings"
+    }
+  },
+  "race": "Halfling",
+  "racelink": {
+    "class": "referencerace",
+    "recordname": "reference.races.halflings@PFRPG Basic Rules"
+  },
+  "saves": {
+    "fortitude": {
+      "ability": "constitution",
+      "abilitymod": 2,
+      "base": 6,
+      "misc": 2,
+      "temporary": 0,
+      "total": 10
+    },
+    "reflex": {
+      "ability": "dexterity",
+      "abilitymod": 3,
+      "base": 3,
+      "misc": 2,
+      "temporary": 0,
+      "total": 8
+    },
+    "will": {
+      "ability": "wisdom",
+      "abilitymod": 4,
+      "base": 6,
+      "misc": 2,
+      "temporary": 0,
+      "total": 12
+    }
+  },
+  "size": "Small",
+  "skilllist": {
+    "id-00001": {
+      "armorcheckmultiplier": 1,
+      "label": "Climb",
+      "misc": 2,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 1,
+      "statname": "strength",
+      "total": 0
+    },
+    "id-00002": {
+      "armorcheckmultiplier": 0,
+      "label": "Craft",
+      "misc": 0,
+      "ranks": 5,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "leatherworking",
+      "total": 10
+    },
+    "id-00003": {
+      "armorcheckmultiplier": 1,
+      "label": "Fly",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "dexterity",
+      "total": 1
+    },
+    "id-00004": {
+      "armorcheckmultiplier": 0,
+      "label": "Handle Animal",
+      "misc": 0,
+      "ranks": 8,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 1,
+      "statname": "charisma",
+      "total": 13
+    },
+    "id-00005": {
+      "armorcheckmultiplier": 0,
+      "label": "Heal",
+      "misc": 0,
+      "ranks": 9,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "wisdom",
+      "total": 16
+    },
+    "id-00006": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 0,
+      "ranks": 4,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Geography",
+      "total": 9
+    },
+    "id-00007": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 0,
+      "ranks": 9,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Nature",
+      "total": 14
+    },
+    "id-00008": {
+      "armorcheckmultiplier": 0,
+      "label": "Perception",
+      "misc": 2,
+      "ranks": 9,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "wisdom",
+      "total": 18
+    },
+    "id-00009": {
+      "armorcheckmultiplier": 0,
+      "label": "Profession",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "wisdom",
+      "total": 4
+    },
+    "id-00010": {
+      "armorcheckmultiplier": 1,
+      "label": "Ride",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 1,
+      "statname": "dexterity",
+      "total": 1
+    },
+    "id-00011": {
+      "armorcheckmultiplier": 0,
+      "label": "Spellcraft",
+      "misc": 0,
+      "ranks": 9,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 1,
+      "statname": "intelligence",
+      "total": 14
+    },
+    "id-00012": {
+      "armorcheckmultiplier": 0,
+      "label": "Survival",
+      "misc": 2,
+      "ranks": 9,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "wisdom",
+      "total": 18
+    },
+    "id-00013": {
+      "armorcheckmultiplier": 1,
+      "label": "Swim",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 1,
+      "statname": "strength",
+      "total": -2
+    },
+    "id-00014": {
+      "armorcheckmultiplier": 1,
+      "label": "Stealth",
+      "misc": 6,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 7
+    },
+    "id-00015": {
+      "armorcheckmultiplier": 1,
+      "label": "Acrobatics",
+      "misc": 2,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 3
+    },
+    "id-00016": {
+      "armorcheckmultiplier": 0,
+      "label": "Intimidate",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "charisma",
+      "total": 2
+    },
+    "id-00017": {
+      "armorcheckmultiplier": 1,
+      "label": "Escape Artist",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 1
+    },
+    "id-00018": {
+      "armorcheckmultiplier": 0,
+      "label": "Diplomacy",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "charisma",
+      "total": 2
+    },
+    "id-00019": {
+      "armorcheckmultiplier": 1,
+      "label": "Disable Device",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 3,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 1
+    },
+    "id-00020": {
+      "armorcheckmultiplier": 0,
+      "label": "Use Magic Device",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 2,
+      "state": 0,
+      "statname": "charisma",
+      "total": 2
+    },
+    "id-00021": {
+      "armorcheckmultiplier": 1,
+      "label": "Sleight of Hand",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 3,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 1
+    },
+    "id-00022": {
+      "armorcheckmultiplier": 0,
+      "label": "Appraise",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "intelligence",
+      "total": 2
+    },
+    "id-00023": {
+      "armorcheckmultiplier": 0,
+      "label": "Linguistics",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 2,
+      "state": 0,
+      "statname": "intelligence",
+      "total": 2
+    },
+    "id-00024": {
+      "armorcheckmultiplier": 0,
+      "label": "Bluff",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "charisma",
+      "total": 2
+    },
+    "id-00025": {
+      "armorcheckmultiplier": 0,
+      "label": "Disguise",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 2,
+      "state": 0,
+      "statname": "charisma",
+      "total": 2
+    },
+    "id-00026": {
+      "armorcheckmultiplier": 0,
+      "label": "Sense Motive",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 0,
+      "statname": "wisdom",
+      "total": 4
+    }
+  },
+  "skillpoints": {
+    "spent": 62
+  },
+  "specialabilitylist": {
+    "id-00001": {
+      "level": 1,
+      "locked": 1,
+      "name": "Nature bond (cleric domain)",
+      "source": "Druid",
+      "text": "<p>At 1st level, a druid forms a bond with nature. This bond can take one of two forms:</p>\n\t\t\t\t\t\t<linklist>\n\t\t\t\t\t\t\t<link class=\"referenceclassability\" recordname=\"reference.specialabilities.spelldomain@PFRPG Basic Rules\">Cleric Domain</link>\n\t\t\t\t\t\t\t<link class=\"referenceclassability\" recordname=\"reference.specialabilities.animalcompanion@PFRPG Basic Rules\">Animal Companion</link>\n\t\t\t\t\t\t</linklist>"
+    },
+    "id-00002": {
+      "level": 1,
+      "locked": 1,
+      "name": "Nature sense",
+      "source": "Druid",
+      "text": "<p>A druid gains a +2 bonus on Knowledge (nature) and Survival checks.</p>"
+    },
+    "id-00003": {
+      "level": 1,
+      "locked": 1,
+      "name": "Orisons",
+      "source": "Druid",
+      "text": "<p>Druids can prepare a number of orisons, or 0-level spells, each day, as noted on Druid Table under \"Spells per Day.\" These spells are cast like any other spell, but they are not expended when cast and may be used again.</p>"
+    },
+    "id-00004": {
+      "level": 1,
+      "locked": 1,
+      "name": "Spells",
+      "source": "Druid",
+      "text": "<p>A druid casts divine spells which are drawn from the druid spell list presented in Spell Lists. Her alignment may restrict her from casting certain spells opposed to her moral or ethical beliefs; see Chaotic, Evil, Good, and Lawful Spells. A druid must choose and prepare her spells in advance.To prepare or cast a spell, the druid must have a Wisdom score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a druid's spell is 10 + the spell level + the druid's Wisdom modifier.Like other spellcasters, a druid can cast only a certain number of spells of each spell level per day. Her base daily spell allotment is given on Druid Table. In addition, she receives bonus spells per day if she has a high Wisdom score (see Ability Modifiers and Bonus Spells).A druid must spend 1 hour each day in a trance-like meditation on the mysteries of nature to regain her daily allotment of spells. A druid may prepare and cast any spell on the druid spell list, provided that she can cast spells of that level, but she must choose which spells to prepare during her daily meditation.</p>"
+    },
+    "id-00005": {
+      "level": 1,
+      "locked": 1,
+      "name": "Spontaneous Casting",
+      "source": "Druid",
+      "text": "<p>A druid can channel stored spell energy into summoning spells that she hasn't prepared ahead of time. She can \"lose\" a prepared spell in order to cast any <i>summon nature's ally </i>spell of the same level or lower.</p>"
+    },
+    "id-00006": {
+      "level": 1,
+      "locked": 1,
+      "name": "Wild empathy",
+      "source": "Druid",
+      "text": "<p>A druid can improve the attitude of an animal. This ability functions just like a Diplomacy check made to improve the attitude of a person (see Using Skills). The druid rolls 1d20 and adds her druid level and her Charisma modifier to determine the wild empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly.To use wild empathy, the druid and the animal must be within 30 feet of one another under normal conditions. Generally, influencing an animal in this way takes 1 minute but, as with influencing people, it might take more or less time.A druid can also use this ability to influence a magical beast with an Intelligence score of 1 or 2, but she takes a -4 penalty on the check.</p>"
+    },
+    "id-00007": {
+      "level": 2,
+      "locked": 1,
+      "name": "Woodland stride",
+      "source": "Druid",
+      "text": "<p>Starting at 2nd level, a druid may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at her normal speed and without taking damage or suffering any other impairment. Thorns, briars, and overgrown areas that have been magically manipulated to impede motion, however, still affect her.</p>"
+    },
+    "id-00008": {
+      "level": 3,
+      "locked": 1,
+      "name": "Trackless step",
+      "source": "Druid",
+      "text": "<p>Starting at 3rd level, a druid leaves no trail in natural surroundings and cannot be tracked. She may choose to leave a trail if so desired.</p>"
+    },
+    "id-00009": {
+      "level": 4,
+      "locked": 1,
+      "name": "Resist nature's lure",
+      "source": "Druid",
+      "text": "<p>Starting at 4th level, a druid gains a +4 bonus on saving throws against the spell-like and supernatural abilities of fey. This bonus also applies to spells and effects that utilize or target plants, such as <i>blight </i>, <i>entangle </i>, <i>spike growth </i>, and <i>warp wood </i>.</p>"
+    },
+    "id-00010": {
+      "level": 4,
+      "locked": 1,
+      "name": "Wild shape (3/day)",
+      "source": "Druid",
+      "text": "<p>At 4th level, a druid gains the ability to turn herself into any Small or Medium animal and back again once per day. Her options for new forms include all creatures with the animal type. This ability functions like the <i>beast shape I </i>spell, except as noted here. The effect lasts for 1 hour per druid level, or until she changes back. Changing form (to animal or back) is a standard action and doesn't provoke an attack of opportunity. The form chosen must be that of an animal with which the druid is familiar.A druid loses her ability to speak while in animal form because she is limited to the sounds that a normal, untrained animal can make, but she can communicate normally with other animals of the same general grouping as her new form. (The normal sound a wild parrot makes is a squawk, so changing to this form does not permit speech.)A druid can use this ability an additional time per day at 6th level and every two levels thereafter, for a total of eight times at 18th level. At 20th level, a druid can use wild shape at will. As a druid gains levels, this ability allows the druid to take on the form of larger and smaller animals, elementals, and plants. Each form expends one daily use of this ability, regardless of the form taken. At 6th level, a druid can also use wild shape to change into a Large or Tiny animal or a Small elemental. When taking the form of an animal, a druid's wild shape now functions as <i>beast shape II </i>. When taking the form of an elemental, the druid's wild shape functions as <i>elemental body I </i>.At 8th level, a druid can also use wild shape to change into a Huge or Diminutive animal, a Medium elemental, or a Small or Medium plant creature. When taking the form of animals, a druid's wild shape now functions as <i>beast shape III </i>. When taking the form of an elemental, the druid's wild shape now functions as <i>elemental body II </i>. When taking the form of a plant creature, the druid's wild shape functions as <i>plant shape I </i>.At 10th level, a druid can also use wild shape to change into a Large elemental or a Large plant creature. When taking the form of an elemental, the druid's wild shape now functions as <i>elemental body III </i>. When taking the form of a plant, the druid's wild shape now functions as <i>plant shape II </i>.At 12th level, a druid can also use wild shape to change into a Huge elemental or a Huge plant creature. When taking the form of an elemental, the druid's wild shape now functions as <i>elemental body IV </i>. When taking the form of a plant, the druid's wild shape now functions as <i>plant shape III </i>.</p>"
+    },
+    "id-00011": {
+      "locked": 1,
+      "name": "Earth",
+      "text": "<h>Earth Domain</h>\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t<b>Deities: </b>Abadar, Torag.</p>\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t<b>Granted Powers: </b>You have mastery over earth, metal, and stone, can fire darts of acid, and command earth creatures.</p>\n\t\t\t\t\t\t<linklist>\n\t\t\t\t\t\t\t<link class=\"referenceclassability\" recordname=\"reference.specialabilities.aciddart@PFRPG Basic Rules\">Acid Dart (Sp)</link>\n\t\t\t\t\t\t\t<link class=\"referenceclassability\" recordname=\"reference.specialabilities.acidresistance@PFRPG Basic Rules\">Acid Resistance (Ex)</link>\n\t\t\t\t\t\t</linklist>\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t<b>Domain Spells:</b>\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<linklist>\n\t\t\t\t\t\t\t<link class=\"spelldesc\" recordname=\"spelldesc.magicstone@PFRPG Spells\">1st - Magic Stone</link>\n\t\t\t\t\t\t\t<link class=\"spelldesc\" recordname=\"spelldesc.softenearthandstone@PFRPG Spells\">2nd - Soften Earth and Stone</link>\n\t\t\t\t\t\t\t<link class=\"spelldesc\" recordname=\"spelldesc.stoneshape@PFRPG Spells\">3rd - Stone Shape</link>\n\t\t\t\t\t\t\t<link class=\"spelldesc\" recordname=\"spelldesc.spikestones@PFRPG Spells\">4th - Spike Stones</link>\n\t\t\t\t\t\t\t<link class=\"spelldesc\" recordname=\"spelldesc.wallofstone@PFRPG Spells\">5th - Wall of Stone</link>\n\t\t\t\t\t\t\t<link class=\"spelldesc\" recordname=\"spelldesc.stoneskin@PFRPG Spells\">6th - Stoneskin</link>\n\t\t\t\t\t\t\t<link class=\"spelldesc\" recordname=\"spelldesc.elementalbodyiv@PFRPG Spells\">7th - Elemental Body IV (earth)</link>\n\t\t\t\t\t\t\t<link class=\"spelldesc\" recordname=\"spelldesc.earthquake@PFRPG Spells\">8th - Earthquake</link>\n\t\t\t\t\t\t\t<link class=\"spelldesc\" recordname=\"spelldesc.elementalswarm@PFRPG Spells\">9th - Elemental Swarm (earth)</link>\n\t\t\t\t\t\t</linklist>",
+      "type": "Cleric Domain"
+    },
+    "id-00012": {
+      "level": 9,
+      "locked": 1,
+      "name": "Venom immunity",
+      "source": "Druid",
+      "text": "<p>At 9th level, a druid gains immunity to all poisons.</p>"
+    }
+  },
+  "speed": {
+    "armor": -5,
+    "base": 20,
+    "fastmovement": 0,
+    "final": 15,
+    "misc": 0,
+    "special": "fly 60'",
+    "temporary": 0,
+    "total": 15
+  },
+  "spellmode": "combat",
+  "spellset": {
+    "id-00001": {
+      "availablelevel0": 4,
+      "availablelevel1": 6,
+      "availablelevel2": 6,
+      "availablelevel3": 5,
+      "availablelevel4": 4,
+      "availablelevel5": 2,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "cc": {
+        "misc": 4
+      },
+      "cl": 9,
+      "dc": {
+        "ability": "wisdom",
+        "abilitymod": 4,
+        "misc": 0,
+        "total": 14
+      },
+      "label": "Druid",
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 1,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 0,
+              "description": "This spell generates wholesome, drinkable water, just like clean rain water. Water can be created in an area as small as will actually contain the liquid, or in an area three times as large - possibly creating a downpour or filling many small receptacles. This water disappears after 1 day if not consumed.\\n\\nNote: Conjuration spells can't create substances or objects within a creature. Water weighs about 8 pounds per gallon. One cubic foot of water contains roughly 8 gallons and weighs about 60 pounds.",
+              "duration": "Instantaneous",
+              "effect": "Up to 2 gallons of water/level",
+              "level": "Clr 0, Drd 0, Pal 1",
+              "linkedspells": "",
+              "name": "Create Water",
+              "prepared": 1,
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "None",
+              "school": "Conjuration (Creation) [Water]",
+              "shortdescription": "Creates 2 gallons/level of pure water.",
+              "sr": "No"
+            },
+            "id-00002": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 0,
+              "description": "This spell imbues the subject with a touch of divine guidance. The creature gets a +1 competence bonus on a single attack roll, saving throw, or skill check. It must choose to use the bonus before making the roll to which it applies.",
+              "duration": "1 minute or until discharged",
+              "effect": "Creature touched",
+              "level": "Clr 0, Drd 0",
+              "linkedspells": "",
+              "name": "Guidance",
+              "prepared": 1,
+              "range": "Touch",
+              "save": "Will negates (harmless)",
+              "school": "Divination",
+              "shortdescription": "+1 on one attack roll, saving throw, or skill check.",
+              "sr": "Yes"
+            },
+            "id-00003": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 0,
+              "description": "This spell repairs damaged objects, restoring 1d4 hit points to the object. If the object has the broken condition, this condition is removed if the object is restored to at least half its original hit points. All of the pieces of an object must be present for this spell to function. Magic items can be repaired by this spell, but you must have a caster level equal to or higher than that of the object. Magic items that are destroyed (at 0 hit points or less) can be repaired with this spell, but this spell does not restore their magic abilities. This spell does not affect creatures (including constructs). This spell has no effect on objects that have been warped or otherwise transmuted, but it can still repair damage done to such items.",
+              "duration": "Instantaneous",
+              "effect": "One object of up to 1 lb.",
+              "level": "Brd 0, Clr 0, Drd 0, Sor/Wiz 0",
+              "linkedspells": "",
+              "name": "Mending",
+              "prepared": 1,
+              "range": "10 ft.",
+              "save": "Will negates (harmless, object)",
+              "school": "Transmutation",
+              "shortdescription": "Makes minor repairs on an object.",
+              "sr": "Yes (harmless, object)"
+            },
+            "id-00004": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, M/DF (a firefly)",
+              "cost": 0,
+              "description": "This spell causes a touched object to glow like a torch, shedding normal light in a 20-foot radius, and increasing the light level for an additional 20 feet by one step, up to normal light (darkness becomes dim light, and dim light becomes normal light). In an area of normal or bright light, this spell has no effect. The effect is immobile, but it can be cast on a movable object.\\n\\nYou can only have one light spell active at any one time. If you cast this spell while another casting is still in effect, the previous casting is dispelled. If you make this spell permanent (through permanency or a similar effect), it does not count against this limit. Light can be used to counter or dispel any darkness spell of equal or lower spell level.",
+              "duration": "10 min./level (D)",
+              "effect": "Object touched",
+              "level": "Brd 0, Clr 0, Drd 0, Sor/Wiz 0",
+              "linkedspells": "",
+              "name": "Light",
+              "prepared": 1,
+              "range": "Touch",
+              "save": "None",
+              "school": "Evocation [Light]",
+              "shortdescription": "Object shines like a torch.",
+              "sr": "No"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 4
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 2,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "heallist": {
+                    "id-00001": {
+                      "dice": "d8",
+                      "stat": "cl",
+                      "statmax": 5,
+                      "statmult": 1
+                    }
+                  },
+                  "order": 2,
+                  "type": "heal"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage.",
+              "duration": "Instantaneous",
+              "effect": "Creature touched",
+              "level": "Brd 1, Clr 1, Drd 1, Pal 1, Rgr 2",
+              "linkedspells": "",
+              "name": "Cure Light Wounds",
+              "prepared": 1,
+              "range": "Touch",
+              "save": "Will half (harmless); see text",
+              "school": "Conjuration (Healing)",
+              "shortdescription": "Cures 1d8 damage +1/level (max +5).",
+              "sr": "Yes (harmless); see text"
+            },
+            "id-00002": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, DF",
+              "cost": 1,
+              "description": "A pale glow surrounds and outlines the subjects. Outlined subjects shed light as candles. Creatures outlined by faerie fire take a -20 penalty on all Stealth checks. Outlined creatures do not benefit from the concealment normally provided by darkness (though a 2nd-level or higher magical darkness effect functions normally), blur , displacement , invisibility , or similar effects. The light is too dim to have any special effect on undead or dark-dwelling creatures vulnerable to light. The faerie fire can be blue, green, or violet, according to your choice at the time of casting. The faerie fire does not cause any harm to the objects or creatures thus outlined.",
+              "duration": "1 min./level (D)",
+              "effect": "Creatures and objects within a 5-ft.-radius burst",
+              "level": "Drd 1",
+              "linkedspells": "",
+              "name": "Faerie Fire",
+              "prepared": 1,
+              "range": "Long (400 ft. + 40 ft./level)",
+              "save": "None",
+              "school": "Evocation [Light]",
+              "shortdescription": "Outlines subjects with light, canceling Blur, concealment, and the like.",
+              "sr": "Yes"
+            },
+            "id-00004": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "A creature protected by endure elements suffers no harm from being in a hot or cold environment. It can exist comfortably in conditions between -50 and 140 degrees Fahrenheit without having to make Fortitude saves. The creature's equipment is likewise protected.\\n\\nEndure elements doesn't provide any protection from fire or cold damage, nor does it protect against other environmental hazards such as smoke, lack of air, and so forth.",
+              "duration": "24 hours",
+              "effect": "Creature touched",
+              "level": "Clr 1, Drd 1, Pal 1, Rgr 1, Sor/Wiz 1",
+              "linkedspells": "",
+              "name": "Endure Elements",
+              "prepared": 2,
+              "range": "Touch",
+              "save": "Will negates (harmless)",
+              "school": "Abjuration",
+              "shortdescription": "Exist comfortably in hot or cold regions. 24 hours",
+              "sr": "Yes (harmless)"
+            },
+            "id-00005": {
+              "actions": {
+                "id-00001": {
+                  "atkmod": 1,
+                  "atktype": "ranged",
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "damagelist": {
+                    "id-00001": {
+                      "bonus": 1,
+                      "dice": "d6"
+                    }
+                  },
+                  "order": 2,
+                  "type": "damage"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, DF",
+              "cost": 1,
+              "description": "You transmute as many as three pebbles, which can be no larger than sling bullets, so that they strike with great force when thrown or slung. If hurled, they have a range increment of 20 feet. If slung, treat them as sling bullets (range increment 50 feet). The spell gives them a +1 enhancement bonus on attack and damage rolls. The user of the stones makes a normal ranged attack . Each stone that hits deals 1d6+1 points of damage (including the spell's enhancement bonus), or 2d6+2 points against undead.",
+              "duration": "30 minutes or until discharged",
+              "effect": "Up to three pebbles touched",
+              "level": "Clr 1, Drd 1",
+              "linkedspells": "",
+              "name": "Magic Stone(domain)",
+              "prepared": 1,
+              "range": "Touch",
+              "save": "Will negates (harmless, object)",
+              "school": "Transmutation",
+              "shortdescription": "Three stones gain +1 on attack, deal 1d6 +1 damage.",
+              "sr": "Yes (harmless, object)"
+            },
+            "id-00007": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M (a pinch of dirt)",
+              "cost": 1,
+              "description": "This spell gives you a +10 foot enhancement bonus to your base speed. It has no effect on other modes of movement, such as burrow, climb, fly, or swim.",
+              "duration": "1 hour/level (D)",
+              "effect": "You",
+              "level": "Drd 1, Rgr 1",
+              "linkedspells": "",
+              "name": "Longstrider",
+              "prepared": 1,
+              "range": "Personal",
+              "school": "Transmutation",
+              "shortdescription": "Your speed increases by 10 ft."
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 6
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 1,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "savetype": "fortitude",
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "damagelist": {
+                    "id-00001": {
+                      "bonus": 0,
+                      "dice": "2d6"
+                    }
+                  },
+                  "order": 2,
+                  "type": "damage"
+                },
+                "id-00003": {
+                  "damagelist": {
+                    "id-00001": {
+                      "bonus": 0,
+                      "dice": "d4",
+                      "type": "nonlethal"
+                    }
+                  },
+                  "order": 3,
+                  "type": "damage"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 3,
+              "description": "This spell creates a severe blast of air (approximately 50 mph) that originates from you, affecting all creatures in its path. All flying creatures in this area take a -4 penalty on Fly skill checks. Tiny or smaller flying creatures must make a DC 25 Fly skill check or be blown back 2d6 × 10 feet and take 2d6 points of damage. Small or smaller flying creatures must make a DC 20 Fly skill check to move against the force of the wind.\\n\\nA Tiny or smaller creature on the ground is knocked down and rolled 1d4x10 feet, taking 1d4 points of nonlethal damage per 10 feet.\\n\\nSmall creatures are knocked prone by the force of the wind.\\n\\nMedium or smaller creatures are unable to move forward against the force of the wind unless they succeed at a DC 15 Strength check.\\n\\nLarge or larger creatures may move normally within a gust of wind effect.\\n\\nThis spell can't move a creature beyond the limit of its range.\\n\\nAny creature, regardless of size, takes a -4 penalty on ranged attacks and Perception checks in the area of a gust of wind .\\n\\nThe force of the gust automatically extinguishes candles, torches, and similar unprotected flames. It causes protected flames, such as those of lanterns, to dance wildly and has a 50% chance to extinguish those lights.\\n\\nIn addition to the effects noted, a gust of wind can do anything that a sudden blast of wind would be expected to do. It can create a stinging spray of sand or dust, fan a large fire, overturn delicate awnings or hangings, heel over a small boat, and blow gases or vapors to the edge of its range.\\n\\nGust of wind can be made permanent with a permanency spell.",
+              "duration": "1 round",
+              "effect": "Line-shaped gust of severe wind emanating out from you to the extreme of the range",
+              "level": "Drd 2, Sor/Wiz 2",
+              "linkedspells": "",
+              "name": "Gust of Wind",
+              "prepared": 1,
+              "range": "60 ft.",
+              "save": "Fortitude negates",
+              "school": "Evocation [Air]",
+              "shortdescription": "Blows away or knocks down smaller creatures.",
+              "sr": "Yes"
+            },
+            "id-00002": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M (pinch of cat fur)",
+              "cost": 3,
+              "description": "The transmuted creature becomes more graceful, agile, and coordinated. The spell grants a +4 enhancement bonus to Dexterity, adding the usual benefits to AC, Reflex saves, and other uses of the Dexterity modifier.",
+              "duration": "1 min./level",
+              "effect": "Creature touched",
+              "level": "Brd 2, Drd 2, Rgr 2, Sor/Wiz 2",
+              "linkedspells": "",
+              "name": "Cat's Grace",
+              "prepared": 1,
+              "range": "Touch",
+              "save": "Will negates (harmless)",
+              "school": "Transmutation",
+              "shortdescription": "Subject gains +4 to Dex for 1 min./level.",
+              "sr": "Yes"
+            },
+            "id-00003": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, DF",
+              "cost": 3,
+              "description": "Barkskin toughens a creature's skin. The effect grants a +2 enhancement bonus to the creature's existing natural armor bonus. This enhancement bonus increases by 1 for every three caster levels above 3rd, to a maximum of +5 at caster level 12th.\\n\\nThe enhancement bonus provided by barkskin stacks with the target's natural armor bonus, but not with other enhancement bonuses to natural armor. A creature without natural armor has an effective natural armor bonus of +0.",
+              "duration": "10 min./level",
+              "effect": "Living creature touched",
+              "level": "Drd 2, Rgr 2",
+              "linkedspells": "",
+              "name": "Barkskin",
+              "prepared": 1,
+              "range": "Touch",
+              "save": "None",
+              "school": "Transmutation",
+              "shortdescription": "Grants +3 enhancement to natural armor. 10 min/level",
+              "sr": "Yes (harmless)"
+            },
+            "id-00004": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, DF",
+              "cost": 3,
+              "description": "This abjuration grants a creature limited protection from damage of whichever one of five energy types you select: acid, cold, electricity, fire, or sonic. The subject gains resist energy 10 against the energy type chosen, meaning that each time the creature is subjected to such damage (whether from a natural or magical source), that damage is reduced by 10 points before being applied to the creature's hit points. The value of the energy resistance granted increases to 20 points at 7th level and to a maximum of 30 points at 11th level. The spell protects the recipient's equipment as well.\\n\\nResist energy absorbs only damage. The subject could still suffer unfortunate side effects.\\n\\nResist energy overlaps (and does not stack with) protection from energy. If a character is warded by protection from energy and resist energy, the protection spell absorbs damage until its power is exhausted.",
+              "duration": "10 min./level",
+              "effect": "Creature touched",
+              "level": "Clr 2, Drd 2, Pal 2, Rgr 1, Sor/Wiz 2",
+              "linkedspells": "",
+              "name": "Resist Energy",
+              "prepared": 1,
+              "range": "Touch",
+              "save": "Fortitude negates (harmless)",
+              "school": "Abjuration",
+              "shortdescription": "Ignores 20 points of damage/attack from specified energy type.",
+              "sr": "Yes (harmless)"
+            },
+            "id-00005": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, DF",
+              "cost": 3,
+              "description": "When this spell is cast, all natural, undressed earth or stone in the spell's area is softened. Wet earth becomes thick mud, dry earth becomes loose sand or dirt, and stone becomes soft clay that is easily molded or chopped. You affect a 10-foot square area to a depth of 1 to 4 feet, depending on the toughness or resilience of the ground at that spot. Magical, enchanted, dressed, or worked stone cannot be affected. Earth or stone creatures are not affected.\\n\\nA creature in mud must succeed on a Reflex save or be caught for 1d2 rounds and unable to move, attack, or cast spells. A creature that succeeds on its save can move through the mud at half speed, and it can't run or charge. Loose dirt is not as troublesome as mud, but all creatures in the area can move at only half their normal speed and can't run or charge over the surface. Stone softened into clay does not hinder movement, but it does allow characters to cut, shape, or excavate areas they may not have been able to affect before.\\n\\nWhile this spell does not affect dressed or worked stone, cavern ceilings or vertical surfaces such as cliff faces can be affected. Usually, this causes a moderate collapse or landslide as the loosened material peels away from the face of the wall or roof and falls (treat as a cave-in with no bury zone).\\n\\nA moderate amount of structural damage can be dealt to a manufactured structure by softening the ground beneath it, causing it to settle. However, most well-built structures will only be damaged by this spell, not destroyed.",
+              "duration": "Instantaneous",
+              "effect": "10-ft. square/level; see text",
+              "level": "Drd 2",
+              "linkedspells": "",
+              "name": "Soften Earth and Stone(domain)",
+              "prepared": 1,
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "None",
+              "school": "Transmutation [Earth]",
+              "shortdescription": "Turns stone to clay, or dirt to sand or mud.",
+              "sr": "No"
+            },
+            "id-00006": {
+              "actions": {
+                "id-00001": {
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "castingtime": "1 round",
+              "components": "V, S, M/DF (a square of red cloth)",
+              "cost": 3,
+              "description": "You summon a swarm of bats, rats, or spiders (your choice), which attacks all other creatures within its area. (You may summon the swarm so that it shares the area of other creatures.) If no living creatures are within its area, the swarm attacks or pursues the nearest creature as best it can. The caster has no control over its target or direction of travel.",
+              "duration": "Concentration + 2 rounds",
+              "effect": "One swarm of bats, rats, or spiders",
+              "level": "Brd 2, Drd 2, Sor/Wiz 2",
+              "linkedspells": "",
+              "name": "Summon Swarm",
+              "prepared": 1,
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "None",
+              "school": "Conjuration (Summoning)",
+              "shortdescription": "Summons swarm of bats, rats, or spiders.",
+              "sr": "No"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 6
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 1,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "heallist": {
+                    "id-00001": {
+                      "dice": "2d8",
+                      "stat": "cl",
+                      "statmax": 10,
+                      "statmult": 1
+                    }
+                  },
+                  "order": 2,
+                  "type": "heal"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 5,
+              "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10).\\n\\n*Cure Light Wounds",
+              "duration": "Instantaneous",
+              "effect": "Creature touched",
+              "level": "Brd 2, Clr 2, Drd 3, Pal 3, Rgr 3",
+              "linkedspells": {
+                "id-00001": {
+                  "link": {
+                    "class": "spelldesc",
+                    "recordname": "spelldesc.curelightwounds@PFRPG Spells"
+                  },
+                  "linkedname": "Cure Light Wounds"
+                }
+              },
+              "name": "Cure Moderate Wounds",
+              "prepared": 1,
+              "range": "Touch",
+              "save": "Will half (harmless); see text",
+              "school": "Conjuration (Healing)",
+              "shortdescription": "Cures 2d8 damage +1/level (max +10).",
+              "sr": "Yes (harmless); see text"
+            },
+            "id-00002": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 5,
+              "description": "You touch an object when you cast this spell, causing the object to shed bright light in a 60-foot radius. This illumination increases the light level for an additional 60 feet by one step (darkness becomes dim light, dim light becomes normal light, and normal light becomes bright light). Creatures that take penalties in bright light take them while within the 60-foot radius of this magical light. Despite its name, this spell is not the equivalent of daylight for the purposes of creatures that are damaged or destroyed by such light.\\n\\nIf daylight is cast on a small object that is then placed inside or under a light-proof covering, the spell's effects are blocked until the covering is removed.\\n\\nDaylight brought into an area of magical darkness (or vice versa) is temporarily negated, so that the otherwise prevailing light conditions exist in the overlapping areas of effect.\\n\\nDaylight counters or dispels any darkness spell of equal or lower level, such as darkness.",
+              "duration": "10 min./level (D)",
+              "effect": "Object touched",
+              "level": "Brd 3, Clr 3, Drd 3, Pal 3, Sor/Wiz 3",
+              "linkedspells": "",
+              "name": "Daylight",
+              "prepared": 1,
+              "range": "Touch",
+              "save": "None",
+              "school": "Evocation [Light]",
+              "shortdescription": "60-ft. radius of bright light.",
+              "sr": "No"
+            },
+            "id-00003": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M/DF (charcoal)",
+              "cost": 5,
+              "description": "You detoxify any sort of venom in the creature or object touched. If the target is a creature, you must make a caster level check (1d20 + caster level) against the DC of each poison affecting the target. Success means that the poison is neutralized. A cured creature suffers no additional effects from the poison, and any temporary effects are ended, but the spell does not reverse instantaneous effects, such as hit point damage, temporary ability damage, or effects that don't go away on their own.\\n\\nThis spell can instead neutralize the poison in a poisonous creature or object for 10 minutes per level, at the caster's option. If cast on a creature, the creature receives a Will save to negate the effect.",
+              "duration": "Instantaneous or 10 min./level; see text",
+              "effect": "Creature or object of up to 1 cu. ft./level touched",
+              "level": "Brd 4, Clr 4, Drd 3, Pal 4, Rgr 3",
+              "linkedspells": "",
+              "name": "Neutralize Poison",
+              "prepared": 1,
+              "range": "Touch",
+              "save": "Will negates (harmless, object)",
+              "school": "Conjuration (Healing)",
+              "shortdescription": "Immunizes subject against poison, detoxifies venom in or on subject.",
+              "sr": "Yes (harmless, object)"
+            },
+            "id-00004": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M/DF (soft clay)",
+              "cost": 5,
+              "description": "You can form an existing piece of stone into any shape that suits your purpose. While it's possible to make crude coffers, doors, and so forth with stone shape, fine detail isn't possible. There is a 30% chance that any shape including moving parts simply doesn't work.",
+              "duration": "Instantaneous",
+              "effect": "Stone or stone object touched, up to 10 cu. ft. + 1 cu. ft./level",
+              "level": "Clr 3, Drd 3, Sor/Wiz 4",
+              "linkedspells": "",
+              "name": "Stone Shape(domain)",
+              "prepared": 1,
+              "range": "Touch",
+              "save": "None",
+              "school": "Transmutation [Earth]",
+              "shortdescription": "Sculpts stone into any shape.",
+              "sr": "No"
+            },
+            "id-00005": {
+              "actions": {
+                "id-00001": {
+                  "onmissdamage": "half",
+                  "savetype": "reflex",
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "damagelist": {
+                    "id-00001": {
+                      "bonus": 0,
+                      "dice": "3d6",
+                      "type": "electricity"
+                    }
+                  },
+                  "type": "damage"
+                },
+                "id-00003": {
+                  "damagelist": {
+                    "id-00001": {
+                      "bonus": 0,
+                      "dice": "3d10",
+                      "type": "electricity"
+                    }
+                  },
+                  "type": "damage"
+                }
+              },
+              "castingtime": "1 round",
+              "components": "V, S",
+              "cost": 5,
+              "description": "Immediately upon completion of the spell, and once per round thereafter, you may call down a 5-foot-wide, 30-foot-long, vertical bolt of lightning that deals 3d6 points of electricity damage. The bolt of lightning flashes down in a vertical stroke at whatever target point you choose within the spell's range (measured from your position at the time). Any creature in the target square or in the path of the bolt is affected.\\n\\nYou need not call a bolt of lightning immediately; other actions, even spellcasting, can be performed first. However, each round after the first you may use a standard action (concentrating on the spell) to call a bolt. You may call a total number of bolts equal to your caster level (maximum 10 bolts).\\n\\nIf you are outdoors and in a stormy area - a rain shower, clouds and wind, hot and cloudy conditions, or even a tornado (including a whirlwind formed by a djinni or an air elemental of at least Large size) - each bolt deals 3d10 points of electricity damage instead of 3d6.\\n\\nThis spell functions indoors or underground but not underwater.",
+              "duration": "1 min./level",
+              "effect": "One or more 30-ft.-long vertical lines of lightning",
+              "level": "Drd 3",
+              "linkedspells": "",
+              "name": "Call Lightning",
+              "prepared": 1,
+              "range": "Medium (100 ft. + 10 ft./level)",
+              "save": "Reflex half",
+              "school": "Evocation [Electricity]",
+              "shortdescription": "Calls down lightning bolts (3d6 per bolt) from sky.",
+              "sr": "Yes"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 5
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 2,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "onmissdamage": "half",
+                  "order": 1,
+                  "savetype": "reflex",
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "damagelist": {
+                    "id-00001": {
+                      "bonus": 0,
+                      "dice": "d6",
+                      "dicestat": "cl",
+                      "dicestatmax": 15
+                    }
+                  },
+                  "order": 2,
+                  "type": "damage"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, DF",
+              "cost": 7,
+              "description": "A flame strike produces a vertical column of divine fire roaring downward. The spell deals 1d6 points of damage per caster level (maximum 15d6). Half the damage is fire damage, but the other half results directly from divine power and is therefore not subject to being reduced by resistance to fire-based attacks.",
+              "duration": "Instantaneous",
+              "effect": "Cylinder (10-ft. radius, 40 ft. high)",
+              "level": "Clr 5, Drd 4",
+              "linkedspells": "",
+              "name": "Flame Strike",
+              "prepared": 2,
+              "range": "Medium (100 ft. + 10 ft./level)",
+              "save": "Reflex half",
+              "school": "Evocation [Fire]",
+              "shortdescription": "Smite foes with divine fire (1d6/level damage).",
+              "sr": "Yes"
+            },
+            "id-00002": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "savetype": "reflex",
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "damagelist": {
+                    "id-00001": {
+                      "bonus": 0,
+                      "dice": "d8",
+                      "type": "piercing"
+                    }
+                  },
+                  "order": 2,
+                  "type": "damage"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, DF",
+              "cost": 7,
+              "description": "Rocky ground, stone floors, and similar surfaces shape themselves into long, sharp points that blend into the background.\\n\\nSpike stones impede progress through an area and deal damage. Any creature moving on foot into or through the spell's area moves at half speed. In addition, each creature moving through the area takes 1d8 points of piercing damage for each 5 feet of movement through the spiked area.\\n\\nAny creature that takes damage from this spell must also succeed on a Reflex save to avoid injuries to its feet and legs. A failed save causes the creature's speed to be reduced to half normal for 24 hours or until the injured creature receives a cure spell (which also restores lost hit points). Another character can remove the penalty by taking 10 minutes to dress the injuries and succeeding on a Heal check against the spell's save DC.\\n\\nMagic traps such as spike stones are hard to detect. A rogue (only) can use the Perception skill to find spike stones . The DC is 25 + spell level, or DC 29 for spike stones . Spike stones is a magic trap that can't be disabled with the Disable Device skill.",
+              "duration": "1 hour/level (D)",
+              "effect": "One 20-ft. square/level",
+              "level": "Drd 4",
+              "linkedspells": "",
+              "name": "Spike Stones(domain)",
+              "prepared": 1,
+              "range": "Medium (100 ft. + 10 ft./level)",
+              "save": "Reflex partial",
+              "school": "Transmutation [Earth]",
+              "shortdescription": "Creatures in area take 1d8 damage, may be slowed.",
+              "sr": "Yes"
+            },
+            "id-00003": {
+              "actions": {
+                "id-00001": {
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "castingtime": "1 standard action",
+              "components": "V, S, M (a leather strip bound to the target), DF",
+              "cost": 7,
+              "description": "This spell enables you or a creature you touch to move and attack normally for the duration of the spell, even under the influence of magic that usually impedes movement, such as paralysis, solid fog , slow , and web . All combat maneuver checks made to grapple the target automatically fail. The subject automatically succeeds on any combat maneuver checks and Escape Artist checks made to escape a grapple or a pin.\\n\\nThe spell also allows the subject to move and attack normally while underwater, even with slashing weapons such as axes and swords or with bludgeoning weapons such as flails, hammers, and maces, provided that the weapon is wielded in the hand rather than hurled. The freedom of movement spell does not, however, grant water breathing.",
+              "duration": "10 min./level",
+              "effect": "You or creature touched",
+              "level": "Brd 4, Clr 4, Drd 4, Rgr 4",
+              "linkedspells": "",
+              "name": "Freedom of Movement",
+              "prepared": 1,
+              "range": "Personal or touch",
+              "save": "Will negates (harmless)",
+              "school": "Abjuration",
+              "shortdescription": "Subject moves normally despite impediments to movement.",
+              "sr": "Yes (harmless)"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 4
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 1,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "castingtime": "1 standard action",
+              "components": "V, S, M/DF (a small block of granite)",
+              "cost": 9,
+              "description": "This spell creates a wall of rock that merges into adjoining rock surfaces. A wall of stone is 1 inch thick per four caster levels and composed of up to one 5-foot square per level. You can double the wall's area by halving its thickness. The wall cannot be conjured so that it occupies the same space as a creature or another object.\\n\\nUnlike a wall of iron, you can create a wall of stone in almost any shape you desire. The wall created need not be vertical, nor rest upon any firm foundation; however, it must merge with and be solidly supported by existing stone. It can be used to bridge a chasm, for instance, or as a ramp. For this use, if the span is more than 20 feet, the wall must be arched and buttressed. This requirement reduces the spell's area by half. The wall can be crudely shaped to allow crenellations, battlements, and so forth by likewise reducing the area.\\n\\nLike any other stone wall, this one can be destroyed by a disintegrate spell or by normal means such as breaking and chipping. Each 5-foot square of the wall has 15 hit points per inch of thickness and hardness 8. A section of wall whose hit points drop to 0 is breached. If a creature tries to break through the wall with a single attack, the DC for the Strength check is 20 + 2 per inch of thickness.\\n\\nIt is possible, but difficult, to trap mobile opponents within or under a wall of stone , provided the wall is shaped so it can hold the creatures. Creatures can avoid entrapment with successful Reflex saves.",
+              "duration": "Instantaneous",
+              "effect": "Stone wall whose area is up to one 5-ft. square/level (S)",
+              "level": "Clr 5, Drd 6, Sor/Wiz 5",
+              "linkedspells": "",
+              "name": "Wall of Stone (domain)",
+              "prepared": 1,
+              "range": "Medium (100 ft. + 10 ft./level)",
+              "save": "See text",
+              "school": "Conjuration (Creation) [Earth]",
+              "shortdescription": "Creates a stone wall that can be shaped.",
+              "sr": "No"
+            },
+            "id-00002": {
+              "actions": {
+                "id-00001": {
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "heallist": {
+                    "id-00001": {
+                      "dice": "4d8",
+                      "stat": "cl",
+                      "statmax": 20,
+                      "statmult": 1
+                    }
+                  },
+                  "type": "heal"
+                }
+              },
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 9,
+              "description": "This spell functions like cure light wounds, except that it cures 4d8 points of damage + 1 point per caster level (maximum +20).\\n\\n*Cure Light Wounds",
+              "duration": "Instantaneous",
+              "effect": "Creature touched",
+              "level": "Brd 4, Clr 4, Drd 5",
+              "linkedspells": {
+                "id-00001": {
+                  "link": {
+                    "class": "spelldesc",
+                    "recordname": "spelldesc.curelightwounds@PFRPG Spells"
+                  },
+                  "linkedname": "Cure Light Wounds"
+                }
+              },
+              "name": "Cure Critical Wounds",
+              "prepared": 1,
+              "range": "Touch",
+              "save": "Will half (harmless); see text",
+              "school": "Conjuration (Healing)",
+              "shortdescription": "Cures 4d8 damage +1/level (max +20).",
+              "sr": "Yes (harmless); see text"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 2
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "points": 0,
+      "pointsused": 0,
+      "powersource": "divine",
+      "sp": 2
+    },
+    "id-00002": {
+      "availablelevel0": 0,
+      "availablelevel1": 0,
+      "availablelevel2": 0,
+      "availablelevel3": 3,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "cc": {
+        "misc": 0
+      },
+      "cl": 9,
+      "dc": {
+        "abilitymod": 0,
+        "misc": 0,
+        "total": 10
+      },
+      "label": "Ring of the Ram",
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "atkmod": 0,
+                  "atktype": "cm",
+                  "clcmod": 0,
+                  "order": 1,
+                  "savedcmod": 0,
+                  "srnotallowed": 0,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "damagelist": {
+                    "id-00001": {
+                      "bonus": 0,
+                      "dice": "d6",
+                      "dicestatmax": 0,
+                      "statmax": 0,
+                      "statmult": 1
+                    }
+                  },
+                  "dmgnotspell": 1,
+                  "order": 2,
+                  "type": "damage"
+                }
+              },
+              "cast": 0,
+              "cost": 5,
+              "name": "Ring of the Ram"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "points": 0,
+      "pointsused": 0,
+      "sp": 0
+    },
+    "id-00003": {
+      "availablelevel1": 1,
+      "castertype": "points",
+      "cl": 1,
+      "dc": "",
+      "label": "Wand of Cure Light Wounds (48 charges)",
+      "levels": {
+        "level1": {
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "savedcmod": 11,
+                  "savedctype": "fixed",
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "heallist": {
+                    "id-00001": {
+                      "dice": "d8",
+                      "stat": "cl",
+                      "statmax": 5,
+                      "statmult": 1
+                    }
+                  },
+                  "type": "heal"
+                }
+              },
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage.",
+              "duration": "Instantaneous",
+              "effect": "Creature touched",
+              "level": "Brd 1, Clr 1, Drd 1, Pal 1, Rgr 2",
+              "linkedspells": "",
+              "locked": 1,
+              "name": "Cure Light Wounds",
+              "range": "Touch",
+              "save": "Will half (harmless); see text",
+              "school": "Conjuration (Healing)",
+              "shortdescription": "Cures 1d8 damage +1/level (max +5).",
+              "sr": "Yes (harmless); see text"
+            }
+          }
+        }
+      },
+      "mc_item": "charsheet.id-00010.inventorylist.id-00018",
+      "points": 48,
+      "pointsused": 0
+    }
+  },
+  "temp": "",
+  "token": "portrait_id-00010_token",
+  "traitlist": {
+    "id-00001": {
+      "locked": 1,
+      "name": "Fearless",
+      "source": "Halfling",
+      "text": "<h>Fearless</h>\n\t\t\t\t\t\t<p>Halflings receive a +2 racial bonus on all saving throws against fear. This bonus stacks with the bonus granted by halfling luck.</p>"
+    },
+    "id-00002": {
+      "locked": 1,
+      "name": "Halfling Luck",
+      "source": "Halfling",
+      "text": "<h>Halfling Luck</h>\n\t\t\t\t\t\t<p>Halflings receive a +1 racial bonus on all saving throws.</p>"
+    },
+    "id-00003": {
+      "locked": 1,
+      "name": "Keen Senses",
+      "source": "Halfling",
+      "text": "<h>Keen Senses</h>\n\t\t\t\t\t\t<p>Halflings receive a +2 racial bonus on Perception skill checks.</p>"
+    },
+    "id-00004": {
+      "locked": 1,
+      "name": "Sure-Footed",
+      "source": "Halfling",
+      "text": "<h>Sure-Footed</h>\n\t\t\t\t\t\t<p>Halflings receive a +2 racial bonus on Acrobatics and Climb skill checks.</p>"
+    },
+    "id-00005": {
+      "locked": 1,
+      "name": "Weapon Familiarity",
+      "source": "Halfling",
+      "text": "<h>Weapon Familiarity</h>\n\t\t\t\t\t\t<p>Halflings are proficient with slings and treat any weapon with the word halfling in its name as a martial weapon.</p>"
+    }
+  },
+  "weaponlist": {
+    "id-00001": {
+      "ammunitionmanager": "",
+      "attacks": 1,
+      "attackview1": 7,
+      "attackview2": 2,
+      "attackview3": -3,
+      "attackview4": -8,
+      "bonus": 0,
+      "carried": 2,
+      "critatkrange": 19,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d4",
+          "stat": "strength",
+          "type": "piercing,slashing"
+        }
+      },
+      "isidentified": 1,
+      "name": "Cold Iron Dagger",
+      "properties": "cold iron",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00001"
+      },
+      "type": 0
+    },
+    "id-00002": {
+      "ammo": 0,
+      "ammunitionmanager": "",
+      "attacks": 1,
+      "attackview1": 10,
+      "attackview2": 5,
+      "attackview3": 0,
+      "attackview4": -5,
+      "bonus": 0,
+      "carried": 2,
+      "critatkrange": 19,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d4",
+          "stat": "strength",
+          "type": "piercing,slashing"
+        }
+      },
+      "isidentified": 1,
+      "maxammo": 0,
+      "name": "Cold Iron Dagger",
+      "properties": "cold iron",
+      "rangeincrement": 10,
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00001"
+      },
+      "type": 1
+    },
+    "id-00003": {
+      "ammunitionmanager": "",
+      "attacks": 1,
+      "attackview1": 8,
+      "attackview2": 3,
+      "attackview3": -2,
+      "attackview4": -7,
+      "bonus": 1,
+      "carried": 2,
+      "critatkrange": 19,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 1,
+          "critmult": 2,
+          "dice": "d4",
+          "stat": "strength",
+          "type": "piercing,slashing"
+        }
+      },
+      "isidentified": 1,
+      "name": "+1 Returning Dagger",
+      "properties": "magic, returning",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00002"
+      },
+      "type": 0
+    },
+    "id-00004": {
+      "ammo": 0,
+      "ammunitionmanager": "",
+      "attacks": 1,
+      "attackview1": 11,
+      "attackview2": 6,
+      "attackview3": 1,
+      "attackview4": -4,
+      "bonus": 1,
+      "carried": 2,
+      "critatkrange": 19,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 1,
+          "critmult": 2,
+          "dice": "d4",
+          "stat": "strength",
+          "type": "piercing,slashing"
+        }
+      },
+      "isidentified": 1,
+      "maxammo": 0,
+      "name": "+1 Returning Dagger",
+      "properties": "magic, returning",
+      "rangeincrement": 10,
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00002"
+      },
+      "type": 1
+    },
+    "id-00006": {
+      "ammunitionmanager": "",
+      "attacks": 1,
+      "attackview1": 8,
+      "attackview2": 3,
+      "attackview3": -2,
+      "attackview4": -7,
+      "bonus": 1,
+      "carried": 2,
+      "critatkrange": 20,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 1,
+          "critmult": 4,
+          "dice": "d6",
+          "stat": "strength",
+          "statmult": 1.5,
+          "type": "piercing,slashing"
+        }
+      },
+      "isidentified": 1,
+      "name": "+1 Scythe",
+      "properties": "magic",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00007"
+      },
+      "type": 0
+    }
+  },
+  "weight": "33#"
+}

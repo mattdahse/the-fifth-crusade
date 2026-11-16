@@ -1,0 +1,400 @@
+{
+  "campaign": "The Real Work",
+  "record": "charsheet.id-00002",
+  "abilities": {
+    "charisma": {
+      "base": 10,
+      "bonus": 0,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 10
+    },
+    "constitution": {
+      "base": 10,
+      "bonus": 0,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 10
+    },
+    "dexterity": {
+      "base": 10,
+      "bonus": 0,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 10
+    },
+    "intelligence": {
+      "base": 10,
+      "bonus": 0,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 10
+    },
+    "strength": {
+      "base": 10,
+      "bonus": 0,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 10
+    },
+    "wisdom": {
+      "base": 10,
+      "bonus": 0,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 10
+    }
+  },
+  "ac": {
+    "sources": {
+      "armor": 0,
+      "cmdmisc": 0,
+      "deflection": 0,
+      "dodge": 0,
+      "ffmisc": 0,
+      "misc": 0,
+      "naturalarmor": 0,
+      "shield": 0,
+      "size": 0,
+      "temporary": 0,
+      "touchmisc": 0
+    },
+    "totals": {
+      "cmd": 11,
+      "flatfooted": 10,
+      "general": 10,
+      "touch": 10
+    }
+  },
+  "attackbonus": {
+    "base": 1,
+    "grapple": {
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": 1
+    },
+    "melee": {
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": 1
+    },
+    "ranged": {
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": 1
+    }
+  },
+  "classes": {
+    "id-00001": {
+      "favored": 1,
+      "level": 1,
+      "name": "Barbarian",
+      "shortcut": {
+        "class": "referenceclass",
+        "recordname": "class.barbarian@Pathfinder Core Rules"
+      },
+      "skillranks": 4
+    }
+  },
+  "coins": {
+    "id-00001": {
+      "amount": 0,
+      "name": "PP"
+    },
+    "id-00002": {
+      "amount": 0,
+      "name": "GP"
+    },
+    "id-00003": {
+      "amount": 0,
+      "name": "SP"
+    },
+    "id-00004": {
+      "amount": 0,
+      "name": "CP"
+    }
+  },
+  "defenses": {
+    "sr": {
+      "base": 0,
+      "misc": 0,
+      "temporary": 0,
+      "total": 0
+    }
+  },
+  "encumbrance": {
+    "armorcheckpenalty": 0,
+    "armormaxstatbonus": 0,
+    "armormaxstatbonusactive": 0,
+    "checkpenalty": 0,
+    "heavyload": 100,
+    "level": 0,
+    "liftoffground": 200,
+    "liftoverhead": 100,
+    "lightload": 33,
+    "load": 0,
+    "maxstatbonus": 0,
+    "mediumload": 66,
+    "pushordrag": 500,
+    "spellfailure": 0
+  },
+  "heropoint": 0,
+  "hp": {
+    "nonlethal": 0,
+    "temporary": 0,
+    "total": 12,
+    "wounds": 0
+  },
+  "initiative": {
+    "misc": 0,
+    "temporary": 0,
+    "total": 0
+  },
+  "inventorylist": {
+    "id-00001": {
+      "aura": "moderate transmutation",
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 2,
+      "charges": 50,
+      "cl": 7,
+      "contentsvolume": 0,
+      "cost": "21,000 gp",
+      "count": 1,
+      "depth": 0,
+      "description": "<p>A wand has 50 charges when created - each charge allows the use of the wand's spell one time. A wand that runs out of charges is just a stick. Note that some spells appear at different levels for different casters. The level of such spells depends on the caster crafting the wand.</p>\n\t\t\t\t\t\t<h>Physical Description</h>\n\t\t\t\t\t\t<p>A wand is 6 to 12 inches long, 1/4 inch thick, and weighs no more than 1 ounce. Most wands are wood, but some are bone, metal, or even crystal. A typical wand has AC 7, 5 hit points, hardness 5, and a break DC of 16.</p>\n\t\t\t\t\t\t<h>Activation</h>\n\t\t\t\t\t\t<p>Wands use the spell trigger activation method, so casting a spell from a wand is usually a standard action that doesn't provoke attacks of opportunity. (If the spell being cast has a longer casting time than 1 action, however, it takes that long to cast the spell from a wand.) To activate a wand, a character must hold it in hand (or whatever passes for a hand, for nonhumanoid creatures) and point it in the general direction of the target or area. A wand may be used while grappling or while swallowed whole.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "locked": 0,
+      "mc_charges_set": 1,
+      "name": "Wand of Air Walk",
+      "pfslegal": "True",
+      "prerequisites": "Craft Wand",
+      "showonminisheet": 1,
+      "slot": "none",
+      "subtype": "Magic Wand",
+      "type": "Magic Wand",
+      "volume": 0,
+      "weight": 0,
+      "width": 0
+    }
+  },
+  "languagelist": {
+    "id-00001": {
+      "name": "Common"
+    }
+  },
+  "level": 1,
+  "locked": 1,
+  "name": "Anita Character",
+  "proficiencylist": {
+    "id-00001": {
+      "name": "Weapon: simple, martial"
+    },
+    "id-00002": {
+      "name": "Armor: light, medium, shields (except tower shields)"
+    }
+  },
+  "race": "Human",
+  "racelink": {
+    "class": "referencerace",
+    "recordname": "race.human@Pathfinder Core Rules"
+  },
+  "saves": {
+    "fortitude": {
+      "base": 2,
+      "misc": 0,
+      "temporary": 0,
+      "total": 2
+    },
+    "reflex": {
+      "base": 0,
+      "misc": 0,
+      "temporary": 0,
+      "total": 0
+    },
+    "will": {
+      "base": 0,
+      "misc": 0,
+      "temporary": 0,
+      "total": 0
+    }
+  },
+  "size": "Medium",
+  "skilllist": {
+    "id-00001": {
+      "label": "Acrobatics",
+      "showonminisheet": 1,
+      "state": 1,
+      "statname": "dexterity"
+    },
+    "id-00002": {
+      "label": "Climb",
+      "showonminisheet": 1,
+      "state": 1,
+      "statname": "strength"
+    },
+    "id-00003": {
+      "label": "Craft",
+      "showonminisheet": 1,
+      "state": 1,
+      "statname": "intelligence"
+    },
+    "id-00004": {
+      "label": "Handle Animal",
+      "showonminisheet": 1,
+      "state": 1,
+      "statname": "charisma"
+    },
+    "id-00005": {
+      "label": "Intimidate",
+      "showonminisheet": 1,
+      "state": 1,
+      "statname": "charisma"
+    },
+    "id-00006": {
+      "label": "Knowledge",
+      "showonminisheet": 1,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Nature"
+    },
+    "id-00007": {
+      "label": "Perception",
+      "showonminisheet": 1,
+      "state": 1,
+      "statname": "wisdom"
+    },
+    "id-00008": {
+      "label": "Ride",
+      "showonminisheet": 1,
+      "state": 1,
+      "statname": "dexterity"
+    },
+    "id-00009": {
+      "label": "Survival",
+      "showonminisheet": 1,
+      "state": 1,
+      "statname": "wisdom"
+    },
+    "id-00010": {
+      "label": "Swim",
+      "showonminisheet": 1,
+      "state": 1,
+      "statname": "strength"
+    }
+  },
+  "specialabilitylist": {
+    "id-00001": {
+      "level": 1,
+      "locked": 1,
+      "name": "Fast movement",
+      "source": "Barbarian",
+      "text": "<p>A barbarian's land speed is faster than the norm for her race by +10 feet. This benefit applies only when she is wearing no armor, light armor, or medium armor, and not carrying a heavy load. Apply this bonus before modifying the barbarian's speed because of any load carried or armor worn. This bonus stacks with any other bonuses to the barbarian's land speed.</p>"
+    },
+    "id-00002": {
+      "level": 1,
+      "locked": 1,
+      "name": "Rage",
+      "source": "Barbarian",
+      "text": "<p>A barbarian can call upon inner reserves of strength and ferocity, granting her additional combat prowess. Starting at 1st level, a barbarian can rage for a number of rounds per day equal to 4 + her Constitution modifier. At each level after 1st, she can rage for 2 additional rounds. Temporary increases to Constitution, such as those gained from rage and spells like <i>bear's endurance </i>, do not increase the total number of rounds that a barbarian can rage per day. A barbarian can enter rage as a free action. The total number of rounds of rage per day is renewed after resting for 8 hours, although these hours do not need to be consecutive.</p>\n\t\t\t\t\t\t<p>While in rage, a barbarian gains a +4 morale bonus to her Strength and Constitution, as well as a +2 morale bonus on Will saves. In addition, she takes a -2 penalty to Armor Class. The increase to Constitution grants the barbarian 2 hit points per Hit Dice, but these disappear when the rage ends and are not lost first like temporary hit points. While in rage, a barbarian cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration.</p>\n\t\t\t\t\t\t<p>A barbarian can end her rage as a free action and is fatigued after rage for a number of rounds equal to 2 times the number of rounds spent in the rage. A barbarian cannot enter a new rage while fatigued or exhausted but can otherwise enter rage multiple times during a single encounter or combat. If a barbarian falls unconscious, her rage immediately ends, placing her in peril of death.</p>"
+    }
+  },
+  "speed": {
+    "armor": 0,
+    "base": 30,
+    "fastmovement": 10,
+    "final": 40,
+    "misc": 0,
+    "temporary": 0
+  },
+  "spellset": {
+    "id-00001": {
+      "availablelevel4": 1,
+      "castertype": "points",
+      "cl": 7,
+      "dc": "",
+      "label": "Wand of Air Walk",
+      "levels": {
+        "level4": {
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "savedcmod": 16,
+                  "savedctype": "fixed",
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "damagelist": {
+                    "id-00001": {
+                      "bonus": 0,
+                      "dice": "d6"
+                    }
+                  },
+                  "type": "damage"
+                }
+              },
+              "castingtime": "1 standard action",
+              "components": "V, S, DF",
+              "cost": 1,
+              "description": "The subject can tread on air as if walking on solid ground. Moving upward is similar to walking up a hill. The maximum upward or downward angle possible is 45 degrees, at a rate equal to half the air walker's normal speed.\\n\\nA strong wind (21+ miles per hour) can push the subject along or hold it back. At the end of a creature's turn each round, the wind blows the air walker 5 feet for each 5 miles per hour of wind speed. The creature may be subject to additional penalties in exceptionally strong or turbulent winds, such as loss of control over movement or physical damage from being buffeted about.\\n\\nShould the spell duration expire while the subject is still aloft, the magic fails slowly. The subject floats downward 60 feet per round for 1d6 rounds. If it reaches the ground in that amount of time, it lands safely. If not, it falls the rest of the distance, taking 1d6 points of damage per 10 feet of fall. Since dispelling a spell effectively ends it, the subject also descends in this way if the air walk spell is dispelled, but not if it is negated by an antimagic field .\\n\\nYou can cast air walk on a specially trained mount so it can be ridden through the air. You can train a mount to move with the aid of air walk (counts as a trick; see Handle Animal skill) with 1 week of work and a DC 25 Handle Animal check.",
+              "duration": "10 min./level",
+              "effect": "Target-creature (Gargantuan or smaller) touched",
+              "level": "Alchemist 4, Cleric 4, Druid 4, Hunter 4, Investigator 4, Occultist 4, Oracle 4, Warpriest 4",
+              "linkedspells": "",
+              "name": "Air Walk",
+              "range": "touch",
+              "save": "none",
+              "school": "transmutation [air]",
+              "shortdescription": "Subject treads on air as if solid (climb or descend at 45-degree angle).",
+              "sr": "yes (harmless)",
+              "text": "<p>The subject can tread on air as if walking on solid ground. Moving upward is similar to walking up a hill. The maximum upward or downward angle possible is 45 degrees, at a rate equal to half the air walker's normal speed.</p>\n\t\t\t\t\t\t\t\t\t\t<p>A strong wind (21+ miles per hour) can push the subject along or hold it back. At the end of a creature's turn each round, the wind blows the air walker 5 feet for each 5 miles per hour of wind speed. The creature may be subject to additional penalties in exceptionally strong or turbulent winds, such as loss of control over movement or physical damage from being buffeted about.</p>\n\t\t\t\t\t\t\t\t\t\t<p>Should the spell duration expire while the subject is still aloft, the magic fails slowly. The subject floats downward 60 feet per round for 1d6 rounds. If it reaches the ground in that amount of time, it lands safely. If not, it falls the rest of the distance, taking 1d6 points of damage per 10 feet of fall. Since dispelling a spell effectively ends it, the subject also descends in this way if the <i>air walk </i>spell is dispelled, but not if it is negated by an <i>antimagic field </i>.</p>\n\t\t\t\t\t\t\t\t\t\t<p>You can cast <i>air walk </i>on a specially trained mount so it can be ridden through the air. You can train a mount to move with the aid of <i>air walk </i>(counts as a trick; see Handle Animal skill) with 1 week of work and a DC 25 Handle Animal check.</p>"
+            }
+          }
+        }
+      },
+      "mc_item": "charsheet.id-00002.inventorylist.id-00001",
+      "points": 50,
+      "pointsused": 0
+    }
+  },
+  "temp": "",
+  "token": "portrait_id-00002_token",
+  "traitlist": {
+    "id-00001": {
+      "locked": 1,
+      "name": "Bonus Feat",
+      "source": "Human",
+      "text": "<p>Humans select one extra feat at 1st level.</p>"
+    },
+    "id-00002": {
+      "locked": 1,
+      "name": "Skilled",
+      "source": "Human",
+      "text": "<p>Humans gain an additional skill rank at first level and one additional rank whenever they gain a level.</p>"
+    }
+  },
+  "weaponlist": ""
+}

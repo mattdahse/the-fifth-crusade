@@ -1,0 +1,2460 @@
+{
+  "campaign": "The Real Work",
+  "record": "charsheet.id-00001",
+  "abilities": {
+    "charisma": {
+      "abilperms": {
+        "id-00001": {
+          "bonus_type": "racial",
+          "name": "Racial Attribute Adjustments",
+          "permnum": -2
+        }
+      },
+      "base": 12,
+      "bonus": 0,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": -2,
+      "permbon": 1,
+      "score": 10
+    },
+    "constitution": {
+      "base": 10,
+      "bonus": -1,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 9
+    },
+    "dexterity": {
+      "abilperms": {
+        "id-00001": {
+          "bonus_type": "racial",
+          "name": "Racial Attribute Adjustments",
+          "permnum": 2
+        }
+      },
+      "base": 17,
+      "bonus": 4,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 2,
+      "permbon": 1,
+      "score": 19
+    },
+    "intelligence": {
+      "abilperms": {
+        "id-00001": {
+          "bonus_type": "racial",
+          "name": "Racial Attribute Adjustments",
+          "permnum": 2
+        }
+      },
+      "base": 16,
+      "bonus": 4,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 2,
+      "permbon": 1,
+      "score": 18
+    },
+    "strength": {
+      "abilperms": "",
+      "base": 10,
+      "bonus": 0,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 10
+    },
+    "wisdom": {
+      "base": 10,
+      "bonus": -1,
+      "bonusmodifier": 0,
+      "damage": 0,
+      "perm": 0,
+      "permbon": 1,
+      "score": 9
+    }
+  },
+  "ac": {
+    "sources": {
+      "abilitymod": 4,
+      "abilitymod2": 0,
+      "armor": 0,
+      "cmdabilitymod": 0,
+      "cmdbasemod": 1,
+      "cmdmisc": 0,
+      "deflection": 0,
+      "dodge": 0,
+      "ffmisc": 0,
+      "misc": 0,
+      "naturalarmor": 0,
+      "shield": 0,
+      "size": 0,
+      "temporary": 0,
+      "touchmisc": 0
+    },
+    "totals": {
+      "cmd": 15,
+      "flatfooted": 10,
+      "general": 14,
+      "touch": 14
+    }
+  },
+  "age": "34",
+  "alignment": "CN",
+  "appearance": "**Riven Maelus** is a young male tiefling with dusky skin and a lean, wiry build. Two thick horns curl back from his head like a ram's, giving him a distinctive silhouette beneath his worn, hooded cloak. He wears practical traveling clothes, sturdy boots, and well-maintained gear suited to life on the road. His appearance is that of a wanderer rather than a conventional scholar.\\n\\nThough a wizard by trade, Riven carries himself with the quiet alertness of someone accustomed to watching his surroundings. His eyes frequently move toward doorways, unfamiliar faces, and anything that seems out of place. He is approachable and comfortable speaking with strangers, but keeps his personal history to himself.",
+  "attackbonus": {
+    "base": 1,
+    "grapple": {
+      "abilitymod": 0,
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": 1
+    },
+    "melee": {
+      "abilitymod": 0,
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": 1
+    },
+    "ranged": {
+      "abilitymod": 4,
+      "misc": 0,
+      "size": 0,
+      "temporary": 0,
+      "total": 5
+    }
+  },
+  "classes": {
+    "id-00001": {
+      "favored": 0,
+      "level": 2,
+      "name": "Wizard",
+      "shortcut": {
+        "class": "referenceclass",
+        "recordname": "class.wizard@Pathfinder Core Rules"
+      },
+      "skillranks": 14,
+      "skillranksused": 14
+    }
+  },
+  "coins": {
+    "id-00001": {
+      "amount": 0,
+      "name": "PP"
+    },
+    "id-00002": {
+      "amount": 18,
+      "name": "GP"
+    },
+    "id-00003": {
+      "amount": 3,
+      "name": "SP"
+    },
+    "id-00004": {
+      "amount": 0,
+      "name": "CP"
+    }
+  },
+  "defenses": {
+    "sr": {
+      "base": 0,
+      "misc": 0,
+      "temporary": 0,
+      "total": 0
+    }
+  },
+  "deity": "Desna",
+  "encumbrance": {
+    "armorcheckpenalty": 0,
+    "armormaxstatbonus": 0,
+    "armormaxstatbonusactive": 0,
+    "checkpenalty": 0,
+    "heavyload": 100,
+    "level": 0,
+    "liftoffground": 200,
+    "liftoverhead": 100,
+    "lightload": 33,
+    "load": 6.42,
+    "maxstatbonus": 0,
+    "mediumload": 66,
+    "pushordrag": 500,
+    "spellfailure": 0
+  },
+  "exp": 2347,
+  "expneeded": 2000,
+  "featlist": {
+    "id-00002": {
+      "benefit": "<p>You get a +1 bonus on attack and damage rolls with ranged weapons at ranges of up to 30 feet.</p>",
+      "locked": 1,
+      "name": "Point Blank Shot",
+      "normal": "<p>-</p>",
+      "prerequisites": "-",
+      "special": "<p>-</p>",
+      "summary": "+1 attack and damage on targets within 30 feet",
+      "type": "Combat"
+    }
+  },
+  "gender": "Male",
+  "height": "5' 10\"",
+  "heropoint": 1,
+  "hp": {
+    "nonlethal": 0,
+    "temporary": 0,
+    "total": 9,
+    "wounds": 0
+  },
+  "initiative": {
+    "abilitymod": 4,
+    "misc": 2,
+    "temporary": 0,
+    "total": 6
+  },
+  "inventorylist": {
+    "id-00001": {
+      "carried": 0,
+      "cost": "5 sp",
+      "count": 7,
+      "excludedFromPurchase": 0,
+      "isidentified": 1,
+      "location": "Backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00001.inventorylist.id-00004"
+      },
+      "locked": 1,
+      "name": "Rations, trail (per day)",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 1
+    },
+    "id-00002": {
+      "carried": 0,
+      "cost": "1 sp",
+      "count": 1,
+      "excludedFromPurchase": 0,
+      "isidentified": 1,
+      "location": "Backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00001.inventorylist.id-00004"
+      },
+      "locked": 1,
+      "name": "Bedroll",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 5
+    },
+    "id-00003": {
+      "carried": 2,
+      "cost": "2 gp",
+      "count": 2,
+      "critical": "19-20/x2",
+      "damage": "1d4",
+      "damagetype": "Piercing or slashing",
+      "description": "<p>A dagger has a blade that is about 1 foot in length. You get a +2 bonus on Sleight of Hand skill checks made to conceal a dagger on your body</p>",
+      "excludedFromPurchase": 0,
+      "isidentified": 1,
+      "location": "Belt",
+      "locked": 1,
+      "name": "Dagger",
+      "range": 10,
+      "showonminisheet": 1,
+      "subtype": "Simple Light Melee",
+      "type": "Weapon",
+      "weight": 1
+    },
+    "id-00004": {
+      "carried": 0,
+      "contentscount": 0,
+      "contentsvolume": 0,
+      "cost": "2 gp",
+      "count": 1,
+      "excludedFromPurchase": 0,
+      "extraplanarcontents": 0,
+      "isidentified": 1,
+      "location": "Back",
+      "locked": 1,
+      "name": "Backpack",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 2
+    },
+    "id-00005": {
+      "carried": 0,
+      "cost": "5 sp",
+      "count": 1,
+      "excludedFromPurchase": 0,
+      "isidentified": 1,
+      "location": "Backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00001.inventorylist.id-00004"
+      },
+      "locked": 1,
+      "name": "Blanket, winter",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 3
+    },
+    "id-00006": {
+      "carried": 2,
+      "cost": "-",
+      "count": 1,
+      "critical": "x2",
+      "damage": "1d6/1d6",
+      "damagetype": "Bludgeoning",
+      "description": "<p>A quarterstaff is a simple piece of wood, about 5 feet in length.</p>",
+      "excludedFromPurchase": 0,
+      "isidentified": 1,
+      "locked": 1,
+      "name": "Quarterstaff (Bonded)",
+      "properties": "Double, Monk",
+      "range": 0,
+      "showonminisheet": 1,
+      "subtype": "Simple Two-Handed Melee",
+      "type": "Weapon",
+      "weight": 4
+    },
+    "id-00007": {
+      "carried": 0,
+      "contentscount": 0,
+      "contentsvolume": 0,
+      "cost": "5 gp",
+      "count": 1,
+      "extraplanarcontents": 0,
+      "isidentified": 1,
+      "location": "Backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00001.inventorylist.id-00004"
+      },
+      "locked": 1,
+      "name": "Spell component pouch",
+      "showonminisheet": 1,
+      "subtype": "Tools and Skill Kits",
+      "type": "Goods and Services",
+      "weight": 2
+    },
+    "id-00008": {
+      "carried": 0,
+      "count": 1,
+      "location": "Backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00001.inventorylist.id-00004"
+      },
+      "name": "Note from Mira",
+      "showonminisheet": 1,
+      "weight": 0
+    },
+    "id-00009": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 0,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "50 gp",
+      "count": 4,
+      "depth": 0,
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "Backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00001.inventorylist.id-00004"
+      },
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Potion (Cure Light Wounds)",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "type": "Potion",
+      "volume": 0,
+      "weight": 0,
+      "width": 0
+    },
+    "id-00010": {
+      "carried": 0,
+      "cost": "8 sp",
+      "count": 1,
+      "isidentified": 1,
+      "location": "Backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00001.inventorylist.id-00004"
+      },
+      "locked": 1,
+      "name": "Signal whistle",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 0
+    },
+    "id-00011": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 0,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "110 gp",
+      "count": 1,
+      "depth": 0,
+      "description": "<p>This otherwise normal torch has a <i>continual flame </i>spell cast on it. This causes it to shed light like an ordinary torch, but it does not emit heat or deal fire damage if used as a weapon.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "Backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00001.inventorylist.id-00004"
+      },
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Everburning torch",
+      "pfslegal": "True",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "volume": 0,
+      "weight": 1,
+      "width": 0
+    },
+    "id-00012": {
+      "aura": "Faint conjuration",
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 0,
+      "charges": 0,
+      "cl": 1,
+      "contentsvolume": 0,
+      "cost": "50 gp",
+      "count": 1,
+      "depth": 0,
+      "description": "<p>A stoppered glass vial of cloudy red liquid, about two swallows. A paper tag tied at the neck carries a stock number, <i>H.E. 214, </i>and beside it a tiny, careful drawing of a flask.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "Backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00001.inventorylist.id-00004"
+      },
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Potion of Cure Light Wounds",
+      "nonid_name": "A vial of cloudy red liquid with a paper tag",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "type": "Potion",
+      "volume": 0,
+      "weight": 0.1,
+      "width": 0
+    },
+    "id-00013": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 0,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "0 gp",
+      "count": 1,
+      "depth": 0,
+      "description": "<p>A palm-sized slate, chalked and rubbed and chalked again. Four strokes in a row, the top one rewritten far more often than the others.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 0,
+      "length": 0,
+      "location": "Backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00001.inventorylist.id-00004"
+      },
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Cellar Muster Slate",
+      "nonid_name": "A palm-sized slate, chalked and rubbed and chalked again",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "type": "Gear",
+      "volume": 0,
+      "weight": 2,
+      "width": 0
+    },
+    "id-00014": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 0,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "0 gp",
+      "count": 6,
+      "depth": 0,
+      "description": "<p>A pass for the citadel gate on good paper, correct in every particular except that nobody has signed it.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "Backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00001.inventorylist.id-00004"
+      },
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Blank Pass",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "type": "Gear",
+      "volume": 0,
+      "weight": 0.1,
+      "width": 0
+    },
+    "id-00015": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 0,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "1 gp",
+      "count": 1,
+      "depth": 0,
+      "description": "<p>A white tabard of Iomedae's Preservers, newly made, the sword on the breast stitched in cheap red thread.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "Backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00001.inventorylist.id-00004"
+      },
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Preservers' Tabard",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "type": "Gear",
+      "volume": 0,
+      "weight": 2,
+      "width": 0
+    },
+    "id-00016": {
+      "capacitycount": 0,
+      "capacityweight": 0,
+      "carried": 0,
+      "charges": 0,
+      "cl": 0,
+      "contentsvolume": 0,
+      "cost": "5 sp",
+      "count": 1,
+      "depth": 0,
+      "description": "<p>A long scarf of blue wool with a row of small white stars embroidered along one edge. The stitching on the third star has been picked half loose, the way a thumbnail worries at something while its owner waits.</p>",
+      "extraplanarcontents": 0,
+      "internal_depth": 0,
+      "internal_length": 0,
+      "internal_volume": 0,
+      "internal_width": 0,
+      "isidentified": 1,
+      "length": 0,
+      "location": "Backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00001.inventorylist.id-00004"
+      },
+      "locked": 1,
+      "max_charges": 1,
+      "name": "Blue Wool Scarf",
+      "showonminisheet": 1,
+      "spell_caster_level": "item_caster_level",
+      "spells": "",
+      "type": "Gear",
+      "volume": 0,
+      "weight": 0.5,
+      "width": 0
+    },
+    "id-00017": {
+      "carried": 0,
+      "cost": "1 gp",
+      "count": 1,
+      "isidentified": 1,
+      "location": "Backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00001.inventorylist.id-00004"
+      },
+      "locked": 1,
+      "name": "Rope, hempen (50 ft.)",
+      "showonminisheet": 1,
+      "subtype": "Adventuring Gear",
+      "type": "Goods and Services",
+      "weight": 10
+    },
+    "id-00018": {
+      "carried": 0,
+      "cost": "2 gp",
+      "count": 1,
+      "isidentified": 1,
+      "location": "Backpack",
+      "locationshortcut": {
+        "class": "item",
+        "recordname": "charsheet.id-00001.inventorylist.id-00004"
+      },
+      "locked": 1,
+      "name": "Sunrod",
+      "showonminisheet": 1,
+      "subtype": "Special Substances and Items",
+      "type": "Goods and Services",
+      "weight": 1
+    }
+  },
+  "languagelist": {
+    "id-00001": {
+      "name": "Common"
+    },
+    "id-00002": {
+      "name": "Infernal"
+    },
+    "id-00003": {
+      "name": "Abyssal"
+    },
+    "id-00004": {
+      "name": "Celestial"
+    },
+    "id-00005": {
+      "name": "Draconic"
+    },
+    "id-00006": {
+      "name": "Elven"
+    },
+    "id-00007": {
+      "name": "Hallit"
+    }
+  },
+  "level": 2,
+  "locked": 1,
+  "name": "Riven Maelus",
+  "notes": "Opposition Schools: Enchantment / Divination",
+  "proficiencylist": {
+    "id-00001": {
+      "name": "Weapon: club, dagger, heavy crossbow, light crossbow, quarterstaff"
+    }
+  },
+  "race": "Tiefling",
+  "racelink": {
+    "class": "referencerace",
+    "recordname": "reference.races.id-00011@Pathfinder Bestiary"
+  },
+  "saves": {
+    "fortitude": {
+      "abilitymod": -1,
+      "base": 0,
+      "misc": 0,
+      "temporary": 0,
+      "total": -1
+    },
+    "reflex": {
+      "abilitymod": 4,
+      "base": 0,
+      "misc": 0,
+      "temporary": 0,
+      "total": 4
+    },
+    "will": {
+      "abilitymod": -1,
+      "base": 3,
+      "misc": 0,
+      "temporary": 0,
+      "total": 2
+    }
+  },
+  "senses": "Darkvision 60",
+  "size": "Medium",
+  "skilllist": {
+    "id-00001": {
+      "armorcheckmultiplier": 0,
+      "label": "Bluff",
+      "misc": 2,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 0,
+      "statname": "charisma",
+      "total": 3
+    },
+    "id-00002": {
+      "armorcheckmultiplier": 1,
+      "label": "Stealth",
+      "misc": 2,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 7
+    },
+    "id-00003": {
+      "armorcheckmultiplier": 0,
+      "label": "Appraise",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "intelligence",
+      "total": 4
+    },
+    "id-00004": {
+      "armorcheckmultiplier": 0,
+      "label": "Craft",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "intelligence",
+      "total": 4
+    },
+    "id-00005": {
+      "armorcheckmultiplier": 1,
+      "label": "Fly",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "dexterity",
+      "total": 4
+    },
+    "id-00006": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Arcana",
+      "total": 8
+    },
+    "id-00007": {
+      "armorcheckmultiplier": 0,
+      "label": "Linguistics",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "intelligence",
+      "total": 8
+    },
+    "id-00008": {
+      "armorcheckmultiplier": 0,
+      "label": "Profession",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": -1,
+      "state": 1,
+      "statname": "wisdom",
+      "total": -1
+    },
+    "id-00009": {
+      "armorcheckmultiplier": 0,
+      "label": "Spellcraft",
+      "misc": 0,
+      "ranks": 2,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "intelligence",
+      "total": 9
+    },
+    "id-00010": {
+      "armorcheckmultiplier": 0,
+      "label": "Intimidate",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 0,
+      "statname": "charisma",
+      "total": 0
+    },
+    "id-00011": {
+      "armorcheckmultiplier": 1,
+      "label": "Climb",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 0,
+      "statname": "strength",
+      "total": 0
+    },
+    "id-00012": {
+      "armorcheckmultiplier": 1,
+      "label": "Escape Artist",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 4
+    },
+    "id-00013": {
+      "armorcheckmultiplier": 0,
+      "label": "Diplomacy",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 0,
+      "statname": "charisma",
+      "total": 0
+    },
+    "id-00014": {
+      "armorcheckmultiplier": 0,
+      "label": "Perception",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": -1,
+      "state": 0,
+      "statname": "wisdom",
+      "total": -1
+    },
+    "id-00015": {
+      "armorcheckmultiplier": 1,
+      "label": "Disable Device",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "dexterity",
+      "total": 8
+    },
+    "id-00016": {
+      "armorcheckmultiplier": 1,
+      "label": "Acrobatics",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 4
+    },
+    "id-00017": {
+      "armorcheckmultiplier": 0,
+      "label": "Use Magic Device",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 0,
+      "stat": 0,
+      "state": 0,
+      "statname": "charisma",
+      "total": 1
+    },
+    "id-00018": {
+      "armorcheckmultiplier": 0,
+      "label": "Handle Animal",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 0,
+      "stat": 0,
+      "state": 0,
+      "statname": "charisma",
+      "total": 0
+    },
+    "id-00019": {
+      "armorcheckmultiplier": 1,
+      "label": "Swim",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 0,
+      "statname": "strength",
+      "total": 0
+    },
+    "id-00020": {
+      "armorcheckmultiplier": 1,
+      "label": "Sleight of Hand",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 4
+    },
+    "id-00021": {
+      "armorcheckmultiplier": 0,
+      "label": "Survival",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": -1,
+      "state": 0,
+      "statname": "wisdom",
+      "total": 0
+    },
+    "id-00022": {
+      "armorcheckmultiplier": 0,
+      "label": "Disguise",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 0,
+      "state": 0,
+      "statname": "charisma",
+      "total": 0
+    },
+    "id-00023": {
+      "armorcheckmultiplier": 0,
+      "label": "Sense Motive",
+      "misc": 0,
+      "ranks": 2,
+      "showonminisheet": 1,
+      "stat": -1,
+      "state": 0,
+      "statname": "wisdom",
+      "total": 1
+    },
+    "id-00024": {
+      "armorcheckmultiplier": 1,
+      "label": "Ride",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 0,
+      "statname": "dexterity",
+      "total": 4
+    },
+    "id-00025": {
+      "armorcheckmultiplier": 0,
+      "label": "Heal",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": -1,
+      "state": 0,
+      "statname": "wisdom",
+      "total": -1
+    },
+    "id-00026": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Religion",
+      "total": 8
+    },
+    "id-00027": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 0,
+      "ranks": 0,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Planes",
+      "total": 4
+    },
+    "id-00028": {
+      "armorcheckmultiplier": 0,
+      "label": "Knowledge",
+      "misc": 0,
+      "ranks": 1,
+      "showonminisheet": 1,
+      "stat": 4,
+      "state": 1,
+      "statname": "intelligence",
+      "sublabel": "Local",
+      "total": 8
+    }
+  },
+  "skillpoints": {
+    "spent": 13
+  },
+  "specialabilitylist": {
+    "id-00001": {
+      "level": 1,
+      "locked": 1,
+      "name": "Arcane bond (Ex or Sp)",
+      "source": "Wizard",
+      "text": "<p>At 1st level, wizards form a powerful bond with an object or a creature. This bond can take one of two forms: a familiar or a bonded object. A familiar is a magical pet that enhances the wizard's skills and senses and can aid him in magic, while a bonded object is an item a wizard can use to cast additional spells or to serve as a magical item. Once a wizard makes this choice, it is permanent and cannot be changed. Rules for bonded items are given below, while rules for familiars are at the end of this section.</p>\n\t\t\t\t\t\t<p>Wizards who select a bonded object begin play with one at no cost. Objects that are the subject of an arcane bond must fall into one of the following categories - amulet, ring, staff, wand, or weapon. These objects are always masterwork quality. Weapons acquired at 1st level are not made of any special material. If the object is an amulet or ring, it must be worn to have effect, while staves, wands, and weapons must be wielded. If a wizard attempts to cast a spell without his bonded object worn or in hand, he must make a concentration check or lose the spell. The DC for this check is equal to 20 + the spell's level. If the object is a ring or amulet, it occupies the ring or neck slot accordingly.</p>\n\t\t\t\t\t\t<p>A bonded object can be used once per day to cast any one spell that the wizard has in his spellbook and is capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by the wizard, including casting time, duration, and other effects dependent on the wizard's level. This spell cannot be modified by metamagic feats or other abilities. The bonded object cannot be used to cast spells from the wizard's opposition schools (see arcane school).</p>\n\t\t\t\t\t\t<p>A wizard can add additional magic abilities to his bonded object as if he has the required item creation feats and if he meets the level prerequisites of the feat. For example, a wizard with a bonded dagger must be at least 5th level to add magic abilities to the dagger (see the Craft Magic Arms and Armor feat in Feats). If the bonded object is a wand, it loses its wand abilities when its last charge is consumed, but it is not destroyed and it retains all of its bonded object properties and can be used to craft a new wand. The magic properties of a bonded object, including any magic abilities added to the object, only function for the wizard who owns it. If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary masterwork item of the appropriate type.</p>\n\t\t\t\t\t\t<p>If a bonded object is damaged, it is restored to full hit points the next time the wizard prepares his spells. If the object of an arcane bond is lost or destroyed, it can be replaced after 1 week in a special ritual that costs 200 gp per wizard level plus the cost of the masterwork item. This ritual takes 8 hours to complete. Items replaced in this way do not possess any of the additional enchantments of the previous bonded item. A wizard can designate an existing magic item as his bonded item. This functions in the same way as replacing a lost or destroyed item except that the new magic item retains its abilities while gaining the benefits and drawbacks of becoming a bonded item.</p>"
+    },
+    "id-00002": {
+      "level": 1,
+      "locked": 1,
+      "name": "Arcane school",
+      "source": "Wizard",
+      "text": "<p>A wizard can choose to specialize in one school of magic, gaining additional spells and powers based on that school. This choice must be made at 1st level, and once made, it cannot be changed. A wizard that does not select a school receives the universalist school instead.</p>\n\t\t\t\t\t\t<p>A wizard that chooses to specialize in one school of magic must select two other schools as his opposition schools, representing knowledge sacrificed in one area of arcane lore to gain mastery in another. A wizard who prepares spells from his opposition schools must use two spell slots of that level to prepare the spell. For example, a wizard with evocation as an opposition school must expend two of his available 3rd-level spell slots to prepare a <i>fireball </i>. In addition, a specialist takes a -4 penalty on any skill checks made when crafting a magic item that has a spell from one of his opposition schools as a prerequisite. A universalist wizard can prepare spells from any school without restriction.</p>\n\t\t\t\t\t\t<p>Each arcane school gives the wizard a number of school powers. In addition, specialist wizards receive an additional spell slot of each spell level he can cast, from 1st on up. Each day, a wizard can prepare a spell from his specialty school in that slot. This spell must be in the wizard's spellbook. A wizard can select a spell modified by a metamagic feat to prepare in his school slot, but it uses up a higher-level spell slot. Wizards with the universalist school do not receive a school slot.</p>"
+    },
+    "id-00003": {
+      "level": 1,
+      "locked": 1,
+      "name": "Cantrips",
+      "source": "Wizard",
+      "text": "<p>Wizards can prepare a number of cantrips, or 0-level spells, each day, as noted on the Wizard Table under \"Spells per Day.\" These spells are cast like any other spell, but they are not expended when cast and may be used again. A wizard can prepare a cantrip from a prohibited school, but it uses up two of his available slots (see below).</p>"
+    },
+    "id-00004": {
+      "level": 1,
+      "locked": 1,
+      "name": "Scribe Scroll",
+      "source": "Wizard",
+      "text": "<p>At 1st level, a wizard gains Scribe Scroll as a bonus feat.</p>"
+    },
+    "id-00005": {
+      "level": 1,
+      "locked": 1,
+      "name": "Spells",
+      "source": "Wizard",
+      "text": "<p>A wizard casts arcane spells drawn from the sorcerer/wizard spell list presented in Spell Lists. A wizard must choose and prepare his spells ahead of time.</p>\n\t\t\t\t\t\t<p>To learn, prepare, or cast a spell, the wizard must have an Intelligence score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a wizard's spell is 10 + the spell level + the wizard's Intelligence modifier.</p>\n\t\t\t\t\t\t<p>A wizard can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given on the Wizard Table. In addition, he receives bonus spells per day if he has a high Intelligence score (see Ability Modifiers and Bonus Spells).</p>\n\t\t\t\t\t\t<p>A wizard may know any number of spells. He must choose and prepare his spells ahead of time by getting 8 hours of sleep and spending 1 hour studying his spellbook. While studying, the wizard decides which spells to prepare.</p>"
+    },
+    "id-00020": {
+      "level": 1,
+      "locked": 1,
+      "name": "Arcane School: Transmutation",
+      "source": "Wizard",
+      "text": "<p>Evocation, with Enchantment and Necromancy as opposition schools. Preparing a spell from an opposition school costs two slots of that level, and Spellcraft checks to learn them take a -4 penalty.</p>"
+    },
+    "id-00021": {
+      "level": 1,
+      "locked": 1,
+      "name": "Telekinetic Fist (Sp)",
+      "source": "Wizard",
+      "text": "<p>As a standard action you can strike with a telekinetic fist, targeting any foe within 30 feet as a ranged touch attack. The telekinetic fist deals 1d4 points of bludgeoning damage + 1 for every two wizard levels you possess.</p>\n\t\t\t\t\t\t<p>You can use this ability a number of times per day equal to 3 + your Intelligence modifier.</p>"
+    },
+    "id-00022": {
+      "level": 1,
+      "locked": 1,
+      "name": "Physical Enhancement (Su)",
+      "source": "Wizard",
+      "text": "<p>You gain a +1 enhancement bonus to one physical ability score (Strength, Dexterity, or Constitution). This bonus increases by +1 for every five wizard levels you possess to a maximum of +5 at 20th level.</p>\n\t\t\t\t\t\t<p />\n\t\t\t\t\t\t<p>You can change this bonus to a new ability score when you prepare spells. At 20th level, this bonus applies to two physical ability scores of your choice.</p>"
+    }
+  },
+  "speed": {
+    "armor": 0,
+    "base": 30,
+    "fastmovement": 0,
+    "final": 30,
+    "misc": 0,
+    "temporary": 0,
+    "total": 30
+  },
+  "spelldisplaymode": "action",
+  "spellmode": "combat",
+  "spellset": {
+    "id-00001": {
+      "availablelevel0": 5,
+      "availablelevel1": 4,
+      "availablelevel2": 0,
+      "availablelevel3": 0,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "castertype": "prepared",
+      "cc": {
+        "misc": 0
+      },
+      "cl": 2,
+      "dc": {
+        "ability": "intelligence",
+        "abilitymod": 4,
+        "misc": 0,
+        "total": 14
+      },
+      "label": "Wizard",
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 0,
+          "spells": {
+            "id-00002": {
+              "actions": {
+                "id-00001": {
+                  "atktype": "rtouch",
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "damagelist": {
+                    "id-00001": {
+                      "bonus": 0,
+                      "dice": "d3",
+                      "type": "acid"
+                    }
+                  },
+                  "order": 2,
+                  "type": "damage"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 0,
+              "description": "You fire a small orb of acid at the target. You must succeed on a ranged touch attack to hit your target. The orb deals 1d3 points of acid damage. This acid disappears after 1 round.",
+              "duration": "instantaneous",
+              "effect": "Effect-one missile of acid",
+              "level": "Arcanist 0, Inquisitor 0, Magus 0, Sorcerer 0, Summoner 0, Summoner UC 0, Wizard 0",
+              "linkedspells": "",
+              "name": "Acid Splash",
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "none",
+              "school": "conjuration (creation) [acid]",
+              "shortdescription": "Orb deals 1d3 acid damage.",
+              "sr": "no",
+              "text": "<p>You fire a small orb of acid at the target. You must succeed on a ranged touch attack to hit your target. The orb deals 1d3 points of acid damage. This acid disappears after 1 round.</p>"
+            },
+            "id-00003": {
+              "actions": {
+                "id-00001": {
+                  "atktype": "rtouch",
+                  "order": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "damagelist": {
+                    "id-00001": {
+                      "bonus": 0,
+                      "dice": "d3",
+                      "type": "cold"
+                    }
+                  },
+                  "order": 2,
+                  "type": "damage"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 0,
+              "description": "A ray of freezing air and ice projects from your pointing finger. You must succeed on a ranged touch attack with the ray to deal damage to a target. The ray deals 1d3 points of cold damage.",
+              "duration": "instantaneous",
+              "effect": "Effect-ray",
+              "level": "Arcanist 0, Magus 0, Sorcerer 0, Wizard 0",
+              "linkedspells": "",
+              "name": "Ray of Frost",
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "none",
+              "school": "evocation [cold]",
+              "shortdescription": "Ray deals 1d3 cold damage.",
+              "sr": "yes",
+              "text": "<p>A ray of freezing air and ice projects from your pointing finger. You must succeed on a ranged touch attack with the ray to deal damage to a target. The ray deals 1d3 points of cold damage.</p>"
+            },
+            "id-00004": {
+              "actions": {
+                "id-00001": {
+                  "atkmod": 0,
+                  "atktype": "mtouch",
+                  "clcmod": 0,
+                  "order": 1,
+                  "savedcmod": 0,
+                  "savetype": "fortitude",
+                  "srnotallowed": 0,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "dmaxstat": 0,
+                  "durdicestatmax": 0,
+                  "durmod": 0,
+                  "durmult": 1,
+                  "durstat": "cl",
+                  "label": "Fatigued; STR: -2; DEX: -2",
+                  "order": 2,
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M (a drop of sweat)",
+              "cost": 0,
+              "description": "You channel negative energy through your touch, fatiguing the target. You must succeed on a touch attack to strike a target. The subject is immediately fatigued for the spell's duration.\\n\\nThis spell has no effect on a creature that is already fatigued. Unlike with normal fatigue, the effect ends as soon as the spell's duration expires.",
+              "duration": "1 round/level",
+              "effect": "Target-creature touched",
+              "level": "Adept 0, Arcanist 0, Mesmerist 0, Occultist 0, Shaman 0, Sorcerer 0, Witch 0, Wizard 0",
+              "linkedspells": "",
+              "name": "Touch of Fatigue",
+              "range": "touch",
+              "save": "Fortitude negates",
+              "school": "necromancy",
+              "shortdescription": "Touch attack fatigues target.",
+              "sr": "yes",
+              "text": "<p>You channel negative energy through your touch, fatiguing the target. You must succeed on a touch attack to strike a target. The subject is immediately fatigued for the spell's duration.</p>\n\t\t\t\t\t\t\t\t\t\t<p>This spell has no effect on a creature that is already fatigued. Unlike with normal fatigue, the effect ends as soon as the spell's duration expires.</p>"
+            },
+            "id-00005": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 0,
+              "description": "You point your finger at an object and can lift it and move it at will from a distance. As a move action, you can propel the object as far as 15 feet in any direction, though the spell ends if the distance between you and the object ever exceeds the spell's range.",
+              "duration": "concentration",
+              "effect": "Target-one nonmagical, unattended object weighing up to 5 lbs.",
+              "level": "Arcanist 0, Bard 0, Magus 0, Medium 0, Mesmerist 0, Occultist 0, Psychic 0, Skald 0, Sorcerer 0, Spiritualist 0, Summoner 0, Summoner UC 0, Wizard 0",
+              "linkedspells": "",
+              "name": "Mage Hand",
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "none",
+              "school": "transmutation",
+              "shortdescription": "5-pound telekinesis.",
+              "sr": "no",
+              "text": "<p>You point your finger at an object and can lift it and move it at will from a distance. As a move action, you can propel the object as far as 15 feet in any direction, though the spell ends if the distance between you and the object ever exceeds the spell's range.</p>"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 1,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "atkmod": 0,
+                  "clcmod": 0,
+                  "order": 1,
+                  "savedcmod": 0,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "dmaxstat": 0,
+                  "durdicestatmax": 0,
+                  "durmod": 0,
+                  "durmult": 1,
+                  "durstat": "cl",
+                  "durunit": "hour",
+                  "label": "Mage Armor; AC: 4 armor",
+                  "order": 2,
+                  "type": "effect"
+                }
+              },
+              "cast": 1,
+              "castingtime": "1 standard action",
+              "components": "V, S, F (a piece of cured leather)",
+              "cost": 0,
+              "description": "An invisible but tangible field of force surrounds the subject of a mage armor spell, providing a +4 armor bonus to AC.\\n\\nUnlike mundane armor, mage armor entails no armor check penalty, arcane spell failure chance, or speed reduction. Since mage armor is made of force, incorporeal creatures can't bypass it the way they do normal armor.",
+              "duration": "1 hour/level (D)",
+              "effect": "Creature touched",
+              "level": "Sor/Wiz 1",
+              "linkedspells": "",
+              "name": "Mage Armor",
+              "prepared": 1,
+              "range": "Touch",
+              "save": "Will negates (harmless)",
+              "school": "Conjuration (Creation) [Force]",
+              "shortdescription": "Gives subject +4 armor bonus.",
+              "sr": "No"
+            },
+            "id-00002": {
+              "actions": {
+                "id-00001": {
+                  "type": "cast"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, F (small wooden replica of an archery target)",
+              "cost": 1,
+              "description": "You gain temporary, intuitive insight into the immediate future during your next attack. Your next single attack roll (if it is made before the end of the next round) gains a +20 insight bonus. Additionally, you are not affected by the miss chance that applies to attackers trying to strike a concealed target.",
+              "duration": "see text",
+              "effect": "Target-you",
+              "level": "Alchemist 1, Arcanist 1, Bloodrager 1, Inquisitor 1, Investigator 1, Magus 1, Medium 1, Psychic 1, Sorcerer 1, Wizard 1",
+              "linkedspells": "",
+              "name": "True Strike",
+              "range": "personal",
+              "school": "divination",
+              "shortdescription": "+20 on your next attack roll.",
+              "text": "<p>You gain temporary, intuitive insight into the immediate future during your next attack. Your next single attack roll (if it is made before the end of the next round) gains a +20 insight bonus. Additionally, you are not affected by the miss chance that applies to attackers trying to strike a concealed target.</p>"
+            },
+            "id-00003": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "srnotallowed": 1,
+                  "type": "cast"
+                }
+              },
+              "cast": 1,
+              "castingtime": "1 standard action",
+              "components": "V, S, M (butter)",
+              "cost": 0,
+              "description": "A grease spell covers a solid surface with a layer of slippery grease. Any creature in the area when the spell is cast must make a successful Reflex save or fall. A creature can walk within or through the area of grease at half normal speed with a DC 10 Acrobatics check. Failure means it can't move that round (and must then make a Reflex save or fall), while failure by 5 or more means it falls (see the Acrobatics skill for details). Creatures that do not move on their turn do not need to make this check and are not considered flat-footed.\\n\\nThe spell can also be used to create a greasy coating on an item. Material objects not in use are always affected by this spell, while an object wielded or employed by a creature requires its bearer to make a Reflex saving throw to avoid the effect. If the initial saving throw fails, the creature immediately drops the item. A saving throw must be made in each round that the creature attempts to pick up or use the greased item. A creature wearing greased armor or clothing gains a +10 circumstance bonus on Escape Artist checks and combat maneuver checks made to escape a grapple, and to their CMD to avoid being grappled.",
+              "duration": "1 min./level (D)",
+              "effect": "One object or a 10-ft. square",
+              "level": "Brd 1, Sor/Wiz 1",
+              "linkedspells": "",
+              "name": "Grease",
+              "prepared": 1,
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "See text",
+              "school": "Conjuration (Creation)",
+              "shortdescription": "Makes 10-ft. square or one object slippery.",
+              "sr": "No"
+            },
+            "id-00004": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "dmaxstat": 0,
+                  "durdicestatmax": 0,
+                  "durmod": 0,
+                  "durmult": 1,
+                  "durstat": "cl",
+                  "durunit": "minute",
+                  "label": "Shield; AC: 4 shield",
+                  "order": 2,
+                  "targeting": "self",
+                  "type": "effect"
+                }
+              },
+              "cast": 1,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "Shield creates an invisible shield of force that hovers in front of you. It negates magic missile attacks directed at you. The disk also provides a +4 shield bonus to AC. This bonus applies against incorporeal touch attacks, since it is a force effect. The shield has no armor check penalty or arcane spell failure chance.",
+              "duration": "1 min./level (D)",
+              "effect": "Target-you",
+              "level": "Alchemist 1, Arcanist 1, Bloodrager 1, Investigator 1, Magus 1, Occultist 1, Psychic 1, Sorcerer 1, Spiritualist 1, Summoner 1, Summoner UC 1, Wizard 1",
+              "linkedspells": "",
+              "name": "Shield",
+              "prepared": 1,
+              "range": "personal",
+              "school": "abjuration [force]",
+              "shortdescription": "Invisible disc gives +4 to AC, blocks",
+              "text": "<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>Shield </i>creates an invisible shield of force that hovers in front of you. It negates <i>magic missile </i>attacks directed at you. The disk also provides a +4 shield bonus to AC. This bonus applies against incorporeal touch attacks, since it is a force effect. The <i>shield </i>has no armor check penalty or arcane spell failure chance.</p>"
+            },
+            "id-00005": {
+              "actions": {
+                "id-00001": {
+                  "savetype": "will",
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "label": "Stunned",
+                  "type": "effect"
+                },
+                "id-00003": {
+                  "durdice": "2d4",
+                  "durmod": 0,
+                  "label": "Unconscious; Blinded; Stunned",
+                  "type": "effect"
+                },
+                "id-00004": {
+                  "durdice": "d4",
+                  "durmod": 0,
+                  "label": "Blinded; Stunned",
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S, M (red, yellow, and blue powder or colored sand)",
+              "cost": 1,
+              "description": "A vivid cone of clashing colors springs forth from your hand, causing creatures to become stunned, perhaps also blinded, and possibly knocking them unconscious. Each creature within the cone is affected according to its HD.\\n\\n2 HD or less : The creature is unconscious, blinded, and stunned for 2d4 rounds, then blinded and stunned for 1d4 rounds, and then stunned for 1 round. (Only living creatures are knocked unconscious.)\\n\\n3 or 4 HD : The creature is blinded and stunned for 1d4 rounds, then stunned for 1 round.\\n\\n5 or more HD : The creature is stunned for 1 round.\\n\\nSightless creatures are not affected by color spray .",
+              "duration": "instantaneous; see text",
+              "effect": "Area-cone-shaped burst",
+              "level": "Arcanist 1, Bloodrager 1, Magus 1, Mesmerist 1, Psychic 1, Red Mantis Assassin 1, Sorcerer 1, Wizard 1",
+              "linkedspells": "",
+              "name": "Color Spray",
+              "range": "15 ft.",
+              "save": "Will negates",
+              "school": "illusion (pattern) [mind-affecting]",
+              "shortdescription": "Knocks unconscious, blinds, and/or stuns weak creatures.",
+              "sr": "yes",
+              "text": "<p>A vivid cone of clashing colors springs forth from your hand, causing creatures to become stunned, perhaps also blinded, and possibly knocking them unconscious. Each creature within the cone is affected according to its HD.</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>2 HD or less </i>: The creature is unconscious, blinded, and stunned for 2d4 rounds, then blinded and stunned for 1d4 rounds, and then stunned for 1 round. (Only living creatures are knocked unconscious.)</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>3 or 4 HD </i>: The creature is blinded and stunned for 1d4 rounds, then stunned for 1 round.</p>\n\t\t\t\t\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t\t\t\t\t<i>5 or more HD </i>: The creature is stunned for 1 round.</p>\n\t\t\t\t\t\t\t\t\t\t<p>Sightless creatures are not affected by <i>color spray </i>.</p>"
+            },
+            "id-00006": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "savetype": "fortitude",
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "dmaxstat": 0,
+                  "durdicestatmax": 0,
+                  "durmod": 0,
+                  "durmult": 1,
+                  "durstat": "cl",
+                  "durunit": "minute",
+                  "label": "Enlarge Person; AC: -1 size; DEX: -2 size; STR: 2 size; ATK: -1 size",
+                  "order": 2,
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 round",
+              "components": "V, S, M (powdered iron)",
+              "cost": 0,
+              "description": "This spell causes instant growth of a humanoid creature, doubling its height and multiplying its weight by 8. This increase changes the creature's size category to the next larger one. The target gains a +2 size bonus to Strength, a -2 size penalty to Dexterity (to a minimum of 1), and a -1 penalty on attack rolls and AC due to its increased size.\\n\\nA humanoid creature whose size increases to Large has a space of 10 feet and a natural reach of 10 feet. This spell does not change the target's speed.\\n\\nIf insufficient room is available for the desired growth, the creature attains the maximum possible size and may make a Strength check (using its increased Strength) to burst any enclosures in the process. If it fails, it is constrained without harm by the materials enclosing it -  the spell cannot be used to crush a creature by increasing its size.\\n\\nAll equipment worn or carried by a creature is similarly enlarged by the spell. Melee and projectile weapons affected by this spell deal more damage. Other magical properties are not affected by this spell. Any enlarged item that leaves an enlarged creature's possession (including a projectile or thrown weapon) instantly returns to its normal size. This means that thrown weapons deal their normal damage, and projectiles deal damage based on the size of the weapon that fired them. Magical properties of enlarged items are not increased by this spell.\\n\\nMultiple magical effects that increase size do not stack,.\\n\\nEnlarge person counters and dispels reduce person.\\n\\nEnlarge person can be made permanent with a permanency spell.",
+              "duration": "1 min./level (D)",
+              "effect": "One humanoid creature",
+              "level": "Sor/Wiz 1",
+              "linkedspells": "",
+              "name": "Enlarge Person",
+              "prepared": 0,
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "Fortitude negates",
+              "school": "Transmutation",
+              "shortdescription": "Humanoid creature doubles in size.",
+              "sr": "Yes"
+            },
+            "id-00008": {
+              "actions": {
+                "id-00001": {
+                  "atktype": "rtouch",
+                  "onmissdamage": "half",
+                  "order": 1,
+                  "savetype": "fortitude",
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "dmaxstat": 0,
+                  "durdicestatmax": 0,
+                  "durmod": 0,
+                  "durmult": 1,
+                  "durstat": "cl",
+                  "label": "Ray of Enfeeblement; STR: -N",
+                  "order": 2,
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "A coruscating ray springs from your hand. You must succeed on a ranged touch attack to strike a target. The subject takes a penalty to Strength equal to 1d6+1 per two caster levels (maximum 1d6+5). The subject's Strength score cannot drop below 1. A successful Fortitude save reduces this penalty by half. This penalty does not stack with itself. Apply the highest penalty instead.",
+              "duration": "1 round/level",
+              "effect": "Effect-ray",
+              "level": "Arcanist 1, Bloodrager 1, Magus 1, Mesmerist 1, Sorcerer 1, Witch 1, Wizard 1",
+              "linkedspells": "",
+              "name": "Ray of Enfeeblement",
+              "prepared": 1,
+              "range": "Close (25 ft. + 5 ft./2 levels)",
+              "save": "Fortitude half",
+              "school": "necromancy",
+              "shortdescription": "Ray causes 1d6 Str penalty + 1 per 2 levels.",
+              "sr": "yes",
+              "text": "<p>A coruscating ray springs from your hand. You must succeed on a ranged touch attack to strike a target. The subject takes a penalty to Strength equal to 1d6+1 per two caster levels (maximum 1d6+5). The subject's Strength score cannot drop below 1. A successful Fortitude save reduces this penalty by half. This penalty does not stack with itself. Apply the highest penalty instead.</p>"
+            },
+            "id-00009": {
+              "actions": {
+                "id-00001": {
+                  "order": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "dmaxstat": 0,
+                  "durdicestatmax": 0,
+                  "durmod": 0,
+                  "durmult": 1,
+                  "durstat": "cl",
+                  "durunit": "minute",
+                  "label": "Expeditious Retreat +30 move",
+                  "order": 2,
+                  "targeting": "self",
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "This spell increases your base land speed by 30 feet. This adjustment is treated as an enhancement bonus. There is no effect on other modes of movement, such as burrow, climb, fly, or swim. As with any effect that increases your speed, this spell affects your jumping distance (see the Acrobatics skill).",
+              "duration": "1 min./level (D)",
+              "effect": "You",
+              "level": "Brd 1, Sor/Wiz 1",
+              "linkedspells": "",
+              "name": "Expeditious Retreat - Transmute",
+              "prepared": 0,
+              "range": "Personal",
+              "school": "Transmutation",
+              "shortdescription": "Your base land speed increases by 30 ft."
+            },
+            "id-00010": {
+              "actions": {
+                "id-00001": {
+                  "atktype": "mtouch",
+                  "order": 1,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "damagelist": {
+                    "id-00001": {
+                      "bonus": 0,
+                      "dice": "d6",
+                      "dicestat": "cl",
+                      "dicestatmax": 5,
+                      "type": "electricity"
+                    }
+                  },
+                  "order": 2,
+                  "type": "damage"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "Your successful melee touch attack deals 1d6 points of electricity damage per caster level (maximum 5d6). When delivering the jolt, you gain a +3 bonus on attack rolls if the opponent is wearing metal armor (or is carrying a metal weapon or is made of metal).",
+              "duration": "instantaneous",
+              "effect": "Target-creature or object touched",
+              "level": "Arcanist 1, Bloodrager 1, Magus 1, Occultist 1, Sorcerer 1, Wizard 1",
+              "linkedspells": "",
+              "name": "Shocking Grasp",
+              "range": "touch",
+              "save": "none",
+              "school": "evocation [electricity]",
+              "shortdescription": "Touch delivers 1d6/level electricity damage (max 5d6).",
+              "sr": "yes",
+              "text": "<p>Your successful melee touch attack deals 1d6 points of electricity damage per caster level (maximum 5d6). When delivering the jolt, you gain a +3 bonus on attack rolls if the opponent is wearing metal armor (or is carrying a metal weapon or is made of metal).</p>"
+            },
+            "id-00011": {
+              "actions": {
+                "id-00001": {
+                  "atktype": "mtouch",
+                  "order": 1,
+                  "savetype": "fortitude",
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "damagelist": {
+                    "id-00001": {
+                      "bonus": 0,
+                      "dice": "d6"
+                    }
+                  },
+                  "order": 2,
+                  "type": "damage"
+                }
+              },
+              "cast": 0,
+              "castingtime": "1 standard action",
+              "components": "V, S",
+              "cost": 1,
+              "description": "A touch from your hand, which glows with blue energy, disrupts the life force of living creatures. Each touch channels negative energy that deals 1d6 points of damage. The touched creature also takes 1 point of Strength damage unless it makes a successful Fortitude saving throw. You can use this melee touch attack up to one time per level.\\n\\nAn undead creature you touch takes no damage of either sort, but it must make a successful Will saving throw or flee as if panicked for 1d4 rounds + 1 round per caster level.",
+              "duration": "instantaneous",
+              "effect": "Targets-creature or creatures touched (up to one/level)",
+              "level": "Arcanist 1, Bloodrager 1, Magus 1, Shaman 1, Sorcerer 1, Spiritualist 1, Witch 1, Wizard 1",
+              "linkedspells": "",
+              "name": "Chill Touch",
+              "range": "touch",
+              "save": "Fortitude partial or Will negates; see text",
+              "school": "necromancy",
+              "shortdescription": "One touch/level deals 1d6 damage and possibly 1 Str damage.",
+              "sr": "yes",
+              "text": "<p>A touch from your hand, which glows with blue energy, disrupts the life force of living creatures. Each touch channels negative energy that deals 1d6 points of damage. The touched creature also takes 1 point of Strength damage unless it makes a successful Fortitude saving throw. You can use this melee touch attack up to one time per level.</p>\n\t\t\t\t\t\t\t\t\t\t<p>An undead creature you touch takes no damage of either sort, but it must make a successful Will saving throw or flee as if panicked for 1d4 rounds + 1 round per caster level.</p>"
+            }
+          },
+          "totalcast": 3,
+          "totalprepared": 4
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "points": 0,
+      "pointsused": 0,
+      "powersource": "arcane",
+      "sp": 0
+    },
+    "id-00002": {
+      "availablelevel0": 3,
+      "availablelevel1": 7,
+      "availablelevel2": 0,
+      "availablelevel3": 0,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "cc": {
+        "misc": 0
+      },
+      "cl": 2,
+      "dc": {
+        "ability": "intelligence",
+        "abilitymod": 4,
+        "misc": 0,
+        "total": 14
+      },
+      "label": "Transmuter",
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 1,
+          "spells": {
+            "id-00001": {
+              "actions": {
+                "id-00001": {
+                  "atkmod": 0,
+                  "clcmod": 0,
+                  "order": 1,
+                  "savedcmod": 0,
+                  "srnotallowed": 0,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "dmaxstat": 0,
+                  "durdicestatmax": 0,
+                  "durmod": 0,
+                  "durmult": 1,
+                  "durunit": "day",
+                  "label": "STR Transmuter; STR: 1 enhancement",
+                  "order": 2,
+                  "targeting": "self",
+                  "type": "effect"
+                },
+                "id-00003": {
+                  "dmaxstat": 0,
+                  "durdicestatmax": 0,
+                  "durmod": 0,
+                  "durmult": 1,
+                  "durunit": "day",
+                  "label": "CON Transmuter; CON: 1enhancement",
+                  "order": 3,
+                  "targeting": "self",
+                  "type": "effect"
+                },
+                "id-00004": {
+                  "dmaxstat": 0,
+                  "durdicestatmax": 0,
+                  "durmod": 0,
+                  "durmult": 1,
+                  "label": "DEX Transmuter; DEX: 1enhancement",
+                  "order": 4,
+                  "targeting": "self",
+                  "type": "effect"
+                }
+              },
+              "cast": 0,
+              "cost": 0,
+              "name": "Enhance Ability",
+              "prepared": 1,
+              "shortdescription": "Once per day, enhance your Strength, Constitution, or Dexterity"
+            }
+          },
+          "totalcast": 0,
+          "totalprepared": 1
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 7,
+          "spells": {
+            "id-00002": {
+              "actions": {
+                "id-00001": {
+                  "atkmod": 0,
+                  "atktype": "rtouch",
+                  "clcmod": 0,
+                  "order": 1,
+                  "savedcmod": 0,
+                  "srnotallowed": 0,
+                  "type": "cast"
+                },
+                "id-00002": {
+                  "damagelist": {
+                    "id-00001": {
+                      "bonus": 1,
+                      "dice": "d4",
+                      "dicestatmax": 0,
+                      "stat": "cl",
+                      "statmax": 0,
+                      "statmult": 0.5
+                    }
+                  },
+                  "dmgnotspell": 0,
+                  "order": 2,
+                  "type": "damage"
+                }
+              },
+              "cast": 1,
+              "castingtime": "Standard Action",
+              "cost": 1,
+              "duration": "Ranged Touch Attack",
+              "level": "2",
+              "locked": 1,
+              "name": "Telekinetic Fist",
+              "prepared": 7,
+              "range": "30 Ft",
+              "save": "Touch Attack",
+              "school": "Transmutation",
+              "shortdescription": "Strike an enemy with a discorporated fist of arcane force",
+              "sr": "No"
+            }
+          },
+          "totalcast": 1,
+          "totalprepared": 7
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "points": 0,
+      "pointsused": 0,
+      "sp": 0
+    },
+    "id-00007": {
+      "availablelevel0": 0,
+      "availablelevel1": 0,
+      "availablelevel2": 0,
+      "availablelevel3": 0,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "cc": {
+        "misc": 0
+      },
+      "cl": 0,
+      "dc": {
+        "abilitymod": 0,
+        "misc": 0,
+        "total": 10
+      },
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "points": 0,
+      "pointsused": 0,
+      "sp": 0
+    },
+    "id-00008": {
+      "availablelevel0": 0,
+      "availablelevel1": 0,
+      "availablelevel2": 0,
+      "availablelevel3": 0,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "cc": {
+        "misc": 0
+      },
+      "cl": 0,
+      "dc": {
+        "abilitymod": 0,
+        "misc": 0,
+        "total": 10
+      },
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "points": 0,
+      "pointsused": 0,
+      "sp": 0
+    },
+    "id-00009": {
+      "availablelevel0": 0,
+      "availablelevel1": 0,
+      "availablelevel2": 0,
+      "availablelevel3": 0,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "cc": {
+        "misc": 0
+      },
+      "cl": 0,
+      "dc": {
+        "abilitymod": 0,
+        "misc": 0,
+        "total": 10
+      },
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "points": 0,
+      "pointsused": 0,
+      "sp": 0
+    },
+    "id-00010": {
+      "availablelevel0": 0,
+      "availablelevel1": 0,
+      "availablelevel2": 0,
+      "availablelevel3": 0,
+      "availablelevel4": 0,
+      "availablelevel5": 0,
+      "availablelevel6": 0,
+      "availablelevel7": 0,
+      "availablelevel8": 0,
+      "availablelevel9": 0,
+      "cc": {
+        "misc": 0
+      },
+      "cl": 0,
+      "dc": {
+        "abilitymod": 0,
+        "misc": 0,
+        "total": 10
+      },
+      "levels": {
+        "level0": {
+          "level": 0,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level1": {
+          "level": 1,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level2": {
+          "level": 2,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level3": {
+          "level": 3,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level4": {
+          "level": 4,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level5": {
+          "level": 5,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level6": {
+          "level": 6,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level7": {
+          "level": 7,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level8": {
+          "level": 8,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        },
+        "level9": {
+          "level": 9,
+          "maxprepared": 0,
+          "spells": "",
+          "totalcast": 0,
+          "totalprepared": 0
+        }
+      },
+      "points": 0,
+      "pointsused": 0,
+      "sp": 0
+    }
+  },
+  "temp": "",
+  "token": "portrait_id-00001_token",
+  "traitlist": {
+    "id-00001": {
+      "locked": 1,
+      "name": "Skilled",
+      "source": "Tiefling",
+      "text": "<p>Tieflings have a +2 racial bonus on Bluff and Stealth checks.</p>"
+    },
+    "id-00002": {
+      "locked": 1,
+      "name": "Spell-Like Ability",
+      "source": "Tiefling",
+      "text": "<p>Tieflings can use <i>darkness </i>once per day as a spell-like ability. The caster level for this ability equals the tiefling's class level.</p>"
+    },
+    "id-00003": {
+      "locked": 1,
+      "name": "Fiendish Resistance",
+      "source": "Tiefling",
+      "text": "<p>Tieflings have cold resistance 5, electricity resistance 5, and fire resistance 5.</p>"
+    },
+    "id-00004": {
+      "locked": 1,
+      "name": "Fiendish Sorcery",
+      "source": "Tiefling",
+      "text": "<p>Tiefling sorcerers with the Abyssal or Infernal bloodline treat their Charisma score as 2 points higher for all sorcerer class abilities.</p>"
+    },
+    "id-00005": {
+      "locked": 1,
+      "name": "Power-Hungry",
+      "text": "<p>\n\t\t\t\t\t\t\t<b>Type: </b>Drawback</p>\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t<b>Requirements: </b>-</p>\n\t\t\t\t\t\t<p>You're addicted to power. You take a -2 penalty on Will saving throws against charm and compulsion effects if the creature creating the effect promises wealth or power.</p>",
+      "type": "Trait - Drawback"
+    },
+    "id-00006": {
+      "locked": 1,
+      "name": "Meticulous",
+      "text": "<p>\n\t\t\t\t\t\t\t<b>Type: </b>Drawback</p>\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t<b>Requirements: </b>-</p>\n\t\t\t\t\t\t<p>You plan and prepare everything in detail, and aren't good at improvising when things don't go as planned. You take a -2 penalty on skill checks for skills with which you're untrained.</p>",
+      "type": "Trait - Drawback"
+    },
+    "id-00007": {
+      "locked": 1,
+      "name": "Bruising Intellect",
+      "text": "<p>\n\t\t\t\t\t\t\t<b>Type: </b>Basic (Social)</p>\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t<b>Requirements: </b>-</p>\n\t\t\t\t\t\t<p>Your sharp intellect and rapier-like wit bruise egos. Intimidate is always a class skill for you, and you may use your Intelligence modifier when making Intimidate checks instead of your Charisma modifier.</p>",
+      "type": "Trait - Basic (Social)"
+    },
+    "id-00008": {
+      "locked": 1,
+      "name": "Reactionary",
+      "text": "<p>\n\t\t\t\t\t\t\t<b>Type: </b>Basic (Combat)</p>\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t<b>Requirements: </b>-</p>\n\t\t\t\t\t\t<p>You were bullied often as a child, but never quite developed an offensive response. Instead, you became adept at anticipating sudden attacks and reacting to danger quickly. You gain a +2 trait bonus on initiative checks.</p>",
+      "type": "Trait - Basic (Combat)"
+    }
+  },
+  "weaponlist": {
+    "id-00001": {
+      "attacks": 1,
+      "attackview1": 1,
+      "attackview2": -4,
+      "attackview3": -9,
+      "attackview4": -14,
+      "bonus": 0,
+      "carried": 2,
+      "critatkrange": 19,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d4",
+          "stat": "strength",
+          "type": "piercing,slashing"
+        }
+      },
+      "isidentified": 1,
+      "name": "Dagger",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00003"
+      },
+      "type": 0
+    },
+    "id-00002": {
+      "ammo": 0,
+      "ammunitionmanager": {
+        "hitrecoverypercentage": 50,
+        "isloaded": 0,
+        "missrecoverypercentage": 50
+      },
+      "attacks": 1,
+      "attackview1": 5,
+      "attackview2": 0,
+      "attackview3": -5,
+      "attackview4": -10,
+      "bonus": 0,
+      "carried": 2,
+      "critatkrange": 19,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d4",
+          "stat": "strength",
+          "statmult": 1,
+          "type": "piercing,slashing"
+        }
+      },
+      "isidentified": 1,
+      "maxammo": 0,
+      "name": "Dagger",
+      "rangeincrement": 10,
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00003"
+      },
+      "type": 1
+    },
+    "id-00003": {
+      "attacks": 1,
+      "attackview1": 1,
+      "attackview2": -4,
+      "attackview3": -9,
+      "attackview4": -14,
+      "bonus": 0,
+      "carried": 2,
+      "critatkrange": 20,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d6",
+          "stat": "strength",
+          "statmult": 1.5,
+          "type": "bludgeoning"
+        }
+      },
+      "isidentified": 1,
+      "name": "Quarterstaff (2H)",
+      "properties": "Double, Monk",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00006"
+      },
+      "type": 0
+    },
+    "id-00004": {
+      "attacks": 1,
+      "attackview1": -3,
+      "attackview2": -8,
+      "attackview3": -13,
+      "attackview4": -18,
+      "bonus": -4,
+      "carried": 2,
+      "critatkrange": 20,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d6",
+          "stat": "strength",
+          "type": "bludgeoning"
+        }
+      },
+      "isidentified": 1,
+      "name": "Quarterstaff (D1)",
+      "properties": "Double, Monk",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00006"
+      },
+      "type": 0
+    },
+    "id-00005": {
+      "attacks": 1,
+      "attackview1": -7,
+      "attackview2": -12,
+      "attackview3": -17,
+      "attackview4": -22,
+      "bonus": -8,
+      "carried": 2,
+      "critatkrange": 20,
+      "damagelist": {
+        "id-00001": {
+          "bonus": 0,
+          "critmult": 2,
+          "dice": "d6",
+          "stat": "strength",
+          "statmult": 0.5,
+          "type": "bludgeoning"
+        }
+      },
+      "isidentified": 1,
+      "name": "Quarterstaff (D2)",
+      "properties": "Double, Monk",
+      "shortcut": {
+        "class": "item",
+        "recordname": "....inventorylist.id-00006"
+      },
+      "type": 0
+    }
+  },
+  "weight": "158"
+}
