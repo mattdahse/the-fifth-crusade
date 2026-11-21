@@ -2,6 +2,7 @@
 
     python make-favicon.py .              write favicon.ico + apple-touch-icon.png
     python make-favicon.py . --preview    write preview-256.png + preview-small.png
+    python make-favicon.py . --discord    write discord-icon.png
 
 Needs only Pillow. There is no SVG library on any of the three stations, so the
 device is re-drawn here from the same numbers as favicon.svg rather than being
@@ -74,6 +75,14 @@ if "--preview" in sys.argv:
         strip.paste(render(s).resize((160, 160), Image.NEAREST), (i * 180, 0))
     strip.save(f"{root}/preview-small.png")
     print("wrote preview-256.png and preview-small.png — delete these, they are not shipped")
+elif "--discord" in sys.argv:
+    # The server icon for the Discord. Square, not rounded: Discord masks server
+    # icons to a circle, so the SVG's rx=12 corners get cut off regardless. The
+    # circle clears the device with room to spare — at the crosspiece's y the
+    # inscribed circle is 59 units wide against its 41, and the blade tip sits on
+    # the centre line — so nothing needs nudging inward to survive the mask.
+    render(512, rounded=False).save(f"{root}/discord-icon.png")
+    print("wrote discord-icon.png")
 else:
     render(180, rounded=False).save(f"{root}/apple-touch-icon.png")
     ico = [render(s) for s in (16, 32, 48)]
