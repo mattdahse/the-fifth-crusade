@@ -3228,7 +3228,7 @@ The **Sanctum** was quiet now. **Jerribeth** was still out there somewhere, woun
 
 <!-- fathom: call=910341110 recording=205585562 -->
 
-*November 20, 2026 session — the Ivory Sanctum and the Bell of Mercy, the 27th of Neth, 4713 AR*
+*November 20, 2026 session — the Ivory Sanctum, the Bell of Mercy, and home to Drezen, the 27th of Neth, 4713 AR*
 
 ### **A Souvenir**
 
@@ -3365,5 +3365,63 @@ They worked out who would get what. The Sanctum's armour and weapons would not g
 And there were the things nobody could plan for. **Jerribeth** was still out there somewhere, wounded and spiteful. The **Sanctum**'s own papers said it was only one of many along the length of the **Worldwound**. They had the worm-thing's ivory likeness, so that if anything of him ever stirred again, they would know where to look.
 
 They talked until the last of the feast had faded away. Then they slept under the silver bell, and **Arueshalae** kept the watch.
+
+### **Rabiah's Back**
+
+In the morning **Rabiah** took them home.
+
+The library and the loot and the lead chest all went into **Harlock**'s bottomless bag. She drew her friends and the succubus into a circle and spoke the words, and the silver bell and the ruins of the abbey were gone. They were standing in **Rabiah**'s own chamber on **Paradise Hill**, among the cheap bright silks nailed to the planks, the far-too-many cushions, and the crowd of clumsy carved gifts on every shelf.
+
+They had been there perhaps a moment when one of her people put a head round the door. It was one of the self-appointed servants who looked after her rooms whether she wanted them looked after or not. Whoever it was stared, and then ran.
+
+*"Rabiah's back!"*
+
+The word went through the compound faster than a fire through dry timber. Within minutes every doorless doorway and crooked passage of the place was packed with followers. They crowded in to see her and touch her cloak, and to tell her everything that had happened while she was gone, all of them at once. It was a mob, and an adoring one, and it had choked every way out of the building.
+
+**Rabiah** sank into it happily. The others had places to be. **Harlock**, **Varic** and **Lupenor** put their shoulders down and shoved their way out through the press, one apologetic elbow at a time, and scattered across **Paradise Hill** and down to the market, each to their own.
+
+### **Tents on the Parade Ground**
+
+**Harlock** went up to the western tower expecting to find his order where he had left it. He found tents instead.
+
+They stood in rows across the parade ground, canvas pitched edge to edge wherever there was room for a peg, with cookfires between them and washing strung from the guy-ropes. There were more people living in the Preservers' yard than the Preservers had beds for, and more were arriving every week.
+
+**Elara Dawnstrider** met him at the gate and told him how it had happened. Some of them were volunteers. A great many more had been volunteered. Up and down **Mendev**, it seemed, the magistrates and constables and judges had all arrived at the same idea at about the same time. The crusade wanted men, and every town had a few it would rather not keep. So the brawler and the poacher and the boy who stole from the market stalls were given a choice between the cells and the Preservers, and they came north to **Drezen** with a sealed letter and nothing else.
+
+Mixed in among them were the other kind. These were young, some of them barely more than children, sworn to the crusade with their heads full of ballads. They had come to be paladins, as **Harlock** had been made one, and they expected to be fighting demons by the end of the month.
+
+**Elara** had turned none of them away. She could not bring herself to do it, and she did not think it was her place. Food was running short, so were cots and blankets, and there were nowhere near enough instructors. She had held on as long as she could, waiting for him to come home and tell her what the order was going to be.
+
+**Harlock** stood at the gate for a long while and looked out over the tents.
+
+### **Everyone Is Getting Richer**
+
+**Lupenor** went down to the market, and **Horgus Gwerm** found her before she was halfway along the lane.
+
+He was in a better mood than she had ever seen him. **Drezen**, he told her, was booming. Word of the city had spread, and adventurers were coming in from all over to try their luck in the **Marchlands**. They went out into the broken country west of the walls and came back with treasure, and they sold it here. Then they spent the money here too, on the kind of overpriced goods and services that only people with a fresh purse of plunder will pay for. A stall in her market had become something vendors fought over and traded like property. Rents were up, and so were prices. Everyone was getting richer.
+
+Not quite everyone, **Lupenor** pointed out. Down in **Southbank** and the poorer lanes, the price of wheat had gone up with everything else, and so had every other staple. People whose lives had been squalid already could no longer afford to feed their families, and they were getting hungrier by the week.
+
+**Horgus** waved it away. *"They'll either starve or leave,"* he said, *"or make themselves useful enough to buy bread again."*
+
+He said it the way another man might remark on the weather. Then he went back to telling her how well things were going.
+
+### **His Brother's Sword**
+
+**Varic** went to **Sosiel** first. There was a letter he had carried a long way, and he had promised himself he would put it into the man's hands himself.
+
+He noticed something on the walk across **Paradise Hill**. People stopped when he passed. Some of them bowed, and some made the Dawnflower's sign, and one old woman reached out to touch the hem of his mantle and then snatched her hand back as if she had been too bold. Word of the herald had gone round. Everyone in **Drezen** knew by now that the priest of **Sarenrae** had the blood of heaven in his veins, and it had changed the way they looked at him. Somewhere in his absence most of the people around him had stopped thinking of him as a priest and started treating him as something nearer to a thing you pray to.
+
+**Sosiel Vaenic** was no different. He came out of his temple to meet **Varic** in the doorway with a face full of reverence, and that made what came next harder.
+
+**Varic** gave him the letter. It was the sheet out of **Scorizscar**'s hoard, stiff and brown with old blood, with the direction still legible: *Sosiel Vaenic, Vigil*. He told him plainly where he had found it, in the dragon's den at the bottom of the **Gray Road**, among the wreckage of everything the wyrm had taken, and he told him how. **Sosiel** read it standing up. Before he reached the end of it he was on his knees in the doorway of his own temple, weeping for his brother.
+
+**Varic** knelt beside him and waited. When he could, he unbuckled ***Battle Hymn*** and held it out across both hands. It was **Trever**'s sword, he said. It had come out of the same hoard as the letter. Since the day it was recovered he had carried it against the Abyss, and it had killed a great many demons in **Trever**'s name, which was what the blade had been forged for and what **Trever** had wanted for it.
+
+**Sosiel** would not take it. He closed **Varic**'s hands back over the hilt and pushed it gently away. His brother had not carried it into that cave to have it hang on a temple wall, he said, and he would not hang it on one now. **Varic** was to keep it, and keep using it.
+
+Then he got to his feet, wiped his face, and excused himself. He had to go and write to his parents.
+
+By nightfall each of them had found out what **Drezen** had been doing without them. The Sanctum was behind them. What waited at home would not be settled with a sword.
 
 *— Session of November 20th, 2026 —*
