@@ -3219,3 +3219,137 @@ What **Vang** had carried now lay in the ashes, and it was theirs. So was the re
 The **Sanctum** was quiet now. **Jerribeth** was still out there somewhere, wounded and spiteful and sure to come back. But the house of the worm was empty, and the company that had emptied it was going home.
 
 *— Sessions of October 23rd and November 6th, 2026 —*
+
+## **What the Worm Left**
+
+<!-- date: November 20, 2026 -->
+
+<!-- inworld: 27 Neth 4713 to 28 Neth 4713 -->
+
+<!-- fathom: call=910341110 recording=205585562 -->
+
+*November 20, 2026 session — the Ivory Sanctum, and home to Drezen, the 27th of Neth, 4713 AR*
+
+### **A Souvenir**
+
+The worms did not move again. The company sat in **Vang**'s chamber among the ashes and went through what he had left them.
+
+The first thing **Rabiah** picked up was a little ivory figure of a robed man, beautifully carved. It was **Xanthir Vang** himself. A wizard who means to hang a spell in waiting, ready to go off at a word or a sign, has to bind it into a likeness of himself, and this was his. Whatever he had kept in it had already been spent. It would work for nobody else unless they happened to look very like him, which nobody wanted to. *"It's a fifteen-hundred-gold souvenir,"* someone said. *"We get to remember killing him,"* said **Rabiah**. It was something else as well, and they all knew it. If the worm-thing ever came back in any shape at all, this was as close a possession of his as anyone was likely to hold. With it, a scrying eye could find him.
+
+![A fifteen-hundred-gold souvenir.](images/a-fifteen-hundred-gold-souvenir.webp)
+
+### **The Accounting**
+
+Then came the long, patient business of finding out what everything else was.
+
+**Rabiah** went first, and for once the Weave would not talk to her. She turned **Vang**'s robe over in her hands and learned nothing, except that touching it made her feel unclean in a way the worms did not account for. **Varic** tried after her and fared no better. He could tell that the robe was very fine and very valuable, and that it made his skin crawl wherever it brushed him. Three rods would not answer her either, nor a headband, nor the staff. **Rabiah** went down the pile and came up empty again and again, until somebody suggested she give her luck a rest.
+
+She found the easy ones. A wand held a wizard's ***Mirror Image***, which explained where so many **Vangs** had come from. Two rings came clear for her at last: one that would turn aside fire, and a ***Ring of Protection*** of rare strength. Two scrolls she simply read. One was a ***Greater Dispel Magic***, to replace the one she had spent against him. The other was a ***Limited Wish***, and there was a good deal of reverent noise about that. They agreed to keep it back for the day somebody died.
+
+**Varic** took his turn and did better. One of the rods was a ***Rod of Quickened Spells***, and that was how **Vang** had been throwing his magic so fast. Another, the shape of a mace, was the ***Rod of Withering*** that had nearly stopped **Harlock**'s heart in his bed. The headband was a ***Headband of Mental Prowess***. **Varic** put it on, and within the hour his thinking had a new edge to it. A second headband, which steadied the will, went to **Lupenor**. The derakni's drone had taken her mind once already in this place, and she liked the idea of one that would not be told what to do. Last of all **Varic** read the staff. It was a ***Staff of Conjuration***, and its first gift was the yellow-green ***Cloudkill***. Nobody was surprised.
+
+### **Sharing It Out**
+
+**Harlock** came to the accounting late and in his underclothes, and they decided the rings were his. He had slept out of his armour and been nearly murdered for it, and he was the one the demons always went for first. The ***Ring of Protection*** went on one hand. **Rabiah** argued that the ring against fire should go on the other. With that on him, she pointed out, she could drop a fireball right on top of him in the middle of a crowd of demons and he would barely feel it. **Harlock** considered this and put the ring on. An ***Amulet of Natural Armor*** from the Sanctum's stores went round his neck in place of his old one. When he had his plate on again, he was harder to hurt than he had ever been in his life.
+
+The ***Rod of Quickened Spells*** went back and forth between **Rabiah** and **Varic** for a while. In the end **Varic** kept it, so that he could mend a friend and still strike in the same breath, or mend two at once. **Rabiah** had a staff and a wand and two scrolls already. Sharing, she said, was caring. Nobody much wanted the ***Rod of Withering***. It was a weapon for getting close to something that did not know you were there, and that was more **Lupenor**'s trade than anyone's. It went into the common pile for now.
+
+There were three wands more, a magical suit of full plate and a magical greataxe. There was a flask of unholy water, and **Varic** asked for it to be poured away; there was no need for it in the world. He thought about blessing it into holy water instead, and decided that it probably did not work like that. There were also four potions of a very particular lust. Somebody remarked that there would be a market for those. **Varic** said that in good conscience he could not.
+
+And there were keys, three of them, that nobody could place. **Lupenor**, who opened the company's doors, put them on a ring.
+
+### **Not Here**
+
+The question was where to sleep.
+
+The obvious place was the room they were sitting in. **Vang** was dead, and his chamber had only one way in. **Harlock** looked at the swept-up heap of worms in the corner, and at the bare patch of floor where his bedroll had lain when the rod came down out of the dark. He tried to talk himself into it, and he could not. *"Nope,"* he said. *"Can't sleep here, guys."* Nobody argued with him.
+
+They went back up the passage to the room with the cold forge, where they had rested once before. **Lupenor** had locked its great doors behind them so well that she could not now open them herself. She tried the unknown keys, and the adamantine one turned in the lock. It was a key to **Vang**'s own chambers, and it was theirs now. They swept the dead derakni into a corner.
+
+**Varic** meant to consecrate the room before they slept. He had the silver for it and, after the night they had had, he had the will. Then he looked around at the walls. **Baphomet** was worked into this place everywhere, in the mosaics and the ironwork and the bones. The Dawnflower's blessing, laid down in a house so thoroughly given over to another power, would not hallow it. It would only curse it, and cut it off from both. He put the silver away.
+
+### **The Watch**
+
+**Arueshalae** stood guard outside the door, as she always did. She did not sleep. She never had, and she had once thought nothing of it. She had come to **Desna** since then, the goddess of dreams and of the stars, and now it seemed to her one of the saddest things about what she was. She would keep the company's dreams safe all night, and never have one of her own.
+
+![Never one of her own.](images/never-one-of-her-own.webp)
+
+With her out there, **Harlock** could finally let himself rest. He was bone-tired, and the rod's withering still lay heavy in his body. He slept like a felled tree.
+
+**Varic** did not sleep at all any more. **Rabiah** and **Lupenor**, with their rings, needed only a couple of hours. That left all three of them awake for the other six, in a stone room whose walls took **Harlock**'s snoring and passed it from one to the next like rolling thunder. It came up through the floor and rattled the tools on the cold forge, and their nerves. At length somebody went over and woke him, more or less gently.
+
+### **What Was Taken, Given Back**
+
+In the morning **Varic** went from one friend to the next with his prayers and his diamond dust, and gave back what the night had taken.
+
+**Harlock** came first. The rod had not merely hurt him; it had taken strength and health out of his body, and rest would never have returned them. **Varic** knelt over him twice, once for his arms and once for his heart, and the black tendrils under his skin faded and went out. **Lupenor**'s blood still carried the poison of the cloud, and **Varic** cleared it. **Rabiah**'s needed only a lighter touch. He saw to his own last. **Rabiah** poured a spell of her own into her staff, the way a sorcerer can, and laid it by for later.
+
+They had taken the **Ivory Sanctum**, and they had slept in it, and they were whole again, every one of them.
+
+### **The Barracks**
+
+There was still the rest of the place to see.
+
+In the north-east they found the one room they had missed. It was a barracks, rows of narrow beds with a travel chest at the foot of each. Some of the beds were neatly made. Others were thrown back and tumbled, the way a bed is left by someone who has heard screaming down the hall. The door still stood half open. This was where the Sanctum's people had come from when the fighting started, and none of them had come back.
+
+![None of them had come back.](images/none-of-them-came-back.webp)
+
+There was nothing in it worth carrying: coarse muslin sheets, drool-stained pillows, the occasional sock in a chest. Someone asked why one of the socks was sticky, and was advised not to ask questions like that unless they really wanted to know the answer.
+
+### **The Wall That Was Not**
+
+That left the false wall.
+
+They had seen people walk through it before, and none of them knew what lay behind it. It looked like stone and was not, and the only way to find out was for somebody to step into it. The general opinion was that the paladin should go first.
+
+**Harlock** pointed out that the spellcasters seemed far more confident about walls than he was. *"I think I'm being used,"* he said.
+
+*"You are being utilized,"* someone told him. *"You're a valued member of the team."*
+
+**Rabiah** reminded him that they had only just given him two rings and an amulet. **Harlock** observed that he now knew what they had been for. Then he walked into the wall anyway.
+
+### **Retrievers**
+
+What waited behind it were two **retrievers**.
+
+They were the Abyss's hunting engines, the great spider-shaped constructs the demon lords send after the things they want brought back. Each was the size of a wagon, with jointed legs that ended in blades and four gemstone eyes, and every one of those eyes held a different death. Whatever they had been set to guard or to fetch, they came at the company at once.
+
+**Rabiah** was faster. She called the haste of her mythic power down over everyone, and the company moved before the machines could. **Lupenor**'s first arrow went home. Then the nearer retriever turned one jewelled eye on **Harlock**, and a ray of killing cold came out of it. He took the edge of it and kept coming. Its bite found nothing but plate. ***Radiance*** went into it three times.
+
+**Arueshalae** came at it with her star-knife, but the blade slid off the construct's hide again and again. The second retriever fixed a crackling eye on **Lupenor**, and she twisted half out of the lightning's way.
+
+**Varic** had brought one of the little spider-shaped drones from **Vang**'s shelves, the ones **Harlock** had kept in case they ever met a retriever. Now he held it in both hands and reached through it for the nearer machine's mind. The great engine shook him off. In his hands the little drone thrashed, snapped once at his fingers, missed, and went still.
+
+![The great engine shook him off.](images/the-great-engine-shook-him-off.webp)
+
+The retriever turned a third eye on **Harlock**, and this one held stone. He felt it creep into his limbs, and he threw it off by will alone. Then it went at him with its blades, four of them at once, and they hit him hard; two very nearly found the gaps in his plate. **Harlock** called on **Iomedae** and marked it for smiting. Four strokes landed and every one bit deep, and the thing was badly broken when he was done.
+
+![Four strokes landed.](images/four-strokes-landed.webp)
+
+The second retriever turned its own stone-eye on **Lupenor**, and this time it caught her full. The cold grey weight went into her feet and climbed. For a moment she stood there turning to stone. Then she reached down into the power the wardstone had woken in her and pushed it back out. **Arueshalae** went back to the first machine, and this time her star-knife went straight into a joint and cracked something vital.
+
+**Rabiah** pointed a finger at the second retriever. The thin green ray that had unmade so many demons in this place took the better part of it apart, and what was left stood swaying on its blades. **Lupenor** drew and shot, and it fell. She turned on the other without lowering the bow and drove two more arrows into it. **Varic** stepped in with ***Battle Hymn*** and found the crack that **Arueshalae** had opened, and the last engine of the Abyss folded up on its blades and lay still.
+
+**Harlock** laid his hand on his own chest, and **Varic** mended what was left.
+
+### **What the Rest Turned Out to Be**
+
+With the Sanctum quiet at last, they went back to the things that had refused to give up their names.
+
+The robe that had made everyone's skin crawl was a ***Black Robe of the Archmagi***. It was made for an evil wizard, and it would make an evil wizard much stronger. Anyone else who put it on would be the weaker for it, every hour they wore it. **Varic** folded it up and carried it, and nobody tried it on. A necklace that had resisted every spell turned out to be a ***Necklace of Strangulation***. It looked like a fine piece of jewellery, and it would choke whoever put it on. Nobody tried that on either.
+
+The two rods that had defeated everyone were rods of spellcraft too: one that would ***Empower*** a spell, which **Varic** took, and one that would ***Maximize*** a lesser one, which went to **Rabiah**. A book that had looked like any other book was a ***Manual of Bodily Health***; a man who read it through and took it to heart would come out tougher than he went in. It went to **Harlock**. The arrow of rare make from the chest in the hollow was a ***Fortune's Arrow***, and it carried luck. **Lupenor** took it, and felt something settle on her shoulders.
+
+### **Home**
+
+Then **Rabiah** took them home.
+
+The library and the loot and the lead chest all went into **Harlock**'s bottomless bag. She drew her friends and the succubus into a circle and spoke the words, and the **Ivory Sanctum** was gone. They stood in **Drezen**. It took her more than one journey to bring everything across.
+
+For the first time in days there was a door they could close without locking, and a bed that nobody had nearly died in. They slept.
+
+In the days that followed, the Sanctum's spoils went to work. **Rabiah** traded her headband of charm in the market for a stronger one. **Varic** bought pearls that would let him call back a spent prayer. The Sanctum's armour and weapons did not go to market; they went to the followers. **Rothin Vald**, keeper of the hidden temple, gave up his breastplate for a suit of the enchanted full plate. **Elara Dawnstrider**, who tests the recruits of **Harlock**'s order, was given a cloak to turn aside harm. **Harlock** took the greataxe and the longsword, the warhammer, and every masterwork glaive and short sword from the Sanctum's racks, and carried them up to the western tower for his Preservers. Six silver unholy symbols of **Baphomet** and a bundle of whips went to the smelter. The **Ivory Sanctum** papers went to the people who would know what to do with the names in them.
+
+**Jerribeth** was still out there somewhere. But the house of the worm was empty, its master was ashes, and his souvenir sat on a shelf in **Drezen**, where it could keep an eye on him.
+
+*— Session of November 20th, 2026 —*
