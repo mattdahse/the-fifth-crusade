@@ -3228,7 +3228,7 @@ The **Sanctum** was quiet now. **Jerribeth** was still out there somewhere, woun
 
 <!-- fathom: call=910341110 recording=205585562 -->
 
-*November 20, 2026 session — the Ivory Sanctum, and home to Drezen, the 27th of Neth, 4713 AR*
+*November 20, 2026 session — the Ivory Sanctum and the Bell of Mercy, the 27th of Neth, 4713 AR*
 
 ### **A Souvenir**
 
@@ -3340,16 +3340,30 @@ The robe that had made everyone's skin crawl was a ***Black Robe of the Archmagi
 
 The two rods that had defeated everyone were rods of spellcraft too: one that would ***Empower*** a spell, which **Varic** took, and one that would ***Maximize*** a lesser one, which went to **Rabiah**. A book that had looked like any other book was a ***Manual of Bodily Health***; a man who read it through and took it to heart would come out tougher than he went in. It went to **Harlock**. The arrow of rare make from the chest in the hollow was a ***Fortune's Arrow***, and it carried luck. **Lupenor** took it, and felt something settle on her shoulders.
 
-### **Home**
+### **The Bell Tower**
 
-Then **Rabiah** took them home.
+Then **Rabiah** took them out of the **Ivory Sanctum** for good.
 
-The library and the loot and the lead chest all went into **Harlock**'s bottomless bag. She drew her friends and the succubus into a circle and spoke the words, and the **Ivory Sanctum** was gone. They stood in **Drezen**. It took her more than one journey to bring everything across.
+The library and the loot and the lead chest all went into **Harlock**'s bottomless bag. She drew her friends and the succubus into a circle and spoke the words, and they stood in the ruins of the **Butterfly Abbey**, at the foot of **Arueshalae**'s tower. The silver bell still hung in the dark at its crown, and nothing evil had crossed the line in the yard since they left. For forty days it had been her shelter. Tonight it was theirs. They climbed to the bare stone room on the second floor, windowless, where a rope ladder on the wall was the only way up to the bell.
 
-For the first time in days there was a door they could close without locking, and a bed that nobody had nearly died in. They slept.
+**Varic** spread his hands, called on the Dawnflower, and laid a feast.
 
-In the days that followed, the Sanctum's spoils went to work. **Rabiah** traded her headband of charm in the market for a stronger one. **Varic** bought pearls that would let him call back a spent prayer. The Sanctum's armour and weapons did not go to market; they went to the followers. **Rothin Vald**, keeper of the hidden temple, gave up his breastplate for a suit of the enchanted full plate. **Elara Dawnstrider**, who tests the recruits of **Harlock**'s order, was given a cloak to turn aside harm. **Harlock** took the greataxe and the longsword, the warhammer, and every masterwork glaive and short sword from the Sanctum's racks, and carried them up to the western tower for his Preservers. Six silver unholy symbols of **Baphomet** and a bundle of whips went to the smelter. The **Ivory Sanctum** papers went to the people who would know what to do with the names in them.
+It was a ***Heroes' Feast***. **Arueshalae** owned exactly one chair and nothing else, so the feast came out of nothing onto the bare stone floor, and they sat down around it on the flagstones. There was bread still warm from an oven that did not exist, roast meat and honeyed roots, fruit that had never grown anywhere in the Worldwound, and a wine that went down like sunlight. Whatever poison and fear the Sanctum had left in them it burned out, and it left them steadier and stronger than they had any right to be. **Harlock** ate as though he were making up for the rod. **Rabiah** ate the sweets first. **Arueshalae** could not eat what they ate, but she sat down on the floor with them anyway, under the bell, which was the point.
 
-**Jerribeth** was still out there somewhere. But the house of the worm was empty, its master was ashes, and his souvenir sat on a shelf in **Drezen**, where it could keep an eye on him.
+![Which was the point.](images/which-was-the-point.webp)
+
+### **Breathing Room**
+
+For the first time since the cliff, nobody had to be on guard. So they talked about what came next.
+
+They had won something real. The **Sanctum** was broken, its master was ashes, and a list of the **Ivory Labyrinth**'s traitors was in their bag. The demons who were left would be counting their losses for a while. For once there was a little room to breathe, and the question was how to spend it.
+
+The answer, more or less, was home. There were the papers to put into **Irabeth**'s hands, and the spoils to sell, and the cipher-book for somebody cleverer than they were. **Harlock** had his manual to read. There were their own people in **Drezen** too, the order and the temple, the market and the street patrol. They had been left to run themselves for weeks, and none of the company really knew what had happened out there while they were underground.
+
+They worked out who would get what. The Sanctum's armour and weapons would not go to market; they would go to the followers. **Rothin Vald**, keeper of the hidden temple, would trade his breastplate for a suit of the enchanted full plate. **Elara Dawnstrider**, who tests the recruits of **Harlock**'s order, would have a cloak to turn aside harm. **Harlock** claimed the greataxe and the longsword, the warhammer, and every masterwork glaive and short sword from the Sanctum's racks for his Preservers. **Rabiah** had her eye on a stronger headband in the market than the one she wore. **Varic** wanted pearls that would let him call back a spent prayer. Six silver unholy symbols of **Baphomet** and a bundle of whips were for the smelter.
+
+And there were the things nobody could plan for. **Jerribeth** was still out there somewhere, wounded and spiteful. The **Sanctum**'s own papers said it was only one of many along the length of the **Worldwound**. They had the worm-thing's ivory likeness, so that if anything of him ever stirred again, they would know where to look.
+
+They talked until the last of the feast had faded away. Then they slept under the silver bell, and **Arueshalae** kept the watch.
 
 *— Session of November 20th, 2026 —*
