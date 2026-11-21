@@ -15,7 +15,8 @@ book is its **Epilogue** rather than a numbered chapter.
 source/                         ← the canonical chronicle (edit these)
   book-1-the-worldwound-incursion.md  Book I   (11 + Epilogue): Kenabres → the Gray Garrison → the mythic dreams
   book-2-the-sword-of-valor.md        Book II  (9 + Epilogue):  the march to Drezen, the siege, the banner reclaimed
-  book-3-demons-heresy.md             Book III (ongoing):       the crusade beyond Drezen
+  book-3-demons-heresy.md             Book III:                 the crusade beyond Drezen
+  book-4-the-midnight-isles.md        Book IV (ongoing):        the Midnight Isles
 bible/                          ← authoring reference (voice, cast, lore)
   00-style-and-prompt-guide.md
   02-dramatis-personae.md
@@ -70,7 +71,7 @@ the calendar. Weekday names are computed from the cycle the chronicle itself nam
 
 ## Adding a session
 
-1. Draft the new chapter into the right `source/book-*.md` file (currently Book III), following `bible/00-style-and-prompt-guide.md`. Use a plain `## **Title**` header — no chapter number — and put the real-world play date in the subtitle (`*Month Day, Year session — …*`), which the build reads and displays.
+1. Draft the new chapter into the right `source/book-*.md` file (currently Book IV), following `bible/00-style-and-prompt-guide.md`. Use a plain `## **Title**` header — no chapter number — and put the real-world play date in the subtitle (`*Month Day, Year session — …*`), which the build reads and displays.
 1. Add its `<!-- inworld: … -->` marker so it lands on the Timeline, and write any new days into `bible/06-in-world-calendar.md` (run `pwsh -File ./extract-calendar.ps1` first — it reports which days are new).
 2. Rebuild the search index:
    ```powershell

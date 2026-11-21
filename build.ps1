@@ -10,7 +10,8 @@ $em = [char]0x2014   # em-dash by code point: never type it literally in a .ps1 
 $books = @(
   @{ file = 'book-1-the-worldwound-incursion.md'; title = ('Book I '   + $em + ' The Worldwound Incursion'); book = 'I'   },
   @{ file = 'book-2-the-sword-of-valor.md';        title = ('Book II '  + $em + ' The Sword of Valor');       book = 'II'  },
-  @{ file = 'book-3-demons-heresy.md';             title = ('Book III ' + $em + " Demon's Heresy");           book = 'III' }
+  @{ file = 'book-3-demons-heresy.md';             title = ('Book III ' + $em + " Demon's Heresy");           book = 'III' },
+  @{ file = 'book-4-the-midnight-isles.md';         title = ('Book IV '  + $em + ' The Midnight Isles');      book = 'IV'  }
 )
 
 # --- The in-world calendar (Golarion reckoning) ---

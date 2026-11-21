@@ -1,6 +1,6 @@
 # Book III — Demon's Heresy
 
-*The Fifth Crusade — Book III (ongoing)*
+*The Fifth Crusade — Book III*
 
 ## **The Teeth of the Worldwound**
 
@@ -3225,6 +3225,8 @@ The **Sanctum** was quiet now. **Jerribeth** was still out there somewhere, woun
 <!-- date: November 20, 2026 -->
 
 <!-- inworld: 27 Neth 4713 to 28 Neth 4713 -->
+
+<!-- epilogue -->
 
 <!-- cover: images/which-was-the-point.webp -->
 

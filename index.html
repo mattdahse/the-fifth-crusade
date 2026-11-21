@@ -17,6 +17,7 @@
     --tl1:#9c6b1e; --tl1f:rgba(156,107,30,.08); --tl1h:rgba(156,107,30,.17);
     --tl2:#7a1e1e; --tl2f:rgba(122,30,30,.07);  --tl2h:rgba(122,30,30,.15);
     --tl3:#3d6b4c; --tl3f:rgba(61,107,76,.08);  --tl3h:rgba(61,107,76,.17);
+    --tl4:#34477a; --tl4f:rgba(52,71,122,.08);  --tl4h:rgba(52,71,122,.17);
   }
   @media (prefers-color-scheme: dark){
     :root{
@@ -26,6 +27,7 @@
       --tl1:#d9b46a; --tl1f:rgba(217,180,106,.09); --tl1h:rgba(217,180,106,.19);
       --tl2:#d98a8a; --tl2f:rgba(217,138,138,.08); --tl2h:rgba(217,138,138,.17);
       --tl3:#8ab99a; --tl3f:rgba(138,185,154,.09); --tl3h:rgba(138,185,154,.18);
+      --tl4:#9aaade; --tl4f:rgba(154,170,222,.09); --tl4h:rgba(154,170,222,.18);
     }
   }
   *{box-sizing:border-box}
@@ -344,6 +346,8 @@
   .tl-ch.b2:hover{background:var(--tl2h)}
   .tl-ch.b3{border-color:var(--tl3);background:var(--tl3f)}
   .tl-ch.b3:hover{background:var(--tl3h)}
+  .tl-ch.b4{border-color:var(--tl4);background:var(--tl4f)}
+  .tl-ch.b4:hover{background:var(--tl4h)}
   .tl-ch.approx{border-style:dashed}
   .tl-ch .lab{position:absolute;top:0;right:0;bottom:0;width:11rem;overflow:hidden;
     display:flex;flex-direction:column;justify-content:center;gap:.05rem;
@@ -353,6 +357,7 @@
   .tl-ch:hover .lab .ti,.tl-ch:focus-visible .lab .ti{text-decoration:underline}
   .tl-ch.b2 .lab .nu{color:var(--tl2)}
   .tl-ch.b3 .lab .nu{color:var(--tl3)}
+  .tl-ch.b4 .lab .nu{color:var(--tl4)}
   .tl-ch.tiny .lab{flex-direction:row;align-items:center;gap:.4rem;padding-top:0;padding-bottom:0}
   .tl-ch.tiny .lab .ti{font-size:.74rem;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
   @media (max-width:900px){
@@ -947,14 +952,14 @@ function viewContents(keepScroll){
   var byBook = {};
   chapters.forEach(function(c){ if(!byBook[c.book]) byBook[c.book]=[]; byBook[c.book].push(c); });
   var html='';
-  var order = ['I','II','III'].filter(function(bk){ return byBook[bk]; });
+  var order = ['I','II','III','IV'].filter(function(bk){ return byBook[bk]; });
   var lastBook = order[order.length-1];
   order.forEach(function(bk){
     var list = byBook[bk];
     var open = !!OPEN_BOOKS[bk];
     html += '<div class="booktitle'+(open?' open':'')+'" onclick="toggleBook(\''+bk+'\')">'
       + '<span class="caret">▶</span><span class="bt">'+esc(list[0].bookTitle)+'</span>'
-      + '<span class="ct">'+esc(bookRange(list, bk===lastBook))+'</span></div>';
+      + '<span class="ct">'+esc(bookRange(list, bk===lastBook && !list.some(function(c){ return c.isEpilogue; })))+'</span></div>';
     if(!open) return;
     list.forEach(function(c){
       var lead = c.isEpilogue ? 'Epilogue' : c.num;
@@ -1372,7 +1377,7 @@ function viewTimeline(){
 
   var blocks = '';
   live.forEach(function(c,i){
-    var bk = c.book==='III' ? 'b3' : (c.book==='II' ? 'b2' : 'b1');
+    var bk = c.book==='IV' ? 'b4' : (c.book==='III' ? 'b3' : (c.book==='II' ? 'b2' : 'b1'));
     var nu = c.isEpilogue ? 'Epilogue' : ('Ch. '+c.num);
     blocks += '<a class="tl-ch '+bk+(c.inApprox?' approx':'')+'" id="tlc'+i+'"'
       + ' href="#/read/'+c.id+'"'
