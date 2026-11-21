@@ -69,9 +69,11 @@ foreach ($b in $books) {
     $isEpi = $false
     $dateExplicit = ''
     $inFrom = 0; $inTo = 0; $inApprox = $false
+    $cover = ''
     foreach ($l in $block) {
       $t = $l.Trim()
       if ($t -match '^<!--\s*epilogue\s*-->$') { $isEpi = $true }
+      elseif ($t -match '^<!--\s*cover:\s*(\S+?)\s*-->$') { $cover = $matches[1] }
       elseif ($t -match '^<!--\s*date:\s*(.+?)\s*-->$') { $dateExplicit = $matches[1] }
       elseif ($t -match '^<!--\s*inworld:\s*(approx\s+)?(\d+)\s+([A-Za-z]+)\s+(\d+)(?:\s+to\s+(\d+)\s+([A-Za-z]+)\s+(\d+))?\s*-->$') {
         $inApprox = [bool]("$($matches[1])".Trim())
@@ -87,7 +89,16 @@ foreach ($b in $books) {
     # real-world play date: explicit <!-- date --> override, else parsed from the chapter text
     $date = if ($dateExplicit) { $dateExplicit } else { Get-PlayDate ($block -join "`n") }
     # md with the fathom/epilogue/date/inworld comments stripped, for rendering
-    $md = (($block | Where-Object { $_ -notmatch '^\s*<!--\s*(fathom|epilogue|date|inworld)' }) -join "`n").Trim()
+    $md = (($block | Where-Object { $_ -notmatch '^\s*<!--\s*(fathom|epilogue|date|inworld|cover)' }) -join "`n").Trim()
+    # share-card plate: explicit <!-- cover: --> marker, else the chapter's first image
+    if (-not $cover -and $md -match '!\[[^\]]*\]\((images/[^)\s]+)\)') { $cover = $matches[1] }
+    # share-card teaser: the first prose paragraph
+    $teaser = ''
+    foreach ($p in ($md -split "`n\s*`n")) {
+      $pt = $p.Trim()
+      if ($pt -eq '' -or $pt -match '^(#|\*[^*]|!\[|<!--)') { continue }
+      $teaser = ($pt -replace '\*', '' -replace '\s+', ' ').Trim(); break
+    }
     $text = $md -replace '<!--.*?-->', ' ' -replace '!\[(.*?)\]\((.*?)\)', '$1' -replace '\[(.*?)\]\((.*?)\)', '$1' -replace '[#>*`_\\]', ' ' -replace '\s+', ' '
     $order++
     [void]$all.Add([pscustomobject]@{
@@ -95,6 +106,7 @@ foreach ($b in $books) {
       num = $num; label = $label; isEpilogue = $isEpi; date = $date
       inFrom = $inFrom; inTo = $inTo; inApprox = $inApprox
       title = $title; subtitle = $sub; md = $md; text = $text.Trim()
+      cover = $cover; teaser = $teaser
     })
   }
 }
@@ -289,6 +301,49 @@ $mjson = To-JsonArray $maps
 $cjson = ConvertTo-Json $calendar -Depth 4 -Compress
 [System.IO.File]::WriteAllText((Join-Path $root 'data.js'),
   "window.CHAPTERS = $json;`nwindow.SECRETS = $sjson;`nwindow.CALENDAR = $cjson;`nwindow.JOURNAL = $jjson;`nwindow.MAPS = $mjson;", $utf8)
+# --- Share pages: share/<slug>.html, one per chapter ---
+# The reader is a single page with #/read/ routes, and link unfurlers (Discord, Slack,
+# iMessage) ignore the fragment, so every chapter link would preview as the site root.
+# Each share page carries that chapter's Open Graph card (title, teaser, title plate) and
+# forwards a human straight on to the chapter. Keyed by title slug, not by chapter id,
+# because ids move when a backfill is inserted and a posted link must keep working.
+$SITE = 'https://mattdahse.github.io/the-fifth-crusade/'
+$DOT = [string][char]0x00B7
+function HtmlEsc([string]$s) { [System.Net.WebUtility]::HtmlEncode($s) }
+$sharedir = Join-Path $root 'share'
+if (-not (Test-Path $sharedir)) { New-Item -ItemType Directory $sharedir | Out-Null }
+Get-ChildItem $sharedir -Filter *.html | Remove-Item
+foreach ($c in $all) {
+  $slug = To-Slug $c.title
+  $target = "$($SITE)#/read/$($c.id)"
+  $ttl = HtmlEsc $c.title
+  $where = if ($c.isEpilogue) { "Book $($c.book), Epilogue" } else { "Book $($c.book), $($c.label)" }
+  $desc = $c.teaser
+  if ($desc.Length -gt 240) { $desc = $desc.Substring(0, 237).TrimEnd() + '...' }
+  $desc = HtmlEsc $desc
+  $img = if ($c.cover) { "`n<meta property=`"og:image`" content=`"$($SITE)$($c.cover)`">`n<meta name=`"twitter:card`" content=`"summary_large_image`">`n<meta name=`"twitter:image`" content=`"$($SITE)$($c.cover)`">" } else { '' }
+  $html = @"
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>$ttl $DOT The Fifth Crusade</title>
+<meta name="theme-color" content="#7a1e1e">
+<meta property="og:site_name" content="The Fifth Crusade $DOT $(HtmlEsc $where)">
+<meta property="og:type" content="article">
+<meta property="og:title" content="$ttl">
+<meta property="og:description" content="$desc">
+<meta property="og:url" content="$($SITE)share/$slug.html">$img
+<link rel="canonical" href="$target">
+<meta http-equiv="refresh" content="0; url=$target">
+<script>location.replace("$target")</script>
+</head>
+<body><p><a href="$target">$ttl</a></p></body>
+</html>
+"@
+  [System.IO.File]::WriteAllText((Join-Path $sharedir "$slug.html"), $html, $utf8)
+}
+
 $mapsum = (($maps | ForEach-Object { '{0}={1}' -f $_.id, @($_.places).Count }) -join ', ')
 if ($mapsum -eq '') { $mapsum = 'none' }
 Write-Host ("Built data.js: {0} chapters ({1}), {2} secrets, {3} journal days, {4} maps ({5})" -f $all.Count, (($all | Group-Object book | ForEach-Object { '{0}={1}' -f $_.Name, $_.Count }) -join ', '), $secrets.Count, $journal.Count, @($maps).Count, $mapsum)

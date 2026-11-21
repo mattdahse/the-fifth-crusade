@@ -3226,6 +3226,8 @@ The **Sanctum** was quiet now. **Jerribeth** was still out there somewhere, woun
 
 <!-- inworld: 27 Neth 4713 to 28 Neth 4713 -->
 
+<!-- cover: images/which-was-the-point.webp -->
+
 <!-- fathom: call=910341110 recording=205585562 -->
 
 *November 20, 2026 session — the Ivory Sanctum, the Bell of Mercy, and home to Drezen, the 27th of Neth, 4713 AR*
