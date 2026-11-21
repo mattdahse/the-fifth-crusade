@@ -3220,7 +3220,7 @@ The **Sanctum** was quiet now. **Jerribeth** was still out there somewhere, woun
 
 *— Sessions of October 23rd and November 6th, 2026 —*
 
-## **What the Worm Left**
+## **Room to Breathe**
 
 <!-- date: November 20, 2026 -->
 
@@ -3352,7 +3352,7 @@ It was a ***Heroes' Feast***. **Arueshalae** owned exactly one chair and nothing
 
 ![Which was the point.](images/which-was-the-point.webp)
 
-### **Breathing Room**
+### **What Came Next**
 
 For the first time since the cliff, nobody had to be on guard. So they talked about what came next.
 
@@ -3391,6 +3391,8 @@ They stood in rows across the parade ground, canvas pitched edge to edge whereve
 Mixed in among them were the other kind. These were young, some of them barely more than children, sworn to the crusade with their heads full of ballads. They had come to be paladins, as **Harlock** had been made one, and they expected to be fighting demons by the end of the month.
 
 **Elara** had turned none of them away. She could not bring herself to do it, and she did not think it was her place. Food was running short, so were cots and blankets, and there were nowhere near enough instructors. She had held on as long as she could, waiting for him to come home and tell her what the order was going to be.
+
+![Nowhere near enough.](images/nowhere-near-enough.webp)
 
 **Harlock** stood at the gate for a long while and looked out over the tents.
 
